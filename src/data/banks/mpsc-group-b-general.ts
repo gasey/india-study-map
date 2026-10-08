@@ -8278,21 +8278,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Which of the following indicators are used in the Statistical Handbook of Mizoram to assess the fiscal health of the state? I.Gross Fiscal Deficit as a percentage of GSDP II.Outstanding Debt to GSDP ratio III.Revenue Surplus/Deficit IV.Current Account Deficit Select the correct answer using the code below:",
+    "question": "Which indicators are used in the Statistical Handbook of Mizoram to assess the State’s fiscal health? I. Gross Fiscal Deficit as a percentage of GSDP. II. Outstanding Debt-to-GSDP ratio. III. Revenue Surplus/Deficit. IV. Current Account Deficit. Select the correct answer.",
     "options": [
       "I and IV only",
       "II and III only",
       "I, II and III only",
       "I, II, III and IV"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Gross fiscal deficit, outstanding debt relative to GSDP, and revenue balance are State fiscal indicators. Current-account deficit is an external-sector measure, not a state-budget indicator. I, II and III are correct (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q32",
@@ -8303,21 +8304,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Which of the following are designated as ‘Protected Areas’ by Government of Mizoram? I.Murlen National Park II.Phawngpui National Park III.Dampa Tiger Reserve IV.Ngengpui Wildlife Sanctuary Select the correct answer using the code below:",
+    "question": "Which of the following are designated as Protected Areas by the Government of Mizoram? I. Murlen National Park. II. Phawngpui National Park. III. Dampa Tiger Reserve. IV. Ngengpui Wildlife Sanctuary. Select the correct answer.",
     "options": [
       "I and II only",
       "I, II and IV only",
       "II, III and IV only",
       "I, II, III and IV"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Murlen and Phawngpui are national parks, Dampa is a tiger reserve, and Ngengpui is a wildlife sanctuary. All four are protected areas (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q33",
@@ -8328,21 +8330,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Which of the following districts of Mizoram have Autonomous District Councils?",
+    "question": "Which districts of Mizoram have Autonomous District Councils?",
     "options": [
       "Mamit, Kolasib, Aizawl",
       "Lawngtlai, Siaha",
       "Aizawl, Saitual, Hnahthial",
       "Champhai, Serchhip, Khawzawl"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mizoram’s three Autonomous District Councils are in the Lai, Mara and Chakma areas, located in Lawngtlai and Siaha districts (B).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q34",
@@ -8360,17 +8363,17 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Cash Reserve Ratio",
       "Priority Sector Target"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Credit–Deposit Ratio compares credit extended by banks with deposits mobilised and is commonly used to assess local credit flow (A).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=6",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerConfidence": "high",
+    "answerSource": "derived",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q35",
@@ -8388,17 +8391,17 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Services",
       "Mining"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The services sector contributes the largest share to Mizoram’s GSDP (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=6",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerConfidence": "high",
+    "answerSource": "derived",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q36",
@@ -8409,24 +8412,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "With reference to the geography of Mizoram, consider the following statements: I.Mizoram lies entirely in the Purvanchal Hill range II.The state has a higher north–south extension than east–west extension III.Most rivers of Mizoram drain into the Bay of Bengal Which of the statements given above are correct?",
+    "question": "With reference to Mizoram’s geography, consider these statements: I. Mizoram lies entirely in the Purvanchal Hill range. II. The State extends farther north–south than east–west. III. Most rivers of Mizoram drain into the Bay of Bengal. Which statements are correct?",
     "options": [
       "1 and 2 only",
       "2 and 3 only",
       "1 and 3 only",
       "1, 2 and 3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Mizoram is part of the Purvanchal hills, has a longer north–south than east–west extent, and most rivers drain southward through the Kolodyne/Karnaphuli systems toward the Bay of Bengal. All three statements are correct (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q37",
@@ -8437,7 +8438,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "With reference to health indicators in Mizoram, consider the following statements: I.Infant Mortality Rate in Mizoram is lower than the national average II.Health statistical data are drawn from the Civil Registration System III.Universal Immunisation Programme is implemented through Integrated Child Development Service (ICDS) Which of the statements given above are correct?",
+    "question": "With reference to health indicators in Mizoram, consider these statements: I. Infant Mortality Rate in Mizoram is lower than the national average. II. Health statistical data are drawn from the Civil Registration System. III. The Universal Immunisation Programme is implemented through the Integrated Child Development Service (ICDS). Which statements are correct?",
     "options": [
       "I and II only",
       "II and III only",
@@ -8445,13 +8446,13 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "I, II and III"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Mizoram has reported a lower IMR than the national average, but official IMR estimates are based on the Sample Registration System. ICDS functionaries support immunisation outreach, while UIP is a health programme. The broad wording does not make the offered combinations unambiguously correct, so the item is held out.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Held out: official IMR estimates use the Sample Registration System, while the statement broadly attributes health statistics to the Civil Registration System. UIP is delivered through the health system with ICDS coordination, making the wording and available combinations insufficiently precise for a unique answer."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q38",
@@ -8462,24 +8463,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "A train 130 metres long is travelling at a speed of 45 km/h. If it takes 30 seconds to completely cross a bridge, what is the length of the bridge?",
+    "question": "A train 130 metres long is travelling at 45 km/h. If it takes 30 seconds to completely cross a bridge, what is the bridge’s length?",
     "options": [
       "200 m",
       "245 m",
       "250 m",
       "255 m"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "At 45 km/h the train travels 12.5 m/s, so in 30 seconds it covers 375 m. This is train length plus bridge length; the bridge is 375−130=245 m (B).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q39",
@@ -8490,21 +8489,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "A shopkeeper sells his goods at a price that gives him a profit of 22.5% on the cost price. If his total sales during a week amounted to ₹ 392, what was his profit for that week?",
+    "question": "A shopkeeper sells goods at a price that gives a profit of 22.5% on cost price. If total sales during a week amount to ₹392, what is the profit for that week?",
     "options": [
-      "Rs. 18.20",
-      "Rs. 70",
-      "Rs. 72",
-      "Rs. 88.25"
+      "₹18.20",
+      "₹70",
+      "₹72",
+      "₹88.25"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The selling price is 122.5% of cost. Cost=₹392/1.225=₹320, so profit=₹392−₹320=₹72 (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q40",
@@ -8515,21 +8515,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "A bank offers 5% per annum compound interest, compounded half-yearly. A customer deposits ₹ 1,600 each on 1st January and 1st July of the same year. What is the total interest earned at the end of the year?",
+    "question": "A bank offers 5% annual compound interest, compounded half-yearly. A customer deposits ₹1,600 on 1 January and another ₹1,600 on 1 July. What is the total interest earned at the end of the year?",
     "options": [
-      "Rs. 121",
-      "Rs. 122",
-      "Rs. 123",
-      "Rs. 124"
+      "₹121",
+      "₹122",
+      "₹123",
+      "₹124"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The half-yearly rate is 2.5%. The January deposit earns ₹1,600[(1.025)²−1]=₹81; the July deposit earns ₹1,600×0.025=₹40. Total interest is ₹121 (A).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q41",

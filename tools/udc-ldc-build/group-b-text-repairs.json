@@ -1213,7 +1213,7 @@
       "sourceSha256": "59ae97a9f3f3dadcb9582215f9ec4387fffda3a6296d3658cc79589ee85ebdae",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–30, 54, 55, 67, 71 and 91 were checked against rendered pages 1–11. No verified official key is available for this March 2026 Inspector of Statistics paper; the separate Sub-Inspector of Statistics key is for a different sitting and is not used. Answers are independently derived; ambiguous or defective items remain unscored.",
+      "evidence": "Questions 1–40, 54, 55, 67, 71 and 91 were checked against rendered pages 1–11. No verified official key is available for this March 2026 Inspector of Statistics paper; the separate Sub-Inspector of Statistics key is for a different sitting and is not used. Answers are independently derived; ambiguous or defective items remain unscored.",
       "questions": {
         "1": {
           "n": 1,
@@ -1611,6 +1611,138 @@
           },
           "explanation": "Rare-earth elements include the lanthanides and are used in electronics, wind turbines and defence technologies. They are not generally found in abundant pure form; I, II and IV are correct (B)."
         },
+        "31": {
+          "n": 31,
+          "page": 5,
+          "part": null,
+          "q": "Which indicators are used in the Statistical Handbook of Mizoram to assess the State’s fiscal health? I. Gross Fiscal Deficit as a percentage of GSDP. II. Outstanding Debt-to-GSDP ratio. III. Revenue Surplus/Deficit. IV. Current Account Deficit. Select the correct answer.",
+          "opts": {
+            "a": "I and IV only",
+            "b": "II and III only",
+            "c": "I, II and III only",
+            "d": "I, II, III and IV"
+          },
+          "explanation": "Gross fiscal deficit, outstanding debt relative to GSDP, and revenue balance are State fiscal indicators. Current-account deficit is an external-sector measure, not a state-budget indicator. I, II and III are correct (C)."
+        },
+        "32": {
+          "n": 32,
+          "page": 6,
+          "part": null,
+          "q": "Which of the following are designated as Protected Areas by the Government of Mizoram? I. Murlen National Park. II. Phawngpui National Park. III. Dampa Tiger Reserve. IV. Ngengpui Wildlife Sanctuary. Select the correct answer.",
+          "opts": {
+            "a": "I and II only",
+            "b": "I, II and IV only",
+            "c": "II, III and IV only",
+            "d": "I, II, III and IV"
+          },
+          "explanation": "Murlen and Phawngpui are national parks, Dampa is a tiger reserve, and Ngengpui is a wildlife sanctuary. All four are protected areas (D)."
+        },
+        "33": {
+          "n": 33,
+          "page": 6,
+          "part": null,
+          "q": "Which districts of Mizoram have Autonomous District Councils?",
+          "opts": {
+            "a": "Mamit, Kolasib, Aizawl",
+            "b": "Lawngtlai, Siaha",
+            "c": "Aizawl, Saitual, Hnahthial",
+            "d": "Champhai, Serchhip, Khawzawl"
+          },
+          "explanation": "Mizoram’s three Autonomous District Councils are in the Lai, Mara and Chakma areas, located in Lawngtlai and Siaha districts (B)."
+        },
+        "34": {
+          "n": 34,
+          "page": 6,
+          "part": null,
+          "q": "Which banking indicator is used to assess credit flow in Mizoram?",
+          "opts": {
+            "a": "Credit–Deposit Ratio",
+            "b": "Repo Rate",
+            "c": "Cash Reserve Ratio",
+            "d": "Priority Sector Target"
+          },
+          "explanation": "The Credit–Deposit Ratio compares credit extended by banks with deposits mobilised and is commonly used to assess local credit flow (A)."
+        },
+        "35": {
+          "n": 35,
+          "page": 6,
+          "part": null,
+          "q": "Which sector contributes the largest share to Mizoram’s Gross State Domestic Product?",
+          "opts": {
+            "a": "Agriculture",
+            "b": "Industry",
+            "c": "Services",
+            "d": "Mining"
+          },
+          "explanation": "The services sector contributes the largest share to Mizoram’s GSDP (C)."
+        },
+        "36": {
+          "n": 36,
+          "page": 6,
+          "part": null,
+          "q": "With reference to Mizoram’s geography, consider these statements: I. Mizoram lies entirely in the Purvanchal Hill range. II. The State extends farther north–south than east–west. III. Most rivers of Mizoram drain into the Bay of Bengal. Which statements are correct?",
+          "opts": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+          "explanation": "Mizoram is part of the Purvanchal hills, has a longer north–south than east–west extent, and most rivers drain southward through the Kolodyne/Karnaphuli systems toward the Bay of Bengal. All three statements are correct (D)."
+        },
+        "37": {
+          "n": 37,
+          "page": 6,
+          "part": null,
+          "q": "With reference to health indicators in Mizoram, consider these statements: I. Infant Mortality Rate in Mizoram is lower than the national average. II. Health statistical data are drawn from the Civil Registration System. III. The Universal Immunisation Programme is implemented through the Integrated Child Development Service (ICDS). Which statements are correct?",
+          "opts": {
+            "a": "I and II only",
+            "b": "II and III only",
+            "c": "I and III only",
+            "d": "I, II and III"
+          },
+          "unscored": true,
+          "reviewNote": "Held out: official IMR estimates use the Sample Registration System, while the statement broadly attributes health statistics to the Civil Registration System. UIP is delivered through the health system with ICDS coordination, making the wording and available combinations insufficiently precise for a unique answer.",
+          "explanation": "Mizoram has reported a lower IMR than the national average, but official IMR estimates are based on the Sample Registration System. ICDS functionaries support immunisation outreach, while UIP is a health programme. The broad wording does not make the offered combinations unambiguously correct, so the item is held out."
+        },
+        "38": {
+          "n": 38,
+          "page": 6,
+          "part": null,
+          "q": "A train 130 metres long is travelling at 45 km/h. If it takes 30 seconds to completely cross a bridge, what is the bridge’s length?",
+          "opts": {
+            "a": "200 m",
+            "b": "245 m",
+            "c": "250 m",
+            "d": "255 m"
+          },
+          "explanation": "At 45 km/h the train travels 12.5 m/s, so in 30 seconds it covers 375 m. This is train length plus bridge length; the bridge is 375−130=245 m (B)."
+        },
+        "39": {
+          "n": 39,
+          "page": 6,
+          "part": null,
+          "q": "A shopkeeper sells goods at a price that gives a profit of 22.5% on cost price. If total sales during a week amount to ₹392, what is the profit for that week?",
+          "opts": {
+            "a": "₹18.20",
+            "b": "₹70",
+            "c": "₹72",
+            "d": "₹88.25"
+          },
+          "explanation": "The selling price is 122.5% of cost. Cost=₹392/1.225=₹320, so profit=₹392−₹320=₹72 (C)."
+        },
+        "40": {
+          "n": 40,
+          "page": 6,
+          "part": null,
+          "q": "A bank offers 5% annual compound interest, compounded half-yearly. A customer deposits ₹1,600 on 1 January and another ₹1,600 on 1 July. What is the total interest earned at the end of the year?",
+          "opts": {
+            "a": "₹121",
+            "b": "₹122",
+            "c": "₹123",
+            "d": "₹124"
+          },
+          "explanation": "The half-yearly rate is 2.5%. The January deposit earns ₹1,600[(1.025)²−1]=₹81; the July deposit earns ₹1,600×0.025=₹40. Total interest is ₹121 (A)."
+        },
         "54": {
           "n": 54,
           "page": 8,
@@ -1797,6 +1929,42 @@
         "30": {
           "answerIndex": 1,
           "explanation": "Rare-earth elements include the lanthanides and are used in electronics, wind turbines and defence technologies. They are not generally found in abundant pure form; I, II and IV are correct (B)."
+        },
+        "31": {
+          "answerIndex": 2,
+          "explanation": "Gross fiscal deficit, outstanding debt relative to GSDP, and revenue balance are State fiscal indicators. Current-account deficit is an external-sector measure, not a state-budget indicator. I, II and III are correct (C)."
+        },
+        "32": {
+          "answerIndex": 3,
+          "explanation": "Murlen and Phawngpui are national parks, Dampa is a tiger reserve, and Ngengpui is a wildlife sanctuary. All four are protected areas (D)."
+        },
+        "33": {
+          "answerIndex": 1,
+          "explanation": "Mizoram’s three Autonomous District Councils are in the Lai, Mara and Chakma areas, located in Lawngtlai and Siaha districts (B)."
+        },
+        "34": {
+          "answerIndex": 0,
+          "explanation": "The Credit–Deposit Ratio compares credit extended by banks with deposits mobilised and is commonly used to assess local credit flow (A)."
+        },
+        "35": {
+          "answerIndex": 2,
+          "explanation": "The services sector contributes the largest share to Mizoram’s GSDP (C)."
+        },
+        "36": {
+          "answerIndex": 3,
+          "explanation": "Mizoram is part of the Purvanchal hills, has a longer north–south than east–west extent, and most rivers drain southward through the Kolodyne/Karnaphuli systems toward the Bay of Bengal. All three statements are correct (D)."
+        },
+        "38": {
+          "answerIndex": 1,
+          "explanation": "At 45 km/h the train travels 12.5 m/s, so in 30 seconds it covers 375 m. This is train length plus bridge length; the bridge is 375−130=245 m (B)."
+        },
+        "39": {
+          "answerIndex": 2,
+          "explanation": "The selling price is 122.5% of cost. Cost=₹392/1.225=₹320, so profit=₹392−₹320=₹72 (C)."
+        },
+        "40": {
+          "answerIndex": 0,
+          "explanation": "The half-yearly rate is 2.5%. The January deposit earns ₹1,600[(1.025)²−1]=₹81; the July deposit earns ₹1,600×0.025=₹40. Total interest is ₹121 (A)."
         }
       }
     },

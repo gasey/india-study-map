@@ -54481,14 +54481,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "5",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Comparing the three orientations of the same die, the face opposite 6 is 3.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q85",
@@ -54499,24 +54500,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Which one will replace the question mark? F I O A J K E M ?",
+    "question": "Which letter replaces the question mark in the grid: F I O / A J K / E M ?",
     "options": [
       "P",
       "R",
       "S",
       "T"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The alphabetical gap from the first to the third letter in each row is 9 (F–O), then 10 (A–K), so it is 11 in the last row: E to P.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q86",
@@ -54534,14 +54533,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "9",
       "8"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Both examples code a word as its number of letters minus one. SUCCESSFUL has 10 letters, so its code is 9.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q87",
@@ -54559,14 +54559,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "PT",
       "NM"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "LO, EV and PT are in ascending alphabetical order; NM is descending, making it the odd pair.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q88",
@@ -54584,14 +54585,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "2032",
       "2034"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "2023 is a common year beginning on Sunday. 2034 is the next listed common year that also begins on Sunday.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q89",
@@ -54609,17 +54611,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Ignorance",
       "Education"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A court administers justice; a school provides education.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=10",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 89-91) : There is certain relation between two given words on one side"
   },
   {
@@ -54638,17 +54638,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Jug",
       "Bottle"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A wire carries electricity; a pipe carries water.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=10",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 89-91) : There is certain relation between two given words on one side"
   },
   {
@@ -54696,14 +54694,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "50",
       "51"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The student is counted in both rankings, so the total is 21+30−1=50.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q93",
@@ -54714,21 +54713,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Who is sitting in the middle?",
+    "question": "Seven boys A, B, C, D, E, F and G stand in a line. G is between A and E; one boy stands between F and A; two boys stand between E and C; D is immediately to the right of F; and three boys stand between C and B. Who is in the middle?",
     "options": [
       "D",
       "A",
       "E",
       "G"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The constraints give the order B–E–G–A–C–F–D, so A is in the middle.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 93-94) : Seven boys A, B, C, D, E, F and G are standing in a line. G is"
   },
   {
@@ -54740,21 +54740,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Find the odd one out in the given pair",
+    "question": "Find the odd one out among these letter pairs.",
     "options": [
       "CF",
       "BG",
       "CD",
       "EA"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "CF, BG and CD run forward alphabetically; EA is the only pair in reverse order.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 93-94) : Seven boys A, B, C, D, E, F and G are standing in a line. G is"
   },
   {
@@ -54766,21 +54767,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Your colleague is not performing his duties upto the mark. You will",
+    "question": "Your colleague is not performing their duties adequately. What should you do?",
     "options": [
       "Just do your part of the duties and enjoy your work",
       "Neglect the person and leave the place",
       "Report to the seniors",
       "Try and handle his customers to maintain the company’s status"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Among the listed choices, reporting the persistent performance issue to a supervisor is the appropriate workplace response.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q96",
@@ -54799,13 +54801,13 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Mother"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: “the granddaughter of my mother” could mean Sarah’s daughter or her sister’s daughter; the relationship to the husband differs, so the stem does not determine one answer.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=10",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q97",

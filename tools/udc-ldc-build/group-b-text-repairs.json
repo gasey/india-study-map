@@ -22123,6 +22123,307 @@
           "ambiguous": [],
           "q": "Find the odd one out among these currency names.",
           "multi": false
+        },
+        "84": {
+          "n": 84,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "3",
+            "b": "1",
+            "c": "5",
+            "d": "4"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Three positions of the same dice are given. Which of the following will be opposite to 6?",
+          "multi": false
+        },
+        "85": {
+          "n": 85,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "P",
+            "b": "R",
+            "c": "S",
+            "d": "T"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which letter replaces the question mark in the grid: F I O / A J K / E M ?",
+          "multi": false
+        },
+        "86": {
+          "n": 86,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "11",
+            "b": "10",
+            "c": "9",
+            "d": "8"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "If ‘MIZORAM’ is coded as 6 and ‘COMPETITIVE’ as 10, what will be the code for ‘SUCCESSFUL’?",
+          "multi": false
+        },
+        "87": {
+          "n": 87,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "LO",
+            "b": "EV",
+            "c": "PT",
+            "d": "NM"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Find the odd one out.",
+          "multi": false
+        },
+        "88": {
+          "n": 88,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "2028",
+            "b": "2030",
+            "c": "2032",
+            "d": "2034"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which year will have the same calendar as 2023?",
+          "multi": false
+        },
+        "89": {
+          "n": 89,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Direction (Question Nos. 89-91) : There is certain relation between two given words on one side",
+          "opts": {
+            "a": "Teacher",
+            "b": "Student",
+            "c": "Ignorance",
+            "d": "Education"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Court : Justice : : School : ?",
+          "multi": false
+        },
+        "90": {
+          "n": 90,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Direction (Question Nos. 89-91) : There is certain relation between two given words on one side",
+          "opts": {
+            "a": "Pipe",
+            "b": "River",
+            "c": "Jug",
+            "d": "Bottle"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Electricity : Wire : : Water : ?",
+          "multi": false
+        },
+        "91": {
+          "n": 91,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Direction (Question Nos. 89-91) : There is certain relation between two given words on one side",
+          "opts": {
+            "a": "Angry",
+            "b": "Unhappy",
+            "c": "Unreasonable",
+            "d": "Irritated"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Coherent : Consistent : : Irate : ?",
+          "multi": false
+        },
+        "92": {
+          "n": 92,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "48",
+            "b": "49",
+            "c": "50",
+            "d": "51"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "In a class, John’s rank is 21st from the top and 30th from the bottom. What is the total number of students in that class",
+          "multi": false
+        },
+        "93": {
+          "n": 93,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Direction (Question Nos. 93-94) : Seven boys A, B, C, D, E, F and G are standing in a line. G is",
+          "opts": {
+            "a": "D",
+            "b": "A",
+            "c": "E",
+            "d": "G"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Seven boys A, B, C, D, E, F and G stand in a line. G is between A and E; one boy stands between F and A; two boys stand between E and C; D is immediately to the right of F; and three boys stand between C and B. Who is in the middle?",
+          "multi": false
+        },
+        "94": {
+          "n": 94,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Direction (Question Nos. 93-94) : Seven boys A, B, C, D, E, F and G are standing in a line. G is",
+          "opts": {
+            "a": "CF",
+            "b": "BG",
+            "c": "CD",
+            "d": "EA"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Find the odd one out among these letter pairs.",
+          "multi": false
+        },
+        "95": {
+          "n": 95,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Just do your part of the duties and enjoy your work",
+            "b": "Neglect the person and leave the place",
+            "c": "Report to the seniors",
+            "d": "Try and handle his customers to maintain the company’s status"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Your colleague is not performing their duties adequately. What should you do?",
+          "multi": false
+        },
+        "96": {
+          "n": 96,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Grandmother",
+            "b": "Sister-in-law",
+            "c": "Mother-in-law",
+            "d": "Mother"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Sarah said to Amy, “This man is the husband of the granddaughter of my mother”. How is Sarah related to this man?",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held out: “the granddaughter of my mother” could mean Sarah’s daughter or her sister’s daughter; the relationship to the husband differs, so the stem does not determine one answer."
         }
       },
       "derivedAnswers": {
@@ -22441,6 +22742,50 @@
         "83": {
           "answerIndex": 2,
           "explanation": "Peso, drachma and baht are currencies; “shora” is not a recognized currency name, so it is the odd one out."
+        },
+        "84": {
+          "answerIndex": 0,
+          "explanation": "Comparing the three orientations of the same die, the face opposite 6 is 3."
+        },
+        "85": {
+          "answerIndex": 0,
+          "explanation": "The alphabetical gap from the first to the third letter in each row is 9 (F–O), then 10 (A–K), so it is 11 in the last row: E to P."
+        },
+        "86": {
+          "answerIndex": 2,
+          "explanation": "Both examples code a word as its number of letters minus one. SUCCESSFUL has 10 letters, so its code is 9."
+        },
+        "87": {
+          "answerIndex": 3,
+          "explanation": "LO, EV and PT are in ascending alphabetical order; NM is descending, making it the odd pair."
+        },
+        "88": {
+          "answerIndex": 3,
+          "explanation": "2023 is a common year beginning on Sunday. 2034 is the next listed common year that also begins on Sunday."
+        },
+        "89": {
+          "answerIndex": 3,
+          "explanation": "A court administers justice; a school provides education."
+        },
+        "90": {
+          "answerIndex": 0,
+          "explanation": "A wire carries electricity; a pipe carries water."
+        },
+        "92": {
+          "answerIndex": 2,
+          "explanation": "The student is counted in both rankings, so the total is 21+30−1=50."
+        },
+        "93": {
+          "answerIndex": 1,
+          "explanation": "The constraints give the order B–E–G–A–C–F–D, so A is in the middle."
+        },
+        "94": {
+          "answerIndex": 3,
+          "explanation": "CF, BG and CD run forward alphabetically; EA is the only pair in reverse order."
+        },
+        "95": {
+          "answerIndex": 2,
+          "explanation": "Among the listed choices, reporting the persistent performance issue to a supervisor is the appropriate workplace response."
         }
       },
       "sourceSha256": "0bb9cacc2b5f753ab481e2f68f33adc2909c48a15f11c8073c89fd900cc63bcf",
@@ -22450,7 +22795,7 @@
       "nonMcq": [
         8
       ],
-      "evidence": "Sub-Inspector under Food, Civil Supplies & Consumer Affairs / Receptionist under Health & Family Welfare, Paper-II, May 2025, Booklet A. The cover specifies 100 two-mark questions, two hours and no negative marking. The extracted Q1–8 had been merged into one corrupt record; Q1–8 were reconstructed from printed page 2, and Q9–24 were compared against printed pages 2–3. All stems, numbering and four-option sets in this range were checked. Twenty-four questions have independently derived explanations. The remaining questions are still pending scan review; this is a partial repair, not a paper-wide verification. Questions 25–47 were checked against printed pages 4–5. Twenty-one more answers have independently derived explanations. Q30 is held because options A and C name the same scheme; Q42 is held because “movement due to light” does not distinguish phototropism from phototaxis. Q34 was checked against the 2025 LUF award announcement; Q43–47 were cross-checked against Mizo cultural and historical sources. Minor spelling and grammar repairs improve readability without changing option meaning. Questions 48–71 were checked against printed pages 6–7. Twenty-two received derived explanations; Q51 is held because its printed sum-of-squares premise is false, and Q68 because the group may include people who eat neither food. The questions and options were normalized for legibility; Q55’s truncated option and OCR-damaged math notation in Q56, Q59, Q64 and Q70 were restored from the scan. Questions 72–83 were checked against printed pages 8–9. All twelve have derived explanations; Q78–80 were recomputed from the displayed bar values, and stems were clarified to refer to the graph."
+      "evidence": "Sub-Inspector under Food, Civil Supplies & Consumer Affairs / Receptionist under Health & Family Welfare, Paper-II, May 2025, Booklet A. The cover specifies 100 two-mark questions, two hours and no negative marking. The extracted Q1–8 had been merged into one corrupt record; Q1–8 were reconstructed from printed page 2, and Q9–24 were compared against printed pages 2–3. All stems, numbering and four-option sets in this range were checked. Twenty-four questions have independently derived explanations. The remaining questions are still pending scan review; this is a partial repair, not a paper-wide verification. Questions 25–47 were checked against printed pages 4–5. Twenty-one more answers have independently derived explanations. Q30 is held because options A and C name the same scheme; Q42 is held because “movement due to light” does not distinguish phototropism from phototaxis. Q34 was checked against the 2025 LUF award announcement; Q43–47 were cross-checked against Mizo cultural and historical sources. Minor spelling and grammar repairs improve readability without changing option meaning. Questions 48–71 were checked against printed pages 6–7. Twenty-two received derived explanations; Q51 is held because its printed sum-of-squares premise is false, and Q68 because the group may include people who eat neither food. The questions and options were normalized for legibility; Q55’s truncated option and OCR-damaged math notation in Q56, Q59, Q64 and Q70 were restored from the scan. Questions 72–83 were checked against printed pages 8–9. All twelve have derived explanations; Q78–80 were recomputed from the displayed bar values, and stems were clarified to refer to the graph. Questions 84–96 were checked against printed pages 9–10. Eleven have derived explanations. The dice opposite-face relation in Q84 was checked across all three printed orientations; Q85 follows successive first-to-third letter gaps of 9, 10 and 11. Q91 is held because “angry” and “irritated” both fit “irate”; Q96 is held because “my mother’s granddaughter” does not identify whether the woman is Sarah’s daughter or niece."
     }
   }
 }

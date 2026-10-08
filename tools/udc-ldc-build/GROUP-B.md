@@ -7,8 +7,8 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 8 October 2026
 
 49 general papers, 3,473 items: 3,402 MCQs and 71 written prompts.
-2,317 questions are ready for practice, including 1,614 official answers and
-703 independently derived answers. 1,099 items still need source review.
+2,328 questions are ready for practice, including 1,614 official answers and
+714 independently derived answers. 1,088 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -57,7 +57,7 @@ Group B technical Health & Family Welfare General Studies Paper-II, January 2026
 
 Group B technical Health & Family Welfare General English Paper-I, January 2026 is now fully transcribed and checked against all seven printed pages: 50 MCQs and all five conventional prompts, including both passages and their subquestions. Forty-eight MCQs have independent explanations; Q22 has no valid correction option and Q25 permits overlapping corrections, so both remain unscored. The five written prompts include model guidance. The paper specifies three hours and 100 marks (50 MCQ, 50 conventional) and stays out of full-paper Exam mode because no verified final key is available.
 
-Sub-Inspector FCS&CA / Receptionist H&FW Paper-II, May 2025 Booklet A had its first eight questions merged into one OCR row. Q1–8 were reconstructed from printed page 2, Q9–24 checked against pages 2–3, and Q25–47 checked against pages 4–5. Sixty-seven questions have derived explanations. Q30 is held because two options duplicate Jan Dhan Yojana; Q42 because its light-response stem is ambiguous; Q51 because the printed sum-of-squares premise is false; and Q68 because the group may include people who eat neither beef nor pork. Q38’s option wording was minimally corrected for grammar. Q48–71 have been checked against pages 6–7, including restoration of the printed math notation. Q72–83 have been checked against pages 8–9; Q78–80 were calculated from the chart values. Q84–100 remain awaiting scan review.
+Sub-Inspector FCS&CA / Receptionist H&FW Paper-II, May 2025 Booklet A had its first eight questions merged into one OCR row. Q1–8 were reconstructed from printed page 2, Q9–24 checked against pages 2–3, and Q25–47 checked against pages 4–5. Sixty-seven questions have derived explanations. Q30 is held because two options duplicate Jan Dhan Yojana; Q42 because its light-response stem is ambiguous; Q51 because the printed sum-of-squares premise is false; and Q68 because the group may include people who eat neither beef nor pork. Q38’s option wording was minimally corrected for grammar. Q48–71 have been checked against pages 6–7, including restoration of the printed math notation. Q72–83 have been checked against pages 8–9; Q78–80 were calculated from the chart values. Q84–96 have been checked against pages 9–10; Q91 and Q96 are held because their wording permits multiple interpretations. Q97–100 remain awaiting scan review.
 
 The official MPSC final keys for the March 2025 Stenographer Grade-III General
 Knowledge and General English papers are now attached. All 100 General

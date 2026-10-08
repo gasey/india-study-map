@@ -8554,6 +8554,211 @@
           "explanation": "Possible answers: (a) How long have you known him? (b) The sun was shining, so we went for a walk. (c) After he had finished his work, he went home. (d) You cannot leave this place without paying. (e) She said that I could not meet the principal. (f) Portia exclaimed, “Alas! I am ruined!” (g) If you do not waste, you will not want. (h) I know her nature no better than you do. (i) His prompt reply will enable us to take timely action. (j) We shall never forget these happy days."
         }
       }
+    },
+    "steno2-2015-english": {
+      "sourceSha256": "0916398a402f4470df6f64c8887e3467a20efba7b4bba739748311538f240576",
+      "expectedMcq": 50,
+      "partialReview": true,
+      "reviewedOn": "2026-10-08",
+      "evidence": "Stenographer Grade-II (Contract) General English 2015 page 1 and the upper half of page 2 were checked against the scan. Q1–11 MCQ stems and options were transcribed and independently keyed. The cover also contains a distinct 20-mark Section A essay, restored as a written prompt with response guidance; the paper remains out of full-paper Exam mode until the remaining questions and marks are verified.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "part": null,
+          "q": "Choose the correct meaning of “nip in the bud.”",
+          "opts": {
+            "a": "To train at a young age",
+            "b": "To hurt someone badly",
+            "c": "To deceive a friend",
+            "d": "To destroy at the very beginning"
+          },
+          "explanation": "“Nip in the bud” means stop or destroy something at an early stage (D)."
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "part": null,
+          "q": "Choose the correct meaning of “ploughing the sand.”",
+          "opts": {
+            "a": "Hard work",
+            "b": "Useless labour",
+            "c": "Great achievement",
+            "d": "Planting seeds"
+          },
+          "explanation": "“Ploughing the sand” describes futile or useless labour (B)."
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "part": null,
+          "q": "In “His most trusted friend proved to be a snake in the grass,” the phrase means:",
+          "opts": {
+            "a": "A hidden enemy",
+            "b": "Cowardly and brutal",
+            "c": "An unreliable and deceitful person",
+            "d": "Low and mean"
+          },
+          "explanation": "A “snake in the grass” is a treacherous, deceitful person who appears trustworthy (C)."
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "part": null,
+          "q": "Choose the correct meaning of “chip of the old block.”",
+          "opts": {
+            "a": "A piece of sculpture",
+            "b": "Building materials",
+            "c": "A superb work of art",
+            "d": "A son who resembles his father"
+          },
+          "explanation": "“A chip off the old block” refers to a child resembling a parent, especially in character (D)."
+        },
+        "5": {
+          "n": 5,
+          "page": 2,
+          "part": null,
+          "q": "She exhibited remarkable sang-froid during the crisis. “Sang-froid” means:",
+          "opts": {
+            "a": "Temper",
+            "b": "Irritation",
+            "c": "Composure",
+            "d": "Anger"
+          },
+          "explanation": "“Sang-froid” means calmness and composure, especially under pressure (C)."
+        },
+        "6": {
+          "n": 6,
+          "page": 2,
+          "part": null,
+          "q": "Choose the meaning of “nine days’ wonder.”",
+          "opts": {
+            "a": "A place of divinity",
+            "b": "Being awestruck",
+            "c": "A short-lived sensation or glory",
+            "d": "A fairy tale"
+          },
+          "explanation": "A “nine days’ wonder” is something that attracts attention briefly and is soon forgotten (C)."
+        },
+        "7": {
+          "n": 7,
+          "page": 2,
+          "part": null,
+          "q": "Choose the meaning of “to kiss the dust.”",
+          "opts": {
+            "a": "To be humiliated or defeated",
+            "b": "To humble oneself",
+            "c": "To surrender",
+            "d": "To worship someone"
+          },
+          "explanation": "“Kiss the dust” means suffer defeat or humiliation (A)."
+        },
+        "8": {
+          "n": 8,
+          "page": 2,
+          "part": null,
+          "q": "Choose the meaning of “loaves and fishes.”",
+          "opts": {
+            "a": "A square meal",
+            "b": "Bread and butter",
+            "c": "Paupers and beggars",
+            "d": "Worldly benefits"
+          },
+          "explanation": "“Loaves and fishes” refers to material or worldly benefits (D)."
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "part": null,
+          "q": "According to the passage, why is the price of white cement rising?",
+          "opts": {
+            "a": "The Government is controlling the quota",
+            "b": "White cement is being exported",
+            "c": "It is used extensively in construction",
+            "d": "None of the above"
+          },
+          "explanation": "The passage attributes the increase to artificial scarcity created by manufacturers, rather than any of the listed causes (D)."
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "part": null,
+          "q": "Which statement is false according to the passage?",
+          "opts": {
+            "a": "White cement is a controlled product",
+            "b": "The price rise is not caused by a production problem",
+            "c": "The price rise would upset the cement-tile market",
+            "d": "Most cement-paint manufacturers are small-scale"
+          },
+          "explanation": "The passage says cement was decontrolled, so saying white cement is a controlled product is false (A)."
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "part": null,
+          "q": "What crisis are cement-tile manufacturers facing, according to the passage?",
+          "opts": {
+            "a": "White cement is priced very low",
+            "b": "White cement prices are very high",
+            "c": "White cement is being exported",
+            "d": "White cement is poor quality"
+          },
+          "explanation": "The passage says manufacturers are facing a crisis because white-cement prices rose significantly (B)."
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 3,
+          "explanation": "“Nip in the bud” means stop or destroy something at an early stage (D)."
+        },
+        "2": {
+          "answerIndex": 1,
+          "explanation": "“Ploughing the sand” describes futile or useless labour (B)."
+        },
+        "3": {
+          "answerIndex": 2,
+          "explanation": "A “snake in the grass” is a treacherous, deceitful person who appears trustworthy (C)."
+        },
+        "4": {
+          "answerIndex": 3,
+          "explanation": "“A chip off the old block” refers to a child resembling a parent, especially in character (D)."
+        },
+        "5": {
+          "answerIndex": 2,
+          "explanation": "“Sang-froid” means calmness and composure, especially under pressure (C)."
+        },
+        "6": {
+          "answerIndex": 2,
+          "explanation": "A “nine days’ wonder” is something that attracts attention briefly and is soon forgotten (C)."
+        },
+        "7": {
+          "answerIndex": 0,
+          "explanation": "“Kiss the dust” means suffer defeat or humiliation (A)."
+        },
+        "8": {
+          "answerIndex": 3,
+          "explanation": "“Loaves and fishes” refers to material or worldly benefits (D)."
+        },
+        "9": {
+          "answerIndex": 3,
+          "explanation": "The passage attributes the increase to artificial scarcity created by manufacturers, rather than any of the listed causes (D)."
+        },
+        "10": {
+          "answerIndex": 0,
+          "explanation": "The passage says cement was decontrolled, so saying white cement is a controlled product is false (A)."
+        },
+        "11": {
+          "answerIndex": 1,
+          "explanation": "The passage says manufacturers are facing a crisis because white-cement prices rose significantly (B)."
+        }
+      },
+      "written": {
+        "1": {
+          "page": 1,
+          "q": "Section A (20 marks): Write an essay of no more than 300 words on any one topic: (a) Social media and its impact on society; (b) Role and significance of NGOs in Mizoram; (c) Crime against women in India.",
+          "explanation": "Choose one topic and stay within 300 words. State a clear central idea, develop it with relevant examples and organise the response into an introduction, connected body paragraphs and a conclusion. For (a), consider benefits, risks and responsible use; for (b), discuss community development, advocacy and accountability in Mizoram; for (c), discuss forms and causes of violence, its effects, prevention and access to justice without blaming victims."
+        }
+      }
     }
   }
 }

@@ -7,8 +7,8 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 8 October 2026
 
 49 general papers, 3,460 items: 3,339 MCQs and 121 written prompts.
-1,818 questions are ready for practice, including 1,614 official answers and
-204 independently derived answers. 1,591 items still need source review.
+1,829 questions are ready for practice, including 1,614 official answers and
+215 independently derived answers. 1,579 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -37,6 +37,11 @@ these are now restored as 14 descriptive prompts with sample answer guidance.
 Five of its six passage-based MCQs have supported derived keys; Q8 is held out
 because none of its choices states the passage’s claim accurately. The mixed
 150-mark paper remains excluded from full-paper Exam mode.
+
+Stenographer Grade-II (Contract) General English 2015 Q1–11 has been checked
+against printed pages 1–2 and independently keyed. The Section A essay prompt
+now includes response guidance; the paper remains out of full-paper Exam mode
+while the rest of its scan is reviewed.
 
 The official MPSC final keys for the March 2025 Stenographer Grade-III General
 Knowledge and General English papers are now attached. All 100 General

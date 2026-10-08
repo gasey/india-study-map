@@ -68,7 +68,8 @@
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 44
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk",

@@ -16112,7 +16112,7 @@
       "expectedMcq": 100,
       "partialReview": true,
       "reviewedOn": "2026-10-08",
-      "evidence": "Group B technical common examination under Health & Family Welfare, January 2026, Paper-II (General Studies). Q1–20 were checked against the printed cover and pages 1–2; all numbered stems, option wording and four-option sets were compared with the scan. The cover specifies 100 one-mark questions and two hours, with no negative-marking instruction. Nineteen answers have independently derived explanations. Q14 is held because “within India’s boundary” can refer to India’s claimed boundary (K2) or territory under Indian administration (Kangchenjunga), and the stem does not specify which. Questions 21–40 were checked against printed pages 2–4; stems, numbering and all options were verified. All twenty have independently derived explanations. Q24 is clarified to distinguish Presidential assent (15 June) from the Act coming into force (12 October).",
+      "evidence": "Group B technical common examination under Health & Family Welfare, January 2026, Paper-II (General Studies). Q1–20 were checked against the printed cover and pages 1–2; all numbered stems, option wording and four-option sets were compared with the scan. The cover specifies 100 one-mark questions and two hours, with no negative-marking instruction. Nineteen answers have independently derived explanations. Q14 is held because “within India’s boundary” can refer to India’s claimed boundary (K2) or territory under Indian administration (Kangchenjunga), and the stem does not specify which. Questions 21–40 were checked against printed pages 2–4; stems, numbering and all options were verified. All twenty have independently derived explanations. Q24 is clarified to distinguish Presidential assent (15 June) from the Act coming into force (12 October). Questions 41–60 were checked against printed pages 4–6; all stems and option sets were checked for completeness and legibility. All twenty have independently derived explanations. Q44’s expected season was checked against the Lai District Government’s festival description; Q52’s award was checked against the Urban Mobility India award record.",
       "questions": {
         "1": {
           "n": 1,
@@ -17036,6 +17036,466 @@
           "ambiguous": [],
           "q": "The human body’s largest organ is:",
           "multi": false
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Dynamic Nucleic Acid",
+            "b": "Dextrose Nucleic Acid",
+            "c": "Dual Nitrogen Acid",
+            "d": "Deoxyribonucleic Acid"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "DNA stands for:",
+          "multi": false
+        },
+        "42": {
+          "n": 42,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "A",
+            "b": "AB",
+            "c": "O negative",
+            "d": "O positive"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The blood group known as the ‘universal donor’ is:",
+          "multi": false
+        },
+        "43": {
+          "n": 43,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Carbon monoxide",
+            "b": "Nitrogen dioxide",
+            "c": "Nitrous oxide",
+            "d": "Sulphur dioxide"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which gas is known as ‘laughing gas’?",
+          "multi": false
+        },
+        "44": {
+          "n": 44,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "June–July",
+            "b": "February–March",
+            "c": "October–November",
+            "d": "December–January"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Hlukhla Kut, a traditional festival of the Lai people, is celebrated during:",
+          "multi": false
+        },
+        "45": {
+          "n": 45,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Tamdil Lake",
+            "b": "Serlui B Lake",
+            "c": "Palak Dil",
+            "d": "Lungleng Lake"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which lake in Mizoram is described as the ‘Lake of Mustard’?",
+          "multi": false
+        },
+        "46": {
+          "n": 46,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Chhawnghnawh",
+            "b": "Saphun",
+            "c": "Chheihlam",
+            "d": "Hnatlang"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which social value requires Mizo youth to help in community work without expecting payment?",
+          "multi": false
+        },
+        "47": {
+          "n": 47,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "15 August 1965",
+            "b": "28 February 1966",
+            "c": "1 January 1967",
+            "d": "5 October 1959"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The MNF uprising began on:",
+          "multi": false
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "The humble are powerless",
+            "b": "The great rely on the support of the humble",
+            "c": "Powerful people matter more than weak people",
+            "d": "Big achievements come easily"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The saying ‘Lungpui pawh lungte in a kamki loh chuan a awm theilo’ implies that:",
+          "multi": false
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Chawngfianga",
+            "b": "Mangkhaia",
+            "c": "Sibuta",
+            "d": "Vanhnuaithanga"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Lianchhiari was the daughter of:",
+          "multi": false
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "1986",
+            "b": "1990",
+            "c": "1994",
+            "d": "2000"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Dampa Tiger Reserve was declared a tiger reserve in:",
+          "multi": false
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "2020",
+            "b": "2022",
+            "c": "2024",
+            "d": "2025"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "In which year was the first Hnahsin Kut celebrated?",
+          "multi": false
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "16th Urban Mobility India (UMI) Conference",
+            "b": "17th Urban Mobility India (UMI) Conference",
+            "c": "18th Urban Mobility India (UMI) Conference",
+            "d": "19th Urban Mobility India (UMI) Conference"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Mizoram has been honoured with a special award for its outstanding performance in traffic management during",
+          "multi": false
+        },
+        "53": {
+          "n": 53,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Justice Ranjana Prakash Desai",
+            "b": "Prof. Pulak Ghosh",
+            "c": "Shri Pankaj Jain",
+            "d": "Justice Ashok Kumar Mathur"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who is the chairperson of 8th Pay Commission in India?",
+          "multi": false
+        },
+        "54": {
+          "n": 54,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Promoting functional literacy",
+            "b": "Promoting digital literacy",
+            "c": "Promoting three language formula",
+            "d": "Promoting literacy in the digital era"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What is the theme of International Literacy Day 2025?",
+          "multi": false
+        },
+        "55": {
+          "n": 55,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Rajasthan",
+            "b": "Haryana",
+            "c": "Goa",
+            "d": "Punjab"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which state hosted the Khelo India University Games 2025?",
+          "multi": false
+        },
+        "56": {
+          "n": 56,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "10th November, 2025",
+            "b": "11th November, 2025",
+            "c": "12th November, 2025",
+            "d": "13th November, 2025"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "When did the car explosion near the Red Fort which killed at least 15 people occur?",
+          "multi": false
+        },
+        "57": {
+          "n": 57,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Justice TS Thakur",
+            "b": "Justice Sharad Arvind Bobde",
+            "c": "Justice Surya Kant",
+            "d": "Justice Ranjan Gogoi"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who is the new Chief Justice of India?",
+          "multi": false
+        },
+        "58": {
+          "n": 58,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Gold",
+            "b": "Copper",
+            "c": "Bronze",
+            "d": "Iron"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which metal is not found in the Harappan civilization?",
+          "multi": false
+        },
+        "59": {
+          "n": 59,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Dasharatha",
+            "b": "Ashoka",
+            "c": "Bindusara",
+            "d": "Samprati"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who succeeded Chandragupta Maurya?",
+          "multi": false
+        },
+        "60": {
+          "n": 60,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Pancha tantra",
+            "b": "Yoga sutra",
+            "c": "Brahma sutra",
+            "d": "Ayurveda"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Patanjali is known for the compilation of which book?",
+          "multi": false
         }
       },
       "derivedAnswers": {
@@ -17194,6 +17654,86 @@
         "40": {
           "answerIndex": 1,
           "explanation": "The skin is the human body’s largest organ by surface area and mass."
+        },
+        "41": {
+          "answerIndex": 3,
+          "explanation": "DNA stands for deoxyribonucleic acid."
+        },
+        "42": {
+          "answerIndex": 2,
+          "explanation": "O-negative red blood cells lack A, B and Rh(D) antigens and are used as the universal red-cell donor type in emergencies."
+        },
+        "43": {
+          "answerIndex": 2,
+          "explanation": "Nitrous oxide (N₂O) is commonly called laughing gas."
+        },
+        "44": {
+          "answerIndex": 1,
+          "explanation": "The Lai district government describes Hlukhla Kut as a spring festival held around late February or early March. Among the choices, February–March is correct."
+        },
+        "45": {
+          "answerIndex": 0,
+          "explanation": "Tamdil is known as the “Lake of Mustard,” a name linked to the Mizo legend associated with the lake."
+        },
+        "46": {
+          "answerIndex": 3,
+          "explanation": "Hnatlang is the Mizo tradition of voluntary communal labour for the benefit of the community."
+        },
+        "47": {
+          "answerIndex": 1,
+          "explanation": "The MNF uprising began on the night of 28 February 1966, when coordinated attacks were launched across the Lushai Hills."
+        },
+        "48": {
+          "answerIndex": 1,
+          "explanation": "The proverb means that even a great stone cannot stand without smaller stones supporting it: people in powerful positions depend on the support of ordinary people."
+        },
+        "49": {
+          "answerIndex": 3,
+          "explanation": "Lianchhiari was the daughter of Vanhnuaithanga, the chief of Dungtlang."
+        },
+        "50": {
+          "answerIndex": 2,
+          "explanation": "Dampa was first declared a tiger reserve in 1994."
+        },
+        "51": {
+          "answerIndex": 2,
+          "explanation": "The first Hnahsin Kut (Cosmos Festival) was held in Champhai in 2024."
+        },
+        "52": {
+          "answerIndex": 2,
+          "explanation": "Aizawl received the Special Award for Mizoram’s Traffic Management System at the 18th Urban Mobility India Conference."
+        },
+        "53": {
+          "answerIndex": 0,
+          "explanation": "Justice Ranjana Prakash Desai chairs India’s Eighth Central Pay Commission."
+        },
+        "54": {
+          "answerIndex": 3,
+          "explanation": "UNESCO’s International Literacy Day 2025 theme was “Promoting literacy in the digital era.”"
+        },
+        "55": {
+          "answerIndex": 0,
+          "explanation": "Rajasthan hosted the 2025 Khelo India University Games."
+        },
+        "56": {
+          "answerIndex": 0,
+          "explanation": "The car explosion near the Red Fort in Delhi occurred on 10 November 2025."
+        },
+        "57": {
+          "answerIndex": 2,
+          "explanation": "Justice Surya Kant became the 53rd Chief Justice of India in November 2025."
+        },
+        "58": {
+          "answerIndex": 3,
+          "explanation": "Iron was not in use in the Harappan Civilization; copper, bronze and gold are archaeologically attested."
+        },
+        "59": {
+          "answerIndex": 2,
+          "explanation": "Bindusara succeeded Chandragupta Maurya as ruler of the Mauryan Empire."
+        },
+        "60": {
+          "answerIndex": 1,
+          "explanation": "Patanjali is traditionally associated with compiling the Yoga Sutras."
         }
       }
     }

@@ -63805,17 +63805,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Dual Nitrogen Acid",
       "Deoxyribonucleic Acid"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "DNA stands for deoxyribonucleic acid.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q42",
@@ -63833,17 +63831,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "O negative",
       "O positive"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "O-negative red blood cells lack A, B and Rh(D) antigens and are used as the universal red-cell donor type in emergencies.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q43",
@@ -63861,17 +63857,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Nitrous oxide",
       "Sulphur dioxide"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Nitrous oxide (N₂O) is commonly called laughing gas.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q44",
@@ -63889,14 +63883,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "October–November",
       "December–January"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Lai district government describes Hlukhla Kut as a spring festival held around late February or early March. Among the choices, February–March is correct.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q45",
@@ -63914,14 +63909,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Palak Dil",
       "Lungleng Lake"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Tamdil is known as the “Lake of Mustard,” a name linked to the Mizo legend associated with the lake.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q46",
@@ -63939,17 +63935,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Chheihlam",
       "Hnatlang"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Hnatlang is the Mizo tradition of voluntary communal labour for the benefit of the community.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q47",
@@ -63967,14 +63961,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "1 January 1967",
       "5 October 1959"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The MNF uprising began on the night of 28 February 1966, when coordinated attacks were launched across the Lushai Hills.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q48",
@@ -63992,17 +63987,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Powerful people matter more than weak people",
       "Big achievements come easily"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The proverb means that even a great stone cannot stand without smaller stones supporting it: people in powerful positions depend on the support of ordinary people.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q49",
@@ -64020,14 +64013,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Sibuta",
       "Vanhnuaithanga"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Lianchhiari was the daughter of Vanhnuaithanga, the chief of Dungtlang.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q50",
@@ -64045,17 +64039,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "1994",
       "2000"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Dampa was first declared a tiger reserve in 1994.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q51",
@@ -64073,14 +64065,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "2024",
       "2025"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The first Hnahsin Kut (Cosmos Festival) was held in Champhai in 2024.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q52",
@@ -64098,14 +64091,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "18th Urban Mobility India (UMI) Conference",
       "19th Urban Mobility India (UMI) Conference"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Aizawl received the Special Award for Mizoram’s Traffic Management System at the 18th Urban Mobility India Conference.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q53",
@@ -64123,14 +64117,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Shri Pankaj Jain",
       "Justice Ashok Kumar Mathur"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Justice Ranjana Prakash Desai chairs India’s Eighth Central Pay Commission.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q54",
@@ -64148,14 +64143,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Promoting three language formula",
       "Promoting literacy in the digital era"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "UNESCO’s International Literacy Day 2025 theme was “Promoting literacy in the digital era.”",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q55",
@@ -64173,14 +64169,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Goa",
       "Punjab"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Rajasthan hosted the 2025 Khelo India University Games.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q56",
@@ -64198,14 +64195,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "12th November, 2025",
       "13th November, 2025"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The car explosion near the Red Fort in Delhi occurred on 10 November 2025.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q57",
@@ -64223,14 +64221,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Justice Surya Kant",
       "Justice Ranjan Gogoi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Justice Surya Kant became the 53rd Chief Justice of India in November 2025.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q58",
@@ -64248,17 +64247,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Bronze",
       "Iron"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Iron was not in use in the Harappan Civilization; copper, bronze and gold are archaeologically attested.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q59",
@@ -64276,17 +64273,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Bindusara",
       "Samprati"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Bindusara succeeded Chandragupta Maurya as ruler of the Mauryan Empire.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q60",
@@ -64304,17 +64299,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Brahma sutra",
       "Ayurveda"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Patanjali is traditionally associated with compiling the Yoga Sutras.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q61",

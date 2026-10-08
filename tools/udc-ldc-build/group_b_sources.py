@@ -204,6 +204,10 @@ def build_additional():
             entry['expectedMcq'] = 100
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'hfw-2026-p2' and repairs.get(slug, {}).get('derivedAnswers'):
+            entry['expectedMcq'] = 100
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'steno2-2025-p1' and repairs.get(slug, {}).get('derivedAnswers'):
             entry['expectedMcq'] = 40
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,

@@ -381,7 +381,8 @@
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 100
   },
   {
     "id": "mpsc-group-b-radio-2026-p1",

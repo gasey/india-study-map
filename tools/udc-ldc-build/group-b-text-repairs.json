@@ -16106,6 +16106,556 @@
           "explanation": "R. A. Lorrain is credited with developing the Mara alphabet. F. W. Savidge also produced earlier Mara-language work, which makes “credited with developing” more precise than claiming he had no role in written Mara."
         }
       }
+    },
+    "hfw-2026-p2": {
+      "sourceSha256": "d569cbc0dc8dd7849b3a4f960540d1e4c5e4f2700210353dafe01315c7d668bd",
+      "expectedMcq": 100,
+      "partialReview": true,
+      "reviewedOn": "2026-10-08",
+      "evidence": "Group B technical common examination under Health & Family Welfare, January 2026, Paper-II (General Studies). Q1–20 were checked against the printed cover and pages 1–2; all numbered stems, option wording and four-option sets were compared with the scan. The cover specifies 100 one-mark questions and two hours, with no negative-marking instruction. Nineteen answers have independently derived explanations. Q14 is held because “within India’s boundary” can refer to India’s claimed boundary (K2) or territory under Indian administration (Kangchenjunga), and the stem does not specify which.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Durtlang",
+            "b": "Aibawk",
+            "c": "North Khawlek",
+            "d": "Saitual"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Human skeletons dated to 1260-1320 CE were recently discovered in a cave near which village in Mizoram?",
+          "multi": false
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "It helped ease tensions after prolonged border strain",
+            "b": "It led to a new bilateral trade framework",
+            "c": "It launched a joint space cooperation plan",
+            "d": "It opened discussions on a new rail corridor"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Why was the 19 August 2025 meeting between PM Narendra Modi and China’s top diplomat Wang Yi considered important?",
+          "multi": false
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "40%",
+            "b": "55%",
+            "c": "50%",
+            "d": "60%"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Mexico to impose tariff hike of upto _________ on India, Asia nations from 2026.",
+          "multi": false
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Wheat",
+            "b": "Soybean",
+            "c": "Yellow Peas",
+            "d": "Mustard Seeds"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Effective 1 November 2025, India imposed a 30% combined customs duty and Agriculture Infrastructure and Development Cess on imports of which agricultural commodity?",
+          "multi": false
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "China",
+            "b": "Japan",
+            "c": "India",
+            "d": "South Korea"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "According to IMF projections for 2025, which nation recorded the highest growth rate among major economies?",
+          "multi": false
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Praveenar Singh (Thailand)",
+            "b": "Fátima Bosch Fernández (Mexico)",
+            "c": "Stephany Adriana Abasali Nasser (Venezuela)",
+            "d": "Ahtisa Manalo (Philippines)"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who was crowned Miss Universe 2025?",
+          "multi": false
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Amritsar",
+            "b": "Delhi",
+            "c": "Lahore",
+            "d": "Kanpur"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Jallianwala Bagh massacre took place in which city?",
+          "multi": false
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "India and Pakistan",
+            "b": "India and Sri Lanka",
+            "c": "India and Nepal",
+            "d": "India and Burma"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Partition of India led to the creation of which two independent nations in 1947?",
+          "multi": false
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Vinayak Damodar Savarkar",
+            "b": "Mahatma Gandhi",
+            "c": "Muhammad Ali Jinnah",
+            "d": "Bhagat Singh"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which leader strongly opposed the Partition and advocated Hindu-Muslim unity till the end?",
+          "multi": false
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Surat",
+            "b": "Cochin",
+            "c": "Goa",
+            "d": "Calicut"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Portuguese explorer Vasco da Gama first landed in India at -",
+          "multi": false
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Rowlatt Act",
+            "b": "Partition of Bengal",
+            "c": "Salt Laws",
+            "d": "Simon Commission"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Swadeshi Movement was launched in response to -",
+          "multi": false
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Agriculture",
+            "b": "Hunting",
+            "c": "Trade and commerce",
+            "d": "Nomadism"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The primary occupation of the people in the Indus Valley Civilization was -",
+          "multi": false
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Non-Cooperation Movement",
+            "b": "Civil Disobedience Movement",
+            "c": "Quit India Movement",
+            "d": "Swadeshi Movement"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "‘Do or Die’ was the slogan of which movement?",
+          "multi": false
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Mount Everest",
+            "b": "Kanchenjunga",
+            "c": "Nanda Devi",
+            "d": "K2"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The highest mountain peak within India’s boundary is:",
+          "multi": false,
+          "unscored": true,
+          "reviewNote": "Held unscored: the highest peak within India’s internationally claimed boundary can be described as K2, while Kangchenjunga is the highest peak wholly within territory administered by India. The stem does not distinguish these meanings.",
+          "explanation": "Held unscored: the highest peak within India’s internationally claimed boundary can be described as K2, while Kangchenjunga is the highest peak wholly within territory administered by India. The stem does not distinguish these meanings."
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Black soil",
+            "b": "Red soil",
+            "c": "Alluvial soil",
+            "d": "Laterite soil"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Indo-Gangetic plains are most fertile due to:",
+          "multi": false
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Sino-Tibetan",
+            "b": "Austro-Asiatic",
+            "c": "Dravidian",
+            "d": "Indo-Aryan"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is the largest linguistic group in India?",
+          "multi": false
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Sikkim",
+            "b": "Mizoram",
+            "c": "Arunachal Pradesh",
+            "d": "Rajasthan"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The lowest population density in India is found in:",
+          "multi": false
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Migration of elderly population",
+            "b": "Outflow of skilled professionals",
+            "c": "Students leaving school",
+            "d": "Lack of job opportunities"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The term ‘Brain Drain’ refers to:",
+          "multi": false
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Greenland",
+            "b": "Sahara Desert",
+            "c": "Namibia",
+            "d": "Australia"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The least densely populated territory in the world is:",
+          "multi": false
+        },
+        "20": {
+          "n": 20,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Asia",
+            "b": "Europe",
+            "c": "Africa",
+            "d": "South America"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which continent has the heaviest burden of HIV/AIDS?",
+          "multi": false
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 2,
+          "explanation": "The human skeletal remains dated to 1260–1320 CE were recovered from a cave in the Thingkhuang forest near North Khawlek village, in Saitual district."
+        },
+        "2": {
+          "answerIndex": 0,
+          "explanation": "Wang Yi’s 19 August 2025 visit included high-level talks on stabilizing India–China relations and border peace after the prolonged border standoff; the governments also discussed resuming direct flights and other exchanges."
+        },
+        "3": {
+          "answerIndex": 2,
+          "explanation": "Mexico approved tariffs of up to 50% on selected imports from countries without a free-trade agreement, including India, effective in 2026."
+        },
+        "4": {
+          "answerIndex": 2,
+          "explanation": "The November 2025 measure applied a 10% customs duty plus a 20% Agriculture Infrastructure and Development Cess on yellow peas, a 30% combined levy. The stem is clarified because the entire 30% was not customs duty."
+        },
+        "5": {
+          "answerIndex": 2,
+          "explanation": "The IMF’s 2025 projections put India’s growth rate above the other listed major economies."
+        },
+        "6": {
+          "answerIndex": 1,
+          "explanation": "Fátima Bosch Fernández of Mexico won Miss Universe 2025."
+        },
+        "7": {
+          "answerIndex": 0,
+          "explanation": "The Jallianwala Bagh massacre occurred in Amritsar on 13 April 1919."
+        },
+        "8": {
+          "answerIndex": 0,
+          "explanation": "The 1947 Partition created the independent dominions of India and Pakistan."
+        },
+        "9": {
+          "answerIndex": 1,
+          "explanation": "Mahatma Gandhi continued to oppose Partition and advocate Hindu–Muslim unity through the end of his life."
+        },
+        "10": {
+          "answerIndex": 3,
+          "explanation": "Vasco da Gama reached Calicut (Kozhikode) on the Malabar Coast in 1498."
+        },
+        "11": {
+          "answerIndex": 1,
+          "explanation": "The Swadeshi Movement arose in response to the 1905 Partition of Bengal."
+        },
+        "12": {
+          "answerIndex": 0,
+          "explanation": "Agriculture was the principal livelihood in the Indus Valley Civilization, alongside substantial craft production and trade."
+        },
+        "13": {
+          "answerIndex": 2,
+          "explanation": "Gandhi’s “Do or Die” call was associated with the Quit India Movement launched in August 1942."
+        },
+        "15": {
+          "answerIndex": 2,
+          "explanation": "The Indo-Gangetic plains are built largely from river-deposited alluvium, which supports highly fertile soils."
+        },
+        "16": {
+          "answerIndex": 3,
+          "explanation": "Indo-Aryan languages form the largest linguistic group in India by number of speakers."
+        },
+        "17": {
+          "answerIndex": 2,
+          "explanation": "Among Indian states, Arunachal Pradesh had the lowest population density in the 2011 Census."
+        },
+        "18": {
+          "answerIndex": 1,
+          "explanation": "Brain drain is the emigration or outflow of highly educated and skilled people from a region or country."
+        },
+        "19": {
+          "answerIndex": 0,
+          "explanation": "Greenland has an exceptionally low population density and is commonly identified as the least densely populated territory in the world among these choices."
+        },
+        "20": {
+          "answerIndex": 2,
+          "explanation": "Sub-Saharan Africa carries the world’s largest HIV/AIDS burden, so Africa is the correct continental choice."
+        }
+      }
     }
   }
 }

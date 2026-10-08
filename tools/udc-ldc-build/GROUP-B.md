@@ -7,8 +7,8 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 8 October 2026
 
 49 general papers, 3,466 items: 3,345 MCQs and 121 written prompts.
-2,091 questions are ready for practice, including 1,614 official answers and
-477 independently derived answers. 1,323 items still need source review.
+2,110 questions are ready for practice, including 1,614 official answers and
+496 independently derived answers. 1,304 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -52,6 +52,8 @@ Stenographer Grade-II (MPSC) General English 2025 Part B Q1–40 has been checke
 Three disputed AAO key items were independently re-derived: English Q37 uses the standard phrase “tenacious of life” (B), English Q77 means “hamper” (D), and Arithmetic Q75 combines the shared ratio term to give 8:12:15 (D). These answers differ from the final key and now include explanations; multi-answer or malformed items remain held.
 
 Motor Vehicle Inspector Paper-II (General Knowledge), September 2025 Q1–100 is now scan-checked against all ten printed pages. Ninety-three questions have independently derived explanations; Q18, Q28, Q32, Q47, Q65, Q79 and Q89 remain unscored for documented ambiguity or defective options. Q68, Q69, Q70 and Q72 have minimal wording corrections for scientific accuracy and clarity. The full 100-question transcription and option sets were checked, but the paper remains excluded from full-paper Exam mode because it lacks a verified official answer key and includes held items.
+
+Group B technical Health & Family Welfare General Studies Paper-II, January 2026 Q1–20 has been checked against the cover and pages 1–2. Nineteen answers have worked explanations. Q14 remains unscored because “within India’s boundary” is ambiguous between K2 within India’s claimed boundary and Kangchenjunga wholly within Indian-administered territory. Q4’s wording now distinguishes the combined 30% levy from the 10% customs duty.
 
 The official MPSC final keys for the March 2025 Stenographer Grade-III General
 Knowledge and General English papers are now attached. All 100 General

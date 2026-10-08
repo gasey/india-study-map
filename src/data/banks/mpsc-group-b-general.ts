@@ -15582,15 +15582,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Hewasliftedthetable.",
+    "question": "He was lifted __________ the table.",
     "options": [
       "on",
       "up",
       "onto",
       "at"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Lifted onto the table” describes movement to a position on top of it.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=4",
@@ -15599,10 +15599,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.34-43);FillintheblankswiththemostsuitablePrepositionfromthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q37",
@@ -15613,15 +15611,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Catsaretenaciouslife.",
+    "question": "Cats are tenacious __________ life.",
     "options": [
       "to",
       "of",
       "with",
-      "i"
+      "in"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The final key marks C (“with”), but the standard collocation is “tenacious of life,” which is option B. This key/item conflict is held out from scoring pending clarification.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=4",
@@ -15632,8 +15630,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.34-43);FillintheblankswiththemostsuitablePrepositionfromthe"
+    "sourceNote": "The official key marks C, but the standard phrase is “tenacious of life” (B); held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q38",
@@ -15644,15 +15641,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thebeecameinthedoor.",
+    "question": "The bee came in __________ the door.",
     "options": [
       "from",
       "at",
       "by",
-      "_through"
+      "through"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Through the door” describes entering via the doorway.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=4",
@@ -15661,10 +15658,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.34-43);FillintheblankswiththemostsuitablePrepositionfromthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q39",
@@ -15675,15 +15670,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Itisdangeroustoentertheenemy’scamp.",
+    "question": "It is dangerous to enter __________ the enemy’s camp.",
     "options": [
       "through",
-      "n",
+      "in",
       "into",
       "on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Enter into” is the construction expected by the printed options for movement into a place.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=4",
@@ -15695,10 +15690,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions(QuestionNos.34-43);FillintheblankswiththemostsuitablePrepositionfromthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q40",
@@ -15709,15 +15702,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Minorityaspirationscannotforeverbekeptincheckthegun.",
+    "question": "Minority aspirations cannot forever be kept in check __________ the gun.",
     "options": [
       "with",
       "through",
       "for",
       "about"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The phrase “with the gun” indicates the means used to keep aspirations in check.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=4",
@@ -15726,10 +15719,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.34-43);FillintheblankswiththemostsuitablePrepositionfromthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q41",
@@ -15740,15 +15731,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Agoodjudgenevergropestheconclusion.",
+    "question": "A good judge never gropes __________ the conclusion.",
     "options": [
       "at",
       "to",
       "on",
       "for"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Grope for” means to search uncertainly for something, including a conclusion.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=4",
@@ -15760,10 +15751,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions(QuestionNos.34-43);FillintheblankswiththemostsuitablePrepositionfromthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q42",
@@ -15774,15 +15763,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Underthisheavyloadthebridgewillgive:",
+    "question": "Under this heavy load the bridge will give __________.",
     "options": [
       "way",
-      "n",
+      "in",
       "into",
       "away"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Give way” means to collapse or yield under pressure.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=4",
@@ -15794,10 +15783,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions(QuestionNos.34-43);FillintheblankswiththemostsuitablePrepositionfromthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q43",
@@ -15808,15 +15795,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Theyquarrelledwithmethedivisionofthebooty.",
+    "question": "They quarrelled with me __________ the division of the booty.",
     "options": [
       "for",
-      "about.",
+      "about",
       "on",
-      "n"
+      "in"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Quarrel about” introduces the subject of a disagreement.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=4",
@@ -15825,10 +15812,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.34-43);FillintheblankswiththemostsuitablePrepositionfromthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q44",
@@ -15839,15 +15824,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Itismoreofself-interestthanservice.",
+    "question": "It is more of self-interest than service. (Identify the part of speech of the underlined words “self-interest”.)",
     "options": [
       "Verb",
       "Noun",
       "Adverb",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Self-interest” names a motive or concern, so it is a noun.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=4",
@@ -15856,10 +15841,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.44-50):Identifythepartsofspeechofeachunderlinedwords:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q45",
@@ -15870,30 +15853,25 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Allspokeinhisfavour.",
+    "question": "All spoke in his favour. (Identify the part of speech of the underlined word “All”.)",
     "options": [
       "Noun",
       "Adjective",
       "Conjunction",
       "Pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“All” stands in for all the people who spoke, so it is a pronoun.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       3
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions(QuestionNos.44-50):Identifythepartsofspeechofeachunderlinedwords:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q46",
@@ -15904,15 +15882,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Ashewaspoor,|helpedhim.",
+    "question": "As he was poor, I helped him. (Identify the part of speech of the underlined word “As”.)",
     "options": [
       "Interjection",
       "Adverb",
       "Conjunction",
-      "Adjective:"
+      "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“As” joins the reason clause to the main clause, so it is a conjunction.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=4",
@@ -15921,10 +15899,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.44-50):Identifythepartsofspeechofeachunderlinedwords:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q47",
@@ -15935,15 +15911,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Tmjustcoming.",
+    "question": "I’m just coming. (Identify the part of speech of the underlined word “just”.)",
     "options": [
       "Adverb",
       "Verb",
       "Pronoun",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Just” modifies “coming” by indicating that the action is happening now/very soon, so it functions as an adverb.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=4",
@@ -15952,10 +15928,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.44-50):Identifythepartsofspeechofeachunderlinedwords:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q48",
@@ -15966,15 +15940,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thisistheroadbywhichhecame.",
+    "question": "This is the road by which he came. (Identify the part of speech of the underlined word “which”.)",
     "options": [
-      "Adverb.",
+      "Adverb",
       "Pronoun",
       "Noun",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Which” is a relative pronoun introducing the clause “by which he came.”",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=4",
@@ -15983,10 +15957,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.44-50):Identifythepartsofspeechofeachunderlinedwords:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q49",
@@ -15997,15 +15969,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Everymemberispresent.",
+    "question": "Every member is present. (Identify the part of speech of the underlined word “Every”.)",
     "options": [
       "Adjective",
       "Adverb",
       "Noun",
       "Verb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "In traditional school grammar, “every” is a distributive adjective modifying “member.”",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=4",
@@ -16014,10 +15986,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.44-50):Identifythepartsofspeechofeachunderlinedwords:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q50",
@@ -16028,15 +15998,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Heshowedmuchpatience.",
+    "question": "He showed much patience. (Identify the part of speech of the underlined word “much”.)",
     "options": [
       "Noun",
       "Verb",
       "Adverb",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Much” modifies the noun “patience,” so it is an adjective of quantity in traditional grammar.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=4",
@@ -16045,10 +16015,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.44-50):Identifythepartsofspeechofeachunderlinedwords:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q51",

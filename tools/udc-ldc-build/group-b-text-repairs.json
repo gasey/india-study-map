@@ -1331,7 +1331,7 @@
       "sourceSha256": "eb32e3ca2b60cb399cce89bbdcf711d95a098fdfbbcf90377ffd5f6ea2f66fb5",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–35 checked against rendered PDF pages 1–3; stems and four options transcribed and matched to the final official key. Q2 and Q23 are held out for key/item conflicts; Q33 is held out because multiple options express the requested comparison.",
+      "evidence": "Questions 1–50 checked against rendered PDF pages 1–4; stems and four options transcribed and matched to the final official key. Q2, Q23 and Q37 are held out for key/item conflicts; Q33 is held out because multiple options express the requested comparison.",
       "questions": {
         "1": {
           "n": 1,
@@ -1791,6 +1791,203 @@
             "d": "about"
           },
           "explanation": "The adjective “ashamed” takes the preposition “of.”"
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "part": null,
+          "q": "He was lifted __________ the table.",
+          "opts": {
+            "a": "on",
+            "b": "up",
+            "c": "onto",
+            "d": "at"
+          },
+          "explanation": "“Lifted onto the table” describes movement to a position on top of it."
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "part": null,
+          "q": "Cats are tenacious __________ life.",
+          "opts": {
+            "a": "to",
+            "b": "of",
+            "c": "with",
+            "d": "in"
+          },
+          "explanation": "The final key marks C (“with”), but the standard collocation is “tenacious of life,” which is option B. This key/item conflict is held out from scoring pending clarification.",
+          "unscored": true,
+          "reviewNote": "The official key marks C, but the standard phrase is “tenacious of life” (B); held out from scoring pending clarification."
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "part": null,
+          "q": "The bee came in __________ the door.",
+          "opts": {
+            "a": "from",
+            "b": "at",
+            "c": "by",
+            "d": "through"
+          },
+          "explanation": "“Through the door” describes entering via the doorway."
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "part": null,
+          "q": "It is dangerous to enter __________ the enemy’s camp.",
+          "opts": {
+            "a": "through",
+            "b": "in",
+            "c": "into",
+            "d": "on"
+          },
+          "explanation": "“Enter into” is the construction expected by the printed options for movement into a place."
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "part": null,
+          "q": "Minority aspirations cannot forever be kept in check __________ the gun.",
+          "opts": {
+            "a": "with",
+            "b": "through",
+            "c": "for",
+            "d": "about"
+          },
+          "explanation": "The phrase “with the gun” indicates the means used to keep aspirations in check."
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "part": null,
+          "q": "A good judge never gropes __________ the conclusion.",
+          "opts": {
+            "a": "at",
+            "b": "to",
+            "c": "on",
+            "d": "for"
+          },
+          "explanation": "“Grope for” means to search uncertainly for something, including a conclusion."
+        },
+        "42": {
+          "n": 42,
+          "page": 4,
+          "part": null,
+          "q": "Under this heavy load the bridge will give __________.",
+          "opts": {
+            "a": "way",
+            "b": "in",
+            "c": "into",
+            "d": "away"
+          },
+          "explanation": "“Give way” means to collapse or yield under pressure."
+        },
+        "43": {
+          "n": 43,
+          "page": 4,
+          "part": null,
+          "q": "They quarrelled with me __________ the division of the booty.",
+          "opts": {
+            "a": "for",
+            "b": "about",
+            "c": "on",
+            "d": "in"
+          },
+          "explanation": "“Quarrel about” introduces the subject of a disagreement."
+        },
+        "44": {
+          "n": 44,
+          "page": 4,
+          "part": null,
+          "q": "It is more of self-interest than service. (Identify the part of speech of the underlined words “self-interest”.)",
+          "opts": {
+            "a": "Verb",
+            "b": "Noun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "explanation": "“Self-interest” names a motive or concern, so it is a noun."
+        },
+        "45": {
+          "n": 45,
+          "page": 4,
+          "part": null,
+          "q": "All spoke in his favour. (Identify the part of speech of the underlined word “All”.)",
+          "opts": {
+            "a": "Noun",
+            "b": "Adjective",
+            "c": "Conjunction",
+            "d": "Pronoun"
+          },
+          "explanation": "“All” stands in for all the people who spoke, so it is a pronoun."
+        },
+        "46": {
+          "n": 46,
+          "page": 4,
+          "part": null,
+          "q": "As he was poor, I helped him. (Identify the part of speech of the underlined word “As”.)",
+          "opts": {
+            "a": "Interjection",
+            "b": "Adverb",
+            "c": "Conjunction",
+            "d": "Adjective"
+          },
+          "explanation": "“As” joins the reason clause to the main clause, so it is a conjunction."
+        },
+        "47": {
+          "n": 47,
+          "page": 4,
+          "part": null,
+          "q": "I’m just coming. (Identify the part of speech of the underlined word “just”.)",
+          "opts": {
+            "a": "Adverb",
+            "b": "Verb",
+            "c": "Pronoun",
+            "d": "Adjective"
+          },
+          "explanation": "“Just” modifies “coming” by indicating that the action is happening now/very soon, so it functions as an adverb."
+        },
+        "48": {
+          "n": 48,
+          "page": 4,
+          "part": null,
+          "q": "This is the road by which he came. (Identify the part of speech of the underlined word “which”.)",
+          "opts": {
+            "a": "Adverb",
+            "b": "Pronoun",
+            "c": "Noun",
+            "d": "Adjective"
+          },
+          "explanation": "“Which” is a relative pronoun introducing the clause “by which he came.”"
+        },
+        "49": {
+          "n": 49,
+          "page": 4,
+          "part": null,
+          "q": "Every member is present. (Identify the part of speech of the underlined word “Every”.)",
+          "opts": {
+            "a": "Adjective",
+            "b": "Adverb",
+            "c": "Noun",
+            "d": "Verb"
+          },
+          "explanation": "In traditional school grammar, “every” is a distributive adjective modifying “member.”"
+        },
+        "50": {
+          "n": 50,
+          "page": 4,
+          "part": null,
+          "q": "He showed much patience. (Identify the part of speech of the underlined word “much”.)",
+          "opts": {
+            "a": "Noun",
+            "b": "Verb",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "explanation": "“Much” modifies the noun “patience,” so it is an adjective of quantity in traditional grammar."
         }
       },
       "partialReview": true

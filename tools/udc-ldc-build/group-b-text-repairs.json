@@ -13346,9 +13346,9 @@
     "mvi-2025-p2": {
       "sourceSha256": "02e1b47d147f54fa2ccb3847613a8efc6cec19c89fa093c21a24ff084d62a5f1",
       "expectedMcq": 100,
-      "partialReview": true,
+      "partialReview": false,
       "reviewedOn": "2026-10-08",
-      "evidence": "Motor Vehicle Inspector Paper-II (General Knowledge), September 2025: Q1–21 checked against the printed scan, page 1 (Q1–8) and page 2 (Q9–21). Stems, numbering and options were compared with the pages. Twenty items have independently derived answers and explanations; Q18 is held because Bose won and was re-elected at two different listed Congress sessions. No verified official key has been applied. The cover states 100 one-mark questions in two hours; it states no negative-marking rule. Questions 22–44 were checked against printed pages 3–4. Twenty-one answers were independently derived. Q28 is held because “most spoken” does not distinguish native from total speakers; Q32 is held because the printed Indus-route option combines geographic units that do not match the river’s main course under current boundaries. Questions 45–64 were checked against printed pages 5–6. Nineteen answers have independent explanations; Q47 is held because both Education and Industries are outside the State List, leaving two defensible options. Questions 65–84 were checked against printed pages 7–8. Eighteen answers have independently derived explanations. Q65 is held because none of the choices names a formally recognized biodiversity-hotspot region; Q79 is held because tungsten and carbon make the unqualified highest-melting-point question ambiguous. Q68, Q69, Q70 and Q72 were minimally edited to correct category, survey timing, programme name and obsolete timing language.",
+      "evidence": "Motor Vehicle Inspector Paper-II (General Knowledge), September 2025: Q1–21 checked against the printed scan, page 1 (Q1–8) and page 2 (Q9–21). Stems, numbering and options were compared with the pages. Twenty items have independently derived answers and explanations; Q18 is held because Bose won and was re-elected at two different listed Congress sessions. No verified official key has been applied. The cover states 100 one-mark questions in two hours; it states no negative-marking rule. Questions 22–44 were checked against printed pages 3–4. Twenty-one answers were independently derived. Q28 is held because “most spoken” does not distinguish native from total speakers; Q32 is held because the printed Indus-route option combines geographic units that do not match the river’s main course under current boundaries. Questions 45–64 were checked against printed pages 5–6. Nineteen answers have independent explanations; Q47 is held because both Education and Industries are outside the State List, leaving two defensible options. Questions 65–84 were checked against printed pages 7–8. Eighteen answers have independently derived explanations. Q65 is held because none of the choices names a formally recognized biodiversity-hotspot region; Q79 is held because tungsten and carbon make the unqualified highest-melting-point question ambiguous. Q68, Q69, Q70 and Q72 were minimally edited to correct category, survey timing, programme name and obsolete timing language. Questions 85–100 were checked against printed pages 8–10; all stems, numbering and four-option sets were checked for legibility and completeness. Fifteen answers have independently derived explanations. Q89 is held because Sarlamkai and Solakia are alternate names/closely identified forms of one war dance, making both C and D defensible. The scan review now covers all 100 MCQs; seven total questions (Q18, Q28, Q32, Q47, Q65, Q79 and Q89) remain unscored for documented defects or ambiguity.",
       "questions": {
         "1": {
           "n": 1,
@@ -15359,6 +15359,377 @@
           "ambiguous": [],
           "q": "What is the boiling point of water in Fahrenheit?",
           "multi": false
+        },
+        "85": {
+          "n": 85,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Documentation of folk tales and stories",
+            "b": "Preservation of traditional music and dance",
+            "c": "Promotion of handicrafts and textiles",
+            "d": "All of the above"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is an important aspect of Mizo heritage preservation?",
+          "multi": false
+        },
+        "86": {
+          "n": 86,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Paradise for the brave",
+            "b": "Holy book",
+            "c": "Royal throne",
+            "d": "Ancestral village"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "‘Pialral’ in Mizo belief refers to:",
+          "multi": false
+        },
+        "87": {
+          "n": 87,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Celebration of harvest",
+            "b": "Farewell dance for the dead",
+            "c": "Welcome dance for guests",
+            "d": "Ritual to bless warriors"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Cheraw dance is believed to have originated as a:",
+          "multi": false
+        },
+        "88": {
+          "n": 88,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Tawlhlohpuan",
+            "b": "Hmaram",
+            "c": "Pawnpui",
+            "d": "Ngotekherh"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which Mizo shawl is a sign of bravery?",
+          "multi": false
+        },
+        "89": {
+          "n": 89,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Chheihlam",
+            "b": "Cheraw",
+            "c": "Sarlamkai",
+            "d": "Solakia"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Mizo traditional war dance is:",
+          "multi": false,
+          "unscored": true,
+          "reviewNote": "Held unscored: Sarlamkai and Solakia are alternate names/closely identified forms of the same traditional war dance, so options C and D are both defensible.",
+          "explanation": "Held unscored: Sarlamkai and Solakia are alternate names/closely identified forms of the same traditional war dance, so options C and D are both defensible."
+        },
+        "90": {
+          "n": 90,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "J.H. Lorrain & F.W. Savidge",
+            "b": "D.E. Jones & J.H. Lorrain",
+            "c": "R. Vanlawma & L. Biakliana",
+            "d": "Capt. T.H. Lewin & F.W. Savidge"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Mizo script was created by:",
+          "multi": false
+        },
+        "91": {
+          "n": 91,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Tiger",
+            "b": "Snake",
+            "c": "Bear",
+            "d": "Mithun"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which animal features in the legend of Chawngchilhi?",
+          "multi": false
+        },
+        "92": {
+          "n": 92,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Zawlbûk as an institution was formally ended in the year 1938",
+            "b": "Awkpaka is the space within the Zawlbuk where the bachelors sleep",
+            "c": "Dawvan served as an emergency exit",
+            "d": "Only males above the age of 18 were required to sleep at the Zawlbuk"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which among the following regarding Zawlbuk is correct?",
+          "multi": false
+        },
+        "93": {
+          "n": 93,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Vangchhia Village",
+            "b": "Sailam Village",
+            "c": "Lianpui Village",
+            "d": "Ailawng Village"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "‘Lungphun Ropui’, a collection of 114 menhirs which were recently declared Monument of National Importance by the Archeological survey of India (ASI) is located in:",
+          "multi": false
+        },
+        "94": {
+          "n": 94,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Solakia is performed to celebrate victory at war",
+            "b": "Chheih Lam is the oldest known dance form of the Mizos",
+            "c": "Chawnglaizawn is a traditonal dance of the Pawi tribe",
+            "d": "Khual Lam is performed during Khuangchawi ceremony"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which statement regarding traditional mizo dance is incorrect?",
+          "multi": false
+        },
+        "95": {
+          "n": 95,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Pawl Kut",
+            "b": "Mim Kut",
+            "c": "Chapchar Kut",
+            "d": "Thalfavang Kut"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which Mizo festival focuses on the remembrance and honoring of departed loved ones?",
+          "multi": false
+        },
+        "96": {
+          "n": 96,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "B.Lalthangliana",
+            "b": "Kaphleia",
+            "c": "L.Biakliana",
+            "d": "J.Malsawma"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who was the author of the first Mizo essay titled ‘Thlirtu’?",
+          "multi": false
+        },
+        "97": {
+          "n": 97,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Brig. T. Sailo",
+            "b": "Nuchhungi",
+            "c": "J.Buana",
+            "d": "A.Sawihlira"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who among the following was the first Mizo to be awarded the Padma Shri Award?",
+          "multi": false
+        },
+        "98": {
+          "n": 98,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "1945",
+            "b": "1946",
+            "c": "1947",
+            "d": "1948"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "When was the first Mizo political party ‘Mizo Union’ established?",
+          "multi": false
+        },
+        "99": {
+          "n": 99,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "A trap used for hunting birds and small mammals",
+            "b": "A child born out of wedlock",
+            "c": "An annual tribute paid to the chief in the form of paddy rice",
+            "d": "A rare type of sword bought from neighboring Burmese tribes"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What does the term ‘Fathang’ denote?",
+          "multi": false
+        },
+        "100": {
+          "n": 100,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "D.E Jones",
+            "b": "Edwin Rowlands",
+            "c": "R.A Lorrain",
+            "d": "William Williams"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which pioneer missionary is credited with developing the ‘Mara’ alphabet?",
+          "multi": false
         }
       },
       "derivedAnswers": {
@@ -15673,6 +16044,66 @@
         "84": {
           "answerIndex": 1,
           "explanation": "At standard atmospheric pressure, water boils at 100°C, which is 212°F."
+        },
+        "85": {
+          "answerIndex": 3,
+          "explanation": "Preserving oral histories, traditional music and dance, and handicrafts and textiles are all important parts of safeguarding Mizo heritage."
+        },
+        "86": {
+          "answerIndex": 0,
+          "explanation": "Pialral is the blessed afterlife or paradise in traditional Mizo belief, associated especially with attaining thangchhuah status through distinguished feats and feasts. “Paradise for the brave” is the closest available option, though bravery alone is an oversimplification."
+        },
+        "87": {
+          "answerIndex": 1,
+          "explanation": "Historical accounts describe Cheraw as developing from Rawkhatlak, a Pawi farewell dance performed for women who died during childbirth or late pregnancy. This is the origin indicated by the option “farewell dance for the dead.”"
+        },
+        "88": {
+          "answerIndex": 0,
+          "explanation": "Tawlhlohpuan is associated with courage and victory; traditional accounts connect it with a warrior’s bravery."
+        },
+        "90": {
+          "answerIndex": 0,
+          "explanation": "The modern Mizo alphabet is credited to missionaries J. H. Lorrain and F. W. Savidge, who adapted a Roman-based orthography."
+        },
+        "91": {
+          "answerIndex": 1,
+          "explanation": "The Chawngchilhi folktale centres on a snake with which Chawngchilhi falls in love."
+        },
+        "92": {
+          "answerIndex": 0,
+          "explanation": "The Zawlbuk institution was discontinued in 1938 after a public decision that it was no longer compatible with the changing education, religious and administrative context. Awkpaka was the rear opening/emergency exit; Dawvan was a raised rear platform, so those options are incorrect."
+        },
+        "93": {
+          "answerIndex": 2,
+          "explanation": "Lungphun Ropui is the 114-menhir site at Lianpui village in Champhai district, declared a Monument of National Importance by the ASI in July 2025."
+        },
+        "94": {
+          "answerIndex": 1,
+          "explanation": "Chheih Lam is not the oldest Mizo dance form; Cheraw is commonly identified as the oldest. The other listed statements about Solakia, Chawnglaizawn and Khual Lam are supported in the cited cultural descriptions."
+        },
+        "95": {
+          "answerIndex": 1,
+          "explanation": "Mim Kut is dedicated to the memory of deceased relatives and includes offerings associated with the dead."
+        },
+        "96": {
+          "answerIndex": 1,
+          "explanation": "Kaphleia wrote “Thlirtu,” identified in Mizo literary histories as the first Mizo essay."
+        },
+        "97": {
+          "answerIndex": 3,
+          "explanation": "Anselm Sawihlira (A. Sawihlira) received the Padma Shri in 1983 and is identified in the source material as the first Mizo recipient."
+        },
+        "98": {
+          "answerIndex": 1,
+          "explanation": "The Mizo Union, regarded as Mizoram’s first political party, was established in 1946."
+        },
+        "99": {
+          "answerIndex": 2,
+          "explanation": "Fathang was a rice or paddy tribute paid by households to the village chief."
+        },
+        "100": {
+          "answerIndex": 2,
+          "explanation": "R. A. Lorrain is credited with developing the Mara alphabet. F. W. Savidge also produced earlier Mara-language work, which makes “credited with developing” more precise than claiming he had no role in written Mara."
         }
       }
     }

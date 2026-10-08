@@ -61353,17 +61353,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Promotion of handicrafts and textiles",
       "All of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Preserving oral histories, traditional music and dance, and handicrafts and textiles are all important parts of safeguarding Mizo heritage.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q86",
@@ -61381,17 +61379,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Royal throne",
       "Ancestral village"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Pialral is the blessed afterlife or paradise in traditional Mizo belief, associated especially with attaining thangchhuah status through distinguished feats and feasts. “Paradise for the brave” is the closest available option, though bravery alone is an oversimplification.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q87",
@@ -61409,17 +61405,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Welcome dance for guests",
       "Ritual to bless warriors"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Historical accounts describe Cheraw as developing from Rawkhatlak, a Pawi farewell dance performed for women who died during childbirth or late pregnancy. This is the origin indicated by the option “farewell dance for the dead.”",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q88",
@@ -61437,17 +61431,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Pawnpui",
       "Ngotekherh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Tawlhlohpuan is associated with courage and victory; traditional accounts connect it with a warrior’s bravery.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q89",
@@ -61466,7 +61458,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Solakia"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held unscored: Sarlamkai and Solakia are alternate names/closely identified forms of the same traditional war dance, so options C and D are both defensible.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=9",
@@ -61475,7 +61467,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Held unscored: Sarlamkai and Solakia are alternate names/closely identified forms of the same traditional war dance, so options C and D are both defensible."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q90",
@@ -61493,17 +61485,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "R. Vanlawma & L. Biakliana",
       "Capt. T.H. Lewin & F.W. Savidge"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The modern Mizo alphabet is credited to missionaries J. H. Lorrain and F. W. Savidge, who adapted a Roman-based orthography.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q91",
@@ -61521,17 +61511,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Bear",
       "Mithun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Chawngchilhi folktale centres on a snake with which Chawngchilhi falls in love.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q92",
@@ -61549,17 +61537,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Dawvan served as an emergency exit",
       "Only males above the age of 18 were required to sleep at the Zawlbuk"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Zawlbuk institution was discontinued in 1938 after a public decision that it was no longer compatible with the changing education, religious and administrative context. Awkpaka was the rear opening/emergency exit; Dawvan was a raised rear platform, so those options are incorrect.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q93",
@@ -61577,14 +61563,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Lianpui Village",
       "Ailawng Village"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Lungphun Ropui is the 114-menhir site at Lianpui village in Champhai district, declared a Monument of National Importance by the ASI in July 2025.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q94",
@@ -61602,14 +61589,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Chawnglaizawn is a traditonal dance of the Pawi tribe",
       "Khual Lam is performed during Khuangchawi ceremony"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Chheih Lam is not the oldest Mizo dance form; Cheraw is commonly identified as the oldest. The other listed statements about Solakia, Chawnglaizawn and Khual Lam are supported in the cited cultural descriptions.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q95",
@@ -61627,17 +61615,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Chapchar Kut",
       "Thalfavang Kut"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mim Kut is dedicated to the memory of deceased relatives and includes offerings associated with the dead.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q96",
@@ -61655,14 +61641,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "L.Biakliana",
       "J.Malsawma"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Kaphleia wrote “Thlirtu,” identified in Mizo literary histories as the first Mizo essay.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q97",
@@ -61680,14 +61667,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "J.Buana",
       "A.Sawihlira"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Anselm Sawihlira (A. Sawihlira) received the Padma Shri in 1983 and is identified in the source material as the first Mizo recipient.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q98",
@@ -61705,17 +61693,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "1947",
       "1948"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Mizo Union, regarded as Mizoram’s first political party, was established in 1946.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q99",
@@ -61733,17 +61719,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "An annual tribute paid to the chief in the form of paddy rice",
       "A rare type of sword bought from neighboring Burmese tribes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Fathang was a rice or paddy tribute paid by households to the village chief.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q100",
@@ -61761,14 +61745,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "R.A Lorrain",
       "William Williams"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "R. A. Lorrain is credited with developing the Mara alphabet. F. W. Savidge also produced earlier Mara-language work, which makes “credited with developing” more precise than claiming he had no role in written Mara.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p1-conventional-1",

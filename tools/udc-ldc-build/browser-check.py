@@ -111,8 +111,12 @@ assert evaluate("document.body.innerText.includes('Arithmetic')&&document.body.i
 command('Emulation.setDeviceMetricsOverride', {'width': 1280, 'height': 900, 'deviceScaleFactor': 1, 'mobile': False})
 click_tab('Group B papers')
 assert evaluate("document.body.scrollWidth <= innerWidth")
-assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,336 ready to practise')")
-assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,224 with official answers')")
+assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,428 ready to practise')")
+assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,316 with official answers')")
+browse('Stenographer Grade III, Lokayukta', 'General Knowledge')
+assert evaluate("document.querySelectorAll('.udc-question-card').length === 100")
+assert evaluate("document.querySelectorAll('.udc-question-card')[99].innerText.includes('DP&AR (SSW)')")
+assert evaluate("!document.querySelectorAll('.udc-question-card')[99].innerText.includes('Text extraction needs comparison')")
 browse('Assistant Audit & Accounts Officer', 'General Knowledge')
 assert evaluate("document.querySelectorAll('.udc-question-card').length") == 100
 assert evaluate("document.querySelectorAll('.udc-question-card')[2].innerText.includes('The Esya Centre')")
@@ -131,6 +135,7 @@ assert evaluate("document.querySelectorAll('.udc-question-card')[72].querySelect
 assert evaluate("(async()=>{let a=document.querySelectorAll('.udc-question-card')[72].querySelector('.udc-answer-sources a');return (await fetch(a.href)).status})()") == 200
 click_tab('exam')
 assert evaluate("![...document.querySelectorAll('button')].some(b=>b.textContent.includes('Assistant Audit & Accounts Officer'))")
+assert evaluate("[...document.querySelectorAll('button')].some(b=>b.textContent.includes('Stenographer Grade III'))")
 assert not exceptions, exceptions
 print('Browser passed: 49 paper sources, progress totals, complete AAO GK transcription, Q13 multi-answer exclusion, Q73 corrigendum scoring/link, official comparison, six recovered figures, source PDFs, disagreement filter, Statistics scoring, mobile and desktop layout; no runtime exceptions.')
 s.close()

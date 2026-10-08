@@ -168,8 +168,12 @@ def build_additional():
         if key:
             entry['keyHref'] = key['href']
             entry['expectedMcq'] = len(key['answers'])
+        complete_source_review = (bool(key)
+                                  and reviewed_numbers == {int(n) for n in key['answers']}
+                                  and all(isinstance(answer, str) and answer in 'ABCD'
+                                          for answer in key['answers'].values()))
         entry['imported'] = True
-        entry['reviewRequired'] = True
+        entry['reviewRequired'] = not complete_source_review
         papers.append({'id': paper_id, 'examType': 'Direct_NG', 'examName': exam, 'post': exam,
                        'paperNumber': 'Paper-I' if slug.endswith('-p1') else 'Paper-II' if slug.endswith('-p2') else subject,
                        'paperSubject': subject, 'year': int(sitting[-4:]), 'sourceFile': href})
@@ -246,7 +250,7 @@ def build_additional():
                               **({'imagePath': q['imagePath']} if q.get('imagePath') else {}),
                               **({'answerSource': 'official', 'answerKeyRef': key_ref, 'compensated': True} if cell is None else {}),
                               **({'sourceReview': True, 'paperExamExcluded': True} if source_review else {}),
-                              **({'paperExamExcluded': True} if text_reviewed and not complete_native else {}),
+                              **({'paperExamExcluded': True} if text_reviewed and not complete_native and not complete_source_review else {}),
                               **({'sourceNote': note.strip()} if note else {}),
                               **({'direction': q['direction']} if q.get('direction') else {}),
                               **({'disputeNote': f"Legacy inferred candidate gives {'ABCD'[independent]}; the final key gives {'ABCD'[key_choices[0]]}. Verify the printed item."} if independent >= 0 and len(key_choices) == 1 and independent != key_choices[0] else {})})

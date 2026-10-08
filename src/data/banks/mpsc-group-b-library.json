@@ -205,7 +205,7 @@
     "keyHref": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "imported": true,
     "expectedMcq": 100,
-    "reviewRequired": true
+    "reviewRequired": false
   },
   {
     "id": "mpsc-group-b-steno2-2025-p1",

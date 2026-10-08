@@ -32335,7 +32335,6 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -32364,7 +32363,6 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -32393,7 +32391,6 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -32422,7 +32419,6 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -32451,7 +32447,6 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -32480,7 +32475,6 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -32509,7 +32503,6 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -32538,7 +32531,6 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -32550,15 +32542,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichinstitutionhaspublishedtheFiscalHealthIndex2025?",
+    "question": "Which institution has published the Fiscal Health Index 2025?",
     "options": [
-      "ReserveBankofIndia",
-      "SecuritiesandExchangeBoardofIndia",
-      "NITIAayog",
-      "WorldBank"
+      "Reserve Bank of India",
+      "Securities and Exchange Board of India",
+      "NITI Aayog",
+      "World Bank"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “NITI Aayog”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
@@ -32567,9 +32559,35 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-gk-Q10",
+    "paperId": "mpsc-group-b-steno-2025-gk",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which state has become the first North Eastern state to sign a Memorandum of Understanding with Digital India Bhashini?",
+    "options": [
+      "Tripura",
+      "Assam",
+      "Nagaland",
+      "Mizoram"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Tripura”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q11",
@@ -32580,15 +32598,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichcountryisthehostofBRICSsummit2025?",
+    "question": "Which country is the host of BRICS summit 2025?",
     "options": [
       "Russia",
       "Brazil",
       "China",
       "India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Brazil”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
@@ -32597,9 +32615,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q12",
@@ -32610,15 +32626,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "‘ConstantineTassoulas’hasbeenelectedaspresidentofwhichcountryinFebruary2025?",
+    "question": "‘Constantine Tassoulas’ has been elected as president of which country in February 2025?",
     "options": [
       "Indonesia",
-      "Vietnam.",
+      "Vietnam",
       "Egypt",
       "Greece"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Greece”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
@@ -32627,9 +32643,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q13",
@@ -32640,15 +32654,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "‘BartDeWever’hasbeenelectedasPrimeMinisterofwhichcountry?",
+    "question": "‘Bart De Wever’ has been elected as Prime Minister of which country?",
     "options": [
       "Belgium",
       "France",
       "Italy",
       "Germany"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Belgium”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
@@ -32657,9 +32671,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q14",
@@ -32670,15 +32682,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichstateishometoIndia’sfirstwhitetigerbreedingcentre?",
+    "question": "Which state is home to India’s first white tiger breeding centre?",
     "options": [
       "Maharashtra",
-      "MadhyaPradesh",
+      "Madhya Pradesh",
       "Gujarat",
       "Rajasthan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Madhya Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
@@ -32687,9 +32699,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q15",
@@ -32700,15 +32710,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichcountryhasbeenplacedunderastateofemergencyduetoan“EarthquakeSwarm”inFebruary 2025?",
+    "question": "Which country has been placed under a state of emergency due to an “Earthquake Swarm” in February 2025?",
     "options": [
       "Japan",
       "Greece",
       "Nepal",
       "India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Greece”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
@@ -32717,10 +32727,10 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-gk-Q16",
     "paperId": "mpsc-group-b-steno-2025-gk",
@@ -32730,15 +32740,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichcityisthehostofthefirstever“AllIndiaTransgenderConference2025”?",
+    "question": "Which city is the host of the first ever “All India Transgender Conference 2025”?",
     "options": [
       "Indore",
       "Lucknow",
       "Ajmer",
       "Patna"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Ajmer”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
@@ -32747,12 +32757,8 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q17",
     "paperId": "mpsc-group-b-steno-2025-gk",
@@ -32762,15 +32768,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichstatehasbecomethefirstinIndiatohaveatranslationsysteminthelegislativeassembly?",
+    "question": "Which state has become the first in India to have a translation system in the legislative assembly?",
     "options": [
-      "UttarPradesh",
-      "MadhyaPradesh",
+      "Uttar Pradesh",
+      "Madhya Pradesh",
       "Maharashtra",
       "Bihar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Uttar Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
@@ -32779,9 +32785,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q18",
@@ -32792,15 +32796,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "AccordingtoWorldBank,whatistheprojectedgrowthrateofIndianeconomyoverthenexttwo fiscalyears(2025-2027)?",
+    "question": "According to World Bank, what is the projected growth rate of Indian economy over the next two fiscal years (2025-2027)?",
     "options": [
       "6.3%",
       "6.5%",
       "6.7%",
       "7.1%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “6.7%”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
@@ -32809,9 +32813,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q19",
@@ -32822,15 +32824,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "MountIbu,anactivestratovolcanowhichwasseeninthenews,islocatedinwhichcountry?",
+    "question": "Mount Ibu, an active stratovolcano which was seen in the news, is located in which country?",
     "options": [
       "Philippines",
-      "Viemam",
+      "Vietnam",
       "Malaysia",
       "Indonesia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Indonesia”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
@@ -32839,9 +32841,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q20",
@@ -32852,15 +32852,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "“FlamingoFestival2025”iscelebratedinwhichstate?",
+    "question": "“Flamingo Festival 2025” is celebrated in which state?",
     "options": [
       "Odisha",
-      "TamilNadu",
+      "Tamil Nadu",
       "Kerala",
-      "AndhraPradesh"
+      "Andhra Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Andhra Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
@@ -32869,9 +32869,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q21",
@@ -32882,15 +32880,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichcountry’spresidentwastheChiefGuestatIndia’s76thRepublicDaycelebrations?",
+    "question": "Which country’s president was the Chief Guest at India’s 76th Republic Day celebrations?",
     "options": [
       "France",
       "Russia",
       "Indonesia",
       "Australia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Indonesia”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
@@ -32899,9 +32897,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q22",
@@ -32912,15 +32908,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhoamongthefollowingbaswontheMen’ssinglestitleintherecentlyheldAustralianOpen2025?",
+    "question": "Who among the following has won the Men’s singles title in the recently held Australian Open 2025?",
     "options": [
-      "JannikSinner",
-      "AlexanderZverev",
-      "NovacDjokoic",
-      "CarlosAlkraz"
+      "Jannik Sinner",
+      "Alexander Zverev",
+      "Novak Djokovic",
+      "Carlos Alcaraz"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Jannik Sinner”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
@@ -32929,9 +32925,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q23",
@@ -32942,15 +32936,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Recently,whichstategovernmentinauguratedplasticwastemanagementandrecyclingplant?",
+    "question": "Recently, which state government inaugurated plastic waste management and recycling plant?",
     "options": [
       "Sikkim",
       "Assam",
       "Manipur",
       "Mizoram"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Sikkim”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
@@ -32959,9 +32953,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q24",
@@ -32972,15 +32964,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhoamongthefollowingrecentlyreceivedtheLifetimeAchievementAwardattheWomen EntrepreneurshipSummitheldinDelhiinMarch2025?",
+    "question": "Who among the following recently received the Lifetime Achievement Award at the Women Entrepreneurship Summit held in Delhi in March 2025?",
     "options": [
-      "RebeccaL.Renthlei",
-      "B.Sangkhumi",
-      "MeriamL.Hrangchal",
+      "Rebecca L. Renthlei",
+      "B. Sangkhumi",
+      "Meriam L. Hrangchal",
       "Sanghmingliani"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Meriam L. Hrangchal”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
@@ -32989,9 +32981,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q25",
@@ -33002,15 +32992,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhohasreceivedPadmaShriAwardin2025fromMizoram?",
+    "question": "Who has received Padma Shri Award in 2025 from Mizoram?",
     "options": [
-      "B.Lalthangliana",
+      "B. Lalthangliana",
       "Vanneihtluanga",
-      "R.Lalrawna",
-      "PLLiandinga"
+      "R. Lalrawna",
+      "P. L. Liandinga"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “R. Lalrawna”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
@@ -33019,9 +33009,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q26",
@@ -33032,15 +33020,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichfilmwontheBestPictureawardatthe97\"AcademyAwardsin2025?",
+    "question": "Which film won the Best Picture award at the 97th Academy Awards in 2025?",
     "options": [
-      "TheBrutalist",
-      "MissingLadies",
+      "The Brutalist",
+      "Missing Ladies",
       "Anora",
-      "TheCrow"
+      "The Crow"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Anora”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
@@ -33049,9 +33037,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q27",
@@ -33062,15 +33048,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichIndianwomenhasbeenincludedinthe‘TimeMagazine'listofwomenoftheyear2025\"?",
+    "question": "Which Indian women has been included in the ‘Time Magazine’ list of women of the year 2025?",
     "options": [
-      "Dr.PurnimaDeviBarman",
-      "MirabaiChanu",
-      "ManuBhaker",
-      "NirmalaSitharaman"
+      "Dr. Purnima Devi Barman",
+      "Mirabai Chanu",
+      "Manu Bhaker",
+      "Nirmala Sitharaman"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Dr. Purnima Devi Barman”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
@@ -33079,9 +33065,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q28",
@@ -33092,15 +33076,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichofthefollowingstatementsistrueaboutEntomology?",
+    "question": "Which of the following statements is true about Entomology?",
     "options": [
-      "ThestudyofBirds",
-      "ThestudyofInsects",
-      "ThestudyofMicrobes",
-      "ThestudyofParasiticworms"
+      "The study of Birds",
+      "The study of Insects",
+      "The study of Microbes",
+      "The study of Parasitic worms"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The study of Insects”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
@@ -33109,9 +33093,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q29",
@@ -33122,15 +33104,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichofthefollowingisanon-renewableresource?",
+    "question": "Which of the following is a non-renewable resource?",
     "options": [
       "Forest",
       "Water",
       "Wind",
       "Coal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Coal”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
@@ -33139,9 +33121,175 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-gk-Q30",
+    "paperId": "mpsc-group-b-steno-2025-gk",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "What is the total percentage of nitrogen gas in the air?",
+    "options": [
+      "12 per cent",
+      "21 per cent",
+      "78 per cent",
+      "87 per cent"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “78 per cent”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-gk-Q31",
+    "paperId": "mpsc-group-b-steno-2025-gk",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which one of the following is credited for developing blood grouping method?",
+    "options": [
+      "Karl Landsteiner",
+      "Robert Kotch",
+      "William Harvey",
+      "Louis Pasteur"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Karl Landsteiner”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-gk-Q32",
+    "paperId": "mpsc-group-b-steno-2025-gk",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "A poisonous gas given out of vehicles exhaust is-",
+    "options": [
+      "Carbon Monoxide",
+      "Ethane",
+      "Methane",
+      "Carbon dioxide"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Carbon Monoxide”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-gk-Q33",
+    "paperId": "mpsc-group-b-steno-2025-gk",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following food components give energy to our body?",
+    "options": [
+      "Proteins",
+      "Vitamins",
+      "Minerals",
+      "Carbohydrates"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Carbohydrates”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-gk-Q34",
+    "paperId": "mpsc-group-b-steno-2025-gk",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "What is the main purpose of white blood corpuscles?",
+    "options": [
+      "To carry nutrients",
+      "To give strength",
+      "To combat infection",
+      "To carry oxygen"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “To combat infection”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-gk-Q35",
+    "paperId": "mpsc-group-b-steno-2025-gk",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following is a cold blooded animal?",
+    "options": [
+      "Ape",
+      "Mouse",
+      "Wolf",
+      "Snake"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Snake”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q36",
@@ -33152,15 +33300,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatisthetotalpercentageofnitrogengasintheair?",
+    "question": "LPG is a mixture of-",
     "options": [
-      "12percent",
-      "21percent",
-      "78percent",
-      "87percent (a)KarlLandsteiner(b)RobertKotch (c)WilliamHarvey(d)LouisPasteur (a)CarbonMonoxide(b)Ethane (c)Methane(d)Carbondioxide (a)Proteins(b)Vitamins (c)Minerals(d)Carbohydrates (a)Tocarrynutrients(b)Togivestrength (c)Tocombatinfection(d)Tocarryoxygen (a)Ape(b)Mouse (c)Wolf(d)Snake (a)Methaneandbutane(b)Butaneandpropane (c)Methaneandpropane(d)Ethaneandpropane -4-,"
+      "Methane and butane",
+      "Butane and propane",
+      "Methane and propane",
+      "Ethane and propane"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Butane and propane”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
@@ -33169,9 +33317,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q37",
@@ -33182,15 +33328,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Nightblindnessiscausedduetothedeficienciesof:",
+    "question": "Night blindness is caused due to the deficiencies of __________.",
     "options": [
-      "VitaminA",
-      "VitaminB",
-      "VitaminC",
-      "VitaminE"
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin E"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Vitamin A”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
@@ -33199,9 +33345,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q38",
@@ -33212,15 +33356,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatisthenameoftheprocessbywhichplantsconvertsunlightintoenergy?",
+    "question": "What is the name of the process by which plants convert sunlight into energy?",
     "options": [
       "Respiration",
       "Photosynthesis",
       "Oxidation",
       "Evolution"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Photosynthesis”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
@@ -33229,9 +33373,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q39",
@@ -33242,15 +33384,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "InIndia,theexecutivepowerofthestateisvestedinthe-",
+    "question": "In India, the executive power of the state is vested in the-",
     "options": [
-      "ChiefMinister",
-      "PrimeMinister",
+      "Chief Minister",
+      "Prime Minister",
       "Governor",
-      "CouncilofMinisters"
+      "Council of Ministers"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Governor”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
@@ -33259,9 +33401,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q40",
@@ -33272,15 +33412,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "HowmanymembersarenominatedbythePresidentintheUpperHouse?",
+    "question": "How many members are nominated by the President in the Upper House?",
     "options": [
       "Five",
       "Twelve",
       "Seven",
       "Ten"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Twelve”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
@@ -33289,9 +33429,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q41",
@@ -33302,15 +33440,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatistheminimumnumberofmembersrequiredtobepresentinanyoneofthetwoHousesof Parliamentforitsfunctioning?",
+    "question": "What is the minimum number of members required to be present in any one of the two Houses of Parliament for its functioning?",
     "options": [
-      "One-fifthoftotalmembers",
-      "One-sixthoftotalmembers",
-      "One-seventhoftotalmembers",
-      "One-tenthoftotalmembers"
+      "One-fifth of total members",
+      "One-sixth of total members",
+      "One-seventh of total members",
+      "One-tenth of total members"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “One-tenth of total members”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
@@ -33322,9 +33460,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q42",
@@ -33335,15 +33471,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "HowmanyFundamentalRightsareguaranteedbytheIndianConstitution?",
+    "question": "How many Fundamental Rights are guaranteed by the Indian Constitution?",
     "options": [
       "4",
       "10",
       "8",
       "6"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “6”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
@@ -33352,9 +33488,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q43",
@@ -33365,15 +33499,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThetermofofficeforamemberoftheRajyaSabhais-",
+    "question": "The term of office for a member of the Rajya Sabha is-",
     "options": [
-      "3years",
-      "5years",
-      "6years",
-      "2years"
+      "3 years",
+      "5 years",
+      "6 years",
+      "2 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “6 years”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
@@ -33382,9 +33516,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q44",
@@ -33395,15 +33527,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichconstitutionalamendmentloweredthevotingagefrom21to18?",
+    "question": "Which constitutional amendment lowered the voting age from 21 to 18?",
     "options": [
-      "42\"Amendment",
-      "44Amendment",
-      "61*Amendment",
-      "73Amendment"
+      "42nd Amendment",
+      "44th Amendment",
+      "61st Amendment",
+      "73rd Amendment"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “61st Amendment”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
@@ -33412,9 +33544,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q45",
@@ -33425,15 +33555,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheDirectivePrinciplesofStatePolicyareenshrinedinwhichpartoftheConstitution?",
+    "question": "The Directive Principles of State Policy are enshrined in which part of the Constitution?",
     "options": [
-      "PartI",
-      "PartII",
-      "PartIII",
-      "PartIV"
+      "Part I",
+      "Part II",
+      "Part III",
+      "Part IV"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Part IV”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
@@ -33442,9 +33572,38 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-gk-Q46",
+    "paperId": "mpsc-group-b-steno-2025-gk",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "How many Schedules are there in the Indian Constitution?",
+    "options": [
+      "20",
+      "25",
+      "12",
+      "8"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “12”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q47",
@@ -33455,15 +33614,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatdoKoalasusuallyeat?",
+    "question": "What do Koalas usually eat?",
     "options": [
       "Bamboo",
       "Eucalyptus",
-      "AloeVera",
+      "Aloe Vera",
       "Banana"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Eucalyptus”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
@@ -33472,9 +33631,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q48",
@@ -33485,15 +33642,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "InwhichyeardidGandhijistartSatyagrahaMovement?",
+    "question": "In which year did Gandhiji start Satyagraha Movement?",
     "options": [
       "1919",
       "1927",
       "1934",
       "1942"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1919”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
@@ -33502,9 +33659,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q49",
@@ -33515,15 +33670,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whoamongthefollowingisknownas‘BismarckofIndia’?",
+    "question": "Who among the following is known as ‘Bismarck of India’?",
     "options": [
-      "SwamiVivekananda",
-      "BhagatSingh",
-      "LalaLajpatRai",
-      "SardarVallabhbhaiPatel"
+      "Swami Vivekananda",
+      "Bhagat Singh",
+      "Lala Lajpat Rai",
+      "Sardar Vallabhbhai Patel"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sardar Vallabhbhai Patel”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
@@ -33532,9 +33687,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q50",
@@ -33545,15 +33698,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichofthefollowingistheoldestmountainrangeinIndia?",
+    "question": "Which of the following is the oldest mountain range in India?",
     "options": [
       "Himalayas",
       "Nilgiri",
       "Vindhya",
-      "Aravalli 5+:"
+      "Aravalli"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Aravalli”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
@@ -33562,9 +33715,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q51",
@@ -33575,15 +33726,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThefirstViceroyofIndiawas-",
+    "question": "The first Viceroy of India was-",
     "options": [
-      "LordCanning",
-      "LordMountbatten",
-      "LordWilliamBentinck",
-      "LordWavell"
+      "Lord Canning",
+      "Lord Mountbatten",
+      "Lord William Bentinck",
+      "Lord Wavell"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Lord Canning”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
@@ -33592,9 +33743,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q52",
@@ -33605,15 +33754,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThefirstWarofIndianIndependencewasfoughtin-",
+    "question": "The first War of Indian Independence was fought in-",
     "options": [
-      "1947AD",
-      "1857AD",
-      "1600AD",
-      "1887AD"
+      "1947 AD",
+      "1857 AD",
+      "1600 AD",
+      "1887 AD"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1857 AD”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
@@ -33622,9 +33771,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q53",
@@ -33635,15 +33782,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheFrenchRevolutionbrokeoutin-",
+    "question": "The French Revolution broke out in-",
     "options": [
-      "1789AD",
-      "1879AD",
-      "1600AD",
-      "1608AD"
+      "1789 AD",
+      "1879 AD",
+      "1600 AD",
+      "1608 AD"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1789 AD”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
@@ -33652,9 +33799,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q54",
@@ -33665,15 +33810,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThedifferencebetweenIndianStandardTimeandGreenwichMeanTimeis-",
+    "question": "The difference between Indian Standard Time and Greenwich Mean Time is-",
     "options": [
-      "51/2hrs",
-      "41/2hrs",
-      "Shrs",
-      "6hrs"
+      "5 1/2 hrs",
+      "4 1/2 hrs",
+      "5 hrs",
+      "6 hrs"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “5 1/2 hrs”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
@@ -33682,9 +33827,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q55",
@@ -33695,15 +33838,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichplanetinthesolarsystemisknownasthe‘RedPlanet’?",
+    "question": "Which planet in the solar system is known as the ‘Red Planet’?",
     "options": [
       "Venus",
       "Earth",
       "Mars",
       "Jupiter"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Mars”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
@@ -33712,9 +33855,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q56",
@@ -33725,15 +33866,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Acrophobiais-",
+    "question": "Acrophobia is-",
     "options": [
-      "Fearofflying",
-      "Fearofbathing",
-      "Fearofheights",
-      "Fearofdarkness"
+      "Fear of flying",
+      "Fear of bathing",
+      "Fear of heights",
+      "Fear of darkness"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Fear of heights”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
@@ -33742,9 +33883,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q57",
@@ -33755,15 +33894,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Equinoxmeans:",
+    "question": "Equinox means:",
     "options": [
-      "Thelongestdayoftheyear",
-      "Thelongestnightoftheyear",
-      "Theperiodswhendaysandnightsarealmostequal",
-      "TheColdestdayoftheyear"
+      "The longest day of the year",
+      "The longest night of the year",
+      "The periods when days and nights are almost equal",
+      "The coldest day of the year"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The periods when days and nights are almost equal”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
@@ -33772,9 +33911,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q58",
@@ -33785,15 +33922,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "‘Oslo’isthecapitalof:",
+    "question": "‘Oslo’ is the capital of:",
     "options": [
       "Norway",
       "Denmark",
       "Belgium",
       "Switzerland"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Norway”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
@@ -33802,9 +33939,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q59",
@@ -33815,15 +33950,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Theauthorof‘WarandPeace”was-",
+    "question": "The author of ‘War and Peace’ was-",
     "options": [
-      "LeoTolstoy",
-      "AldousHuxley",
-      "CharlesDickens",
-      "AdamSmith"
+      "Leo Tolstoy",
+      "Aldous Huxley",
+      "Charles Dickens",
+      "Adam Smith"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Leo Tolstoy”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
@@ -33835,9 +33970,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q60",
@@ -33848,15 +33981,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "‘ATaleofTwoCities’waswrittenby-",
+    "question": "‘A Tale of Two Cities’ was written by-",
     "options": [
-      "ThomasHardy",
-      "CharlesDickens",
-      "PearlS.Buck",
-      "KulditNayar"
+      "Thomas Hardy",
+      "Charles Dickens",
+      "Pearl S. Buck",
+      "Kuldit Nayar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Charles Dickens”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
@@ -33865,9 +33998,35 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-gk-Q61",
+    "paperId": "mpsc-group-b-steno-2025-gk",
+    "questionNumber": "61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "‘Ben Hur’ has been written by-",
+    "options": [
+      "George Eliot",
+      "Lewis Carroll",
+      "Lewis Thomas",
+      "Lew Wallace"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Lew Wallace”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q62",
@@ -33878,15 +34037,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whosesignatureisfoundonthe10-rupeecurrencynotesinIndia?",
+    "question": "Whose signature is found on the 10-rupee currency notes in India?",
     "options": [
-      "Governor,RBI",
-      "PresidentofIndia",
-      "PrimeMinisterofIndia",
-      "FinanceSecretary,Govt.ofIndia"
+      "Governor, RBI",
+      "President of India",
+      "Prime Minister of India",
+      "Finance Secretary, Govt. of India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Governor, RBI”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
@@ -33895,9 +34054,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q63",
@@ -33908,15 +34065,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatisthenumberofmembersoftheUNSecurityCouncil?",
+    "question": "What is the number of members of the UN Security Council?",
     "options": [
       "12",
       "13",
-      "14:",
-      "15,"
+      "14",
+      "15"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “15”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
@@ -33925,9 +34082,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q64",
@@ -33938,15 +34093,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheHeadQuartersofWorldBankisin-",
+    "question": "The Head Quarters of World Bank is in-",
     "options": [
       "Washington",
-      "NewYork",
+      "New York",
       "Montreal",
-      "Geneva -6-°"
+      "Geneva"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Washington”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
@@ -33955,9 +34110,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q65",
@@ -33968,15 +34121,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "NamethefirstmenormanwhoreachedtheSouthPole?",
+    "question": "Name the first men or man who reached the South Pole?",
     "options": [
-      "RobertPeary",
+      "Robert Peary",
       "Amundsen",
       "Byrd",
-      "JohnCabot"
+      "John Cabot"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Amundsen”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
@@ -33985,9 +34138,63 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-gk-Q66",
+    "paperId": "mpsc-group-b-steno-2025-gk",
+    "questionNumber": "66",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which one of the following countries is not in Africa?",
+    "options": [
+      "Morocco",
+      "Burundi",
+      "Algeria",
+      "Yemen"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Yemen”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-gk-Q67",
+    "paperId": "mpsc-group-b-steno-2025-gk",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The currency of Thailand is-",
+    "options": [
+      "Dollar",
+      "Baht",
+      "Takka",
+      "Pound"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Baht”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q68",
@@ -33998,15 +34205,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "‘PortLouis’isthecapitalof-",
+    "question": "‘Port Louis’ is the capital of-",
     "options": [
       "Portugal",
       "Mauritius",
       "Zambia",
       "Rhodesia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mauritius”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
@@ -34015,9 +34222,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q69",
@@ -34028,15 +34233,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Withwhatgameis‘SantoshTrophy’associated?",
+    "question": "With what game is ‘Santosh Trophy’ associated?",
     "options": [
       "Badminton",
       "Cricket",
       "Hockey",
       "Football"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Football”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
@@ -34048,9 +34253,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q70",
@@ -34061,15 +34264,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Theterm‘Bully’isassociatedwith-",
+    "question": "The term ‘Bully’ is associated with-",
     "options": [
       "Cricket",
       "Hockey",
       "Wrestling",
       "Tennis"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Hockey”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
@@ -34078,9 +34281,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q71",
@@ -34091,15 +34292,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatisrightfullyknownasthe“LungsoftheEarth”?",
+    "question": "What is rightfully known as the “Lungs of the Earth”?",
     "options": [
-      "Amazonrainforest",
-      "TheMississippiRiver",
-      "TheSahara",
-      "MountEverest"
+      "Amazon rainforest",
+      "The Mississippi River",
+      "The Sahara",
+      "Mount Everest"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Amazon rainforest”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
@@ -34108,9 +34309,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q72",
@@ -34121,15 +34320,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "VikramSarabhaiSpaceCentreislocatedin-",
+    "question": "Vikram Sarabhai Space Centre is located in-",
     "options": [
       "Maharashtra",
       "Gujarat",
       "Kerala",
-      "AndhraPradesh"
+      "Andhra Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Kerala”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
@@ -34138,9 +34337,38 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-gk-Q73",
+    "paperId": "mpsc-group-b-steno-2025-gk",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "‘Ceat’ is associated with-",
+    "options": [
+      "Tooth-paste",
+      "Toilet soaps",
+      "Tyres",
+      "Booth-polish"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Tyres”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q74",
@@ -34151,15 +34379,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "‘Netaji’isthenameassociatedwith-",
+    "question": "‘Netaji’ is the name associated with-",
     "options": [
-      "JayaPrakashNarayan",
-      "SubhashChandraBose",
-      "LalBahadurShastri",
-      "RabindraNathTagore"
+      "Jaya Prakash Narayan",
+      "Subhash Chandra Bose",
+      "Lal Bahadur Shastri",
+      "Rabindra Nath Tagore"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Subhash Chandra Bose”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
@@ -34168,9 +34396,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q75",
@@ -34181,15 +34407,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whowasknownas‘ManofDestiny’?",
+    "question": "Who was known as ‘Man of Destiny’?",
     "options": [
       "Hitler",
       "Stalin",
       "Napoleon",
-      "MahatmaGandhi"
+      "Mahatma Gandhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Napoleon”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
@@ -34198,9 +34424,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q76",
@@ -34211,15 +34435,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichofthefollowingistheunittoexpressthememoryofacomputer?",
+    "question": "Which of the following is the unit to express the memory of a computer?",
     "options": [
       "Bus",
       "Bytes",
       "CAD",
       "Compiler"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Bytes”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
@@ -34228,9 +34452,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q77",
@@ -34241,15 +34463,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatisknownas‘thebrainofthecomputer’?",
+    "question": "What is known as “the brain of the computer”?",
     "options": [
-      "CentralProcessingUnit",
-      "InputUnit",
-      "ControlUnit",
-      "ArithmeticUnit"
+      "Central Processing Unit",
+      "Input Unit",
+      "Control Unit",
+      "Arithmetic Unit"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Central Processing Unit”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
@@ -34258,9 +34480,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q78",
@@ -34271,15 +34491,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "‘Bonsai’istheJapaneseartof-",
+    "question": "‘Bonsai’ is the Japanese art of-",
     "options": [
-      "Growingsmalltrees",
-      "Makingdolls,",
-      "Arrangingflowers",
-      "Preparingtea (a)Afloodcontrolprogramme(b)Atechniquetotamerivers (c)Theinstallationoffoodlights(d)Aprogrammetoincreasemilksupply 7+,"
+      "Growing small trees",
+      "Making dolls",
+      "Arranging flowers",
+      "Preparing tea"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Growing small trees”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
@@ -34288,9 +34508,35 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-gk-Q79",
+    "paperId": "mpsc-group-b-steno-2025-gk",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Operation Flood is-",
+    "options": [
+      "A flood control programme",
+      "A technique to tame rivers",
+      "The installation of floodlights",
+      "A programme to increase milk supply"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “A programme to increase milk supply”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q80",
@@ -34301,15 +34547,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "A‘softloan’means-",
+    "question": "A ‘soft loan’ means-",
     "options": [
-      "Asshorttermloan",
-      "Aloanforagriculturaloperation",
-      "Aloanatalowinterestrate",
-      "Aloanforconsumptionpurposes"
+      "A short term loan",
+      "A loan for agricultural operation",
+      "A loan at a low interest rate",
+      "A loan for consumption purposes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “A loan at a low interest rate”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
@@ -34318,9 +34564,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q81",
@@ -34331,15 +34575,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "‘Meningitis’istheinfectionofthe-",
+    "question": "‘Meningitis’ is the infection of the-",
     "options": [
       "Eyes",
       "Skin",
       "Brain",
       "Throat"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Brain”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
@@ -34348,9 +34592,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q82",
@@ -34361,15 +34603,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatisthehardestsubstanceonearth?",
+    "question": "What is the hardest substance on earth?",
     "options": [
       "Silver",
-      "fron",
+      "Iron",
       "Gold",
       "Diamond"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Diamond”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
@@ -34378,9 +34620,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q83",
@@ -34391,15 +34631,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Howmanybonesarethereinthebodyofanadulthuman?",
+    "question": "How many bones are there in the body of an adult human?",
     "options": [
       "198",
       "206",
       "258",
       "315"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “206”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
@@ -34408,9 +34648,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q84",
@@ -34421,15 +34659,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThefirstUSPresidentwhovisitedIndiawas:",
+    "question": "The first US President who visited India was:",
     "options": [
-      "I.F.Kennedy",
-      "D.Eisenhower",
-      "JimmyCarter",
-      "GeorgeWashington"
+      "J. F. Kennedy",
+      "D. Eisenhower",
+      "Jimmy Carter",
+      "George Washington"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “D. Eisenhower”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
@@ -34438,9 +34676,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q85",
@@ -34451,15 +34687,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ArjunaAwardsaregiventoindividualsfor-",
+    "question": "Arjuna Awards are given to individuals for-",
     "options": [
-      "OutstandingcontributiontoIndianculture",
-      "Outstandingcontributiontowardsinternationalunderstandings",
-      "Outstandingcontributionforenhancingthegloryofthegame",
-      "Showingbraveryinthefacesofenemyattack"
+      "Outstanding contribution to Indian culture",
+      "Outstanding contribution towards international understandings",
+      "Outstanding contribution for enhancing the glory of the game",
+      "Showing bravery in the faces of enemy attack"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Outstanding contribution for enhancing the glory of the game”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
@@ -34471,9 +34707,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q86",
@@ -34484,15 +34718,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Choosethecorrectcombination-",
+    "question": "Choose the correct combination-",
     "options": [
-      "February-Tazthia",
-      "November-Sahmulphahthla",
-      "April-Mimkutthia",
-      "January-Ramtukthla"
+      "February-Tau thla",
+      "November-Sahmulphah thla",
+      "April-Mimkut thla",
+      "January-Ram tuk thla"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “November-Sahmulphah thla”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
@@ -34501,9 +34735,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q87",
@@ -34514,15 +34746,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichistheoddoneout-",
+    "question": "Which is the odd one out-",
     "options": [
       "Chawnzial",
       "Hmui",
       "Herawt",
       "Rawchhem"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Rawchhem”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
@@ -34531,9 +34763,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q88",
@@ -34544,15 +34774,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Booksandauthorsaregivenbelow.Choosethecorrectcombination-",
+    "question": "Books and authors are given below. Choose the correct combination-",
     "options": [
-      "KaLungkham-LalrammawiaNgente",
-      "Anita-JamesDokhuma",
+      "Ka Lungkham-Lalrammawia Ngente",
+      "Anita-James Dokhuma",
       "Thinglubul-Lalpekkima",
-      "RinteiZunleng-C.Laizawna"
+      "Rintei Zunleng-C. Laizawna"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Thinglubul-Lalpekkima”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
@@ -34561,9 +34791,35 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-gk-Q89",
+    "paperId": "mpsc-group-b-steno-2025-gk",
+    "questionNumber": "89",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "‘Kawtchhuah-ropui’ is located in:",
+    "options": [
+      "Hnahlan Village",
+      "Farkawn Village",
+      "Dungtlang Village",
+      "Vangchhia Village"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Vangchhia Village”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q90",
@@ -34574,15 +34830,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Choosethecorrectcombination: MinistersDepartments",
+    "question": "Choose the correct combination:",
     "options": [
-      "ShriB.LalchhanzovaAgriculture&FarmersWelfare",
-      "ShriFRodinglianaCommerce&Industries",
-      "ShriLalthansangaArt&CultureDepartment",
-      "ShriPCVanlalruataLand,Revenue&Settlement"
+      "Shri B. Lalchhanzova — Agriculture & Farmers Welfare",
+      "Shri F. Rodingliana — Commerce & Industries",
+      "Shri Lalthansanga — Art & Culture Department",
+      "Shri PC Vanlalruata — Land, Revenue & Settlement"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Shri F. Rodingliana — Commerce & Industries”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
@@ -34591,9 +34847,35 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-gk-Q91",
+    "paperId": "mpsc-group-b-steno-2025-gk",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The tax on imports and exports of commodities is known as-",
+    "options": [
+      "Custom duties",
+      "Excise duties",
+      "VAT",
+      "GST"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Custom duties”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q92",
@@ -34604,15 +34886,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichIndianUniversityisthehighestrankedintheQSAsiaRankings2025?",
+    "question": "Which Indian University is the highest ranked in the QS Asia Rankings 2025?",
     "options": [
-      "ITBombay",
-      "IITMadras",
-      "IITDelhi",
-      "UniversityofDelhi -8-."
+      "IIT Bombay",
+      "IIT Madras",
+      "IIT Delhi",
+      "University of Delhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “IIT Delhi”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
@@ -34621,9 +34903,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q93",
@@ -34634,15 +34914,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "HowmanyseatsintheLokSabhaarereservedforscheduledTribes?",
+    "question": "How many seats in the Lok Sabha are reserved for Scheduled Tribes?",
     "options": [
       "47",
       "29",
       "34",
       "50"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “47”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=8",
@@ -34651,9 +34931,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q94",
@@ -34664,15 +34942,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhodiscoveredSolarSystem?",
+    "question": "Who discovered Solar System?",
     "options": [
       "Galileo",
       "Copernicus",
-      "JohnHadley",
-      "IsaacNewton"
+      "John Hadley",
+      "Isaac Newton"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Copernicus”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=8",
@@ -34681,9 +34959,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q95",
@@ -34694,15 +34970,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "‘OSD’standsfor-",
+    "question": "‘OSD’ stands for-",
     "options": [
-      "OfficeronSpecialDuty",
-      "OfficeronSpecificDuty",
-      "OfficialonSpecialDuty",
-      "OnSpecialDuty"
+      "Officer on Special Duty",
+      "Officer on Specific Duty",
+      "Official on Special Duty",
+      "On Special Duty"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Officer on Special Duty”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=8",
@@ -34714,9 +34990,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q96",
@@ -34727,15 +35001,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Coronavirusdisease(COVID-19)isaninfectiousdiseasecausedbythe:",
+    "question": "Coronavirus disease (COVID-19) is an infectious disease caused by the __________.",
     "options": [
       "SARS-CoV-1",
       "SARS-CoV-2",
       "SARS-CoV-3",
       "SARS-CoV-4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “SARS-CoV-2”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=8",
@@ -34744,9 +35018,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q97",
@@ -34757,15 +35029,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Hindistenographyhasbeendevelopedby-",
+    "question": "Hindi stenography has been developed by-",
     "options": [
-      "GopalDattBisht",
-      "GopalDassBisht",
-      "GoyalDattBisht",
-      "GoyalDassBisht"
+      "Gopal Datt Bisht",
+      "Gopal Dass Bisht",
+      "Goyal Datt Bisht",
+      "Goyal Dass Bisht"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Gopal Datt Bisht”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=8",
@@ -34774,9 +35046,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q98",
@@ -34787,15 +35057,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "PitmanshorthandwasdevelopedbySirIsaacPitmanintheyear-",
+    "question": "Pitman shorthand was developed by Sir Isaac Pitman in the year-",
     "options": [
-      "1867.",
+      "1867",
       "1857",
       "1847",
-      "_1837"
+      "1837"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1837”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=8",
@@ -34804,9 +35074,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q99",
@@ -34817,15 +35085,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheNodalDepartmentfortheMizoramLokayuktaisthe:",
+    "question": "The Nodal Department for the Mizoram Lokayukta is the:",
     "options": [
-      "Law&JudicialDepartment",
+      "Law & Judicial Department",
       "DP&AR",
-      "VigilanceDepartment",
-      "GeneralAdministrationDepartment"
+      "Vigilance Department",
+      "General Administration Department"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Vigilance Department”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=8",
@@ -34834,9 +35102,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q100",
@@ -34847,15 +35113,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThedealswithtransferandpostingofStenographersundertheGovt.ofMizoram.",
+    "question": "The __________ deals with transfer and posting of Stenographers under the Govt. of Mizoram.",
     "options": [
-      "DP&AR(ARW)",
-      "DP&AR(GSW)",
-      "DP&AR(SSW)",
-      "DP&AR(CSW) eeRREKOE"
+      "DP&AR (ARW)",
+      "DP&AR (GSW)",
+      "DP&AR (SSW)",
+      "DP&AR (CSW)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “DP&AR (SSW)”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=8",
@@ -34864,9 +35130,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno2-2025-p1-B1",
@@ -40555,7 +40819,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-gk-Q75",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -40930,9 +41196,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-gk-Q90",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -48183,7 +48447,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q60",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -48558,9 +48824,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q80",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -56250,7 +56514,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p2-Q61",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -56664,9 +56930,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q76",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -63929,7 +64193,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q99",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -64399,9 +64665,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=1",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20) : Identify the parts of Speech of the underlined words as directed:"
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-radio-2026-p1-B14",
     "paperId": "mpsc-group-b-radio-2026-p1",
@@ -73027,7 +73291,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q71",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -73495,9 +73761,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q86",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -81030,7 +81294,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B31",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p2-Q32",
     "questionNumber": "B32",
@@ -81420,9 +81686,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B46",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p2-Q47",
     "questionNumber": "B47",
@@ -88872,7 +89136,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B6",
     "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p2-B7",
     "questionNumber": "B7",
@@ -89262,9 +89528,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B21",
     "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p2-B22",
     "questionNumber": "B22",

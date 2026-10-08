@@ -7,8 +7,8 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 8 October 2026
 
 49 general papers, 3,379 items: 3,273 MCQs and 106 written prompts.
-1,336 questions are ready for practice, including 1,224 official answers and
-112 independently derived answers. 2,013 items still need source review.
+1,428 questions are ready for practice, including 1,316 official answers and
+112 independently derived answers. 1,936 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -23,10 +23,11 @@ transcription and worked probability solution. Partial repairs are source-hash
 guarded and do not mark the rest of an OCR paper as reviewed.
 
 The official MPSC final keys for the March 2025 Stenographer Grade-III General
-Knowledge and General English papers are now attached. General Knowledge Q1–8
-were transcribed from printed page 1 and matched against the final key; the
-remaining OCR items stay gated until their printed question numbers, wording,
-and options are checked.
+Knowledge and General English papers are now attached. All 100 General
+Knowledge questions were transcribed from printed pages 1–8, including OCR
+gaps and merged rows, and matched against the final key. The paper is now
+eligible for Exam mode. The English paper and other OCR items stay gated until
+their printed question numbers, wording, and options are checked.
 
 The December 2024 combined exam has all 75 Paper I and 100 Paper II MCQs.
 Paper II Q84–100 were recovered from the complete Series B with matching

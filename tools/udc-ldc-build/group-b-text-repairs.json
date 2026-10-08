@@ -1400,7 +1400,7 @@
       "sourceSha256": "474c052c400bf240e59fb2b09f74114390b5593eec8e583879d032e4f0f81bf5",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–8 and all four options/order per item transcribed from rendered printed paper page 1; official final key separately checked against the 28 May 2025 MPSC table.",
+      "evidence": "All 100 questions and four options/order transcribed from rendered printed paper pages 1–8; all answer letters matched to the official 28 May 2025 MPSC final key.",
       "questions": {
         "1": {
           "n": 1,
@@ -1497,9 +1497,1112 @@
             "c": "Shiv Nadar",
             "d": "Anand Mahindra"
           }
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "part": null,
+          "q": "Which institution has published the Fiscal Health Index 2025?",
+          "opts": {
+            "a": "Reserve Bank of India",
+            "b": "Securities and Exchange Board of India",
+            "c": "NITI Aayog",
+            "d": "World Bank"
+          }
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "part": null,
+          "q": "Which state has become the first North Eastern state to sign a Memorandum of Understanding with Digital India Bhashini?",
+          "opts": {
+            "a": "Tripura",
+            "b": "Assam",
+            "c": "Nagaland",
+            "d": "Mizoram"
+          }
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "part": null,
+          "q": "Which country is the host of BRICS summit 2025?",
+          "opts": {
+            "a": "Russia",
+            "b": "Brazil",
+            "c": "China",
+            "d": "India"
+          }
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "part": null,
+          "q": "‘Constantine Tassoulas’ has been elected as president of which country in February 2025?",
+          "opts": {
+            "a": "Indonesia",
+            "b": "Vietnam",
+            "c": "Egypt",
+            "d": "Greece"
+          }
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "part": null,
+          "q": "‘Bart De Wever’ has been elected as Prime Minister of which country?",
+          "opts": {
+            "a": "Belgium",
+            "b": "France",
+            "c": "Italy",
+            "d": "Germany"
+          }
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "part": null,
+          "q": "Which state is home to India’s first white tiger breeding centre?",
+          "opts": {
+            "a": "Maharashtra",
+            "b": "Madhya Pradesh",
+            "c": "Gujarat",
+            "d": "Rajasthan"
+          }
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "part": null,
+          "q": "Which country has been placed under a state of emergency due to an “Earthquake Swarm” in February 2025?",
+          "opts": {
+            "a": "Japan",
+            "b": "Greece",
+            "c": "Nepal",
+            "d": "India"
+          }
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "part": null,
+          "q": "Which city is the host of the first ever “All India Transgender Conference 2025”?",
+          "opts": {
+            "a": "Indore",
+            "b": "Lucknow",
+            "c": "Ajmer",
+            "d": "Patna"
+          }
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "part": null,
+          "q": "Which state has become the first in India to have a translation system in the legislative assembly?",
+          "opts": {
+            "a": "Uttar Pradesh",
+            "b": "Madhya Pradesh",
+            "c": "Maharashtra",
+            "d": "Bihar"
+          }
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "part": null,
+          "q": "According to World Bank, what is the projected growth rate of Indian economy over the next two fiscal years (2025-2027)?",
+          "opts": {
+            "a": "6.3%",
+            "b": "6.5%",
+            "c": "6.7%",
+            "d": "7.1%"
+          }
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "part": null,
+          "q": "Mount Ibu, an active stratovolcano which was seen in the news, is located in which country?",
+          "opts": {
+            "a": "Philippines",
+            "b": "Vietnam",
+            "c": "Malaysia",
+            "d": "Indonesia"
+          }
+        },
+        "20": {
+          "n": 20,
+          "page": 2,
+          "part": null,
+          "q": "“Flamingo Festival 2025” is celebrated in which state?",
+          "opts": {
+            "a": "Odisha",
+            "b": "Tamil Nadu",
+            "c": "Kerala",
+            "d": "Andhra Pradesh"
+          }
+        },
+        "21": {
+          "n": 21,
+          "page": 2,
+          "part": null,
+          "q": "Which country’s president was the Chief Guest at India’s 76th Republic Day celebrations?",
+          "opts": {
+            "a": "France",
+            "b": "Russia",
+            "c": "Indonesia",
+            "d": "Australia"
+          }
+        },
+        "22": {
+          "n": 22,
+          "page": 2,
+          "part": null,
+          "q": "Who among the following has won the Men’s singles title in the recently held Australian Open 2025?",
+          "opts": {
+            "a": "Jannik Sinner",
+            "b": "Alexander Zverev",
+            "c": "Novak Djokovic",
+            "d": "Carlos Alcaraz"
+          }
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "part": null,
+          "q": "Recently, which state government inaugurated plastic waste management and recycling plant?",
+          "opts": {
+            "a": "Sikkim",
+            "b": "Assam",
+            "c": "Manipur",
+            "d": "Mizoram"
+          }
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "part": null,
+          "q": "Who among the following recently received the Lifetime Achievement Award at the Women Entrepreneurship Summit held in Delhi in March 2025?",
+          "opts": {
+            "a": "Rebecca L. Renthlei",
+            "b": "B. Sangkhumi",
+            "c": "Meriam L. Hrangchal",
+            "d": "Sanghmingliani"
+          }
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "part": null,
+          "q": "Who has received Padma Shri Award in 2025 from Mizoram?",
+          "opts": {
+            "a": "B. Lalthangliana",
+            "b": "Vanneihtluanga",
+            "c": "R. Lalrawna",
+            "d": "P. L. Liandinga"
+          }
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "part": null,
+          "q": "Which film won the Best Picture award at the 97th Academy Awards in 2025?",
+          "opts": {
+            "a": "The Brutalist",
+            "b": "Missing Ladies",
+            "c": "Anora",
+            "d": "The Crow"
+          }
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "part": null,
+          "q": "Which Indian women has been included in the ‘Time Magazine’ list of women of the year 2025?",
+          "opts": {
+            "a": "Dr. Purnima Devi Barman",
+            "b": "Mirabai Chanu",
+            "c": "Manu Bhaker",
+            "d": "Nirmala Sitharaman"
+          }
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "part": null,
+          "q": "Which of the following statements is true about Entomology?",
+          "opts": {
+            "a": "The study of Birds",
+            "b": "The study of Insects",
+            "c": "The study of Microbes",
+            "d": "The study of Parasitic worms"
+          }
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "part": null,
+          "q": "Which of the following is a non-renewable resource?",
+          "opts": {
+            "a": "Forest",
+            "b": "Water",
+            "c": "Wind",
+            "d": "Coal"
+          }
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "part": null,
+          "q": "What is the total percentage of nitrogen gas in the air?",
+          "opts": {
+            "a": "12 per cent",
+            "b": "21 per cent",
+            "c": "78 per cent",
+            "d": "87 per cent"
+          }
+        },
+        "31": {
+          "n": 31,
+          "page": 3,
+          "part": null,
+          "q": "Which one of the following is credited for developing blood grouping method?",
+          "opts": {
+            "a": "Karl Landsteiner",
+            "b": "Robert Kotch",
+            "c": "William Harvey",
+            "d": "Louis Pasteur"
+          }
+        },
+        "32": {
+          "n": 32,
+          "page": 3,
+          "part": null,
+          "q": "A poisonous gas given out of vehicles exhaust is-",
+          "opts": {
+            "a": "Carbon Monoxide",
+            "b": "Ethane",
+            "c": "Methane",
+            "d": "Carbon dioxide"
+          }
+        },
+        "33": {
+          "n": 33,
+          "page": 3,
+          "part": null,
+          "q": "Which of the following food components give energy to our body?",
+          "opts": {
+            "a": "Proteins",
+            "b": "Vitamins",
+            "c": "Minerals",
+            "d": "Carbohydrates"
+          }
+        },
+        "34": {
+          "n": 34,
+          "page": 3,
+          "part": null,
+          "q": "What is the main purpose of white blood corpuscles?",
+          "opts": {
+            "a": "To carry nutrients",
+            "b": "To give strength",
+            "c": "To combat infection",
+            "d": "To carry oxygen"
+          }
+        },
+        "35": {
+          "n": 35,
+          "page": 3,
+          "part": null,
+          "q": "Which of the following is a cold blooded animal?",
+          "opts": {
+            "a": "Ape",
+            "b": "Mouse",
+            "c": "Wolf",
+            "d": "Snake"
+          }
+        },
+        "36": {
+          "n": 36,
+          "page": 3,
+          "part": null,
+          "q": "LPG is a mixture of-",
+          "opts": {
+            "a": "Methane and butane",
+            "b": "Butane and propane",
+            "c": "Methane and propane",
+            "d": "Ethane and propane"
+          }
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "part": null,
+          "q": "Night blindness is caused due to the deficiencies of __________.",
+          "opts": {
+            "a": "Vitamin A",
+            "b": "Vitamin B",
+            "c": "Vitamin C",
+            "d": "Vitamin E"
+          }
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "part": null,
+          "q": "What is the name of the process by which plants convert sunlight into energy?",
+          "opts": {
+            "a": "Respiration",
+            "b": "Photosynthesis",
+            "c": "Oxidation",
+            "d": "Evolution"
+          }
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "part": null,
+          "q": "In India, the executive power of the state is vested in the-",
+          "opts": {
+            "a": "Chief Minister",
+            "b": "Prime Minister",
+            "c": "Governor",
+            "d": "Council of Ministers"
+          }
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "part": null,
+          "q": "How many members are nominated by the President in the Upper House?",
+          "opts": {
+            "a": "Five",
+            "b": "Twelve",
+            "c": "Seven",
+            "d": "Ten"
+          }
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "part": null,
+          "q": "What is the minimum number of members required to be present in any one of the two Houses of Parliament for its functioning?",
+          "opts": {
+            "a": "One-fifth of total members",
+            "b": "One-sixth of total members",
+            "c": "One-seventh of total members",
+            "d": "One-tenth of total members"
+          }
+        },
+        "42": {
+          "n": 42,
+          "page": 4,
+          "part": null,
+          "q": "How many Fundamental Rights are guaranteed by the Indian Constitution?",
+          "opts": {
+            "a": "4",
+            "b": "10",
+            "c": "8",
+            "d": "6"
+          }
+        },
+        "43": {
+          "n": 43,
+          "page": 4,
+          "part": null,
+          "q": "The term of office for a member of the Rajya Sabha is-",
+          "opts": {
+            "a": "3 years",
+            "b": "5 years",
+            "c": "6 years",
+            "d": "2 years"
+          }
+        },
+        "44": {
+          "n": 44,
+          "page": 4,
+          "part": null,
+          "q": "Which constitutional amendment lowered the voting age from 21 to 18?",
+          "opts": {
+            "a": "42nd Amendment",
+            "b": "44th Amendment",
+            "c": "61st Amendment",
+            "d": "73rd Amendment"
+          }
+        },
+        "45": {
+          "n": 45,
+          "page": 4,
+          "part": null,
+          "q": "The Directive Principles of State Policy are enshrined in which part of the Constitution?",
+          "opts": {
+            "a": "Part I",
+            "b": "Part II",
+            "c": "Part III",
+            "d": "Part IV"
+          }
+        },
+        "46": {
+          "n": 46,
+          "page": 4,
+          "part": null,
+          "q": "How many Schedules are there in the Indian Constitution?",
+          "opts": {
+            "a": "20",
+            "b": "25",
+            "c": "12",
+            "d": "8"
+          }
+        },
+        "47": {
+          "n": 47,
+          "page": 4,
+          "part": null,
+          "q": "What do Koalas usually eat?",
+          "opts": {
+            "a": "Bamboo",
+            "b": "Eucalyptus",
+            "c": "Aloe Vera",
+            "d": "Banana"
+          }
+        },
+        "48": {
+          "n": 48,
+          "page": 4,
+          "part": null,
+          "q": "In which year did Gandhiji start Satyagraha Movement?",
+          "opts": {
+            "a": "1919",
+            "b": "1927",
+            "c": "1934",
+            "d": "1942"
+          }
+        },
+        "49": {
+          "n": 49,
+          "page": 4,
+          "part": null,
+          "q": "Who among the following is known as ‘Bismarck of India’?",
+          "opts": {
+            "a": "Swami Vivekananda",
+            "b": "Bhagat Singh",
+            "c": "Lala Lajpat Rai",
+            "d": "Sardar Vallabhbhai Patel"
+          }
+        },
+        "50": {
+          "n": 50,
+          "page": 4,
+          "part": null,
+          "q": "Which of the following is the oldest mountain range in India?",
+          "opts": {
+            "a": "Himalayas",
+            "b": "Nilgiri",
+            "c": "Vindhya",
+            "d": "Aravalli"
+          }
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "part": null,
+          "q": "The first Viceroy of India was-",
+          "opts": {
+            "a": "Lord Canning",
+            "b": "Lord Mountbatten",
+            "c": "Lord William Bentinck",
+            "d": "Lord Wavell"
+          }
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "part": null,
+          "q": "The first War of Indian Independence was fought in-",
+          "opts": {
+            "a": "1947 AD",
+            "b": "1857 AD",
+            "c": "1600 AD",
+            "d": "1887 AD"
+          }
+        },
+        "53": {
+          "n": 53,
+          "page": 5,
+          "part": null,
+          "q": "The French Revolution broke out in-",
+          "opts": {
+            "a": "1789 AD",
+            "b": "1879 AD",
+            "c": "1600 AD",
+            "d": "1608 AD"
+          }
+        },
+        "54": {
+          "n": 54,
+          "page": 5,
+          "part": null,
+          "q": "The difference between Indian Standard Time and Greenwich Mean Time is-",
+          "opts": {
+            "a": "5 1/2 hrs",
+            "b": "4 1/2 hrs",
+            "c": "5 hrs",
+            "d": "6 hrs"
+          }
+        },
+        "55": {
+          "n": 55,
+          "page": 5,
+          "part": null,
+          "q": "Which planet in the solar system is known as the ‘Red Planet’?",
+          "opts": {
+            "a": "Venus",
+            "b": "Earth",
+            "c": "Mars",
+            "d": "Jupiter"
+          }
+        },
+        "56": {
+          "n": 56,
+          "page": 5,
+          "part": null,
+          "q": "Acrophobia is-",
+          "opts": {
+            "a": "Fear of flying",
+            "b": "Fear of bathing",
+            "c": "Fear of heights",
+            "d": "Fear of darkness"
+          }
+        },
+        "57": {
+          "n": 57,
+          "page": 5,
+          "part": null,
+          "q": "Equinox means:",
+          "opts": {
+            "a": "The longest day of the year",
+            "b": "The longest night of the year",
+            "c": "The periods when days and nights are almost equal",
+            "d": "The coldest day of the year"
+          }
+        },
+        "58": {
+          "n": 58,
+          "page": 5,
+          "part": null,
+          "q": "‘Oslo’ is the capital of:",
+          "opts": {
+            "a": "Norway",
+            "b": "Denmark",
+            "c": "Belgium",
+            "d": "Switzerland"
+          }
+        },
+        "59": {
+          "n": 59,
+          "page": 5,
+          "part": null,
+          "q": "The author of ‘War and Peace’ was-",
+          "opts": {
+            "a": "Leo Tolstoy",
+            "b": "Aldous Huxley",
+            "c": "Charles Dickens",
+            "d": "Adam Smith"
+          }
+        },
+        "60": {
+          "n": 60,
+          "page": 5,
+          "part": null,
+          "q": "‘A Tale of Two Cities’ was written by-",
+          "opts": {
+            "a": "Thomas Hardy",
+            "b": "Charles Dickens",
+            "c": "Pearl S. Buck",
+            "d": "Kuldit Nayar"
+          }
+        },
+        "61": {
+          "n": 61,
+          "page": 5,
+          "part": null,
+          "q": "‘Ben Hur’ has been written by-",
+          "opts": {
+            "a": "George Eliot",
+            "b": "Lewis Carroll",
+            "c": "Lewis Thomas",
+            "d": "Lew Wallace"
+          }
+        },
+        "62": {
+          "n": 62,
+          "page": 5,
+          "part": null,
+          "q": "Whose signature is found on the 10-rupee currency notes in India?",
+          "opts": {
+            "a": "Governor, RBI",
+            "b": "President of India",
+            "c": "Prime Minister of India",
+            "d": "Finance Secretary, Govt. of India"
+          }
+        },
+        "63": {
+          "n": 63,
+          "page": 5,
+          "part": null,
+          "q": "What is the number of members of the UN Security Council?",
+          "opts": {
+            "a": "12",
+            "b": "13",
+            "c": "14",
+            "d": "15"
+          }
+        },
+        "64": {
+          "n": 64,
+          "page": 5,
+          "part": null,
+          "q": "The Head Quarters of World Bank is in-",
+          "opts": {
+            "a": "Washington",
+            "b": "New York",
+            "c": "Montreal",
+            "d": "Geneva"
+          }
+        },
+        "65": {
+          "n": 65,
+          "page": 6,
+          "part": null,
+          "q": "Name the first men or man who reached the South Pole?",
+          "opts": {
+            "a": "Robert Peary",
+            "b": "Amundsen",
+            "c": "Byrd",
+            "d": "John Cabot"
+          }
+        },
+        "66": {
+          "n": 66,
+          "page": 6,
+          "part": null,
+          "q": "Which one of the following countries is not in Africa?",
+          "opts": {
+            "a": "Morocco",
+            "b": "Burundi",
+            "c": "Algeria",
+            "d": "Yemen"
+          }
+        },
+        "67": {
+          "n": 67,
+          "page": 6,
+          "part": null,
+          "q": "The currency of Thailand is-",
+          "opts": {
+            "a": "Dollar",
+            "b": "Baht",
+            "c": "Takka",
+            "d": "Pound"
+          }
+        },
+        "68": {
+          "n": 68,
+          "page": 6,
+          "part": null,
+          "q": "‘Port Louis’ is the capital of-",
+          "opts": {
+            "a": "Portugal",
+            "b": "Mauritius",
+            "c": "Zambia",
+            "d": "Rhodesia"
+          }
+        },
+        "69": {
+          "n": 69,
+          "page": 6,
+          "part": null,
+          "q": "With what game is ‘Santosh Trophy’ associated?",
+          "opts": {
+            "a": "Badminton",
+            "b": "Cricket",
+            "c": "Hockey",
+            "d": "Football"
+          }
+        },
+        "70": {
+          "n": 70,
+          "page": 6,
+          "part": null,
+          "q": "The term ‘Bully’ is associated with-",
+          "opts": {
+            "a": "Cricket",
+            "b": "Hockey",
+            "c": "Wrestling",
+            "d": "Tennis"
+          }
+        },
+        "71": {
+          "n": 71,
+          "page": 6,
+          "part": null,
+          "q": "What is rightfully known as the “Lungs of the Earth”?",
+          "opts": {
+            "a": "Amazon rainforest",
+            "b": "The Mississippi River",
+            "c": "The Sahara",
+            "d": "Mount Everest"
+          }
+        },
+        "72": {
+          "n": 72,
+          "page": 6,
+          "part": null,
+          "q": "Vikram Sarabhai Space Centre is located in-",
+          "opts": {
+            "a": "Maharashtra",
+            "b": "Gujarat",
+            "c": "Kerala",
+            "d": "Andhra Pradesh"
+          }
+        },
+        "73": {
+          "n": 73,
+          "page": 6,
+          "part": null,
+          "q": "‘Ceat’ is associated with-",
+          "opts": {
+            "a": "Tooth-paste",
+            "b": "Toilet soaps",
+            "c": "Tyres",
+            "d": "Booth-polish"
+          }
+        },
+        "74": {
+          "n": 74,
+          "page": 6,
+          "part": null,
+          "q": "‘Netaji’ is the name associated with-",
+          "opts": {
+            "a": "Jaya Prakash Narayan",
+            "b": "Subhash Chandra Bose",
+            "c": "Lal Bahadur Shastri",
+            "d": "Rabindra Nath Tagore"
+          }
+        },
+        "75": {
+          "n": 75,
+          "page": 6,
+          "part": null,
+          "q": "Who was known as ‘Man of Destiny’?",
+          "opts": {
+            "a": "Hitler",
+            "b": "Stalin",
+            "c": "Napoleon",
+            "d": "Mahatma Gandhi"
+          }
+        },
+        "76": {
+          "n": 76,
+          "page": 6,
+          "part": null,
+          "q": "Which of the following is the unit to express the memory of a computer?",
+          "opts": {
+            "a": "Bus",
+            "b": "Bytes",
+            "c": "CAD",
+            "d": "Compiler"
+          }
+        },
+        "77": {
+          "n": 77,
+          "page": 6,
+          "part": null,
+          "q": "What is known as “the brain of the computer”?",
+          "opts": {
+            "a": "Central Processing Unit",
+            "b": "Input Unit",
+            "c": "Control Unit",
+            "d": "Arithmetic Unit"
+          }
+        },
+        "78": {
+          "n": 78,
+          "page": 6,
+          "part": null,
+          "q": "‘Bonsai’ is the Japanese art of-",
+          "opts": {
+            "a": "Growing small trees",
+            "b": "Making dolls",
+            "c": "Arranging flowers",
+            "d": "Preparing tea"
+          }
+        },
+        "79": {
+          "n": 79,
+          "page": 6,
+          "part": null,
+          "q": "Operation Flood is-",
+          "opts": {
+            "a": "A flood control programme",
+            "b": "A technique to tame rivers",
+            "c": "The installation of floodlights",
+            "d": "A programme to increase milk supply"
+          }
+        },
+        "80": {
+          "n": 80,
+          "page": 7,
+          "part": null,
+          "q": "A ‘soft loan’ means-",
+          "opts": {
+            "a": "A short term loan",
+            "b": "A loan for agricultural operation",
+            "c": "A loan at a low interest rate",
+            "d": "A loan for consumption purposes"
+          }
+        },
+        "81": {
+          "n": 81,
+          "page": 7,
+          "part": null,
+          "q": "‘Meningitis’ is the infection of the-",
+          "opts": {
+            "a": "Eyes",
+            "b": "Skin",
+            "c": "Brain",
+            "d": "Throat"
+          }
+        },
+        "82": {
+          "n": 82,
+          "page": 7,
+          "part": null,
+          "q": "What is the hardest substance on earth?",
+          "opts": {
+            "a": "Silver",
+            "b": "Iron",
+            "c": "Gold",
+            "d": "Diamond"
+          }
+        },
+        "83": {
+          "n": 83,
+          "page": 7,
+          "part": null,
+          "q": "How many bones are there in the body of an adult human?",
+          "opts": {
+            "a": "198",
+            "b": "206",
+            "c": "258",
+            "d": "315"
+          }
+        },
+        "84": {
+          "n": 84,
+          "page": 7,
+          "part": null,
+          "q": "The first US President who visited India was:",
+          "opts": {
+            "a": "J. F. Kennedy",
+            "b": "D. Eisenhower",
+            "c": "Jimmy Carter",
+            "d": "George Washington"
+          }
+        },
+        "85": {
+          "n": 85,
+          "page": 7,
+          "part": null,
+          "q": "Arjuna Awards are given to individuals for-",
+          "opts": {
+            "a": "Outstanding contribution to Indian culture",
+            "b": "Outstanding contribution towards international understandings",
+            "c": "Outstanding contribution for enhancing the glory of the game",
+            "d": "Showing bravery in the faces of enemy attack"
+          }
+        },
+        "86": {
+          "n": 86,
+          "page": 7,
+          "part": null,
+          "q": "Choose the correct combination-",
+          "opts": {
+            "a": "February-Tau thla",
+            "b": "November-Sahmulphah thla",
+            "c": "April-Mimkut thla",
+            "d": "January-Ram tuk thla"
+          }
+        },
+        "87": {
+          "n": 87,
+          "page": 7,
+          "part": null,
+          "q": "Which is the odd one out-",
+          "opts": {
+            "a": "Chawnzial",
+            "b": "Hmui",
+            "c": "Herawt",
+            "d": "Rawchhem"
+          }
+        },
+        "88": {
+          "n": 88,
+          "page": 7,
+          "part": null,
+          "q": "Books and authors are given below. Choose the correct combination-",
+          "opts": {
+            "a": "Ka Lungkham-Lalrammawia Ngente",
+            "b": "Anita-James Dokhuma",
+            "c": "Thinglubul-Lalpekkima",
+            "d": "Rintei Zunleng-C. Laizawna"
+          }
+        },
+        "89": {
+          "n": 89,
+          "page": 7,
+          "part": null,
+          "q": "‘Kawtchhuah-ropui’ is located in:",
+          "opts": {
+            "a": "Hnahlan Village",
+            "b": "Farkawn Village",
+            "c": "Dungtlang Village",
+            "d": "Vangchhia Village"
+          }
+        },
+        "90": {
+          "n": 90,
+          "page": 7,
+          "part": null,
+          "q": "Choose the correct combination:",
+          "opts": {
+            "a": "Shri B. Lalchhanzova — Agriculture & Farmers Welfare",
+            "b": "Shri F. Rodingliana — Commerce & Industries",
+            "c": "Shri Lalthansanga — Art & Culture Department",
+            "d": "Shri PC Vanlalruata — Land, Revenue & Settlement"
+          }
+        },
+        "91": {
+          "n": 91,
+          "page": 7,
+          "part": null,
+          "q": "The tax on imports and exports of commodities is known as-",
+          "opts": {
+            "a": "Custom duties",
+            "b": "Excise duties",
+            "c": "VAT",
+            "d": "GST"
+          }
+        },
+        "92": {
+          "n": 92,
+          "page": 7,
+          "part": null,
+          "q": "Which Indian University is the highest ranked in the QS Asia Rankings 2025?",
+          "opts": {
+            "a": "IIT Bombay",
+            "b": "IIT Madras",
+            "c": "IIT Delhi",
+            "d": "University of Delhi"
+          }
+        },
+        "93": {
+          "n": 93,
+          "page": 8,
+          "part": null,
+          "q": "How many seats in the Lok Sabha are reserved for Scheduled Tribes?",
+          "opts": {
+            "a": "47",
+            "b": "29",
+            "c": "34",
+            "d": "50"
+          }
+        },
+        "94": {
+          "n": 94,
+          "page": 8,
+          "part": null,
+          "q": "Who discovered Solar System?",
+          "opts": {
+            "a": "Galileo",
+            "b": "Copernicus",
+            "c": "John Hadley",
+            "d": "Isaac Newton"
+          }
+        },
+        "95": {
+          "n": 95,
+          "page": 8,
+          "part": null,
+          "q": "‘OSD’ stands for-",
+          "opts": {
+            "a": "Officer on Special Duty",
+            "b": "Officer on Specific Duty",
+            "c": "Official on Special Duty",
+            "d": "On Special Duty"
+          }
+        },
+        "96": {
+          "n": 96,
+          "page": 8,
+          "part": null,
+          "q": "Coronavirus disease (COVID-19) is an infectious disease caused by the __________.",
+          "opts": {
+            "a": "SARS-CoV-1",
+            "b": "SARS-CoV-2",
+            "c": "SARS-CoV-3",
+            "d": "SARS-CoV-4"
+          }
+        },
+        "97": {
+          "n": 97,
+          "page": 8,
+          "part": null,
+          "q": "Hindi stenography has been developed by-",
+          "opts": {
+            "a": "Gopal Datt Bisht",
+            "b": "Gopal Dass Bisht",
+            "c": "Goyal Datt Bisht",
+            "d": "Goyal Dass Bisht"
+          }
+        },
+        "98": {
+          "n": 98,
+          "page": 8,
+          "part": null,
+          "q": "Pitman shorthand was developed by Sir Isaac Pitman in the year-",
+          "opts": {
+            "a": "1867",
+            "b": "1857",
+            "c": "1847",
+            "d": "1837"
+          }
+        },
+        "99": {
+          "n": 99,
+          "page": 8,
+          "part": null,
+          "q": "The Nodal Department for the Mizoram Lokayukta is the:",
+          "opts": {
+            "a": "Law & Judicial Department",
+            "b": "DP&AR",
+            "c": "Vigilance Department",
+            "d": "General Administration Department"
+          }
+        },
+        "100": {
+          "n": 100,
+          "page": 8,
+          "part": null,
+          "q": "The __________ deals with transfer and posting of Stenographers under the Govt. of Mizoram.",
+          "opts": {
+            "a": "DP&AR (ARW)",
+            "b": "DP&AR (GSW)",
+            "c": "DP&AR (SSW)",
+            "d": "DP&AR (CSW)"
+          }
         }
-      },
-      "partialReview": true
+      }
     }
   }
 }

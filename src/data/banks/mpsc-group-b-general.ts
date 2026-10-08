@@ -22499,6 +22499,35 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q74",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The simplest form of (x²−9)/(x²+x−6) is—",
+    "options": [
+      "(x−3)/(x−2)",
+      "(x−3)/(x+2)",
+      "(x+3)/(x+2)",
+      "(x+3)/(x−3)"
+    ],
+    "answerIndex": 0,
+    "explanation": "Factor numerator and denominator: [(x−3)(x+3)]/[(x+3)(x−2)]. Cancel x+3 to get (x−3)/(x−2).",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q75",
     "paperId": "mpsc-group-b-aao-2024-arithmetic",
     "questionNumber": "75",
@@ -22507,7 +22536,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Ifa:b=2:3andb:c=4:5,thena:b:c=?",
+    "question": "If a:b=2:3 and b:c=4:5, then a:b:c = ?",
     "options": [
       "15:12:8",
       "15:10:12",
@@ -22515,7 +22544,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
       "8:12:15"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The final key marks A, but matching the shared term b gives a:b=8:12 and b:c=12:15, so a:b:c=8:12:15 (D). The key/item conflict is held out from scoring pending clarification.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=8",
@@ -22526,8 +22555,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "The final key marks A, but the two ratios require 8:12:15 (D); held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q76",
@@ -22538,15 +22566,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "TheL.C.Moftwonumbersis48.Thenumbersareintheratio2:3.Findthesumofthenumbers.",
+    "question": "The L.C.M. of two numbers is 48. The numbers are in the ratio 2:3. Find the sum of the numbers.",
     "options": [
       "28",
       "32",
       "40",
       "64"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Let the numbers be 2x and 3x. Their LCM is 6x=48, so x=8; the sum is 16+24=40.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=8",
@@ -22555,10 +22583,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q77",
@@ -22569,15 +22595,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Theproductoftherootsoftheequation(x—6)(x—5)=0is—",
+    "question": "The product of the roots of the equation (x−6)(x−5)=0 is—",
     "options": [
-      "-30",
+      "−30",
       "30",
       "40",
       "64"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The roots are 6 and 5; their product is 30.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=8",
@@ -22586,10 +22612,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q78",
@@ -22600,15 +22624,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Thediscriminant(1)ofaquadraticequation2x?—5x—3=0is—",
+    "question": "The discriminant (D) of the quadratic equation 2x²−5x−3=0 is—",
     "options": [
       "49",
-      "~49",
+      "−49",
       "1",
-      "-1"
+      "−1"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "D=b²−4ac=(−5)²−4(2)(−3)=25+24=49.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=8",
@@ -22617,10 +22641,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q79",
@@ -22631,15 +22653,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Thezeroesofthepolynomialx?-x-6are-",
+    "question": "The zeroes of the polynomial x²−x−6 are—",
     "options": [
-      "-1and6",
-      "1and-6",
-      "—2and3",
-      "2and-3"
+      "−1 and 6",
+      "1 and −6",
+      "−2 and 3",
+      "2 and −3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Factor x²−x−6=(x−3)(x+2), so the zeroes are −2 and 3.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=8",
@@ -22648,10 +22670,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q80",
@@ -22662,15 +22682,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "The8\"termfromtheendoftheA.P.17,14,11,...-40is—°",
+    "question": "The 8th term from the end of the A.P. 17, 14, 11, …, −40 is—",
     "options": [
       "19",
-      "-19:",
+      "−19",
       "29",
-      "-29"
+      "−29"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The common difference is −3 and −40 is the 20th term. The eighth from the end is the 13th term: 17+12(−3)=−19.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=8",
@@ -22679,10 +22699,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q81",
@@ -22693,15 +22711,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Theladder20mlongjustreachesthetopofaverticalwall.Iftheladdermakes30°withtheground, findtheheightofthewall.",
+    "question": "The ladder 20 m long just reaches the top of a vertical wall. If the ladder makes 30° with the ground, find the height of the wall.",
     "options": [
-      "10m",
-      "20m",
-      "30m",
-      "40m"
+      "10 m",
+      "20 m",
+      "30 m",
+      "40 m"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The ladder is the hypotenuse. Wall height=20×sin30°=10 m.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=8",
@@ -22710,10 +22728,66 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q82",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The value of 441 ÷ [270 ÷ (3/7) + (17 ÷ (1/3)) − (8 1/2 − 5/2)] is—",
+    "options": [
+      "49/75",
+      "19/75",
+      "39/75",
+      "29/75"
+    ],
+    "answerIndex": 0,
+    "explanation": "Evaluate the bracket: 270÷(3/7)=630, 17÷(1/3)=51, and 8½−5/2=6. Thus 441/(630+51−6)=441/675=49/75.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q83",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "(8.73×8.73×8.73 + 4.27×4.27×4.27)/(8.73×8.73 − 8.73×4.27 + 4.27×4.27) is equal to—",
+    "options": [
+      "11",
+      "13",
+      "11/7",
+      "13/7"
+    ],
+    "answerIndex": 1,
+    "explanation": "Use (a³+b³)/(a²−ab+b²)=a+b. Here a=8.73 and b=4.27, so the value is 13.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=8",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q84",
@@ -24557,7 +24631,9 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart4: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2025-p2-Q10",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -24632,9 +24708,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart4: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q13",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -32351,7 +32425,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 36–40): Given below are four jumbled sentences. Select the option that gives the correct order."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-english-B38",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -32441,9 +32517,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 36–40): Given below are four jumbled sentences. Select the option that gives the correct order."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-english-B41",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -40671,7 +40745,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-gk-Q19",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -40746,9 +40822,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-gk-Q22",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -48376,7 +48450,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 16–20): In each question four sentences are given. Choose the sentence that is grammatically and contextually incorrect."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B17",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -48466,9 +48542,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 16–20): In each question four sentences are given. Choose the sentence that is grammatically and contextually incorrect."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B20",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -56346,7 +56420,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p1-B57",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -56430,9 +56506,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p1-B60",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -64063,7 +64137,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q42",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -64144,9 +64220,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q45",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -72972,7 +73046,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q14",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -73061,9 +73137,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q17",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -81236,7 +81310,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B41",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p1-B42",
     "questionNumber": "B42",
@@ -81317,9 +81393,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B44",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p1-B45",
     "questionNumber": "B45",
@@ -89078,7 +89152,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B17",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B18",
     "questionNumber": "B18",
@@ -89159,9 +89235,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B20",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B21",
     "questionNumber": "B21",

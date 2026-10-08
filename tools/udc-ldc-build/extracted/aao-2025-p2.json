@@ -1,0 +1,2164 @@
+{
+  "slug": "aao-2025-p2",
+  "exam": "AAO / AAAO / Field Facilitator",
+  "sitting": "November 2025",
+  "subject": "General Knowledge, Arithmetic & Reasoning",
+  "source": "General Knowledge - Series A..pdf",
+  "sourceSha256": "bc5c3e61f87c08bfb58c0bd42f846ac932ca5d7f0bc9c3a6467d7c17021d1d9c",
+  "ocr": false,
+  "count": 93,
+  "questions": [
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(ii) and (iii) only",
+        "c": "(i) and (iii) only",
+        "d": "All of the above (a)(i) and (ii) only(b)(ii) and (iv) only (c)(i), (ii), and (iv) only(d)All of the above (a)Promoting Global Trade and Investment for Sustainable Growth (b)Building Resilient Economies through Green Energy (c)Strengthening Global South Cooperation for a More Inclusive and Sustainable Governance (d)Harnessing Technology for Development and Peace (a)Grace Lalnunpari Hauzel(b)Grace Lalrampari Hauzel (c)Grace Lalropari Hauzel(d)Grace Lalrinpari Hauzel (a)Only (i) and (ii)(b)Only (ii) and (iii) (c)Only  (iii) and  (iv)(d)Only (i) and (iv) means Productivity for Agricultural Credit Societies. 2025. (a)(i), (ii) and (iii)(b)(ii), (iii) and (iv) (c)(i), (iii) and (iv)(d)(i), (ii) and (iv) (a)(i) and (ii) only(b)(ii) and (iii) only (c)(ii) only(d)(i), (ii) and (iii) representation of depressed classes. (a)(i) only(b)(ii) only (c)Both (i) and (ii)(d)Neither (i) nor (ii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There will be penalty (negative marking) for every wrong answer given by a candidate in the MCQ type questions. 1.Consider the following statements about the NISAR (NASA-ISRO Synthetic Aperture Radar) satellite mission launched in 2025: (i)NISAR is a joint collaboration between ISRO and NASA. (ii)The satellite is designed to map Earth’s surface every 12 days and track climate threats. (iii)NISAR is India’s first geostationary satellite dedicated to climate observation. Select the correct answer using the code below:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(ii) and (iii) only",
+        "b": "(ii) only",
+        "c": "(i) and (ii) only",
+        "d": "None"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements in the context of Samudragupta’s reign: (i)Vishnusena eulogised the military expeditions of Samudragupta on a pillar at Allahabad. (ii)Chinese traveller Fa-hein visited the court of Samudragupta (iii)Samudragupta adopted the famous title ‘Vikramaditya’. Which of the statements given above is/are correct ?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Burning of police post by a mob",
+        "b": "A major offensive by underground revolution",
+        "c": "Large scale looting of government property",
+        "d": "Massive police firing on unarmed satyagrahis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Chauri-Chaura incident during non-cooperation movement (February, 1922) relates to",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bhagat Singh",
+        "b": "Mahatma Gandhi",
+        "c": "Subhas Chandra Bose",
+        "d": "Bal Gangadhar Tilak"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The slogan ‘Inquilab Zindabad’ was popularized during India’s freedom struggle by which leader?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bengal Eastern Frontier Regulation, 1873",
+        "b": "Eastern Bengal Frontier Regulation, 1873",
+        "c": "North  Eastern Frontier Regulation, 1873",
+        "d": "East Bengal Frontier Regulation, 1873"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Inner Line Regulation of 1873, a British Colonial Policy in North East India to restrict outsiders into the tribal areas was formally known as:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(ii) and (iii) only",
+        "c": "(i) and (iii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following conditions increases the rainfall during the Southwest Monsoon? (i)Positive Indian Ocean Dipole (ii)La Niña Condition in Pacific Ocean (iii)Strengthening of the Siberian High Select the correct answer using the code given below.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dead Sea",
+        "b": "Mediterranean Sea",
+        "c": "Persian Gulf",
+        "d": "Red Sea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gaza strip lies along the coast of",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Earth is farthest from the Sun",
+        "b": "The Earth experiences an equinox",
+        "c": "The Sun is at the highest point in the sky",
+        "d": "The Earth is closest to the Sun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Perihelion’ refers to the point in the Earth’s orbit when",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "i–C, ii–A, iii–B, iv–D",
+        "b": "i–B, ii–D, iii–A, iv–C",
+        "c": "i–D, ii–C, iii–B, iv–A",
+        "d": "i–A, ii–C, iii–D, iv–B"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match the following straits with the water bodies/countries they connect: **List – I (Straits)** (i)Strait of Gibraltar(ii)Palk Strait (iii)Bering Strait(iv)Malacca Strait **List – II (Connections)** A) India and Sri Lanka B) Pacific Ocean and Arctic Ocean C) Atlantic Ocean and Mediterranean Sea D) Indian Ocean and South China Sea Options:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii)",
+        "b": "(i), (ii) and (iii)",
+        "c": "(ii), (iii) and (iv)",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Ganga river passes through which among the following states of India? (i)Madhya Pradesh (ii)Uttarakhand (iii)Jharkhand (iv)West Bengal Choose the correct option from the code given below:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tuirini",
+        "b": "Tlawng",
+        "c": "Tuirial",
+        "d": "Khawthlangtuipui"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sonai is another name for river:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (iii) only",
+        "b": "(i) only",
+        "c": "(ii) and (iii) only",
+        "d": "(i) and (ii) only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following can introduce a bill to amend the Constitution of India? (i)A minister who is not a part of the Parliament (ii)Leader of Opposition (iii)Attorney General Select the correct answer using the code given below.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(i) and (iii) only",
+        "c": "(ii) and (iii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding the Presidential Reference under Article 143 of the Constitution of India: (i)The President can refer any question of law or fact to the Supreme Court for its advisory opinion. (ii)The opinion given by the Supreme Court is binding on the President and other authorities. (iii)The President can refer a question even when Parliament is not in session. Select the correct answer using the code below:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Right to property",
+        "b": "Right to Equality",
+        "c": "Right to constitutional remedies",
+        "d": "Right to freedom of religion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which right was described by Dr. B.R Ambedkar as ‘The heart and soul of the constitution’?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "18",
+        "b": "20",
+        "c": "21",
+        "d": "22"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At present, how many languages are recognized in the 8th Schedule of the Indian Constitution?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National Commission for Backward Classes",
+        "b": "Reservation for Economically weaker sections",
+        "c": "Reservation for women",
+        "d": "Goods & Services Tax"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 101st Constitutional Amendment Act deals with:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Electronics and Information Technology that offers real-time, multilingual translation, transcription and summarization services.",
+        "b": "Department of Telecommunications to provide Indian citizens with access to a wide array of central and state government services.",
+        "c": "Election Commission of India to help candidates with the nomination and permission process during election periods.",
+        "d": "National Informatics Centre for instant messaging platform."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Suvidha’ is a Mobile application developed by:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(ii) and (iii) only",
+        "c": "(i) and (iii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following policies promote gender-inclusive economic growth? (i)Stand Up India Scheme (ii)Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) (iii)Pradhan Mantri Ujjwala Yojana Select the correct answer:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(iii) only",
+        "c": "(ii) and (iii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Monetary Policy Committee (MPC) determines the policy interest rate required to achieve the inflation target. In this context, which of the following may be recommended by the MPC to control deflation in the economy? (i)Increase in Cash Reserve Ratio (CRR) (ii)Increase in Bank rate (iii)Decrease in Reverse Repo Rate Select the correct answer using the code given below.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4.4%",
+        "b": "3.5%",
+        "c": "5.0%",
+        "d": "6.0%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the target fiscal deficit as a percentage of GDP for 2025–26?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Personal Income + Subsidies",
+        "b": "Personal Income – Subsidies",
+        "c": "Personal Income – Direct Taxes",
+        "d": "Personal Income – Indirect Taxes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is meant by personal disposable income?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(ii) and (iii) only",
+        "c": "(i) and  (iii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With respect to Lakpati Didi Scheme, consider the following: (i)It is implemented by Ministry of Rural Development. (ii)Its goal is to increase the annual household income of SHG women to at least ₹1 lakh. (iii)It is an initiative and an outcome of DAY-NULM. Based on the code given below, select the correct statement:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Public investors, particularly from outside the State.",
+        "b": "Private investment, particularly from outside the State.",
+        "c": "Public Sector Undertaking, particularly from outside the State.",
+        "d": "Both private and public investors operating in the State of Mizoram"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mizoram Sustainable Investment Policy, 2024 aims to attract-",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(ii) only",
+        "b": "(i) and (ii) only",
+        "c": "(ii) and (iii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following about an ecosystem is/are correct? (i)Biotic components interact with abiotic factors of the ecosystem but they do not interact among themselves. (ii)Organisms present in the ecosystem interact with surrounding environment and exchange mass as well as energy with it. (iii)Decomposers are not a part of an ecosystem. Select the correct answer using the code given below.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) and (iii) only",
+        "b": "(i) and (iv) only",
+        "c": "(ii), (iii) and (iv) only",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Evil Quartet’ refers to the primary causes of species extinction. Which of the following are included in it? (i)Habitat loss (ii)Overexploitation of species (iii)Introduction of invasive species (iv)Eutrophication Select the correct answer using the code below:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only (i)",
+        "b": "Only (i) and (ii)",
+        "c": "(i), (ii) and (iii)",
+        "d": "only (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to waste management rule in India, the concept of Extended Producer Responsibility is incorporated in how many of the following rules? (i)Plastic Waste Management (Second Amendment) Rules (ii)Battery Waste Management Rules (iii)E-Waste (Management) Rules Select the correct answer using the code given below.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(ii) and (iii) only",
+        "c": "(i) and (iii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to United Nations Framework Convention on Climate Change (UNFCCC), consider the following statements: (i)It was adopted at the Rio Earth Summit. (ii)It aims to stabilize greenhouse gas concentrations. (iii)It mandates developed countries to reduce carbon emissions by 50% every decade. Which of the statements given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Environment (Protection) Act, 1986",
+        "b": "Forest Conservation Act, 1980",
+        "c": "Water Act, 1974",
+        "d": "Forest (Conservation) Amendment Act, 2023"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Environmental Impact Assessment (EIA) in India became mandatory under which Act?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Launch the Millennium Development Goals (MDGs)",
+        "b": "Replace the Kyoto Protocol",
+        "c": "Develop Sustainable Development Goals (SDGs)",
+        "d": "Establish Paris Agreement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One of the key results of Rio+20 was the decision to:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(ii) and (iii) only",
+        "c": "(i) and (iii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements about photoelectric effect is/are correct? (i)It provides evidence for the particle nature of light. (ii)Electrons are emitted only if the incident light frequency is above a certain threshold. (iii)Electrons can be emitted even if no light is incident on the metal. Select the correct answer using the code given below.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pepsin",
+        "b": "Protease",
+        "c": "Salivary amylase",
+        "d": "Lipase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following enzymes of digestive system breaks down starch into sugar?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Radio waves",
+        "b": "Ultrasonic sound waves",
+        "c": "Infrared waves",
+        "d": "Microwaves"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which category of waves enables bats to employ echolocation for spatial navigation and prey detection in darkness?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "112",
+        "b": "114",
+        "c": "116",
+        "d": "118"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Number of elements in the periodic table is:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Epicenter",
+        "b": "Focus",
+        "c": "Fault",
+        "d": "Foreshocks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The point deep within the earth’s crust where an earthquake’s energy is released is called:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Forensic Science",
+        "b": "Space Science",
+        "c": "Computer Science",
+        "d": "Atmospheric Science"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘supernova’ is associated with:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dartawnsuk",
+        "b": "Chhawn",
+        "c": "Vakul chang",
+        "d": "Vakiria"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In traditional Mizo society, which head ornament was worn only by men who had killed an enemy?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khuantevik – Vartian – Khawfingchah - Fehrehsan",
+        "b": "Vartian - Khawfingchah – Khuantevik - Fehrehsan",
+        "c": "Khawfingchah – Vartian – Khuantevik - Fehrehsan",
+        "d": "Fehrehsan – Khawfingchah – Vartian - Khuantevik"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrange the following names given by Mizo society for identification of local time in a chronological order:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "inru",
+        "b": "tlandun",
+        "c": "fan",
+        "d": "luhkhung"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A man leaving his house and living with a woman in the woman’s house as husband and wife is called:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3 days",
+        "b": "5 days",
+        "c": "7 days",
+        "d": "10 days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In traditional Mizo society, ‘sedawi chhun’ ritual was observed for how many days:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "J. Shakespeare",
+        "b": "Granville Henry Loch",
+        "c": "TH Lewin",
+        "d": "HGW Cole"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the editor of the first Mizo dialect journal, Mizo Chanchin Laisuih?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Superintendent to help the Chief",
+        "b": "Chief to help himself/herself as and when required",
+        "c": "Elders (Upa) to help the Chief",
+        "d": "Chief to help the Village Elders (Khawnbawl Upa)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In every village, there was a village-writer (khawchhiar) appointed by the:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hringlang tlang",
+        "b": "Pluck the flower (Hawilo par)",
+        "c": "Pialral",
+        "d": "Drink lungloh tui"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person need to complete the sequence of sacrificial rites to god during his/her life time on earth for going to:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zawlnuam Assembly Constituency",
+        "b": "Kawrthah Assembly Constituency",
+        "c": "West Phaileng Assembly Constituency",
+        "d": "Phuldungsei Assembly Constituency"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From 1972 until the Assembly Constituency was redrawn and renamed in 2008, Dampa  Assembly Constituency was known as:",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The remainder when 2¹⁰⁰ is divided by 5 is:",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "99999",
+        "b": "99350",
+        "c": "99880",
+        "d": "99370 1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The largest number of five digits which, when divided by 16, 24, 30 or 36, leaves the same remainder 10 in each case is:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "1 53 43",
+        "c": "3",
+        "d": "2 55"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "1+2÷1+2÷1+ is equal to : 3 44",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "56 cm²",
+        "b": "50 cm²",
+        "c": "112 cm²",
+        "d": "100 cm²"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The area of a circle is 176 square cm. What will be the area of square inscribed in this circle?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9 cm",
+        "b": "6 cm",
+        "c": "7.5 cm",
+        "d": "5.5 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A solid cone of radius 21 cm and height 10/7 of its radius is melted to form four equal solid cylinders of radius 7 cm. What is the difference between the height of the cone and height of each of the solid cylinders?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3:2",
+        "b": "1:3",
+        "c": "2:3",
+        "d": "3:1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the angles of elevation of the top of a tower from three collinear points A, B and C, on a line leading to the foot of the tower, are 30°, 45° and 60°, respectively, then the ratio, AB : BC, is:",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "60°",
+        "b": "80°",
+        "c": "100°",
+        "d": "120°"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When a clock shows the time 7 : 20, what is the angle between its minute hand and the hour hand?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9πcm",
+        "b": "10π cm",
+        "c": "12π cm",
+        "d": "13.6π cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The radius of a circle is 30 cm. The length of the arc of this circle whose chord is 30 cm long, is:",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "280",
+        "b": "560",
+        "c": "600",
+        "d": "720"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many 4-digit numbers can be formed with no digit repeated by using the digits 3, 4, 5, 6, 7, 8 and 0?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 65 11",
+        "c": "",
+        "d": " 43 311"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A coin and a dice are thrown at random. What is the probability that a composite number turns up on the dice and tail turns up on the coin? 11",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "60",
+        "b": "59",
+        "c": "58",
+        "d": "61"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 2nd , 31st and the last terms of an AP are 7, and−6 respectively. The total number of 422 terms in this AP is:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10 m/s",
+        "b": "12 m/s",
+        "c": "13 m/s",
+        "d": "15 m/s 2x−159"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A train crosses a platform which is 60% longer than the length of train in 39 seconds. If the length of the platform is 240 m, what is the speed of the train?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "5",
+        "c": "2",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If 5=ₓ then the value of x will be: 125",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3",
+        "b": "4",
+        "c": "1",
+        "d": "2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The least value of 2sin²θ+3cos²θ is:",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "90",
+        "b": "112",
+        "c": "105",
+        "d": "75"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The number of students in 3 classes is in the ratio 6 : 7 : 8. If 15 students are increased in each class this ratio changes to  9 : 10 : 11. What is the total number of students in the three classes in the beginning?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "69",
+        "b": "70",
+        "c": "70.5",
+        "d": "71"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average marks of  45 students was found to be 70. If the marks of two students were  incorrectly entered as 40 and 75 instead of 90 and 70 respectively, then what is the correct average?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "60 hrs.",
+        "b": "30 hrs.",
+        "c": "90 hrs.",
+        "d": "75 hrs."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A cistern can filled in 9 hrs. But due to a leak, it takes one hour more. If the cistern is full,  in what time will it become empty due to the leak?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1678",
+        "b": "1458",
+        "c": "1669",
+        "d": "1665"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sum of all 2-digits number divisible by 3, is:",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6.22",
+        "b": "6",
+        "c": "13.5",
+        "d": "7.5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A boat can travel 16.9 km downstream in 52 min. If the speed of the current is 3 km/h, then how much time( in hours) will the boat take to travel 84 km upstream?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A King decided to distribute 1260 coins among his three sons, X, Y and Z in the ratio of 2 : 3 : 4, respectively but mistakenly, he distributed the coins in the ratio of 2 : 3 : t, respectively and thus Z got 200 coins less than he was supposed to receive. The value of t is:",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "42 days",
+        "b": "30 days",
+        "c": "36 days",
+        "d": "40 days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A and B together can do a piece of work in 18 days. B and C together can do it in 24 days. If A is twice as good a workman as C, in what time B alone can do the same work?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "46 km",
+        "b": "60 km",
+        "c": "45 km",
+        "d": "54 km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dina covers 80 km in 5 hours. He covers some part of distance by cycle at the speed of 13 km/hr and rest part by bike running at the speed of 18 km/hr. How many distance does he cover with his bike?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "27 litre",
+        "b": "30 litre",
+        "c": "20 litre",
+        "d": "36 litre"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "24 litres of a mixture contains milk and water in the ratio 5:3. Then the amount of milk to be added to the mixture so as to have milk and water in the ratio 5:1 is:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "21.875%",
+        "b": "24.125%",
+        "c": "20.6%",
+        "d": "23.75%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kima and Rama, two shopkeepers, buy articles for ₹ 8000 and ₹ 5000, respectively. Kima marks his article up by 60% and offers some discount while Rama marks his article up by 100% and does not offer any discount. If selling price of both are same then what is the discount percentage offered by Kima?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "32%",
+        "b": "33%",
+        "c": "34%",
+        "d": "35%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In an examination, A obtained 27% marks and failed by 77 marks. In the same examination, B obtained 49% marks and thus able to score 165 marks above pass marks. Find the pass percentage of the examination.",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "₹ 26,000",
+        "b": "₹ 28,000",
+        "c": "₹ 30,000",
+        "d": "₹ 32,000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There are 25 employees in a company, out of which 40% are officers and rest are workers. Average salary of each employee in the company is ₹ 17,600 and sum of the salaries of all the workers in the company is ₹ 1,20,000. Find the average salary of each officer in the company.",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10%",
+        "b": "12%",
+        "c": "14%",
+        "d": "16%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A sum of ₹ 7500 is invested in scheme offering r% compound interest for 2 years. Find the value of ‘r’ if the difference in the simple interest and compound interest for the same amount at the same rate of interest after 2 years is ₹ 108.",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "120%",
+        "b": "100%",
+        "c": "80%",
+        "d": "60%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dama purchases a track suit for ₹ 2400 for cash or for ₹ 1000 cash down payments and two monthly installments of ₹ 800 each. The rate of the interest is:",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5% profit",
+        "b": "5 % loss",
+        "c": "5.5 profit",
+        "d": "5.5 % loss"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person earns 20% on an investment but loses 25% on another investment. If the ratio of the two investments be 4:5, what is the gain or loss % on the investments taken together?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "19 year",
+        "b": "20 year",
+        "c": "22 year",
+        "d": "24 year"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Five years ago, age of Sawma was ‘x – 13’ years, while after 10 years, age of Dingi will become ‘x + 10’ years. If ratio of present ages of Sawma and Dingi is 2:3, respectively, then find the value of ‘x’.",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question Nos. 81 & 82) : Select the word pair in which the two words are related in the",
+      "opts": {
+        "a": "Power : Watt",
+        "b": "Volume : Litre",
+        "c": "Second : Time",
+        "d": "Pascal : Electric current"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ohm : Electrical resistance",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bee : Hive",
+        "b": "Hare : Den",
+        "c": "Lion : Burrow",
+        "d": "Spider : Shed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dog : Kennel",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question Nos. 83 & 84) :  Choose the odd word from the following list of words.",
+      "opts": {
+        "a": "Snicker",
+        "b": "Whoop",
+        "c": "Walk",
+        "d": "Roar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Scare",
+        "b": "Bountiful",
+        "c": "Abundant",
+        "d": "Copious"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question Nos. 85 & 86) : Identify the odd one from the following.",
+      "opts": {
+        "a": "RY:SZ",
+        "b": "MP:NO",
+        "c": "QW:RV",
+        "d": "CE:DD"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MN, 37",
+        "b": "RQ, 35",
+        "c": "HI, 17",
+        "d": "TS, 39"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "F67E",
+        "b": "G65E",
+        "c": "E65E",
+        "d": "H66E"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What will come in place of question mark (?)? W1A, S2B, O5C, K16D, ?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Medicine",
+        "b": "Doctor",
+        "c": "Hospital",
+        "d": "Fever"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As ‘Crime’ is related to ‘Court’, in the same way ‘Sickness’ is related to:",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "26",
+        "b": "25",
+        "c": "24",
+        "d": "27"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a certain code language, ‘PRO’ is coded as ‘48’ and ‘BAL’ is coded as ‘14’. How will ‘COH’ be coded in that language?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5",
+        "b": " 2",
+        "c": "29",
+        "d": "30"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If ‘’ means ‘+’ ; ‘-’ means ‘×’ ; ‘+’ means ‘’ and ‘×’ means ‘-’ then 2012×4+8-6=_______ 61",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15 km, North",
+        "b": "25 km, North",
+        "c": "15 km, South",
+        "d": "25 km, South"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "John moved 6 km to East. Then he moved 10 km after turning to his right. He then moved 6 km after turning to his right. Again he moved 15 km after turning to his left. How far and in what direction is he from the starting position?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mother",
+        "b": "Mother-in-law",
+        "c": "Sister-in-law",
+        "d": "Sister"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A−B means ‘ A is the mother of B’. AB means ‘A is the sister of B’. A%B means ‘A is the husband of B’. A#B means ‘A is the son of B’. If P−Q−RS#T, then how is P related to T?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nephew",
+        "b": "Aunt",
+        "c": "Cousin",
+        "d": "Mother"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ruata is the son of Muana, Kimi is the daughter of Ruata. Hmingi is the daughter of Dena and Dena is the brother of Muana. How is Hmingi related to Kimi?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "16th",
+        "b": "29th",
+        "c": "21st",
+        "d": "30th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "X is 7th from the top while Y is 16th from the bottom in the class ranking. If they interchange their positions, then X becomes 21st from the top. What will be the position of Y from the bottom?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "17th",
+        "b": "16th",
+        "c": "14th",
+        "d": "13th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a row of girls Sawmi is 10th from the left and Rini is 11th from the right. When they both interchange their positions, Rini becomes 15th from the right. What will be Sawmi’s new position from the left?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "R",
+        "b": "M",
+        "c": "B",
+        "d": "J"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Among five boys, B is taller than M, but not as much as R. J is taller than D but shorter than M. Who is the tallest?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4",
+        "b": "1",
+        "c": "6",
+        "d": "2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two different positions of the same dice are shown, the six faces of which are numbered from 1 to 6. Select the number that will be on the face opposite to the one showing ‘3’. 1 6 36 44",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From the following four figures, choose the figure that best represents the group of : Table, Bench, Furniture.",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 14,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question Nos. 99 & 100) :  Read the following information carefully and answer the",
+      "opts": {
+        "a": "A",
+        "b": "E",
+        "c": "F",
+        "d": "Can not be determined"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is third to the left of D?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 14,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "D and E are facing each other",
+        "b": "C is third to the right of D",
+        "c": "E is between H and D",
+        "d": "A is between C and F"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not true?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q4 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q6 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q7 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  }
+}

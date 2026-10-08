@@ -9,6 +9,102 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-08 — Group B answer readiness repairs
+
+**What shipped locally.** Source-checked and repaired AAO English Q2, AAO
+Arithmetic Q71, SI Police Paper-II Q53–54, and the readable text/options for
+Inspector of Statistics Paper-II Q54, Q55, Q67, Q71 and Q91, plus AAO 2025
+Paper-II Q60. Four Inspector items and AAO Q60 now have worked independent
+solutions; Q55 remains unscored because the printed calculation is ambiguous.
+Group B now has 1,328 practice-ready questions (1,216 official, 112 derived)
+and 2,021 items under source review.
+
+**Why.** OCR had merged unrelated layout records into answer options or
+discarded mathematical notation. Each repair is guarded by the paper's SHA256;
+partial review does not imply the rest of that paper is verified. Independently
+calculated answers are labeled derived and include their reasoning.
+
+**What's still open.** Most source-review items still need page-by-page
+transcription or a matched official key. The largest queues are the scanned
+JAO/AAO/Stenographer/Excise papers and papers whose official keys have not
+been matched. Unverified answers stay out of scored practice.
+
+---
+
+## 2026-10-09 — AAO GK source transcription completed
+
+**What shipped locally.** Checked all 100 AAO September 2024 GK questions
+against all 11 printed pages, repairing the missing question numbers, OCR
+option bleed, merged words, broken numerals, and damaged option text. Answers
+still come from the MPSC final key; Q73 uses its 15 October corrigendum. Q13
+has two accepted answers (B and D) and stays out of single-answer scoring.
+Group B now reports 1,319 ready questions, 1,212 with official answers, and
+2,030 items still under source review.
+
+**Why.** The first supplement had every question number after recovery, but the
+OCR output left many stems/options unusable and silently spliced neighboring
+items. The full page-by-page pass makes this paper browsable without treating
+OCR coverage as source verification.
+
+**What's still open.** Recover the incomplete AAO English/arithmetic scans,
+then move to other incomplete general papers and papers with unmatched keys.
+The broader Group B source-review backlog is 2,030 items.
+
+---
+
+## 2026-10-08 — AAO GK scan cleanup continues
+
+**What shipped locally.** Repaired AAO GK Q2, whose option D had absorbed
+Q3's choices, and Q11, whose ordinal dates were mangled by OCR. Both were
+checked against printed pages 1–2 and their final-key cells; they are now
+usable with official answers. The set has 13 source-reviewed questions and
+1,233 practice-ready Group B questions (1,126 official); 2,116 items remain
+under source review.
+
+**Why.** These are visible extraction errors that were previously left hidden
+inside OCR review records. The repairs preserve option order and leave official
+answer values in the key input.
+
+**Verified.** The generated bank rebuilt byte-for-byte, all five repair tests
+pass, and the full build passes. Browser verification of the new Q2/Q11 display
+is running against the local app.
+
+**What's still open.** 87 AAO GK items still need source review. This partial
+paper stays excluded from full Exam mode until the rest is reviewed.
+
+---
+
+## 2026-10-08 — Group B AAO recovery and visible coverage
+
+**What shipped locally.** Recovered ten missing AAO September 2024 GK
+questions from rendered printed pages and repaired Q4's matching lists.
+The paper now has all 100 questions; eleven visually checked items enter
+practice with official answers, while the other 89 remain under source review
+and the paper stays outside Exam. Q73 links to and scores with the October 15
+corrigendum (B), preserving the correction over the original final key (D).
+Durable text repairs are separate from OCR caches and generated banks, with
+source-hash, numbering, options and answer-override guards plus five tests.
+The Group B paper library now shows overall progress and distinguishes official
+scorable answers from key candidates still requiring text review.
+
+**Why.** OCR coverage was being mistaken for usable question coverage.
+Recovering the missing questions and explicitly reviewing their option order
+adds eleven usable items without promoting the rest of the scan. Totals are
+49 papers, 3,379 items, 1,231 ready (1,124 official), 2,118 needing source review.
+Fixed an existing Combined Prelims build blocker by typing question options
+as `string[]`, removing four implicit-any errors in option callbacks.
+
+**Verified.** Five repair tests pass, the production build passes, and repeated
+bank builds are byte-identical. Browser checks pass on mobile and desktop,
+including all 100 AAO GK cards, Q73's corrigendum scoring/link, progress counts,
+partial-review exam exclusion and the existing Group B flows, with no runtime
+exceptions.
+
+**What's still open.** The remaining AAO GK items, incomplete English and
+arithmetic scans, unmatched keys and the wider source-review queue. Changes
+remain local and uncommitted. Operational details are in
+`tools/udc-ldc-build/GROUP-B.md`.
+
 ## 2026-10-07 — NCERT question cards follow UDC/LDC interaction
 
 Replaced collapsed Browse rows with full question cards: visible options, one-tap marking, verdict, explanation and source PDF. Practice now uses the same card and marks immediately on option selection. The module identifies its 80 questions as an authored starter set; the 394 extracted chapter-end prompts are mostly open-ended and not ready-to-score MCQs. Mobile and desktop browser checks cover the card, scroll and quiz flow. The study guide and further source-checked MCQ authoring remain open.

@@ -1,0 +1,780 @@
+{
+  "slug": "je-agri-2026-p1",
+  "exam": "Junior Engineer, Agriculture & Farmer Welfare",
+  "sitting": "March 2026",
+  "subject": "General English",
+  "source": "JE under Agri&Farmer Welfare March-2026 Paper-I (Gen. English)..pdf",
+  "sourceSha256": "44cf2d5542a7a9f65a07ac4fe6f86c5a1cc1afc0cacec288f3fe8e225662fa82",
+  "ocr": false,
+  "count": 32,
+  "questions": [
+    {
+      "n": 1,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 8) : Fill in the blanks by choosing the correct idioms and phrases:",
+      "opts": {
+        "a": "to break a fall",
+        "b": "to break ground",
+        "c": "to break the heart",
+        "d": "to break the ice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The host told a funny joke _____ at the meeting.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 8) : Fill in the blanks by choosing the correct idioms and phrases:",
+      "opts": {
+        "a": "steer clear of",
+        "b": "stem the tide of",
+        "c": "wash hands of",
+        "d": "make light of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As a true social worker, first of all you _____ poverty and unemployment.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 8) : Fill in the blanks by choosing the correct idioms and phrases:",
+      "opts": {
+        "a": "have feet of clay",
+        "b": "have length and breadth",
+        "c": "come to pass",
+        "d": "are odds and ends"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The inquiry has revealed that most of the politicians _____.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 8) : Fill in the blanks by choosing the correct idioms and phrases:",
+      "opts": {
+        "a": "pay off old scores",
+        "b": "take up arms",
+        "c": "play truant",
+        "d": "lock and key"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is very bad habit of the students to _____ from class.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 8) : Fill in the blanks by choosing the correct idioms and phrases:",
+      "opts": {
+        "a": "throw cold water",
+        "b": "take up arms",
+        "c": "cut short",
+        "d": "do the honours"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To discourage me, he tried to _____ on my plans.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 8) : Fill in the blanks by choosing the correct idioms and phrases:",
+      "opts": {
+        "a": "off and on",
+        "b": "by hook or by crook",
+        "c": "hand and glove",
+        "d": "with a high hand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She was determined to get the promotion.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 8) : Fill in the blanks by choosing the correct idioms and phrases:",
+      "opts": {
+        "a": "paid back in the same coin",
+        "b": "losing ground",
+        "c": "rubbed in the wrong way",
+        "d": "nipped in the bud"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bad habits must be _____.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 8) : Fill in the blanks by choosing the correct idioms and phrases:",
+      "opts": {
+        "a": "under a cloud",
+        "b": "at daggers drawn",
+        "c": "worth its weight in gold",
+        "d": "out of sorts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For a hungry man a piece of bread is often _____.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 9 - 14) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Conjunction",
+        "c": "Preposition",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He has **little** appreciation of good poetry.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 9 - 14) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Preposition",
+        "b": "Noun",
+        "c": "Conjunction",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I was annoyed, **still** I kept quiet.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 9 - 14) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The horse fell and broke **its** leg.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 9 - 14) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Verb",
+        "b": "Noun",
+        "c": "Adjective",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She has purchased a tea set of **silver**.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 9 - 14) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Preposition",
+        "b": "Adverb",
+        "c": "Adjective",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He appealed **against** the decision of the lower court.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 9 - 14) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Verb",
+        "b": "Adverb",
+        "c": "Noun",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We have **never** seen an aeroplane.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Verb",
+        "b": "Preposition",
+        "c": "Adverb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The researchers will **round off** the data to the nearest decimal.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Adverb",
+        "b": "Verb",
+        "c": "Adjective",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **fast** lasted for forty days.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 17 - 24)  : Give one word for each of the following expressions choosing",
+      "opts": {
+        "a": "Ambiguous",
+        "b": "Amphibian",
+        "c": "Ambidextrous",
+        "d": "Amateur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who can use either hand without any problem.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 17 - 24)  : Give one word for each of the following expressions choosing",
+      "opts": {
+        "a": "Credulous",
+        "b": "Sensuous",
+        "c": "Officious",
+        "d": "Affectation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Excessively ready to believe things.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 17 - 24)  : Give one word for each of the following expressions choosing",
+      "opts": {
+        "a": "Physiology",
+        "b": "Pedagogy",
+        "c": "Acoustics",
+        "d": "Phonetics"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The study of the physical sounds of human speech.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 17 - 24)  : Give one word for each of the following expressions choosing",
+      "opts": {
+        "a": "Oligarchy",
+        "b": "Anarchy",
+        "c": "Aristocracy",
+        "d": "Democracy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A government run by a few people.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 17 - 24)  : Give one word for each of the following expressions choosing",
+      "opts": {
+        "a": "Spokesman",
+        "b": "Veteran",
+        "c": "Pioneer",
+        "d": "Omnipotent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A well and long experienced person in a particular activity.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 17 - 24)  : Give one word for each of the following expressions choosing",
+      "opts": {
+        "a": "Hillock",
+        "b": "Embankment",
+        "c": "Meadow",
+        "d": "Valley"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A low level tract of uncultivated grassland.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 17 - 24)  : Give one word for each of the following expressions choosing",
+      "opts": {
+        "a": "Audible",
+        "b": "Gullible",
+        "c": "Edible",
+        "d": "Brittle"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which can be easily broken.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 17 - 24)  : Give one word for each of the following expressions choosing",
+      "opts": {
+        "a": "Optimist",
+        "b": "Fatalist",
+        "c": "Omniscient",
+        "d": "Infallible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Having total knowledge",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 25 - 27) : Analyse the given sentences and choose the correct alternative",
+      "opts": {
+        "a": "Simple Sentence",
+        "b": "Compound Sentence",
+        "c": "Complex Sentence",
+        "d": "Positive Sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We believe that he is innocent.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 25 - 27) : Analyse the given sentences and choose the correct alternative",
+      "opts": {
+        "a": "Complex Sentence",
+        "b": "Compound Sentence",
+        "c": "Simple Sentence",
+        "d": "Comparative Sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Man proposes, but God disposes.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 25 - 27) : Analyse the given sentences and choose the correct alternative",
+      "opts": {
+        "a": "Complex Sentence",
+        "b": "Simple Sentence",
+        "c": "Compound Sentence",
+        "d": "Noun Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who has risen by his own exertions is always respected",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 28 - 30) : Choose the correct transformation as directed, from the options",
+      "opts": {
+        "a": "Beasts are being taught by Nature to know their friends",
+        "b": "To know their friends, Nature taught beasts",
+        "c": "Beasts are taught by Nature to know their friends",
+        "d": "Beasts were taught to know their friends by Nature"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Nature teaches beasts to know their friends. (Active to Passive Voice)",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 28 - 30) : Choose the correct transformation as directed, from the options",
+      "opts": {
+        "a": "We found the road rather bad",
+        "b": "The road was quite bad",
+        "c": "We found that the road was not good",
+        "d": "We discovered the road to be quite bad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We did not find the road very bad. (Negative to Affirmative Sentence)",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 28 - 30) : Choose the correct transformation as directed, from the options",
+      "opts": {
+        "a": "I would have come one hour earlier",
+        "b": "I wish I was one hour earlier",
+        "c": "I wish I came one hour sooner",
+        "d": "I wish I had come one hour sooner."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If only I had come one hour earlier! (Exclamatory to Assertive Sentence)",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 -  32) : Combine / Synthesis the two sentences given below for each",
+      "opts": {
+        "a": "The sun having risen, the fog disappeared.",
+        "b": "The sun rose and the fog disappeared.",
+        "c": "When the sun rose, the fog disappeared.",
+        "d": "The sun rose so the fog disappeared."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sun rose. The fog disappeared. (Combine into a single simple sentence).",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 -  32) : Combine / Synthesis the two sentences given below for each",
+      "opts": {
+        "a": "I saw a girl and she was carrying a basket of flowers.",
+        "b": "I saw a girl carrying a busket of flowers.",
+        "c": "I saw a girl who was carrying a basket of flowers.",
+        "d": "A girl was carrying a basket of flowers when i saw her."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I saw a girl. She was carrying a basket of flowers. (Synthesis into a complex sentence)",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on any one of the given topics:(20)",
+      "subparts": {
+        "a": "Technology is a weapon against poverty",
+        "b": "Entrepreneurship for Economic Growth",
+        "c": "Impact of Cultural Festivals on Tourism"
+      }
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Read the passage and answer the questions that follow:(8×2=16) Many of us believe that ‘small’ means ‘insignificant’. We believe that small actions and choices do not have much impact on our lives. We think that it is only the big things, the big actions and the big decisions that really count. But when you look at all the lives of all great people, you will see that they built their character through small decisions, small choices and small actions that they performed every day. They transformed their lives through step-by-step or day-by-day approach. They nurtured and nourished their good habits and chipped away their bad habits, one by one. It was their small day-to-day decisions that added up to make tremendous difference in the long run. Indeed, in matters of personal growth and character building, there is no such thing as an overnight success. Growth always occurs through a sequential series of stages. There is an organic process to growth. When we look at children growing up, we can see this process at work: the child first learns to crawl, then to stand and walk and then finally to run. The same is true in the natural world. The soil must first be tilled and then the seed must be sown. Next, it must be nurtured with enough water and sunlight and only then will it grow into trees laden with ripe fruits. Gandhi understood this organic process and used this universal law of nature to his benefit. Gandhi grew in small ways, in his day-to-day affairs. He did not wake up one day and find himself to be the ‘Mahatma’. In fact, there was nothing much in his early life that showed signs of greatness. But from his mid-twenties onwards, he deliberately and consistently attempted to change himself, reformed himself and grew in some small ways every day. Day by day, hour by hour, he risked failure, experimented and learnt from mistakes. In small as well as large situations, he took up the responsibility rather than avoiding it. This is a common factor in the lives of all great people: they exercise their freedoms and choices in small ways that make great impact on their lives and their environment. Each of their small decisions and actions, add up to have a profound impact in the long run. By understanding this principle, we can move forward, with confidence, in the direction of our dreams. Often when our ideal goal, looks too far from us, we become easily discouraged, disheartened and pessimistic. However, when we choose to grow in small ways, by taking small steps one at a time, our achievement becomes easy. (i)The main idea in the first paragraph is that :",
+      "subparts": {
+        "a": "big things, big actions and big decisions make a person great.",
+        "b": "small actions and decisions are important in one’s life.",
+        "c": "overnight success is possible for all of us.",
+        "d": "personal changes are not important. (a)Steadily gave up bad habits.(b)Slowly produced bad habits. (c)Gradually criticized bad habits.(d)Did not like bad habits. (a)They approach life on a day-to-day basis.(b)They build character in small ways. (c)They believe in performing every day.(d)All of these. (a)By getting disheartened.(b)By dreaming little. (c)By taking small steps one at a time.(d)None of these. (a)By risking failures.(b)By learning from mistakes. (c)By taking up responsibilities.(d)All of the above. (a)Everything takes time to grow.(b)Nothing can change in a day. (c)Both (a) & (b)(d)Neither (a) nor (b) (a)intentionally(b)deliberately (c)in small ways(d)consistently (a)He was a man of principle and good to his word. (b)The ambassador refused on principle to agree to the terms of the accord. (c)By one count, rice is the principle source of calories for about half the planet. (d)Wilson constructed various forms of electric wave detector depending on this same principle."
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 4 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

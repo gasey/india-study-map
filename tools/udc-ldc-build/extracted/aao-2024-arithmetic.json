@@ -1,0 +1,1602 @@
+{
+  "slug": "aao-2024-arithmetic",
+  "exam": "Assistant Audit & Accounts Officer / Assistant Accounts Officer",
+  "sitting": "September 2024",
+  "subject": "Arithmetic",
+  "source": "Assistant Audit & Account Officer Arithmetic-2024..pdf",
+  "sourceSha256": "f28f780e75a0ef77d42c364c377fa57b31ebf8b961b8cce3f984bc8fa84a1db9",
+  "ocr": true,
+  "count": 66,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1.414",
+        "b": "1.413",
+        "c": "1.412",
+        "d": "1.410"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thevalueof2uptothreeplacesofdecimalis—",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9604",
+        "b": "2025",
+        "c": "900",
+        "d": "3600 2(a)5(b)6 (c)7(d)8"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thesmallestperfectsquarenumberwhichisdivisibleby15,24and25is—",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "17",
+        "b": "25",
+        "c": "26",
+        "d": "27"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thenumberoftermsinthesequence4,11,18,....,186is—",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "-3",
+        "b": "6",
+        "c": "-12",
+        "d": "-15"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The8\"termoftheArithmeticprogression9,6,3,0,....is—",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "60%",
+        "b": "62%",
+        "c": "72%",
+        "d": "75% (a)2%(b)3% (c)4%(d)5%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ramagets49%marksinanexaminationobtaining294marks.Thepercentageofmarksobtainedby hisfriendinthesameexamination,whoscores372marksis—",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0.25%loss",
+        "b": "0.25%gain",
+        "c": "2.5%loss",
+        "d": "2.5%gain {(a)2%(b)3% (c)4%(d)5% (a)35(b)21 (c)14(dd)7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ashopkeepersellstwoshirtsat71995each.Ononehegains5%andontheotherheloses5%.His gainorlossinthewholetransactionis-",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2and3",
+        "b": "4and6",
+        "c": "Sand12",
+        "d": "16and24"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Twonumbersareintheratio2:3andif8isaddedtoeachofthem,theybecomeintheratio3:4.The numbersare—",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "159cm",
+        "b": "158cm",
+        "c": "157em",
+        "d": "156cem (a)35(b)40 (c)42(a)50"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theaverageheightof30studentsoutofaclassof40is160cmandthatoftheremainingstudents is156cm.Theaverageheightofthewholeclassis—",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6Skg",
+        "b": "60kg",
+        "c": "55kg",
+        "d": "50kg :(a)7hours(b)7%hours (c)8days(d)8%hours ;(a)400hectares(b)450hectares 2(c)460hectares(d)480hectares A(a)10(b)15 3(c)20(d)25 -3-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Themeanweightof5menisincreasedby1kgwhenoneofthem,whoseweightis60kg,isreplaced fbyanewman.Theweightofthenewmanis—",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25km",
+        "b": "27km",
+        "c": "30km",
+        "d": "32km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Twopersonsstartfromthesameplaceandwalkinoppositedirectionsat5km/hrand4km/hr !respectively.Attheendof3hours,thedistancebetweenthemis—",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1hour",
+        "b": "2hours",
+        "c": "3hours",
+        "d": "4hours"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘A’and‘B’are30kmapartandwalktowardseachother.‘A’iswalkingattherateof4km/hrand ‘B’at6km/hr.Theywillmeetafter—",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12minutes",
+        "b": "15minutes",
+        "c": "18minutes",
+        "d": "20minutes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whilewalkingat2oftheusualspeed,amanreacheshisdestination10minuteslate.Whatishis usualtimetoreachhisdestination?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15years",
+        "b": "11years",
+        "c": "7years",
+        "d": "5years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Liana’sageis16yearsandhiseldersister’sageis21years.Afterhowmanyyearswillthesumof theiragesbe51years?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2m",
+        "b": "6m",
+        "c": "8m",
+        "d": "10m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Onaplaneground,amanwalks18mduesouththenheturnstoleftandwalks6mdueeast.He againturnstoleftandwalks10mduenorth.Howfarishenowfromthestartingpoint?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5%p.a.",
+        "b": "8%p.a.",
+        "c": "10%p.a.",
+        "d": "12%p.a."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Asumofmoneybecomes72420in2yearsand22662in3years.Ifinterestiscompoundedannually, .therateofinterestis—",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "11:7",
+        "b": "14:11",
+        "c": "4:1",
+        "d": "22:7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Iftheperimeterofacircleisnumericallyequaltotheperimeterofasquare,thentheareasareinthe .22 ratio(takez—sj-",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "29m",
+        "b": "21m",
+        "c": "19m",
+        "d": "17m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thelengthofthelongestpolethatcanbekeptinaroomofdimensions(12mx9mx8m)is—",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8000",
+        "b": "6400",
+        "c": "5760",
+        "d": "5600"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Howmanybricks,eachmeasuring(25cm*11.25emx6cm)willberequiredtoconstructawallof dimensions(8cmx6cm*22.5em)if-_ofthevolumeofthewallisoccupiedbycementmortar? 10",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "100m",
+        "b": "80m",
+        "c": "60m",
+        "d": "50m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Akiteisflyingatacertainheightfromthehorizontalground.Thethread100mlong,attachedtothe kiteistiedtothepointontheground.Theinclinationofthethreadwiththegroundis30°.Howhigh fromthegroundisthekiteflying?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8",
+        "b": "6",
+        "c": "4",
+        "d": "2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Abagcontains4whiteandsomeredballs.Iftheprobabilityofdrawingaredballatrandomis doublethatofdrawingawhiteball,thenumberofredballsinthebagis—",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "36",
+        "b": "38",
+        "c": "40",
+        "d": "46"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inacommittee,32peoplespeakHindi,14speakEnglishand8speakbothHindiandEnglish,How manyspeakatleastoneofthetwolanguages?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "%9000",
+        "b": "78000",
+        "c": "%4000",
+        "d": "71000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thecostofamobilehandsetis20,000.Aladypurchaseditbypaying712,000andthebalanceis tobeclearedintwoequalinstalmentsof$4500each.Whatisthetotalinterestchargedunderthe instalmentscheme?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "-5",
+        "b": "5",
+        "c": "-3",
+        "d": "3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ifx?+x?_2x—3isdividedbyx+2,theremainderis—",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6cm",
+        "b": "12cm",
+        "c": "18cm",
+        "d": "24cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Metallicspheresofradii3cm,4cmand5cmrespectivelyaremeltedtoformasinglesolidsphere. Theradiusoftheresultingsphereis—",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40-50",
+        "b": "30-40",
+        "c": "50-60",
+        "d": "10-20 _5-,"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Themedianclassofthefollowingfrequencydistributiontableis— [rewey|+[+fos|wfeds|a|",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "44and110",
+        "b": "110and176",
+        "c": "176and242",
+        "d": "242and308"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thedifferencebetweentwowholenumberis66andtheirratiois2:5.Thetwonumbersare—",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10years",
+        "b": "20years",
+        "c": "30years",
+        "d": "40years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "LianaistwiceasoldasMawii.FiveyearsagohisagewasthreetimesMawii’sage.Findthepresent ageofLiana.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4761",
+        "b": "9409",
+        "c": "4704",
+        "d": "7056"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Findthesmallestmultipleof2352whichisaperfectsquare.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "%200",
+        "b": "%176",
+        "c": "2198",
+        "d": "%154"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thelistpriceofashirtis¥220.Adiscountof20%isannouncedonfestivalsale.Whatistheselling priceoftheshirt?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "712000",
+        "b": "%12200",
+        "c": "712500",
+        "d": "713000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ATVisboughtfor713500includingVATof8%.ThepriceoftheTVbeforeVATis—",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "%33",
+        "b": "227.27",
+        "c": "%2640",
+        "d": "%2181.82 10°-1520-30 -1520-301010-1520-30"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ashopkeeperbuys80articlesfor$2400andsellsthemforaprofitof10%.Findthesellingpriceof onearticle.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "180",
+        "b": "140",
+        "c": "120",
+        "d": "100"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Afterreadingiofabook,Remaleft40pages.Howmanypagesheread?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "495",
+        "b": "650",
+        "c": "425",
+        "d": "475 (a)Sem(b)7com (c)9cm(d)llem"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If45%ofthestudentsinaschoolareboysandthenumberofgirlsintheschoolis605.Howmany boysarethereintheschool?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tsm/s",
+        "b": "3m/s 350",
+        "c": "50m/s:",
+        "d": "Zzm/s"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "1km/hrisequalto— 518",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "210m/s",
+        "b": "320m/s",
+        "c": "430m/s",
+        "d": "540m/s"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Agunisfiredatadistanceof4.3kmawayfromtheman,Ifthesoundofthegunfiredisheardbythe manafter10seconds,findthespeedatwhichsoundtravelled?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40hours",
+        "b": "50hours",
+        "c": "60hours",
+        "d": "70hours 13,1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Atankwhichhasaleakinthebottomisfilledin12hours.Hadtherebeennoleakinthebottom,it wouldhavebeenfilledin10hours.Theleakcanemptythetankin—",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3",
+        "b": "-3",
+        "c": "2",
+        "d": "2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ifx+—=2,thenx+=? xx",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3:5",
+        "b": "5:3",
+        "c": "9:25",
+        "d": "7:25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theradiioftworightcircularcylinderofthesameheightareintheratio3:5.Findtheratiooftheir volume.",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40",
+        "b": "37",
+        "c": "35",
+        "d": "33"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Findthemedianusingempiricalformulaifmode=29andmean=38.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10",
+        "b": "8",
+        "c": "6",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Abagcontains12whiteballsandsomegreenballs.Iftheprobabilityofdrawingawhiteballfromthe bagisthricethatofthegreenball.Findthenumberofgreenballs?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "714000",
+        "b": "15000",
+        "c": "%16000",
+        "d": "17000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthetotalexpenditureofthefamily?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "73600",
+        "b": "%6000",
+        "c": "%5400",
+        "d": "%4800"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "FindtheamountofexpendituresonEducation.",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "28",
+        "b": "30",
+        "c": "33",
+        "d": "36"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Howmanytwodigitnumberswhicharedivisibleby3?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "1",
+        "b": "-l",
+        "c": "5",
+        "d": "-5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ifp-2,p+/and2p-1areinA.P.Thevalueofpis—",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "35",
+        "b": "20",
+        "c": "30",
+        "d": "25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inaclassof65students,40likefootball,10likebothfootballandhockey.Howmanylikehockey only?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "{b,f}",
+        "b": "{ff",
+        "c": "",
+        "d": "(d)fa,d}"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IfA={a,b,c,d}andB={b,c,f},thenB-A=?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "15:12:8",
+        "b": "15:10:12",
+        "c": "8:10:15",
+        "d": "8:12:15"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ifa:b=2:3andb:c=4:5,thena:b:c=?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "28",
+        "b": "32",
+        "c": "40",
+        "d": "64"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheL.C.Moftwonumbersis48.Thenumbersareintheratio2:3.Findthesumofthenumbers.",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "-30",
+        "b": "30",
+        "c": "40",
+        "d": "64"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theproductoftherootsoftheequation(x—6)(x—5)=0is—",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "49",
+        "b": "~49",
+        "c": "1",
+        "d": "-1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thediscriminant(1)ofaquadraticequation2x?—5x—3=0is—",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "-1and6",
+        "b": "1and-6",
+        "c": "—2and3",
+        "d": "2and-3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thezeroesofthepolynomialx?-x-6are-",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "19",
+        "b": "-19:",
+        "c": "29",
+        "d": "-29"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The8\"termfromtheendoftheA.P.17,14,11,...-40is—°",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "10m",
+        "b": "20m",
+        "c": "30m",
+        "d": "40m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theladder20mlongjustreachesthetopofaverticalwall.Iftheladdermakes30°withtheground, findtheheightofthewall.",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "100089",
+        "b": "100480",
+        "c": "100489",
+        "d": "100490"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Findtheleastnumberof6digitswhichisaperfectsquare.",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "40",
+        "b": "38",
+        "c": "36",
+        "d": "42"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thereare40childreninaclassinwhichboysare4morethanthegirls.Iftheaverageweightofallthe studentsis42.5kgandtheaverageweightofallthegirlsis48kg,thenfindtheaverageweightofall theboys.",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "%840",
+        "b": "%820",
+        "c": "%880",
+        "d": "%800"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Anarticleissoldfor642.60aftersuccessivediscountof15%and10%.Whatisthemarketpriceof thearticle?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "5:2",
+        "b": "3:2",
+        "c": "2:1",
+        "d": "4:33"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inaschool10%ofboysareequaltotheonefourthofthegirls.Whatistheratioofboysandgirlsin thatschool?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "%3,200",
+        "b": "%3,126",
+        "c": "%3,048",
+        "d": "%3,136 2,2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thangaspend23%ofanamountofmoneyonaninsurancepolicy,33%onfood,19%onchildren’s educationand16%onrecreation.Hedepositstheremainingamountof$504inbank.Howmuch totalamountdoeshespendonfoodandinsurancepolicytogether?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "%72,000",
+        "b": "784,000",
+        "c": "%96,000",
+        "d": "71,08,000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThemonthlyincomesofXandYareintheratio4:3andtheirmonthlyexpendituresareintheratio 3:2.Howevereachsaves%12,000permonth.Whatistheirtotalmonthlyincome?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "18",
+        "b": "12",
+        "c": "24",
+        "d": "36"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AandBcandoajobtogetherin12days.Ais2timesasefficientasB.InhowmanydayscanB alonecompletesthework?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "3",
+        "b": "9",
+        "c": "6",
+        "d": "5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Acandoaworkin36dayswhileBcandothesamein48days.IfAworkfor‘x’dayswhileBworks for‘x+2’days,thenone-thirdoftheworkiscomplete.Findthevalueofx?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "36km/hr",
+        "b": "37km/hr",
+        "c": "39km/hr",
+        "d": "32km/hr"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ifyoutravel39kmataspeedof26km/hr,another39kmataspeedof39knv/hrandagain39kmataspeed of52km/hr.Whatisyouraveragespeedfortheentirejoumey?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "%2,900",
+        "b": "23,600",
+        "c": "%3,500",
+        "d": "%2,500"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thesimpleinterestonacertainsumfor8monthsat4%perannumis€129lessthanthesimple interestonthesamesumfor15monthsat5%perannum.Whatisthesum?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "%2,800.00",
+        "b": "%2,400.00",
+        "c": "%2,000.00",
+        "d": "%2,500.00"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thedifferencebetweenthesimpleandthecompoundintereston%xat9%perannumfor2yearsis 20.25.Whatisthevalueofx?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "120cm",
+        "b": "80cm.",
+        "c": "100cm",
+        "d": "140cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theareaofasquareandarectangleareequal.Thelengthoftherectangleis8cmmorethanthe lengthofanysideofthesquareandthebreadthis6cmless.Theperimeter(incm)oftherectangle willbe-",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "opts": {
+        "a": "729litres",
+        "b": "810litres",
+        "c": "16000litres",
+        "d": "15000litres 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Awatertankis5meterlong,3mboardand1mdeep.Howmanylitresofwatercanithold?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Source numbering gap before Q4: expected Q3; review the printed page.",
+    "Source numbering gap before Q6: expected Q5; review the printed page.",
+    "Q4 (p1, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q6 (p1, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Source numbering gap before Q11: expected Q10; review the printed page.",
+    "Source numbering gap before Q14: expected Q12; review the printed page.",
+    "Source numbering gap before Q17: expected Q16; review the printed page.",
+    "Source numbering gap before Q21: expected Q18; review the printed page.",
+    "Q29 (p3, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q32 (p4, part None): only 0 option(s) [] - not emitted",
+    "Q35 (p4, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q37 (p4, part None): only 0 option(s) [] - not emitted",
+    "Q40 (p4, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Source numbering gap before Q49: expected Q48; review the printed page.",
+    "Q49 (p5, part None): only 0 option(s) [] - not emitted",
+    "Q51 (p5, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q52 (p5, part None): only 0 option(s) [] - not emitted",
+    "Q53 (p6, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Source numbering gap before Q56: expected Q55; review the printed page.",
+    "Q58 (p6, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q64 (p7, part None): only 0 option(s) [] - not emitted",
+    "Q67 (p7, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q72 (p7, part None): only 0 option(s) [] - not emitted",
+    "Q73 (p7, part None): only 1 option(s) ['a'] - not emitted",
+    "Q74 (p8, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Source numbering gap before Q84: expected Q83; review the printed page.",
+    "Q82 (p8, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q85 (p9, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q90 (p9, part None): only 0 option(s) [] - not emitted",
+    "Q92 (p9, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q97 (p10, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      3,
+      4,
+      5,
+      6,
+      10,
+      12,
+      13,
+      16,
+      18,
+      19,
+      20,
+      29,
+      32,
+      35,
+      37,
+      40,
+      48,
+      49,
+      51,
+      52,
+      53,
+      55,
+      58,
+      64,
+      67,
+      72,
+      73,
+      74,
+      82,
+      83,
+      85,
+      90,
+      92,
+      97
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
-import { isMcqQuestion } from '@/data/banks/types';
+import { isMcqQuestion, isScorableMcq } from '@/data/banks/types';
 import type { ProgressMap } from './useProgress';
 
 // ============================================
@@ -27,7 +27,7 @@ import type { ProgressMap } from './useProgress';
 export const BANK_ID = 'mpsc-udc-ldc';
 
 export type SectionId = 'gk' | 'english' | 'computer' | 'arithmetic' | 'reasoning';
-export type AnswerState = 'any' | 'answered' | 'unanswered';
+export type AnswerState = 'any' | 'answered' | 'unanswered' | 'official' | 'independent' | 'disagreement' | 'review';
 export type AttemptState = 'any' | 'never' | 'wrong' | 'correct';
 /**
  * A fourth axis, about GK but not only about GK. Current affairs from a 2016
@@ -88,6 +88,7 @@ export type TypeState = 'any' | 'mcq' | 'written';
 export type FlagState = 'any' | 'flagged' | 'unflagged' | 'pending' | 'accepted';
 
 export interface Filters {
+  paperIds: string[];
   posts: string[];
   papers: string[];
   sections: SectionId[];
@@ -101,6 +102,7 @@ export interface Filters {
 }
 
 export const EMPTY_FILTERS: Filters = {
+  paperIds: [],
   posts: [], papers: [], sections: [], answer: 'any', attempt: 'any',
   gkKind: 'any', gkTopic: 'any', type: 'any', flag: 'any', search: '',
 };
@@ -119,6 +121,7 @@ export function optionLetter(i: number): string {
 
 /** topicLabel is the only section marker that survives into the bank. */
 export function sectionOf(q: BankQuestion): SectionId {
+  if (q.studySection) return q.studySection;
   const t = q.topicLabel.toLowerCase();
   if (t.includes('computer')) return 'computer';
   if (t.includes('arithmetic')) return 'arithmetic';
@@ -150,7 +153,7 @@ export const SECTION_LABEL: Record<SectionId, string> = {
   gk: 'General Knowledge',
   english: 'General English',
   computer: 'Computer Knowledge',
-  arithmetic: 'Simple Arithmetic',
+  arithmetic: 'Arithmetic & General Mathematics',
   reasoning: 'Intelligence & Reasoning',
 };
 
@@ -173,7 +176,7 @@ export const GK_TOPIC_LABEL: Record<Exclude<GkTopicState, 'any'>, string> = {
 
 /** A question is answerable iff it has a real answer and readable options. */
 export function isAnswerable(q: BankQuestion): boolean {
-  return isMcqQuestion(q) && q.answerIndex >= 0 && !q.figureBased && q.options.length > 0;
+  return isScorableMcq(q);
 }
 
 export function applyFilters(
@@ -191,6 +194,7 @@ export function applyFilters(
 
   return questions.filter((q) => {
     const paper = q.paperId ? byId.get(q.paperId) : undefined;
+    if (f.paperIds.length && (!q.paperId || !f.paperIds.includes(q.paperId))) return false;
 
     if (f.posts.length && (!paper?.post || !f.posts.includes(paper.post))) return false;
     if (f.papers.length && (!paper?.paperNumber || !f.papers.includes(paper.paperNumber))) return false;
@@ -210,6 +214,14 @@ export function applyFilters(
     const answerable = isAnswerable(q);
     if (f.answer === 'answered' && !answerable) return false;
     if (f.answer === 'unanswered' && answerable) return false;
+    if (f.answer === 'official' && q.answerSource !== 'official') return false;
+    if (f.answer === 'independent' && (!answerable || q.answerSource === 'official')) return false;
+    if (f.answer === 'disagreement') {
+      const keyAnswer = isMcqQuestion(q) && q.answerSource === 'official'
+        ? q.answerIndex >= 0 ? q.answerIndex : q.officialAnswerCandidates?.length === 1 ? q.officialAnswerCandidates[0] : -1 : -1;
+      if (keyAnswer < 0 || q.independentAnswerIndex === undefined || q.independentAnswerIndex === keyAnswer) return false;
+    }
+    if (f.answer === 'review' && !(q.disputeNote || q.sourceNote || !answerable || q.answerConfidence === 'medium' || q.answerConfidence === 'low')) return false;
 
     if (f.gkKind !== 'any') {
       const isGk = sectionOf(q) === 'gk';

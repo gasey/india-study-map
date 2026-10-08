@@ -1,0 +1,2067 @@
+{
+  "slug": "si-excise-2024-p1",
+  "exam": "Sub-Inspector of Excise & Narcotics",
+  "sitting": "August 2024",
+  "subject": "General English",
+  "source": "Sub-Inspector of Excise Paper-I August-2024..pdf",
+  "sourceSha256": "4f5690d96cb821dc5f170e5f26f255f38d2bb8ae71920f64da1ff15550ba9c8f",
+  "ocr": true,
+  "count": 88,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1947-52",
+        "b": "1950-55",
+        "c": "1951-56",
+        "d": "1952-57"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheperiodoftheFirstFiveYearPlaninIndiawas-",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1%January2017",
+        "b": "1April2017",
+        "c": "1%July2017",
+        "d": "1%July2018"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "GoodsandServicesTaxeswasintroducedinIndiaon-",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Parliamentary",
+        "b": "Sovereign",
+        "c": "Secular",
+        "d": "Republic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichamongthefollowingisnotwritteninthePreambleofourConstitution?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Constitutionalbody",
+        "b": "Quasi-JudicialBody",
+        "c": "Statutorybody",
+        "d": "DevelopmentCommission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheNationalDisasterManagementAuthorityis-",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MembersofLokSabha",
+        "b": "MembersofStateLegislativeAssemblies",
+        "c": "StateCouncilofMinisters",
+        "d": "MembersofParliamentandStateLegislativeAssemblies"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhoelectedthemembersoftheRajyaSabha?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "552",
+        "b": "545",
+        "c": "554",
+        "d": "532"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HowmanymembersdoestheLokSabhacurrentlyconsistof?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Goa",
+        "b": "Jammu&Kashmir",
+        "c": "Puducherry",
+        "d": "Chandigarh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichisnotaUnionTerritory?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ElectionCommissionofIndia",
+        "b": "StateElectionCommission",
+        "c": "StateLocalAdministrationDepartment",
+        "d": "DesignatedBodyoftheStateGovernment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whoconductselectionstotheruralandurbanlocalbodies?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SENSEX",
+        "b": "NIFTY",
+        "c": "Dow-Jones",
+        "d": "NCDEX"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingbenchmarkindicesisrelatedtoNationalStockExchange?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TheCentralGovernment",
+        "b": "FinanceMinistry",
+        "c": "CentralBank",
+        "d": "CommercialBanks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Monetarypolicyisregulatedby-",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agriculture",
+        "b": "Industry",
+        "c": "Service",
+        "d": "Tourism|"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichsectoriscommonlyassociatedwithdisguisedunemployment?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GreenRevolution",
+        "b": "BlueRevolution",
+        "c": "Aquaculture",
+        "d": "Multi-dimensionalfisheries"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Aremarkableincreaseintheproductionoffishandmarineproductsiscalled-",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increase",
+        "b": "Decrease",
+        "c": "Nochange",
+        "d": "Noexpansion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theeffectofreducingcashreserveratiobythecentralbankoncreditcreationis-",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Excise",
+        "b": "VAT",
+        "c": "Cess",
+        "d": "Excess"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Aformoftaxchargedoverandabovethebasetaxliabilityofataxpayeris-",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "%2455.08crores",
+        "b": "72500.52crores",
+        "c": "%2200.02crores",
+        "d": "%2550.08crores"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheamountallocatedforcapitalexpenditureintheMizoramBudget2024-25is-",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "78.9%",
+        "b": "80.24%",
+        "c": "82.97%",
+        "d": "83.2%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TherevenueexpenditureaccountedforofthetotalexpenditureintheBudgetEstimate ofMizoramfortheyear2024-25.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MGNREGS",
+        "b": "PMAY",
+        "c": "FOCUS",
+        "d": "JIM"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichisnotcentrallysponsoredschemeinMizoram?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RabindraNathTagore",
+        "b": "SarojiniNaidu",
+        "c": "BankimChandraChatterjee",
+        "d": "RamdhariSinghDinkar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whowasthecomposerofthesong“VandeMataram”?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BengalGazette",
+        "b": "HindustanTimes",
+        "c": "ThePioneer",
+        "d": "SambadKaumadi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThefirstnewspaperinIndiawas-",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SwamiVivekananda",
+        "b": "AOHume",
+        "c": "NanaSaheb",
+        "d": "RajaRamMohanRoy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whowasknownas“ModernManofIndia”?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RajaRamMohanRoy",
+        "b": "MahatmaGandhi",
+        "c": "BalGangadharTilak",
+        "d": "JawaharLalNehru"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whosaid“Swarajismybirthright,Ishallhaveit”?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DadabhaiNaoroji",
+        "b": "GopalKrishnaGokhale",
+        "c": "RameshChandraBanerjee",
+        "d": "LokamaniaTilak"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whowascalled“GrandOldManofIndia”?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1932",
+        "b": "1935",
+        "c": "1947",
+        "d": "1949"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheProvincialGovernmentswereconstitutedundertheActof-",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BalGangadharTilak",
+        "b": "JawaharlalNehru",
+        "c": "BhagatSingh",
+        "d": "MahatmaGandhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theslogan“doordie”wasgivenby-",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Narcondam",
+        "b": "Pamban",
+        "c": "Rameshwaram",
+        "d": "Aliabet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichisavolcanicisland?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "WesternGhats",
+        "b": "ChhotaNagpur",
+        "c": "MalwaPlateau",
+        "d": "Arravalis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichisincludedintheDeccanPlateauregion?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IndiaandNepal",
+        "b": "IndiaandChina",
+        "c": "IndiaandBhutan",
+        "d": "IndiaandPakistan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "McMohanLineineffectdemarcates",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fairweather",
+        "b": "Stormyweather",
+        "c": "Coldweather",
+        "d": "Hotweather"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Asuddenfallinmercuricbarometerindicates-",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Celsius",
+        "b": "Fahrenheit",
+        "c": "Kelvin",
+        "d": "Rankine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingtemperaturescaleisbaseduponabsolutezero?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uniformvelocity",
+        "b": "Uniformacceleration",
+        "c": "Zeroacceleration",
+        "d": "Non-uniformacceleration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Themotionofanobjectunderfreefallisanexampleof-",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Smallintestine",
+        "b": "Rectum",
+        "c": "Pharynx",
+        "d": "Spleen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingisnotapartofthedigestivesystem?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Deoxyribonucleicacid",
+        "b": "Dinucleicacid",
+        "c": "Diribonucleicacid",
+        "d": "Dualnitrogenacid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThefullformofDNAis-",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "C.Durthanga",
+        "b": "Englandthanga",
+        "c": "C.Dinthanga",
+        "d": "SailothangiSailo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhowasthecomposerofMizopopularsongLentlaiaruallo?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aizawl",
+        "b": "Champhai",
+        "c": "Serchhip",
+        "d": "Lunglei"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichisthemostliteratedistrictaccordingto2011Census?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PrathamNGO",
+        "b": "MinistryofEducation",
+        "c": "SamagraShikshaAbhyan",
+        "d": "NITIAayog"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AnnualStatusofEducationReport(ASER)2023wasreleasedby-",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MinistryofSocialJusticeandEmpowerment",
+        "b": "MinistryofCommerceandIndustry",
+        "c": "NITIAayog",
+        "d": "PrimeMinister’sOffice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "NationalMultidimensionalPovertyIndexisreleasedby-",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Freeelectrictothepoorhouseholds",
+        "b": "Rooftopsolarpowetroonecrorehouseholds",
+        "c": "Gridconnectedpowertothehouseholds",
+        "d": "Greenenergytothepeople"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThePrimeMinistryrecentlyannouncedPradhanMantriSuryodayaYojanatoprovide",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2017",
+        "b": "2018",
+        "c": "2019",
+        "d": "2020"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheElectoralBond,recentlystruckdownbytheSupremeCourt,wasimplementedsince-",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam",
+        "b": "Gujarat",
+        "c": "Uttarakhand",
+        "d": "UttarPradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichstateisthefirsttoenactUniformCivilCode?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "JoeBiden",
+        "b": "NarendraModi",
+        "c": "VladimirPutin",
+        "d": "VolodymyrZelensky"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whowasrecognisedasthe2022PersonoftheYearbytheTimeMagazine?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Benin",
+        "b": "BurkinaFaso-",
+        "c": "Coted'Ivoire",
+        "d": "Ghana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingcountriesgrapplingwithjihadistviolenceandpovertyhaverecentlyannounced itsdeparturefromECOWAS?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1December",
+        "b": "2™December",
+        "c": "5December",
+        "d": "7December"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichdayinayeariscelebratedasWorldAIDSDay?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RohanBopanna",
+        "b": "VishnuVardhan",
+        "c": "LeanderPaes",
+        "d": "M.Bhupathi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IndiantennisplayerwhowonAustralianmendoubles2024was-",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shemightgotothepartyifshefinishesherworkontime.",
+        "b": "Youshouldwearacoat;it’scoldoutside.",
+        "c": "Hewouldplaytenniseveryweekendwhenhewasyounger.",
+        "d": "Theycanswimverywell. (a)Might(b)Must (c)Shall(d)Should:"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inwhichofthefollowingsentencesisthemodalverbusedtoexpressnecessity?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IcanspeakFrenchfluently.",
+        "b": "Heshouldhavearrivedbynow.",
+        "c": "Shewouldalwayshelpmewithmyhomework.",
+        "d": "Wewillneedtoleaveearlytomorrow."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inwhichsentenceisthemodalverbexpressingapastability?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Youshouldtakeanumbrella;itmightrainlater.",
+        "b": "Shemustfinishherhomeworkbeforeshecangoouttoplay.",
+        "c": "Hecouldrunveryfastwhenhewasyounger.",
+        "d": "Theywouldalwayshelptheirneighborswithchores."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inwhichsentenceisthemodalverbusedtoexpressapastobligation?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "on",
+        "b": "under",
+        "c": "over",
+        "d": "through"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thecatjumpedthefenceandranaway.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "©",
+        "b": "to",
+        "c": "at",
+        "d": "_by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sheisallergicsats.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Theflowers",
+        "b": "Bloomed",
+        "c": "Bloomedbeautifully",
+        "d": "Inthegarden"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inthesentence“Theflowersinthegardenbloomedbeautifully,”whatisthepredicate?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "“Theconcert”isthesubjectand“captivatedtheaudience”isthepredicate.",
+        "b": "“Filledwithexcitementandanticipation”isthesubjectand“captivatedtheaudience”isthe predicate.",
+        "c": "“Theconcert,filledwithexcitementandanticipation”isthesubjectand“captivatedtheaudience” isthepredicate.",
+        "d": "“Theconcert”isthesubjectand“filledwithexcitementandanticipation”isthepredicate."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inthesentence“Theconcert,filledwithexcitementandanticipation,captivatedtheaudience,”which ofthefollowingstatementsistrue?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "haven’tthey?",
+        "b": "havethey?",
+        "c": "havetheyfinished?",
+        "d": "haven’ttheyfinished? (a)Shehasgonetothestoretobuysomegroceries. (b)Theyhasbeenwaitingforthebusforoveranhour. (c)IhaveneverbeentoParisbefore. (d)Wehavealreadyeatendinner."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthecorrectquestiontagforthestatement:“Theyhaven’tfinishedtheirhomeworkyet”?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shewasstudyingwhenthelightswentout.",
+        "b": "Hewassleepingwhenthephonerang.",
+        "c": "Theyhavebeengoingtoschoollastweek.",
+        "d": "Wewerewalkingintheparkwhenitstartedraining."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identifythesentencewithanerrorintheuseofthepastcontinuoustense:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hishomeworkhasbeencompletedbyhim.",
+        "b": "Hishomeworkiscompletedbyhim.",
+        "c": "Hishomeworkwascompletedbyhim.",
+        "d": "Hishomeworkhasbeencompletingbyhim."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Changethesentence“Hehascompletedhishomework”intopassivevoice.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hesendstheletter.",
+        "b": "Hehassenttheletter.",
+        "c": "Heissendingtheletter.",
+        "d": "Hesenttheletter. -6-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Changethesentence“Theletterhasbeensentbyhim”intoactivevoice.",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lasting",
+        "b": "Transient",
+        "c": "Permanent",
+        "d": "Enduring"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethesynonymfor“ephemeral”?.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ThisisthemostcomplicatedpuzzleIhaveeverseen.",
+        "b": "Herhouseisbiggerthanmyapartment.",
+        "c": "Thisproblemismoredifficultascomparedtothepreviousone.",
+        "d": "Hespeaksmorefluentlythananyoneelseintheclass."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identifythesentencewiththecorrectuseofthecomparativedegree:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sheismorebeautifulthananyothergirlintheroom.",
+        "b": "ThisisthemostinterestingbookI’veeverread.",
+        "c": "Thatcarisfasterthanmine.",
+        "d": "Heisthestrongerofthetwobrothers."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identifythesentencewiththecorrectuseofthesuperlativedegree:",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Theyaregoingtothebeach;tomorrow.",
+        "b": "Thedogbarked,atthemailman.",
+        "c": "Heasked,“Whattimeisthemeeting”?",
+        "d": "Thebookisontheshelf;it’sonthetop."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethesentencewithcorrectpunctuation:",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Theyhadapicnic,andplayedgames,inthepark.",
+        "b": "Theconcertstartsat8pm,don’tbelate.",
+        "c": "Shewhispered,“Ihaveasecret”.",
+        "d": "Helookedaroundbutcouldn’tfindhiskeys."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethesentencewithcorrectpunctuation:",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thetrainarrivedat10:30,itwaslate.",
+        "b": "TheyvisitedRome,Italy,andParisontheirtrip.",
+        "c": "Shesaid“Iwillmeetyouatthecafeat3pm”.",
+        "d": "Theconcertstartsat7:00,butweshouldarriveearly."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethesentencewithcorrectpunctuation:",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Read-a-she-book-interesting-found-yesterday,",
+        "b": "Played-the-children-happily-the-park-in. .",
+        "c": "To-they-movies-went-the-yesterday.",
+        "d": "Coffee-she-in-the-morning-enjoys."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrangethejumbledwordsandidentifythecorrectsentence.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The-swam-fish-in-pond-the-happily.",
+        "b": "Walked-dog-the-she-in-park-the.",
+        "c": "Sat-they-on-bench-the-enjoying-the-view.",
+        "d": "Cycled-they-along-the-river-scenic-route."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrangethejumbledwordsandidentifythecorrectsentence.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tomakeamistake",
+        "b": "Tobeinthewrongplace",
+        "c": "Tobeoverlyoptimistic",
+        "d": "Topursuethewrongcourseofaction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatdoestheidiom“barkingupthewrongtree”mean?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tobeinabadmood",
+        "b": "Tobefeelinghealthy",
+        "c": "Tobefeelingillorunwell",
+        "d": "Tobeoverlyoptimistic -~7-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatdoestheidiom“undertheweather”mean?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Toinjureoneself",
+        "b": "Towishsomeonegoodluck",
+        "c": "Togoonavacation",
+        "d": "Toquitajob"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatdoestheidiom“breakaleg”mean?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.76-80):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "metaphorical",
+        "b": "rhetorical",
+        "c": "formal",
+        "d": "ambiguous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thepassagemakesuseoflanguagethatis~",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.76-80):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "rainbringswithitcoldtemperaturesforthefollowingdays.",
+        "b": "theweatherismuchwarmerthanitisforchildren.",
+        "c": "theydonotgetalongtimeofffromworkfortheseason.",
+        "d": "theybetterknowhowtooccupytheirdowntime."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Accordingtothepassage,summerisdifferentforadultsbecause-",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.76-80):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Heorshewasoftenboredonsummerdays.",
+        "b": "Heorshepreferredcoolerweather.",
+        "c": "Heorshelikedstayingindoors.",
+        "d": "Heorshehadnosiblings."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Accordingtothepassage,whichofthefollowingisatruestatementaboutthenarratorasachild?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.76-80):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "apermanentconclusion",
+        "b": "ashortcontinuation",
+        "c": "ahigherlevelofpain",
+        "d": "atemporarybreak -8-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Asusedinthefinalparagraph,thewordreprievemostnearlymeans-",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.81-85):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "vanity",
+        "b": "ignorance",
+        "c": "overconfidence",
+        "d": "faultyinformation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Basedoninformationinthepassage,itcanbeconcludedthatHookerlosttheBattleofChancellorsville mostlybecauseofhis-",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.81-85):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "showcasethedifferentbackgroundsandpersonalhistoriesofthesetwoenemysoldiers.",
+        "b": "providesupportfortheideathatLeewasamorevirtuouspersonthanHooker,andtherefore",
+        "c": "suggestthatifHookerhadbeenmoredevoutandprincipled,hemightnothavebeenoutwitted",
+        "d": "implythatthesemenfundamentallydifferedintheirapproachestonearlyeverything,including"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThecontrastdrawnbetweenLeeandHookerinparagraph2isintendedto-",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.81-85):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "fondness,partiality,affection",
+        "b": "flaw,fault,shortcoming",
+        "c": "distaste,aversion,dissatisfaction",
+        "d": "tendency,inclination,predisposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Basedonitsuseinparagraph3,itcanbeinferredthatthewordpropensitybelongstowhichofthe followingwordgroups?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.81-85):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "strengthened",
+        "b": "anchored",
+        "c": "floated",
+        "d": "heartened"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Asusedinparagraph4,buoyedmostnearlymeans-",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.81-85):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Notonetogloatoverhissuccess,Leeremarkedthatthevictoryhadbeentheproductof valiantfightingandgoodluck,ashebegantomapoutstrategiesfortheirnextmove.",
+        "b": "Inallhisdaysoffighting,Hookerhadneverbeenmetwithsuchsurpriseandopposition;he tooktosolemncontemplationoftheeventsthathadtranspiredaswellasthelessonshemight Jearnfromthem.",
+        "c": "Woundedinbothbodyandspirit,Hookerandhisseverelydiminishedforcesretreatedto highergroundwheretheyproceededtoreloadtheirweaponsandprepareforacounterattack.",
+        "d": "Uponreturningtocamp,thetriumphantLeeimmediatelyorderedforsupplicstobebroughtup andprovisionsmadeforaraucousvictorycelebration."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ifthispassageweretocontinue,whichofthefollowingwouldmostlikelybethefirstsentenceofthe nextparagraph?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.86-90):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Unintelligent",
+        "b": "Boring",
+        "c": "Dishonest",
+        "d": "Amazing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Asusedinparagraph2,whatisthebestantonymforcredible?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.86-90):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Pathos",
+        "b": "Ethos",
+        "c": "Logos",
+        "d": "Combinationofethos,pathos,andlogos"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Amyistryingtoconvincehermothertobuyherapairof$200shoes.Shesays:“Mom,theshoesI havearereallyoldandugly.If[don’tgetthesenewshoes,everyoneatschoolisgoingtolaughatme. IwillbesoembarrassedthatIwillwanttodie.”WhatformofpersuasionisAmyusinghere?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.86-90):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "anaudienceismoreeasilyconvincedbyfactsandinformationthansimpleappealstoemotions",
+        "b": "anaudienceismorelikelytotrustaspeakerwhousesevidencetosupporthisargument.",
+        "c": "aspeakerwhooverusespathosmightmakeanaudiencetooemotional;audienceswhoaretoo",
+        "d": "aspeakercanusemisleadingorfalseinformationtomakehisargumentseemmoreconvincing."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Accordingtothepassage,logoscanbuildethosbecause-",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.86-90):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Ethos,becauseyoucannotpersuadeanaudiencethatdoesnottrustyou",
+        "b": "Logos,becauseitcanalsobeusedtobuildethos",
+        "c": "Acombinationofethos,pathos,andlogos",
+        "d": "Pathos,becausehumanbeingsaremosteasilypersuadedbyemotion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Accordingtothepassage,themosteffectivetoolofpersuasionis-",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.86-90):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Credibilityisirrelevantinpersuasion.",
+        "b": "Pathosismoreimportantthancredibilityinpersuasion.",
+        "c": "Credibilityisessentialforeffectivepersuasion.",
+        "d": "Logosismoreimportantthancredibilityinpersuasion."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatconclusioncanbedrawnabouttheimportanceofcredibilityinpersuasion?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Theyhelpinpreventingmusclesorenessafterphysicalactivities.",
+        "b": "Theyassistintheabsorptionofironandzincfromchickpeas.",
+        "c": "Theycontributetothepreservationofmusclemassduringexercise.",
+        "d": "Theyaidintherefuellingofenergylevelsafterstrenuousactivities."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Accordingtothepassage,whatroledosulphurcompoundsinonionandgarlicplayinthebody?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Theyprimarilyconsistofchildrenandadolescents.",
+        "b": "Theyarespecificallydesignedforprofessionalathletes.",
+        "c": "Theycatertoindividualsconcernedabouttheirhealthandfitness.",
+        "d": "Theyareonlysuitableforindividualswithirondeficiencies."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fromthepassage,whoarethetargetaudienceofpowerfoods?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Theyarerichincarbohydratesbutlowinproteins.",
+        "b": "Theyareprimarilyconsumedbyindividualswithasweettooth.",
+        "c": "Theyarenotrecommendedforconsumptionafterphysicalactivities.",
+        "d": "Theyprovideacombinationofproteinsandcarbohydratesbeneficialformusclerecovery."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fromthepassage,whatinferencecanbemadeaboutthenutritionalbenefitsofyoghurtandbananas asasnack?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Greenteaismoreeffectivethanlemonjuicealoneinpreventingoxidativedamagetocells.",
+        "b": "Addinglemonjuicetogreenteaenhancesitsflavorbutdoesnotaffectitsnutritionalvalue.",
+        "c": "Greenteawithlemonjuiceislesseffectiveinhaltingoxidativedamagecomparedtoother beverages.",
+        "d": "Thecombinationofgreenteaandlemonjuiceimprovestheabsorptionofcatechins,thus enhancingitsbenefits."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Basedonthepassage,whatinferencecanbedrawnabouttheeffectivenessofgreenteawithlemon juice?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Increasedconsumptionofpowerfoodsmayleadtoareductioninhealthcarecostsdueto improvedoverallhealthandreducedincidenceofchronicdiseases.",
+        "b": "Powerfoodsmayexacerbatehealthdisparitiesasaccesstothesenutrient-richfoodsmaybe limitedforcertainsocio-economicgroups.",
+        "c": "Publichealthpoliciesshouldprioritizethepromotionofpowerfoodstoaddressnutritional deficienciesandimprovepopulationhealthoutcomes.",
+        "d": "Thefocusonpowerfoodsoverlooksculturaldietarypreferencesandmaynotbeapplicableor accessibletoallindividuals."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Reflectingonthenutritionalbenefitsofpowerfoodsdiscussedinthepassage,whatimplications mighttheserecommendationshaveonbroadersocietalissuessuchashealthcarecostsandpublic healthpolicies?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Powerfoodsareexclusivelyrecommendedforindividualswithspecificdietaryrestrictions.",
+        "b": "Theconsumptionofpowerfoodsisprimarilyintendedtoenhancetasteandflavorinmeals.",
+        "c": "Powerfoodsplayacrucialroleinprovidingessentialnutrientsandsupportingmuscle development.",
+        "d": "Powerfoodshavelimitedeffectivenessandarenotconsideredsignificantcontributorstooverall _p-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fromtheinformationprovidedinthepassage,whatcanbeinferredabouttheroleofpowerfoodsin promotingoverallhealthandfitness?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Properpreparation,usingfreshingredientsandchoosingflavorsthatappealtoindividualtastes",
+        "b": "Properpreparation,usingfreshingredients,andchoosingflavorsthatappealtoindividualtastes,",
+        "c": "Properpreparation,usingfreshingredients,andchoosingflavorsthatappealtoindividualtastes",
+        "d": "Properpreparationusingfreshingredients,andchoosingflavorsthatappealtoindividualtastes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingsentencesfromthepassageispunctuatedcorrectly?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Thesulfurcompoundsinonionsandgarlicenhancestheabsorptionofironandzincfrom",
+        "b": "Irondeficiencycanleadtofatigue,brainfog,andtiredness.",
+        "c": "Exercisingburnsglucoseandthusloweringbloodsugar.",
+        "d": "Addinglemonjuicetogreenteamakethecatechinsmoreabsorbable."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethesentencefromthepassagewithcorrectsubject-verbagreement:",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Including",
+        "b": "adopting",
+        "c": "Eliminating",
+        "d": "Increasing eRARRRK"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichwordisclosestinmeaningto“incorporating”asusedinthepassage?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q2 (p1, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q9 (p1, part None): only 1 option(s) ['a'] - not emitted",
+    "Q13 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q20 (p2, part None): only 1 option(s) ['a'] - not emitted",
+    "Q36 (p3, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q38 (p3, part None): only 1 option(s) ['a'] - not emitted",
+    "Q49 (p4, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Source numbering gap before Q53: expected Q52; review the printed page.",
+    "Source numbering gap before Q61: expected Q60; review the printed page.",
+    "Q65 (p6, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q79 (p7, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q91 (p11, part None): only 1 option(s) ['a'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      2,
+      9,
+      13,
+      20,
+      36,
+      38,
+      49,
+      52,
+      60,
+      65,
+      79,
+      91
+    ]
+  }
+}

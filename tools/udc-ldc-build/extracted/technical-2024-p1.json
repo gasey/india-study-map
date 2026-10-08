@@ -1,0 +1,166 @@
+{
+  "slug": "technical-2024-p1",
+  "exam": "Group B technical common exam",
+  "sitting": "November 2024",
+  "subject": "General English",
+  "source": "Group B(NG) (Technical)Paper-I (General English)-2024..pdf",
+  "sourceSha256": "40b8b1fe611a4c55604040790fdb9befc1294bde19b3a3e0daf101655de236fc",
+  "ocr": true,
+  "count": 6,
+  "questions": [
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Whatisthelimitationofcomputers?(i)",
+        "b": "Intheopinionofthewriter,whichbenefitscanbederivedfromautomation?(2)",
+        "c": "Inparagraph1,thewritersays‘computerscanprovideinformationinthebestway’.Explainin",
+        "d": "_IsitTrueorFalsethatAutomationwouldnotgiveanyleisuretimetohumanbeings.qd)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Readthefollowingpassagecarefullyandanswerthequestionsthatfollows: Computersarecapableofdoingextremelycomplicatedworkinallbranchesoflearning.They cansolvethemostcomplexmathematicalproblemsorputathousandunrelateddatainorder.These machinescanbeputtovarieduses.Forinstance,theycanprovideinformationonthebestwayto preventtrafficaccidents.Theyworkaccuratelyandathighspeed.Theysaveresearchworkers’ yearsofhardwork. Thiswholeprocess,bywhichmachinescanbeusedtoworkforus,hasbeencalled‘automation’. Infuture,automationmayenablehumanbeingstoenjoymoreleisurethantheydotoday.Thecoming ofautomationisboundtohaveimportantsocialconsequences, \\ Someyearsago,anexpertonautomation,SirLeonBagrit,pointedoutthatitwasamistaketo believethatthesemachinescouldthink.Thereisnopossibilitythathumanbeingswillbecontrolled bymachines.Thoughcomputersarecapableoflearningfromtheirmistakesandimprovingontheir performances,theyneeddetailedinstructionsfromhumanbeingstobeabletooperate.Theycan neverleadindependentlivesor‘ruletheworld”bytakingdecisionsoftheirown. SirLeonsaidthat,infuture,computerswouldbedevelopedwhichwouldbesmallenoughto becarriedinone’spocket.Ordinarypeoplewouldthenbeabletousethemtoobtainvaluable information.Computerscouldbepluggedintoawirelessnetworkandcouldbeusedlikeradios.For instance,peoplegoingonaholidaycouldbeinformedaboutweatherconditions.Cardriverscanbe givenanalternativeroutewhenthereisatrafficjam.Itwillalsobepossibletomaketinytranslating machines.Thiswillenablepeoplewhodonotshareacommonlanguagetotaltkoeachotherwithout anydifficultyortoreadforeignpublications. Itisimpossibletoassesstheimportanceofamachineofthissort,formanyinternational misunderstandingsarecausedsimplyduetoourfailuretounderstandoneanother.Computerswill alsobeusedinordinarypublichospitals.Byprovidingamachinewithapatient’ssystems,adoctor willbeabletodiagnosethenatureofhisillness.Similarly,machinescouldbeusedtokeepacheckon apatient’shealthrecordandbringituptodate.Doctorswill,therefore,haveimmediateaccessto greatmanyfactswhichwillhelpthemintheirwork.Book-keepersandAccountantstoo,couldbe relievedofdullclericalwork.For,thetedioustaskofcompilingandcheckinglistsoffigurescouldbe doneentirelybymachines.Computersarethemostefficientservantthatmanhaseverhad,andthere isnolimittothewaytheycanbeusedtoimproveourlives. Questions:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mostofthefamilymembersdissentedthesuggestionhemade.",
+        "b": "Afflictedpenuryhediedamiserabledeath.",
+        "c": "Asasteptorenovationhehasdecidedtoreplaceoldfurnituresnewones. (a)Thispapertwiceweekly.(appear) (b)Imeanttorepairthefridge,butItimetodoittoday.(nothave) (c)Iyouoneofthesedays,Iexpect.(see)",
+        "d": "Bythetimeyoureturn,Fsewingyourclothes.(finish)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "FillintheblanksusingappropriatePrepositions:(7*1=7)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Heiswritingaletter.",
+        "b": "Thecatdrankallthemilk.",
+        "c": "Theteacherpunishedtheboyswhohadnotdonetheirhomework.",
+        "d": "Doyoureadnovelsthesedays?"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ChangetheVoice:(6x2=12)",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Onewhoisahabitualdrunkard {sot/mongrel/hooligan)",
+        "b": "Ashortjourneyforpleasure (ride/trip/jaunt)",
+        "c": "Awriterwhostealsideasfromanother heretic/plagiarist/pedantic)",
+        "d": "Accusterofhousesinavillage (sector/hamlet/mohalla) (credulous/faithful/stoic) (advocate/judge/arbitrator) a -4-s"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethecorrectonewordsubstituteanduseitinasentencethatshowsitsmeaningclearly: (6x2=12)",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fetid @)comical(ii)ornament Gii)stinkingGv)child",
+        "b": "Enigma @_tuthGi)fear Gif)mysterious(iv)difficulty",
+        "c": "Nonchalant @casualGi)imaginary Gi)formal(iv)concerned",
+        "d": "Indolent (i)stubbornGi)lazy (ii)stupid(iv)proud @casuali)cunning Gil)careful(iv)absurd (i)candid(i)flattering (iii)poetic(iv)elegant"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Selectthewordmostsimilarinmeaningtothegivenword:(6x1=6)",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Extant:dead/long/exists",
+        "b": "Corpulent:meaty/thin/heavy",
+        "c": "Analogous:showy/dissimilar/senile",
+        "d": "Furtive:obvious/unambiguous/open BREEEEE"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethecorrectantonymofthewordsgiven:(6x1=6)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Source numbering gap before Q4: expected Q3; review the printed page.",
+    "Q4 (p2, part None): only 0 option(s) [] - not emitted",
+    "Source numbering gap before Q7: expected Q6; review the printed page.",
+    "Q8 (p3, part None): only 1 option(s) ['a'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      3,
+      4,
+      6,
+      8
+    ]
+  }
+}

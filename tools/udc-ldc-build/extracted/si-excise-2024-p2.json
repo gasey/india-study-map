@@ -1,0 +1,1961 @@
+{
+  "slug": "si-excise-2024-p2",
+  "exam": "Sub-Inspector of Excise & Narcotics",
+  "sitting": "August 2024",
+  "subject": "General Knowledge",
+  "source": "Sub-Inspector of Excise Paper-II August-2024..pdf",
+  "sourceSha256": "53d717a267134ce23a51023327e656bb90522f61fcb9b6e94de6a8f5bb6e351a",
+  "ocr": true,
+  "count": 83,
+  "questions": [
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MemoryUnit",
+        "b": "Arithmetic&LogicUnit",
+        "c": "InputUnit",
+        "d": "OutputUnit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichunitisresponsibleforconvertingthedatareceivedfromtheuserintoacomputerunderstandable format?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Auxiliary",
+        "b": "Main",
+        "c": "Cache",
+        "d": "Virtualmemory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AnextremelyfastmemorytypethatactsasabufferbetweenRAMandtheCPU.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ApplicationSoftware",
+        "b": "SystemSoftware",
+        "c": "UtilitySoftware",
+        "d": "Script"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingisdesignedtocontroltheoperationsofacomputer?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Middleware",
+        "b": "Package",
+        "c": "SystemSoftware",
+        "d": "Firmware"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Aformofmicrocodeorprogramembeddedintohardwaredevicestohelpthemoperateeffectively.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ZERTY",
+        "b": "QWERTY",
+        "c": "QWERTZ",
+        "d": "QZERTY"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thekeyboardlayoutwascreatedtomakeiteasierfortelegraphoperatorsto transcribeMorsecode.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TrashBin",
+        "b": "DeletedBin",
+        "c": "GarbageBin",
+        "d": "RecycleBin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theisatemporarystorageareaforfilesthathavebeendeletedbytheuser.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Whenaprogramfirstopens",
+        "b": "Whenyoufirstbootupyourcomputer",
+        "c": "Whenaprogramisunresponsive",
+        "d": "Whenyouwanttodeleteafile"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhenwouldyouusetheCtrl+Alt+DeletekeyboardshortcutWindowsOS?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DiskDefragmenter",
+        "b": "Taskmanager",
+        "c": "DiskCleanup:",
+        "d": "Backup. -2-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AWindowOSutilityprogramthatlocatesandeliminatesunnecessaryfragmentsandrearrangesfiles andunuseddiskspacetooptimizeoperations.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tostorefilesthatarecurrentlybeingusedbythesystemandcannotbedeleted",
+        "b": "TostoresystemfilesthatarenecessaryfortheoperationofWindows",
+        "c": "Tostorefilesthatarenolongerneeded.",
+        "d": "Todisplayalistofrecentlyusedfiles"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatisthepurposeoftheRecentfolderinWindows?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BigSur",
+        "b": "Monteray",
+        "c": "Sonoma",
+        "d": "Vantura"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThelatestMacOSversionreleasenameis-",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tellme",
+        "b": "Search",
+        "c": "Find",
+        "d": "FindMe"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InMSWord,atextfieldwhereyoucanenterwordsandphrasesaboutwhatyouwanttodonext andquicklygettofeaturesyouwanttouseoractionsyouwanttoperform.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Checkspellingasyoutype",
+        "b": "Markgrammarasyoutype",
+        "c": "Frequentlyconfusedwords",
+        "d": "Alloftheabove"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhencorrectingspellingandgrammarusingAutoCorrectioninMSWord,thefollowingoptionsare available-",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Identifyingatextforfutureuse",
+        "b": "Identifyingheadersandfooters",
+        "c": "Pointingoutthecomments",
+        "d": "Identifyfontssize (a)Leftalignment(b)Rightalignment (c)Middlealignment(d)Centeralignment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatistheuseofBookmarkinMSWord?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Footnote",
+        "b": "Dropcap",
+        "c": "Tabstop",
+        "d": "Heading"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ahugecapitalletterwiththewidthoftwoormorelinesofconventionaltextthatappearsatthestart ofatextblockoraparagraphinMSWord.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Scaling",
+        "b": "WordWrap",
+        "c": "WordArt",
+        "d": "Numbering"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Awordprocessingfeaturethatautomaticallytransfersawordthathasnoinsufficientspacefromthe endofonelineoftexttothebeginningofthenext.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ctrl+Home",
+        "b": "Ctrl+O",
+        "c": "Ctrl+N",
+        "d": "Ctrl+C"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AshortcutkeyusedinMSWordtomovethecursortothebeginningofthedocument.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Placeholders",
+        "b": "Bookmarks",
+        "c": "Objects",
+        "d": "Cross-reference"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Aallowsyoutolinktootherpartsofthesamedocument.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Copier",
+        "b": "Formatter",
+        "c": "Formatpainter",
+        "d": "Duplicator"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AnExcelcommandwhichletsyoucopyformattingfromonecelltoanother.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "HighlightCellRules",
+        "b": "Top/BottomRules",
+        "c": "ExcelManageRules",
+        "d": "ConditionalFormatting ~3-,"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InExcel,isusedtochangetheappearanceofcellsinarangebasedonyourspecified conditions.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AVERAGEIFS",
+        "b": "AVERAGEIF",
+        "c": "AVERAGE",
+        "d": "AVG"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ApremadefunctioninExcel,whichcalculatestheaverageofarangebasedononeormoretrueor falsecondition?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tre",
+        "b": "False",
+        "c": "TrueorFalse",
+        "d": "Noneoftheabove"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheSUMIFfunctionisapremadefunctioninExcel,whichcalculatesthesumofvaluesinarange basedonwhichcondition?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chart",
+        "b": "ColorScales",
+        "c": "Databars",
+        "d": "PivotTable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AfunctionalityinExcelwhichhelpsyouorganizeandanalyzedata,andletsyouaddandremove values,performcalculations,andtofilterandsortdatasets?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "=SUM(A1:A10)",
+        "b": "=TOTAL(A1:A10)",
+        "c": "=ADD(A1:A10)",
+        "d": "=SUMMARY(A1:A10)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HowcanyousumthevaluesincellsA]throughA10inExcel?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Copying",
+        "b": "Sequences",
+        "c": "Dates",
+        "d": "Alloftheabove"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InMSExcel,fillingcanbeusedfor-",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Notespageview",
+        "b": "Outlineview",
+        "c": "Readingview",
+        "d": "SlideSorterview"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "MSPowerPointthatdisplaysallslidesasthumbnailsandisusefulforrearrangingslides,checkingthe flowofyourpresentation,orapplyingtransitioneffects.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AlttF5",
+        "b": "Shift+F5",
+        "c": "FS",
+        "d": "F4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheshortcutkeytostartthePowerPointpresentationfromthecurrentslide.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ControlTab",
+        "b": "InsertTab",
+        "c": "DesignTab",
+        "d": "TransitionTab"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thecontainsallthefeaturestochangethelookofyourdocumentinoneplace.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Theme",
+        "b": "Template",
+        "c": "Partition",
+        "d": "Placeholder"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InMSPowerPoint,apre-formattedcontaineronaslideforcontent(text,graphics,orvideo)is called-",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Transition",
+        "b": "Subtle",
+        "c": "Exciting",
+        "d": "DynamicContent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingcategoriesisnotthetransitioninMSPowerPoint?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "bottom",
+        "b": "top",
+        "c": "right",
+        "d": "left"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InMSPowerPoint,Normalviewdisplaysslidethumbnailsonthesideofthescreen.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Atypeofanimationentranceeffect",
+        "b": "Amethodofadvancingslides.",
+        "c": "Amethodofmovingitemsonaslide",
+        "d": "Alloftheabove -4-,"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "MotionpathinMSPowerPointis-",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NSFNET",
+        "b": "ARPANET",
+        "c": "DDN",
+        "d": "SATNET"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thefirstwide-areapacket-switchednetworkwithdistributedcontrolandoneofthefirstnetworks toimplementtheTCP/IPprotocolsuite.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Firewall",
+        "b": "PasswordManager",
+        "c": "VPN",
+        "d": "Antivirus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "isanetworksecuritysystemthatmonitorsandcontrolsincomingandoutgoing networktrafficbasedonpredeterminedsecurityrules,",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "HTTP",
+        "b": "HTTPS",
+        "c": "FTP",
+        "d": "SMTP"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichoneofthefollowingprotocolsisusedforE-mailservices?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Switch",
+        "b": "Bridge",
+        "c": "Router",
+        "d": "Gateway"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Anetworkingdevicethatsendsdatapacketsfromonecomputernetworktoanother.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Server",
+        "b": "Client",
+        "c": "Thread",
+        "d": "Agent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Atypicalprogramcreatessomeremoteobjects,makesreferencestotheseobjects accessible,andwaitsforclientstoinvokemethodsontheseobjects.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cache",
+        "b": "History",
+        "c": "Cookie",
+        "d": "Bookmarks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "isusedbywebserverstoidentityandtrackusersastheynavigatedifferentpagesona website,andtoidentifyusersreturningtoawebsite.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8bit",
+        "b": "16bit",
+        "c": "32bit",
+        "d": "128bit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatisthelengthoftheIPv6address?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Internet",
+        "b": "Intranet",
+        "c": "Extranet",
+        "d": "Ethernet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Aprivatenetworkcontainedwithinanenterprisethatisusedtosecurelysharecompanyinformation andcomputingresourcesamongemployees.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Startopology",
+        "b": "Bustopology",
+        "c": "Ringtopology",
+        "d": "Treetopology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Atypeofnetworktopologyinwhichallthedevicesornodesarephysicallyconnectedtoacentral nodesuchasarouter,switch,orhub.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "WorldWideWebContent",
+        "b": "WorldWideWebCenire",
+        "c": "WorldWideWebConsortium",
+        "d": "WorldWideWebCommission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AnindustryconsortiumthatseekstopromotestandardsfortheevolutionoftheWeband interoperabilitybetweenwwwproductsbyproducingspecificationsandreferencesoftware.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nexus",
+        "b": "NetscapeNavigator",
+        "c": "InternetExplorer",
+        "d": "Mosaic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thefirstwebbrowserwasinventedin1990calledWorldWideWebwhichwaslaterrenamedto",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Webserver",
+        "b": "Webbrowser",
+        "c": "Webmatrix",
+        "d": "Webnetwork -5-:"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingisusedtoreadaHTMLpageandrenderit?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Handoff",
+        "b": "Simplemodulationtechnique",
+        "c": "Frequencyreuse",
+        "d": "Higherbandwidth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThemainobjectiveofCELLinacellularmobilesystemis-",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gross",
+        "b": "Generation",
+        "c": "General",
+        "d": "Gap"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theevolutionofcellphonestandardsarefrom1Gto5G,whatdoesGindicate?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Twisted-paircable",
+        "b": "Co-axialcable",
+        "c": "Open-wirecable",
+        "d": "OpticalFiberCable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thetypeofintercommunicationcablethathasthehighestbandwidthisthe-",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AppliedAI",
+        "b": "Machinelearning",
+        "c": "Internetofthings",
+        "d": "ParalleAlI"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Facerecognitionsystemisbasedon.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6",
+        "b": "48",
+        "c": "12",
+        "d": "24"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thelargestnaturalnumberwhichdivideseverynaturalnumberoftheform(n?-n)(n-2),wherenisa naturalnumbergreaterthan2is-",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.12,600.00",
+        "b": "Rs.11,500.00",
+        "c": "Rs.13,500.00",
+        "d": "Rs.10,500.00"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A,BandCinvestedinaratioof7:8:5inabusiness.TheygotanannualprofitofRs.1,36,800.IfA andCwithdrawtheiramountattheendof3monthsand7monthsrespectively.Then,findthe differencebetweenAandC’sshareofprofit.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.28,000",
+        "b": "Rs.42,000",
+        "c": "Rs.56,000",
+        "d": "Rs.84,000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThemonthlyincomesofXand¥areintheratio4:3andtheirmonthlyexpendituresareintheratio 3:2.HowevereachsavesRs.6,000permonth.Whatistheirtotalmonthlyincome?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2years",
+        "b": "3years",
+        "c": "4years",
+        "d": "5years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In4years,Rs.6,000amounttoRs.8,000.Inwhattimeatthesamerate,willRs.525amounttoRs.7007",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5040",
+        "b": "2540",
+        "c": "5080",
+        "d": "2520"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inhowmanyways,thelettersoftheword‘BANKING’canbearranged?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.59-61):Studythefollowingtabletoanswerthegivenquestions",
+      "opts": {
+        "a": "52000",
+        "b": "58000",
+        "c": "60000",
+        "d": "62000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TotalnumberofcandidateswhoappearedforCSandEStogetherin2011was25%morethanthe totalnumberofcandidateswhoappearedforthesametogetherin2010.Howmanyfemalecandidates appearedforboththeexamstogetherin2011,iftheyformed:thofthetotalnumberofcandidates appearingforbothCSandESthatyear?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.59-61):Studythefollowingtabletoanswerthegivenquestions",
+      "opts": {
+        "a": "13:21",
+        "b": "12:17",
+        "c": "12:19",
+        "d": "11:17"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatistherespectiveratiobetweenthenumberofgraduateswhohadappearedforESin2010and thenumberofgraduateswhoappearedforCSin2010?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.59-61):Studythefollowingtabletoanswerthegivenquestions",
+      "opts": {
+        "a": "38400",
+        "b": "24400",
+        "c": "26400",
+        "d": "26000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatisthedifferencebetweentheaveragenumberofcandidateswhoappearedforCSintheyears 2007and2008andaveragenumberofcandidateswhoappearedforESinthesameyearstogether?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2%",
+        "b": "3%",
+        "c": "4%",
+        "d": "5%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatratepercentisoneminute12secondstoanhour?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12days",
+        "b": "20days",
+        "c": "24days",
+        "d": "25days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AandBcandoapieceofworkseparatelyin30daysand20days.HowlongwillittakeforbothA andBtogethertodothework?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10%gain",
+        "b": "10%loss",
+        "c": "12%loss",
+        "d": "12%gain -7-‘"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ashopkeeperpurchased300bulbsforRs.10each.However20bulbswerefusedandhadtobe thrownaway.TheremainingweresoldatRs.12each.Findthegainorlosspercent.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "-1",
+        "b": "1",
+        "c": "13",
+        "d": "-13"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Findthevalueofmsothat(-3)\"*'x(-3)°=(-3)’-",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10%",
+        "b": "8%",
+        "c": "6%",
+        "d": "5%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatpercentof2.5litreis125mL?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "360",
+        "b": "390",
+        "c": "420",
+        "d": "460"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If40%ofthestudentsinaschoolareboysandthenumberofgirlsintheschoolis540.Howmany boysarethereintheschool?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "35cm",
+        "b": "49cm",
+        "c": "55cm",
+        "d": "70cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Abicyclewheelmakes5000revolutionsinmoving11km.Thediameterofthewheelis—",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "340m",
+        "b": "430m",
+        "c": "440m",
+        "d": "360m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Atrainisronningataspeedof72kin/hrpassesapoleintheplatformin17seconds. Thelengthofthetrainis—",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "z",
+        "b": "3",
+        "c": "-3",
+        "d": "3 $l"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ifx=3isoneoftherootsoftheequationkc?+2x—3=0,thenthevalueofkis- -1i",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "14m",
+        "b": "12m",
+        "c": "8m",
+        "d": "6m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thelengthofthecuboidisdoubleitsbreadth.Itsheightis3mandtheareaofitsfourwallsis108m7. Findthelengthofthecuboid.",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "44",
+        "b": "46",
+        "c": "48",
+        "d": "50"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Themeanof50numberswasfoundtobe45.Lateron,itwasdetectedthatanumber26was misreadas76.Findthecorrectmeanofthegivennumbers.",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "13",
+        "b": "-13",
+        "c": "10",
+        "d": "-10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The10\"termfromtheendoftheA.P.17,14,11,...-40is—",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "420",
+        "b": "410",
+        "c": "415",
+        "d": "405"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inacollege,thereare54girlswhohavecar.Iftheseconstituteonefifthofthegirlsandthetotal numberofgirlsistwo-fifthofthetotalnumberofstudentsinthecollege,whatisthenumberofboys inthecollege?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "32",
+        "b": "34",
+        "c": "36",
+        "d": "38"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "RoseisnowaquarterasoldashermotherMary.Fouryearshence,Marywillbethreetimesasold asherdaughter.TheageofMaryinyearsis-",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "KimaandMala",
+        "b": "MalaandRema",
+        "c": "RemaandDika",
+        "d": "DikaandMala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TherearefourfriendsKima,Rema,MalaandDika.Inanexamination,thesumoftheirmarksis450. Mala’smarksareequaltothetwicethesumofRemaandDika’smarks.Kima’smarksareequalto Mala’smarks.Thepersonwhogets95marksandabovewillgotothenextlevelexamination.Who arethepeoplewhogotothenextlevelexamination?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20years",
+        "b": "22years",
+        "c": "25years",
+        "d": "27years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TodayisJohn’sbirthday.Oneyear,fromtodayhewillbetwiceasoldashewas12yearsago.How oldisJohntoday?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.4andRs.23",
+        "b": "Rs.13andRs.17",
+        "c": "Rs.15andRs.14",
+        "d": "Rs.17andRs.13"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TwobusticketsfromAizawltoSerchhipandthreeticketsfromAizawltoSiahacostRs.77butthree ticketsfromAizawltoSerchhipandtwoticketsfromAizawltoSiahacostRs.73.Whatarethefares forSerchhipandSiahafromAizawl?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "EFRT",
+        "b": "LMTV",
+        "c": "HILM",
+        "d": "STWY"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Findtheoddgroupoflettersfromthegivenalternatives,",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2,4,72",
+        "b": "1,2,9",
+        "c": "5,3,152",
+        "d": "3,4,98"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fromtheoptionsgivenbelow,selecttheonethatisdifferentfromtheotherthreeseriesofnumbers.",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "108",
+        "b": "184",
+        "c": "104",
+        "d": "97"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthenextnumberinthissequenceof1,3,8,19,42,89,?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DaughtersofMizoram:TheSilentFightforRights",
+        "b": "ModernMizoSociety:CrimeandWomen",
+        "c": "FromKitchentoRashtrapatiBhawan:MothersofIndia",
+        "d": "RoleofWomen:FamilyandSociety"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AcollegeinLungleiwantstoholdanessaycompetitionhighlightingtheneedforwomenempowerment inMizosociety,Whichofthefollowingtopicsseemmostsuitableforthecompetition?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uncle",
+        "b": "Father",
+        "c": "Brother",
+        "d": "Grandfather"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rama’smotheristheonlydaughterofMami’sfather.HowisMami’shusbandrelatedtoRama?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "iii,v,i,iv,ii",
+        "b": "iti,iv,i,vii",
+        "c": "vi,iii,ii,iv",
+        "d": "ii,tii,i,v,iv"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrangethewordsgivenbelowinameaningfulsequence. iPresentationiiRecommendation iii,Arrivaliv.Discussion v,Introduction",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "68",
+        "b": "66",
+        "c": "62",
+        "d": "64"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sequence:4096,1024,256,,16,4,1 Thenumberoptiontocompletethesequencecorrectlyis-",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "KJO",
+        "b": "MJQ",
+        "c": "MHQ",
+        "d": "KHO"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatamongthegivenshouldreplacethequestionmark? TOK:SNJ::LIP:?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sphere",
+        "b": "Cylinder",
+        "c": "Triangle",
+        "d": "Ellipse"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatamongthegivenshouldreplacethequestionmark? Square:Rectangle::Circle:?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "394821",
+        "b": "384612",
+        "c": "384621",
+        "d": "394812"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InacertaincodelanguageROSEiscodedas6821,CHAIRiscodedas73456andPREACHis codedas961473,whatwillbethecodeforHOARSE?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Saturday",
+        "b": "Thursday",
+        "c": "Wednesday",
+        "d": "Tuesday eeRKKK"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TodayisMonday.After61days,itwillbe-",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Source numbering gap before Q2: expected Q1; review the printed page.",
+    "Source numbering gap before Q16: expected Q15; review the printed page.",
+    "Q27 (p3, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q52 (p5, part None): only 0 option(s) [] - not emitted",
+    "Q56 (p5, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q58 (p6, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q68 (p7, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q71 (p7, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q72 (p7, part None): only 0 option(s) [] - not emitted",
+    "Q74 (p7, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q76 (p8, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q78 (p8, part None): only 0 option(s) [] - not emitted",
+    "Q79 (p8, part None): only 0 option(s) [] - not emitted",
+    "Q86 (p9, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q90 (p9, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q91 (p9, part None): only 0 option(s) [] - not emitted",
+    "Q94 (p10, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      15,
+      27,
+      52,
+      56,
+      58,
+      68,
+      71,
+      72,
+      74,
+      76,
+      78,
+      79,
+      86,
+      90,
+      91,
+      94
+    ]
+  }
+}

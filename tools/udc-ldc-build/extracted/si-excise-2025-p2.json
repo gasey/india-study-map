@@ -1,0 +1,1680 @@
+{
+  "slug": "si-excise-2025-p2",
+  "exam": "Sub-Inspector of Excise & Narcotics",
+  "sitting": "April 2025",
+  "subject": "General Knowledge & Reasoning",
+  "source": "Sub-Inspector of Excise General Knowledge Paper-II April-2025 A..pdf",
+  "sourceSha256": "bf701f6dbc83ae2d5a4979951454e8541fec40e9db794f5eeeb84e2d61c57780",
+  "ocr": true,
+  "count": 70,
+  "questions": [
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MinistryofTourism",
+        "b": "MinistryofCulture",
+        "c": "MinistryofFinance",
+        "d": "MinistryofHomeAffairs (a)RiodeJaneiro(b)Beijing (c)NewDelhi(d)Moscow (a)Singapore(b)SouthKorea (c)Japan(d)UnitedArabEmirates (a)Educateeverygirl(b)Empoweringgirlsforabrightfuture (c)Genderequalitynow(d)Savethegirlchild (a)27\"January(b)28\"January (c)29\"January(d)30\"January (a)Toincreasetolltaxrates (b)TopreventthemisuseofFASTagsandensurefaster,accurateandtransparentmethodoftoll payments. (c)TopromotemultipleFASTagspervehicle (d)Toslowdowntrafficattollplazas: (a)LordCanning(b)LordCornwallis (c)LordDalhousie(d)LordLinlithgow (a)LordCurzon(b)LordRipon (c)LordHardinge(d)LordMinto"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Therearenonegativemarksforincorrectanswer. -2-: 1.Whichministryorganizedtheevent“BharatParv2025”atRedFort?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DadabhaiNaoroji",
+        "b": "GopalKrishnaGokhale",
+        "c": "LalaLajpatRai",
+        "d": "BhagatSingh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhowasthefirstIndiantobeelectedtotheBritishParliament?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ConstitutionalreformsinIndia",
+        "b": "GrantoffullindependencetoIndia",
+        "c": "MeasurestostoptheCivildisobedienceMovement",
+        "d": "TradeagreementsbetweenBritainandIndia -3-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheRoundTableConferenceswereheldinLondontodiscuss-",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Alps",
+        "b": "Andes",
+        "c": "UralMountains",
+        "d": "RockyMountains"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingmountainrangesseparatesEuropeandAsia?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aravallirange",
+        "b": "Himalayas",
+        "c": "VindhyaRange",
+        "d": "WesternGhats"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichmountainrangeseparatestheIndo-GangeticPlainfromtheDeccanPlateau?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GulfStream",
+        "b": "Kuroshiocurrent",
+        "c": "Labradorcurrent",
+        "d": "Norwegiancurrent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingisacoldoceancurrent?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India",
+        "b": "China",
+        "c": "UnitedStates",
+        "d": "Russia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichcountryisthelargestproducerofwheatintheworld?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DamanandDiu",
+        "b": "AndamanandNicobar",
+        "c": "Puducherry",
+        "d": "Lakshadweep"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingUnionTerritoriesofIndiahasthehighestmangrovecover?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chhattisgarh",
+        "b": "Karnataka",
+        "c": "Kerala",
+        "d": "WestBengal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The“KudremukhIronoreCompany”islocatedin-",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PartTi",
+        "b": "PartIV",
+        "c": "PartV",
+        "d": "PartVI"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichpartoftheIndianConstitutiondealswithFundamentalRights?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5\"Schedule",
+        "b": "6\"Schedule",
+        "c": "7Schedule",
+        "d": "9\"Schedule"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichscheduleoftheIndianConstitutioncontainsprovisionsrelatedtotheadministrationoftribal areas?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article32",
+        "b": "Article45",
+        "c": "Article116",
+        "d": "Article360"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "UnderwhicharticlecantheSupremeCourtofIndiaissuewritstoenforceFundamentalRights?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Britain",
+        "b": "France",
+        "c": "Germany(Weimerconstitution)",
+        "d": "USA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheemergencyprovisionoftheIndianconstitutionwasborrowedfromtheconstitutionof-",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5Syears",
+        "b": "6years",
+        "c": "Tilltheageof62",
+        "d": "Tilltheageof65"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatisthetenureofajudgeoftheSupremeCourtofIndia?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Providingemployment",
+        "b": "Financialinclusion",
+        "c": "Urbandevelopment",
+        "d": "Ruralelectrification"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatisthemainobjectiveofthePradhanMantriJanDhanYojana(PMJDY)?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MinistryofEducation",
+        "b": "MinistryofHealthandFamilyWelfare",
+        "c": "MinistryofWomenandChildDevelopment",
+        "d": "MinistryofRuralDevelopment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichministryimplementstheMid-DayMealSchemeinIndia?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Incomeinequality",
+        "b": "Populationgrowthrate",
+        "c": "Povertyrate",
+        "d": "Unemploymentrate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatdoestheGiniCoefficientmeasure?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NationalRuralLivelihoodsMission(NRLM)",
+        "b": "MGNREGA",
+        "c": "PradhanMantriKaushalVikasYojana(PMKYV)",
+        "d": "AtalPensionYojana(APY)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichisthelargestemploymentguaranteeprograminIndia?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbondioxide",
+        "b": "Nitrogenandphosphorus",
+        "c": "Oxygen",
+        "d": "Sulfurdioxide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Eutrophicationinthelakeisduetothepresenceof-",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbondioxide(CO,)",
+        "b": "Methane(CH,)",
+        "c": "Watervapor(HO)",
+        "d": "Nitrousoxide(N,O)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichgasisthemostabundantgreenhousegasintheEarth’satmosphere’?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "KyotoProtocol",
+        "b": "MontrealProtocol",
+        "c": "ParisAgreement.",
+        "d": "BaselConvention"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichprotocolaimstoreducetheproductionofozone-depletingsubstances?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gallonpercapita",
+        "b": "Globalhectares",
+        "c": "Kilogramsofwaste",
+        "d": "Litersofwater"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingistheunitofmeasurementoftheEcologicalFootprints?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AndhraPradeshandTelangana",
+        "b": "KarnatakaandTamilNadu",
+        "c": "KeralaandTamilNadu",
+        "d": "MaharashtraandGujarat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheKalkothy—WalayarCorridorislocatedbetweenwhichtwoIndianstates?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Deserts",
+        "b": "Grasslands",
+        "c": "Tropicalrainforests",
+        "d": "Tundra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingecosystemshasthehighestbiodiversity?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Speed",
+        "b": "Distance",
+        "c": "Velocity",
+        "d": "Tine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingisavectorquantity?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Meltingofice",
+        "b": "Dissolvingsugarinwater",
+        "c": "Rustingofiron",
+        "d": "Boilingofwater"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingisachemicalchange?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bronchi",
+        "b": "Esophagus",
+        "c": "Larynx",
+        "d": "Trachea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthescientificnameofthehumanvoicebox?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CellWall",
+        "b": "Mitochondria",
+        "c": "Nucleus",
+        "d": "Ribosome -j5-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thepowerhouseofthecellis-",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Centripetalforce",
+        "b": "Frictionalforce",
+        "c": "Gravitationalforce",
+        "d": "Magneticforce"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theforcethatkeepsanobjectmovinginacircularpathis-",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chhimtuipui/Kaladan",
+        "b": "Tlawng",
+        "c": "Tuichang",
+        "d": "Serlui"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichriveroriginatesinBurma(Chinstate),passesthroughthesoutherntipofMizoramandthen flowsbacktoBurmaagain?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MimKut",
+        "b": "PawlKut",
+        "c": "ChapcharKut",
+        "d": "ThalfavangKut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichMizofestivaliscelebratedafterclearingtheforestforJnumcultivation?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ChapcharKut",
+        "b": "MimKut",
+        "c": "LyuvaKhutla",
+        "d": "PawlKut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichfestivalisassociatedwiththeMaratribe?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ChheihLam",
+        "b": "Sarlamkai",
+        "c": "Cheraw",
+        "d": "PawlKut (a)A.GMcCall(b)A.R.H.McDonald (c)LtColTregear(d)N.E.Perry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichtraditionalMizodanceisperformedasavictorydanceafterawar?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AHScott",
+        "b": "GH.Loch",
+        "c": "J.Shakespear",
+        "d": "}TH.Lewin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhointroducedLandSettlementinLushaiHills?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "J.-H.Lorrain",
+        "b": "R.A.Lorrain",
+        "c": "JohnCope",
+        "d": "W.Savidge (a)222(b)223 (c)221(d)225 316 (a)Or(b)20a 241 (c)64Sy(d)334 -6-: (a)330(b)-330 (ec)+330(d)Noneofthese 37,."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhowastheMissionaryreponsibleforbringingChristianitytotheMarapeople?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "100489",
+        "b": "100089",
+        "c": "100480",
+        "d": "100049"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrangethefraction3°9°23indescendingorder, 370730 @3:913©)9°5°13 113711.73 ©Bs°9@3°9°s §5,FindTheleastnumberof6-digitswhichisaperfectsquare.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "360",
+        "b": "450",
+        "c": "420",
+        "d": "320"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "LCMof24,36and60is—",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "-98",
+        "b": "8",
+        "c": "-40",
+        "d": "-66"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Subtract-29from-53andadd-16totheresult.Theansweris—",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1639",
+        "b": "1369",
+        "c": "1365",
+        "d": "1425"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthesumoffirst37oddnumbers?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "798",
+        "b": "897",
+        "c": "898",
+        "d": "752"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "89%of?+365=1075.22;",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "-8",
+        "b": "4",
+        "c": "-4",
+        "d": "3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cuberootof-64is—",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10.60",
+        "b": "710.70",
+        "c": "10.80",
+        "d": "10.90"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thepriceofpotatoisdecreasedby10%.Ifthepriceofpotatowas712perkg,thepresentpriceis-",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2and3",
+        "b": "2and4",
+        "c": "Sand3",
+        "d": "6and3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Twiceofonenumberaddedtothreetimesanothernumbergives21.Ifthedifferenceofthenumbers is3,thenumbersare—",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9%",
+        "b": "15%",
+        "c": "18%",
+        "d": "12% -7-: 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ashopkeepermarkedtheprice10%morethanitscostprice.Ifheallowsadiscountof20%,then findhislosspercent.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "7years",
+        "b": "5years",
+        "c": "8years",
+        "d": "6years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inwhattimewillthesimpleinterestbe5oftheprincipalat8%perannum?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20%",
+        "b": "25%",
+        "c": "60%",
+        "d": "75%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inanexamination,50%ofthecandidatesfailedinEnglish,40%failedinHindiand15%failedinboth thesubjects.ThepercentageofcandidateswhopassedinbothEnglishandHindiis-",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "242,000",
+        "b": "%44,000",
+        "c": "246,000",
+        "d": "%48,000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Aplotisintheformofasquareanditsperimeteris160metres.Thecostoflayinggrassattherate of330persquaremetreis—",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12days",
+        "b": "Dp",
+        "c": "6days",
+        "d": "4days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Amancandoapieceofin6dayswhichhecancompletein4dayswhenhisfriendhelpshim.His friendcancompletetheworkalonein— 1",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12and10",
+        "b": "14and10",
+        "c": "18and10",
+        "d": "10an1d0"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Themedianandmodeforthedata17,2,7,27,25,5,14,18,10,24,48,10,8,7,10,28is—",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "145¢m",
+        "b": "135cm",
+        "c": "133cm",
+        "d": "144cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theareaofarectangleis1.8timestheareaofasquare.Thelengthoftherectangleis5timesthe breadth.Thesideofthesquareis20cm.Whatistheperimeteroftherectangle?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "713,810",
+        "b": "%12,780",
+        "c": "13,920",
+        "d": "%13,950"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Astartedabusinessbyinvesting725,000,Attheendof4thmonthfromthestartofthebusiness,B joinwith$15,000andattheendof6thmonthfromthestartofthebusiness,Cjoinedwith720,000. IfA’sshareinprofitattheendoftheyearwas77750.Whatwasthetotalprofitreceived?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30km/hr",
+        "b": "60km/hr",
+        "c": "48km/hr",
+        "d": "24km/hr"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Apersoncoversadistanceof20kmbybusin35minutes,Afterdeboardingthebus,hetookrestfor 20minutesandcoversanother10kmbyataxiin20minutes.Findhisaveragespeedforthewhole journey.",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10years",
+        "b": "10.66years",
+        "c": "11.5years",
+        "d": "11,66years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thereare30boysand60girlsinaclass.Iftheaverageageofboysis12yearsandaverageageof girlsis10years,thenwhatistheaverageageofthewholeclass?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10m",
+        "b": "im",
+        "c": "12m",
+        "d": "13m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Aladderisplacedagainstawallsuchthatitsfootisatthedistanceof6mfromthewallanditstop reachesawindow8mabovetheground.Thelengthoftheladderis-",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "p=r",
+        "b": "p=2r/",
+        "c": "2p=r",
+        "d": "p=4r"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Iftherootsoftheequationpx?+.+r=0arereciprocaltoeachother,thenwhichoneofthefollowing iscorrect?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12y?",
+        "b": "12y",
+        "c": "8",
+        "d": "12"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thecoefficientofx°in(2x+)is",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNo.81):Thegivenpairofwordscontainsaspecificrelationshiptoeachother.",
+      "opts": {
+        "a": "Greenland",
+        "b": "Ireland",
+        "c": "Netherland",
+        "d": "Borneo."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ocean:PacificandIsland:?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CE7",
+        "b": "AZ27",
+        "c": "C317",
+        "d": "LP28"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosetheoddonefromthegivenoptions.",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction(QuestionNo.85):Lookatthepatternandfillintheblankeitherinthemiddleofthe",
+      "opts": {
+        "a": "B,C,D",
+        "b": "BC,D",
+        "c": "B,C,D",
+        "d": "BCD,"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "B,CD,BCD,B,CD,BC,D",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brother",
+        "b": "Maternaluncle",
+        "c": "Unele",
+        "d": "Grandfather"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AisC’sson.CandQaresisters.ZisQ’smother.PisthesonofZ.HowisPrelatedtoA?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10metre",
+        "b": "14metre",
+        "c": "38metre",
+        "d": "48metre"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thelengthandbreadthofaroomare8metreand6metrerespectively.Acatrunsalongallthefour wailsandfinallyalongadiagonalinordertocatcharat.Howmuchtotaldistanceiscoveredbythe cat?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "98",
+        "b": "96",
+        "c": "75",
+        "d": "97"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If‘x’meanssubtraction,‘+’meansmultiplicationand‘-’meansaddition,thenfindthevalueofthe followingequation. 124+(3x1)+4-1=?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Matthew’sniece",
+        "b": "Matthew’sdaughter",
+        "c": "Matthew’smother",
+        "d": "Matthew’ssister"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "MatthewtoldhisfriendJohn,pointingtoaphotograph.“Herfatheristheonlysonofmymother.” .Thephotagraphshows?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "N",
+        "b": "O",
+        "c": "L",
+        "d": "M"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ifthesequenceofalphabetsisreversedwhichofthefollowingwillbethe14\"Letter?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "14%",
+        "b": "15%",
+        "c": "16%",
+        "d": "17% -10-:"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Vanias7ranksaheadofMapuiainaclassof39,IfMapuiarankisseventeenthfromthelast,whatis Yana’srankfromthestart?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionsNo.93-95):Readthefollowinginformationcarefullytoanswerthequestions",
+      "opts": {
+        "a": "Sister",
+        "b": "Mother",
+        "c": "Aunt",
+        "d": "Mother-in-law"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HowisFrelatedtoC?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionsNo.93-95):Readthefollowinginformationcarefullytoanswerthequestions",
+      "opts": {
+        "a": "Sister",
+        "b": "Mother-in-law",
+        "c": "Sister-in-law",
+        "d": "Mother"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HowisFrelatedtoA?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionsNo.93-95):Readthefollowinginformationcarefullytoanswerthequestions",
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethealternativewhichcloselyresemblesthemirrorimageofthegivencombination. TARAIN1014A (1)ABTOTMIARAL(2)AtSUOLAAtAT (3)ATOTATAAAIN(4)ABTORMLARAT",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionsNo.93-95):Readthefollowinginformationcarefullytoanswerthequestions",
+      "opts": {
+        "a": "OnlyIfollows",
+        "b": "OnlyIIfollows",
+        "c": "Either|orIIfollows",
+        "d": "NeitherInorIIfollows month, duedate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Astatementfollowedbytwocoursesofactionsnumbered|andILisgivenbelow.Describewhichof thecoursesofactionlogicallyfollowsandgiveansweras:",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionsNo.93-95):Readthefollowinginformationcarefullytoanswerthequestions",
+      "opts": {
+        "a": "lonly",
+        "b": "2only",
+        "c": "Both1and2",
+        "d": "Neither1nor2 hkdedeetee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thegreatestblessingthattechnologicalprogresshasinstoreformankindisnot,ofcourse,an accumulationofmaterialpossessions.Theamountofthesethatcanbeeffectivelyenjoyedbyone individualinonelifetimeisnotgreat.Butthereisnotthesamenarrowlimittothepossibilitiesofthe enjoymentofleisure.Thegiftofleisuremaybeabusedbypeoplewhohavehadnoexperienceof makinguseofit.Yetthecreativeuseofleisurebysocietieshasbeenthemainspringofalihuman progressbeyondtheprimitivelevel. Withreferencetotheabovepassage,thefollowingassumptionshavebeenmade: 1,Peoplealwaysseetheleisuretimeasagiftanduseitforacquiringmorematerialpossession 2.Useofleisurebysomepeopleproducenewandoriginalthingshasbeenthechiefsourceof humanprogress. Whichoftheseassumptionsis/arevalid?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted",
+    "Source numbering gap before Q6: expected Q5; review the printed page.",
+    "Q4 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q6 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q7 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q9 (p2, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q10 (p2, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q19 (p3, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q27 (p4, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q30 (p4, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q41 (p5, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q43 (p5, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Source numbering gap before Q49: expected Q48; review the printed page.",
+    "Source numbering gap before Q54: expected Q51; review the printed page.",
+    "Source numbering gap before Q56: expected Q55; review the printed page.",
+    "Q62 (p6, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q68 (p7, part None): only 0 option(s) [] - not emitted",
+    "Q69 (p7, part None): only 1 option(s) ['a'] - not emitted",
+    "Q74 (p7, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q77 (p8, part None): only 0 option(s) [] - not emitted",
+    "Source numbering gap before Q84: expected Q83; review the printed page.",
+    "Q84 (p8, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q86 (p9, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q94 (p10, part None): only 1 option(s) ['a'] - not emitted",
+    "Q97 (p10, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q98 (p10, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      9,
+      10,
+      19,
+      27,
+      30,
+      41,
+      43,
+      48,
+      51,
+      52,
+      53,
+      55,
+      62,
+      68,
+      69,
+      74,
+      77,
+      83,
+      84,
+      86,
+      94,
+      97,
+      98
+    ]
+  }
+}

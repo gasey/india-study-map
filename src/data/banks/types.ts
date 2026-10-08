@@ -79,6 +79,18 @@ interface BankQuestionBase {
   imagePath?: string;
   /** Where this question came from — 'UPSC Prelims', 'MPSC', 'Polity Codex'… */
   source?: string;
+  /** Per-question printed source, including recovered items from another booklet. */
+  sourceHref?: string;
+  /** General-paper section, independent of the finer topic label. */
+  studySection?: 'gk' | 'english' | 'computer' | 'arithmetic' | 'reasoning';
+  /** Conventional comprehension MCQs have another mark scheme; drill only. */
+  paperExamExcluded?: boolean;
+  /** Printed number/section for matching a key, unaffected by filtering. */
+  questionNumber?: string;
+  /** Text/figure extraction remains under source review; never auto-scored. */
+  sourceReview?: boolean;
+  /** Key letters retained when incomplete text or multiple accepted choices prevent scoring. */
+  officialAnswerCandidates?: number[];
   /** Exam year for true PYQs, e.g. 2019. */
   year?: number;
   /** Concept tags shared with map chapters → enables "View on map". */
@@ -118,6 +130,9 @@ interface BankQuestionBase {
   /** For answerSource: 'official' — the notification that published the key,
    *  so a disputed answer can be traced to its source document. */
   answerKeyRef?: string;
+  /** Independent solved transcription, retained beside an official answer for comparison. */
+  independentAnswerIndex?: number;
+  independentAnswerSource?: 'solved' | 'transcribed' | 'legacy-inferred';
   /**
    * The printed options are IMAGES (picture-sequence / figure-matrix items in
    * the non-verbal reasoning sections), so there is no option text to store and
@@ -267,6 +282,12 @@ export type BankQuestion = McqBankQuestion | DescriptiveBankQuestion;
  *  record that doesn't explicitly declare `type: 'descriptive'`. */
 export function isMcqQuestion(q: BankQuestion): q is McqBankQuestion {
   return q.type !== 'descriptive';
+}
+
+/** A graded game/drill needs a readable question and a usable answer. */
+export function isScorableMcq(q: BankQuestion): q is McqBankQuestion {
+  return isMcqQuestion(q) && q.answerIndex >= 0 && q.answerIndex < q.options.length
+    && !q.figureBased && !q.sourceReview && !q.compensated;
 }
 
 /** Guarantees an explicit `type`, without requiring every existing static

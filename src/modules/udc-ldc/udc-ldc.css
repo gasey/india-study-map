@@ -166,3 +166,22 @@ html.dark .udc-ldc-page {
 @media (min-width: 768px) and (max-width: 1024px) {
   .udc-ldc-content { padding-left: 18px !important; padding-right: 18px !important; }
 }
+.udc-answer-sources {
+  margin: 10px 0; padding: 12px; border: 1px solid var(--border);
+  border-radius: 9px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px;
+  background: var(--bg-panel-elev); font-size: 12px;
+}
+.udc-answer-sources > div { display: grid; gap: 5px; }
+.udc-answer-sources span { color: var(--text-secondary); }
+.udc-answer-sources p { grid-column: 1 / -1; margin: 0; }
+.udc-answer-sources a { grid-column: 1 / -1; }
+.udc-agrees { color: var(--ok, #2e9e5b); }
+.udc-disagrees { color: var(--bad, #c4462f); }
+.udc-paper-library > label { display: grid; gap: 7px; font-size: 13px; margin: 16px 0; }
+.udc-paper-library input { font: inherit; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-panel); color: inherit; }
+.udc-library-sitting { border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin: 14px 0; }
+.udc-library-sitting h3 { margin: 0 0 12px; font-size: 16px; }
+.udc-library-paper { padding: 12px 0; border-top: 1px solid var(--border); }
+.udc-library-paper p { font-size: 12px; color: var(--text-secondary); margin: 5px 0 9px; }
+.udc-library-links { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; font-size: 12px; }
+.udc-library-links button { font: inherit; padding: 6px 10px; border-radius: 7px; border: 1px solid var(--border); background: var(--bg-panel-elev); color: inherit; cursor: pointer; }

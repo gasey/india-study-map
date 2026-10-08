@@ -1,0 +1,924 @@
+{
+  "slug": "je-2025-english",
+  "exam": "Junior Engineer, LAD, PWD & I&WR",
+  "sitting": "April 2025",
+  "subject": "General English",
+  "source": "JE under LAD& PWD Deptt. General English Paper-I April-2025..pdf",
+  "sourceSha256": "8ec9ac2d94ad5a1d7c057c3a17d246ac762181f39507b9b3081dfd3c67ada548",
+  "ocr": true,
+  "count": 37,
+  "questions": [
+    {
+      "n": 1,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.1-10):Identifythepartofspeechoftheunderlinedwordsinthefollowing",
+      "opts": {
+        "a": "noun",
+        "b": "adverb",
+        "c": "pronoun",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thebooksontheshelfaretheirs.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.1-10):Identifythepartofspeechoftheunderlinedwordsinthefollowing",
+      "opts": {
+        "a": "preposition",
+        "b": "adjective",
+        "c": "conjunction",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thedogsatonthemat.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.1-10):Identifythepartofspeechoftheunderlinedwordsinthefollowing",
+      "opts": {
+        "a": "interjection",
+        "b": "conjunction",
+        "c": "preposition",
+        "d": "adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "[likecoffeebumtysisterlikestea.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.1-10):Identifythepartofspeechoftheunderlinedwordsinthefollowing",
+      "opts": {
+        "a": "conjunction",
+        "b": "preposition",
+        "c": "adverb",
+        "d": "interjection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Wow,thatsanamazingview!!",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.1-10):Identifythepartofspeechoftheunderlinedwordsinthefollowing",
+      "opts": {
+        "a": "pronoun",
+        "b": "verb",
+        "c": "noun",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thenewprojectwillfocusonsustainabledevelopment.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.1-10):Identifythepartofspeechoftheunderlinedwordsinthefollowing",
+      "opts": {
+        "a": "adjective",
+        "b": "noun",
+        "c": "pronoun",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thecompanyinvestedheavilyinrenewableenergy.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.1-10):Identifythepartofspeechoftheunderlinedwordsinthefollowing",
+      "opts": {
+        "a": "adverb",
+        "b": "verb",
+        "c": "adjective",
+        "d": "pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hertoneimpliessheisupset.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.1-10):Identifythepartofspeechoftheunderlinedwordsinthefollowing",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "adjective",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Iwaspleasantlysurprisedtoseeyou.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.1-10):Identifythepartofspeechoftheunderlinedwordsinthefollowing",
+      "opts": {
+        "a": "conjunction",
+        "b": "adjective",
+        "c": "preposition",
+        "d": "interjection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Letseatbeforweegoout.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.1-10):Identifythepartofspeechoftheunderlinedwordsinthefollowing",
+      "opts": {
+        "a": "verb",
+        "b": "adjective",
+        "c": "pronoun",
+        "d": "adverb wid‘"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Perhapswe'llseeeachothertoday.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.11-15):Choosethecorrectanswerforeachblankinthesentence:-",
+      "opts": {
+        "a": "must",
+        "b": "hasto",
+        "c": "could",
+        "d": "would"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Maryrathernotdriveatnight.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.11-15):Choosethecorrectanswerforeachblankinthesentence:-",
+      "opts": {
+        "a": "forsearching",
+        "b": "insearching",
+        "c": "searching",
+        "d": "tosearch"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Didyouhaveanyproblemforthekey?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.11-15):Choosethecorrectanswerforeachblankinthesentence:-",
+      "opts": {
+        "a": "them",
+        "b": "there",
+        "c": "its",
+        "d": "entirely"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thecompanywillupgradecomputersystemtomorrow,",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.11-15):Choosethecorrectanswerforeachblankinthesentence:-",
+      "opts": {
+        "a": "hopeless",
+        "b": "hopeful",
+        "c": "hope",
+        "d": "hoped"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Iwasthattheweatherwouldbesunnytoday.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.11-15):Choosethecorrectanswerforeachblankinthesentence:-",
+      "opts": {
+        "a": "knowingly",
+        "b": "knowing",
+        "c": "know",
+        "d": "known"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thechildrenhowtoplaychess.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.16-20):Selectanappropriateverb,prepositionandadverbtofillinthe",
+      "opts": {
+        "a": "for",
+        "b": "from",
+        "c": "by",
+        "d": "in;"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "MawiacaughtRamatheneck.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.16-20):Selectanappropriateverb,prepositionandadverbtofillinthe",
+      "opts": {
+        "a": "hardly",
+        "b": "hard",
+        "c": "herd",
+        "d": "heard"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ritaworks",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.16-20):Selectanappropriateverb,prepositionandadverbtofillinthe",
+      "opts": {
+        "a": "confident",
+        "b": "confidence",
+        "c": "confidant",
+        "d": "confidently"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Johnspokeatthetalkshow.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.16-20):Selectanappropriateverb,prepositionandadverbtofillinthe",
+      "opts": {
+        "a": "well",
+        "b": "better",
+        "c": "good",
+        "d": "worse"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Maryisknownforherkindness.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.16-20):Selectanappropriateverb,prepositionandadverbtofillinthe",
+      "opts": {
+        "a": "wascleaning",
+        "b": "clean",
+        "c": "cleaned",
+        "d": "amcleaning"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ImyroomeverySaturday.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Neverkeepawayfromschool.",
+        "b": "Thenewsofhisdeathistrue.",
+        "c": "Thisshirtofyoursisverycolourful.",
+        "d": "Allmenshouldloveeachother."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)Neverkeepawayfromschool.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thehorseandcarriagearearriving.",
+        "b": "Hedoesn’tliketobefined.",
+        "c": "Heisamanoffewwords.",
+        "d": "OnlyafewgirlsareasprettyasRita."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)Thehorseandcarriagearearriving.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionsNos.46-50):Choosethecorrectwordfromthegivenoptionstomakemeaningful",
+      "opts": {
+        "a": "access",
+        "b": "excess",
+        "c": "accessive",
+        "d": "excessive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "[havenotothelibrary.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionsNos.46-50):Choosethecorrectwordfromthegivenoptionstomakemeaningful",
+      "opts": {
+        "a": "descent",
+        "b": "decent",
+        "c": "desent",
+        "d": "decant"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theywereimpressedbyhisdress.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionsNos.46-50):Choosethecorrectwordfromthegivenoptionstomakemeaningful",
+      "opts": {
+        "a": "rise",
+        "b": "risen",
+        "c": "raise",
+        "d": "raze"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "upyourarms.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionsNos.46-50):Choosethecorrectwordfromthegivenoptionstomakemeaningful",
+      "opts": {
+        "a": "counsil",
+        "b": "council",
+        "c": "councel",
+        "d": "counsel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Youmustactuponhis",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionsNos.46-50):Choosethecorrectwordfromthegivenoptionstomakemeaningful",
+      "opts": {
+        "a": "affect",
+        "b": "affective",
+        "c": "effect",
+        "d": "effective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThenewlawwilltakeonApril2\"4,",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.51-55):Pickthecorrectwordgivenintheoptionstocompleteeachsentence:-",
+      "opts": {
+        "a": "didIsee",
+        "b": "haveiseen",
+        "c": "Isaw",
+        "d": "Ihaveseen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neverinmylifesuchabeauty.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.51-55):Pickthecorrectwordgivenintheoptionstocompleteeachsentence:-",
+      "opts": {
+        "a": "The",
+        "b": "Itis",
+        "c": "That",
+        "d": "Although"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "blackcatsbringbadluckisjustsuperstition.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.51-55):Pickthecorrectwordgivenintheoptionstocompleteeachsentence:-",
+      "opts": {
+        "a": "tohimtoreturn:",
+        "b": "thatheisreturning:",
+        "c": "thathereturn",
+        "d": "hisretuming"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Itisnecessary.thebookstothelibraryimmediately.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.51-55):Pickthecorrectwordgivenintheoptionstocompleteeachsentence:-",
+      "opts": {
+        "a": "aredisturbing",
+        "b": "isdisturbing",
+        "c": "todisturb.",
+        "d": "aredisturbing- =8=a"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thefactthatreadingbooksisbecomingararitymanypeople.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.51-55):Pickthecorrectwordgivenintheoptionstocompleteeachsentence:-",
+      "opts": {
+        "a": "who",
+        "b": "which",
+        "c": "whose",
+        "d": "whom"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Themanwearelookingforissittinginthepark.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.56-60):Choosethecorrectsentence:-",
+      "opts": {
+        "a": "Thenarrativewashilariousthatwecannothelplaughing.",
+        "b": "Thenarrativewashilariousthatwecouldnothelplaughing.",
+        "c": "Thenarrativewashilariousthatwecannothelplaugh.",
+        "d": "Thenarrativewashilariousthatwecouldnothelplaughed."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)Thenarrativewashilariousthatwecannothelplaughing.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.56-60):Choosethecorrectsentence:-",
+      "opts": {
+        "a": "Shesawthepaintingyesterdayandshelikedit.",
+        "b": "Sheseethepaintingyesterdayandshelikedit.",
+        "c": "Sheseesthepaintingyesterdayandshelikeit.",
+        "d": "Shesawthepaintingyesterdayandshelikeit."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)Shesawthepaintingyesterdayandshelikedit.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.56-60):Choosethecorrectsentence:-",
+      "opts": {
+        "a": "Heisgoingtomarket.",
+        "b": "Hehavegonetothemarket.",
+        "c": "Hehasgonetomarket.",
+        "d": "Heisgoingtothemarket."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)Heisgoingtomarket.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.56-60):Choosethecorrectsentence:-",
+      "opts": {
+        "a": "Hehaslethimselfbegoneafterhisdivorce.",
+        "b": "Hehaslethimselfgoingafterhisdivorce.",
+        "c": "Hehaslethimselfgoafterhisdivorce.",
+        "d": "Hehaslethimselfgoneafterhisdivorce."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)Hehaslethimselfbegoneafterhisdivorce.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction(QuestionNos.56-60):Choosethecorrectsentence:-",
+      "opts": {
+        "a": "Thecattleisgrazing.",
+        "b": "Thecattlearegrazing.",
+        "c": "Thecattlesaregrazing.",
+        "d": "Cattleisgrazing. eeEREKE (a)explanation(b)simplification (c)omission(d)exaggeration (a)exact‘(b)talkative (c)quiet(d)concisei (a)face(b)permit (c)confront(d)prevent (a)stable(b)constant (c)unstable(d)steady"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)Thecattleisgrazing.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Writeaprecisofthepassagegivenbelow:(10) Cultureisaforbiddingword.Ihavetouseit,knowingofnonebettertodescribethevarious beautifulandinterestingobjectswhichmanhasmadeinthepastandhandeddowntous,andwhich someofusarehopingtohandon.Manypeopledespisethem.Theyarguewithforcethatcultural stufftakesupagreatdealofroomandtime,andbetterbescrapped. Cultivatedpeoplearelikedropsinanocean.Theymixeasilyandgeniallywithotherdrops,for thoseexclusivedaysareoverwhencultivatedpeoplemadeonlycultivatedfriends,andbecame tongue-tiedorterror-struckinthepresenceofanyonewhosemake-upwasdifferentfromtheirown. Culture,thankgoodness,isnolongerasocialasset,itcannolongerbeemployedeitherasabarrier againstthemoborasaladderintothearistocracy. Allthesame,weareadropintheocean.Fewpeopleshareourenjoymentsofar.Strictly betweenourselves,andkeepingourlimitedcirculationinmind,letusputourheadstogetherand considerforamomentourspecialproblem,ourspecialblessings,ourspecialwoes.Nooneneedsto listentouswhodoesnotwantto.Wewhisperinthecornerofaworldwhichisfullofothers’noises, andlouderones. Comecloser,ourproblem,asIseeit,iswhatwehavegotworthpassingon.Whatwehaveis (roughlyspeaking)alittleknowledgeaboutbooks,pictures,tunes,andalittleskillintheirinterpretation. Seatedbesideourgasfires,andbeneathourelectricbulbs,weinheritatraditionthathaslastedfor aboutthreethousandyears.",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "WritealettertotheeditorofAizawlDailynewspaperexpressingyourconcernabouttheincreasing theftsinAizawlcity.SignyourselfasJonathanVarte,residentofH/no-AB101,Zarkawt,Aizawl, Mizoram.(15)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 1,
+      "text": "Readthegivenpassagecarefullyandanswerthequestionsthatfollow. Amajoritytakencollectivelymayberegardedasabeingwhoseopinionsand,mostfrequently, whoseinterestsareopposedtothoseofanotherbeing,whichisstyledaminority.Ifitisadmittedthat amanpossessingabsolutepowermaymisusethatpowerbywronginghisadversaries,whyshoulda majoritynotbeliabletothesamereproach?Menarenotapttochangetheircharactersby agglomeration;nordoestheirpatienceinthepresenceofobstaclesincreasewiththeconsciousness oftheirstrength.Forthesereasonsweshouldnotwillinglyinvestanygroupofourfellowswiththat sunlimitedauthoritywhichweshouldrefusetoanyindividual. =: Onesocialpowermustalwayspredominateoverothers,butlibertyisendangeredwhenthis powerischeckedbynoobstacleswhichmayretarditscourseandforceittomoderateitsown vehemence.Unlimitedpowerisinitselfabadanddangerousthing,andnopoweronearthisso worthyofhonorforitselforofreverentialobediencetotherightswhichitrepresentsthatweshould admititsuncontrolledandall-predominantauthority.Whentherightandmeansofabsolutecommand areconferredonapeopleoraking,onanaristocracyorademocracy,amonarchyorarepublic, therehasbeenimplantedthegermoftyranny. ThemainevilofthepresentdemocraticinstitutionsoftheUnitedStatesdoesnotarise,asis oftenassertedinEurope,fromtheirweakness,butfromtheiroverpoweringstrength;theexcessive libertywhichreignsinthatcountryisnotsoalarmingasistheveryinadequatesecuritywhichexists againsttyranny. WhenanindividualorapartyiswrongedintheUnitedStates,towhomcanheapplyfor redress?Iftothepublicopinion,publicopinionconstitutesthemajority;iftothelegislature,itrepresents themajorityandimplicitlyobeysitsinjunctions;iftotheexecutivepower,itisappointedbythe majorityandremainsapassivetoolinitshands;thepublictroopsconsistofthemajorityunderarms; thejuryisthemajorityinvestedwiththerightofhearingjudicialcases,andincertainstateseventhe judgesareelectedbythemajority.Howeveriniquitousorabsurdtheevilcomplainedabout,nosure barrierisestablishedtodefendagainstit.",
+      "subparts": {
+        "a": "-(f)):Findwordsinthepassagewhichhavethesamemeaningas: (6*1=6) (a)autocracy",
+        "b": "opponents",
+        "c": "blame",
+        "d": "collection"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Source numbering gap before Q44: expected Q21; review the printed page."
+  ],
+  "gaps": {
+    "B": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  }
+}

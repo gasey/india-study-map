@@ -1,0 +1,208 @@
+{
+  "slug": "asi-2024-p1",
+  "exam": "Assistant Sub-Inspector of Police (Ministerial)",
+  "sitting": "November 2024",
+  "subject": "General English",
+  "source": "ASI (M) General English Paper-I..pdf",
+  "sourceSha256": "97d6a6cfed41bf84804eb49fc4479a07c898139cf93a58a956ce02fd680bccfb",
+  "ocr": true,
+  "count": 8,
+  "questions": [
+    {
+      "n": 3,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Whoareresponsibleforthedestructionofourenvironment?(2)",
+        "b": "Howdoesrainwatercauseflashfloodsinareaswheretherearenotmanytrees?(2)",
+        "c": "Givereasonswhysomeanimalshavebecomeextinct.(2)",
+        "d": "Hasdevelopmentbroughtaboutpositiveeffectstoourenvironment?Givereasonstosupport youranswer.(2) @)_restrict(ii)expensive Gi)insufficient(iv)restrain (v)_extermination (a)Themusicplayinginthenextroompreventedherfromsleeping. (b)Iwasatanearbyparkwhenthebuildingcollapsed. (c)Hewasgivenasetofdataforanalysis. (d)Someonedonatedahugesumofmoneytothechildren’shome. (c)Shehascompletedthejobalready. (a)Theeartharoundthesun.(rotate) (b)Youplayingwiththeteam.(is) (c)Iherfortenyears.(know) (d)Myyoungerbrothermeeverytimeheneedsmoney.(call)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Readthepassagecarefully.Thenchoosethecorrectanswer. Naturaldisastershavebecomefrequentoccurrencesintheworldtoday.Nowandagain,news ofseriousflooding,earthquakesandtsunamisstunus.Thingsaredestroyedandcountlesslivesare losttoo.Whenincidencessuchasthesetakeplace,peoplewonderastothecause(s)ofthese events.Couldthesedisastersbepreventedinthefirstplace?Intheracetobecomeadeveloped countryandamodernsociety,humanbeingshavemadetremendouschangestotheenvironment. WhenhumansstartmeddlingwithMotherNature,theeffectscanbedisastrousattimes.Rapid developmenthascausedmanyproblemstohumansandanimalsalike. Everywherewego,itisapparentthatmanyareasarebeingdevelopedtopavethewayfor modernisation.Newroads,industrialareas,townshipsandhousingareasarereplacingjunglesand hillyareas.Intheprocess,countlesstreeshavebeencutdown,junglesclearedandhillyareasflattened. Ithasbeenscientificallyproventhatwhentreesaregone,watercannolonger becontainedunderground.Therootsoftreesthatactasnaturaldefencestoholdwaterintheground arenolongertheretodotheirjob.Asaresult,rainwaterflowsstraightouttoseainamuchshorter time,causingfrequentflashfloodstoplacesthathaveneverfacedsuchproblemsbefore. Developmentcomesataveryhighprice.Animalsandhumanlivesareindanger.Manyland areasareturnedintohousingareas,includingscenichills.Housesandapartments,someofthem veryhighlypriced,havebeenbuiltonthesescenicbutunsafehills.Withoutcarefulstudy,andover time,theunstablegroundconditionoftencavesincausinglandslidesthatkillmanypeople. Theclearingoflandforallkindsofreasonshasalsoledtotheextinctionofmanywildlife species.Inthefirstplace,landdevelopmentcausesthedestructionofmanyanimalhabitats.Animals nowhavetocompetewithhumansforspaceandfood.Tosurvive,theseanimalsareforcedtomove deeperintothejungles.Theirsourcesoffoodhavebecomescarce,thusthreateningtheirsurvival. Smallerspacesandlessfoodhaveledtotheextinctionofsomespecies,Fifteenendangeredanimals andsixcriticallyendangeredanimalsinMalaysiahavebeenidentified.TheMalayanTapir,theMalayan TigerandtheAsianelephantarethreelargemammalspeciesthatareontheendangeredspecieslist. Amongthecriticallyendangeredonesaretheblackshrew,theMalayanwatershrew,theMalayan roundleafbatandtheSumatranrhinoceros. Itisobviousthatmanyanimalshavebeensacrificedinthenameofdevelopmentand modernisation.Indiscriminatehumanactivitieshaveledtothedestructionofirreplaceableandpriceless lives.Therearelawstocurbpeoplefrommessingwithourforests,pollutinganddoingthingsthatcan harmourenvironment.Therearealsolawstopunishthosewhodoso,butthelawsdonotseemto servetheirpurpose.ItistheresponsibilityofeachandeveryindividualtopreserveourfragileEarth. Ifwekeepdestroyingit,wewillsoonloseallthatwehave. Answerthequestionsbelowbasedonthepassage:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hisbirthdayis16February.(at/in/on)",
+        "b": "Byclickingthisbutton,youconsentsharingyourcurrentlocation.(to/of/for)",
+        "c": "TheCommercialVehicleUnionhaveabstainedservicetoday.(from/to/for)",
+        "d": "Morningwalkisbeneficialhealth.(for/of/from)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Completethefollowingsentenceswiththeappropriateprepositions:(5*1=5)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Footthebill",
+        "b": "Farandwide",
+        "c": "Notbornyesterday",
+        "d": "Rainorshine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Makesentencesusingthefollowingidiomstobringouttheirmeaning.(5x2=10)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mothermadeacakeyesterday.(changetopassivevoice)",
+        "b": "Hesaidtome,“Whereisthepostoffice?”(changetoindirectspeech)",
+        "c": "Hisbraverywasadmired.(changetoactivevoice)",
+        "d": "Theboyssaid,“Hurrah,wehavewonthematch!”(changetoindirectspeech) whiteincolour.(combineintoonesentence) N :X"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rewritethefollowingsentenceasdirectedinthebrackets(10«1=10)",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hishopeofreconciliationwithhisfatherwentdownthedrain.(reuniting/consideration/ estrangement)",
+        "b": "Lackoffundinghasencumberedtheproject.(facilitate/hamper/modified)",
+        "c": "Thesickwomanbeseechedthecongregationtoprayforher.(implored/dissuaded/preached)",
+        "d": "Allofushavenarcissistictraits,buttheyaresostronginsomepeoplethatitcancauseproblems inrelationships.(benevolent/egoistical/pompous)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethecorrectantonymsforthefollowingunderlinedwords:(5x1=5)",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shewasostracizedfromthescientificcommunityformanyyearsbecauseofherradicalpolitical beliefs.(accepted/excluded/demoralizea)",
+        "b": "Afurcoathasmoreutilityinwinterthaninautumn.(versatility/ability/service)",
+        "c": "Sheshowednoremorseforheractions.(impenitence/regret/passion)",
+        "d": "Thedogwasputintoquarantineforsixmonths.(confinement/hospital/imprisonment)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethecorrectsynonymsforthefollowingunderlinedwords:(5*1=5)",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Theskyappeareddarkly.",
+        "b": "Ipreferthisbookthanthat.",
+        "c": "Thatisthegirlwhoheloves.",
+        "d": "Hehasthreeson-in-laws."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Correctthefollowingsentences.(3x1=5)",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thatisagainstthelaw.",
+        "b": "Whichcannotbereadeasily.",
+        "c": "ApersonwhobelievesintheexistenceofGod.",
+        "d": "Onewhoisnotguilty. kKRRR"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Giveonewordsubstitutes.(5*1=5)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Source numbering gap before Q6: expected Q4; review the printed page."
+  ],
+  "gaps": {
+    "-": [
+      4,
+      5
+    ]
+  }
+}

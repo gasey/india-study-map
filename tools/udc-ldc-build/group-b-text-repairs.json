@@ -1,0 +1,1400 @@
+{
+  "_README": "Source-reviewed text only, never answer overrides. Questions are checked against the printed pages; official choices come from verified-general-keys.json. Repairs are applied after extraction and SHA256 guards the source. Partially reviewed scans remain excluded from full Exam mode.",
+  "papers": {
+    "aao-2024-gk": {
+      "sourceSha256": "8a4d8941d775f845b7aabbd28a7ec2f8f490d3da2946c97c68ec5fa6e40190f0",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-09",
+      "evidence": "All 100 AAO 2024 GK items checked against rendered pages 1–11; question numbering, stems, options and order verified. OCR omissions, text spill, scan-layout errors, rupee glyph and option-cell corruption repaired. Official final key page 2 was compared visually, with Q73 replaced by the 15 October corrigendum (B). Q13 accepts B and D and remains unscored. Source PDF SHA256 guards this transcription.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "q": "According to Stockholm International Peace Research Institute (SIPRI) report on countries with nuclear weapons, which of the following statement is not correctly matched?",
+          "opts": {
+            "a": "North Korea — 50 Nos.",
+            "b": "India — 180 Nos.",
+            "c": "Pakistan — 170 Nos.",
+            "d": "China — 500 Nos."
+          },
+          "part": null
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "q": "Which day is celebrated to commemorate the 76th anniversary of the landing of Indian forces in Kashmir?",
+          "opts": {
+            "a": "Vijay Diwas",
+            "b": "Shaurya Diwas",
+            "c": "Veer Diwas",
+            "d": "Bharat Diwas"
+          },
+          "part": null
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "q": "As per report released by Delhi-based NGO The Esya Centre and IIM Ahmedabad in 2023, how many minutes are spent by average Indians on social media platforms per day?",
+          "opts": {
+            "a": "210 minutes",
+            "b": "194 minutes",
+            "c": "189 minutes",
+            "d": "190 minutes"
+          },
+          "part": null
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "q": "Match List I & List II.\nList I (Artist): A. Balamurali Krishna; B. Mita Pandit; C. Kanyakumari; D. Nikhil Bannerjee.\nList II (Medium of music delivery): 1. Hindustani vocal; 2. Ghatam; 3. Sitar; 4. Carnatic vocal.\nChoose the correct answer from the options given below:",
+          "opts": {
+            "a": "(A) - (III), (B) - (I), (C) - (II), (D) - (IV)",
+            "b": "(A) - (I), (B) - (IV), (C) - (II), (D) - (III)",
+            "c": "(A) - (IV), (B) - (I), (C) - (III), (D) - (II)",
+            "d": "(A) - (IV), (B) - (I), (C) - (II), (D) - (III)"
+          },
+          "part": null
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "q": "A 22 year old of college student desires to get elected to the Municipal Council of his city. The validity of his nomination would depend on the important condition, among others, that:",
+          "opts": {
+            "a": "he obtains permission from the principal of his college",
+            "b": "he is a member of a political party",
+            "c": "his name figures in the voters’ list",
+            "d": "he files a declaration owing allegiance to the Constitution of India"
+          },
+          "part": null
+        },
+        "6": {
+          "n": 6,
+          "page": 2,
+          "q": "“In this instance we could not play off the Mohammedans against the Hindus”. To which one of the following events did this remark of Aitchison relate?",
+          "opts": {
+            "a": "Revolt of 1857",
+            "b": "Champaran Satyagraha (1917)",
+            "c": "Khilafat and Non-cooperation Movement (1919–22)",
+            "d": "August Movement of 1942"
+          },
+          "part": null
+        },
+        "7": {
+          "n": 7,
+          "page": 2,
+          "q": "In a certain code, MARCH is written as OCTEJ; how is RETURN written in that code?",
+          "opts": {
+            "a": "TFUVSM",
+            "b": "QGSTQM",
+            "c": "TGVWTP",
+            "d": "TGRVSO"
+          },
+          "part": null
+        },
+        "8": {
+          "n": 8,
+          "page": 2,
+          "q": "Which one of the following duties is NOT performed by the Comptroller and Auditor General of India?",
+          "opts": {
+            "a": "To audit and report on all expenditure from the Consolidated Fund of India",
+            "b": "To audit and report on all expenditure from the Contingency Funds and Public Accounts",
+            "c": "To audit and report on all trading, manufacturing, profit and loss accounts",
+            "d": "To control the receipt and issue of public money, and to ensure that the public revenue is lodged in the exchequer"
+          },
+          "part": null
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "q": "As per the State of India’s Forest Report 2021, percentage of forest coverage in Mizoram is:",
+          "opts": {
+            "a": "89.90%",
+            "b": "89.12%",
+            "c": "84.53%",
+            "d": "84.35%"
+          },
+          "part": null
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "q": "The meaning of Glasnost and Perestroika is:",
+          "opts": {
+            "a": "Openness and restructuring respectively",
+            "b": "Structural adjustment and economic reforms respectively",
+            "c": "Inflation and deflation respectively",
+            "d": "Social inclusion and social justice respectively"
+          },
+          "part": null
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "q": "When were the Mizoram Public Procurement Rules, 2020 introduced?",
+          "opts": {
+            "a": "20 February 2020",
+            "b": "10 February 2020",
+            "c": "30 March 2020",
+            "d": "20 March 2020"
+          },
+          "part": null
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "q": "Which of these bones is not a part of human ear?",
+          "opts": {
+            "a": "Incus",
+            "b": "Stapes",
+            "c": "Femur",
+            "d": "Mallcus"
+          },
+          "part": null
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "q": "What is the term for using smartphones to make contactless payments?",
+          "opts": {
+            "a": "ATM transactions",
+            "b": "QR code",
+            "c": "POS terminal",
+            "d": "NFC"
+          },
+          "part": null
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "q": "The first internet banking service in India was offered by which bank?",
+          "opts": {
+            "a": "South Indian Bank",
+            "b": "HDFC Bank",
+            "c": "SBI",
+            "d": "ICICI Bank"
+          },
+          "part": null
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "q": "Which of the following statement is incorrect?",
+          "opts": {
+            "a": "The Sensex consists of 30 companies, while Nifty comprises 50 companies.",
+            "b": "NIFTY was introduced by NSE on 21 April 1996.",
+            "c": "Sensex full form is Stock Exchange Sensitive Index.",
+            "d": "Both NIFTY and Sensex the same indices is their calculation method"
+          },
+          "part": null
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "q": "Deepti Jeevanji won which medal in the women’s 400m T20 event at the 2024 Paris Paralympics?",
+          "opts": {
+            "a": "Gold",
+            "b": "Silver",
+            "c": "Bronze",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "17": {
+          "n": 17,
+          "page": 3,
+          "q": "Which organization recently launched “Vulture Count 2024” initiative?",
+          "opts": {
+            "a": "United Nations Environment Programme",
+            "b": "Global Footprint Network",
+            "c": "World Wide Fund for Nature-India",
+            "d": "Greenpeace"
+          },
+          "part": null
+        },
+        "18": {
+          "n": 18,
+          "page": 3,
+          "q": "Sea of Tranquility is located in which of the following place?",
+          "opts": {
+            "a": "Mars",
+            "b": "Moon",
+            "c": "Saturn",
+            "d": "Arctic Area"
+          },
+          "part": null
+        },
+        "19": {
+          "n": 19,
+          "page": 3,
+          "q": "In Money Bill, Rajya Sabha does not have the power to amend or reject the Money Bill and Rajya Sabha has the power to amend or reject Financial Bill.",
+          "opts": {
+            "a": "True",
+            "b": "Partly True",
+            "c": "False",
+            "d": "The statement is incomplete"
+          },
+          "part": null
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "q": "Which of the following options regarding The Tropic of Cancer is correct?",
+          "opts": {
+            "a": "Tropic of Cancer passes through 8 states including Gujarat and Mizoram",
+            "b": "Tropic of Cancer passes through 8 states including Goa and Mizoram",
+            "c": "Tropic of Cancer passes through 8 states including Bihar and Mizoram",
+            "d": "Tropic of Cancer passes through 8 states including Telengana and Mizoram"
+          },
+          "part": null
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "q": "Which constitutional amendment lowered the voting age from 21 to 18?",
+          "opts": {
+            "a": "42nd Amendment",
+            "b": "44th Amendment",
+            "c": "61st Amendment",
+            "d": "73rd Amendment"
+          },
+          "part": null
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "q": "The Preamble of the Indian Constitution begins with which words?",
+          "opts": {
+            "a": "“We, the people of India…”",
+            "b": "“In the name of God….”",
+            "c": "“Justice, Liberty, Equality…”",
+            "d": "“India, that is Bharat…”"
+          },
+          "part": null
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "q": "Union Budget of India is presented by whom and in which house/houses of the Parliament?",
+          "opts": {
+            "a": "Finance Minister of India; Lok Sabha",
+            "b": "Prime Minister of India; Rajya Sabha",
+            "c": "Cabinet Secretary; Both Lok Sabha and Rajya Sabha",
+            "d": "President of India; in joint session of Parliamnet"
+          },
+          "part": null
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "q": "Who has been appointed as the new captain of the ISL Club, Mumbai City FC?",
+          "opts": {
+            "a": "Lalengmawia Ralte",
+            "b": "Jerry Mawihmingthanga",
+            "c": "Lallianzuala Chhangte",
+            "d": "Lalliansanga Chhakchhuak"
+          },
+          "part": null
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "q": "Which among the following is/are works of Kalidasa?\n1. Ritusamhara\n2. Meghaduta\n3. Dasakumaracharita\n4. Kumarasambhava",
+          "opts": {
+            "a": "Only 1 & 2",
+            "b": "Only 1",
+            "c": "Only 3",
+            "d": "1, 2 & 4"
+          },
+          "part": null
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "q": "With reference to the Freedom Struggle of India, which of the following is/are correct observations?\n1. Purna Swarajya Resolution was adopted by INC in Lahore Session.\n2. Gopal Krishna Gokhale was founder of Servants of India Society.\n3. The Chittagong Armory raid and temporary capture of port town were organized under Surya Sen.",
+          "opts": {
+            "a": "Only 1 is correct",
+            "b": "Only 2 is correct",
+            "c": "1 & 2 are correct",
+            "d": "1, 2 and 3 are correct"
+          },
+          "part": null
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "q": "The ‘Interest Rate Policy’ is a component of which of the following policies?",
+          "opts": {
+            "a": "Fiscal Policy",
+            "b": "Trade Policy",
+            "c": "Direct Control",
+            "d": "Monetary Policy"
+          },
+          "part": null
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "q": "PM-KUSUM (Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan) is about?",
+          "opts": {
+            "a": "Ensuring water supply for farmers",
+            "b": "Ensuring energy security for farmers",
+            "c": "Crop Insurance Scheme",
+            "d": "Social Benefits Schemes"
+          },
+          "part": null
+        },
+        "29": {
+          "n": 29,
+          "page": 4,
+          "q": "Mizoram’s Bana Kaih policy aims to address which of the following?",
+          "opts": {
+            "a": "Political neutrality",
+            "b": "Social Security",
+            "c": "Employment Generation",
+            "d": "Economic Empowerment"
+          },
+          "part": null
+        },
+        "30": {
+          "n": 30,
+          "page": 4,
+          "q": "Which of the following statements is incorrect?",
+          "opts": {
+            "a": "Monkeypox is caused by the monkeypox virus, which is a member of the same family as the smallpox virus. The virus is usually found in rodents and non-human primates, but it can also infect humans.",
+            "b": "The source of the disease is unknown, but it’s believed to have originated in Africa. The first human case was reported in 1970.",
+            "c": "The disease is now called mpox to avoid the racist and discriminatory connotations of the original name.",
+            "d": "You can get mpox from close contact with infected and uninfected monkeys only."
+          },
+          "part": null
+        },
+        "31": {
+          "n": 31,
+          "page": 4,
+          "q": "Which term best describes Stockholm Syndrome?",
+          "opts": {
+            "a": "A mental health disorder characterized by mood swings",
+            "b": "A type of post-traumatic stress disorder.",
+            "c": "A cognitive bias affecting decision-making",
+            "d": "A psychological response where hostages bond with their captors"
+          },
+          "part": null
+        },
+        "32": {
+          "n": 32,
+          "page": 4,
+          "q": "Which among the following is the most unique feature of Dholavira site of the Indus Valley Civilization?",
+          "opts": {
+            "a": "Its cities were horizontally divided in multiple parts",
+            "b": "Its cities were unevenly divided",
+            "c": "Its cities were divided into 3 parts",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "q": "Which Greek ruler sent Megasthenes in the court of Chandragupta Maurya?",
+          "opts": {
+            "a": "Seleucus Nicator",
+            "b": "Antiochus",
+            "c": "Ptolemy",
+            "d": "Magas"
+          },
+          "part": null
+        },
+        "34": {
+          "n": 34,
+          "page": 4,
+          "q": "The target of literacy comes under which Sustainable Development Goal (SDG)?",
+          "opts": {
+            "a": "Sustainable Development Goal 10",
+            "b": "Sustainable Development Goal 4",
+            "c": "Sustainable Development Goal 5",
+            "d": "Sustainable Development Goal 7"
+          },
+          "part": null
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "q": "India has offered to explore direct listing of its businesses on which exchange?",
+          "opts": {
+            "a": "London Stock Exchange",
+            "b": "Euro Stoxx 50",
+            "c": "TR Canada 50",
+            "d": "Shanghai Stock Exchange"
+          },
+          "part": null
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "q": "The “Velvet Revolution”, also known as the “Gentle Revolution”, happened in which nations?",
+          "opts": {
+            "a": "Slovenia – Croatia",
+            "b": "Czech Republic – Slovakia",
+            "c": "Russia – Kazakhstan",
+            "d": "Serbia – Kosovo"
+          },
+          "part": null
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "q": "Per Capita Income of a country is obtained by dividing National Income by which of the following?",
+          "opts": {
+            "a": "Total working population",
+            "b": "Total population of the country",
+            "c": "Area of the country",
+            "d": "Volume of the capital used"
+          },
+          "part": null
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "q": "On an average how many million Red Blood Cells are present in a healthy human adult man per mm3 of blood?",
+          "opts": {
+            "a": "1.5 – 2",
+            "b": "2 – 2.5",
+            "c": "5 – 5.5",
+            "d": "9 – 9.5"
+          },
+          "part": null
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "q": "Who was awarded Sena Medal (Gallantry Award) from Mizoram recently?",
+          "opts": {
+            "a": "Major Laldingliana",
+            "b": "Major Laldingngheta",
+            "c": "Major Laldingpuia",
+            "d": "Major Laldinsanga"
+          },
+          "part": null
+        },
+        "40": {
+          "n": 40,
+          "page": 5,
+          "q": "Arrange the following in chronological order:\nA. Soviet invasion of Afghanistan\nB. Fall of the Berlin Wall\nC. Disintegration of the Soviet Union\nD. Russian Revolution\nE. Establishment of Warsaw Pact\nChoose the correct answer from the options given below:",
+          "opts": {
+            "a": "A, B, C, D, E",
+            "b": "D, E, A, B, C",
+            "c": "A, C, D, B, E",
+            "d": "E, A, D, C, B"
+          },
+          "part": null
+        },
+        "41": {
+          "n": 41,
+          "page": 5,
+          "q": "Which of the following can be defined as the smallest particle of an element that is capable of an independent existence?",
+          "opts": {
+            "a": "Electron",
+            "b": "Proton",
+            "c": "Neutron",
+            "d": "Molecule"
+          },
+          "part": null
+        },
+        "42": {
+          "n": 42,
+          "page": 5,
+          "q": "Which contact force is responsible for changing the state of motion of an object?",
+          "opts": {
+            "a": "Magnetic force",
+            "b": "Frictional force",
+            "c": "Muscular force",
+            "d": "Electrostatic force"
+          },
+          "part": null
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "q": "India’s population growth can be classified into four distinct phases; which of the following is incorrect?",
+          "opts": {
+            "a": "Phase I, the period between 1901 and 1921: During this period, India experienced a fluctuating but more or less a stagnant growth in population. This period marked a high in both the birth and death rates.",
+            "b": "Phase II, the period between 1921 and 1951: This period witnessed a very high trend in population growth.",
+            "c": "Phase III, the period between 1951 and 1981: It was a rapid high growth period of population explosion in India.",
+            "d": "Phase IV, from 1981 to till date: India continues to grow in size. But, its pace of net addition is on the decrease."
+          },
+          "part": null
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "q": "The highest percentage of tribal population to its total population as per 2011 census is found in which the following State?",
+          "opts": {
+            "a": "Nagaland",
+            "b": "Meghalaya",
+            "c": "Mizoram",
+            "d": "Arunachal Pradesh"
+          },
+          "part": null
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "q": "Consider the following statements regarding Inter-State Council:\n1. It was set up in 1990 on the recommendations of Sarkaria Commission.\n2. The council promotes cooperative federalism.\n3. Union Home Minister is the chairman of council.\nWhich of the above statement(s) is/are correct?",
+          "opts": {
+            "a": "Only 1 and 2",
+            "b": "Only 1 and 3",
+            "c": "Only 2",
+            "d": "Only 2 and 3"
+          },
+          "part": null
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "q": "When a proclamation of emergency is in operation, the right to move a court for enforcement of all fundamental rights remains suspended except?",
+          "opts": {
+            "a": "Article 14 & 15",
+            "b": "Article 19 & 20",
+            "c": "Article 20 & 21",
+            "d": "Article 21 & 22"
+          },
+          "part": null
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "q": "According to Fortune India Report 2024, who is the highest tax payer amongst the Bollywood actors?",
+          "opts": {
+            "a": "Thalapathy Vijay",
+            "b": "Akshay Kumar",
+            "c": "Shah Rukh Khan",
+            "d": "Abhishek Bachchan"
+          },
+          "part": null
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "q": "According to Mizoram Statistical Handbook 2022, decadal population growth (1991–2011) rate in terms of absolute term is:",
+          "opts": {
+            "a": "2,08,633",
+            "b": "2,48,732",
+            "c": "1,99,230",
+            "d": "3,00,112"
+          },
+          "part": null
+        },
+        "49": {
+          "n": 49,
+          "page": 6,
+          "q": "Which one of the following hypotheses postulates that individual’s consumption in any time period depends upon resources available to the individual, rate of return on his capital and age of the individual?",
+          "opts": {
+            "a": "Absolute Income Hypothesis",
+            "b": "Relative Income Hypothesis",
+            "c": "Life Cycle Hypothesis",
+            "d": "Permanent Income Hypothesis"
+          },
+          "part": null
+        },
+        "50": {
+          "n": 50,
+          "page": 6,
+          "q": "With reference to the Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM) Yojana, consider the following statements:\n1. The entry age group for enrolment in the scheme is 21 to 40 years.\n2. Age specific contribution shall be made by the beneficiary.\n3. Each subscriber under the scheme shall receive a minimum pension of ₹3,000 per month after attaining the age of 60 years.\n4. Family pension is applicable to the spouse and unmarried daughters.\nWhich of the statement(s) given above is/are correct?",
+          "opts": {
+            "a": "1, 3 and 4",
+            "b": "1, 2 and 4",
+            "c": "2 only",
+            "d": "2 and 3 only"
+          },
+          "part": null
+        },
+        "51": {
+          "n": 51,
+          "page": 6,
+          "q": "The ‘Gujral Doctrine’ relates to which one of the following issues?",
+          "opts": {
+            "a": "Build trust between India and its neighbours",
+            "b": "Initiate dialogue with all insurgent groups in India",
+            "c": "Undertake development activities in Naxal dominated areas",
+            "d": "Ensure food security"
+          },
+          "part": null
+        },
+        "52": {
+          "n": 52,
+          "page": 6,
+          "q": "Consider the following statements:\nStatement I: Recently, Venezuela has achieved a rapid recovery from its economic crisis and succeeded in preventing its people from fleeing/emigrating to other countries.\nStatement II: Venezuela has the world’s largest oil reserves.\nWhich one of the following is correct in respect of the above statements?",
+          "opts": {
+            "a": "Both Statement I and Statement II are correct and Statement II explains Statement I",
+            "b": "Both Statement I and Statement II are correct, but Statement II does not explain Statement I",
+            "c": "Statement I is correct, but Statement II is incorrect",
+            "d": "Statement I is incorrect, but Statement II is correct"
+          },
+          "part": null
+        },
+        "53": {
+          "n": 53,
+          "page": 6,
+          "q": "A writ of prohibition is an order issued by the Supreme Court or High Courts to:",
+          "opts": {
+            "a": "a government officer prohibiting him from taking a particular action.",
+            "b": "the Parliament/Legislative Assembly to pass a law on Prohibition.",
+            "c": "the lower court prohibiting continuation of proceedings in a case.",
+            "d": "the government prohibiting it from following an unconstitutional policy."
+          },
+          "part": null
+        },
+        "54": {
+          "n": 54,
+          "page": 6,
+          "q": "The longest border between any two countries in the world is between:",
+          "opts": {
+            "a": "Canada and the United States of America",
+            "b": "Chile and Argentina",
+            "c": "China and India",
+            "d": "Kazakhstan and Russian Federation"
+          },
+          "part": null
+        },
+        "55": {
+          "n": 55,
+          "page": 6,
+          "q": "Which of the following is/are correct inference/inferences from isothermal maps in the month of January?\n1. The isotherms deviate to the north over the continent.\n2. The presence of cold ocean currents, Gulf Stream and North Atlantic Ocean colder and the isotherms bend toward the north.\nSelect the answer using the code given below:",
+          "opts": {
+            "a": "1 only",
+            "b": "2 only",
+            "c": "Both 1 & 2",
+            "d": "Neither 1 nor 2"
+          },
+          "part": null
+        },
+        "56": {
+          "n": 56,
+          "page": 6,
+          "q": "Who was the recipient of National Award to Teachers 2024 from Mizoram?",
+          "opts": {
+            "a": "John Lalneihpuia Sailo",
+            "b": "PC Dokunga",
+            "c": "Joseph Vanlalhruaia Sailo",
+            "d": "Chawnghmingliani"
+          },
+          "part": null
+        },
+        "57": {
+          "n": 57,
+          "page": 7,
+          "q": "Which of the following has been recently admitted as the Permanent Member of G20?",
+          "opts": {
+            "a": "Mauritius",
+            "b": "African Union",
+            "c": "Maldives",
+            "d": "Egypt"
+          },
+          "part": null
+        },
+        "58": {
+          "n": 58,
+          "page": 7,
+          "q": "Sonic boom is produced when a source of sound travels at a speed:",
+          "opts": {
+            "a": "greater than the speed of sound",
+            "b": "lesser than the speed of sound",
+            "c": "equal to the speed of sound",
+            "d": "greater than the speed of light"
+          },
+          "part": null
+        },
+        "59": {
+          "n": 59,
+          "page": 7,
+          "q": "Decision Support System (DSS), recently seen in news, is discovered by which institutional organization?",
+          "opts": {
+            "a": "Indian Institute of Tropical Meteorology (IITM), Pune",
+            "b": "Indian Institute of Science (IISc), Bengaluru",
+            "c": "Indian Institute of Management (IIM), Lucknow",
+            "d": "Saha Institute of Nuclear Physics"
+          },
+          "part": null
+        },
+        "60": {
+          "n": 60,
+          "page": 7,
+          "q": "As per Mizoram Statistical Handbook 2022, Mizoram has 404 km of international border with Myanmar and 318 km with Bangladesh. Which of the following is correct?",
+          "opts": {
+            "a": "False",
+            "b": "True",
+            "c": "Partly True",
+            "d": "Mizoram has 440 km of border with Myanmar"
+          },
+          "part": null
+        },
+        "61": {
+          "n": 61,
+          "page": 7,
+          "q": "On June 21 every year, which of the following latitude(s) experience(s) a sunlight of more than 12 hours?\n1. Equator\n2. Tropic of Cancer\n3. Tropic of Capricorn\n4. Arctic Circle\nSelect the correct answer using the code given below:",
+          "opts": {
+            "a": "1 only",
+            "b": "2 only",
+            "c": "3 and 4",
+            "d": "2 and 4"
+          },
+          "part": null
+        },
+        "62": {
+          "n": 62,
+          "page": 7,
+          "q": "From which town the proposed gas pipeline to Aizawl is being constructed?",
+          "opts": {
+            "a": "Pasighat",
+            "b": "Panvel",
+            "c": "Panisagar",
+            "d": "Neer Mahal"
+          },
+          "part": null
+        },
+        "63": {
+          "n": 63,
+          "page": 7,
+          "q": "What is the capital of Equatorial Guinea?",
+          "opts": {
+            "a": "Maputo",
+            "b": "Malaga",
+            "c": "Malabo",
+            "d": "Mbini"
+          },
+          "part": null
+        },
+        "64": {
+          "n": 64,
+          "page": 7,
+          "q": "The Term Chinaman is related to which sports?",
+          "opts": {
+            "a": "Football",
+            "b": "Hockey",
+            "c": "Golf",
+            "d": "Cricket"
+          },
+          "part": null
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "q": "Which Union Ministry is associated with ‘GOBARdhan’ scheme?",
+          "opts": {
+            "a": "Ministry of Jal Shakti",
+            "b": "Ministry of MSME",
+            "c": "Ministry of Commerce and Industry",
+            "d": "Ministry of Agriculture and Farmers Welfare"
+          },
+          "part": null
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "q": "What distinguishes a bank from other financial institutions?",
+          "opts": {
+            "a": "Accepting time deposits as a courtesy",
+            "b": "Accepting demand deposits",
+            "c": "Lending",
+            "d": "Accepting loans and borrowings"
+          },
+          "part": null
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "q": "Which of the following is not true regarding the payment of the emoluments of the President?",
+          "opts": {
+            "a": "They can be reduced during a Financial Emergency.",
+            "b": "They are shown separately in the budget.",
+            "c": "They are charged on the Contingency Fund of India.",
+            "d": "They do not require any parliament sanction"
+          },
+          "part": null
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "q": "Which countries jointly conducted a joint anti-submarine exercise called ‘Silent Shark’?",
+          "opts": {
+            "a": "Japan and South Korea",
+            "b": "USA and South Korea",
+            "c": "China and Russia",
+            "d": "Egypt and Israel"
+          },
+          "part": null
+        },
+        "69": {
+          "n": 69,
+          "page": 8,
+          "q": "Which seismic wave moves the material in a circular motion?",
+          "opts": {
+            "a": "Longitudinal wave",
+            "b": "Transverse wave",
+            "c": "Rayleigh wave",
+            "d": "Love wave"
+          },
+          "part": null
+        },
+        "70": {
+          "n": 70,
+          "page": 8,
+          "q": "With reference to the Digital India Land Records Modernisation Programme, consider the following statements:\n1. To implement the scheme, the central government provides 100% funding.\n2. Under the Scheme, Cadastral Maps are digitised.\n3. An initiative has been undertaken to transliterate the Records of Rights from local languages to any of the languages recognized by the Constitution of India.\nWhich of the statements given above are correct?",
+          "opts": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+          "part": null
+        },
+        "71": {
+          "n": 71,
+          "page": 8,
+          "q": "Consider the following statements:\n1. The Gulf of Mannar separates India and Sri Lanka.\n2. The Tuticorin port is located near the Gulf of Mannar.\n3. The Gulf of Mannar is the first marine Biosphere Reserve of India.\n4. Mannar Island is located to the North-east of the Gulf of Mannar.\nWhich of the above statement(s) is/are correct?",
+          "opts": {
+            "a": "Only 1",
+            "b": "Only 1 and 3",
+            "c": "1, 2 and 4",
+            "d": "1, 2, 3 and 4"
+          },
+          "part": null
+        },
+        "72": {
+          "n": 72,
+          "page": 8,
+          "q": "Which Article of the Constitution empowers the President to appoint a Commission to investigate the condition of backward classes in general and suggest ameliorative measures?",
+          "opts": {
+            "a": "Art 342",
+            "b": "Art 344",
+            "c": "Art 340",
+            "d": "Art 339"
+          },
+          "part": null
+        },
+        "73": {
+          "n": 73,
+          "page": 8,
+          "q": "Article 78 of the Constitution deals with:",
+          "opts": {
+            "a": "President’s power to get information from the Council of Ministers.",
+            "b": "Prime Minister’s duty regarding keeping the President informed about the government’s decisions and policies.",
+            "c": "Emergency powers of the President.",
+            "d": "President’s power to send advisory messages to the Parliament."
+          },
+          "part": null
+        },
+        "74": {
+          "n": 74,
+          "page": 8,
+          "q": "About 6% of the country’s GDP is contributed by Indian diaspora. Which country is this?",
+          "opts": {
+            "a": "United Kingdom",
+            "b": "United States of America",
+            "c": "United Arab Emirates",
+            "d": "Canada"
+          },
+          "part": null
+        },
+        "75": {
+          "n": 75,
+          "page": 8,
+          "q": "Which of the following statement(s) is/are correct, with respect to debenture holder and equity share holder?\n1. Equity shares are a part of share capital whereas debenture is a part of loan.\n2. Equity share holder possess ownership rights in the company whereas debenture holders do not possess ownership rights.\n3. At the time of liquidation, debenture holders are given preferences over equity holders.\nSelect the correct option from the codes given below:",
+          "opts": {
+            "a": "Only 1 & 2",
+            "b": "Only 2 & 3",
+            "c": "Only 1 & 3",
+            "d": "1, 2 & 3"
+          },
+          "part": null
+        },
+        "76": {
+          "n": 76,
+          "page": 8,
+          "q": "What is the amount of overdraft facility sanctioned under PMJDY is classified as MUDRA loans under PMMY?",
+          "opts": {
+            "a": "Rs. 5,000/-",
+            "b": "Rs. 10,000/-",
+            "c": "Rs. 15,000/-",
+            "d": "Rs. 20,000/-"
+          },
+          "part": null
+        },
+        "77": {
+          "n": 77,
+          "page": 9,
+          "q": "‘Padshah-nama’ (Chronicle of the Emperor) written by Abdul Hamid Lahori, is the official visual history giving a detailed account of the reign of which of the following Mughal Emperor?",
+          "opts": {
+            "a": "Babur",
+            "b": "Jahangir",
+            "c": "Shah Jahan",
+            "d": "Aurangzeb"
+          },
+          "part": null
+        },
+        "78": {
+          "n": 78,
+          "page": 9,
+          "q": "Recently, Paul Kagame has been elected for the fourth time as president of which country?",
+          "opts": {
+            "a": "Rwanda",
+            "b": "Kenya",
+            "c": "Nigeria",
+            "d": "Uganda"
+          },
+          "part": null
+        },
+        "79": {
+          "n": 79,
+          "page": 9,
+          "q": "In cricket, what does LBW stand for?",
+          "opts": {
+            "a": "Leg Before Wicket",
+            "b": "Left Batsman Wrong",
+            "c": "Leg Ball Wasted",
+            "d": "Lost Bat Winner"
+          },
+          "part": null
+        },
+        "80": {
+          "n": 80,
+          "page": 9,
+          "q": "As per publication of billionaires lists by Forbes 2024, who among the following is the richest celebrity in the world?",
+          "opts": {
+            "a": "George Lucas",
+            "b": "Steven Spielberg",
+            "c": "Michael Jordan",
+            "d": "Kim Kardashian"
+          },
+          "part": null
+        },
+        "81": {
+          "n": 81,
+          "page": 9,
+          "q": "What is the world’s loneliest island?",
+          "opts": {
+            "a": "Falkland Islands",
+            "b": "Diego Garcia",
+            "c": "South Georgia",
+            "d": "Tristan Da Cunha"
+          },
+          "part": null
+        },
+        "82": {
+          "n": 82,
+          "page": 9,
+          "q": "Dagestan Region, recently seen in the news, is located in which country?",
+          "opts": {
+            "a": "Russia",
+            "b": "Iran",
+            "c": "Turkey",
+            "d": "Iraq"
+          },
+          "part": null
+        },
+        "83": {
+          "n": 83,
+          "page": 9,
+          "q": "Which of the following statements are correct about the Constitution of India?\n1. Powers of the Municipalities are given in Part IX A of the Constitution.\n2. Emergency provisions are given in Part XVIII of the Constitution.\n3. Provisions related to the amendment of the Constitution are given in Part XX of the Constitution.\nSelect the correct answer using the code given below:",
+          "opts": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+          "part": null
+        },
+        "84": {
+          "n": 84,
+          "page": 9,
+          "q": "The Election Commision of India holds election for -",
+          "opts": {
+            "a": "The Parliament, State Legislature and the posts of the President and the Vice-President",
+            "b": "The Parliament, State Legislative Assemblies and the State Council",
+            "c": "The Parliament",
+            "d": "The Parliament and the State Legislative Assemblies"
+          },
+          "part": null
+        },
+        "85": {
+          "n": 85,
+          "page": 9,
+          "q": "Which one of the following situation can lead to inflation?",
+          "opts": {
+            "a": "Rapid growth of aggregate demand outweighing supply",
+            "b": "Sluggish growth of aggregate demand",
+            "c": "Reduction in the money supply",
+            "d": "Higher levels of unemployment"
+          },
+          "part": null
+        },
+        "86": {
+          "n": 86,
+          "page": 9,
+          "q": "Who among the following Chief Justices of India ordered the Constitution of a Special Bench called the ‘Social Justice Bench’?",
+          "opts": {
+            "a": "Justice H. L. Dattu",
+            "b": "Justice K. G. Balakrishnan",
+            "c": "Justice R. M. Lodha",
+            "d": "Justice Y. K. Sabharwal"
+          },
+          "part": null
+        },
+        "87": {
+          "n": 87,
+          "page": 9,
+          "q": "Which American University awards Pulitzer Prize?",
+          "opts": {
+            "a": "Carnegie Mellon University",
+            "b": "Stanford University",
+            "c": "Columbia University",
+            "d": "Harvard University"
+          },
+          "part": null
+        },
+        "88": {
+          "n": 88,
+          "page": 10,
+          "q": "Match the following:\nList I (Leaders): A. Jayalalithaa; B. Mayawati; C. Mamata Bannerjee; D. Uma Bharati.\nList II (State): 1. Madhya Pradesh; 2. Tamil Nadu; 3. Uttar Pradesh; 4. West Bengal.",
+          "opts": {
+            "a": "A – III, B – I, C – IV & D – II",
+            "b": "A – II, B – III, C – IV & D – I",
+            "c": "A – IV, B – III, C – II & D – I",
+            "d": "A – I, B – II, C – III & D – IV"
+          },
+          "part": null
+        },
+        "89": {
+          "n": 89,
+          "page": 10,
+          "q": "Which of the following relations between Kinetic energy and Potential energy is true about solids?",
+          "opts": {
+            "a": "Kinetic energy = Potential energy",
+            "b": "Kinetic energy > Potential energy",
+            "c": "Kinetic energy >> Potential energy",
+            "d": "Kinetic energy < Potential energy"
+          },
+          "part": null
+        },
+        "90": {
+          "n": 90,
+          "page": 10,
+          "q": "Which of the following statements are correct?\n1. The soap molecules form structures called micelles.\n2. Soap micelles cannot scatter light.\n3. Oily dirt gets collected in the centre of the micelle.\nSelect the correct answer from the codes given below:",
+          "opts": {
+            "a": "Only 1 and 2",
+            "b": "Only 1 and 3",
+            "c": "Only 2 and 3",
+            "d": "1, 2 and 3"
+          },
+          "part": null
+        },
+        "91": {
+          "n": 91,
+          "page": 10,
+          "q": "Which among the following ruler is known for Junagadh Rock Inscription?",
+          "opts": {
+            "a": "Rudradaman I",
+            "b": "Jivadaman",
+            "c": "Damajadasri",
+            "d": "Jayadaman"
+          },
+          "part": null
+        },
+        "92": {
+          "n": 92,
+          "page": 10,
+          "q": "Who wrote the Tamil epic Silappadikaram?",
+          "opts": {
+            "a": "Ilango Adigal",
+            "b": "Thiruvalluar",
+            "c": "Avvaiyar",
+            "d": "Sattanar"
+          },
+          "part": null
+        },
+        "93": {
+          "n": 93,
+          "page": 10,
+          "q": "According to Economic Survey published by Planning & Programme Implementation Department (2023–2024), how many MSMEs are registered in Mizoram?",
+          "opts": {
+            "a": "9872",
+            "b": "8756",
+            "c": "8213",
+            "d": "8310"
+          },
+          "part": null
+        },
+        "94": {
+          "n": 94,
+          "page": 10,
+          "q": "What is the name of the prestigious award given to the best player in the world each year?",
+          "opts": {
+            "a": "European Golden Shoe",
+            "b": "FIFA Ballon d’Or",
+            "c": "UEFA Men’s Player of the Year Award",
+            "d": "Champions League Player of the Year"
+          },
+          "part": null
+        },
+        "95": {
+          "n": 95,
+          "page": 10,
+          "q": "The Iliad by Homer primarily focuses on a specific period of which war?",
+          "opts": {
+            "a": "The Trojan War",
+            "b": "The Peloponnesian War",
+            "c": "The Persian Wars",
+            "d": "The Macedonian Wars"
+          },
+          "part": null
+        },
+        "96": {
+          "n": 96,
+          "page": 10,
+          "q": "What is the theme of ‘World Population Day 2024’?",
+          "opts": {
+            "a": "Leave No One Behind, Count Everyone",
+            "b": "Safeguard the health and rights of women and girls",
+            "c": "Gender equality and reproductive health",
+            "d": "Family Planning is a Human Right"
+          },
+          "part": null
+        },
+        "97": {
+          "n": 97,
+          "page": 10,
+          "q": "RBI has increased the UPI payment limit from ₹1.00 lakh to how much?",
+          "opts": {
+            "a": "₹2.00 lakh per transaction",
+            "b": "₹3.00 lakh per transaction",
+            "c": "₹4.00 lakh per transaction",
+            "d": "₹5.00 lakh per transaction"
+          },
+          "part": null
+        },
+        "98": {
+          "n": 98,
+          "page": 10,
+          "q": "A new snake species discovered in Mizoram in August 2024 was named -",
+          "opts": {
+            "a": "Smithophis Mizorammensis",
+            "b": "Smithophis Mizoramensis",
+            "c": "Smithophis Mizomensis",
+            "d": "Smithophis Mizoensis"
+          },
+          "part": null
+        },
+        "99": {
+          "n": 99,
+          "page": 11,
+          "q": "GAAP stands for -",
+          "opts": {
+            "a": "Government Auditing & Accounting Procedure",
+            "b": "Government Auditing & Accounting Process",
+            "c": "General Auditing & Accounting Principles",
+            "d": "Generally Accepted Accounting Principles"
+          },
+          "part": null
+        },
+        "100": {
+          "n": 100,
+          "page": 11,
+          "q": "What is the approximate diameter of the earth?",
+          "opts": {
+            "a": "12,742 km",
+            "b": "13,742 km",
+            "c": "14,742 km",
+            "d": "15,742 km"
+          },
+          "part": null
+        }
+      }
+    },
+    "inspector-stats-2026-p2": {
+      "sourceSha256": "59ae97a9f3f3dadcb9582215f9ec4387fffda3a6296d3658cc79589ee85ebdae",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-08",
+      "evidence": "Questions 54, 55, 67, 71 and 91 transcribed against rendered PDF pages 8–11. Options and mathematical notation checked visually. No verified official key is available for this paper, so answer scoring remains disabled.",
+      "questions": {
+        "54": {
+          "n": 54,
+          "page": 8,
+          "q": "The recurring decimal 0.757575... (0.(75)) is equal to the fraction:",
+          "opts": {
+            "a": "25/33",
+            "b": "3/4",
+            "c": "1/4",
+            "d": "5/6"
+          },
+          "part": null
+        },
+        "55": {
+          "n": 55,
+          "page": 8,
+          "q": "The value of (1 2/9 ÷ (1 1/5 of 5/21)) + 1/3 is:",
+          "opts": {
+            "a": "716/1323",
+            "b": "275/441",
+            "c": "4",
+            "d": "5"
+          },
+          "part": null
+        },
+        "67": {
+          "n": 67,
+          "page": 9,
+          "q": "A can do a piece of work in 25 days and B can do it in 20 days. They work together for 5 days and then A goes away. What fraction of the work remains for B to complete?",
+          "opts": {
+            "a": "9/100",
+            "b": "9/20",
+            "c": "1/2",
+            "d": "11/20"
+          },
+          "part": null
+        },
+        "71": {
+          "n": 71,
+          "page": 10,
+          "q": "The next fraction in the sequence 1/22, 4/23, 9/24, 16/25 is:",
+          "opts": {
+            "a": "17/26",
+            "b": "19/26",
+            "c": "25/26",
+            "d": "18/13"
+          },
+          "part": null
+        },
+        "91": {
+          "n": 91,
+          "page": 11,
+          "q": "Eleven packs of Arham rice, each marked 5 kg, actually contain these weights (in kg): 4.97, 5.05, 5.08, 5.03, 5.00, 5.06, 4.98, 5.08, 5.04, 5.07, 5.00. What is the probability that a randomly chosen pack contains more than 5 kg of rice?",
+          "opts": {
+            "a": "5/11",
+            "b": "6/11",
+            "c": "7/11",
+            "d": "8/11"
+          },
+          "part": null
+        }
+      },
+      "derivedAnswers": {
+        "54": {
+          "answerIndex": 0,
+          "explanation": "0.757575… repeats the block 75, so it equals 75/99 = 25/33 (option A)."
+        },
+        "67": {
+          "answerIndex": 3,
+          "explanation": "Together they complete 5(1/25 + 1/20) = 45/100 of the work. The remainder is 55/100 = 11/20 (option D)."
+        },
+        "71": {
+          "answerIndex": 2,
+          "explanation": "The numerators are consecutive squares 1², 2², 3², 4²; the next is 5² = 25. The denominators rise from 22 to 25, so the next is 26: 25/26 (option C)."
+        },
+        "91": {
+          "answerIndex": 1,
+          "explanation": "Six of the eleven listed pack weights exceed 5 kg, so the probability is 6/11 (option B)."
+        }
+      }
+    },
+    "si-police-2026-p2": {
+      "sourceSha256": "8f9322ca10bb444e7395d407c7f0f4fe6b2568f1e36faacf33413d101d08b9a8",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-08",
+      "evidence": "Questions 53–54 transcribed against rendered PDF page 6; radicals, options and order checked visually. Final SI Police key cells were checked in verified-general-keys.json.",
+      "questions": {
+        "53": {
+          "n": 53,
+          "page": 6,
+          "q": "The value of 10/√45 is:",
+          "opts": {
+            "a": "2√5/3",
+            "b": "3√5/2",
+            "c": "5√2/3",
+            "d": "5√3/2"
+          },
+          "part": null
+        },
+        "54": {
+          "n": 54,
+          "page": 6,
+          "q": "If the quadratic equation 2x² − 6x + k = 0 has two equal roots, then the value of k is:",
+          "opts": {
+            "a": "5/2",
+            "b": "9/2",
+            "c": "15/2",
+            "d": "13/2"
+          },
+          "part": null
+        }
+      }
+    },
+    "aao-2024-english": {
+      "sourceSha256": "eb32e3ca2b60cb399cce89bbdcf711d95a098fdfbbcf90377ffd5f6ea2f66fb5",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-08",
+      "evidence": "Question 2 transcribed against rendered PDF page 1. All four options and their order checked visually; answer scored only against the final official key.",
+      "questions": {
+        "2": {
+          "n": 2,
+          "page": 1,
+          "part": null,
+          "q": "Where ______, had we not met her?",
+          "opts": {
+            "a": "will she be staying",
+            "b": "would she stay",
+            "c": "will she stay",
+            "d": "will she have stayed"
+          }
+        }
+      },
+      "partialReview": true
+    },
+    "aao-2024-arithmetic": {
+      "sourceSha256": "f28f780e75a0ef77d42c364c377fa57b31ebf8b961b8cce3f984bc8fa84a1db9",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-08",
+      "evidence": "Question 71 transcribed against rendered PDF page 7. Set notation and all four options checked visually; answer scored using the final official key.",
+      "questions": {
+        "71": {
+          "n": 71,
+          "page": 7,
+          "part": null,
+          "q": "If A = {a, b, c, d} and B = {b, c, f}, then B − A = ?",
+          "opts": {
+            "a": "{b, f}",
+            "b": "{f}",
+            "c": "{d}",
+            "d": "{a, d}"
+          }
+        }
+      },
+      "partialReview": true
+    },
+    "aao-2025-p2": {
+      "sourceSha256": "bc5c3e61f87c08bfb58c0bd42f846ac932ca5d7f0bc9c3a6467d7c17021d1d9c",
+      "expectedMcq": 100,
+      "partialReview": true,
+      "reviewedOn": "2026-10-08",
+      "evidence": "Question 60 transcribed against rendered PDF page 9. The four probability choices were visually checked. The answer is independently calculated; no official key has been matched for this paper.",
+      "questions": {
+        "60": {
+          "n": 60,
+          "page": 9,
+          "part": null,
+          "q": "A coin and a die are thrown at random. What is the probability that a composite number appears on the die and a tail appears on the coin?",
+          "opts": {
+            "a": "1/6",
+            "b": "1/5",
+            "c": "1/4",
+            "d": "1/3"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "60": {
+          "answerIndex": 0,
+          "explanation": "The composite outcomes on a standard die are 4 and 6, so the probability is 2/6 = 1/3. A tail has probability 1/2. The independent events occur together with probability 1/3 × 1/2 = 1/6 (option A)."
+        }
+      }
+    }
+  }
+}

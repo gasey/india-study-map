@@ -1,0 +1,1224 @@
+{
+  "slug": "hfw-2026-p1",
+  "exam": "Group B technical common exam, Health & Family Welfare",
+  "sitting": "January 2026",
+  "subject": "General English",
+  "source": "General English Paper-I 2026..pdf",
+  "sourceSha256": "5ffb4d4cf3a8a1b626f4fdd792d16dc85d2a95e0a11df46a0e45806eccf35bd8",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Identify the Parts of Speech of the underlined words:",
+      "opts": {
+        "a": "Verb",
+        "b": "Adjective",
+        "c": "Preposition",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Let us go **up** the hill",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Identify the Parts of Speech of the underlined words:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Adverb",
+        "c": "Noun",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There is **little** danger in going there",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Identify the Parts of Speech of the underlined words:",
+      "opts": {
+        "a": "Preposition",
+        "b": "Conjunction",
+        "c": "Verb",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We went out **after** they had left",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Identify the Parts of Speech of the underlined words:",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Verb",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I was young **once**",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Identify the Parts of Speech of the underlined words:",
+      "opts": {
+        "a": "Verb",
+        "b": "Noun",
+        "c": "Adjective",
+        "d": "Interjection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He **dare** not tell a lie",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Identify the Parts of Speech of the underlined words:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Adverb",
+        "c": "Pronoun",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The necklace is made of **gold**",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Identify the Parts of Speech of the underlined words:",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Interjection",
+        "c": "Preposition",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Hush**, don’t make a noise",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Identify the Parts of Speech of the underlined words:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Preposition",
+        "c": "Noun",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You can ask **either** of them",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Identify the Parts of Speech of the underlined words:",
+      "opts": {
+        "a": "Adverb",
+        "b": "Adjective",
+        "c": "Preposition",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was sitting **close** beside her",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Identify the Parts of Speech of the underlined words:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Noun",
+        "c": "Adverb",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The show had come to a **close**",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 15): Choose the correct Preposition to fill in the blanks:",
+      "opts": {
+        "a": "over",
+        "b": "about",
+        "c": "on",
+        "d": "beside"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He rules _____ a vast empire",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 15): Choose the correct Preposition to fill in the blanks:",
+      "opts": {
+        "a": "down",
+        "b": "from",
+        "c": "besides",
+        "d": "behind"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There is a garden _____ the house",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 15): Choose the correct Preposition to fill in the blanks:",
+      "opts": {
+        "a": "under",
+        "b": "without",
+        "c": "before",
+        "d": "into"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was brought _____ the magistrate",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 15): Choose the correct Preposition to fill in the blanks:",
+      "opts": {
+        "a": "during",
+        "b": "about",
+        "c": "for",
+        "d": "along"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The power went out _____ the storm",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 15): Choose the correct Preposition to fill in the blanks:",
+      "opts": {
+        "a": "by",
+        "b": "for",
+        "c": "of",
+        "d": "from"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She was accused _____ her friend",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25): Correct the underlined phrases if needed, by choosing from",
+      "opts": {
+        "a": "an hour",
+        "b": "hourly",
+        "c": "every hour",
+        "d": "No Correction required"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She drives her car at eighty miles **each hour**",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25): Correct the underlined phrases if needed, by choosing from",
+      "opts": {
+        "a": "a very colourfully illustrated children’s encyclopedia",
+        "b": "a child’s very colourfully illustrated encyclopedia",
+        "c": "an illustrated child’s very colourful encyclopedia",
+        "d": "No Correction required"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I gave my niece **a children’s very colourfully illustrated encyclopedia**",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25): Correct the underlined phrases if needed, by choosing from",
+      "opts": {
+        "a": "Everyone nearly",
+        "b": "Nearly all",
+        "c": "Nearly each one",
+        "d": "No Correction required"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Nearly everyone** suffers when unemployment rises",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25): Correct the underlined phrases if needed, by choosing from",
+      "opts": {
+        "a": "should he be left",
+        "b": "would he have left",
+        "c": "he would be leaving",
+        "d": "No Correction required"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Did you know when **shall he be leaving** for Delhi?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25): Correct the underlined phrases if needed, by choosing from",
+      "opts": {
+        "a": "alarmed report",
+        "b": "alarmed reporting",
+        "c": "reported alarm",
+        "d": "No Correction required"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **alarming** report of the building collapse made everyone frightened",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25): Correct the underlined phrases if needed, by choosing from",
+      "opts": {
+        "a": "dared not go",
+        "b": "dare not went",
+        "c": "dared not to have gone",
+        "d": "No Correction required"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Because it was a stormy night, he **dare not to go** out in the dark",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25): Correct the underlined phrases if needed, by choosing from",
+      "opts": {
+        "a": "so that as I expected",
+        "b": "such as that I expect",
+        "c": "such that I expected of",
+        "d": "No Correction required"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The donation amount was **such that as I was expected** him to donate",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25): Correct the underlined phrases if needed, by choosing from",
+      "opts": {
+        "a": "unable to continue",
+        "b": "unabled to have continue",
+        "c": "unable to be continued",
+        "d": "No Correction required"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For want of financial resources, he was **unable to have continued** his studies",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25): Correct the underlined phrases if needed, by choosing from",
+      "opts": {
+        "a": "until he practiced",
+        "b": "unless he practices",
+        "c": "unless he practice",
+        "d": "No Correction required"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is less likely to win **unless he practiced** rigorously and regularly",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25): Correct the underlined phrases if needed, by choosing from",
+      "opts": {
+        "a": "concerns with",
+        "b": "is concerned with",
+        "c": "concerns",
+        "d": "No Correction required"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The document is **concerning** your health and that of your family",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26 - 35): Choose the correct pair of words to form meaningful sentences:",
+      "opts": {
+        "a": "deceive, cheated",
+        "b": "escape, arrested",
+        "c": "defend, acquitted",
+        "d": "cheat, robbed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He had managed to _____ several times, but was finally _____ by the police",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26 - 35): Choose the correct pair of words to form meaningful sentences:",
+      "opts": {
+        "a": "tolerate, insipid",
+        "b": "neglect, insignificant",
+        "c": "consider, important",
+        "d": "pardon, outrageous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We cannot _____ such an _____ act of violence",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26 - 35): Choose the correct pair of words to form meaningful sentences:",
+      "opts": {
+        "a": "details, grand",
+        "b": "increased, party",
+        "c": "deviated, original",
+        "d": "emerged, impaired"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The activities of the association have _____ from the _____ objectives set for it in the initial years",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26 - 35): Choose the correct pair of words to form meaningful sentences:",
+      "opts": {
+        "a": "started, disclosed",
+        "b": "full, demanding",
+        "c": "replete, increased",
+        "d": "forced, presented"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The speech _____ with subtle threats has resulted in _____ tension in the sensitive areas of the city",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26 - 35): Choose the correct pair of words to form meaningful sentences:",
+      "opts": {
+        "a": "spend, enjoy",
+        "b": "afford, prefer",
+        "c": "decide, commute",
+        "d": "decide, undertook"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We can _____ to travel by air, but we _____ train journey",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26 - 35): Choose the correct pair of words to form meaningful sentences:",
+      "opts": {
+        "a": "divested, deported",
+        "b": "inversted, shipped",
+        "c": "augmented, deported\\",
+        "d": "incremented, sent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The chief _____ him of his administrative powers and _____ him to the Bahamas",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26 - 35): Choose the correct pair of words to form meaningful sentences:",
+      "opts": {
+        "a": "inner, authentic",
+        "b": "submerged, visible",
+        "c": "upper, viable",
+        "d": "greater, official"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Like the _____ part of an iceberg, much of what is interesting in the city is not _____",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26 - 35): Choose the correct pair of words to form meaningful sentences:",
+      "opts": {
+        "a": "deterioration, condoned",
+        "b": "height, restrained",
+        "c": "essence, unhampered",
+        "d": "alienation, compulsory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The _____ of democratic freedom is dialogue and the _____ interchange of diverse ideas",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26 - 35): Choose the correct pair of words to form meaningful sentences:",
+      "opts": {
+        "a": "automated, simultaneously",
+        "b": "robotlike, unwillingly",
+        "c": "animated, honestly",
+        "d": "accelerated, seemingly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Even as _____ machines free men from drudgery, they _____ displace men from jobs",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26 - 35): Choose the correct pair of words to form meaningful sentences:",
+      "opts": {
+        "a": "hazardous, precedent",
+        "b": "unwarranted, potentialities",
+        "c": "well-considered",
+        "d": "irrevocable, consequences"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To cross the river means to take a final _____ step which may have dangerous _____",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 36 - 40): Choose the correct antonym of the words given:",
+      "opts": {
+        "a": "Kind",
+        "b": "Cruel",
+        "c": "Ugly",
+        "d": "Compassionate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Benevolent",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 36 - 40): Choose the correct antonym of the words given:",
+      "opts": {
+        "a": "Dull",
+        "b": "Bright",
+        "c": "Graphic",
+        "d": "Changeable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Vivid",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 36 - 40): Choose the correct antonym of the words given:",
+      "opts": {
+        "a": "Bold",
+        "b": "Cowardly",
+        "c": "Creative",
+        "d": "Lazy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Audacious",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 36 - 40): Choose the correct antonym of the words given:",
+      "opts": {
+        "a": "Confusing",
+        "b": "Intelligible",
+        "c": "Transparent",
+        "d": "Fruitful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lucid",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 36 - 40): Choose the correct antonym of the words given:",
+      "opts": {
+        "a": "Sociable",
+        "b": "Introverted",
+        "c": "Obscure",
+        "d": "Aggressive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gregarious",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50): Choose the correct answer:",
+      "opts": {
+        "a": "Very often",
+        "b": "Rarely",
+        "c": "At night",
+        "d": "Quickly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The idiom ‘once in a blue moon’ means-",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50): Choose the correct answer:",
+      "opts": {
+        "a": "Hurt themselves",
+        "b": "Are very angry",
+        "c": "Say or do something exactly right",
+        "d": "Start an argument"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If someone ‘hits the nail on the head,’ they:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50): Choose the correct answer:",
+      "opts": {
+        "a": "You are playing a game",
+        "b": "You have lost",
+        "c": "It is your turn to act or decide",
+        "d": "You are winning"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The idiom ‘the ball is in your court’ means-",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50): Choose the correct answer:",
+      "opts": {
+        "a": "Feeling cold",
+        "b": "Feeling sick",
+        "c": "Feeling happy",
+        "d": "Feeling angry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The phrase ‘under the weather’ means",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50): Choose the correct answer:",
+      "opts": {
+        "a": "To withdraw from a responsibility",
+        "b": "To accept a difficult situation unwillingly",
+        "c": "To issue a direct challenge, often boldly or defiantly",
+        "d": "To resolve a long-standing conflict peacefully"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the option that best explains the idiom, ‘to throw down the gauntlet.’",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50): Choose the correct answer:",
+      "opts": {
+        "a": "Interrogative",
+        "b": "Imperative",
+        "c": "Declarative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which type of sentence makes a statement?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50): Choose the correct answer:",
+      "opts": {
+        "a": "Imperative",
+        "b": "Interrogative",
+        "c": "Exclamatory",
+        "d": "Declarative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the type of sentence: ‘Susan is going to Church.’",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50): Choose the correct answer:",
+      "opts": {
+        "a": "Declarative Sentence",
+        "b": "Imperative Sentence",
+        "c": "Interrogative Sentence",
+        "d": "Exclamatory Sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘How beautiful the sunset is!’ is a:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50): Choose the correct answer:",
+      "opts": {
+        "a": "He likes ice-cream",
+        "b": "Are you ready?",
+        "c": "Shut the window",
+        "d": "What a lovely day!"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is an Imperative Sentence?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50): Choose the correct answer:",
+      "opts": {
+        "a": "Imperative",
+        "b": "Interrogative with imperative force",
+        "c": "Exclamatory",
+        "d": "Declarative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the type of sentence: ‘Could you possibly explain why the meeting was postponed?’",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "B",
+      "page": 6,
+      "text": "Read the following passage carefully and write a precis in about one third of its length. Suggest a suitable title.(10) In the United States, they have opened their first rehabilitation centre for Internet Addicts. De-addiction camps in China were in the news recently for the death of a teenager because of the brutal methods used to cure ‘Internet Addiction’ (IA). Our country must seriously think about such centres that help de-addict compulsive Internet-users, both young and old. IA for now is a catch-all term that not only stands for addiction to specific activities such as gambling or gaming, but also refers to longer hours devoted to the computer network at the expense of other activities. Though, the Internet is only a medium of communication and information transmission and retrieval (like the printed book or television), ‘addiction’ is being used in this case with concern because of a fundamental dialectic: ‘quantity becomes quality.’ A whole new world is just a click away with the Internet. It is a medium just like books and television, but the amount of interaction it makes possible with others, sometimes replacing the need for real world interaction, makes it vastly different. Educators, neuroscientists and those others having public health concerns in all developing and developed countries have woken upto this reality. According to expert neuropsychiatric opinion, IA is somewhere between Obsessive Compulsive Disorder and the addiction due to substance abuse. Substance abuse led addiction focuses on gratification, which this form of attachment provides, though there is no chemical ingestion. At the same time, the behavioural modifications are similar to those with Obsessive Compulsive Disorder. It is almost like the ‘rush’ gamblers get out of a purely gratification-oriented repetitive action.",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "B",
+      "page": 6,
+      "text": "Read the following passage carefully and answer the questions that follow: The Scandinavian countries are much admired all over the world for their enlightened social policies. Sweden has evolved an excellent system for protecting the individual citizen from high-handed or incompetent public officers. The system has worked so well that it has been adopted in other countries like Denmark, Norway, Finland and New Zealand. Even countries with large populations are now seriously considering imitating the Swedes. The Swedes were the first to recognize that Public officials like civil servants, police officers, health inspectors or tax collectors can make mistakes or act overzealously in the belief that they are serving the public. As long ago as 1809, the Swedish Parliament introduced a scheme to safeguard the interests of the individual. A parliamentary committee representing all political parties appoints a person who is suitably qualified to investigate private grievances against the State. The official title of the person is Justice Ombudsman but Swedes commonly refer to him as the J.O. or just Ombudsman. The Ombudsman is not subject to political pressure. He investigates complaints, large and small, that come to him from all levels of society. As complaints must be made in writing, the Ombudsman receives an average of 1200 letters a year. He has eight lawyer assistants to help him, and he examines every single letter in detail. There is nothing secretive about the Ombudsman’s work, for his correspondence is open to public inspection. If a citizen’s complaint is justified, the Ombudsman will act on his behalf. The action he takes varies according to the nature of the complaint. He may gently reprimand an official or even suggest to parliament that a law be altered. The following case is a typical example of the Ombudsman’s work. A foreigner living in a Swedish village wrote to the Ombudsman, complaining that he had been ill- treated by the police, simply because he was a foreigner. The Ombudsman immediately wrote to the Chief of Police in the district, asking him to send a record of the case. There was nothing in the record to show that the foreigner’s complaint was justified and the Chief of Police stoutly denied the accusation. It was impossible for the Ombudsman to take action on the complaint, but when he received a similar complaint from another foreigner in the same village, he immediately sent one of his lawyers to investigate. The lawyer ascertained that a policeman had indeed dealt roughly with foreigners on several occasions. The fact that the policeman was prejudiced against foreigners could not be recorded in the official files. It was possible only for the Ombudsman to find this out by sending one of his representatives to check the facts on the spot. The policeman in question was severely reprimanded and was informed that if any further complaints were received against him, he would be prosecuted. The Ombudsman’s prompt action in the manner at once put an end to an unpleasant practice which might have gone on unnoticed. I.Find similar meanings of the following words from the above passage:(5×1=5)",
+      "subparts": {
+        "a": "with too much or undesired enthusiasm",
+        "b": "rebuke somebody officially",
+        "c": "obliged to obey",
+        "d": "strongly (a)Why did Sweden introduce the institution of Ombudsman?(1) (b)How is an Ombudsman chosen in Sweden?(1) (c)How does the Ombudsman investigate and act upon the citizen’s complaints?(2) (d)How can the public find out about Ombudsman’s work?(2)"
+      }
+    },
+    {
+      "n": 3,
+      "part": "B",
+      "page": 7,
+      "text": "There is a flood of advertisements on newspapers, television and social media these days. Useless commodities and superstitious beliefs are promoted through glamourous and exaggerated presentations. Write a letter to the Editor of ‘The Mizoram Express’ signing yourself as XYZ of ABC Locality in Aizawl expressing about the negative influence such advertisements have on the minds of the people. (15)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "B",
+      "page": 7,
+      "text": "Change the Voice:(5×1=5)",
+      "subparts": {
+        "a": "Someone stole my bag yesterday.",
+        "b": "The company is launching a new product next month.",
+        "c": "He will have completed the task before noon.",
+        "d": "People speak English all over the world."
+      }
+    },
+    {
+      "n": 5,
+      "part": "B",
+      "page": 7,
+      "text": "Rewrite the sentences in Direct/Indirect Speech:(5×1=5)",
+      "subparts": {
+        "a": "He said, ‘I may not attend the meeting.’",
+        "b": "She said to him, ‘Are you working on this project alone?’",
+        "c": "She said, ‘I have a new book.’",
+        "d": "She requested him to help her carry those boxes."
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p6, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q3 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p7, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q5 (p7, part B): conventional section, 4 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "A": []
+  }
+}

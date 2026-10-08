@@ -106,6 +106,9 @@ export function FilterRail({
         padding: '14px 16px', marginBottom: 16, display: 'grid', gap: 10,
       }}
     >
+      {filters.paperIds.length > 0 && <Group label="Selected paper">
+        <Chip on onClick={() => set({ paperIds: [] })}>Clear paper selection ×</Chip>
+      </Group>}
       <Group label="Post">
         {posts.map((p) => (
           <Chip
@@ -195,6 +198,8 @@ export function FilterRail({
       <Group label="Answer">
         {([
           ['any', 'Any'], ['answered', 'Has an answer'], ['unanswered', 'No answer yet'],
+          ['official', 'Official key'], ['independent', 'Independent only'],
+          ['disagreement', 'Answers differ'], ['review', 'Needs review'],
         ] as [AnswerState, string][]).map(([v, label]) => (
           <Chip
             key={v}

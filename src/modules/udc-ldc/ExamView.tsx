@@ -2,7 +2,9 @@ import { useEffect, useMemo, useState } from 'react';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
 import { isMcqQuestion } from '@/data/banks/types';
 import { mpscUdcLdcPaperMeta } from '@/data/banks/mpsc-udc-ldc';
-import { SECTION_LABEL, optionLetter, sectionOf, type SectionId } from './filters';
+import type { UdcLdcPaperMeta } from '@/data/banks/mpsc-udc-ldc';
+import { groupBPaperMeta } from '@/data/banks/mpsc-group-b-general';
+import { SECTION_LABEL, optionLetter, sectionOf, isAnswerable, type SectionId } from './filters';
 import { useAttemptState } from '@/modules/mpsc/useAttemptState';
 import { QuestionText } from './QuestionText';
 import { QuestionImage } from './QuestionImage';
@@ -32,6 +34,12 @@ import { QuestionImage } from './QuestionImage';
 interface Props {
   papers: ExamPaper[];
   questions: BankQuestion[];
+}
+
+function paperMeta(paper: ExamPaper): UdcLdcPaperMeta {
+  const meta = mpscUdcLdcPaperMeta[paper.id] ?? groupBPaperMeta[paper.id];
+  if (!meta) throw new Error(`No verified marking rules for ${paper.id}`);
+  return meta;
 }
 
 type Answers = Record<string, number>;
@@ -72,10 +80,10 @@ function ExamSitting({
   const [instant, setInstant] = useState(false);
   const [now, setNow] = useState(() => Date.now());
 
-  const meta = mpscUdcLdcPaperMeta[paperId];
+  const meta = paperMeta(paper);
 
   const paperQs = useMemo(
-    () => questions.filter((q) => q.paperId === paperId && isMcqQuestion(q)),
+    () => questions.filter((q) => q.paperId === paperId && isMcqQuestion(q) && !q.paperExamExcluded),
     [questions, paperId],
   );
 
@@ -93,7 +101,7 @@ function ExamSitting({
   const started = Object.keys(answers).length > 0;
   /** Questions that can be scored — a figure-only item has no answer to mark. */
   const scorable = useMemo(
-    () => paperQs.filter((q) => isMcqQuestion(q) && q.answerIndex >= 0 && q.options.length > 0),
+    () => paperQs.filter((q) => isMcqQuestion(q) && q.answerIndex >= 0 && !q.figureBased && q.options.length > 0),
     [paperQs],
   );
 
@@ -254,7 +262,7 @@ function ExamSitting({
           <p style={{ margin: '12px 0 0', fontSize: 13, opacity: 0.85 }}>
             {meta.negativeMarking ? (
               <>
-                This paper carries the <strong>−1/3 penalty</strong> (Gazette Ex-582/2025).
+                This paper carries the <strong>−1/3 penalty</strong> specified in its exam instructions.
                 A blank costs nothing, so guessing is only worth it when you can eliminate
                 at least one option — blind-guessing your {result.skipped} skipped questions
                 would have been worth about{' '}
@@ -275,7 +283,7 @@ function ExamSitting({
       <div style={{ marginTop: 16 }}>
         {paperQs.map((q, i) => {
           if (!isMcqQuestion(q)) return null;
-          const unscorable = q.answerIndex < 0 || q.options.length === 0;
+          const unscorable = !isAnswerable(q);
           const picked = answers[q.id];
           return (
             <div
@@ -288,7 +296,7 @@ function ExamSitting({
             >
               <div style={{ display: 'flex', gap: 10 }}>
                 <span className="udc-question-number" style={{ opacity: 0.55, fontVariantNumeric: 'tabular-nums', minWidth: 26 }}>
-                  {i + 1}.
+                  {q.questionNumber ?? i + 1}.
                 </span>
                 <div style={{ flex: 1 }}>
                   {q.direction && (
@@ -377,13 +385,15 @@ export function ExamView({ papers, questions }: Props) {
   return (
     <div>
       <p style={{ fontSize: 14, opacity: 0.8, marginBottom: 14 }}>
-        Sit a full paper under exam conditions — printed order, a real clock, and
+        Sit an available MCQ section under exam conditions — printed order, a real clock, and
         scoring under that paper&apos;s own marking rule. A sitting in progress
         survives a refresh; the clock keeps running while you are away.
+        Written tasks and conventional comprehension questions with other mark allocations remain in Browse.
+        For a mixed paper, reserve some of its printed time limit for the written section.
       </p>
       <div style={{ display: 'grid', gap: 8 }}>
         {papers.map((p) => {
-          const m = mpscUdcLdcPaperMeta[p.id];
+          const m = paperMeta(p);
           const n = questions.filter((q) => q.paperId === p.id).length;
           const inProgress = (() => {
             try {

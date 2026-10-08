@@ -1,0 +1,2317 @@
+{
+  "slug": "inspector-stats-2026-p2",
+  "exam": "Inspector of Statistics",
+  "sitting": "March 2026",
+  "subject": "General Knowledge & General Mathematics",
+  "source": "Inspector of Statistics Paper-II..pdf",
+  "sourceSha256": "59ae97a9f3f3dadcb9582215f9ec4387fffda3a6296d3658cc79589ee85ebdae",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Haryana",
+        "b": "Gujarat",
+        "c": "Rajasthan",
+        "d": "Punjab"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state government in 2025 declared two Harappan sites ‘Tighrana and Mitathal’ as archaeological sites?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I, II, III, IV",
+        "b": "II, III, IV, I",
+        "c": "III, II, IV, I",
+        "d": "IV, II, III, I"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrange the following phases of the French Revolution in the correct chronological order: I.Dictatorship of Bonaparte II.Convention III.National Assembly IV.Rule of Directory",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "France",
+        "b": "Britain",
+        "c": "Israel",
+        "d": "Egypt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Suez Crisis’ of 1956 involved which country nationalising the Suez Canal?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Subhash Chandra Bose",
+        "b": "Bal Gangadhar Tilak",
+        "c": "Mahatma Gandhi",
+        "d": "Jawaharlal Nehru"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who made the remark, “Swaraj is my birth right, and I shall have it.”?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I only",
+        "b": "II only",
+        "c": "Both I and II",
+        "d": "Neither I nor II"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to the proposals of the Cabinet Mission Plan (1946), consider the following statements: I.The Constituent Assembly was to be formed through indirect elections by the Provincial Legislative Assemblies II.The Princely States were given the option to send representatives to the Constituent Assembly Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "100th Amendment",
+        "b": "101st Amendment",
+        "c": "102nd Amendment",
+        "d": "103rd Amendment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which amendment is related to Goods and Services Tax?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Original Jurisdiction",
+        "b": "Appellate Jurisdiction",
+        "c": "Advisory Jurisdiction",
+        "d": "Writ Jurisdiction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the Constitution of India, the Supreme Court is empowered to settle disputes between the Centre and the states through:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It reduces the statutory employment guarantee from 125 to 100 days.",
+        "b": "It applies only to urban local bodies.",
+        "c": "It eliminates the rural employment guarantee entirely.",
+        "d": "It replaces MGNREGA and increases the guaranteed workdays for rural households."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to recent legislative reforms in India’s rural employment framework, which of the following is true about the Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Preamble of the Constitution",
+        "b": "Fundamental Duties",
+        "c": "Directive Principles of State Policy",
+        "d": "Ninth Schedule"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Promotion of international peace and security is provided for in the Constitution of India under:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 244 (2)",
+        "b": "Article 240",
+        "c": "Article 371-G",
+        "d": "Article 356"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which article of the Indian Constitution deals with the administration of Autonomous District Councils in North East India through Governors’ rule?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Earth’s revolution round the sun in an elliptical manner",
+        "b": "Earth’s rotation on its axis",
+        "c": "Latitudinal position of the place",
+        "d": "Revolution of the earth on a tilted axis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Changes in the length of day-time and night-time across different seasons are caused by:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I only",
+        "b": "II only",
+        "c": "Both I & II",
+        "d": "Neither I nor II"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following pairs is/are correctly matched? I.Apogee – Moon’s orbit is farthest from the earth II.Aphelion – The earth is closest to the sun Select the correct code from the options given below:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Subduction",
+        "b": "Continental drift",
+        "c": "Seafloor spreading",
+        "d": "Lithospheric delamination"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Recent scientific research indicates the Indian tectonic plate is splitting into two layers deep beneath the Tibetan Plateau. This process is called:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I only",
+        "b": "II only",
+        "c": "Both I & II",
+        "d": "Neither I nor II"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: I.The length of the monsoon season becomes shorter as one move from southern India towards northern India II.In the northern plains of India, the total annual rainfall declines from the eastern region towards the western region Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I, II, III, IV",
+        "b": "I, III, II, IV",
+        "c": "II, I, III, IV",
+        "d": "III, I, II, IV"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrange the following mountain ranges of India from North to South: I.Aravalli Range II.Satpura Range III.Vindhyan Range IV.Ajanta range Choose the correct option from the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Karl Marx",
+        "b": "John Locke",
+        "c": "David Ricardo",
+        "d": "Adam Smith"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of ‘Laissez-faire’ economics is most closely associated with the writings of:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MGNREGS",
+        "b": "Pradhan Mantri Gram Sadak Yojana",
+        "c": "PM Awas Yojana–Gramin",
+        "d": "Jal Jeevan Mission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Yuktdhara Portal is a GIS-enabled platform developed to support which government scheme?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Wealth tax",
+        "b": "Estate duty",
+        "c": "Entertainment tax",
+        "d": "Corporation tax"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following taxes is levied by state government only?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Small utility",
+        "b": "Additional utility",
+        "c": "Minimum utility",
+        "d": "Satisfied utility"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does ‘marginal utility’ in economics signify?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Consumer Price Index (CPI)",
+        "b": "Index of Industrial Production (IIP)",
+        "c": "Human Development Index (HDI)",
+        "d": "Purchasing Managers’ Index (PMI)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which index is used to calculate inflation?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbon captured by oceans and coastal ecosystems",
+        "b": "Carbon sequestered in forest biomass and agricultural soils",
+        "c": "Carbon contained in petroleum and natural gas",
+        "d": "Carbon present in atmosphere"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘blue carbon’ refers to:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I only",
+        "b": "II and III only",
+        "c": "I and III only",
+        "d": "I, II and III"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to the International Union for Conservation of Nature and Natural Resources (IUCN) and the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES), which of the following statements is/are correct? I.IUCN is an organ of the United Nations and CITES is an international agreement between governments II.IUCN runs thousands of field projects around the world to better manage natural environments III.CITES is legally binding on the States that have joined it, but this Convention does not take the place of national laws Select the correct answer using the code given below:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Both II and III are correct and both of them explain I",
+        "b": "Both II and III are correct but only one of them explains I",
+        "c": "Only Statement II is correct and it explains I",
+        "d": "Neither Statement II nor Statement III is correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: I:Article 4 of the Paris Agreement is central to global climate action and is often cited in international climate negotiations II:Article 4 of the Paris Agreement requires all Parties to prepare, communicate, and maintain successive Nationally Determined Contributions (NDCs) III:Article 4 of the Paris Agreement mandates legally binding emission reduction targets for both developed and developing countries Which one of the following is correct in respect of the above statements?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I only",
+        "b": "II only",
+        "c": "Both I and II",
+        "d": "Neither I nor II"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: I.In India, Biodiversity Management Committees play a crucial role in achieving the objectives of the Nagoya Protocol II.These committees have significant responsibilities in regulating access and benefit-sharing, including the authority to impose collection charges for the use of biological resources within their jurisdiction Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I only",
+        "b": "II only",
+        "c": "Both I and II",
+        "d": "Neither I nor II"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to Eco-Sensitive Zones, which of the following statements are correct? I.Eco-Sensitive Zones are areas notified under the Wildlife (Protection) Act, 1972 II.Eco-Sensitive Zones are designated to ban all forms of human activity within their boundaries, except for agricultural practices Select the correct answer using the code given below:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It is a red coloured gas",
+        "b": "It is odourless",
+        "c": "It is harmless in small concentrations",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is correct about ozone?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National Aeronautics and Space Administration (NASA)",
+        "b": "Indian Space Research Organisation (ISRO)",
+        "c": "European Space Agency (ESA)",
+        "d": "Japan Aerospace Exploration Agency (JAXA)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which organisation in 2025 launched Parker Solar Probe to study the sun?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and III",
+        "b": "II and IV",
+        "c": "I and. IV",
+        "d": "II and III"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Evaluate each statement about polyethylene terephthalate (PET): I.PET fibres (polyester) are commonly blended with wool and cotton to improve strength, durability, and wrinkle resistance II.PET containers are not suitable for all alcoholic beverages, especially high-alcohol spirits, which are generally stored in glass III.PET bottles can be recycled into a variety of other products, including fibres, containers, and packaging materials IV.Incineration of PET releases carbon dioxide and other gases, contributing to greenhouse gas emissions Which of the statements given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "II and IV only",
+        "b": "I and IV only",
+        "c": "I, II and III only",
+        "d": "I, II, III and IV"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to microsatellite DNA, consider the following statements: I.It consists of short, tandemly repeated nucleotide sequences II.It is highly polymorphic and varies greatly among individuals III.It is widely used in DNA fingerprinting and population genetics studies IV.It directly codes for proteins involved in cellular metabolism Which of the statements given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and III only",
+        "b": "I, II and IV only",
+        "c": "II, III and IV only",
+        "d": "I, II, III and IV"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to rare earth minerals, consider the following statements: I.They consist of a group of metallic elements including the lanthanides II.They are essential in the manufacture of high-technology products such as smartphones and wind turbines III.They are abundantly found in pure form in nature IV.They play an important role in renewable energy and defence technologies Which of the statements given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and IV only",
+        "b": "II and III only",
+        "c": "I, II and III only",
+        "d": "I, II, III and IV"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following indicators are used in the Statistical Handbook of Mizoram to assess the fiscal health of the state? I.Gross Fiscal Deficit as a percentage of GSDP II.Outstanding Debt to GSDP ratio III.Revenue Surplus/Deficit IV.Current Account Deficit Select the correct answer using the code below:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "I, II and IV only",
+        "c": "II, III and IV only",
+        "d": "I, II, III and IV"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following are designated as ‘Protected Areas’ by Government of Mizoram? I.Murlen National Park II.Phawngpui National Park III.Dampa Tiger Reserve IV.Ngengpui Wildlife Sanctuary Select the correct answer using the code below:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mamit, Kolasib, Aizawl",
+        "b": "Lawngtlai, Siaha",
+        "c": "Aizawl, Saitual, Hnahthial",
+        "d": "Champhai, Serchhip, Khawzawl"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following districts of Mizoram have Autonomous District Councils?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Credit–Deposit Ratio",
+        "b": "Repo Rate",
+        "c": "Cash Reserve Ratio",
+        "d": "Priority Sector Target"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which banking indicator is used to assess credit flow in Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agriculture",
+        "b": "Industry",
+        "c": "Services",
+        "d": "Mining"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which sector contributes the largest share to Mizoram’s Gross State Domestic Product?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to the geography of Mizoram, consider the following statements: I.Mizoram lies entirely in the Purvanchal Hill range II.The state has a higher north–south extension than east–west extension III.Most rivers of Mizoram drain into the Bay of Bengal Which of the statements given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "II and III only",
+        "c": "I and III only",
+        "d": "I, II and III"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to health indicators in Mizoram, consider the following statements: I.Infant Mortality Rate in Mizoram is lower than the national average II.Health statistical data are drawn from the Civil Registration System III.Universal Immunisation Programme is implemented through Integrated Child Development Service (ICDS) Which of the statements given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "200 m",
+        "b": "245 m",
+        "c": "250 m",
+        "d": "255 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A train 130 metres long is travelling at a speed of 45 km/h. If it takes 30 seconds to completely cross a bridge, what is the length of the bridge?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs. 18.20",
+        "b": "Rs. 70",
+        "c": "Rs. 72",
+        "d": "Rs. 88.25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A shopkeeper sells his goods at a price that gives him a profit of 22.5% on the cost price. If his total sales during a week amounted to ₹ 392, what was his profit for that week?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs. 121",
+        "b": "Rs. 122",
+        "c": "Rs. 123",
+        "d": "Rs. 124"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A bank offers 5% per annum compound interest, compounded half-yearly. A customer deposits ₹ 1,600 each on 1st January and 1st July of the same year. What is the total interest earned at the end of the year?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Women and Child Development",
+        "b": "Ministry of Home Affairs",
+        "c": "Ministry of Rural Development",
+        "d": "Ministry of Panchayati Raj"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which ministry in 2025 launched the Model Women-Friendly Gram Panchayats initiative?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ECINET",
+        "b": "VoteCast",
+        "c": "PollCheck",
+        "d": "None of the Above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the digital platform introduced by Election Commission of India (ECI) for real- time voter turnout reporting?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shiksha Mail",
+        "b": "Gyan Post",
+        "c": "Bharat Book Post",
+        "d": "Education Express"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the postal service launched in 2025 by the Department of Posts specifically for the delivery of educational materials?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Janjatiya Kala Kendra",
+        "b": "Adi Sampada",
+        "c": "Adi Sanskriti",
+        "d": "Aadi Mahotsav"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the world’s first Digital Tribal University launched in New Delhi?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uttarakhand",
+        "b": "Assam",
+        "c": "Haryana",
+        "d": "Maharashtra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state secured the first position in the ICJS 2.0 (Inter-Operable Criminal Justice System) national rankings released in January 2026?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nationalise all sports federations",
+        "b": "Revise the eligibility criteria for Olympic selection",
+        "c": "Establish governance structures for national and regional sports bodies",
+        "d": "Create a single unified national sports team"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The National Sports Governance Act (NSGA), partially brought into effect from 1st January 2026, primarily aims to:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "South Africa",
+        "b": "China",
+        "c": "Brazil",
+        "d": "India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is the host of 18th BRICS Summit 2026?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Israel",
+        "b": "Russia",
+        "c": "Pakistan",
+        "d": "India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country became the first to formally recognise the self-declared Republic of Somaliland as an independent and sovereign state?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Space cooperation",
+        "b": "Trade and defence cooperation",
+        "c": "Sports diplomacy",
+        "d": "Climate finance and green energy cooperation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "German Federal Chancellor Friedrich Merz visited India in January 2026. The primary focus of discussions between India and Germany was on:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A foreign military invasion",
+        "b": "A political election dispute",
+        "c": "Economic crisis with soaring inflation and a collapsing currency",
+        "d": "A major environmental disaster (GENERAL MATHEMATICS- 50 MARKS)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What initially triggered the widespread protests of Iran in 2025-26?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3",
+        "b": "4",
+        "c": "5",
+        "d": "6"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If 2^x=64, then the value of  x is :",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "−1",
+        "b": "−2",
+        "c": "−3",
+        "d": "−4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If 5=  , the the value of x is : 625",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "−37",
+        "b": "−38",
+        "c": "−39",
+        "d": "−41"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of  3−9+14−6−3−21 is : ()",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 334 15",
+        "c": "",
+        "d": " 46 2251 1 ÷1 of +"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The decimal 0.75  is equal to the fraction : 253",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 1323441",
+        "c": "4",
+        "d": "5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of   is : 95213 716275",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "1.75",
+        "c": "4.75",
+        "d": "6.50 x13"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of (3.75 ×3.75−2 ×3.75×2.75+2.75×2.75)  is :",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "23",
+        "b": "24",
+        "c": "25",
+        "d": "26"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If 1+ = , then the value of x is : 14412",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1.49985",
+        "b": "14.9985",
+        "c": "149.985",
+        "d": "1499.85"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If18225 = 135, then the value of 18225+182.25 + 1.8225  +0.018225 is:",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6",
+        "b": "5",
+        "c": "4",
+        "d": "3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An army officer tried to arrange 2030 of his soldiers in such a way that the number of rows equals the number of soldiers in each row. In this way of arrangement, how many soldiers need to be left out?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12",
+        "b": "15",
+        "c": "25",
+        "d": "52"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A boy was asked to multiply a certain number by 25. He multiplied it by 52 and got his answer more than the correct one by 324. The number to be multiplied was :",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The smallest number by which 576 must be multiplied so that the product is a perfect cube is:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "48",
+        "b": "36",
+        "c": "24",
+        "d": "12"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A number of two-digits is four times the sum of its digits. If 9 is added to the number, its digits interchange their places. The two-digit number is :",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "158 cm",
+        "b": "158.5 cm",
+        "c": "159 cm",
+        "d": "159.5 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average height of 30 girls, out of a class of 40 students is 160 cm and that of the remaining girls is 156 cm. What must be the average height of all the girls in the class ?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "55 kg",
+        "b": "76 kg",
+        "c": "65 kg",
+        "d": "70 kg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average weight of 8 persons is increased by 2.5 kg when one of them, whose weight being 56 kg is replaced by a new man. The weight of the new man is :",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "90",
+        "b": "85",
+        "c": "70",
+        "d": "65"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average of 11 observations is 60. If the average of the first 5 observations is 58 and that of the last 5 observations is 56, then the 6th observation is :",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10 days",
+        "b": "12 days",
+        "c": "15 days",
+        "d": "18 days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A and B, working together can finish a piece of work in 6 days, while A alone can finish it in 9 days. How much time will B alone take to finish it?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 10020 111",
+        "c": "",
+        "d": " 220"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A can do a piece of work in 25 days and B can do it in 20 days. They work together for 5 days and then A goes away. The fraction of the remaining work that B has to complete it is: 99",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "42 km/hr",
+        "b": "48 km/hr",
+        "c": "54 km/hr",
+        "d": "60 km/hr"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A speed of 15 m/sec is equal to :",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "110 metres",
+        "b": "120 metres",
+        "c": "124 metres",
+        "d": "128 metres"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A car runs at 36 km/hr. How far does it run in 12 seconds?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30 seconds",
+        "b": "32 seconds",
+        "c": "35 seconds",
+        "d": "40 seconds 14916"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If a bus runs at 42 km/hr, what time will it take to cover 350 metres?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 2626 2518",
+        "c": "",
+        "d": " 2613"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The next fraction in the sequence  , , ,   is : 22232425 1719",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "24",
+        "b": "25",
+        "c": "26",
+        "d": "27"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The number of terms in the sequence 4, 11, 18, ……., 186 is :",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "51",
+        "b": "−51",
+        "c": "69",
+        "d": "−69"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 21st term of the sequence 9, 6, 3, 0, …… is :",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "199",
+        "b": "200",
+        "c": "201",
+        "d": "202"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the 12th term from the end of the sequence  4, 9, 14, ……,254 ?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "550",
+        "b": "560",
+        "c": "580",
+        "d": "600"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a Students’ Union Election, there are two candidates. A candidate who gets 72% of the total votes is elected by a majority of 264 votes. What is the total number of votes polled?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "45",
+        "b": "48",
+        "c": "50",
+        "d": "60"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a class test, a student gets 42 marks which is 84% of the full marks. What are the full marks in the test?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "16 %",
+        "b": "20% 2 1",
+        "c": "22",
+        "d": "25% 4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The price of milk increases by 25%. If a house-maker wants to spend on milk the same amount of money as before, how much percent less milk she must get? 1",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25%",
+        "b": "24%",
+        "c": "22%",
+        "d": "20%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If A’s salary is 20% less than B’s salary, then B’s salary is more than A’s salary by :",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.1,654",
+        "b": "Rs.1,655",
+        "c": "Rs.1,656",
+        "d": "Rs.1,657"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An electric fan listed at Rs.2,000 is sold at a discount of 10%. Due to off season, another discount of 8% is available, then its selling price is:",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1,60,000",
+        "b": "1,70,000",
+        "c": "1,75,000",
+        "d": "1,80,000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The population of a city increases at the rate of 5% annually. Its present population is 1,85,220. Three years ago, the population was:",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.7,200",
+        "b": "Rs.7,300",
+        "c": "Rs.7,400",
+        "d": "Rs.7,500"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of a machine depreciates by 20% per annum. At the end of 2 years the value of the machine is estimated as Rs.4,800. Its present value is :",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5%",
+        "b": "8%",
+        "c": "10%",
+        "d": "12%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A sum of money becomes Rs.2,420 in 2 years and Rs.2,662 in 3 years. If the interest is compounded annually, the rate of interest per annum is:",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20%",
+        "b": "25%",
+        "c": "30%",
+        "d": "32%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the cost price of 12 books is equal to the selling price of 16 books, then the lost is :",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2 years",
+        "b": "2 years 2 1",
+        "c": "3 years",
+        "d": "3 years 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rama lent out Rs.500 at the rate of 5% per annum. After how many years will he get Rs.50 as simple interest? 1",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.6,000",
+        "b": "Rs.6,250",
+        "c": "Rs.6,520",
+        "d": "Rs.6,700"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If a certain sum of money at compound interest amounts to Rs.7,840 in 2 years at 12% per annum, interest being compounded annually, then the sum is:",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.2,445",
+        "b": "Rs.2,446",
+        "c": "Rs.2,447",
+        "d": "Rs.2,448"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A motor part costs Rs.2,400 and sales tax at the rate of 2% is charged on it. How much should a customer pay to buy it?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.14,000",
+        "b": "Rs.14,200",
+        "c": "Rs.14,400",
+        "d": "Rs.14,500"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A washing machine was bought for Rs.14,700 and sales tax at the rate of 5% was charged on it. The price of the washing machine before sales tax was added was :",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8%",
+        "b": "10%",
+        "c": "12%",
+        "d": "12.5%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The listed price of a hair-drier is Rs.5,000 and it is available for Rs.5,500 including GST. The rate of GST is :",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2 : 3 : 4",
+        "b": "4 : 3 : 2",
+        "c": "6 : 4 : 3",
+        "d": "3 : 4 : 5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If 2x=3y=4z, then x :y :z  is equal to :",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 litres",
+        "b": "4 litres",
+        "c": "3 litres",
+        "d": "2 litres"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a mixture of 48 litres, the ratio of milk to water is 5 : 3. How many litres of water should be added to the mixture to make the ratio of the new mixture to be 3 : 2 ?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 1111 78",
+        "c": "",
+        "d": " 1111"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Eleven packs of Arham rice, each marked 5 kg, actually contains the following weights of rice in kg: 4.97, 5.05, 5.08, 5.03, 5.00, 5.06, 4.98, 5.08, 5.04, 5.07, 5.00. The probability that any of these packs chosen at random containing more than 5 kg of rice is : 56",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 unit",
+        "b": "2 units",
+        "c": "3 units",
+        "d": "4 units"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If area of a circle is numerically equal to its circumference, then radius of the circle is :",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 unit",
+        "b": "2 units",
+        "c": "3 units",
+        "d": "4 units"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If area of a square is numerically equal to its perimeter, then the length of each side of the square is:",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "54 cm³",
+        "b": "55 cm³",
+        "c": "56 cm³",
+        "d": "57 cm³"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two solid cubes, each of edge 3 cm are joined end-to-end forming a solid cuboid. The volume of the resulting cuboid is :",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "180 Sq.m",
+        "b": "200 Sq.m",
+        "c": "220 Sq.m",
+        "d": "240 Sq.m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The length, breadth and height of a room are 10 metres, 8 metres and 5 metres respectively. The area of its four walls is :",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12.5 metres",
+        "b": "13 metres",
+        "c": "13.5 metres",
+        "d": "14 metres"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On a horizontal plane ground, a man walks 12 metres due South and then 5 metres due East.  At what distance is the man now from the starting point?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30°",
+        "b": "45°",
+        "c": "60°",
+        "d": "90°"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A vertical pole 63 m high casts a shadow of 6 m long on a horizontal plane ground at a particular time of a day. The sun’s elevation at that instant is:",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30°",
+        "b": "60°",
+        "c": "90°",
+        "d": "45°"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At what angle with the plane ground should an athlete throw his javelin so as to get the maximum length of throw on the ground?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10 – 20",
+        "b": "20 – 30",
+        "c": "30 – 40",
+        "d": "40 – 50"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A frequency distribution is given below : **Class IntervalFrequency** 10 – 2012 20 – 304 30 – 406 40 – 5010 From the above data, the median class is:",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mean",
+        "b": "Mode",
+        "c": "Median",
+        "d": "Range"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In statistics, if observations are arranged either in ascending or descending order of magnitude, then the value of observation which lies exactly in the middle is :",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

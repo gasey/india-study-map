@@ -1,0 +1,1440 @@
+{
+  "slug": "si-police-2026-p1",
+  "exam": "Sub-Inspector of Police (Un-armed Branch)",
+  "sitting": "March 2026",
+  "subject": "General English",
+  "source": "Sub-Inspector of Police (UB) March-2026 Paper-I.pdf",
+  "sourceSha256": "09bfac3ddb91715eb5b840b37bbfbeba4b44bc542f88a55d1bba2004b61a3e6b",
+  "ocr": false,
+  "count": 60,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word.",
+      "opts": {
+        "a": "Adjective",
+        "b": "Adverb",
+        "c": "Noun",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She wore a **beautiful** dress",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word.",
+      "opts": {
+        "a": "Adverb",
+        "b": "Conjunction",
+        "c": "Preposition",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He sat **under** the tree",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word.",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Conjunction",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She ate **three** apples.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word.",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Interjection",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Wow! That was an **amazing** performance",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word.",
+      "opts": {
+        "a": "Verb",
+        "b": "Pronoun",
+        "c": "Preposition",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The dog barked **loudly** at the stranger",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word.",
+      "opts": {
+        "a": "Preposition",
+        "b": "Conjunction",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Committee arrived **after** the resolution had been passed",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word.",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Conjunction",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **poor** are often neglected by society.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word.",
+      "opts": {
+        "a": "Preposition",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He went **inside**.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word.",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Noun",
+        "c": "Adverb",
+        "d": "Interjection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is **but** a child.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word.",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Noun",
+        "c": "Verb",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You should **exercise** caution.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "Who’s",
+        "b": "Whose",
+        "c": "Whom",
+        "d": "Why"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "________ book is this?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "she",
+        "b": "her",
+        "c": "hers",
+        "d": "her’s"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The gift is from _______.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "at",
+        "b": "with",
+        "c": "in",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is interested _____ learning new languages.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "to",
+        "b": "with",
+        "c": "at",
+        "d": "in"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is married _____ a doctor.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "at",
+        "b": "for",
+        "c": "with",
+        "d": "in"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The company is looking _____ new employees.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "from",
+        "b": "with",
+        "c": "because",
+        "d": "since"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He lives alone _____ his wife’s death.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "at",
+        "b": "in",
+        "c": "on",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is good _____ mathematics.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "since",
+        "b": "for",
+        "c": "or",
+        "d": "and"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You have to work hard _____ you will fail.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "although",
+        "b": "because",
+        "c": "since",
+        "d": "despite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Liana refused to stop playing and go home _______ his mother called him many times.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "unless",
+        "b": "until",
+        "c": "although",
+        "d": "lest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The old woman walked carefully with her heavy load ______ she should fall.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "speak",
+        "b": "speaks",
+        "c": "spoken",
+        "d": "speaking"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They _______ English fluently.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "listen",
+        "b": "listens",
+        "c": "listening",
+        "d": "am listening"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I ______ to music now.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "go",
+        "b": "went",
+        "c": "gone",
+        "d": "going"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They _____ to the movies last night.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "write",
+        "b": "writes",
+        "c": "writing",
+        "d": "has written"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She ______ a lot of books.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "go",
+        "b": "goes",
+        "c": "going",
+        "d": "went"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They _____ to the beach every morning.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "is",
+        "b": "are",
+        "c": "has been",
+        "d": "had been"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neither Sanga nor his friends ______coming.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "tall",
+        "b": "taller",
+        "c": "tallest",
+        "d": "more tallest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is not as ________ as her sister.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "since",
+        "b": "from",
+        "c": "for",
+        "d": "during"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She has been working here _________ five years.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "would arrived",
+        "b": "would have arrived",
+        "c": "would be arriving",
+        "d": "would be"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If she had remembered to set her alarm, she ________ on time now.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "In spite",
+        "b": "Despite",
+        "c": "Although",
+        "d": "Because of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "________ the heavy rain, the match continued without interruption.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "anxious",
+        "b": "eager",
+        "c": "worried",
+        "d": "nervous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The new employee was very ______ to learn.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "accept",
+        "b": "access",
+        "c": "exceed",
+        "d": "except"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The manager asked the boxer to _______ the challenge.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "principle",
+        "b": "principal",
+        "c": "principals",
+        "d": "principles"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The company’s ________ objective is to increase sales.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "affect",
+        "b": "effect",
+        "c": "effects",
+        "d": "affection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This new medicine does not have any side ________.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "farther",
+        "b": "further",
+        "c": "farthest",
+        "d": "furthermore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The _______ we walked, the more beautiful the scenery became.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "audible",
+        "b": "blatant",
+        "c": "inaudible",
+        "d": "resonant"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She spoke so softly, her words were almost _________.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "detrimental",
+        "b": "beneficial",
+        "c": "inconsequential",
+        "d": "superfluous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The new law aims to curb practices that are _______ to the environment.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "incoherent",
+        "b": "compelling",
+        "c": "fallacious",
+        "d": "ambiguous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His argument was so ________ that even the skeptics were forced to reconsider their stance.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "cursory",
+        "b": "trivial",
+        "c": "perfunctory",
+        "d": "profound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The young prodigy impressed everyone with her _______ grasp of advanced calculus.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "irascible",
+        "b": "amiable",
+        "c": "malicious",
+        "d": "arrogant"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Despite his __________ behaviour, everyone admired his honesty.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "The accused was questioning the police yesterday.",
+        "b": "The accused was questioned by the police yesterday.",
+        "c": "The accused were questioned by the police yesterday.",
+        "d": "The accused was being questioned by the police yesterday."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The police was questioning the accused yesterday.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "The fruits have been eaten by her yesterday.",
+        "b": "The fruits were eaten by her yesterday.",
+        "c": "The fruits had been eaten by her yesterday.",
+        "d": "The fruits will be eaten by her yesterday."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She had eaten the fruits yesterday.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "The task is not finished by her.",
+        "b": "The task will not be finished by her.",
+        "c": "The task was not finished by her.",
+        "d": "The task will not have been finished by her."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She will not finish the task.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "Whom are you being bothered?",
+        "b": "By whom are you bothered?",
+        "c": "By whom you being bothered?",
+        "d": "By whom are you being bothered?"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is bothering you?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "Many tourists have been visiting Hmuifang.",
+        "b": "Many tourist has visited Hmuifang.",
+        "c": "Many tourists have visited Hmuifang.",
+        "d": "A number of tourists have visited Hmuifang."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hmuifang has been visited by many tourists.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "He said he didn’t believe me.",
+        "b": "He said I don’t believe you.",
+        "c": "He said he don’t believe me.",
+        "d": "He said I didn’t believe you."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He said to me, “I don’t believe you.”",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "She said that where I was going for the vacation.",
+        "b": "She asked where I was going for the vacation",
+        "c": "She asked me that where I was going for the vacation.",
+        "d": "She asked where I had gone for the vacation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She said to me “Where are you going for the vacation?”",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "That they took the bus every day was said by them.",
+        "b": "They said “We take the bus.”",
+        "c": "They said, “They take the bus every day.”",
+        "d": "They said “We take the bus every day.”"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They said that they took the bus every day.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "The boy said, “Forgive them father.”",
+        "b": "The boy prayed, “Forgive me this once”.",
+        "c": "The boy said, “Please forgive me father”.",
+        "d": "The boy said, “Father! Forgive me this time.”"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The boy requested his father to forgive him that time.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "He advised me to trust in God and do the right.",
+        "b": "He requested that I trust in God to do the right.",
+        "c": "He said to trust in God and do the right.",
+        "d": "He professed to trust in God and do the right."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He said to me, “Trust in God and do the right.”",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What type of sentence is used to ask a question?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "How fast the child grows!",
+        "b": "How fast does the child grow.",
+        "c": "Wow! This child is moving.",
+        "d": "Is the child growing or what?"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Changing the sentence The child grows so fast into exclamatory sentence would be:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "Brutus loved Caesar.",
+        "b": "Brutus hated Caesar.",
+        "c": "Caesar loved Brutus.",
+        "d": "Caesar did not hate Brutus."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Changing the sentence Brutus did not hate Caesar into assertive sentence would be:",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "Assertive sentence",
+        "b": "Imperative sentence",
+        "c": "Exclamatory sentence",
+        "d": "Interrogative sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What kind of sentence is “This is Sparta!”?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "Man is immoral.",
+        "b": "Man is not immoral.",
+        "c": "Man is not immortal.",
+        "d": "Man is immortal."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Changing the sentence Man is mortal into a negative sentence would be:",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex sentence",
+        "c": "Compound sentence",
+        "d": "Interrogative sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What kind of sentence is “Gambling is a bad habit.”?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "Imperative sentence",
+        "b": "Optative sentence",
+        "c": "Assertive sentence",
+        "d": "Interrogative sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What kind of sentence is “May you live a hundred years!”?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "The father requested his son to do like that.",
+        "b": "The father proposed to his son to do like that.",
+        "c": "The father asked his son to do like that.",
+        "d": "The father forbade his son to do like that."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Changing the sentence, The father said to his son, “Don’t do like that.” into indirect speech would be:",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "Are you coming behind you.",
+        "b": "Close the door behind you.",
+        "c": "What a beautiful sunset.",
+        "d": "He loves music."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is an Imperative sentence?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose",
+      "opts": {
+        "a": "May I borrow your book?",
+        "b": "How beautiful is the rain!",
+        "c": "My book is missing.",
+        "d": "You are not a doctor."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a Declarative sentence?",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on any one of the following topics.(10)",
+      "subparts": {
+        "a": "The detrimental effects of social media.",
+        "b": "The impact of Artificial Intelligence.",
+        "c": "Cyber- Crime: A Growing Threat"
+      }
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Write a precis of the following passage by reducing it to one third of its length(10) Reading is one of the most valuable habits a person can develop. It opens up new worlds, ideas, and perspectives, enriching the mind and imagination. Through books, articles, and other written materials, people gain knowledge about history, science, culture, and human behaviour. Reading also improves language skills, vocabulary, and critical thinking. It encourages curiosity and creativity, allowing individuals to explore concepts beyond their immediate experiences. Furthermore, reading can be a source of relaxation and stress relief, offering an escape from the pressures of daily life. In a world full of distractions, dedicating time to read helps cultivate discipline and focus. Societies that encourage reading tend to be more informed, empathetic, and innovative. Thus, reading is not merely a pastime but a lifelong tool for personal growth and societal advancement.",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 1,
+      "text": "You are Mr. XYZ living in MINECO. Write a letter of complaint to the Mayor, Aizawl Municipal Corporation regarding the lack of sufficient street lights in your area which has drawn antisocial elements and has increased criminal activities in your neighbourhood.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "A",
+      "page": 2,
+      "text": "Read the following passage and answer the questions based on the given passage. Studies serve for delight, for ornament, and for ability. Their chief use for delight is in privateness and retiring; for ornament is in this course; and for ability is in the judgment and disposition of business. For expert men can execute, and perhaps judge of particulars, one by one; but the general counsels, and the plots and marshalling of affairs, come best, from those that are learned. To spend too much time in studies is sloth; to use them too much for ornaments is affectation; to make judgement wholly by their rules, is the humour of a scholar. They perfect nature, and are perfected by experience: for natural abilities are like natural plants that need pruning, by study; and studies themselves do give forth directions too much at large, except they be bounded in by experience. Crafty men condemn studies, simple men admire them, and wise men use them; for they teach not their own use; but that is a wisdom without them, and above them, won by observation. Read not to contradict and confute; nor to believe and take for granted; nor to find talk and discourse but to weigh and consider.",
+      "subparts": {
+        "a": "According to the author, why should one study?(2)",
+        "b": "Why does the author not recommend too much of studies?(2)",
+        "c": "According to the author, how can studies be perfected?(2)",
+        "d": "Which kind of human beings denounce studies?(2)"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p2, part A): conventional section, 4 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

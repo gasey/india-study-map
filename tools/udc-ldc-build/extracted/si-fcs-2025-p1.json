@@ -1,0 +1,1435 @@
+{
+  "slug": "si-fcs-2025-p1",
+  "exam": "Sub-Inspector FCS&CA / Receptionist H&FW",
+  "sitting": "May 2025",
+  "subject": "General English",
+  "source": "Paper-I General English (Series A)..pdf",
+  "sourceSha256": "e73c6416cb247a5ca6b7bcf96c9bbe3f5580a9b45eb59d921dd2d3c66f7df0ba",
+  "ocr": false,
+  "count": 60,
+  "questions": [
+    {
+      "n": 1,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 1-5) : Identify the Parts of Speech of the underline words.",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "verb",
+        "d": "adjective."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Gentle** words win hearts of other.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 1-5) : Identify the Parts of Speech of the underline words.",
+      "opts": {
+        "a": "adjective",
+        "b": "verb",
+        "c": "noun",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The earth **is** round in shape.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 1-5) : Identify the Parts of Speech of the underline words.",
+      "opts": {
+        "a": "adverb",
+        "b": "pronoun",
+        "c": "adjective",
+        "d": "noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He looks **very** happy.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 1-5) : Identify the Parts of Speech of the underline words.",
+      "opts": {
+        "a": "pronoun",
+        "b": "adjective",
+        "c": "noun",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Beauty** needs no ornaments at all.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 1-5) : Identify the Parts of Speech of the underline words.",
+      "opts": {
+        "a": "adjective",
+        "b": "adverb",
+        "c": "verb",
+        "d": "noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They arrived soon **after.**",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 6-10) : Choose the correct prepositions to fill in the blank.",
+      "opts": {
+        "a": "over",
+        "b": "inside",
+        "c": "across",
+        "d": "under"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The noise comes from__________ the river.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 6-10) : Choose the correct prepositions to fill in the blank.",
+      "opts": {
+        "a": "by",
+        "b": "in",
+        "c": "at",
+        "d": "to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The village was destroyed__________ fire.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 6-10) : Choose the correct prepositions to fill in the blank.",
+      "opts": {
+        "a": "into",
+        "b": "under",
+        "c": "among",
+        "d": "for"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They live_____ the same roof.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 6-10) : Choose the correct prepositions to fill in the blank.",
+      "opts": {
+        "a": "into",
+        "b": "before",
+        "c": "along",
+        "d": "at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was brought_________ the magistrate",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 6-10) : Choose the correct prepositions to fill in the blank.",
+      "opts": {
+        "a": "on",
+        "b": "over",
+        "c": "since",
+        "d": "by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have not seen him_______ Friday last.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 11-15) : Choose the correct verb form from the options provided.",
+      "opts": {
+        "a": "are",
+        "b": "was",
+        "c": "were",
+        "d": "had"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "French, as well as Korean, __________ taught there.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 11-15) : Choose the correct verb form from the options provided.",
+      "opts": {
+        "a": "left",
+        "b": "leaves",
+        "c": "had left",
+        "d": "will leave"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "By the time we arrived at the station, the bus ____________",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 11-15) : Choose the correct verb form from the options provided.",
+      "opts": {
+        "a": "tells",
+        "b": "told",
+        "c": "has told",
+        "d": "had told"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I wish he __________ me about the event; I would have changed all my plans accordingly.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 11-15) : Choose the correct verb form from the options provided.",
+      "opts": {
+        "a": "will have used",
+        "b": "used",
+        "c": "use",
+        "d": "had used"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "By the time the project finishes, we _____________ all our funds.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 11-15) : Choose the correct verb form from the options provided.",
+      "opts": {
+        "a": "was",
+        "b": "had",
+        "c": "has",
+        "d": "did"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Scarcely _________ the bell rung when the students rushed out of the classroom.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 16-20) : Choose the appropriate pronouns from the given options.",
+      "opts": {
+        "a": "Some",
+        "b": "Each",
+        "c": "All",
+        "d": "Few"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_______ of them is to blame.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 16-20) : Choose the appropriate pronouns from the given options.",
+      "opts": {
+        "a": "his",
+        "b": "their",
+        "c": "one’s",
+        "d": "it"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One must take care of _______ health.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 16-20) : Choose the appropriate pronouns from the given options.",
+      "opts": {
+        "a": "Who",
+        "b": "Whom",
+        "c": "Whose",
+        "d": "Which"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "__________ did you meet?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 16-20) : Choose the appropriate pronouns from the given options.",
+      "opts": {
+        "a": "I",
+        "b": "Me",
+        "c": "Mine",
+        "d": "Myself"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Between you and _______, I think this is a great idea.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 16-20) : Choose the appropriate pronouns from the given options.",
+      "opts": {
+        "a": "he",
+        "b": "they",
+        "c": "him",
+        "d": "their"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neither of the two brothers has called to say that___________ will be home.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21-25) : In the given sentence identify the segment which contains the",
+      "opts": {
+        "a": "Despite of",
+        "b": "His hard work",
+        "c": "He did not succeed",
+        "d": "No error"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Despite of his hard work, he did not succeed in passing the exam.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21-25) : In the given sentence identify the segment which contains the",
+      "opts": {
+        "a": "The professor",
+        "b": "along with his students",
+        "c": "are conducting a scientific experiment",
+        "d": "on refraction of light"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The professor, along with his students, are conducting a scientific experiment on refraction of light.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21-25) : In the given sentence identify the segment which contains the",
+      "opts": {
+        "a": "Each of the employees",
+        "b": "In the company",
+        "c": "have received",
+        "d": "their bonus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Each of the employees in the company have received their bonus.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21-25) : In the given sentence identify the segment which contains the",
+      "opts": {
+        "a": "No sooner",
+        "b": "the meeting began",
+        "c": "than the director",
+        "d": "received an urgent call"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "No sooner the meeting began than the director received an urgent call.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21-25) : In the given sentence identify the segment which contains the",
+      "opts": {
+        "a": "The reason why",
+        "b": "he left the job",
+        "c": "was because",
+        "d": "he had personal reasons."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The reason why he left the job was because he had personal reasons.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26-30) : Choose the correct answer from the given choices.",
+      "opts": {
+        "a": "illicit",
+        "b": "elicit",
+        "c": "solicit",
+        "d": "explicit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The scientist was able to_________ the results of the experiment with strong evidence.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26-30) : Choose the correct answer from the given choices.",
+      "opts": {
+        "a": "candid",
+        "b": "explicit",
+        "c": "equivocal",
+        "d": "incontrovertible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The politician’s speech was filled with_________ statements, making it difficult to determine his true stance on the issue.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26-30) : Choose the correct answer from the given choices.",
+      "opts": {
+        "a": "vague",
+        "b": "clear",
+        "c": "ambiguous",
+        "d": "perplexing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The teacher’s explanation was so_________ that even the most confused students understood the concept.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26-30) : Choose the correct answer from the given choices.",
+      "opts": {
+        "a": "ascertain",
+        "b": "fabricate",
+        "c": "obscure",
+        "d": "misconstrue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The detective was able to_________ the truth after carefully examining the proof.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26-30) : Choose the correct answer from the given choices.",
+      "opts": {
+        "a": "tentative",
+        "b": "final",
+        "c": "ambiguous",
+        "d": "indefinite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The chairman’s decision was________ leaving no room for further talk.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 31-35) : Choose the one which can be substituted for the given words/sentence.",
+      "opts": {
+        "a": "Insomniac",
+        "b": "Somnambulist",
+        "c": "Philatelist",
+        "d": "Pessimist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who walks in sleep.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 31-35) : Choose the one which can be substituted for the given words/sentence.",
+      "opts": {
+        "a": "Oration",
+        "b": "Rhetoric",
+        "c": "Extempore",
+        "d": "Manuscript"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A speech given without preparation.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 31-35) : Choose the one which can be substituted for the given words/sentence.",
+      "opts": {
+        "a": "Theist",
+        "b": "Atheist",
+        "c": "Agnostic",
+        "d": "Pious"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who does not believe in the existence of God.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 31-35) : Choose the one which can be substituted for the given words/sentence.",
+      "opts": {
+        "a": "Aviary",
+        "b": "Apiary",
+        "c": "Aquarium",
+        "d": "Barn"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A place where birds are kept.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 31-35) : Choose the one which can be substituted for the given words/sentence.",
+      "opts": {
+        "a": "Euphemism",
+        "b": "Oxymoron",
+        "c": "Palindrome",
+        "d": "Anagram"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A word or phrase that reads the same backward and forward.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 36-40) : Select the incorrectly spelt word.",
+      "opts": {
+        "a": "Nauseous",
+        "b": "Perseverance",
+        "c": "Vacillate",
+        "d": "Embelish"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 36-40) : Select the incorrectly spelt word.",
+      "opts": {
+        "a": "Ineffable",
+        "b": "Connoisseur",
+        "c": "Belligerant",
+        "d": "Idiosyncrasy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 36-40) : Select the incorrectly spelt word.",
+      "opts": {
+        "a": "Dilemma",
+        "b": "Entrepreneur",
+        "c": "Exhuberant",
+        "d": "Surreptitious"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 36-40) : Select the incorrectly spelt word.",
+      "opts": {
+        "a": "Onomatopoeia",
+        "b": "Precipituous",
+        "c": "Parsimonious",
+        "d": "Quintessential"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 36-40) : Select the incorrectly spelt word.",
+      "opts": {
+        "a": "Hambouyant",
+        "b": "Convalescence",
+        "c": "Harangue",
+        "d": "Eccentricity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41-45): Given below are four jumbled sentences. Select the option that gives",
+      "opts": {
+        "a": "ABCD",
+        "b": "CABD",
+        "c": "DBAC",
+        "d": "CDBA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A : She went to the park. B: She sat on a bench. C: It was a bright, sunny day. D: She was enjoying fresh air.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41-45): Given below are four jumbled sentences. Select the option that gives",
+      "opts": {
+        "a": "CBDA",
+        "b": "DBCA",
+        "c": "CBAD",
+        "d": "ABDC"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A : He picked up his bag and rushed out of the house B: He quickly got ready and ate his breakfast. C: Tom woke up late in the morning. D: He had an important meeting at work",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41-45): Given below are four jumbled sentences. Select the option that gives",
+      "opts": {
+        "a": "ABCD",
+        "b": "BCAD",
+        "c": "BACD",
+        "d": "CBDA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A: She loved painting landscapes. B: Eve had a deep passion for art. C: Every evening, she spent hours with her paintbrushes D: Here artworks were admired by everyone.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41-45): Given below are four jumbled sentences. Select the option that gives",
+      "opts": {
+        "a": "BCAD",
+        "b": "CBDA",
+        "c": "ABCD",
+        "d": "BACD"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A: They were excited to spend the day there. B: The family decided to visit the beach. C: They packed their bags with snacks and sunscreen D: The children ran towards the waves as soon as they arrived.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41-45): Given below are four jumbled sentences. Select the option that gives",
+      "opts": {
+        "a": "ABCD",
+        "b": "BDAC",
+        "c": "BACD",
+        "d": "DBAC"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A: He looked at the sky, hoping for rain. B : The heat was unbearable in the afternoon. C: But the sun continued to shine brightly. D: He longed for some cool breeze.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 46 - 50): Choose the correct sentence structure from the given options.",
+      "opts": {
+        "a": "The boy who plays football every evening.",
+        "b": "The boy plays football every evening.",
+        "c": "The boy playing football every evening",
+        "d": "The boy play football every evening."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 46 - 50): Choose the correct sentence structure from the given options.",
+      "opts": {
+        "a": "Although he was tired, but he continued working.",
+        "b": "Although he was tired, yet he continued working.",
+        "c": "Although he was tired, he continued working.",
+        "d": "Although he was tired but he continued working."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 46 - 50): Choose the correct sentence structure from the given options.",
+      "opts": {
+        "a": "No sooner had he left than it started raining.",
+        "b": "No sooner he had left than it started raining.",
+        "c": "No sooner had he left when it started raining.",
+        "d": "No sooner he left than it started raining."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 46 - 50): Choose the correct sentence structure from the given options.",
+      "opts": {
+        "a": "She insisted me to join the team.",
+        "b": "She insisted on me joining the team.",
+        "c": "She insisted that I join the team.",
+        "d": "She insisted that I should joining the team."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 46 - 50): Choose the correct sentence structure from the given options.",
+      "opts": {
+        "a": "She prefers coffee than tea.",
+        "b": "She prefers coffee more than tea.",
+        "c": "She prefers coffee over tea.",
+        "d": "She prefers coffee to tea."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 51 - 55) : Complete the sentence with the most suitable phrase :",
+      "opts": {
+        "a": "when the train had already left",
+        "b": "than the train left",
+        "c": "then the train is leaving",
+        "d": "but the train is yet to leave"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "No sooner had I reached the station ________",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 51 - 55) : Complete the sentence with the most suitable phrase :",
+      "opts": {
+        "a": "the situation would have worsened",
+        "b": "the situation is improving",
+        "c": "the problem was solved easily",
+        "d": "he will be appreciated"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Had it not been for his timely intervention, ___________",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 51 - 55) : Complete the sentence with the most suitable phrase :",
+      "opts": {
+        "a": "the truth had already come out",
+        "b": "did the truth come to light",
+        "c": "the authorities knew the truth",
+        "d": "has the truth been revealed."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Not until the investigation was completed_____________",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 51 - 55) : Complete the sentence with the most suitable phrase :",
+      "opts": {
+        "a": "he can easily perform the task",
+        "b": "he is learning the technique",
+        "c": "was he able to master the skill",
+        "d": "he understands the importance of practice."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Only after years of training______________",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 51 - 55) : Complete the sentence with the most suitable phrase :",
+      "opts": {
+        "a": "and they had already anticipated the results.",
+        "b": "so they were prepared for the outcome",
+        "c": "that their decision would have long-term consequences",
+        "d": "since they understood the risk from the start."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Little did they realize_________________",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 56 - 60): Change the following into a conditional sentence.",
+      "opts": {
+        "a": "If she left on time, she would not miss the bus.",
+        "b": "If she had left on time, she would not have missed the bus.",
+        "c": "If she leaves on time, she will not miss the bus.",
+        "d": "If she had left on time, she will not miss the bus."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She missed the bus because she left late.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 56 - 60): Change the following into a conditional sentence.",
+      "opts": {
+        "a": "If I had enough money, I would buy a car.",
+        "b": "If I have enough money I will buy a car.",
+        "c": "If I had had enough money, I would buy a car.",
+        "d": "If I had enough money, I will buy a car"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I don’t have enough money, so I can’t buy a car.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 56 - 60): Change the following into a conditional sentence.",
+      "opts": {
+        "a": "If you studied regularly, you will do well in exams.",
+        "b": "If you have studied regularly, you would have scored well.",
+        "c": "If you had studied regularly, you will score well.",
+        "d": "If you study regularly, you will score well in exams."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You must study regularly to do well in exams.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 56 - 60): Change the following into a conditional sentence.",
+      "opts": {
+        "a": "If she is careful, she will not make mistakes.",
+        "b": "If she was careful, she would not make mistakes.",
+        "c": "If she were careful, she would not make mistakes.",
+        "d": "If she had been careful, she would not make mistakes."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is not careful, so she often makes mistakes.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 56 - 60): Change the following into a conditional sentence.",
+      "opts": {
+        "a": "If they spoke slowly, we could understand them.",
+        "b": "If they speak slowly, we could understand them.",
+        "c": "If they had spoken slowly, we could understand them.",
+        "d": "If they would speak slowly, we could understand them."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They speak too fast, so we cannot understand them.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 2,
+      "text": "Read the following passage carefully and write a precis in about one third of its length. Suggest a suitable title.(10) In the modern world, money is often seen as the ultimate measure of success and security. People devote their lives to earning more, believing that wealth guarantees happiness, comfort, and respect. While money undoubtedly plays a crucial role in meeting basic needs and providing opportunities, it is not the most important thing in life. Beyond a certain point, the pursuit of money can lead to stress, unhealthy competition, and strained relationships. True happiness and fulfillment often come from sources that money cannot buy—such as love, health, peace of mind, and meaningful human connections. A wealthy person without friends or health is not truly rich. Moreover, ethical values, compassion, and a sense of purpose add far more to a person’s life than material possessions. The world has seen countless examples of individuals who, despite limited means, lived content and impactful lives. Money should be viewed as a tool, not a goal. It is meant to support life, not define it. A balanced approach—where one earns enough for comfort but does not let money dictate all decisions— is essential for a wholesome life. As societies evolve, there is a growing realization that quality of life cannot be measured by income alone, but by the richness of experiences, relationships, and personal growth.",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 2,
+      "text": "Write a letter to the Engineer in Chief, Power and Electricity Department complaining about the frequent breakdown of electricity in your locality. Sign yourself as Engliana.(15)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 2,
+      "text": "Read the following passage carefully and answer the question that follows. Exercise is essential for maintaining a healthy lifestyle. It helps improve cardiovascular health, strengthens muscles, and boosts the immune system. Regular physical activity also reduces the risk of chronic diseases such as heart disease, diabetes, and obesity. Additionally, exercise plays a crucial role in mental well-being by reducing stress, anxiety, and depression. There are different types of exercises, including aerobic exercises like running and swimming, strength training like weightlifting, and flexibility exercises such as yoga and stretching. A combination of these exercises ensures overall fitness and health. Experts recommend at least 30 minutes of moderate exercise per day to maintain good health. The lack of physical activity has become a major concern, especially with modern lifestyles that involve sitting for long hours. Many people spend excessive time on screens, leading to a sedentary lifestyle. This can result in weight gain, muscle weakness, and poor cardiovascular health. To stay active, individuals can take small steps such as walking instead of driving, using stairs instead of elevators, and participating in sports or outdoor activities. Governments and health organizations promote exercise through awareness campaigns, fitness programs, and policies that encourage active lifestyles. Schools also play a key role by including physical education in their curriculum. Exercise is not just about fitness—it is a way to enhance the quality of life and increase life expectancy. Questions:",
+      "subparts": {
+        "a": "__________________ exercise includes activities like running and swimming(1)",
+        "b": "A sedentary lifestyle can lead to __________________ gain(1)",
+        "c": "Synonym of ‘guarantee’ (second paragraph)(1)",
+        "d": "Antonym of ‘diminish’ (fourth paragraph)(1)"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q4 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q6 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q7 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q1 (p2, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p2, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p2, part A): conventional section, 4 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

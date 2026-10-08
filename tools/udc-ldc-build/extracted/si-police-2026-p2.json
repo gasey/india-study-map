@@ -1,0 +1,2317 @@
+{
+  "slug": "si-police-2026-p2",
+  "exam": "Sub-Inspector of Police (Un-armed Branch)",
+  "sitting": "March 2026",
+  "subject": "General Knowledge & Reasoning",
+  "source": "Sub-Inspector of Police (UB) March-2026 Paper-II..pdf",
+  "sourceSha256": "8f9322ca10bb444e7395d407c7f0f4fe6b2568f1e36faacf33413d101d08b9a8",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 371F",
+        "b": "Article 371A",
+        "c": "Article 370",
+        "d": "Article 371G"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which article of the Indian Constitution provides special provisions with respect to the State of Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Salt Tax",
+        "b": "Land Tax",
+        "c": "Income Tax",
+        "d": "Cotton Tax"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dandi March by Gandhiji was against?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Liver",
+        "b": "Kidney",
+        "c": "Pancreas",
+        "d": "Salivary Gland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which organ in the human body is responsible for producing Insulin?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25 years",
+        "b": "33 years",
+        "c": "35 years",
+        "d": "30 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The minimum age to become the President of India is:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Banana",
+        "b": "Coconut",
+        "c": "Sugarcane",
+        "d": "Rubber"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Panama disease, which was recently in the news, primarily affects which crop?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "United Arab Emirates (UAE)",
+        "b": "Israel",
+        "c": "Russia",
+        "d": "France"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "DESERT CYCLONE–II is a joint military exercise between India and which country?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Operation Smile",
+        "b": "Operation Suraksha",
+        "c": "Operation Milap",
+        "d": "Operation Raksha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the operation under which Delhi Police traced 1303 missing persons in the southwest district last year?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "16.1 kms",
+        "b": "20.1 kms",
+        "c": "21.1 kms",
+        "d": "22.1 kms"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Aizawl recently held International Half Marathon. The distance of a half marathon is:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chawngchilhi",
+        "b": "Kungawrhi",
+        "c": "Chemtei",
+        "d": "Chhingpuii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who had a relationship with a snake in one of the Mizo folktales?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fano Dawi",
+        "b": "Kawngpui Siam",
+        "c": "Hnuaipui",
+        "d": "Tlahpawi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A Mizo ceremony in order to keep themselves safe from enemies and beasts is called:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pindan",
+        "b": "Kaiten",
+        "c": "Tapchhak",
+        "d": "Tungchaw"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Before entering a traditional Mizo house, one must go past this place:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pawi believed the spirit journeys to ‘Thlanpial’.",
+        "b": "Hmar believed the spirit journeys to ‘Zinghmuh’.",
+        "c": "All spirits crossed Rihdil where they stepped upon the ‘ Lung rah buk’.",
+        "d": "‘Hawilopar’ and ‘Lungloh tui’ are located at ‘PialralKawtchhuah’."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which statement is correct on the journey of the dead in Mizo traditional belief:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A – 4, B – 1, C – 3, D – 2",
+        "b": "A – 4, B – 3, C – 2, D – 1",
+        "c": "A – 4, B – 3, C – 1, D – 2",
+        "d": "A – 2, B – 1, C – 3, D – 4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match the following vitamins with their corresponding chemical names: A.Vitamin B21.Tocopherol B.Vitamin E2.Retinol C.Vitamin D3.Ergocalciferol D.Vitamin A4.Riboflavin",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Archimedes’ Principle",
+        "b": "Newton’s Law of motion",
+        "c": "Pascal’s Law",
+        "d": "Bernoulli’s Principle"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hydraulic brake works on the principle of:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Xylem",
+        "b": "Phloem",
+        "c": "Mitochondria",
+        "d": "Chloroplast"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is responsible for transport of organic products required for photosynthesis in plants?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "i and iii",
+        "b": "ii and iv",
+        "c": "i and iv",
+        "d": "ii and iii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct statements regarding Hypermetropia: (i)A person cannot see distant objects clearly (ii)A person cannot see near objects clearly (iii)The near point of the eye gets shifted away from the normal position (iv)The far point of the eye gets shifted towards the eye The correct statement is/are:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Voltmeter:Potential difference",
+        "b": "Ammeter:Electric current",
+        "c": "Potentiometer:E.M.F.",
+        "d": "Galvanometer:Electric resistance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not correctly matched?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It is the rate at which RBI borrows funds from Commercial Banks in the country.",
+        "b": "It is the rate at which RBI provides short term loans to scheduled commercial banks against approved securities.",
+        "c": "Current repo rate as onFebruary 2025 is 3%",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is correct about repo rate?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Poverty in terms of absolute number of people",
+        "b": "Poverty in terms of the basic minimum calorie requirements",
+        "c": "Poverty in terms of the prevailing price level",
+        "d": "Poverty in terms of the absolute level of unemployment."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Absolute poverty means:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A-D-C-B",
+        "b": "A-D-B-C",
+        "c": "A-B-C-D",
+        "d": "A-C-D-B"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the correct sequence of passing a budget from the given options: A.Presentation of budget B.Passing of finance bill C.Voting on demands for grants D.Passing of appropriation bill The correct sequence is:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "18%",
+        "b": "5%",
+        "c": "28%",
+        "d": "40%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the recent GST reforms, taxes on two-wheelers, small cars, TVs, ACs, cement became:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kanyakumari",
+        "b": "Puducherry",
+        "c": "Goa",
+        "d": "Indira Point"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the southernmost point of Republic of India?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bangladesh",
+        "b": "China",
+        "c": "Nepal",
+        "d": "Myanmar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India shares its longest international border with which of the following country?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Extensive agriculture",
+        "b": "Commercial agriculture",
+        "c": "Subsistence agriculture",
+        "d": "Plantation agriculture"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the predominant type of Indian agriculture?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only A",
+        "b": "Only B",
+        "c": "Both A and B",
+        "d": "Neither A nor B"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: A.The lesser Himalaya is the youngest of all the Himalayan family B.The Indus, Satluj, and the Brahmaputra originates beyond the Himalayas Which of the above statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It was introduced by Lord Munro in 1820",
+        "b": "It was introduced by Lord Cornwallis in 1793 under the Permanent settlement act",
+        "c": "Under this system, revenue was determined based on the produce of the “Mahal”",
+        "d": "It was introduced by Lord William Bentinck in 1793 under the Permanent settlement act"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct answer regarding Zamindari System:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "13th April 1919",
+        "b": "Brigadier General Dyer",
+        "c": "Lord Hunter",
+        "d": "Lord Cornwallis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not related to Jallianwala Bagh massacre?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khan Abdul Gaffar Khan",
+        "b": "Dada Bai Naoroji",
+        "c": "SC Bose",
+        "d": "Jawaharlal Nehru"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is popularly known as Frontier Gandhi?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Italy",
+        "b": "Spain",
+        "c": "France",
+        "d": "Germany"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is the host of 25th Winter Olympic Games 2026?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalduhoma, Chief Minister of Mizoram",
+        "b": "Gen. Vijay Kumar Singh, Governor of Mizoram",
+        "c": "Ashwini Vaishnaw, Union Minister",
+        "d": "Himanta Biswa Sarma, Chief Minister of Assam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who recently flagged off the new railway line from Sairang to Silchar passenger train service?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1911",
+        "b": "1915",
+        "c": "1921",
+        "d": "1935"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Till which year was Calcutta the capital of India ?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1, 2, 3",
+        "b": "1, 3, 2",
+        "c": "2, 1, 3",
+        "d": "3, 1, 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrange the following battles in chronological order: 1.Battle of St. Thomas 2.Battle of Wandiwash 3.Battle of Ambur Choose the correct option from the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "North East Monsoon",
+        "b": "South West Monsoon",
+        "c": "South East Monsoon",
+        "d": "East Asia Monsoon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Monsoons account for most of the rainfall in India?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bihar",
+        "b": "West Bengal",
+        "c": "Maharashtra",
+        "d": "Madhya Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian state has the second highest population after Uttar Pradesh as per Census 2011?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Union",
+        "b": "Directive Principles of State Policy",
+        "c": "Fundamental Rights",
+        "d": "The States"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Part-IV of constitution of India deals with which of the following?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2",
+        "b": "6",
+        "c": "10",
+        "d": "12"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many members are nominated by the President to the Rajya Sabha?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Legislative Assembly",
+        "b": "Legislative Council",
+        "c": "Both of the above",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India, which of the following can only discuss the budget but cannot vote on the demands for grants?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Road Transport & Highways",
+        "b": "Ministry of Rural Development",
+        "c": "Ministry of Minority Affairs",
+        "d": "Ministry of Panchayat Raj"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pradhan Mantri Gram Sadak Yojana is implemented by which Ministry?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GeM",
+        "b": "IndiaMart",
+        "c": "GovMart",
+        "d": "SarkarBazar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the online platform for public procurement in India, developed for government buyers?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Senior citizens",
+        "b": "Women",
+        "c": "Farmers",
+        "d": "Students"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lxmepay is India’s first UPI (United Payments Interface) exclusively designed for which group?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GM plants",
+        "b": "Dangerous plant species",
+        "c": "Threatened species",
+        "d": "Dangerous animal species"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Red List of IUCN provides the list of which of the following?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbon monoxide",
+        "b": "Carbon dioxide",
+        "c": "Chlorofluoro carbon",
+        "d": "Mercuric oxide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is responsible for depletion of Ozone?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "International Finance",
+        "b": "Biodiversity",
+        "c": "Pharmaceutical Industry",
+        "d": "Global Warming"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Nagoya Protocol is related to which among the following?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cycas",
+        "b": "Algae",
+        "c": "Bryophytes",
+        "d": "Lichens"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is an indicator of air pollution?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Environment, Forest and Climate Change",
+        "b": "Ministry of Agriculture and Farmers’ Welfare",
+        "c": "Ministry of Commerce and Industry",
+        "d": "Ministry of Finance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Green Credit Programme (GCP) was launched by which ministry?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "South Africa",
+        "b": "India",
+        "c": "Kenya",
+        "d": "Australia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country has launched the Rhisotope Project to combat rhino poaching?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Goat",
+        "b": "Rock",
+        "c": "Tortoise",
+        "d": "Cloud"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ancestral Mizos believed that the earth rested on a huge ______________.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Awkpaka",
+        "b": "Bahzar",
+        "c": "Mutpher",
+        "d": "Zanphah"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The portion of Zawlbuk used for sleeping was known as",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ramhual",
+        "b": "Bawlpu",
+        "c": "Sadawt",
+        "d": "Dampu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizo village medicine man was called:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Paiper",
+        "b": "Buhpeng",
+        "c": "Em",
+        "d": "Buhbawm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "While sowing rice, the Mizos carry the seeds with:",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "500 metres",
+        "b": "600 metres",
+        "c": "700 metres",
+        "d": "800 metres"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A car runs at a speed of 72 km/h. How much distance does it cover in 30 seconds?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5",
+        "b": "6",
+        "c": "7",
+        "d": "8 10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A can do a piece of work in 15 days which B can do in 20 days. They worked together for 4 days and then B left. How many days will it take for A to finish the remaining work?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 32 5253",
+        "c": "",
+        "d": " 32"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of  is: 45 2535",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 22 1513",
+        "c": "",
+        "d": " 22"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the quadratic equation 2x² – 6x + k = 0 has 2 equal roots, then the value of k is 59",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10m",
+        "b": "11m",
+        "c": "12m",
+        "d": "15m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The difference between the length and breadth of a rectangular garden is 9m and its area is 36m²^. Then its length is:",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "48",
+        "b": "52",
+        "c": "54",
+        "d": "58"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The HCF and LCM of two numbers are 12 and 336 respectively. If one of the numbers is 84, then the other is:",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "same",
+        "b": "doubled",
+        "c": "halved",
+        "d": "one-fourth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the interest is compounded half-yearly, then the time period becomes twice and the rate is",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20km",
+        "b": "25km",
+        "c": "28km",
+        "d": "30km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A bus is running at a speed of 75 km/hr. How far will it travel in 20 minutes?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "₹ 40,000",
+        "b": "₹ 42,000",
+        "c": "₹ 50,625",
+        "d": "₹ 38,000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Khuma buys a scooter for ₹ 45,000. If 12.5% sales tax is charged, what is the list price of the scooter?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3cm, 4cm, 5cm",
+        "b": "5cm, 12cm, 13cm",
+        "c": "8cm, 15cm, 17cm",
+        "d": "11cm, 21cm, 23cm 1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following cannot be the sides of a right-angled triangle?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1042",
+        "b": "1042 2 1",
+        "c": "1046",
+        "d": "1046 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sum of the series 7 +10 + 14 + ….. + 84 is: 2 1",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(-3, -5)",
+        "b": "(1, 5)",
+        "c": "(-3, 2)",
+        "d": "(3, 1)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The mid-point of the line segment joining the points (-1, 7) and (-5, -3) is",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10-20",
+        "b": "20-30",
+        "c": "30-40",
+        "d": "40-50"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the following data: C.I.0-10 10-2020-3030-4040-50 f78121310 The median class is",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10% p.a",
+        "b": "12% p.a.",
+        "c": "8% p.a.",
+        "d": "15% p.a."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At what rate of compound interest will ₹ 20,000 become ₹ 24,200 after 2 years?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "x² – 3x + 5",
+        "b": "x² + 3x – 5",
+        "c": "x² – 3x – 5",
+        "d": "x² + 3x + 5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A quadratic polynomial, the sum and product of whose zeroes respectively are 3 and 5 is",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20",
+        "b": "27",
+        "c": "30",
+        "d": "31"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average of the first five multiples of 9 is:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "21",
+        "b": "22",
+        "c": "23",
+        "d": "24"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a class of 60 students the ratio of boys to girls is 3:2. How many girls are there in the class?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "70 kg",
+        "b": "66 kg",
+        "c": "68 kg",
+        "d": "69 kg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a boat there are 8 men whose average weight increased by 1 kg when one man of 60 kg is replaced by a new man. What is the weight of the new comer?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "23/20",
+        "b": "7/9",
+        "c": "22/20",
+        "d": "1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is 3/4 + 2/5?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20",
+        "b": "25",
+        "c": "30",
+        "d": "35"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is 15% of 200?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "₹ 8",
+        "b": "₹ 85",
+        "c": "₹ 90",
+        "d": "₹ 95"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A jacket originally costs ₹ 120. It is discounted by 25%. What is the sale price?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8 days",
+        "b": "10 days",
+        "c": "12 days",
+        "d": "14 days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If 4 workers can complete a task in 6 days, how many days will 2 workers take (same rate)?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10 minutes",
+        "b": "12 minutes",
+        "c": "15 minutes",
+        "d": "18 minutes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A tank can be filled in 20 minutes by tap A and in 30 minutes by tap B. If both taps are opened together, how long will it take to fill the tank?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "78",
+        "b": "80",
+        "c": "82",
+        "d": "85"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A student scored 75, 82, 68, 91, and 84 marks in 5 subjects. What is his average score?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8% increase",
+        "b": "8% decrease",
+        "c": "10 % increase",
+        "d": "10% decrease"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the price of a book is increased by 20% and then reduced by 10%, what is the net percentage increase or decrease?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "16",
+        "b": "18",
+        "c": "20",
+        "d": "22"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A is twice as old as B. If their current ages add up to 27, what is A’s age?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "18",
+        "b": "20",
+        "c": "22",
+        "d": "25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ratio of boys to girls in a class is 5 : 7. If there are 28 girls, how many boys are there?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "₹1,800",
+        "b": "₹ 2,000",
+        "c": "₹ 2,200",
+        "d": "₹ 2,300"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A sum becomes ₹ 2,400 at 8% simple interest in 3 years. What is the principal amount?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "100 m",
+        "b": "120 m",
+        "c": "140 m",
+        "d": "160 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A train running at 60 km/h crosses a 240 m platform in 24 seconds. What is its length?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "₹ 700",
+        "b": "₹ 840",
+        "c": "₹ 900",
+        "d": "₹ 720"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cost of 7 kg of rice is ₹ 490. What is the cost of 12 kg at the same rate?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Blue",
+        "b": "Red",
+        "c": "Yellow",
+        "d": "Black"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If ‘white’ is called ‘yellow’, ‘yellow’ is called ‘blue’, ‘blue’ is called ‘red’, ‘red’ is called ‘black’, ‘black’ is called ‘violet’ and ‘violet’ is called ‘green’, then what would be the colour of light emitting from a tungsten bulb?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nephew",
+        "b": "Niece",
+        "c": "Sister",
+        "d": "Brother"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sangi brought a boy whom she claimed to be the son of the only daughter of the mother of her maternal uncle. How is Sangi related to that boy?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "371",
+        "b": "493",
+        "c": "522",
+        "d": "471"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the next number in the series: 121, 441, 961, 691, ……?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10th",
+        "b": "11th",
+        "c": "12th",
+        "d": "13th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a row of 30 soldiers, Jacob shifted seven places towards the left, then he became 12th from the left end. What was his earlier position from the right end of the row?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25 m",
+        "b": "40 m",
+        "c": "45 m",
+        "d": "50 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If you walk 20 metres towards the East and then turn to your left and walk 15 metres and then turn to your right and walk 25 metres. After this you turn to your right and walk 15 metres. Now, how far are you from your starting point?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ZEBRA",
+        "b": "ZEAL",
+        "c": "ZENITH",
+        "d": "ZERO"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word will appear last in a dictionary?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aunt",
+        "b": "Grandmother",
+        "c": "Mother",
+        "d": "Daughter"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kalyan is brother of Salman. Dhriti is sister of Atharv and daughter of Suchitra. Saloni is wife of Kalyan and is sister of Suchitra. How is Saloni related to Atharv?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GHJK",
+        "b": "WXYZ",
+        "c": "UEJM",
+        "d": "ABCD"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "BFNM : EIQP :: RBGJ : ?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "i",
+        "b": "ii",
+        "c": "iii",
+        "d": "iv"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following diagram depicts the relation among Currency, Dinar and Rupee? (i)(ii) (iii)(iv)",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "North",
+        "b": "East",
+        "c": "West",
+        "d": "South"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At the time of sunrise, Diksha and Arpita are sitting in a park with their backs facing each other. If the shadow of Diksha falls to the right of Arpita, then in which direction is Arpita facing?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Treachery",
+        "b": "Patriotism",
+        "c": "Reward",
+        "d": "Fidelity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ENTRANCE : EXIT :: LOYALTY : ?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Petal",
+        "b": "Stamen",
+        "c": "Sepal",
+        "d": "Seed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the word which is different from the rest:",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "18",
+        "b": "36",
+        "c": "81",
+        "d": "63"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "4  16, 5  25, 7  49, 9  ?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pen",
+        "b": "Chalk",
+        "c": "Eraser",
+        "d": "All are same"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the odd one out - Pen, Pencil, Eraser, Chalk.",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "6"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Paper is folded once and two holes are punched. On opening, holes become:",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "134",
+        "b": "220",
+        "c": "123",
+        "d": "166"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From the figure given below, determine the number of students who did not study any of the two subjects.",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find out which of the answer figures will replace the question mark in the matrix. Answer Figures:",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find out which of the answer figures replaces the question mark in the matrix. Answer figures:",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2, 3, 4:5, 6, 8:9, 1, 7",
+        "b": "1, 3, 5:2, 6, 9:4, 7, 8",
+        "c": "1, 3, 5:2, 6, 8:4, 7, 9",
+        "d": "2, 6, 8:1, 3, 9:4, 5, 7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A series of figures are given below that can be classified into 3 classes. Choose the correct answer.",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(1)",
+        "b": "(2)",
+        "c": "(3)",
+        "d": "(4)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match the correct option.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

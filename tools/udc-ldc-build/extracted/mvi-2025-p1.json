@@ -1,0 +1,185 @@
+{
+  "slug": "mvi-2025-p1",
+  "exam": "Motor Vehicle Inspector",
+  "sitting": "September 2025",
+  "subject": "General English",
+  "source": "Paper-I (Gen. English), MV Sept.-2025..pdf",
+  "sourceSha256": "9c8ba507a0d16d1a71ff95128dd45545cad87ba8bb3b4946860b91d5a782db26",
+  "ocr": false,
+  "count": 7,
+  "questions": [
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "They arrived after us.",
+        "b": "The moon shines bright during the night.",
+        "c": "The groceries are where the boys left them.",
+        "d": "You can borrow the book provided that you return it soon."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name the part of speech of each italicized word in the following sentences:(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I can hard/hardly believe it. (Choose the correct adverb)",
+        "b": "She sat _**____** the fire, and told me an interesting fable. (Provide a suitable preposition.)",
+        "c": "Never tell a lie. (Pick out the noun in the sentence.)",
+        "d": "The lion and the unicorn fought _**___**  the crown. (Provide a suitable preposition.)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Give answers to the following sentences as directed.(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I gave a pen for her.",
+        "b": "Seldom he comes in time.",
+        "c": "I want that you should meet him.",
+        "d": "I suggest you to apply for the post."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Correct the following sentences :(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "She asked me to dine with him but I had to __________.",
+        "b": "He is ___________ the greatest of living mathematician.",
+        "c": "The burglar ________ on seeing a policeman.",
+        "d": "We shall fight __________ not to be deprived of our rights."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following sentences carefully and fill in the blanks with the appropriate idioms provided below:(5×1=5) (took to his heels, within a stone’s throw of, tooth and nail, foot the bill, by long odds)",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Our happiness or our sorrow is /are largely due to our own actions.",
+        "b": "The minister, with his advisers, was /were present.",
+        "c": "None is /are so blind as those who will not see.",
+        "d": "Many a man has / have succumbed to this temptation."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct alternatives to complete the sentences below.(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Walk quickly, else you will not overtake him.",
+        "b": "A guest is unwelcome when he stays too long.",
+        "c": "Man is guided by reason, and beast by instinct.",
+        "d": "He trudged on, though he was very tired."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "State which of the following sentences are Compound sentence, and which are Complex sentence. (10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "She is a doctor. (Change into negative interrogative sentence.)",
+        "b": "He told a lie. (Change into emphatic sentence.)",
+        "c": "The boy runs fast. (Change into exclamatory sentence.)",
+        "d": "Post this letter. (Change into negative emphatic sentence.)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Change and rewrite the following sentences as given in brackets:(10×1=10)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p2, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q4 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q5 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q6 (p2, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  }
+}

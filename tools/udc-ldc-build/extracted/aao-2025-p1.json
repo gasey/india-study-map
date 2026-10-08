@@ -1,0 +1,1433 @@
+{
+  "slug": "aao-2025-p1",
+  "exam": "AAO / AAAO / Field Facilitator",
+  "sitting": "November 2025",
+  "subject": "General English",
+  "source": "General English - Series A..pdf",
+  "sourceSha256": "651da25575f73d3b8bb13585494cae05b038f47af67e7176b31cb43d5986901d",
+  "ocr": false,
+  "count": 61,
+  "questions": [
+    {
+      "n": 3,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "What caused the elderly woman’s mishap?(2)",
+        "b": "How did the students exemplify civic empathy?(2)",
+        "c": "How did the old woman express her gratitude?(2)",
+        "d": "What social or moral values are underscored in the narrative?(2) (i)Bright (ii)Haphazardly (iii)Admiration (iv)Grace"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only. On a radiant Saturday morning, Bara Bazar, the commercial heart of Aizawl, pulsated with characteristic vitality. The air was an intricate blend of aroma- smoked meat, roasted corn, and freshly harvested vegetables- interwoven with the hum of animated bargaining. Stalls overflowed with vivid textiles, fruits, and handicrafts, while the rhythm of footsteps and voices formed the living music of the marketplace. Amidst this dynamic scene moved an elderly woman, a vendor from a nearby village. She bore a woven bamboo basket laden with oranges and bananas, the product of her modest livelihood. Her steps were deliberate yet weary from the long descent from her hillside home. As she approached the Dawrpui junction steps, the uneven pavement caused her to stumble slightly, sending her basket tumbling to the ground. The fruits scattered chaotically, rolling between stalls and down the slope, drawing the attention of nearby onlookers. For a brief interlude, the bustling crowd seemed suspended in hesitation. Some individuals watched with detached curiosity, while others appeared momentarily uncertain of how to intervene. It was then that a group of college students, observing the incident, instinctively hurried forward. Demonstrating commendable civic empathy, they gathered the fallen fruits with meticulous care, brushing away dust and restoring them to the basket. One student extended a steadying hand to the woman, while another insisted on carrying her burden up the remaining flight of steps. The woman’s countenance, once clouded with distress, softened into an expression of profound gratitude. In a trembling yet affectionate voice, she uttered, “Thank you, may God bless you.” The sincerity of her words evoked a quiet sense of reverence among the bystanders. Nearby vendors nodded approvingly, some offering the young helpers roasted corn and tea as tokens of appreciation. For a few fleeting moments, the frenetic rhythm of the marketplace seemed to dissolve into a shared stillness—a recognition of genuine human solidarity. The scene, though simple, encapsulated a deeper moral truth: that kindness persists even amidst the noise of modern urban life. For the onlookers, the episode served as a subtle yet powerful reminder of communal compassion and ethical responsibility, virtues deeply embedded within Mizo culture. Amid the hurried exchanges and commercial bustle of Bara Bazar, that small gesture of humanity shone like a quiet beacon—affirming that benevolence, however ordinary, continues to bind society together in its most authentic form. Answer the following questions:",
+      "multi": false
+    },
+    {
+      "n": 1,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech.",
+      "opts": {
+        "a": "noun",
+        "b": "adjective",
+        "c": "adverb",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is a **brilliant** politician.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech.",
+      "opts": {
+        "a": "adverb",
+        "b": "adjective",
+        "c": "preposition",
+        "d": "noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The word **quickly** belongs to:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech.",
+      "opts": {
+        "a": "conjunction",
+        "b": "pronoun",
+        "c": "verb",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sangi **and** her brother went to the mall.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech.",
+      "opts": {
+        "a": "adjective",
+        "b": "noun",
+        "c": "verb",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **beauty** of a green hill is beyond words.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech.",
+      "opts": {
+        "a": "noun",
+        "b": "verb",
+        "c": "adjective",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The athlete **ran** fast.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech.",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "adverb",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**That** is a tree.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech.",
+      "opts": {
+        "a": "adjective",
+        "b": "adverb",
+        "c": "verb",
+        "d": "noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lilac sings **sweetly**.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech.",
+      "opts": {
+        "a": "adverb",
+        "b": "verb",
+        "c": "noun",
+        "d": "adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **tall** soldier carried a heavy box of artillery up the hill.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech.",
+      "opts": {
+        "a": "Adjective",
+        "b": "Adverb",
+        "c": "Noun",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A **coward** dies many times before his death.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech.",
+      "opts": {
+        "a": "Adjective",
+        "b": "Adverb",
+        "c": "Preposition",
+        "d": "Abstract Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She **almost** missed the flight.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following",
+      "opts": {
+        "a": "do",
+        "b": "did",
+        "c": "does",
+        "d": "doing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Zuala ________ his homework every morning.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following",
+      "opts": {
+        "a": "go",
+        "b": "went",
+        "c": "goes",
+        "d": "gone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The boys ________ to the park yesterday.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following",
+      "opts": {
+        "a": "will finish",
+        "b": "finished",
+        "c": "will have finished",
+        "d": "have finished"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "By this time tomorrow, the students ________ their exam.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following",
+      "opts": {
+        "a": "receive",
+        "b": "has received",
+        "c": "have received",
+        "d": "was receiving"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He ________ the award from the office this forenoon.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following",
+      "opts": {
+        "a": "was cooking",
+        "b": "cooked",
+        "c": "has cooked",
+        "d": "is cooking"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When Mary arrived, her husband ________ dinner.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following",
+      "opts": {
+        "a": "learn",
+        "b": "am learning",
+        "c": "have been learning",
+        "d": "will learn"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I ________ Spanish for ten years.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following",
+      "opts": {
+        "a": "is leaving",
+        "b": "have left",
+        "c": "had left",
+        "d": "leaves"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The bus ________ before we reached the bus stop.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following",
+      "opts": {
+        "a": "watched",
+        "b": "is watching",
+        "c": "was watching",
+        "d": "watches"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The boy ________ TV when the lights went out.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following",
+      "opts": {
+        "a": "lose",
+        "b": "had been loosing",
+        "c": "loose",
+        "d": "has lost"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The old man ________ his keys in the garden.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following",
+      "opts": {
+        "a": "stayed",
+        "b": "have stayed",
+        "c": "will stay",
+        "d": "would stay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If it rains tomorrow, we ________ indoors.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "fragile",
+        "b": "sturdy",
+        "c": "sick",
+        "d": "faint"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the word that best fits the blank: The old house looked ________, but it was surprisingly strong.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "sad",
+        "b": "excited",
+        "c": "bored",
+        "d": "calm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct synonym of the word ‘elated.’",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "kind",
+        "b": "selfish",
+        "c": "greedy",
+        "d": "rude"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pick the word that means the same as ‘generous.’",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "antique",
+        "b": "old",
+        "c": "modern",
+        "d": "aged"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the antonym of ‘ancient.’",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "inspiring",
+        "b": "inspire",
+        "c": "inspiration",
+        "d": "inspirer’s"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select the word that correctly completes the sentence: He gave a very ________ speech at the ceremony.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "dull",
+        "b": "clear",
+        "c": "faint",
+        "d": "vague"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the word most similar in meaning to ‘vivid.’",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "flop",
+        "b": "wise",
+        "c": "recklessly",
+        "d": "hesitate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pick the most appropriate word: The shop was successful because of his ________ decisions.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "willing",
+        "b": "glee",
+        "c": "unwilling",
+        "d": "cheerful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct meaning of the word ‘contented.’",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "leave",
+        "b": "start",
+        "c": "finish",
+        "d": "support"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select the synonym of  ‘abandon.’",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "laziness",
+        "b": "punctuality",
+        "c": "carelessness",
+        "d": "delay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the word that best fits the blank: The manager appreciated her for her ________ in completing the task.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Always Nancy comes late to office.",
+        "b": "Nancy always comes late to office.",
+        "c": "Nancy comes late always to office.",
+        "d": "Late to school office comes always."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the sentence with the correct word order.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "He do not like noodles.",
+        "b": "He does’nt like noodles.",
+        "c": "He does not like noodles.",
+        "d": "He don’t like noodles."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the grammatically correct sentence.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Because she was tired.",
+        "b": "When the sun rises.",
+        "c": "The baby cried loudly.",
+        "d": "Although she was happy."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the complete and meaningful sentence.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The teacher to explained students the lesson.",
+        "b": "The teacher explained the lesson to the students.",
+        "c": "The teacher the lesson explained to students.",
+        "d": "To the students explained the teacher the lesson."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select the sentence that is in correct order.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It not has rained this morning.",
+        "b": "It does not rains this morning.",
+        "c": "It has not rained this morning.",
+        "d": "Does it not rained this morning."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the correctly structured sentence.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "“Can you help me” asked Bob.",
+        "b": "“Can you help me?” asked Bob.",
+        "c": "“Can you help me”? asked Bob.",
+        "d": "Can you help me? asked “Bob”."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correctly punctuated sentence.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "P Q R S",
+        "b": "Q P R S",
+        "c": "P Q S R",
+        "d": "Q S R P"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct sequence. (P)we must act now (Q)to reduce pollution and protect nature (R)before it becomes too late (S)for the coming generations",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Q R P S",
+        "b": "R Q P S",
+        "c": "Q P R S",
+        "d": "P R S Q"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct sequence. (P)people came together to help one another (Q)when the earthquake struck the town (R)homes were destroyed and families displaced (S)but the spirit of unity gave everyone hope",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Q P R S",
+        "b": "Q R S P",
+        "c": "P Q R S",
+        "d": "R Q S P"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct sequence. (P)the world has become smaller (Q)with the advent of modern technology (R)communication across continents (S)has become instant and effortless",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "He is poor but he is honest.",
+        "b": "He is poor so he is honest.",
+        "c": "He is poor or he is honest.",
+        "d": "He is poor therefore he is honest."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the sentence with the correct use of conjunctions.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "Declarative",
+        "b": "Interrogative",
+        "c": "Exclamatory",
+        "d": "Imperative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Close the door.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "Optative",
+        "b": "Interrogative",
+        "c": "Declarative",
+        "d": "Imperative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The baker sold some fresh pastries.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "Simple",
+        "b": "Complex",
+        "c": "Compound",
+        "d": "Complex-Compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I know who she is.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "Simple",
+        "b": "Complex",
+        "c": "Compound",
+        "d": "Complex-Compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We saw trees laden with fruits.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "Simple",
+        "b": "Complex",
+        "c": "Compound",
+        "d": "Complex-Compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is brave but careless.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "How are you today?",
+        "b": "How fine the day is!",
+        "c": "How sweet is the music!",
+        "d": "How will you go there?"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify-How + Adjective + Subject + Verb.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Optative",
+        "c": "Imperative",
+        "d": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All cheered.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "Interrogative",
+        "b": "Declarative",
+        "c": "Imperative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Never waste food.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "Declarative",
+        "b": "Interrogative",
+        "c": "Imperative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Is it early yet?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "I am drinking",
+        "b": "Father is here",
+        "c": "The dog chased the cat",
+        "d": "She is my teacher"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify- Subject + Verb + Object",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "Purpose",
+        "b": "Request",
+        "c": "Command",
+        "d": "Exclamation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I went to the store to buy mints.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "Request",
+        "b": "Command",
+        "c": "Statement",
+        "d": "Demand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She learned Russian at the age of 40.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "Wish",
+        "b": "Statement",
+        "c": "Invitation",
+        "d": "Request"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I will see you in the conference.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "Simple",
+        "b": "Complex",
+        "c": "Compound",
+        "d": "Complex-Compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He wanted to go out but it started raining.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "Simple",
+        "b": "Complex",
+        "c": "Compound",
+        "d": "Complex-Compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Although she was tired, she finished her work.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "He said that he had been a good friend.",
+        "b": "He said that he was a good friend.",
+        "c": "He said that he has been a good friend.",
+        "d": "He said that he have been a good friend."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He said, “I have been a good friend.”",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "They said, “We take the bus every day.",
+        "b": "They said, “We took the bus every day.",
+        "c": "They said, “We have taken the bus every day.",
+        "d": "They said, “We had taken the bus every day."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They said that they took the bus every day.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "He asked me if I am rich.",
+        "b": "He asked me if I was rich.",
+        "c": "He asked me if I had been rich",
+        "d": "He asked me if I have been rich."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He said to me, “You are rich, aren’t you?”",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "These plants are grown in Mumbai.",
+        "b": "These plants were grown in Mumbai.",
+        "c": "These plants are being grown in Mumbai.",
+        "d": "These plants have been grown in Mumbai."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They grow these plants in Mumbai.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+      "opts": {
+        "a": "You should have helped the poor.",
+        "b": "He should helped the poor.",
+        "c": "We have helped the poor.",
+        "d": "One should help the poor."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The poor should be helped.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q4 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q6 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q7 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q8 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q1 (p2, part A): only 0 option(s) [] - not emitted",
+    "Q2 (p2, part A): only 0 option(s) [] - not emitted",
+    "Q4 (p3, part A): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "A": [],
+    "B": []
+  }
+}

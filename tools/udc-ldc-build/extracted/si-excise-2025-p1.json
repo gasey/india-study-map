@@ -1,0 +1,669 @@
+{
+  "slug": "si-excise-2025-p1",
+  "exam": "Sub-Inspector of Excise & Narcotics",
+  "sitting": "April 2025",
+  "subject": "General English",
+  "source": "Sub-Inspector of Excise General English Paper-I April-2025..pdf",
+  "sourceSha256": "c57b556d25bd1c7d0b85324f040bab4b60c18b41d7b925b1b62955aac0868653",
+  "ocr": true,
+  "count": 27,
+  "questions": [
+    {
+      "n": 1,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-5):Identifytheunderlinedwordsineachofthefollowing:",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Preposition",
+        "c": "Interjection",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Wow,thatisanawesomevehicle!",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-5):Identifytheunderlinedwordsineachofthefollowing:",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Adverb",
+        "c": "Noun",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thestudentsreceivedexcellentresults.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-5):Identifytheunderlinedwordsineachofthefollowing:",
+      "opts": {
+        "a": "Verb",
+        "b": "Conjunction",
+        "c": "Interjection",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Wehavesomuchtodoyetwehavesolittletime.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-5):Identifytheunderlinedwordsineachofthefollowing:",
+      "opts": {
+        "a": "Adverb",
+        "b": "Adjective",
+        "c": "Conjunction",
+        "d": "Interjection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Myhusbandpreparedamealthatwasastonishinglydelicious,atrueculinarymasterpiece.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-5):Identifytheunderlinedwordsineachofthefollowing:",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Conjunction",
+        "c": "Adjective",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thewavesarecrashingagainsttherocks.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Who's",
+        "b": "Whom",
+        "c": "Who",
+        "d": "Whose (a)These(b)Those (c)That(d)This"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "bookisthis?.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "some",
+        "b": "all",
+        "c": "most",
+        "d": "many"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mr.Patelhaslosthissavingsinascam.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "latter",
+        "b": "later",
+        "c": "latest",
+        "d": "lattest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Themenhavenotheardthegossip.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "an",
+        "b": "a",
+        "c": "the",
+        "d": "their"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Copperisusefulmetalforus.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-15):Choosethecorrectantonymorsynonymasindicated:",
+      "opts": {
+        "a": "Unquestionable",
+        "b": "Unstable",
+        "c": "Reliable",
+        "d": "Secure"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Synonymfor“Precarious”",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-15):Choosethecorrectantonymorsynonymasindicated:",
+      "opts": {
+        "a": "Faint",
+        "b": "Esoteric",
+        "c": "Clear",
+        "d": "Concealed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Antonymfor“Obscure”",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-15):Choosethecorrectantonymorsynonymasindicated:",
+      "opts": {
+        "a": "Acquit",
+        "b": "Implicate",
+        "c": "Condemn",
+        "d": "Reprimand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Synonymfor“Exonerate”",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-15):Choosethecorrectantonymorsynonymasindicated:",
+      "opts": {
+        "a": "Austere",
+        "b": "Lenient",
+        "c": "Exacting",
+        "d": "Severe"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Antonymfor“Stringent”",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-15):Choosethecorrectantonymorsynonymasindicated:",
+      "opts": {
+        "a": "Distracted",
+        "b": "Hesitant",
+        "c": "Watchful",
+        "d": "Insensitive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Synonymfor“Vigilant”",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.16-20}:Ineachofthequestionsgivenbelow,foursentencesaregiven.",
+      "opts": {
+        "a": "Iprefercoffeetotea.",
+        "b": "Thesceneriesofthehillstationwerebreathtaking.",
+        "c": "Shepreventedhimfrommakingamistake.",
+        "d": "Itishightimeweleft."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosetheincorrectsentence:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.16-20}:Ineachofthequestionsgivenbelow,foursentencesaregiven.",
+      "opts": {
+        "a": "Nosoonerhadhearrivedthanitstartedraining.",
+        "b": "Ihaveneverseensuchabeautifulsunset.",
+        "c": "Shetoldmethatshewillcallmelater.",
+        "d": "Unlessyoustudyhard,youwillnotpass."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosetheincorrectsentence:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.16-20}:Ineachofthequestionsgivenbelow,foursentencesaregiven.",
+      "opts": {
+        "a": "Thepoliceareinvestigatingthematter.",
+        "b": "Eachoftheplayershavetheirownlocker.",
+        "c": "ThePrimeMinister,alongwithhisministers,isattendingthemeeting.",
+        "d": "Sheiscapableofhandlingthesituation."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosetheincorrectsentence:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.16-20}:Ineachofthequestionsgivenbelow,foursentencesaregiven.",
+      "opts": {
+        "a": "Heisusedtowakingupearlyinthemorning.",
+        "b": "Shewassotiredthatshefellasleepimmediately.",
+        "c": "Thenewswasshockingtoeveryone.",
+        "d": "Neitheroftheboyshavedonetheirhomework."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosetheincorrectsentence:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.16-20}:Ineachofthequestionsgivenbelow,foursentencesaregiven.",
+      "opts": {
+        "a": "Theinformationarenotaccurate.",
+        "b": "Thechildcriedbecausehelosthistoy.",
+        "c": "Sheisinterestedinlearningnewlanguages.",
+        "d": "Wehadbetterleavenowifwewanttocatchthetrain. _5-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosetheincorrectsentence:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:",
+      "opts": {
+        "a": "Heissoweaknottogototheconcerttoday.",
+        "b": "Heissoweakthathecannotgototheconcerttoday.",
+        "c": "Heisnotweakenoughtogototheconcerttoday.",
+        "d": "Hewillnotgototheconcerttoday."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Heistooweaktogototheconcerttoday,(RewriteintoaNegativesentence)",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:",
+      "opts": {
+        "a": "Thekatanayougavemelastyearwasedgy.",
+        "b": "Thekatanayougavemelastyearwasblunted.",
+        "c": "Thekatanayougavemelastyearwasnew.",
+        "d": "Thekatanayougavemelastyearwassharp."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thekatanayougavemelastyearwasnotblunt.(Rewriteintoand4ffirmativesentence)",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:",
+      "opts": {
+        "a": "Thechildiswiseandsheisyoung.",
+        "b": "Thechildiswiserthananyotherchildofhisage.",
+        "c": "Thechildisreallywisefortheageandtimeperiod.",
+        "d": "Thechildiswiseanditisstillsoyoungforitsage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thechildiswiseforitsage.(ConvertintoaComplexsentencewithoutchangingthemeaning)",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:",
+      "opts": {
+        "a": "Theservantswerebeatenmercilessly.",
+        "b": "Theservantswerebeatenwithmercy.",
+        "c": "Theservantswerebeatenmercenarily.",
+        "d": "Theservantswerebeatenmercily."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theservantswerebeatenwithoutmercy.(Changetheunderlinedwordsintoanadverb)",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:",
+      "opts": {
+        "a": "LhopethatIwillcomealittleearlier.",
+        "b": "Iwish[hadcomealittleearlier.",
+        "c": "Lwonderifihadcomealittleearlier.",
+        "d": "IpraythatIwillcomealittleearlier."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HadIbutcomealittleearlier!(ConvertintoanAssertivesentencewithoutchangingthemeaning)",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:",
+      "opts": {
+        "a": "Whatforasliceofdeliciouspizza!",
+        "b": "Alasforasliceofdeliciouspizza!",
+        "c": "[longforasliceofdeliciouspizza!",
+        "d": "Oh,forasliceofdeliciouspizza! -6-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ilongforasliceofdeliciouspizza.(ConvertintoanExclamatorysentencewithoutchangingthe meaning)",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:",
+      "opts": {
+        "a": "Zorinisaidthatthedelegatesbrokeintothemuseum",
+        "b": "Zorinisaidthatthedelegateshadbrokenthemuseum",
+        "c": "Zorinisaidthatthedelegateshadbrokenintothemuseum.",
+        "d": "Zorinisaidthatthedelegateshavebrokenintothemuseum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Zorinisaid,“Thedelegatesbrokeintothemuseum”(ConvertintoanJndirectSpeech)",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:",
+      "opts": {
+        "a": "ScientistshaddiscoveredtracesoficeonthesurfaceofMars.",
+        "b": "ScientistshavediscoveredtracesoficeonthesurfaceofMars.",
+        "c": "ScientistswillhavediscoveredtracesoficeonthesurfaceofMars.",
+        "d": "ScientistsdiscoveredtracesoficeonthesurfaceofMars. RRRRK"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TracesoficehavebeendiscoveredonthesurfaceofMarsbyscientists.(ConvertintoanActive Voice)",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Asaconcernedcitizenofyourcity,writeaformallettertotheSecretary,Excise&Narcotics Departmentrequestingstrictactionagainstillegaldrugactivitiesinyourlocality.Highlighttheincreasing drugabuseproblems,itsimpactonyouth,andsuggestmeasuresforstricterenforcementandpublic awareness.(15)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 2,
+      "text": "Readthegivenparagraphandanswerthequestionsgivenattheend: The‘LittleTramp’,theunforgettablecharacterCharlieChaplininvented,wasbornpurelyby accidentin1915.WhilerushingtoafilmshootinCalifornia,hegrabbedclothesotherpeoplehadleft behindinthechangingroomandwhenheemerged,hefoundhehadcreatedapersonalityeverybody loved,Alittleguyinabowlerhat,aclose-fittingjacket,acane,out-sizedshoesandabrush-like moustache! Beforelong,Chaplinfoundhimselfastar.Thatpuzzledhim,forhesawhimselfessentiallyasa shyBritishMusicHallcomedian.TheU.S.acknowledgedhimasitskingofsilentfilmcomedy.Soon, sodidcrowdsallovertheworld,Butlifewasn’talwaysalaughforCharlesSpencerChaplin.Both hisparentswereMusicHallartists,whoseparatedwhenCharliewasveryyoung.Hischildhoodwas verysad,forhismotherneverearnedenoughtolookafterCharlieandhisolderbrother,Sydney. Sometimes,Chaplinhadtosleeponthestreetsandforageforfoodinthegarbage. Charlietookhisfirstbowonstagewhenhismothermadeherlastappearance.Ithappened whenhervoicebrokeduringasong.Hersonsteppedonstageandsangapopularsong.That’swhen astarwasborn.Throughalltheseyearsofsuccess,Charlieneverforgothistroubledchildhood.It madehimrecallaChristmaswhenhewasdeniedtwoorangesandhisbagofsweetsforbreakinga ruleattheorphanagehewenttoafterhismother’sdeath.Itwouldhavebrokenhisheart,iftheother childrenhadnotofferedhimashareoftheirs.Spontancously,theadultChaplingiftedtheorphanage withamotionpicturemachineandinsistedthateachchildshouldhaveasmanyorangesandsweets astheypleased. Answerthefollowingquestions:",
+      "subparts": {
+        "a": "WhichunforgettablecharacterdidCharlieChaplininvent?(2)",
+        "b": "DescribethepersonalitycreatedbyCharlie,whomeverybodyloved.(2)",
+        "c": "WhatdidCharliesechimselfas?(2)",
+        "d": "GivetworeasonstoshowthatCharlieChaplin’searlylifewasverysad.—Q) (@)stepped(i)forage (iii)emerged(iv)orphanage @created(ii)wrote (ii)struggled(iv)laughed (i)found@i)shy (ii)silent(iv)puzzled @)troubledGi)share (ii)motion(iv)success (i)insistedGi)offered ii)emerged(iv)broken"
+      }
+    }
+  ],
+  "notes": [
+    "Source numbering gap before Q2: expected Q1; review the printed page.",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p2, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Source numbering gap before Q8: expected Q7; review the printed page.",
+    "Q23 (p5, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q26 (p5, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "B": [
+      7,
+      23,
+      26
+    ]
+  }
+}

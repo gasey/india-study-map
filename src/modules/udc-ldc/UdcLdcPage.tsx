@@ -20,6 +20,9 @@ import { useFlags, type FlagInfo } from './useFlags';
 import { FilterRail } from './FilterRail';
 import { PracticeView } from './PracticeView';
 import { ExamView } from './ExamView';
+import { GroupBPaperLibrary } from './GroupBPaperLibrary';
+import { AnswerSources } from './AnswerSources';
+import { groupBGeneralQuestions, groupBPaperMeta, groupBExpectedMcq } from '@/data/banks/mpsc-group-b-general';
 import './udc-ldc.css';
 
 // ============================================
@@ -39,7 +42,11 @@ import './udc-ldc.css';
 // ============================================
 
 
-type Tab = 'progress' | 'browse' | 'practice' | 'exam';
+type Tab = 'progress' | 'papers' | 'browse' | 'practice' | 'exam';
+const paperNegativeMarking = {
+  ...mpscUdcLdcNegativeMarking,
+  ...Object.fromEntries(Object.entries(groupBPaperMeta).map(([id, meta]) => [id, meta.negativeMarking])),
+};
 
 interface PaperStats {
   paper: ExamPaper;
@@ -55,6 +62,8 @@ interface PaperStats {
    * answer coverage must divide by this, not by `total`.
    */
   mcqTotal: number;
+  expectedMcq?: number;
+  keyCandidates: number;
   written: number;
   answered: number;
   official: number;
@@ -78,9 +87,11 @@ function useStats() {
         questions,
         total: questions.length,
         mcqTotal: mcq.length,
+        expectedMcq: groupBExpectedMcq[paper.id],
+        keyCandidates: mcq.filter((q) => q.officialAnswerCandidates?.length).length,
         written: questions.length - mcq.length,
-        answered: mcq.filter((q) => q.answerIndex >= 0).length,
-        official: mcq.filter((q) => q.answerSource === 'official').length,
+        answered: mcq.filter(isAnswerable).length,
+        official: mcq.filter((q) => q.answerSource === 'official' && isAnswerable(q)).length,
         derived: mcq.filter((q) => q.answerSource === 'derived').length,
         transcribed: mcq.filter((q) => q.answerSource === 'transcribed').length,
         lowConf: mcq.filter((q) => q.answerSource === 'derived'
@@ -148,6 +159,8 @@ function Pill({ tone, children }: { tone: 'ok' | 'info' | 'warn' | 'muted'; chil
  */
 function Provenance({ q }: { q: BankQuestion }) {
   if (!isMcqQuestion(q)) return null;
+  if (q.compensated) return <Pill tone="muted">MPSC compensated · not scored</Pill>;
+  if (q.sourceReview) return <Pill tone="warn">source text needs review · not scored</Pill>;
   if (q.figureBased && !q.imagePath) return <Pill tone="warn">figure lost — unanswerable</Pill>;
   if (q.figureBased) return <Pill tone="muted">options printed as figures</Pill>;
   if (q.answerSource === 'official') return <Pill tone="info">official key</Pill>;
@@ -163,7 +176,9 @@ function Provenance({ q }: { q: BankQuestion }) {
     const c = q.answerConfidence;
     return (
       <Pill tone={c === 'high' ? 'ok' : c === 'low' ? 'warn' : 'muted'}>
-        {c ? `solved · ${c} confidence` : 'solved · confidence unrated'}
+        {q.paperId?.startsWith('mpsc-group-b-ng-')
+          ? 'independent answer · unverified against official key'
+          : c ? `solved · ${c} confidence` : 'solved · confidence unrated'}
       </Pill>
     );
   }
@@ -293,10 +308,12 @@ function ProgressView({ rows: unsorted }: { rows: PaperStats[] }) {
                 <div style={{ fontWeight: 700, lineHeight: 1.3 }}>{r.paper.examName}</div>
                 <div style={{ fontSize: 12.5, opacity: 0.7, margin: '2px 0 9px' }}>
                   {r.paper.paperNumber} · {r.paper.post} · {r.paper.year}
-                  {mpscUdcLdcNegativeMarking[r.paper.id] && ' · −⅓ penalty'}
+                  {paperNegativeMarking[r.paper.id] && ' · −⅓ penalty'}
                 </div>
                 <div style={{ fontSize: 11.5, opacity: 0.65, marginBottom: 3 }}>Text extracted</div>
-                <Bar done={r.total} total={r.total} />
+                {r.paper.id.startsWith('mpsc-group-b-')
+                  ? r.expectedMcq ? <Bar done={r.mcqTotal} total={r.expectedMcq} /> : <span>{r.total} extracted items · total needs source review</span>
+                  : <Bar done={r.total} total={r.total} />}
                 <div style={{ fontSize: 11.5, opacity: 0.65, margin: '9px 0 3px' }}>Answers</div>
                 <Bar done={r.answered} total={answerable} />
                 <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginTop: 9 }}>
@@ -343,16 +360,20 @@ function ProgressView({ rows: unsorted }: { rows: PaperStats[] }) {
                     {/* Gazette Ex-582/2025 took effect 18 Aug 2025, so this is a
                         year AND month test -- computed in the generator, never
                         re-derived from the year here. */}
-                    {mpscUdcLdcNegativeMarking[r.paper.id] && (
+                    {paperNegativeMarking[r.paper.id] && (
                       <div style={{ marginTop: 4 }}>
                         <Pill tone="warn">−⅓ penalty</Pill>
                       </div>
                     )}
                   </td>
                   <td style={{ padding: '10px' }}>
-                    <Bar done={r.total} total={r.total} />
+                    {r.paper.id.startsWith('mpsc-group-b-')
+                      ? r.expectedMcq ? <Bar done={r.mcqTotal} total={r.expectedMcq} /> : <span>{r.total} extracted items · total needs source review</span>
+                      : <Bar done={r.total} total={r.total} />}
                     <div style={{ fontSize: 11, opacity: 0.65, marginTop: 3 }}>
-                      verified against the printed pages
+                      {r.paper.id.startsWith('mpsc-group-b-ng-')
+                        ? 'transcribed from source paper; review PDF for OCR gaps'
+                        : 'verified against the printed pages'}
                       {r.written > 0 && (
                         <>
                           {' '}· {r.mcqTotal
@@ -379,12 +400,14 @@ function ProgressView({ rows: unsorted }: { rows: PaperStats[] }) {
                              reads as a gap in the work rather than the shape of
                              the exam. */
                           ? 'nothing to answer — this paper is written throughout'
+                        : r.keyCandidates > 0 && r.answered === 0
+                          ? 'official key available — source / answer format review needed'
                         : r.answered === 0
                           /* Distinguish "no answers yet" from "solved without a
                              key" — both show 0 official, and calling an
                              unanswered paper "solved" is simply false. */
-                          ? 'not solved yet — no MPSC key for this sitting'
-                          : `solved — no MPSC key exists${r.lowConf ? `; ${r.lowConf} worth review` : ''}`}
+                          ? 'not solved yet — no matched MPSC key for this sitting'
+                          : `solved — no matched MPSC key${r.lowConf ? `; ${r.lowConf} worth review` : ''}`}
                     </div>
                   </td>
                   <td style={{ padding: '10px', fontSize: 12 }}>
@@ -415,26 +438,22 @@ function ProgressView({ rows: unsorted }: { rows: PaperStats[] }) {
         <strong>What&apos;s left</strong>
         <ul style={{ margin: '8px 0 0', paddingLeft: 18 }}>
           <li>
-            <strong>{tot.official} answers come from MPSC&apos;s own key</strong> (the April
-            2024 Assistant/UDC sitting — the only one the Commission published).
-            Those are authoritative.
+            <strong>{tot.official} answers come from MPSC&apos;s own keys.</strong>
+            Each matched Group B key is linked beside its paper and answers.
           </li>
           <li>
-            <strong>{tot.derived} were worked out, not looked up.</strong> No key exists for
-            those five sittings and none ever will. Graded against the one key that does
-            exist, answers marked <em>high</em> confidence were 97–98% correct and
-            <em> medium</em> ones 44% — so every solved answer is shown with its
-            confidence, and you should treat the badge as part of the answer.
+            <strong>{tot.derived} are independently solved answers.</strong> Their confidence
+            is shown beside each question. Group B technical General Knowledge answers
+            remain provisional until a matching official key is verified.
           </li>
           <li>
             <strong>{tot.lowConf} are medium or low confidence</strong> and are the ones
             worth a human check first. Filter to them under
-            <em> Answer → Has an answer</em> in Browse.
+            <em> Answer → Needs review</em> in Browse.
           </li>
           <li>
-            <strong>{tot.unanswerable} question cannot be answered from its scan</strong> —
-            its printed options are figures that came through as a solid black block.
-            Shown read-only and kept out of scored drills.
+            <strong>{tot.unanswerable} questions need source figures or repaired options.</strong>
+            They are shown read-only and kept out of scored drills.
           </li>
           <li>
             <strong>{tot.written} questions are written, not multiple choice</strong> —
@@ -631,7 +650,7 @@ function BrowseView({
           ? 'Written throughout — no multiple choice in this paper'
           : r.answered === 0
             ? 'No answers yet — MPSC published no key for this sitting'
-            : mpscUdcLdcNegativeMarking[r.paper.id]
+            : paperNegativeMarking[r.paper.id]
               ? 'Sat under −⅓ negative marking'
               : r.unanswerable > 0
                 ? `${r.unanswerable} question${r.unanswerable === 1 ? '' : 's'} unanswerable — figures lost in the scan`
@@ -697,6 +716,11 @@ function BrowseView({
 
             {isOpen && (
               <div style={{ borderTop: '1px solid var(--border, #eee)', padding: '4px 14px 14px' }}>
+                {'sourceFile' in r.paper && r.paper.sourceFile?.startsWith('/papers/group-b/') && (
+                  <p style={{ fontSize: 12.5, margin: '8px 0' }}>
+                    <a href={r.paper.sourceFile} target="_blank" rel="noreferrer">Open printed paper ↗</a>
+                  </p>
+                )}
                 {r.questions.map((q, i) => (
                   <div
                     key={q.id}
@@ -709,7 +733,7 @@ function BrowseView({
                   >
                     <div style={{ display: 'flex', gap: 10, alignItems: 'baseline' }}>
                       <span className="udc-question-number" style={{ opacity: 0.55, fontVariantNumeric: 'tabular-nums' }}>
-                        {i + 1}.
+                        {q.questionNumber ?? i + 1}.
                       </span>
                       {flags[q.id] && (
                         <span
@@ -726,6 +750,10 @@ function BrowseView({
                             {q.direction}
                           </div>
                         )}
+                        {q.sourceReview && <p style={{ fontSize: 12, color: 'var(--warn, #b06f1a)', margin: '0 0 8px' }}>
+                          This item needs review before scored practice.{' '}
+                          {q.sourceHref && <a href={q.sourceHref} target="_blank" rel="noreferrer">Check the printed source ↗</a>}
+                        </p>}
                         <div className={`udc-question-stem ${q.topic === 'simple_arithmetic' ? 'udc-math-stem' : q.subject === 'reasoning' ? 'udc-reasoning-stem' : ''}`} style={{ marginBottom: 6, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} plain={q.topic === 'simple_arithmetic'} /></div>
                         <QuestionImage path={q.imagePath} />
                         {q.figureBased && !q.imagePath && (
@@ -741,7 +769,7 @@ function BrowseView({
                           const open = shown.has(q.id);
                           const mine = picked[q.id];
                           const accent = SECTION_COLOUR[sectionOf(q)];
-                          const markable = q.answerIndex >= 0;
+                          const markable = isAnswerable(q);
                           return (
                             <div style={{ display: 'grid', gap: 6, margin: '2px 0 8px' }}>
                               {q.options.map((o, oi) => {
@@ -808,6 +836,7 @@ function BrowseView({
                         )}
                         <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center' }}>
                           <Provenance q={q} />
+                          {q.sourceHref && <a href={q.sourceHref} target="_blank" rel="noreferrer" style={{ fontSize: 12 }}>Printed source ↗</a>}
                           {/* What YOU flagged and what came of it. Kept next
                               to the provenance badge because both answer the
                               same question — how much to trust this item. */}
@@ -837,6 +866,8 @@ function BrowseView({
                             isAnswerable(q) && <Pill tone="muted">never attempted</Pill>
                           )}
                         </div>
+                        {q.paperId?.startsWith('mpsc-group-b-') && (shown.has(q.id) || q.sourceReview) && <AnswerSources q={q} />}
+                        {q.sourceNote && (shown.has(q.id) || q.sourceReview) && <p style={{ fontSize: 12, color: 'var(--warn, #b06f1a)', margin: '7px 0' }}>{q.sourceNote}</p>}
                         {!isMcqQuestion(q) && q.explanation && (
                           <div style={{ marginTop: 6 }}>
                             <button
@@ -872,7 +903,7 @@ function BrowseView({
                             apply. Saying so is the difference between a dead
                             end and an invitation. */}
                         {isMcqQuestion(q) && q.answerIndex < 0 && !q.figureBased
-                          && q.options.length > 0 && (
+                          && q.options.length > 0 && !q.sourceReview && !q.compensated && (
                           <div style={{
                             fontSize: 12, opacity: 0.75, margin: '2px 0 4px',
                             color: 'var(--warn, #b06f1a)',
@@ -963,15 +994,20 @@ export default function UdcLdcPage() {
     <div className="scroll-panel h-full overflow-y-auto udc-ldc-page">
       <div className="udc-ldc-content" style={{ padding: '20px 24px 48px', maxWidth: 1100, margin: '0 auto' }}>
       <div className="udc-hero">
-      <h1 style={{ margin: '0 0 4px', fontSize: 22 }}>MPSC Clerical — LDC / UDC / Assistant</h1>
+      <h1 style={{ margin: '0 0 4px', fontSize: 22 }}>UDC / LDC / Group B</h1>
       <p style={{ margin: 0, fontSize: 14 }}>
-        Past papers of the Mizoram Ministerial Service clerical cadre, checked question by
-        question against the printed pages.
+        Direct recruitment general papers: English, GK, basic computer, arithmetic and reasoning.
+        Group B gazetted, LDE and subject-specific technical papers are excluded.
+      </p>
+      <p style={{ margin: '8px 0 0', fontSize: 12 }}>
+        {groupBGeneralQuestions.length} Group B questions and written prompts are available.
+        Compare independent solutions with matched MPSC final keys, or use “Answers differ”
+        to review disagreements. Open Group B papers for the full general-paper archive and coverage.
       </p>
       </div>
 
-      <div className="udc-tabs" style={{ display: 'flex', gap: 8, marginBottom: 18 }}>
-        {(['progress', 'browse', 'practice', 'exam'] as Tab[]).map((t) => (
+      <div className="udc-tabs" style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 18 }}>
+        {(['progress', 'papers', 'browse', 'practice', 'exam'] as Tab[]).map((t) => (
           <button
             key={t}
             className={`udc-tab ${tab === t ? 'is-active' : ''}`}
@@ -984,12 +1020,17 @@ export default function UdcLdcPage() {
               color: tab === t ? '#fff' : 'inherit',
             }}
           >
-            {t}
+            {t === 'papers' ? 'Group B papers' : t}
           </button>
         ))}
       </div>
 
       {tab === 'progress' && <ProgressView rows={data.rows} />}
+      {tab === 'papers' && <GroupBPaperLibrary questions={correctedQuestions} onBrowse={(id) => {
+        setFilters({ ...EMPTY_FILTERS, paperIds: [id] });
+        setFiltersOpen(false);
+        setTab('browse');
+      }} />}
 
       {(tab === 'browse' || tab === 'practice') && (() => {
         // The rail is eight rows of chips and pushes the first question below
@@ -1001,9 +1042,10 @@ export default function UdcLdcPage() {
         const active = [
           filters.posts.length && `${filters.posts.length} post`,
           filters.papers.length && `${filters.papers.length} paper`,
+          filters.paperIds.length && 'selected exam paper',
           filters.sections.length && `${filters.sections.length} section`,
           filters.type !== 'any' && (filters.type === 'mcq' ? 'multiple choice' : 'written'),
-          filters.answer !== 'any' && (filters.answer === 'answered' ? 'answered' : 'unanswered'),
+          filters.answer !== 'any' && filters.answer,
           filters.gkKind !== 'any' && filters.gkKind.replace('-', ' '),
           filters.attempt !== 'any' && filters.attempt,
           filters.search.trim() && `“${filters.search.trim()}”`,
@@ -1052,7 +1094,7 @@ export default function UdcLdcPage() {
       {/* The exam view deliberately ignores the filter rail: you sit the whole
           paper as printed, or it is not an exam. */}
       {tab === 'exam' && (
-        <ExamView papers={data.bank.papers ?? []} questions={correctedQuestions} />
+        <ExamView papers={(data.bank.papers ?? []).filter((paper) => correctedQuestions.some((q) => q.paperId === paper.id && isAnswerable(q) && !q.paperExamExcluded))} questions={correctedQuestions} />
       )}
       </div>
     </div>

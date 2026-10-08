@@ -1,0 +1,374 @@
+{
+  "slug": "inspector-stats-2026-p1",
+  "exam": "Inspector of Statistics",
+  "sitting": "March 2026",
+  "subject": "General English",
+  "source": "Inspector of Statistics Paper-I (English)..pdf",
+  "sourceSha256": "58f0cf1cd9de99cd9c8b61ebcc519a3c7f4288d539f7eeed8f517cd681639477",
+  "ocr": false,
+  "count": 15,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sairang Rail Station: A Catalyst for Infrastructure Development in Mizoram",
+        "b": "Mental Health and Work Environment",
+        "c": "Strengthening Good Governance through Official Statistics",
+        "d": "The Digital Generation: How Technology is Changing Childhood and Youth."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Write an essay choosing one of the topics given below:(20)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 3 -12): Read the following passage and answer the questions based on the",
+      "opts": {
+        "a": "Emerged out of the fear of man",
+        "b": "Emerged from the desire of man to worship the forces of nature",
+        "c": "Employs different methods of inquiry",
+        "d": "Work at the cross-purpose of each other"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the passage, science and religion both:(2)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 3 -12): Read the following passage and answer the questions based on the",
+      "opts": {
+        "a": "teach people to worship the forces of nature",
+        "b": "encourage spiritualism as much as possible",
+        "c": "judiciously mix the principles of science and true spirit of religion",
+        "d": "free man from all sorts of bondages"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the passage, at the present juncture, there is a need to:(2)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 3 -12): Read the following passage and answer the questions based on the",
+      "opts": {
+        "a": "Science and religion are antagonistic to each other",
+        "b": "Science encourages worshipping of nature",
+        "c": "Religion is essential for external peace and harmony",
+        "d": "Regimental religion was replaced by scientific principles"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is true in the context of the passage?(2)",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 3 -12): Read the following passage and answer the questions based on the",
+      "opts": {
+        "a": "Man worships the forces of nature",
+        "b": "Methods of science and religion are different",
+        "c": "Regimental religion got degenerated into orthodoxy",
+        "d": "Galileo and Bruno were disciples of Copernicus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is not true in the context of the passage?(2)",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 3 -12): Read the following passage and answer the questions based on the",
+      "opts": {
+        "a": "flouted",
+        "b": "progressive",
+        "c": "both (a) & (b)",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the passage, truth was:(2)",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 3 -12): Read the following passage and answer the questions based on the",
+      "opts": {
+        "a": "To teach man the methods of worshipping nature",
+        "b": "To educate and raise the human spirit and mind",
+        "c": "To develop harmony between external nature and their inner self",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the objective of the authors of the holy scriptures?(2)",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Emerge/Immerse",
+        "b": "Pair/Pare",
+        "c": "Teem/Team",
+        "d": "Antique/Antic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences with any five to bring out the difference in their meaning(5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Incapable of making errors",
+        "b": "Fluent and clear in speech",
+        "c": "One who hates war, loves peace",
+        "d": "A remedy for all ills"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Supply suitable one-word substitutes for any ten of the following:(10×2=20)",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Concur",
+        "b": "Overbearing",
+        "c": "Mitigate",
+        "d": "Prodigy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Supply appropriate synonyms for any five of the following:(5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Moderate",
+        "b": "Jubilant",
+        "c": "Eccentric",
+        "d": "Nepotism"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Supply appropriate antonyms for any five of the following:(5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hold water",
+        "b": "Bird’s eye view",
+        "c": "Apple-pie order",
+        "d": "To miss the bus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences with any five of the following idioms/phrases to bring out their meaning:(5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The chef is cooking a special dish",
+        "b": "How did you open the door?",
+        "c": "Tea shall not be taken by me today",
+        "d": "By whom were you insulted?"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Change the voice:(5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Let us go, _______?",
+        "b": "He isn’t very happy with it _________?",
+        "c": "Mind your business, _________?",
+        "d": "Keep your mouth shut ______?"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Complete the following by using question tags:(5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "How long have you _________ him? (Fill in using the verb know)",
+        "b": "The sun was shining. We went for a walk. (Change into Compound sentence)",
+        "c": "Having finished his work, he went home. (Change into Complex sentence)",
+        "d": "You have to pay or you cannot leave this place. (Change into Simple sentence)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rewrite the following sentences as directed:(10×2=20)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p2, part None): only 0 option(s) [] - not emitted",
+    "Q4 (p2, part None): only 0 option(s) [] - not emitted",
+    "Q7 (p2, part None): only 0 option(s) [] - not emitted",
+    "Q12 (p3, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      2,
+      3,
+      4,
+      7,
+      12
+    ]
+  }
+}

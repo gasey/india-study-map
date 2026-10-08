@@ -1,0 +1,1056 @@
+{
+  "slug": "steno2-2015-english",
+  "exam": "Stenographer Grade II, DP&AR",
+  "sitting": "2015",
+  "subject": "General English",
+  "source": "1.STENOGRAPHER GRADE-II (CONTRACT) UNDER DP&AR (SSW),2015General English.pdf",
+  "sourceSha256": "0916398a402f4470df6f64c8887e3467a20efba7b4bba739748311538f240576",
+  "ocr": false,
+  "count": 44,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "to train at a young age",
+        "b": "to hurt someone badly",
+        "c": "to deceive a friend",
+        "d": "to destroy at the very beginning."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Nip in the bud",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "to be hardworking",
+        "b": "useless labour",
+        "c": "to earn great achievements",
+        "d": "to plant seeds"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ploughing the sand",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "a hidden enemy",
+        "b": "cowardly and brutal",
+        "c": "an unreliable and deceitful person",
+        "d": "low and mean"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His most trusted friend proved to be a snake in the grass",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "a piece of sculpture",
+        "b": "building materials",
+        "c": "a superb work of art",
+        "d": "the son resembling the father"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Chip of the old block",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "temper",
+        "b": "irritation",
+        "c": "composure",
+        "d": "anger"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She exhibited remarkable sang froid during the crisis",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "a place of divinity",
+        "b": "to be awestruck",
+        "c": "a short-lived glory",
+        "d": "a fairy-tale"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Nine days’ wonder",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "to be humiliated",
+        "b": "to humble oneself",
+        "c": "to surrender",
+        "d": "to worship someone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To kiss the dust",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "a square meal",
+        "b": "bread and butter",
+        "c": "paupers and beggars",
+        "d": "worldly benefits"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Loaves and fishes",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9 – 14) : Read the following passage carefully and choose the best answer",
+      "opts": {
+        "a": "Because the Government is controlling the quota.",
+        "b": "Because of export of white cement.",
+        "c": "Because of extensive usage of white cement for construction.",
+        "d": "None of the above."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why is the price of cement going up?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9 – 14) : Read the following passage carefully and choose the best answer",
+      "opts": {
+        "a": "White cement is a controlled product.",
+        "b": "Increase in price of white cement is not because of production problem.",
+        "c": "Price rise in white cement would upset cement tile market.",
+        "d": "Most cement paint manufacturers are from small scale sector."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is false according to the passage?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9 – 14) : Read the following passage carefully and choose the best answer",
+      "opts": {
+        "a": "White cement is priced very low.",
+        "b": "White cement prices are very high.",
+        "c": "White cement is being exported.",
+        "d": "White cement is not of good quality."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the crisis being faced by the cement tile manufacturers as described in the passage?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9 – 14) : Read the following passage carefully and choose the best answer",
+      "opts": {
+        "a": "lazy",
+        "b": "clumsy",
+        "c": "large",
+        "d": "excess"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following words has the same meaning as the word ‘idle’ as used in the passage?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9 – 14) : Read the following passage carefully and choose the best answer",
+      "opts": {
+        "a": "White cement is not used in the manufacture of paint.",
+        "b": "White cement forms a minor part of tile manufacturing.",
+        "c": "White cement is very important for tile manufacturing.",
+        "d": "White cement is used only for making paints."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is correct according to the passage?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9 – 14) : Read the following passage carefully and choose the best answer",
+      "opts": {
+        "a": "Government should control the white cement market.",
+        "b": "Production capacity should be increased.",
+        "c": "Usage of white cement in other areas should be reduced.",
+        "d": "Competition among manufacturers of cement paints and tiles should be reduced."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the author’s suggestion to bring down prices?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 15 – 24) : Fill in the blanks with the correct parts of speech:",
+      "opts": {
+        "a": "among",
+        "b": "by",
+        "c": "with",
+        "d": "between"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The profits will be equally divided __________ the two partners.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 15 – 24) : Fill in the blanks with the correct parts of speech:",
+      "opts": {
+        "a": "less",
+        "b": "lesser",
+        "c": "few",
+        "d": "fewer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His chances are __________ than mine.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 15 – 24) : Fill in the blanks with the correct parts of speech:",
+      "opts": {
+        "a": "not",
+        "b": "never",
+        "c": "nothing",
+        "d": "none"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A horse is __________ like an elephant.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 15 – 24) : Fill in the blanks with the correct parts of speech:",
+      "opts": {
+        "a": "even now",
+        "b": "since",
+        "c": "until now",
+        "d": "ever since"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I had injured my knee four years ago but I have been feeling pain in it __________.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 15 – 24) : Fill in the blanks with the correct parts of speech:",
+      "opts": {
+        "a": "lately",
+        "b": "late",
+        "c": "of late",
+        "d": "last"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Have you received any letter from your son __________?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 15 – 24) : Fill in the blanks with the correct parts of speech:",
+      "opts": {
+        "a": "out of",
+        "b": "off",
+        "c": "of",
+        "d": "from"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He comes __________ a good family.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 15 – 24) : Fill in the blanks with the correct parts of speech:",
+      "opts": {
+        "a": "next",
+        "b": "further",
+        "c": "latest",
+        "d": "nearest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The __________ news from the war front is very disappointing.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 15 – 24) : Fill in the blanks with the correct parts of speech:",
+      "opts": {
+        "a": "on",
+        "b": "upon",
+        "c": "at",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The tiger jumped __________ the stag.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 15 – 24) : Fill in the blanks with the correct parts of speech:",
+      "opts": {
+        "a": "on",
+        "b": "in",
+        "c": "to",
+        "d": "for"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dishonesty is always detrimental __________ progress in life.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 15 – 24) : Fill in the blanks with the correct parts of speech:",
+      "opts": {
+        "a": "off",
+        "b": "to",
+        "c": "about",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The robbers not only injured the landlord but also decamped __________ booty.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 25 – 30): Identify the notion/concept expressed by each of the following",
+      "opts": {
+        "a": "progressive",
+        "b": "habitual",
+        "c": "possibility",
+        "d": "locative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The old lady goes for a walk in the morning.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 25 – 30): Identify the notion/concept expressed by each of the following",
+      "opts": {
+        "a": "advice",
+        "b": "affirmative",
+        "c": "threat",
+        "d": "prohibition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Unless you pay you will be refused admission.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 25 – 30): Identify the notion/concept expressed by each of the following",
+      "opts": {
+        "a": "suggestion",
+        "b": "possibility",
+        "c": "advice",
+        "d": "order"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If I were you, I would not care for such a man.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 25 – 30): Identify the notion/concept expressed by each of the following",
+      "opts": {
+        "a": "strong possibility",
+        "b": "likelihood",
+        "c": "determination",
+        "d": "wish"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "May you live long!",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 25 – 30): Identify the notion/concept expressed by each of the following",
+      "opts": {
+        "a": "permission",
+        "b": "order",
+        "c": "suggestion",
+        "d": "both (b) and (c)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The manager said to his assistant, “Let the customers in.”",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 25 – 30): Identify the notion/concept expressed by each of the following",
+      "opts": {
+        "a": "future possibility",
+        "b": "future progressive",
+        "c": "wish",
+        "d": "possibility"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She will be waiting for me when I reach her home.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 37 – 42) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "noun clause",
+        "b": "principal clause",
+        "c": "adverb clause",
+        "d": "co-ordinate clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Rich as he is**, he is not happy.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 37 – 42) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "noun clause",
+        "b": "relative clause",
+        "c": "adverb clause",
+        "d": "adjective clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I do not know **whom she is teaching**.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 37 – 42) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "co-ordinate clause",
+        "b": "noun clause",
+        "c": "principal clause",
+        "d": "adjective clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He told me **what his father told him**.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 37 – 42) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "relative clause",
+        "b": "adjective clause",
+        "c": "adverb clause",
+        "d": "co-ordinate clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I shall go to the place **where my friend lives**.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 37 – 42) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "co-ordinate clause",
+        "b": "noun clause",
+        "c": "principal clause",
+        "d": "adjective clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**He could not utter a single word to his son** who, when he arrived, was in a dejected mood.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 37 – 42) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "Co-ordinate clause",
+        "b": "adverb clause",
+        "c": "principal clause",
+        "d": "adjective clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Since my brother came**, he has been teaching.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 43 – 50): Fill in the blanks with the correct word/phrase out of the given",
+      "opts": {
+        "a": "probation",
+        "b": "bail",
+        "c": "parole",
+        "d": "guarantee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The prisoner was released on __________ for good behaviour.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 43 – 50): Fill in the blanks with the correct word/phrase out of the given",
+      "opts": {
+        "a": "rewarded",
+        "b": "awarded",
+        "c": "forwarded",
+        "d": "honoured"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The brilliant students will be __________ scholarships.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 43 – 50): Fill in the blanks with the correct word/phrase out of the given",
+      "opts": {
+        "a": "eroded",
+        "b": "spoilt",
+        "c": "demolished",
+        "d": "ravaged"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The salt spray has gradually __________ the bridge.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 43 – 50): Fill in the blanks with the correct word/phrase out of the given",
+      "opts": {
+        "a": "cooled their heels",
+        "b": "wore at their heels",
+        "c": "took to their heels",
+        "d": "took upon their heels"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On seeing the police approach, the miscreants __________.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 43 – 50): Fill in the blanks with the correct word/phrase out of the given",
+      "opts": {
+        "a": "verbose",
+        "b": "bombastic",
+        "c": "grandiose",
+        "d": "grandiloquent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If a speech is full of pompous words, it is __________.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 43 – 50): Fill in the blanks with the correct word/phrase out of the given",
+      "opts": {
+        "a": "disbelieves",
+        "b": "suspects foul",
+        "c": "sees a danger",
+        "d": "smells a rat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Because of the bitter experiences of the past he __________ everywhere.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 43 – 50): Fill in the blanks with the correct word/phrase out of the given",
+      "opts": {
+        "a": "anxious",
+        "b": "find",
+        "c": "insistent",
+        "d": "keen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is very __________ on meeting foreigners and befriending them.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 43 – 50): Fill in the blanks with the correct word/phrase out of the given",
+      "opts": {
+        "a": "excited",
+        "b": "roused",
+        "c": "prompted",
+        "d": "attracted"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We don’t know what __________ him to commit this crime.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on any one of the following topics in not more than 300 words:",
+      "subparts": {
+        "a": "Social media and its impact on society.",
+        "b": "Role and significance of NGO’s in Mizoram.",
+        "c": "Crime against women in India."
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q31 (p4, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q32 (p4, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q33 (p4, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q34 (p4, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q35 (p5, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q36 (p5, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "B": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  }
+}

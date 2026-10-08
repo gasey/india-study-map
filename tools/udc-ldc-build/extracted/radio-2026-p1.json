@@ -1,0 +1,1436 @@
+{
+  "slug": "radio-2026-p1",
+  "exam": "Radiotherapy Technologist",
+  "sitting": "April 2026",
+  "subject": "General English",
+  "source": "Radiotherapy Technologist Paper-I (English)..pdf",
+  "sourceSha256": "903c76b0e3d02375f6b015cd1ba7207d54515a44c42260ec22c070ce5ff96111",
+  "ocr": false,
+  "count": 60,
+  "questions": [
+    {
+      "n": 1,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Adverb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sit down and rest a **while**.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Noun",
+        "b": "Preposition",
+        "c": "Conjunction",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He distributed his wealth **among** the poor.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Interjection",
+        "c": "Adverb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I am **so** sorry.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Preposition",
+        "b": "Adverb",
+        "c": "Adjective",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is willing, **yet** unable.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Pronoun",
+        "c": "Interjection",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Hello**! How do you do?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Adverb",
+        "c": "Determiner",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There were pictures of **emaciated** children on the cover of the magazine.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Adverb",
+        "c": "Conjunction",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The book is **more** interesting than  the last one.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Adverb",
+        "c": "Conjunction",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He  called me **after** he had finished eating.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Noun",
+        "b": "Adverb",
+        "c": "Conjunction",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Last year the company made a profit of **a few** million.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Adverb",
+        "c": "Pronoun",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The two countries  went to war with **one another** over oil prices.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Identify the parts of Speech of the underlined words as directed:",
+      "opts": {
+        "a": "Common",
+        "b": "Proper",
+        "c": "Collective",
+        "d": "Abstract"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **soldiers** were rewarded for their bravery. (Type of noun)",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Identify the parts of Speech of the underlined words as directed:",
+      "opts": {
+        "a": "Common",
+        "b": "Material",
+        "c": "Collective",
+        "d": "Abstract"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She only asked me to her party as an **afterthought**.  (Type of noun)",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Identify the parts of Speech of the underlined words as directed:",
+      "opts": {
+        "a": "Common",
+        "b": "Concrete",
+        "c": "Collective",
+        "d": "Abstract"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kalidas is often called the **Shakespeare** of India. (Type of noun)",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Identify the parts of Speech of the underlined words as directed:",
+      "opts": {
+        "a": "Common",
+        "b": "Proper",
+        "c": "Collective",
+        "d": "Abstract"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **jury** has retired to consider its verdict.  (Type of noun)",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Identify the parts of Speech of the underlined words as directed:",
+      "opts": {
+        "a": "Common",
+        "b": "Material",
+        "c": "Collective",
+        "d": "Abstract"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Rice** is a staple food.  (Type of noun)",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Identify the parts of Speech of the underlined words as directed:",
+      "opts": {
+        "a": "Collective Noun",
+        "b": "Common Noun",
+        "c": "Material Noun",
+        "d": "Abstract Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Wisdom** is always better than strength.  (Type of noun)",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Identify the parts of Speech of the underlined words as directed:",
+      "opts": {
+        "a": "Action",
+        "b": "Linking",
+        "c": "Modal",
+        "d": "Transitive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He **seems** happy today. (Type of verb)",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Identify the parts of Speech of the underlined words as directed:",
+      "opts": {
+        "a": "Time",
+        "b": "Place",
+        "c": "**Manner**",
+        "d": "Degree"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She danced **beautifully**. (Type of adverb)",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Identify the parts of Speech of the underlined words as directed:",
+      "opts": {
+        "a": "Descriptive",
+        "b": "Demonstrative",
+        "c": "Distributive",
+        "d": "Interrogative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Each** child received a present. (Type of adjective)",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Identify the parts of Speech of the underlined words as directed:",
+      "opts": {
+        "a": "Personal",
+        "b": "Reflexive",
+        "c": "Indefinite",
+        "d": "Relative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He hurt **himself** while playing. (Type of pronoun)",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction : Choose the most appropriate antonym (Question Nos. 21-25)/synonym (Question",
+      "opts": {
+        "a": "ample",
+        "b": "petite",
+        "c": "veteran",
+        "d": "broad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His **colossal** frame stood out among the contestants",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction : Choose the most appropriate antonym (Question Nos. 21-25)/synonym (Question",
+      "opts": {
+        "a": "splendid",
+        "b": "sumptuous",
+        "c": "bland",
+        "d": "deluxe"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **luscious** sweetmeats were a hit with the quests.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction : Choose the most appropriate antonym (Question Nos. 21-25)/synonym (Question",
+      "opts": {
+        "a": "lazy",
+        "b": "released",
+        "c": "sluggish",
+        "d": "diligent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The student’s **indolent** nature was the cause for his poor performance.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction : Choose the most appropriate antonym (Question Nos. 21-25)/synonym (Question",
+      "opts": {
+        "a": "condemn",
+        "b": "approve",
+        "c": "suffering",
+        "d": "revile"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The government’s economic policy has been **denounced** on all sides.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction : Choose the most appropriate antonym (Question Nos. 21-25)/synonym (Question",
+      "opts": {
+        "a": "ample",
+        "b": "scarce",
+        "c": "adequate",
+        "d": "surplus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The garden is **abundant** with colourful flowers.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "courageous",
+        "b": "timid",
+        "c": "warry",
+        "d": "craven"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **bold** move paid off in the end.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "sturdy",
+        "b": "delicate",
+        "c": "compact",
+        "d": "stiff"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This vase is **fragile**.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "strict",
+        "b": "disciplined",
+        "c": "gentle",
+        "d": "sociable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My sister is a **gregarious** person.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "rowdy",
+        "b": "raucous",
+        "c": "quiet",
+        "d": "quite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It’s nice and **still** in this room.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "unusual",
+        "b": "conventional",
+        "c": "reckless",
+        "d": "malevolent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His **eccentric** style makes him stand out.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Choose the correct answer from the alternative given :",
+      "opts": {
+        "a": "flexible",
+        "b": "limp",
+        "c": "stiffer",
+        "d": "soft"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As we get older, our muscles start to become _____.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Choose the correct answer from the alternative given :",
+      "opts": {
+        "a": "facilitated",
+        "b": "fantasized",
+        "c": "felicitated",
+        "d": "censure"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The students _____ the teachers on Teachers’ Day.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Choose the correct answer from the alternative given :",
+      "opts": {
+        "a": "signalled",
+        "b": "saw",
+        "c": "took",
+        "d": "looked"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "John _____ me coming to his table and smiled.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Choose the correct answer from the alternative given :",
+      "opts": {
+        "a": "astronomer",
+        "b": "astronaut",
+        "c": "astrologer",
+        "d": "explorer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The _____ claims to be able to predict your future by studying the stars.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Choose the correct answer from the alternative given :",
+      "opts": {
+        "a": "disregarded",
+        "b": "reprimanded",
+        "c": "grudged",
+        "d": "complained"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The manager _____ the assistant severely for his rude behaviour.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Choose the correct answer from the alternative given :",
+      "opts": {
+        "a": "have",
+        "b": "has",
+        "c": "was",
+        "d": "would"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neither the father nor the children _____  reached.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Choose the correct answer from the alternative given :",
+      "opts": {
+        "a": "has",
+        "b": "is",
+        "c": "are",
+        "d": "were"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A lot of food _____  left out.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Choose the correct answer from the alternative given :",
+      "opts": {
+        "a": "have",
+        "b": "has",
+        "c": "is",
+        "d": "were"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My employer and benefactor _____ come.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Choose the correct answer from the alternative given :",
+      "opts": {
+        "a": "was",
+        "b": "were",
+        "c": "are",
+        "d": "have been"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Book store, with its contents, _____ insured.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40) : Choose the correct answer from the alternative given :",
+      "opts": {
+        "a": "are",
+        "b": "will",
+        "c": "is",
+        "d": "were"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The news being telecasted about the man _____ true.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Identify the type of the given sentences:",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gabriel is, one of the best hockey player on the team.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Identify the type of the given sentences:",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The house is on fire!",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Identify the type of the given sentences:",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Turn in your homework",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Identify the type of the given sentences:",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tell me where you found those glasses",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Identify the type of the given sentences:",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "May I come in?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Identify the type of the given sentences:",
+      "opts": {
+        "a": "Declarative",
+        "b": "Assertive",
+        "c": "Interrogative",
+        "d": "Imperative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She likes cold coffee.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Identify the type of the given sentences:",
+      "opts": {
+        "a": "Interrogative",
+        "b": "Exclamatory",
+        "c": "Imperative",
+        "d": "Declarative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bring me some water.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Identify the type of the given sentences:",
+      "opts": {
+        "a": "Command",
+        "b": "Request",
+        "c": "Exclamatory",
+        "d": "Purpose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Don’t be back late.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Identify the type of the given sentences:",
+      "opts": {
+        "a": "Pupose",
+        "b": "Statement",
+        "c": "Request",
+        "d": "Command"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Would you answer the phone?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 50) : Identify the type of the given sentences:",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Exclamatory",
+        "d": "Interrogative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Call me later.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Choose the correct sentence structure:",
+      "opts": {
+        "a": "Simple",
+        "b": "Complex",
+        "c": "Compound",
+        "d": "Complex-Compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I was late because I missed my train.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Choose the correct sentence structure:",
+      "opts": {
+        "a": "Simple",
+        "b": "Complex",
+        "c": "Compound",
+        "d": "Complex-Compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I like walking but my dog likes running.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Choose the correct sentence structure:",
+      "opts": {
+        "a": "Simple",
+        "b": "Complex",
+        "c": "Compound",
+        "d": "Complex-Compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Birds fly and they migrate to the south.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Choose the correct sentence structure:",
+      "opts": {
+        "a": "Simple",
+        "b": "Complex",
+        "c": "Compound",
+        "d": "Complex-Compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On Thursday, I threw water at three funny boys.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Choose the correct sentence structure:",
+      "opts": {
+        "a": "Simple",
+        "b": "Complex",
+        "c": "Compound",
+        "d": "Complex-Compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She often reads books.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Choose the correct sentence structure:",
+      "opts": {
+        "a": "Simple",
+        "b": "Compound",
+        "c": "Complex",
+        "d": "Complex-Compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She bought a new dress.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Choose the correct sentence structure:",
+      "opts": {
+        "a": "Simple",
+        "b": "Compound",
+        "c": "Complex",
+        "d": "Complex-Compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I remember the day that we met.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Choose the correct sentence structure:",
+      "opts": {
+        "a": "Simple",
+        "b": "Compound",
+        "c": "Complex",
+        "d": "Complex-Compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If I am selected for the post I will have to commute seven miles to work, so I have decided that it is not worth it.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Choose the correct sentence structure:",
+      "opts": {
+        "a": "Simple",
+        "b": "Compound",
+        "c": "Complex",
+        "d": "Complex-Compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He loves to read even though he is sick.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 60) : Choose the correct sentence structure:",
+      "opts": {
+        "a": "Simple",
+        "b": "Compound",
+        "c": "Complex",
+        "d": "Complex-Compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Man struggles hard to earn a living.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on any one of the given topics.(10) -Artificial Intelligence and Healthcare – pros and cons -Importance of Psychology and Mental Health lessons -Scope and Potential of Health Tourism in Mizoram",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Write a précis of the following passage in about 1/3 of its original length, giving it suitable title.(10) Trees give shade for the benefit of others, and while they themselves must stand directly in the sun and endure the scorching heat of the day, they continue to produce the fruit by which others profit. They do not hoard their gifts, nor do they complain of the weather. The character of good and noble men is exactly like that of these trees. We must ask ourselves: what is the use of this perishable body, which is destined to decay, if no use of it is made for the lasting benefit of mankind? A life lived only for the self is a life wasted. Consider the natural world and the lessons it yields. Take sandalwood- the more it is rubbed against a hard surface, the more of its sweet scent does it yield to the air. Consider the sugarcane— the more it is peeled, crushed, and cut into small pieces, the more delicious juice does it produce for the thirsty. Look at gold—the more it is burnt in the crucible of the forge, the more brightly and purely does it shine. The men who are truly noble at heart do not lose these divine qualities even in the process of losing their very lives. To them, the external world is secondary. What does it matter whether common men praise them or not? What difference does it make whether great riches abide with them or whether they live in poverty? What does it signify whether they die at this very moment or whether their lives are prolonged for many years? Happen what may, those who tread in the right path of righteousness will not set foot in any other, for their integrity is absolute. Life itself is unprofitable and hollow to a man who does not live for the service of others. To live for the mere sake of living one’s own life is to live the base life of dogs and cows, driven only by instinct. Those who lay down their lives, even for the sake of a friend, or even for the sake of a complete stranger, will assuredly dwell forever in a world of eternal bliss.",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 2,
+      "text": "During the past year there were several cases of death in your village due to the absence of qualified doctors in the Primary Health Centre. There was also an outbreak of cholera and the medical personnel were insufficient to cope with the crisis. Write a letter to the Minister, Health and Family Welfare Department, requesting for at least two qualified doctors to be posted in your village. Sign yourself as ABC of XXX, YZ District(10)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "A",
+      "page": 2,
+      "text": "Read the following passage and answer the question given below: Many people believe that science and religion are contrary to each other. But this notion is wrong. As a matter of fact, both are complementary to each other. The aim of both these institutions is to explain different aspects of life, universe and human existence. There is no doubt that the methods of science and religion are different. The method of science is observation, experimentation and experience. Science takes its recourse to progressive march towards perfection; the rules of religion are faith, intuition and spoken word of the enlightened; in general, while science is inclined towards reason and rationality, spiritualism is the essence of religion. In earlier times when man appeared on earth, he was over-awed at the sight of violent and powerful aspects of nature. In certain cases, the usefulness of different natural objects of nature overwhelmed man. Thus began the worship of forces of nature-fire, the sun, the rivers, the rocks, the trees, the snakes, etc. The holy scriptures were written by those who had developed harmony between external nature and their inner self. Their object was to ennoble, elevate and liberate the human spirit and mind. But the priestly class took upon itself the monopoly of scriptural knowledge and interpretation to its own advantage. Thus the entire human race was in chains. Truth was flouted and progressive, liberal and truthful ideas or ideas expressing doubt and skepticism were suppressed and their holders punished. It was in these trying circumstances, the science emerged as a saviour of mankind. But its path was not smooth and safe. The scientists and free thinkers were tortured. This was the fate of Copernicus, Galileo, Bruno and others. But by and by science gain ground.",
+      "subparts": {
+        "a": "Why does man worship the force of nature?(2)",
+        "b": "Why is it said in the passage that ‘science emerged as a saviour of mankind’?(2)",
+        "c": "How does the passage distinguish between the methods used by science and those used by",
+        "d": "Based on the text, what kind of treatment did early scientists like Galileo and Bruno face, and"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p2, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p2, part A): conventional section, 4 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

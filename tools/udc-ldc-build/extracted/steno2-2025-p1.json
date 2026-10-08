@@ -1,0 +1,976 @@
+{
+  "slug": "steno2-2025-p1",
+  "exam": "Stenographer Grade II, MPSC",
+  "sitting": "May 2025",
+  "subject": "General English",
+  "source": "Stenographer Grade-II (Contract) under MPSC - Paper-I (General English)..pdf",
+  "sourceSha256": "aa21fba8e0cae4d2ba59d2a0a32f23d67399eabcf54c885896eb329479f29699",
+  "ocr": false,
+  "count": 40,
+  "questions": [
+    {
+      "n": 1,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 1-5): Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "noun",
+        "b": "adjective",
+        "c": "adverb",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He ran **fast** to catch the bus.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 1-5): Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "verb",
+        "b": "noun",
+        "c": "adverb",
+        "d": "adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They had a **hard** time solving the puzzle.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 1-5): Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "adverb",
+        "b": "noun",
+        "c": "adjective",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She went for a **run** in the morning.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 1-5): Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "noun",
+        "b": "**verb**",
+        "c": "adjective",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Please **calm** yourself before the meeting",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 1-5): Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "verb",
+        "b": "adjective",
+        "c": "adverb",
+        "d": "conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Only** the brave deserve the fair.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+      "opts": {
+        "a": "onto",
+        "b": "at",
+        "c": "upon",
+        "d": "by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The decision was made_________ the recommendation of the advisory board.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+      "opts": {
+        "a": "with",
+        "b": "in",
+        "c": "at",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is well versed________ classical literature.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+      "opts": {
+        "a": "from",
+        "b": "of",
+        "c": "with",
+        "d": "about"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He abstained________ voting due to a conflict of interest.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+      "opts": {
+        "a": "because",
+        "b": "on",
+        "c": "by",
+        "d": "for"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The proposal was rejected__________ lack of insufficient fund.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+      "opts": {
+        "a": "by",
+        "b": "of",
+        "c": "from",
+        "d": "in"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The artist’s work was inspired________ nature and urban life",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+      "opts": {
+        "a": "by",
+        "b": "in",
+        "c": "at",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I woke up ________  6:00 a.m. in the morning.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+      "opts": {
+        "a": "in",
+        "b": "on",
+        "c": "by",
+        "d": "to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We will walk ________   the office.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+      "opts": {
+        "a": "at",
+        "b": "in",
+        "c": "on",
+        "d": "to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She’s ________  work now",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+      "opts": {
+        "a": "by",
+        "b": "in",
+        "c": "on",
+        "d": "to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The teacher said, “I want no disturbance ________  the Classroom”.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+      "opts": {
+        "a": "to",
+        "b": "for",
+        "c": "with",
+        "d": "onto"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She taught him how ________  play the Piano.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 16- 20): Choose the correct tense of the verbs in the following sentences.",
+      "opts": {
+        "a": "finished",
+        "b": "have finished",
+        "c": "had finished",
+        "d": "will have finished"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "By the time she arrived, we_______our dinner.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 16- 20): Choose the correct tense of the verbs in the following sentences.",
+      "opts": {
+        "a": "left",
+        "b": "leaves",
+        "c": "has left",
+        "d": "had left"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If he__________ earlier, he would have caught the plane flight.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 16- 20): Choose the correct tense of the verbs in the following sentences.",
+      "opts": {
+        "a": "scold",
+        "b": "are scolding",
+        "c": "have scolded",
+        "d": "scolds"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My parents always_______ me when I get home late.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 16- 20): Choose the correct tense of the verbs in the following sentences.",
+      "opts": {
+        "a": "have",
+        "b": "had",
+        "c": "had had",
+        "d": "have had"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I wish I______more time to unwind myself.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 16- 20): Choose the correct tense of the verbs in the following sentences.",
+      "opts": {
+        "a": "is",
+        "b": "was",
+        "c": "were",
+        "d": "has been"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He acts as if he ______the boss.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 21 - 25) : Select the most appropriate meaning of the given idiom:",
+      "opts": {
+        "a": "Wasting resources",
+        "b": "Working late into the night",
+        "c": "Causing a scandal",
+        "d": "Celebrating a victory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Burning the midnight oil",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 21 - 25) : Select the most appropriate meaning of the given idiom:",
+      "opts": {
+        "a": "Doing something with less effort or expense",
+        "b": "Finishing something ahead of time",
+        "c": "Taking shortcuts that save time but maintain quality",
+        "d": "Delegating tasks to others"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cutting corners",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 21 - 25) : Select the most appropriate meaning of the given idiom:",
+      "opts": {
+        "a": "Take a break",
+        "b": "Celebrate success",
+        "c": "Ignore a problem",
+        "d": "Give up or admit defeat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Throw in the towel",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 21 - 25) : Select the most appropriate meaning of the given idiom:",
+      "opts": {
+        "a": "A quick decision",
+        "b": "A successful mission",
+        "c": "A pointless or hopeless pursuit",
+        "d": "An unexpected surprise"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A wild goose chase",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 21 - 25) : Select the most appropriate meaning of the given idiom:",
+      "opts": {
+        "a": "Agree with the majority",
+        "b": "Argue the opposite to test ideas",
+        "c": "Avoid confrontation",
+        "d": "Take credit for others’ work."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Play devil’s advocate",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 26 - 30): Select the best option that expresses the same meaning in Passive/",
+      "opts": {
+        "a": "We should have informed about the policy change",
+        "b": "We should have been informed about the policy change",
+        "c": "We must have been informed about the policy change",
+        "d": "We had informed about the policy change"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Someone should have informed us about the policy change.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 26 - 30): Select the best option that expresses the same meaning in Passive/",
+      "opts": {
+        "a": "The host was serving dinner before he arrived",
+        "b": "They served the guests dinner before the host arrived",
+        "c": "They had served dinner to the guests before the host arrived",
+        "d": "The guests were serving dinner before the host arrived"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The guests had been served dinner before the host arrived.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 26 - 30): Select the best option that expresses the same meaning in Passive/",
+      "opts": {
+        "a": "The technicians install a new system",
+        "b": "The technicians are installing a new system",
+        "c": "The technicians had installed a new system",
+        "d": "A new system is installing the technicians"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A new system is being installed by the technicians.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 26 - 30): Select the best option that expresses the same meaning in Passive/",
+      "opts": {
+        "a": "They should submit the documents by now",
+        "b": "They should submitted the documents now",
+        "c": "The documents have to be submitted now",
+        "d": "They should have submitted the documents by now"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The documents should have been submitted by now.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 26 - 30): Select the best option that expresses the same meaning in Passive/",
+      "opts": {
+        "a": "Extra tasks have been being given to the team lately by the manager",
+        "b": "The team was given extra tasks lately",
+        "c": "Extra tasks have given to the team lately",
+        "d": "The team is being given extra tasks lately by the manager"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The manager has been giving the team extra tasks lately .",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+      "opts": {
+        "a": "Agoraphobia",
+        "b": "Claustrophobia",
+        "c": "Xenophobia",
+        "d": "Nyctophobia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fear of confined spaces",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+      "opts": {
+        "a": "Cartographer",
+        "b": "Geographer",
+        "c": "Topographer",
+        "d": "Draftsman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who draws maps",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+      "opts": {
+        "a": "Ode",
+        "b": "Ballad",
+        "c": "Elegy",
+        "d": "Epigram"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A poem or speech of serious reflection, typically for the deceased.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+      "opts": {
+        "a": "Herbivore",
+        "b": "Carnivore",
+        "c": "Detritivore",
+        "d": "Omnivore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An animal that feeds on plants and animals.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+      "opts": {
+        "a": "Noctambulist",
+        "b": "Insomniac",
+        "c": "Somniloquist",
+        "d": "Narcoleptic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who walks in sleep",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+      "opts": {
+        "a": "Autism",
+        "b": "Spastic",
+        "c": "Insane",
+        "d": "Deranged"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person with a development disabitity caused by differences in the brain.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+      "opts": {
+        "a": "Lactose intolerance",
+        "b": "Photoallergic",
+        "c": "Anophylaxis",
+        "d": "Dust mite Allergy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Allergy to milk and milk product is-",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+      "opts": {
+        "a": "Nyctophobia",
+        "b": "Hypsophobia",
+        "c": "Aracnophobia",
+        "d": "Ophidiophobia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An irrational fear of heights is called-",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+      "opts": {
+        "a": "obsessive devotion for a famous singer",
+        "b": "religious, political ideological fanaticism",
+        "c": "a person who loses zeal in everything",
+        "d": "indolent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Zealotry is-",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+      "opts": {
+        "a": "a person who hates work",
+        "b": "a person who works compulsively",
+        "c": "a pedophile",
+        "d": "a cynophile"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A workaholic is-",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on **any one** of the topics in not more than 300 words:(20) -The importance of good communication skills in office work. -Work place ethics and professionalism. -Digital India: Opportunities and challenges.",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Read the following passage carefully and answer the question that follows. In every field of life—be it sports, academics, music, or business—the discussion of talent versus hard work often arises. Some people believe that natural talent is the primary reason for success, while others argue that hard work plays a far more significant role. Talent refers to the natural ability that one is born with. For example, a person may have a natural talent for singing or mathematics. Such individuals often learn things faster and perform better at an early stage. However, relying solely on talent without consistent effort can be a mistake. History is full of examples where talented individuals did not achieve great heights because they lacked dedication and discipline. On the contrary, many people with average ability have excelled through determination, constant practice, and hard work. One such example is Thomas Alva Edison, who had limited formal education but became one of the greatest inventors due to his perseverance. Hard work not only improves skills but also builds character. It teaches discipline, time management, and patience. While talent can give an initial advantage, it is hard work that sustains long-term success. Moreover, hard-working individuals tend to be more adaptable and better prepared to face challenges, making them valuable assets in both personal and professional life. Employers and organizations increasingly value employees who show commitment, persistence, and a willingness to learn. In today’s competitive world, talent alone is no longer enough. The combination of effort, attitude, and continuous learning often outweighs pure natural ability. In conclusion, while talent may open doors, it is hard work that keeps them open.",
+      "subparts": {
+        "a": "According to the passage, what is talent?(1)",
+        "b": "Why did some talented people not succeed as mentioned in the passage?(1)",
+        "c": "What do modern employers value most in employees?(1)",
+        "d": "Which of the following is **not** a benefit of hard work, according to the passage?(1) (i)Builds character(ii)Improves appearance (iii)Teaches time management(iv)Helps face challenges: (i)innate(ii)surpassed (i)failure(ii)rigid"
+      }
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 2,
+      "text": "Read the following passage carefully and write a precis in about one third of its length. Suggest a suitable title.(10) In our modern society, academic degrees are often seen as the primary measure of a person’s intelligence and capability. From an early age, students are encouraged to pursue higher education, with the promise that a degree will ensure a successful and prosperous future. Employers frequently prioritize candidates with formal qualifications, and society places high esteem on those who have studied at reputed institutions. However, this growing dependence on degrees has led to the undervaluation of something equally, if not more, important—common sense. Common sense refers to the ability to make sound judgments based on practical knowledge and everyday experiences. It is not something that can be taught in textbooks or classrooms. While education equips individuals with theoretical knowledge, it does not always prepare them for real-life challenges. Many highly educated people struggle when faced with everyday problems that require practical thinking, while others with little formal education navigate these situations with ease. For instance, a person might hold an advanced degree in business management but still lack the basic understanding of dealing with people or handling unforeseen circumstances. Moreover, common sense often leads to innovation and creativity. Some of the most successful entrepreneurs and leaders in history did not possess extensive formal education but excelled because of their sharp instincts, decision-making ability, and practical wisdom. This is not to undermine the value of education—it is undoubtedly important—but it should be complemented by real-world understanding. In conclusion, while a degree might open doors, common sense is what helps individuals make the most of those opportunities. Success in life is not solely determined by academic achievements, but also by one’s ability to think clearly, make wise choices, and respond effectively to challenges. Both education and common sense are valuable, but relying solely on degrees can be misleading.",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "A",
+      "page": 2,
+      "text": "Write a letter to the Municipal Corporation requesting the installation of street lights in your locality. (10)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q3 (p2, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p2, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

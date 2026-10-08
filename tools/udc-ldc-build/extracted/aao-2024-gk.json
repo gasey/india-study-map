@@ -1,0 +1,2109 @@
+{
+  "slug": "aao-2024-gk",
+  "exam": "Assistant Audit & Accounts Officer / Assistant Accounts Officer",
+  "sitting": "September 2024",
+  "subject": "General Knowledge",
+  "source": "Assistant Audit & Account Officer General Knowledge-2024...pdf",
+  "sourceSha256": "8a4d8941d775f845b7aabbd28a7ec2f8f490d3da2946c97c68ec5fa6e40190f0",
+  "ocr": true,
+  "count": 90,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NorthKorea—50Nos.",
+        "b": "India—180Nos.",
+        "c": "Pakistan—170Nos.",
+        "d": "China—500Nos."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AccordingtoStockholmInternationalPeaceResearchInstitute(SIPRI)Reportoncountrieswith nuclearweapons,whichofthefollowingstatementisnotcorrectlymatched?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "VijayDiwas",
+        "b": "ShauryaDiwas",
+        "c": "VeerDiwas",
+        "d": "BharatDiwas (a)210minutes(b)194minutes (c)189minutes(d)}190minutes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichdayiscelebratedtocommemoratethe76\"anniversaryofthelandingofIndianforcesin Kashmir?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BalamuraliKrishna(1)Hindustanivocal (c)KanyakumariI)Sitar",
+        "b": "-@),",
+        "c": "-D,",
+        "d": "-(IV) (b)(A)-(),(b)-GV),(c)-(ID,(d)-(I) (c)(A)-MV),(B)-@),(c)-(I),(d)-I) (d)(a)-@V),(b)-©),(c)-(i),(d)-(ID"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "MatchList]&ListI. ceAstist (Artist)(Mediumofmusicdelivery)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "heobtainspermissionfromtheprincipalofhiscollege",
+        "b": "heisamemberofapoliticalparty",
+        "c": "hisnamefiguresinthevoters’list",
+        "d": "hefilesadeclarationowingallegiancetotheConstitutionofIndia -2-*"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A22yearoldofcollegestudentdesirestogetelectedtotheMunicipalCouncilofhiscity.The validityofhisnominationwoulddependontheimportantcondition,amongothers,that:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Revoltof1857",
+        "b": "ChamparanSatyagraha(1917)",
+        "c": "KhilafatandNon-cooperationMovement(1919-22).",
+        "d": "AugustMovementof1942"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“InthisinstancewecouldnotplayofftheMohammedansagainsttheHindus”.Towhichoneofthe followingeventsdidthisremarkofAitchisonrelate?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TFUVSM",
+        "b": "QGSTQM",
+        "c": "TGVWTP",
+        "d": "TGRVSO"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inacertaincode,MARCHiswrittenasOCTEJ,howisRETURNwritteninthatcode?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ToauditandreportonallexpenditurefromtheConsolidatedFundofIndia",
+        "b": "ToauditandreportonallexpenditurefromtheContingencyFundsandPublicAccounts",
+        "c": "Toauditandreportonalltrading,manufacturing,profitandlossaccounts",
+        "d": "Tocontrolthereceiptandissueofpublicmoney,andtoensurethatthepublicrevenueis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichoneofthefollowingdutiesisNOTperformedbytheComptrollerandAuditorGeneralof India?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "89.90%",
+        "b": "89.12%",
+        "c": "84.53%",
+        "d": "84.35%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AspertheStateofIndia’sForestReport2021,percentageofforestcoverageinMizoramis:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Opennessandrestructuringrespectively",
+        "b": "Structuraladjustmentandeconomicreformsrespectively",
+        "c": "Inflationanddeflationrespectively",
+        "d": "Socialinclusionandsocialjusticerespectively:"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThemeaningofGlasnostandPerestroikais:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20\"February,2020",
+        "b": "10\"February,2020",
+        "c": "30%March,2020",
+        "d": "20\"March,2020"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhenwastheMizoramPublicProcurementRules2020introduced?.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Incus",
+        "b": "Stapes",
+        "c": "Femur",
+        "d": "Mallcus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthesebonesisnotapartofhumanear?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ATMtransactions",
+        "b": "QRcode",
+        "c": "POSterminal",
+        "d": "NFC"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthetermforusingsmartphonestomakecontactlesspayments?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TheSensexconsistsof30companies,whileNiftycomprises50companies.",
+        "b": "NIFTYwasintroducedbyNSEon21*April1996",
+        "c": "SensexfullformisStockExchangeSensitiveIndex",
+        "d": "BothNIFTYandSensexthesameindicesistheircalculationmethod"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingstatementisincorrect?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gold",
+        "b": "Silver",
+        "c": "Bronze",
+        "d": "Noneofthese -3-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "DeeptiJeevanjiwonwhichmedalinthewomen’s400mT20eventatthe2024ParisParalympics?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "UnitedNationsEnvironmentProgramme",
+        "b": "GlobalFootprintNetwork",
+        "c": "WorldWideFundforNature-India",
+        "d": "Greenpeace"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichorganizationrecentlylaunched“VultureCount2024”initiative?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mars",
+        "b": "Moon",
+        "c": "Saturn",
+        "d": "ArcticArea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "SeaofTranquilityislocatedinwhichofthefollowingplace?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "True",
+        "b": "PartlyTrue",
+        "c": "False",
+        "d": "Thestatementisincomplete"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InMoneyBill,RajyaSabhadoesnothavethepowertoamendorrejecttheMoneyBillandRajya SabhahasthepowertoamendorrejectFinancialBill.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TropicofCancerpassesthrough8statesincludingGujaratandMizoram",
+        "b": "TropicofCancerpassesthrough8statesincludingGoaandMizoram",
+        "c": "TropicofCancerpassesthrough8statesincludingBiharandMizoram",
+        "d": "TropicofCancerpassesthrough8statesincludingTelenganaandMizoram"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingoptionsregardingTheTropicofCanceriscorrect?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "42™Amendment",
+        "b": "44Amendment",
+        "c": "61*Amendment",
+        "d": "734Amendment (a)“We,thepeopleofIndia...”(b)“InthenameofGod...” (c)“Justice,Liberty,Equality...”(d)“India,thatisBharat...”"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichconstitutionalamendmentloweredthevotingagefrom21to18?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FinanceMinisterofIndia;LokSabha",
+        "b": "PrimeMinisterofIndia;RajyaSabha",
+        "c": "CabinetSecretary;BothLokSabhaandRajyaSabha",
+        "d": "PresidentofIndia;injointsessionofParliamnet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "UnionBudgetofIndiaispresentedbywhomandinwhichhouse/housesoftheParliament?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "LalengmawiaRalte",
+        "b": "JerryMawihmingthanga",
+        "c": "LallianzualaChhangte",
+        "d": "LalliansangaChhakchhuak"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhohasbeenappointedasthenewcaptainoftheISLClub,MumbaiCityFC?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only1iscorrect",
+        "b": "Only2iscorrect",
+        "c": "1&2arecorrect",
+        "d": "1,2and3arecorrect"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WithreferencetotheFreedomStruggleofIndia,whichofthefollowingis/arecorrectobservations? 1.PurnaSwarajyaResolutionwasadoptedbyINCinLahoreSession 2.GopalKrishnaGokhalewasfounderofServantsofIndiaSociety 3.TheChittagongArmoryraidandtemporarycaptureofporttownwereorganizedunderSuryaSen",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FiscalPolicy",
+        "b": "TradePolicy",
+        "c": "DirectControl",
+        "d": "MonetaryPolicy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The“InterestRatePolicy’isacomponentofwhichofthefollowingpolicies?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ensuringwatersupplyforfarmers",
+        "b": "Ensuringenergysecurityforfarmers",
+        "c": "CropInsuranceScheme",
+        "d": "SocialBenefitsSchemes -4-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "PM-KUSUM(PradhanMantriKisanUrjaSurakshaevamUtthaanMahabhiyan)isabout?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Politicalneutrality",
+        "b": "SocialSecurity",
+        "c": "EmploymentGeneration",
+        "d": "EconomicEmpowerment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mizoram’sBanaKaihpolicyaimstoaddresswhichofthefollowing?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Monkeypoxiscausedbythemonkeypoxvirus,whichisamemberofthesamefamilyasthe",
+        "b": "Thesourceofthediseaseisunknown,butit’sbelievedtohaveoriginatedinAfrica.Thefirst",
+        "c": "Thediseaseisnowcalledmpoxtoavoidtheracistanddiscriminatoryconnotationsofthe",
+        "d": "Youcangetmpoxfromclosecontactwithinfectedanduninfectedmonkeysonly."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingstatementsisincorrect:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Amentalhealthdisordercharacterizedbymoodswings",
+        "b": "Atypeofpost-traumaticstressdisorder",
+        "c": "Acognitivebiasaffectingdecision-making",
+        "d": "Apsychologicalresponsewherehostagesbondwiththeircaptors"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichtermbestdescribesStockholmSyndrome?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Itscitieswerehorizontallydividedinmultipleparts",
+        "b": "Itscitieswereunevenlydivided",
+        "c": "Itscitiesweredividedinto3paris",
+        "d": "Noneofthese"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichamongthefollowingisthemostuniquefeatureofDholavirasiteoftheIndusValleyCivilization?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SeleucusNicator",
+        "b": "Antiochus",
+        "c": "Ptolemy",
+        "d": "Magas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichGreekrulersentMegasthenesinthecourtofChandraguptaMaurya?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SustainableDevelopmentGoal10",
+        "b": "SustainableDevelopmentGoal4",
+        "c": "SustainableDevelopmentGoal5",
+        "d": "SustainableDevelopmentGoal7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThetargetofliteracycomesunderwhichSustainableDevelopmentGoal(SDG)?-",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "LondonStockExchange",
+        "b": "EuroStoxx50",
+        "c": "TRCanada50",
+        "d": "ShanghaiStockExchange"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indiahasofferedtoexploredirectlistingofitsbusinessesonwhichexchange?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Slovenia—Croatia",
+        "b": "CzechRepublic—Slovakia",
+        "c": "Russia—Kazakhstan",
+        "d": "Serbia—Kosovo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The“VelvetRevolution”,alsoknownasthe“GentleRevolution”,happenedinwhichnations?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Totalworkingpopulation",
+        "b": "Totalpopulationofthecountry",
+        "c": "Areaofthecountry",
+        "d": "Volumeofthecapitalused"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "PerCapitaIncomeofacountryisobtainedbydividingNationalIncomebywhichofthefollowing?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15-2",
+        "b": "2-2.5",
+        "c": "5-5.5",
+        "d": "9-9.5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "OnanaveragehowmanymillionRedBloodCellsarepresentinahealthyhumanadultmanpermm3 ofblood?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MajorLaldingliana",
+        "b": "MajorLaldingngheta",
+        "c": "MajorLaldingpuia",
+        "d": "MajorLaldinsanga -5-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhowasawardedSenaMedal(GallantryAward)fromMizoramrecently?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A,B,C,D,E",
+        "b": "D,E,A,B,C",
+        "c": "A,C,D,B,E",
+        "d": "E,A,D,C,B"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrangethefollowinginchronologicalorder: A.SovietinvasionofAfghanistanB.FalloftheBerlinWall C.DisintegrationoftheSovietUnionD.RussianRevolution E.EstablishmentofWarsawPact Choosethecorrectanswerfromtheoptionsgivenbelow:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Electron",
+        "b": "Proton",
+        "c": "Neutron",
+        "d": "Molecule"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingcanbedefinedasthesmallestparticleofanelementthatiscapableofan independentexistence?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Magneticforce",
+        "b": "Frictionalforce",
+        "c": "Muscularforce",
+        "d": "Electrostaticforce"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichcontactforceisresponsibleforchangingthestateofmotionofanobject?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PhaseI,theperiodbetween1901and1921:Duringthisperiod,Indiaexperiencedafluctuating butmoreorlessastagnantgrowthinpopulation.Thisperiodmarkedahighinboththebirth anddeathrates.",
+        "b": "PhaseII,theperiodbetween1921and1951:Thisperiodwitnessedaveryhightrendin populationgrowth.",
+        "c": "PhaseIL,theperiodbetween1951and1981:Itwasarapidhighgrowthperiodofpopulation explosioninIndia.",
+        "d": "PhaseIV,from198]totilldate:Indiacontinuestogrowinsize.But,itspaceofnetadditionis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’spopulationgrowthcanbeclassifiedintofourdistinctphases,whichofthefollowingisincorrect?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nagaland",
+        "b": "Meghalaya",
+        "c": "Mizoram",
+        "d": "ArunachalPradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thehighestpercentageoftribalpopulationtoitstotalpopulationasper2011censusisfoundin .whichthefollowingState?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only1and2",
+        "b": "Only1and3",
+        "c": "Only2",
+        "d": "Only2and3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ConsiderthefollowingstatementsregardingInter-StateCouncil:: 1.Itwassetupin1990ontherecommendationsofSarkariaCommission. 2.Thecouncilpromotescooperativefederalism. 3.UnionHomeMinisteristhechairmanofcouncil. Whichoftheabovestatement(s)is/arecorrect?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article14&15",
+        "b": "Article19&20",
+        "c": "Article20&21",
+        "d": "Article21&22"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whenaproclamationofemergencyisinoperation,therighttomoveacourtforenforcementofall fundamentalrightsremainssuspendedexcept?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2,08,633",
+        "b": "248,732",
+        "c": "1,99,230",
+        "d": "3,00,112 ~6-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AccordingtoMizoramStatisticalHandbook2022,decadalpopulationgrowth(1991-2011)ratein termsofabsolutetermis:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1,3and4",
+        "b": "1,2and4",
+        "c": "2only",
+        "d": "2and3only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WithreferencetothePradhanMantriShramYogiMaan-dhan(PM-SYM)Yojana,considerthe followingstatements: 1.Theentryagegroupforenrolmentintheschemeis21to40years. 2.Agespecificcontributionshallbemadebythebeneficiary. 3.Eachsubscriberundertheschemeshallreceiveaminimumpensionof%3,000permonthafter attainingtheageof60years. 4,Familypensionisapplicabletothespouseandunmarrieddaughters. Whichofthestatement(s)givenaboveis/arecorrect?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BuildtrustbetweenIndiaanditsneighbours",
+        "b": "InitiatedialoguewithallinsurgentgroupsinIndia",
+        "c": "UndertakedevelopmentactivitiesinNaxaldominatedareas",
+        "d": "Ensurefoodsecurity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The‘GujralDoctrine’relatestowhichoneofthefollowingissues?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BothStatement]andStatementIIarecorrectandStatementIIexplainsStatementI:",
+        "b": "BothStatementIandStatementIIarecorrect,butStatementIIdoesnotexplainStatementI",
+        "c": "Statement1iscorrect,butStatementI]isincorrect",
+        "d": "StatementTisincorrect,butStatementIIiscorrect"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Considerthefollowingstatements: StatementI:Recently,Venezuclahasachievedarapidrecoveryfromitseconomiccrisisand succeededinpreventingitspeoplefromfleeing/emigratingtoothercountries. StatementII:Venezuelahastheworld’slargestoilreserves.. Whichoneofthefollowingiscorrectinrespectoftheabovestatements?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "agovernmentofficerprohibitinghimfromtakingaparticularaction.",
+        "b": "theParliament/LegislativeAssemblytopassalawonProhibition.",
+        "c": "thelowercourtprohibitingcontinuationofproceedingsinacase.",
+        "d": "thegovernmentprohibitingitfromfollowinganunconstitutionalpolicy."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AwritofprohibitionisanorderissuedbytheSupremeCourtorHighCourtsto:",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CanadaandtheUnitedStatesofAmerica",
+        "b": "_ChileandArgentina",
+        "c": "ChinaandIndia",
+        "d": "KazakhstanandRussianFederation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thelongestborderbetweenanytwocountriesintheworldisbetween:",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "lonly",
+        "b": "2only",
+        "c": "Both1&2",
+        "d": "NeitherInor2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingis/arecorrectinference/inferencesfromisothermalmapsinthemonthofJanuary? 1.Theisothermsdeviatetothenorthoverthecontinent. 2.Thepresenceofcoldoceancurrents,GulfStreamandNorthAtlanticOceancolderandthe isothermsbendtowardthenorth. Selecttheanswerusingthecodegivenbelow:",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "JohnLalneihpuiaSailo",
+        "b": "PCDokunga",
+        "c": "JosephVanlalhruaiaSailo",
+        "d": "Chawnghmingliani -7-7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhowastherecipientofNationalAwardtoTeachers2024fromMizoram?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mauritius",
+        "b": "AfricanUnion",
+        "c": "Maldives",
+        "d": "Egypt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowinghasbeenrecentlyadmittedasthePermanentMemberofG20?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "greaterthanthespeedofsound",
+        "b": "lesserthanthespeedofsound",
+        "c": "equaltothespeedofsound",
+        "d": "greathtanethrespeedoflight (a)IndianInstituteofTropicalMeteorology(IITM),Pune (b)IndianInstituteofScience([[Sc),Bengaluru (c)IndianInstituteofManagement(IIM),Lucknow (d)SahaInstituteofNuclearPhysics"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sonicboomisproducedwhenasourceofsoundtravelsataspeed:",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "False",
+        "b": "True",
+        "c": "PartlyTrue",
+        "d": "Mizoramhas440lamofborderwithMyanmar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AsperMizoramStatisticalHandbook2022,Mizoramhas404kmofinternationalborderwith Myanmarand318kmwithBangladesh.Whichofthefollowingiscorrect?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "lonly",
+        "b": "2only",
+        "c": "3and4",
+        "d": "2and4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "OnJune21everyyear,whichofthefollowinglatitude(s)experience(s)asunlightofmorethan12 hours? 1.Equator2.TropicofCancer 3.TropicofCapricorn4.ArcticCircle Selectthecorrectanswerusingthecodegivenbelow:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pasighat",
+        "b": "Panvel",
+        "c": "Panisagar",
+        "d": "NeerMahal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "FromwhichtowntheproposedgaspipelinetoAizawlisbeingconstructed?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Football",
+        "b": "Hockey",
+        "c": "Golf",
+        "d": "Cricket"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheTermChinamanisrelatedtowhichsports?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MinistryofJalShakti",
+        "b": "MinistryofMSME",
+        "c": "MinistryofCommerceandIndustry",
+        "d": "MinistryofAgricultureandFarmersWelfare"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichUnionMinistryisassociatedwith‘GOBARdhan’scheme?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Acceptingtimedepositsasacourtesy",
+        "b": "Acceptingdemanddeposits",
+        "c": "Lending",
+        "d": "Acceptingloansandborrowings"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatdistinguishesabankfromotherfinancialinstitutions?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TheycanbereducedduringaFinancialEmergency.",
+        "b": "Theyareshownseparatelyinthebudget.",
+        "c": "TheyarechargedontheContingencyFundofIndia.",
+        "d": "Theydonotrequireanyparliamentsanction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingisnottrueregardingthepaymentoftheemolumentsofthePresident?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "JapanandSouthKorea",
+        "b": "USAandSouthKorea",
+        "c": "ChinaandRussia",
+        "d": "EgyptandIsrael -8-y"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichcountriesjointlyconductedajointanti-submarineexercisecalled‘SilentShark”?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Longitudinalwave",
+        "b": "Transversewave",
+        "c": "Raleighwave",
+        "d": "Lovewave"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichseismicwavemovesthematerialinacircularmotion?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1and2only",
+        "b": "2and3only",
+        "c": "land3only",
+        "d": "1,2and3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WithreferencetotheDigitalIndiaLandRecordsModernisationProgramme,considerthefollowing statements: 1.Toimplementthescheme,thecentralgovernmentprovides100%funding. 2.UndertheScheme,CadastralMapsaredigitised. 3.AninitiativehasbeenundertakentotransliteratetheRecordsofRightsfromlocallanguagesto anyofthelanguagesrecognizedbytheConstitutionofIndia. Whichofthestatementsgivenabovearecorrect?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only1",
+        "b": "Only1and3",
+        "c": "1,2and4",
+        "d": "1,2,3and4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Considerthefollowingstatements: 1.TheGulfofMannarseparatesIndiaandSriLanka 2.TheTuticorinporitslocatedneartheGulfofMannar 3.TheGulfofMannaristhefirstmarineBiosphereReserveofIndia 4.MannarIslandislocatedtotheNorth-eastoftheGulfofMannar Whichoftheabovestatement(s)is/arecorrect?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Art342",
+        "b": "Art344",
+        "c": "Art340",
+        "d": "Art339:"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichArticleoftheConstitutionempowersthePresidenttoappointaCommissiontoinvestigatethe conditionofbackwardclassesingeneralandsuggestameliorativemeasures?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "UnitedKingdom",
+        "b": "UnitedStatesofAmerica",
+        "c": "UnitedArabEmirates",
+        "d": "Canada"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "About6%ofthecountry’sGDPiscontributedbyIndiandiaspora.Whichcountryisthis?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only1&2",
+        "b": "Only2&3",
+        "c": "Only1&3",
+        "d": "1,2&3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingstatement(s)is/arecorrect,withrespecttodebentureholderandequityshare holder? 1,Equitysharesareapartofsharecapitalwhereasdebentureisapartofloan 2.Equityshareholderpossessownershiprightsinthecompanywhereasdebentureholdersdo notpossessownershiprights 3.Atthetimeofliquidation,debentureholdersaregivenpreferencesoverequityholders Selectthecorrectoptionfromthecodesgivenbelow:",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.5,000/-",
+        "b": "Rs.10,000/-",
+        "c": "Rs.15,000/-",
+        "d": "Rs,20,000/- -9-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatistheamountofoverdraftfacilitysanctionedunderPMJDYisclassifiedasMUDRAloans underPMMY?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Babur",
+        "b": "Jahangir",
+        "c": "ShahJahan",
+        "d": "Aurangzeb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Padshah-nama’(ChronicleoftheEmperor}writtenbyAbdulHamidLahori,istheofficialvisual historygivingadetailedaccountofthereignofwhichofthefollowingMughalEmperor?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rwanda",
+        "b": "Kenya",
+        "c": "Nigeria",
+        "d": "Uganda"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Recently,PaulKagamehasbeenelectedforthefourthtimeaspresidentofwhichcountry?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "LegBeforeWicket",
+        "b": "LeftBatsmanWrong",
+        "c": "LegBallWasted",
+        "d": "LostBatWinner"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Incricket,whatdoesLBWstandfor?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GeorgeLucas",
+        "b": "StevenSpielberg",
+        "c": "MichaelJordan",
+        "d": "KimKardashian"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AsperpublicationofbillionaireslistsbyForbes2024,whoamongthefollowingistherichestcelebrity intheworld?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FalklandIslands",
+        "b": "DiegoGarcia",
+        "c": "SouthGeorgia",
+        "d": "TristanDaCunha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatistheworld’sloneliestisland?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Russia",
+        "b": "Iran",
+        "c": "Turkey",
+        "d": "Iraq"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "DagestanRegion,recentlyseeninthenews,islocatedinwhichcountry?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1and2only",
+        "b": "2and3only",
+        "c": "1and3only",
+        "d": "1,2and3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingstatementsarecorrectabouttheConstitutionofIndia? 1,PowersoftheMunicipalitiesaregiveninPartIXAoftheConstitution :2.EmergencyprovisionsaregiveninPartXVIIIoftheConstitution 3.ProvisionsrelatedtotheamendmentoftheConstitutionaregiveninParXtXoftheConstitution. .Selectthecorrectanswerusingthecodegivenbelow:",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TheParliament,StateLegislatureandthepostsofthePresidentandtheVice-President",
+        "b": "TheParliament,StatelegislativeAssembliesandtheStateCouncil",
+        "c": "TheParliament",
+        "d": "TheParliamentandtheStateLegislativeAssemblies"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheElectionCommisionofIndiaholdselectionfor-",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rapidgrowthofaggregatedemandoutweighingsupply",
+        "b": "Sluggishgrowthofaggregatedemand",
+        "c": "Reductioninthemoneysupply",
+        "d": "Higherlevelsofunemployment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichoneofthefollowingsituationcanleadtoinflation?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "JusticeH.L.Dattu",
+        "b": "JusticeK.GBalakrishnan",
+        "c": "JusticeR.M.Lodha",
+        "d": "JusticeY.K.Sabharwal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhoamongthefollowingChiefJusticesofIndiaorderedtheConstitutionofaSpecialBenchcalled the‘SocialJusticeBench’?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CarnegieMellonUniversity",
+        "b": "StanfordUniversity",
+        "c": "ColumbiaUniversity",
+        "d": "HarvardUniversity -10-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichAmericanUniversityawardsPulitzerPrize?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kineticenergy=Potentialenergy",
+        "b": "Kineticenergy>Potentialenergy",
+        "c": "Kineticenergy>>Potentialenergy",
+        "d": "Kineticenergy<Potentialenergy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingrelationsbetweenKineticenergyandPotentialenergyistrueaboutsolids?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only1and2",
+        "b": "Only1and3",
+        "c": "Only2and3",
+        "d": "1,2and3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingstatementsarecorrect? 1,Thesoapmoleculesformstructurescalledmicelles. 2.Soapmiceliescannotscatterlight. 3.Oilydirtgetscollectedinthecentreofthemicelle. Selectthecorrectanswerfromthecodesgivenbelow:",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rudradaman|",
+        "b": "Jivadaman",
+        "c": "Damajadasri",
+        "d": "Jayadaman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichamongthefollowingrulerisknownforJunagadhRockInscription?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TangoAdigal",
+        "b": "Thiruvalluar:",
+        "c": "Avvaiyar",
+        "d": "Sattanar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhowrotetheTamilepicSilappadikaram?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9872",
+        "b": "8756",
+        "c": "8213",
+        "d": "8310"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AccordingtoEconomicSurveypublishedbyPlanning&ProgrammeImplementationDepartment. (2023-2024),howmanyMSMEsareregisteredinMizoram?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "EuropeanGoldenShoe",
+        "b": "FIFABallond’Or",
+        "c": "UEFAMen’sPlayeroftheYearAward",
+        "d": "ChampionsLeaguePlayeroftheYear"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthenameoftheprestigiousawardgiventothebestplayerintheworldeachyear?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TheTrojanWar",
+        "b": "ThePeloponnesianWar",
+        "c": "ThePersianWars",
+        "d": "TheMacedonianWars"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheIliadbyHomerprimarilyfocusesonaspecificperiodofwhichwar?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "LeaveNoOneBehind,CountEveryone",
+        "b": "Safeguardthehealthandrightsofwomenandgirls",
+        "c": "Genderequalityandreproductivehealth",
+        "d": "FamilyPlanningisaHumanRight"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthethemeof‘WorldPopulationDay2024\"?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "%2.00lakhpertransaction",
+        "b": "%3.00lakhpertransaction",
+        "c": "%4.00lakhpertransaction",
+        "d": "%5.00lakhpertransaction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "RBIhasincreasedtheUPIpaymentlimitfrom¥1.00lakhtohowmuch?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SmithophisMizorammensis",
+        "b": "SmithophisMizoramensis",
+        "c": "SmithophisMizomensis",
+        "d": "SmithophisMizoensis -i1-“"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AnewsnakespeciesdiscoveredinMizoraminAugust2024wasnamed-",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GovAeuditirng&nAccmounteingPnrocetdure",
+        "b": "GovAeuditringn&AcmcounetingnProtcess",
+        "c": "GeneralAuditing&AccountingPrinciples",
+        "d": "GenerallyAcceptedAccountingPrinciples"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "GAAPstandsfor-",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12,742km",
+        "b": "13,742km",
+        "c": "14,742km",
+        "d": "15,742km J"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatistheapproximatediameteroftheearth?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Source numbering gap before Q4: expected Q3; review the printed page.",
+    "Q14 (p2, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Source numbering gap before Q23: expected Q22; review the printed page.",
+    "Q25 (p3, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q47 (p5, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q49 (p6, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Source numbering gap before Q60: expected Q59; review the printed page.",
+    "Q63 (p7, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q73 (p8, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q88 (p10, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      3,
+      14,
+      22,
+      25,
+      47,
+      49,
+      59,
+      63,
+      73,
+      88
+    ]
+  }
+}

@@ -6,6 +6,8 @@ import { BANK_ID, SECTION_COLOUR, isAnswerable, optionLetter, sectionOf } from '
 import { QuestionText } from './QuestionText';
 import { QuestionImage } from './QuestionImage';
 import { QuestionReviewPanel } from '@/modules/mpsc/QuestionReviewPanel';
+import { groupBGeneralPapers } from '@/data/banks/mpsc-group-b-general';
+import { AnswerSources } from './AnswerSources';
 import { useFlags } from './useFlags';
 
 // ============================================
@@ -82,6 +84,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
   const answered = picked !== null;
   const correct = answered && picked === q.answerIndex;
   const prior = progress[q.id];
+  const groupBPaper = groupBGeneralPapers.find((paper) => paper.id === q.paperId);
 
   const choose = (idx: number) => {
     if (answered) return;
@@ -163,6 +166,11 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
         {q.source && (
           <div style={{ fontSize: 11.5, opacity: 0.65, marginBottom: 9 }}>{q.source}</div>
         )}
+        {(q.sourceHref || groupBPaper?.sourceFile) && (
+          <a href={q.sourceHref || groupBPaper?.sourceFile} target="_blank" rel="noreferrer" style={{ display: 'inline-block', fontSize: 12, marginBottom: 9 }}>
+            Open printed paper ↗
+          </a>
+        )}
         {q.direction && (
           <div style={{ fontSize: 12.5, fontWeight: 600, marginBottom: 7, color: 'var(--text-secondary, #666)' }}>
             {q.direction}
@@ -229,6 +237,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
 
         {answered && (
           <div style={{ marginTop: 14 }}>
+            {q.paperId?.startsWith('mpsc-group-b-') && <AnswerSources q={q} />}
             <div style={{ fontWeight: 700, color: correct ? 'var(--ok, #2e9e5b)' : 'var(--bad, #c4462f)' }}>
               {correct ? 'Correct' : `Not quite — the answer is (${optionLetter(q.answerIndex)})`}
             </div>
@@ -264,7 +273,13 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
             )}
             {q.answerKeyRef ? (
               <p style={{ margin: '6px 0 0', fontSize: 11.5, opacity: 0.6 }}>
-                Source: {q.answerKeyRef}
+                {q.answerKeyRef.startsWith('/')
+                  ? <a href={q.answerKeyRef} target="_blank" rel="noreferrer">MPSC final answer key ↗</a>
+                  : `Source: ${q.answerKeyRef}`}
+                {q.independentAnswerIndex !== undefined && (
+                  <> · Independent solution: {optionLetter(q.independentAnswerIndex).toUpperCase()}
+                    {q.independentAnswerIndex === q.answerIndex ? ' (agrees)' : ' (differs)'}</>
+                )}
               </p>
             ) : q.answerSource === 'transcribed' ? (
               /* Not ours and not the Commission's: a transcription of the
@@ -281,7 +296,9 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
               /* No published key for this sitting — say so, and say how sure
                  the solver was. Graded accuracy: high 97-98%, medium 44%. */
               <p style={{ margin: '6px 0 0', fontSize: 11.5, opacity: 0.6 }}>
-                No MPSC key exists for this paper — this answer was worked out
+                {q.independentAnswerSource === 'transcribed'
+                  ? 'No matching MPSC key is attached. This study transcription is provisional'
+                  : 'No matching MPSC key is attached to this paper — this answer was worked out'}
                 {q.answerConfidence ? `, stated confidence: ${q.answerConfidence}` : ''}.
               </p>
             )}

@@ -1,0 +1,247 @@
+{
+  "_evidence": "December 2024 Paper II Series B questions 49–65, pages 7–9. Series A shifts these items by +35. Anchor B48 = A83 and the final key answers agree across all 17 recovered entries. Source wording and option order checked on rendered pages.",
+  "questions": [
+    {
+      "htmlNum": 84,
+      "part": "Paper-II",
+      "question": "Three partners shared the profit in a business in the ratio 5 : 7 : 8. They had partnered for 14 months, 8 months and 7 months respectively. What was the ratio of their investments?",
+      "options": [
+        "5 : 7 : 8",
+        "20 : 49 : 64",
+        "38 : 28 : 21",
+        "None of these"
+      ],
+      "answerIndex": 1,
+      "explanation": "Investment is proportional to profit divided by time: 5/14 : 7/8 : 8/7. Multiplying by 56 gives 20 : 49 : 64.",
+      "sourcePage": 7
+    },
+    {
+      "htmlNum": 85,
+      "part": "Paper-II",
+      "question": "Which of the following sets is different from the others?",
+      "options": [
+        "3, 11, 13, 17",
+        "7, 14, 18, 37",
+        "3, 5, 41, 47",
+        "3, 7, 17, 71"
+      ],
+      "answerIndex": 1,
+      "explanation": "All numbers in the other three sets are prime. This set contains the composite numbers 14 and 18.",
+      "sourcePage": 8
+    },
+    {
+      "htmlNum": 86,
+      "part": "Paper-II",
+      "question": "If × stands for +, ÷ stands for −, − stands for × and + stands for ÷, find the value of 54 ÷ 16 − 3 × 6 + 2.",
+      "options": [
+        "9",
+        "12",
+        "8",
+        "15"
+      ],
+      "answerIndex": 0,
+      "explanation": "Replace the symbols to obtain 54 − 16 × 3 + 6 ÷ 2 = 54 − 48 + 3 = 9.",
+      "sourcePage": 8
+    },
+    {
+      "htmlNum": 87,
+      "part": "Paper-II",
+      "question": "In the given diagram, circle represents athletes, square represents tall men and triangle represents bank officers. Which region represents bank officers who are athletes?",
+      "options": [
+        "P and M",
+        "P",
+        "Q",
+        "P and Q"
+      ],
+      "answerIndex": 3,
+      "explanation": "The intersection of the triangle and circle contains regions P and Q; being tall is not required.",
+      "sourcePage": 8
+    },
+    {
+      "htmlNum": 88,
+      "part": "Paper-II",
+      "question": "In a certain code language, 481 means ‘sky is blue’, 246 means ‘sea is deep’ and 698 means ‘sea looks blue’. What number is the code for ‘blue’?",
+      "options": [
+        "1",
+        "6",
+        "8",
+        "9"
+      ],
+      "answerIndex": 2,
+      "explanation": "The first and third phrases share only ‘blue’; their number groups share only 8.",
+      "sourcePage": 8
+    },
+    {
+      "htmlNum": 89,
+      "part": "Paper-II",
+      "question": "If the following words are arranged in reverse order of dictionary arrangement, which word would come at the third place?",
+      "options": [
+        "Oculist",
+        "Odium",
+        "Odious",
+        "Ordeum"
+      ],
+      "answerIndex": 2,
+      "explanation": "With the words as printed, reverse dictionary order is Ordeum, Odium, Odious, Oculist. The third is Odious.",
+      "sourcePage": 8
+    },
+    {
+      "htmlNum": 90,
+      "part": "Paper-II",
+      "question": "If A is brother of B, C is father of D, E is mother of B, and A and D are brothers, what is the relation of E to C?",
+      "options": [
+        "Sister",
+        "Sister-in-law",
+        "Niece",
+        "Wife"
+      ],
+      "answerIndex": 3,
+      "explanation": "A, B and D are siblings. E is their mother and C is D’s father, so the intended relation is wife.",
+      "sourcePage": 8
+    },
+    {
+      "htmlNum": 91,
+      "part": "Paper-II",
+      "question": "How many triangles are there in the figure below?",
+      "options": [
+        "20",
+        "27",
+        "18",
+        "29"
+      ],
+      "explanation": "Count by size: 8 smallest triangles, 4 of the next size, 4 larger triangles and 4 half-square triangles. Total = 20.",
+      "sourcePage": 8,
+      "answerIndex": 0
+    },
+    {
+      "htmlNum": 92,
+      "part": "Paper-II",
+      "question": "Six persons P, Q, R, S, T and U sit in a circle facing one another. P is opposite Q. Q is to the right of T and left of R. P is to the left of U and right of S. Who is opposite S?",
+      "options": [
+        "U",
+        "T",
+        "R",
+        "None of these"
+      ],
+      "answerIndex": 1,
+      "explanation": "A circular order consistent with the inward-facing directions is Q, T, U, P, S, R. S is opposite T.",
+      "sourcePage": 8
+    },
+    {
+      "htmlNum": 93,
+      "part": "Paper-II",
+      "question": "Six persons P, Q, R, S, T and U sit in a circle facing one another. P is opposite Q. Q is to the right of T and left of R. P is to the left of U and right of S. Who sits between P and R?",
+      "options": [
+        "S",
+        "T",
+        "U",
+        "Q"
+      ],
+      "answerIndex": 0,
+      "explanation": "In the circular order Q, T, U, P, S, R, S sits between P and R.",
+      "sourcePage": 9
+    },
+    {
+      "htmlNum": 94,
+      "part": "Paper-II",
+      "question": "Six persons P, Q, R, S, T and U sit in a circle facing one another. P is opposite Q. Q is to the right of T and left of R. P is to the left of U and right of S. If P and R exchange positions, who sits between S and U?",
+      "options": [
+        "P",
+        "R",
+        "Q",
+        "T"
+      ],
+      "answerIndex": 1,
+      "explanation": "The order becomes Q, T, U, R, S, P after exchanging P and R. R sits between U and S.",
+      "sourcePage": 9
+    },
+    {
+      "htmlNum": 95,
+      "part": "Paper-II",
+      "question": "By looking in a mirror, it appears that it is 6:30 in the clock. What is the real time?",
+      "options": [
+        "6:30",
+        "5:30",
+        "6:00",
+        "5:50"
+      ],
+      "answerIndex": 1,
+      "explanation": "For a standard clock, mirror time is obtained by subtracting from 11:60. 11:60 − 6:30 = 5:30.",
+      "sourcePage": 9
+    },
+    {
+      "htmlNum": 96,
+      "part": "Paper-II",
+      "question": "What is the angle between the hour hand and minute hand when the clock shows 8:30 pm?",
+      "options": [
+        "90°",
+        "75°",
+        "60°",
+        "85°"
+      ],
+      "answerIndex": 1,
+      "explanation": "The minute hand is at 180°. The hour hand is at 8 × 30° + 30 × 0.5° = 255°. Their smaller angle is 75°.",
+      "sourcePage": 9
+    },
+    {
+      "htmlNum": 97,
+      "part": "Paper-II",
+      "question": "X is east of Y, which is north of Z. If P is east of Z, in which direction of X is P?",
+      "options": [
+        "South-West",
+        "South-East",
+        "South",
+        "West"
+      ],
+      "answerIndex": 2,
+      "explanation": "The intended diagram places X and P the same distance east of Y and Z respectively, so P is south of X. The paper does not specify those distances.",
+      "sourcePage": 9
+    },
+    {
+      "htmlNum": 98,
+      "part": "Paper-II",
+      "question": "If hockey is called football, football is called badminton, badminton is called cricket, cricket is called tennis, tennis is called squash, and squash is called hockey, with which game is Lallianzuala Chhangte associated?",
+      "options": [
+        "Badminton",
+        "Hockey",
+        "Squash",
+        "Cricket"
+      ],
+      "answerIndex": 0,
+      "explanation": "He plays football, and the renamed word for football in the question is badminton.",
+      "sourcePage": 9
+    },
+    {
+      "htmlNum": 99,
+      "part": "Paper-II",
+      "question": "Assertion (A): Inside the Earth metals are present in molten state. Reason (R): Earth absorbs the Sun’s rays. Choose the correct option.",
+      "options": [
+        "Both A and R are true and R correctly explains A",
+        "Both A and R are true but R does not explain A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "explanation": "Independent reasoning gives B: the outer core contains liquid iron and nickel, and Earth also absorbs sunlight. Solar absorption does not explain the molten outer core. MPSC’s final key instead gives C; the official answer is retained for scoring.",
+      "sourcePage": 9,
+      "answerIndex": 1,
+      "evidence": [
+        "https://pubs.usgs.gov/gip/dynamic/inside.html",
+        "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/"
+      ]
+    },
+    {
+      "htmlNum": 100,
+      "part": "Paper-II",
+      "question": "Select the related pair: Cloth : Texture :: ?",
+      "options": [
+        "Body : Weight",
+        "Silk : Cloth",
+        "Wood : Grains",
+        "Ornaments : Gold"
+      ],
+      "answerIndex": 2,
+      "explanation": "Texture describes the surface pattern of cloth; grain describes the natural pattern of wood.",
+      "sourcePage": 9
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+[
+  {
+    "id": "mpsc-group-b-ng-technical-2024-gk",
+    "exam": "Group B technical (general paper)",
+    "sitting": "November 2024",
+    "subject": "General Knowledge",
+    "sourceHref": "/papers/group-b/Group B(NG) (Technical)Paper-II (General Knowledge)-2024..pdf",
+    "keyHref": null,
+    "imported": true,
+    "expectedMcq": 100
+  },
+  {
+    "id": "mpsc-group-b-ng-2024-paper-2-a",
+    "exam": "Group B (non-gazetted)",
+    "sitting": "December 2024",
+    "subject": "Basic Computer, Arithmetic & Reasoning",
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf",
+    "keyHref": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
+    "imported": true,
+    "expectedMcq": 100
+  },
+  {
+    "id": "mpsc-group-b-ng-2024-paper-1-a",
+    "exam": "Group B (non-gazetted)",
+    "sitting": "December 2024",
+    "subject": "General Knowledge & English",
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-I December-2024 Booklet A..pdf",
+    "keyHref": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
+    "imported": true,
+    "expectedMcq": 75
+  },
+  {
+    "id": "mpsc-group-b-inspector-stats-2026-p1",
+    "exam": "Inspector of Statistics",
+    "sitting": "March 2026",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-inspector-stats-2026-p2",
+    "exam": "Inspector of Statistics",
+    "sitting": "March 2026",
+    "subject": "General Knowledge & General Mathematics",
+    "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-inspector-stats-2017-english",
+    "exam": "Inspector of Statistics",
+    "sitting": "February 2017",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/inspector-stats-2017-english.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-steno2-2015-english",
+    "exam": "Stenographer Grade II, DP&AR",
+    "sitting": "2015",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/steno2-2015-english.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-steno2-2015-gk",
+    "exam": "Stenographer Grade II, DP&AR",
+    "sitting": "2015",
+    "subject": "General Knowledge",
+    "sourceHref": "/papers/group-b/steno2-2015-gk.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-technical-2024-p1",
+    "exam": "Group B technical common exam",
+    "sitting": "November 2024",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/technical-2024-p1.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english",
+    "exam": "Assistant Audit & Accounts Officer / Assistant Accounts Officer",
+    "sitting": "September 2024",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf",
+    "keyHref": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "imported": true,
+    "correctionHref": "/papers/group-b/keys/corrigendum-of-final-answer-key-for-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf",
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-gk",
+    "exam": "Assistant Audit & Accounts Officer / Assistant Accounts Officer",
+    "sitting": "September 2024",
+    "subject": "General Knowledge",
+    "sourceHref": "/papers/group-b/aao-2024-gk.pdf",
+    "keyHref": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=2",
+    "imported": true,
+    "correctionHref": "/papers/group-b/keys/corrigendum-of-final-answer-key-for-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf",
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic",
+    "exam": "Assistant Audit & Accounts Officer / Assistant Accounts Officer",
+    "sitting": "September 2024",
+    "subject": "Arithmetic",
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf",
+    "keyHref": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "imported": true,
+    "correctionHref": "/papers/group-b/keys/corrigendum-of-final-answer-key-for-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf",
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-jao-2025-p1",
+    "exam": "District Organiser / Junior Accounts Officer",
+    "sitting": "January 2025",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/jao-2025-p1.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-jao-2025-p2",
+    "exam": "District Organiser / Junior Accounts Officer",
+    "sitting": "January 2025",
+    "subject": "General Knowledge & Reasoning",
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-asi-2024-p1",
+    "exam": "Assistant Sub-Inspector of Police (Ministerial)",
+    "sitting": "November 2024",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/asi-2024-p1.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-asi-2024-p2",
+    "exam": "Assistant Sub-Inspector of Police (Ministerial)",
+    "sitting": "November 2024",
+    "subject": "General Knowledge & Reasoning",
+    "sourceHref": "/papers/group-b/asi-2024-p2.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-steno-2024-english",
+    "exam": "Stenographer Grade III, DP&AR",
+    "sitting": "November 2024",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/steno-2024-english.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-steno-2024-gk",
+    "exam": "Stenographer Grade III, DP&AR",
+    "sitting": "November 2024",
+    "subject": "General Knowledge",
+    "sourceHref": "/papers/group-b/steno-2024-gk.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-english",
+    "exam": "Stenographer Grade III, Lokayukta",
+    "sitting": "March 2025",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/steno-2025-english.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-gk",
+    "exam": "Stenographer Grade III, Lokayukta",
+    "sitting": "March 2025",
+    "subject": "General Knowledge",
+    "sourceHref": "/papers/group-b/steno-2025-gk.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-steno2-2025-p1",
+    "exam": "Stenographer Grade II, MPSC",
+    "sitting": "May 2025",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/steno2-2025-p1.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-je-2016-english",
+    "exam": "Junior Engineer, PHE & PWD",
+    "sitting": "April 2016",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/je-2016-english.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-je-2025-english",
+    "exam": "Junior Engineer, LAD, PWD & I&WR",
+    "sitting": "April 2025",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/je-2025-english.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-je-2025-gk",
+    "exam": "Junior Engineer, LAD, PWD & I&WR",
+    "sitting": "April 2025",
+    "subject": "General Knowledge",
+    "sourceHref": "/papers/group-b/je-2025-gk.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-je-agri-2026-p1",
+    "exam": "Junior Engineer, Agriculture & Farmer Welfare",
+    "sitting": "March 2026",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/je-agri-2026-p1.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p1",
+    "exam": "Sub-Inspector of Excise & Narcotics",
+    "sitting": "August 2024",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2",
+    "exam": "Sub-Inspector of Excise & Narcotics",
+    "sitting": "August 2024",
+    "subject": "General Knowledge",
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p1",
+    "exam": "Sub-Inspector of Excise & Narcotics",
+    "sitting": "April 2025",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf",
+    "keyHref": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf",
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2",
+    "exam": "Sub-Inspector of Excise & Narcotics",
+    "sitting": "April 2025",
+    "subject": "General Knowledge & Reasoning",
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf",
+    "keyHref": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf",
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-si-fcs-2025-p1",
+    "exam": "Sub-Inspector FCS&CA / Receptionist H&FW",
+    "sitting": "May 2025",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/si-fcs-2025-p1.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-si-fcs-2025-p2",
+    "exam": "Sub-Inspector FCS&CA / Receptionist H&FW",
+    "sitting": "May 2025",
+    "subject": "General Knowledge, Arithmetic & Reasoning",
+    "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-aao-2025-p1",
+    "exam": "AAO / AAAO / Field Facilitator",
+    "sitting": "November 2025",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/aao-2025-p1.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-aao-2025-p2",
+    "exam": "AAO / AAAO / Field Facilitator",
+    "sitting": "November 2025",
+    "subject": "General Knowledge, Arithmetic & Reasoning",
+    "sourceHref": "/papers/group-b/aao-2025-p2.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-mvi-2025-p1",
+    "exam": "Motor Vehicle Inspector",
+    "sitting": "September 2025",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/mvi-2025-p1.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-mvi-2025-p2",
+    "exam": "Motor Vehicle Inspector",
+    "sitting": "September 2025",
+    "subject": "General Knowledge",
+    "sourceHref": "/papers/group-b/mvi-2025-p2.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-hfw-2026-p1",
+    "exam": "Group B technical common exam, Health & Family Welfare",
+    "sitting": "January 2026",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/hfw-2026-p1.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-hfw-2026-p2",
+    "exam": "Group B technical common exam, Health & Family Welfare",
+    "sitting": "January 2026",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/hfw-2026-p2.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-radio-2026-p1",
+    "exam": "Radiotherapy Technologist",
+    "sitting": "April 2026",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/radio-2026-p1.pdf",
+    "keyHref": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=1",
+    "imported": true,
+    "expectedMcq": 60,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-radio-2026-p2",
+    "exam": "Radiotherapy Technologist",
+    "sitting": "April 2026",
+    "subject": "General Knowledge",
+    "sourceHref": "/papers/group-b/radio-2026-p2.pdf",
+    "keyHref": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-si-police-2026-p1",
+    "exam": "Sub-Inspector of Police (Un-armed Branch)",
+    "sitting": "March 2026",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/si-police-2026-p1.pdf",
+    "keyHref": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "imported": true,
+    "expectedMcq": 60,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-si-police-2026-p2",
+    "exam": "Sub-Inspector of Police (Un-armed Branch)",
+    "sitting": "March 2026",
+    "subject": "General Knowledge & Reasoning",
+    "sourceHref": "/papers/group-b/si-police-2026-p2.pdf",
+    "keyHref": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-jao-2026-p1",
+    "exam": "Junior Accounts Officer (JAO)",
+    "sitting": "July 2026",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf",
+    "keyHref": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
+    "imported": true,
+    "expectedMcq": 65
+  },
+  {
+    "id": "mpsc-group-b-jao-2026-p2",
+    "exam": "Junior Accounts Officer (JAO)",
+    "sitting": "July 2026",
+    "subject": "General Knowledge, Arithmetic & Reasoning",
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf",
+    "keyHref": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "imported": true,
+    "expectedMcq": 100
+  },
+  {
+    "id": "mpsc-group-b-co-2026-p1",
+    "exam": "Circle Officer",
+    "sitting": "April 2026",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf",
+    "keyHref": "/papers/group-b/keys/co-2026-final-key.pdf#page=1",
+    "imported": true,
+    "expectedMcq": 62
+  },
+  {
+    "id": "mpsc-group-b-co-2026-p2",
+    "exam": "Circle Officer",
+    "sitting": "April 2026",
+    "subject": "General Knowledge, Arithmetic & Reasoning",
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf",
+    "keyHref": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "imported": true,
+    "expectedMcq": 100
+  },
+  {
+    "id": "mpsc-group-b-si-stats-2026-p1",
+    "exam": "Sub-Inspector of Statistics",
+    "sitting": "January 2026",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf",
+    "keyHref": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "imported": true,
+    "expectedMcq": 50
+  },
+  {
+    "id": "mpsc-group-b-si-stats-2026-p2",
+    "exam": "Sub-Inspector of Statistics",
+    "sitting": "January 2026",
+    "subject": "General Mathematics & General Knowledge",
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf",
+    "keyHref": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "imported": true,
+    "expectedMcq": 100
+  },
+  {
+    "id": "mpsc-group-b-ri-2026-p1",
+    "exam": "Research Investigator",
+    "sitting": "May 2026",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf",
+    "keyHref": "/papers/group-b/keys/ri-2026-final-key.pdf#page=1",
+    "imported": true,
+    "expectedMcq": 60
+  },
+  {
+    "id": "mpsc-group-b-ri-2026-p2",
+    "exam": "Research Investigator",
+    "sitting": "May 2026",
+    "subject": "General Knowledge, Aptitude & Reasoning",
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf",
+    "keyHref": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "imported": true,
+    "expectedMcq": 100
+  }
+]

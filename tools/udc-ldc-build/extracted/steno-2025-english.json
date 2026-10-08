@@ -1,0 +1,1682 @@
+{
+  "slug": "steno-2025-english",
+  "exam": "Stenographer Grade III, Lokayukta",
+  "sitting": "March 2025",
+  "subject": "General English",
+  "source": "Stenographer Grade-III General English March-2025..pdf",
+  "sourceSha256": "1a29d62a93a22d172bafdf370942b86e6a5051033a41adaff215ec0a367f55b0",
+  "ocr": true,
+  "count": 72,
+  "questions": [
+    {
+      "n": 2,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "ThenaturalshiftsinEarth’sclimatecycles",
+        "b": "Excessiveemissionofgreenhousegasesduetohumanactivities",
+        "c": "Thedepletionoftheozonelayer",
+        "d": "Increasedvolcanicactivity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatistheprimaryfactorcontributingtoclimatechange,asmentionedinthepassage?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Expansionofhabitablelandforhumansettlements.",
+        "b": "Decreasedsealevels,exposingmorecoastalland",
+        "c": "Risingsealevels,leadingtothreatsforcoastalcommunities",
+        "d": "Adecreaseinthesalinityofoceans,makingthemmoresuitableformarinelife"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisoneofthemajorconsequencesofpolaricecapmelting?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Routine",
+        "b": "Novel",
+        "c": "Predictable",
+        "d": "Insignificant"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthesynonymof‘unprecedented’inthecontextofthepassage?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Enigma",
+        "b": "Event:",
+        "c": "Object",
+        "d": "Myth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatistheclosestsynonymof‘phenomenon’inthispassage?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Hopeful",
+        "b": "Harmless",
+        "c": "Threatening",
+        "d": "Promising: -3-,"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthebestsynonymfor‘ominous’inthepassage?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Sporadic",
+        "b": "Ceaseless",
+        "c": "Temporary",
+        "d": "Terminating"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichwordcanreplace‘incessant’whilemaintainingthemeaning?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Ithelpscounteracttheeffectsofdigitaldistractionsandsuperficialcontent",
+        "b": "Itreplacesallformsofdigitalmedia",
+        "c": "Itdiscouragestheuseofmoderntechnology",
+        "d": "Itonlybenefitsoldergenerations"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Accordingtothepassage,whyisreadingparticularlyimportantinthedigitalera?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Readingisaleisureactivitywithminimalimpact",
+        "b": "Readingisafundamentalpracticeforintellectualandpersonalgrowth",
+        "c": "Booksareoutdatedandshouldbereplacedbydigitalmedia",
+        "d": "Readingfictionismorebeneficialthannon-fiction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthemainargumentpresentedinthepassage?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Itisanineffectivewaytocopewithstress",
+        "b": "Itonlybenefitshighlyinteilectualreaders",
+        "c": "Itprovidescomfortandhelpsindividualsnavigatepersonalstruggles",
+        "d": "Itcausesemotionaldetachmentfromreality"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatdoesthepassagesuggestabouttheemotionalbenefitsofreading?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Itisolatesreadersfromsociety--",
+        "b": "Itimproveslinguisticskillsandcriticalthinking",
+        "c": "Itlimitsexposuretonewideas",
+        "d": "Itreducescreativity -4-7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisoneofthemajorintellectualbenefitsofreading,asstatedinthepassage?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Ordinary",
+        "b": "Extraordinary",
+        "c": "Dull",
+        "d": "Routine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatistheoppositeof‘mundane’inthepassage?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Praiseworthy",
+        "b": "Commendable",
+        "c": "Disgraceful",
+        "d": "Respectable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatistheantonymof‘laudable’asusedinthepassage?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "opts": {
+        "a": "Worsen",
+        "b": "Improve",
+        "c": "Deteriorate",
+        "d": "Exacerbate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichwordcanreplace‘ameliorate’whilemaintainingthemeaninginthepassage?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "opts": {
+        "a": "noun",
+        "b": "verb",
+        "c": "adverb",
+        "d": "adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Stiilwatersrundeep.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "opts": {
+        "a": "adverb",
+        "b": "verb",
+        "c": "adjective",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Itweighsaboutakilogram.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "opts": {
+        "a": "adjective",
+        "b": "noun",
+        "c": "adverb",
+        "d": "conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sitdownandrestawhile.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "opts": {
+        "a": "preposition",
+        "b": "noun",
+        "c": "verb",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theywhileawaytheireveningswithbooksandgames.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "verb",
+        "d": "adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theaftereffectsofthedrugarebad.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "opts": {
+        "a": "Subordinatingconjunction",
+        "b": "preposition",
+        "c": "Coordinatingconjunction",
+        "d": "adverb."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Althoughhewastired,hecontinuedworking.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "opts": {
+        "a": "Relativepronoun",
+        "b": "Demonstrativeadjective",
+        "c": "Conjunction",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thebookthatsheborrowedwasveryinteresting.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "opts": {
+        "a": "Conjunctiveadverb",
+        "b": "Coordinatingconjunction",
+        "c": "Subordinatingconjunction",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shewantedtogototheparty;however,shehadtostudy.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Verb",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hewasreluctanttojointhediscussion.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "opts": {
+        "a": "Demonstrativepronoun",
+        "b": "Indefinitepronoun",
+        "c": "Reflexivepronoun",
+        "d": "Relativepronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HecompletedtheprojectbyHimself.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.26-30):Completethefollowingsentenceswiththemostsuitablealternative",
+      "opts": {
+        "a": "nevermanaged",
+        "b": "havenevermanaged",
+        "c": "willhavenevermanaged",
+        "d": "hadnevermanaged"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mentoabolishwaruptonow,butmaybetheywillfindawayinthefuture.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.26-30):Completethefollowingsentenceswiththemostsuitablealternative",
+      "opts": {
+        "a": "ischanging",
+        "b": "changed",
+        "c": "haschanged",
+        "d": "hadchanged"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thecityitsappearancecompletelysince2016.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.26-30):Completethefollowingsentenceswiththemostsuitablealternative",
+      "opts": {
+        "a": "appears",
+        "b": "isappearing",
+        "c": "hasappeared",
+        "d": "wasappearing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThisarticletwiceweeklyinVanglaininewspaper.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.26-30):Completethefollowingsentenceswiththemostsuitablealternative",
+      "opts": {
+        "a": "iskeeping",
+        "b": "waskeeping",
+        "c": "keeps",
+        "d": "keep"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Apairofwoolensockstewarmallthroughthewinter.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.26-30):Completethefollowingsentenceswiththemostsuitablealternative",
+      "opts": {
+        "a": "is",
+        "b": "are",
+        "c": "has",
+        "d": "have"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neitherfoodnorwatergiventothewearyworkers.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-35):Completethefollowingsentenceswiththemostsuitablepreposition",
+      "opts": {
+        "a": "Overthecourseof",
+        "b": "Inthecourseof",
+        "c": "On",
+        "d": "With"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "themeeting,severalimportantissueswerediscussed.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-35):Completethefollowingsentenceswiththemostsuitablepreposition",
+      "opts": {
+        "a": "hh",
+        "b": "Inthelightof",
+        "c": "On",
+        "d": "Atthelightof"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "recentevents,newpolicieshavebeenintroduced.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-35):Completethefollowingsentenceswiththemostsuitablepreposition",
+      "opts": {
+        "a": "into",
+        "b": "at",
+        "c": "n",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thescientistspecializesmolecularbiology.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-35):Completethefollowingsentenceswiththemostsuitablepreposition",
+      "opts": {
+        "a": "With",
+        "b": "For",
+        "c": "By",
+        "d": "Over."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "referencetoyouremail,wewouldliketoclarifyourposition.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-35):Completethefollowingsentenceswiththemostsuitablepreposition",
+      "opts": {
+        "a": "at",
+        "b": "n",
+        "c": "for",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sheisquiteskillednegotiatingbusinessdeals,",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.36-40):Givenbelowarefourjumbledsentences,Selecttheoptionthat",
+      "opts": {
+        "a": "ABCD",
+        "b": "CBAD",
+        "c": "CABD;",
+        "d": "ACBD. -6-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A)Complainingoftheirdifficulties,whiningovertheirtroubles B)Willnevergethappiness: C)Menwhoarealwaysgrumblingabouttheirpoverty D)Outoflifeorachieveanysuccess",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.36-40):Givenbelowarefourjumbledsentences,Selecttheoptionthat",
+      "opts": {
+        "a": "CBAD",
+        "b": "ABCD",
+        "c": "ACDB",
+        "d": "CABD"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A)Ourviewsarenotextendedtoall B)Andveryoftenseebutonesideofamatter C)Weareallshort-sighted D)Thathasaconnectionwithit",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.36-40):Givenbelowarefourjumbledsentences,Selecttheoptionthat",
+      "opts": {
+        "a": "ABCD",
+        "b": "ADBC",
+        "c": "BADC",
+        "d": "BCAD"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A)Asarule,thereismoregenuinesatisfactioninlife B)Inthehumblecottageofthepoorman C)Thaninthepalacesoftherich D)Andmoreobtainedfromlife",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.36-40):Givenbelowarefourjumbledsentences,Selecttheoptionthat",
+      "opts": {
+        "a": "ABCD",
+        "b": "ADBC",
+        "c": "DABC",
+        "d": "CDBA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A)Theoldermensatontheirhaunchesatthethreshold B)TalkingabouttheirbattleswiththePawitribe C)Thosepeoplewhodonotweartheirhairknottedatthebackofthehead D)Theirhandwovenpuanpulledaroundtheirknees",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.36-40):Givenbelowarefourjumbledsentences,Selecttheoptionthat",
+      "opts": {
+        "a": "ABCD",
+        "b": "ACDB",
+        "c": "CADB",
+        "d": "BCAD"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A)Fromtimeimmemorialasanimportantvirtue B)Toproducingatypeofcharactercapableoffearlessnessinbattle C)Couragehasbeenrecognised D)Andagreatpartofthetrainingofboysandyoungmenhasbeendevoted",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.41-45):Outofthefouralternatives,identifythesentencethatiscorrectly",
+      "opts": {
+        "a": "Wemustadoptonthenewchanges.",
+        "b": "Wemustadapttothenewchanges.",
+        "c": "Wemustadoptofthenewchanges.",
+        "d": "Wemustadaptwiththenewchanges."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)Wemustadoptonthenewchanges.(b)Wemustadapttothenewchanges.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.41-45):Outofthefouralternatives,identifythesentencethatiscorrectly",
+      "opts": {
+        "a": "NeitherJohnnorhisfriendsiscoming.",
+        "b": "NeitherJohnnorhisfriendsarecoming.",
+        "c": "NeitherJohnorhisfriendsiscoming.",
+        "d": "NeitherJohnnorhisfriendsamcoming."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)NeitherJohnnorhisfriendsiscoming.(b)NeitherJohnnorhisfriendsarecoming.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.41-45):Outofthefouralternatives,identifythesentencethatiscorrectly",
+      "opts": {
+        "a": "Icouldhelpedyouifyouhadasked.",
+        "b": "Icouldhavehelpedyouifyouhadasked.",
+        "c": "[couldhelpyouifyouhadasked.",
+        "d": "Icouldhavehelpedyouifyouasked."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)Icouldhelpedyouifyouhadasked.(b)Icouldhavehelpedyouifyouhadasked.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.41-45):Outofthefouralternatives,identifythesentencethatiscorrectly",
+      "opts": {
+        "a": "Hewassotiredthathecouldbarelykeephiseyesopen.",
+        "b": "Hewassotiredthathecouldbarelykeepshiseyesopen.",
+        "c": "Hewassotiredthathecouldhardlykepthiseyesopen.",
+        "d": "Hewassotiredthathebarelykeephiseyesopen."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)Hewassotiredthathecouldbarelykeephiseyesopen.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.41-45):Outofthefouralternatives,identifythesentencethatiscorrectly",
+      "opts": {
+        "a": "IfIwasyou,Iwouldtakethejob.",
+        "b": "Iflamyou,Iwouldtakethejob.",
+        "c": "If]wereyou,Iwouldtakethejob.",
+        "d": "Ifhadbeenyou,Iwouldtakethejob. -7-,"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)IfIwasyou,Iwouldtakethejob.(b)Iflamyou,Iwouldtakethejob.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.46-50):Completethefollowingsentenceswiththemostsuitablealternative",
+      "opts": {
+        "a": "slowly",
+        "b": "effortlessly",
+        "c": "confused",
+        "d": "complicated"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hecompletedthetest;Surprisingeveryone.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.46-50):Completethefollowingsentenceswiththemostsuitablealternative",
+      "opts": {
+        "a": "studies",
+        "b": "study",
+        "c": "studied",
+        "d": "hadstudied"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ifsheharder,shecouldhavepassedtheexam.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.46-50):Completethefollowingsentenceswiththemostsuitablealternative",
+      "opts": {
+        "a": "never",
+        "b": "barely",
+        "c": "completely",
+        "d": "frequently"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shespokesosoftlythatwecould.hearher.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.46-50):Completethefollowingsentenceswiththemostsuitablealternative",
+      "opts": {
+        "a": "because",
+        "b": "yet",
+        "c": "and",
+        "d": "since"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shewasverytired,shekeptworkinguntilmidnight.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.46-50):Completethefollowingsentenceswiththemostsuitablealternative",
+      "opts": {
+        "a": "willplan",
+        "b": "hasplanned",
+        "c": "wouldhaveplanned",
+        "d": "wouldhavemade"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hadsheknownaboutthemeetingearlier,sheadifferentschedule.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos,51-55):Identifythesegmentwhichcontainsgrammaticalerrorinthe",
+      "opts": {
+        "a": "OncePaulWilkin,beingaskedhisnamebyhisservant",
+        "b": "foundtohisdismay",
+        "c": "thathehad",
+        "d": "forgothisownname"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "OncePaulWilkin,beingaskedhisnamebyhisservant,foundtohisdismaythathehadforgothis ownname",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos,51-55):Identifythesegmentwhichcontainsgrammaticalerrorinthe",
+      "opts": {
+        "a": "Asshemovedtoaforeigncountrywithacompletelydifferentculture,language,andlifestyle",
+        "b": "shehadtoquicklyadopttounfamiliarcustoms",
+        "c": "newwaysofcommunication,",
+        "d": "andadifferentdailyroutinetointegratesuccessfullyintohernewsurroundings."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Asshemovedtoaforeigncountrywithacompletelydifferentculture,language,andlifestyle,shehad toquicklyadopttounfamiliarcustoms,newwaysofcommunication,andadifferentdailyroutineto integratesuccessfullyintohernewsurroundings.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos,51-55):Identifythesegmentwhichcontainsgrammaticalerrorinthe",
+      "opts": {
+        "a": "Threeyearsshegrows",
+        "b": "insunandshower",
+        "c": "Someofthesewars",
+        "d": "havegrownouotfcommercialconsiderations."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Threeyearsshegrowsinsunandshower.Someofthesewarshavegrownoutofcommercial considerations.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos,51-55):Identifythesegmentwhichcontainsgrammaticalerrorinthe",
+      "opts": {
+        "a": "Theexpertexplainedthetopicsowellthat",
+        "b": "alltheaudiencewereunderstandingit",
+        "c": "clearlyandquickly:",
+        "d": "withoutanydoubtsintheirmind"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theexpertexplainedthetopicsowellthatalltheaudiencewereunderstandingitclearlyandquickly withoutanydoubtsintheirmind.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos,51-55):Identifythesegmentwhichcontainsgrammaticalerrorinthe",
+      "opts": {
+        "a": "Ifshewouldstudyharder",
+        "b": "shewouldpasstheexam",
+        "c": "withflyingcolours",
+        "d": "andmakeherparentsproud. -8-°"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ifshewouldstudyharder,shewouldpasstheexamwithflyingcoloursandmakeherparentsproud.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.56-60):Choosethealternativethatissimilar/nearestinmeaningtothe",
+      "opts": {
+        "a": "Flexible",
+        "b": "Unyielding",
+        "c": "Uncertain",
+        "d": "Hesitant"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Themanagerwasadamantthattheprojectmustbecompletedbythedeadline.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.56-60):Choosethealternativethatissimilar/nearestinmeaningtothe",
+      "opts": {
+        "a": "Reserved",
+        "b": "Talkative",
+        "c": "Friendly",
+        "d": "Outgoing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His¢aciturnpersonalitymadesocialgatheringsdifficultforhim.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.56-60):Choosethealternativethatissimilar/nearestinmeaningtothe",
+      "opts": {
+        "a": "Stronginclination",
+        "b": "Dislike",
+        "c": "Avoidance",
+        "d": "Hesitation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hewasknownforhispenchantforcollectingrarebooks.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.56-60):Choosethealternativethatissimilar/nearestinmeaningtothe",
+      "opts": {
+        "a": "Concise",
+        "b": "Talkative",
+        "c": "Friendly",
+        "d": "Detailed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Her/aconicrepliesmadeitdifficulttoholdaconversation.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-65):Choosethecorrectantonymsoftheitalicizedwordineachofthe",
+      "opts": {
+        "a": "Continual",
+        "b": "Intermittent",
+        "c": "Persistent",
+        "d": "Relentless"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hisincessanttalkingmadeitimpossibletoconcentrateonthetask.",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-65):Choosethecorrectantonymsoftheitalicizedwordineachofthe",
+      "opts": {
+        "a": "Normal",
+        "b": "Unusual",
+        "c": "Strange",
+        "d": "Deviant"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theaberrantbehaviourofthescientistshockedhiscolleagues.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-65):Choosethecorrectantonymsoftheitalicizedwordineachofthe",
+      "opts": {
+        "a": "Ignorant",
+        "b": "Scholarly",
+        "c": "Knowledgeable",
+        "d": "Insightful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theprofessor’seruditelectureimpressedthestudents.",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-65):Choosethecorrectantonymsoftheitalicizedwordineachofthe",
+      "opts": {
+        "a": "Courageous",
+        "b": "Cowardly",
+        "c": "Weak",
+        "d": "‘Timid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hispusillanimousreactiontothechallengedisappointedhisfriends.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-65):Choosethecorrectantonymsoftheitalicizedwordineachofthe",
+      "opts": {
+        "a": "Limited",
+        "b": "Widespread",
+        "c": "Omnipresent",
+        "d": "Extensive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Herpervasiveinfluencecouldbefeltineveryaspectofthecompany.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.66-70):Choosethemostsuitablealternativetofillintheblanks.",
+      "opts": {
+        "a": "tact",
+        "b": "tactic",
+        "c": "tactile",
+        "d": "tactful:"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sheshowedgreatinhandlingthedifficultsituation.",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.66-70):Choosethemostsuitablealternativetofillintheblanks.",
+      "opts": {
+        "a": "bitethebullet",
+        "b": "kickthebucket",
+        "c": "breaktheice",
+        "d": "hitthehay 9.."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hefinallydecidedtoandapologize.",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.66-70):Choosethemostsuitablealternativetofillintheblanks.",
+      "opts": {
+        "a": "act",
+        "b": "role",
+        "c": "idea",
+        "d": "scene"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "1wasfeelingnervousbeforemypresentation,butIfinallygotmytogetheranddelivered itwell.",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.66-70):Choosethemostsuitablealternativetofillintheblanks.",
+      "opts": {
+        "a": "conventional",
+        "b": "innovative",
+        "c": "predictable",
+        "d": "ordinary"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shehasaveryapproachtoproblem-solving,alwaysthinkingoutsidethebox.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.66-70):Choosethemostsuitablealternativetofillintheblanks.",
+      "opts": {
+        "a": "hyperbole",
+        "b": "understatement",
+        "c": "realism",
+        "d": "accuracy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hisspeechwasfullof;heexaggeratedeverything.",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.71-75):Choosethemostappropriatealternativeprovidedofeachitalicized",
+      "opts": {
+        "a": "Feelingveryhappy",
+        "b": "Notfeelingwell",
+        "c": "Beingaffectedbytheclimate",
+        "d": "Goingonvacation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Iwasfeelingundertheweather,soItookadayofffromwork.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.71-75):Choosethemostappropriatealternativeprovidedofeachitalicized",
+      "opts": {
+        "a": "Releasedapetcat",
+        "b": "Revealedasecretunintentionally",
+        "c": "Hidsomethingimportant",
+        "d": "Revealedasecretintentionally"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Heletthecatoutofthebagaboutthesurprisepartybeforewecouldstophim.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.71-75):Choosethemostappropriatealternativeprovidedofeachitalicized",
+      "opts": {
+        "a": "Usedahammercorrectly",
+        "b": "Solvedaproblemprecisely",
+        "c": "Hurtherself",
+        "d": "Madeamistake"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shehitthenailontheheadwhenshepointedouttherealissueinthemeeting.",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.71-75):Choosethemostappropriatealternativeprovidedofeachitalicized",
+      "opts": {
+        "a": "Tofollowtherulesstrictly",
+        "b": "Tocrosstheboundary",
+        "c": "Tochallengeauthority",
+        "d": "Torefusetoobeyorders"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Aftermonthsofdebate,thecommitteedecidedtofethelineandfollowthetraditionalpolicies.",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.71-75):Choosethemostappropriatealternativeprovidedofeachitalicized",
+      "opts": {
+        "a": "Verydifficulttounderstand",
+        "b": "Easytograsp",
+        "c": "Highlyengaging",
+        "d": "Completelyincorrect eKKEKE"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theprofessor’scomplextheorieswereasclearasmudtomostofthestudents,",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part A): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part A): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q1 (p2, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q14 (p4, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q58 (p8, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "B": [
+      14,
+      58
+    ]
+  }
+}

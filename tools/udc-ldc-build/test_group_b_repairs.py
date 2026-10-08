@@ -149,15 +149,20 @@ class ReviewedRepairTests(unittest.TestCase):
         extracted = json.loads((HERE / 'extracted/aao-2025-p2.json').read_text())
         repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['aao-2025-p2']
         result, reviewed = reviewed_extraction(extracted, repair)
-        self.assertEqual(reviewed, set(range(1, 31)) | {60})
+        self.assertEqual(reviewed, set(range(1, 61)))
         self.assertEqual(len(result['questions']), 100)
         self.assertIn('NISAR', result['questions'][0]['q'])
         self.assertIn('tariff', result['questions'][1]['q'])
         self.assertIn('Poona Pact', result['questions'][7]['q'])
         self.assertTrue(result['questions'][5]['unscored'])
         self.assertTrue(result['questions'][28]['unscored'])
+        self.assertTrue(result['questions'][49]['unscored'])
+        self.assertTrue(result['questions'][55]['unscored'])
         self.assertEqual(result['questions'][29]['opts']['b'], 'private investment, particularly from outside the State')
-        self.assertEqual(set(map(int, repair['derivedAnswers'])), set(range(1, 31)) - {6, 29} | {60})
+        self.assertEqual(set(map(int, repair['derivedAnswers'])), set(range(1, 61)) - {6, 29, 50, 56})
+        self.assertEqual(result['questions'][51]['opts']['d'], '99370')
+        self.assertIn('√3:1', result['questions'][55]['explanation'])
+        self.assertTrue(all(row['explanation'].strip() for row in repair['derivedAnswers'].values()))
 
     def test_rejects_stale_source(self):
         self.repair['sourceSha256'] = 'changed source'

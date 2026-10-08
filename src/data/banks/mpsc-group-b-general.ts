@@ -59084,24 +59084,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Which of the following about an ecosystem is/are correct? (i)Biotic components interact with abiotic factors of the ecosystem but they do not interact among themselves. (ii)Organisms present in the ecosystem interact with surrounding environment and exchange mass as well as energy with it. (iii)Decomposers are not a part of an ecosystem. Select the correct answer using the code given below.",
+    "question": "Which statements about an ecosystem are correct? (i) Biotic components interact with abiotic factors but not one another. (ii) Organisms interact with their surroundings and exchange matter and energy. (iii) Decomposers are not part of an ecosystem. Select the correct answer.",
     "options": [
       "(ii) only",
       "(i) and (ii) only",
       "(ii) and (iii) only",
       "(i), (ii) and (iii)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Ecosystem organisms exchange matter and energy with their surroundings. Biotic components also interact with one another, and decomposers are ecosystem components, so only statement (ii) is correct.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q32",
@@ -59112,24 +59110,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The ‘Evil Quartet’ refers to the primary causes of species extinction. Which of the following are included in it? (i)Habitat loss (ii)Overexploitation of species (iii)Introduction of invasive species (iv)Eutrophication Select the correct answer using the code below:",
+    "question": "The ‘Evil Quartet’ refers to the primary causes of species extinction. Which are included? (i) Habitat loss (ii) Overexploitation (iii) Introduction of invasive species (iv) Eutrophication. Select the correct answer.",
     "options": [
       "(i), (ii) and (iii) only",
       "(i) and (iv) only",
       "(ii), (iii) and (iv) only",
       "All of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Evil Quartet comprises habitat loss and fragmentation, overexploitation, invasive alien species and co-extinctions. Eutrophication is not one of the four listed causes.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q33",
@@ -59140,24 +59136,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "With reference to waste management rule in India, the concept of Extended Producer Responsibility is incorporated in how many of the following rules? (i)Plastic Waste Management (Second Amendment) Rules (ii)Battery Waste Management Rules (iii)E-Waste (Management) Rules Select the correct answer using the code given below.",
+    "question": "Extended Producer Responsibility is incorporated in how many of these Indian waste-management rules? (i) Plastic Waste Management (Second Amendment) Rules (ii) Battery Waste Management Rules (iii) E-Waste (Management) Rules. Select the correct answer.",
     "options": [
       "Only (i)",
       "Only (i) and (ii)",
       "(i), (ii) and (iii)",
-      "only (ii) and (iii)"
+      "Only (ii) and (iii)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Extended Producer Responsibility provisions are included in all three named rule sets: plastic waste, battery waste and e-waste management.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q34",
@@ -59168,24 +59162,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "With reference to United Nations Framework Convention on Climate Change (UNFCCC), consider the following statements: (i)It was adopted at the Rio Earth Summit. (ii)It aims to stabilize greenhouse gas concentrations. (iii)It mandates developed countries to reduce carbon emissions by 50% every decade. Which of the statements given above are correct?",
+    "question": "With reference to the United Nations Framework Convention on Climate Change (UNFCCC), consider these statements: (i) It was adopted at the Rio Earth Summit. (ii) It aims to stabilise greenhouse-gas concentrations. (iii) It mandates developed countries to reduce carbon emissions by 50% every decade. Which statements are correct?",
     "options": [
       "(i) and (ii) only",
       "(ii) and (iii) only",
       "(i) and (iii) only",
       "(i), (ii) and (iii)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The UNFCCC was adopted at the 1992 Rio Earth Summit and seeks to stabilise greenhouse-gas concentrations. It does not impose the stated 50%-per-decade reduction mandate.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q35",
@@ -59203,17 +59195,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Water Act, 1974",
       "Forest (Conservation) Amendment Act, 2023"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Environment (Protection) Act, 1986 provides the legal basis for India’s EIA notification and environmental clearance requirements.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q36",
@@ -59224,24 +59214,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "One of the key results of Rio+20 was the decision to:",
+    "question": "One key result of the Rio+20 conference was the decision to:",
     "options": [
       "Launch the Millennium Development Goals (MDGs)",
       "Replace the Kyoto Protocol",
       "Develop Sustainable Development Goals (SDGs)",
-      "Establish Paris Agreement"
+      "Establish the Paris Agreement"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Rio+20 launched the process that led to the Sustainable Development Goals, which later replaced the Millennium Development Goals.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q37",
@@ -59252,24 +59240,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Which of the following statements about photoelectric effect is/are correct? (i)It provides evidence for the particle nature of light. (ii)Electrons are emitted only if the incident light frequency is above a certain threshold. (iii)Electrons can be emitted even if no light is incident on the metal. Select the correct answer using the code given below.",
+    "question": "Which statements about the photoelectric effect are correct? (i) It provides evidence for the particle nature of light. (ii) Electrons are emitted only when incident-light frequency exceeds a threshold. (iii) Electrons can be emitted when no light is incident on the metal. Select the correct answer.",
     "options": [
       "(i) and (ii) only",
       "(ii) and (iii) only",
       "(i) and (iii) only",
       "(i), (ii) and (iii)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The photoelectric effect supports the particle model of light, and emission requires light at or above a threshold frequency. Without incident light, the described photoemission does not occur.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q38",
@@ -59280,24 +59266,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Which of the following enzymes of digestive system breaks down starch into sugar?",
+    "question": "Which digestive enzyme breaks down starch into sugars?",
     "options": [
       "Pepsin",
       "Protease",
       "Salivary amylase",
       "Lipase"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Salivary amylase begins carbohydrate digestion by breaking starch into smaller sugars, including maltose.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q39",
@@ -59308,24 +59292,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Which category of waves enables bats to employ echolocation for spatial navigation and prey detection in darkness?",
+    "question": "Which waves do bats use for echolocation to navigate and detect prey in darkness?",
     "options": [
       "Radio waves",
       "Ultrasonic sound waves",
       "Infrared waves",
       "Microwaves"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Bats emit ultrasonic sound and use returning echoes to locate objects and prey.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q40",
@@ -59336,24 +59318,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Number of elements in the periodic table is:",
+    "question": "How many elements are currently recognised in the periodic table?",
     "options": [
       "112",
       "114",
       "116",
       "118"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The periodic table currently contains 118 officially named elements.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q41",
@@ -59364,24 +59344,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The point deep within the earth’s crust where an earthquake’s energy is released is called:",
+    "question": "What is the point deep within Earth’s crust where an earthquake’s energy is released called?",
     "options": [
-      "Epicenter",
+      "Epicentre",
       "Focus",
       "Fault",
       "Foreshocks"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The focus (hypocentre) is the point inside Earth where an earthquake rupture begins; the epicentre is directly above it at the surface.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q42",
@@ -59392,24 +59370,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The term ‘supernova’ is associated with:",
+    "question": "The term ‘supernova’ is associated with which field?",
     "options": [
-      "Forensic Science",
-      "Space Science",
-      "Computer Science",
-      "Atmospheric Science"
+      "Forensic science",
+      "Space science",
+      "Computer science",
+      "Atmospheric science"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A supernova is a stellar explosion studied in astronomy and space science.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q43",
@@ -59420,24 +59396,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "In traditional Mizo society, which head ornament was worn only by men who had killed an enemy?",
+    "question": "In traditional Mizo society, which head ornament could be worn only by a man who had killed an enemy?",
     "options": [
       "Dartawnsuk",
       "Chhawn",
       "Vakul chang",
       "Vakiria"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Chhawn (also written Chawn) headdress was a warrior’s ornament associated with completing a headhunting ceremony over an enemy killed.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q44",
@@ -59448,24 +59422,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Arrange the following names given by Mizo society for identification of local time in a chronological order:",
+    "question": "Arrange these Mizo terms for identifying local time in chronological order.",
     "options": [
-      "Khuantevik – Vartian – Khawfingchah - Fehrehsan",
-      "Vartian - Khawfingchah – Khuantevik - Fehrehsan",
-      "Khawfingchah – Vartian – Khuantevik - Fehrehsan",
-      "Fehrehsan – Khawfingchah – Vartian - Khuantevik"
+      "Khuantevik – Vartian – Khawfingchah – Fehrehsan",
+      "Vartian – Khawfingchah – Khuantevik – Fehrehsan",
+      "Khawfingchah – Vartian – Khuantevik – Fehrehsan",
+      "Fehrehsan – Khawfingchah – Vartian – Khuantevik"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The sequence begins with Khawfingchah, followed by Vartian and then Khuantevik; Fehrehsan refers to the later interval around the morning meal. This gives option C.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q45",
@@ -59476,24 +59448,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "A man leaving his house and living with a woman in the woman’s house as husband and wife is called:",
+    "question": "In Mizo customary terminology, what is it called when a man leaves his home and lives with a woman in her home as husband and wife?",
     "options": [
       "inru",
       "tlandun",
       "fan",
       "luhkhung"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Mizo customary terminology defines fan as a man leaving his home to live in the woman’s home as husband and wife.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q46",
@@ -59504,24 +59474,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "In traditional Mizo society, ‘sedawi chhun’ ritual was observed for how many days:",
+    "question": "In traditional Mizo society, for how many days was the ‘sedawi chhun’ ritual observed?",
     "options": [
       "3 days",
       "5 days",
       "7 days",
       "10 days"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Sedawi rite was observed for seven days; the Mizo-language account specifies ni sarih (seven days).",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q47",
@@ -59532,24 +59500,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Who was the editor of the first Mizo dialect journal, Mizo Chanchin Laisuih?",
+    "question": "Who edited the first Mizo-dialect journal, Mizo Chanchin Laisuih?",
     "options": [
       "J. Shakespeare",
       "Granville Henry Loch",
-      "TH Lewin",
-      "HGW Cole"
+      "T. H. Lewin",
+      "H. G. W. Cole"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Captain J. Shakespeare edited the first Mizo-dialect journal, Mizo Chanchin Laisuih.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q48",
@@ -59560,24 +59526,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "In every village, there was a village-writer (khawchhiar) appointed by the:",
+    "question": "In every village, the village-writer (khawchhiar) was appointed by whom?",
     "options": [
-      "Superintendent to help the Chief",
-      "Chief to help himself/herself as and when required",
-      "Elders (Upa) to help the Chief",
-      "Chief to help the Village Elders (Khawnbawl Upa)"
+      "The Superintendent, to help the Chief",
+      "The Chief, to help the Chief as required",
+      "The village elders (Upa), to help the Chief",
+      "The Chief, to help the village elders (Khawnbawl Upa)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The khawchhiar was appointed by the Superintendent as a village writer and administrative link who assisted the Chief.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q49",
@@ -59588,24 +59552,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "A person need to complete the sequence of sacrificial rites to god during his/her life time on earth for going to:",
+    "question": "According to traditional Mizo belief, completing the sequence of sacrificial rites during one’s lifetime was required to go to:",
     "options": [
       "Hringlang tlang",
       "Pluck the flower (Hawilo par)",
       "Pialral",
       "Drink lungloh tui"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Traditional belief held that completing the series of Inlama Thangchhuah sacrificial feasts qualified a person for entry to Pialral.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q50",
@@ -59616,7 +59578,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "From 1972 until the Assembly Constituency was redrawn and renamed in 2008, Dampa  Assembly Constituency was known as:",
+    "question": "From 1972 until the Assembly Constituency was redrawn and renamed in 2008, Dampa Assembly Constituency was known as:",
     "options": [
       "Zawlnuam Assembly Constituency",
       "Kawrthah Assembly Constituency",
@@ -59624,13 +59586,13 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Phuldungsei Assembly Constituency"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The question’s premise and historical naming could not be verified consistently against the available constituency records. The 2005 Election Commission delimitation order already lists Dampa, while the older 1972 records require further checking. Keep this item unscored until a primary historical record establishes the intended predecessor name.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=8",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The question’s premise and historical naming could not be verified consistently against the available constituency records. The 2005 Election Commission delimitation order already lists Dampa, while the older 1972 records require further checking. Keep this item unscored until a primary historical record establishes the intended predecessor name."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q51",
@@ -59641,21 +59603,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The remainder when 2¹⁰⁰ is divided by 5 is:",
+    "question": "What is the remainder when 2¹⁰⁰ is divided by 5?",
     "options": [
       "0",
       "1",
       "2",
       "3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Powers of 2 modulo 5 cycle every four terms: 2, 4, 3, 1. Since 100 is divisible by 4, 2¹⁰⁰ leaves remainder 1.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q52",
@@ -59666,21 +59629,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The largest number of five digits which, when divided by 16, 24, 30 or 36, leaves the same remainder 10 in each case is:",
+    "question": "What is the largest five-digit number that leaves remainder 10 when divided by each of 16, 24, 30 and 36?",
     "options": [
       "99999",
       "99350",
       "99880",
-      "99370 1"
+      "99370"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The least common multiple of 16, 24, 30 and 36 is 720. The number must be 720k + 10; the largest such five-digit number is 99,370.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q53",
@@ -59691,21 +59655,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "1+2÷1+2÷1+ is equal to : 3 44",
+    "question": "Evaluate: 1 + 2 ÷ {1 + 2 ÷ (1 + 1/3)}.",
     "options": [
-      "1",
-      "1 53 43",
-      "3",
-      "2 55"
+      "1 4/5",
+      "1 4/3",
+      "3 4/5",
+      "2 3/5"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Evaluate inside out: 1 + 1/3 = 4/3; 2 ÷ 4/3 = 3/2; 1 + 3/2 = 5/2; 2 ÷ 5/2 = 4/5. Adding 1 gives 1 4/5.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q54",
@@ -59716,24 +59681,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The area of a circle is 176 square cm. What will be the area of square inscribed in this circle?",
+    "question": "A circle has area 176 cm². What is the area of a square inscribed in the circle?",
     "options": [
       "56 cm²",
       "50 cm²",
       "112 cm²",
       "100 cm²"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The circle’s area is πr² = 176. For an inscribed square, the diagonal is the circle’s diameter, so its area is d²/2 = 2r² = 352/π = 112 cm² using π = 22/7.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q55",
@@ -59744,24 +59707,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "A solid cone of radius 21 cm and height 10/7 of its radius is melted to form four equal solid cylinders of radius 7 cm. What is the difference between the height of the cone and height of each of the solid cylinders?",
+    "question": "A solid cone has radius 21 cm and height equal to 10/7 of its radius. It is melted to form four equal solid cylinders, each of radius 7 cm. What is the difference between the cone’s height and the height of each cylinder?",
     "options": [
       "9 cm",
       "6 cm",
       "7.5 cm",
       "5.5 cm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The cone height is (10/7)×21 = 30 cm. Equating volumes, (1/3)π(21²)(30) = 4π(7²)h gives h = 22.5 cm for each cylinder. The difference is 7.5 cm.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q56",
@@ -59772,7 +59733,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "If the angles of elevation of the top of a tower from three collinear points A, B and C, on a line leading to the foot of the tower, are 30°, 45° and 60°, respectively, then the ratio, AB : BC, is:",
+    "question": "The angles of elevation of a tower’s top from three collinear points A, B and C, on a line leading to the tower’s foot, are 30°, 45° and 60°, respectively. What is the ratio AB:BC?",
     "options": [
       "3:2",
       "1:3",
@@ -59780,16 +59741,13 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "3:1"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "If the tower height is h, the distances from its foot are √3h, h and h/√3. Thus AB:BC = (√3−1):(1−1/√3) = √3:1. None of the printed options gives √3:1, so this defective item is held unscored.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "If the tower height is h, the distances from its foot are √3h, h and h/√3. Thus AB:BC = (√3−1):(1−1/√3) = √3:1. None of the printed options gives √3:1, so this defective item is held unscored."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q57",
@@ -59800,24 +59758,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "When a clock shows the time 7 : 20, what is the angle between its minute hand and the hour hand?",
+    "question": "When a clock shows 7:20, what is the smaller angle between its minute and hour hands?",
     "options": [
       "60°",
       "80°",
       "100°",
       "120°"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "At 7:20, the minute hand is at 120°. The hour hand is at 7×30° + 20×0.5° = 220°. Their smaller separation is 100°.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q58",
@@ -59828,24 +59784,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The radius of a circle is 30 cm. The length of the arc of this circle whose chord is 30 cm long, is:",
+    "question": "A circle has radius 30 cm. What is the length of the minor arc subtended by a chord 30 cm long?",
     "options": [
-      "9πcm",
+      "9π cm",
       "10π cm",
       "12π cm",
       "13.6π cm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A 30 cm chord in a circle of radius 30 cm subtends 60° at the centre. The minor arc is one-sixth of the circumference, so its length is (1/6)×2π×30 = 10π cm.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q59",
@@ -59856,24 +59810,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "How many 4-digit numbers can be formed with no digit repeated by using the digits 3, 4, 5, 6, 7, 8 and 0?",
+    "question": "How many four-digit numbers with no repeated digit can be formed using 3, 4, 5, 6, 7, 8 and 0?",
     "options": [
       "280",
       "560",
       "600",
       "720"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "There are 6 choices for the first digit because it cannot be zero, then 6, 5 and 4 choices for the remaining positions. The total is 6×6×5×4 = 720.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q60",

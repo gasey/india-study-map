@@ -5654,7 +5654,7 @@
       "expectedMcq": 100,
       "partialReview": true,
       "reviewedOn": "2026-10-09",
-      "evidence": "Q1–30 have readable stems/options checked against printed pages 2–6 of the November 2025 Series A scan, including restoration of merged Q1–7. Twenty-eight of these questions have derived explanations; Q6 has no matching statement combination and Q29 omits the only correct combination, so both are held. Q31–100 remain under scan review. The cover specifies 100 two-mark questions, 200 marks, two hours and negative marking. Source SHA256 binds the review to the paper.",
+      "evidence": "Q1–59 and previously recovered Q60 have readable stems/options checked against printed pages 2–9 of the November 2025 Series A scan, including restoration of merged Q1–7. Fifty-six questions have derived explanations. Q6 and Q29 omit the correct statement combinations; Q50’s historical constituency wording could not be reconciled confidently; Q56’s mathematically correct ratio is absent from the choices. Those four items are held. Q61–100 remain under scan review. The cover specifies 100 two-mark questions, 200 marks, two hours and negative marking. Source SHA256 binds the review to the paper.",
       "questions": {
         "60": {
           "n": 60,
@@ -6001,6 +6001,329 @@
             "c": "public-sector undertakings, particularly from outside the State",
             "d": "both private and public investors operating in the State"
           }
+        },
+        "31": {
+          "n": 31,
+          "page": 6,
+          "q": "Which statements about an ecosystem are correct? (i) Biotic components interact with abiotic factors but not one another. (ii) Organisms interact with their surroundings and exchange matter and energy. (iii) Decomposers are not part of an ecosystem. Select the correct answer.",
+          "opts": {
+            "a": "(ii) only",
+            "b": "(i) and (ii) only",
+            "c": "(ii) and (iii) only",
+            "d": "(i), (ii) and (iii)"
+          }
+        },
+        "32": {
+          "n": 32,
+          "page": 6,
+          "q": "The ‘Evil Quartet’ refers to the primary causes of species extinction. Which are included? (i) Habitat loss (ii) Overexploitation (iii) Introduction of invasive species (iv) Eutrophication. Select the correct answer.",
+          "opts": {
+            "a": "(i), (ii) and (iii) only",
+            "b": "(i) and (iv) only",
+            "c": "(ii), (iii) and (iv) only",
+            "d": "All of the above"
+          }
+        },
+        "33": {
+          "n": 33,
+          "page": 6,
+          "q": "Extended Producer Responsibility is incorporated in how many of these Indian waste-management rules? (i) Plastic Waste Management (Second Amendment) Rules (ii) Battery Waste Management Rules (iii) E-Waste (Management) Rules. Select the correct answer.",
+          "opts": {
+            "a": "Only (i)",
+            "b": "Only (i) and (ii)",
+            "c": "(i), (ii) and (iii)",
+            "d": "Only (ii) and (iii)"
+          }
+        },
+        "34": {
+          "n": 34,
+          "page": 7,
+          "q": "With reference to the United Nations Framework Convention on Climate Change (UNFCCC), consider these statements: (i) It was adopted at the Rio Earth Summit. (ii) It aims to stabilise greenhouse-gas concentrations. (iii) It mandates developed countries to reduce carbon emissions by 50% every decade. Which statements are correct?",
+          "opts": {
+            "a": "(i) and (ii) only",
+            "b": "(ii) and (iii) only",
+            "c": "(i) and (iii) only",
+            "d": "(i), (ii) and (iii)"
+          }
+        },
+        "35": {
+          "n": 35,
+          "page": 7,
+          "q": "Environmental Impact Assessment (EIA) in India became mandatory under which Act?",
+          "opts": {
+            "a": "Environment (Protection) Act, 1986",
+            "b": "Forest Conservation Act, 1980",
+            "c": "Water Act, 1974",
+            "d": "Forest (Conservation) Amendment Act, 2023"
+          }
+        },
+        "36": {
+          "n": 36,
+          "page": 7,
+          "q": "One key result of the Rio+20 conference was the decision to:",
+          "opts": {
+            "a": "Launch the Millennium Development Goals (MDGs)",
+            "b": "Replace the Kyoto Protocol",
+            "c": "Develop Sustainable Development Goals (SDGs)",
+            "d": "Establish the Paris Agreement"
+          }
+        },
+        "37": {
+          "n": 37,
+          "page": 7,
+          "q": "Which statements about the photoelectric effect are correct? (i) It provides evidence for the particle nature of light. (ii) Electrons are emitted only when incident-light frequency exceeds a threshold. (iii) Electrons can be emitted when no light is incident on the metal. Select the correct answer.",
+          "opts": {
+            "a": "(i) and (ii) only",
+            "b": "(ii) and (iii) only",
+            "c": "(i) and (iii) only",
+            "d": "(i), (ii) and (iii)"
+          }
+        },
+        "38": {
+          "n": 38,
+          "page": 7,
+          "q": "Which digestive enzyme breaks down starch into sugars?",
+          "opts": {
+            "a": "Pepsin",
+            "b": "Protease",
+            "c": "Salivary amylase",
+            "d": "Lipase"
+          }
+        },
+        "39": {
+          "n": 39,
+          "page": 7,
+          "q": "Which waves do bats use for echolocation to navigate and detect prey in darkness?",
+          "opts": {
+            "a": "Radio waves",
+            "b": "Ultrasonic sound waves",
+            "c": "Infrared waves",
+            "d": "Microwaves"
+          }
+        },
+        "40": {
+          "n": 40,
+          "page": 7,
+          "q": "How many elements are currently recognised in the periodic table?",
+          "opts": {
+            "a": "112",
+            "b": "114",
+            "c": "116",
+            "d": "118"
+          }
+        },
+        "41": {
+          "n": 41,
+          "page": 7,
+          "q": "What is the point deep within Earth’s crust where an earthquake’s energy is released called?",
+          "opts": {
+            "a": "Epicentre",
+            "b": "Focus",
+            "c": "Fault",
+            "d": "Foreshocks"
+          }
+        },
+        "42": {
+          "n": 42,
+          "page": 7,
+          "q": "The term ‘supernova’ is associated with which field?",
+          "opts": {
+            "a": "Forensic science",
+            "b": "Space science",
+            "c": "Computer science",
+            "d": "Atmospheric science"
+          }
+        },
+        "43": {
+          "n": 43,
+          "page": 7,
+          "q": "In traditional Mizo society, which head ornament could be worn only by a man who had killed an enemy?",
+          "opts": {
+            "a": "Dartawnsuk",
+            "b": "Chhawn",
+            "c": "Vakul chang",
+            "d": "Vakiria"
+          }
+        },
+        "44": {
+          "n": 44,
+          "page": 8,
+          "q": "Arrange these Mizo terms for identifying local time in chronological order.",
+          "opts": {
+            "a": "Khuantevik – Vartian – Khawfingchah – Fehrehsan",
+            "b": "Vartian – Khawfingchah – Khuantevik – Fehrehsan",
+            "c": "Khawfingchah – Vartian – Khuantevik – Fehrehsan",
+            "d": "Fehrehsan – Khawfingchah – Vartian – Khuantevik"
+          }
+        },
+        "45": {
+          "n": 45,
+          "page": 8,
+          "q": "In Mizo customary terminology, what is it called when a man leaves his home and lives with a woman in her home as husband and wife?",
+          "opts": {
+            "a": "inru",
+            "b": "tlandun",
+            "c": "fan",
+            "d": "luhkhung"
+          }
+        },
+        "46": {
+          "n": 46,
+          "page": 8,
+          "q": "In traditional Mizo society, for how many days was the ‘sedawi chhun’ ritual observed?",
+          "opts": {
+            "a": "3 days",
+            "b": "5 days",
+            "c": "7 days",
+            "d": "10 days"
+          }
+        },
+        "47": {
+          "n": 47,
+          "page": 8,
+          "q": "Who edited the first Mizo-dialect journal, Mizo Chanchin Laisuih?",
+          "opts": {
+            "a": "J. Shakespeare",
+            "b": "Granville Henry Loch",
+            "c": "T. H. Lewin",
+            "d": "H. G. W. Cole"
+          }
+        },
+        "48": {
+          "n": 48,
+          "page": 8,
+          "q": "In every village, the village-writer (khawchhiar) was appointed by whom?",
+          "opts": {
+            "a": "The Superintendent, to help the Chief",
+            "b": "The Chief, to help the Chief as required",
+            "c": "The village elders (Upa), to help the Chief",
+            "d": "The Chief, to help the village elders (Khawnbawl Upa)"
+          }
+        },
+        "49": {
+          "n": 49,
+          "page": 8,
+          "q": "According to traditional Mizo belief, completing the sequence of sacrificial rites during one’s lifetime was required to go to:",
+          "opts": {
+            "a": "Hringlang tlang",
+            "b": "Pluck the flower (Hawilo par)",
+            "c": "Pialral",
+            "d": "Drink lungloh tui"
+          }
+        },
+        "50": {
+          "n": 50,
+          "page": 8,
+          "q": "From 1972 until the Assembly Constituency was redrawn and renamed in 2008, Dampa Assembly Constituency was known as:",
+          "opts": {
+            "a": "Zawlnuam Assembly Constituency",
+            "b": "Kawrthah Assembly Constituency",
+            "c": "West Phaileng Assembly Constituency",
+            "d": "Phuldungsei Assembly Constituency"
+          },
+          "unscored": true,
+          "explanation": "The question’s premise and historical naming could not be verified consistently against the available constituency records. The 2005 Election Commission delimitation order already lists Dampa, while the older 1972 records require further checking. Keep this item unscored until a primary historical record establishes the intended predecessor name."
+        },
+        "51": {
+          "n": 51,
+          "page": 8,
+          "q": "What is the remainder when 2¹⁰⁰ is divided by 5?",
+          "opts": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3"
+          }
+        },
+        "52": {
+          "n": 52,
+          "page": 8,
+          "q": "What is the largest five-digit number that leaves remainder 10 when divided by each of 16, 24, 30 and 36?",
+          "opts": {
+            "a": "99999",
+            "b": "99350",
+            "c": "99880",
+            "d": "99370"
+          }
+        },
+        "53": {
+          "n": 53,
+          "page": 8,
+          "q": "Evaluate: 1 + 2 ÷ {1 + 2 ÷ (1 + 1/3)}.",
+          "opts": {
+            "a": "1 4/5",
+            "b": "1 4/3",
+            "c": "3 4/5",
+            "d": "2 3/5"
+          }
+        },
+        "54": {
+          "n": 54,
+          "page": 9,
+          "q": "A circle has area 176 cm². What is the area of a square inscribed in the circle?",
+          "opts": {
+            "a": "56 cm²",
+            "b": "50 cm²",
+            "c": "112 cm²",
+            "d": "100 cm²"
+          }
+        },
+        "55": {
+          "n": 55,
+          "page": 9,
+          "q": "A solid cone has radius 21 cm and height equal to 10/7 of its radius. It is melted to form four equal solid cylinders, each of radius 7 cm. What is the difference between the cone’s height and the height of each cylinder?",
+          "opts": {
+            "a": "9 cm",
+            "b": "6 cm",
+            "c": "7.5 cm",
+            "d": "5.5 cm"
+          }
+        },
+        "56": {
+          "n": 56,
+          "page": 9,
+          "q": "The angles of elevation of a tower’s top from three collinear points A, B and C, on a line leading to the tower’s foot, are 30°, 45° and 60°, respectively. What is the ratio AB:BC?",
+          "opts": {
+            "a": "3:2",
+            "b": "1:3",
+            "c": "2:3",
+            "d": "3:1"
+          },
+          "unscored": true,
+          "explanation": "If the tower height is h, the distances from its foot are √3h, h and h/√3. Thus AB:BC = (√3−1):(1−1/√3) = √3:1. None of the printed options gives √3:1, so this defective item is held unscored."
+        },
+        "57": {
+          "n": 57,
+          "page": 9,
+          "q": "When a clock shows 7:20, what is the smaller angle between its minute and hour hands?",
+          "opts": {
+            "a": "60°",
+            "b": "80°",
+            "c": "100°",
+            "d": "120°"
+          }
+        },
+        "58": {
+          "n": 58,
+          "page": 9,
+          "q": "A circle has radius 30 cm. What is the length of the minor arc subtended by a chord 30 cm long?",
+          "opts": {
+            "a": "9π cm",
+            "b": "10π cm",
+            "c": "12π cm",
+            "d": "13.6π cm"
+          }
+        },
+        "59": {
+          "n": 59,
+          "page": 9,
+          "q": "How many four-digit numbers with no repeated digit can be formed using 3, 4, 5, 6, 7, 8 and 0?",
+          "opts": {
+            "a": "280",
+            "b": "560",
+            "c": "600",
+            "d": "720"
+          }
         }
       },
       "derivedAnswers": {
@@ -6119,6 +6442,114 @@
         "30": {
           "answerIndex": 1,
           "explanation": "The policy explicitly aims to attract private investment, particularly from outside Mizoram, to create jobs and strengthen infrastructure and development."
+        },
+        "31": {
+          "answerIndex": 0,
+          "explanation": "Ecosystem organisms exchange matter and energy with their surroundings. Biotic components also interact with one another, and decomposers are ecosystem components, so only statement (ii) is correct."
+        },
+        "32": {
+          "answerIndex": 0,
+          "explanation": "The Evil Quartet comprises habitat loss and fragmentation, overexploitation, invasive alien species and co-extinctions. Eutrophication is not one of the four listed causes."
+        },
+        "33": {
+          "answerIndex": 2,
+          "explanation": "Extended Producer Responsibility provisions are included in all three named rule sets: plastic waste, battery waste and e-waste management."
+        },
+        "34": {
+          "answerIndex": 0,
+          "explanation": "The UNFCCC was adopted at the 1992 Rio Earth Summit and seeks to stabilise greenhouse-gas concentrations. It does not impose the stated 50%-per-decade reduction mandate."
+        },
+        "35": {
+          "answerIndex": 0,
+          "explanation": "The Environment (Protection) Act, 1986 provides the legal basis for India’s EIA notification and environmental clearance requirements."
+        },
+        "36": {
+          "answerIndex": 2,
+          "explanation": "Rio+20 launched the process that led to the Sustainable Development Goals, which later replaced the Millennium Development Goals."
+        },
+        "37": {
+          "answerIndex": 0,
+          "explanation": "The photoelectric effect supports the particle model of light, and emission requires light at or above a threshold frequency. Without incident light, the described photoemission does not occur."
+        },
+        "38": {
+          "answerIndex": 2,
+          "explanation": "Salivary amylase begins carbohydrate digestion by breaking starch into smaller sugars, including maltose."
+        },
+        "39": {
+          "answerIndex": 1,
+          "explanation": "Bats emit ultrasonic sound and use returning echoes to locate objects and prey."
+        },
+        "40": {
+          "answerIndex": 3,
+          "explanation": "The periodic table currently contains 118 officially named elements."
+        },
+        "41": {
+          "answerIndex": 1,
+          "explanation": "The focus (hypocentre) is the point inside Earth where an earthquake rupture begins; the epicentre is directly above it at the surface."
+        },
+        "42": {
+          "answerIndex": 1,
+          "explanation": "A supernova is a stellar explosion studied in astronomy and space science."
+        },
+        "43": {
+          "answerIndex": 1,
+          "explanation": "The Chhawn (also written Chawn) headdress was a warrior’s ornament associated with completing a headhunting ceremony over an enemy killed."
+        },
+        "44": {
+          "answerIndex": 2,
+          "explanation": "The sequence begins with Khawfingchah, followed by Vartian and then Khuantevik; Fehrehsan refers to the later interval around the morning meal. This gives option C."
+        },
+        "45": {
+          "answerIndex": 2,
+          "explanation": "Mizo customary terminology defines fan as a man leaving his home to live in the woman’s home as husband and wife."
+        },
+        "46": {
+          "answerIndex": 2,
+          "explanation": "The Sedawi rite was observed for seven days; the Mizo-language account specifies ni sarih (seven days)."
+        },
+        "47": {
+          "answerIndex": 0,
+          "explanation": "Captain J. Shakespeare edited the first Mizo-dialect journal, Mizo Chanchin Laisuih."
+        },
+        "48": {
+          "answerIndex": 0,
+          "explanation": "The khawchhiar was appointed by the Superintendent as a village writer and administrative link who assisted the Chief."
+        },
+        "49": {
+          "answerIndex": 2,
+          "explanation": "Traditional belief held that completing the series of Inlama Thangchhuah sacrificial feasts qualified a person for entry to Pialral."
+        },
+        "51": {
+          "answerIndex": 1,
+          "explanation": "Powers of 2 modulo 5 cycle every four terms: 2, 4, 3, 1. Since 100 is divisible by 4, 2¹⁰⁰ leaves remainder 1."
+        },
+        "52": {
+          "answerIndex": 3,
+          "explanation": "The least common multiple of 16, 24, 30 and 36 is 720. The number must be 720k + 10; the largest such five-digit number is 99,370."
+        },
+        "53": {
+          "answerIndex": 0,
+          "explanation": "Evaluate inside out: 1 + 1/3 = 4/3; 2 ÷ 4/3 = 3/2; 1 + 3/2 = 5/2; 2 ÷ 5/2 = 4/5. Adding 1 gives 1 4/5."
+        },
+        "54": {
+          "answerIndex": 2,
+          "explanation": "The circle’s area is πr² = 176. For an inscribed square, the diagonal is the circle’s diameter, so its area is d²/2 = 2r² = 352/π = 112 cm² using π = 22/7."
+        },
+        "55": {
+          "answerIndex": 2,
+          "explanation": "The cone height is (10/7)×21 = 30 cm. Equating volumes, (1/3)π(21²)(30) = 4π(7²)h gives h = 22.5 cm for each cylinder. The difference is 7.5 cm."
+        },
+        "57": {
+          "answerIndex": 2,
+          "explanation": "At 7:20, the minute hand is at 120°. The hour hand is at 7×30° + 20×0.5° = 220°. Their smaller separation is 100°."
+        },
+        "58": {
+          "answerIndex": 1,
+          "explanation": "A 30 cm chord in a circle of radius 30 cm subtends 60° at the centre. The minor arc is one-sixth of the circumference, so its length is (1/6)×2π×30 = 10π cm."
+        },
+        "59": {
+          "answerIndex": 3,
+          "explanation": "There are 6 choices for the first digit because it cannot be zero, then 6, 5 and 4 choices for the remaining positions. The total is 6×6×5×4 = 720."
         }
       }
     },

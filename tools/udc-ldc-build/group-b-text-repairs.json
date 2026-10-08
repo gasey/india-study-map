@@ -2648,7 +2648,7 @@
       "sourceSha256": "f28f780e75a0ef77d42c364c377fa57b31ebf8b961b8cce3f984bc8fa84a1db9",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–63 and 71 checked against rendered PDF pages 1–6 and 7; stems/options and computations were verified against the scan and final key. Q7/Q52 legacy candidates differ but calculations confirm the final key. Q30 is compensated; Q37 editorial completion is identified.",
+      "evidence": "Questions 1–73 and 71 checked against rendered PDF pages 1–7; stems, choices and calculations verified against the scan/final key. Q65–67 chart uses ₹1600 rent and the printed sector angles. Q70 remains unscored because the prompt does not say every student likes one of the two sports. Q7/Q52 legacy candidates differ but calculations confirm the key. Q30 is compensated; Q37 editorial completion is identified.",
       "questions": {
         "1": {
           "n": 1,
@@ -3471,18 +3471,137 @@
           },
           "explanation": "Let g be the green balls. Since both probabilities have the same total denominator, 12/(12+g)=3g/(12+g), so g=4."
         },
+        "64": {
+          "n": 64,
+          "page": 7,
+          "part": null,
+          "q": "A card is drawn from a well-shuffled deck of 52 cards. Find the probability that the card drawn is neither a King nor a Queen.",
+          "opts": {
+            "a": "12/13",
+            "b": "11/13",
+            "c": "10/13",
+            "d": "9/13"
+          },
+          "explanation": "There are 4 Kings and 4 Queens, leaving 44 acceptable cards. The probability is 44/52=11/13."
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "part": null,
+          "q": "Monthly expense pie chart: Food 135°, Education 108°, Rent 36°, Miscellaneous 81°; the rent expense is ₹1600. What is the family’s total expenditure?",
+          "opts": {
+            "a": "₹14,000",
+            "b": "₹15,000",
+            "c": "₹16,000",
+            "d": "₹17,000"
+          },
+          "explanation": "Rent’s 36° sector represents ₹1600. The full 360° chart therefore represents ₹1600×360/36=₹16,000."
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "part": null,
+          "q": "Monthly expense pie chart: Food 135°, Education 108°, Rent 36°, Miscellaneous 81°; the rent expense is ₹1600. Find the amount of expenditure on Education.",
+          "opts": {
+            "a": "₹3600",
+            "b": "₹6000",
+            "c": "₹5400",
+            "d": "₹4800"
+          },
+          "explanation": "Education is 108° of 360°, so its expense is (108/360)×₹16,000=₹4,800."
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "part": null,
+          "q": "Monthly expense pie chart: Food 135°, Education 108°, Rent 36°, Miscellaneous 81°; the rent expense is ₹1600. What is the difference between the expenses on Food and Rent?",
+          "opts": {
+            "a": "₹4400",
+            "b": "₹3200",
+            "c": "₹2400",
+            "d": "₹1200"
+          },
+          "explanation": "Food costs (135/360)×₹16,000=₹6,000. The difference from rent, ₹1,600, is ₹4,400."
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "part": null,
+          "q": "How many two-digit numbers are divisible by 3?",
+          "opts": {
+            "a": "28",
+            "b": "30",
+            "c": "33",
+            "d": "36"
+          },
+          "explanation": "The two-digit multiples of 3 run from 12 to 99. Their count is (99−12)/3+1=30."
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "part": null,
+          "q": "If p−2, p+1 and 2p−1 are in A.P., the value of p is—",
+          "opts": {
+            "a": "1",
+            "b": "−1",
+            "c": "5",
+            "d": "−5"
+          },
+          "explanation": "In an arithmetic progression, consecutive differences are equal: (p+1)−(p−2)=3 and (2p−1)−(p+1)=p−2. Thus p=5."
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "part": null,
+          "q": "In a class of 65 students, 40 like football and 10 like both football and hockey. How many like hockey only?",
+          "opts": {
+            "a": "35",
+            "b": "20",
+            "c": "30",
+            "d": "25"
+          },
+          "explanation": "The final key marks 25, which follows if every student likes at least one of football or hockey: hockey-only=65−40=25. The printed question does not state that assumption, so the count is not uniquely determined; held out from scoring pending clarification.",
+          "unscored": true,
+          "reviewNote": "The key assumes all 65 students like football or hockey, but the printed question does not say this; held out from scoring pending clarification."
+        },
         "71": {
           "n": 71,
           "page": 7,
           "part": null,
-          "q": "If A = {a, b, c, d} and B = {b, c, f}, then B − A = ?",
+          "q": "If A={a,b,c,d} and B={b,c,f}, then B−A = ?",
           "opts": {
-            "a": "{b, f}",
+            "a": "{b,f}",
             "b": "{f}",
             "c": "{d}",
-            "d": "{a, d}"
+            "d": "{a,d}"
           },
-          "explanation": "B − A contains elements that are in B but not in A. Since b and c are in both sets, only f remains: {f}."
+          "explanation": "B−A contains elements in B but not in A. Only f remains: {f}."
+        },
+        "72": {
+          "n": 72,
+          "page": 7,
+          "part": null,
+          "q": "The value of tan 23° × tan 33° × tan 45° × tan 57° × tan 67° is—",
+          "opts": {
+            "a": "1/√3",
+            "b": "√3",
+            "c": "1",
+            "d": "2"
+          },
+          "explanation": "Since tan(90°−θ)=1/tan θ, tan23°·tan67°=1 and tan33°·tan57°=1; tan45°=1. The product is 1."
+        },
+        "73": {
+          "n": 73,
+          "page": 7,
+          "part": null,
+          "q": "9 tan² A − 9 sec² A is equal to—",
+          "opts": {
+            "a": "0",
+            "b": "1",
+            "c": "9",
+            "d": "−9"
+          },
+          "explanation": "Using sec²A=1+tan²A, tan²A−sec²A=−1. Multiplying by 9 gives −9."
         }
       },
       "partialReview": true

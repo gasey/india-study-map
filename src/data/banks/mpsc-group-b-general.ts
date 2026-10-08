@@ -22208,6 +22208,35 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q64",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "A card is drawn from a well-shuffled deck of 52 cards. Find the probability that the card drawn is neither a King nor a Queen.",
+    "options": [
+      "12/13",
+      "11/13",
+      "10/13",
+      "9/13"
+    ],
+    "answerIndex": 1,
+    "explanation": "There are 4 Kings and 4 Queens, leaving 44 acceptable cards. The probability is 44/52=11/13.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q65",
     "paperId": "mpsc-group-b-aao-2024-arithmetic",
     "questionNumber": "65",
@@ -22216,15 +22245,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Whatisthetotalexpenditureofthefamily?",
+    "question": "Monthly expense pie chart: Food 135°, Education 108°, Rent 36°, Miscellaneous 81°; the rent expense is ₹1600. What is the family’s total expenditure?",
     "options": [
-      "714000",
-      "15000",
-      "%16000",
-      "17000"
+      "₹14,000",
+      "₹15,000",
+      "₹16,000",
+      "₹17,000"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Rent’s 36° sector represents ₹1600. The full 360° chart therefore represents ₹1600×360/36=₹16,000.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=7",
@@ -22233,10 +22262,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q66",
@@ -22247,15 +22274,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "FindtheamountofexpendituresonEducation.",
+    "question": "Monthly expense pie chart: Food 135°, Education 108°, Rent 36°, Miscellaneous 81°; the rent expense is ₹1600. Find the amount of expenditure on Education.",
     "options": [
-      "73600",
-      "%6000",
-      "%5400",
-      "%4800"
+      "₹3600",
+      "₹6000",
+      "₹5400",
+      "₹4800"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Education is 108° of 360°, so its expense is (108/360)×₹16,000=₹4,800.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=7",
@@ -22264,10 +22291,37 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q67",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "Monthly expense pie chart: Food 135°, Education 108°, Rent 36°, Miscellaneous 81°; the rent expense is ₹1600. What is the difference between the expenses on Food and Rent?",
+    "options": [
+      "₹4400",
+      "₹3200",
+      "₹2400",
+      "₹1200"
+    ],
+    "answerIndex": 0,
+    "explanation": "Food costs (135/360)×₹16,000=₹6,000. The difference from rent, ₹1,600, is ₹4,400.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=7",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q68",
@@ -22278,15 +22332,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Howmanytwodigitnumberswhicharedivisibleby3?",
+    "question": "How many two-digit numbers are divisible by 3?",
     "options": [
       "28",
       "30",
       "33",
       "36"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The two-digit multiples of 3 run from 12 to 99. Their count is (99−12)/3+1=30.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=7",
@@ -22295,10 +22349,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q69",
@@ -22309,15 +22361,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Ifp-2,p+/and2p-1areinA.P.Thevalueofpis—",
+    "question": "If p−2, p+1 and 2p−1 are in A.P., the value of p is—",
     "options": [
       "1",
-      "-l",
+      "−1",
       "5",
-      "-5"
+      "−5"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "In an arithmetic progression, consecutive differences are equal: (p+1)−(p−2)=3 and (2p−1)−(p+1)=p−2. Thus p=5.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=7",
@@ -22326,10 +22378,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q70",
@@ -22340,7 +22390,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Inaclassof65students,40likefootball,10likebothfootballandhockey.Howmanylikehockey only?",
+    "question": "In a class of 65 students, 40 like football and 10 like both football and hockey. How many like hockey only?",
     "options": [
       "35",
       "20",
@@ -22348,7 +22398,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
       "25"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The final key marks 25, which follows if every student likes at least one of football or hockey: hockey-only=65−40=25. The printed question does not state that assumption, so the count is not uniquely determined; held out from scoring pending clarification.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=7",
@@ -22359,8 +22409,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "The key assumes all 65 students like football or hockey, but the printed question does not say this; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q71",
@@ -22371,20 +22420,78 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "If A = {a, b, c, d} and B = {b, c, f}, then B − A = ?",
+    "question": "If A={a,b,c,d} and B={b,c,f}, then B−A = ?",
     "options": [
-      "{b, f}",
+      "{b,f}",
       "{f}",
       "{d}",
-      "{a, d}"
+      "{a,d}"
     ],
     "answerIndex": 1,
-    "explanation": "B − A contains elements that are in B but not in A. Since b and c are in both sets, only f remains: {f}.",
+    "explanation": "B−A contains elements in B but not in A. Only f remains: {f}.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=7",
     "officialAnswerCandidates": [
       1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q72",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The value of tan 23° × tan 33° × tan 45° × tan 57° × tan 67° is—",
+    "options": [
+      "1/√3",
+      "√3",
+      "1",
+      "2"
+    ],
+    "answerIndex": 2,
+    "explanation": "Since tan(90°−θ)=1/tan θ, tan23°·tan67°=1 and tan33°·tan57°=1; tan45°=1. The product is 1.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=7",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q73",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "9 tan² A − 9 sec² A is equal to—",
+    "options": [
+      "0",
+      "1",
+      "9",
+      "−9"
+    ],
+    "answerIndex": 3,
+    "explanation": "Using sec²A=1+tan²A, tan²A−sec²A=−1. Multiplying by 9 gives −9.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
@@ -24525,7 +24632,9 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart4: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2025-p2-Q13",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -24625,9 +24734,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart4: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q18",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -32334,7 +32441,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 36–40): Given below are four jumbled sentences. Select the option that gives the correct order."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-english-B41",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -32454,9 +32563,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 41–45): Out of the four alternatives, identify the sentence that is correctly structured."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-english-B45",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -40639,7 +40746,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-gk-Q22",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -40739,9 +40848,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-gk-Q27",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -48359,7 +48466,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 16–20): In each question four sentences are given. Choose the sentence that is grammatically and contextually incorrect."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B20",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -48479,9 +48588,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B24",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -56323,7 +56430,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p1-B60",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -56433,9 +56542,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q11",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -64037,7 +64144,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q45",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -64143,9 +64252,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q49",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -72954,7 +73061,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q17",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -73074,9 +73183,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q21",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -81210,7 +81317,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B44",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p1-B45",
     "questionNumber": "B45",
@@ -81319,9 +81428,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B48",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p1-B49",
     "questionNumber": "B49",
@@ -89052,7 +89159,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B20",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B21",
     "questionNumber": "B21",
@@ -89160,9 +89269,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B24",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B25",
     "questionNumber": "B25",

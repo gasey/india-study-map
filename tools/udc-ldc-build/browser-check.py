@@ -111,8 +111,8 @@ assert evaluate("document.body.innerText.includes('Arithmetic')&&document.body.i
 command('Emulation.setDeviceMetricsOverride', {'width': 1280, 'height': 900, 'deviceScaleFactor': 1, 'mobile': False})
 click_tab('Group B papers')
 assert evaluate("document.body.scrollWidth <= innerWidth")
-assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,689 ready to practise')")
-assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,577 with official answers')")
+assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,697 ready to practise')")
+assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,585 with official answers')")
 browse('Stenographer Grade III, Lokayukta', 'General Knowledge')
 assert evaluate("document.querySelectorAll('.udc-question-card').length === 100")
 assert evaluate("document.querySelectorAll('.udc-question-card')[99].innerText.includes('DP&AR (SSW)')")
@@ -157,7 +157,7 @@ assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).som
 assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).some(card => card.innerText.includes('Come in the way of') && card.innerText.includes('held out from scoring'))")
 assert evaluate("document.querySelectorAll('.udc-question-card')[99].innerText.includes('LATENT')")
 browse('Assistant Audit & Accounts Officer', 'Arithmetic')
-assert evaluate("document.querySelectorAll('.udc-question-card').length") >= 63
+assert evaluate("document.querySelectorAll('.udc-question-card').length") >= 73
 assert evaluate("document.querySelectorAll('.udc-question-card')[0].innerText.includes('value of √2')")
 evaluate("document.querySelectorAll('.udc-question-card')[0].querySelectorAll('.udc-option-label')[0].closest('button').click()")
 wait_for("!!document.querySelectorAll('.udc-question-card')[0].querySelector('.udc-answer-sources')")
@@ -176,6 +176,7 @@ assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).som
 evaluate("(()=>{const c=Array.from(document.querySelectorAll('.udc-question-card')).find(card=>card.innerText.includes('probability of drawing a white ball'));if(!c)throw Error('Q63 not rendered');c.querySelectorAll('.udc-option-label')[3].closest('button').click()})()")
 wait_for("!!Array.from(document.querySelectorAll('.udc-question-card')).find(card=>card.innerText.includes('probability of drawing a white ball'))?.querySelector('.udc-answer-sources')")
 assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).some(card => card.innerText.includes('probability of drawing a white ball') && card.innerText.includes('g=4'))")
+assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).some(card => card.innerText.includes('How many like hockey only') && card.innerText.includes('does not say this'))")
 click_tab('exam')
 assert evaluate("![...document.querySelectorAll('button')].some(b=>b.textContent.includes('Assistant Audit & Accounts Officer'))")
 assert evaluate("[...document.querySelectorAll('button')].some(b=>b.textContent.includes('Stenographer Grade III'))")

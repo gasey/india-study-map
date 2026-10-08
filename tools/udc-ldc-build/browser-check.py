@@ -111,8 +111,8 @@ assert evaluate("document.body.innerText.includes('Arithmetic')&&document.body.i
 command('Emulation.setDeviceMetricsOverride', {'width': 1280, 'height': 900, 'deviceScaleFactor': 1, 'mobile': False})
 click_tab('Group B papers')
 assert evaluate("document.body.scrollWidth <= innerWidth")
-assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,635 ready to practise')")
-assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,523 with official answers')")
+assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,647 ready to practise')")
+assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,535 with official answers')")
 browse('Stenographer Grade III, Lokayukta', 'General Knowledge')
 assert evaluate("document.querySelectorAll('.udc-question-card').length === 100")
 assert evaluate("document.querySelectorAll('.udc-question-card')[99].innerText.includes('DP&AR (SSW)')")
@@ -157,7 +157,7 @@ assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).som
 assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).some(card => card.innerText.includes('Come in the way of') && card.innerText.includes('held out from scoring'))")
 assert evaluate("document.querySelectorAll('.udc-question-card')[99].innerText.includes('LATENT')")
 browse('Assistant Audit & Accounts Officer', 'Arithmetic')
-assert evaluate("document.querySelectorAll('.udc-question-card').length") >= 8
+assert evaluate("document.querySelectorAll('.udc-question-card').length") >= 20
 assert evaluate("document.querySelectorAll('.udc-question-card')[0].innerText.includes('value of √2')")
 evaluate("document.querySelectorAll('.udc-question-card')[0].querySelectorAll('.udc-option-label')[0].closest('button').click()")
 wait_for("!!document.querySelectorAll('.udc-question-card')[0].querySelector('.udc-answer-sources')")
@@ -165,6 +165,7 @@ assert evaluate("document.querySelectorAll('.udc-question-card')[0].innerText.in
 evaluate("document.querySelectorAll('.udc-question-card')[6].querySelectorAll('.udc-option-label')[3].closest('button').click()")
 wait_for("!!document.querySelectorAll('.udc-question-card')[6].querySelector('.udc-answer-sources')")
 assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).some(card => card.innerText.includes('number of terms in the sequence') && card.innerText.includes('Legacy inferred candidate gives C'))")
+assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).some(card => card.innerText.includes('speed of a moving car is 36 km/hr'))")
 click_tab('exam')
 assert evaluate("![...document.querySelectorAll('button')].some(b=>b.textContent.includes('Assistant Audit & Accounts Officer'))")
 assert evaluate("[...document.querySelectorAll('button')].some(b=>b.textContent.includes('Stenographer Grade III'))")

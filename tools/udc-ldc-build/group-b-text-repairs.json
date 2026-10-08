@@ -2648,7 +2648,7 @@
       "sourceSha256": "f28f780e75a0ef77d42c364c377fa57b31ebf8b961b8cce3f984bc8fa84a1db9",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–8 and 71 checked against rendered PDF pages 1 and 7; stems, mathematical notation, and four options were visually verified. Answers match the final official key; each includes a worked calculation.",
+      "evidence": "Questions 1–20 and 71 checked against rendered PDF pages 1, 2 and 7; wording/options were visually verified and answers match the final key with worked calculations. Q7’s legacy inferred candidate differs, but the printed endpoint gives 27 terms (D).",
       "questions": {
         "1": {
           "n": 1,
@@ -2753,6 +2753,162 @@
             "d": "−15"
           },
           "explanation": "The first term is 9 and the common difference is −3. The eighth term is 9+7(−3)=−12."
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "part": null,
+          "q": "Rama gets 49% marks in an examination, obtaining 294 marks. The percentage of marks obtained by his friend in the same examination, who scores 372 marks, is—",
+          "opts": {
+            "a": "60%",
+            "b": "62%",
+            "c": "72%",
+            "d": "75%"
+          },
+          "explanation": "294 is 49% of 600, so the maximum is 600. The friend’s percentage is 372/600×100 = 62%."
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "part": null,
+          "q": "If the length of a rectangle is increased by 20% and the breadth is decreased by 20%, then the area decreases by—",
+          "opts": {
+            "a": "2%",
+            "b": "3%",
+            "c": "4%",
+            "d": "5%"
+          },
+          "explanation": "The new area factor is 1.20×0.80=0.96, so the area decreases by 4%."
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "part": null,
+          "q": "A shopkeeper sells two shirts at ₹1995 each. On one he gains 5% and on the other he loses 5%. His gain or loss in the whole transaction is—",
+          "opts": {
+            "a": "0.25% loss",
+            "b": "0.25% gain",
+            "c": "2.5% loss",
+            "d": "2.5% gain"
+          },
+          "explanation": "When two items are sold at the same price with equal gain/loss rates, the net result is a loss of 5²/100 = 0.25%."
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "part": null,
+          "q": "What rate percent is one minute 48 seconds to an hour?",
+          "opts": {
+            "a": "2%",
+            "b": "3%",
+            "c": "4%",
+            "d": "5%"
+          },
+          "explanation": "One minute 48 seconds is 108 seconds. As a share of an hour: 108/3600×100 = 3%."
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "part": null,
+          "q": "Three numbers are in the ratio 2:3:5. If the sum of their squares is 1862, then the first number is—",
+          "opts": {
+            "a": "35",
+            "b": "21",
+            "c": "14",
+            "d": "7"
+          },
+          "explanation": "Let the numbers be 2k, 3k and 5k. Then 38k²=1862, so k=7 and the first number is 14."
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "part": null,
+          "q": "Two numbers are in the ratio 2:3 and if 8 is added to each of them, they become in the ratio 3:4. The numbers are—",
+          "opts": {
+            "a": "2 and 3",
+            "b": "4 and 6",
+            "c": "8 and 12",
+            "d": "16 and 24"
+          },
+          "explanation": "Let them be 2x and 3x. Solving (2x+8)/(3x+8)=3/4 gives x=8, so the numbers are 16 and 24."
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "part": null,
+          "q": "The average height of 30 students out of a class of 40 is 160 cm and that of the remaining students is 156 cm. The average height of the whole class is—",
+          "opts": {
+            "a": "159 cm",
+            "b": "158 cm",
+            "c": "157 cm",
+            "d": "156 cm"
+          },
+          "explanation": "The total height is 30×160 + 10×156 = 6360 cm. Divide by 40 to get 159 cm."
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "part": null,
+          "q": "The mean of ten numbers is 40. If the mean of the first five is 42 and that of the last four is 35, the 6th number is—",
+          "opts": {
+            "a": "35",
+            "b": "40",
+            "c": "42",
+            "d": "50"
+          },
+          "explanation": "The ten-number total is 400. The first five sum to 210 and the last four to 140; subtracting these nine numbers leaves the sixth as 50."
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "part": null,
+          "q": "The mean weight of 5 men is increased by 1 kg when one of them, whose weight is 60 kg, is replaced by a new man. The weight of the new man is—",
+          "opts": {
+            "a": "65 kg",
+            "b": "60 kg",
+            "c": "55 kg",
+            "d": "50 kg"
+          },
+          "explanation": "Increasing the mean by 1 kg raises the total by 5 kg. The replacement therefore weighs 60+5=65 kg."
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "part": null,
+          "q": "Two pipes fill a tank in 10 hours and 12 hours respectively, while a third pipe empties the full tank in 20 hours. If all three pipes operate simultaneously, in how much time will the tank be filled?",
+          "opts": {
+            "a": "7 hours",
+            "b": "7 1/2 hours",
+            "c": "8 days",
+            "d": "8 1/2 hours"
+          },
+          "explanation": "The net rate is 1/10+1/12−1/20 = 2/15 tank per hour, so filling takes 15/2 = 7.5 hours."
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "part": null,
+          "q": "If 8 men can reap 80 hectares in 24 days, how many hectares can 36 men reap in 30 days?",
+          "opts": {
+            "a": "400 hectares",
+            "b": "450 hectares",
+            "c": "460 hectares",
+            "d": "480 hectares"
+          },
+          "explanation": "Output is proportional to workers and days: 80×(36×30)/(8×24)=450 hectares."
+        },
+        "20": {
+          "n": 20,
+          "page": 2,
+          "part": null,
+          "q": "The speed of a moving car is 36 km/hr. This speed in m/sec is—",
+          "opts": {
+            "a": "10",
+            "b": "15",
+            "c": "20",
+            "d": "25"
+          },
+          "explanation": "Convert km/h to m/s by multiplying by 5/18: 36×5/18=10 m/s."
         },
         "71": {
           "n": 71,

@@ -20618,15 +20618,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Ramagets49%marksinanexaminationobtaining294marks.Thepercentageofmarksobtainedby hisfriendinthesameexamination,whoscores372marksis—",
+    "question": "Rama gets 49% marks in an examination, obtaining 294 marks. The percentage of marks obtained by his friend in the same examination, who scores 372 marks, is—",
     "options": [
       "60%",
       "62%",
       "72%",
-      "75% (a)2%(b)3% (c)4%(d)5%"
+      "75%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "294 is 49% of 600, so the maximum is 600. The friend’s percentage is 372/600×100 = 62%.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=2",
@@ -20635,9 +20635,37 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q10",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "If the length of a rectangle is increased by 20% and the breadth is decreased by 20%, then the area decreases by—",
+    "options": [
+      "2%",
+      "3%",
+      "4%",
+      "5%"
+    ],
+    "answerIndex": 2,
+    "explanation": "The new area factor is 1.20×0.80=0.96, so the area decreases by 4%.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q11",
@@ -20648,15 +20676,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Ashopkeepersellstwoshirtsat71995each.Ononehegains5%andontheotherheloses5%.His gainorlossinthewholetransactionis-",
+    "question": "A shopkeeper sells two shirts at ₹1995 each. On one he gains 5% and on the other he loses 5%. His gain or loss in the whole transaction is—",
     "options": [
-      "0.25%loss",
-      "0.25%gain",
-      "2.5%loss",
-      "2.5%gain {(a)2%(b)3% (c)4%(d)5% (a)35(b)21 (c)14(dd)7"
+      "0.25% loss",
+      "0.25% gain",
+      "2.5% loss",
+      "2.5% gain"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "When two items are sold at the same price with equal gain/loss rates, the net result is a loss of 5²/100 = 0.25%.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=2",
@@ -20665,9 +20693,66 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q12",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "What rate percent is one minute 48 seconds to an hour?",
+    "options": [
+      "2%",
+      "3%",
+      "4%",
+      "5%"
+    ],
+    "answerIndex": 1,
+    "explanation": "One minute 48 seconds is 108 seconds. As a share of an hour: 108/3600×100 = 3%.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q13",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "Three numbers are in the ratio 2:3:5. If the sum of their squares is 1862, then the first number is—",
+    "options": [
+      "35",
+      "21",
+      "14",
+      "7"
+    ],
+    "answerIndex": 2,
+    "explanation": "Let the numbers be 2k, 3k and 5k. Then 38k²=1862, so k=7 and the first number is 14.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q14",
@@ -20678,15 +20763,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Twonumbersareintheratio2:3andif8isaddedtoeachofthem,theybecomeintheratio3:4.The numbersare—",
+    "question": "Two numbers are in the ratio 2:3 and if 8 is added to each of them, they become in the ratio 3:4. The numbers are—",
     "options": [
-      "2and3",
-      "4and6",
-      "Sand12",
-      "16and24"
+      "2 and 3",
+      "4 and 6",
+      "8 and 12",
+      "16 and 24"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Let them be 2x and 3x. Solving (2x+8)/(3x+8)=3/4 gives x=8, so the numbers are 16 and 24.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=2",
@@ -20695,9 +20780,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q15",
@@ -20708,15 +20792,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Theaverageheightof30studentsoutofaclassof40is160cmandthatoftheremainingstudents is156cm.Theaverageheightofthewholeclassis—",
+    "question": "The average height of 30 students out of a class of 40 is 160 cm and that of the remaining students is 156 cm. The average height of the whole class is—",
     "options": [
-      "159cm",
-      "158cm",
-      "157em",
-      "156cem (a)35(b)40 (c)42(a)50"
+      "159 cm",
+      "158 cm",
+      "157 cm",
+      "156 cm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The total height is 30×160 + 10×156 = 6360 cm. Divide by 40 to get 159 cm.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=2",
@@ -20725,9 +20809,37 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q16",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The mean of ten numbers is 40. If the mean of the first five is 42 and that of the last four is 35, the 6th number is—",
+    "options": [
+      "35",
+      "40",
+      "42",
+      "50"
+    ],
+    "answerIndex": 3,
+    "explanation": "The ten-number total is 400. The first five sum to 210 and the last four to 140; subtracting these nine numbers leaves the sixth as 50.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q17",
@@ -20738,15 +20850,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Themeanweightof5menisincreasedby1kgwhenoneofthem,whoseweightis60kg,isreplaced fbyanewman.Theweightofthenewmanis—",
+    "question": "The mean weight of 5 men is increased by 1 kg when one of them, whose weight is 60 kg, is replaced by a new man. The weight of the new man is—",
     "options": [
-      "6Skg",
-      "60kg",
-      "55kg",
-      "50kg :(a)7hours(b)7%hours (c)8days(d)8%hours ;(a)400hectares(b)450hectares 2(c)460hectares(d)480hectares A(a)10(b)15 3(c)20(d)25 -3-."
+      "65 kg",
+      "60 kg",
+      "55 kg",
+      "50 kg"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Increasing the mean by 1 kg raises the total by 5 kg. The replacement therefore weighs 60+5=65 kg.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=2",
@@ -20755,9 +20867,95 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q18",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "Two pipes fill a tank in 10 hours and 12 hours respectively, while a third pipe empties the full tank in 20 hours. If all three pipes operate simultaneously, in how much time will the tank be filled?",
+    "options": [
+      "7 hours",
+      "7 1/2 hours",
+      "8 days",
+      "8 1/2 hours"
+    ],
+    "answerIndex": 1,
+    "explanation": "The net rate is 1/10+1/12−1/20 = 2/15 tank per hour, so filling takes 15/2 = 7.5 hours.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q19",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "If 8 men can reap 80 hectares in 24 days, how many hectares can 36 men reap in 30 days?",
+    "options": [
+      "400 hectares",
+      "450 hectares",
+      "460 hectares",
+      "480 hectares"
+    ],
+    "answerIndex": 1,
+    "explanation": "Output is proportional to workers and days: 80×(36×30)/(8×24)=450 hectares.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q20",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The speed of a moving car is 36 km/hr. This speed in m/sec is—",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "answerIndex": 0,
+    "explanation": "Convert km/h to m/s by multiplying by 5/18: 36×5/18=10 m/s.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q21",
@@ -24408,7 +24606,9 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart4: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2025-p2-Q35",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -24583,9 +24783,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart4: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q43",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -32297,7 +32495,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 56–60): Choose the alternative that is similar/nearest in meaning to the italicized word in each of the following sentences."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-english-B57",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -32507,9 +32707,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 61–65): Choose the correct antonyms of the italicized word in each of the following sentences."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-english-B64",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -40522,7 +40720,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-gk-Q39",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -40697,9 +40897,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-gk-Q46",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -48276,7 +48474,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q12",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -48451,9 +48651,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q20",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -56246,7 +56444,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p2-Q23",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -56442,9 +56642,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q30",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -63938,7 +64136,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q61",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -64131,9 +64331,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q68",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -72918,7 +73116,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q33",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -73135,9 +73335,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q40",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -81129,7 +81327,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B60",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p1-written-A1",
     "paperId": "mpsc-group-b-co-2026-p1",
@@ -81249,9 +81449,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p2-Q1",
     "questionNumber": "B1",
@@ -88967,7 +89165,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B36",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B37",
     "questionNumber": "B37",
@@ -89156,9 +89356,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B43",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B44",
     "questionNumber": "B44",

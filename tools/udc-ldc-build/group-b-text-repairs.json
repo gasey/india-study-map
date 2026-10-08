@@ -9414,7 +9414,7 @@
       "expectedMcq": 100,
       "partialReview": true,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–40 checked against the printed scan: page 1 (Q1–9), page 2 (Q10–22), page 3 (Q23–35), and page 4 (Q36–40). Question 6 is preserved but held unscored because its time-sensitive “newly elected” claim could not be verified from a contemporaneous source. The paper has no verified official answer key; reviewed answers are derived independently and explanations are provided.",
+      "evidence": "Questions 1–40 checked against the printed scan: page 1 (Q1–9), page 2 (Q10–22), page 3 (Q23–35), and page 4 (Q36–40). Question 6 is preserved but held unscored because its time-sensitive “newly elected” claim could not be verified from a contemporaneous source. The paper has no verified official answer key; reviewed answers are derived independently and explanations are provided. Questions 41–60 were then checked against pages 4–5. Q55 is held unscored because the contemporaneous official competition record identifies Mohun Bagan as champion, but that team is absent from every printed option; Q49’s option spelling was corrected to match the scan. Q44 is also withheld: the scan combines Latvia’s 2014 euro adoption with a 2015 date, so the intended answer cannot be selected reliably.",
       "questions": {
         "1": {
           "n": 1,
@@ -10377,6 +10377,490 @@
           "explanation": "The scan asks for the “newly elected” MUP president but does not give an election date or year, and the available authoritative records do not establish which listed candidate had just been elected. The item is held out of scoring pending a contemporaneous source.",
           "unscored": true,
           "reviewNote": "Held unscored: the time-sensitive “newly elected” claim could not be verified against a contemporaneous source."
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Singapore",
+            "b": "Indonesia",
+            "c": "Malaysia",
+            "d": "Japan"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Mr. Shinzo Abe came in the news as he was reelected as Premier of",
+          "multi": false,
+          "explanation": "Shinzo Abe was re-elected prime minister of Japan in December 2014."
+        },
+        "42": {
+          "n": 42,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "SAARC",
+            "b": "ASEAN",
+            "c": "G 20",
+            "d": "UNO"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Mr. Ban Ki Moon is the Secretary General of",
+          "multi": false,
+          "explanation": "Ban Ki-moon was Secretary-General of the United Nations (UNO)."
+        },
+        "43": {
+          "n": 43,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Mr. Robert Mugabe",
+            "b": "Mr. Edgar Lungu",
+            "c": "Atul Khare",
+            "d": "Madido"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The present Chairman of African Union is",
+          "multi": false,
+          "explanation": "Robert Mugabe chaired the African Union from January 2015 to January 2016."
+        },
+        "44": {
+          "n": 44,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "16th member",
+            "b": "17th member",
+            "c": "18th member",
+            "d": "19th member"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "On 1st January 2015 Latvia adopted Euro to become __________ Eurozone member",
+          "multi": false,
+          "explanation": "Latvia adopted the euro on 1 January 2014 as the 18th euro-area member. On 1 January 2015, Lithuania became the 19th member. Since the printed question combines Latvia with the 2015 date, it is factually inconsistent and is not scored.",
+          "unscored": true,
+          "reviewNote": "Held unscored: the question says Latvia adopted the euro on 1 January 2015, but Latvia joined on 1 January 2014. The intended year and ordinal answer cannot be inferred reliably."
+        },
+        "45": {
+          "n": 45,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "New Delhi",
+            "b": "Singapore",
+            "c": "Shanghai",
+            "d": "Hong Kong"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "BRICS launched a new bank, called New Development Bank. The Headquarters of the Bank is located in",
+          "multi": false,
+          "explanation": "The BRICS New Development Bank is headquartered in Shanghai, China."
+        },
+        "46": {
+          "n": 46,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "CBI Director",
+            "b": "Goa Governor",
+            "c": "Chairman of UPSC",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Anil Kumar Sinha came in the news recently for his appointment as new",
+          "multi": false,
+          "explanation": "Anil Kumar Sinha was appointed Director of the Central Bureau of Investigation in November 2014."
+        },
+        "47": {
+          "n": 47,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Keshari Nath Tripathi",
+            "b": "Kulshar Nath Tripathi",
+            "c": "Kumar Nath Tripathi",
+            "d": "Keshari Nair Tripathi"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Present Governor of Mizoram is",
+          "multi": false,
+          "explanation": "Keshari Nath Tripathi was serving as governor of Mizoram in 2015."
+        },
+        "48": {
+          "n": 48,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Mukul Sangma",
+            "b": "B.B.Lyngdoh",
+            "c": "D.D.Lapang",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Present Chief Minister of Meghalaya is",
+          "multi": false,
+          "explanation": "Mukul Sangma was chief minister of Meghalaya in 2015."
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Padma Vibhushan",
+            "b": "Bharat Ratna",
+            "c": "Padma Bhusan",
+            "d": "Padma Shri"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Atal Bihari Vajpayee was recently awarded the",
+          "multi": false,
+          "explanation": "Atal Bihari Vajpayee received the Bharat Ratna in 2015."
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Dr. Kenneth Chawngliana",
+            "b": "Rev. Zosangliana Colney",
+            "c": "Andrew Lalherliana",
+            "d": "C.Zorammuana"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who is the present Chairman of Mizoram Public Service Commission?",
+          "multi": false,
+          "explanation": "Rev. Zosangliana Colney served as chairman of the Mizoram Public Service Commission from 1 April 2015 to 1 October 2017."
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Mahendra Singh Dhoni",
+            "b": "Sunil Gavaskar",
+            "c": "Sachin Tendulkar",
+            "d": "Virat Kohli"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who among the following was appointed as Ambassador of Cricket World Cup, 2015 by the International Cricket Council?",
+          "multi": false,
+          "explanation": "Sachin Tendulkar was appointed ICC Cricket World Cup 2015 ambassador."
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Lewis Hamilton",
+            "b": "Nico Rosberg",
+            "c": "Sebastian Vettel",
+            "d": "Felipe Massa"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who among the following is the Formula One World Champion, 2014?",
+          "multi": false,
+          "explanation": "Lewis Hamilton won the 2014 Formula One World Drivers’ Championship."
+        },
+        "53": {
+          "n": 53,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Norway",
+            "b": "Russia",
+            "c": "Ukraine",
+            "d": "Denmark"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "World Chess Champion Magnus  Carlsen belongs to",
+          "multi": false,
+          "explanation": "Magnus Carlsen represents Norway."
+        },
+        "54": {
+          "n": 54,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Andy Murray",
+            "b": "Novak Djokovic",
+            "c": "Rafael Nadal",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who is the Australian Open 2015 Champion in men’s single?",
+          "multi": false,
+          "explanation": "Novak Djokovic won the 2015 Australian Open men’s singles title."
+        },
+        "56": {
+          "n": 56,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Asia-Pacific Economic Cooperation",
+            "b": "Asian Petrol Exporting Countries",
+            "c": "Asian Pacific Economic Corporation",
+            "d": "Association of Petrol Exporting Countries"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "APEC stands for",
+          "multi": false,
+          "explanation": "APEC stands for Asia-Pacific Economic Cooperation."
+        },
+        "57": {
+          "n": 57,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "National Programme for Cholera Infection Limiting",
+            "b": "National Programme for Chemical Importing Limited",
+            "c": "Nuclear Power Corporation of India Limited",
+            "d": "Nuclear Power Control in India Limited"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "NPCIL stands for",
+          "multi": false,
+          "explanation": "NPCIL stands for Nuclear Power Corporation of India Limited."
+        },
+        "58": {
+          "n": 58,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "International Automobile Exporting Agency",
+            "b": "International Automobile Export Agency",
+            "c": "International Atomic Examination Agency",
+            "d": "International Atomic Energy Agency"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "IAEA means",
+          "multi": false,
+          "explanation": "IAEA stands for International Atomic Energy Agency."
+        },
+        "59": {
+          "n": 59,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "National Institution for Transforming India",
+            "b": "National Institution for Telecommunication in India",
+            "c": "National Institute of Telecommunication and Information",
+            "d": "National Institute of Transportation in India"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "NITI stands for",
+          "multi": false,
+          "explanation": "NITI Aayog’s name expands to National Institution for Transforming India."
+        },
+        "60": {
+          "n": 60,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Central Board of Excise and Customs",
+            "b": "Central Board of Exchanges and Currency",
+            "c": "Central Board of Experts in Consumers",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "CBEC refers to",
+          "multi": false,
+          "explanation": "CBEC stood for Central Board of Excise and Customs; it was renamed the Central Board of Indirect Taxes and Customs in 2018."
+        },
+        "55": {
+          "n": 55,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Bengaluru FC",
+            "b": "Mumbai FC",
+            "c": "Dempo FC",
+            "d": "Goa FC"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following Indian Football teams won the Federation Cup, 2015?",
+          "multi": false,
+          "explanation": "The 2014–15 Federation Cup was won by Mohun Bagan, which is not among the four printed options. The question therefore has no correct listed answer and is held out of scoring.",
+          "unscored": true,
+          "reviewNote": "Held unscored: the 2014–15 Federation Cup winner, Mohun Bagan, is missing from the printed options."
         }
       },
       "derivedAnswers": {
@@ -10535,6 +11019,78 @@
         "40": {
           "answerIndex": 3,
           "explanation": "Karl Marx wrote “Das Kapital,” his critique of political economy and capitalism."
+        },
+        "41": {
+          "answerIndex": 3,
+          "explanation": "Shinzo Abe was re-elected prime minister of Japan in December 2014."
+        },
+        "42": {
+          "answerIndex": 3,
+          "explanation": "Ban Ki-moon was Secretary-General of the United Nations (UNO)."
+        },
+        "43": {
+          "answerIndex": 0,
+          "explanation": "Robert Mugabe chaired the African Union from January 2015 to January 2016."
+        },
+        "45": {
+          "answerIndex": 2,
+          "explanation": "The BRICS New Development Bank is headquartered in Shanghai, China."
+        },
+        "46": {
+          "answerIndex": 0,
+          "explanation": "Anil Kumar Sinha was appointed Director of the Central Bureau of Investigation in November 2014."
+        },
+        "47": {
+          "answerIndex": 0,
+          "explanation": "Keshari Nath Tripathi was serving as governor of Mizoram in 2015."
+        },
+        "48": {
+          "answerIndex": 0,
+          "explanation": "Mukul Sangma was chief minister of Meghalaya in 2015."
+        },
+        "49": {
+          "answerIndex": 1,
+          "explanation": "Atal Bihari Vajpayee received the Bharat Ratna in 2015."
+        },
+        "50": {
+          "answerIndex": 1,
+          "explanation": "Rev. Zosangliana Colney served as chairman of the Mizoram Public Service Commission from 1 April 2015 to 1 October 2017."
+        },
+        "51": {
+          "answerIndex": 2,
+          "explanation": "Sachin Tendulkar was appointed ICC Cricket World Cup 2015 ambassador."
+        },
+        "52": {
+          "answerIndex": 0,
+          "explanation": "Lewis Hamilton won the 2014 Formula One World Drivers’ Championship."
+        },
+        "53": {
+          "answerIndex": 0,
+          "explanation": "Magnus Carlsen represents Norway."
+        },
+        "54": {
+          "answerIndex": 1,
+          "explanation": "Novak Djokovic won the 2015 Australian Open men’s singles title."
+        },
+        "56": {
+          "answerIndex": 0,
+          "explanation": "APEC stands for Asia-Pacific Economic Cooperation."
+        },
+        "57": {
+          "answerIndex": 2,
+          "explanation": "NPCIL stands for Nuclear Power Corporation of India Limited."
+        },
+        "58": {
+          "answerIndex": 3,
+          "explanation": "IAEA stands for International Atomic Energy Agency."
+        },
+        "59": {
+          "answerIndex": 0,
+          "explanation": "NITI Aayog’s name expands to National Institution for Transforming India."
+        },
+        "60": {
+          "answerIndex": 0,
+          "explanation": "CBEC stood for Central Board of Excise and Customs; it was renamed the Central Board of Indirect Taxes and Customs in 2018."
         }
       }
     }

@@ -8200,7 +8200,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The scan states “in 2025 launched,” but Parker Solar Probe launched in 2018. The date makes the printed question false as written, so it is held out pending correction. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "The scan states “in 2025 launched,” but Parker Solar Probe launched in 2018. The date makes the printed question false as written, so it is held out pending correction."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q28",
@@ -10786,7 +10786,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Both “lately” and “of late” are grammatical adverbs meaning “recently” in this question. The item has two defensible options and is held out. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Both “lately” and “of late” are grammatical adverbs meaning “recently” in this question. The item has two defensible options and is held out."
   },
   {
     "id": "mpsc-group-b-steno2-2015-english-Q20",
@@ -11509,7 +11509,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "“Bombastic” and “grandiloquent” both describe pompous, inflated language; the options do not support a unique answer. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "“Bombastic” and “grandiloquent” both describe pompous, inflated language; the options do not support a unique answer."
   },
   {
     "id": "mpsc-group-b-steno2-2015-english-Q48",
@@ -12662,17 +12662,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Malaysia",
       "Japan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Shinzo Abe was re-elected prime minister of Japan in December 2014.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q42",
@@ -12690,17 +12688,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "G 20",
       "UNO"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Ban Ki-moon was Secretary-General of the United Nations (UNO).",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q43",
@@ -12718,14 +12714,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Atul Khare",
       "Madido"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Robert Mugabe chaired the African Union from January 2015 to January 2016.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q44",
@@ -12744,7 +12741,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "19th member"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Latvia adopted the euro on 1 January 2014 as the 18th euro-area member. On 1 January 2015, Lithuania became the 19th member. Since the printed question combines Latvia with the 2015 date, it is factually inconsistent and is not scored.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=4",
@@ -12753,7 +12750,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Held unscored: the question says Latvia adopted the euro on 1 January 2015, but Latvia joined on 1 January 2014. The intended year and ordinal answer cannot be inferred reliably."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q45",
@@ -12771,17 +12768,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Shanghai",
       "Hong Kong"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The BRICS New Development Bank is headquartered in Shanghai, China.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q46",
@@ -12799,14 +12794,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Chairman of UPSC",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Anil Kumar Sinha was appointed Director of the Central Bureau of Investigation in November 2014.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q47",
@@ -12824,14 +12820,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Kumar Nath Tripathi",
       "Keshari Nair Tripathi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Keshari Nath Tripathi was serving as governor of Mizoram in 2015.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q48",
@@ -12849,17 +12846,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "D.D.Lapang",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Mukul Sangma was chief minister of Meghalaya in 2015.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q49",
@@ -12872,22 +12867,20 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "difficulty": "medium",
     "question": "Atal Bihari Vajpayee was recently awarded the",
     "options": [
-      "Padma Vibhusan",
+      "Padma Vibhushan",
       "Bharat Ratna",
       "Padma Bhusan",
       "Padma Shri"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Atal Bihari Vajpayee received the Bharat Ratna in 2015.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q50",
@@ -12905,14 +12898,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Andrew Lalherliana",
       "C.Zorammuana"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Rev. Zosangliana Colney served as chairman of the Mizoram Public Service Commission from 1 April 2015 to 1 October 2017.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q51",
@@ -12930,17 +12924,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Sachin Tendulkar",
       "Virat Kohli"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Sachin Tendulkar was appointed ICC Cricket World Cup 2015 ambassador.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q52",
@@ -12958,17 +12950,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Sebastian Vettel",
       "Felipe Massa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Lewis Hamilton won the 2014 Formula One World Drivers’ Championship.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q53",
@@ -12986,17 +12976,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Ukraine",
       "Denmark"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Magnus Carlsen represents Norway.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q54",
@@ -13014,17 +13002,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Rafael Nadal",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Novak Djokovic won the 2015 Australian Open men’s singles title.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q55",
@@ -13043,13 +13029,13 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Goa FC"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The 2014–15 Federation Cup was won by Mohun Bagan, which is not among the four printed options. The question therefore has no correct listed answer and is held out of scoring.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Held unscored: the 2014–15 Federation Cup winner, Mohun Bagan, is missing from the printed options."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q56",
@@ -13067,17 +13053,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Asian Pacific Economic Corporation",
       "Association of Petrol Exporting Countries"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "APEC stands for Asia-Pacific Economic Cooperation.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q57",
@@ -13095,17 +13079,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Nuclear Power Corporation of India Limited",
       "Nuclear Power Control in India Limited"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "NPCIL stands for Nuclear Power Corporation of India Limited.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q58",
@@ -13123,17 +13105,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "International Atomic Examination Agency",
       "International Atomic Energy Agency"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "IAEA stands for International Atomic Energy Agency.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q59",
@@ -13151,17 +13131,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "National Institute of Telecommunication and Information",
       "National Institute of Transportation in India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "NITI Aayog’s name expands to National Institution for Transforming India.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q60",
@@ -13179,17 +13157,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Central Board of Experts in Consumers",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "CBEC stood for Central Board of Excise and Customs; it was renamed the Central Board of Indirect Taxes and Customs in 2018.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q61",
@@ -72187,7 +72163,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "compensated": true,
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official final key has no answer for this item. Option D is the likely direct-speech conversion if the two uses of “they” refer to the same people, but the item is held out because that reference is unstated and the official key leaves it blank. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "The official final key has no answer for this item. Option D is the likely direct-speech conversion if the two uses of “they” refer to the same people, but the item is held out because that reference is unstated and the official key leaves it blank."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B49",
@@ -75002,7 +74978,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "compensated": true,
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Held out: under simple interest, ₹2,400=P(1+0.08×3), so P≈₹1,935.48. No listed option matches, and the final key supplies no answer. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Held out: under simple interest, ₹2,400=P(1+0.08×3), so P≈₹1,935.48. No listed option matches, and the final key supplies no answer."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q79",

@@ -270,7 +270,7 @@ def build_additional():
                         if key_choices else 'Text and option order checked against the printed scan; scored from a worked derivation.')
             if len(key_choices) > 1:
                 note = 'The official key accepts ' + ' and '.join('ABCD'[x] for x in key_choices) + '; this item is kept out of the single-answer drill.'
-            if independent >= 0 and not (derived and text_reviewed):
+            if independent >= 0 and not q.get('unscored') and not (derived and text_reviewed):
                 note += ' The independent candidate came from the legacy inferred bank and still needs reasoning review.'
             section = 'english' if 'English' in subject else 'arithmetic' if subject == 'Arithmetic' else 'gk'
             if slug == 'inspector-stats-2026-p2' and q['n'] > 50:

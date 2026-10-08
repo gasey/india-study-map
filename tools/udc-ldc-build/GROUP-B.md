@@ -7,8 +7,8 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 8 October 2026
 
 49 general papers, 3,466 items: 3,345 MCQs and 121 written prompts.
-1,903 questions are ready for practice, including 1,614 official answers and
-289 independently derived answers. 1,511 items still need source review.
+1,921 questions are ready for practice, including 1,614 official answers and
+307 independently derived answers. 1,493 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -45,7 +45,7 @@ guidance. Q12, Q19, Q40 and Q47 remain unscored because their choices do not
 give unique, accurate answers. The paper remains out of full-paper Exam mode
 because it has no verified key.
 
-Stenographer Grade-II (Contract) General Knowledge 2015 Q1–40 has been checked against printed pages 1–4. Thirty-nine questions have independently derived answers with explanations; Q6 is held out because its time-sensitive claim about the newly elected MUP president could not be verified from a contemporaneous source. The paper remains out of full-paper Exam mode while Q41–100 await review and no verified official answer key is available.
+Stenographer Grade-II (Contract) General Knowledge 2015 Q1–60 has been checked against printed pages 1–5. Fifty-seven questions have independently derived answers with explanations; Q6 is held out because its time-sensitive claim about the newly elected MUP president could not be verified from a contemporaneous source, Q44 because it combines Latvia’s 2014 euro adoption with a 2015 date, and Q55 because the Federation Cup winner is missing from its choices. The paper remains out of full-paper Exam mode while Q61–100 await review and no verified official answer key is available.
 
 The official MPSC final keys for the March 2025 Stenographer Grade-III General
 Knowledge and General English papers are now attached. All 100 General

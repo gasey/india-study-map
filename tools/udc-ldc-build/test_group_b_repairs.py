@@ -42,15 +42,19 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertTrue(result['questions'][24]['unscored'])
         self.assertEqual(result['questions'][30]['opts']['b'], 'invested, shipped')
 
-    def test_fcs_paper_recovers_merged_first_eight_and_reviews_through_24(self):
+    def test_fcs_paper_recovers_merged_first_eight_and_reviews_through_47(self):
         extracted = json.loads((HERE / 'extracted/si-fcs-2025-p2.json').read_text())
         repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['si-fcs-2025-p2']
         result, reviewed = reviewed_extraction(extracted, repair)
-        self.assertEqual(reviewed, set(range(1, 25)))
+        self.assertEqual(reviewed, set(range(1, 48)))
         self.assertEqual([q['n'] for q in result['questions']], list(range(1, 101)))
         self.assertEqual(result['questions'][0]['opts']['d'], 'Kiwi')
         self.assertEqual(result['questions'][7]['q'], 'Red Fort at Delhi was built by which of the following Mughal kings?')
-        self.assertEqual(len(repair['derivedAnswers']), 24)
+        self.assertEqual(set(repair['derivedAnswers']), set(map(str, list(range(1, 30)) + list(range(31, 42)) + list(range(43, 48)))))
+        self.assertTrue(all(x['explanation'].strip() for x in repair['derivedAnswers'].values()))
+        self.assertTrue(result['questions'][29]['unscored'])
+        self.assertTrue(result['questions'][41]['unscored'])
+        self.assertIn('Violet and blue light get scattered', result['questions'][37]['opts']['c'])
         self.assertEqual(result['questions'][23]['opts']['a'], 'Articles 25-28')
 
     def test_rejects_stale_source(self):

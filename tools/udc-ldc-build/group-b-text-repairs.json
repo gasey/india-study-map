@@ -20756,6 +20756,541 @@
           "ambiguous": [],
           "q": "Which of the following Articles of the Indian Constitution contain the Right to Religious Freedom?",
           "multi": false
+        },
+        "25": {
+          "n": 25,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Only social and economic aspects",
+            "b": "Both ecological and economic aspects",
+            "c": "Social, economic and ecological aspects",
+            "d": "Only ecological aspects"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Sustainable Development takes into account which of the following aspects for development?",
+          "multi": false
+        },
+        "26": {
+          "n": 26,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "MGNREGA",
+            "b": "Swatchh Bharat Mission",
+            "c": "NHM",
+            "d": "Jan Dhan Yojana"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which scheme is aimed at reducing poverty and improving economic opportunities for marginalized community in India?",
+          "multi": false
+        },
+        "27": {
+          "n": 27,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "SDG 4",
+            "b": "SDG 6",
+            "c": "SDG 9",
+            "d": "SDG 3"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "‘National Health Mission’ in India primarily supports which SDG?",
+          "multi": false
+        },
+        "28": {
+          "n": 28,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "SDG 7",
+            "b": "SDG 11",
+            "c": "SDG 5",
+            "d": "SDG 13"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Indian initiative ‘Beti Bachao Beti Padhao’ is aligned with which SDG?",
+          "multi": false
+        },
+        "29": {
+          "n": 29,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "financial provision of more gender equal society",
+            "b": "financial provision of more gender unequal society",
+            "c": "financial provision to achieve human development",
+            "d": "financial provision for equality of every citizen"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Gender Budgeting means:",
+          "multi": false
+        },
+        "30": {
+          "n": 30,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "PM Jan Dhan Yojana",
+            "b": "Sukanya Samridhhi Scheme",
+            "c": "Jan Dhan Yojana",
+            "d": "Ayushman Bharat Yojana"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following Prime Minister’s Flagship Program relates to financial inclusion to ensure access to banking services?",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held out: options A and C name the same PM Jan Dhan Yojana scheme, so two answer choices are equivalent.",
+          "reviewNote": "Duplicate equivalent options"
+        },
+        "31": {
+          "n": 31,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "2009",
+            "b": "2004",
+            "c": "2002",
+            "d": "2001"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "In which year the National Bio- diversity Act was enacted?",
+          "multi": false
+        },
+        "32": {
+          "n": 32,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "48 A",
+            "b": "51 A (g)",
+            "c": "250",
+            "d": "253"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Under which Article of the Constitution was the Environment (Protection) Act, 1986 enacted?",
+          "multi": false
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Tropical regions",
+            "b": "Temperate Areas",
+            "c": "Polar Areas",
+            "d": "Oceans"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Richest biodiversity is found in:",
+          "multi": false
+        },
+        "34": {
+          "n": 34,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "1",
+            "b": "3",
+            "c": "5",
+            "d": "2"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "How many villages received Lalthara Unau Foundation (LUF) Award 2025 for their exceptional work in Environmental Conservation in Mizoram?",
+          "multi": false
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Soil Pollution",
+            "b": "Air Pollution",
+            "c": "Water Pollution",
+            "d": "Noise Pollution"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "‘Green Muffler’ is a term related to-",
+          "multi": false
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Estimate future needs of the society",
+            "b": "Smooth implementation of the project",
+            "c": "Resource conservation",
+            "d": "Cope with rapid increase in population"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Environmental Impact Assessment (EIA) is aimed to help:",
+          "multi": false
+        },
+        "37": {
+          "n": 37,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "The actual area of contact between the wheel and axle is increased",
+            "b": "The effective area of contact between the wheel and axle is reduced",
+            "c": "The effective area of contact between the wheel and axle is increased",
+            "d": "Both the actual area and effective area of contact between the wheel and axle is increased"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Cars and cycles use ball bearings because:",
+          "multi": false
+        },
+        "38": {
+          "n": 38,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Blue light gets absorbed in the atmosphere",
+            "b": "Ultraviolet radiations are absorbed in the atmosphere",
+            "c": "Violet and blue light get scattered more than light of all other colours by the atmosphere",
+            "d": "Light of all other colours is scattered more than the violet and blue colour lights by the atmosphere"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The clear sky appears blue because-",
+          "multi": false
+        },
+        "39": {
+          "n": 39,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Nitric Acid",
+            "b": "Chlorine",
+            "c": "Sodium Chloride",
+            "d": "Sodium benzoate"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following compound is used as food preservative?",
+          "multi": false
+        },
+        "40": {
+          "n": 40,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "release of extra gastric acids which decrease the pH level",
+            "b": "indigestion and pain in the large intestine",
+            "c": "increase the pH level in the stomach",
+            "d": "release of extra bile juice which increases alkaline medium in the stomach"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The main cause of acidity in the stomach is-",
+          "multi": false
+        },
+        "41": {
+          "n": 41,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Depth",
+            "b": "Distance",
+            "c": "Frequency",
+            "d": "Sound"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Fathom is a unit of:",
+          "multi": false
+        },
+        "42": {
+          "n": 42,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "all the plants",
+            "b": "all land plants",
+            "c": "flowering plants",
+            "d": "lower plants"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Movement due to lights are shown by-",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held out: “movement due to light” is underspecified; it may refer to phototropism in plant organs or phototaxis in motile lower plants, so the listed groups overlap.",
+          "reviewNote": "Ambiguous biological movement category"
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Tukluh bawi",
+            "b": "Inpuichhung bawi",
+            "c": "Hnamchawm",
+            "d": "Chemsen Bawi"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A person who became bawi (slave) for killing someone was named?",
+          "multi": false
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Seluphan",
+            "b": "Sathingzar",
+            "c": "Sahlam",
+            "d": "Thinglu bul"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A pole on which an enemy’s head was fixed is called:",
+          "multi": false
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Ramhual",
+            "b": "Tukluh bawi",
+            "c": "Bawi",
+            "d": "Common people"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Hnamchawm refers to:",
+          "multi": false
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Val Upa",
+            "b": "Khawnbawl Upa",
+            "c": "Puithiam",
+            "d": "Tlangau"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who were the leaders in Mizo society who held a high position without being elected or appointed but played a significant role in decision-making and governance at the community level?",
+          "multi": false
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Si-hai",
+            "b": "Khawhring",
+            "c": "Khuavang",
+            "d": "Maimi"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which one of the following was considered bad spirit in early mizo days?",
+          "multi": false
         }
       },
       "derivedAnswers": {
@@ -20854,6 +21389,90 @@
         "24": {
           "answerIndex": 0,
           "explanation": "Articles 25–28 protect freedom of conscience and the free profession, practice and propagation of religion, subject to their provisions."
+        },
+        "25": {
+          "answerIndex": 2,
+          "explanation": "Sustainable development integrates social well-being, economic development and environmental protection."
+        },
+        "26": {
+          "answerIndex": 0,
+          "explanation": "MGNREGA provides rural households with a wage-employment guarantee and is a major poverty-reduction and livelihood programme."
+        },
+        "27": {
+          "answerIndex": 3,
+          "explanation": "The National Health Mission supports SDG 3: Good Health and Well-being."
+        },
+        "28": {
+          "answerIndex": 2,
+          "explanation": "Beti Bachao Beti Padhao advances gender equality and girls’ empowerment, aligning with SDG 5."
+        },
+        "29": {
+          "answerIndex": 0,
+          "explanation": "Gender budgeting applies a gender perspective to public budgets so that spending and revenue policies advance gender equality; option A is the closest available description."
+        },
+        "31": {
+          "answerIndex": 2,
+          "explanation": "The Biological Diversity Act was enacted in 2002."
+        },
+        "32": {
+          "answerIndex": 3,
+          "explanation": "Parliament enacted the Environment (Protection) Act, 1986 under Article 253, which enables legislation to implement international agreements."
+        },
+        "33": {
+          "answerIndex": 0,
+          "explanation": "Tropical regions generally have the greatest species richness because warm, productive and relatively stable conditions support high biodiversity."
+        },
+        "34": {
+          "answerIndex": 3,
+          "explanation": "The 2025 LUF recognition named two villages, Sailulak and Sairep, for conservation work."
+        },
+        "35": {
+          "answerIndex": 3,
+          "explanation": "A green muffler is a belt of trees planted to absorb and reduce traffic or industrial noise."
+        },
+        "36": {
+          "answerIndex": 1,
+          "explanation": "Environmental Impact Assessment identifies and mitigates likely environmental effects so a proposed project can be planned and implemented more responsibly; option B is the closest choice."
+        },
+        "37": {
+          "answerIndex": 1,
+          "explanation": "Ball bearings reduce sliding friction by enabling rolling motion; the question describes this as reducing the effective contact area."
+        },
+        "38": {
+          "answerIndex": 2,
+          "explanation": "Air molecules scatter shorter wavelengths more strongly than longer wavelengths, so violet and blue light are scattered through the sky."
+        },
+        "39": {
+          "answerIndex": 3,
+          "explanation": "Sodium benzoate is commonly used as a food preservative."
+        },
+        "40": {
+          "answerIndex": 0,
+          "explanation": "Excess gastric acid lowers the stomach’s pH and causes acidity symptoms."
+        },
+        "41": {
+          "answerIndex": 0,
+          "explanation": "A fathom is a unit of water depth, conventionally six feet."
+        },
+        "43": {
+          "answerIndex": 3,
+          "explanation": "A Chemsen Bawi was a person who became a chief’s bawi after killing someone and seeking sanctuary; the scan’s “Chemsem” spelling is corrected to the established form."
+        },
+        "44": {
+          "answerIndex": 2,
+          "explanation": "Sahlam is the name used for a tree or pole associated with displaying an enemy’s head."
+        },
+        "45": {
+          "answerIndex": 3,
+          "explanation": "Hnamchawm means the common people or commoners, not a category of bawi."
+        },
+        "46": {
+          "answerIndex": 0,
+          "explanation": "Val Upa was a traditional youth leader with a recognized community role; the question describes a position held through custom rather than election or appointment."
+        },
+        "47": {
+          "answerIndex": 1,
+          "explanation": "Khawhring is described in Mizo belief as a harmful or evil spirit; Khuavang is benevolent."
         }
       },
       "sourceSha256": "0bb9cacc2b5f753ab481e2f68f33adc2909c48a15f11c8073c89fd900cc63bcf",
@@ -20863,7 +21482,7 @@
       "nonMcq": [
         8
       ],
-      "evidence": "Sub-Inspector under Food, Civil Supplies & Consumer Affairs / Receptionist under Health & Family Welfare, Paper-II, May 2025, Booklet A. The cover specifies 100 two-mark questions, two hours and no negative marking. The extracted Q1–8 had been merged into one corrupt record; Q1–8 were reconstructed from printed page 2, and Q9–24 were compared against printed pages 2–3. All stems, numbering and four-option sets in this range were checked. Twenty-four questions have independently derived explanations. The remaining questions are still pending scan review; this is a partial repair, not a paper-wide verification."
+      "evidence": "Sub-Inspector under Food, Civil Supplies & Consumer Affairs / Receptionist under Health & Family Welfare, Paper-II, May 2025, Booklet A. The cover specifies 100 two-mark questions, two hours and no negative marking. The extracted Q1–8 had been merged into one corrupt record; Q1–8 were reconstructed from printed page 2, and Q9–24 were compared against printed pages 2–3. All stems, numbering and four-option sets in this range were checked. Twenty-four questions have independently derived explanations. The remaining questions are still pending scan review; this is a partial repair, not a paper-wide verification. Questions 25–47 were checked against printed pages 4–5. Twenty-one more answers have independently derived explanations. Q30 is held because options A and C name the same scheme; Q42 is held because “movement due to light” does not distinguish phototropism from phototaxis. Q34 was checked against the 2025 LUF award announcement; Q43–47 were cross-checked against Mizo cultural and historical sources. Minor spelling and grammar repairs improve readability without changing option meaning."
     }
   }
 }

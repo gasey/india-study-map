@@ -52948,14 +52948,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Social, economic and ecological aspects",
       "Only ecological aspects"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Sustainable development integrates social well-being, economic development and environmental protection.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q26",
@@ -52973,14 +52974,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "NHM",
       "Jan Dhan Yojana"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "MGNREGA provides rural households with a wage-employment guarantee and is a major poverty-reduction and livelihood programme.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q27",
@@ -52998,14 +53000,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "SDG 9",
       "SDG 3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The National Health Mission supports SDG 3: Good Health and Well-being.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q28",
@@ -53023,14 +53026,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "SDG 5",
       "SDG 13"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Beti Bachao Beti Padhao advances gender equality and girls’ empowerment, aligning with SDG 5.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q29",
@@ -53041,24 +53045,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Gender Budgeting means___________",
+    "question": "Gender Budgeting means:",
     "options": [
       "financial provision of more gender equal society",
       "financial provision of more gender unequal society",
       "financial provision to achieve human development",
       "financial provision for equality of every citizen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Gender budgeting applies a gender perspective to public budgets so that spending and revenue policies advance gender equality; option A is the closest available description.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q30",
@@ -53077,13 +53079,13 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Ayushman Bharat Yojana"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: options A and C name the same PM Jan Dhan Yojana scheme, so two answer choices are equivalent.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Duplicate equivalent options"
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q31",
@@ -53101,17 +53103,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "2002",
       "2001"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Biological Diversity Act was enacted in 2002.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q32",
@@ -53122,21 +53122,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Under which Article of the Constitution Environment (Protection) Act, 1986 was enacted.",
+    "question": "Under which Article of the Constitution was the Environment (Protection) Act, 1986 enacted?",
     "options": [
       "48 A",
       "51 A (g)",
       "250",
       "253"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Parliament enacted the Environment (Protection) Act, 1986 under Article 253, which enables legislation to implement international agreements.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q33",
@@ -53154,14 +53155,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Polar Areas",
       "Oceans"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Tropical regions generally have the greatest species richness because warm, productive and relatively stable conditions support high biodiversity.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q34",
@@ -53179,14 +53181,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "5",
       "2"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The 2025 LUF recognition named two villages, Sailulak and Sairep, for conservation work.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q35",
@@ -53204,17 +53207,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Water Pollution",
       "Noise Pollution"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A green muffler is a belt of trees planted to absorb and reduce traffic or industrial noise.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q36",
@@ -53232,14 +53233,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Resource conservation",
       "Cope with rapid increase in population"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Environmental Impact Assessment identifies and mitigates likely environmental effects so a proposed project can be planned and implemented more responsibly; option B is the closest choice.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q37",
@@ -53250,21 +53252,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Cars and Cycle use ball bearing because",
+    "question": "Cars and cycles use ball bearings because:",
     "options": [
       "The actual area of contact between the wheel and axle is increased",
       "The effective area of contact between the wheel and axle is reduced",
       "The effective area of contact between the wheel and axle is increased",
       "Both the actual area and effective area of contact between the wheel and axle is increased"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Ball bearings reduce sliding friction by enabling rolling motion; the question describes this as reducing the effective contact area.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q38",
@@ -53279,20 +53282,18 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "options": [
       "Blue light gets absorbed in the atmosphere",
       "Ultraviolet radiations are absorbed in the atmosphere",
-      "Violet and blue lights gets scattered more than lights of all other colours by the atmosphere",
+      "Violet and blue light get scattered more than light of all other colours by the atmosphere",
       "Light of all other colours is scattered more than the violet and blue colour lights by the atmosphere"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Air molecules scatter shorter wavelengths more strongly than longer wavelengths, so violet and blue light are scattered through the sky.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q39",
@@ -53307,17 +53308,18 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "options": [
       "Nitric Acid",
       "Chlorine",
-      "Socdium Chloride",
+      "Sodium Chloride",
       "Sodium benzoate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Sodium benzoate is commonly used as a food preservative.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q40",
@@ -53335,17 +53337,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "increase the pH level in the stomach",
       "release of extra bile juice which increases alkaline medium in the stomach"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Excess gastric acid lowers the stomach’s pH and causes acidity symptoms.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q41",
@@ -53356,24 +53356,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Fathom is a Unit of-",
+    "question": "Fathom is a unit of:",
     "options": [
       "Depth",
       "Distance",
       "Frequency",
       "Sound"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A fathom is a unit of water depth, conventionally six feet.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q42",
@@ -53392,13 +53390,13 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "lower plants"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: “movement due to light” is underspecified; it may refer to phototropism in plant organs or phototaxis in motile lower plants, so the listed groups overlap.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Ambiguous biological movement category"
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q43",
@@ -53414,16 +53412,17 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Tukluh bawi",
       "Inpuichhung bawi",
       "Hnamchawm",
-      "Chemsen bawi"
+      "Chemsen Bawi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A Chemsen Bawi was a person who became a chief’s bawi after killing someone and seeking sanctuary; the scan’s “Chemsem” spelling is corrected to the established form.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q44",
@@ -53434,21 +53433,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "A pole on which an enemy’s head was fixed is called-",
+    "question": "A pole on which an enemy’s head was fixed is called:",
     "options": [
       "Seluphan",
       "Sathingzar",
       "Sahlam",
       "Thinglu bul"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Sahlam is the name used for a tree or pole associated with displaying an enemy’s head.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q45",
@@ -53459,21 +53459,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Hnamchawm refers to:-",
+    "question": "Hnamchawm refers to:",
     "options": [
       "Ramhual",
       "Tukluh bawi",
       "Bawi",
       "Common people"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Hnamchawm means the common people or commoners, not a category of bawi.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q46",
@@ -53491,14 +53492,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Puithiam",
       "Tlangau"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Val Upa was a traditional youth leader with a recognized community role; the question describes a position held through custom rather than election or appointment.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q47",
@@ -53516,14 +53518,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Khuavang",
       "Maimi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Khawhring is described in Mizo belief as a harmful or evil spirit; Khuavang is benevolent.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q48",

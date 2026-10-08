@@ -21276,6 +21276,35 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q32",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "In tossing two coins, the probability of getting two heads is—",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "1/8"
+    ],
+    "answerIndex": 2,
+    "explanation": "The equally likely outcomes are HH, HT, TH and TT; only HH has two heads, so the probability is 1/4.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q33",
     "paperId": "mpsc-group-b-aao-2024-arithmetic",
     "questionNumber": "33",
@@ -21284,15 +21313,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Abagcontains4whiteandsomeredballs.Iftheprobabilityofdrawingaredballatrandomis doublethatofdrawingawhiteball,thenumberofredballsinthebagis—",
+    "question": "A bag contains 4 white and some red balls. If the probability of drawing a red ball at random is double that of drawing a white ball, the number of red balls in the bag is—",
     "options": [
       "8",
       "6",
       "4",
       "2"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Let r be the number of red balls. r/(r+4)=2·4/(r+4), so r=8.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=4",
@@ -21301,9 +21330,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q34",
@@ -21314,15 +21342,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Inacommittee,32peoplespeakHindi,14speakEnglishand8speakbothHindiandEnglish,How manyspeakatleastoneofthetwolanguages?",
+    "question": "In a committee, 32 people speak Hindi, 14 speak English and 8 speak both Hindi and English. How many speak at least one of the two languages?",
     "options": [
       "36",
       "38",
       "40",
       "46"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "By inclusion–exclusion, 32+14−8=38 people speak at least one language.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=4",
@@ -21331,9 +21359,37 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q35",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "In a survey of 200 students in a school, it was found that 125 like orange, 90 like apple and 60 like both orange and apple. How many like neither orange nor apple?",
+    "options": [
+      "60",
+      "56",
+      "50",
+      "45"
+    ],
+    "answerIndex": 3,
+    "explanation": "The number who like at least one is 125+90−60=155. Therefore 200−155=45 like neither.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q36",
@@ -21344,15 +21400,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Thecostofamobilehandsetis20,000.Aladypurchaseditbypaying712,000andthebalanceis tobeclearedintwoequalinstalmentsof$4500each.Whatisthetotalinterestchargedunderthe instalmentscheme?",
+    "question": "The cost of a mobile handset is ₹20,000. A lady purchased it by paying ₹12,000 and the balance is to be cleared in two equal instalments of ₹4,500 each. What is the total interest charged under the instalment scheme?",
     "options": [
-      "%9000",
-      "78000",
-      "%4000",
-      "71000"
+      "₹9000",
+      "₹8000",
+      "₹4000",
+      "₹1000"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The instalments total ₹9,000 against a financed balance of ₹8,000, so the interest is ₹1,000.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=4",
@@ -21361,9 +21417,37 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q37",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "If (x − 2) is a factor of x³ − 2ax² + ax − 1, then the value [of a] is—",
+    "options": [
+      "6/7",
+      "7/6",
+      "−6/7",
+      "−7/6"
+    ],
+    "answerIndex": 1,
+    "explanation": "The printed line omits the variable after “value”; the polynomial/options indicate the requested value is a. By the factor theorem, f(2)=8−8a+2a−1=7−6a=0, so a=7/6.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q38",
@@ -21374,15 +21458,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Ifx?+x?_2x—3isdividedbyx+2,theremainderis—",
+    "question": "If x³ + x² − 2x − 3 is divided by x + 2, the remainder is—",
     "options": [
-      "-5",
+      "−5",
       "5",
-      "-3",
+      "−3",
       "3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "By the remainder theorem, evaluate f(−2)=−8+4+4−3=−3.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=4",
@@ -21391,9 +21475,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q39",
@@ -21404,15 +21487,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Metallicspheresofradii3cm,4cmand5cmrespectivelyaremeltedtoformasinglesolidsphere. Theradiusoftheresultingsphereis—",
+    "question": "Metallic spheres of radii 3 cm, 4 cm and 5 cm respectively are melted to form a single solid sphere. The radius of the resulting sphere is—",
     "options": [
-      "6cm",
-      "12cm",
-      "18cm",
-      "24cm"
+      "6 cm",
+      "12 cm",
+      "18 cm",
+      "24 cm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Volume is conserved: R³=3³+4³+5³=216, so the new radius is 6 cm.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=4",
@@ -21421,9 +21504,37 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q40",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The value of ⁴√81 − 8×∛216 + 15×⁵√32 + √225 is—",
+    "options": [
+      "0",
+      "−1",
+      "1",
+      "2"
+    ],
+    "answerIndex": 0,
+    "explanation": "Evaluate each root: 3−8×6+15×2+15=3−48+30+15=0.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q41",
@@ -21434,15 +21545,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Themedianclassofthefollowingfrequencydistributiontableis— [rewey|+[+fos|wfeds|a|",
+    "question": "The median class of the following frequency distribution table is—\nClass intervals: 0–10, 10–20, 20–30, 30–40, 40–50, 50–60, 60–70.\nFrequencies: 4, 4, 8, 10, 12, 8, 4.",
     "options": [
-      "40-50",
-      "30-40",
-      "50-60",
-      "10-20 _5-,"
+      "40–50",
+      "30–40",
+      "50–60",
+      "10–20"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The total frequency is 50, so N/2=25. Cumulative frequency reaches 26 in the 30–40 class, making it the median class.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=4",
@@ -21451,9 +21562,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q42",
@@ -24501,7 +24611,9 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart4: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2025-p2-Q27",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -24601,9 +24713,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart4: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q34",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -32365,7 +32475,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 51–55): Identify the segment which contains grammatical error in the given sentences."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-english-B52",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -32485,9 +32597,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 51–55): Identify the segment which contains grammatical error in the given sentences."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-english-B56",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -40615,7 +40725,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-gk-Q34",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -40715,9 +40827,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-gk-Q38",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -48390,7 +48500,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p1-written-1",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -48469,9 +48581,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q11",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -56330,7 +56440,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p2-Q18",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -56436,9 +56548,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q22",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -64022,7 +64132,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q56",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -64128,9 +64240,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q60",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -72988,7 +73098,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q28",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -73109,9 +73221,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q32",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -81211,7 +81321,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B55",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p1-B56",
     "questionNumber": "B56",
@@ -81320,9 +81432,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B59",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p1-B60",
     "questionNumber": "B60",
@@ -89050,7 +89160,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B31",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B32",
     "questionNumber": "B32",
@@ -89158,9 +89270,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B35",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B36",
     "questionNumber": "B36",

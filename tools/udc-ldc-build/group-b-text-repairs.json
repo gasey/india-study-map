@@ -2648,7 +2648,7 @@
       "sourceSha256": "f28f780e75a0ef77d42c364c377fa57b31ebf8b961b8cce3f984bc8fa84a1db9",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–31 and 71 checked against rendered PDF pages 1–3 and 7; wording/options visually verified and explanations calculated. Q7 legacy candidate differs, but the printed sequence gives 27 terms. Q30 remains unscored because the official key compensates a dimensionally inconsistent printed item.",
+      "evidence": "Questions 1–41 and 71 checked against rendered PDF pages 1–4 and 7; stems/options and calculations were visually verified against the scan and final key. Q7 legacy candidate differs but direct calculation confirms D. Q30 is compensated and held out. Q37’s scan omits the requested variable after “value”; [of a] is supplied editorially from the polynomial/options.",
       "questions": {
         "1": {
           "n": 1,
@@ -3054,6 +3054,136 @@
             "d": "50 m"
           },
           "explanation": "The thread is the hypotenuse of a right triangle. Height=100×sin(30°)=50 m."
+        },
+        "32": {
+          "n": 32,
+          "page": 4,
+          "part": null,
+          "q": "In tossing two coins, the probability of getting two heads is—",
+          "opts": {
+            "a": "1/2",
+            "b": "1/3",
+            "c": "1/4",
+            "d": "1/8"
+          },
+          "explanation": "The equally likely outcomes are HH, HT, TH and TT; only HH has two heads, so the probability is 1/4."
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "part": null,
+          "q": "A bag contains 4 white and some red balls. If the probability of drawing a red ball at random is double that of drawing a white ball, the number of red balls in the bag is—",
+          "opts": {
+            "a": "8",
+            "b": "6",
+            "c": "4",
+            "d": "2"
+          },
+          "explanation": "Let r be the number of red balls. r/(r+4)=2·4/(r+4), so r=8."
+        },
+        "34": {
+          "n": 34,
+          "page": 4,
+          "part": null,
+          "q": "In a committee, 32 people speak Hindi, 14 speak English and 8 speak both Hindi and English. How many speak at least one of the two languages?",
+          "opts": {
+            "a": "36",
+            "b": "38",
+            "c": "40",
+            "d": "46"
+          },
+          "explanation": "By inclusion–exclusion, 32+14−8=38 people speak at least one language."
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "part": null,
+          "q": "In a survey of 200 students in a school, it was found that 125 like orange, 90 like apple and 60 like both orange and apple. How many like neither orange nor apple?",
+          "opts": {
+            "a": "60",
+            "b": "56",
+            "c": "50",
+            "d": "45"
+          },
+          "explanation": "The number who like at least one is 125+90−60=155. Therefore 200−155=45 like neither."
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "part": null,
+          "q": "The cost of a mobile handset is ₹20,000. A lady purchased it by paying ₹12,000 and the balance is to be cleared in two equal instalments of ₹4,500 each. What is the total interest charged under the instalment scheme?",
+          "opts": {
+            "a": "₹9000",
+            "b": "₹8000",
+            "c": "₹4000",
+            "d": "₹1000"
+          },
+          "explanation": "The instalments total ₹9,000 against a financed balance of ₹8,000, so the interest is ₹1,000."
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "part": null,
+          "q": "If (x − 2) is a factor of x³ − 2ax² + ax − 1, then the value [of a] is—",
+          "opts": {
+            "a": "6/7",
+            "b": "7/6",
+            "c": "−6/7",
+            "d": "−7/6"
+          },
+          "explanation": "The printed line omits the variable after “value”; the polynomial/options indicate the requested value is a. By the factor theorem, f(2)=8−8a+2a−1=7−6a=0, so a=7/6."
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "part": null,
+          "q": "If x³ + x² − 2x − 3 is divided by x + 2, the remainder is—",
+          "opts": {
+            "a": "−5",
+            "b": "5",
+            "c": "−3",
+            "d": "3"
+          },
+          "explanation": "By the remainder theorem, evaluate f(−2)=−8+4+4−3=−3."
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "part": null,
+          "q": "Metallic spheres of radii 3 cm, 4 cm and 5 cm respectively are melted to form a single solid sphere. The radius of the resulting sphere is—",
+          "opts": {
+            "a": "6 cm",
+            "b": "12 cm",
+            "c": "18 cm",
+            "d": "24 cm"
+          },
+          "explanation": "Volume is conserved: R³=3³+4³+5³=216, so the new radius is 6 cm."
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "part": null,
+          "q": "The value of ⁴√81 − 8×∛216 + 15×⁵√32 + √225 is—",
+          "opts": {
+            "a": "0",
+            "b": "−1",
+            "c": "1",
+            "d": "2"
+          },
+          "explanation": "Evaluate each root: 3−8×6+15×2+15=3−48+30+15=0."
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "part": null,
+          "q": "The median class of the following frequency distribution table is—\nClass intervals: 0–10, 10–20, 20–30, 30–40, 40–50, 50–60, 60–70.\nFrequencies: 4, 4, 8, 10, 12, 8, 4.",
+          "opts": {
+            "a": "40–50",
+            "b": "30–40",
+            "c": "50–60",
+            "d": "10–20"
+          },
+          "explanation": "The total frequency is 50, so N/2=25. Cumulative frequency reaches 26 in the 30–40 class, making it the median class."
         },
         "71": {
           "n": 71,

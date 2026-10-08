@@ -30074,6 +30074,36 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   },
   {
+    "id": "mpsc-group-b-steno-2025-english-B1",
+    "paperId": "mpsc-group-b-steno-2025-english",
+    "questionNumber": "B1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Which of the following best describes the overarching theme of the passage?",
+    "options": [
+      "The benefits of industrialization on global economies",
+      "The role of technology in reversing climate change",
+      "The catastrophic impact of climate change and the need for intervention",
+      "The historical evolution of climate patterns"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The catastrophic impact of climate change and the need for intervention”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 1–7): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nClimate change is an unprecedented challenge that threatens ecosystems, economies, and societies worldwide. The persistent rise in global temperatures, largely due to anthropogenic activities, has led to calamitous consequences such as extreme weather events, rising sea levels, and biodiversity loss. Scientists have attributed this phenomenon to the excessive emission of greenhouse gases, particularly carbon dioxide and methane, which trap heat within the earth’s atmosphere, exacerbating the warming effect.\n\nOne of the most ominous repercussions of climate change is the accelerated melting of polar ice caps, which contributes to rising sea levels and threatens coastal communities. This detrimental shift has led to the displacement of populations, loss of arable land, and an increase in natural disasters. Furthermore, fluctuating weather patterns have disrupted agricultural productivity, leading to food shortages and economic instability.\n\nGovernments and environmental organizations have initiated concerted efforts to mitigate climate change through renewable energy adoption, reforestation projects, and carbon reduction policies. However, despite these interventions, the planet continues to experience incessant climatic changes that necessitate immediate global cooperation. The pivotal role of individuals in reducing their carbon footprint, advocating for policy changes, and embracing sustainable lifestyles cannot be overstated."
+  },
+  {
     "id": "mpsc-group-b-steno-2025-english-B2",
     "paperId": "mpsc-group-b-steno-2025-english",
     "questionNumber": "B2",
@@ -30082,15 +30112,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whatistheprimaryfactorcontributingtoclimatechange,asmentionedinthepassage?",
+    "question": "What is the primary factor contributing to climate change, as mentioned in the passage?",
     "options": [
-      "ThenaturalshiftsinEarth’sclimatecycles",
-      "Excessiveemissionofgreenhousegasesduetohumanactivities",
-      "Thedepletionoftheozonelayer",
-      "Increasedvolcanicactivity"
+      "The natural shifts in Earth’s climate cycles",
+      "Excessive emission of greenhouse gases due to human activities",
+      "The depletion of the ozone layer",
+      "Increased volcanic activity"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Excessive emission of greenhouse gases due to human activities”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=2",
@@ -30099,10 +30129,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 1–7): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nClimate change is an unprecedented challenge that threatens ecosystems, economies, and societies worldwide. The persistent rise in global temperatures, largely due to anthropogenic activities, has led to calamitous consequences such as extreme weather events, rising sea levels, and biodiversity loss. Scientists have attributed this phenomenon to the excessive emission of greenhouse gases, particularly carbon dioxide and methane, which trap heat within the earth’s atmosphere, exacerbating the warming effect.\n\nOne of the most ominous repercussions of climate change is the accelerated melting of polar ice caps, which contributes to rising sea levels and threatens coastal communities. This detrimental shift has led to the displacement of populations, loss of arable land, and an increase in natural disasters. Furthermore, fluctuating weather patterns have disrupted agricultural productivity, leading to food shortages and economic instability.\n\nGovernments and environmental organizations have initiated concerted efforts to mitigate climate change through renewable energy adoption, reforestation projects, and carbon reduction policies. However, despite these interventions, the planet continues to experience incessant climatic changes that necessitate immediate global cooperation. The pivotal role of individuals in reducing their carbon footprint, advocating for policy changes, and embracing sustainable lifestyles cannot be overstated."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B3",
@@ -30113,15 +30142,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whatisoneofthemajorconsequencesofpolaricecapmelting?",
+    "question": "What is one of the major consequences of polar ice cap melting?",
     "options": [
-      "Expansionofhabitablelandforhumansettlements.",
-      "Decreasedsealevels,exposingmorecoastalland",
-      "Risingsealevels,leadingtothreatsforcoastalcommunities",
-      "Adecreaseinthesalinityofoceans,makingthemmoresuitableformarinelife"
+      "Expansion of habitable land for human settlements",
+      "Decreased sea levels, exposing more coastal land",
+      "Rising sea levels, leading to threats for coastal communities",
+      "A decrease in the salinity of oceans, making them more suitable for marine life"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Rising sea levels, leading to threats for coastal communities”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=2",
@@ -30130,10 +30159,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 1–7): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nClimate change is an unprecedented challenge that threatens ecosystems, economies, and societies worldwide. The persistent rise in global temperatures, largely due to anthropogenic activities, has led to calamitous consequences such as extreme weather events, rising sea levels, and biodiversity loss. Scientists have attributed this phenomenon to the excessive emission of greenhouse gases, particularly carbon dioxide and methane, which trap heat within the earth’s atmosphere, exacerbating the warming effect.\n\nOne of the most ominous repercussions of climate change is the accelerated melting of polar ice caps, which contributes to rising sea levels and threatens coastal communities. This detrimental shift has led to the displacement of populations, loss of arable land, and an increase in natural disasters. Furthermore, fluctuating weather patterns have disrupted agricultural productivity, leading to food shortages and economic instability.\n\nGovernments and environmental organizations have initiated concerted efforts to mitigate climate change through renewable energy adoption, reforestation projects, and carbon reduction policies. However, despite these interventions, the planet continues to experience incessant climatic changes that necessitate immediate global cooperation. The pivotal role of individuals in reducing their carbon footprint, advocating for policy changes, and embracing sustainable lifestyles cannot be overstated."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B4",
@@ -30144,15 +30172,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whatisthesynonymof‘unprecedented’inthecontextofthepassage?",
+    "question": "What is the synonym of ‘unprecedented’ in the context of the passage?",
     "options": [
       "Routine",
       "Novel",
       "Predictable",
       "Insignificant"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Novel”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=2",
@@ -30161,10 +30189,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 1–7): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nClimate change is an unprecedented challenge that threatens ecosystems, economies, and societies worldwide. The persistent rise in global temperatures, largely due to anthropogenic activities, has led to calamitous consequences such as extreme weather events, rising sea levels, and biodiversity loss. Scientists have attributed this phenomenon to the excessive emission of greenhouse gases, particularly carbon dioxide and methane, which trap heat within the earth’s atmosphere, exacerbating the warming effect.\n\nOne of the most ominous repercussions of climate change is the accelerated melting of polar ice caps, which contributes to rising sea levels and threatens coastal communities. This detrimental shift has led to the displacement of populations, loss of arable land, and an increase in natural disasters. Furthermore, fluctuating weather patterns have disrupted agricultural productivity, leading to food shortages and economic instability.\n\nGovernments and environmental organizations have initiated concerted efforts to mitigate climate change through renewable energy adoption, reforestation projects, and carbon reduction policies. However, despite these interventions, the planet continues to experience incessant climatic changes that necessitate immediate global cooperation. The pivotal role of individuals in reducing their carbon footprint, advocating for policy changes, and embracing sustainable lifestyles cannot be overstated."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B5",
@@ -30175,15 +30202,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whatistheclosestsynonymof‘phenomenon’inthispassage?",
+    "question": "What is the closest synonym of ‘phenomenon’ in this passage?",
     "options": [
       "Enigma",
-      "Event:",
+      "Event",
       "Object",
       "Myth"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Event”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=2",
@@ -30192,10 +30219,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 1–7): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nClimate change is an unprecedented challenge that threatens ecosystems, economies, and societies worldwide. The persistent rise in global temperatures, largely due to anthropogenic activities, has led to calamitous consequences such as extreme weather events, rising sea levels, and biodiversity loss. Scientists have attributed this phenomenon to the excessive emission of greenhouse gases, particularly carbon dioxide and methane, which trap heat within the earth’s atmosphere, exacerbating the warming effect.\n\nOne of the most ominous repercussions of climate change is the accelerated melting of polar ice caps, which contributes to rising sea levels and threatens coastal communities. This detrimental shift has led to the displacement of populations, loss of arable land, and an increase in natural disasters. Furthermore, fluctuating weather patterns have disrupted agricultural productivity, leading to food shortages and economic instability.\n\nGovernments and environmental organizations have initiated concerted efforts to mitigate climate change through renewable energy adoption, reforestation projects, and carbon reduction policies. However, despite these interventions, the planet continues to experience incessant climatic changes that necessitate immediate global cooperation. The pivotal role of individuals in reducing their carbon footprint, advocating for policy changes, and embracing sustainable lifestyles cannot be overstated."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B6",
@@ -30206,15 +30232,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whatisthebestsynonymfor‘ominous’inthepassage?",
+    "question": "What is the best synonym for ‘ominous’ in the passage?",
     "options": [
       "Hopeful",
       "Harmless",
       "Threatening",
-      "Promising: -3-,"
+      "Promising"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Threatening”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=2",
@@ -30223,10 +30249,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 1–7): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nClimate change is an unprecedented challenge that threatens ecosystems, economies, and societies worldwide. The persistent rise in global temperatures, largely due to anthropogenic activities, has led to calamitous consequences such as extreme weather events, rising sea levels, and biodiversity loss. Scientists have attributed this phenomenon to the excessive emission of greenhouse gases, particularly carbon dioxide and methane, which trap heat within the earth’s atmosphere, exacerbating the warming effect.\n\nOne of the most ominous repercussions of climate change is the accelerated melting of polar ice caps, which contributes to rising sea levels and threatens coastal communities. This detrimental shift has led to the displacement of populations, loss of arable land, and an increase in natural disasters. Furthermore, fluctuating weather patterns have disrupted agricultural productivity, leading to food shortages and economic instability.\n\nGovernments and environmental organizations have initiated concerted efforts to mitigate climate change through renewable energy adoption, reforestation projects, and carbon reduction policies. However, despite these interventions, the planet continues to experience incessant climatic changes that necessitate immediate global cooperation. The pivotal role of individuals in reducing their carbon footprint, advocating for policy changes, and embracing sustainable lifestyles cannot be overstated."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B7",
@@ -30237,15 +30262,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whichwordcanreplace‘incessant’whilemaintainingthemeaning?",
+    "question": "Which word can replace ‘incessant’ while maintaining the meaning?",
     "options": [
       "Sporadic",
       "Ceaseless",
       "Temporary",
       "Terminating"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Ceaseless”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=3",
@@ -30254,10 +30279,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 1–7): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nClimate change is an unprecedented challenge that threatens ecosystems, economies, and societies worldwide. The persistent rise in global temperatures, largely due to anthropogenic activities, has led to calamitous consequences such as extreme weather events, rising sea levels, and biodiversity loss. Scientists have attributed this phenomenon to the excessive emission of greenhouse gases, particularly carbon dioxide and methane, which trap heat within the earth’s atmosphere, exacerbating the warming effect.\n\nOne of the most ominous repercussions of climate change is the accelerated melting of polar ice caps, which contributes to rising sea levels and threatens coastal communities. This detrimental shift has led to the displacement of populations, loss of arable land, and an increase in natural disasters. Furthermore, fluctuating weather patterns have disrupted agricultural productivity, leading to food shortages and economic instability.\n\nGovernments and environmental organizations have initiated concerted efforts to mitigate climate change through renewable energy adoption, reforestation projects, and carbon reduction policies. However, despite these interventions, the planet continues to experience incessant climatic changes that necessitate immediate global cooperation. The pivotal role of individuals in reducing their carbon footprint, advocating for policy changes, and embracing sustainable lifestyles cannot be overstated."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B8",
@@ -30268,15 +30292,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Accordingtothepassage,whyisreadingparticularlyimportantinthedigitalera?",
+    "question": "According to the passage, why is reading particularly important in the digital era?",
     "options": [
-      "Ithelpscounteracttheeffectsofdigitaldistractionsandsuperficialcontent",
-      "Itreplacesallformsofdigitalmedia",
-      "Itdiscouragestheuseofmoderntechnology",
-      "Itonlybenefitsoldergenerations"
+      "It helps counteract the effects of digital distractions and superficial content",
+      "It replaces all forms of digital media",
+      "It discourages the use of modern technology",
+      "It only benefits older generations"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “It helps counteract the effects of digital distractions and superficial content”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=3",
@@ -30285,10 +30309,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B9",
@@ -30299,15 +30322,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whatisthemainargumentpresentedinthepassage?",
+    "question": "What is the main argument presented in the passage?",
     "options": [
-      "Readingisaleisureactivitywithminimalimpact",
-      "Readingisafundamentalpracticeforintellectualandpersonalgrowth",
-      "Booksareoutdatedandshouldbereplacedbydigitalmedia",
-      "Readingfictionismorebeneficialthannon-fiction"
+      "Reading is a leisure activity with minimal impact",
+      "Reading is a fundamental practice for intellectual and personal growth",
+      "Books are outdated and should be replaced by digital media",
+      "Reading fiction is more beneficial than non-fiction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Reading is a fundamental practice for intellectual and personal growth”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=3",
@@ -30316,10 +30339,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B10",
@@ -30330,15 +30352,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whatdoesthepassagesuggestabouttheemotionalbenefitsofreading?",
+    "question": "What does the passage suggest about the emotional benefits of reading?",
     "options": [
-      "Itisanineffectivewaytocopewithstress",
-      "Itonlybenefitshighlyinteilectualreaders",
-      "Itprovidescomfortandhelpsindividualsnavigatepersonalstruggles",
-      "Itcausesemotionaldetachmentfromreality"
+      "It is an ineffective way to cope with stress",
+      "It only benefits highly intellectual readers",
+      "It provides comfort and helps individuals navigate personal struggles",
+      "It causes emotional detachment from reality"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “It provides comfort and helps individuals navigate personal struggles”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=3",
@@ -30347,10 +30369,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B11",
@@ -30361,15 +30382,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whatisoneofthemajorintellectualbenefitsofreading,asstatedinthepassage?",
+    "question": "What is one of the major intellectual benefits of reading, as stated in the passage?",
     "options": [
-      "Itisolatesreadersfromsociety--",
-      "Itimproveslinguisticskillsandcriticalthinking",
-      "Itlimitsexposuretonewideas",
-      "Itreducescreativity -4-7"
+      "It isolates readers from society",
+      "It improves linguistic skills and critical thinking",
+      "It limits exposure to new ideas",
+      "It reduces creativity"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “It improves linguistic skills and critical thinking”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=3",
@@ -30378,10 +30399,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B12",
@@ -30392,15 +30412,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whatistheoppositeof‘mundane’inthepassage?",
+    "question": "What is the opposite of ‘mundane’ in the passage?",
     "options": [
       "Ordinary",
       "Extraordinary",
       "Dull",
       "Routine"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Extraordinary”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
@@ -30409,10 +30429,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B13",
@@ -30423,15 +30442,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whatistheantonymof‘laudable’asusedinthepassage?",
+    "question": "What is the antonym of ‘laudable’ as used in the passage?",
     "options": [
       "Praiseworthy",
       "Commendable",
       "Disgraceful",
       "Respectable"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Disgraceful”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
@@ -30440,10 +30459,39 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-english-B14",
+    "paperId": "mpsc-group-b-steno-2025-english",
+    "questionNumber": "B14",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "What is the best synonym for ‘astute’ in the passage?",
+    "options": [
+      "Intelligent",
+      "Clumsy",
+      "Indifferent",
+      "Oblivious"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Intelligent”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B15",
@@ -30454,15 +30502,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whichwordcanreplace‘ameliorate’whilemaintainingthemeaninginthepassage?",
+    "question": "Which word can replace ‘ameliorate’ while maintaining the meaning in the passage?",
     "options": [
       "Worsen",
       "Improve",
       "Deteriorate",
       "Exacerbate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Improve”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
@@ -30471,10 +30519,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B16",
@@ -30485,15 +30532,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Stiilwatersrundeep.",
+    "question": "Still waters run deep.",
     "options": [
       "noun",
       "verb",
       "adverb",
       "adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “adjective”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
@@ -30502,10 +30549,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B17",
@@ -30516,15 +30562,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Itweighsaboutakilogram.",
+    "question": "It weighs about a kilogram.",
     "options": [
       "adverb",
       "verb",
       "adjective",
       "preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “adverb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
@@ -30533,10 +30579,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B18",
@@ -30547,15 +30592,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Sitdownandrestawhile.",
+    "question": "Sit down and rest a while.",
     "options": [
       "adjective",
       "noun",
       "adverb",
       "conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “noun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
@@ -30567,10 +30612,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below.",
     "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
   },
   {
@@ -30582,15 +30626,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Theywhileawaytheireveningswithbooksandgames.",
+    "question": "They while away their evenings with books and games.",
     "options": [
       "preposition",
       "noun",
       "verb",
       "adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “verb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
@@ -30599,10 +30643,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B20",
@@ -30613,15 +30656,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Theaftereffectsofthedrugarebad.",
+    "question": "The after effects of the drug are bad.",
     "options": [
       "noun",
       "pronoun",
       "verb",
       "adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “adjective”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
@@ -30630,10 +30673,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B21",
@@ -30644,15 +30686,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Althoughhewastired,hecontinuedworking.",
+    "question": "Although he was tired, he continued working.",
     "options": [
-      "Subordinatingconjunction",
+      "Subordinating conjunction",
       "preposition",
-      "Coordinatingconjunction",
-      "adverb."
+      "Coordinating conjunction",
+      "adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Subordinating conjunction”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
@@ -30661,10 +30703,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B22",
@@ -30675,15 +30716,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thebookthatsheborrowedwasveryinteresting.",
+    "question": "The book that she borrowed was very interesting.",
     "options": [
-      "Relativepronoun",
-      "Demonstrativeadjective",
+      "Relative pronoun",
+      "Demonstrative adjective",
       "Conjunction",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Relative pronoun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
@@ -30692,10 +30733,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B23",
@@ -30706,15 +30746,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Shewantedtogototheparty;however,shehadtostudy.",
+    "question": "She wanted to go to the party; however, she had to study.",
     "options": [
-      "Conjunctiveadverb",
-      "Coordinatingconjunction",
-      "Subordinatingconjunction",
+      "Conjunctive adverb",
+      "Coordinating conjunction",
+      "Subordinating conjunction",
       "Preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Conjunctive adverb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
@@ -30723,10 +30763,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B24",
@@ -30737,15 +30776,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Hewasreluctanttojointhediscussion.",
+    "question": "He was reluctant to join the discussion.",
     "options": [
       "Noun",
       "Adjective",
       "Verb",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Adjective”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
@@ -30754,10 +30793,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B25",
@@ -30768,15 +30806,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "HecompletedtheprojectbyHimself.",
+    "question": "He completed the project by himself.",
     "options": [
-      "Demonstrativepronoun",
-      "Indefinitepronoun",
-      "Reflexivepronoun",
-      "Relativepronoun"
+      "Demonstrative pronoun",
+      "Indefinite pronoun",
+      "Reflexive pronoun",
+      "Relative pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Reflexive pronoun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
@@ -30785,10 +30823,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B26",
@@ -30799,15 +30836,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Mentoabolishwaruptonow,butmaybetheywillfindawayinthefuture.",
+    "question": "Men __________ to abolish war up to now, but maybe they will find a way in the future.",
     "options": [
-      "nevermanaged",
-      "havenevermanaged",
-      "willhavenevermanaged",
-      "hadnevermanaged"
+      "never managed",
+      "have never managed",
+      "will have never managed",
+      "had never managed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “have never managed”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
@@ -30816,10 +30853,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.26-30):Completethefollowingsentenceswiththemostsuitablealternative"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 26–30): Complete the following sentences with the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B27",
@@ -30830,15 +30866,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thecityitsappearancecompletelysince2016.",
+    "question": "The city __________ its appearance completely since 2016.",
     "options": [
-      "ischanging",
+      "is changing",
       "changed",
-      "haschanged",
-      "hadchanged"
+      "has changed",
+      "had changed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “has changed”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
@@ -30847,10 +30883,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.26-30):Completethefollowingsentenceswiththemostsuitablealternative"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 26–30): Complete the following sentences with the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B28",
@@ -30861,15 +30896,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "ThisarticletwiceweeklyinVanglaininewspaper.",
+    "question": "This article __________ twice weekly in Vanglaini newspaper.",
     "options": [
       "appears",
-      "isappearing",
-      "hasappeared",
-      "wasappearing"
+      "is appearing",
+      "has appeared",
+      "was appearing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “appears”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
@@ -30878,10 +30913,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.26-30):Completethefollowingsentenceswiththemostsuitablealternative"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 26–30): Complete the following sentences with the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B29",
@@ -30892,15 +30926,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Apairofwoolensockstewarmallthroughthewinter.",
+    "question": "A pair of woolen socks __________ me warm all through the winter.",
     "options": [
-      "iskeeping",
-      "waskeeping",
+      "is keeping",
+      "was keeping",
       "keeps",
       "keep"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “keeps”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
@@ -30909,10 +30943,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.26-30):Completethefollowingsentenceswiththemostsuitablealternative"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 26–30): Complete the following sentences with the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B30",
@@ -30923,15 +30956,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Neitherfoodnorwatergiventothewearyworkers.",
+    "question": "Neither food nor water __________ given to the weary workers.",
     "options": [
       "is",
       "are",
       "has",
       "have"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “is”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
@@ -30940,10 +30973,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.26-30):Completethefollowingsentenceswiththemostsuitablealternative"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 26–30): Complete the following sentences with the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B31",
@@ -30954,15 +30986,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "themeeting,severalimportantissueswerediscussed.",
+    "question": "__________ the meeting, several important issues were discussed.",
     "options": [
-      "Overthecourseof",
-      "Inthecourseof",
+      "Over the course of",
+      "In the course of",
       "On",
       "With"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “In the course of”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
@@ -30971,10 +31003,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.31-35):Completethefollowingsentenceswiththemostsuitablepreposition"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 31–35): Complete the following sentences with the most suitable preposition provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B32",
@@ -30985,15 +31016,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "recentevents,newpolicieshavebeenintroduced.",
+    "question": "__________ recent events, new policies have been introduced.",
     "options": [
-      "hh",
-      "Inthelightof",
+      "In",
+      "In the light of",
       "On",
-      "Atthelightof"
+      "At the light of"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “In the light of”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
@@ -31002,10 +31033,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.31-35):Completethefollowingsentenceswiththemostsuitablepreposition"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 31–35): Complete the following sentences with the most suitable preposition provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B33",
@@ -31016,15 +31046,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thescientistspecializesmolecularbiology.",
+    "question": "The scientist specializes __________ molecular biology.",
     "options": [
       "into",
       "at",
-      "n",
+      "in",
       "on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “in”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
@@ -31033,10 +31063,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.31-35):Completethefollowingsentenceswiththemostsuitablepreposition"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 31–35): Complete the following sentences with the most suitable preposition provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B34",
@@ -31047,15 +31076,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "referencetoyouremail,wewouldliketoclarifyourposition.",
+    "question": "__________ reference to your email, we would like to clarify our position.",
     "options": [
       "With",
       "For",
       "By",
-      "Over."
+      "Over"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “With”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
@@ -31064,10 +31093,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.31-35):Completethefollowingsentenceswiththemostsuitablepreposition"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 31–35): Complete the following sentences with the most suitable preposition provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B35",
@@ -31078,15 +31106,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Sheisquiteskillednegotiatingbusinessdeals,",
+    "question": "She is quite skilled __________ negotiating business deals.",
     "options": [
       "at",
-      "n",
+      "in",
       "for",
       "with"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “at”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
@@ -31095,10 +31123,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.31-35):Completethefollowingsentenceswiththemostsuitablepreposition"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 31–35): Complete the following sentences with the most suitable preposition provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B36",
@@ -31109,15 +31136,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "A)Complainingoftheirdifficulties,whiningovertheirtroubles B)Willnevergethappiness: C)Menwhoarealwaysgrumblingabouttheirpoverty D)Outoflifeorachieveanysuccess",
+    "question": "Given below are four jumbled sentences. Select the option that gives the correct order.\nA) Complaining of their difficulties, whining over their troubles\nB) Will never get happiness\nC) Men who are always grumbling about their poverty\nD) Out of life or achieve any success",
     "options": [
       "ABCD",
       "CBAD",
-      "CABD;",
-      "ACBD. -6-."
+      "CABD",
+      "ACBD"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “CABD”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
@@ -31126,10 +31153,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.36-40):Givenbelowarefourjumbledsentences,Selecttheoptionthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question No. 36): Given below are four jumbled sentences. Select the option that gives the correct order."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B37",
@@ -31140,15 +31166,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "A)Ourviewsarenotextendedtoall B)Andveryoftenseebutonesideofamatter C)Weareallshort-sighted D)Thathasaconnectionwithit",
+    "question": "Four jumbled sentences are given. Select the option that gives the correct order.\nA) Our views are not extended to all\nB) And very often see but one side of a matter\nC) We are all short-sighted\nD) That has a connection with it",
     "options": [
       "CBAD",
       "ABCD",
       "ACDB",
       "CABD"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “CBAD”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
@@ -31157,10 +31183,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.36-40):Givenbelowarefourjumbledsentences,Selecttheoptionthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 36–40): Given below are four jumbled sentences. Select the option that gives the correct order."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B38",
@@ -31171,15 +31196,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "A)Asarule,thereismoregenuinesatisfactioninlife B)Inthehumblecottageofthepoorman C)Thaninthepalacesoftherich D)Andmoreobtainedfromlife",
+    "question": "Four jumbled sentences are given. Select the option that gives the correct order.\nA) As a rule, there is more genuine satisfaction in life\nB) In the humble cottage of the poor man\nC) Than in the palaces of the rich\nD) And more obtained from life",
     "options": [
       "ABCD",
       "ADBC",
       "BADC",
       "BCAD"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “ADBC”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
@@ -31188,10 +31213,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.36-40):Givenbelowarefourjumbledsentences,Selecttheoptionthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 36–40): Given below are four jumbled sentences. Select the option that gives the correct order."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B39",
@@ -31202,15 +31226,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "A)Theoldermensatontheirhaunchesatthethreshold B)TalkingabouttheirbattleswiththePawitribe C)Thosepeoplewhodonotweartheirhairknottedatthebackofthehead D)Theirhandwovenpuanpulledaroundtheirknees",
+    "question": "Four jumbled sentences are given. Select the option that gives the correct order.\nA) The older men sat on their haunches at the threshold\nB) Talking about their battles with the Pawi tribe\nC) Those people who do not wear their hair knotted at the back of the head\nD) Their handwoven puan pulled around their knees",
     "options": [
       "ABCD",
       "ADBC",
       "DABC",
       "CDBA"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “ADBC”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
@@ -31219,10 +31243,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.36-40):Givenbelowarefourjumbledsentences,Selecttheoptionthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 36–40): Given below are four jumbled sentences. Select the option that gives the correct order."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B40",
@@ -31233,15 +31256,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "A)Fromtimeimmemorialasanimportantvirtue B)Toproducingatypeofcharactercapableoffearlessnessinbattle C)Couragehasbeenrecognised D)Andagreatpartofthetrainingofboysandyoungmenhasbeendevoted",
+    "question": "Four jumbled sentences are given. Select the option that gives the correct order.\nA) From time immemorial as an important virtue\nB) To producing a type of character capable of fearlessness in battle\nC) Courage has been recognised\nD) And a great part of the training of boys and young men has been devoted",
     "options": [
       "ABCD",
       "ACDB",
       "CADB",
       "BCAD"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “CADB”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
@@ -31250,10 +31273,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.36-40):Givenbelowarefourjumbledsentences,Selecttheoptionthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 36–40): Given below are four jumbled sentences. Select the option that gives the correct order."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B41",
@@ -31264,15 +31286,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "(a)Wemustadoptonthenewchanges.(b)Wemustadapttothenewchanges.",
+    "question": "Out of the four alternatives, identify the sentence that is correctly structured.",
     "options": [
-      "Wemustadoptonthenewchanges.",
-      "Wemustadapttothenewchanges.",
-      "Wemustadoptofthenewchanges.",
-      "Wemustadaptwiththenewchanges."
+      "We must adopt on the new changes.",
+      "We must adapt to the new changes.",
+      "We must adopt of the new changes.",
+      "We must adapt with the new changes."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “We must adapt to the new changes.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
@@ -31281,10 +31303,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.41-45):Outofthefouralternatives,identifythesentencethatiscorrectly"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 41–45): Out of the four alternatives, identify the sentence that is correctly structured."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B42",
@@ -31295,15 +31316,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "(a)NeitherJohnnorhisfriendsiscoming.(b)NeitherJohnnorhisfriendsarecoming.",
+    "question": "Out of the four alternatives, identify the sentence that is correctly structured.",
     "options": [
-      "NeitherJohnnorhisfriendsiscoming.",
-      "NeitherJohnnorhisfriendsarecoming.",
-      "NeitherJohnorhisfriendsiscoming.",
-      "NeitherJohnnorhisfriendsamcoming."
+      "Neither John nor his friends is coming.",
+      "Neither John nor his friends are coming.",
+      "Neither John or his friends is coming.",
+      "Neither John nor his friends am coming."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Neither John nor his friends are coming.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
@@ -31312,10 +31333,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.41-45):Outofthefouralternatives,identifythesentencethatiscorrectly"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 41–45): Out of the four alternatives, identify the sentence that is correctly structured."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B43",
@@ -31326,15 +31346,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "(a)Icouldhelpedyouifyouhadasked.(b)Icouldhavehelpedyouifyouhadasked.",
+    "question": "Out of the four alternatives, identify the sentence that is correctly structured.",
     "options": [
-      "Icouldhelpedyouifyouhadasked.",
-      "Icouldhavehelpedyouifyouhadasked.",
-      "[couldhelpyouifyouhadasked.",
-      "Icouldhavehelpedyouifyouasked."
+      "I could helped you if you had asked.",
+      "I could have helped you if you had asked.",
+      "I could help you if you had asked.",
+      "I could have helped you if you asked."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “I could have helped you if you had asked.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
@@ -31343,10 +31363,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.41-45):Outofthefouralternatives,identifythesentencethatiscorrectly"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 41–45): Out of the four alternatives, identify the sentence that is correctly structured."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B44",
@@ -31357,15 +31376,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "(a)Hewassotiredthathecouldbarelykeephiseyesopen.",
+    "question": "Out of the four alternatives, identify the sentence that is correctly structured.",
     "options": [
-      "Hewassotiredthathecouldbarelykeephiseyesopen.",
-      "Hewassotiredthathecouldbarelykeepshiseyesopen.",
-      "Hewassotiredthathecouldhardlykepthiseyesopen.",
-      "Hewassotiredthathebarelykeephiseyesopen."
+      "He was so tired that he could barely keep his eyes open.",
+      "He was so tired that he could barely keeps his eyes open.",
+      "He was so tired that he could hardly kept his eyes open.",
+      "He was so tired that he barely keep his eyes open."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “He was so tired that he could barely keep his eyes open.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
@@ -31374,10 +31393,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.41-45):Outofthefouralternatives,identifythesentencethatiscorrectly"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 41–45): Out of the four alternatives, identify the sentence that is correctly structured."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B45",
@@ -31388,15 +31406,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "(a)IfIwasyou,Iwouldtakethejob.(b)Iflamyou,Iwouldtakethejob.",
+    "question": "Out of the four alternatives, identify the sentence that is correctly structured.",
     "options": [
-      "IfIwasyou,Iwouldtakethejob.",
-      "Iflamyou,Iwouldtakethejob.",
-      "If]wereyou,Iwouldtakethejob.",
-      "Ifhadbeenyou,Iwouldtakethejob. -7-,"
+      "If I was you, I would take the job.",
+      "If I am you, I would take the job.",
+      "If I were you, I would take the job.",
+      "If I had been you, I would take the job."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “If I were you, I would take the job.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
@@ -31405,10 +31423,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.41-45):Outofthefouralternatives,identifythesentencethatiscorrectly"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 41–45): Out of the four alternatives, identify the sentence that is correctly structured."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B46",
@@ -31419,15 +31436,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Hecompletedthetest;Surprisingeveryone.",
+    "question": "He completed the test __________, surprising everyone.",
     "options": [
       "slowly",
       "effortlessly",
       "confused",
       "complicated"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “effortlessly”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
@@ -31436,10 +31453,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.46-50):Completethefollowingsentenceswiththemostsuitablealternative"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 46–50): Complete the following sentences with the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B47",
@@ -31450,15 +31466,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Ifsheharder,shecouldhavepassedtheexam.",
+    "question": "If she __________ harder, she could have passed the exam.",
     "options": [
       "studies",
       "study",
       "studied",
-      "hadstudied"
+      "had studied"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “had studied”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
@@ -31467,10 +31483,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.46-50):Completethefollowingsentenceswiththemostsuitablealternative"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 46–50): Complete the following sentences with the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B48",
@@ -31481,15 +31496,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Shespokesosoftlythatwecould.hearher.",
+    "question": "She spoke so softly that we could __________ hear her.",
     "options": [
       "never",
       "barely",
       "completely",
       "frequently"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “barely”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
@@ -31498,10 +31513,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.46-50):Completethefollowingsentenceswiththemostsuitablealternative"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 46–50): Complete the following sentences with the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B49",
@@ -31512,15 +31526,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Shewasverytired,shekeptworkinguntilmidnight.",
+    "question": "She was very tired, __________ she kept working until midnight.",
     "options": [
       "because",
       "yet",
       "and",
       "since"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “yet”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
@@ -31529,10 +31543,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.46-50):Completethefollowingsentenceswiththemostsuitablealternative"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 46–50): Complete the following sentences with the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B50",
@@ -31543,15 +31556,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Hadsheknownaboutthemeetingearlier,sheadifferentschedule.",
+    "question": "Had she known about the meeting earlier, she __________ a different schedule.",
     "options": [
-      "willplan",
-      "hasplanned",
-      "wouldhaveplanned",
-      "wouldhavemade"
+      "will plan",
+      "has planned",
+      "would have planned",
+      "would have made"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “would have made”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
@@ -31560,10 +31573,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.46-50):Completethefollowingsentenceswiththemostsuitablealternative"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 46–50): Complete the following sentences with the most suitable alternative provided below."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B51",
@@ -31574,15 +31586,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "OncePaulWilkin,beingaskedhisnamebyhisservant,foundtohisdismaythathehadforgothis ownname",
+    "question": "Once Paul Wilkin, being asked his name by his servant, found to his dismay that he had forgot his own name.",
     "options": [
-      "OncePaulWilkin,beingaskedhisnamebyhisservant",
-      "foundtohisdismay",
-      "thathehad",
-      "forgothisownname"
+      "Once Paul Wilkin, being asked his name by his servant",
+      "found to his dismay",
+      "that he had",
+      "forgot his own name"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “forgot his own name”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
@@ -31591,10 +31603,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,51-55):Identifythesegmentwhichcontainsgrammaticalerrorinthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 51–55): Identify the segment which contains grammatical error in the given sentences."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B52",
@@ -31605,15 +31616,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Asshemovedtoaforeigncountrywithacompletelydifferentculture,language,andlifestyle,shehad toquicklyadopttounfamiliarcustoms,newwaysofcommunication,andadifferentdailyroutineto integratesuccessfullyintohernewsurroundings.",
+    "question": "As she moved to a foreign country with a completely different culture, language, and lifestyle, she had to quickly adopt to unfamiliar customs, new ways of communication, and a different daily routine to integrate successfully into her new surroundings.",
     "options": [
-      "Asshemovedtoaforeigncountrywithacompletelydifferentculture,language,andlifestyle",
-      "shehadtoquicklyadopttounfamiliarcustoms",
-      "newwaysofcommunication,",
-      "andadifferentdailyroutinetointegratesuccessfullyintohernewsurroundings."
+      "As she moved to a foreign country with a completely different culture, language, and lifestyle",
+      "she had to quickly adopt to unfamiliar customs",
+      "new ways of communication,",
+      "and a different daily routine to integrate successfully into her new surroundings."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “she had to quickly adopt to unfamiliar customs”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
@@ -31622,10 +31633,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,51-55):Identifythesegmentwhichcontainsgrammaticalerrorinthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 51–55): Identify the segment which contains grammatical error in the given sentences."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B53",
@@ -31636,15 +31646,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Threeyearsshegrowsinsunandshower.Someofthesewarshavegrownoutofcommercial considerations.",
+    "question": "Three years she grows in sun and shower. Some of these wars have grown out of commercial considerations.",
     "options": [
-      "Threeyearsshegrows",
-      "insunandshower",
-      "Someofthesewars",
-      "havegrownouotfcommercialconsiderations."
+      "Three years she grows",
+      "in sun and shower",
+      "Some of these wars",
+      "have grown out of commercial considerations."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Three years she grows”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
@@ -31653,10 +31663,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,51-55):Identifythesegmentwhichcontainsgrammaticalerrorinthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 51–55): Identify the segment which contains grammatical error in the given sentences."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B54",
@@ -31667,15 +31676,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Theexpertexplainedthetopicsowellthatalltheaudiencewereunderstandingitclearlyandquickly withoutanydoubtsintheirmind.",
+    "question": "The expert explained the topic so well that all the audience were understanding it clearly and quickly without any doubts in their mind.",
     "options": [
-      "Theexpertexplainedthetopicsowellthat",
-      "alltheaudiencewereunderstandingit",
-      "clearlyandquickly:",
-      "withoutanydoubtsintheirmind"
+      "The expert explained the topic so well that",
+      "all the audience were understanding it",
+      "clearly and quickly",
+      "without any doubts in their mind"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “all the audience were understanding it”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
@@ -31684,10 +31693,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,51-55):Identifythesegmentwhichcontainsgrammaticalerrorinthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 51–55): Identify the segment which contains grammatical error in the given sentences."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B55",
@@ -31698,15 +31706,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Ifshewouldstudyharder,shewouldpasstheexamwithflyingcoloursandmakeherparentsproud.",
+    "question": "If she would study harder, she would pass the exam with flying colours and make her parents proud.",
     "options": [
-      "Ifshewouldstudyharder",
-      "shewouldpasstheexam",
-      "withflyingcolours",
-      "andmakeherparentsproud. -8-°"
+      "If she would study harder",
+      "she would pass the exam",
+      "with flying colours",
+      "and make her parents proud."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “If she would study harder”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
@@ -31715,10 +31723,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,51-55):Identifythesegmentwhichcontainsgrammaticalerrorinthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 51–55): Identify the segment which contains grammatical error in the given sentences."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B56",
@@ -31729,15 +31736,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Themanagerwasadamantthattheprojectmustbecompletedbythedeadline.",
+    "question": "The manager was adamant that the project must be completed by the deadline.",
     "options": [
       "Flexible",
       "Unyielding",
       "Uncertain",
       "Hesitant"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Unyielding”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
@@ -31746,10 +31753,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.56-60):Choosethealternativethatissimilar/nearestinmeaningtothe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 56–60): Choose the alternative that is similar/nearest in meaning to the italicized word in each of the following sentences."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B57",
@@ -31760,15 +31766,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "His¢aciturnpersonalitymadesocialgatheringsdifficultforhim.",
+    "question": "His taciturn personality made social gatherings difficult for him.",
     "options": [
       "Reserved",
       "Talkative",
       "Friendly",
       "Outgoing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Reserved”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
@@ -31777,10 +31783,39 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.56-60):Choosethealternativethatissimilar/nearestinmeaningtothe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 56–60): Choose the alternative that is similar/nearest in meaning to the italicized word in each of the following sentences."
+  },
+  {
+    "id": "mpsc-group-b-steno-2025-english-B58",
+    "paperId": "mpsc-group-b-steno-2025-english",
+    "questionNumber": "B58",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "The government imposed draconian laws to control the protests.",
+    "options": [
+      "Harsh",
+      "Lenient",
+      "Temporary",
+      "Fair"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Harsh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Stenographer Grade III, Lokayukta · March 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 56–60): Choose the alternative that is similar/nearest in meaning to the italicized word in each of the following sentences."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B59",
@@ -31791,15 +31826,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Hewasknownforhispenchantforcollectingrarebooks.",
+    "question": "He was known for his penchant for collecting rare books.",
     "options": [
-      "Stronginclination",
+      "Strong inclination",
       "Dislike",
       "Avoidance",
       "Hesitation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Strong inclination”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
@@ -31808,10 +31843,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.56-60):Choosethealternativethatissimilar/nearestinmeaningtothe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 56–60): Choose the alternative that is similar/nearest in meaning to the italicized word in each of the following sentences."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B60",
@@ -31822,15 +31856,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Her/aconicrepliesmadeitdifficulttoholdaconversation.",
+    "question": "Her laconic replies made it difficult to hold a conversation.",
     "options": [
       "Concise",
       "Talkative",
       "Friendly",
       "Detailed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Concise”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
@@ -31839,10 +31873,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.56-60):Choosethealternativethatissimilar/nearestinmeaningtothe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 56–60): Choose the alternative that is similar/nearest in meaning to the italicized word in each of the following sentences."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B61",
@@ -31853,15 +31886,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Hisincessanttalkingmadeitimpossibletoconcentrateonthetask.",
+    "question": "His incessant talking made it impossible to concentrate on the task.",
     "options": [
       "Continual",
       "Intermittent",
       "Persistent",
       "Relentless"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Intermittent”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
@@ -31870,10 +31903,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.61-65):Choosethecorrectantonymsoftheitalicizedwordineachofthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 61–65): Choose the correct antonyms of the italicized word in each of the following sentences."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B62",
@@ -31884,15 +31916,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Theaberrantbehaviourofthescientistshockedhiscolleagues.",
+    "question": "The aberrant behaviour of the scientist shocked his colleagues.",
     "options": [
       "Normal",
       "Unusual",
       "Strange",
       "Deviant"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Normal”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
@@ -31901,10 +31933,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.61-65):Choosethecorrectantonymsoftheitalicizedwordineachofthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 61–65): Choose the correct antonyms of the italicized word in each of the following sentences."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B63",
@@ -31915,15 +31946,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Theprofessor’seruditelectureimpressedthestudents.",
+    "question": "The professor’s erudite lecture impressed the students.",
     "options": [
       "Ignorant",
       "Scholarly",
       "Knowledgeable",
       "Insightful"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Ignorant”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
@@ -31932,10 +31963,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.61-65):Choosethecorrectantonymsoftheitalicizedwordineachofthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 61–65): Choose the correct antonyms of the italicized word in each of the following sentences."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B64",
@@ -31946,15 +31976,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Hispusillanimousreactiontothechallengedisappointedhisfriends.",
+    "question": "His pusillanimous reaction to the challenge disappointed his friends.",
     "options": [
       "Courageous",
       "Cowardly",
       "Weak",
-      "‘Timid"
+      "Timid"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Courageous”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
@@ -31963,10 +31993,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.61-65):Choosethecorrectantonymsoftheitalicizedwordineachofthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 61–65): Choose the correct antonyms of the italicized word in each of the following sentences."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B65",
@@ -31977,15 +32006,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Herpervasiveinfluencecouldbefeltineveryaspectofthecompany.",
+    "question": "Her pervasive influence could be felt in every aspect of the company.",
     "options": [
       "Limited",
       "Widespread",
       "Omnipresent",
       "Extensive"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Limited”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
@@ -31994,10 +32023,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.61-65):Choosethecorrectantonymsoftheitalicizedwordineachofthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 61–65): Choose the correct antonyms of the italicized word in each of the following sentences."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B66",
@@ -32008,15 +32036,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Sheshowedgreatinhandlingthedifficultsituation.",
+    "question": "She showed great __________ in handling the difficult situation.",
     "options": [
       "tact",
       "tactic",
       "tactile",
-      "tactful:"
+      "tactful"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “tact”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
@@ -32025,10 +32053,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.66-70):Choosethemostsuitablealternativetofillintheblanks."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 66–70): Choose the most suitable alternative to fill in the blanks."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B67",
@@ -32039,27 +32066,26 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Hefinallydecidedtoandapologize.",
+    "question": "He finally decided to __________ and apologize.",
     "options": [
-      "bitethebullet",
-      "kickthebucket",
-      "breaktheice",
-      "hitthehay 9.."
+      "bite the bullet",
+      "kick the bucket",
+      "break the ice",
+      "hit the hay"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “bite the bullet”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
     "officialAnswerCandidates": [
-      1
+      0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.66-70):Choosethemostsuitablealternativetofillintheblanks."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 66–70): Choose the most suitable alternative to fill in the blanks."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B68",
@@ -32070,27 +32096,26 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "1wasfeelingnervousbeforemypresentation,butIfinallygotmytogetheranddelivered itwell.",
+    "question": "I was feeling nervous before my presentation, but I finally got my __________ together and delivered it well.",
     "options": [
       "act",
       "role",
       "idea",
       "scene"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “act”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=9",
     "officialAnswerCandidates": [
-      1
+      0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.66-70):Choosethemostsuitablealternativetofillintheblanks."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 66–70): Choose the most suitable alternative to fill in the blanks."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B69",
@@ -32101,15 +32126,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Shehasaveryapproachtoproblem-solving,alwaysthinkingoutsidethebox.",
+    "question": "She has a very __________ approach to problem-solving, always thinking outside the box.",
     "options": [
       "conventional",
       "innovative",
       "predictable",
       "ordinary"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “innovative”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=9",
@@ -32118,10 +32143,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.66-70):Choosethemostsuitablealternativetofillintheblanks."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 66–70): Choose the most suitable alternative to fill in the blanks."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B70",
@@ -32132,27 +32156,26 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Hisspeechwasfullof;heexaggeratedeverything.",
+    "question": "His speech was full of __________; he exaggerated everything.",
     "options": [
       "hyperbole",
       "understatement",
       "realism",
       "accuracy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “hyperbole”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=9",
     "officialAnswerCandidates": [
-      1
+      0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.66-70):Choosethemostsuitablealternativetofillintheblanks."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 66–70): Choose the most suitable alternative to fill in the blanks."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B71",
@@ -32163,27 +32186,26 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Iwasfeelingundertheweather,soItookadayofffromwork.",
+    "question": "I was feeling under the weather, so I took a day off from work.",
     "options": [
-      "Feelingveryhappy",
-      "Notfeelingwell",
-      "Beingaffectedbytheclimate",
-      "Goingonvacation"
+      "Feeling very happy",
+      "Not feeling well",
+      "Being affected by the climate",
+      "Going on vacation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Not feeling well”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=9",
     "officialAnswerCandidates": [
-      0
+      1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.71-75):Choosethemostappropriatealternativeprovidedofeachitalicized"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 71–75): Choose the most appropriate alternative provided for each italicized word."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B72",
@@ -32194,15 +32216,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Heletthecatoutofthebagaboutthesurprisepartybeforewecouldstophim.",
+    "question": "He let the cat out of the bag about the surprise party before we could stop him.",
     "options": [
-      "Releasedapetcat",
-      "Revealedasecretunintentionally",
-      "Hidsomethingimportant",
-      "Revealedasecretintentionally"
+      "Released a pet cat",
+      "Revealed a secret unintentionally",
+      "Hid something important",
+      "Revealed a secret intentionally"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Revealed a secret unintentionally”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=9",
@@ -32211,10 +32233,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.71-75):Choosethemostappropriatealternativeprovidedofeachitalicized"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 71–75): Choose the most appropriate alternative provided for each italicized word."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B73",
@@ -32225,15 +32246,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Shehitthenailontheheadwhenshepointedouttherealissueinthemeeting.",
+    "question": "She hit the nail on the head when she pointed out the real issue in the meeting.",
     "options": [
-      "Usedahammercorrectly",
-      "Solvedaproblemprecisely",
-      "Hurtherself",
-      "Madeamistake"
+      "Used a hammer correctly",
+      "Solved a problem precisely",
+      "Hurt herself",
+      "Made a mistake"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Solved a problem precisely”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=9",
@@ -32242,10 +32263,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.71-75):Choosethemostappropriatealternativeprovidedofeachitalicized"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 71–75): Choose the most appropriate alternative provided for each italicized word."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B74",
@@ -32256,15 +32276,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Aftermonthsofdebate,thecommitteedecidedtofethelineandfollowthetraditionalpolicies.",
+    "question": "After months of debate, the committee decided to toe the line and follow the traditional policies.",
     "options": [
-      "Tofollowtherulesstrictly",
-      "Tocrosstheboundary",
-      "Tochallengeauthority",
-      "Torefusetoobeyorders"
+      "To follow the rules strictly",
+      "To cross the boundary",
+      "To challenge authority",
+      "To refuse to obey orders"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “To follow the rules strictly”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=9",
@@ -32273,10 +32293,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.71-75):Choosethemostappropriatealternativeprovidedofeachitalicized"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 71–75): Choose the most appropriate alternative provided for each italicized word."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B75",
@@ -32287,15 +32306,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Theprofessor’scomplextheorieswereasclearasmudtomostofthestudents,",
+    "question": "The professor’s complex theories were as clear as mud to most of the students.",
     "options": [
-      "Verydifficulttounderstand",
-      "Easytograsp",
-      "Highlyengaging",
-      "Completelyincorrect eKKEKE"
+      "Very difficult to understand",
+      "Easy to grasp",
+      "Highly engaging",
+      "Completely incorrect"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Very difficult to understand”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=9",
@@ -32304,10 +32323,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.71-75):Choosethemostappropriatealternativeprovidedofeachitalicized"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 71–75): Choose the most appropriate alternative provided for each italicized word."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q1",
@@ -32644,7 +32662,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-gk-Q13",
     "paperId": "mpsc-group-b-steno-2025-gk",
@@ -32728,9 +32748,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q16",
     "paperId": "mpsc-group-b-steno-2025-gk",
@@ -40741,7 +40759,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-gk-Q72",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -40819,9 +40839,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-gk-Q75",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -48372,7 +48390,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q57",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -48447,9 +48467,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q60",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -56432,7 +56450,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p2-Q58",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -56514,9 +56534,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q61",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -64118,7 +64136,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q96",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -64193,9 +64213,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q99",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -73197,7 +73215,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q68",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -73291,9 +73311,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q71",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -81212,7 +81230,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B28",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p2-Q29",
     "questionNumber": "B29",
@@ -81294,9 +81314,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B31",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p2-Q32",
     "questionNumber": "B32",
@@ -89055,7 +89073,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B3",
     "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p2-B4",
     "questionNumber": "B4",
@@ -89136,9 +89156,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B6",
     "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p2-B7",
     "questionNumber": "B7",
@@ -91628,6 +91646,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "penaltyFraction": 0
   },
   "mpsc-group-b-aao-2024-arithmetic": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-steno-2025-english": {
     "marksPerQuestion": 1,
     "durationMinutes": 180,
     "negativeMarking": false,

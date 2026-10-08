@@ -170,6 +170,9 @@ def build_additional():
             entry['expectedMcq'] = len(key['answers'])
         complete_source_review = (bool(key)
                                   and reviewed_numbers == {int(n) for n in key['answers']}
+                                  # This English paper also has a written Section A;
+                                  # its prompts are not yet recovered in the bank.
+                                  and slug != 'steno-2025-english'
                                   and all(isinstance(answer, str) and answer in 'ABCD'
                                           for answer in key['answers'].values()))
         entry['imported'] = True

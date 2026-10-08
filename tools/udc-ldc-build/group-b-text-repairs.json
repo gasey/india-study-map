@@ -2603,6 +2603,990 @@
           }
         }
       }
+    },
+    "steno-2025-english": {
+      "sourceSha256": "1a29d62a93a22d172bafdf370942b86e6a5051033a41adaff215ec0a367f55b0",
+      "expectedMcq": 75,
+      "reviewedOn": "2026-10-08",
+      "evidence": "All 75 objective questions B1–B75, shared passages, section directions, and options transcribed from printed pages 2–9; all answers checked against the official 28 May 2025 MPSC key. Section A contains separate written prompts and remains unreviewed.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 2,
+          "part": "B",
+          "q": "Which of the following best describes the overarching theme of the passage?",
+          "opts": {
+            "a": "The benefits of industrialization on global economies",
+            "b": "The role of technology in reversing climate change",
+            "c": "The catastrophic impact of climate change and the need for intervention",
+            "d": "The historical evolution of climate patterns"
+          },
+          "direction": "Directions (Question Nos. 1–7): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nClimate change is an unprecedented challenge that threatens ecosystems, economies, and societies worldwide. The persistent rise in global temperatures, largely due to anthropogenic activities, has led to calamitous consequences such as extreme weather events, rising sea levels, and biodiversity loss. Scientists have attributed this phenomenon to the excessive emission of greenhouse gases, particularly carbon dioxide and methane, which trap heat within the earth’s atmosphere, exacerbating the warming effect.\n\nOne of the most ominous repercussions of climate change is the accelerated melting of polar ice caps, which contributes to rising sea levels and threatens coastal communities. This detrimental shift has led to the displacement of populations, loss of arable land, and an increase in natural disasters. Furthermore, fluctuating weather patterns have disrupted agricultural productivity, leading to food shortages and economic instability.\n\nGovernments and environmental organizations have initiated concerted efforts to mitigate climate change through renewable energy adoption, reforestation projects, and carbon reduction policies. However, despite these interventions, the planet continues to experience incessant climatic changes that necessitate immediate global cooperation. The pivotal role of individuals in reducing their carbon footprint, advocating for policy changes, and embracing sustainable lifestyles cannot be overstated."
+        },
+        "2": {
+          "n": 2,
+          "page": 2,
+          "part": "B",
+          "q": "What is the primary factor contributing to climate change, as mentioned in the passage?",
+          "opts": {
+            "a": "The natural shifts in Earth’s climate cycles",
+            "b": "Excessive emission of greenhouse gases due to human activities",
+            "c": "The depletion of the ozone layer",
+            "d": "Increased volcanic activity"
+          },
+          "direction": "Directions (Question Nos. 1–7): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nClimate change is an unprecedented challenge that threatens ecosystems, economies, and societies worldwide. The persistent rise in global temperatures, largely due to anthropogenic activities, has led to calamitous consequences such as extreme weather events, rising sea levels, and biodiversity loss. Scientists have attributed this phenomenon to the excessive emission of greenhouse gases, particularly carbon dioxide and methane, which trap heat within the earth’s atmosphere, exacerbating the warming effect.\n\nOne of the most ominous repercussions of climate change is the accelerated melting of polar ice caps, which contributes to rising sea levels and threatens coastal communities. This detrimental shift has led to the displacement of populations, loss of arable land, and an increase in natural disasters. Furthermore, fluctuating weather patterns have disrupted agricultural productivity, leading to food shortages and economic instability.\n\nGovernments and environmental organizations have initiated concerted efforts to mitigate climate change through renewable energy adoption, reforestation projects, and carbon reduction policies. However, despite these interventions, the planet continues to experience incessant climatic changes that necessitate immediate global cooperation. The pivotal role of individuals in reducing their carbon footprint, advocating for policy changes, and embracing sustainable lifestyles cannot be overstated."
+        },
+        "3": {
+          "n": 3,
+          "page": 2,
+          "part": "B",
+          "q": "What is one of the major consequences of polar ice cap melting?",
+          "opts": {
+            "a": "Expansion of habitable land for human settlements",
+            "b": "Decreased sea levels, exposing more coastal land",
+            "c": "Rising sea levels, leading to threats for coastal communities",
+            "d": "A decrease in the salinity of oceans, making them more suitable for marine life"
+          },
+          "direction": "Directions (Question Nos. 1–7): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nClimate change is an unprecedented challenge that threatens ecosystems, economies, and societies worldwide. The persistent rise in global temperatures, largely due to anthropogenic activities, has led to calamitous consequences such as extreme weather events, rising sea levels, and biodiversity loss. Scientists have attributed this phenomenon to the excessive emission of greenhouse gases, particularly carbon dioxide and methane, which trap heat within the earth’s atmosphere, exacerbating the warming effect.\n\nOne of the most ominous repercussions of climate change is the accelerated melting of polar ice caps, which contributes to rising sea levels and threatens coastal communities. This detrimental shift has led to the displacement of populations, loss of arable land, and an increase in natural disasters. Furthermore, fluctuating weather patterns have disrupted agricultural productivity, leading to food shortages and economic instability.\n\nGovernments and environmental organizations have initiated concerted efforts to mitigate climate change through renewable energy adoption, reforestation projects, and carbon reduction policies. However, despite these interventions, the planet continues to experience incessant climatic changes that necessitate immediate global cooperation. The pivotal role of individuals in reducing their carbon footprint, advocating for policy changes, and embracing sustainable lifestyles cannot be overstated."
+        },
+        "4": {
+          "n": 4,
+          "page": 2,
+          "part": "B",
+          "q": "What is the synonym of ‘unprecedented’ in the context of the passage?",
+          "opts": {
+            "a": "Routine",
+            "b": "Novel",
+            "c": "Predictable",
+            "d": "Insignificant"
+          },
+          "direction": "Directions (Question Nos. 1–7): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nClimate change is an unprecedented challenge that threatens ecosystems, economies, and societies worldwide. The persistent rise in global temperatures, largely due to anthropogenic activities, has led to calamitous consequences such as extreme weather events, rising sea levels, and biodiversity loss. Scientists have attributed this phenomenon to the excessive emission of greenhouse gases, particularly carbon dioxide and methane, which trap heat within the earth’s atmosphere, exacerbating the warming effect.\n\nOne of the most ominous repercussions of climate change is the accelerated melting of polar ice caps, which contributes to rising sea levels and threatens coastal communities. This detrimental shift has led to the displacement of populations, loss of arable land, and an increase in natural disasters. Furthermore, fluctuating weather patterns have disrupted agricultural productivity, leading to food shortages and economic instability.\n\nGovernments and environmental organizations have initiated concerted efforts to mitigate climate change through renewable energy adoption, reforestation projects, and carbon reduction policies. However, despite these interventions, the planet continues to experience incessant climatic changes that necessitate immediate global cooperation. The pivotal role of individuals in reducing their carbon footprint, advocating for policy changes, and embracing sustainable lifestyles cannot be overstated."
+        },
+        "5": {
+          "n": 5,
+          "page": 2,
+          "part": "B",
+          "q": "What is the closest synonym of ‘phenomenon’ in this passage?",
+          "opts": {
+            "a": "Enigma",
+            "b": "Event",
+            "c": "Object",
+            "d": "Myth"
+          },
+          "direction": "Directions (Question Nos. 1–7): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nClimate change is an unprecedented challenge that threatens ecosystems, economies, and societies worldwide. The persistent rise in global temperatures, largely due to anthropogenic activities, has led to calamitous consequences such as extreme weather events, rising sea levels, and biodiversity loss. Scientists have attributed this phenomenon to the excessive emission of greenhouse gases, particularly carbon dioxide and methane, which trap heat within the earth’s atmosphere, exacerbating the warming effect.\n\nOne of the most ominous repercussions of climate change is the accelerated melting of polar ice caps, which contributes to rising sea levels and threatens coastal communities. This detrimental shift has led to the displacement of populations, loss of arable land, and an increase in natural disasters. Furthermore, fluctuating weather patterns have disrupted agricultural productivity, leading to food shortages and economic instability.\n\nGovernments and environmental organizations have initiated concerted efforts to mitigate climate change through renewable energy adoption, reforestation projects, and carbon reduction policies. However, despite these interventions, the planet continues to experience incessant climatic changes that necessitate immediate global cooperation. The pivotal role of individuals in reducing their carbon footprint, advocating for policy changes, and embracing sustainable lifestyles cannot be overstated."
+        },
+        "6": {
+          "n": 6,
+          "page": 2,
+          "part": "B",
+          "q": "What is the best synonym for ‘ominous’ in the passage?",
+          "opts": {
+            "a": "Hopeful",
+            "b": "Harmless",
+            "c": "Threatening",
+            "d": "Promising"
+          },
+          "direction": "Directions (Question Nos. 1–7): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nClimate change is an unprecedented challenge that threatens ecosystems, economies, and societies worldwide. The persistent rise in global temperatures, largely due to anthropogenic activities, has led to calamitous consequences such as extreme weather events, rising sea levels, and biodiversity loss. Scientists have attributed this phenomenon to the excessive emission of greenhouse gases, particularly carbon dioxide and methane, which trap heat within the earth’s atmosphere, exacerbating the warming effect.\n\nOne of the most ominous repercussions of climate change is the accelerated melting of polar ice caps, which contributes to rising sea levels and threatens coastal communities. This detrimental shift has led to the displacement of populations, loss of arable land, and an increase in natural disasters. Furthermore, fluctuating weather patterns have disrupted agricultural productivity, leading to food shortages and economic instability.\n\nGovernments and environmental organizations have initiated concerted efforts to mitigate climate change through renewable energy adoption, reforestation projects, and carbon reduction policies. However, despite these interventions, the planet continues to experience incessant climatic changes that necessitate immediate global cooperation. The pivotal role of individuals in reducing their carbon footprint, advocating for policy changes, and embracing sustainable lifestyles cannot be overstated."
+        },
+        "7": {
+          "n": 7,
+          "page": 3,
+          "part": "B",
+          "q": "Which word can replace ‘incessant’ while maintaining the meaning?",
+          "opts": {
+            "a": "Sporadic",
+            "b": "Ceaseless",
+            "c": "Temporary",
+            "d": "Terminating"
+          },
+          "direction": "Directions (Question Nos. 1–7): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nClimate change is an unprecedented challenge that threatens ecosystems, economies, and societies worldwide. The persistent rise in global temperatures, largely due to anthropogenic activities, has led to calamitous consequences such as extreme weather events, rising sea levels, and biodiversity loss. Scientists have attributed this phenomenon to the excessive emission of greenhouse gases, particularly carbon dioxide and methane, which trap heat within the earth’s atmosphere, exacerbating the warming effect.\n\nOne of the most ominous repercussions of climate change is the accelerated melting of polar ice caps, which contributes to rising sea levels and threatens coastal communities. This detrimental shift has led to the displacement of populations, loss of arable land, and an increase in natural disasters. Furthermore, fluctuating weather patterns have disrupted agricultural productivity, leading to food shortages and economic instability.\n\nGovernments and environmental organizations have initiated concerted efforts to mitigate climate change through renewable energy adoption, reforestation projects, and carbon reduction policies. However, despite these interventions, the planet continues to experience incessant climatic changes that necessitate immediate global cooperation. The pivotal role of individuals in reducing their carbon footprint, advocating for policy changes, and embracing sustainable lifestyles cannot be overstated."
+        },
+        "8": {
+          "n": 8,
+          "page": 3,
+          "part": "B",
+          "q": "According to the passage, why is reading particularly important in the digital era?",
+          "opts": {
+            "a": "It helps counteract the effects of digital distractions and superficial content",
+            "b": "It replaces all forms of digital media",
+            "c": "It discourages the use of modern technology",
+            "d": "It only benefits older generations"
+          },
+          "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
+        },
+        "9": {
+          "n": 9,
+          "page": 3,
+          "part": "B",
+          "q": "What is the main argument presented in the passage?",
+          "opts": {
+            "a": "Reading is a leisure activity with minimal impact",
+            "b": "Reading is a fundamental practice for intellectual and personal growth",
+            "c": "Books are outdated and should be replaced by digital media",
+            "d": "Reading fiction is more beneficial than non-fiction"
+          },
+          "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
+        },
+        "10": {
+          "n": 10,
+          "page": 3,
+          "part": "B",
+          "q": "What does the passage suggest about the emotional benefits of reading?",
+          "opts": {
+            "a": "It is an ineffective way to cope with stress",
+            "b": "It only benefits highly intellectual readers",
+            "c": "It provides comfort and helps individuals navigate personal struggles",
+            "d": "It causes emotional detachment from reality"
+          },
+          "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
+        },
+        "11": {
+          "n": 11,
+          "page": 3,
+          "part": "B",
+          "q": "What is one of the major intellectual benefits of reading, as stated in the passage?",
+          "opts": {
+            "a": "It isolates readers from society",
+            "b": "It improves linguistic skills and critical thinking",
+            "c": "It limits exposure to new ideas",
+            "d": "It reduces creativity"
+          },
+          "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
+        },
+        "12": {
+          "n": 12,
+          "page": 4,
+          "part": "B",
+          "q": "What is the opposite of ‘mundane’ in the passage?",
+          "opts": {
+            "a": "Ordinary",
+            "b": "Extraordinary",
+            "c": "Dull",
+            "d": "Routine"
+          },
+          "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
+        },
+        "13": {
+          "n": 13,
+          "page": 4,
+          "part": "B",
+          "q": "What is the antonym of ‘laudable’ as used in the passage?",
+          "opts": {
+            "a": "Praiseworthy",
+            "b": "Commendable",
+            "c": "Disgraceful",
+            "d": "Respectable"
+          },
+          "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
+        },
+        "14": {
+          "n": 14,
+          "page": 4,
+          "part": "B",
+          "q": "What is the best synonym for ‘astute’ in the passage?",
+          "opts": {
+            "a": "Intelligent",
+            "b": "Clumsy",
+            "c": "Indifferent",
+            "d": "Oblivious"
+          },
+          "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
+        },
+        "15": {
+          "n": 15,
+          "page": 4,
+          "part": "B",
+          "q": "Which word can replace ‘ameliorate’ while maintaining the meaning in the passage?",
+          "opts": {
+            "a": "Worsen",
+            "b": "Improve",
+            "c": "Deteriorate",
+            "d": "Exacerbate"
+          },
+          "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
+        },
+        "16": {
+          "n": 16,
+          "page": 4,
+          "part": "B",
+          "q": "Still waters run deep.",
+          "opts": {
+            "a": "noun",
+            "b": "verb",
+            "c": "adverb",
+            "d": "adjective"
+          },
+          "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
+        },
+        "17": {
+          "n": 17,
+          "page": 4,
+          "part": "B",
+          "q": "It weighs about a kilogram.",
+          "opts": {
+            "a": "adverb",
+            "b": "verb",
+            "c": "adjective",
+            "d": "preposition"
+          },
+          "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
+        },
+        "18": {
+          "n": 18,
+          "page": 4,
+          "part": "B",
+          "q": "Sit down and rest a while.",
+          "opts": {
+            "a": "adjective",
+            "b": "noun",
+            "c": "adverb",
+            "d": "conjunction"
+          },
+          "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
+        },
+        "19": {
+          "n": 19,
+          "page": 4,
+          "part": "B",
+          "q": "They while away their evenings with books and games.",
+          "opts": {
+            "a": "preposition",
+            "b": "noun",
+            "c": "verb",
+            "d": "adverb"
+          },
+          "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
+        },
+        "20": {
+          "n": 20,
+          "page": 4,
+          "part": "B",
+          "q": "The after effects of the drug are bad.",
+          "opts": {
+            "a": "noun",
+            "b": "pronoun",
+            "c": "verb",
+            "d": "adjective"
+          },
+          "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
+        },
+        "21": {
+          "n": 21,
+          "page": 4,
+          "part": "B",
+          "q": "Although he was tired, he continued working.",
+          "opts": {
+            "a": "Subordinating conjunction",
+            "b": "preposition",
+            "c": "Coordinating conjunction",
+            "d": "adverb"
+          },
+          "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
+        },
+        "22": {
+          "n": 22,
+          "page": 4,
+          "part": "B",
+          "q": "The book that she borrowed was very interesting.",
+          "opts": {
+            "a": "Relative pronoun",
+            "b": "Demonstrative adjective",
+            "c": "Conjunction",
+            "d": "Adverb"
+          },
+          "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
+        },
+        "23": {
+          "n": 23,
+          "page": 4,
+          "part": "B",
+          "q": "She wanted to go to the party; however, she had to study.",
+          "opts": {
+            "a": "Conjunctive adverb",
+            "b": "Coordinating conjunction",
+            "c": "Subordinating conjunction",
+            "d": "Preposition"
+          },
+          "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
+        },
+        "24": {
+          "n": 24,
+          "page": 4,
+          "part": "B",
+          "q": "He was reluctant to join the discussion.",
+          "opts": {
+            "a": "Noun",
+            "b": "Adjective",
+            "c": "Verb",
+            "d": "Adverb"
+          },
+          "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
+        },
+        "25": {
+          "n": 25,
+          "page": 4,
+          "part": "B",
+          "q": "He completed the project by himself.",
+          "opts": {
+            "a": "Demonstrative pronoun",
+            "b": "Indefinite pronoun",
+            "c": "Reflexive pronoun",
+            "d": "Relative pronoun"
+          },
+          "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
+        },
+        "26": {
+          "n": 26,
+          "page": 5,
+          "part": "B",
+          "q": "Men __________ to abolish war up to now, but maybe they will find a way in the future.",
+          "opts": {
+            "a": "never managed",
+            "b": "have never managed",
+            "c": "will have never managed",
+            "d": "had never managed"
+          },
+          "direction": "Directions (Question Nos. 26–30): Complete the following sentences with the most suitable alternative provided below."
+        },
+        "27": {
+          "n": 27,
+          "page": 5,
+          "part": "B",
+          "q": "The city __________ its appearance completely since 2016.",
+          "opts": {
+            "a": "is changing",
+            "b": "changed",
+            "c": "has changed",
+            "d": "had changed"
+          },
+          "direction": "Directions (Question Nos. 26–30): Complete the following sentences with the most suitable alternative provided below."
+        },
+        "28": {
+          "n": 28,
+          "page": 5,
+          "part": "B",
+          "q": "This article __________ twice weekly in Vanglaini newspaper.",
+          "opts": {
+            "a": "appears",
+            "b": "is appearing",
+            "c": "has appeared",
+            "d": "was appearing"
+          },
+          "direction": "Directions (Question Nos. 26–30): Complete the following sentences with the most suitable alternative provided below."
+        },
+        "29": {
+          "n": 29,
+          "page": 5,
+          "part": "B",
+          "q": "A pair of woolen socks __________ me warm all through the winter.",
+          "opts": {
+            "a": "is keeping",
+            "b": "was keeping",
+            "c": "keeps",
+            "d": "keep"
+          },
+          "direction": "Directions (Question Nos. 26–30): Complete the following sentences with the most suitable alternative provided below."
+        },
+        "30": {
+          "n": 30,
+          "page": 5,
+          "part": "B",
+          "q": "Neither food nor water __________ given to the weary workers.",
+          "opts": {
+            "a": "is",
+            "b": "are",
+            "c": "has",
+            "d": "have"
+          },
+          "direction": "Directions (Question Nos. 26–30): Complete the following sentences with the most suitable alternative provided below."
+        },
+        "31": {
+          "n": 31,
+          "page": 5,
+          "part": "B",
+          "q": "__________ the meeting, several important issues were discussed.",
+          "opts": {
+            "a": "Over the course of",
+            "b": "In the course of",
+            "c": "On",
+            "d": "With"
+          },
+          "direction": "Directions (Question Nos. 31–35): Complete the following sentences with the most suitable preposition provided below."
+        },
+        "32": {
+          "n": 32,
+          "page": 5,
+          "part": "B",
+          "q": "__________ recent events, new policies have been introduced.",
+          "opts": {
+            "a": "In",
+            "b": "In the light of",
+            "c": "On",
+            "d": "At the light of"
+          },
+          "direction": "Directions (Question Nos. 31–35): Complete the following sentences with the most suitable preposition provided below."
+        },
+        "33": {
+          "n": 33,
+          "page": 5,
+          "part": "B",
+          "q": "The scientist specializes __________ molecular biology.",
+          "opts": {
+            "a": "into",
+            "b": "at",
+            "c": "in",
+            "d": "on"
+          },
+          "direction": "Directions (Question Nos. 31–35): Complete the following sentences with the most suitable preposition provided below."
+        },
+        "34": {
+          "n": 34,
+          "page": 5,
+          "part": "B",
+          "q": "__________ reference to your email, we would like to clarify our position.",
+          "opts": {
+            "a": "With",
+            "b": "For",
+            "c": "By",
+            "d": "Over"
+          },
+          "direction": "Directions (Question Nos. 31–35): Complete the following sentences with the most suitable preposition provided below."
+        },
+        "35": {
+          "n": 35,
+          "page": 5,
+          "part": "B",
+          "q": "She is quite skilled __________ negotiating business deals.",
+          "opts": {
+            "a": "at",
+            "b": "in",
+            "c": "for",
+            "d": "with"
+          },
+          "direction": "Directions (Question Nos. 31–35): Complete the following sentences with the most suitable preposition provided below."
+        },
+        "36": {
+          "n": 36,
+          "page": 5,
+          "part": "B",
+          "q": "Given below are four jumbled sentences. Select the option that gives the correct order.\nA) Complaining of their difficulties, whining over their troubles\nB) Will never get happiness\nC) Men who are always grumbling about their poverty\nD) Out of life or achieve any success",
+          "opts": {
+            "a": "ABCD",
+            "b": "CBAD",
+            "c": "CABD",
+            "d": "ACBD"
+          },
+          "direction": "Directions (Question No. 36): Given below are four jumbled sentences. Select the option that gives the correct order."
+        },
+        "37": {
+          "n": 37,
+          "page": 6,
+          "part": "B",
+          "q": "Four jumbled sentences are given. Select the option that gives the correct order.\nA) Our views are not extended to all\nB) And very often see but one side of a matter\nC) We are all short-sighted\nD) That has a connection with it",
+          "opts": {
+            "a": "CBAD",
+            "b": "ABCD",
+            "c": "ACDB",
+            "d": "CABD"
+          },
+          "direction": "Directions (Question Nos. 36–40): Given below are four jumbled sentences. Select the option that gives the correct order."
+        },
+        "38": {
+          "n": 38,
+          "page": 6,
+          "part": "B",
+          "q": "Four jumbled sentences are given. Select the option that gives the correct order.\nA) As a rule, there is more genuine satisfaction in life\nB) In the humble cottage of the poor man\nC) Than in the palaces of the rich\nD) And more obtained from life",
+          "opts": {
+            "a": "ABCD",
+            "b": "ADBC",
+            "c": "BADC",
+            "d": "BCAD"
+          },
+          "direction": "Directions (Question Nos. 36–40): Given below are four jumbled sentences. Select the option that gives the correct order."
+        },
+        "39": {
+          "n": 39,
+          "page": 6,
+          "part": "B",
+          "q": "Four jumbled sentences are given. Select the option that gives the correct order.\nA) The older men sat on their haunches at the threshold\nB) Talking about their battles with the Pawi tribe\nC) Those people who do not wear their hair knotted at the back of the head\nD) Their handwoven puan pulled around their knees",
+          "opts": {
+            "a": "ABCD",
+            "b": "ADBC",
+            "c": "DABC",
+            "d": "CDBA"
+          },
+          "direction": "Directions (Question Nos. 36–40): Given below are four jumbled sentences. Select the option that gives the correct order."
+        },
+        "40": {
+          "n": 40,
+          "page": 6,
+          "part": "B",
+          "q": "Four jumbled sentences are given. Select the option that gives the correct order.\nA) From time immemorial as an important virtue\nB) To producing a type of character capable of fearlessness in battle\nC) Courage has been recognised\nD) And a great part of the training of boys and young men has been devoted",
+          "opts": {
+            "a": "ABCD",
+            "b": "ACDB",
+            "c": "CADB",
+            "d": "BCAD"
+          },
+          "direction": "Directions (Question Nos. 36–40): Given below are four jumbled sentences. Select the option that gives the correct order."
+        },
+        "41": {
+          "n": 41,
+          "page": 6,
+          "part": "B",
+          "q": "Out of the four alternatives, identify the sentence that is correctly structured.",
+          "opts": {
+            "a": "We must adopt on the new changes.",
+            "b": "We must adapt to the new changes.",
+            "c": "We must adopt of the new changes.",
+            "d": "We must adapt with the new changes."
+          },
+          "direction": "Directions (Question Nos. 41–45): Out of the four alternatives, identify the sentence that is correctly structured."
+        },
+        "42": {
+          "n": 42,
+          "page": 6,
+          "part": "B",
+          "q": "Out of the four alternatives, identify the sentence that is correctly structured.",
+          "opts": {
+            "a": "Neither John nor his friends is coming.",
+            "b": "Neither John nor his friends are coming.",
+            "c": "Neither John or his friends is coming.",
+            "d": "Neither John nor his friends am coming."
+          },
+          "direction": "Directions (Question Nos. 41–45): Out of the four alternatives, identify the sentence that is correctly structured."
+        },
+        "43": {
+          "n": 43,
+          "page": 6,
+          "part": "B",
+          "q": "Out of the four alternatives, identify the sentence that is correctly structured.",
+          "opts": {
+            "a": "I could helped you if you had asked.",
+            "b": "I could have helped you if you had asked.",
+            "c": "I could help you if you had asked.",
+            "d": "I could have helped you if you asked."
+          },
+          "direction": "Directions (Question Nos. 41–45): Out of the four alternatives, identify the sentence that is correctly structured."
+        },
+        "44": {
+          "n": 44,
+          "page": 6,
+          "part": "B",
+          "q": "Out of the four alternatives, identify the sentence that is correctly structured.",
+          "opts": {
+            "a": "He was so tired that he could barely keep his eyes open.",
+            "b": "He was so tired that he could barely keeps his eyes open.",
+            "c": "He was so tired that he could hardly kept his eyes open.",
+            "d": "He was so tired that he barely keep his eyes open."
+          },
+          "direction": "Directions (Question Nos. 41–45): Out of the four alternatives, identify the sentence that is correctly structured."
+        },
+        "45": {
+          "n": 45,
+          "page": 6,
+          "part": "B",
+          "q": "Out of the four alternatives, identify the sentence that is correctly structured.",
+          "opts": {
+            "a": "If I was you, I would take the job.",
+            "b": "If I am you, I would take the job.",
+            "c": "If I were you, I would take the job.",
+            "d": "If I had been you, I would take the job."
+          },
+          "direction": "Directions (Question Nos. 41–45): Out of the four alternatives, identify the sentence that is correctly structured."
+        },
+        "46": {
+          "n": 46,
+          "page": 7,
+          "part": "B",
+          "q": "He completed the test __________, surprising everyone.",
+          "opts": {
+            "a": "slowly",
+            "b": "effortlessly",
+            "c": "confused",
+            "d": "complicated"
+          },
+          "direction": "Directions (Question Nos. 46–50): Complete the following sentences with the most suitable alternative provided below."
+        },
+        "47": {
+          "n": 47,
+          "page": 7,
+          "part": "B",
+          "q": "If she __________ harder, she could have passed the exam.",
+          "opts": {
+            "a": "studies",
+            "b": "study",
+            "c": "studied",
+            "d": "had studied"
+          },
+          "direction": "Directions (Question Nos. 46–50): Complete the following sentences with the most suitable alternative provided below."
+        },
+        "48": {
+          "n": 48,
+          "page": 7,
+          "part": "B",
+          "q": "She spoke so softly that we could __________ hear her.",
+          "opts": {
+            "a": "never",
+            "b": "barely",
+            "c": "completely",
+            "d": "frequently"
+          },
+          "direction": "Directions (Question Nos. 46–50): Complete the following sentences with the most suitable alternative provided below."
+        },
+        "49": {
+          "n": 49,
+          "page": 7,
+          "part": "B",
+          "q": "She was very tired, __________ she kept working until midnight.",
+          "opts": {
+            "a": "because",
+            "b": "yet",
+            "c": "and",
+            "d": "since"
+          },
+          "direction": "Directions (Question Nos. 46–50): Complete the following sentences with the most suitable alternative provided below."
+        },
+        "50": {
+          "n": 50,
+          "page": 7,
+          "part": "B",
+          "q": "Had she known about the meeting earlier, she __________ a different schedule.",
+          "opts": {
+            "a": "will plan",
+            "b": "has planned",
+            "c": "would have planned",
+            "d": "would have made"
+          },
+          "direction": "Directions (Question Nos. 46–50): Complete the following sentences with the most suitable alternative provided below."
+        },
+        "51": {
+          "n": 51,
+          "page": 7,
+          "part": "B",
+          "q": "Once Paul Wilkin, being asked his name by his servant, found to his dismay that he had forgot his own name.",
+          "opts": {
+            "a": "Once Paul Wilkin, being asked his name by his servant",
+            "b": "found to his dismay",
+            "c": "that he had",
+            "d": "forgot his own name"
+          },
+          "direction": "Directions (Question Nos. 51–55): Identify the segment which contains grammatical error in the given sentences."
+        },
+        "52": {
+          "n": 52,
+          "page": 7,
+          "part": "B",
+          "q": "As she moved to a foreign country with a completely different culture, language, and lifestyle, she had to quickly adopt to unfamiliar customs, new ways of communication, and a different daily routine to integrate successfully into her new surroundings.",
+          "opts": {
+            "a": "As she moved to a foreign country with a completely different culture, language, and lifestyle",
+            "b": "she had to quickly adopt to unfamiliar customs",
+            "c": "new ways of communication,",
+            "d": "and a different daily routine to integrate successfully into her new surroundings."
+          },
+          "direction": "Directions (Question Nos. 51–55): Identify the segment which contains grammatical error in the given sentences."
+        },
+        "53": {
+          "n": 53,
+          "page": 7,
+          "part": "B",
+          "q": "Three years she grows in sun and shower. Some of these wars have grown out of commercial considerations.",
+          "opts": {
+            "a": "Three years she grows",
+            "b": "in sun and shower",
+            "c": "Some of these wars",
+            "d": "have grown out of commercial considerations."
+          },
+          "direction": "Directions (Question Nos. 51–55): Identify the segment which contains grammatical error in the given sentences."
+        },
+        "54": {
+          "n": 54,
+          "page": 7,
+          "part": "B",
+          "q": "The expert explained the topic so well that all the audience were understanding it clearly and quickly without any doubts in their mind.",
+          "opts": {
+            "a": "The expert explained the topic so well that",
+            "b": "all the audience were understanding it",
+            "c": "clearly and quickly",
+            "d": "without any doubts in their mind"
+          },
+          "direction": "Directions (Question Nos. 51–55): Identify the segment which contains grammatical error in the given sentences."
+        },
+        "55": {
+          "n": 55,
+          "page": 7,
+          "part": "B",
+          "q": "If she would study harder, she would pass the exam with flying colours and make her parents proud.",
+          "opts": {
+            "a": "If she would study harder",
+            "b": "she would pass the exam",
+            "c": "with flying colours",
+            "d": "and make her parents proud."
+          },
+          "direction": "Directions (Question Nos. 51–55): Identify the segment which contains grammatical error in the given sentences."
+        },
+        "56": {
+          "n": 56,
+          "page": 8,
+          "part": "B",
+          "q": "The manager was adamant that the project must be completed by the deadline.",
+          "opts": {
+            "a": "Flexible",
+            "b": "Unyielding",
+            "c": "Uncertain",
+            "d": "Hesitant"
+          },
+          "direction": "Directions (Question Nos. 56–60): Choose the alternative that is similar/nearest in meaning to the italicized word in each of the following sentences."
+        },
+        "57": {
+          "n": 57,
+          "page": 8,
+          "part": "B",
+          "q": "His taciturn personality made social gatherings difficult for him.",
+          "opts": {
+            "a": "Reserved",
+            "b": "Talkative",
+            "c": "Friendly",
+            "d": "Outgoing"
+          },
+          "direction": "Directions (Question Nos. 56–60): Choose the alternative that is similar/nearest in meaning to the italicized word in each of the following sentences."
+        },
+        "58": {
+          "n": 58,
+          "page": 8,
+          "part": "B",
+          "q": "The government imposed draconian laws to control the protests.",
+          "opts": {
+            "a": "Harsh",
+            "b": "Lenient",
+            "c": "Temporary",
+            "d": "Fair"
+          },
+          "direction": "Directions (Question Nos. 56–60): Choose the alternative that is similar/nearest in meaning to the italicized word in each of the following sentences."
+        },
+        "59": {
+          "n": 59,
+          "page": 8,
+          "part": "B",
+          "q": "He was known for his penchant for collecting rare books.",
+          "opts": {
+            "a": "Strong inclination",
+            "b": "Dislike",
+            "c": "Avoidance",
+            "d": "Hesitation"
+          },
+          "direction": "Directions (Question Nos. 56–60): Choose the alternative that is similar/nearest in meaning to the italicized word in each of the following sentences."
+        },
+        "60": {
+          "n": 60,
+          "page": 8,
+          "part": "B",
+          "q": "Her laconic replies made it difficult to hold a conversation.",
+          "opts": {
+            "a": "Concise",
+            "b": "Talkative",
+            "c": "Friendly",
+            "d": "Detailed"
+          },
+          "direction": "Directions (Question Nos. 56–60): Choose the alternative that is similar/nearest in meaning to the italicized word in each of the following sentences."
+        },
+        "61": {
+          "n": 61,
+          "page": 8,
+          "part": "B",
+          "q": "His incessant talking made it impossible to concentrate on the task.",
+          "opts": {
+            "a": "Continual",
+            "b": "Intermittent",
+            "c": "Persistent",
+            "d": "Relentless"
+          },
+          "direction": "Directions (Question Nos. 61–65): Choose the correct antonyms of the italicized word in each of the following sentences."
+        },
+        "62": {
+          "n": 62,
+          "page": 8,
+          "part": "B",
+          "q": "The aberrant behaviour of the scientist shocked his colleagues.",
+          "opts": {
+            "a": "Normal",
+            "b": "Unusual",
+            "c": "Strange",
+            "d": "Deviant"
+          },
+          "direction": "Directions (Question Nos. 61–65): Choose the correct antonyms of the italicized word in each of the following sentences."
+        },
+        "63": {
+          "n": 63,
+          "page": 8,
+          "part": "B",
+          "q": "The professor’s erudite lecture impressed the students.",
+          "opts": {
+            "a": "Ignorant",
+            "b": "Scholarly",
+            "c": "Knowledgeable",
+            "d": "Insightful"
+          },
+          "direction": "Directions (Question Nos. 61–65): Choose the correct antonyms of the italicized word in each of the following sentences."
+        },
+        "64": {
+          "n": 64,
+          "page": 8,
+          "part": "B",
+          "q": "His pusillanimous reaction to the challenge disappointed his friends.",
+          "opts": {
+            "a": "Courageous",
+            "b": "Cowardly",
+            "c": "Weak",
+            "d": "Timid"
+          },
+          "direction": "Directions (Question Nos. 61–65): Choose the correct antonyms of the italicized word in each of the following sentences."
+        },
+        "65": {
+          "n": 65,
+          "page": 8,
+          "part": "B",
+          "q": "Her pervasive influence could be felt in every aspect of the company.",
+          "opts": {
+            "a": "Limited",
+            "b": "Widespread",
+            "c": "Omnipresent",
+            "d": "Extensive"
+          },
+          "direction": "Directions (Question Nos. 61–65): Choose the correct antonyms of the italicized word in each of the following sentences."
+        },
+        "66": {
+          "n": 66,
+          "page": 8,
+          "part": "B",
+          "q": "She showed great __________ in handling the difficult situation.",
+          "opts": {
+            "a": "tact",
+            "b": "tactic",
+            "c": "tactile",
+            "d": "tactful"
+          },
+          "direction": "Directions (Question Nos. 66–70): Choose the most suitable alternative to fill in the blanks."
+        },
+        "67": {
+          "n": 67,
+          "page": 8,
+          "part": "B",
+          "q": "He finally decided to __________ and apologize.",
+          "opts": {
+            "a": "bite the bullet",
+            "b": "kick the bucket",
+            "c": "break the ice",
+            "d": "hit the hay"
+          },
+          "direction": "Directions (Question Nos. 66–70): Choose the most suitable alternative to fill in the blanks."
+        },
+        "68": {
+          "n": 68,
+          "page": 9,
+          "part": "B",
+          "q": "I was feeling nervous before my presentation, but I finally got my __________ together and delivered it well.",
+          "opts": {
+            "a": "act",
+            "b": "role",
+            "c": "idea",
+            "d": "scene"
+          },
+          "direction": "Directions (Question Nos. 66–70): Choose the most suitable alternative to fill in the blanks."
+        },
+        "69": {
+          "n": 69,
+          "page": 9,
+          "part": "B",
+          "q": "She has a very __________ approach to problem-solving, always thinking outside the box.",
+          "opts": {
+            "a": "conventional",
+            "b": "innovative",
+            "c": "predictable",
+            "d": "ordinary"
+          },
+          "direction": "Directions (Question Nos. 66–70): Choose the most suitable alternative to fill in the blanks."
+        },
+        "70": {
+          "n": 70,
+          "page": 9,
+          "part": "B",
+          "q": "His speech was full of __________; he exaggerated everything.",
+          "opts": {
+            "a": "hyperbole",
+            "b": "understatement",
+            "c": "realism",
+            "d": "accuracy"
+          },
+          "direction": "Directions (Question Nos. 66–70): Choose the most suitable alternative to fill in the blanks."
+        },
+        "71": {
+          "n": 71,
+          "page": 9,
+          "part": "B",
+          "q": "I was feeling under the weather, so I took a day off from work.",
+          "opts": {
+            "a": "Feeling very happy",
+            "b": "Not feeling well",
+            "c": "Being affected by the climate",
+            "d": "Going on vacation"
+          },
+          "direction": "Directions (Question Nos. 71–75): Choose the most appropriate alternative provided for each italicized word."
+        },
+        "72": {
+          "n": 72,
+          "page": 9,
+          "part": "B",
+          "q": "He let the cat out of the bag about the surprise party before we could stop him.",
+          "opts": {
+            "a": "Released a pet cat",
+            "b": "Revealed a secret unintentionally",
+            "c": "Hid something important",
+            "d": "Revealed a secret intentionally"
+          },
+          "direction": "Directions (Question Nos. 71–75): Choose the most appropriate alternative provided for each italicized word."
+        },
+        "73": {
+          "n": 73,
+          "page": 9,
+          "part": "B",
+          "q": "She hit the nail on the head when she pointed out the real issue in the meeting.",
+          "opts": {
+            "a": "Used a hammer correctly",
+            "b": "Solved a problem precisely",
+            "c": "Hurt herself",
+            "d": "Made a mistake"
+          },
+          "direction": "Directions (Question Nos. 71–75): Choose the most appropriate alternative provided for each italicized word."
+        },
+        "74": {
+          "n": 74,
+          "page": 9,
+          "part": "B",
+          "q": "After months of debate, the committee decided to toe the line and follow the traditional policies.",
+          "opts": {
+            "a": "To follow the rules strictly",
+            "b": "To cross the boundary",
+            "c": "To challenge authority",
+            "d": "To refuse to obey orders"
+          },
+          "direction": "Directions (Question Nos. 71–75): Choose the most appropriate alternative provided for each italicized word."
+        },
+        "75": {
+          "n": 75,
+          "page": 9,
+          "part": "B",
+          "q": "The professor’s complex theories were as clear as mud to most of the students.",
+          "opts": {
+            "a": "Very difficult to understand",
+            "b": "Easy to grasp",
+            "c": "Highly engaging",
+            "d": "Completely incorrect"
+          },
+          "direction": "Directions (Question Nos. 71–75): Choose the most appropriate alternative provided for each italicized word."
+        }
+      },
+      "partialReview": true
     }
   }
 }

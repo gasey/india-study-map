@@ -47633,6 +47633,24 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options."
   },
   {
+    "id": "mpsc-group-b-si-excise-2025-p1-written-1",
+    "paperId": "mpsc-group-b-si-excise-2025-p1",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write a précis of the following passage (10 marks):\n\nDrug abuse is a growing concern for law enforcement worldwide. It not only harms individuals but also fuels crime and destabilizes societies. Despite strict regulations, drug traffickers continue to evolve, using advanced technologies and underground networks to evade authorities. The illegal drug trade remains a major challenge, requiring strong enforcement, intelligence operations, and international cooperation.\n\nPublic awareness campaigns and rehabilitation programs play a crucial role in preventing substance abuse and supporting recovery. Community involvement is equally important in protecting vulnerable individuals, especially the youth. While law enforcement agencies lead the fight, every responsible citizen must support anti-drug initiatives to create a safer, drug-free society.",
+    "explanation": "A précis should retain the passage’s main idea in concise language: drug abuse harms people and society, so effective prevention requires law enforcement, international cooperation, rehabilitation, public awareness and community support. Use your own words and give the précis an appropriate title.",
+    "sourceReview": false,
+    "sourceNote": "",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=1"
+  },
+  {
     "id": "mpsc-group-b-si-excise-2025-p1-written-2",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
     "type": "descriptive",
@@ -47667,23 +47685,6 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=2"
-  },
-  {
-    "id": "mpsc-group-b-si-excise-2025-p1-written-1",
-    "paperId": "mpsc-group-b-si-excise-2025-p1",
-    "type": "descriptive",
-    "questionNumber": "1",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "written",
-    "topicLabel": "General English · written",
-    "difficulty": "medium",
-    "question": "Write a précis of the following passage (10 marks):\n\nDrug abuse is a growing concern for law enforcement worldwide. It not only harms individuals but also fuels crime and destabilizes societies. Despite strict regulations, drug traffickers continue to evolve, using advanced technologies and underground networks to evade authorities. The illegal drug trade remains a major challenge, requiring strong enforcement, intelligence operations, and international cooperation.\n\nPublic awareness campaigns and rehabilitation programs play a crucial role in preventing substance abuse and supporting recovery. Community involvement is equally important in protecting vulnerable individuals, especially the youth. While law enforcement agencies lead the fight, every responsible citizen must support anti-drug initiatives to create a safer, drug-free society.",
-    "explanation": "A précis should retain the passage’s main idea in concise language: drug abuse harms people and society, so effective prevention requires law enforcement, international cooperation, rehabilitation, public awareness and community support. Use your own words and give the précis an appropriate title.",
-    "sourceReview": false,
-    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
-    "year": 2025,
-    "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=1"
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q8",

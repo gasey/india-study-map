@@ -266,10 +266,15 @@ def build_additional():
                               **({'sourceNote': note.strip()} if note else {}),
                               **({'direction': q['direction']} if q.get('direction') else {}),
                               **({'disputeNote': f"Legacy inferred candidate gives {'ABCD'[independent]}; the final key gives {'ABCD'[key_choices[0]]}. Verify the printed item."} if independent >= 0 and len(key_choices) == 1 and independent != key_choices[0] else {})})
-        for i, q in enumerate(extracted['written']):
+        written_rows = {str(q.get('n') or i+1): q for i, q in enumerate(extracted['written'])}
+        for number, written_review in reviewed_written.items():
+            if number not in written_rows:
+                written_rows[number] = {'n': int(number), 'page': written_review.get('page', 0), 'text': '', 'subparts': {}}
+        for i, (number, q) in enumerate(sorted(written_rows.items(), key=lambda pair: int(pair[0]))):
+            written_review = reviewed_written.get(number)
             if not q.get('text', '').strip():
-                continue
-            written_review = reviewed_written.get(str(q.get('n')))
+                if not written_review:
+                    continue
             if written_review:
                 assert written_review.get('q', '').strip() and written_review.get('explanation', '').strip() and written_review.get('page', q.get('page', 0)) > 0
             prompt = written_review['q'] if written_review else q['text'] + ('\n' + '\n'.join(f"{k}. {v}" for k,v in q['subparts'].items()) if q.get('subparts') else '')
@@ -281,17 +286,6 @@ def build_additional():
                               'explanation': written_review.get('explanation', '') if written_review else '',
                               'sourceReview': not bool(written_review), 'sourceNote': '' if written_review else 'Written response and transcription awaiting source review.',
                               'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]), 'sourceHref': href + '#page=' + str(written_review.get('page', q['page']) if written_review else q['page'])})
-        existing_written = {str(q.get('n') or i+1) for i, q in enumerate(extracted['written'])}
-        for number, written_review in reviewed_written.items():
-            if number in existing_written:
-                continue
-            assert written_review.get('q', '').strip() and written_review.get('explanation', '').strip() and written_review.get('page', 0) > 0
-            questions.append({'id': paper_id + '-written-' + number, 'paperId': paper_id, 'type': 'descriptive',
-                              'questionNumber': number, 'subject': 'english', 'studySection': 'english',
-                              'topic': 'written', 'topicLabel': 'General English · written', 'difficulty': 'medium',
-                              'question': written_review['q'], 'explanation': written_review['explanation'],
-                              'sourceReview': False, 'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]),
-                              'sourceHref': href + '#page=' + str(written_review['page'])})
     for hub_id, (folder, file) in HUB_FILES.items():
         d = json.loads((ROOT / 'tools' / 'practice-hub-build' / 'staged' / (hub_id + '.json')).read_text())
         slug = 'mpsc-group-b-' + hub_id

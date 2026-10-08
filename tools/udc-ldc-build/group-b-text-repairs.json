@@ -2648,7 +2648,7 @@
       "sourceSha256": "f28f780e75a0ef77d42c364c377fa57b31ebf8b961b8cce3f984bc8fa84a1db9",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–83 and 71 checked against rendered PDF pages 1–8 and 7; stems/options and calculations verified against the scan/final key. Q75 is held out because the key conflicts with the linked ratios. Q70 is held out because its sports prompt omits an assumption; Q30 is compensated; Q37 is editorially completed.",
+      "evidence": "Questions 1–93 and 71 checked against rendered PDF pages 1–9 and 7; stems/options and calculations verified against the scan/final key. Q75 is held out for a key/ratio conflict, Q70 for a missing assumption, Q30 is compensated, and Q37 is editorially completed.",
       "questions": {
         "1": {
           "n": 1,
@@ -3734,6 +3734,136 @@
             "d": "13/7"
           },
           "explanation": "Use (a³+b³)/(a²−ab+b²)=a+b. Here a=8.73 and b=4.27, so the value is 13."
+        },
+        "84": {
+          "n": 84,
+          "page": 9,
+          "part": null,
+          "q": "Find the least number of 6 digits which is a perfect square.",
+          "opts": {
+            "a": "100089",
+            "b": "100480",
+            "c": "100489",
+            "d": "100490"
+          },
+          "explanation": "316²=99,856 is below six digits; the next square is 317²=100,489."
+        },
+        "85": {
+          "n": 85,
+          "page": 9,
+          "part": null,
+          "q": "If (46)² is subtracted from the square of a number, the answer so obtained is 485. What is the number?",
+          "opts": {
+            "a": "51",
+            "b": "56",
+            "c": "53",
+            "d": "49"
+          },
+          "explanation": "n²−46²=485, so n²=2116+485=2601=51²."
+        },
+        "86": {
+          "n": 86,
+          "page": 9,
+          "part": null,
+          "q": "There are 40 children in a class in which boys are 4 more than the girls. If the average weight of all the students is 42.5 kg and the average weight of all the girls is 48 kg, then find the average weight of all the boys.",
+          "opts": {
+            "a": "40",
+            "b": "38",
+            "c": "36",
+            "d": "42"
+          },
+          "explanation": "There are 22 boys and 18 girls. Total weight is 40×42.5=1700 kg; girls weigh 18×48=864 kg. Boys’ average is (1700−864)/22=38 kg."
+        },
+        "87": {
+          "n": 87,
+          "page": 9,
+          "part": null,
+          "q": "An article is sold for ₹642.60 after successive discounts of 15% and 10%. What is the market price of the article?",
+          "opts": {
+            "a": "₹840",
+            "b": "₹820",
+            "c": "₹880",
+            "d": "₹800"
+          },
+          "explanation": "The successive discount factor is 0.85×0.90=0.765. Market price=₹642.60/0.765=₹840."
+        },
+        "88": {
+          "n": 88,
+          "page": 9,
+          "part": null,
+          "q": "In a school 10% of boys are equal to one fourth of the girls. What is the ratio of boys and girls in that school?",
+          "opts": {
+            "a": "5:2",
+            "b": "3:2",
+            "c": "2:1",
+            "d": "4:3"
+          },
+          "explanation": "Let B and G be the counts. 0.1B=G/4, so B:G=5:2."
+        },
+        "89": {
+          "n": 89,
+          "page": 9,
+          "part": null,
+          "q": "Thanga spends 23% of an amount of money on an insurance policy, 33% on food, 19% on children’s education and 16% on recreation. He deposits the remaining amount of ₹504 in a bank. How much does he spend on food and the insurance policy together?",
+          "opts": {
+            "a": "₹3,200",
+            "b": "₹3,126",
+            "c": "₹3,048",
+            "d": "₹3,136"
+          },
+          "explanation": "The listed expenses total 91%, leaving 9%=₹504, so the total is ₹5600. Food and insurance together are 56% of ₹5600=₹3136."
+        },
+        "90": {
+          "n": 90,
+          "page": 9,
+          "part": null,
+          "q": "If a:b=c:d=1:6, then what is the value of (a²+c²)/(b²+d²)?",
+          "opts": {
+            "a": "1/68",
+            "b": "1/36",
+            "c": "1/6",
+            "d": "1/16"
+          },
+          "explanation": "b=6a and d=6c, so b²+d²=36(a²+c²). The ratio is 1/36."
+        },
+        "91": {
+          "n": 91,
+          "page": 9,
+          "part": null,
+          "q": "The monthly incomes of X and Y are in the ratio 4:3 and their monthly expenditures are in the ratio 3:2. However, each saves ₹12,000 per month. What is their total monthly income?",
+          "opts": {
+            "a": "₹72,000",
+            "b": "₹84,000",
+            "c": "₹96,000",
+            "d": "₹1,08,000"
+          },
+          "explanation": "Let incomes be 4x and 3x and expenditures 3y and 2y. Equal savings give 4x−3y=3x−2y, so x=y. Then x=₹12,000 and combined income=7x=₹84,000."
+        },
+        "92": {
+          "n": 92,
+          "page": 9,
+          "part": null,
+          "q": "A and B can complete a job in 24 days working together. A alone can complete it in 32 days. Both worked together for 8 days and then A left. The number of days B will take to complete the remaining job is—",
+          "opts": {
+            "a": "16",
+            "b": "64",
+            "c": "32",
+            "d": "128"
+          },
+          "explanation": "Their combined rate is 1/24 and A’s rate is 1/32, so B’s rate is 1/96. In 8 days together they finish 1/3, leaving 2/3; B needs (2/3)/(1/96)=64 days."
+        },
+        "93": {
+          "n": 93,
+          "page": 9,
+          "part": null,
+          "q": "A and B can do a job together in 12 days. A is 2 times as efficient as B. In how many days can B alone complete the work?",
+          "opts": {
+            "a": "18",
+            "b": "12",
+            "c": "24",
+            "d": "36"
+          },
+          "explanation": "Let B’s rate be r and A’s 2r. Then 3r=1/12, so r=1/36; B alone takes 36 days."
         }
       },
       "partialReview": true

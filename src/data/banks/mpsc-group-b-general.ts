@@ -22798,15 +22798,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Findtheleastnumberof6digitswhichisaperfectsquare.",
+    "question": "Find the least number of 6 digits which is a perfect square.",
     "options": [
       "100089",
       "100480",
       "100489",
       "100490"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "316²=99,856 is below six digits; the next square is 317²=100,489.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=9",
@@ -22815,10 +22815,37 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q85",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "85",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "If (46)² is subtracted from the square of a number, the answer so obtained is 485. What is the number?",
+    "options": [
+      "51",
+      "56",
+      "53",
+      "49"
+    ],
+    "answerIndex": 0,
+    "explanation": "n²−46²=485, so n²=2116+485=2601=51².",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=9",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q86",
@@ -22829,15 +22856,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Thereare40childreninaclassinwhichboysare4morethanthegirls.Iftheaverageweightofallthe studentsis42.5kgandtheaverageweightofallthegirlsis48kg,thenfindtheaverageweightofall theboys.",
+    "question": "There are 40 children in a class in which boys are 4 more than the girls. If the average weight of all the students is 42.5 kg and the average weight of all the girls is 48 kg, then find the average weight of all the boys.",
     "options": [
       "40",
       "38",
       "36",
       "42"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "There are 22 boys and 18 girls. Total weight is 40×42.5=1700 kg; girls weigh 18×48=864 kg. Boys’ average is (1700−864)/22=38 kg.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=9",
@@ -22846,10 +22873,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q87",
@@ -22860,15 +22885,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Anarticleissoldfor642.60aftersuccessivediscountof15%and10%.Whatisthemarketpriceof thearticle?",
+    "question": "An article is sold for ₹642.60 after successive discounts of 15% and 10%. What is the market price of the article?",
     "options": [
-      "%840",
-      "%820",
-      "%880",
-      "%800"
+      "₹840",
+      "₹820",
+      "₹880",
+      "₹800"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The successive discount factor is 0.85×0.90=0.765. Market price=₹642.60/0.765=₹840.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=9",
@@ -22877,10 +22902,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q88",
@@ -22891,15 +22914,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Inaschool10%ofboysareequaltotheonefourthofthegirls.Whatistheratioofboysandgirlsin thatschool?",
+    "question": "In a school 10% of boys are equal to one fourth of the girls. What is the ratio of boys and girls in that school?",
     "options": [
       "5:2",
       "3:2",
       "2:1",
-      "4:33"
+      "4:3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Let B and G be the counts. 0.1B=G/4, so B:G=5:2.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=9",
@@ -22908,10 +22931,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q89",
@@ -22922,15 +22943,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Thangaspend23%ofanamountofmoneyonaninsurancepolicy,33%onfood,19%onchildren’s educationand16%onrecreation.Hedepositstheremainingamountof$504inbank.Howmuch totalamountdoeshespendonfoodandinsurancepolicytogether?",
+    "question": "Thanga spends 23% of an amount of money on an insurance policy, 33% on food, 19% on children’s education and 16% on recreation. He deposits the remaining amount of ₹504 in a bank. How much does he spend on food and the insurance policy together?",
     "options": [
-      "%3,200",
-      "%3,126",
-      "%3,048",
-      "%3,136 2,2"
+      "₹3,200",
+      "₹3,126",
+      "₹3,048",
+      "₹3,136"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The listed expenses total 91%, leaving 9%=₹504, so the total is ₹5600. Food and insurance together are 56% of ₹5600=₹3136.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=9",
@@ -22939,10 +22960,37 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q90",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "If a:b=c:d=1:6, then what is the value of (a²+c²)/(b²+d²)?",
+    "options": [
+      "1/68",
+      "1/36",
+      "1/6",
+      "1/16"
+    ],
+    "answerIndex": 1,
+    "explanation": "b=6a and d=6c, so b²+d²=36(a²+c²). The ratio is 1/36.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q91",
@@ -22953,15 +23001,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "ThemonthlyincomesofXandYareintheratio4:3andtheirmonthlyexpendituresareintheratio 3:2.Howevereachsaves%12,000permonth.Whatistheirtotalmonthlyincome?",
+    "question": "The monthly incomes of X and Y are in the ratio 4:3 and their monthly expenditures are in the ratio 3:2. However, each saves ₹12,000 per month. What is their total monthly income?",
     "options": [
-      "%72,000",
-      "784,000",
-      "%96,000",
-      "71,08,000"
+      "₹72,000",
+      "₹84,000",
+      "₹96,000",
+      "₹1,08,000"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Let incomes be 4x and 3x and expenditures 3y and 2y. Equal savings give 4x−3y=3x−2y, so x=y. Then x=₹12,000 and combined income=7x=₹84,000.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=9",
@@ -22970,10 +23018,37 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q92",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "A and B can complete a job in 24 days working together. A alone can complete it in 32 days. Both worked together for 8 days and then A left. The number of days B will take to complete the remaining job is—",
+    "options": [
+      "16",
+      "64",
+      "32",
+      "128"
+    ],
+    "answerIndex": 1,
+    "explanation": "Their combined rate is 1/24 and A’s rate is 1/32, so B’s rate is 1/96. In 8 days together they finish 1/3, leaving 2/3; B needs (2/3)/(1/96)=64 days.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q93",
@@ -22984,15 +23059,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "AandBcandoajobtogetherin12days.Ais2timesasefficientasB.InhowmanydayscanB alonecompletesthework?",
+    "question": "A and B can do a job together in 12 days. A is 2 times as efficient as B. In how many days can B alone complete the work?",
     "options": [
       "18",
       "12",
       "24",
       "36"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Let B’s rate be r and A’s 2r. Then 3r=1/12, so r=1/36; B alone takes 36 days.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=9",
@@ -23001,10 +23076,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q94",
@@ -24555,7 +24628,9 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions(QuestionNos,56-60):Pickoutthesentencewhichhasnoerrorinit."
-  },
+  }
+];
+const groupBQuestionsPart4: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2025-p1-B59",
     "paperId": "mpsc-group-b-jao-2025-p1",
@@ -24631,9 +24706,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart4: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q10",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -32335,7 +32408,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 31–35): Complete the following sentences with the most suitable preposition provided below."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-english-B35",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -32425,9 +32500,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 36–40): Given below are four jumbled sentences. Select the option that gives the correct order."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-english-B38",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -40667,7 +40740,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-gk-Q16",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -40745,9 +40820,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-gk-Q19",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -48360,7 +48433,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 11–15): Choose the correct antonym or synonym as indicated."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B14",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -48450,9 +48525,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 16–20): In each question four sentences are given. Choose the sentence that is grammatically and contextually incorrect."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B17",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -56333,7 +56406,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p1-B54",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -56420,9 +56495,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p1-B57",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -64053,7 +64126,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q39",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -64137,9 +64212,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q42",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -72961,7 +73034,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q11",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -73046,9 +73121,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q14",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -81229,7 +81302,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B38",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p1-B39",
     "questionNumber": "B39",
@@ -81310,9 +81385,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B41",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p1-B42",
     "questionNumber": "B42",
@@ -89071,7 +89144,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B14",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B15",
     "questionNumber": "B15",
@@ -89152,9 +89227,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B17",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B18",
     "questionNumber": "B18",

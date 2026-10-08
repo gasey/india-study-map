@@ -74,7 +74,10 @@ final key selects 166. Paper-I Q24’s two key-accepted answers are explained;
 Q48 stays unscored because the final key omits it and the pronoun reference is
 unclear. Paper-II Q78 is also held out because its stated simple-interest
 amount gives a principal not listed among the options, and the key leaves it
-unanswered.
+unanswered. Paper-I Section A Q1–4 is also recovered from pages 1–2: the essay
+choices, précis passage, complaint letter, and all five passage questions are
+complete, with answer-writing guidance. The paper remains excluded from Exam
+mode because it includes 40 conventional marks alongside its MCQs.
 
 ## Durable inputs
 

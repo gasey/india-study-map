@@ -11623,17 +11623,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Narendra Modi",
       "Sushma Swaraj"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Pawan Chamling served as chief minister of Sikkim continuously from 1994 to 2019, the longest tenure for an Indian chief minister.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q2",
@@ -11651,14 +11649,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Vanramchhuangi",
       "B.Lalhriattira"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The 2014 Mizo Academy of Letters Book of the Year, “Ka Zalenna,” was written by B. Lalhriattira.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q3",
@@ -11676,17 +11675,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Narendra Modi",
       "Atal Bihari Vajpayee"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Sardar Vallabhbhai Patel is widely known as the “Iron Man of India” for his role in integrating the princely states.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q4",
@@ -11704,17 +11701,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Lala Rajpat Rai",
       "Mahatma Gandhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Mahatma Gandhi gave the “Do or Die” call during the Quit India Movement in 1942.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q5",
@@ -11732,17 +11727,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Rabindranath Tagore",
       "Mother Teresa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Rabindranath Tagore became the first Indian Nobel laureate when he received the 1913 Nobel Prize in Literature.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q6",
@@ -11761,13 +11754,13 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "P.C.Lalmawia"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The scan asks for the “newly elected” MUP president but does not give an election date or year, and the available authoritative records do not establish which listed candidate had just been elected. The item is held out of scoring pending a contemporaneous source.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=1",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Held unscored: the time-sensitive “newly elected” claim could not be verified against a contemporaneous source."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q7",
@@ -11785,14 +11778,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Spain",
       "Chile"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Spain was the first country where a Firefox OS smartphone went on sale in July 2013.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q8",
@@ -11810,17 +11804,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Chhattisgarh",
       "Jharkhand"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Laxmikant Parsekar was sworn in as chief minister of Goa in November 2014.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q9",
@@ -11838,14 +11830,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Dhaka",
       "Singapore"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The 22nd APEC Economic Leaders’ Meeting was held in Beijing in November 2014.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q10",
@@ -11863,17 +11856,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "National Youth Day",
       "Human Rights Day"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "India observes 12 January, Swami Vivekananda’s birth anniversary, as National Youth Day.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q11",
@@ -11891,17 +11882,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "India and Israel",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Long Range Surface-to-Air Missile (LRSAM), also known as Barak 8, was jointly developed by India and Israel.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q12",
@@ -11912,21 +11901,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Ms. Anita Kapoor was in the news recently for her new appointment into",
+    "question": "Ms. Anita Kapur was in the news recently for her appointment as",
     "options": [
       "Central Board of Direct Taxes",
       "Union Public Service Commission",
       "UN probe panel in Gaza",
       "CBI Director"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Anita Kapur was appointed chairperson of the Central Board of Direct Taxes in November 2014.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q13",
@@ -11944,17 +11934,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "30th January",
       "27th January"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The national observance of Martyrs’ Day is on 30 January, the anniversary of Mahatma Gandhi’s assassination.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q14",
@@ -11972,14 +11960,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Health and security",
       "Sports and security"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 2014 MANAS launch announcement described training initiatives in health and security.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q15",
@@ -11997,17 +11986,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Sydney",
       "Buenos Aires"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The G20 leaders’ summit was held in Brisbane, Australia, in November 2014.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q16",
@@ -12025,14 +12012,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "JRD Tata Award, 2014",
       "Jamnalal Bajaj Foundation Award, 2014"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "ISRO received the Indira Gandhi Prize for Peace, Disarmament and Development for 2014.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q17",
@@ -12050,14 +12038,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Gujarat",
       "Uttarakhand"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Aziz Qureshi was governor of Uttarakhand before his transfer to Mizoram.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q18",
@@ -12075,17 +12064,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Childrens Day",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "India observes 28 February as National Science Day, commemorating C. V. Raman’s discovery of the Raman effect.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q19",
@@ -12103,17 +12090,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Arms Truce Treaty",
       "Arms Traffic Treaty"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "ATT stands for Arms Trade Treaty.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q20",
@@ -12131,14 +12116,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Mauritius",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "India’s first warship export was the offshore patrol vessel Barracuda, built for Mauritius.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q21",
@@ -12156,17 +12142,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Special Protection Guard",
       "Special Police Guard"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "SPG stands for Special Protection Group, the specialist security force assigned to protect the prime minister.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q22",
@@ -12184,17 +12168,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Singapore",
       "Thailand"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Tshering Tobgay was prime minister of Bhutan when this question was set.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q23",
@@ -12212,17 +12194,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Nari Shakjan",
       "Nari Jahan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The theme of India’s 2015 Republic Day celebrations was “Nari Shakti,” highlighting women’s empowerment.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q24",
@@ -12240,17 +12220,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Common Gay",
       "Common Girl"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "R. K. Laxman’s best-known creation was the Common Man, the observer at the centre of his cartoons.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q25",
@@ -12268,17 +12246,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Sixth time",
       "Seventh time"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Serena Williams won her sixth Australian Open singles title in 2015.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q26",
@@ -12296,14 +12272,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Kerala",
       "Tamil Nadu"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Uttarakhand defeated Tamil Nadu 72–63 in the final of the 65th National Basketball Championship in January 2015.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q27",
@@ -12321,17 +12298,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "44th amendment",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The 42nd Constitutional Amendment Act, 1976, inserted the words “socialist” and “secular” into the Preamble.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q28",
@@ -12349,17 +12324,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Indian Bank Mutual Fund",
       "Unit Trust of India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "At the time this question was set, Unit Trust of India was commonly described as India’s largest mutual fund organisation.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q29",
@@ -12377,17 +12350,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Socialist economy",
       "Non-interference of government in economic affairs"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Laissez-faire is the principle that government should not interfere in economic affairs, leaving markets largely to private actors.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q30",
@@ -12405,17 +12376,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Ampere",
       "Columb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The SI base unit of electric current is the ampere.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q31",
@@ -12433,17 +12402,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Shiva",
       "Brahma"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Lotus Temple is a Bahá’í House of Worship.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q32",
@@ -12461,17 +12428,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Eye, nose and throat",
       "Virus"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Gynaecology is the medical specialty concerned with the female reproductive system.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q33",
@@ -12489,17 +12454,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "External",
       "Finance"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Arun Jaitley held the Union Finance portfolio in the government formed in 2014.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q34",
@@ -12517,14 +12480,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Kiren Rijiju",
       "Maneka Gandhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Kiren Rijiju was Minister of State for Home Affairs in the Union government at the time.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q35",
@@ -12542,14 +12506,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Lal Thanhawla",
       "R.Lalzirliana"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "R. Lalzirliana held Mizoram’s Excise and Narcotics portfolio in the 2013–2018 ministry.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q36",
@@ -12567,17 +12532,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "P.P.Shukla",
       "K.C.Reddy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Forge Your Future” is a book by former President and scientist A. P. J. Abdul Kalam.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q37",
@@ -12595,17 +12558,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "V.V.Giri",
       "Kiran Desai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mountaineer Arunima Sinha wrote “Born Again on the Mountain,” her account of climbing Everest after losing a leg.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q38",
@@ -12623,17 +12584,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "R.K.Narayan",
       "Anita Desai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Arundhati Roy wrote the novel “The God of Small Things,” which won the 1997 Booker Prize.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q39",
@@ -12651,17 +12610,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Charles Dickens",
       "Adam Smith"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Leo Tolstoy wrote the novel “War and Peace.”",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q40",
@@ -12679,17 +12636,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Divine Comedy",
       "Das Kapital"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Karl Marx wrote “Das Kapital,” his critique of political economy and capitalism.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q41",
@@ -93128,6 +93083,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": false,
     "penaltyFraction": 0
   },
+  "mpsc-group-b-steno2-2015-gk": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-aao-2024-english": {
     "marksPerQuestion": 1,
     "durationMinutes": 180,
@@ -93267,6 +93228,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-ng-2024-paper-1-a": 75,
   "mpsc-group-b-inspector-stats-2026-p1": 6,
   "mpsc-group-b-steno2-2015-english": 50,
+  "mpsc-group-b-steno2-2015-gk": 100,
   "mpsc-group-b-aao-2024-english": 100,
   "mpsc-group-b-aao-2024-gk": 100,
   "mpsc-group-b-aao-2024-arithmetic": 100,

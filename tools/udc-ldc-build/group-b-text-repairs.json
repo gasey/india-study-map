@@ -9408,6 +9408,1135 @@
           "explanation": "Choose one topic and stay within 300 words. State a clear central idea, develop it with relevant examples and organise the response into an introduction, connected body paragraphs and a conclusion. For (a), consider benefits, risks and responsible use; for (b), discuss community development, advocacy and accountability in Mizoram; for (c), discuss forms and causes of violence, its effects, prevention and access to justice without blaming victims."
         }
       }
+    },
+    "steno2-2015-gk": {
+      "sourceSha256": "caa2f2c00ce6c5f7bbc61a4641587b4e0058afec3c0eeff7ffac48cf884797a4",
+      "expectedMcq": 100,
+      "partialReview": true,
+      "reviewedOn": "2026-10-08",
+      "evidence": "Questions 1–40 checked against the printed scan: page 1 (Q1–9), page 2 (Q10–22), page 3 (Q23–35), and page 4 (Q36–40). Question 6 is preserved but held unscored because its time-sensitive “newly elected” claim could not be verified from a contemporaneous source. The paper has no verified official answer key; reviewed answers are derived independently and explanations are provided.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Jyoti Basu",
+            "b": "Pawan Chamling",
+            "c": "Narendra Modi",
+            "d": "Sushma Swaraj"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who is the longest ever serving Chief Minister in India?",
+          "multi": false,
+          "explanation": "Pawan Chamling served as chief minister of Sikkim continuously from 1994 to 2019, the longest tenure for an Indian chief minister."
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Samson Thanruma",
+            "b": "C.Chhuanvawra",
+            "c": "Vanramchhuangi",
+            "d": "B.Lalhriattira"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who is the writer of the MAL Book of the Year, 2014 entitled “Ka Zalenna”?",
+          "multi": false,
+          "explanation": "The 2014 Mizo Academy of Letters Book of the Year, “Ka Zalenna,” was written by B. Lalhriattira."
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Subhas Chandra Bose",
+            "b": "Sardar Vallabhbhai Patel",
+            "c": "Narendra Modi",
+            "d": "Atal Bihari Vajpayee"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who was known as “Iron Man of India”?",
+          "multi": false,
+          "explanation": "Sardar Vallabhbhai Patel is widely known as the “Iron Man of India” for his role in integrating the princely states."
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Subhas Chandra Bose",
+            "b": "Jawaharlal Nehru",
+            "c": "Lala Rajpat Rai",
+            "d": "Mahatma Gandhi"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who gave the slogan “Do or Die”?",
+          "multi": false,
+          "explanation": "Mahatma Gandhi gave the “Do or Die” call during the Quit India Movement in 1942."
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Dr. C.V.Raman",
+            "b": "Amartya Sen",
+            "c": "Rabindranath Tagore",
+            "d": "Mother Teresa"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Name the first Indian recipient of the Nobel Prize",
+          "multi": false,
+          "explanation": "Rabindranath Tagore became the first Indian Nobel laureate when he received the 1913 Nobel Prize in Literature."
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Mexico",
+            "b": "Brazil",
+            "c": "Spain",
+            "d": "Chile"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which country launched the world’s first smartphone with the firefox operating system in July, 2013?",
+          "multi": false,
+          "explanation": "Spain was the first country where a Firefox OS smartphone went on sale in July 2013."
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Goa",
+            "b": "Bihar",
+            "c": "Chhattisgarh",
+            "d": "Jharkhand"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Laxmikant Parsekar was sworn in as the Chief Minister of",
+          "multi": false,
+          "explanation": "Laxmikant Parsekar was sworn in as chief minister of Goa in November 2014."
+        },
+        "9": {
+          "n": 9,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Beijing",
+            "b": "Hongkong",
+            "c": "Dhaka",
+            "d": "Singapore"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "22nd APEC Summit was held recently in",
+          "multi": false,
+          "explanation": "The 22nd APEC Economic Leaders’ Meeting was held in Beijing in November 2014."
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "National Voters day",
+            "b": "NRI Day",
+            "c": "National Youth Day",
+            "d": "Human Rights Day"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "January 12 is celebrated as",
+          "multi": false,
+          "explanation": "India observes 12 January, Swami Vivekananda’s birth anniversary, as National Youth Day."
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "India and France",
+            "b": "India and Russia",
+            "c": "India and Israel",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Long Range Surface to Air Missile (LRSAM) was co-developed by",
+          "multi": false,
+          "explanation": "The Long Range Surface-to-Air Missile (LRSAM), also known as Barak 8, was jointly developed by India and Israel."
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Central Board of Direct Taxes",
+            "b": "Union Public Service Commission",
+            "c": "UN probe panel in Gaza",
+            "d": "CBI Director"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Ms. Anita Kapur was in the news recently for her appointment as",
+          "multi": false,
+          "explanation": "Anita Kapur was appointed chairperson of the Central Board of Direct Taxes in November 2014."
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "28th January",
+            "b": "29th January",
+            "c": "30th January",
+            "d": "27th January"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Martyr’s Day in India is observed at the national level on",
+          "multi": false,
+          "explanation": "The national observance of Martyrs’ Day is on 30 January, the anniversary of Mahatma Gandhi’s assassination."
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Sports and health",
+            "b": "Health and education",
+            "c": "Health and security",
+            "d": "Sports and security"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Maulana Azad National Academy for Skills was launched in November last to train youth in the sectors",
+          "multi": false,
+          "explanation": "The 2014 MANAS launch announcement described training initiatives in health and security."
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Brisbane",
+            "b": "Singapore",
+            "c": "Sydney",
+            "d": "Buenos Aires"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "G20 Summit was held during November 2014 in",
+          "multi": false,
+          "explanation": "The G20 leaders’ summit was held in Brisbane, Australia, in November 2014."
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Indira Gandhi Peace Prize 2014",
+            "b": "Jnanpith Award, 2014",
+            "c": "JRD Tata Award, 2014",
+            "d": "Jamnalal Bajaj Foundation Award, 2014"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Indian Space Research Organisation (ISRO) was awarded",
+          "multi": false,
+          "explanation": "ISRO received the Indira Gandhi Prize for Peace, Disarmament and Development for 2014."
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Jharkhand",
+            "b": "Bihar",
+            "c": "Gujarat",
+            "d": "Uttarakhand"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Mr. Aziz Qureshi, just before he was transferred to Mizoram, was the Governor of",
+          "multi": false,
+          "explanation": "Aziz Qureshi was governor of Uttarakhand before his transfer to Mizoram."
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "National Science Day",
+            "b": "Central Excise Day",
+            "c": "Childrens Day",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "28th February is celebrated in India as",
+          "multi": false,
+          "explanation": "India observes 28 February as National Science Day, commemorating C. V. Raman’s discovery of the Raman effect."
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Arms Trade Treaty",
+            "b": "Arms Trading Treaty",
+            "c": "Arms Truce Treaty",
+            "d": "Arms Traffic Treaty"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The full form of ATT is",
+          "multi": false,
+          "explanation": "ATT stands for Arms Trade Treaty."
+        },
+        "20": {
+          "n": 20,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Sri Lanka",
+            "b": "Bangladesh",
+            "c": "Mauritius",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "India exports its first Warship to",
+          "multi": false,
+          "explanation": "India’s first warship export was the offshore patrol vessel Barracuda, built for Mauritius."
+        },
+        "21": {
+          "n": 21,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Special Police Group",
+            "b": "Special Protection Group",
+            "c": "Special Protection Guard",
+            "d": "Special Police Guard"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The full form of SPG is",
+          "multi": false,
+          "explanation": "SPG stands for Special Protection Group, the specialist security force assigned to protect the prime minister."
+        },
+        "22": {
+          "n": 22,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Nepal",
+            "b": "Bhutan",
+            "c": "Singapore",
+            "d": "Thailand"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Mr. Lyonchhen Tshering Tobgay is the Prime Minister of",
+          "multi": false,
+          "explanation": "Tshering Tobgay was prime minister of Bhutan when this question was set."
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Nari Shakti",
+            "b": "Nari Shakna",
+            "c": "Nari Shakjan",
+            "d": "Nari Jahan"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The theme of 2015 Republic Day celebration was",
+          "multi": false,
+          "explanation": "The theme of India’s 2015 Republic Day celebrations was “Nari Shakti,” highlighting women’s empowerment."
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Common Man",
+            "b": "Common Guy",
+            "c": "Common Gay",
+            "d": "Common Girl"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "R.K.Laxman, one of the greatest Indian cartoonists was famous for his creation",
+          "multi": false,
+          "explanation": "R. K. Laxman’s best-known creation was the Common Man, the observer at the centre of his cartoons."
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Fourth time",
+            "b": "Fifth time",
+            "c": "Sixth time",
+            "d": "Seventh time"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Serena Williams won the Australian Open, 2015 for the",
+          "multi": false,
+          "explanation": "Serena Williams won her sixth Australian Open singles title in 2015."
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Jharkhand",
+            "b": "Punjab",
+            "c": "Kerala",
+            "d": "Tamil Nadu"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Uttarakhand became National Basketball Champion, 2015 by defeating",
+          "multi": false,
+          "explanation": "Uttarakhand defeated Tamil Nadu 72–63 in the final of the 65th National Basketball Championship in January 2015."
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "42nd amendment",
+            "b": "52nd amendment",
+            "c": "44th amendment",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "By which amendment were the words socialist secular added to the Constitution?",
+          "multi": false,
+          "explanation": "The 42nd Constitutional Amendment Act, 1976, inserted the words “socialist” and “secular” into the Preamble."
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "SBI Mutual Fund",
+            "b": "GIC Mutual Fund",
+            "c": "Indian Bank Mutual Fund",
+            "d": "Unit Trust of India"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is the largest mutual fund organisation in India?",
+          "multi": false,
+          "explanation": "At the time this question was set, Unit Trust of India was commonly described as India’s largest mutual fund organisation."
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Mixed economy",
+            "b": "Controlled economy",
+            "c": "Socialist economy",
+            "d": "Non-interference of government in economic affairs"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Laissez Faire implies",
+          "multi": false,
+          "explanation": "Laissez-faire is the principle that government should not interfere in economic affairs, leaving markets largely to private actors."
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Newton",
+            "b": "Volt",
+            "c": "Ampere",
+            "d": "Columb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The SI unit of electric Current is",
+          "multi": false,
+          "explanation": "The SI base unit of electric current is the ampere."
+        },
+        "31": {
+          "n": 31,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Bahai",
+            "b": "Krishna",
+            "c": "Shiva",
+            "d": "Brahma"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which religious faith is associated with the Lotus Temple in New Delhi?",
+          "multi": false,
+          "explanation": "The Lotus Temple is a Bahá’í House of Worship."
+        },
+        "32": {
+          "n": 32,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Female reproductive organ",
+            "b": "Kidneys",
+            "c": "Eye, nose and throat",
+            "d": "Virus"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Gynaecology is the study of",
+          "multi": false,
+          "explanation": "Gynaecology is the medical specialty concerned with the female reproductive system."
+        },
+        "33": {
+          "n": 33,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Consumer affairs",
+            "b": "Home",
+            "c": "External",
+            "d": "Finance"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Mr. Arun Jaitley is the cabinet minister of",
+          "multi": false,
+          "explanation": "Arun Jaitley held the Union Finance portfolio in the government formed in 2014."
+        },
+        "34": {
+          "n": 34,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Manoj Sinha",
+            "b": "Upendra Kushwaha",
+            "c": "Kiren Rijiju",
+            "d": "Maneka Gandhi"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Minister of State for Home in the Union Government is",
+          "multi": false,
+          "explanation": "Kiren Rijiju was Minister of State for Home Affairs in the Union government at the time."
+        },
+        "35": {
+          "n": 35,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Lal Thanzara",
+            "b": "Zodintluanga",
+            "c": "Lal Thanhawla",
+            "d": "R.Lalzirliana"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Minister of Excise and Narcotics in Mizoram state is",
+          "multi": false,
+          "explanation": "R. Lalzirliana held Mizoram’s Excise and Narcotics portfolio in the 2013–2018 ministry."
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Dr. A.P.J.Abdul Kalam",
+            "b": "Mahatma Gandhi",
+            "c": "P.P.Shukla",
+            "d": "K.C.Reddy"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who is the author of the book, “Forge Your Future”?",
+          "multi": false,
+          "explanation": "“Forge Your Future” is a book by former President and scientist A. P. J. Abdul Kalam."
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Arundhati Roy",
+            "b": "Arunima Sinha",
+            "c": "V.V.Giri",
+            "d": "Kiran Desai"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "“Born Again on the Mountain” was written by",
+          "multi": false,
+          "explanation": "Mountaineer Arunima Sinha wrote “Born Again on the Mountain,” her account of climbing Everest after losing a leg."
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Vikram Seth",
+            "b": "Arundhati Roy",
+            "c": "R.K.Narayan",
+            "d": "Anita Desai"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "“The God of Small Things” is an Indian celebrated novel written by",
+          "multi": false,
+          "explanation": "Arundhati Roy wrote the novel “The God of Small Things,” which won the 1997 Booker Prize."
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Leo Tolstoy",
+            "b": "Aldour Huxley",
+            "c": "Charles Dickens",
+            "d": "Adam Smith"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The author of “War and Peace”",
+          "multi": false,
+          "explanation": "Leo Tolstoy wrote the novel “War and Peace.”"
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Mother",
+            "b": "Prince",
+            "c": "Divine Comedy",
+            "d": "Das Kapital"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Karl Marx wrote",
+          "multi": false,
+          "explanation": "Karl Marx wrote “Das Kapital,” his critique of political economy and capitalism."
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "R.K.Thanga",
+            "b": "Lalhuapzauva",
+            "c": "K.Malsawma",
+            "d": "P.C.Lalmawia"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The newly elected Mizoram Upa Pawl (MUP) President",
+          "multi": false,
+          "explanation": "The scan asks for the “newly elected” MUP president but does not give an election date or year, and the available authoritative records do not establish which listed candidate had just been elected. The item is held out of scoring pending a contemporaneous source.",
+          "unscored": true,
+          "reviewNote": "Held unscored: the time-sensitive “newly elected” claim could not be verified against a contemporaneous source."
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 1,
+          "explanation": "Pawan Chamling served as chief minister of Sikkim continuously from 1994 to 2019, the longest tenure for an Indian chief minister."
+        },
+        "2": {
+          "answerIndex": 3,
+          "explanation": "The 2014 Mizo Academy of Letters Book of the Year, “Ka Zalenna,” was written by B. Lalhriattira."
+        },
+        "3": {
+          "answerIndex": 1,
+          "explanation": "Sardar Vallabhbhai Patel is widely known as the “Iron Man of India” for his role in integrating the princely states."
+        },
+        "4": {
+          "answerIndex": 3,
+          "explanation": "Mahatma Gandhi gave the “Do or Die” call during the Quit India Movement in 1942."
+        },
+        "5": {
+          "answerIndex": 2,
+          "explanation": "Rabindranath Tagore became the first Indian Nobel laureate when he received the 1913 Nobel Prize in Literature."
+        },
+        "7": {
+          "answerIndex": 2,
+          "explanation": "Spain was the first country where a Firefox OS smartphone went on sale in July 2013."
+        },
+        "8": {
+          "answerIndex": 0,
+          "explanation": "Laxmikant Parsekar was sworn in as chief minister of Goa in November 2014."
+        },
+        "9": {
+          "answerIndex": 0,
+          "explanation": "The 22nd APEC Economic Leaders’ Meeting was held in Beijing in November 2014."
+        },
+        "10": {
+          "answerIndex": 2,
+          "explanation": "India observes 12 January, Swami Vivekananda’s birth anniversary, as National Youth Day."
+        },
+        "11": {
+          "answerIndex": 2,
+          "explanation": "The Long Range Surface-to-Air Missile (LRSAM), also known as Barak 8, was jointly developed by India and Israel."
+        },
+        "12": {
+          "answerIndex": 0,
+          "explanation": "Anita Kapur was appointed chairperson of the Central Board of Direct Taxes in November 2014."
+        },
+        "13": {
+          "answerIndex": 2,
+          "explanation": "The national observance of Martyrs’ Day is on 30 January, the anniversary of Mahatma Gandhi’s assassination."
+        },
+        "14": {
+          "answerIndex": 2,
+          "explanation": "The 2014 MANAS launch announcement described training initiatives in health and security."
+        },
+        "15": {
+          "answerIndex": 0,
+          "explanation": "The G20 leaders’ summit was held in Brisbane, Australia, in November 2014."
+        },
+        "16": {
+          "answerIndex": 0,
+          "explanation": "ISRO received the Indira Gandhi Prize for Peace, Disarmament and Development for 2014."
+        },
+        "17": {
+          "answerIndex": 3,
+          "explanation": "Aziz Qureshi was governor of Uttarakhand before his transfer to Mizoram."
+        },
+        "18": {
+          "answerIndex": 0,
+          "explanation": "India observes 28 February as National Science Day, commemorating C. V. Raman’s discovery of the Raman effect."
+        },
+        "19": {
+          "answerIndex": 0,
+          "explanation": "ATT stands for Arms Trade Treaty."
+        },
+        "20": {
+          "answerIndex": 2,
+          "explanation": "India’s first warship export was the offshore patrol vessel Barracuda, built for Mauritius."
+        },
+        "21": {
+          "answerIndex": 1,
+          "explanation": "SPG stands for Special Protection Group, the specialist security force assigned to protect the prime minister."
+        },
+        "22": {
+          "answerIndex": 1,
+          "explanation": "Tshering Tobgay was prime minister of Bhutan when this question was set."
+        },
+        "23": {
+          "answerIndex": 0,
+          "explanation": "The theme of India’s 2015 Republic Day celebrations was “Nari Shakti,” highlighting women’s empowerment."
+        },
+        "24": {
+          "answerIndex": 0,
+          "explanation": "R. K. Laxman’s best-known creation was the Common Man, the observer at the centre of his cartoons."
+        },
+        "25": {
+          "answerIndex": 2,
+          "explanation": "Serena Williams won her sixth Australian Open singles title in 2015."
+        },
+        "26": {
+          "answerIndex": 3,
+          "explanation": "Uttarakhand defeated Tamil Nadu 72–63 in the final of the 65th National Basketball Championship in January 2015."
+        },
+        "27": {
+          "answerIndex": 0,
+          "explanation": "The 42nd Constitutional Amendment Act, 1976, inserted the words “socialist” and “secular” into the Preamble."
+        },
+        "28": {
+          "answerIndex": 3,
+          "explanation": "At the time this question was set, Unit Trust of India was commonly described as India’s largest mutual fund organisation."
+        },
+        "29": {
+          "answerIndex": 3,
+          "explanation": "Laissez-faire is the principle that government should not interfere in economic affairs, leaving markets largely to private actors."
+        },
+        "30": {
+          "answerIndex": 2,
+          "explanation": "The SI base unit of electric current is the ampere."
+        },
+        "31": {
+          "answerIndex": 0,
+          "explanation": "The Lotus Temple is a Bahá’í House of Worship."
+        },
+        "32": {
+          "answerIndex": 0,
+          "explanation": "Gynaecology is the medical specialty concerned with the female reproductive system."
+        },
+        "33": {
+          "answerIndex": 3,
+          "explanation": "Arun Jaitley held the Union Finance portfolio in the government formed in 2014."
+        },
+        "34": {
+          "answerIndex": 2,
+          "explanation": "Kiren Rijiju was Minister of State for Home Affairs in the Union government at the time."
+        },
+        "35": {
+          "answerIndex": 3,
+          "explanation": "R. Lalzirliana held Mizoram’s Excise and Narcotics portfolio in the 2013–2018 ministry."
+        },
+        "36": {
+          "answerIndex": 0,
+          "explanation": "“Forge Your Future” is a book by former President and scientist A. P. J. Abdul Kalam."
+        },
+        "37": {
+          "answerIndex": 1,
+          "explanation": "Mountaineer Arunima Sinha wrote “Born Again on the Mountain,” her account of climbing Everest after losing a leg."
+        },
+        "38": {
+          "answerIndex": 1,
+          "explanation": "Arundhati Roy wrote the novel “The God of Small Things,” which won the 1997 Booker Prize."
+        },
+        "39": {
+          "answerIndex": 0,
+          "explanation": "Leo Tolstoy wrote the novel “War and Peace.”"
+        },
+        "40": {
+          "answerIndex": 3,
+          "explanation": "Karl Marx wrote “Das Kapital,” his critique of political economy and capitalism."
+        }
+      }
     }
   }
 }

@@ -1331,7 +1331,7 @@
       "sourceSha256": "eb32e3ca2b60cb399cce89bbdcf711d95a098fdfbbcf90377ffd5f6ea2f66fb5",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–74 checked against rendered PDF pages 1–6; stems and four options transcribed and matched to the final official key. Q2, Q23 and Q37 are held out for key/item conflicts; Q33 is held out because multiple options express the requested comparison.",
+      "evidence": "Questions 1–87 checked against rendered PDF pages 1–7; stems and four options transcribed and matched to the final official key. Q2, Q23, Q37 and Q77 are held out for key/item conflicts; Q33 is held out because multiple options express the requested comparison.",
       "questions": {
         "1": {
           "n": 1,
@@ -2300,6 +2300,177 @@
             "d": "Tilt"
           },
           "explanation": "“Waver” means to fluctuate or be unsteady; “steady” is its opposite."
+        },
+        "75": {
+          "n": 75,
+          "page": 7,
+          "part": null,
+          "q": "Turbid",
+          "opts": {
+            "a": "Mixed",
+            "b": "Varied",
+            "c": "Confused",
+            "d": "Clear"
+          },
+          "explanation": "“Turbid” means cloudy or unclear; “clear” is the antonym."
+        },
+        "76": {
+          "n": 76,
+          "page": 7,
+          "part": null,
+          "q": "Combine to form a whole",
+          "opts": {
+            "a": "Integrate",
+            "b": "Scatter",
+            "c": "Disjoin",
+            "d": "Create"
+          },
+          "explanation": "“Integrate” means to combine parts into a whole."
+        },
+        "77": {
+          "n": 77,
+          "page": 7,
+          "part": null,
+          "q": "Come in the way of",
+          "opts": {
+            "a": "Indulge",
+            "b": "Facilitate",
+            "c": "Deprive",
+            "d": "Hamper"
+          },
+          "explanation": "The final key marks C (“deprive”), but the idiom means “hinder” or “hamper,” which is option D. The printed key/idiom conflict is held out from scoring pending clarification.",
+          "unscored": true,
+          "reviewNote": "The final key marks C (“deprive”), but “come in the way of” means “hamper” (D); held out from scoring pending clarification."
+        },
+        "78": {
+          "n": 78,
+          "page": 7,
+          "part": null,
+          "q": "To rise in value",
+          "opts": {
+            "a": "Extend",
+            "b": "Depreciate",
+            "c": "Enlarge",
+            "d": "Appreciate"
+          },
+          "explanation": "“Appreciate” means to increase in value."
+        },
+        "79": {
+          "n": 79,
+          "page": 7,
+          "part": null,
+          "q": "Seeming reasonable",
+          "opts": {
+            "a": "Permeable",
+            "b": "Plausible",
+            "c": "Volatile",
+            "d": "Versatile"
+          },
+          "explanation": "“Plausible” means appearing reasonable or believable."
+        },
+        "80": {
+          "n": 80,
+          "page": 7,
+          "part": null,
+          "q": "A state of perfect balance",
+          "opts": {
+            "a": "Equinox",
+            "b": "Equivalent",
+            "c": "Equilateral",
+            "d": "Equilibrium"
+          },
+          "explanation": "“Equilibrium” is a state of balance."
+        },
+        "81": {
+          "n": 81,
+          "page": 7,
+          "part": null,
+          "q": "The doctor with his interns are due to arrive here by noon. Identify the segment containing the grammatical error.",
+          "opts": {
+            "a": "The doctor with his",
+            "b": "no error",
+            "c": "to arrive here by noon",
+            "d": "interns are due"
+          },
+          "explanation": "The head subject is the singular “doctor”; the verb should be “is due,” so the error is in “interns are due.”"
+        },
+        "82": {
+          "n": 82,
+          "page": 7,
+          "part": null,
+          "q": "Are you having your own transport to go home from work? Identify the segment containing the grammatical error.",
+          "opts": {
+            "a": "to go home",
+            "b": "from work",
+            "c": "Are you having",
+            "d": "your own transport"
+          },
+          "explanation": "For possession, use “Do you have your own transport?” rather than “Are you having.”"
+        },
+        "83": {
+          "n": 83,
+          "page": 7,
+          "part": null,
+          "q": "Where have you been from such a long time? Identify the segment containing the grammatical error.",
+          "opts": {
+            "a": "from",
+            "b": "Where",
+            "c": "have you been",
+            "d": "such a long time?"
+          },
+          "explanation": "Use “for” with a duration: “Where have you been for such a long time?”"
+        },
+        "84": {
+          "n": 84,
+          "page": 7,
+          "part": null,
+          "q": "Do you earn so much to make both ends meet? Identify the segment containing the grammatical error.",
+          "opts": {
+            "a": "make both",
+            "b": "so much to",
+            "c": "ends meet",
+            "d": "Do you earn"
+          },
+          "explanation": "The intended construction is “earn enough to make both ends meet,” so “so much to” is incorrect."
+        },
+        "85": {
+          "n": 85,
+          "page": 7,
+          "part": null,
+          "q": "Aren’t you such young to travel by yourself? Identify the segment containing the grammatical error.",
+          "opts": {
+            "a": "by yourself",
+            "b": "Aren’t you",
+            "c": "to travel",
+            "d": "such young"
+          },
+          "explanation": "Use “so young” before an adjective; “such” modifies a noun phrase."
+        },
+        "86": {
+          "n": 86,
+          "page": 7,
+          "part": null,
+          "q": "Lali __________ taken a lesson on driving.",
+          "opts": {
+            "a": "has",
+            "b": "have",
+            "c": "have been",
+            "d": "had been"
+          },
+          "explanation": "“Lali” is singular, so the present-perfect auxiliary is “has.”"
+        },
+        "87": {
+          "n": 87,
+          "page": 7,
+          "part": null,
+          "q": "The cobbler __________ mending my shoes.",
+          "opts": {
+            "a": "has",
+            "b": "was",
+            "c": "had",
+            "d": "was being"
+          },
+          "explanation": "“Was mending” is the grammatical past-continuous form for the action described."
         }
       },
       "partialReview": true

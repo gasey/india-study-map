@@ -16732,8 +16732,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
       "Confused",
       "Clear"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Turbid” means cloudy or unclear; “clear” is the antonym.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
@@ -16742,10 +16742,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.71—75):Selectthemostappropriateantonymofthegivenword."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q76",
@@ -16756,15 +16754,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Combinetoformawhole",
+    "question": "Combine to form a whole",
     "options": [
       "Integrate",
       "Scatter",
       "Disjoin",
       "Create"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Integrate” means to combine parts into a whole.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
@@ -16773,153 +16771,27 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.76—80):Selectthewordwhichmeansthesameasthegroupofwordsgiven."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-aao-2024-english-Q78",
+    "id": "mpsc-group-b-aao-2024-english-Q77",
     "paperId": "mpsc-group-b-aao-2024-english",
-    "questionNumber": "78",
+    "questionNumber": "77",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Toriseinvalue",
+    "question": "Come in the way of",
     "options": [
-      "Extend",
-      "Depreciate",
-      "Enlarge",
-      "Appreciate"
+      "Indulge",
+      "Facilitate",
+      "Deprive",
+      "Hamper"
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
-    "year": 2024,
-    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
-    "officialAnswerCandidates": [
-      3
-    ],
-    "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.76—80):Selectthewordwhichmeansthesameasthegroupofwordsgiven."
-  },
-  {
-    "id": "mpsc-group-b-aao-2024-english-Q79",
-    "paperId": "mpsc-group-b-aao-2024-english",
-    "questionNumber": "79",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
-    "difficulty": "medium",
-    "question": "Seemingreasonable",
-    "options": [
-      "Permeable",
-      "Plausible",
-      "Volatile",
-      "_Versatile"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
-    "year": 2024,
-    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
-    "officialAnswerCandidates": [
-      1
-    ],
-    "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.76—80):Selectthewordwhichmeansthesameasthegroupofwordsgiven."
-  },
-  {
-    "id": "mpsc-group-b-aao-2024-english-Q80",
-    "paperId": "mpsc-group-b-aao-2024-english",
-    "questionNumber": "80",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
-    "difficulty": "medium",
-    "question": "Astateofperfectbalance",
-    "options": [
-      "Equinox",
-      "Equivalent",
-      "Equilateral",
-      "Equilibrium"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
-    "year": 2024,
-    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
-    "officialAnswerCandidates": [
-      3
-    ],
-    "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.76—80):Selectthewordwhichmeansthesameasthegroupofwordsgiven."
-  },
-  {
-    "id": "mpsc-group-b-aao-2024-english-Q81",
-    "paperId": "mpsc-group-b-aao-2024-english",
-    "questionNumber": "81",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
-    "difficulty": "medium",
-    "question": "Thedoctorwithhisinternsareduetoarriveherebynoon.",
-    "options": [
-      "Thedoctorwithhis",
-      "noerror",
-      "toarriveherebynoon",
-      "internsaredue"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
-    "year": 2024,
-    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
-    "officialAnswerCandidates": [
-      3
-    ],
-    "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,81—85):Inthegivensentenceidentifythesegmentwhichcontainsthe"
-  },
-  {
-    "id": "mpsc-group-b-aao-2024-english-Q82",
-    "paperId": "mpsc-group-b-aao-2024-english",
-    "questionNumber": "82",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
-    "difficulty": "medium",
-    "question": "Areyouhavingyourowntransporttogohomefromwork?",
-    "options": [
-      "togohome",
-      "fromwork",
-      "Areyouhaving",
-      "yourowntransport"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The final key marks C (“deprive”), but the idiom means “hinder” or “hamper,” which is option D. The printed key/idiom conflict is held out from scoring pending clarification.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
@@ -16930,8 +16802,152 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,81—85):Inthegivensentenceidentifythesegmentwhichcontainsthe"
+    "sourceNote": "The final key marks C (“deprive”), but “come in the way of” means “hamper” (D); held out from scoring pending clarification."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q78",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "78",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "To rise in value",
+    "options": [
+      "Extend",
+      "Depreciate",
+      "Enlarge",
+      "Appreciate"
+    ],
+    "answerIndex": 3,
+    "explanation": "“Appreciate” means to increase in value.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q79",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "79",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Seeming reasonable",
+    "options": [
+      "Permeable",
+      "Plausible",
+      "Volatile",
+      "Versatile"
+    ],
+    "answerIndex": 1,
+    "explanation": "“Plausible” means appearing reasonable or believable.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q80",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "80",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "A state of perfect balance",
+    "options": [
+      "Equinox",
+      "Equivalent",
+      "Equilateral",
+      "Equilibrium"
+    ],
+    "answerIndex": 3,
+    "explanation": "“Equilibrium” is a state of balance.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q81",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "81",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "The doctor with his interns are due to arrive here by noon. Identify the segment containing the grammatical error.",
+    "options": [
+      "The doctor with his",
+      "no error",
+      "to arrive here by noon",
+      "interns are due"
+    ],
+    "answerIndex": 3,
+    "explanation": "The head subject is the singular “doctor”; the verb should be “is due,” so the error is in “interns are due.”",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q82",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "82",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Are you having your own transport to go home from work? Identify the segment containing the grammatical error.",
+    "options": [
+      "to go home",
+      "from work",
+      "Are you having",
+      "your own transport"
+    ],
+    "answerIndex": 2,
+    "explanation": "For possession, use “Do you have your own transport?” rather than “Are you having.”",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q83",
@@ -16942,15 +16958,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Wherehaveyoubeenfromsuchalongtime?",
+    "question": "Where have you been from such a long time? Identify the segment containing the grammatical error.",
     "options": [
       "from",
       "Where",
-      "haveyoubeen",
-      "suchalongtime?"
+      "have you been",
+      "such a long time?"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Use “for” with a duration: “Where have you been for such a long time?”",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
@@ -16959,10 +16975,37 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,81—85):Inthegivensentenceidentifythesegmentwhichcontainsthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q84",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "84",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Do you earn so much to make both ends meet? Identify the segment containing the grammatical error.",
+    "options": [
+      "make both",
+      "so much to",
+      "ends meet",
+      "Do you earn"
+    ],
+    "answerIndex": 1,
+    "explanation": "The intended construction is “earn enough to make both ends meet,” so “so much to” is incorrect.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q85",
@@ -16973,15 +17016,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Aren’tyousuchyoungtotravelbyyourself?",
+    "question": "Aren’t you such young to travel by yourself? Identify the segment containing the grammatical error.",
     "options": [
-      "byyourself’",
-      "Aren’tyou",
-      "totravel",
-      "suchyoung"
+      "by yourself",
+      "Aren’t you",
+      "to travel",
+      "such young"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Use “so young” before an adjective; “such” modifies a noun phrase.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
@@ -16990,10 +17033,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,81—85):Inthegivensentenceidentifythesegmentwhichcontainsthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q86",
@@ -17004,15 +17045,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Lalitakenalessonondriving.",
+    "question": "Lali __________ taken a lesson on driving.",
     "options": [
       "has",
       "have",
-      "havebeen",
-      "hadbeen"
+      "have been",
+      "had been"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Lali” is singular, so the present-perfect auxiliary is “has.”",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
@@ -17021,10 +17062,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.86-90):Choose/identifythecorrecttenseoftheverbsinthefollowingsentences."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q87",
@@ -17035,15 +17074,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thecobblermendingmyshoes.",
+    "question": "The cobbler __________ mending my shoes.",
     "options": [
       "has",
       "was",
       "had",
-      "wasbeing -~8-"
+      "was being"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Was mending” is the grammatical past-continuous form for the action described.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
@@ -17052,10 +17091,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.86-90):Choose/identifythecorrecttenseoftheverbsinthefollowingsentences."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q88",
@@ -24563,7 +24600,9 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart4: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2025-p2-Q47",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -24613,9 +24652,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart4: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q49",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -32504,7 +32541,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 66–70): Choose the most suitable alternative to fill in the blanks."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-english-B68",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -32564,9 +32603,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 66–70): Choose the most suitable alternative to fill in the blanks."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-english-B70",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -40674,7 +40711,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-gk-Q50",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -40724,9 +40763,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-gk-Q52",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -48428,7 +48465,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q24",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -48478,9 +48517,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q26",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -56431,7 +56468,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p2-Q34",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -56487,9 +56526,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q36",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -64120,7 +64157,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q72",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -64176,9 +64215,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q74",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -73137,7 +73174,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q44",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -73199,9 +73238,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q46",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -81239,7 +81276,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B4",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p2-Q5",
     "questionNumber": "B5",
@@ -81294,9 +81333,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B6",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p2-Q7",
     "questionNumber": "B7",
@@ -89142,7 +89179,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B47",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B48",
     "questionNumber": "B48",
@@ -89196,9 +89235,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B49",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B50",
     "questionNumber": "B50",

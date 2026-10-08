@@ -1213,7 +1213,7 @@
       "sourceSha256": "59ae97a9f3f3dadcb9582215f9ec4387fffda3a6296d3658cc79589ee85ebdae",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–40, 54, 55, 67, 71 and 91 were checked against rendered pages 1–11. No verified official key is available for this March 2026 Inspector of Statistics paper; the separate Sub-Inspector of Statistics key is for a different sitting and is not used. Answers are independently derived; ambiguous or defective items remain unscored.",
+      "evidence": "Questions 1–50, 54, 55, 67, 71 and 91 were checked against rendered pages 1–11. No verified official key is available for this March 2026 Inspector of Statistics paper; the separate Sub-Inspector of Statistics key is for a different sitting and is not used. Answers are independently derived; ambiguous or defective items remain unscored.",
       "questions": {
         "1": {
           "n": 1,
@@ -1730,6 +1730,90 @@
           },
           "explanation": "The selling price is 122.5% of cost. Cost=₹392/1.225=₹320, so profit=₹392−₹320=₹72 (C)."
         },
+        "41": {
+          "n": 41,
+          "page": 7,
+          "part": null,
+          "q": "Which ministry launched the Model Women-Friendly Gram Panchayats initiative in 2025?",
+          "opts": {"a": "Ministry of Women and Child Development", "b": "Ministry of Home Affairs", "c": "Ministry of Rural Development", "d": "Ministry of Panchayati Raj"},
+          "explanation": "The Ministry of Panchayati Raj launched the Model Women-Friendly Gram Panchayats initiative in March 2025, so D is correct."
+        },
+        "42": {
+          "n": 42,
+          "page": 7,
+          "part": null,
+          "q": "What is the name of the Election Commission of India’s digital platform for real-time voter-turnout reporting?",
+          "opts": {"a": "ECINET", "b": "VoteCast", "c": "PollCheck", "d": "None of the above"},
+          "explanation": "The Election Commission’s ECINET platform consolidates its digital services, including access to polling trends and voter-turnout information."
+        },
+        "43": {
+          "n": 43,
+          "page": 7,
+          "part": null,
+          "q": "What postal service did the Department of Posts launch in 2025 specifically to deliver educational materials?",
+          "opts": {"a": "Shiksha Mail", "b": "Gyan Post", "c": "Bharat Book Post", "d": "Education Express"},
+          "explanation": "Gyan Post is the Department of Posts’ 2025 service for sending educational materials, including books and study material."
+        },
+        "44": {
+          "n": 44,
+          "page": 7,
+          "part": null,
+          "q": "What is the name of the world’s first Digital Tribal University launched in New Delhi?",
+          "opts": {"a": "Janjatiya Kala Kendra", "b": "Adi Sampada", "c": "Adi Sanskriti", "d": "Aadi Mahotsav"},
+          "explanation": "The official description identifies Adi Sanskriti as a digital learning platform, while a full-fledged Digital Tribal University was described as an idea under exploration; the premise is not supported as written.",
+          "unscored": true,
+          "reviewNote": "Held out because the official announcement describes Adi Sanskriti as a digital learning platform and says a full-fledged Digital Tribal University was only being explored; it does not support the question’s claim that a university had already been launched."
+        },
+        "45": {
+          "n": 45,
+          "page": 7,
+          "part": null,
+          "q": "Which state ranked first in the ICJS 2.0 national rankings released in January 2026?",
+          "opts": {"a": "Uttarakhand", "b": "Assam", "c": "Haryana", "d": "Maharashtra"},
+          "explanation": "Uttarakhand ranked first in the January 2026 ICJS 2.0 dashboard standings, ahead of Haryana and Assam."
+        },
+        "46": {
+          "n": 46,
+          "page": 7,
+          "part": null,
+          "q": "The National Sports Governance Act, partially brought into effect from 1 January 2026, primarily aims to:",
+          "opts": {"a": "Nationalise all sports federations", "b": "Revise eligibility criteria for Olympic selection", "c": "Establish governance structures for national and regional sports bodies", "d": "Create a single unified national sports team"},
+          "explanation": "The Act establishes a statutory framework for recognition, governance and oversight of national sports bodies, including their governance structures."
+        },
+        "47": {
+          "n": 47,
+          "page": 7,
+          "part": null,
+          "q": "Which country is hosting the 18th BRICS Summit in 2026?",
+          "opts": {"a": "South Africa", "b": "China", "c": "Brazil", "d": "India"},
+          "explanation": "India holds the BRICS chairship in 2026 and is hosting the 18th summit."
+        },
+        "48": {
+          "n": 48,
+          "page": 7,
+          "part": null,
+          "q": "Which country became the first to formally recognise the self-declared Republic of Somaliland as an independent and sovereign state?",
+          "opts": {"a": "Israel", "b": "Russia", "c": "Pakistan", "d": "India"},
+          "explanation": "Israel announced formal recognition of Somaliland in December 2025, becoming the first country to do so."
+        },
+        "49": {
+          "n": 49,
+          "page": 7,
+          "part": null,
+          "q": "During German Federal Chancellor Friedrich Merz’s January 2026 visit to India, which areas were prominent in bilateral discussions?",
+          "opts": {"a": "Space cooperation", "b": "Trade and defence cooperation", "c": "Sports diplomacy", "d": "Climate finance and green-energy cooperation"},
+          "explanation": "The visit covered trade, defence, green development and other areas; the scan’s wording asks for a single primary focus without distinguishing among these prominent topics.",
+          "unscored": true,
+          "reviewNote": "Held out because official visit materials list trade and investment, defence and security, and green and sustainable development as cooperation areas. The prompt's ‘primary focus’ wording does not distinguish among those topics, so more than one offered choice is supportable."
+        },
+        "50": {
+          "n": 50,
+          "page": 7,
+          "part": null,
+          "q": "What initially triggered the widespread protests in Iran in 2025–26?",
+          "opts": {"a": "A foreign military invasion", "b": "A political election dispute", "c": "An economic crisis involving soaring inflation and a collapsing currency", "d": "A major environmental disaster"},
+          "explanation": "The protests began amid sharp price rises and the rial’s collapse, which intensified public anger over Iran’s economic crisis."
+        },
         "40": {
           "n": 40,
           "page": 6,
@@ -1962,6 +2046,14 @@
           "answerIndex": 2,
           "explanation": "The selling price is 122.5% of cost. Cost=₹392/1.225=₹320, so profit=₹392−₹320=₹72 (C)."
         },
+        "41": {"answerIndex": 3, "explanation": "The Ministry of Panchayati Raj launched the Model Women-Friendly Gram Panchayats initiative in March 2025, so D is correct."},
+        "42": {"answerIndex": 0, "explanation": "The Election Commission’s ECINET platform consolidates its digital services, including access to polling trends and voter-turnout information."},
+        "43": {"answerIndex": 1, "explanation": "Gyan Post is the Department of Posts’ 2025 service for sending educational materials, including books and study material."},
+        "45": {"answerIndex": 0, "explanation": "Uttarakhand ranked first in the January 2026 ICJS 2.0 dashboard standings, ahead of Haryana and Assam."},
+        "46": {"answerIndex": 2, "explanation": "The Act establishes a statutory framework for recognition, governance and oversight of national sports bodies, including their governance structures."},
+        "47": {"answerIndex": 3, "explanation": "India holds the BRICS chairship in 2026 and is hosting the 18th summit."},
+        "48": {"answerIndex": 0, "explanation": "Israel announced formal recognition of Somaliland in December 2025, becoming the first country to do so."},
+        "50": {"answerIndex": 2, "explanation": "The protests began amid sharp price rises and the rial’s collapse, which intensified public anger over Iran’s economic crisis."},
         "40": {
           "answerIndex": 0,
           "explanation": "The half-yearly rate is 2.5%. The January deposit earns ₹1,600[(1.025)²−1]=₹81; the July deposit earns ₹1,600×0.025=₹40. Total interest is ₹121 (A)."

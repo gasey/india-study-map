@@ -7,8 +7,8 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 8 October 2026
 
 49 general papers, 3,455 items: 3,348 MCQs and 107 written prompts.
-1,762 questions are ready for practice, including 1,614 official answers and
-148 independently derived answers. 1,656 items still need source review.
+1,770 questions are ready for practice, including 1,614 official answers and
+156 independently derived answers. 1,648 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -22,7 +22,7 @@ printed calculation is ambiguous. AAO 2025 Paper-II Q60 also has a scan-checked
 transcription and worked probability solution. Partial repairs are source-hash
 guarded and do not mark the rest of an OCR paper as reviewed.
 
-Inspector of Statistics Paper-II Q1–40 are now scan-checked with independently
+Inspector of Statistics Paper-II Q1–50 are now scan-checked with independently
 derived answers and explanations. Q18 remains unscored because “state government
 only” is too imprecise for the entertainment-tax option; Q27’s printed launch
 year is wrong; Q28 has no option for its four correct statements; and Q37’s

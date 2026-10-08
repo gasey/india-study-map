@@ -8541,24 +8541,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Which ministry in 2025 launched the Model Women-Friendly Gram Panchayats initiative?",
+    "question": "Which ministry launched the Model Women-Friendly Gram Panchayats initiative in 2025?",
     "options": [
       "Ministry of Women and Child Development",
       "Ministry of Home Affairs",
       "Ministry of Rural Development",
       "Ministry of Panchayati Raj"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Ministry of Panchayati Raj launched the Model Women-Friendly Gram Panchayats initiative in March 2025, so D is correct.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q42",
@@ -8569,21 +8567,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "What is the name of the digital platform introduced by Election Commission of India (ECI) for real- time voter turnout reporting?",
+    "question": "What is the name of the Election Commission of India’s digital platform for real-time voter-turnout reporting?",
     "options": [
       "ECINET",
       "VoteCast",
       "PollCheck",
-      "None of the Above"
+      "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Election Commission’s ECINET platform consolidates its digital services, including access to polling trends and voter-turnout information.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q43",
@@ -8594,21 +8593,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "What is the name of the postal service launched in 2025 by the Department of Posts specifically for the delivery of educational materials?",
+    "question": "What postal service did the Department of Posts launch in 2025 specifically to deliver educational materials?",
     "options": [
       "Shiksha Mail",
       "Gyan Post",
       "Bharat Book Post",
       "Education Express"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Gyan Post is the Department of Posts’ 2025 service for sending educational materials, including books and study material.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q44",
@@ -8627,13 +8627,13 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Aadi Mahotsav"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The official description identifies Adi Sanskriti as a digital learning platform, while a full-fledged Digital Tribal University was described as an idea under exploration; the premise is not supported as written.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Held out because the official announcement describes Adi Sanskriti as a digital learning platform and says a full-fledged Digital Tribal University was only being explored; it does not support the question’s claim that a university had already been launched."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q45",
@@ -8644,21 +8644,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Which state secured the first position in the ICJS 2.0 (Inter-Operable Criminal Justice System) national rankings released in January 2026?",
+    "question": "Which state ranked first in the ICJS 2.0 national rankings released in January 2026?",
     "options": [
       "Uttarakhand",
       "Assam",
       "Haryana",
       "Maharashtra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Uttarakhand ranked first in the January 2026 ICJS 2.0 dashboard standings, ahead of Haryana and Assam.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q46",
@@ -8669,24 +8670,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "The National Sports Governance Act (NSGA), partially brought into effect from 1st January 2026, primarily aims to:",
+    "question": "The National Sports Governance Act, partially brought into effect from 1 January 2026, primarily aims to:",
     "options": [
       "Nationalise all sports federations",
-      "Revise the eligibility criteria for Olympic selection",
+      "Revise eligibility criteria for Olympic selection",
       "Establish governance structures for national and regional sports bodies",
       "Create a single unified national sports team"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Act establishes a statutory framework for recognition, governance and oversight of national sports bodies, including their governance structures.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q47",
@@ -8697,21 +8696,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Which country is the host of 18th BRICS Summit 2026?",
+    "question": "Which country is hosting the 18th BRICS Summit in 2026?",
     "options": [
       "South Africa",
       "China",
       "Brazil",
       "India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "India holds the BRICS chairship in 2026 and is hosting the 18th summit.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q48",
@@ -8729,14 +8729,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Pakistan",
       "India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Israel announced formal recognition of Somaliland in December 2025, becoming the first country to do so.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q49",
@@ -8747,21 +8748,21 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "German Federal Chancellor Friedrich Merz visited India in January 2026. The primary focus of discussions between India and Germany was on:",
+    "question": "During German Federal Chancellor Friedrich Merz’s January 2026 visit to India, which areas were prominent in bilateral discussions?",
     "options": [
       "Space cooperation",
       "Trade and defence cooperation",
       "Sports diplomacy",
-      "Climate finance and green energy cooperation"
+      "Climate finance and green-energy cooperation"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The visit covered trade, defence, green development and other areas; the scan’s wording asks for a single primary focus without distinguishing among these prominent topics.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Held out because official visit materials list trade and investment, defence and security, and green and sustainable development as cooperation areas. The prompt's ‘primary focus’ wording does not distinguish among those topics, so more than one offered choice is supportable."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q50",
@@ -8772,24 +8773,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "What initially triggered the widespread protests of Iran in 2025-26?",
+    "question": "What initially triggered the widespread protests in Iran in 2025–26?",
     "options": [
       "A foreign military invasion",
       "A political election dispute",
-      "Economic crisis with soaring inflation and a collapsing currency",
-      "A major environmental disaster (GENERAL MATHEMATICS- 50 MARKS)"
+      "An economic crisis involving soaring inflation and a collapsing currency",
+      "A major environmental disaster"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The protests began amid sharp price rises and the rial’s collapse, which intensified public anger over Iran’s economic crisis.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q51",

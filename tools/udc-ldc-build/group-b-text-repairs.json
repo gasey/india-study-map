@@ -13348,7 +13348,7 @@
       "expectedMcq": 100,
       "partialReview": true,
       "reviewedOn": "2026-10-08",
-      "evidence": "Motor Vehicle Inspector Paper-II (General Knowledge), September 2025: Q1–21 checked against the printed scan, page 1 (Q1–8) and page 2 (Q9–21). Stems, numbering and options were compared with the pages. Twenty items have independently derived answers and explanations; Q18 is held because Bose won and was re-elected at two different listed Congress sessions. No verified official key has been applied. The cover states 100 one-mark questions in two hours; it states no negative-marking rule. Questions 22–44 were checked against printed pages 3–4. Twenty-one answers were independently derived. Q28 is held because “most spoken” does not distinguish native from total speakers; Q32 is held because the printed Indus-route option combines geographic units that do not match the river’s main course under current boundaries.",
+      "evidence": "Motor Vehicle Inspector Paper-II (General Knowledge), September 2025: Q1–21 checked against the printed scan, page 1 (Q1–8) and page 2 (Q9–21). Stems, numbering and options were compared with the pages. Twenty items have independently derived answers and explanations; Q18 is held because Bose won and was re-elected at two different listed Congress sessions. No verified official key has been applied. The cover states 100 one-mark questions in two hours; it states no negative-marking rule. Questions 22–44 were checked against printed pages 3–4. Twenty-one answers were independently derived. Q28 is held because “most spoken” does not distinguish native from total speakers; Q32 is held because the printed Indus-route option combines geographic units that do not match the river’s main course under current boundaries. Questions 45–64 were checked against printed pages 5–6. Nineteen answers have independent explanations; Q47 is held because both Education and Industries are outside the State List, leaving two defensible options.",
       "questions": {
         "1": {
           "n": 1,
@@ -14411,6 +14411,488 @@
           "unscored": true,
           "reviewNote": "Held unscored: the Indus main stem runs through Ladakh and Pakistan; the printed option combines Jammu & Kashmir with Ladakh and also lists Indian Punjab, so its present-day political geography is unclear.",
           "explanation": "The question’s option grouping does not map cleanly to the main course of the Indus under current boundaries: the river flows through Ladakh and then Pakistan, not through the Indian Punjab plains. It is held rather than infer a basin/tributary meaning."
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "NITI Aayog",
+            "b": "Zonal Council",
+            "c": "National Commission for Minorities",
+            "d": "GST Council"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is a Constitutional body?",
+          "multi": false,
+          "explanation": "The GST Council is a constitutional body established under Article 279A. NITI Aayog is an executive body, while the Zonal Councils and National Commission for Minorities are statutory bodies."
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Fundamental Rights",
+            "b": "Fundamental Duties",
+            "c": "Directive Principles of State Policy",
+            "d": "Preamble"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Objectives Resolution is related to which of the following?",
+          "multi": false,
+          "explanation": "The Constituent Assembly’s Objectives Resolution, moved by Jawaharlal Nehru in 1946, shaped the philosophy and structure of the Preamble."
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "2 years, 11 months, and 16 days",
+            "b": "2 years, 11 months, and 18 days",
+            "c": "2 years, 11 months, and 20 days",
+            "d": "2 years, 11 months, and 22 days"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "How much time did the Constituent Assembly take to complete the drafting and finalization of the Constitution?",
+          "multi": false,
+          "explanation": "The Constituent Assembly took 2 years, 11 months and 18 days to complete the Constitution."
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Growth benefits only the rich",
+            "b": "Growth that creates jobs only",
+            "c": "Growth that benefits all sections of society",
+            "d": "Growth focused on exports"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The term ‘inclusive growth’ means:",
+          "multi": false,
+          "explanation": "Inclusive growth means that the benefits and opportunities of growth reach all sections of society."
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Economic growth and military power",
+            "b": "Economic growth, environmental protection, and social equity",
+            "c": "Industrial growth and population growth",
+            "d": "Technology and urbanization"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Sustainable development seeks to balance:",
+          "multi": false,
+          "explanation": "Sustainable development integrates economic progress with environmental protection and social equity."
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "IMF",
+            "b": "World Bank",
+            "c": "WHO",
+            "d": "UNESCO"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which organization publishes the World Poverty Report?",
+          "multi": false,
+          "explanation": "The World Bank is the organisation among these choices that publishes global poverty analyses and reports, including its Poverty and Shared Prosperity series."
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Over population",
+            "b": "Equal income distribution",
+            "c": "Abundant natural resources",
+            "d": "High literacy rates"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is a major challenge to sustainable development?",
+          "multi": false,
+          "explanation": "Overpopulation can strain land, water, energy and other resources, making it a challenge to sustainable development."
+        },
+        "53": {
+          "n": 53,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Economic growth with environmental sustainability",
+            "b": "Rapid industrialization without environmental concern",
+            "c": "Increased use of fossil fuels",
+            "d": "Deregulation of environmental laws"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The concept of ‘green economy’ emphasizes:",
+          "multi": false,
+          "explanation": "A green economy seeks economic development while reducing environmental risks and resource depletion."
+        },
+        "54": {
+          "n": 54,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "10.5%",
+            "b": "22%",
+            "c": "16.4%",
+            "d": "35%"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "According to the latest UNDP & OPHI Global Multidimensional Poverty Index, what is India’s percentage of population living in multidimensional poverty (based on 2019-21 data)?",
+          "multi": false,
+          "explanation": "The UNDP–Oxford Global MPI report using India’s 2019–21 survey data estimated that 16.4% of the population was multidimensionally poor."
+        },
+        "55": {
+          "n": 55,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Increase in the number of elderly people in the population",
+            "b": "Increase in the working-age population leading to economic growth",
+            "c": "Decline in the birth rate and death rate reducing resource consumption",
+            "d": "Increase in demographic diversity leading to increased progress"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The term ‘Demographic Dividend’ means?",
+          "multi": false,
+          "explanation": "A demographic dividend is the potential economic benefit when the working-age share of a population rises relative to dependants."
+        },
+        "56": {
+          "n": 56,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Maternity leave is 26 weeks for up to 3 children",
+            "b": "Maternity leave is 12 weeks for adoption",
+            "c": "Maternity leave applies only after one year of service",
+            "d": "Maternity leave is only for government employees"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following statements about the Maternity Benefits Act is correct?",
+          "multi": false,
+          "explanation": "The Act provides 12 weeks of leave to a woman adopting a child under three months old; the option omits the age condition but identifies the adoption provision."
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "3",
+            "b": "4",
+            "c": "5",
+            "d": "6"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "How many indicators are used in the Human Development Index (HDI)?",
+          "multi": false,
+          "explanation": "The HDI uses three dimensions: health, education and standard of living."
+        },
+        "58": {
+          "n": 58,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "$1.9",
+            "b": "$2.5",
+            "c": "$3.0",
+            "d": "$3.2"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What is the latest World Bank Poverty line as released in June 2025?",
+          "multi": false,
+          "explanation": "In June 2025 the World Bank revised the international extreme-poverty line to US$3.00 per person per day in 2021 PPP terms."
+        },
+        "59": {
+          "n": 59,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Average number of children born per 1,000 people in a year",
+            "b": "Average number of children born to a couple in their lifetime",
+            "c": "Birth rate minus death rate",
+            "d": "Average number of children a woman would have in her lifetime"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What does the term ‘Total Fertility Rate’ mean?",
+          "multi": false,
+          "explanation": "Total fertility rate is the average number of children a woman would bear over her lifetime if current age-specific fertility rates continued."
+        },
+        "60": {
+          "n": 60,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Agricultural and allied sectors",
+            "b": "Manufacturing",
+            "c": "Services",
+            "d": "Trade & Commerce"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which sector contributed the highest share to India’s Gross Value Added (GVA) in 2023-24 according to the latest Economic Survey?",
+          "multi": false,
+          "explanation": "Services contributed the largest share of India’s Gross Value Added in 2023–24."
+        },
+        "61": {
+          "n": 61,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "A Zoram Cancer Institute",
+            "b": "JICA-funded General Hospital in Aizawl",
+            "c": "Mobile Cancer Clinics across the state",
+            "d": "Super Speciality Cancer & Research Centre at Zemabawk, Aizawl"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What significant healthcare infrastructure project is Mizoram planning to address rising cancer cases?",
+          "multi": false,
+          "explanation": "Mizoram’s planned project is the Super Speciality Cancer and Research Centre at Zemabawk, Aizawl."
+        },
+        "62": {
+          "n": 62,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Indian Airlines",
+            "b": "Mizo Tourism Board",
+            "c": "Air India",
+            "d": "IRCTC"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which entity has signed an MoU with Mizoram’s tourism department to boost tourism and connectivity?",
+          "multi": false,
+          "explanation": "Mizoram’s Tourism Department signed a tourism-promotion MoU with the Indian Railway Catering and Tourism Corporation (IRCTC) in August 2025."
+        },
+        "63": {
+          "n": 63,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "India’s continued oil imports from Russia",
+            "b": "India’s solar exports",
+            "c": "Pharmaceutical exports",
+            "d": "IT services breach"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The U.S. imposed a total 50% tariff on Indian goods by August 2025. What was the primary cause?",
+          "multi": false,
+          "explanation": "The White House’s August 2025 order imposed an additional 25% tariff on Indian imports, citing India’s direct or indirect imports of Russian oil; this brought the announced total to 50%."
+        },
+        "64": {
+          "n": 64,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Increase of toxin concentration at higher trophic levels",
+            "b": "Increase of biomass in plants",
+            "c": "Process of nutrient recycling",
+            "d": "Growth of microorganisms"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What is bio-magnification?",
+          "multi": false,
+          "explanation": "Biomagnification is the increase in concentration of a persistent contaminant at successively higher trophic levels in a food chain."
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Education",
+            "b": "Industries",
+            "c": "Intoxicating liquor",
+            "d": "Public health and sanitation"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following subjects is NOT included in the State List of Schedule 7 of the Indian Constitution?",
+          "multi": false,
+          "unscored": true,
+          "reviewNote": "Held unscored: both Education and Industries are outside the State List; the question has two correct options.",
+          "explanation": "Education is in the Concurrent List, and industries subject to Union control are in the Union List. Both are therefore outside the State List, so options A and B are both defensible. The question is held out of scoring."
         }
       },
       "derivedAnswers": {
@@ -14577,6 +15059,82 @@
         "44": {
           "answerIndex": 1,
           "explanation": "Gender-inclusion policies aim to promote equal opportunities and participation for women and men."
+        },
+        "45": {
+          "answerIndex": 3,
+          "explanation": "The GST Council is a constitutional body established under Article 279A. NITI Aayog is an executive body, while the Zonal Councils and National Commission for Minorities are statutory bodies."
+        },
+        "46": {
+          "answerIndex": 3,
+          "explanation": "The Constituent Assembly’s Objectives Resolution, moved by Jawaharlal Nehru in 1946, shaped the philosophy and structure of the Preamble."
+        },
+        "48": {
+          "answerIndex": 1,
+          "explanation": "The Constituent Assembly took 2 years, 11 months and 18 days to complete the Constitution."
+        },
+        "49": {
+          "answerIndex": 2,
+          "explanation": "Inclusive growth means that the benefits and opportunities of growth reach all sections of society."
+        },
+        "50": {
+          "answerIndex": 1,
+          "explanation": "Sustainable development integrates economic progress with environmental protection and social equity."
+        },
+        "51": {
+          "answerIndex": 1,
+          "explanation": "The World Bank is the organisation among these choices that publishes global poverty analyses and reports, including its Poverty and Shared Prosperity series."
+        },
+        "52": {
+          "answerIndex": 0,
+          "explanation": "Overpopulation can strain land, water, energy and other resources, making it a challenge to sustainable development."
+        },
+        "53": {
+          "answerIndex": 0,
+          "explanation": "A green economy seeks economic development while reducing environmental risks and resource depletion."
+        },
+        "54": {
+          "answerIndex": 2,
+          "explanation": "The UNDP–Oxford Global MPI report using India’s 2019–21 survey data estimated that 16.4% of the population was multidimensionally poor."
+        },
+        "55": {
+          "answerIndex": 1,
+          "explanation": "A demographic dividend is the potential economic benefit when the working-age share of a population rises relative to dependants."
+        },
+        "56": {
+          "answerIndex": 1,
+          "explanation": "The Act provides 12 weeks of leave to a woman adopting a child under three months old; the option omits the age condition but identifies the adoption provision."
+        },
+        "57": {
+          "answerIndex": 0,
+          "explanation": "The HDI uses three dimensions: health, education and standard of living."
+        },
+        "58": {
+          "answerIndex": 2,
+          "explanation": "In June 2025 the World Bank revised the international extreme-poverty line to US$3.00 per person per day in 2021 PPP terms."
+        },
+        "59": {
+          "answerIndex": 3,
+          "explanation": "Total fertility rate is the average number of children a woman would bear over her lifetime if current age-specific fertility rates continued."
+        },
+        "60": {
+          "answerIndex": 2,
+          "explanation": "Services contributed the largest share of India’s Gross Value Added in 2023–24."
+        },
+        "61": {
+          "answerIndex": 3,
+          "explanation": "Mizoram’s planned project is the Super Speciality Cancer and Research Centre at Zemabawk, Aizawl."
+        },
+        "62": {
+          "answerIndex": 3,
+          "explanation": "Mizoram’s Tourism Department signed a tourism-promotion MoU with the Indian Railway Catering and Tourism Corporation (IRCTC) in August 2025."
+        },
+        "63": {
+          "answerIndex": 0,
+          "explanation": "The White House’s August 2025 order imposed an additional 25% tariff on Indian imports, citing India’s direct or indirect imports of Russian oil; this brought the announced total to 50%."
+        },
+        "64": {
+          "answerIndex": 0,
+          "explanation": "Biomagnification is the increase in concentration of a persistent contaminant at successively higher trophic levels in a food chain."
         }
       }
     }

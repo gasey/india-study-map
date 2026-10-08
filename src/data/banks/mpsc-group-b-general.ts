@@ -7751,19 +7751,19 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Earth’s revolution round the sun in an elliptical manner",
       "Earth’s rotation on its axis",
       "Latitudinal position of the place",
-      "Revolution of the earth on a tilted axis"
+      "Revolution of the Earth on a tilted axis"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Earth’s axial tilt combined with its revolution around the Sun changes the angle and duration of sunlight received through the year (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=2",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerConfidence": "high",
+    "answerSource": "derived",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q12",
@@ -7774,21 +7774,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Which among the following pairs is/are correctly matched? I.Apogee – Moon’s orbit is farthest from the earth II.Aphelion – The earth is closest to the sun Select the correct code from the options given below:",
+    "question": "Which of the following pairs is correctly matched? I. Apogee – the Moon’s orbit is farthest from the Earth. II. Aphelion – the Earth is closest to the Sun. Select the correct code.",
     "options": [
       "I only",
       "II only",
-      "Both I & II",
+      "Both I and II",
       "Neither I nor II"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Apogee is the farthest point in the Moon’s orbit from Earth, so statement I is correct. Aphelion is Earth’s farthest point from the Sun, not its closest, so only I is correct (A).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q13",
@@ -7799,24 +7800,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Recent scientific research indicates the Indian tectonic plate is splitting into two layers deep beneath the Tibetan Plateau. This process is called:",
+    "question": "Recent scientific research indicates that the Indian tectonic plate is splitting into two layers deep beneath the Tibetan Plateau. What is this process called?",
     "options": [
       "Subduction",
       "Continental drift",
       "Seafloor spreading",
       "Lithospheric delamination"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Lithospheric delamination is the peeling or detachment of dense lower lithosphere from the overlying plate (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q14",
@@ -7827,24 +7826,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Consider the following statements: I.The length of the monsoon season becomes shorter as one move from southern India towards northern India II.In the northern plains of India, the total annual rainfall declines from the eastern region towards the western region Which of the statements given above is/are correct?",
+    "question": "Consider these statements: I. The length of the monsoon season becomes shorter moving from southern India towards northern India. II. In the northern plains, annual rainfall declines from east to west. Which statement or statements are correct?",
     "options": [
       "I only",
       "II only",
-      "Both I & II",
+      "Both I and II",
       "Neither I nor II"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The rainy season generally lasts longer in southern India and becomes shorter farther north; rainfall across the northern plains also generally decreases from east to west. Both statements are correct (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q15",
@@ -7855,21 +7852,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Arrange the following mountain ranges of India from North to South: I.Aravalli Range II.Satpura Range III.Vindhyan Range IV.Ajanta range Choose the correct option from the codes given below:",
+    "question": "Arrange these mountain ranges of India from north to south: I. Aravalli Range; II. Satpura Range; III. Vindhyan Range; IV. Ajanta Range. Choose the correct order.",
     "options": [
       "I, II, III, IV",
       "I, III, II, IV",
       "II, I, III, IV",
       "III, I, II, IV"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "From north to south, the order is Aravalli, Vindhya, Satpura, then Ajanta: I, III, II, IV (B).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q16",
@@ -7880,24 +7878,24 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "The concept of ‘Laissez-faire’ economics is most closely associated with the writings of:",
+    "question": "The concept of laissez-faire economics is most closely associated with the writings of:",
     "options": [
       "Karl Marx",
       "John Locke",
       "David Ricardo",
       "Adam Smith"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Adam Smith’s classical political economy is closely associated with laissez-faire and limited government interference in markets (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=3",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerConfidence": "high",
+    "answerSource": "derived",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q17",
@@ -7915,17 +7913,17 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "PM Awas Yojana–Gramin",
       "Jal Jeevan Mission"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Yuktdhara supports geospatial planning of Mahatma Gandhi National Rural Employment Guarantee Scheme works at Gram Panchayat level (A).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=3",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerConfidence": "high",
+    "answerSource": "derived",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q18",
@@ -7936,7 +7934,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Which among the following taxes is levied by state government only?",
+    "question": "Which among the following taxes is levied by the state government only?",
     "options": [
       "Wealth tax",
       "Estate duty",
@@ -7944,16 +7942,13 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Corporation tax"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Entertainment taxation has been assigned to state and local bodies in different frameworks; the stem’s word “only” makes option C insufficiently precise. The question is held out until its intended scope is established.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Held out because “entertainment tax” can include levies by local bodies as well as state-level taxation, so “state government only” is not precise enough to support a unique answer without the intended tax framework."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q19",
@@ -7964,24 +7959,24 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "What does ‘marginal utility’ in economics signify?",
+    "question": "What does marginal utility in economics signify?",
     "options": [
       "Small utility",
       "Additional utility",
       "Minimum utility",
       "Satisfied utility"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Marginal utility is the additional satisfaction or utility gained from consuming one more unit of a good (B).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=3",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerConfidence": "high",
+    "answerSource": "derived",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q20",
@@ -7999,17 +7994,17 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Human Development Index (HDI)",
       "Purchasing Managers’ Index (PMI)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Consumer Price Index measures changes in consumer prices and is used to calculate retail inflation (A).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=3",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerConfidence": "high",
+    "answerSource": "derived",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q21",

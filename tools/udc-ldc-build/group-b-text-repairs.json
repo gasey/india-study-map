@@ -1213,7 +1213,7 @@
       "sourceSha256": "59ae97a9f3f3dadcb9582215f9ec4387fffda3a6296d3658cc79589ee85ebdae",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–10 and 54, 55, 67, 71 and 91 were checked against rendered pages 1–11. No verified official key is available for this March 2026 Inspector of Statistics paper; the separate Sub-Inspector of Statistics key is for a different sitting and is not used. Answers are independently derived; ambiguous items remain unscored.",
+      "evidence": "Questions 1–20, 54, 55, 67, 71 and 91 were checked against rendered pages 1–11. No verified official key is available for this March 2026 Inspector of Statistics paper; the separate Sub-Inspector of Statistics key is for a different sitting and is not used. Answers are independently derived; ambiguous items remain unscored.",
       "questions": {
         "1": {
           "n": 1,
@@ -1345,6 +1345,138 @@
           },
           "explanation": "Article 244(2) applies the Sixth Schedule provisions to the specified tribal areas in Assam, Meghalaya, Tripura and Mizoram. The stem’s phrase “through Governors’ rule” is imprecise; this is the closest constitutional provision listed."
         },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "part": null,
+          "q": "Changes in the length of day-time and night-time across different seasons are caused by:",
+          "opts": {
+            "a": "Earth’s revolution round the sun in an elliptical manner",
+            "b": "Earth’s rotation on its axis",
+            "c": "Latitudinal position of the place",
+            "d": "Revolution of the Earth on a tilted axis"
+          },
+          "explanation": "Earth’s axial tilt combined with its revolution around the Sun changes the angle and duration of sunlight received through the year (D)."
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "part": null,
+          "q": "Which of the following pairs is correctly matched? I. Apogee – the Moon’s orbit is farthest from the Earth. II. Aphelion – the Earth is closest to the Sun. Select the correct code.",
+          "opts": {
+            "a": "I only",
+            "b": "II only",
+            "c": "Both I and II",
+            "d": "Neither I nor II"
+          },
+          "explanation": "Apogee is the farthest point in the Moon’s orbit from Earth, so statement I is correct. Aphelion is Earth’s farthest point from the Sun, not its closest, so only I is correct (A)."
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "part": null,
+          "q": "Recent scientific research indicates that the Indian tectonic plate is splitting into two layers deep beneath the Tibetan Plateau. What is this process called?",
+          "opts": {
+            "a": "Subduction",
+            "b": "Continental drift",
+            "c": "Seafloor spreading",
+            "d": "Lithospheric delamination"
+          },
+          "explanation": "Lithospheric delamination is the peeling or detachment of dense lower lithosphere from the overlying plate (D)."
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "part": null,
+          "q": "Consider these statements: I. The length of the monsoon season becomes shorter moving from southern India towards northern India. II. In the northern plains, annual rainfall declines from east to west. Which statement or statements are correct?",
+          "opts": {
+            "a": "I only",
+            "b": "II only",
+            "c": "Both I and II",
+            "d": "Neither I nor II"
+          },
+          "explanation": "The rainy season generally lasts longer in southern India and becomes shorter farther north; rainfall across the northern plains also generally decreases from east to west. Both statements are correct (C)."
+        },
+        "15": {
+          "n": 15,
+          "page": 3,
+          "part": null,
+          "q": "Arrange these mountain ranges of India from north to south: I. Aravalli Range; II. Satpura Range; III. Vindhyan Range; IV. Ajanta Range. Choose the correct order.",
+          "opts": {
+            "a": "I, II, III, IV",
+            "b": "I, III, II, IV",
+            "c": "II, I, III, IV",
+            "d": "III, I, II, IV"
+          },
+          "explanation": "From north to south, the order is Aravalli, Vindhya, Satpura, then Ajanta: I, III, II, IV (B)."
+        },
+        "16": {
+          "n": 16,
+          "page": 3,
+          "part": null,
+          "q": "The concept of laissez-faire economics is most closely associated with the writings of:",
+          "opts": {
+            "a": "Karl Marx",
+            "b": "John Locke",
+            "c": "David Ricardo",
+            "d": "Adam Smith"
+          },
+          "explanation": "Adam Smith’s classical political economy is closely associated with laissez-faire and limited government interference in markets (D)."
+        },
+        "17": {
+          "n": 17,
+          "page": 3,
+          "part": null,
+          "q": "The Yuktdhara Portal is a GIS-enabled platform developed to support which government scheme?",
+          "opts": {
+            "a": "MGNREGS",
+            "b": "Pradhan Mantri Gram Sadak Yojana",
+            "c": "PM Awas Yojana–Gramin",
+            "d": "Jal Jeevan Mission"
+          },
+          "explanation": "Yuktdhara supports geospatial planning of Mahatma Gandhi National Rural Employment Guarantee Scheme works at Gram Panchayat level (A)."
+        },
+        "18": {
+          "n": 18,
+          "page": 3,
+          "part": null,
+          "q": "Which among the following taxes is levied by the state government only?",
+          "opts": {
+            "a": "Wealth tax",
+            "b": "Estate duty",
+            "c": "Entertainment tax",
+            "d": "Corporation tax"
+          },
+          "unscored": true,
+          "reviewNote": "Held out because “entertainment tax” can include levies by local bodies as well as state-level taxation, so “state government only” is not precise enough to support a unique answer without the intended tax framework.",
+          "explanation": "Entertainment taxation has been assigned to state and local bodies in different frameworks; the stem’s word “only” makes option C insufficiently precise. The question is held out until its intended scope is established."
+        },
+        "19": {
+          "n": 19,
+          "page": 3,
+          "part": null,
+          "q": "What does marginal utility in economics signify?",
+          "opts": {
+            "a": "Small utility",
+            "b": "Additional utility",
+            "c": "Minimum utility",
+            "d": "Satisfied utility"
+          },
+          "explanation": "Marginal utility is the additional satisfaction or utility gained from consuming one more unit of a good (B)."
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "part": null,
+          "q": "Which index is used to calculate inflation?",
+          "opts": {
+            "a": "Consumer Price Index (CPI)",
+            "b": "Index of Industrial Production (IIP)",
+            "c": "Human Development Index (HDI)",
+            "d": "Purchasing Managers’ Index (PMI)"
+          },
+          "explanation": "The Consumer Price Index measures changes in consumer prices and is used to calculate retail inflation (A)."
+        },
         "54": {
           "n": 54,
           "page": 8,
@@ -1463,6 +1595,42 @@
           "answerIndex": 0,
           "explanation": "Article 244(2) applies the Sixth Schedule provisions to the specified tribal areas in Assam, Meghalaya, Tripura and Mizoram. The stem’s phrase “through Governors’ rule” is imprecise; this is the closest constitutional provision listed.",
           "confidence": "medium"
+        },
+        "11": {
+          "answerIndex": 3,
+          "explanation": "Earth’s axial tilt combined with its revolution around the Sun changes the angle and duration of sunlight received through the year (D)."
+        },
+        "12": {
+          "answerIndex": 0,
+          "explanation": "Apogee is the farthest point in the Moon’s orbit from Earth, so statement I is correct. Aphelion is Earth’s farthest point from the Sun, not its closest, so only I is correct (A)."
+        },
+        "13": {
+          "answerIndex": 3,
+          "explanation": "Lithospheric delamination is the peeling or detachment of dense lower lithosphere from the overlying plate (D)."
+        },
+        "14": {
+          "answerIndex": 2,
+          "explanation": "The rainy season generally lasts longer in southern India and becomes shorter farther north; rainfall across the northern plains also generally decreases from east to west. Both statements are correct (C)."
+        },
+        "15": {
+          "answerIndex": 1,
+          "explanation": "From north to south, the order is Aravalli, Vindhya, Satpura, then Ajanta: I, III, II, IV (B)."
+        },
+        "16": {
+          "answerIndex": 3,
+          "explanation": "Adam Smith’s classical political economy is closely associated with laissez-faire and limited government interference in markets (D)."
+        },
+        "17": {
+          "answerIndex": 0,
+          "explanation": "Yuktdhara supports geospatial planning of Mahatma Gandhi National Rural Employment Guarantee Scheme works at Gram Panchayat level (A)."
+        },
+        "19": {
+          "answerIndex": 1,
+          "explanation": "Marginal utility is the additional satisfaction or utility gained from consuming one more unit of a good (B)."
+        },
+        "20": {
+          "answerIndex": 0,
+          "explanation": "The Consumer Price Index measures changes in consumer prices and is used to calculate retail inflation (A)."
         }
       }
     },

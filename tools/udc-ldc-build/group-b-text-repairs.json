@@ -8560,7 +8560,7 @@
       "expectedMcq": 50,
       "partialReview": true,
       "reviewedOn": "2026-10-08",
-      "evidence": "Stenographer Grade-II (Contract) General English 2015 page 1 and the upper half of page 2 were checked against the scan. Q1–11 MCQ stems and options were transcribed and independently keyed. The cover also contains a distinct 20-mark Section A essay, restored as a written prompt with response guidance; the paper remains out of full-paper Exam mode until the remaining questions and marks are verified.",
+      "evidence": "Stenographer Grade-II (Contract) General English 2015 page 1 and the upper half of page 2 were checked against the scan. Q1–20 MCQ stems and options were transcribed and independently keyed. The cover also contains a distinct 20-mark Section A essay, restored as a written prompt with response guidance; the paper remains out of full-paper Exam mode until the remaining questions and marks are verified.",
       "questions": {
         "1": {
           "n": 1,
@@ -8704,6 +8704,127 @@
             "d": "White cement is poor quality"
           },
           "explanation": "The passage says manufacturers are facing a crisis because white-cement prices rose significantly (B)."
+        },
+        "12": {
+          "n": 12,
+          "page": 3,
+          "part": null,
+          "q": "Which word has the same meaning as “idle” as used in the passage?",
+          "opts": {
+            "a": "Lazy",
+            "b": "Clumsy",
+            "c": "Large",
+            "d": "Excess"
+          },
+          "explanation": "In this passage, “idle capacity” means capacity that is unused. None of the options gives that contextual meaning; “lazy” describes a person, so the item is held out.",
+          "unscored": true,
+          "reviewNote": "Held out because the passage uses “idle” to mean unused capacity, but the choices provide no contextually accurate synonym."
+        },
+        "13": {
+          "n": 13,
+          "page": 3,
+          "part": null,
+          "q": "Which statement is correct according to the passage?",
+          "opts": {
+            "a": "White cement is not used to manufacture paint",
+            "b": "White cement is a minor part of tile manufacturing",
+            "c": "White cement is very important for tile manufacturing",
+            "d": "White cement is used only to make paint"
+          },
+          "explanation": "The passage identifies white cement as a basic raw material used extensively to produce cement tiles and cement paint; C is the only statement consistent with it."
+        },
+        "14": {
+          "n": 14,
+          "page": 3,
+          "part": null,
+          "q": "What does the author suggest to bring down prices?",
+          "opts": {
+            "a": "The Government should control the white-cement market",
+            "b": "Production capacity should be increased",
+            "c": "Use of white cement in other areas should be reduced",
+            "d": "Competition among cement-paint and tile manufacturers should be reduced"
+          },
+          "explanation": "The passage says the Government should ensure suitable controls or allow cement imports; option A best captures the suggestion."
+        },
+        "15": {
+          "n": 15,
+          "page": 3,
+          "part": null,
+          "q": "The profits will be equally divided ____ the two partners.",
+          "opts": {
+            "a": "among",
+            "b": "by",
+            "c": "with",
+            "d": "between"
+          },
+          "explanation": "“Between” is used for two partners, so D completes the sentence."
+        },
+        "16": {
+          "n": 16,
+          "page": 3,
+          "part": null,
+          "q": "His chances are ____ than mine.",
+          "opts": {
+            "a": "less",
+            "b": "lesser",
+            "c": "few",
+            "d": "fewer"
+          },
+          "explanation": "“Chances” is a countable plural noun, so the comparative “fewer” is the standard choice (D)."
+        },
+        "17": {
+          "n": 17,
+          "page": 3,
+          "part": null,
+          "q": "A horse is ____ like an elephant.",
+          "opts": {
+            "a": "not",
+            "b": "never",
+            "c": "nothing",
+            "d": "none"
+          },
+          "explanation": "“A horse is not like an elephant” is the grammatical sentence (A)."
+        },
+        "18": {
+          "n": 18,
+          "page": 3,
+          "part": null,
+          "q": "I injured my knee four years ago, but I have been feeling pain in it ____.",
+          "opts": {
+            "a": "even now",
+            "b": "since",
+            "c": "until now",
+            "d": "ever since"
+          },
+          "explanation": "“Ever since” refers back to the injury four years ago and describes pain continuing from then to the present (D)."
+        },
+        "19": {
+          "n": 19,
+          "page": 3,
+          "part": null,
+          "q": "Have you received any letter from your son ____?",
+          "opts": {
+            "a": "lately",
+            "b": "late",
+            "c": "of late",
+            "d": "last"
+          },
+          "explanation": "Both “lately” and “of late” are grammatical adverbs meaning “recently” in this question. The item has two defensible options and is held out.",
+          "unscored": true,
+          "reviewNote": "Both “lately” and “of late” are grammatical adverbs meaning “recently” in this question. The item has two defensible options and is held out."
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "part": null,
+          "q": "He comes ____ a good family.",
+          "opts": {
+            "a": "out of",
+            "b": "off",
+            "c": "of",
+            "d": "from"
+          },
+          "explanation": "The standard phrase is “comes from a good family” (D)."
         }
       },
       "derivedAnswers": {
@@ -8750,6 +8871,34 @@
         "11": {
           "answerIndex": 1,
           "explanation": "The passage says manufacturers are facing a crisis because white-cement prices rose significantly (B)."
+        },
+        "13": {
+          "answerIndex": 2,
+          "explanation": "The passage identifies white cement as a basic raw material used extensively to produce cement tiles and cement paint; C is the only statement consistent with it."
+        },
+        "14": {
+          "answerIndex": 0,
+          "explanation": "The passage says the Government should ensure suitable controls or allow cement imports; option A best captures the suggestion."
+        },
+        "15": {
+          "answerIndex": 3,
+          "explanation": "“Between” is used for two partners, so D completes the sentence."
+        },
+        "16": {
+          "answerIndex": 3,
+          "explanation": "“Chances” is a countable plural noun, so the comparative “fewer” is the standard choice (D)."
+        },
+        "17": {
+          "answerIndex": 0,
+          "explanation": "“A horse is not like an elephant” is the grammatical sentence (A)."
+        },
+        "18": {
+          "answerIndex": 3,
+          "explanation": "“Ever since” refers back to the injury four years ago and describes pain continuing from then to the present (D)."
+        },
+        "20": {
+          "answerIndex": 3,
+          "explanation": "The standard phrase is “comes from a good family” (D)."
         }
       },
       "written": {

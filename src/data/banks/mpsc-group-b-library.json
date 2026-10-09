@@ -102,7 +102,7 @@
     "imported": true,
     "correctionHref": "/papers/group-b/keys/corrigendum-of-final-answer-key-for-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf",
     "expectedMcq": 100,
-    "reviewRequired": true
+    "reviewRequired": false
   },
   {
     "id": "mpsc-group-b-aao-2024-gk",

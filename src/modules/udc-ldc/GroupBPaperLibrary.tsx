@@ -20,7 +20,8 @@ export function GroupBPaperLibrary({ questions, onBrowse }: { questions: BankQue
       mcq: mcq.length, written: items.length - mcq.length, ready: ready.length,
       official: ready.filter((q) => q.answerSource === 'official').length,
       review: items.filter((q) => q.sourceReview && !q.sourceReviewed).length,
-      held: items.filter((q) => q.sourceReview && q.sourceReviewed).length,
+      // MPSC-compensated items carry their own pill and are not "held" text.
+      held: items.filter((q) => q.sourceReview && q.sourceReviewed && !q.compensated).length,
       missing: library.reduce((total, paper) => total + Math.max(0, (paper.expectedMcq ?? 0) - mcq.filter((q) => q.paperId === paper.id).length), 0),
     };
   }, [questions]);
@@ -53,7 +54,7 @@ export function GroupBPaperLibrary({ questions, onBrowse }: { questions: BankQue
         const candidates = qs.filter((q) => isMcqQuestion(q) && q.officialAnswerCandidates?.length && !isAnswerable(q)).length;
         const mcq = qs.filter(isMcqQuestion).length;
         const review = qs.filter((q) => q.sourceReview && !q.sourceReviewed).length;
-        const held = qs.filter((q) => q.sourceReview && q.sourceReviewed).length;
+        const held = qs.filter((q) => q.sourceReview && q.sourceReviewed && !q.compensated).length;
         const missing = Math.max(0, (p.expectedMcq ?? 0) - mcq);
         const correctionHref = p.correctionHref;
         return <div className="udc-library-paper" key={p.id}>

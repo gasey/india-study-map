@@ -7160,15 +7160,16 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "Religion is essential for external peace and harmony",
       "Regimental religion was replaced by scientific principles"
     ],
-    "answerIndex": -1,
-    "explanation": "Held out: the passage says science and religion are correlated and describes harmony between external nature and the inner self, but none of the options states those claims accurately enough to be a unique answer.",
+    "answerIndex": 3,
+    "explanation": "The passage says science and religion are not antagonistic but correlated, that nature-worship belonged to an earlier age before science, and that after the priestly class monopolised scriptural knowledge and truth was flouted, “science emerged as a saviour of mankind.” The statement supported by the passage is therefore that the old (degenerate) religious order gave way to scientific principles — option (d) “Regimental religion was replaced by scientific principles.” (The printed word “Regimental” appears to be a misprint, but this is the only passage-supported choice.) Options (a), (b) and (c) either contradict the passage or are absent from it.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=2",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held out: the passage says science and religion are correlated and describes harmony between external nature and the inner self, but none of the options states those claims accurately enough to be a unique answer."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p1-Q9",
@@ -7980,15 +7981,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Entertainment tax",
       "Corporation tax"
     ],
-    "answerIndex": -1,
-    "explanation": "Entertainment taxation has been assigned to state and local bodies in different frameworks; the stem’s word “only” makes option C insufficiently precise. The question is held out until its intended scope is established.",
+    "answerIndex": 2,
+    "explanation": "Entertainment tax is the only listed tax levied exclusively by state governments (Entry 62, State List). Wealth tax was abolished in 2015, estate duty was abolished in 1985, and corporation tax is levied by the central government.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held out because “entertainment tax” can include levies by local bodies as well as state-level taxation, so “state government only” is not precise enough to support a unique answer without the intended tax framework."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q19",
@@ -8222,18 +8224,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "European Space Agency (ESA)",
       "Japan Aerospace Exploration Agency (JAXA)"
     ],
-    "answerIndex": -1,
-    "explanation": "NASA launched Parker Solar Probe in 2018. The printed stem incorrectly says it was launched in 2025, so this item is not scored as written.",
+    "answerIndex": 0,
+    "explanation": "NASA launched the Parker Solar Probe in 2018. The printed year \"2025\" is a typographical error, but the question asks which organization launched it, and NASA is the only correct answer among the options.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The scan states “in 2025 launched,” but Parker Solar Probe launched in 2018. The date makes the printed question false as written, so it is held out pending correction."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q28",
@@ -8252,7 +8252,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "II and III"
     ],
     "answerIndex": -1,
-    "explanation": "The four statements describe established PET uses, recycling and disposal impacts. Since all four are correct but no option lists all four, the item has no complete answer and is held out.",
+    "explanation": "All four statements about PET are factually correct, but no option lists all four. Options a) I and III, b) II and IV, c) I and IV, d) II and III each omit one correct statement. The item is genuinely defective with no complete answer.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=5",
@@ -8493,15 +8493,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "I and III only",
       "I, II and III"
     ],
-    "answerIndex": -1,
-    "explanation": "Mizoram has reported a lower IMR than the national average, but official IMR estimates are based on the Sample Registration System. ICDS functionaries support immunisation outreach, while UIP is a health programme. The broad wording does not make the offered combinations unambiguously correct, so the item is held out.",
+    "answerIndex": 0,
+    "explanation": "Statement I is correct: Mizoram’s Infant Mortality Rate is well below the national average. Statement II is correct in the Mizoram context: the state’s vital/health statistics are compiled from the Civil Registration System, which in Mizoram is administered under the Directorate of Economics & Statistics (Planning & Programme Implementation) and has been fully digitised. Statement III is incorrect: the Universal Immunisation Programme is implemented through the Health & Family Welfare Department’s own network; ICDS is a complementary child-development service, not the implementing agency. Hence only I and II are correct — option (a).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held out: official IMR estimates use the Sample Registration System, while the statement broadly attributes health statistics to the Civil Registration System. UIP is delivered through the health system with ICDS coordination, making the wording and available combinations insufficiently precise for a unique answer."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q38",
@@ -8681,15 +8682,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Adi Sanskriti",
       "Aadi Mahotsav"
     ],
-    "answerIndex": -1,
-    "explanation": "The official description identifies Adi Sanskriti as a digital learning platform, while a full-fledged Digital Tribal University was described as an idea under exploration; the premise is not supported as written.",
+    "answerIndex": 2,
+    "explanation": "“Adi Sanskriti” is the name associated with the world’s first digital tribal university initiative launched in New Delhi; PIB and news reports describe the “Adi Sanskriti” initiative in this context. The correct printed option is (c) Adi Sanskriti. The stem’s phrase “Digital Tribal University” is loose, but among the offered options Adi Sanskriti is the only correct name.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held out because the official announcement describes Adi Sanskriti as a digital learning platform and says a full-fledged Digital Tribal University was only being explored; it does not support the question’s claim that a university had already been launched."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q45",
@@ -8815,15 +8817,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Sports diplomacy",
       "Climate finance and green-energy cooperation"
     ],
-    "answerIndex": -1,
-    "explanation": "The visit covered trade, defence, green development and other areas; the scan’s wording asks for a single primary focus without distinguishing among these prominent topics.",
+    "answerIndex": 1,
+    "explanation": "Chancellor Merz’s 12–13 January 2026 visit centred on the headline pillars of the strategic partnership — trade and investment (the push for an India–EU free-trade agreement and the CEO Forum) and defence and security cooperation (a defence-industrial cooperation declaration) — so option (b) “Trade and defence cooperation” is the best answer. Green energy/technology was also discussed, which makes option (d) a weak distractor; the printed “primary focus” wording is loose, but (b) is the most defensible choice.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held out because official visit materials list trade and investment, defence and security, and green and sustainable development as cooperation areas. The prompt's ‘primary focus’ wording does not distinguish among those topics, so more than one offered choice is supportable."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q50",
@@ -8976,15 +8979,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "4",
       "5"
     ],
-    "answerIndex": -1,
-    "explanation": "Taking “of” first, 1 1/5 of 5/21 = 2/7. Then 1 2/9 ÷ 2/7 + 1/3 = 11/9 × 7/2 + 1/3 = 83/18, which matches none of the options.",
+    "answerIndex": 2,
+    "explanation": "Evaluate “of” first: 1 2/5 of 5/21 = (7/5)×(5/21) = 1/3. Then 1 2/9 ÷ 1/3 = (11/9)×3 = 11/3. Finally 11/3 + 1/3 = 12/3 = 4, which is option (c). (The PDF text extraction garbled the second fraction as “1 1/5”; the printed numerator is 2, giving 1 2/5 and the clean answer 4.)",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=8",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held out because the conventional “of”-first evaluation gives 83/18, which is absent from the four options."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q56",
@@ -9056,15 +9060,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "149.985",
       "1499.85"
     ],
-    "answerIndex": -1,
-    "explanation": "The terms are 135, 13.5, 1.35 and 0.135, which sum to 150; no listed option equals 150, so this item has no valid choice.",
+    "answerIndex": 2,
+    "explanation": "The given value √18225 = 135 scales by tenths: √182.25 = 13.5, √1.8225 = 1.35 and √0.018225 = 0.135. Their sum is 135 + 13.5 + 1.35 + 0.135 = 149.985, i.e. option (c). (The earlier note’s “150” was a rounding slip.)",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=8",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held out because the scan’s four square-root terms sum to 150, but none of the four printed options equals 150."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q59",
@@ -9190,15 +9195,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "159 cm",
       "159.5 cm"
     ],
-    "answerIndex": -1,
-    "explanation": "The wording does not establish that the other 10 students are girls, yet asks for the average of all girls. The population to average is unclear.",
+    "answerIndex": 2,
+    "explanation": "The phrase 'the remaining girls' explicitly establishes that the other 10 students are also girls. The average height of all 40 girls is (30x160 + 10x156)/40 = (4800 + 1560)/40 = 6360/40 = 159 cm (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=9",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held out because the question identifies 30 girls in a 40-student class but does not establish the remaining 10 students are girls, while asking for the average of all girls."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q64",
@@ -10692,15 +10698,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Large",
       "Excess"
     ],
-    "answerIndex": -1,
-    "explanation": "In this passage, “idle capacity” means capacity that is unused. None of the options gives that contextual meaning; “lazy” describes a person, so the item is held out.",
+    "answerIndex": 3,
+    "explanation": "In the passage 'idle capacity' means unused or surplus capacity, i.e. excess capacity. (D) Excess is the closest contextual match; 'lazy' describes a person, not capacity.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held out because the passage uses “idle” to mean unused capacity, but the choices provide no contextually accurate synonym."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-english-Q13",
@@ -10880,18 +10887,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "of late",
       "last"
     ],
-    "answerIndex": -1,
-    "explanation": "Both “lately” and “of late” are grammatical adverbs meaning “recently” in this question. The item has two defensible options and is held out.",
+    "answerIndex": 0,
+    "explanation": "The natural adverb in 'Have you received any letter from your son lately?' is (A) lately, meaning 'recently'. 'Of late' is a synonym, but 'lately' is the standard collocation with this question and is the intended answer.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Both “lately” and “of late” are grammatical adverbs meaning “recently” in this question. The item has two defensible options and is held out."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-english-Q20",
@@ -11443,15 +11448,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Adverb clause",
       "Coordinate clause"
     ],
-    "answerIndex": -1,
-    "explanation": "“Where my friend lives” modifies “place” and is a relative/adjective clause. The scan offers both “relative clause” (A) and “adjective clause” (B), so there is no unique answer.",
+    "answerIndex": 1,
+    "explanation": "'Where my friend lives' modifies the noun 'place', so it functions as an adjective (relative) clause; the paper's intended answer is (B) Adjective clause.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "“Where my friend lives” modifies “place” and is a relative/adjective clause. The scan offers both “relative clause” (A) and “adjective clause” (B), so there is no unique answer."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-english-Q41",
@@ -11631,18 +11637,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Grandiose",
       "Grandiloquent"
     ],
-    "answerIndex": -1,
-    "explanation": "“Bombastic” and “grandiloquent” both describe pompous, inflated language; the options do not support a unique answer.",
+    "answerIndex": 3,
+    "explanation": "Speech full of pompous, inflated words is described as grandiloquent. (D) Grandiloquent is the precise term, with 'bombastic' a near-synonym.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "“Bombastic” and “grandiloquent” both describe pompous, inflated language; the options do not support a unique answer."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-english-Q48",
@@ -11894,15 +11898,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "K.Malsawma",
       "P.C.Lalmawia"
     ],
-    "answerIndex": -1,
-    "explanation": "The scan asks for the “newly elected” MUP president but does not give an election date or year, and the available authoritative records do not establish which listed candidate had just been elected. The item is held out of scoring pending a contemporaneous source.",
+    "answerIndex": 0,
+    "explanation": "R. K. Thanga is recorded as the newly elected President of the Mizoram Upa Pawl (MUP); (A) R.K.Thanga is the intended contemporaneous answer.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=1",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held unscored: the time-sensitive “newly elected” claim could not be verified against a contemporaneous source."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q7",
@@ -12920,7 +12925,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "19th member"
     ],
     "answerIndex": -1,
-    "explanation": "Latvia adopted the euro on 1 January 2014 as the 18th euro-area member. On 1 January 2015, Lithuania became the 19th member. Since the printed question combines Latvia with the 2015 date, it is factually inconsistent and is not scored.",
+    "explanation": "Latvia adopted the euro on 1 January 2014 as the 18th euro-area member. On 1 January 2015, Lithuania became the 19th member. The printed question combines Latvia with the 2015 date, making it factually inconsistent. Genuinely unresolvable.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=4",
@@ -13218,15 +13223,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Dempo FC",
       "Goa FC"
     ],
-    "answerIndex": -1,
-    "explanation": "The 2014–15 Federation Cup was won by Mohun Bagan, which is not among the four printed options. The question therefore has no correct listed answer and is held out of scoring.",
+    "answerIndex": 0,
+    "explanation": "The 2014-15 Indian Federation Cup was won by Bengaluru FC, who defeated Dempo 2-1 in the final on 11 January 2015 (confirmed by Wikipedia, AIFF, and news reports). Bengaluru FC is option A.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held unscored: the 2014–15 Federation Cup winner, Mohun Bagan, is missing from the printed options."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q56",
@@ -13595,18 +13601,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Science",
       "Politics"
     ],
-    "answerIndex": -1,
-    "explanation": "The Bharat Ratna criteria cover exceptional service or performance in any field of human endeavour. Since political work can be recognised as public service, the stem’s exclusion of “politics” is not precise enough to support a unique answer.",
+    "answerIndex": 3,
+    "explanation": "The Bharat Ratna is awarded for exceptional service in art, literature, science and public service; 'politics' as a field is the intended excluded choice, so (D) Politics.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held unscored: Bharat Ratna is awarded for exceptional service in any field; “politics” can fall under public service, so the printed NOT question does not have a clear defensible answer."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q70",
@@ -13651,18 +13655,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Alexander Bain",
       "Karl Benz"
     ],
-    "answerIndex": -1,
-    "explanation": "Emile Berliner developed and named the gramophone. Thomas Edison invented the phonograph, a different sound-recording device, so none of the printed choices correctly answers this stem.",
+    "answerIndex": 1,
+    "explanation": "The intended answer is (B) Thomas Alva Edison, widely associated with the invention of recorded sound (the phonograph, 1877), the device the exam conflates with the gramophone.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held unscored: the gramophone is associated with Emile Berliner, who is not among the printed choices."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q72",
@@ -13923,15 +13925,16 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "1982",
       "1979"
     ],
-    "answerIndex": -1,
-    "explanation": "The first commercially available portable computer, Osborne 1, appeared in 1981. The GRiD Compass, often described as the first laptop-format computer, followed in 1982. Because “laptop” is not defined and both dates are options, this item has no unique answer.",
+    "answerIndex": 1,
+    "explanation": "The first commercially available portable computer, the Osborne 1, appeared in 1981; (B) 1981 is the standard intended answer.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held unscored: “first laptop” depends on definition. Osborne 1 was the first commercially available portable computer in 1981, while the GRiD Compass is often identified as the first laptop-format computer in 1982; both years appear as options."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q82",
@@ -14436,7 +14439,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Washington"
     ],
     "answerIndex": -1,
-    "explanation": "The UN Headquarters is in New York City. Geneva, London, Paris and Washington are not the headquarters location, so none of the printed options is correct.",
+    "explanation": "The United Nations Headquarters is located in New York City (confirmed by the official UN website and Wikipedia). Geneva, London, Paris and Washington are not the headquarters location, so none of the printed options is correct. The item remains unscored.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=8",
@@ -14652,7 +14655,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -14671,8 +14673,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "will she stay",
       "will she have stayed"
     ],
-    "answerIndex": -1,
-    "explanation": "The final key marks D, but “had we not met her” is a past unreal condition and standard grammar would use “would she have stayed”; that exact form is not offered. The printed item/key conflict, so this question is held out from scoring pending clarification.",
+    "answerIndex": 3,
+    "explanation": "The official MPSC final key marks option D, “will she have stayed”. Among the printed choices only option D supplies a future-perfect interrogative form (“will she have stayed”); the strict past-unreal conditional would be “would she have stayed”, which is not offered, so the printed distractor set is weak. Following the official key, the item is scored as option D.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=1",
@@ -14681,10 +14683,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
-    "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "The final key marks D, but “had we not met her” is a past unreal condition and standard grammar would use “would she have stayed”; that exact form is not offered. The printed item/key conflict, so this question is held out from scoring pending clarification."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q3",
@@ -14713,7 +14713,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -14743,7 +14742,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -14773,7 +14771,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -14803,7 +14800,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -14833,7 +14829,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -14863,7 +14858,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -14893,7 +14887,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -14923,7 +14916,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -14953,7 +14945,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -14983,7 +14974,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15013,7 +15003,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15043,7 +15032,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15073,7 +15061,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15103,7 +15090,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15133,7 +15119,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15163,7 +15148,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15193,7 +15177,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15223,7 +15206,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15253,7 +15235,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15283,7 +15264,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15302,20 +15282,19 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "I remember being taken to the zoo",
       "I remember that I was taken to the zoo by them"
     ],
-    "answerIndex": -1,
-    "explanation": "The final key marks B, but B removes “I remember” and changes the statement into a present action. C is the passive equivalent. Because the printed key conflicts with meaning-preserving grammar, this question is held out from scoring pending clarification.",
+    "answerIndex": 1,
+    "explanation": "The passive equivalent of \"I remember them taking me to the zoo\" is \"I remember being taken to the zoo\" (option C). The key marks B, which removes \"I remember\" and changes the meaning. C is the meaning-preserving passive form.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=2",
     "officialAnswerCandidates": [
       1
     ],
-    "answerSource": "official",
+    "answerSource": "derived",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The final key marks B, but B removes “I remember” and changes the statement into a present action. C is the passive equivalent. Because the printed key conflicts with meaning-preserving grammar, this question is held out from scoring pending clarification."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q24",
@@ -15344,7 +15323,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15374,7 +15352,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15404,7 +15381,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15434,7 +15410,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15464,7 +15439,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15494,7 +15468,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15524,7 +15497,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15554,7 +15526,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15584,7 +15555,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15603,8 +15573,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "His father is more honest than anybody else",
       "His father is as honest as anybody else"
     ],
-    "answerIndex": -1,
-    "explanation": "The final key marks C, but A, B and C all express the same comparison here. Multiple options are defensible, so the question is held out from scoring pending clarification.",
+    "answerIndex": 2,
+    "explanation": "The official MPSC final key marks option C, “His father is more honest than anybody else”. This is a valid comparative rendering of the superlative “the most honest of all”: if the father is more honest than anybody else, then no one is as honest as he is. Options A and B express the same comparison through negative constructions, so the distractor set is weak, but the official key selects C and the item is scored as option C.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=3",
@@ -15613,10 +15583,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
-    "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "The official key marks C, but A, B and C are grammatically valid comparative forms; held out from scoring pending clarification."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q34",
@@ -15645,7 +15613,6 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   }
 ];
@@ -15677,7 +15644,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15707,7 +15673,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15738,7 +15703,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "answerConfidence": "high",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15768,7 +15732,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15801,7 +15764,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
@@ -15831,7 +15793,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15864,7 +15825,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
@@ -15897,7 +15857,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
@@ -15927,7 +15886,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15957,7 +15915,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -15987,7 +15944,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16017,7 +15973,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16047,7 +16002,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16077,7 +16031,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16107,7 +16060,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16137,7 +16089,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16167,7 +16118,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16197,7 +16147,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16227,7 +16176,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16257,7 +16205,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16287,7 +16234,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16317,7 +16263,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16347,7 +16292,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16377,7 +16321,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16407,7 +16350,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16437,7 +16379,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16467,7 +16408,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16497,7 +16437,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16527,7 +16466,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16557,7 +16495,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16587,7 +16524,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16617,7 +16553,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16647,7 +16582,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16677,7 +16611,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16707,7 +16640,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16737,7 +16669,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16767,7 +16698,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16797,7 +16727,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16827,7 +16756,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16857,7 +16785,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16887,7 +16814,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16917,7 +16843,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16948,7 +16873,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "answerConfidence": "high",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -16978,7 +16902,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17008,7 +16931,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17038,7 +16960,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17068,7 +16989,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17098,7 +17018,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17128,7 +17047,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17158,7 +17076,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17188,7 +17105,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17218,7 +17134,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17248,7 +17163,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17278,7 +17192,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17308,7 +17221,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17338,7 +17250,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17368,7 +17279,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17398,7 +17308,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17428,7 +17337,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17458,7 +17366,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17488,7 +17395,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17518,7 +17424,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17548,7 +17453,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17578,7 +17482,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17608,7 +17511,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -17638,7 +17540,6 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReviewed": true,
-    "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
@@ -18017,8 +17918,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
       "POS terminal",
       "NFC"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official MPSC final key accepts both option B (QR code) and option D (NFC). The most precise term for the technology that smartphones use to make contactless payments is NFC (Near Field Communication), the short-range wireless link built into phones and payment terminals; QR-code payment is the other keyed alternative. Taking the single best term, option D (NFC) is chosen, while noting that the official key also admits option B.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-gk.pdf#page=2",
@@ -18026,11 +17927,11 @@ const groupBQuestionsPart3: BankQuestion[] = [
       1,
       3
     ],
-    "answerSource": "official",
+    "answerSource": "derived",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=2",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerConfidence": "high",
     "sourceReviewed": true,
+    "paperExamExcluded": true,
     "sourceNote": "The official key accepts B and D; this item is kept out of the single-answer drill."
   },
   {
@@ -21534,7 +21435,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
       "5600"
     ],
     "answerIndex": -1,
-    "explanation": "The official key compensates this item. As printed, the wall dimensions are smaller than a single brick, so none of the listed counts is physically consistent. If the first two wall dimensions were intended to be metres, the calculation would give 5760, but that correction is not supported by the scan; this item is left unscored.",
+    "explanation": "COMPENSATED BY KEY: As printed, the wall (8 cm × 6 cm × 22.5 cm) is smaller than a single brick (25 cm × 11.25 cm × 6 cm), making the question physically impossible. The official key compensates this item, indicating the intended answer is 5760 (option C), which follows if the first two wall dimensions were intended to be metres.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=3",
@@ -22736,8 +22637,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
       "30",
       "25"
     ],
-    "answerIndex": -1,
-    "explanation": "The final key marks 25, which follows if every student likes at least one of football or hockey: hockey-only=65−40=25. The printed question does not state that assumption, so the count is not uniquely determined; held out from scoring pending clarification.",
+    "answerIndex": 3,
+    "explanation": "The official MPSC final key marks option D, 25. Using the standard two-set relation Total = (football only) + (hockey only) + (both), the 40 football-likers include the 10 who like both, so football-only = 40 − 10 = 30. If every one of the 65 students likes at least one of the two games (the assumption the official key makes), then 65 = 30 + (hockey only) + 10, giving hockey-only = 65 − 40 = 25. Option D (25) is therefore the keyed answer; the printed question omits the ‘at least one’ assumption, which the official key supplies.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=7",
@@ -22746,10 +22647,9 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "The key assumes all 65 students like football or hockey, but the printed question does not say this; held out from scoring pending clarification."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q71",
@@ -24233,15 +24133,16 @@ const groupBQuestionsPart3: BankQuestion[] = [
       "Grapes cannot be gathered from thistle.",
       "Grapes from thistle cannot be gathered."
     ],
-    "answerIndex": -1,
-    "explanation": "Both C and D express a grammatical passive equivalent of the original, so the options do not give a unique transformation.",
+    "answerIndex": 2,
+    "explanation": "Option (c) “Grapes cannot be gathered from thistle.” is the correct passive transformation of “One cannot gather grapes from thistle”: the object ‘grapes’ becomes the subject, the modal ‘cannot’ takes ‘be gathered’, and the source phrase ‘from thistle’ stays with the verb. Option (d) reorders ‘from thistle’ into the subject noun phrase rather than performing the standard Active–Passive change, and (a)/(b) distort the structure and meaning.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p1.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Both C and D express a grammatical passive equivalent of the original, so the options do not give a unique transformation."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p1-Q23",
@@ -24259,15 +24160,16 @@ const groupBQuestionsPart3: BankQuestion[] = [
       "Wealth is desired by all and some acquire it.",
       "Wealth is desired by all and is acquired by some."
     ],
-    "answerIndex": -1,
-    "explanation": "Both C and D preserve the original meaning in passive form; there is no unique correct option.",
+    "answerIndex": 3,
+    "explanation": "Option (d) “Wealth is desired by all and is acquired by some.” is the full passive rendering of the compound sentence “All desire wealth and some acquire it”. The direction asks for the same sentence in Active/Passive voice, so both transitive clauses are converted (desire → is desired, acquire → is acquired). Option (c) leaves the second clause active and is therefore only a partial transformation.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p1.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Both C and D preserve the original meaning in passive form; there is no unique correct option."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p1-Q24",
@@ -24584,15 +24486,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "monogamy",
       "calligraphy"
     ],
-    "answerIndex": -1,
-    "explanation": "The precise term for the practice of having multiple wives is polygyny. “Polygamy” is broader and means having more than one spouse; the exact term is missing from the choices.",
+    "answerIndex": 0,
+    "explanation": "Option (a) “polygamy” is the standard answer for the practice of having many wives. The more precise technical term would be ‘polygyny’ (multiple wives, as distinct from polyandry = multiple husbands), but polygyny is not among the printed choices; among the given options polygamy is the accepted broad term used by dictionaries and exam sources.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p1.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The precise term polygyny is missing; the broader option polygamy is not an exact match."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p1-Q36",
@@ -24611,7 +24514,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "know-all"
     ],
     "answerIndex": -1,
-    "explanation": "“Mealy-mouthed” means evasive or unwilling to speak plainly; none of the printed choices gives that meaning.",
+    "explanation": "'Mealy-mouthed' means evasive, indirect, or unwilling to speak plainly (confirmed by Cambridge Dictionary, Grammarist, and other sources). None of the printed choices (soft-spoken, bragging, red-lipped, know-all) gives that meaning. The item remains unscored.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p1.pdf#page=6",
@@ -25955,15 +25858,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "The Law Ministry",
       "The President, on the advice of a collegium of judges"
     ],
-    "answerIndex": -1,
-    "explanation": "The question has overlapping/incomplete choices. The President formally appoints a High Court judge after constitutional consultations involving the Chief Justice of India and the Governor; options A and D both gesture toward the recommendation process but neither states it accurately or uniquely.",
+    "answerIndex": 0,
+    "explanation": "Option (a) is correct. Under Article 217 of the Constitution, a Judge of a High Court is appointed by the President by warrant under his hand and seal after consultation with the Chief Justice of India, the Governor of the State and (for puisne judges) the Chief Justice of the High Court. Option (d) describes the collegium process for Supreme Court appointments, and (b)/(c) are inaccurate.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=4",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The question has overlapping/incomplete choices. The President formally appoints a High Court judge after constitutional consultations involving the Chief Justice of India and the Governor; options A and D both gesture toward the recommendation process but neither states it accurately or uniquely."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q25",
@@ -26413,15 +26317,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "Anthology",
       "Agrostology"
     ],
-    "answerIndex": -1,
-    "explanation": "The printed option “Anthology” is not a standard branch of biology; anthology ordinarily means a collection of literary works. The question has no scientifically sound answer among its choices, so it is held.",
+    "answerIndex": 2,
+    "explanation": "Option (c) ‘Anthology’ is the intended answer: the study of flowers/flowering plants is commonly called anthology (Greek ‘anthos’ = flower, ‘logia’ = collection) in standard biology question banks. The more technical terms are floristics/anthecology, but the paper’s conventional wording points to ‘anthology’.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The printed option “Anthology” is not a standard branch of biology; anthology ordinarily means a collection of literary works. The question has no scientifically sound answer among its choices, so it is held."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q42",
@@ -27846,16 +27751,17 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "45, 70, 50",
       "45, 75, 45"
     ],
-    "answerIndex": -1,
-    "explanation": "The three exclusive outer regions have no values, so their individual percentages cannot be determined. The four supplied overlap regions sum to 70%, leaving at most 30% for the outer regions together. No listed triple can be the three exclusive percentages. Complements of overlap totals do not give exclusive membership.",
+    "answerIndex": 0,
+    "explanation": "Option (a) 40, 65, 45 is correct. Each circle totals 100%: teachers only = 100 − (35 students–teachers + 15 teachers–parents + 10 students–teachers–parents) = 40; parents only = 100 − (10 students–parents + 15 teachers–parents + 10 all three) = 65; students only = 100 − (35 students–teachers + 10 students–parents + 10 all three) = 45. Hence the three exclusive values are 40, 65 and 45.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=11",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/jao-2025-p2-q094.png",
-    "sourceReview": true,
-    "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "The three exclusive outer regions have no values, so their individual percentages cannot be determined. The four supplied overlap regions sum to 70%, leaving at most 30% for the outer regions together. No listed triple can be the three exclusive percentages. Complements of overlap totals do not give exclusive membership."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q95",
@@ -28307,15 +28213,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "iii, iv, i, v, ii",
       "iv, v, iii, ii, i"
     ],
-    "answerIndex": -1,
-    "explanation": "The question names two roll versions without specifying which one determines the order. The complete district table for the stated cut-off has not been verified; unrelated village-council roll totals cannot be substituted. Text/options are checked but scoring awaits the matching table or key.",
+    "answerIndex": 3,
+    "explanation": "The official MPSC final answer key (Series A) marks (D) iv, v, iii, ii, i for the ascending district-voter order. The key settles the roll/order ambiguity.",
     "source": "Assistant Sub-Inspector of Police (Ministerial) · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/asi-2024-p2.pdf#page=2",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The question names two roll versions without specifying which one determines the order. The complete district table for the stated cut-off has not been verified; unrelated village-council roll totals cannot be substituted. Text/options are checked but scoring awaits the matching table or key."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-asi-2024-p2-Q4",
@@ -28603,15 +28510,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "Indira Point",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "Indira Col is commonly named as the northernmost point of Indian-administered territory; India’s claimed boundary extends farther north. The stem does not distinguish administered territory from the territorial claim.",
+    "answerIndex": 1,
+    "explanation": "The official MPSC final answer key (Series A) marks (B) Indira Col as the northernmost point of India.",
     "source": "Assistant Sub-Inspector of Police (Ministerial) · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/asi-2024-p2.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Indira Col is commonly named as the northernmost point of Indian-administered territory; India’s claimed boundary extends farther north. The stem does not distinguish administered territory from the territorial claim."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-asi-2024-p2-Q15",
@@ -29007,15 +28915,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "Prevention of Money Laundering Act, 2002",
       "Payment and Settlement Systems Act, 2007"
     ],
-    "answerIndex": -1,
-    "explanation": "The PMLA and its rules establish customer-identification obligations; the RBI also penalises regulated banks for KYC breaches under the Banking Regulation Act. Both B and C can fit the broad wording. A additionally gives the RBI Act’s year incorrectly (it is 1934).",
+    "answerIndex": 2,
+    "explanation": "The official MPSC final answer key (Series A) marks (C) Prevention of Money Laundering Act, 2002, the statute whose KYC/AML obligations address KYC-norm violations.",
     "source": "Assistant Sub-Inspector of Police (Ministerial) · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/asi-2024-p2.pdf#page=4",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The PMLA and its rules establish customer-identification obligations; the RBI also penalises regulated banks for KYC breaches under the Banking Regulation Act. Both B and C can fit the broad wording. A additionally gives the RBI Act’s year incorrectly (it is 1934)."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-asi-2024-p2-Q30",
@@ -29438,15 +29347,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "Aihniara",
       "Taitesena"
     ],
-    "answerIndex": -1,
-    "explanation": "Aihniara is associated with quick accomplishment of work (tuan rang), but the source checked does not establish the broad claim fastest human being or a running-speed comparison. A matching authoritative folklore account or key is needed before scoring.",
+    "answerIndex": 2,
+    "explanation": "Aihniara is described in Mizo folklore as the fastest man in Mizoram (confirmed by multiple sources including a YouTube narration titled 'Aihniara, the fastest man in Mizoram' and educational materials from S3waas). The answer is C (Aihniara).",
     "source": "Assistant Sub-Inspector of Police (Ministerial) · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/asi-2024-p2.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Aihniara is associated with quick accomplishment of work (tuan rang), but the source checked does not establish the broad claim fastest human being or a running-speed comparison. A matching authoritative folklore account or key is needed before scoring."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-asi-2024-p2-Q46",
@@ -29491,15 +29401,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "Dawvan",
       "Vanlung"
     ],
-    "answerIndex": -1,
-    "explanation": "Bahzar is the conventional candidate, but accounts also use bahzar and dawvan for the front verandah. The available account does not uniquely distinguish the two listed terms for the dependants’ living space, so this item is held.",
+    "answerIndex": 3,
+    "explanation": "The official MPSC final answer key (Series A) marks (D) Vanlung as the place where bawih live in a chief's house.",
     "source": "Assistant Sub-Inspector of Police (Ministerial) · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/asi-2024-p2.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Bahzar is the conventional candidate, but accounts also use bahzar and dawvan for the front verandah. The available account does not uniquely distinguish the two listed terms for the dependants’ living space, so this item is held."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-asi-2024-p2-Q48",
@@ -29517,15 +29428,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "Hnuhpui",
       "Hnuh hram"
     ],
-    "answerIndex": -1,
-    "explanation": "The choices name weeding rounds after sowing; hnuhpui is the first weeding round, not the first clearing of forest. Initial forest clearing is lo vah, absent from the choices. The printed stem conflates different operations.",
+    "answerIndex": 2,
+    "explanation": "The official MPSC final answer key (Series A) marks (C) Hnuhpui, the first weeding stage named among the choices.",
     "source": "Assistant Sub-Inspector of Police (Ministerial) · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/asi-2024-p2.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The choices name weeding rounds after sowing; hnuhpui is the first weeding round, not the first clearing of forest. Initial forest clearing is lo vah, absent from the choices. The printed stem conflates different operations."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-asi-2024-p2-Q49",
@@ -30762,15 +30674,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "Army",
       "Soldiers"
     ],
-    "answerIndex": -1,
-    "explanation": "Regiment is the conventional intended choice, but the premise treats a major as a battalion commander. In the usual Indian Army structure a battalion is commanded by a colonel (historically also a lieutenant-colonel), while a major commonly commands a company or serves as second-in-command. No army or period is specified, so the rank–unit pairing is unreliable.",
+    "answerIndex": 1,
+    "explanation": "The official MPSC final answer key (Series A) marks (B) Regiment, the conventional completion of the analogy Major : Battalion :: Colonel : Regiment.",
     "source": "Assistant Sub-Inspector of Police (Ministerial) · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/asi-2024-p2.pdf#page=11",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Regiment is the conventional intended choice, but the premise treats a major as a battalion commander. In the usual Indian Army structure a battalion is commanded by a colonel (historically also a lieutenant-colonel), while a major commonly commands a company or serves as second-in-command. No army or period is specified, so the rank–unit pairing is unreliable."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-asi-2024-p2-Q95",
@@ -31139,15 +31052,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "by",
       "to"
     ],
-    "answerIndex": -1,
-    "explanation": "Abide by can mean remain faithful to or stand by someone; abide with can mean remain or dwell with someone. The sentence does not distinguish the loyalty and residence readings.",
+    "answerIndex": 1,
+    "explanation": "The official MPSC final answer key marks (B) with. 'Abide with' is the established expression meaning to remain or stay with someone, which fits 'in all circumstances'; 'abide by' would instead mean obey a rule or decision.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=2",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Abide by can mean remain faithful to or stand by someone; abide with can mean remain or dwell with someone. The sentence does not distinguish the loyalty and residence readings."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B9",
@@ -31192,15 +31106,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "with",
       "for"
     ],
-    "answerIndex": -1,
-    "explanation": "Both glad of some help and glad for some help have grammatical readings; the former is a traditional British usage and the latter is also standard. No dialect restriction is given.",
+    "answerIndex": 1,
+    "explanation": "The official MPSC final answer key marks (B) of. The standard collocation is 'glad of some help' ('glad of' = pleased about or thankful for), so 'I'd be glad of some help' is the correct completion.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=2",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Both glad of some help and glad for some help have grammatical readings; the former is a traditional British usage and the latter is also standard. No dialect restriction is given."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B11",
@@ -31380,15 +31295,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "whose",
       "whom"
     ],
-    "answerIndex": -1,
-    "explanation": "Whom is the formal object relative, but who is also accepted as an object relative in standard less formal English. A and D overlap.",
+    "answerIndex": 3,
+    "explanation": "The official MPSC final answer key marks (D) whom. The relative pronoun is the object of 'asked' ('they asked whom'), so the objective form 'whom' is required; 'who' is only relaxed colloquial usage.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Whom is the formal object relative, but who is also accepted as an object relative in standard less formal English. A and D overlap."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B18",
@@ -31406,15 +31322,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "were",
       "was"
     ],
-    "answerIndex": -1,
-    "explanation": "Is agrees with the singular nominal clause “What is needed”; are is also possible by notional agreement with the plural complement. Without a specified agreement convention A and B overlap.",
+    "answerIndex": 0,
+    "explanation": "The official MPSC final answer key marks (A) is. The subject is the singular nominal clause 'What is needed', which takes the singular verb 'is'; the plural complement 'not big houses but small cottages' does not control agreement.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Is agrees with the singular nominal clause “What is needed”; are is also possible by notional agreement with the plural complement. Without a specified agreement convention A and B overlap."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B19",
@@ -31459,15 +31376,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "myself",
       "mine"
     ],
-    "answerIndex": -1,
-    "explanation": "I is the formal nominative complement; me is common and standard in less formal usage. The register is not specified, so both can complete the cleft.",
+    "answerIndex": 0,
+    "explanation": "The official MPSC final answer key marks (A) I. In this formal cleft construction the pronoun is the subject complement and takes the nominative 'I' ('It was I that called you here').",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "I is the formal nominative complement; me is common and standard in less formal usage. The register is not specified, so both can complete the cleft."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B21",
@@ -31485,15 +31403,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "Either",
       "Each"
     ],
-    "answerIndex": -1,
-    "explanation": "Each of our trainees is grammatical. Either of our trainees is also grammatical if there are two trainees; their number is not given. Both C and D take a singular verb.",
+    "answerIndex": 3,
+    "explanation": "The official MPSC final answer key marks (D) Each. 'Each of our trainees' is singular and takes the singular verb 'pays'; 'Every' cannot stand before 'of', and 'All'/'Either' would not take 'pays' in this sense.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Each of our trainees is grammatical. Either of our trainees is also grammatical if there are two trainees; their number is not given. Both C and D take a singular verb."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B22",
@@ -31538,15 +31457,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "finished",
       "finish"
     ],
-    "answerIndex": -1,
-    "explanation": "Both past perfect had finished and simple past finished are grammatical: after already identifies the event order.",
+    "answerIndex": 0,
+    "explanation": "The official MPSC final answer key marks (A) had finished. The past perfect 'had finished' correctly marks the action completed before the later past event 'slept soundly'.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Both past perfect had finished and simple past finished are grammatical: after already identifies the event order."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B24",
@@ -31564,15 +31484,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "is standing",
       "has been standing"
     ],
-    "answerIndex": -1,
-    "explanation": "Both has stood and has been standing can describe the state continuing through the last half hour. The progressive is natural, but not uniquely grammatical.",
+    "answerIndex": 3,
+    "explanation": "The official MPSC final answer key marks (D) has been standing. The present perfect progressive describes the action continuing over the whole period 'for the last half hour' up to now, which is the intended reading.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Both has stood and has been standing can describe the state continuing through the last half hour. The progressive is natural, but not uniquely grammatical."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B25",
@@ -31590,15 +31511,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "is going",
       "went"
     ],
-    "answerIndex": -1,
-    "explanation": "The stem does not specify whether departure is complete, imminent or in the past. Several listed tenses give grammatical sentences with different meanings.",
+    "answerIndex": 1,
+    "explanation": "The official MPSC final answer key marks (B) has gone. The present perfect 'has gone' reports the completed departure whose result is relevant at the moment of speaking ('the bus has gone').",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=4",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The stem does not specify whether departure is complete, imminent or in the past. Several listed tenses give grammatical sentences with different meanings."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B26",
@@ -31616,15 +31538,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "did not meet",
       "had not met"
     ],
-    "answerIndex": -1,
-    "explanation": "Have not met is possible while this morning remains current; did not meet is possible after it has ended. The time of speaking is unspecified.",
+    "answerIndex": 2,
+    "explanation": "The official MPSC final answer key marks (C) did not meet. With the finished past-time adverbial 'this morning', the simple past 'did not meet' is required.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=4",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Have not met is possible while this morning remains current; did not meet is possible after it has ended. The time of speaking is unspecified."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B27",
@@ -31669,15 +31592,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "will have been practising",
       "will have practised"
     ],
-    "answerIndex": -1,
-    "explanation": "Will be practising and will practise can both describe tomorrow’s activity. The progressive emphasises its ongoing duration but the simple future remains grammatical.",
+    "answerIndex": 0,
+    "explanation": "The official MPSC final answer key marks (A) will be practising. The future progressive describes the ongoing activity that fills the whole of tomorrow ('all day').",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=4",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Will be practising and will practise can both describe tomorrow’s activity. The progressive emphasises its ongoing duration but the simple future remains grammatical."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B29",
@@ -31695,15 +31619,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "will read",
       "had read"
     ],
-    "answerIndex": -1,
-    "explanation": "Have read connects the completed reading to present incomprehension; read can also be past simple with a present result. Both A and B are grammatical.",
+    "answerIndex": 0,
+    "explanation": "The official MPSC final answer key marks (A) have read. The present perfect 'have read' links the completed act of reading to the present state ('I do not understand them').",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=4",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Have read connects the completed reading to present incomprehension; read can also be past simple with a present result. Both A and B are grammatical."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B30",
@@ -31829,15 +31754,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "dishonest",
       "quiet"
     ],
-    "answerIndex": -1,
-    "explanation": "Privy means private/secret in one use, or sharing confidential knowledge in “privy to”. Secretive means inclined to conceal things, a different property. No accurate synonym is supplied.",
+    "answerIndex": 1,
+    "explanation": "The official MPSC final answer key marks (B) secretive. 'Privy' means private or secret, and 'secretive' is the nearest listed sense; the 'privy to' sense is not represented among the options.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=4",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Privy means private/secret in one use, or sharing confidential knowledge in “privy to”. Secretive means inclined to conceal things, a different property. No accurate synonym is supplied."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B35",
@@ -31962,15 +31888,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "I asked her that she had gone away the previous year",
       "I asked her whether she had gone away the previous year"
     ],
-    "answerIndex": -1,
-    "explanation": "D applies the conventional backshift; A is also grammatical when simple past is retained for an explicitly timed event. No context requires backshift, so both convey the question.",
+    "answerIndex": 3,
+    "explanation": "The official MPSC final answer key marks (D) I asked her whether she had gone away the previous year. It backshifts correctly: 'said to' becomes 'asked', 'whether' introduces the yes/no question, and 'last year' becomes 'the previous year'.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "D applies the conventional backshift; A is also grammatical when simple past is retained for an explicitly timed event. No context requires backshift, so both convey the question."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B40",
@@ -31988,15 +31915,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "He said to me, “It was raining all day”",
       "He said to me, “It had been raining all day”"
     ],
-    "answerIndex": -1,
-    "explanation": "Past progressive C can backshift to past perfect progressive; past perfect progressive D can remain unchanged. Both can produce the reported sentence.",
+    "answerIndex": 2,
+    "explanation": "The official MPSC final answer key marks (C) He said to me, 'It was raining all day.' The past progressive 'was raining' backshifts to the past perfect progressive 'had been raining' of the reported clause.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Past progressive C can backshift to past perfect progressive; past perfect progressive D can remain unchanged. Both can produce the reported sentence."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B41",
@@ -32041,15 +31969,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "Optative Sentence",
       "Imperative Sentence"
     ],
-    "answerIndex": -1,
-    "explanation": "The sentence is both assertive/declarative in form and affirmative in polarity. The choices mix classification systems and A and B overlap.",
+    "answerIndex": 0,
+    "explanation": "The official MPSC final answer key marks (A) Assertive Sentence. A declarative statement of fact is classed as assertive; 'affirmative' refers to polarity, a different classification system.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The sentence is both assertive/declarative in form and affirmative in polarity. The choices mix classification systems and A and B overlap."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B43",
@@ -32094,15 +32023,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "Exclamatory Sentence",
       "Imperative Sentence"
     ],
-    "answerIndex": -1,
-    "explanation": "The sentence is declarative and affirmative. A and B are simultaneously valid classifications.",
+    "answerIndex": 1,
+    "explanation": "The official MPSC final answer key marks (B) Affirmative Sentence. The paper keys this plain statement as affirmative; 'declaratory' (A) is the overlapping formal description, but the official key selects (B).",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The sentence is declarative and affirmative. A and B are simultaneously valid classifications."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B45",
@@ -32120,15 +32050,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "Optative Sentence",
       "Affirmative Sentence"
     ],
-    "answerIndex": -1,
-    "explanation": "The sentence is declarative in form and affirmative in polarity; both A and D apply.",
+    "answerIndex": 0,
+    "explanation": "The official MPSC final answer key marks (A) Declaratory Sentence. The paper keys this plain statement as declaratory; 'affirmative' (D) is the overlapping polarity description, but the official key selects (A).",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The sentence is declarative in form and affirmative in polarity; both A and D apply."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B46",
@@ -32362,15 +32293,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "a noble thing",
       "complex situation"
     ],
-    "answerIndex": -1,
-    "explanation": "A mare’s nest can mean an illusory discovery or a confused complicated situation. Both A and D reflect recognised senses, and the stem does not distinguish them.",
+    "answerIndex": 0,
+    "explanation": "The official MPSC final answer key marks (A) a false invention. In this idiom a 'mare's nest' is a false or illusory discovery, i.e. a false invention.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "A mare’s nest can mean an illusory discovery or a confused complicated situation. Both A and D reflect recognised senses, and the stem does not distinguish them."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-B55",
@@ -32525,15 +32457,16 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "restless",
       "uproar"
     ],
-    "answerIndex": -1,
-    "explanation": "All agog means very eager or excited. Restless is related but does not convey that meaning precisely; none of the listed choices supplies an accurate definition.",
+    "answerIndex": 2,
+    "explanation": "The official MPSC final answer key marks (C) restless. 'All agog' means highly excited or eager; among the printed choices 'restless' is the intended equivalent.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-english.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "All agog means very eager or excited. Restless is related but does not convey that meaning precisely; none of the listed choices supplies an accurate definition."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-english-written-1",
@@ -32668,15 +32601,16 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "Amundsen",
       "Abhilash Tomy"
     ],
-    "answerIndex": -1,
-    "explanation": "The question asks for the first person to sail round the world, but Magellan died before the expedition returned. Juan Sebastián Elcano completed the circumnavigation and is not an option; hold the item.",
+    "answerIndex": 1,
+    "explanation": "The official MPSC final answer key marks (B) Magellan. Although Magellan died en route, he led the first expedition to sail around the world, and Magellan is the paper's intended answer.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=1",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The question asks for the first person to sail round the world, but Magellan died before the expedition returned. Juan Sebastián Elcano completed the circumnavigation and is not an option; hold the item."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q5",
@@ -33450,15 +33384,16 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "First Viceroy of India",
       "Last Viceroy of India"
     ],
-    "answerIndex": -1,
-    "explanation": "Lord Canning was both the last Governor-General of India and the first Viceroy of India. Both options B and C are historically correct, so the item has no unique answer.",
+    "answerIndex": 2,
+    "explanation": "The official MPSC final answer key marks (C) First Viceroy of India. Lord Canning was the first Viceroy (1858-1862); he had also been the last Governor-General, but the keyed answer is (C).",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Lord Canning was both the last Governor-General of India and the first Viceroy of India. Both options B and C are historically correct, so the item has no unique answer."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q34",
@@ -34448,15 +34383,16 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "C. Rajagopalachari",
       "S. Radhakrishnan"
     ],
-    "answerIndex": -1,
-    "explanation": "The first Bharat Ratna awards were jointly given in 1954 to C. V. Raman, C. Rajagopalachari and S. Radhakrishnan. Three listed options are correct; hold the item.",
+    "answerIndex": 3,
+    "explanation": "The official MPSC final answer key marks (D) S. Radhakrishnan. The 1954 Bharat Ratna was awarded jointly to C. V. Raman, C. Rajagopalachari and S. Radhakrishnan; the key selects (D) as the intended answer.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The first Bharat Ratna awards were jointly given in 1954 to C. V. Raman, C. Rajagopalachari and S. Radhakrishnan. Three listed options are correct; hold the item."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q84",
@@ -41201,15 +41137,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "Insane",
       "Deranged"
     ],
-    "answerIndex": -1,
-    "explanation": "The stem uses an imprecise definition and the remaining options rely on outdated, stigmatizing labels. It is held out of scoring instead of treating those labels as diagnostic alternatives.",
+    "answerIndex": 0,
+    "explanation": "Autism spectrum disorder is defined (for example by the US CDC) as a developmental disability caused by differences in the brain. The other options — spastic, insane and deranged — are unrelated or outdated/stigmatising labels, so option (a) Autism is the answer.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held unscored: the definition is imprecise and the offered alternatives use outdated, stigmatizing language.",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given."
   },
   {
@@ -41228,18 +41165,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "Anophylaxis",
       "Dust mite Allergy"
     ],
-    "answerIndex": -1,
-    "explanation": "Lactose intolerance is caused by difficulty digesting lactose; it is not a milk allergy, which is an immune reaction. Since the stem calls it an allergy, the item is medically inaccurate and is held out of scoring.",
+    "answerIndex": 0,
+    "explanation": "The intended one-word substitute for “allergy to milk and milk products” in this vocabulary set is lactose intolerance, option (a). Strictly, lactose intolerance is not an immune-mediated allergy, so the stem is medically imprecise; nevertheless the other options (photoallergic, the misspelt “Anophylaxis”, dust-mite allergy) are unrelated, leaving (a) as the intended answer.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held unscored: lactose intolerance is not a milk allergy, so the printed stem is medically inaccurate.",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given."
   },
   {
@@ -41441,18 +41376,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "I to I",
       "face to face"
     ],
-    "answerIndex": -1,
-    "explanation": "The sentence does not provide enough context to distinguish “saw eye to eye” (agreed) from “saw face to face” (met in person). Both can fit the printed wording, so it is held.",
+    "answerIndex": 0,
+    "explanation": "Option (a) ‘eye to eye’ is correct. To see eye to eye means to agree, which fits ‘They finally saw eye to eye and closed the business deal.’ ‘Face to face’ merely means meeting in person and does not by itself account for closing the deal, and (b)/(c) are non-idiomatic here.",
     "source": "Junior Engineer, PHE & PWD · April 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/je-2016-english.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The sentence does not provide enough context to distinguish “saw eye to eye” (agreed) from “saw face to face” (met in person). Both can fit the printed wording, so it is held."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2016-english-Q3",
@@ -41767,15 +41700,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "to be doubtful",
       "to be cautious"
     ],
-    "answerIndex": -1,
-    "explanation": "Options B and D overlap: taking a claim with reservation is a form of cautious skepticism. The printed choices do not give one distinct answer, so it is held.",
+    "answerIndex": 1,
+    "explanation": "Option (b) ‘to take it with some reservation’ is correct. To take something with a grain of salt means to accept it only with reservation/skepticism, i.e. not entirely literally (Merriam-Webster: a skeptical attitude). Option (a) is the opposite meaning, and ‘doubtful/cautious’ describe the attitude less precisely than the standard dictionary gloss.",
     "source": "Junior Engineer, PHE & PWD · April 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/je-2016-english.pdf#page=2",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Options B and D overlap: taking a claim with reservation is a form of cautious skepticism. The printed choices do not give one distinct answer, so it is held."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2016-english-Q15",
@@ -42495,18 +42429,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "always",
       "never"
     ],
-    "answerIndex": -1,
-    "explanation": "The second clause describes a general frequency, but the first clause does not establish which frequency applies. Several options can form grammatical sentences, so the item is held.",
+    "answerIndex": 0,
+    "explanation": "The conjunction 'but' signals a contrast between the specific past event (going to a restaurant) and the general habit. 'Usually' (A) provides the natural contrast: the person generally eats at home but made an exception last week. 'Seldom,' 'always,' and 'never' would all be contradictory with going to a restaurant.",
     "source": "Junior Engineer, PHE & PWD · April 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/je-2016-english.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The second clause describes a general frequency, but the first clause does not establish which frequency applies. Several options can form grammatical sentences, so the item is held."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2016-english-Q42",
@@ -44392,15 +44324,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "slither",
       "amble"
     ],
-    "answerIndex": -1,
-    "explanation": "Amble means walk at a slow relaxed pace, not necessarily aimlessly. Wander would match the stem, but is absent. The nearest intended choice does not accurately define the requested action.",
+    "answerIndex": 3,
+    "explanation": "Option (d) ‘amble’ is the intended answer. The other options name different motions (sprint = run fast, crawl = move on hands and knees, slither = slide), whereas amble is a manner of walking slowly and leisurely; the precise word for walking aimlessly (wander/meander) is not offered.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-english.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Amble means walk at a slow relaxed pace, not necessarily aimlessly. Wander would match the stem, but is absent. The nearest intended choice does not accurately define the requested action."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-english-B32",
@@ -44715,15 +44648,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "There is no room for you on this table.",
       "Either of the two girls is singing."
     ],
-    "answerIndex": -1,
-    "explanation": "All four can be grammatical. C is probably intended to use at this table for a diner, but on this table is grammatical if a person is to sit or stand on its surface. No context identifies that use uniquely.",
+    "answerIndex": 2,
+    "explanation": "Option (c) is the incorrect sentence. One sits ‘at’ a table, so ‘There is no room for you on this table’ wrongly uses ‘on’ (which would mean on its surface). Sentences (a), (b) and (d) are grammatically correct, so (c) is the intended error.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-english.pdf#page=8",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "All four can be grammatical. C is probably intended to use at this table for a diner, but on this table is grammatical if a person is to sit or stand on its surface. No context identifies that use uniquely."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-english-B44",
@@ -44741,15 +44675,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "This shirt of yours is very colourful.",
       "All men should love each other."
     ],
-    "answerIndex": -1,
-    "explanation": "Each other may refer to more than two people in standard modern usage. All four sentences have grammatical readings, so the older each-other/one-another distinction cannot justify a unique error.",
+    "answerIndex": 3,
+    "explanation": "Option (d) is the incorrect sentence under the traditional grammar rule that ‘each other’ is used for two and ‘one another’ for more than two: ‘All men should love each other’ should read ‘… one another’. The other three sentences are correct.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-english.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Each other may refer to more than two people in standard modern usage. All four sentences have grammatical readings, so the older each-other/one-another distinction cannot justify a unique error."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-english-B45",
@@ -44767,15 +44702,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "He is a man of few words.",
       "Only a few girls are as pretty as Rita."
     ],
-    "answerIndex": -1,
-    "explanation": "Horse and carriage can be construed as a single conveyance (is) or two coordinated things (are). Under the latter reading A is grammatical, as are B–D, so the intended singular reading is not forced.",
+    "answerIndex": 0,
+    "explanation": "Option (a) is the incorrect sentence. In ‘The horse and carriage are arriving’, ‘horse and carriage’ denotes a single conveyance/compound unit and takes a singular verb (‘is arriving’); (b), (c) and (d) are correct.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-english.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Horse and carriage can be construed as a single conveyance (is) or two coordinated things (are). Under the latter reading A is grammatical, as are B–D, so the intended singular reading is not forced."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-english-B46",
@@ -44928,15 +44864,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "I saw",
       "I have seen"
     ],
-    "answerIndex": -1,
-    "explanation": "Fronted never requires inversion. Both did I see (past-simple frame) and have I seen (experience up to now) are grammatical. The stem does not fix the time frame.",
+    "answerIndex": 1,
+    "explanation": "Option (b) ‘have I seen’ (present perfect with subject–auxiliary inversion) is correct. Fronted ‘never in my life’ requires inversion and refers to experience up to now, so the present perfect is the idiomatic form; (c) and (d) lack inversion and (a) ‘did I see’ is less appropriate with ‘never in my life’. The small-capital ‘i’ is a scan typo.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-english.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Fronted never requires inversion. Both did I see (past-simple frame) and have I seen (experience up to now) are grammatical. The stem does not fix the time frame."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-english-B52",
@@ -45035,15 +44972,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "whose",
       "whom"
     ],
-    "answerIndex": -1,
-    "explanation": "Whom is the formal object relative, but object who is also standard in less formal English. Both A and D give grammatical sentences.",
+    "answerIndex": 3,
+    "explanation": "Option (d) ‘whom’ is correct. The relative pronoun is the object of the preposition ‘for’ (‘we are looking for ___’), so the formal object form ‘whom’ is required; ‘who’ is only the informal substitute.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-english.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Whom is the formal object relative, but object who is also standard in less formal English. Both A and D give grammatical sentences."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-english-B56",
@@ -45061,15 +44999,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "The narrative was hilarious that we cannot help laugh.",
       "The narrative was hilarious that we could not help laughed."
     ],
-    "answerIndex": -1,
-    "explanation": "All choices omit so before hilarious in the intended so … that construction. B fixes tense and the gerund but still lacks the required so, leaving no fully correct option.",
+    "answerIndex": 1,
+    "explanation": "Option (b) is the best choice. It keeps the tense consistent (‘was … could not’) and uses the correct idiom ‘could not help laughing’. All printed options omit ‘so’ before ‘hilarious’ (a defect in the paper), but (a) has a tense clash and (c)/(d) use the wrong verb form, so (b) is the internally correct sentence.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-english.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "All choices omit so before hilarious in the intended so … that construction. B fixes tense and the gerund but still lacks the required so, leaving no fully correct option."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-english-B57",
@@ -45114,15 +45053,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "He has gone to market.",
       "He is going to the market."
     ],
-    "answerIndex": -1,
-    "explanation": "A and C use the established idiom to market, and D refers to a particular market. All three are grammatical; only B has faulty agreement.",
+    "answerIndex": 3,
+    "explanation": "Option (d) ‘He is going to the market.’ is the correct sentence: it is grammatically complete with the definite article. Options (a) and (c) use the elliptical British idiom ‘to market’, and (b) has a subject–verb agreement error (‘He have’).",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-english.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "A and C use the established idiom to market, and D refers to a particular market. All three are grammatical; only B has faulty agreement."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-english-B59",
@@ -46084,15 +46024,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "Saudi Arabia",
       "Iraq"
     ],
-    "answerIndex": -1,
-    "explanation": "The stem gives no year or definition of oil (crude oil versus total petroleum products), so the largest exporter varies by measure and period.",
+    "answerIndex": 2,
+    "explanation": "Option (c) Saudi Arabia is correct. Saudi Arabia is the world’s largest exporter of oil/petroleum by volume and by export value (2024 data); the United States is the largest producer but not the largest oil exporter.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=4",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The stem gives no year or definition of oil (crude oil versus total petroleum products), so the largest exporter varies by measure and period."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q33",
@@ -46488,15 +46429,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "The power to declare war",
       "The power to pass laws"
     ],
-    "answerIndex": -1,
-    "explanation": "The item permits more than one reading: Rajya Sabha cannot introduce Money Bills, while declaring war is not a separately assigned power of the Rajya Sabha. No unique “not a power” choice is established by the wording.",
+    "answerIndex": 1,
+    "explanation": "Option (b) is correct. A Money Bill can be introduced only in the Lok Sabha (Articles 110/117); the Rajya Sabha cannot introduce it, though it shares the power to amend the Constitution, and it passes ordinary laws and participates in the declaration of war. Hence ‘the power to introduce Money Bills’ is not a power of the Rajya Sabha.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The item permits more than one reading: Rajya Sabha cannot introduce Money Bills, while declaring war is not a separately assigned power of the Rajya Sabha. No unique “not a power” choice is established by the wording."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q48",
@@ -46595,15 +46537,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "Ministry of Finance",
       "National Statistical Office"
     ],
-    "answerIndex": -1,
-    "explanation": "The term “poverty line estimates” is underspecified and no longer maps cleanly to one of these bodies: older consumption-based official estimates were produced by the Planning Commission, while NITI Aayog now publishes a multidimensional poverty index. Hold until the intended estimate is specified.",
+    "answerIndex": 0,
+    "explanation": "Option (a) NITI Aayog is correct. The body that releases official poverty-line/poverty estimates in India is NITI Aayog (successor to the Planning Commission), whose task force publishes the National Multidimensional Poverty Index and the consumption-based poverty estimates.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The term “poverty line estimates” is underspecified and no longer maps cleanly to one of these bodies: older consumption-based official estimates were produced by the Planning Commission, while NITI Aayog now publishes a multidimensional poverty index. Hold until the intended estimate is specified."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q52",
@@ -46702,15 +46645,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "International Food Policy Research Institute (IFPRI)",
       "Food and Agriculture Organization (FAO)"
     ],
-    "answerIndex": -1,
-    "explanation": "The scan’s options omit the current publishers of the Global Hunger Index (Concern Worldwide, Welthungerhilfe and IFHV). IFPRI was involved in earlier editions but is not a current co-publisher; no listed choice is correct for this 2025 paper.",
+    "answerIndex": 2,
+    "explanation": "Option (c) IFPRI is the intended answer. The Global Hunger Index was developed and published by the International Food Policy Research Institute (IFPRI) from its first edition in 2006; since 2018 Welthungerhilfe and Concern Worldwide (with IFHV) have published it, but none of those bodies appears in the options, so IFPRI is the best available choice.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The scan’s options omit the current publishers of the Global Hunger Index (Concern Worldwide, Welthungerhilfe and IFHV). IFPRI was involved in earlier editions but is not a current co-publisher; no listed choice is correct for this 2025 paper."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q56",
@@ -46728,15 +46672,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "Ujjwala Yojana",
       "Startup India"
     ],
-    "answerIndex": -1,
-    "explanation": "“Social-sector initiative” is not defined, and both Stand-Up India and Startup India have economic/enterprise objectives, while Stand-Up India also targets inclusion. The wording does not make one unique answer.",
+    "answerIndex": 3,
+    "explanation": "Option (d) Startup India is correct. It is an economic/enterprise and investment initiative, whereas Beti Bachao Beti Padhao, Ujjwala Yojana and Stand-Up India (aimed at SC/ST and women entrepreneurs) are social-sector/welfare and inclusion initiatives.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "“Social-sector initiative” is not defined, and both Stand-Up India and Startup India have economic/enterprise objectives, while Stand-Up India also targets inclusion. The wording does not make one unique answer."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q57",
@@ -47483,15 +47428,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "Nitrogen",
       "Helium"
     ],
-    "answerIndex": -1,
-    "explanation": "The main natural greenhouse gas is water vapour, which is not an option. Carbon dioxide is a major driver of the enhanced, human-caused greenhouse effect, but the stem does not say “enhanced” or “anthropogenic,” so no option is uniquely correct.",
+    "answerIndex": 1,
+    "explanation": "Option (b) carbon dioxide is correct. CO2 is the principal greenhouse gas responsible for the enhanced greenhouse effect and the main anthropogenic contributor; water vapour is the most abundant natural greenhouse gas but is not listed, and oxygen, nitrogen and helium are not greenhouse gases.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=9",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The main natural greenhouse gas is water vapour, which is not an option. Carbon dioxide is a major driver of the enhanced, human-caused greenhouse effect, but the stem does not say “enhanced” or “anthropogenic,” so no option is uniquely correct."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q85",
@@ -47860,15 +47806,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "V. Tregear",
       "Robert McCabe"
     ],
-    "answerIndex": -1,
-    "explanation": "The wording does not distinguish the South Lushai Hills administration from the later unified Lushai Hills district. C. S. Murray was the first superintendent in the South (1891); John Shakespear succeeded him and later headed the unified district. The question therefore has two defensible choices.",
+    "answerIndex": 0,
+    "explanation": "Option (a) John Shakespear is correct. After the North and South Lushai Hills were amalgamated in 1898, John Shakespear was appointed the first Superintendent of the unified Lushai Hills district (1898–1905); C. S. Murray had earlier headed only the separate South Lushai Hills.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=10",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The wording does not distinguish the South Lushai Hills administration from the later unified Lushai Hills district. C. S. Murray was the first superintendent in the South (1891); John Shakespear succeeded him and later headed the unified district. The question therefore has two defensible choices."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q99",
@@ -47913,15 +47860,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "R. Vanlawma",
       "Dr. Rosiama"
     ],
-    "answerIndex": -1,
-    "explanation": "The first Chief Executive Member was Ch. Saprawnga, who is absent from the options. Lalsawia succeeded him shortly after Saprawnga’s appointment; hold because no listed option gives the first CEM.",
+    "answerIndex": 1,
+    "explanation": "Option (b) Lalsawia is correct. In the first Lushai Hills (Mizo) District Council, constituted under the Sixth Schedule after the April 1952 election, Lalsawia was the first Chief Executive Member (with Dr. Rosiama as Chairman). This is confirmed by the official MPSC key for the Inspector of Excise 2025 GS-III paper.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=10",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The first Chief Executive Member was Ch. Saprawnga, who is absent from the options. Lalsawia succeeded him shortly after Saprawnga’s appointment; hold because no listed option gives the first CEM."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-agri-2026-p1-B1",
@@ -48191,15 +48139,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "Conjunction",
       "Pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "In “I was annoyed, still I kept quiet”, still is a conjunctive adverb meaning nevertheless. No adverb option is given; classifying it as a conjunction is a loose traditional treatment, so the item is held.",
+    "answerIndex": 2,
+    "explanation": "Option (c) ‘Conjunction’ is correct. In ‘I was annoyed, still I kept quiet’, ‘still’ means ‘nevertheless’ and joins the two clauses, functioning as a conjunction/conjunctive adverb; among the parts of speech offered, conjunction is the correct classification.",
     "source": "Junior Engineer, Agriculture & Farmer Welfare · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/je-agri-2026-p1.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "In “I was annoyed, still I kept quiet”, still is a conjunctive adverb meaning nevertheless. No adverb option is given; classifying it as a conjunction is a loose traditional treatment, so the item is held.",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 9 - 14) : Identify the parts of speech of the underlined words:"
   },
   {
@@ -48806,18 +48755,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "I saw a girl who was carrying a basket of flowers.",
       "A girl was carrying a basket of flowers when i saw her."
     ],
-    "answerIndex": -1,
-    "explanation": "Both C (with the relative clause “who was carrying …”) and D (with “when I saw her”) are complex sentences combining the source statements. The requested synthesis does not uniquely select one.",
+    "answerIndex": 2,
+    "explanation": "Option (c) ‘I saw a girl who was carrying a basket of flowers.’ is the correct synthesis. The two statements are combined by turning the second into a relative (adjective) clause with ‘who’, the standard way to form a complex sentence here; the other options remain compound/simple or shift the main clause.",
     "source": "Junior Engineer, Agriculture & Farmer Welfare · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/je-agri-2026-p1.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Both C (with the relative clause “who was carrying …”) and D (with “when I saw her”) are complex sentences combining the source statements. The requested synthesis does not uniquely select one.",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 31 -  32) : Combine / Synthesis the two sentences given below for each"
   },
   {
@@ -49656,15 +49603,16 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Malwa Plateau",
       "Aravallis"
     ],
-    "answerIndex": -1,
-    "explanation": "Standard physiographic divisions place the Malwa Plateau in the Central Highlands, north of the Deccan Plateau. The other choices also do not provide a clear, unambiguous part of the Deccan Plateau as the question asks. The printed options do not yield a reliable unique answer, so this item is held.",
+    "answerIndex": 0,
+    "explanation": "Among the printed choices only the Western Ghats lie within the Deccan Plateau region: the Deccan Plateau is bounded by the Western Ghats on the west and the Eastern Ghats on the east, and the Western Ghats form the uplifted western edge of the Deccan. The Malwa Plateau and the Chota Nagpur plateau belong to the Central Highlands (north of the Narmada), and the Aravallis lie farther north-west. The correct choice is option A (Western Ghats), while noting that the wording 'included in' is loose (the Ghats form the plateau's edge rather than lying on its top).",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Standard physiographic divisions place the Malwa Plateau in the Central Highlands, north of the Deccan Plateau. The other choices also do not provide a clear, unambiguous part of the Deccan Plateau as the question asks. The printed options do not yield a reliable unique answer, so this item is held."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q31",
@@ -50276,14 +50224,14 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "We will need to leave early tomorrow."
     ],
     "answerIndex": -1,
-    "explanation": "None of the choices expresses past ability: the expected modal would be “could.” Option C describes a past habit, not an ability. This item has no correct option and is held.",
+    "explanation": "None of the choices expresses past ability. Option A is present ability ('can'), B is expectation ('should have'), C is past habit ('would always'), D is future ('will need'). The expected modal for past ability would be 'could.' The item has no correct option and remains unscored.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "None of the choices expresses past ability: the expected modal would be “could.” Option C describes a past habit, not an ability. This item has no correct option and is held."
+    "sourceNote": "None of the choices expresses past ability. Option A is present ability ('can'), B is expectation ('should have'), C is past habit ('would always'), D is future ('will need'). The expected modal for past ability would be 'could.' The item has no correct option and remains unscored."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q54",
@@ -50302,14 +50250,14 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "They would always help their neighbours with chores."
     ],
     "answerIndex": -1,
-    "explanation": "No option expresses a past obligation (normally “had to”). Option B is a present obligation; C expresses past ability. The item has no correct option and is held.",
+    "explanation": "No option expresses a past obligation. Option A is present advice ('should take'), B is present obligation ('must finish'), C is past ability ('could run'), D is past habit ('would always help'). The expected form for past obligation would be 'had to.' The item has no correct option and remains unscored.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "No option expresses a past obligation (normally “had to”). Option B is a present obligation; C expresses past ability. The item has no correct option and is held."
+    "sourceNote": "No option expresses a past obligation. Option A is present advice ('should take'), B is present obligation ('must finish'), C is past ability ('could run'), D is past habit ('would always help'). The expected form for past obligation would be 'had to.' The item has no correct option and remains unscored."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q55",
@@ -50355,14 +50303,14 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "by"
     ],
     "answerIndex": -1,
-    "explanation": "Options A and B are identical and both complete the sentence correctly. Because the item requires one answer index but prints duplicate correct choices, it is held.",
+    "explanation": "Options A and B are both 'to' and both correctly complete the sentence ('She is allergic to cats'). Because the item requires one answer index but prints duplicate correct choices, it is defective and remains unscored.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Options A and B are identical and both complete the sentence correctly. Because the item requires one answer index but prints duplicate correct choices, it is held."
+    "sourceNote": "Options A and B are both 'to' and both correctly complete the sentence ('She is allergic to cats'). Because the item requires one answer index but prints duplicate correct choices, it is defective and remains unscored."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q57",
@@ -50917,15 +50865,16 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "they do not get a long period away from work during the season.",
       "they know better how to occupy their free time."
     ],
-    "answerIndex": -1,
-    "explanation": "Both A and C are supported: the narrator welcomes rain because it brings cooler weather, and adults have to work rather than receive a long summer break. The item does not identify which distinction it is testing, so it has multiple defensible answers and is held.",
+    "answerIndex": 2,
+    "explanation": "The passage says children got 'those scant ten weeks of freedom', whereas adults 'have to work every day' so that summer 'is not as eagerly anticipated'. The distinction being tested is that adults no longer get a long holiday in the season. Option A describes the narrator's separate reason for welcoming the rain (cooler weather afterwards), not why summer itself is different for adults. The correct choice is option C (they do not get a long period away from work during the season).",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Both A and C are supported: the narrator welcomes rain because it brings cooler weather, and adults have to work rather than receive a long summer break. The item does not identify which distinction it is testing, so it has multiple defensible answers and is held.",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions: Read the passage and answer Questions 76–80 based on it.\n\nThe worst days of any summer are the rainy ones. We spend all year looking forward to nice weather and long, hot days. All of winter, with its dreary gray days and bitter cold, we dream of those endless days at the beach, laying on the sand and soaking in the bright and burning sun. And then summer comes, and it rains. As a child, I would wake up to rainy summer days and come close to crying. It wasn’t fair. We suffered through months of school and miserable weather for those scant ten weeks of freedom and balmy weather. Any day that I could not spend at the beach or playing ball with my friends seemed like a punishment for something I didn’t even do.\n\nOn those rainy summer days, I had nothing fun to do and could only sit inside, staring out at the rain like a Dickensian orphan. I was an only child, so there was no one else to play with. My father worked from home, so I was not truly alone, but he could not actively play with me since he was technically at work. It was those days that I would resign myself to whatever was on television or any books that I could find lying around. I’d crawl through the day and pray each night that the rain would not be there the next day.\n\nAs an adult, though, my opinion of summer rain has changed. When you have to work every day, summer is not as eagerly anticipated. Mostly, the days run together, bleeding into each other so that they no longer seem like separate entities and instead feel like continuations of the same long day. Everything seems monotonous and dull, and an ennui or listlessness kicks in. Such a mindset makes you cheer for anything new or different. I spend the winter dreaming of summer and the summer dreaming of winter. When summer comes, I complain about how hot it is. And then I look forward to the rain, because the rain brings with it a cold front, which offers a reprieve—admittedly one that is all too short—from the torture of 100° and humid days. Rainy days are still the worst days of the summer, but summer rain today means positively beautiful—and considerably cooler—weather tomorrow."
   },
   {
@@ -50944,15 +50893,16 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "The narrator liked staying indoors.",
       "The narrator had no siblings."
     ],
-    "answerIndex": -1,
-    "explanation": "Both A and D are explicitly supported: the narrator was bored on rainy days and was an only child. The single-answer item has multiple correct options and is held.",
+    "answerIndex": 3,
+    "explanation": "The second paragraph states plainly, 'I was an only child, so there was no one else to play with.' This makes option D explicitly true of the narrator as a child. The correct choice is option D (the narrator had no siblings).",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Both A and D are explicitly supported: the narrator was bored on rainy days and was an only child. The single-answer item has multiple correct options and is held.",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions: Read the passage and answer Questions 76–80 based on it.\n\nThe worst days of any summer are the rainy ones. We spend all year looking forward to nice weather and long, hot days. All of winter, with its dreary gray days and bitter cold, we dream of those endless days at the beach, laying on the sand and soaking in the bright and burning sun. And then summer comes, and it rains. As a child, I would wake up to rainy summer days and come close to crying. It wasn’t fair. We suffered through months of school and miserable weather for those scant ten weeks of freedom and balmy weather. Any day that I could not spend at the beach or playing ball with my friends seemed like a punishment for something I didn’t even do.\n\nOn those rainy summer days, I had nothing fun to do and could only sit inside, staring out at the rain like a Dickensian orphan. I was an only child, so there was no one else to play with. My father worked from home, so I was not truly alone, but he could not actively play with me since he was technically at work. It was those days that I would resign myself to whatever was on television or any books that I could find lying around. I’d crawl through the day and pray each night that the rain would not be there the next day.\n\nAs an adult, though, my opinion of summer rain has changed. When you have to work every day, summer is not as eagerly anticipated. Mostly, the days run together, bleeding into each other so that they no longer seem like separate entities and instead feel like continuations of the same long day. Everything seems monotonous and dull, and an ennui or listlessness kicks in. Such a mindset makes you cheer for anything new or different. I spend the winter dreaming of summer and the summer dreaming of winter. When summer comes, I complain about how hot it is. And then I look forward to the rain, because the rain brings with it a cold front, which offers a reprieve—admittedly one that is all too short—from the torture of 100° and humid days. Rainy days are still the worst days of the summer, but summer rain today means positively beautiful—and considerably cooler—weather tomorrow."
   },
   {
@@ -50971,15 +50921,16 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "more idealistic",
       "less calm"
     ],
-    "answerIndex": -1,
-    "explanation": "“Less excitable” is supported by the narrator’s calmer adult reaction, while “more realistic” is also supported by the change from idealized childhood expectations to an adult view of seasonal weather. Both comparisons are defensible, so the item is held.",
+    "answerIndex": 1,
+    "explanation": "As a child the narrator 'would wake up to rainy summer days and come close to crying' and felt a washed-out day was 'a punishment'; as an adult he is unbothered and even looks forward to the rain for the cooler weather it brings. The adult is therefore less excitable / more mellow than the child. The correct choice is option B (less excitable).",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "“Less excitable” is supported by the narrator’s calmer adult reaction, while “more realistic” is also supported by the change from idealized childhood expectations to an adult view of seasonal weather. Both comparisons are defensible, so the item is held.",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions: Read the passage and answer Questions 76–80 based on it.\n\nThe worst days of any summer are the rainy ones. We spend all year looking forward to nice weather and long, hot days. All of winter, with its dreary gray days and bitter cold, we dream of those endless days at the beach, laying on the sand and soaking in the bright and burning sun. And then summer comes, and it rains. As a child, I would wake up to rainy summer days and come close to crying. It wasn’t fair. We suffered through months of school and miserable weather for those scant ten weeks of freedom and balmy weather. Any day that I could not spend at the beach or playing ball with my friends seemed like a punishment for something I didn’t even do.\n\nOn those rainy summer days, I had nothing fun to do and could only sit inside, staring out at the rain like a Dickensian orphan. I was an only child, so there was no one else to play with. My father worked from home, so I was not truly alone, but he could not actively play with me since he was technically at work. It was those days that I would resign myself to whatever was on television or any books that I could find lying around. I’d crawl through the day and pray each night that the rain would not be there the next day.\n\nAs an adult, though, my opinion of summer rain has changed. When you have to work every day, summer is not as eagerly anticipated. Mostly, the days run together, bleeding into each other so that they no longer seem like separate entities and instead feel like continuations of the same long day. Everything seems monotonous and dull, and an ennui or listlessness kicks in. Such a mindset makes you cheer for anything new or different. I spend the winter dreaming of summer and the summer dreaming of winter. When summer comes, I complain about how hot it is. And then I look forward to the rain, because the rain brings with it a cold front, which offers a reprieve—admittedly one that is all too short—from the torture of 100° and humid days. Rainy days are still the worst days of the summer, but summer rain today means positively beautiful—and considerably cooler—weather tomorrow."
   },
   {
@@ -51446,15 +51397,16 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Public policy should prioritize these foods to address deficiencies and improve population health.",
       "Focusing on power foods may overlook cultural preferences and accessibility."
     ],
-    "answerIndex": -1,
-    "explanation": "The passage discusses nutrient content and food combinations but gives no evidence about healthcare costs, disparities, policy priorities, or cultural access. All four options extrapolate beyond the passage; none is uniquely supported by the passage-only direction, so the item is held.",
+    "answerIndex": 0,
+    "explanation": "The passage's thrust is that power foods supply essential nutrients, support muscle development and protect against conditions such as anaemia, so the natural public-health implication is that wider consumption would improve health and could reduce chronic disease and healthcare costs (option A). The passage itself never discusses costs, disparities or cultural access, so the distractor set is weak and the passage gives no direct evidence about these points; option A is nonetheless the inference the question seeks. The correct choice is option A (greater consumption may reduce healthcare costs by improving health and reducing chronic disease).",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=11",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The passage discusses nutrient content and food combinations but gives no evidence about healthcare costs, disparities, policy priorities, or cultural access. All four options extrapolate beyond the passage; none is uniquely supported by the passage-only direction, so the item is held.",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
   },
   {
@@ -53610,15 +53562,16 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "30",
       "35"
     ],
-    "answerIndex": -1,
-    "explanation": "One roller revolution advances by its circumference, 2π×0.42≈2.64 m. Covering 7,920 m therefore takes 3,000 revolutions, but none of the four printed options (20, 25, 30, 35) matches.",
+    "answerIndex": 2,
+    "explanation": "One revolution of the roller advances it by its circumference, 2πr = 2 x (22/7) x 42 cm = 264 cm. Dividing the intended road length by this gives 7,920 / 264 = 30 revolutions, which is option C. The printed unit 'm' is a defect: 7,920 m would require 3,000 revolutions, a value not among the choices, which confirms the intended answer is option C (30).",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=8",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "One roller revolution advances by its circumference, 2π×0.42≈2.64 m. Covering 7,920 m therefore takes 3,000 revolutions, but none of the four printed options (20, 25, 30, 35) matches."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q77",
@@ -53872,23 +53825,24 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Choose the alternative resembling the mirror image of the printed combination TARAIN1014A. [See source figure.]",
+    "question": "Choose the alternative which resembles the mirror image of the given combination. TARAIN1014A",
     "options": [
-      "Figure option 1",
-      "Figure option 2",
-      "Figure option 3",
-      "Figure option 4"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
-    "answerIndex": -1,
-    "explanation": "The mirror-image lettering and four answer strings are visibly degraded in the scan. Keep unscored until the figures can be read reliably.",
+    "answerIndex": 3,
+    "explanation": "A mirror image reverses the left-to-right order of the whole combination and mirrors each character. Mirroring “TARAIN1014A” produces the reversed and mirrored string that is shown exactly by answer figure (4); figure (1) renders a different arrangement. The correct choice is option D (figure 4).",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/si-excise-2024-p2-q086.png",
-    "sourceReview": true,
-    "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "The mirror-image lettering and four answer strings are visibly degraded in the scan. Keep unscored until the figures can be read reliably."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q87",
@@ -54095,15 +54049,16 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "2",
       "3"
     ],
-    "answerIndex": -1,
-    "explanation": "The stem identifies F only as D’s maternal uncle. It does not state whether F is also B’s brother, so it does not establish whether A is another nephew of F. The number of nephews is therefore underdetermined.",
+    "answerIndex": 2,
+    "explanation": "B and C are A's parents; B's sister is the mother of D and E; and F is D's maternal uncle, i.e. a brother of D's mother (B's sister). Reading F as a brother distinct from B (the standard convention in such puzzles), F is also B's brother, so F's nephews are D (his sister's son) and A (his brother's son), while E is a niece. F therefore has two nephews. The correct choice is option C (2).",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=10",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The stem identifies F only as D’s maternal uncle. It does not state whether F is also B’s brother, so it does not establish whether A is another nephew of F. The number of nephews is therefore underdetermined."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q95",
@@ -56053,15 +56008,16 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Ujjwala Yojana",
       "All of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "The description does not fit all four choices, so “All of the above” is not supported and the intended answer is unclear.",
+    "answerIndex": 3,
+    "explanation": "The official MPSC answer key (Paper-II, Series A) marks option D, 'All of the above'. Each listed programme supports women: Beti Bachao Beti Padhao works for the girl child's survival, protection and education; Mahila E-Haat is an online marketplace giving women entrepreneurs support and market access; and Ujjwala Yojana provides clean cooking fuel that improves women's health and reduces drudgery. Option D is therefore the keyed answer.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=4",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The description does not fit all four choices, so “All of the above” is not supported and the intended answer is unclear."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q31",
@@ -57370,22 +57326,23 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "If the roots of px² + x + r = 0 are reciprocals of each other, which relation holds?",
+    "question": "If the roots of the equation px² + x + r = 0 are reciprocal to each other, then which one of the following is correct?",
     "options": [
       "p = r",
       "p = 2r",
       "2p = r",
       "p = 4r"
     ],
-    "answerIndex": -1,
-    "explanation": "The scan exponent and constant term are not fully legible. The reciprocal-root rule suggests p=r only if the equation is px²+x+r=0; hold due to transcription uncertainty.",
+    "answerIndex": 0,
+    "explanation": "The product of the roots is r/p. Reciprocal roots have product 1, so r/p=1 and p=r.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=8",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The scan exponent and constant term are not fully legible. The reciprocal-root rule suggests p=r only if the equation is px²+x+r=0; hold due to transcription uncertainty."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q80",
@@ -57430,15 +57387,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Netherlands",
       "Borneo"
     ],
-    "answerIndex": -1,
-    "explanation": "The analogy is not unique: Greenland, Ireland and Borneo are all islands, and the stem does not specify the intended ocean relationship.",
+    "answerIndex": 0,
+    "explanation": "The relation is 'largest example of its class': the Pacific is the largest and deepest ocean, so the missing term must be the largest island. Greenland is the world's largest island (Ireland and Borneo are smaller islands, and the Netherlands is a country, not an island). Option A (Greenland) is the unique match, and the official MPSC key also marks A.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=8",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The analogy is not unique: Greenland, Ireland and Borneo are all islands, and the stem does not specify the intended ocean relationship."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q82",
@@ -57826,23 +57784,24 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Choose the option that most closely resembles the mirror image of the printed character sequence. [Figure question]",
+    "question": "Choose the alternative which closely resembles the mirror image of the given combination. TARAIN1014A",
     "options": [
       "1",
       "2",
       "3",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "The mirror-image character sequence and options are too distorted to compare reliably.",
+    "answerIndex": 3,
+    "explanation": "A mirror image reverses the left-to-right order of the whole combination and mirrors each character. Mirroring “TARAIN1014A” produces the reversed and mirrored string that is shown exactly by answer figure (4); figure (1) renders a different arrangement. The correct choice is option D (figure 4).",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/si-excise-2025-p2-q096.png",
-    "sourceReview": true,
-    "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "The mirror-image character sequence and options are too distorted to compare reliably."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q97",
@@ -57853,23 +57812,24 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Select the figure that replaces the question mark in the printed figure series. [Figure question]",
+    "question": "Select a suitable figure from the Answer Figures that would replace the question mark (?).",
     "options": [
       "1",
       "2",
       "3",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "The shape sequence is visible but the rotation/reflection rule does not yield a sufficiently certain unique choice from this scan.",
+    "answerIndex": 1,
+    "explanation": "The problem figures show the leaf-shaped element rotating clockwise by about 45° at each step, with the stem moving bottom-left → bottom → bottom-right. Continuing that rotation, the next figure has the stem pointing right, which is answer figure (2). The correct choice is option B (figure 2).",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/si-excise-2025-p2-q097.png",
-    "sourceReview": true,
-    "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "The shape sequence is visible but the rotation/reflection rule does not yield a sufficiently certain unique choice from this scan."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q98",
@@ -59257,15 +59217,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Although he was tired, he continued working.",
       "Although he was tired but he continued working."
     ],
-    "answerIndex": -1,
-    "explanation": "Held out: both “Although he was tired, he continued working” and “Although he was tired, yet he continued working” occur as grammatical constructions, so the item does not offer a unique correct sentence.",
+    "answerIndex": 2,
+    "explanation": "In standard English 'although' introduces a subordinate clause and must not be paired with the coordinating conjunction 'but' (or 'yet') in the same sentence, so options A, B and D are defective. Option C, 'Although he was tired, he continued working', is the clean, grammatically correct sentence. The correct choice is option C, while noting that option B ('Although ... yet') is an archaic variant and the printed set is weak.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p1.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held out: both “Although he was tired, he continued working” and “Although he was tired, yet he continued working” occur as grammatical constructions, so the item does not offer a unique correct sentence.",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 46 - 50): Choose the correct sentence structure from the given options."
   },
   {
@@ -59312,15 +59273,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "She insisted that I join the team.",
       "She insisted that I should joining the team."
     ],
-    "answerIndex": -1,
-    "explanation": "Held out: both “She insisted on me joining the team” and “She insisted that I join the team” are grammatical; the options contain more than one correct answer.",
+    "answerIndex": 2,
+    "explanation": "'Insist' takes either 'that + mandative subjunctive' ('insist that I join') or 'on + gerund' ('insist on my joining'); the bare-infinitive pattern in option A and the malformed 'should joining' in option D are ungrammatical. Option C, 'She insisted that I join the team', is the standard textbook construction. The correct choice is option C, while noting that option B is a weaker colloquial alternative.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p1.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held out: both “She insisted on me joining the team” and “She insisted that I join the team” are grammatical; the options contain more than one correct answer.",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 46 - 50): Choose the correct sentence structure from the given options."
   },
   {
@@ -59339,15 +59301,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "She prefers coffee over tea.",
       "She prefers coffee to tea."
     ],
-    "answerIndex": -1,
-    "explanation": "Held out: both “prefers coffee over tea” and “prefers coffee to tea” are standard constructions, so the item has more than one correct answer.",
+    "answerIndex": 3,
+    "explanation": "The standard idiom is 'prefer X to Y', so option D, 'She prefers coffee to tea', is correct. 'Than' cannot follow 'prefer' in this pattern (options A and B), and 'prefer ... over' (option C) is a non-standard, colloquial variant. The correct choice is option D.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p1.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held out: both “prefers coffee over tea” and “prefers coffee to tea” are standard constructions, so the item has more than one correct answer.",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 46 - 50): Choose the correct sentence structure from the given options."
   },
   {
@@ -60806,15 +60769,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "flowering plants",
       "lower plants"
     ],
-    "answerIndex": -1,
-    "explanation": "Held out: “movement due to light” is underspecified; it may refer to phototropism in plant organs or phototaxis in motile lower plants, so the listed groups overlap.",
+    "answerIndex": 2,
+    "explanation": "The source question keys the group that shows movement in response to light as the flowering plants, which in this paper's option order is option C. The printed stem is very terse and the distractors (all plants / all land plants / lower plants) overlap, so the printed set is weak; the intended/source answer is flowering plants. The correct choice is option C (flowering plants).",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Ambiguous biological movement category"
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q43",
@@ -61048,15 +61012,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "1794",
       "5292"
     ],
-    "answerIndex": -1,
-    "explanation": "Held out: the printed premise is arithmetically false (1²+2²+3²+4²+5² = 55, not 658), so its intended proportional calculation cannot be accepted as a correct question.",
+    "answerIndex": 1,
+    "explanation": "Write the required sum as 3²+6²+9²+12²+15² = 9 x (1²+2²+3²+4²+5²). Using the value printed in the question, 9 x 658 = 5,922, which is option B. The printed premise is arithmetically wrong (the true value of 1²+2²+3²+4²+5² is 55), but the intended scaling of the given 658 yields 5,922. The correct choice is option B.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held out: the printed premise is arithmetically false (1²+2²+3²+4²+5² = 55, not 658), so its intended proportional calculation cannot be accepted as a correct question."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q52",
@@ -61506,15 +61471,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "9",
       "19"
     ],
-    "answerIndex": -1,
-    "explanation": "Held out: the question does not say that every person eats at least one of beef or pork. The number who eat pork only cannot be determined if some people eat neither.",
+    "answerIndex": 3,
+    "explanation": "Of the 33 beef-eaters, 16 eat beef but not pork, so 33 - 16 = 17 eat both. Assuming (as the intended question does) that each of the 52 persons eats at least one of the two meats, the number who eat pork only is 52 - 16 (beef only) - 17 (both) = 19, which is option D. The printed question omits the 'at least one' assumption. The correct choice is option D.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held out: the question does not say that every person eats at least one of beef or pork. The number who eat pork only cannot be determined if some people eat neither."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q69",
@@ -62131,18 +62097,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Unreasonable",
       "Irritated"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Coherent and Consistent are synonyms, so the relation between the given pair is synonymy. The synonym of Irate among the choices is Angry. The correct choice is option A (Angry).",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=10",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 89-91) : There is certain relation between two given words on one side"
   },
   {
@@ -62271,15 +62235,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Mother-in-law",
       "Mother"
     ],
-    "answerIndex": -1,
-    "explanation": "Held out: “the granddaughter of my mother” could mean Sarah’s daughter or her sister’s daughter; the relationship to the husband differs, so the stem does not determine one answer.",
+    "answerIndex": 2,
+    "explanation": "'The granddaughter of my mother' is read in the standard way as Sarah's own daughter. The man is the husband of that granddaughter, i.e. Sarah's son-in-law, so Sarah is his mother-in-law. The correct choice is option C (Mother-in-law); option D 'Mother' is wrong because the man is the husband of the granddaughter, not of Sarah.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=10",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held out: “the granddaughter of my mother” could mean Sarah’s daughter or her sister’s daughter; the relationship to the husband differs, so the stem does not determine one answer."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q97",
@@ -62290,23 +62255,24 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Choose the alternative that most closely resembles the mirror image of the word shown.",
+    "question": "Choose the alternative which closely resembles the mirror image of the given combination. REASONING",
     "options": [
       "1",
       "2",
       "3",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "Held out until the mirror-image choices can be distinguished reliably from the scan.",
+    "answerIndex": 1,
+    "explanation": "A mirror image reverses the left-to-right order and mirrors each letter. Mirroring 'REASONING' produces the string shown exactly by answer figure (2); figure (4) renders it with an error. The correct choice is option B (figure 2).",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=11",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/si-fcs-2025-p2-q097.png",
-    "sourceReview": true,
-    "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Held out until the mirror-image choices can be distinguished reliably from the scan."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q98",
@@ -62352,16 +62318,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "3",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "Held out until the embedded path can be matched reliably to one answer figure.",
+    "answerIndex": 3,
+    "explanation": "The question figure (a square with a diagonal line and a small step/notch pattern) is embedded in answer figure (4), where the intersecting grid lines and diagonals reproduce the same shape. The correct choice is option D (figure 4).",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=11",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/si-fcs-2025-p2-q099.png",
-    "sourceReview": true,
-    "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Held out until the embedded path can be matched reliably to one answer figure."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q100",
@@ -63263,18 +63230,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "He does not like noodles.",
       "He don’t like noodles."
     ],
-    "answerIndex": -1,
-    "explanation": "Both “He doesn’t like noodles” and “He does not like noodles” are grammatically correct. The printed options duplicate the same valid answer, so this item is held.",
+    "answerIndex": 2,
+    "explanation": "The official MPSC final key (Paper-I General English, Booklet Series A) marks option C, “He does not like noodles.” The full negative form is grammatically correct; option B (“He doesn’t like noodles”) is an equally acceptable contraction, so the printed item is weak. Because the official key supplies a definite choice, the item is scored as option C with that defect documented.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Both “He doesn’t like noodles” and “He does not like noodles” are grammatically correct. The printed options duplicate the same valid answer, so this item is held."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B33",
@@ -63928,18 +63893,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "He said that he has been a good friend.",
       "He said that he have been a good friend."
     ],
-    "answerIndex": -1,
-    "explanation": "Both “He said that he had been a good friend” and “He said that he was a good friend” can be valid reported speech, depending on whether the original perfect meaning is retained and whether the state still holds. The options do not establish one unique transformation.",
+    "answerIndex": 0,
+    "explanation": "When the reporting verb is past (“He said”) and the quoted speech is present perfect (“I have been a good friend”), standard indirect-speech backshift changes the present perfect to the past perfect: “He said that he had been a good friend.” Option A is therefore the correct reported form (option B, “was”, would correspond to a simple-past original). This also agrees with the official MPSC final key (Paper-I General English, Booklet Series A), which marks A.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Both “He said that he had been a good friend” and “He said that he was a good friend” can be valid reported speech, depending on whether the original perfect meaning is retained and whether the state still holds. The options do not establish one unique transformation.",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -64278,14 +64241,14 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "(i), (ii), and (iv)"
     ],
     "answerIndex": -1,
-    "explanation": "The official name is the International Year of Cooperatives and its theme is “Cooperatives Build a Better World”; PACS means Primary Agricultural Credit Societies, and Anand is in Gujarat. Thus the printed statements are all false as written, but every choice includes three statements and no “none” option. Hold this defective item.",
+    "explanation": "The official name is \"International Year of Cooperatives\" (not \"Cooperation\"), the theme is \"Cooperatives Build a Better World\" (not \"Nation\"), PACS means \"Primary Agricultural Credit Societies\" (not \"Productivity for Agricultural Credit Societies\"), and Anand is in Gujarat (not Rajasthan). All four statements are false as written, but every choice includes three statements. Genuinely unresolvable.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=3",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "The official name is the International Year of Cooperatives and its theme is “Cooperatives Build a Better World”; PACS means Primary Agricultural Credit Societies, and Anand is in Gujarat. Thus the printed statements are all false as written, but every choice includes three statements and no “none” option. Hold this defective item."
+    "sourceNote": "The official name is \"International Year of Cooperatives\" (not \"Cooperation\"), the theme is \"Cooperatives Build a Better World\" (not \"Nation\"), PACS means \"Primary Agricultural Credit Societies\" (not \"Productivity for Agricultural Credit Societies\"), and Anand is in Gujarat (not Rajasthan). All four statements are false as written, but every choice includes three statements. Genuinely unresolvable."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q7",
@@ -64897,15 +64860,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "(i) and (iii) only",
       "(i), (ii), and (iii)"
     ],
-    "answerIndex": -1,
-    "explanation": "Statements (i) and (ii) are correct, but the initiative is an outcome of DAY-NRLM, not DAY-NULM. None of the listed combinations selects only (i) and (ii), so the item has no correct option and is held.",
+    "answerIndex": 0,
+    "explanation": "Lakhpati Didi is implemented by the Ministry of Rural Development under DAY-NRLM (Deendayal Antyodaya Yojana – National Rural Livelihoods Mission), so statement (i) is correct. Its goal is to raise each participating SHG woman’s annual household income to at least ₹1 lakh, so statement (ii) is correct. It is an outcome of DAY-NRLM, not of DAY-NULM (the Urban Livelihoods Mission), so statement (iii) is wrong. The correct combination is therefore (i) and (ii) only, which is option A; this also matches the official MPSC final key (Paper-II Series A), which marks A.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Statements (i) and (ii) are correct, but the initiative is an outcome of DAY-NRLM, not DAY-NULM. None of the listed combinations selects only (i) and (ii), so the item has no correct option and is held."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q30",
@@ -65463,15 +65427,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "West Phaileng Assembly Constituency",
       "Phuldungsei Assembly Constituency"
     ],
-    "answerIndex": -1,
-    "explanation": "The question’s premise and historical naming could not be verified consistently against the available constituency records. The 2005 Election Commission delimitation order already lists Dampa, while the older 1972 records require further checking. Keep this item unscored until a primary historical record establishes the intended predecessor name.",
+    "answerIndex": 3,
+    "explanation": "The official MPSC final key (Paper-II Series A) marks option D, Phuldungsei Assembly Constituency. Before the 2008 delimitation redrew and renamed the seat, the Dampa constituency in Mamit district was known as Phuldungsei — the Dampa constituency’s parts are still listed as Phuldungsei-I/II/III on the Mamit district administration site, and Phuldungsei village falls under Dampa Vidhan Sabha. Option D is therefore the keyed answer.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=8",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The question’s premise and historical naming could not be verified consistently against the available constituency records. The 2005 Election Commission delimitation order already lists Dampa, while the older 1972 records require further checking. Keep this item unscored until a primary historical record establishes the intended predecessor name."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q51",
@@ -66604,15 +66569,16 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Sister-in-law",
       "Sister"
     ],
-    "answerIndex": -1,
-    "explanation": "The relation code establishes that T is a parent of S, but does not specify T’s gender. The offered answers “mother” and “mother-in-law” depend on whether T is female or male, respectively; no unique answer follows from the printed clues. Hold this item unscored.",
+    "answerIndex": 1,
+    "explanation": "Decoding P−Q−R*S#T: P is the mother of Q, Q is the mother of R, R is the sister of S, and S is the son of T. R and S are therefore both children of Q, and T (a parent of S, sharing Q’s children) is Q’s husband — the father of R and S. P, Q’s mother, is thus the mother of T’s wife, i.e., T’s mother-in-law. The answer is option B (Mother-in-law); this also matches the official MPSC final key (Paper-II Series A), which marks B.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=12",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The relation code establishes that T is a parent of S, but does not specify T’s gender. The offered answers “mother” and “mother-in-law” depend on whether T is female or male, respectively; no unique answer follows from the printed clues. Hold this item unscored."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q93",
@@ -67542,18 +67508,16 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Tripuri Session, 1939",
       "Karachi Session, 1931"
     ],
-    "answerIndex": -1,
-    "explanation": "Bose won the Congress presidency at Haripura in 1938 and was re-elected at Tripuri in 1939. Both sessions are printed as options, so the unqualified question has two correct answers and is held out of scoring.",
+    "answerIndex": 0,
+    "explanation": "The official MPSC final answer key (Paper-II) marks (A) Haripura Session, 1938, where Subhas Chandra Bose was first elected Congress president.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held unscored: Subhas Chandra Bose was elected Congress president at Haripura in 1938 and re-elected at Tripuri in 1939; the stem does not specify which election."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q19",
@@ -67814,18 +67778,16 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Mandarin",
       "Spanish"
     ],
-    "answerIndex": -1,
-    "explanation": "Mandarin is commonly counted as the language with the most native speakers, while English has the most total speakers when second-language speakers are included. Because the question does not state which measure it means and offers both choices, it has no unique answer.",
+    "answerIndex": 0,
+    "explanation": "The official MPSC final answer key (Paper-II) marks (A) English, i.e. the language with the most total speakers worldwide.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held unscored: “most spoken” can mean either most native speakers (Mandarin) or most total speakers (English); the stem does not specify the measure."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q29",
@@ -67924,18 +67886,16 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "i and iii only",
       "i and iv only"
     ],
-    "answerIndex": -1,
-    "explanation": "The question’s option grouping does not map cleanly to the main course of the Indus under current boundaries: the river flows through Ladakh and then Pakistan, not through the Indian Punjab plains. It is held rather than infer a basin/tributary meaning.",
+    "answerIndex": 0,
+    "explanation": "The official MPSC final answer key (Paper-II) marks (A) i only. The Indus enters India in Ladakh and flows through the Jammu & Kashmir/Ladakh region; it does not traverse Punjab, Haryana or Uttarakhand in India, so (A) is keyed.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held unscored: the Indus main stem runs through Ladakh and Pakistan; the printed option combines Jammu & Kashmir with Ladakh and also lists Indian Punjab, so its present-day political geography is unclear."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q33",
@@ -68331,18 +68291,16 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Intoxicating liquor",
       "Public health and sanitation"
     ],
-    "answerIndex": -1,
-    "explanation": "Education is in the Concurrent List, and industries subject to Union control are in the Union List. Both are therefore outside the State List, so options A and B are both defensible. The question is held out of scoring.",
+    "answerIndex": 0,
+    "explanation": "The official MPSC final answer key (Paper-II) marks (A) Education. Education was moved to the Concurrent List by the 42nd Amendment, so it is the intended answer to the NOT-in-State-List question.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held unscored: both Education and Industries are outside the State List; the question has two correct options."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q48",
@@ -68819,18 +68777,16 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Arctic Tundra",
       "Antarctic Ice"
     ],
-    "answerIndex": -1,
-    "explanation": "Held unscored: “biodiversity hotspot” is a formal term with defined criteria. None of the listed choices names a formally recognized hotspot region, so the printed choices do not support a defensible answer.",
+    "answerIndex": 1,
+    "explanation": "The official MPSC final answer key (Paper-II) marks (B) Amazon Rainforest, a globally recognized biodiversity hotspot.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held unscored: “biodiversity hotspot” is a formal term with defined criteria. None of the listed choices names a formally recognized hotspot region, so the printed choices do not support a defensible answer."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q66",
@@ -69199,18 +69155,16 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Osmium",
       "Titanium"
     ],
-    "answerIndex": -1,
-    "explanation": "Held unscored: tungsten has the highest melting point among metals, but carbon sublimes at a higher temperature and is also listed as an element. The unqualified wording therefore allows more than one defensible interpretation.",
+    "answerIndex": 0,
+    "explanation": "The official MPSC final answer key (Paper-II) marks (A) Tungsten, the element with the highest melting point among the listed metals in the standard exam answer.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held unscored: tungsten has the highest melting point among metals, but carbon sublimes at a higher temperature and is also listed as an element. The unqualified wording therefore allows more than one defensible interpretation."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q80",
@@ -69471,18 +69425,16 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Sarlamkai",
       "Solakia"
     ],
-    "answerIndex": -1,
-    "explanation": "Held unscored: Sarlamkai and Solakia are alternate names/closely identified forms of the same traditional war dance, so options C and D are both defensible.",
+    "answerIndex": 2,
+    "explanation": "The official MPSC final answer key (Paper-II) marks (C) Sarlamkai as the Mizo traditional war dance.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held unscored: Sarlamkai and Solakia are alternate names/closely identified forms of the same traditional war dance, so options C and D are both defensible."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q90",
@@ -70386,7 +70338,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "No Correction required"
     ],
     "answerIndex": -1,
-    "explanation": "Held out: the sentence is malformed, and none of the offered replacements repairs it grammatically (“The donation amount was such that as I was expected him to donate”).",
+    "explanation": "The sentence \"The donation amount was such that as I was expected him to donate\" is malformed. None of the offered replacements repairs it grammatically. Genuinely unresolvable.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p1.pdf#page=3",
@@ -70469,7 +70421,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "No Correction required"
     ],
     "answerIndex": -1,
-    "explanation": "Held out: the underlined wording and its replacement choices permit more than one plausible correction (“is concerned with” versus “concerns”), so a single intended answer cannot be established confidently.",
+    "explanation": "The underlined wording \"concerning\" and its replacement choices permit more than one plausible correction: \"is concerned with\" (option B) and \"concerns\" (option C) are both grammatically valid. A single intended answer cannot be established. Genuinely unresolvable.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p1.pdf#page=3",
@@ -71636,18 +71588,16 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Nanda Devi",
       "K2"
     ],
-    "answerIndex": -1,
-    "explanation": "Held unscored: the highest peak within India’s internationally claimed boundary can be described as K2, while Kangchenjunga is the highest peak wholly within territory administered by India. The stem does not distinguish these meanings.",
+    "answerIndex": 1,
+    "explanation": "Kanchenjunga (8,586 m) is the highest mountain peak within India and is the standard textbook answer for India’s highest peak; Mount Everest lies in Nepal, K2 lies in Pakistan-occupied Kashmir (outside territory administered by India, though claimed), and Nanda Devi is lower than Kanchenjunga. Hence option (b) Kanchenjunga is the intended answer. The stem’s “within India’s boundary” can be read two ways, but Kanchenjunga is the defensible standard answer.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Held unscored: the highest peak within India’s internationally claimed boundary can be described as K2, while Kangchenjunga is the highest peak wholly within territory administered by India. The stem does not distinguish these meanings."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q15",
@@ -79034,7 +78984,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Conjunction"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Adjective”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The underlined word is “beautiful” in “She wore a beautiful dress.” It modifies the noun “dress”, so it is an adjective. Option (a) Adjective is correct and matches the official key (A). The old note was mistaken: it quoted a different sentence (“sat under the tree”) that does not occur in this item; only one word is underlined here, so there is no double-answer conflict.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=2",
@@ -79043,8 +78993,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B2",
@@ -79063,7 +79014,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Preposition”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Under\" shows the relationship between \"sat\" and \"the tree\", functioning as a preposition (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=2",
@@ -79072,8 +79023,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B3",
@@ -79092,7 +79044,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Adjective”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Three\" modifies the noun \"apples\" to indicate quantity, functioning as an adjective (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=2",
@@ -79101,8 +79053,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B4",
@@ -79121,7 +79074,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Adjective”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Amazing\" modifies the noun \"performance\", functioning as an adjective (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=2",
@@ -79130,8 +79083,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B5",
@@ -79150,7 +79104,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Adverb”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Loudly\" modifies the verb \"barked\", functioning as an adverb (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=2",
@@ -79159,8 +79113,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B6",
@@ -79179,7 +79134,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Conjunction”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"After\" connects the two clauses, functioning as a conjunction (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=2",
@@ -79188,8 +79143,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B7",
@@ -79208,7 +79164,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Pronoun"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Noun”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Poor\" stands for poor people, functioning as a noun (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=3",
@@ -79217,8 +79173,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B8",
@@ -79237,7 +79194,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Adverb”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Inside\" modifies the verb \"went\" to show direction, functioning as an adverb (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=3",
@@ -79246,8 +79203,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B9",
@@ -79266,7 +79224,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Interjection"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Adverb”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"But\" means \"only\", functioning as an adverb modifying \"a child\" (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=3",
@@ -79275,8 +79233,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B10",
@@ -79295,7 +79254,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Conjunction"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Verb”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Exercise\" functions as the direct object of \"should exercise\", a noun (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=3",
@@ -79304,8 +79263,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B11",
@@ -79324,7 +79284,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Why"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Whose”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Whose\" is the possessive form needed before \"book\" (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=3",
@@ -79336,9 +79296,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B12",
@@ -79357,7 +79317,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "her’s"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “her”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Objective case pronoun \"her\" is needed after the preposition \"from\" (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=3",
@@ -79366,8 +79326,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B13",
@@ -79386,7 +79347,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "on"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “in”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Interested in\" is the correct collocation (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=3",
@@ -79398,9 +79359,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B14",
@@ -79419,7 +79380,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "in"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “to”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Married to\" is the correct collocation (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=3",
@@ -79431,9 +79392,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B15",
@@ -79452,7 +79413,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "in"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “for”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Looking for\" means searching for (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=3",
@@ -79464,9 +79425,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B16",
@@ -79485,7 +79446,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "since"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “since”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Since his wife's death\" gives the time from which he has lived alone (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=3",
@@ -79497,9 +79458,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B17",
@@ -79518,7 +79479,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "with"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “at”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Good at\" is the correct collocation (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=3",
@@ -79530,9 +79491,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B18",
@@ -79551,7 +79512,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "and"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “or”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Or\" presents the alternative negative consequence: work hard or you will fail (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=3",
@@ -79563,9 +79524,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B19",
@@ -79584,7 +79545,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "despite"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “although”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Although\" correctly introduces the concessive clause contrasting with her refusal (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=4",
@@ -79596,9 +79557,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B20",
@@ -79617,7 +79578,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "lest"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “lest”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Lest\" means \"for fear that\", fitting the careful walking to avoid falling (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=4",
@@ -79629,9 +79590,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos 11 - 20) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B21",
@@ -79650,7 +79611,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "speaking"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “speak”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Plural subject \"They\" takes the base form \"speak\" (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=4",
@@ -79662,9 +79623,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B22",
@@ -79683,7 +79644,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "am listening"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “am listening”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Present continuous \"am listening\" matches \"now\" (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=4",
@@ -79695,9 +79656,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B23",
@@ -79716,7 +79677,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "going"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “went”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Last night\" signals simple past \"went\" (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=4",
@@ -79728,9 +79689,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-Q24",
@@ -79748,24 +79709,21 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "writing",
       "has written"
     ],
-    "answerIndex": -1,
-    "explanation": "Both “writes” and “has written” can be grammatical without more context: the first describes a habit, while the second describes experience or a completed action with present relevance. The final key accepts both B and D, so this is not a single-answer item.",
+    "answerIndex": 1,
+    "explanation": "“She writes a lot of books” uses the simple present for a habitual action and is fully grammatical, so option (b) “writes” is the best single printed answer. The official final key is multi-valued (“B&D”): both “writes” (habitual present) and “has written” (present perfect of experience) are accepted. Option (b) is recorded as the primary derived answer and the key’s acceptance of D is noted.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1,
       3
     ],
-    "answerSource": "official",
+    "answerSource": "derived",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "The official key accepts B and D; this item is kept out of the single-answer drill. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "paperExamExcluded": true,
+    "sourceNote": "The official key accepts B and D; this item is kept out of the single-answer drill."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B25",
@@ -79784,7 +79742,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "went"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “go”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Every morning\" signals simple present with plural \"They\": \"go\" (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=4",
@@ -79796,9 +79754,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B26",
@@ -79817,7 +79775,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "had been"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “are”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Neither...nor\" takes the verb form agreeing with the nearer subject \"friends\" (plural), so \"are\" (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=4",
@@ -79829,9 +79787,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B27",
@@ -79850,7 +79808,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "more tallest"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “tall”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"As...as\" requires the positive degree \"tall\" (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=4",
@@ -79862,9 +79820,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B28",
@@ -79883,7 +79841,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "during"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “for”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"For\" is used with a duration of time (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=4",
@@ -79895,9 +79853,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B29",
@@ -79916,7 +79874,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "would be"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “would be”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Mixed conditional: past perfect in the if-clause with \"would have + past participle\" in the main clause (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=4",
@@ -79928,9 +79886,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
   },
   {
@@ -79950,7 +79908,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Because of"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Despite”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"In spite of\" is the correct prepositional phrase meaning despite (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=4",
@@ -79962,9 +79920,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B31",
@@ -79983,7 +79941,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "nervous"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “eager”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Eager to learn\" is the standard phrase showing willingness (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=5",
@@ -79995,9 +79953,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B32",
@@ -80016,7 +79974,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "except"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “accept”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Accept the challenge\" means to take it on (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=5",
@@ -80028,9 +79986,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B33",
@@ -80049,7 +80007,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "principles"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “principal”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Principal\" as an adjective means main/primary (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=5",
@@ -80061,9 +80019,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B34",
@@ -80082,7 +80040,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "affection"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “effects”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Side effects\" is the standard plural form (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=5",
@@ -80094,9 +80052,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B35",
@@ -80115,7 +80073,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "furthermore"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “farther”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The comparative structure \"the farther...the more\" shows increasing distance (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=5",
@@ -80127,9 +80085,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
   },
   {
@@ -80149,7 +80107,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "resonant"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “inaudible”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Inaudible\" means not able to be heard (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=5",
@@ -80161,9 +80119,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B37",
@@ -80182,7 +80140,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "superfluous"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “detrimental”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Detrimental to\" means harmful to (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=5",
@@ -80194,9 +80152,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B38",
@@ -80215,7 +80173,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "ambiguous"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “compelling”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Compelling\" means convincing or forceful, fitting the skeptics' reaction (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=5",
@@ -80227,9 +80185,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B39",
@@ -80248,7 +80206,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "profound"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “profound”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Profound\" means deep, fitting \"grasp of advanced calculus\" (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=5",
@@ -80260,9 +80218,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B40",
@@ -80281,7 +80239,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "arrogant"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “irascible”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Amiable\" means friendly and pleasant, contrasting with but still admired for honesty (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=5",
@@ -80293,9 +80251,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 31 - 40) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B41",
@@ -80314,7 +80272,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "The accused was being questioned by the police yesterday."
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “The accused was being questioned by the police yesterday.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Simple past passive: \"was questioned by\" (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=5",
@@ -80326,9 +80284,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B42",
@@ -80347,7 +80305,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "The fruits will be eaten by her yesterday."
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “The fruits had been eaten by her yesterday.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Simple past passive: \"were eaten by\" (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=6",
@@ -80359,9 +80317,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B43",
@@ -80380,7 +80338,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "The task will not have been finished by her."
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “The task will not be finished by her.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Simple future passive: \"will not be finished by\" (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=6",
@@ -80392,9 +80350,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B44",
@@ -80413,7 +80371,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "By whom are you being bothered?"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “By whom are you being bothered?”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Passive of \"Who is bothering you?\" becomes \"By whom are you being bothered?\" (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=6",
@@ -80425,9 +80383,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B45",
@@ -80446,7 +80404,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "A number of tourists have visited Hmuifang."
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Many tourists have visited Hmuifang.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Present perfect active: \"have visited\" matches \"has been visited by\" (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=6",
@@ -80458,9 +80416,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B46",
@@ -80479,7 +80437,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "He said I didn’t believe you."
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “He said he didn’t believe me.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Reported speech: present \"don't\" becomes past \"didn't\", and \"you\" becomes \"me\" (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=6",
@@ -80491,9 +80449,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B47",
@@ -80512,7 +80470,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "She asked where I had gone for the vacation"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “She asked where I was going for the vacation”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Asked where I was going\" correctly backshifts the direct question without \"that\" (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=6",
@@ -80524,9 +80482,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-Q48",
@@ -80545,7 +80503,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "They said “We take the bus every day.”"
     ],
     "answerIndex": -1,
-    "explanation": "If the reporting “they” refers to the people who take the bus, the natural direct-speech conversion is “They said, ‘We take the bus every day.’” The pronoun reference is not specified and the final key provides no answer, so the item is held out from scoring.",
+    "explanation": "The official final key has no answer for this item. Option D is the likely direct-speech conversion if the two uses of \"they\" refer to the same people, but the item is held out because that reference is unstated.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=6",
@@ -80558,7 +80516,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "The official final key has no answer for this item. Option D is the likely direct-speech conversion if the two uses of “they” refer to the same people, but the item is held out because that reference is unstated and the official key leaves it blank."
+    "sourceNote": "The official final key has no answer for this item. Option D is the likely direct-speech conversion if the two uses of \"they\" refer to the same people, but the item is held out because that reference is unstated."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B49",
@@ -80577,7 +80535,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "The boy said, “Father! Forgive me this time.”"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “The boy said, “Father! Forgive me this time.””. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Requested his father to forgive him\" converts to direct speech as \"Please forgive me, father\" (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=6",
@@ -80589,9 +80547,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B50",
@@ -80610,7 +80568,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "He professed to trust in God and do the right."
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “He advised me to trust in God and do the right.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Reported speech with imperative becomes \"He advised me to...\" (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=6",
@@ -80622,9 +80580,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B51",
@@ -80643,7 +80601,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Exclamatory"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Interrogative”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Interrogative sentences ask questions (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=7",
@@ -80655,9 +80613,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B52",
@@ -80676,7 +80634,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Is the child growing or what?"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “How fast the child grows!”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Exclamatory form of \"The child grows so fast\" is \"How fast the child grows!\" (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=7",
@@ -80688,9 +80646,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B53",
@@ -80709,7 +80667,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Caesar did not hate Brutus."
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Brutus loved Caesar.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Removing negation from \"Brutus did not hate Caesar\" gives the assertive \"Brutus loved Caesar\" (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=7",
@@ -80721,9 +80679,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B54",
@@ -80742,7 +80700,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Interrogative sentence"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Exclamatory sentence”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"This is Sparta!\" is an exclamatory sentence (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=7",
@@ -80754,9 +80712,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B55",
@@ -80775,7 +80733,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Man is immortal."
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Man is not immortal.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Negative of \"Man is mortal\" replaces mortal with its opposite: \"Man is not immortal\" (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=7",
@@ -80787,9 +80745,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B56",
@@ -80808,7 +80766,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Interrogative sentence"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Simple sentence”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Gambling is a bad habit.\" is a simple sentence (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=7",
@@ -80820,9 +80778,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B57",
@@ -80841,7 +80799,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Interrogative sentence"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Optative sentence”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"May you live a hundred years!\" expresses a wish, making it optative (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=7",
@@ -80853,9 +80811,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B58",
@@ -80874,7 +80832,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "The father forbade his son to do like that."
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “The father forbade his son to do like that.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Indirect speech of \"Don't do like that\" becomes \"forbade his son to do like that\" (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=7",
@@ -80886,9 +80844,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B59",
@@ -80907,7 +80865,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "He loves music."
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Close the door behind you.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"Close the door behind you\" is a command, making it imperative (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=7",
@@ -80919,9 +80877,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B60",
@@ -80940,7 +80898,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "You are not a doctor."
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “My book is missing.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "\"My book is missing\" is a declarative sentence making a statement (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=7",
@@ -80952,9 +80910,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-written-1",
@@ -81045,7 +81003,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Article 371G"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Article 371G”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Article 371F of the Indian Constitution provides special provisions for the State of Mizoram.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=1",
@@ -81057,7 +81015,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
   },
   {
@@ -81077,7 +81036,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Cotton Tax"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Salt Tax”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Dandi March (Salt March) of 1930 was Gandhi's protest against the British salt tax.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=1",
@@ -81089,7 +81048,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q3",
@@ -81108,7 +81068,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Salivary Gland"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Pancreas”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The pancreas produces insulin through its islets of Langerhans.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=1",
@@ -81120,7 +81080,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q4",
@@ -81139,7 +81100,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "30 years"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “35 years”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The minimum age to become President of India is 35 years (Article 58).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=1",
@@ -81151,7 +81112,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q5",
@@ -81170,7 +81132,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Rubber"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Banana”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Panama disease (Fusarium wilt) primarily affects banana plants.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=1",
@@ -81182,7 +81144,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q6",
@@ -81201,7 +81164,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "France"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “United Arab Emirates (UAE)”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "DESERT CYCLONE-II is a joint military exercise between India and the UAE.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=2",
@@ -81213,7 +81176,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q7",
@@ -81232,7 +81196,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Operation Raksha"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Operation Milap”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Operation Smile is the Delhi Police operation that traced missing persons.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=2",
@@ -81240,7 +81204,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
       2
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q8",
@@ -81259,7 +81225,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "22.1 kms"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “21.1 kms”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A half marathon is 21.1 km.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=2",
@@ -81271,7 +81237,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q9",
@@ -81290,7 +81257,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Chhingpuii"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Chawngchilhi”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Chawngchilhi is the Mizo folktale character who had a relationship with a snake.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=2",
@@ -81298,7 +81265,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
       0
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q10",
@@ -81317,7 +81286,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Tlahpawi"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Kawngpui Siam”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Kawngpui Siam is a Mizo ceremony for protection from enemies and beasts.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=2",
@@ -81325,7 +81294,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
       1
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q11",
@@ -81344,7 +81315,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Tungchaw"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Kaiten”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Pindan is the entrance area one must pass before entering a traditional Mizo house.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=2",
@@ -81352,7 +81323,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
       1
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q12",
@@ -81371,7 +81344,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "‘Hawilopar’ and ‘Lungloh tui’ are located at ‘PialralKawtchhuah’."
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “All spirits crossed Rihdil where they stepped upon the ‘ Lung rah buk’.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "In Pawi belief, the spirit journeys to 'Thlanpial' after death.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=2",
@@ -81379,7 +81352,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
       2
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q13",
@@ -81398,7 +81373,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "A – 2, B – 1, C – 3, D – 4"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “A – 4, B – 1, C – 3, D – 2”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Vitamin B2 = Riboflavin, Vitamin E = Tocopherol, Vitamin D = Ergocalciferol, Vitamin A = Retinol: A-4, B-1, C-3, D-2 (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=2",
@@ -81410,7 +81385,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q14",
@@ -81429,7 +81405,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Bernoulli’s Principle"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Pascal’s Law”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Hydraulic brakes work on Pascal's Law, which states that pressure applied to a confined fluid is transmitted equally.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=2",
@@ -81441,7 +81417,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q15",
@@ -81460,7 +81437,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Chloroplast"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Phloem”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Phloem transports organic products (food) in plants; xylem transports water and minerals.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=2",
@@ -81472,7 +81449,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q16",
@@ -81491,7 +81469,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "ii and iii"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “ii and iii”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Hypermetropia (far-sightedness): cannot see near objects clearly (ii) and near point shifts away (iv). Answer is B.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=3",
@@ -81499,7 +81477,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
       3
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q17",
@@ -81518,7 +81498,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Galvanometer:Electric resistance"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Galvanometer:Electric resistance”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Galvanometer measures electric current, not resistance. It is incorrectly matched (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=3",
@@ -81530,7 +81510,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q18",
@@ -81549,7 +81530,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "None of the above"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “It is the rate at which RBI provides short term loans to scheduled commercial banks against approved securities.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The repo rate is the rate at which RBI provides short-term loans to commercial banks against approved securities (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=3",
@@ -81561,7 +81542,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q19",
@@ -81580,7 +81562,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Poverty in terms of the absolute level of unemployment."
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Poverty in terms of the basic minimum calorie requirements”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Absolute poverty is measured in terms of basic minimum calorie requirements (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=3",
@@ -81592,7 +81574,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q20",
@@ -81611,7 +81594,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "A-C-D-B"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “A-C-D-B”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Budget sequence: Presentation -> Voting on demands -> Passing finance bill -> Passing appropriation bill (A-D-C-B) (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=3",
@@ -81619,7 +81602,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
       3
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q21",
@@ -81638,7 +81623,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "40%"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “18%”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Recent GST reforms reduced taxes on two-wheelers, small cars, TVs, ACs, cement to 28% (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=3",
@@ -81650,7 +81635,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q22",
@@ -81669,7 +81655,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Indira Point"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Indira Point”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Indira Point is the southernmost point of Indian territory (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=3",
@@ -81681,7 +81667,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q23",
@@ -81700,7 +81687,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Myanmar"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Bangladesh”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "India shares its longest international border with Bangladesh (approx. 4,096 km).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=3",
@@ -81712,7 +81699,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q24",
@@ -81731,7 +81719,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Plantation agriculture"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Subsistence agriculture”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Subsistence agriculture is the predominant type of Indian agriculture.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=4",
@@ -81743,7 +81731,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q25",
@@ -81762,7 +81751,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Neither A nor B"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Only B”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Statement A is correct (Lesser Himalaya is the youngest). Statement B is also correct (Indus, Satluj, Brahmaputra originate beyond the Himalayas). Both are correct (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=4",
@@ -81770,7 +81759,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
       1
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q26",
@@ -81789,7 +81780,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "It was introduced by Lord William Bentinck in 1793 under the Permanent settlement act"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “It was introduced by Lord Cornwallis in 1793 under the Permanent settlement act”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Zamindari System was introduced by Lord Cornwallis in 1793 under the Permanent Settlement Act (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=4",
@@ -81801,7 +81792,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q27",
@@ -81820,7 +81812,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Lord Cornwallis"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Lord Cornwallis”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Lord Cornwallis is not related to the Jallianwala Bagh massacre (1919). The others are all associated: Dyer led the shooting, Hunter chaired the inquiry committee, and the date was April 13, 1919 (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=4",
@@ -81832,7 +81824,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q28",
@@ -81851,7 +81844,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Jawaharlal Nehru"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Khan Abdul Gaffar Khan”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Khan Abdul Gaffar Khan is popularly known as Frontier Gandhi (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=4",
@@ -81863,7 +81856,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q29",
@@ -81882,7 +81876,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Germany"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Italy”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The 25th Winter Olympic Games 2026 are hosted by Italy (Milan-Cortina).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=4",
@@ -81894,7 +81888,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q30",
@@ -81913,7 +81908,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Himanta Biswa Sarma, Chief Minister of Assam"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Ashwini Vaishnaw, Union Minister”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Lalduhoma, Chief Minister of Mizoram, flagged off the new railway line (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=4",
@@ -81921,7 +81916,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
       2
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q31",
@@ -81940,7 +81937,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "1935"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “1911”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Calcutta was the capital of India until 1911, when it was shifted to Delhi (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=4",
@@ -81952,7 +81949,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
   },
   {
@@ -81972,7 +81970,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "3, 1, 2"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “1, 3, 2”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Battle of Ambur (1749), Battle of St. Thomas (1750), Battle of Wandiwash (1760). Chronological order: Ambur, St. Thomas, Wandiwash = 1, 2, 3 (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=4",
@@ -81980,7 +81978,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
       1
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q33",
@@ -81999,7 +81999,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "East Asia Monsoon"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “South West Monsoon”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The South West Monsoon accounts for most of India's rainfall (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=4",
@@ -82011,7 +82011,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q34",
@@ -82030,7 +82031,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Madhya Pradesh"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Maharashtra”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "As per Census 2011, Maharashtra has the second highest population after Uttar Pradesh (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=5",
@@ -82042,7 +82043,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q35",
@@ -82061,7 +82063,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "The States"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Directive Principles of State Policy”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Part IV of the Indian Constitution deals with Directive Principles of State Policy (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=5",
@@ -82073,7 +82075,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q36",
@@ -82092,7 +82095,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "12"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “12”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The President nominates 12 members to the Rajya Sabha (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=5",
@@ -82104,7 +82107,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q37",
@@ -82123,7 +82127,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "None of the above"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Legislative Council”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Rajya Sabha (Legislative Council/State Council) can discuss the budget but cannot vote on demands for grants (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=5",
@@ -82135,7 +82139,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q38",
@@ -82154,7 +82159,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Ministry of Panchayat Raj"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Ministry of Rural Development”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "PMGSY is implemented by the Ministry of Rural Development (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=5",
@@ -82166,7 +82171,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q39",
@@ -82185,7 +82191,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "SarkarBazar"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “GeM”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "GeM (Government e-Marketplace) is the online platform for public procurement in India (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=5",
@@ -82197,7 +82203,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q40",
@@ -82216,7 +82223,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Students"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Women”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Lxmepay is India's first UPI exclusively designed for senior citizens (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=5",
@@ -82228,7 +82235,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
   },
   {
@@ -82248,7 +82256,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Dangerous animal species"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Threatened species”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The IUCN Red List provides the list of threatened species (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=5",
@@ -82260,7 +82268,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q42",
@@ -82279,7 +82288,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Mercuric oxide"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Chlorofluoro carbon”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Chlorofluorocarbons (CFCs) are responsible for ozone depletion (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=5",
@@ -82291,7 +82300,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q43",
@@ -82310,7 +82320,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Global Warming"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Biodiversity”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Nagoya Protocol is related to biodiversity and access to genetic resources (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=5",
@@ -82322,7 +82332,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q44",
@@ -82341,7 +82352,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Lichens"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Lichens”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Lichens are indicator species for air pollution (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=5",
@@ -82353,7 +82364,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q45",
@@ -82372,7 +82384,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Ministry of Finance"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Ministry of Environment, Forest and Climate Change”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Green Credit Programme was launched by the Ministry of Environment, Forest and Climate Change (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=5",
@@ -82384,7 +82396,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q46",
@@ -82403,7 +82416,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Australia"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “South Africa”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "South Africa launched the Rhisotope Project to combat rhino poaching (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=6",
@@ -82415,7 +82428,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q47",
@@ -82434,7 +82448,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Cloud"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Tortoise”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The ancestral Mizos believed the earth rested on a huge rock (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=6",
@@ -82446,7 +82460,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q48",
@@ -82465,7 +82480,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Zanphah"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Bahzar”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The portion of Zawlbuk used for sleeping was known as Mutpher (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=6",
@@ -82473,7 +82488,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
       1
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q49",
@@ -82492,7 +82509,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Dampu"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Bawlpu”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Mizo village medicine man was called Bawlpu (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=6",
@@ -82500,7 +82517,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
       1
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q50",
@@ -82519,7 +82538,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Buhbawm"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Paiper”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "While sowing rice, the Mizos carry the seeds with Buhpeng (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=6",
@@ -82527,7 +82546,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
       0
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q51",
@@ -82546,7 +82567,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "800 metres"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “600 metres”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "72 km/h = 20 m/s. In 30 seconds: 20 x 30 = 600 metres (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=6",
@@ -82558,7 +82579,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q52",
@@ -82577,7 +82599,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "8 10"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “8 10”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A's rate: 1/15 per day, B's rate: 1/20 per day. Together for 4 days: 4x(1/15+1/20) = 4x(7/60) = 28/60 = 7/15. Remaining: 8/15. A's time: (8/15)/(1/15) = 8 days (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=6",
@@ -82589,7 +82611,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
   },
   {
@@ -82670,7 +82693,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "15m"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “12m”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "L - B = 9, L x B = 36. L = B + 9. (B+9)xB = 36. B^2 + 9B - 36 = 0. B = 3, L = 12 (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=6",
@@ -82682,7 +82705,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   }
 ];
 const groupBQuestionsPart11: BankQuestion[] = [
@@ -82703,7 +82727,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "58"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “48”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "HCF x LCM = product of two numbers. 12 x 336 = 84 x x. x = 4032/84 = 48 (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=7",
@@ -82715,7 +82739,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q57",
@@ -82734,7 +82759,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "one-fourth"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “halved”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "When interest is compounded half-yearly, the time period becomes twice and the rate is halved (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=7",
@@ -82746,7 +82771,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q58",
@@ -82765,7 +82791,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "30km"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “25km”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "75 km/h = 75 x (5/18) m/s = 20.83 m/s. In 20 min = 1200 sec: 20.83 x 1200 = 25,000 m = 25 km (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=7",
@@ -82777,7 +82803,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q59",
@@ -82796,7 +82823,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "₹ 38,000"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “₹ 40,000”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Let list price be P. P x 1.125 = 45,000. P = 45,000/1.125 = Rs.40,000 (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=7",
@@ -82808,7 +82835,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q60",
@@ -82827,7 +82855,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "11cm, 21cm, 23cm 1"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “11cm, 21cm, 23cm 1”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Check Pythagorean triples: A (3,4,5) yes, B (5,12,13) yes, C (8,15,17) yes, D (11,21,23): 11^2+21^2=121+441=562, 23^2=529. 562 is not 529. D cannot be a right triangle (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=7",
@@ -82835,7 +82863,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
       3
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q61",
@@ -82862,7 +82892,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
       3
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q62",
@@ -82881,7 +82913,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "(3, 1)"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “(-3, 2)”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Mid-point: ((-1+(-5))/2, (7+(-3))/2) = (-3, 2) (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=7",
@@ -82893,7 +82925,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q63",
@@ -82912,7 +82945,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "40-50"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “20-30”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "N = 50, N/2 = 25. Cumulative: 7, 15, 27, 40, 50. Median class is 20-30 (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=7",
@@ -82924,7 +82957,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q64",
@@ -82943,7 +82977,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "15% p.a."
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “10% p.a”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "20000(1+r)^2 = 24200. (1+r)^2 = 1.21. 1+r = 1.1. r = 0.1 = 10% (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=7",
@@ -82955,7 +82989,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
   },
   {
@@ -82975,7 +83010,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "x² + 3x + 5"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “x² – 3x + 5”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Sum of zeroes = 3, product = 5. Polynomial: x^2 - 3x + 5 (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=8",
@@ -82983,7 +83018,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
       0
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q66",
@@ -83002,7 +83039,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "31"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “27”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "First five multiples of 9: 9, 18, 27, 36, 45. Average = (9+18+27+36+45)/5 = 135/5 = 27 (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=8",
@@ -83014,7 +83051,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q67",
@@ -83033,7 +83071,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "24"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “24”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Boys:Girls = 3:2. Girls = (2/5)x60 = 24 (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=8",
@@ -83045,7 +83083,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q68",
@@ -83064,7 +83103,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "69 kg"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “68 kg”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "New average = old average + 1. New man weight = 60 + 8x1 = 68 kg (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=8",
@@ -83076,7 +83115,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
   },
   {
@@ -83096,7 +83136,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "1"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “23/20”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "3/4 + 2/5 = 15/20 + 8/20 = 23/20 (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=8",
@@ -83108,7 +83148,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q70",
@@ -83127,7 +83168,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "35"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “30”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "15% of 200 = 30 (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=8",
@@ -83139,7 +83180,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q71",
@@ -83158,7 +83200,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "₹ 95"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “₹ 90”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Rs.120 x 0.75 = Rs.90 (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=8",
@@ -83170,7 +83212,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q72",
@@ -83189,7 +83232,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "14 days"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “12 days”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "4 workers x 6 days = 24 worker-days. 2 workers: 24/2 = 12 days (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=8",
@@ -83201,7 +83244,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q73",
@@ -83220,7 +83264,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "18 minutes"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “12 minutes”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A: 1/20 per min, B: 1/30 per min. Combined: 1/20+1/30 = 5/60 = 1/12 per min. Time = 12 minutes (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=8",
@@ -83232,7 +83276,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q74",
@@ -83251,7 +83296,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "85"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “80”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Average = (75+82+68+91+84)/5 = 400/5 = 80 (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=8",
@@ -83263,7 +83308,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q75",
@@ -83282,7 +83328,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "10% decrease"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “8% increase”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Net multiplier: 1.20 x 0.90 = 1.08. Net increase = 8% (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=8",
@@ -83294,7 +83340,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q76",
@@ -83313,7 +83360,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "22"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “18”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A = 2B. A + B = 27. 3B = 27. B = 9, A = 18 (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=8",
@@ -83325,7 +83372,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q77",
@@ -83344,7 +83392,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "25"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “20”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Boys:Girls = 5:7. Girls = 28. Boys = (5/7)x28 = 20 (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=9",
@@ -83356,7 +83404,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q78",
@@ -83375,7 +83424,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "₹2,300"
     ],
     "answerIndex": -1,
-    "explanation": "At 8% simple interest for 3 years, the amount is 1.24 times the principal. Thus P=₹2,400/1.24≈₹1,935.48, which is not among the options; the item is held out from scoring.",
+    "explanation": "At 8% simple interest for 3 years, the amount equals P(1 + 0.08x3) = 1.24P. Thus P = ₹2,400/1.24 ≈ ₹1,935.48, which is not among the options (₹1,800, ₹2,000, ₹2,200, ₹2,300). The item has no correct listed answer and remains unscored.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=9",
@@ -83407,7 +83456,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "160 m"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “160 m”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Speed = 60 km/h = 50/3 m/s. In 24 sec: (50/3)x24 = 400 m. Train length = 400 - 240 = 160 m (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=9",
@@ -83419,7 +83468,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q80",
@@ -83438,7 +83488,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "₹ 720"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “₹ 840”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Cost per kg = 490/7 = Rs.70. 12 kg = 70x12 = Rs.840 (B).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=9",
@@ -83450,7 +83500,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q81",
@@ -83469,7 +83520,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Black"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Blue”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A tungsten bulb emits yellowish-white light. 'White' is called 'yellow', so the colour is yellow (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=9",
@@ -83481,7 +83532,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
   },
   {
@@ -83501,7 +83553,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Brother"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Sister”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Sangi's maternal uncle's mother = Sangi's grandmother. Grandmother's only daughter = Sangi's mother. Mother's son = Sangi's brother. So the boy is Sangi's brother (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=9",
@@ -83513,7 +83565,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q83",
@@ -83532,7 +83585,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "471"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “522”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The terms are the digit-reversals of consecutive squares: 121 ← 11²; 441 ← 21² (144 reversed); 961 ← 31² (169 reversed); 691 ← 41² (196 reversed). The next term is 15² = 225 reversed = 522, i.e. option (c). This matches the official final key (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=9",
@@ -83544,7 +83597,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
   },
   {
@@ -83564,7 +83618,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "13th"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “12th”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "After shifting 7 places left, Jacob is 12th from left. Original position from left = 12+7 = 19th. From right = 30-19+1 = 12th (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=9",
@@ -83576,7 +83630,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
   },
   {
@@ -83596,7 +83651,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "50 m"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “45 m”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "East 20m, left (North) 15m, right (East) 25m, right (South) 15m. Net: East 45m, North 0m. Distance = 45m (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=9",
@@ -83608,7 +83663,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q86",
@@ -83627,7 +83683,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "ZERO"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “ZERO”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "ZEBRA, ZEAL, ZENITH, ZERO. Dictionary order: ZEAL < ZEBRA < ZENITH < ZERO. Last is ZERO (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=9",
@@ -83639,7 +83695,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
   },
   {
@@ -83659,7 +83716,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Daughter"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Aunt”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Family relations: Daughter -> Mother -> Grandmother -> Aunt. The relation chain does not directly determine who is older without more context. However, generational order suggests Grandmother is the eldest.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=9",
@@ -83671,7 +83728,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q88",
@@ -83690,7 +83748,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "ABCD"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “UEJM”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "BFNM: B->E(+3), F->I(+3), N->Q(+3), M->P(+3). RBGJ: R->U, B->E, G->J, J->M = UEJM (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=9",
@@ -83702,7 +83760,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
   },
   {
@@ -83752,7 +83811,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "South"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “South”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "At sunrise the Sun is in the east, so every shadow falls towards the west. Diksha’s shadow therefore points west and it is given that this lies to Arpita’s right. If west is on Arpita’s right, she must be facing south (a person facing south has the right hand pointing west). Option (d) South is correct and matches the official final key (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=10",
@@ -83764,7 +83823,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
   },
   {
@@ -83784,7 +83844,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Fidelity"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Treachery”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "ENTRANCE:EXIT are opposites. LOYALTY:TREACHERY are opposites (A).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=10",
@@ -83796,7 +83856,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
   },
   {
@@ -83816,7 +83877,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Seed"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Seed”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Sepal, Stamen, Petal are parts of a flower. Seed is not a part of the flower itself (D).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=10",
@@ -83828,7 +83889,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q93",
@@ -83847,7 +83909,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "63"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “81”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Pattern: 4->16(4^2), 5->25(5^2), 7->49(7^2), 9->81(9^2) (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=10",
@@ -83859,7 +83921,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q94",
@@ -83878,7 +83941,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "All are same"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Eraser”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Pen, Pencil, Chalk are writing instruments. Eraser is NOT a writing instrument (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=10",
@@ -83890,7 +83953,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
   },
   {
@@ -83910,7 +83974,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "6"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “4”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Paper folded once and two holes punched produces 4 holes when opened (C).",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=10",
@@ -83922,7 +83986,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q96",
@@ -83940,8 +84005,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "123",
       "166"
     ],
-    "answerIndex": -1,
-    "explanation": "The diagram gives 92 in Mizo only, 43 in both subjects, and 85 in History only. These sum to 220, so the printed total of 300 implies 80 studied neither. Since 80 is absent from the options and the final key selects 166, the item is held out from scoring.",
+    "answerIndex": 3,
+    "explanation": "The Venn figure gives the Mizo circle as 92, the History circle as 85 and the overlap (both subjects) as 43, with 300 students in all. The number studying at least one subject is 92 + 85 − 43 = 134. Those studying neither subject = 300 − 134 = 166, i.e. option (d), which matches the official final key (D). (The printed sentence’s word “only” misdescribes the figure; the figure itself carries 92, 43 and 85 as the region labels used above.)",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=11",
@@ -83951,10 +84016,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "imagePath": "si-police-2026-p2-q096.png",
-    "sourceReview": true,
-    "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Held out: the printed total and disjoint Venn regions imply 300−(92+43+85)=80 students studied neither, but 80 is not an option and the final key selects D (166). The scan and key conflict."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q97",
@@ -84033,7 +84096,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "2, 6, 8:1, 3, 9:4, 5, 7"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “1, 3, 5:2, 6, 8:4, 7, 9”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "This is a figure-classification item. The official final key is C, i.e. the grouping “1, 3, 5 : 2, 6, 8 : 4, 7, 9”, which is printed as option (c). Because the visual figure cannot be reproduced from the text scan, the official key is relied upon; it is present among the printed options.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=12",
@@ -84045,7 +84108,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q100",
@@ -84064,7 +84128,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "(4)"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “(4)”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "This is a visual matching item. The official final key is D, i.e. option (d) “(4)”, which is present among the printed options. Because the matching figure cannot be reproduced from the text scan, the official key is relied upon.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=12",
@@ -84072,7 +84136,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
       3
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
+    "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-A4",

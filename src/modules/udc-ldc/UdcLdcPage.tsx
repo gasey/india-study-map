@@ -9,7 +9,7 @@ import { isMcqQuestion } from '@/data/banks/types';
 import { useProgress } from './useProgress';
 import {
   BANK_ID, EMPTY_FILTERS, SECTION_COLOUR, SECTION_LABEL, applyFilters, isAnswerable,
-  optionLetter, sectionOf,
+  optionLetter, sectionOf, textMode,
   type FlagState,
   type AnswerState, type AttemptState, type Filters, type SectionId,
 } from './filters';
@@ -721,7 +721,9 @@ function BrowseView({
                     <a href={r.paper.sourceFile} target="_blank" rel="noreferrer">Open printed paper ↗</a>
                   </p>
                 )}
-                {r.questions.map((q, i) => (
+                {r.questions.map((q, i) => {
+                  const mode = textMode(q);
+                  return (
                   <div
                     key={q.id}
                     className="udc-question-card"
@@ -754,7 +756,7 @@ function BrowseView({
                           {q.sourceReviewed ? 'The printed source is checked; this item is held unscored. ' : 'This item needs review before scored practice. '}
                           {q.sourceHref && <a href={q.sourceHref} target="_blank" rel="noreferrer">Check the printed source ↗</a>}
                         </p>}
-                        <div className={`udc-question-stem ${q.topic === 'simple_arithmetic' ? 'udc-math-stem' : q.subject === 'reasoning' ? 'udc-reasoning-stem' : ''}`} style={{ marginBottom: 6, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} plain={q.topic === 'simple_arithmetic'} /></div>
+                        <div className={`udc-question-stem ${mode.stem}`} style={{ marginBottom: 6, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} plain={mode.plain} /></div>
                         <QuestionImage path={q.imagePath} />
                         {q.figureBased && !q.imagePath && (
                           <div style={{
@@ -816,7 +818,7 @@ function BrowseView({
                                     }}>
                                       {optionLetter(oi)}
                                     </span>
-                                    <span className={`udc-option-label ${q.topic === 'simple_arithmetic' ? 'udc-math-option' : q.subject === 'reasoning' ? 'udc-reasoning-option' : ''}`}><QuestionText text={o} plain={q.topic === 'simple_arithmetic'} /></span>
+                                    <span className={`udc-option-label ${mode.option}`}><QuestionText text={o} plain={mode.plain} /></span>
                                   </button>
                                 );
                               })}
@@ -929,7 +931,8 @@ function BrowseView({
                       </div>
                     </div>
                   </div>
-                ))}
+                  );
+                })}
               </div>
             )}
           </div>

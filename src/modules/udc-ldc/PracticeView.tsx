@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import type { BankQuestion } from '@/data/banks/types';
 import { isMcqQuestion } from '@/data/banks/types';
 import type { ProgressMap } from './useProgress';
-import { BANK_ID, SECTION_COLOUR, isAnswerable, optionLetter, sectionOf } from './filters';
+import { BANK_ID, SECTION_COLOUR, isAnswerable, optionLetter, sectionOf, textMode } from './filters';
 import { QuestionText } from './QuestionText';
 import { QuestionImage } from './QuestionImage';
 import { QuestionReviewPanel } from '@/modules/mpsc/QuestionReviewPanel';
@@ -81,6 +81,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
   const q = pool[Math.min(i, pool.length - 1)];
   if (!isMcqQuestion(q)) return null;
   const accent = SECTION_COLOUR[sectionOf(q)];
+  const mode = textMode(q);
   const answered = picked !== null;
   const correct = answered && picked === q.answerIndex;
   const prior = progress[q.id];
@@ -176,7 +177,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
             {q.direction}
           </div>
         )}
-        <div className={`udc-question-stem ${q.topic === 'simple_arithmetic' ? 'udc-math-stem' : q.subject === 'reasoning' ? 'udc-reasoning-stem' : ''}`} style={{ fontSize: 15.5, marginBottom: 14, lineHeight: 1.5 }}><QuestionText text={q.question} plain={q.topic === 'simple_arithmetic'} /></div>
+        <div className={`udc-question-stem ${mode.stem}`} style={{ fontSize: 15.5, marginBottom: 14, lineHeight: 1.5 }}><QuestionText text={q.question} plain={mode.plain} /></div>
         <QuestionImage path={q.imagePath} />
 
         <div style={{ display: 'grid', gap: 8 }}>
@@ -229,7 +230,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
                 >
                   {optionLetter(idx)}
                 </span>
-                <span className={`udc-option-label ${q.topic === 'simple_arithmetic' ? 'udc-math-option' : q.subject === 'reasoning' ? 'udc-reasoning-option' : ''}`} style={{ paddingTop: 2 }}><QuestionText text={o} plain={q.topic === 'simple_arithmetic'} /></span>
+                <span className={`udc-option-label ${mode.option}`} style={{ paddingTop: 2 }}><QuestionText text={o} plain={mode.plain} /></span>
               </button>
             );
           })}

@@ -4,7 +4,7 @@ import { isMcqQuestion } from '@/data/banks/types';
 import { mpscUdcLdcPaperMeta } from '@/data/banks/mpsc-udc-ldc';
 import type { UdcLdcPaperMeta } from '@/data/banks/mpsc-udc-ldc';
 import { groupBPaperMeta } from '@/data/banks/mpsc-group-b-general';
-import { SECTION_LABEL, optionLetter, sectionOf, isAnswerable, type SectionId } from './filters';
+import { SECTION_LABEL, optionLetter, sectionOf, isAnswerable, textMode, type SectionId } from './filters';
 import { useAttemptState } from '@/modules/mpsc/useAttemptState';
 import { QuestionText } from './QuestionText';
 import { QuestionImage } from './QuestionImage';
@@ -284,6 +284,7 @@ function ExamSitting({
         {paperQs.map((q, i) => {
           if (!isMcqQuestion(q)) return null;
           const unscorable = !isAnswerable(q);
+          const mode = textMode(q);
           const picked = answers[q.id];
           return (
             <div
@@ -304,7 +305,7 @@ function ExamSitting({
                       {q.direction}
                     </div>
                   )}
-                  <div className={`udc-question-stem ${q.topic === 'simple_arithmetic' ? 'udc-math-stem' : q.subject === 'reasoning' ? 'udc-reasoning-stem' : ''}`} style={{ marginBottom: 8, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} plain={q.topic === 'simple_arithmetic'} /></div>
+                  <div className={`udc-question-stem ${mode.stem}`} style={{ marginBottom: 8, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} plain={mode.plain} /></div>
                   <QuestionImage path={q.imagePath} />
                   {q.figureBased && !q.imagePath && (
                     <div style={{
@@ -346,7 +347,7 @@ function ExamSitting({
                               onChange={() =>
                                 patch((st) => ({ answers: { ...st.answers, [q.id]: oi } }))}
                             />
-                            <span className={`udc-option-label ${q.topic === 'simple_arithmetic' ? 'udc-math-option' : q.subject === 'reasoning' ? 'udc-reasoning-option' : ''}`}>{optionLetter(oi)}) <QuestionText text={o} plain={q.topic === 'simple_arithmetic'} /></span>
+                            <span className={`udc-option-label ${mode.option}`}>{optionLetter(oi)}) <QuestionText text={o} plain={mode.plain} /></span>
                           </label>
                         );
                       })}

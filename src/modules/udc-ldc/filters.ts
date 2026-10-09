@@ -131,6 +131,30 @@ export function sectionOf(q: BankQuestion): SectionId {
 }
 
 /**
+ * Visual reading mode for a stem and its options, as CSS class names.
+ *
+ * Quantitative stems are easier to scan when set apart from prose — operators,
+ * nested brackets, fractions and units lose their shape in a running
+ * paragraph, and a serif/tabular typeface keeps digits and place values
+ * aligned. Reasoning gets the same controlled wrapping for matrices and
+ * sequences, in a lighter accent.
+ *
+ * Resolved through `sectionOf`, not the raw `topic` id: the clerical bank
+ * marks arithmetic as `simple_arithmetic` while the Group B bank tags whole
+ * quantitative papers (AAO Arithmetic, the statistics papers) with
+ * `studySection: 'arithmetic'` and hyphenated topics like `simple-arithmetic`.
+ * Keying off the resolved section means every quantitative item is styled the
+ * same way whatever paper it came from. `plain` also suppresses emphasis
+ * markup, so an expression's `*` or `_` can never be read as emphasis.
+ */
+export function textMode(q: BankQuestion): { stem: string; option: string; plain: boolean } {
+  const section = sectionOf(q);
+  if (section === 'arithmetic') return { stem: 'udc-math-stem', option: 'udc-math-option', plain: true };
+  if (section === 'reasoning') return { stem: 'udc-reasoning-stem', option: 'udc-reasoning-option', plain: false };
+  return { stem: '', option: '', plain: false };
+}
+
+/**
  * One colour per section, used for the topic label, the option keys and the
  * card's left edge.
  *

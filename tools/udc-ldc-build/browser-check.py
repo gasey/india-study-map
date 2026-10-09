@@ -107,6 +107,11 @@ wait_for("!!document.querySelectorAll('.udc-question-card')[30].querySelector('.
 assert evaluate("document.querySelectorAll('.udc-question-card')[30].innerText.includes('largest protected area')")
 browse('Group B (non-gazetted)', 'Arithmetic')
 assert evaluate("document.querySelectorAll('.udc-question-card').length") == 100
+# The mixed Computer/Arithmetic/Reasoning paper must split into its three
+# reading modes: 30 quantitative stems, 35 reasoning, 35 computer (plain).
+assert evaluate("document.querySelectorAll('.udc-question-card .udc-math-stem').length") == 30
+assert evaluate("document.querySelectorAll('.udc-question-card .udc-reasoning-stem').length") == 35
+assert evaluate("document.querySelectorAll('.udc-question-card .udc-math-option').length") == 120
 assert evaluate("document.querySelectorAll('.udc-question-card img').length") == 6
 evaluate("document.querySelectorAll('.udc-question-card')[74].scrollIntoView({block:'start'})")
 wait_for("document.querySelectorAll('.udc-question-card')[74].querySelector('img').complete")
@@ -506,6 +511,10 @@ browse('Assistant Sub-Inspector of Police (Ministerial)', 'General Knowledge & R
 assert evaluate("document.querySelectorAll('.udc-question-card').length === 100")
 for index in (61,86,87,88):
     evaluate(f"document.querySelectorAll('.udc-question-card')[{index}].scrollIntoView({{block:'center'}})")
+    # Lazy images are sometimes aborted mid-session (complete=true, naturalWidth 0)
+    # when React re-renders during paper switching; a fresh <Image> for the same
+    # URL decodes fine, so force one retry instead of failing the whole suite.
+    evaluate(f"(()=>{{const im=document.querySelectorAll('.udc-question-card')[{index}].querySelector('img');if(im&&!im.naturalWidth&&im.complete){{im.loading='eager';im.src=im.currentSrc||im.src;}}}})()")
     wait_for(f"document.querySelectorAll('.udc-question-card')[{index}].querySelector('img')?.naturalWidth > 0")
 evaluate("document.querySelectorAll('.udc-question-card')[79].querySelectorAll('.udc-option-label')[0].closest('button').click()")
 wait_for("document.querySelectorAll('.udc-question-card')[79].innerText.includes('377 × 34/493 = 26')")

@@ -513,9 +513,8 @@ for index in (61,86,87,88):
     evaluate(f"document.querySelectorAll('.udc-question-card')[{index}].scrollIntoView({{block:'center'}})")
     # Lazy images are sometimes aborted mid-session (complete=true, naturalWidth 0)
     # when React re-renders during paper switching; a fresh <Image> for the same
-    # URL decodes fine, so force one retry instead of failing the whole suite.
-    evaluate(f"(()=>{{const im=document.querySelectorAll('.udc-question-card')[{index}].querySelector('img');if(im&&!im.naturalWidth&&im.complete){{im.loading='eager';im.src=im.currentSrc||im.src;}}}})()")
-    wait_for(f"document.querySelectorAll('.udc-question-card')[{index}].querySelector('img')?.naturalWidth > 0")
+    # URL decodes fine, so relaunch the load on each poll until it settles.
+    wait_for(f"(()=>{{const im=document.querySelectorAll('.udc-question-card')[{index}].querySelector('img');if(im&&!im.naturalWidth&&im.complete){{im.loading='eager';im.src=im.currentSrc||im.src;}}return !!im&&im.naturalWidth>0}})()")
 evaluate("document.querySelectorAll('.udc-question-card')[79].querySelectorAll('.udc-option-label')[0].closest('button').click()")
 wait_for("document.querySelectorAll('.udc-question-card')[79].innerText.includes('377 × 34/493 = 26')")
 command('Emulation.setDeviceMetricsOverride', {'width':390,'height':900,'deviceScaleFactor':1,'mobile':True})

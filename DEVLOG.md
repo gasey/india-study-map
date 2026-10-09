@@ -9,6 +9,26 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-09 — Deploy Group B work to production
+
+**What changed.** Committed all Group B source-review work (26 files, 20,607
+insertions) and deployed to Vercel production. The previous deployment attempt
+failed with "Not authorized"; the fix was passing `--scope gaseys-projects`
+explicitly. Deployment `dpl_JSvdwuqzRxT91H73mKSvYvKmn7cC` is live at
+`https://map.hawayu.in` (aliased from
+`https://india-study-qw8ztk18r-gaseys-projects.vercel.app`).
+
+**Verified live** via headless Chromium (Playwright): 49 papers, 3,420 ready to
+practise (1,614 official), 0 unreviewed, 159 held, 13 missing, zero console
+errors on load and reload.
+
+**Still open.** 159 held items need factual evidence or official keys. 13
+Stenographer GK November 2024 questions (Q67–79) need the missing printed page 6.
+Several papers lack matched official final keys and remain excluded from Exam
+mode.
+
+---
+
 ## 2026-10-09 — Complete the imported Group B source-review queue
 
 **What changed.** Reviewed the remaining English and ASI GK/reasoning batches.

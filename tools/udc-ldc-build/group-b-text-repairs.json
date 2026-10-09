@@ -35250,6 +35250,1039 @@
           "explanation": "Choose one topic, state a clear central idea, and develop it in a focused introduction, connected supporting paragraphs, and a conclusion. For “Talent versus Hard Work,” compare natural ability with practice and persistence. For “Mass Media and Cultural Invasion,” discuss both cultural exchange and the risk of displacing local traditions. For “Youth Culture Today,” consider young people’s changing values, technology, education, and responsibilities. Use specific examples and maintain a consistent point of view."
         }
       }
+    },
+    "aao-2025-p1": {
+      "sourceSha256": "651da25575f73d3b8bb13585494cae05b038f47af67e7176b31cb43d5986901d",
+      "expectedMcq": 60,
+      "reviewedOn": "2026-10-09",
+      "nonMcq": [
+        3
+      ],
+      "evidence": "Visually checked all eight printed pages. Recovered Part A’s four conventional prompts, the full précis and reading passage, and response guidance; separated the OCR-merged passage item from the Part B MCQs. All 60 Part B stems and option order checked against pages 4–8; 58 have derived explanations. Q32 duplicates two valid negative forms; Q56 permits two reported-speech conversions, so both are held. Cover confirms 3 hours, 40 Part-A marks, 60 one-mark MCQs, and negative marking (amount unspecified); no verified final key is attached, so full-paper Exam mode remains excluded.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 4,
+          "q": "She is a **brilliant** politician.",
+          "opts": {
+            "a": "noun",
+            "b": "adjective",
+            "c": "adverb",
+            "d": "verb"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
+        },
+        "2": {
+          "n": 2,
+          "page": 4,
+          "q": "The word **quickly** belongs to:",
+          "opts": {
+            "a": "adverb",
+            "b": "adjective",
+            "c": "preposition",
+            "d": "noun"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
+        },
+        "3": {
+          "n": 3,
+          "page": 4,
+          "q": "Sangi **and** her brother went to the mall.",
+          "opts": {
+            "a": "conjunction",
+            "b": "pronoun",
+            "c": "verb",
+            "d": "adverb"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
+        },
+        "4": {
+          "n": 4,
+          "page": 4,
+          "q": "The **beauty** of a green hill is beyond words.",
+          "opts": {
+            "a": "adjective",
+            "b": "noun",
+            "c": "verb",
+            "d": "adverb"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
+        },
+        "5": {
+          "n": 5,
+          "page": 4,
+          "q": "The athlete **ran** fast.",
+          "opts": {
+            "a": "noun",
+            "b": "verb",
+            "c": "adjective",
+            "d": "preposition"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
+        },
+        "6": {
+          "n": 6,
+          "page": 4,
+          "q": "**That** is a tree.",
+          "opts": {
+            "a": "noun",
+            "b": "pronoun",
+            "c": "adverb",
+            "d": "preposition"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
+        },
+        "7": {
+          "n": 7,
+          "page": 4,
+          "q": "Lilac sings **sweetly**.",
+          "opts": {
+            "a": "adjective",
+            "b": "adverb",
+            "c": "verb",
+            "d": "noun"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
+        },
+        "8": {
+          "n": 8,
+          "page": 4,
+          "q": "The **tall** soldier carried a heavy box of artillery up the hill.",
+          "opts": {
+            "a": "adverb",
+            "b": "verb",
+            "c": "noun",
+            "d": "adjective"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
+        },
+        "9": {
+          "n": 9,
+          "page": 4,
+          "q": "A **coward** dies many times before his death.",
+          "opts": {
+            "a": "Adjective",
+            "b": "Adverb",
+            "c": "Noun",
+            "d": "Pronoun"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
+        },
+        "10": {
+          "n": 10,
+          "page": 4,
+          "q": "She **almost** missed the flight.",
+          "opts": {
+            "a": "Adjective",
+            "b": "Adverb",
+            "c": "Preposition",
+            "d": "Abstract Noun"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
+        },
+        "11": {
+          "n": 11,
+          "page": 4,
+          "q": "Zuala ________ his homework every morning.",
+          "opts": {
+            "a": "do",
+            "b": "did",
+            "c": "does",
+            "d": "doing"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
+        },
+        "12": {
+          "n": 12,
+          "page": 4,
+          "q": "The boys ________ to the park yesterday.",
+          "opts": {
+            "a": "go",
+            "b": "went",
+            "c": "goes",
+            "d": "gone"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
+        },
+        "13": {
+          "n": 13,
+          "page": 5,
+          "q": "By this time tomorrow, the students ________ their exam.",
+          "opts": {
+            "a": "will finish",
+            "b": "finished",
+            "c": "will have finished",
+            "d": "have finished"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
+        },
+        "14": {
+          "n": 14,
+          "page": 5,
+          "q": "He ________ the award from the office this forenoon.",
+          "opts": {
+            "a": "receive",
+            "b": "has received",
+            "c": "have received",
+            "d": "was receiving"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
+        },
+        "15": {
+          "n": 15,
+          "page": 5,
+          "q": "When Mary arrived, her husband ________ dinner.",
+          "opts": {
+            "a": "was cooking",
+            "b": "cooked",
+            "c": "has cooked",
+            "d": "is cooking"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
+        },
+        "16": {
+          "n": 16,
+          "page": 5,
+          "q": "I ________ Spanish for ten years.",
+          "opts": {
+            "a": "learn",
+            "b": "am learning",
+            "c": "have been learning",
+            "d": "will learn"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
+        },
+        "17": {
+          "n": 17,
+          "page": 5,
+          "q": "The bus ________ before we reached the bus stop.",
+          "opts": {
+            "a": "is leaving",
+            "b": "have left",
+            "c": "had left",
+            "d": "leaves"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
+        },
+        "18": {
+          "n": 18,
+          "page": 5,
+          "q": "The boy ________ TV when the lights went out.",
+          "opts": {
+            "a": "watched",
+            "b": "is watching",
+            "c": "was watching",
+            "d": "watches"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
+        },
+        "19": {
+          "n": 19,
+          "page": 5,
+          "q": "The old man ________ his keys in the garden.",
+          "opts": {
+            "a": "lose",
+            "b": "had been loosing",
+            "c": "loose",
+            "d": "has lost"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
+        },
+        "20": {
+          "n": 20,
+          "page": 5,
+          "q": "If it rains tomorrow, we ________ indoors.",
+          "opts": {
+            "a": "stayed",
+            "b": "have stayed",
+            "c": "will stay",
+            "d": "would stay"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
+        },
+        "21": {
+          "n": 21,
+          "page": 5,
+          "q": "Choose the word that best fits the blank: The old house looked ________, but it was surprisingly strong.",
+          "opts": {
+            "a": "fragile",
+            "b": "sturdy",
+            "c": "sick",
+            "d": "faint"
+          },
+          "part": "B"
+        },
+        "22": {
+          "n": 22,
+          "page": 5,
+          "q": "Choose the correct synonym of the word ‘elated.’",
+          "opts": {
+            "a": "sad",
+            "b": "excited",
+            "c": "bored",
+            "d": "calm"
+          },
+          "part": "B"
+        },
+        "23": {
+          "n": 23,
+          "page": 5,
+          "q": "Pick the word that means the same as ‘generous.’",
+          "opts": {
+            "a": "kind",
+            "b": "selfish",
+            "c": "greedy",
+            "d": "rude"
+          },
+          "part": "B"
+        },
+        "24": {
+          "n": 24,
+          "page": 5,
+          "q": "Choose the antonym of ‘ancient.’",
+          "opts": {
+            "a": "antique",
+            "b": "old",
+            "c": "modern",
+            "d": "aged"
+          },
+          "part": "B"
+        },
+        "25": {
+          "n": 25,
+          "page": 5,
+          "q": "Select the word that correctly completes the sentence: He gave a very ________ speech at the ceremony.",
+          "opts": {
+            "a": "inspiring",
+            "b": "inspire",
+            "c": "inspiration",
+            "d": "inspirer’s"
+          },
+          "part": "B"
+        },
+        "26": {
+          "n": 26,
+          "page": 6,
+          "q": "Choose the word most similar in meaning to ‘vivid.’",
+          "opts": {
+            "a": "dull",
+            "b": "clear",
+            "c": "faint",
+            "d": "vague"
+          },
+          "part": "B"
+        },
+        "27": {
+          "n": 27,
+          "page": 6,
+          "q": "Pick the most appropriate word: The shop was successful because of his ________ decisions.",
+          "opts": {
+            "a": "flop",
+            "b": "wise",
+            "c": "recklessly",
+            "d": "hesitate"
+          },
+          "part": "B"
+        },
+        "28": {
+          "n": 28,
+          "page": 6,
+          "q": "Choose the correct meaning of the word ‘contented.’",
+          "opts": {
+            "a": "willing",
+            "b": "glee",
+            "c": "unwilling",
+            "d": "cheerful"
+          },
+          "part": "B"
+        },
+        "29": {
+          "n": 29,
+          "page": 6,
+          "q": "Select the synonym of  ‘abandon.’",
+          "opts": {
+            "a": "leave",
+            "b": "start",
+            "c": "finish",
+            "d": "support"
+          },
+          "part": "B"
+        },
+        "30": {
+          "n": 30,
+          "page": 6,
+          "q": "Choose the word that best fits the blank: The manager appreciated her for her ________ in completing the task.",
+          "opts": {
+            "a": "laziness",
+            "b": "punctuality",
+            "c": "carelessness",
+            "d": "delay"
+          },
+          "part": "B"
+        },
+        "31": {
+          "n": 31,
+          "page": 6,
+          "q": "Choose the sentence with the correct word order.",
+          "opts": {
+            "a": "Always Nancy comes late to office.",
+            "b": "Nancy always comes late to office.",
+            "c": "Nancy comes late always to office.",
+            "d": "Late to school office comes always."
+          },
+          "part": "B"
+        },
+        "32": {
+          "n": 32,
+          "page": 6,
+          "q": "Identify the grammatically correct sentence.",
+          "opts": {
+            "a": "He do not like noodles.",
+            "b": "He doesn’t like noodles.",
+            "c": "He does not like noodles.",
+            "d": "He don’t like noodles."
+          },
+          "part": "B",
+          "unscored": true,
+          "explanation": "Both “He doesn’t like noodles” and “He does not like noodles” are grammatically correct. The printed options duplicate the same valid answer, so this item is held.",
+          "reviewNote": "Both “He doesn’t like noodles” and “He does not like noodles” are grammatically correct. The printed options duplicate the same valid answer, so this item is held."
+        },
+        "33": {
+          "n": 33,
+          "page": 6,
+          "q": "Choose the complete and meaningful sentence.",
+          "opts": {
+            "a": "Because she was tired.",
+            "b": "When the sun rises.",
+            "c": "The baby cried loudly.",
+            "d": "Although she was happy."
+          },
+          "part": "B"
+        },
+        "34": {
+          "n": 34,
+          "page": 6,
+          "q": "Select the sentence that is in correct order.",
+          "opts": {
+            "a": "The teacher to explained students the lesson.",
+            "b": "The teacher explained the lesson to the students.",
+            "c": "The teacher the lesson explained to students.",
+            "d": "To the students explained the teacher the lesson."
+          },
+          "part": "B"
+        },
+        "35": {
+          "n": 35,
+          "page": 6,
+          "q": "Identify the correctly structured sentence.",
+          "opts": {
+            "a": "It not has rained this morning.",
+            "b": "It does not rains this morning.",
+            "c": "It has not rained this morning.",
+            "d": "Does it not rained this morning."
+          },
+          "part": "B"
+        },
+        "36": {
+          "n": 36,
+          "page": 6,
+          "q": "Choose the correctly punctuated sentence.",
+          "opts": {
+            "a": "“Can you help me” asked Bob.",
+            "b": "“Can you help me?” asked Bob.",
+            "c": "“Can you help me”? asked Bob.",
+            "d": "Can you help me? asked “Bob”."
+          },
+          "part": "B"
+        },
+        "37": {
+          "n": 37,
+          "page": 6,
+          "q": "Choose the correct sequence. (P)we must act now (Q)to reduce pollution and protect nature (R)before it becomes too late (S)for the coming generations",
+          "opts": {
+            "a": "P Q R S",
+            "b": "Q P R S",
+            "c": "P Q S R",
+            "d": "Q S R P"
+          },
+          "part": "B"
+        },
+        "38": {
+          "n": 38,
+          "page": 7,
+          "q": "Choose the correct sequence. (P)people came together to help one another (Q)when the earthquake struck the town (R)homes were destroyed and families displaced (S)but the spirit of unity gave everyone hope",
+          "opts": {
+            "a": "Q R P S",
+            "b": "R Q P S",
+            "c": "Q P R S",
+            "d": "P R S Q"
+          },
+          "part": "B"
+        },
+        "39": {
+          "n": 39,
+          "page": 7,
+          "q": "Choose the correct sequence. (P)the world has become smaller (Q)with the advent of modern technology (R)communication across continents (S)has become instant and effortless",
+          "opts": {
+            "a": "Q P R S",
+            "b": "Q R S P",
+            "c": "P Q R S",
+            "d": "R Q S P"
+          },
+          "part": "B"
+        },
+        "40": {
+          "n": 40,
+          "page": 7,
+          "q": "Choose the sentence with the correct use of conjunctions.",
+          "opts": {
+            "a": "He is poor but he is honest.",
+            "b": "He is poor so he is honest.",
+            "c": "He is poor or he is honest.",
+            "d": "He is poor therefore he is honest."
+          },
+          "part": "B"
+        },
+        "41": {
+          "n": 41,
+          "page": 7,
+          "q": "Close the door.",
+          "opts": {
+            "a": "Declarative",
+            "b": "Interrogative",
+            "c": "Exclamatory",
+            "d": "Imperative"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "42": {
+          "n": 42,
+          "page": 7,
+          "q": "The baker sold some fresh pastries.",
+          "opts": {
+            "a": "Optative",
+            "b": "Interrogative",
+            "c": "Declarative",
+            "d": "Imperative"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "43": {
+          "n": 43,
+          "page": 7,
+          "q": "I know who she is.",
+          "opts": {
+            "a": "Simple",
+            "b": "Complex",
+            "c": "Compound",
+            "d": "Complex-Compound"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "44": {
+          "n": 44,
+          "page": 7,
+          "q": "We saw trees laden with fruits.",
+          "opts": {
+            "a": "Simple",
+            "b": "Complex",
+            "c": "Compound",
+            "d": "Complex-Compound"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "45": {
+          "n": 45,
+          "page": 7,
+          "q": "He is brave but careless.",
+          "opts": {
+            "a": "Simple",
+            "b": "Complex",
+            "c": "Compound",
+            "d": "Complex-Compound"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "46": {
+          "n": 46,
+          "page": 7,
+          "q": "Identify-How + Adjective + Subject + Verb.",
+          "opts": {
+            "a": "How are you today?",
+            "b": "How fine the day is!",
+            "c": "How sweet is the music!",
+            "d": "How will you go there?"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "47": {
+          "n": 47,
+          "page": 7,
+          "q": "All cheered.",
+          "opts": {
+            "a": "Affirmative",
+            "b": "Optative",
+            "c": "Imperative",
+            "d": "Negative"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "48": {
+          "n": 48,
+          "page": 7,
+          "q": "Never waste food.",
+          "opts": {
+            "a": "Interrogative",
+            "b": "Declarative",
+            "c": "Imperative",
+            "d": "Exclamatory"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "49": {
+          "n": 49,
+          "page": 8,
+          "q": "Is it early yet?",
+          "opts": {
+            "a": "Declarative",
+            "b": "Interrogative",
+            "c": "Imperative",
+            "d": "Exclamatory"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "50": {
+          "n": 50,
+          "page": 8,
+          "q": "Identify- Subject + Verb + Object",
+          "opts": {
+            "a": "I am drinking",
+            "b": "Father is here",
+            "c": "The dog chased the cat",
+            "d": "She is my teacher"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "51": {
+          "n": 51,
+          "page": 8,
+          "q": "I went to the store to buy mints.",
+          "opts": {
+            "a": "Purpose",
+            "b": "Request",
+            "c": "Command",
+            "d": "Exclamation"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "52": {
+          "n": 52,
+          "page": 8,
+          "q": "She learned Russian at the age of 40.",
+          "opts": {
+            "a": "Request",
+            "b": "Command",
+            "c": "Statement",
+            "d": "Demand"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "53": {
+          "n": 53,
+          "page": 8,
+          "q": "I will see you in the conference.",
+          "opts": {
+            "a": "Wish",
+            "b": "Statement",
+            "c": "Invitation",
+            "d": "Request"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "54": {
+          "n": 54,
+          "page": 8,
+          "q": "He wanted to go out but it started raining.",
+          "opts": {
+            "a": "Simple",
+            "b": "Complex",
+            "c": "Compound",
+            "d": "Complex-Compound"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "55": {
+          "n": 55,
+          "page": 8,
+          "q": "Although she was tired, she finished her work.",
+          "opts": {
+            "a": "Simple",
+            "b": "Complex",
+            "c": "Compound",
+            "d": "Complex-Compound"
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "56": {
+          "n": 56,
+          "page": 8,
+          "q": "He said, “I have been a good friend.”",
+          "opts": {
+            "a": "He said that he had been a good friend.",
+            "b": "He said that he was a good friend.",
+            "c": "He said that he has been a good friend.",
+            "d": "He said that he have been a good friend."
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options.",
+          "unscored": true,
+          "explanation": "Both “He said that he had been a good friend” and “He said that he was a good friend” can be valid reported speech, depending on whether the original perfect meaning is retained and whether the state still holds. The options do not establish one unique transformation.",
+          "reviewNote": "Both “He said that he had been a good friend” and “He said that he was a good friend” can be valid reported speech, depending on whether the original perfect meaning is retained and whether the state still holds. The options do not establish one unique transformation."
+        },
+        "57": {
+          "n": 57,
+          "page": 8,
+          "q": "They said that they took the bus every day.",
+          "opts": {
+            "a": "They said, “We take the bus every day.",
+            "b": "They said, “We took the bus every day.",
+            "c": "They said, “We have taken the bus every day.",
+            "d": "They said, “We had taken the bus every day."
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "58": {
+          "n": 58,
+          "page": 8,
+          "q": "He said to me, “You are rich, aren’t you?”",
+          "opts": {
+            "a": "He asked me if I am rich.",
+            "b": "He asked me if I was rich.",
+            "c": "He asked me if I had been rich",
+            "d": "He asked me if I have been rich."
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "59": {
+          "n": 59,
+          "page": 8,
+          "q": "They grow these plants in Mumbai.",
+          "opts": {
+            "a": "These plants are grown in Mumbai.",
+            "b": "These plants were grown in Mumbai.",
+            "c": "These plants are being grown in Mumbai.",
+            "d": "These plants have been grown in Mumbai."
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        },
+        "60": {
+          "n": 60,
+          "page": 8,
+          "q": "The poor should be helped.",
+          "opts": {
+            "a": "You should have helped the poor.",
+            "b": "He should helped the poor.",
+            "c": "We have helped the poor.",
+            "d": "One should help the poor."
+          },
+          "part": "B",
+          "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 1,
+          "explanation": "“Brilliant” describes the noun “politician,” so it is an adjective."
+        },
+        "2": {
+          "answerIndex": 0,
+          "explanation": "“Quickly” modifies an action, so it is an adverb."
+        },
+        "3": {
+          "answerIndex": 0,
+          "explanation": "“And” joins the two subjects, so it is a conjunction."
+        },
+        "4": {
+          "answerIndex": 1,
+          "explanation": "“Beauty” is a noun naming a quality."
+        },
+        "5": {
+          "answerIndex": 1,
+          "explanation": "“Ran” expresses the athlete’s action, so it is a verb."
+        },
+        "6": {
+          "answerIndex": 1,
+          "explanation": "“That” stands in for a noun phrase, so it is a pronoun."
+        },
+        "7": {
+          "answerIndex": 1,
+          "explanation": "“Sweetly” modifies the verb “sings,” so it is an adverb."
+        },
+        "8": {
+          "answerIndex": 3,
+          "explanation": "“Tall” describes the noun “soldier,” so it is an adjective."
+        },
+        "9": {
+          "answerIndex": 2,
+          "explanation": "“Coward” names a person, so it is a noun."
+        },
+        "10": {
+          "answerIndex": 1,
+          "explanation": "“Almost” modifies “missed,” so it is an adverb."
+        },
+        "11": {
+          "answerIndex": 2,
+          "explanation": "“Zuala” is third-person singular; the simple-present verb takes -s: “does.”"
+        },
+        "12": {
+          "answerIndex": 1,
+          "explanation": "“Yesterday” calls for the simple past “went.”"
+        },
+        "13": {
+          "answerIndex": 2,
+          "explanation": "“By this time tomorrow” sets a future deadline before which the exam will be completed: future perfect."
+        },
+        "14": {
+          "answerIndex": 1,
+          "explanation": "“He” takes “has”; present perfect “has received” fits the recent time expression “this forenoon.”"
+        },
+        "15": {
+          "answerIndex": 0,
+          "explanation": "The husband was in the middle of cooking when Mary arrived, so past progressive fits."
+        },
+        "16": {
+          "answerIndex": 2,
+          "explanation": "The action began in the past and continues for ten years; present perfect progressive fits."
+        },
+        "17": {
+          "answerIndex": 2,
+          "explanation": "The bus departure occurred before the later past event, so past perfect “had left” fits."
+        },
+        "18": {
+          "answerIndex": 2,
+          "explanation": "The boy was watching TV when another past event occurred; past progressive fits."
+        },
+        "19": {
+          "answerIndex": 3,
+          "explanation": "“Has lost” is the only correctly formed finite tense among the offered choices for losing the keys."
+        },
+        "20": {
+          "answerIndex": 2,
+          "explanation": "In a first conditional, the if-clause uses present simple and the result clause uses “will” + verb."
+        },
+        "21": {
+          "answerIndex": 0,
+          "explanation": "“Fragile” contrasts with the stated strength of the old house."
+        },
+        "22": {
+          "answerIndex": 1,
+          "explanation": "“Elated” means very happy or excited."
+        },
+        "23": {
+          "answerIndex": 0,
+          "explanation": "“Kind” is closest in meaning to “generous.”"
+        },
+        "24": {
+          "answerIndex": 2,
+          "explanation": "“Modern” is the opposite of “ancient.”"
+        },
+        "25": {
+          "answerIndex": 0,
+          "explanation": "“Inspiring” correctly modifies “speech.”"
+        },
+        "26": {
+          "answerIndex": 1,
+          "explanation": "“Vivid” can mean clear, bright, or sharply defined; “clear” is the closest offered synonym."
+        },
+        "27": {
+          "answerIndex": 1,
+          "explanation": "Wise decisions explain the shop’s success; the other choices do not fit."
+        },
+        "28": {
+          "answerIndex": 3,
+          "explanation": "“Contented” means satisfied and happy; “cheerful” is the closest offered meaning."
+        },
+        "29": {
+          "answerIndex": 0,
+          "explanation": "“Abandon” means to leave or give up."
+        },
+        "30": {
+          "answerIndex": 1,
+          "explanation": "Punctuality is being on time, which explains appreciation for completing the task."
+        },
+        "31": {
+          "answerIndex": 1,
+          "explanation": "The normal adverb placement is after the subject: “Nancy always comes…”"
+        },
+        "33": {
+          "answerIndex": 2,
+          "explanation": "Only “The baby cried loudly” is an independent, complete sentence; the other choices are subordinate fragments."
+        },
+        "34": {
+          "answerIndex": 1,
+          "explanation": "The standard word order is subject + verb + object + recipient phrase: “The teacher explained the lesson to the students.”"
+        },
+        "35": {
+          "answerIndex": 2,
+          "explanation": "“It has not rained this morning” correctly uses present perfect with the negative “not.”"
+        },
+        "36": {
+          "answerIndex": 1,
+          "explanation": "In direct speech, the question mark belongs inside the quotation marks, before “asked Bob.”"
+        },
+        "37": {
+          "answerIndex": 0,
+          "explanation": "The parts form: “We must act now to reduce pollution and protect nature before it becomes too late for the coming generations.”"
+        },
+        "38": {
+          "answerIndex": 0,
+          "explanation": "The earthquake happens first, homes are damaged, people gather to help, and the contrast closes with the unity giving hope: Q-R-P-S."
+        },
+        "39": {
+          "answerIndex": 1,
+          "explanation": "The coherent order is: “With the advent of modern technology, communication across continents has become instant and effortless; the world has become smaller.”"
+        },
+        "40": {
+          "answerIndex": 0,
+          "explanation": "“But” correctly marks the contrast between being poor and being honest."
+        },
+        "41": {
+          "answerIndex": 3,
+          "explanation": "“Close the door” gives a command, so it is imperative."
+        },
+        "42": {
+          "answerIndex": 2,
+          "explanation": "“The baker sold some fresh pastries” states a fact, so it is declarative."
+        },
+        "43": {
+          "answerIndex": 1,
+          "explanation": "It has a main clause (“I know”) and a subordinate noun clause (“who she is”), so it is complex."
+        },
+        "44": {
+          "answerIndex": 0,
+          "explanation": "It contains one independent clause, so it is simple."
+        },
+        "45": {
+          "answerIndex": 0,
+          "explanation": "“Brave but careless” is a compound predicate complement, not two clauses; the sentence is simple."
+        },
+        "46": {
+          "answerIndex": 1,
+          "explanation": "“How fine the day is!” follows how + adjective + subject + verb."
+        },
+        "47": {
+          "answerIndex": 0,
+          "explanation": "“All cheered” is a positive statement, so it is affirmative."
+        },
+        "48": {
+          "answerIndex": 2,
+          "explanation": "“Never waste food” gives an instruction, so it is imperative."
+        },
+        "49": {
+          "answerIndex": 1,
+          "explanation": "“Is it early yet?” asks a question, so it is interrogative."
+        },
+        "50": {
+          "answerIndex": 2,
+          "explanation": "“The dog chased the cat” has subject “the dog,” verb “chased,” and object “the cat.”"
+        },
+        "51": {
+          "answerIndex": 0,
+          "explanation": "“To buy mints” explains why the speaker went to the store; it expresses purpose."
+        },
+        "52": {
+          "answerIndex": 2,
+          "explanation": "“She learned Russian at the age of 40” is a statement."
+        },
+        "53": {
+          "answerIndex": 1,
+          "explanation": "“I will see you in the conference” is phrased as a statement; none of the choices identifies a promise."
+        },
+        "54": {
+          "answerIndex": 2,
+          "explanation": "It joins two independent clauses with “but,” so it is compound."
+        },
+        "55": {
+          "answerIndex": 1,
+          "explanation": "“Although she was tired” is subordinate to the main clause, so the sentence is complex."
+        },
+        "57": {
+          "answerIndex": 0,
+          "explanation": "The usual direct-speech reconstruction back-translates “took” to the original habitual present: “They said, ‘We take the bus every day.’”"
+        },
+        "58": {
+          "answerIndex": 1,
+          "explanation": "The reported question uses “if” and backshifts “are” to “was”: “He asked me if I was rich.”"
+        },
+        "59": {
+          "answerIndex": 0,
+          "explanation": "Present simple passive is “are grown”; the plural subject “plants” takes “are.”"
+        },
+        "60": {
+          "answerIndex": 3,
+          "explanation": "“One should help the poor” preserves the general meaning of “The poor should be helped.”"
+        }
+      },
+      "written": {
+        "1": {
+          "page": 2,
+          "q": "Write a précis of the following passage and give a suitable title.\n\nGardening is one of the oldest and most rewarding human activities. Long before the rise of\n   modern cities and industries, people cultivated plants not only for food but also for beauty and peace\n   of mind. In today’s fast-paced world, gardening remains a quiet yet powerful way to reconnect with\n   nature and oneself. It teaches patience, care, and respect for life. Watching a seed sprout, grow, and\n   bloom is a reminder that growth cannot be hurried and that every living thing requires time and\n   attention to flourish. Beyond personal satisfaction, gardening plays a vital role in environmental balance.\n   Gardens act as miniature ecosystems that support a variety of life—bees, butterflies, birds, and\n   countless microorganisms. In urban areas, gardens help reduce air pollution, provide shade, and\n   lower temperatures. They also improve soil quality and contribute to water conservation when managed\n   responsibly. Even a few pots on a balcony can make a difference by absorbing carbon dioxide and\n   releasing oxygen. Thus, gardening, in its simplest form, becomes a small act of environmental activism.\n   Moreover, gardening promotes mental and physical well-being. Studies have shown that spending\n   time with plants reduces stress, lowers blood pressure, and improves concentration. Digging, planting,\n   and weeding are gentle forms of exercise that keep the body active and flexible. The sense of purpose\n   that comes from nurturing life can lift one’s mood and help overcome feelings of anxiety or loneliness.\n   For many, gardens become personal sanctuaries—a place to reflect, create, and find joy in the smallest\n   details of life. Gardening also encourages sustainability and self-reliance. Growing one’s own fruits,\n   vegetables, and herbs reduces dependence on commercially grown products, which often involves\n   heavy use of chemicals and long-distance transportation. A home garden promotes healthier eating\n   habits and teaches respect for the effort involved in producing food. Community gardens, in particular,\n   bring people together. They transform unused spaces into areas of cooperation, sharing, and friendship.\n   People from different backgrounds come together to work on a common project, bridging gaps and\n   strengthening community ties. However, modern lifestyles and urbanization have made gardening\n   more challenging. Limited space, lack of time, and disconnection from nature discourage people from\n   taking up this rewarding activity. Yet, with creativity and determination, gardening can be adapted to\n   modern life. Vertical gardens, hydroponics, and rooftop gardens are examples of innovative solutions\n   that bring greenery into compact spaces. Schools and workplaces can also introduce gardening\n   programs to foster awareness of sustainability and environmental care among young people. In the\n   end, gardening is more than a hobby; it is a way of life. It teaches responsibility, gratitude, and\n   balance. A gardener learns that every season has its rhythm, every plant its need, and every effort its\n   reward. As cities grow and technology advances, the humble act of tending to a plant reminds us that\n   we are still part of nature, not separate from it. To garden is to nurture life, and in doing so, to nurture\n   the gardener’s own soul.",
+          "explanation": "A précis should preserve the passage’s central ideas in a substantially shorter, coherent form: gardening benefits nature, health, sustainability, and community life, despite modern constraints. Add a concise title, use your own words, and omit examples and repetition."
+        },
+        "2": {
+          "page": 2,
+          "q": "You are experiencing frequent interruptions of power supply in your locality and are very much concerned about it. Write a letter to the Minister, Power & Electricity Department, Mizoram, highlighting the importance of self-reliance in power generation for the state. Sign as XYZ.",
+          "explanation": "Use a formal letter format: sender’s address/date, recipient, subject, salutation, concise account of local power interruptions, a reasoned case for reliable locally generated power, practical requests, and a formal closing signed XYZ."
+        },
+        "3": {
+          "page": 3,
+          "q": "Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only. On a radiant Saturday morning, Bara Bazar, the commercial heart of Aizawl, pulsated with characteristic vitality. The air was an intricate blend of aroma- smoked meat, roasted corn, and freshly harvested vegetables- interwoven with the hum of animated bargaining. Stalls overflowed with vivid textiles, fruits, and handicrafts, while the rhythm of footsteps and voices formed the living music of the marketplace. Amidst this dynamic scene moved an elderly woman, a vendor from a nearby village. She bore a woven bamboo basket laden with oranges and bananas, the product of her modest livelihood. Her steps were deliberate yet weary from the long descent from her hillside home. As she approached the Dawrpui junction steps, the uneven pavement caused her to stumble slightly, sending her basket tumbling to the ground. The fruits scattered chaotically, rolling between stalls and down the slope, drawing the attention of nearby onlookers. For a brief interlude, the bustling crowd seemed suspended in hesitation. Some individuals watched with detached curiosity, while others appeared momentarily uncertain of how to intervene. It was then that a group of college students, observing the incident, instinctively hurried forward. Demonstrating commendable civic empathy, they gathered the fallen fruits with meticulous care, brushing away dust and restoring them to the basket. One student extended a steadying hand to the woman, while another insisted on carrying her burden up the remaining flight of steps. The woman’s countenance, once clouded with distress, softened into an expression of profound gratitude. In a trembling yet affectionate voice, she uttered, “Thank you, may God bless you.” The sincerity of her words evoked a quiet sense of reverence among the bystanders. Nearby vendors nodded approvingly, some offering the young helpers roasted corn and tea as tokens of appreciation. For a few fleeting moments, the frenetic rhythm of the marketplace seemed to dissolve into a shared stillness—a recognition of genuine human solidarity. The scene, though simple, encapsulated a deeper moral truth: that kindness persists even amidst the noise of modern urban life. For the onlookers, the episode served as a subtle yet powerful reminder of communal compassion and ethical responsibility, virtues deeply embedded within Mizo culture. Amid the hurried exchanges and commercial bustle of Bara Bazar, that small gesture of humanity shone like a quiet beacon—affirming that benevolence, however ordinary, continues to bind society together in its most authentic form.\n\nAnswer these questions based only on the passage: (a) What caused the elderly woman’s mishap? (b) How did the students show civic empathy? (c) How did the woman express gratitude? (d) What social or moral values does the narrative underscore? (e) Give passage synonyms for bright, haphazardly, admiration, and grace.",
+          "explanation": "Base responses only on the passage. The uneven pavement caused the fall; students gathered the fruit, steadied the woman and helped carry her basket; she thanked and blessed them. The episode emphasizes compassion, solidarity and ethical responsibility. Likely vocabulary matches are radiant, chaotically, appreciation, and kindness."
+        },
+        "4": {
+          "page": 3,
+          "q": "Write an essay on any one of these topics: (a) Rainwater Harvesting and Forest Preservation in Mizoram; (b) Urban Growth and Its Impact on Environment; (c) Role of NGOs in Mizoram’s Development; (d) Importance of Good Governance in Mizoram.",
+          "explanation": "Choose one topic and develop a clear thesis with an introduction, organized supporting points, relevant local examples, and a conclusion. Keep the discussion focused, balanced and grammatically clear."
+        }
+      }
     }
   }
 }

@@ -54,6 +54,18 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertTrue(all(result['questions'][n - 1]['unscored'] for n in (2, 14, 41, 42, 52)))
         self.assertIn('essay', repair['written']['1']['q'])
 
+    def test_aao_2025_english_splits_merged_written_prompt_from_mcq(self):
+        extracted = json.loads((HERE / 'extracted/aao-2025-p1.json').read_text())
+        repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['aao-2025-p1']
+        result, reviewed = reviewed_extraction(extracted, repair)
+        self.assertEqual(reviewed, set(range(1, 61)))
+        self.assertEqual([q['n'] for q in result['questions']], list(range(1, 61)))
+        self.assertEqual(set(repair['derivedAnswers']), set(map(str, set(range(1, 61)) - {32, 56})))
+        self.assertEqual([q['n'] for q in result['questions'] if q['part'] == 'B'], list(range(1, 61)))
+        self.assertTrue(all(str(n) in repair['written'] for n in range(1, 5)))
+        self.assertEqual(result['questions'][31]['opts']['b'], 'He doesn’t like noodles.')
+        self.assertTrue(result['questions'][31]['unscored'])
+
     def test_fcs_paper_recovers_merged_first_eight_and_reviews_through_100(self):
         extracted = json.loads((HERE / 'extracted/si-fcs-2025-p2.json').read_text())
         repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['si-fcs-2025-p2']

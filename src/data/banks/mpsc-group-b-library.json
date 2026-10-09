@@ -231,7 +231,8 @@
     "sourceHref": "/papers/group-b/je-2016-english.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 80
   },
   {
     "id": "mpsc-group-b-je-2025-english",
@@ -337,7 +338,8 @@
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 60
   },
   {
     "id": "mpsc-group-b-aao-2025-p2",

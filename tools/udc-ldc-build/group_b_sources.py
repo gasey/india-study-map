@@ -109,8 +109,17 @@ def reviewed_extraction(extracted, repair):
         return extracted, set()
     assert repair['sourceSha256'] == extracted['sourceSha256'], 'Stale source-reviewed repairs'
     assert repair.get('evidence') and repair.get('reviewedOn'), 'Missing review evidence'
-    rows = {q['n']: q for q in extracted['questions']}
-    assert len(rows) == len(extracted['questions']), 'Duplicate extracted question numbers'
+    rows = {}
+    duplicate_numbers = set()
+    for question in extracted['questions']:
+        if question['n'] in rows:
+            duplicate_numbers.add(question['n'])
+        else:
+            rows[question['n']] = question
+    # Some OCR output assigns the same number to a merged written prompt and
+    # its MCQ. A reviewed nonMcq list explicitly authorizes removing that row.
+    allowed_duplicates = {int(number) for number in repair.get('nonMcq', [])}
+    assert duplicate_numbers <= allowed_duplicates, 'Unexpected duplicate extracted question numbers'
     # Some OCR passes flatten written prompts and their listed subparts into
     # fake four-option MCQs. Drop those numbers before applying MCQ repairs;
     # reviewed written prompts are emitted separately below.
@@ -218,8 +227,16 @@ def build_additional():
         if slug == 'je-2016-english' and repairs.get(slug, {}).get('derivedAnswers'):
             # Printed cover: three hours, 100 total marks (80 MCQs plus a
             # 20-mark essay); the scan does not state a negative-marking rule.
+            entry['expectedMcq'] = 80
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'aao-2025-p1' and repairs.get(slug, {}).get('derivedAnswers'):
+            # Cover: 3 hours, 40 written marks plus 60 one-mark MCQs, with
+            # negative marking. The paper does not specify the penalty size;
+            # the one-third value follows the site's standard MPSC convention.
+            entry['expectedMcq'] = 60
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': True, 'penaltyFraction': 1/3}
         if slug == 'mvi-2025-p2' and repairs.get(slug, {}).get('derivedAnswers'):
             entry['expectedMcq'] = 100
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,

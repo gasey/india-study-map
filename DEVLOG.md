@@ -9,6 +9,21 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-09 — AAO 2025 English scan review
+
+**What shipped locally.** Checked all eight pages of the November 2025 AAO /
+AAAO / Field Facilitator Paper-I. Recovered four Part-A written tasks (including
+the précis passage and comprehension passage) from an OCR-merged pseudo-MCQ,
+then checked all 60 Part-B stems and choices. Fifty-eight MCQs have derived
+explanations. Q32 duplicates two grammatical answers and Q56 permits two
+reported-speech forms, so both are held. Group B now reports 3,108 practice-
+ready items and 417 source-review items.
+
+**What's still open.** The paper has no verified final key and remains out of
+full-paper Exam mode. Other source-review items remain pending.
+
+---
+
 ## 2026-10-09 — JE 2016 General English full scan review
 
 **What shipped locally.** Checked all nine printed pages, restored the twelve

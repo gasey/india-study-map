@@ -57818,24 +57818,6 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceNote": "Held out because the sequence permits more than one plausible shape-rotation rule."
   },
   {
-    "id": "mpsc-group-b-aao-2025-p1-conventional-3",
-    "paperId": "mpsc-group-b-aao-2025-p1",
-    "type": "descriptive",
-    "questionNumber": "A3",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "written",
-    "topicLabel": "General English · written",
-    "difficulty": "medium",
-    "question": "Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only. On a radiant Saturday morning, Bara Bazar, the commercial heart of Aizawl, pulsated with characteristic vitality. The air was an intricate blend of aroma- smoked meat, roasted corn, and freshly harvested vegetables- interwoven with the hum of animated bargaining. Stalls overflowed with vivid textiles, fruits, and handicrafts, while the rhythm of footsteps and voices formed the living music of the marketplace. Amidst this dynamic scene moved an elderly woman, a vendor from a nearby village. She bore a woven bamboo basket laden with oranges and bananas, the product of her modest livelihood. Her steps were deliberate yet weary from the long descent from her hillside home. As she approached the Dawrpui junction steps, the uneven pavement caused her to stumble slightly, sending her basket tumbling to the ground. The fruits scattered chaotically, rolling between stalls and down the slope, drawing the attention of nearby onlookers. For a brief interlude, the bustling crowd seemed suspended in hesitation. Some individuals watched with detached curiosity, while others appeared momentarily uncertain of how to intervene. It was then that a group of college students, observing the incident, instinctively hurried forward. Demonstrating commendable civic empathy, they gathered the fallen fruits with meticulous care, brushing away dust and restoring them to the basket. One student extended a steadying hand to the woman, while another insisted on carrying her burden up the remaining flight of steps. The woman’s countenance, once clouded with distress, softened into an expression of profound gratitude. In a trembling yet affectionate voice, she uttered, “Thank you, may God bless you.” The sincerity of her words evoked a quiet sense of reverence among the bystanders. Nearby vendors nodded approvingly, some offering the young helpers roasted corn and tea as tokens of appreciation. For a few fleeting moments, the frenetic rhythm of the marketplace seemed to dissolve into a shared stillness—a recognition of genuine human solidarity. The scene, though simple, encapsulated a deeper moral truth: that kindness persists even amidst the noise of modern urban life. For the onlookers, the episode served as a subtle yet powerful reminder of communal compassion and ethical responsibility, virtues deeply embedded within Mizo culture. Amid the hurried exchanges and commercial bustle of Bara Bazar, that small gesture of humanity shone like a quiet beacon—affirming that benevolence, however ordinary, continues to bind society together in its most authentic form. Answer the following questions:\na. What caused the elderly woman’s mishap?(2)\nb. How did the students exemplify civic empathy?(2)\nc. How did the old woman express her gratitude?(2)\nd. What social or moral values are underscored in the narrative?(2) (i)Bright (ii)Haphazardly (iii)Admiration (iv)Grace",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Conventional response; transcription awaiting review.",
-    "source": "AAO / AAAO / Field Facilitator · November 2025",
-    "year": 2025,
-    "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=3"
-  },
-  {
     "id": "mpsc-group-b-aao-2025-p1-B1",
     "paperId": "mpsc-group-b-aao-2025-p1",
     "questionNumber": "B1",
@@ -57851,17 +57833,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adverb",
       "verb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Brilliant” describes the noun “politician,” so it is an adjective.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
   },
   {
@@ -57880,17 +57860,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "preposition",
       "noun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Quickly” modifies an action, so it is an adverb.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
   },
   {
@@ -57909,14 +57887,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "verb",
       "adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“And” joins the two subjects, so it is a conjunction.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
   },
   {
@@ -57935,17 +57914,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "verb",
       "adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Beauty” is a noun naming a quality.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
   },
   {
@@ -57964,17 +57941,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adjective",
       "preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Ran” expresses the athlete’s action, so it is a verb.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
   },
   {
@@ -57993,14 +57968,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adverb",
       "preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“That” stands in for a noun phrase, so it is a pronoun.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
   },
   {
@@ -58019,17 +57995,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "verb",
       "noun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Sweetly” modifies the verb “sings,” so it is an adverb.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
   },
   {
@@ -58048,17 +58022,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "noun",
       "adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Tall” describes the noun “soldier,” so it is an adjective.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
   },
   {
@@ -58077,14 +58049,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Noun",
       "Pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Coward” names a person, so it is a noun.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
   },
   {
@@ -58103,17 +58076,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Preposition",
       "Abstract Noun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Almost” modifies “missed,” so it is an adverb.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
   },
   {
@@ -58132,17 +58103,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "does",
       "doing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Zuala” is third-person singular; the simple-present verb takes -s: “does.”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
   },
   {
@@ -58161,17 +58130,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "goes",
       "gone"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Yesterday” calls for the simple past “went.”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
   },
   {
@@ -58190,17 +58157,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "will have finished",
       "have finished"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“By this time tomorrow” sets a future deadline before which the exam will be completed: future perfect.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
   },
   {
@@ -58219,17 +58184,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "have received",
       "was receiving"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“He” takes “has”; present perfect “has received” fits the recent time expression “this forenoon.”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
   },
   {
@@ -58248,17 +58211,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "has cooked",
       "is cooking"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The husband was in the middle of cooking when Mary arrived, so past progressive fits.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
   },
   {
@@ -58277,17 +58238,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "have been learning",
       "will learn"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The action began in the past and continues for ten years; present perfect progressive fits.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
   },
   {
@@ -58306,17 +58265,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "had left",
       "leaves"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The bus departure occurred before the later past event, so past perfect “had left” fits.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
   },
   {
@@ -58335,17 +58292,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "was watching",
       "watches"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The boy was watching TV when another past event occurred; past progressive fits.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
   },
   {
@@ -58364,17 +58319,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "loose",
       "has lost"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Has lost” is the only correctly formed finite tense among the offered choices for losing the keys.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
   },
   {
@@ -58393,17 +58346,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "will stay",
       "would stay"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "In a first conditional, the if-clause uses present simple and the result clause uses “will” + verb.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 11-20): Choose/identify the correct tense of the verbs in the following"
   },
   {
@@ -58422,14 +58373,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "sick",
       "faint"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Fragile” contrasts with the stated strength of the old house.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B22",
@@ -58447,17 +58399,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "bored",
       "calm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Elated” means very happy or excited.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B23",
@@ -58475,17 +58425,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "greedy",
       "rude"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Kind” is closest in meaning to “generous.”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B24",
@@ -58503,17 +58451,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "modern",
       "aged"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Modern” is the opposite of “ancient.”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B25",
@@ -58531,17 +58477,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "inspiration",
       "inspirer’s"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Inspiring” correctly modifies “speech.”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B26",
@@ -58559,17 +58503,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "faint",
       "vague"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Vivid” can mean clear, bright, or sharply defined; “clear” is the closest offered synonym.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B27",
@@ -58587,17 +58529,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "recklessly",
       "hesitate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Wise decisions explain the shop’s success; the other choices do not fit.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B28",
@@ -58615,17 +58555,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "unwilling",
       "cheerful"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Contented” means satisfied and happy; “cheerful” is the closest offered meaning.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B29",
@@ -58643,17 +58581,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "finish",
       "support"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Abandon” means to leave or give up.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B30",
@@ -58671,17 +58607,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "carelessness",
       "delay"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Punctuality is being on time, which explains appreciation for completing the task.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B31",
@@ -58699,17 +58633,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Nancy comes late always to office.",
       "Late to school office comes always."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The normal adverb placement is after the subject: “Nancy always comes…”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B32",
@@ -58723,12 +58655,12 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "question": "Identify the grammatically correct sentence.",
     "options": [
       "He do not like noodles.",
-      "He does’nt like noodles.",
+      "He doesn’t like noodles.",
       "He does not like noodles.",
       "He don’t like noodles."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “He doesn’t like noodles” and “He does not like noodles” are grammatically correct. The printed options duplicate the same valid answer, so this item is held.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=6",
@@ -58737,7 +58669,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Both “He doesn’t like noodles” and “He does not like noodles” are grammatically correct. The printed options duplicate the same valid answer, so this item is held."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B33",
@@ -58755,17 +58687,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "The baby cried loudly.",
       "Although she was happy."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Only “The baby cried loudly” is an independent, complete sentence; the other choices are subordinate fragments.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B34",
@@ -58783,17 +58713,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "The teacher the lesson explained to students.",
       "To the students explained the teacher the lesson."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The standard word order is subject + verb + object + recipient phrase: “The teacher explained the lesson to the students.”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B35",
@@ -58811,17 +58739,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "It has not rained this morning.",
       "Does it not rained this morning."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“It has not rained this morning” correctly uses present perfect with the negative “not.”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B36",
@@ -58839,14 +58765,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "“Can you help me”? asked Bob.",
       "Can you help me? asked “Bob”."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "In direct speech, the question mark belongs inside the quotation marks, before “asked Bob.”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B37",
@@ -58864,14 +58791,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "P Q S R",
       "Q S R P"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The parts form: “We must act now to reduce pollution and protect nature before it becomes too late for the coming generations.”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B38",
@@ -58889,17 +58817,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Q P R S",
       "P R S Q"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The earthquake happens first, homes are damaged, people gather to help, and the contrast closes with the unity giving hope: Q-R-P-S.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B39",
@@ -58917,17 +58843,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "P Q R S",
       "R Q S P"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The coherent order is: “With the advent of modern technology, communication across continents has become instant and effortless; the world has become smaller.”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B40",
@@ -58945,17 +58869,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "He is poor or he is honest.",
       "He is poor therefore he is honest."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“But” correctly marks the contrast between being poor and being honest.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-B41",
@@ -58973,17 +58895,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Exclamatory",
       "Imperative"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Close the door” gives a command, so it is imperative.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59002,17 +58922,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Declarative",
       "Imperative"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“The baker sold some fresh pastries” states a fact, so it is declarative.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59031,17 +58949,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Compound",
       "Complex-Compound"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "It has a main clause (“I know”) and a subordinate noun clause (“who she is”), so it is complex.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59060,17 +58976,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Compound",
       "Complex-Compound"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "It contains one independent clause, so it is simple.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59089,17 +59003,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Compound",
       "Complex-Compound"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Brave but careless” is a compound predicate complement, not two clauses; the sentence is simple.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59118,17 +59030,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "How sweet is the music!",
       "How will you go there?"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“How fine the day is!” follows how + adjective + subject + verb.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59147,17 +59057,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Imperative",
       "Negative"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“All cheered” is a positive statement, so it is affirmative.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59176,17 +59084,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Imperative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Never waste food” gives an instruction, so it is imperative.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59205,17 +59111,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Imperative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Is it early yet?” asks a question, so it is interrogative.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59234,17 +59138,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "The dog chased the cat",
       "She is my teacher"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“The dog chased the cat” has subject “the dog,” verb “chased,” and object “the cat.”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59263,17 +59165,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Command",
       "Exclamation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“To buy mints” explains why the speaker went to the store; it expresses purpose.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59292,17 +59192,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Statement",
       "Demand"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“She learned Russian at the age of 40” is a statement.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59321,17 +59219,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Invitation",
       "Request"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“I will see you in the conference” is phrased as a statement; none of the choices identifies a promise.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59350,17 +59246,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Compound",
       "Complex-Compound"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "It joins two independent clauses with “but,” so it is compound.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59379,17 +59273,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Compound",
       "Complex-Compound"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Although she was tired” is subordinate to the main clause, so the sentence is complex.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59409,7 +59301,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "He said that he have been a good friend."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “He said that he had been a good friend” and “He said that he was a good friend” can be valid reported speech, depending on whether the original perfect meaning is retained and whether the state still holds. The options do not establish one unique transformation.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=8",
@@ -59418,7 +59310,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Both “He said that he had been a good friend” and “He said that he was a good friend” can be valid reported speech, depending on whether the original perfect meaning is retained and whether the state still holds. The options do not establish one unique transformation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59437,14 +59329,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "They said, “We have taken the bus every day.",
       "They said, “We had taken the bus every day."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The usual direct-speech reconstruction back-translates “took” to the original habitual present: “They said, ‘We take the bus every day.’”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59463,17 +59356,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "He asked me if I had been rich",
       "He asked me if I have been rich."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The reported question uses “if” and backshifts “are” to “was”: “He asked me if I was rich.”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59492,17 +59383,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "These plants are being grown in Mumbai.",
       "These plants have been grown in Mumbai."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Present simple passive is “are grown”; the plural subject “plants” takes “are.”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
@@ -59521,18 +59410,88 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "We have helped the poor.",
       "One should help the poor."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“One should help the poor” preserves the general meaning of “The poor should be helped.”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
+  },
+  {
+    "id": "mpsc-group-b-aao-2025-p1-written-1",
+    "paperId": "mpsc-group-b-aao-2025-p1",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write a précis of the following passage and give a suitable title.\n\nGardening is one of the oldest and most rewarding human activities. Long before the rise of\n   modern cities and industries, people cultivated plants not only for food but also for beauty and peace\n   of mind. In today’s fast-paced world, gardening remains a quiet yet powerful way to reconnect with\n   nature and oneself. It teaches patience, care, and respect for life. Watching a seed sprout, grow, and\n   bloom is a reminder that growth cannot be hurried and that every living thing requires time and\n   attention to flourish. Beyond personal satisfaction, gardening plays a vital role in environmental balance.\n   Gardens act as miniature ecosystems that support a variety of life—bees, butterflies, birds, and\n   countless microorganisms. In urban areas, gardens help reduce air pollution, provide shade, and\n   lower temperatures. They also improve soil quality and contribute to water conservation when managed\n   responsibly. Even a few pots on a balcony can make a difference by absorbing carbon dioxide and\n   releasing oxygen. Thus, gardening, in its simplest form, becomes a small act of environmental activism.\n   Moreover, gardening promotes mental and physical well-being. Studies have shown that spending\n   time with plants reduces stress, lowers blood pressure, and improves concentration. Digging, planting,\n   and weeding are gentle forms of exercise that keep the body active and flexible. The sense of purpose\n   that comes from nurturing life can lift one’s mood and help overcome feelings of anxiety or loneliness.\n   For many, gardens become personal sanctuaries—a place to reflect, create, and find joy in the smallest\n   details of life. Gardening also encourages sustainability and self-reliance. Growing one’s own fruits,\n   vegetables, and herbs reduces dependence on commercially grown products, which often involves\n   heavy use of chemicals and long-distance transportation. A home garden promotes healthier eating\n   habits and teaches respect for the effort involved in producing food. Community gardens, in particular,\n   bring people together. They transform unused spaces into areas of cooperation, sharing, and friendship.\n   People from different backgrounds come together to work on a common project, bridging gaps and\n   strengthening community ties. However, modern lifestyles and urbanization have made gardening\n   more challenging. Limited space, lack of time, and disconnection from nature discourage people from\n   taking up this rewarding activity. Yet, with creativity and determination, gardening can be adapted to\n   modern life. Vertical gardens, hydroponics, and rooftop gardens are examples of innovative solutions\n   that bring greenery into compact spaces. Schools and workplaces can also introduce gardening\n   programs to foster awareness of sustainability and environmental care among young people. In the\n   end, gardening is more than a hobby; it is a way of life. It teaches responsibility, gratitude, and\n   balance. A gardener learns that every season has its rhythm, every plant its need, and every effort its\n   reward. As cities grow and technology advances, the humble act of tending to a plant reminds us that\n   we are still part of nature, not separate from it. To garden is to nurture life, and in doing so, to nurture\n   the gardener’s own soul.",
+    "explanation": "A précis should preserve the passage’s central ideas in a substantially shorter, coherent form: gardening benefits nature, health, sustainability, and community life, despite modern constraints. Add a concise title, use your own words, and omit examples and repetition.",
+    "sourceReview": false,
+    "sourceNote": "",
+    "source": "AAO / AAAO / Field Facilitator · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-aao-2025-p1-written-2",
+    "paperId": "mpsc-group-b-aao-2025-p1",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "You are experiencing frequent interruptions of power supply in your locality and are very much concerned about it. Write a letter to the Minister, Power & Electricity Department, Mizoram, highlighting the importance of self-reliance in power generation for the state. Sign as XYZ.",
+    "explanation": "Use a formal letter format: sender’s address/date, recipient, subject, salutation, concise account of local power interruptions, a reasoned case for reliable locally generated power, practical requests, and a formal closing signed XYZ.",
+    "sourceReview": false,
+    "sourceNote": "",
+    "source": "AAO / AAAO / Field Facilitator · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-aao-2025-p1-written-3",
+    "paperId": "mpsc-group-b-aao-2025-p1",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only. On a radiant Saturday morning, Bara Bazar, the commercial heart of Aizawl, pulsated with characteristic vitality. The air was an intricate blend of aroma- smoked meat, roasted corn, and freshly harvested vegetables- interwoven with the hum of animated bargaining. Stalls overflowed with vivid textiles, fruits, and handicrafts, while the rhythm of footsteps and voices formed the living music of the marketplace. Amidst this dynamic scene moved an elderly woman, a vendor from a nearby village. She bore a woven bamboo basket laden with oranges and bananas, the product of her modest livelihood. Her steps were deliberate yet weary from the long descent from her hillside home. As she approached the Dawrpui junction steps, the uneven pavement caused her to stumble slightly, sending her basket tumbling to the ground. The fruits scattered chaotically, rolling between stalls and down the slope, drawing the attention of nearby onlookers. For a brief interlude, the bustling crowd seemed suspended in hesitation. Some individuals watched with detached curiosity, while others appeared momentarily uncertain of how to intervene. It was then that a group of college students, observing the incident, instinctively hurried forward. Demonstrating commendable civic empathy, they gathered the fallen fruits with meticulous care, brushing away dust and restoring them to the basket. One student extended a steadying hand to the woman, while another insisted on carrying her burden up the remaining flight of steps. The woman’s countenance, once clouded with distress, softened into an expression of profound gratitude. In a trembling yet affectionate voice, she uttered, “Thank you, may God bless you.” The sincerity of her words evoked a quiet sense of reverence among the bystanders. Nearby vendors nodded approvingly, some offering the young helpers roasted corn and tea as tokens of appreciation. For a few fleeting moments, the frenetic rhythm of the marketplace seemed to dissolve into a shared stillness—a recognition of genuine human solidarity. The scene, though simple, encapsulated a deeper moral truth: that kindness persists even amidst the noise of modern urban life. For the onlookers, the episode served as a subtle yet powerful reminder of communal compassion and ethical responsibility, virtues deeply embedded within Mizo culture. Amid the hurried exchanges and commercial bustle of Bara Bazar, that small gesture of humanity shone like a quiet beacon—affirming that benevolence, however ordinary, continues to bind society together in its most authentic form.\n\nAnswer these questions based only on the passage: (a) What caused the elderly woman’s mishap? (b) How did the students show civic empathy? (c) How did the woman express gratitude? (d) What social or moral values does the narrative underscore? (e) Give passage synonyms for bright, haphazardly, admiration, and grace.",
+    "explanation": "Base responses only on the passage. The uneven pavement caused the fall; students gathered the fruit, steadied the woman and helped carry her basket; she thanked and blessed them. The episode emphasizes compassion, solidarity and ethical responsibility. Likely vocabulary matches are radiant, chaotically, appreciation, and kindness.",
+    "sourceReview": false,
+    "sourceNote": "",
+    "source": "AAO / AAAO / Field Facilitator · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-aao-2025-p1-written-4",
+    "paperId": "mpsc-group-b-aao-2025-p1",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write an essay on any one of these topics: (a) Rainwater Harvesting and Forest Preservation in Mizoram; (b) Urban Growth and Its Impact on Environment; (c) Role of NGOs in Mizoram’s Development; (d) Importance of Good Governance in Mizoram.",
+    "explanation": "Choose one topic and develop a clear thesis with an introduction, organized supporting points, relevant local examples, and a conclusion. Keep the discussion focused, balanced and grammatically clear.",
+    "sourceReview": false,
+    "sourceNote": "",
+    "source": "AAO / AAAO / Field Facilitator · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/aao-2025-p1.pdf#page=3"
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q1",
@@ -63803,7 +63762,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q58",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -63881,9 +63842,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q61",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -72063,7 +72022,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-radio-2026-p2-Q39",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -72156,9 +72117,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-radio-2026-p2-Q42",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -80872,7 +80831,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B4",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p2-Q5",
     "questionNumber": "B5",
@@ -80950,9 +80911,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B7",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q8",
     "questionNumber": "B8",
@@ -88756,7 +88715,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B35",
     "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B36",
     "questionNumber": "B36",
@@ -88839,9 +88800,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B38",
     "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B39",
     "questionNumber": "B39",
@@ -96445,6 +96404,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": false,
     "penaltyFraction": 0
   },
+  "mpsc-group-b-aao-2025-p1": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
+  },
   "mpsc-group-b-aao-2025-p2": {
     "marksPerQuestion": 2,
     "durationMinutes": 120,
@@ -96575,12 +96540,14 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-steno-2025-english": 75,
   "mpsc-group-b-steno-2025-gk": 100,
   "mpsc-group-b-steno2-2025-p1": 40,
+  "mpsc-group-b-je-2016-english": 80,
   "mpsc-group-b-si-excise-2024-p1": 100,
   "mpsc-group-b-si-excise-2024-p2": 100,
   "mpsc-group-b-si-excise-2025-p1": 30,
   "mpsc-group-b-si-excise-2025-p2": 100,
   "mpsc-group-b-si-fcs-2025-p1": 60,
   "mpsc-group-b-si-fcs-2025-p2": 100,
+  "mpsc-group-b-aao-2025-p1": 60,
   "mpsc-group-b-mvi-2025-p2": 100,
   "mpsc-group-b-hfw-2026-p1": 50,
   "mpsc-group-b-hfw-2026-p2": 100,

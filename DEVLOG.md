@@ -9,6 +9,30 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-09 — Beautify arithmetic in the Group B papers
+
+**What changed.** The math reading mode (serif/tabular type in a gold-ruled
+box) only fired on the clerical bank's exact `topic: 'simple_arithmetic'`,
+so the Group B quantitative papers — AAO Arithmetic, the SI/Inspector
+statistics papers, the mixed Computer/Arithmetic/Reasoning paper — rendered
+as plain prose next to reasoning items that *were* styled. Resolved the mode
+through the existing `sectionOf` (which embraces both the clerical topic and
+the Group B `studySection`), so every arithmetic stem/option is beautified
+identically and every reasoning stem gets its lighter accent. `plain` is now
+applied to all math, so an expression's `*`/`_` can never be read as
+emphasis.
+
+**Validated.** Browser check now pins the split on `ng-2024-paper-2-a`
+(30 math stems / 35 reasoning / 120 math options); full suite passes against
+both the dev server and production. Also hardened the suite against a lazy-`<img>`
+abort race (complete=true, naturalWidth=0 after paper switching) by relaunching
+the load in the poll instead of failing.
+
+**Deployed.** `551f929` pushed and deployed: `dpl_BrpkpN5Ms5FTG3CTKkQoxfYhTZGd`,
+live at `https://map.hawayu.in` (bundle `index-BU9uBxZY.js`).
+
+---
+
 ## 2026-10-09 — Resolve the remaining Group B held items and deploy
 
 **What shipped.** Reviewed the 120 items that were still "source checked · not

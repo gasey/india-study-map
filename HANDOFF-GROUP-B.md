@@ -172,6 +172,15 @@ git diff --check
 All **24 tests** passed, consecutive builds are byte-identical, and the browser
 check passed both locally and against production.
 
+**Arithmetic reading mode (this session).** The stem/option styling that the
+clerical bank's arithmetic already enjoyed was extended to the Group B
+quantitative papers via `textMode(q)` in `filters.ts`, resolved through
+`sectionOf` so both banks share it. Quantitative stems get the gold-ruled
+serif/tabular box, reasoning gets its lighter accent, and math stems render
+`plain`, so a `*` or `_` in an expression is never read as emphasis. The
+browser check pins the split on the mixed Computer/Arithmetic/Reasoning paper
+(30 math / 35 reasoning / 120 math options).
+
 `browser-check.py` uses a Chrome CDP session at `127.0.0.1:9222` and the Vite
 `/udc-ldc` route (or a URL argument). Its hardcoded progress assertions now
 expect **3,540 ready**, **1,618 official**, **36 held** and **13 missing**.

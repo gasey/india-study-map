@@ -9,6 +9,45 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-09 — Resolve the remaining Group B held items and deploy
+
+**What shipped.** Reviewed the 120 items that were still "source checked · not
+scored" (held) after the first pass, split into five per-paper batches. Each
+fixed item cleared `unscored` and gained a sourced, worked explanation; for
+papers without an official single-letter key the answer was also recorded as a
+paper-level `derivedAnswer`. Three questions whose `answer` field had tripped
+the build assertion were converted to derived answers as part of the same work.
+Also removed the compensated-pill items from the library's "held" counter so
+they read as their own status.
+
+**Result.** Group B now has 3,540 practice-ready MCQs (1,618 official, 1,922
+derived), 0 unreviewed, 39 checked-but-held items and 13 missing. The held set
+is now only genuinely defective/underdetermined printed items plus MPSC-
+compensated cells; no counter was cleared without a defensible answer. The 13
+missing are Stenographer GK November 2024 Q67–79 — the official seven-page scan
+omits printed page 6, and every copy found descends from that defective scan, so
+the stems cannot be recovered (answer letters are known but the questions are
+not invented). Recovery report committed as
+`tools/udc-ldc-build/steno-2024-gk-missing-page.md`.
+
+**Validation.** All 24 unit tests pass (held-set literals updated); consecutive
+builds are byte-identical; `npm run build` succeeds. `browser-check.py` was
+refreshed for the new counts, the now-scored explanations, and the fact that AAO
+2024 General English is now Exam-eligible while AAO 2024 Arithmetic stays out;
+it passes both locally and against production.
+
+**Deployed.** Commit `9f591bb` pushed to `origin/main`; `vercel --prod --yes
+--scope gaseys-projects` produced `dpl_8CAbXpB9rD2rST24bxDWWeEUinQr`, live at
+`https://map.hawayu.in` (alias). Live verification ran the full browser suite
+against `https://map.hawayu.in/udc-ldc` with no runtime exceptions.
+
+**Still open.** 39 held items need a uniquely defensible answer or an official
+correction; `aao-2025-p2` Q6 and `si-excise-2025-p2` Q82 are reported
+compensated but their full key files are not yet attached; ASI 2024 Q3/Q45 still
+need external evidence; and Stenographer Q67–79 need a complete scan.
+
+---
+
 ## 2026-10-09 — Deploy Group B work to production
 
 **What changed.** Committed all Group B source-review work (26 files, 20,607

@@ -9,16 +9,26 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 9 October 2026
 
 49 general papers, 3,709 items: 3,582 MCQs and 127 written prompts.
-3,420 questions are ready for practice, including 1,614 official answers and
-1,806 independently derived answers. No imported item remains in the
-unreviewed queue. 159 source-checked questions remain held unscored because
+3,540 questions are ready for practice, including 1,618 official answers and
+1,922 independently derived answers. No imported item remains in the
+unreviewed queue. 39 source-checked questions remain held unscored because
 their choices/premises are defective or supporting factual/key evidence is
-unresolved. The source-review scoring gate is retained for held questions;
+unresolved (of these, three carry a build-flagged MPSC-compensated cell and
+show a separate pill, so the library's held counter reads 36).
+The source-review scoring gate is retained for held questions;
 `sourceReviewed` distinguishes them from unchecked extraction. Thirteen
 questions (Stenographer GK November 2024 Q67–79) remain absent from the source.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
+
+**Second review pass (9 October 2026).** The 120 items that were still held
+after the first pass were split into five per-paper batches and re-checked
+against the printed pages. Fixed items now carry a sourced explanation and,
+where the paper has no official single-letter key, a paper-level derived answer.
+The per-paper paragraphs below describe the state **when each was written** and
+some of their "held" lists have since shrunk or cleared; the canonical held set
+is always `group-b-text-repairs.json` plus `build-report.json`.
 
 Additional scan repairs: AAO English Q2, AAO Arithmetic Q71 and SI Police
 Paper-II Q53–54 were checked against the printed pages and keyed from the
@@ -211,7 +221,7 @@ exam exclusion and Statistics scoring.
 
 ## Source dependencies after the completed review pass
 
-All imported source-review batches are checked. Do not mark the 159 held
+All imported source-review batches are checked. Do not mark the 39 held
 items answerable merely to eliminate a counter. Their individual source notes
 record the unresolved issue. Official keys remain unmatched for several
 independently solved papers, so they remain excluded from full-paper Exam

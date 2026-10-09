@@ -19,7 +19,9 @@ export function GroupBPaperLibrary({ questions, onBrowse }: { questions: BankQue
     return {
       mcq: mcq.length, written: items.length - mcq.length, ready: ready.length,
       official: ready.filter((q) => q.answerSource === 'official').length,
-      review: items.filter((q) => q.sourceReview).length,
+      review: items.filter((q) => q.sourceReview && !q.sourceReviewed).length,
+      held: items.filter((q) => q.sourceReview && q.sourceReviewed).length,
+      missing: library.reduce((total, paper) => total + Math.max(0, (paper.expectedMcq ?? 0) - mcq.filter((q) => q.paperId === paper.id).length), 0),
     };
   }, [questions]);
   const groups = useMemo(() => {
@@ -37,7 +39,9 @@ export function GroupBPaperLibrary({ questions, onBrowse }: { questions: BankQue
     <p className="udc-library-progress" role="status">
       {progress.mcq.toLocaleString()} MCQs · {progress.written.toLocaleString()} written prompts ·{' '}
       {progress.ready.toLocaleString()} ready to practise ({progress.official.toLocaleString()} with official answers) ·{' '}
-      {progress.review.toLocaleString()} items need source review
+      {progress.review.toLocaleString()} items need source review ·{' '}
+      {progress.held.toLocaleString()} checked items held unscored
+      {progress.missing > 0 && <> · {progress.missing.toLocaleString()} questions not recovered from source</>}
     </p>
     <label>Find an exam, subject or year<input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="e.g. JAO, English, 2026" /></label>
     {groups.map(([title, papers]) => <article className="udc-library-sitting" key={title}>
@@ -48,10 +52,12 @@ export function GroupBPaperLibrary({ questions, onBrowse }: { questions: BankQue
         const official = qs.filter((q) => q.answerSource === 'official' && isAnswerable(q)).length;
         const candidates = qs.filter((q) => isMcqQuestion(q) && q.officialAnswerCandidates?.length && !isAnswerable(q)).length;
         const mcq = qs.filter(isMcqQuestion).length;
-        const review = qs.filter((q) => q.sourceReview).length;
+        const review = qs.filter((q) => q.sourceReview && !q.sourceReviewed).length;
+        const held = qs.filter((q) => q.sourceReview && q.sourceReviewed).length;
+        const missing = Math.max(0, (p.expectedMcq ?? 0) - mcq);
         const correctionHref = p.correctionHref;
         return <div className="udc-library-paper" key={p.id}>
-          <div><strong>{p.subject}</strong><p>{qs.length ? `${mcq}${p.expectedMcq ? `/${p.expectedMcq}` : ''} MCQs extracted · ${qs.length - mcq} written prompts · ${ready} ready to practise · ${official} official answers${candidates ? ` · ${candidates} key candidates awaiting review` : ''}${review ? ` · ${review} need source review` : ''}` : 'Source PDF available · question transcription and solutions awaiting review'}</p></div>
+          <div><strong>{p.subject}</strong><p>{qs.length ? `${mcq}${p.expectedMcq ? `/${p.expectedMcq}` : ''} MCQs extracted · ${qs.length - mcq} written prompts · ${ready} ready to practise · ${official} official answers${candidates ? ` · ${candidates} unscored key candidates` : ''}${review ? ` · ${review} need source review` : ''}${held ? ` · ${held} checked, held unscored` : ''}${missing ? ` · ${missing} not recovered from source` : ''}` : 'Source PDF available · question transcription and solutions awaiting review'}</p></div>
           <div className="udc-library-links">
             {qs.length > 0 && <button type="button" onClick={() => onBrowse(p.id)}>Browse questions</button>}
             <a href={p.sourceHref} target="_blank" rel="noreferrer">Printed paper ↗</a>

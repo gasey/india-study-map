@@ -1,11 +1,14 @@
 {
   "papers": 49,
-  "items": 3590,
-  "mcq": 3515,
-  "written": 75,
-  "ready": 3108,
+  "items": 3709,
+  "mcq": 3582,
+  "written": 127,
+  "ready": 3420,
   "readyOfficial": 1614,
-  "sourceReview": 417,
+  "sourceReview": 159,
+  "unreviewed": 0,
+  "heldReviewed": 159,
+  "missingMcq": 13,
   "keyDisagreements": 37,
   "compensated": 6
 }

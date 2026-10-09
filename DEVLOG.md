@@ -9,6 +9,78 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-09 — Complete the imported Group B source-review queue
+
+**What changed.** Reviewed the remaining English and ASI GK/reasoning batches.
+Restored four conventional papers that OCR had imported as 29 fake MCQs,
+recovering 45 written tasks with passages, exercises and model guidance.
+Completed JE Agriculture 2026 English, JE 2025 English and Stenographer 2024
+English; recovered reordered/skipped pages and missing emphasis. Completed
+all 100 ASI 2024 Paper-II questions with 93 independent answers and four
+source crops. Restored the remaining written sections for Stenographer 2025,
+Stenographer Grade-II 2025 and Radiotherapy 2026.
+
+**Result.** 49 papers, 3,709 items, 3,420 practice-ready MCQs and 127 written
+prompts. The imported unchecked queue is empty; 159 checked items remain held
+for documented defects or missing answer evidence. The library and question
+badges now distinguish held items from unchecked text, and expose 13 missing
+questions from the incomplete Stenographer GK November 2024 scan. The current
+official seven-page PDF still lacks printed page 6. Mixed written/MCQ papers
+are excluded from full-paper Exam mode while retaining MCQ drills.
+
+**Validation.** Repair guards now cover written-only paper retention, full
+numbering, page order, held scoring gates, figures and mixed-paper exclusion.
+All 24 tests, production build and mobile/desktop browser checks passed;
+consecutive generation is byte-identical.
+
+**Deployment / continuation.** `vercel --prod --yes` returned “Not authorized”.
+The authenticated user (`gasey`) and linked project ID/owner were verified, and
+production reads succeeded; the write denial remains unresolved. No changes
+were deployed, committed or pushed. The user requested another-model handoff:
+read [HANDOFF-GROUP-B.md](HANDOFF-GROUP-B.md) for the exact state and next steps.
+
+**External dependencies.** Held items remain unscored; several independent
+papers lack matched official keys. ASI Q3 needs the exact dated district table,
+Q45 needs a matching folklore reference, and 13 missing Stenographer questions
+need the absent printed page. They are recorded in GROUP-B.md and source notes.
+
+---
+
+## 2026-10-09 — JAO 2025 Paper-II full scan review
+
+**What shipped locally.** Completed Q47–100 against printed pages 6–12,
+recovering nine missing questions and restoring nested radicals, powers,
+fractions and substitution operators. Added seven source chart/diagram crops
+and fifty independently derived answers with explanations. The complete paper
+now has 96 practice-ready questions. Q83 and Q94 join Q24 and Q41 as held items:
+the family clues do not identify D's parent, and the Venn diagram omits its
+exclusive-region values. Group B now has 3,609 items, 3,210 ready to practise
+and 331 awaiting source review.
+
+**Validation.** All 21 repair tests, the production build and mobile/desktop
+browser checks pass. The browser verifies all seven new images, recovered
+questions and held-item labels; repeated generation is byte-identical.
+
+**What's still open.** No verified official key is available for this paper,
+so it remains excluded from full-paper Exam mode. Other Group B papers remain
+in the source-review queue. Changes are local.
+
+---
+
+## 2026-10-09 — JAO 2025 Paper-I English full scan review
+
+**What shipped locally.** Checked all eight printed pages of the January 2025
+District Organiser / Junior Accounts Officer General English paper. Restored
+seven OCR-missing Part-B MCQs and all three Part-A written tasks, including
+both source passages. Fifty-two MCQs have derived explanations; Q11, Q13, Q22,
+Q23, Q36, Q52, Q55 and Q58 are held for ambiguous or defective options. Group
+B now reports 3,160 ready-to-practise items and 372 awaiting source review.
+
+**What's still open.** The paper has no verified key and remains excluded from
+full-paper Exam mode. Other Group B source-review papers remain pending.
+
+---
+
 ## 2026-10-09 — AAO 2025 English scan review
 
 **What shipped locally.** Checked all eight pages of the November 2025 AAO /

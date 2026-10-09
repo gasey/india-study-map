@@ -160,7 +160,7 @@ function Pill({ tone, children }: { tone: 'ok' | 'info' | 'warn' | 'muted'; chil
 function Provenance({ q }: { q: BankQuestion }) {
   if (!isMcqQuestion(q)) return null;
   if (q.compensated) return <Pill tone="muted">MPSC compensated · not scored</Pill>;
-  if (q.sourceReview) return <Pill tone="warn">source text needs review · not scored</Pill>;
+  if (q.sourceReview) return <Pill tone="warn">{q.sourceReviewed ? 'source checked · not scored' : 'source text needs review · not scored'}</Pill>;
   if (q.figureBased && !q.imagePath) return <Pill tone="warn">figure lost — unanswerable</Pill>;
   if (q.figureBased) return <Pill tone="muted">options printed as figures</Pill>;
   if (q.answerSource === 'official') return <Pill tone="info">official key</Pill>;
@@ -751,7 +751,7 @@ function BrowseView({
                           </div>
                         )}
                         {q.sourceReview && <p style={{ fontSize: 12, color: 'var(--warn, #b06f1a)', margin: '0 0 8px' }}>
-                          This item needs review before scored practice.{' '}
+                          {q.sourceReviewed ? 'The printed source is checked; this item is held unscored. ' : 'This item needs review before scored practice. '}
                           {q.sourceHref && <a href={q.sourceHref} target="_blank" rel="noreferrer">Check the printed source ↗</a>}
                         </p>}
                         <div className={`udc-question-stem ${q.topic === 'simple_arithmetic' ? 'udc-math-stem' : q.subject === 'reasoning' ? 'udc-reasoning-stem' : ''}`} style={{ marginBottom: 6, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} plain={q.topic === 'simple_arithmetic'} /></div>

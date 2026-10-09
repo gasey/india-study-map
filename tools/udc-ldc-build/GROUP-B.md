@@ -1,14 +1,21 @@
 # Group B general-paper supplement
 
 Run `python3 tools/udc-ldc-build/build_group_b.py` from the site repository.
+For the current continuation and deployment state, read
+[`HANDOFF-GROUP-B.md`](../../HANDOFF-GROUP-B.md).
 Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 `mpsc-group-b-library.json`. Never hand-edit either output.
 
 ## Progress — 9 October 2026
 
-49 general papers, 3,590 items: 3,515 MCQs and 75 written prompts.
-3,108 questions are ready for practice, including 1,614 official answers and
-1,494 independently derived answers. 417 items still need source review.
+49 general papers, 3,709 items: 3,582 MCQs and 127 written prompts.
+3,420 questions are ready for practice, including 1,614 official answers and
+1,806 independently derived answers. No imported item remains in the
+unreviewed queue. 159 source-checked questions remain held unscored because
+their choices/premises are defective or supporting factual/key evidence is
+unresolved. The source-review scoring gate is retained for held questions;
+`sourceReviewed` distinguishes them from unchecked extraction. Thirteen
+questions (Stenographer GK November 2024 Q67–79) remain absent from the source.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -60,14 +67,18 @@ held because the wording/options do not give one defensible answer. The visible
 questions are available for practice, while the incomplete paper stays out of
 full-paper Exam mode.
 
-District Organiser / Junior Accounts Officer Paper-II (January 2025) Q1–46
-have been checked against printed pages 2–5. Q1–7 were missing from OCR and
-recovered; fused option blocks were separated, wording and all options were
-checked, and Q1–23, Q25–40, and Q42–46 have derived explanations. Q24 is held
-because the High Court appointment choices overlap and are imprecise; Q41 is
-held because “Anthology” is not a sound branch of biology. Q47–100 remain
-source-review items; the 100-question, two-hour paper stays out of full-paper
-Exam mode.
+District Organiser / Junior Accounts Officer Paper-II (January 2025) Q1–100
+have been checked against all twelve printed pages, including the cover.
+Twenty-three OCR-missing questions were recovered; fused option blocks, nested
+radicals, exponents and fraction choices are restored. Seven chart/diagram
+crops preserve the source figures. Ninety-six questions have independently
+derived explanations. Q24 is held because the High Court appointment choices
+overlap; Q41 because “Anthology” is not a sound branch of biology; Q83 because
+the family clues allow either a son or a nephew/niece; and Q94 because the
+three exclusive Venn regions are unspecified. Q59 explains the conventional
+first-to-last-post interpretation and records the time-window caveat.
+The 100-question, two-hour paper stays out of full-paper Exam mode because it
+has no verified official key.
 
 Junior Engineer PHE & PWD General English (April 2016) has been checked against
 all nine printed pages. Twelve OCR-missing MCQs (Q43–48, Q55–59 and Q76) and
@@ -86,7 +97,16 @@ answers. The cover says wrong MCQ answers are penalized but does not specify the
 amount. The paper remains out of full-paper Exam mode because it has no
 verified final key.
 
-Stenographer Grade-II (MPSC) General English 2025 Part B Q1–40 has been checked against pages 3–6. Thirty-eight MCQs have worked explanations; Q36 is held for imprecise and outdated wording, and Q37 because lactose intolerance is not a milk allergy. The four Section-A written prompts remain under review, so the paper is excluded from full-paper Exam mode.
+District Organiser / Junior Accounts Officer Paper-I General English (January
+2025) has been checked against all eight printed pages. Seven missing Part-B
+MCQs (Q5, Q14, Q30, Q32, Q50, Q53 and Q60) were recovered, and the three Part-A
+written tasks were restored with response guidance. Fifty-two of the 60 MCQs
+have derived explanations. Q11, Q13, Q22, Q23, Q36, Q52, Q55 and Q58 are held
+for overlapping valid choices, missing meanings, or mixed sentence-class
+systems. The source has no verified key, so the paper remains out of full-paper
+Exam mode.
+
+Stenographer Grade-II (MPSC) General English 2025 Part B Q1–40 has been checked against pages 3–6. Thirty-eight MCQs have worked explanations; Q36 is held for imprecise and outdated wording, and Q37 because lactose intolerance is not a milk allergy. All four Section-A written prompts are now checked against pages 1–2, including the twelve-part comprehension exercise. They have model guidance. The mixed paper remains excluded from full-paper Exam mode.
 
 Three disputed AAO key items were independently re-derived: English Q37 uses the standard phrase “tenacious of life” (B), English Q77 means “hamper” (D), and Arithmetic Q75 combines the shared ratio term to give 8:12:15 (D). These answers differ from the final key and now include explanations; multi-answer or malformed items remain held.
 
@@ -103,8 +123,9 @@ Knowledge and General English papers are now attached. All 100 General
 Knowledge questions were transcribed from printed pages 1–8, including OCR
 gaps and merged rows, and matched against the final key. The paper is now
 eligible for Exam mode. English MCQs B1–B75 were also checked against pages
-2–9 and matched to the final key. Its written Section A prompts remain to be
-recovered, so the full English paper stays out of Exam mode. Other OCR items
+2–9 and matched to the final key. Both written Section A prompts and the full
+précis passage are now recovered with guidance; the mixed full English paper
+stays out of Exam mode. Other OCR items
 stay gated until their printed question numbers, wording, and options are checked.
 
 Sub-Inspector of Excise Paper-I (April 2025) Section B Q1–30 is scan-checked,
@@ -174,8 +195,10 @@ mode because it includes 40 conventional marks alongside its MCQs.
   Text repairs apply after extraction and never rewrite the OCR cache.
 
 Repair guards reject changed PDFs, missing review evidence, incomplete final
-numbering, invalid option sets, and answer overrides. Repairs contain text
-only; scoring answers always come from a matched official key.
+numbering, invalid option sets, and answer overrides embedded in text repairs.
+Text rows and `derivedAnswers` are separate: official keys take precedence
+where matched; independently derived answers need checked text and a worked
+explanation. Held items stay unscored even when a key candidate exists.
 
 ## Verification
 
@@ -186,12 +209,37 @@ port 9222 and the Vite `/udc-ldc` route to check mobile/desktop browsing,
 progress totals, figures, key comparison, AAO recovery and corrigendum,
 exam exclusion and Statistics scoring.
 
-## Next work
+## Source dependencies after the completed review pass
 
-Recover the remaining incomplete AAO English/arithmetic scans and other scanned general
-papers. Match keys for the complete native papers that currently lack them.
-Then continue the wider source-review queue. Keep question recovery, source
-review and ready-to-score counts separate.
+All imported source-review batches are checked. Do not mark the 159 held
+items answerable merely to eliminate a counter. Their individual source notes
+record the unresolved issue. Official keys remain unmatched for several
+independently solved papers, so they remain excluded from full-paper Exam
+mode. ASI 2024 Q3 needs the exact district electoral-roll table; Q45 needs a
+matching folklore reference for its broad “fastest” claim. Stenographer GK
+November 2024 Q67–79 require the missing printed page 6. The current official
+PDF was rechecked on 9 October and still contains seven pages.
+
+The February 2017 Inspector of Statistics English, November 2024 technical
+English, November 2024 ASI English and September 2025 MVI English papers
+are restored as 10, 10, 12 and 13 conventional tasks, respectively. Their
+passages, emphasis and exercises have sample guidance. Twenty-nine fake MCQs
+have been removed. The technical booklet skips printed Q3; its numbering is
+preserved.
+
+JE Agriculture English March 2026 now has all 32 MCQs checked, with 29 derived
+answers and two complete conventional prompts. Q10, Q29 and Q32 are held.
+JE English April 2025 now has all 60 MCQs, including 23 OCR omissions, and
+three conventional prompts. Its PDF orders printed pages 7–8 before 5–6;
+all page links follow PDF positions. Stenographer English November 2024 has
+all 60 MCQs and both conventional prompts; phantom OCR Q66 was removed.
+Ambiguous grammar/word choices remain held with explanations.
+
+ASI November 2024 Paper-II has all 100 questions checked, 93 derived answers,
+and four restored charts/figures. Q3, Q14, Q29, Q45, Q47, Q48 and Q94 remain
+held. The cover confirms two hours, two marks per question and no negative
+marking. Mixed English papers remain excluded from full-paper Exam mode even
+when their MCQ section has a matched key.
 
 Sub-Inspector FCS&CA / Receptionist H&FW Paper-I General English, May 2025 Series A is now scan-checked across all 60 Section B MCQs and all three Section A written prompts. Fifty-seven MCQs have derived explanations; Q47, Q49 and Q50 are held because multiple options are grammatical. The précis, formal letter and full ten-part exercise passage have response guidance. The cover confirms 100 marks, three hours, 40 conventional marks and 60 one-mark MCQs, with no negative marking.
 
@@ -206,11 +254,9 @@ their choices are outdated, missing, duplicated or ambiguous. The cover
 specifies 100 questions, two marks each and three hours. No official final key
 was matched, so the paper remains excluded from full-paper Exam mode.
 
-AAO/AAAO/Field Facilitator Paper-II, November 2025: Q1–30 have readable,
-scan-checked stems/options after restoring the merged Q1–7 and replacing the
-corrupt Q8 row. Twenty-eight questions have derived explanations; Q6 and Q29
-are held because their choice sets do not contain the factually correct
-combination. Q31–100 remain under scan review. The cover confirms 100
+AAO/AAAO/Field Facilitator Paper-II, November 2025: all 100 questions are
+scan-checked with 96 derived explanations. Q6, Q29, Q50 and Q92 remain held
+for defective choices or underdetermined premises. The cover confirms 100
 two-mark questions, two hours and negative marking.
 
 Junior Engineer, LAD, PWD & I&WR Paper-II General Knowledge, April 2025: all 100

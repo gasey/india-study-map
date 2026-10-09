@@ -179,7 +179,8 @@ def build_additional():
         assert extracted.get('sourceSha256') == hashlib.sha256(source_path(slug, file).read_bytes()).hexdigest(), f'Re-extract changed source: {slug}'
         extracted, reviewed_numbers = reviewed_extraction(extracted, repairs.get(slug))
         reviewed_written = repairs.get(slug, {}).get('written') or {}
-        if not extracted['questions'] and not extracted['written']:
+        has_written_section = bool(reviewed_written or extracted['written'])
+        if not extracted['questions'] and not extracted['written'] and not reviewed_written:
             continue
         paper_id = entry['id']
         key = verified.get(slug)
@@ -237,6 +238,18 @@ def build_additional():
             entry['expectedMcq'] = 60
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
                              'negativeMarking': True, 'penaltyFraction': 1/3}
+        if slug == 'jao-2025-p1' and repairs.get(slug, {}).get('derivedAnswers'):
+            # Printed cover: 3 hours, 40 conventional marks, and 60 one-mark MCQs.
+            entry['expectedMcq'] = 60
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug in ('je-2025-english', 'steno-2024-english', 'je-agri-2026-p1', 'asi-2024-p2') and repairs.get(slug):
+            # Covers checked: JE/stenographer English have 60 one-mark MCQs;
+            # Agriculture JE has 32 two-mark MCQs; ASI has 100 two-mark MCQs.
+            entry['expectedMcq'] = repairs[slug]['expectedMcq']
+            meta[paper_id] = {'marksPerQuestion': 2 if slug in ('je-agri-2026-p1', 'asi-2024-p2') else 1,
+                             'durationMinutes': 120 if slug == 'asi-2024-p2' else 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'mvi-2025-p2' and repairs.get(slug, {}).get('derivedAnswers'):
             entry['expectedMcq'] = 100
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
@@ -369,7 +382,9 @@ def build_additional():
                               **({'imagePath': q['imagePath']} if q.get('imagePath') else {}),
                               **({'answerSource': 'official', 'answerKeyRef': key_ref, 'compensated': True} if cell is None else {}),
                               **({'sourceReview': True, 'paperExamExcluded': True} if source_review else {}),
+                              **({'sourceReviewed': True} if text_reviewed else {}),
                               **({'paperExamExcluded': True} if text_reviewed and not complete_native and not complete_source_review else {}),
+                              **({'paperExamExcluded': True} if has_written_section else {}),
                               **({'sourceNote': note.strip()} if note else {}),
                               **({'direction': q['direction']} if q.get('direction') else {}),
                               **({'disputeNote': f"Legacy inferred candidate gives {'ABCD'[independent]}; the final key gives {'ABCD'[key_choices[0]]}. Verify the printed item."} if independent >= 0 and len(key_choices) == 1 and independent != key_choices[0] else {})})

@@ -223,6 +223,9 @@ def build():
     report = {'papers': len(papers), 'items': len(questions), 'mcq': sum(q.get('type') != 'descriptive' for q in questions),
               'written': sum(q.get('type') == 'descriptive' for q in questions), 'ready': len(ready),
               'readyOfficial': sum(q.get('answerSource') == 'official' for q in ready), 'sourceReview': sum(bool(q.get('sourceReview')) for q in questions),
+              'unreviewed': sum(bool(q.get('sourceReview')) and not q.get('sourceReviewed') for q in questions),
+              'heldReviewed': sum(bool(q.get('sourceReview')) and bool(q.get('sourceReviewed')) for q in questions),
+              'missingMcq': sum(max(0, p.get('expectedMcq', 0) - sum(q['paperId'] == p['id'] and q.get('type') != 'descriptive' for q in questions)) for p in library),
               'keyDisagreements': sum(q.get('independentAnswerIndex', -1) >= 0 and q.get('answerIndex', -1) >= 0 and q['independentAnswerIndex'] != q['answerIndex'] for q in questions),
               'compensated': sum(bool(q.get('compensated')) for q in questions)}
     (Path(__file__).parent / 'build-report.json').write_text(json.dumps(report, indent=2) + '\n')

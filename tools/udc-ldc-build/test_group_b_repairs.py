@@ -1,6 +1,7 @@
 """Guards for the source-reviewed OCR recovery input."""
 import copy
 import json
+import re
 import unittest
 from pathlib import Path
 from group_b_sources import reviewed_extraction
@@ -65,6 +66,21 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertTrue(all(str(n) in repair['written'] for n in range(1, 5)))
         self.assertEqual(result['questions'][31]['opts']['b'], 'He doesn’t like noodles.')
         self.assertTrue(result['questions'][31]['unscored'])
+
+    def test_jao_2025_english_recovers_full_mcq_set_and_written_passages(self):
+        extracted = json.loads((HERE / 'extracted/jao-2025-p1.json').read_text())
+        repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['jao-2025-p1']
+        result, reviewed = reviewed_extraction(extracted, repair)
+        self.assertEqual(reviewed, set(range(1, 61)))
+        self.assertEqual([q['n'] for q in result['questions']], list(range(1, 61)))
+        self.assertEqual(set(repair['derivedAnswers']), set(map(str, set(range(1, 61)) - {11, 13, 22, 23, 35, 36, 37, 52, 55, 58})))
+        self.assertEqual(result['questions'][4]['q'], 'The clothes are still lying at where you left **them**.')
+        self.assertEqual(result['questions'][36]['opts']['a'], '12 a.m.–3 a.m.')
+        self.assertTrue(all(row['explanation'].strip() for row in repair['derivedAnswers'].values()))
+        self.assertEqual(repair['derivedAnswers']['7']['answerIndex'], 0)
+        self.assertTrue(all(result['questions'][n - 1]['unscored'] for n in (11, 13, 22, 23, 35, 36, 37, 52, 55, 58)))
+        self.assertEqual(set(repair['written']), {'1', '2', '3'})
+        self.assertIn('submerged', repair['written']['3']['q'])
 
     def test_fcs_paper_recovers_merged_first_eight_and_reviews_through_100(self):
         extracted = json.loads((HERE / 'extracted/si-fcs-2025-p2.json').read_text())
@@ -228,13 +244,13 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertTrue(repair['partialReview'])
         self.assertIn('Q67–79 are absent', repair['evidence'])
 
-    def test_jao_2025_p2_reviews_opening_scan_pages_as_a_partial_batch(self):
+    def test_jao_2025_p2_recovers_full_scan_and_keeps_defective_items_unscored(self):
         extracted = json.loads((HERE / 'extracted/jao-2025-p2.json').read_text())
         repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['jao-2025-p2']
         result, reviewed = reviewed_extraction(extracted, repair)
-        self.assertEqual(reviewed, set(range(1, 47)))
-        self.assertEqual(len(repair['questions']), 46)
-        self.assertEqual(set(map(int, repair['derivedAnswers'])), set(range(1, 47)) - {24, 41})
+        self.assertEqual(reviewed, set(range(1, 101)))
+        self.assertEqual(len(repair['questions']), 100)
+        self.assertEqual(set(map(int, repair['derivedAnswers'])), set(range(1, 101)) - {24, 41, 83, 94})
         self.assertEqual(result['questions'][0]['q'], repair['questions']['1']['q'])
         self.assertEqual(result['questions'][22]['opts']['a'], 'The day’s business normally starts with Question Hour, followed by Zero Hour.')
         self.assertTrue(repair['questions']['24']['unscored'])
@@ -242,12 +258,91 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertTrue(repair['questions']['41']['unscored'])
         self.assertEqual(repair['questions']['40']['opts']['b'], 'Gekko mizoramensis')
         self.assertTrue(all(x['explanation'].strip() for x in repair['derivedAnswers'].values()))
-        self.assertTrue(repair['partialReview'])
+        self.assertFalse(repair['partialReview'])
+        by_number = {q['n']: q for q in result['questions']}
+        # These numbered questions were absent from the geometric OCR cache.
+        missing = {52, 66, 72, 75, 77, 78, 80, 93, 95}
+        self.assertTrue(missing.isdisjoint({q['n'] for q in extracted['questions']}))
+        self.assertTrue(missing <= set(by_number))
+        self.assertEqual(by_number[51]['q'], 'Evaluate √(√100 + √36).')
+        self.assertIn('a³ + b³', by_number[71]['q'])
+        self.assertEqual(repair['derivedAnswers']['72']['answerIndex'], 0)
+        self.assertEqual(repair['derivedAnswers']['91']['answerIndex'], 1)
+        for n in (24, 41, 83, 94):
+            self.assertTrue(by_number[n]['unscored'])
+            self.assertNotIn(str(n), repair['derivedAnswers'])
+        for n in (65, 80, 86, 89, 94, 95, 96):
+            self.assertTrue((HERE.parents[1] / 'public' / by_number[n]['imagePath'].lstrip('/')).is_file())
+        broken = copy.deepcopy(repair)
+        del broken['questions']['52']
+        del broken['derivedAnswers']['52']
+        with self.assertRaisesRegex(AssertionError, 'missing or extra'):
+            reviewed_extraction(extracted, broken)
 
     def test_rejects_stale_source(self):
         self.repair['sourceSha256'] = 'changed source'
         with self.assertRaisesRegex(AssertionError, 'Stale'):
             reviewed_extraction(self.extracted, self.repair)
+
+    def test_written_only_papers_remove_false_mcqs_and_recover_complete_tasks(self):
+        repairs = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']
+        for slug, numbers in {
+            'inspector-stats-2017-english': set(range(1, 11)),
+            'technical-2024-p1': {1, 2, *range(4, 12)},
+            'asi-2024-p1': set(range(1, 13)),
+            'mvi-2025-p1': set(range(1, 14)),
+        }.items():
+            with self.subTest(slug=slug):
+                extracted = json.loads((HERE / f'extracted/{slug}.json').read_text())
+                result, reviewed = reviewed_extraction(extracted, repairs[slug])
+                self.assertEqual(result['questions'], [])
+                self.assertEqual(reviewed, set())
+                self.assertEqual(set(map(int, repairs[slug]['written'])), numbers)
+                self.assertTrue(all(row['q'].strip() and row['explanation'].strip()
+                                    for row in repairs[slug]['written'].values()))
+
+    def test_final_scan_batches_preserve_numbering_and_held_answer_gates(self):
+        repairs = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']
+        for slug, count in [('je-2025-english', 60), ('steno-2024-english', 60),
+                            ('je-agri-2026-p1', 32), ('asi-2024-p2', 100)]:
+            with self.subTest(slug=slug):
+                extracted = json.loads((HERE / f'extracted/{slug}.json').read_text())
+                result, reviewed = reviewed_extraction(extracted, repairs[slug])
+                self.assertEqual(reviewed, set(range(1, count+1)))
+                self.assertEqual([q['n'] for q in result['questions']], list(range(1, count+1)))
+                held = {str(q['n']) for q in result['questions'] if q.get('unscored')}
+                self.assertEqual(set(repairs[slug]['derivedAnswers']),
+                                 {str(n) for n in reviewed} - held)
+        je = repairs['je-2025-english']['questions']
+        self.assertEqual(je['22']['page'], 7)
+        self.assertEqual(je['34']['page'], 8)
+        self.assertIn('__theirs__', je['1']['q'])
+        self.assertTrue(je['56']['unscored'])
+        self.assertNotIn('66', repairs['steno-2024-english']['questions'])
+
+    def test_generated_artifact_keeps_written_only_papers_and_distinguishes_held_items(self):
+        root = HERE.parents[1]
+        source = (root / 'src/data/banks/mpsc-group-b-general.ts').read_text()
+        decoder = json.JSONDecoder()
+        rows = []
+        for match in re.finditer(r'const groupBQuestionsPart\d+: BankQuestion\[\] = ', source):
+            rows.extend(decoder.raw_decode(source, match.end())[0])
+        library = json.loads((root / 'src/data/banks/mpsc-group-b-library.json').read_text())
+        self.assertEqual({p['id'] for p in library}, {q['paperId'] for q in rows})
+        for slug, count in [('inspector-stats-2017-english', 10), ('technical-2024-p1', 10),
+                            ('asi-2024-p1', 12), ('mvi-2025-p1', 13)]:
+            part = [q for q in rows if q['paperId'] == 'mpsc-group-b-' + slug]
+            self.assertEqual(len(part), count)
+            self.assertTrue(all(q.get('type') == 'descriptive' and not q.get('sourceReview') for q in part))
+        asi = [q for q in rows if q['paperId'] == 'mpsc-group-b-asi-2024-p2']
+        self.assertEqual(len(asi), 100)
+        self.assertTrue(all(q.get('sourceReviewed') and q['answerIndex'] == -1
+                            for q in asi if q.get('sourceReview')))
+        self.assertTrue(all((root / 'public' / q['imagePath'].lstrip('/')).is_file()
+                            for q in asi if q.get('imagePath')))
+        mixed = [q for q in rows if q['paperId'] == 'mpsc-group-b-radio-2026-p1' and q.get('type') != 'descriptive']
+        self.assertTrue(mixed)
+        self.assertTrue(all(q.get('paperExamExcluded') for q in mixed))
 
     def test_rejects_missing_recovery(self):
         del self.repair['questions']['88']

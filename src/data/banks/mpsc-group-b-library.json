@@ -136,7 +136,8 @@
     "sourceHref": "/papers/group-b/jao-2025-p1.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 60
   },
   {
     "id": "mpsc-group-b-jao-2025-p2",
@@ -167,7 +168,8 @@
     "sourceHref": "/papers/group-b/asi-2024-p2.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 100
   },
   {
     "id": "mpsc-group-b-steno-2024-english",
@@ -177,7 +179,8 @@
     "sourceHref": "/papers/group-b/steno-2024-english.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 60
   },
   {
     "id": "mpsc-group-b-steno-2024-gk",
@@ -242,7 +245,8 @@
     "sourceHref": "/papers/group-b/je-2025-english.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 60
   },
   {
     "id": "mpsc-group-b-je-2025-gk",
@@ -262,7 +266,8 @@
     "sourceHref": "/papers/group-b/je-agri-2026-p1.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 32
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1",

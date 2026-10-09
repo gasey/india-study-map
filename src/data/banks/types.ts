@@ -89,6 +89,8 @@ interface BankQuestionBase {
   questionNumber?: string;
   /** Text/figure extraction remains under source review; never auto-scored. */
   sourceReview?: boolean;
+  /** Printed text checked, but a defective item or unresolved key still prevents scoring. */
+  sourceReviewed?: boolean;
   /** Key letters retained when incomplete text or multiple accepted choices prevent scoring. */
   officialAnswerCandidates?: number[];
   /** Exam year for true PYQs, e.g. 2019. */

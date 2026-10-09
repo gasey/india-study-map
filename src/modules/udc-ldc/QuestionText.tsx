@@ -1,6 +1,7 @@
 /**
  * Render a question stem, turning the recovered emphasis markup back into real
- * emphasis: `__word__` into an underline, `*word*` into italics.
+ * emphasis: `**word**` into bold, `__word__` into an underline, `*word*`
+ * into italics.
  *
  * MPSC marks the tested word typographically — "Identify the parts of speech of
  * the underlined word" on "The population of India is less than that of China"
@@ -8,25 +9,32 @@
  * Text extraction drops the mark: an underline is a filled rectangle in the page
  * graphics rather than a text attribute, and italics survive only as a different
  * font object with a subsetted name that says nothing. Both are put back by
- * tools/recover_underlines.py in the bank repo.
+ * tools/recover_underlines.py in the bank repo. Bold is a third mark: the
+ * "highlighted word" papers (synonym/antonym drills) print the target word in
+ * a heavier face, and the build marks it `**word**` — the Markdown bold
+ * convention, distinct from the two marks recover_underlines.py emits.
  *
  * Without this component the reader sees literal underscores and asterisks and
  * is left guessing exactly as the solver was.
  *
- * The two marks are kept DISTINCT rather than both rendered as an underline,
+ * The three marks are kept DISTINCT rather than all rendered as an underline,
  * because the direction the candidate reads names one of them: Taxation Paper-I
  * q1–10 say "the words in italics", and underlining those would contradict the
  * instruction on the same screen.
  *
  * Deliberately NOT a markdown renderer. These stems contain `_____` blanks,
  * stray backticks and lone asterisks straight off the page, and a general
- * markdown pass would eat them or emphasise half a sentence. Two rules, applied
- * once.
+ * markdown pass would eat them or emphasise half a sentence. Three rules,
+ * applied once.
  */
 
-// `__x__` / `*x*` where x is non-empty and contains no further delimiter, so a
-// `_____` blank (underscores with nothing between them) can never match. The
-// leading `[^\s_]` / `[^\s*]` also stops a bare `__ ` blank from opening a span.
+// `**x**`, `__x__` and `*x*` where x is non-empty and contains no
+// further delimiter, so a `_____` blank (underscores with nothing
+// between them) can never match. The leading `[^\s*]` / `[^\s_]` also
+// stops a bare `** ` / `__ ` mark from opening a span. The bold
+// alternative is listed FIRST so `**x**` matches bold and never falls
+// through to the single-asterisk italic rule (which would otherwise
+// match the inner `*x*` and leave literal asterisks on both sides).
 //
 // Capped at 80 characters on purpose. No stem in the bank has two leftover `__`
 // blanks, and the four containing an asterisk each contain exactly one — but if
@@ -34,7 +42,7 @@
 // the second and emphasise everything in between, silently marking the wrong
 // words. That is the exact failure this markup exists to fix. A real span is a
 // word or a short clause; "as heroes do" is the longest in the bank.
-const MARKED = /__([^\s_][^_]{0,78})__|\*([^\s*][^*]{0,78})\*/g;
+const MARKED = /\*\*([^\s*][^*]{0,78})\*\*|__([^\s_][^_]{0,78})__|\*([^\s*][^*]{0,78})\*/g;
 
 // A `_____` fill-in-the-blank run, scanned in the same pass as the emphasis
 // markup so the two never interleave. Runs of 3+ underscores are blanks;
@@ -42,7 +50,7 @@ const MARKED = /__([^\s_][^_]{0,78})__|\*([^\s*][^*]{0,78})\*/g;
 // never mistaken for a blank. When the revealed answer is known (the `answers`
 // slice for this segment), the blank renders as the completed text; otherwise
 // it renders as a printed line the reader fills.
-const MARKED_OR_BLANK = /_{3,}|__([^\s_][^_]{0,78})__|\*([^\s*][^*]{0,78})\*/g;
+const MARKED_OR_BLANK = /_{3,}|\*\*([^\s*][^*]{0,78})\*\*|__([^\s_][^_]{0,78})__|\*([^\s*][^*]{0,78})\*/g;
 
 /** Width of an unfilled blank line, traced from the printed underscore run. */
 function blankWidth(n: number): string {
@@ -217,13 +225,25 @@ function InlineText({ text, plain, answers }: { text: string; plain?: boolean; a
   if (plain) {
     // No underline / italic / bold for this question — drop the recovered
     // emphasis markers and render the plain word. English is left alone for now.
-    repaired = repaired.replace(MARKED, (_m, u: string | undefined, e: string | undefined) => u ?? e ?? '');
+    repaired = repaired.replace(MARKED, (_m, b: string | undefined, u: string | undefined, e: string | undefined) => b ?? u ?? e ?? '');
     return <>{repaired}</>;
   }
   MARKED_OR_BLANK.lastIndex = 0;
   while ((m = MARKED_OR_BLANK.exec(repaired)) !== null) {
     if (m.index > last) parts.push(repaired.slice(last, m.index));
-    if (m[1] === undefined && m[2] === undefined) {
+    if (m[1] !== undefined) {
+      // Bold — the "highlighted word" papers print the target in a
+      // heavier face; the build marks it `**word**`.
+      parts.push(<strong key={m.index}>{m[1]}</strong>);
+    } else if (m[2] !== undefined) {
+      parts.push(
+        <u key={m.index} style={{ textUnderlineOffset: 3 }}>
+          {m[2]}
+        </u>,
+      );
+    } else if (m[3] !== undefined) {
+      parts.push(<em key={m.index}>{m[3]}</em>);
+    } else {
       // First alternative matched: a fill-in-the-blank run. `answers` is the
       // slice for THIS text segment, so a fresh `local` index per call is
       // correct and React StrictMode double-renders are harmless.
@@ -236,14 +256,6 @@ function InlineText({ text, plain, answers }: { text: string; plain?: boolean; a
           <span key={m.index} className="udc-blank" aria-label="blank" style={{ minWidth: blankWidth(m[0].length) }} />
         ),
       );
-    } else if (m[1] !== undefined) {
-      parts.push(
-        <u key={m.index} style={{ textUnderlineOffset: 3 }}>
-          {m[1]}
-        </u>,
-      );
-    } else {
-      parts.push(<em key={m.index}>{m[2]}</em>);
     }
     last = m.index + m[0].length;
   }

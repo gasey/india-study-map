@@ -15904,7 +15904,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "It is more of self-interest than service. (Identify the part of speech of the underlined words “self-interest”.)",
+    "question": "It is more of __self-interest__ than service. (Identify the part of speech of the underlined words “self-interest”.)",
     "options": [
       "Verb",
       "Noun",
@@ -15933,7 +15933,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "All spoke in his favour. (Identify the part of speech of the underlined word “All”.)",
+    "question": "__All__ spoke in his favour. (Identify the part of speech of the underlined word “All”.)",
     "options": [
       "Noun",
       "Adjective",
@@ -15962,7 +15962,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "As he was poor, I helped him. (Identify the part of speech of the underlined word “As”.)",
+    "question": "__As__ he was poor, I helped him. (Identify the part of speech of the underlined word “As”.)",
     "options": [
       "Interjection",
       "Adverb",
@@ -15991,7 +15991,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "I’m just coming. (Identify the part of speech of the underlined word “just”.)",
+    "question": "I’m __just__ coming. (Identify the part of speech of the underlined word “just”.)",
     "options": [
       "Adverb",
       "Verb",
@@ -16020,7 +16020,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "This is the road by which he came. (Identify the part of speech of the underlined word “which”.)",
+    "question": "This is the road by __which__ he came. (Identify the part of speech of the underlined word “which”.)",
     "options": [
       "Adverb",
       "Pronoun",
@@ -16049,7 +16049,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Every member is present. (Identify the part of speech of the underlined word “Every”.)",
+    "question": "__Every__ member is present. (Identify the part of speech of the underlined word “Every”.)",
     "options": [
       "Adjective",
       "Adverb",
@@ -16078,7 +16078,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "He showed much patience. (Identify the part of speech of the underlined word “much”.)",
+    "question": "He showed __much__ patience. (Identify the part of speech of the underlined word “much”.)",
     "options": [
       "Noun",
       "Verb",
@@ -42487,7 +42487,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "In “If we finished our work quickly, we can go to the movies,” the underlined word “quickly” is a …",
+    "question": "In “If we finished our work __quickly__, we can go to the movies,” the underlined word “quickly” is a …",
     "options": [
       "verb",
       "adverb",
@@ -42513,7 +42513,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "In “Well, I don’t think I will be here to answer the phone,” the underlined word “Well” is a …",
+    "question": "In “__Well__, I don’t think I will be here to answer the phone,” the underlined word “Well” is a …",
     "options": [
       "interjection",
       "preposition",
@@ -42539,7 +42539,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "In “Andy knocked on the door but nobody answered,” the underlined word “but” is a …",
+    "question": "In “Andy knocked on the door __but__ nobody answered,” the underlined word “but” is a …",
     "options": [
       "adverb",
       "adjective",
@@ -42565,7 +42565,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "In “You have to believe in yourself if you expect to be successful,” the underlined word “yourself” is a …",
+    "question": "In “You have to believe in __yourself__ if you expect to be successful,” the underlined word “yourself” is a …",
     "options": [
       "pronoun",
       "adverb",
@@ -42591,7 +42591,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "In “We left for the mountain just before six in the morning,” the underlined word “left” is a …",
+    "question": "In “We __left__ for the mountain just before six in the morning,” the underlined word “left” is a …",
     "options": [
       "adverb",
       "verb",
@@ -42617,7 +42617,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "In “He wasn’t strong enough to lift his heavy bag,” the underlined word “heavy” is a …",
+    "question": "In “He wasn’t strong enough to lift his __heavy__ bag,” the underlined word “heavy” is a …",
     "options": [
       "noun",
       "adverb",
@@ -42643,7 +42643,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "In “If you pay your bills, you will have a good credit score,” the underlined clause is a …",
+    "question": "In “__If you pay your bills__, you will have a good credit score,” the underlined clause is a …",
     "options": [
       "noun clause",
       "adverb clause",
@@ -42670,7 +42670,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "In “Fruit that is grown organically is expensive,” the underlined clause is a …",
+    "question": "In “Fruit __that is grown organically__ is expensive,” the underlined clause is a …",
     "options": [
       "noun clause",
       "adverb clause",
@@ -42697,7 +42697,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "In “That he is a cheat is a well-known fact,” the underlined clause is a …",
+    "question": "In “__That he is a cheat__ is a well-known fact,” the underlined clause is a …",
     "options": [
       "noun clause",
       "adverb clause",
@@ -42724,7 +42724,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "In “Mark kept his schedule open in case of emergencies,” the underlined words are …",
+    "question": "In “Mark kept his schedule open __in case of emergencies__,” the underlined words are …",
     "options": [
       "a noun clause",
       "an adverb clause",
@@ -42750,7 +42750,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "In “They all said that I would not succeed,” the underlined clause is a …",
+    "question": "In “They all said __that I would not succeed__,” the underlined clause is a …",
     "options": [
       "noun clause",
       "adverb clause",
@@ -42777,7 +42777,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "In “Pizza, which most people love, is not very healthy,” the underlined clause is a …",
+    "question": "In “Pizza, __which most people love__, is not very healthy,” the underlined clause is a …",
     "options": [
       "noun clause",
       "adverb clause",
@@ -66927,7 +66927,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "written",
     "topicLabel": "General English · written",
     "difficulty": "medium",
-    "question": "Name the part of speech of each italicized word in the following sentences:                  (10×1=10)\n      (a) They arrived __after__ us.\n      (b) The __moon__ shines bright during the night.\n      (c) The groceries are where the boys left __them__.\n      (d) You can borrow the book __provided that__ you return it soon.\n      (e) I have not met my sister __since__ Sunday.\n       (f) The teacher arrived __after__ the players had left.\n      (g) __Oh!__ I got such a fright!\n      (h) Children __like__ chocolates.\n       (i) A square peg in a __round__ hole.\n       (j) John calculated his family’s expenditure __quickly__.",
+    "question": "Name the part of speech of each italicized word in the following sentences:                  (10×1=10)\n      (a) They arrived *after* us.\n      (b) The *moon* shines bright during the night.\n      (c) The groceries are where the boys left *them*.\n      (d) You can borrow the book *provided that* you return it soon.\n      (e) I have not met my sister *since* Sunday.\n       (f) The teacher arrived *after* the players had left.\n      (g) *Oh!* I got such a fright!\n      (h) Children *like* chocolates.\n       (i) A square peg in a *round* hole.\n       (j) John calculated his family’s expenditure *quickly*.",
     "explanation": "Parts of speech of the printed italic words: (a) after—preposition; (b) moon—noun; (c) them—pronoun; (d) provided that—subordinating conjunction; (e) since—preposition; (f) after—subordinating conjunction; (g) Oh!—interjection; (h) like—verb; (i) round—adjective; (j) quickly—adverb.",
     "sourceReview": false,
     "sourceNote": "",
@@ -92730,6 +92730,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B89",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+  ,
+    "imagePath": "/question-images/group-b/co-2026-p2-q089.webp"
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q90",
@@ -92913,6 +92915,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B96",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+  ,
+    "imagePath": "/question-images/group-b/co-2026-p2-q096.webp"
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q97",

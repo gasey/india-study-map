@@ -48,6 +48,10 @@ Computer 290 · Arithmetic 864 · Reasoning 276 — each exactly the UDC + Group
 sum, so the two banks resolve identically); full suite passes on dev and was
 re-run against production.
 
+**Deployed.** `7bdbd60` pushed and deployed: `dpl_2xedYjx8uJzxm5eeBFv9v72AZYnh`,
+live at `https://map.hawayu.in` (bundle `index-Cfd1tRjF.js`), production
+browser-suite green including the chip-count agreement on the combined bank.
+
 **What's still open.** The data generators are fixed for future rebuilds but
 must NOT be re-run against the current `../mpsc-question-bank` inputs — that
 repo's staged/solved content has drifted, so a regeneration rewrites question

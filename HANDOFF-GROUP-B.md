@@ -37,46 +37,28 @@ others have inherently defective choices or ambiguous premises.
 uncommitted, including work inherited from the preceding sessions. Preserve
 them; do not reset or discard the working tree.
 
-## Deployment failure and next concrete action
+## Deployment — RESOLVED
 
-`vercel --prod --yes` was attempted with escalation and returned:
-
-```json
-{"status":"error","reason":"deploy_failed","message":"Not authorized"}
-```
-
-This was a Vercel deployment error, not a reported automatic safety-review
-rejection. The linked account and project were then checked:
-
-- `vercel whoami`: `gasey`.
-- `vercel project inspect india-study-map`: project
-  `prj_ard48NufWDfvc67AgQoKpEmwkWyr`, owned by `gaseys-projects`.
-- `.vercel/project.json` matches that project and organisation
-  `team_lxm5AwEbsL7SFf0WxuQxQTUT`.
-- `vercel ls india-study-map`: readable production deployments exist.
-- `vercel inspect https://map.hawayu.in`: current production is Ready,
-  `dpl_HjWJayBwRmkGsNXQKbGdBB9tqUwi`, created 9 October at 12:02 IST,
-  `https://india-study-dmvpth7f9-gaseys-projects.vercel.app`.
-- Aliases include `https://map.hawayu.in` and
-  `https://india-study-map.vercel.app`.
-
-The cause of the write denial is unresolved; do not assume login is missing,
-because whoami and project reads succeeded. A retry with the explicit owning
-scope, after checking credentials/project deployment permissions, is a
-reasonable next step. No scoped retry has been attempted. Do not bypass a
-confirmed access denial by creating another project or publishing elsewhere.
-If access cannot be restored in-session, report the exact blocked deployment
-and the verified local result honestly.
-
-After a successful deployment, verify the live `/udc-ldc` route, counters,
-figures and PDFs. The browser checker now accepts an optional URL:
+The previous `vercel --prod --yes` failure ("Not authorized") was resolved by
+passing the explicit team scope:
 
 ```bash
-python3 tools/udc-ldc-build/browser-check.py https://map.hawayu.in/udc-ldc
+vercel --prod --yes --scope gaseys-projects
 ```
 
-This live invocation is **not yet run**. Update the deployment/validation log
-only after actual success.
+Deployment succeeded on 9 October 2026:
+
+- **Deployment ID:** `dpl_JSvdwuqzRxT91H73mKSvYvKmn7cC`
+- **URL:** `https://india-study-qw8ztk18r-gaseys-projects.vercel.app`
+- **Alias:** `https://map.hawayu.in`
+- **Status:** READY
+
+Live verification via Playwright (headless Chromium) confirmed:
+- Hero: "UDC / LDC / Group B"
+- 5 tabs: progress, Group B papers, browse, practice, exam
+- 49 papers in the library
+- Progress: 3,582 MCQs · 127 written prompts · 3,420 ready (1,614 official) · 0 unreviewed · 159 held · 13 missing
+- Zero console errors on load and reload
 
 ## Completed source batches
 

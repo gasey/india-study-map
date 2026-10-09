@@ -1686,7 +1686,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q001',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1704,7 +1704,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q002',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1722,7 +1722,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q003',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1740,7 +1740,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q004',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1758,7 +1758,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q005',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1776,7 +1776,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q006',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1794,7 +1794,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q007',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1812,7 +1812,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q008',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1830,7 +1830,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q009',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1848,7 +1848,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q010',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1866,7 +1866,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q011',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1884,7 +1884,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q012',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1902,7 +1902,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q013',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1920,7 +1920,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q014',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1938,7 +1938,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q015',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1956,7 +1956,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q016',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1974,7 +1974,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q017',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -1992,7 +1992,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q018',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2010,7 +2010,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q019',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2028,7 +2028,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q020',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2046,7 +2046,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q021',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2064,7 +2064,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q022',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2082,7 +2082,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q023',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2100,7 +2100,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q024',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2118,7 +2118,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q025',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2136,7 +2136,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q026',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2154,7 +2154,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q027',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2172,7 +2172,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q028',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2190,7 +2190,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q029',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2208,7 +2208,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q030',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2226,7 +2226,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q031',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2244,7 +2244,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q032',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2262,7 +2262,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q033',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2280,7 +2280,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q034',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2298,7 +2298,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q035',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2316,7 +2316,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q036',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2334,7 +2334,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q037',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2352,7 +2352,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q038',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2370,7 +2370,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q039',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2388,7 +2388,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q040',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2406,7 +2406,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q041',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2424,7 +2424,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q042',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2442,7 +2442,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q043',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2460,7 +2460,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q044',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2478,7 +2478,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q045',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2496,7 +2496,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q046',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2514,7 +2514,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q047',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2532,7 +2532,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q048',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2550,7 +2550,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q049',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2568,7 +2568,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q050',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -2586,7 +2586,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q051',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2604,7 +2604,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q052',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2622,7 +2622,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q053',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2640,7 +2640,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q054',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2658,7 +2658,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q055',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2676,7 +2676,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q056',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2694,7 +2694,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q057',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2712,7 +2712,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q058',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2730,7 +2730,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q059',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2748,7 +2748,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q060',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2766,7 +2766,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q061',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2785,7 +2785,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q062',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2805,7 +2805,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q063',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2823,7 +2823,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q064',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2842,7 +2842,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q065',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2860,7 +2860,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q066',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2878,7 +2878,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q067',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2896,7 +2896,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q068',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2914,7 +2914,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q069',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2932,7 +2932,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q070',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2950,7 +2950,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q071',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2968,7 +2968,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q072',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -2986,7 +2986,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q073',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -3004,7 +3004,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q074',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -3022,7 +3022,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2025-paper-2-q075',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5039,7 +5039,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q001',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5057,7 +5057,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q002',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5075,7 +5075,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q003',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5093,7 +5093,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q004',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5111,7 +5111,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q005',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5129,7 +5129,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q006',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5147,7 +5147,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q007',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5165,7 +5165,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q008',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5183,7 +5183,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q009',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5201,7 +5201,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q010',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5219,7 +5219,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q011',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5237,7 +5237,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q012',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5255,7 +5255,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q013',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5273,7 +5273,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q014',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5291,7 +5291,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q015',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5309,7 +5309,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q016',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5327,7 +5327,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q017',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5345,7 +5345,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q018',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5363,7 +5363,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q019',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5381,7 +5381,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q020',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5399,7 +5399,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q021',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5417,7 +5417,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q022',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5435,7 +5435,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q023',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5453,7 +5453,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q024',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5471,7 +5471,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q025',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5489,7 +5489,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q026',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5507,7 +5507,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q027',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5525,7 +5525,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q028',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5543,7 +5543,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q029',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5561,7 +5561,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q030',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5579,7 +5579,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q031',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5597,7 +5597,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q032',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5615,7 +5615,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q033',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5633,7 +5633,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q034',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5651,7 +5651,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q035',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -5669,7 +5669,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q036',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5687,7 +5687,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q037',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5705,7 +5705,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q038',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5723,7 +5723,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q039',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5741,7 +5741,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q040',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5759,7 +5759,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q041',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5777,7 +5777,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q042',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5795,7 +5795,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q043',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5813,7 +5813,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q044',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5831,7 +5831,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q045',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5849,7 +5849,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q046',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5867,7 +5867,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q047',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5885,7 +5885,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q048',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5903,7 +5903,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q049',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5921,7 +5921,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q050',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5939,7 +5939,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q051',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5957,7 +5957,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q052',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5975,7 +5975,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q053',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -5993,7 +5993,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q054',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -6011,7 +6011,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q055',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -6029,7 +6029,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q056',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -6047,7 +6047,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q057',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -6065,7 +6065,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q058',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -6083,7 +6083,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q059',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -6101,7 +6101,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q060',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -6119,7 +6119,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q061',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -6137,7 +6137,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q062',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -6156,7 +6156,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q063',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -6175,7 +6175,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q064',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -6194,7 +6194,7 @@ const questionsPart1: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2024-paper-2-q065',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -8335,7 +8335,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q001',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8353,7 +8353,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q002',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8371,7 +8371,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q003',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8389,7 +8389,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q004',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8407,7 +8407,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q005',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8425,7 +8425,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q006',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8443,7 +8443,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q007',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8461,7 +8461,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q008',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8479,7 +8479,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q009',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8497,7 +8497,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q010',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8515,7 +8515,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q011',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8533,7 +8533,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q012',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8551,7 +8551,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q013',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8569,7 +8569,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q014',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8587,7 +8587,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q015',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8605,7 +8605,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q016',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8623,7 +8623,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q017',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8641,7 +8641,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q018',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8659,7 +8659,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q019',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8677,7 +8677,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q020',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8695,7 +8695,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q021',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8713,7 +8713,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q022',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8731,7 +8731,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q023',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8749,7 +8749,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q024',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8767,7 +8767,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q025',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8785,7 +8785,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q026',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8803,7 +8803,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q027',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8821,7 +8821,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q028',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8839,7 +8839,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q029',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8857,7 +8857,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q030',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8875,7 +8875,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q031',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8893,7 +8893,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q032',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8911,7 +8911,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q033',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8929,7 +8929,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q034',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8947,7 +8947,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q035',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -8965,7 +8965,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q036',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -8984,7 +8984,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q037',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9002,7 +9002,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q038',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9020,7 +9020,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q039',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9037,7 +9037,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q040',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9055,7 +9055,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q041',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9073,7 +9073,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q042',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9091,7 +9091,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q043',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9109,7 +9109,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q044',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9127,7 +9127,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q045',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9145,7 +9145,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q046',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9163,7 +9163,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q047',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9181,7 +9181,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q048',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9199,7 +9199,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q049',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9217,7 +9217,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q050',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9235,7 +9235,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q051',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9253,7 +9253,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q052',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9271,7 +9271,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q053',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9289,7 +9289,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q054',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9308,7 +9308,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q055',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9327,7 +9327,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q056',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9346,7 +9346,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q057',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9365,7 +9365,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q058',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9383,7 +9383,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q059',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9401,7 +9401,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q060',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9419,7 +9419,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q061',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9437,7 +9437,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q062',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9455,7 +9455,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q063',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9473,7 +9473,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q064',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9491,7 +9491,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q065',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -9509,7 +9509,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-combined-2025-paper-2-q066',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -11667,7 +11667,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q001',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11685,7 +11685,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q002',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11703,7 +11703,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q003',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11721,7 +11721,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q004',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11739,7 +11739,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q005',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11757,7 +11757,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q006',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11775,7 +11775,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q007',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11793,7 +11793,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q008',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11811,7 +11811,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q009',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11829,7 +11829,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q010',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11847,7 +11847,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q011',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11865,7 +11865,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q012',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11883,7 +11883,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q013',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11901,7 +11901,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q014',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11919,7 +11919,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q015',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11937,7 +11937,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q016',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11955,7 +11955,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q017',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11973,7 +11973,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q018',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -11991,7 +11991,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q019',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12009,7 +12009,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q020',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12027,7 +12027,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q021',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12045,7 +12045,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q022',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12063,7 +12063,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q023',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12081,7 +12081,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q024',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12099,7 +12099,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q025',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12117,7 +12117,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q026',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12135,7 +12135,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q027',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12153,7 +12153,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q028',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12171,7 +12171,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q029',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12189,7 +12189,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q030',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12207,7 +12207,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q031',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12225,7 +12225,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q032',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12243,7 +12243,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q033',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12261,7 +12261,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q034',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12279,7 +12279,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q035',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -12297,7 +12297,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q036',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12315,7 +12315,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q037',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12333,7 +12333,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q038',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12351,7 +12351,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q039',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12369,7 +12369,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q040',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12387,7 +12387,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q041',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12405,7 +12405,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q042',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12423,7 +12423,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q043',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12441,7 +12441,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q044',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12459,7 +12459,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q045',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12477,7 +12477,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q046',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12495,7 +12495,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q047',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12513,7 +12513,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q048',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12531,7 +12531,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q049',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12549,7 +12549,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q050',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12567,7 +12567,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q051',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12585,7 +12585,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q052',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12603,7 +12603,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q053',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12621,7 +12621,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q054',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12639,7 +12639,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q055',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12657,7 +12657,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q056',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12675,7 +12675,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q057',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12693,7 +12693,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q058',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12711,7 +12711,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q059',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12729,7 +12729,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q060',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12747,7 +12747,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q061',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12765,7 +12765,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q062',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12783,7 +12783,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q063',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12801,7 +12801,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q064',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -12819,7 +12819,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q065',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -14961,7 +14961,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q001',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -14979,7 +14979,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q002',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -14997,7 +14997,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q003',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15015,7 +15015,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q004',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15033,7 +15033,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q005',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15051,7 +15051,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q006',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15069,7 +15069,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q007',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15087,7 +15087,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q008',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15105,7 +15105,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q009',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15123,7 +15123,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q010',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15141,7 +15141,7 @@ const questionsPart2: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q011',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15162,7 +15162,7 @@ const questionsPart2: BankQuestion[] = [
 const questionsPart3: BankQuestion[] = [
   {
     id: 'mpsc-ldc-2026feb-paper-2-q012',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15180,7 +15180,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q013',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15198,7 +15198,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q014',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15216,7 +15216,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q015',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15234,7 +15234,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q016',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15252,7 +15252,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q017',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15270,7 +15270,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q018',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15288,7 +15288,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q019',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15306,7 +15306,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q020',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15324,7 +15324,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q021',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15342,7 +15342,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q022',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15360,7 +15360,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q023',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15378,7 +15378,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q024',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15396,7 +15396,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q025',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15414,7 +15414,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q026',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15432,7 +15432,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q027',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15450,7 +15450,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q028',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15468,7 +15468,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q029',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15486,7 +15486,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q030',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15504,7 +15504,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q031',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15522,7 +15522,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q032',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15540,7 +15540,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q033',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15558,7 +15558,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q034',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15576,7 +15576,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q035',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15594,7 +15594,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q036',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15612,7 +15612,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q037',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15630,7 +15630,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q038',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15648,7 +15648,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q039',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15666,7 +15666,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q040',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15684,7 +15684,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q041',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15702,7 +15702,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q042',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15720,7 +15720,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q043',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15738,7 +15738,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q044',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15756,7 +15756,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q045',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15774,7 +15774,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q046',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15792,7 +15792,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q047',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15810,7 +15810,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q048',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15828,7 +15828,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q049',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15846,7 +15846,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q050',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -15864,7 +15864,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q051',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -15882,7 +15882,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q052',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -15900,7 +15900,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q053',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -15918,7 +15918,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q054',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -15936,7 +15936,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q055',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -15954,7 +15954,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q056',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -15972,7 +15972,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q057',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -15990,7 +15990,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q058',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16008,7 +16008,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q059',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16026,7 +16026,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q060',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16044,7 +16044,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q061',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16062,7 +16062,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q062',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16080,7 +16080,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q063',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16098,7 +16098,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q064',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16116,7 +16116,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q065',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16134,7 +16134,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q066',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16152,7 +16152,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q067',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16170,7 +16170,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q068',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16188,7 +16188,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q069',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16206,7 +16206,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q070',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16225,7 +16225,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q071',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16244,7 +16244,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q072',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16263,7 +16263,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q073',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16282,7 +16282,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q074',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -16301,7 +16301,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026feb-paper-2-q075',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -18297,7 +18297,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q001',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18315,7 +18315,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q002',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18333,7 +18333,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q003',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18352,7 +18352,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q004',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18370,7 +18370,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q005',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18388,7 +18388,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q006',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18406,7 +18406,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q007',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18424,7 +18424,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q008',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18442,7 +18442,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q009',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18460,7 +18460,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q010',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18478,7 +18478,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q011',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18496,7 +18496,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q012',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18514,7 +18514,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q013',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18532,7 +18532,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q014',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18550,7 +18550,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q015',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18568,7 +18568,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q016',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18586,7 +18586,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q017',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18604,7 +18604,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q018',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18622,7 +18622,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q019',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18640,7 +18640,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q020',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18658,7 +18658,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q021',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18676,7 +18676,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q022',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18694,7 +18694,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q023',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18712,7 +18712,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q024',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18730,7 +18730,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q025',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18748,7 +18748,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q026',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18766,7 +18766,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q027',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18784,7 +18784,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q028',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18802,7 +18802,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q029',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18820,7 +18820,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q030',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18838,7 +18838,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q031',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18856,7 +18856,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q032',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18874,7 +18874,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q033',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18892,7 +18892,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q034',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18910,7 +18910,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q035',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18928,7 +18928,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q036',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18946,7 +18946,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q037',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18964,7 +18964,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q038',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -18982,7 +18982,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q039',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -19000,7 +19000,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q040',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -19018,7 +19018,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q041',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -19036,7 +19036,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q042',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -19054,7 +19054,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q043',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -19072,7 +19072,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q044',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -19090,7 +19090,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q045',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -19108,7 +19108,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q046',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -19126,7 +19126,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q047',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -19144,7 +19144,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q048',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -19162,7 +19162,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q049',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -19180,7 +19180,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q050',
-    subject: 'science',
+    subject: 'computer',
     topic: 'computer_knowledge',
     topicLabel: 'Computer Knowledge',
     difficulty: 'medium',
@@ -19198,7 +19198,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q051',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19216,7 +19216,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q052',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19234,7 +19234,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q053',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19252,7 +19252,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q054',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19270,7 +19270,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q055',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19288,7 +19288,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q056',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19306,7 +19306,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q057',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19324,7 +19324,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q058',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19342,7 +19342,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q059',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19360,7 +19360,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q060',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19378,7 +19378,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q061',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19396,7 +19396,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q062',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19414,7 +19414,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q063',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19432,7 +19432,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q064',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19450,7 +19450,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q065',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19468,7 +19468,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q066',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19486,7 +19486,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q067',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19504,7 +19504,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q068',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19522,7 +19522,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q069',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19540,7 +19540,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q070',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19558,7 +19558,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q071',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19576,7 +19576,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q072',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19594,7 +19594,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q073',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19612,7 +19612,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q074',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -19630,7 +19630,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-ldc-2026apr-paper-2-q075',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21641,7 +21641,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q076',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21659,7 +21659,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q077',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21676,7 +21676,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q078',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21693,7 +21693,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q079',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21711,7 +21711,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q080',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21729,7 +21729,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q081',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21747,7 +21747,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q082',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21765,7 +21765,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q083',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21783,7 +21783,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q084',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21801,7 +21801,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q085',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21818,7 +21818,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q086',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21836,7 +21836,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q087',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21854,7 +21854,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q088',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21872,7 +21872,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q089',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21890,7 +21890,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q090',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21908,7 +21908,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q091',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21926,7 +21926,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q092',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21944,7 +21944,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q093',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21962,7 +21962,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q094',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21980,7 +21980,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q095',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -21998,7 +21998,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q096',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -22015,7 +22015,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q097',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -22033,7 +22033,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q098',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -22051,7 +22051,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q099',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -22069,7 +22069,7 @@ const questionsPart3: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q100',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23624,7 +23624,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q076',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23642,7 +23642,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q077',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23660,7 +23660,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q078',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23678,7 +23678,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q079',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23696,7 +23696,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q080',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23714,7 +23714,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q081',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23732,7 +23732,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q082',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23750,7 +23750,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q083',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23768,7 +23768,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q084',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23786,7 +23786,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q085',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23803,7 +23803,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q086',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23821,7 +23821,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q087',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23839,7 +23839,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q088',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23857,7 +23857,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q089',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23875,7 +23875,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q090',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23893,7 +23893,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q091',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23911,7 +23911,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q092',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23929,7 +23929,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q093',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23947,7 +23947,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q094',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23965,7 +23965,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q095',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -23982,7 +23982,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q096',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -24000,7 +24000,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q097',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -24018,7 +24018,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q098',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -24036,7 +24036,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q099',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -24054,7 +24054,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q100',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25604,7 +25604,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q076',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25622,7 +25622,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q077',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25640,7 +25640,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q078',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25658,7 +25658,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q079',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25676,7 +25676,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q080',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25694,7 +25694,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q081',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25712,7 +25712,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q082',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25730,7 +25730,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q083',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25748,7 +25748,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q084',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25766,7 +25766,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q085',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25784,7 +25784,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q086',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25802,7 +25802,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q087',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25821,7 +25821,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q088',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25839,7 +25839,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q089',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25857,7 +25857,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q090',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25874,7 +25874,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q091',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25892,7 +25892,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q092',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25910,7 +25910,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q093',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25928,7 +25928,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q094',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25946,7 +25946,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q095',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25964,7 +25964,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q096',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -25982,7 +25982,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q097',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -26000,7 +26000,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q098',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -26018,7 +26018,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q099',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -26036,7 +26036,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q100',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -28963,7 +28963,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q076',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -28981,7 +28981,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q077',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -28999,7 +28999,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q078',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29017,7 +29017,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q079',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29035,7 +29035,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q080',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29053,7 +29053,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q081',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29071,7 +29071,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q082',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29089,7 +29089,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q083',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29107,7 +29107,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q084',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29125,7 +29125,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q085',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29143,7 +29143,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q086',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29161,7 +29161,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q087',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29179,7 +29179,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q088',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29197,7 +29197,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q089',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29215,7 +29215,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q090',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29233,7 +29233,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q091',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29251,7 +29251,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q092',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29269,7 +29269,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q093',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29287,7 +29287,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q094',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29305,7 +29305,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q095',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29323,7 +29323,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q096',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29341,7 +29341,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q097',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29359,7 +29359,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q098',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29377,7 +29377,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q099',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -29395,7 +29395,7 @@ const questionsPart4: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q100',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -30952,7 +30952,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q076',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -30970,7 +30970,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q077',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -30988,7 +30988,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q078',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31006,7 +31006,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q079',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31024,7 +31024,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q080',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31042,7 +31042,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q081',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31060,7 +31060,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q082',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31078,7 +31078,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q083',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31096,7 +31096,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q084',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31114,7 +31114,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q085',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31132,7 +31132,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q086',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31150,7 +31150,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q087',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31168,7 +31168,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q088',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31186,7 +31186,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q089',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31204,7 +31204,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q090',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31222,7 +31222,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q091',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31240,7 +31240,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q092',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31258,7 +31258,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q093',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31275,7 +31275,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q094',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31293,7 +31293,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q095',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31311,7 +31311,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q096',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31329,7 +31329,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q097',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31347,7 +31347,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q098',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31365,7 +31365,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q099',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -31382,7 +31382,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q100',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34311,7 +34311,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q076',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34329,7 +34329,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q077',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34347,7 +34347,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q078',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34365,7 +34365,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q079',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34383,7 +34383,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q080',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34401,7 +34401,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q081',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34420,7 +34420,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q082',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34438,7 +34438,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q083',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34456,7 +34456,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q084',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34474,7 +34474,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q085',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34492,7 +34492,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q086',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34509,7 +34509,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q087',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34527,7 +34527,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q088',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34545,7 +34545,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q089',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34563,7 +34563,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q090',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34581,7 +34581,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q091',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34599,7 +34599,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q092',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34617,7 +34617,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q093',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34635,7 +34635,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q094',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34653,7 +34653,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q095',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34671,7 +34671,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q096',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34689,7 +34689,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q097',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34707,7 +34707,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q098',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34725,7 +34725,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q099',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -34743,7 +34743,7 @@ const questionsPart5: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q100',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39052,7 +39052,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q076',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39070,7 +39070,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q077',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39087,7 +39087,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q078',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39105,7 +39105,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q079',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39123,7 +39123,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q080',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39141,7 +39141,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q081',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39159,7 +39159,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q082',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39178,7 +39178,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q083',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39196,7 +39196,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q084',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39214,7 +39214,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q085',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39232,7 +39232,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q086',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39250,7 +39250,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q087',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39268,7 +39268,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q088',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39286,7 +39286,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q089',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39304,7 +39304,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q090',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39322,7 +39322,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q091',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39340,7 +39340,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q092',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39358,7 +39358,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q093',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39376,7 +39376,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q094',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39394,7 +39394,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q095',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39411,7 +39411,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q096',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39429,7 +39429,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q097',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39447,7 +39447,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q098',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39465,7 +39465,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q099',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -39482,7 +39482,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q100',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42406,7 +42406,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q076',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42424,7 +42424,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q077',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42442,7 +42442,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q078',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42460,7 +42460,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q079',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42478,7 +42478,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q080',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42496,7 +42496,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q081',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42514,7 +42514,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q082',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42531,7 +42531,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q083',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42549,7 +42549,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q084',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42567,7 +42567,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q085',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42585,7 +42585,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q086',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42603,7 +42603,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q087',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42621,7 +42621,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q088',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42639,7 +42639,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q089',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42657,7 +42657,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q090',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42675,7 +42675,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q091',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42693,7 +42693,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q092',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42711,7 +42711,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q093',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42729,7 +42729,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q094',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42747,7 +42747,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q095',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42765,7 +42765,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q096',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42783,7 +42783,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q097',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42801,7 +42801,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q098',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42819,7 +42819,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q099',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -42837,7 +42837,7 @@ const questionsPart6: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q100',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47145,7 +47145,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q076',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47163,7 +47163,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q077',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47181,7 +47181,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q078',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47199,7 +47199,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q079',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47217,7 +47217,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q080',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47235,7 +47235,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q081',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47253,7 +47253,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q082',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47271,7 +47271,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q083',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47289,7 +47289,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q084',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47307,7 +47307,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q085',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47324,7 +47324,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q086',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47342,7 +47342,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q087',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47360,7 +47360,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q088',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47378,7 +47378,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q089',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47396,7 +47396,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q090',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47414,7 +47414,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q091',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47432,7 +47432,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q092',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47450,7 +47450,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q093',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47467,7 +47467,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q094',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47485,7 +47485,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q095',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47503,7 +47503,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q096',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47521,7 +47521,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q097',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47539,7 +47539,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q098',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47557,7 +47557,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q099',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -47575,7 +47575,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q100',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49126,7 +49126,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q076',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49144,7 +49144,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q077',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49162,7 +49162,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q078',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49180,7 +49180,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q079',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49198,7 +49198,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q080',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49216,7 +49216,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q081',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49234,7 +49234,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q082',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49252,7 +49252,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q083',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49270,7 +49270,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q084',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49288,7 +49288,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q085',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49306,7 +49306,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q086',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49324,7 +49324,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q087',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49342,7 +49342,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q088',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49360,7 +49360,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q089',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49378,7 +49378,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q090',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49396,7 +49396,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q091',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49414,7 +49414,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q092',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49432,7 +49432,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q093',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49450,7 +49450,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q094',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49468,7 +49468,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q095',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49486,7 +49486,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q096',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49504,7 +49504,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q097',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49522,7 +49522,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q098',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49540,7 +49540,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q099',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -49558,7 +49558,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q100',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51106,7 +51106,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q076',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51123,7 +51123,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q077',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51141,7 +51141,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q078',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51159,7 +51159,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q079',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51177,7 +51177,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q080',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51195,7 +51195,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q081',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51213,7 +51213,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q082',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51231,7 +51231,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q083',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51249,7 +51249,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q084',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51267,7 +51267,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q085',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51285,7 +51285,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q086',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51303,7 +51303,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q087',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51321,7 +51321,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q088',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51339,7 +51339,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q089',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51357,7 +51357,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q090',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51375,7 +51375,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q091',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51393,7 +51393,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q092',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51411,7 +51411,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q093',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51429,7 +51429,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q094',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51446,7 +51446,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q095',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51464,7 +51464,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q096',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51482,7 +51482,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q097',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51500,7 +51500,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q098',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51518,7 +51518,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q099',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -51536,7 +51536,7 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q100',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -54460,7 +54460,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-cooperation-2016-paper-2-d01',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -54474,7 +54474,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-cooperation-2016-paper-2-d02',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -54488,7 +54488,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-cooperation-2016-paper-2-d03',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -54501,7 +54501,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-cooperation-2016-paper-2-d04',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56178,7 +56178,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q076',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56194,7 +56194,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q077',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56210,7 +56210,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q078',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56226,7 +56226,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q079',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56242,7 +56242,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q080',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56258,7 +56258,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q081',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56274,7 +56274,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q082',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56290,7 +56290,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q083',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56306,7 +56306,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q084',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56322,7 +56322,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q085',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56338,7 +56338,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q086',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56354,7 +56354,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q087',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56370,7 +56370,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q088',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56386,7 +56386,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q089',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56402,7 +56402,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q090',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56418,7 +56418,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q091',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56434,7 +56434,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q092',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56450,7 +56450,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q093',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56466,7 +56466,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q094',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56482,7 +56482,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q095',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56498,7 +56498,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q096',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56514,7 +56514,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q097',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56530,7 +56530,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q098',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56546,7 +56546,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q099',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56562,7 +56562,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q100',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56578,7 +56578,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q101',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56594,7 +56594,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q102',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56610,7 +56610,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q103',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56626,7 +56626,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q104',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56642,7 +56642,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q105',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56658,7 +56658,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q106',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56674,7 +56674,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q107',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56690,7 +56690,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q108',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56706,7 +56706,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q109',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56722,7 +56722,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q110',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56738,7 +56738,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q111',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56754,7 +56754,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q112',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56770,7 +56770,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q113',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56786,7 +56786,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q114',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56802,7 +56802,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q115',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56818,7 +56818,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q116',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56834,7 +56834,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q117',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56854,7 +56854,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q118',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56870,7 +56870,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q119',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56886,7 +56886,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q120',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56906,7 +56906,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q121',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56922,7 +56922,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q122',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56942,7 +56942,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q123',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56962,7 +56962,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q124',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -56980,7 +56980,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-dpar-2018-paper-2-q125',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -58414,7 +58414,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2014-paper-2-d01',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -58428,7 +58428,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2014-paper-2-d02',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -58441,7 +58441,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2014-paper-2-d04',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -58455,7 +58455,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2014-paper-2-d03',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -58468,7 +58468,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2014-paper-2-d05',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -58482,7 +58482,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2014-paper-2-d06',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -58496,7 +58496,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2014-paper-2-d07',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -58510,7 +58510,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2014-paper-2-d08',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -58524,7 +58524,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2014-paper-2-d09',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -58538,7 +58538,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2014-paper-2-d10',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -58552,7 +58552,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2014-paper-2-d11',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -58566,7 +58566,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2014-paper-2-d12',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -58580,7 +58580,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2014-paper-2-d13',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -58594,7 +58594,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2014-paper-2-d14',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -58608,7 +58608,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2014-paper-2-d15',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -58622,7 +58622,7 @@ const questionsPart8: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2014-paper-2-d16',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60054,7 +60054,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d01',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60068,7 +60068,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d02',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60082,7 +60082,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d03',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60096,7 +60096,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d04',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60110,7 +60110,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d05',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60124,7 +60124,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d06',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60138,7 +60138,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d07',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60152,7 +60152,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d08',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60166,7 +60166,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d09',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60180,7 +60180,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d10',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60194,7 +60194,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d11',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60208,7 +60208,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d12',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60222,7 +60222,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d13',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60236,7 +60236,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d14',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60250,7 +60250,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d15',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60264,7 +60264,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d16',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -60278,7 +60278,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2015-paper-2-d17',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61682,7 +61682,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-q001',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61698,7 +61698,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-q002',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61714,7 +61714,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-q003',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61730,7 +61730,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-q004',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61746,7 +61746,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-q005',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61762,7 +61762,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-q006',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61778,7 +61778,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-q007',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61794,7 +61794,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-q008',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61810,7 +61810,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-q009',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61826,7 +61826,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-q010',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61842,7 +61842,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-d02',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61856,7 +61856,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-d03',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61870,7 +61870,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-d04',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61884,7 +61884,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-d05',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61898,7 +61898,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-d06',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61912,7 +61912,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-d07',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61926,7 +61926,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-d08',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61940,7 +61940,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-d09',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',
@@ -61954,7 +61954,7 @@ const questionsPart9: BankQuestion[] = [
   },
   {
     id: 'mpsc-asst-2010-paper-2-arith-d10',
-    subject: 'reasoning',
+    subject: 'arithmetic',
     topic: 'simple_arithmetic',
     topicLabel: 'Simple Arithmetic',
     difficulty: 'medium',

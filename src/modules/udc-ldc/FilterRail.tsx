@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
 import type { ProgressMap } from './useProgress';
 import {
-  EMPTY_FILTERS, SECTION_LABEL, applyFilters, isAnswerable, sectionOf,
+  EMPTY_FILTERS, SECTION_LABEL, railCounts,
   type AnswerState, type AttemptState, type Filters, type GkKindState,
   type GkTopicState, type FlagState, type SectionId, type TypeState,
 } from './filters';
@@ -89,9 +89,19 @@ export function FilterRail({
   );
   const sections: SectionId[] = ['gk', 'english', 'computer', 'arithmetic', 'reasoning'];
 
-  /** Count with `axis` reset, so a chip shows what picking it would give. */
-  const countWith = (patch: Partial<Filters>) =>
-    applyFilters(all, papers, { ...filters, ...patch }, progress, flags).length;
+  /**
+   * Every chip's count, computed ONCE per filter change in a single pass over
+   * `all` (see `railCounts` in filters.ts) instead of ~45 full `applyFilters`
+   * runs per render. Each count still measures the pool the chip would
+   * produce with every other axis at its current selection — "Computer 235"
+   * means "235 if I pick Computer now", not the count under the current
+   * selection, which would read 0 the moment you pick a second section. A
+   * chip that would yield nothing is disabled rather than silently
+   * returning an empty list. */
+  const counts = useMemo(
+    () => railCounts(all, papers, filters, progress, flags),
+    [all, papers, filters, progress, flags],
+  );
 
   const set = (patch: Partial<Filters>) => onChange({ ...filters, ...patch });
   const toggle = <T,>(list: T[], v: T): T[] =>
@@ -114,7 +124,7 @@ export function FilterRail({
           <Chip
             key={p}
             on={filters.posts.includes(p)}
-            count={countWith({ posts: [p] })}
+            count={counts.posts[p] ?? 0}
             onClick={() => set({ posts: toggle(filters.posts, p) })}
           >
             {p}
@@ -127,7 +137,7 @@ export function FilterRail({
           <Chip
             key={p}
             on={filters.papers.includes(p)}
-            count={countWith({ papers: [p] })}
+            count={counts.papers[p] ?? 0}
             onClick={() => set({ papers: toggle(filters.papers, p) })}
           >
             {p}
@@ -137,7 +147,7 @@ export function FilterRail({
 
       <Group label="Section">
         {sections.map((s) => {
-          const n = countWith({ sections: [s] });
+          const n = counts.sections[s] ?? 0;
           return (
             <Chip
               key={s}
@@ -165,7 +175,7 @@ export function FilterRail({
           <Chip
             key={v}
             on={filters.type === v}
-            count={countWith({ type: v })}
+            count={counts.type[v] ?? 0}
             onClick={() => set({ type: v })}
           >
             {label}
@@ -186,7 +196,7 @@ export function FilterRail({
             <Chip
               key={v}
               on={filters.flag === v}
-              count={countWith({ flag: v })}
+              count={counts.flag[v] ?? 0}
               onClick={() => set({ flag: v })}
             >
               {label}
@@ -204,7 +214,7 @@ export function FilterRail({
           <Chip
             key={v}
             on={filters.answer === v}
-            count={countWith({ answer: v })}
+            count={counts.answer[v] ?? 0}
             onClick={() => set({ answer: v })}
           >
             {label}
@@ -231,7 +241,7 @@ export function FilterRail({
           <Chip
             key={v}
             on={filters.gkKind === v}
-            count={countWith({ gkKind: v })}
+            count={counts.gkKind[v] ?? 0}
             onClick={() => set({ gkKind: v })}
           >
             {label}
@@ -263,7 +273,7 @@ export function FilterRail({
           <Chip
             key={v}
             on={filters.gkTopic === v}
-            count={countWith({ gkTopic: v })}
+            count={counts.gkTopic[v] ?? 0}
             onClick={() => set({ gkTopic: v })}
           >
             {label}
@@ -279,7 +289,7 @@ export function FilterRail({
           <Chip
             key={v}
             on={filters.attempt === v}
-            count={countWith({ attempt: v })}
+            count={counts.attempt[v] ?? 0}
             onClick={() => set({ attempt: v })}
           >
             {label}
@@ -312,7 +322,7 @@ export function FilterRail({
           {matched === 1 ? '' : 's'} match
           {' · '}
           <span style={{ opacity: 0.7 }}>
-            {applyFilters(all, papers, { ...filters, answer: 'answered' }, progress).length} of them
+            {counts.answerable} of them
             can be marked
           </span>
         </span>

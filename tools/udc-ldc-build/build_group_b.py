@@ -91,13 +91,18 @@ SOURCES = [
 
 
 def section(part, number):
+    # The first element is both the bank `subject` and the canonical section.
+    # The old generator wrote cases 1-65 with subject "gk", so an arithmetic
+    # attempt was logged against General Knowledge; the Group B bank now uses
+    # the same subject vocabulary as the clerical bank (gk/english/computer/
+    # arithmetic/reasoning).
     if part == "Paper-I":
         return ("gk", "General Knowledge") if number <= 50 else ("english", "General English")
     if part == "Paper-II":
         if number <= 35:
-            return "gk", "Basic Computer Knowledge"
+            return "computer", "Basic Computer Knowledge"
         if number <= 65:
-            return "gk", "Simple Arithmetic"
+            return "arithmetic", "Simple Arithmetic"
         return "reasoning", "General Intelligence & Reasoning"
     return "gk", "General Knowledge"
 

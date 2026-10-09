@@ -284,11 +284,17 @@ DEFAULT_MARKS = 2
 NO_PENALTY = set()
 
 # our section id -> (bank subject, topic id, human label)
+#
+# subject and section must be the SAME value: `subject` is what attempt logs
+# carry into the analytics, and two banks were publishing different faces of
+# the same canonical section (arithmetic logged as 'reasoning' here and as
+# 'gk' in the Group B generator). Any question in the Arithmetic section is
+# subject "arithmetic", whatever bank produced it.
 SECTION = {
     "gk":         ("gk", "gk_general", "General Knowledge"),
     "english":    ("english", "eng_general", "General English"),
-    "computer":   ("science", "computer_knowledge", "Computer Knowledge"),
-    "arithmetic": ("reasoning", "simple_arithmetic", "Simple Arithmetic"),
+    "computer":   ("computer", "computer_knowledge", "Computer Knowledge"),
+    "arithmetic": ("arithmetic", "simple_arithmetic", "Simple Arithmetic"),
     "reasoning":  ("reasoning", "intelligence_reasoning", "General Intelligence & Reasoning"),
 }
 

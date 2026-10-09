@@ -62,7 +62,7 @@ export interface ExamPaper {
 interface BankQuestionBase {
   /** Globally unique — prefix with the bank id, e.g. 'codex-hist-001'. */
   id: string;
-  subject: SubjectId | 'gk' | 'current-affairs' | 'english' | 'reasoning' | 'science' | 'economics' | 'polity' | 'geography' | 'history' | 'chemistry' | 'physics' | 'biology';
+  subject: SubjectId | 'gk' | 'current-affairs' | 'english' | 'reasoning' | 'science' | 'economics' | 'polity' | 'geography' | 'history' | 'chemistry' | 'physics' | 'biology' | 'computer' | 'arithmetic';
   /** Machine topic id (filterable), e.g. 'fr', 'parl'. */
   topic: string;
   /** Human topic label, e.g. 'Fundamental Rights'. */

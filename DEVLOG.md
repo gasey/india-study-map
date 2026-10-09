@@ -9,6 +9,54 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-09 — Unified subject tagging across both banks; filter rail counts in one pass
+
+**What shipped.** Two gears, one sprint.
+
+1. **Uniform section tagging.** `subject` — the field attempt logs carry into
+   the analytics (Arena `logAttempt`, Mindset subject rows) — is now the same
+   canonical section in *both* banks. The clerical generator was writing
+   arithmetic as `subject: 'reasoning'` and computer as `'science'`; the Group B
+   generator wrote both as `'gk'`. All three generators now emit
+   `subject == section` (gk/english/computer/arithmetic/reasoning), and the
+   committed data files were **normalized in place** (`tools/udc-ldc-build/normalize_subjects.py`,
+   802 UDC/LDC + 352 Group B lines, subject values only — NOT a regeneration,
+   because the upstream staged bank has drifted and a rebuild pulls unreviewed
+   question text). `sectionOf` is now the single resolution order for both
+   banks and the filter: `studySection` → `TOPIC_SECTION` topic table (bridges
+   `simple_arithmetic` ↔ `simple-arithmetic` + the Group B subtopic taxonomy) →
+   topic label fallback. Verified post-normalization: all 7,048 rows satisfy
+   `subject == section`.
+
+2. **Filter rail counts, one pass.** `FilterRail` was running a full
+   `applyFilters` per chip (~45 per render). New `railCounts` builds every
+   chip's count in a single walk of the combined bank, sharing the *same*
+   atomic predicates as `applyFilters` (layered `*Pass`/`*Meets` helpers), so a
+   chip can never count a pool the filter will not deliver. Semantics preserved
+   exactly: each count still measures the pool when **only that chip's axis is
+   reset** to its value, every other axis at the current selection.
+
+**Why.** An arithmetic question was being logged against Reasoning/GK depending
+on which bank produced it, so Mindset analytics and the attempt log mis-tagged a
+third of the quantitative work. And the filter rail's per-chip recounting was
+the hot path on every filter interaction.
+
+**Validated.** `npm run lint` + `npm run build` clean; `test_group_b_repairs.py`
+24/24; `browser-check.py` now additionally proves on the live combined bank that
+each Section chip's count equals the list it yields (GK 3387 · English 2231 ·
+Computer 290 · Arithmetic 864 · Reasoning 276 — each exactly the UDC + Group B
+sum, so the two banks resolve identically); full suite passes on dev and was
+re-run against production.
+
+**What's still open.** The data generators are fixed for future rebuilds but
+must NOT be re-run against the current `../mpsc-question-bank` inputs — that
+repo's staged/solved content has drifted, so a regeneration rewrites question
+text/options/explanations beyond the tags. When upstream is next reconciled,
+re-run the generators (they already emit `subject == section`) and `normalize_subjects.py`
+becomes a no-op.
+
+---
+
 ## 2026-10-09 — Beautify arithmetic in the Group B papers
 
 **What changed.** The math reading mode (serif/tabular type in a gold-ruled

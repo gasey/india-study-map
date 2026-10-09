@@ -371,7 +371,7 @@ def build_additional():
             if slug == 'inspector-stats-2026-p2' and q['n'] > 50:
                 section = 'arithmetic'
             questions.append({'id': paper_id + '-' + (q.get('part') or 'Q') + str(q['n']), 'paperId': paper_id,
-                              'questionNumber': (q.get('part') or '') + str(q['n']), 'subject': 'english' if section == 'english' else 'gk',
+                              'questionNumber': (q.get('part') or '') + str(q['n']), 'subject': section,
                               'studySection': section, 'topic': 'general', 'topicLabel': subject, 'difficulty': 'medium',
                               'question': q['q'], 'options': opts, 'answerIndex': answer,
                               'explanation': q.get('explanation', ''),
@@ -434,7 +434,7 @@ def build_additional():
                 answer = 'ABCD'.index(key_cell) if key_cell else -1
             flag = q.get('flag')
             questions.append({
-                'id': slug + '-' + q['id'], 'questionNumber': q.get('part', '') + str(q['n']), 'paperId': slug, 'subject': 'english' if section == 'english' else 'reasoning' if section == 'reasoning' else 'gk',
+                'id': slug + '-' + q['id'], 'questionNumber': q.get('part', '') + str(q['n']), 'paperId': slug, 'subject': section,
                 'studySection': section, 'topic': q.get('topic') or 'general', 'topicLabel': label, 'difficulty': 'medium',
                 'question': q['q'] + ('\n' + q['figure'] if q.get('figure') else ''), 'options': [q['opts'][x] for x in 'abcd'],
                 'answerIndex': answer, 'explanation': q.get('why') or '', 'answerConfidence': q.get('conf') or 'low',

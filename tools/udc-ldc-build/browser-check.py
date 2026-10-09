@@ -517,6 +517,29 @@ for index in (61,86,87,88):
     wait_for(f"(()=>{{const im=document.querySelectorAll('.udc-question-card')[{index}].querySelector('img');if(im&&!im.naturalWidth&&im.complete){{im.loading='eager';im.src=im.currentSrc||im.src;}}return !!im&&im.naturalWidth>0}})()")
 evaluate("document.querySelectorAll('.udc-question-card')[79].querySelectorAll('.udc-option-label')[0].closest('button').click()")
 wait_for("document.querySelectorAll('.udc-question-card')[79].innerText.includes('377 × 34/493 = 26')")
+# The rail's chip counts come from `railCounts`, a single-pass computation that
+# must agree with the filtered LIST the page shows (`applyFilters`). Selecting
+# a Section chip and comparing its count with the resulting match count is the
+# proof on the live combined bank — a chip that promises 317 and delivers 316
+# is exactly the drift the two-layer refactor exists to rule out.
+click_tab('browse')
+evaluate("[...document.querySelectorAll('button')].find(b=>b.textContent.includes('Filters')&&b.textContent.includes('question'))?.click()")
+wait_for("[...document.querySelectorAll('div')].some(d=>d.children[0]?.tagName==='SPAN'&&d.children[0].textContent.trim()==='Section'&&!!d.children[1]?.querySelector('button'))")
+# Clear any browsed-paper selection so the rail counts span the WHOLE combined
+# bank (7,048 questions), where every section chip is live and meaningful.
+evaluate("[...document.querySelectorAll('button')].find(b=>b.textContent.includes('Clear paper selection'))?.click()")
+time.sleep(.3)
+section_chips = evaluate("(()=>{const grp=[...document.querySelectorAll('div')].find(d=>d.children[0]?.tagName==='SPAN'&&d.children[0].textContent.trim()==='Section'&&d.children[1]?.querySelector('button'));return [...grp.children[1].querySelectorAll('button')].map(b=>({label:b.childNodes[0]?.textContent.trim(),count:parseInt([...b.querySelectorAll('span')].find(s=>s.style.fontVariantNumeric==='tabular-nums')?.textContent||'0',10)}))})()")
+assert [c['label'] for c in section_chips] == ['General Knowledge', 'General English', 'Computer Knowledge', 'Arithmetic & General Mathematics', 'Intelligence & Reasoning'], section_chips
+assert all(c['count'] > 0 for c in section_chips), section_chips
+section_click = "(()=>{const grp=[...document.querySelectorAll('div')].find(d=>d.children[0]?.tagName==='SPAN'&&d.children[0].textContent.trim()==='Section'&&d.children[1]?.querySelector('button'));return [...grp.children[1].querySelectorAll('button')].find(b=>(b.childNodes[0]?.textContent||'').trim()==="
+for chip in section_chips:
+    label, n = chip['label'], chip['count']
+    evaluate(section_click + json.dumps(label) + ")?.click()})()")
+    wait_for(f"(()=>{{const d=[...document.querySelectorAll('div')].find(d=>{{const t=d.innerText||'';return /question[s]? match/.test(t)&&/can be marked/.test(t)}});return d?.querySelector('strong')?.textContent === {json.dumps(str(n))}}})()")
+    evaluate(section_click + json.dumps(label) + ")?.click()})()")
+    time.sleep(.2)
+evaluate("[...document.querySelectorAll('button')].find(b=>b.textContent.includes('Filters')&&b.textContent.includes('question'))?.click()")
 command('Emulation.setDeviceMetricsOverride', {'width':390,'height':900,'deviceScaleFactor':1,'mobile':True})
 assert evaluate("document.body.scrollWidth <= innerWidth")
 command('Emulation.setDeviceMetricsOverride', {'width':1280,'height':900,'deviceScaleFactor':1,'mobile':False})
@@ -525,5 +548,5 @@ assert evaluate("[...document.querySelectorAll('button')].some(b=>b.textContent.
 assert evaluate("![...document.querySelectorAll('button')].some(b=>b.textContent.includes('Assistant Audit & Accounts Officer / Assistant Accounts Officer · Arithmetic'))")
 assert evaluate("[...document.querySelectorAll('button')].some(b=>b.textContent.includes('Stenographer Grade III'))")
 assert not exceptions, exceptions
-print('Browser passed: all 49 paper sources; completed review and held/missing totals; written-only recovery; JE/stenographer/ASI full numbering, emphasis, figures and worked answers; JAO recovery; official comparison and corrigendum; held scoring gates; Exam eligibility; source links; mobile and desktop layout; no runtime exceptions.')
+print('Browser passed: all 49 paper sources; completed review and held/missing totals; written-only recovery; JE/stenographer/ASI full numbering, emphasis, figures and worked answers; JAO recovery; official comparison and corrigendum; held scoring gates; rail chip counts agree with filtered lists; Exam eligibility; source links; mobile and desktop layout; no runtime exceptions.')
 s.close()

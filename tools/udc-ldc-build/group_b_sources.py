@@ -406,6 +406,7 @@ def build_additional():
                               'topic': 'written', 'topicLabel': 'General English · written', 'difficulty': 'medium',
                               'question': prompt,
                               'explanation': written_review.get('explanation', '') if written_review else '',
+                              **({'answers': written_review['answers']} if written_review and written_review.get('answers') else {}),
                               'sourceReview': not bool(written_review), 'sourceNote': '' if written_review else 'Written response and transcription awaiting source review.',
                               'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]), 'sourceHref': href + '#page=' + str(written_review.get('page', q['page']) if written_review else q['page'])})
     for hub_id, (folder, file) in HUB_FILES.items():

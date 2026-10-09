@@ -36,6 +36,19 @@
 // word or a short clause; "as heroes do" is the longest in the bank.
 const MARKED = /__([^\s_][^_]{0,78})__|\*([^\s*][^*]{0,78})\*/g;
 
+// A `_____` fill-in-the-blank run, scanned in the same pass as the emphasis
+// markup so the two never interleave. Runs of 3+ underscores are blanks;
+// pairwise underscores belong to the underline markup above, so `__this__` is
+// never mistaken for a blank. When the revealed answer is known (the `answers`
+// slice for this segment), the blank renders as the completed text; otherwise
+// it renders as a printed line the reader fills.
+const MARKED_OR_BLANK = /_{3,}|__([^\s_][^_]{0,78})__|\*([^\s*][^*]{0,78})\*/g;
+
+/** Width of an unfilled blank line, traced from the printed underscore run. */
+function blankWidth(n: number): string {
+  return `${Math.max(Math.min(n, 30) * 0.42, 2.4).toFixed(1)}em`;
+}
+
 /**
  * A "match List-I with List-II" question, whose two columns the page prints
  * side by side and the text layer flattens into one paragraph:
@@ -190,9 +203,14 @@ function repairMathGlyphs(text: string): string {
     .replace(/\b(\d+(?:\.\d+)?)\s*[*x×]\s*(\d+(?:\.\d+)?)\b/g, '$1 × $2');
 }
 
-function InlineText({ text, plain }: { text: string; plain?: boolean }) {
+function blankCount(s: string): number {
+  return (s.match(/_{3,}/g) || []).length;
+}
+
+function InlineText({ text, plain, answers }: { text: string; plain?: boolean; answers?: string[] }) {
   const parts: React.ReactNode[] = [];
   let last = 0;
+  let local = 0;
   let m: RegExpExecArray | null;
   MARKED.lastIndex = 0;
   let repaired = repairMathGlyphs(text);
@@ -202,17 +220,31 @@ function InlineText({ text, plain }: { text: string; plain?: boolean }) {
     repaired = repaired.replace(MARKED, (_m, u: string | undefined, e: string | undefined) => u ?? e ?? '');
     return <>{repaired}</>;
   }
-  while ((m = MARKED.exec(repaired)) !== null) {
+  MARKED_OR_BLANK.lastIndex = 0;
+  while ((m = MARKED_OR_BLANK.exec(repaired)) !== null) {
     if (m.index > last) parts.push(repaired.slice(last, m.index));
-    parts.push(
-      m[1] !== undefined ? (
+    if (m[1] === undefined && m[2] === undefined) {
+      // First alternative matched: a fill-in-the-blank run. `answers` is the
+      // slice for THIS text segment, so a fresh `local` index per call is
+      // correct and React StrictMode double-renders are harmless.
+      const answer = answers && local < answers.length ? answers[local] : undefined;
+      local += 1;
+      parts.push(
+        answer !== undefined ? (
+          <span key={m.index} className="udc-blank-fill">{answer}</span>
+        ) : (
+          <span key={m.index} className="udc-blank" aria-label="blank" style={{ minWidth: blankWidth(m[0].length) }} />
+        ),
+      );
+    } else if (m[1] !== undefined) {
+      parts.push(
         <u key={m.index} style={{ textUnderlineOffset: 3 }}>
           {m[1]}
-        </u>
-      ) : (
-        <em key={m.index}>{m[2]}</em>
-      ),
-    );
+        </u>,
+      );
+    } else {
+      parts.push(<em key={m.index}>{m[2]}</em>);
+    }
     last = m.index + m[0].length;
   }
   if (!parts.length) return <>{repaired}</>;
@@ -243,16 +275,26 @@ function splitSubparts(text: string): { main: string; parts: string[] } | null {
   return main ? { main, parts } : { main: '', parts };
 }
 
-function SubParts({ text, plain }: { text: string; plain?: boolean }) {
+function SubParts({ text, plain, answers }: { text: string; plain?: boolean; answers?: string[] }) {
   const split = splitSubparts(text);
-  if (!split) return <InlineText text={text} plain={plain} />;
+  if (!split) return <InlineText text={text} plain={plain} answers={answers} />;
+  // Slice the answers across main + parts in order: each segment's blanks take
+  // the next unused answers. Positional, so a double render is idempotent.
+  const segments = [split.main, ...split.parts];
+  const slices: (string[] | undefined)[] = [];
+  let offset = 0;
+  for (const seg of segments) {
+    const n = blankCount(seg);
+    slices.push(answers ? answers.slice(offset, offset + n) : undefined);
+    offset += n;
+  }
   return (
     <>
-      {split.main && <div style={{ marginBottom: 6 }}>{split.main}</div>}
+      {split.main && <div style={{ marginBottom: 6 }}><InlineText text={split.main} plain={plain} answers={slices[0]} /></div>}
       <ul style={{ margin: '4px 0 0 0', paddingLeft: '1.5rem' }}>
         {split.parts.map((part, i) => (
           <li key={i} style={{ marginBottom: 2 }}>
-            <InlineText text={part} plain={plain} />
+            <InlineText text={part} plain={plain} answers={slices[i + 1]} />
           </li>
         ))}
       </ul>
@@ -260,7 +302,7 @@ function SubParts({ text, plain }: { text: string; plain?: boolean }) {
   );
 }
 
-export function QuestionText({ text, plain }: { text: string; plain?: boolean }) {
+export function QuestionText({ text, plain, answers }: { text: string; plain?: boolean; answers?: string[] }) {
   if (!text) return null;
   // Called as a plain function, not rendered as an element, because the whole
   // point is to find out whether it CAN parse: it returns null when the text
@@ -270,13 +312,21 @@ export function QuestionText({ text, plain }: { text: string; plain?: boolean })
   if (table) return table;
 
   const lines = text.replace(/\r\n?/g, '\n').split('\n');
-  if (lines.length === 1) return <SubParts text={text} plain={plain} />;
+  if (lines.length === 1) return <SubParts text={text} plain={plain} answers={answers} />;
 
+  // Slice the answers per line: a line's blanks take the next unused answers.
+  const slices: (string[] | undefined)[] = [];
+  let offset = 0;
+  for (const line of lines) {
+    const n = blankCount(line);
+    slices.push(answers ? answers.slice(offset, offset + n) : undefined);
+    offset += n;
+  }
   return (
     <span style={{ display: 'block' }}>
       {lines.map((line, i) => (
         <span key={i} style={{ display: 'block', minHeight: line ? undefined : '0.65em' }}>
-          <InlineText text={line} plain={plain} />
+          <InlineText text={line} plain={plain} answers={slices[i]} />
         </span>
       ))}
     </span>

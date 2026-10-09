@@ -9,6 +9,47 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-09 — Fill-in-the-blank written prompts: ruled blanks, reveal fills them, stems beautified
+
+**What shipped.** The Group B written grammar drills (the `_____` fill-in-the-blank
+prompts) now read and resolve like the rest of the bank.
+
+1. **Blanks render as ruled lines, not raw underscores.** `QuestionText` scans
+   `_{3,}` runs in the same pass as the recovered `__underline__`/`*italic*`
+   emphasis and draws a bottom-ruled placeholder (`.udc-blank`, width traced
+   from the printed underscore run). Math (`plain`) stems are untouched.
+
+2. **"Reveal model answer" fills the blanks.** Written prompts can carry an
+   `answers` array (one model answer per blank, document order). When the model
+   answer is revealed, each blank is replaced by its answer as a softly
+   highlighted completion (`.udc-blank-fill`) — the stem reads as a completed
+   answer sheet. The mapping is **positional** (each text segment gets its own
+   answer slice + fresh local index), never a shared mutable cursor, so React
+   StrictMode's dev double-render can't half-consume it.
+
+3. **Twelve drills curated.** `tools/udc-ldc-build/annotate_written_fills.py`
+   (idempotent) adds `answers` and cleans the OCR-mangled stems — collapsed
+   alignment padding, a blank jammed against its letter (`(bad) _____than`),
+   hint brackets wrapped onto their own line (`(already be)`), mid-sentence
+   breaks (`...but today he`), mark allocations spaced (`(10×1=10)` →
+   `(10 × 1 = 10)`) — in BOTH the committed `mpsc-group-b-general.ts` and the
+   durable `group-b-text-repairs.json` (so a rebuild keeps the curation). The
+   two 2017 Inspector of Statistics drills also got richer explanations
+   (comparative/superlative rules; tense-by-tense verb-form rules). The
+   generator (`group_b_sources.py`) now passes `answers` through.
+
+**Why.** The printed drills ask the reader to fill running underscores, but the
+bank showed literal `_____` and the model answer sat in a separate free-text
+block — the reader couldn't see the completed sentence. Filling the blanks on
+reveal makes the exercise legible and self-checking.
+
+**What's still open.** The two long comprehension passages (technical-2024-p1
+q2, si-fcs-2025-p1 q3) keep their passage text byte-for-byte; only their blanks
+were wired. The 14 UDC/LDC descriptive records with blanks get the ruled-line
+rendering for free but have no `answers` (out of scope — Group B review).
+
+---
+
 ## 2026-10-09 — Unified subject tagging across both banks; filter rail counts in one pass
 
 **What shipped.** Two gears, one sprint.

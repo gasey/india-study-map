@@ -264,6 +264,13 @@ export interface DescriptiveBankQuestion extends BankQuestionBase {
   subparts?: DescriptiveSubpart[];
   guidance?: string;
   wordLimit?: number;
+  /**
+   * For fill-in-the-blank written prompts ("Fill in the blanks ..."), one
+   * model answer per blank, in document order. "Reveal model answer" drops
+   * each answer into its running underscore blank so the completed sentence
+   * reads as it would on an answer sheet.
+   */
+  answers?: string[];
   options?: string[];
   answerIndex?: number;
   /**

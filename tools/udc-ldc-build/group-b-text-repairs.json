@@ -12067,13 +12067,23 @@
         },
         "19": {
           "page": 4,
-          "q": "Complete the question tags: (a) Let us go, ___? (b) He isn’t very happy with it, ___? (c) Mind your business, ___? (d) Keep your mouth shut, ___? (e) Don’t break the glass, ___? (5×2=10 marks)",
-          "explanation": "Suggested tags: (a) shall we? (b) is he? (c) will you? (d) will you? (e) will you? Commands commonly take “will you?” as the tag."
+          "q": "Complete the question tags: (a) Let us go, ___? (b) He isn’t very happy with it, ___? (c) Mind your business, ___? (d) Keep your mouth shut, ___? (e) Don’t break the glass, ___? (5 × 2 = 10 marks)",
+          "explanation": "Suggested tags: (a) shall we? (b) is he? (c) will you? (d) will you? (e) will you? Commands commonly take “will you?” as the tag.",
+          "answers": [
+            "shall we",
+            "is he",
+            "will you",
+            "will you",
+            "will you"
+          ]
         },
         "20": {
           "page": 4,
-          "q": "Rewrite as directed: (a) How long have you ___ him? (use “know”); (b) The sun was shining. We went for a walk. (make compound); (c) Having finished his work, he went home. (make complex); (d) You have to pay or you cannot leave this place. (make simple); (e) She said, “You see, you cannot meet the principal.” (indirect speech); (f) Portia exclaimed with sorrow that she was ruined. (direct speech); (g) Waste not, want not. (begin with “if”); (h) I do not know her nature any better than you. (use positive degree); (i) His prompt reply will able us to take timely action. (correct/improve); (j) Shall we ever forget these happy days? (rewrite using “never”). (10×2=20 marks)",
-          "explanation": "Possible answers: (a) How long have you known him? (b) The sun was shining, so we went for a walk. (c) After he had finished his work, he went home. (d) You cannot leave this place without paying. (e) She said that I could not meet the principal. (f) Portia exclaimed, “Alas! I am ruined!” (g) If you do not waste, you will not want. (h) I know her nature no better than you do. (i) His prompt reply will enable us to take timely action. (j) We shall never forget these happy days."
+          "q": "Rewrite as directed: (a) How long have you ___ him? (use “know”); (b) The sun was shining. We went for a walk. (make compound); (c) Having finished his work, he went home. (make complex); (d) You have to pay or you cannot leave this place. (make simple); (e) She said, “You see, you cannot meet the principal.” (indirect speech); (f) Portia exclaimed with sorrow that she was ruined. (direct speech); (g) Waste not, want not. (begin with “if”); (h) I do not know her nature any better than you. (use positive degree); (i) His prompt reply will able us to take timely action. (correct/improve); (j) Shall we ever forget these happy days? (rewrite using “never”). (10 × 2 = 20 marks)",
+          "explanation": "Possible answers: (a) How long have you known him? (b) The sun was shining, so we went for a walk. (c) After he had finished his work, he went home. (d) You cannot leave this place without paying. (e) She said that I could not meet the principal. (f) Portia exclaimed, “Alas! I am ruined!” (g) If you do not waste, you will not want. (h) I know her nature no better than you do. (i) His prompt reply will enable us to take timely action. (j) We shall never forget these happy days.",
+          "answers": [
+            "known"
+          ]
         }
       }
     },
@@ -28147,7 +28157,11 @@
         "3": {
           "page": 2,
           "q": "Read the passage and answer all ten questions below. (Questions (a)–(e) on page 2 carry 1 mark each; questions (f)–(j) on page 3 carry 2 marks each.)\n\nExercise is essential for maintaining a healthy lifestyle. It helps improve cardiovascular health, strengthens muscles, and boosts the immune system. Regular physical activity also reduces the risk of chronic diseases such as heart disease, diabetes, and obesity. Additionally, exercise plays a crucial role in mental well-being by reducing stress, anxiety, and depression.\n\nThere are different types of exercises, including aerobic exercises like running and swimming, strength training like weightlifting, and flexibility exercises such as yoga and stretching. A combination of these exercises ensures overall fitness and health. Experts recommend at least 30 minutes of moderate exercise per day to maintain good health.\n\nThe lack of physical activity has become a major concern, especially with modern lifestyles that involve sitting for long hours. Many people spend excessive time on screens, leading to a sedentary lifestyle. This can result in weight gain, muscle weakness, and poor cardiovascular health. To stay active, individuals can take small steps such as walking instead of driving, using stairs instead of elevators, and participating in sports or outdoor activities.\n\nGovernments and health organizations promote exercise through awareness campaigns, fitness programs, and policies that encourage active lifestyles. Schools also play a key role by including physical education in their curriculum. Exercise is not just about fitness—it is a way to enhance the quality of life and increase life expectancy.\n\n(a) ______ exercise includes activities like running and swimming.\n(b) A sedentary lifestyle can lead to ______ gain.\n(c) Give a synonym of “guarantee” (the question says “second paragraph”).\n(d) Give an antonym of “diminish” (the question says “fourth paragraph”).\n(e) Give one way in which a school can promote physical activity.\n(f) What flexibility exercises are mentioned in the passage?\n(g) Why is exercise important for overall health?\n(h) How does exercise contribute to mental well-being?\n(i) How can individuals include more physical activity in their daily routine?\n(j) What role do governments and health organizations play in promoting exercise?",
-          "explanation": "Answer guide: (a) aerobic; (b) weight; (c) ensure(s), which appears in the second paragraph and means to make certain; (d) increase, the antonym of “diminish” used in the fourth paragraph. (e) include physical education in the curriculum; (f) yoga and stretching; (g) it improves cardiovascular health, strengthens muscles, boosts immunity and lowers chronic-disease risk; (h) it reduces stress, anxiety and depression; (i) walk instead of driving, use stairs, or take part in sports/outdoor activities; (j) run awareness campaigns and fitness programs and adopt policies encouraging active lifestyles."
+          "explanation": "Answer guide: (a) aerobic; (b) weight; (c) ensure(s), which appears in the second paragraph and means to make certain; (d) increase, the antonym of “diminish” used in the fourth paragraph. (e) include physical education in the curriculum; (f) yoga and stretching; (g) it improves cardiovascular health, strengthens muscles, boosts immunity and lowers chronic-disease risk; (h) it reduces stress, anxiety and depression; (i) walk instead of driving, use stairs, or take part in sports/outdoor activities; (j) run awareness campaigns and fitness programs and adopt policies encouraging active lifestyles.",
+          "answers": [
+            "aerobic",
+            "weight"
+          ]
         }
       }
     },
@@ -40257,13 +40271,37 @@
         },
         "5": {
           "page": 3,
-          "q": "Fill in the blanks using the correct form of the verb given in brackets:          (10×1=10)\n    (a) I _______________ a great film yesterday. (see)\n    (b) I _______________ him last Monday. (meet)\n    (c) The band _______________ while I _______________. (play, write)\n    (d) She _______________ the new car in 2005. (buy)\n    (e) Her mother _____________________ in Victoria for the past five years. (live)\n     (f) They ____________________________ in Germany when we arrived a few days ago.\n          (already be)\n    (g) I _____________________ so much fun since I was a kid. (have)\n    (h) He always _____________________ to the supermarket alone, but today he\n          _____________________ his son with him. (go, take)",
-          "explanation": "Suggested verb forms: (a) saw; (b) met; (c) was playing, was writing; (d) bought; (e) has lived / has been living; (f) had already been; (g) have not had; (h) goes, is taking. “Since I was a kid” makes a present-perfect construction natural; the intended negative in (g) is inferred from ordinary usage, because the bracket gives only “have”."
+          "q": "Fill in the blanks using the correct form of the verb given in brackets: (10 × 1 = 10)\n(a) I _______________ a great film yesterday. (see)\n(b) I _______________ him last Monday. (meet)\n(c) The band _______________ while I _______________. (play, write)\n(d) She _______________ the new car in 2005. (buy)\n(e) Her mother _____________________ in Victoria for the past five years. (live)\n(f) They ____________________________ in Germany when we arrived a few days ago. (already be)\n(g) I _____________________ so much fun since I was a kid. (have)\n(h) He always _____________________ to the supermarket alone, but today he _____________________ his son with him. (go, take)",
+          "explanation": "Suggested verb forms: (a) saw; (b) met; (c) was playing, was writing; (d) bought; (e) has lived / has been living; (f) had already been; (g) have not had; (h) goes, is taking. A definite past time takes the simple past (saw, met, bought); two simultaneous past actions take the past continuous (was playing … was writing); a state continuing from the past until now takes the present perfect (has lived, have not had); an action completed before a past reference point takes the past perfect (had already been); habits and arrangements take the simple present (goes, is taking). The intended negative in (g) is inferred from ordinary usage, because the bracket gives only “have”.",
+          "answers": [
+            "saw",
+            "met",
+            "was playing",
+            "was writing",
+            "bought",
+            "has lived / has been living",
+            "had already been",
+            "have not had",
+            "goes",
+            "is taking"
+          ]
         },
         "6": {
           "page": 3,
-          "q": "Put the adjectives in the correct form (comparative, superlative):                    (10×1=10)\n    (a) The Nile is (long) __________ river in the world.\n    (b) Buying things from plastic is (bad) _____than buying things from recycled paper.\n    (c) Antarctica is one of (cold) _________ places on Earth.\n    (d) Greece is (hot) _______ than England.\n    (e) I like milk (good) ______ than coffee.\n     (f) Elvis Presley is one of (popular) ________ rock singers ever.\n    (g) Switzerland is one of (rich) ________ countries in the world.\n    (h) People in Africa are the (poor) ________ in the world.\n     (i) Alexander the Great was a (good) ________ leader than Xerxes.\n     (j) China has (many) ________ people than any other country in the world.",
-          "explanation": "Forms in order: the longest; worse; the coldest; hotter; better; the most popular; the richest; poorest; better; more. These complete the printed grammar exercise; its sweeping factual claims about countries and continents should not be treated as current geography or demographic facts."
+          "q": "Put the adjectives in the correct form (comparative, superlative): (10 × 1 = 10)\n(a) The Nile is (long) __________ river in the world.\n(b) Buying things from plastic is (bad) _____ than buying things from recycled paper.\n(c) Antarctica is one of (cold) _________ places on Earth.\n(d) Greece is (hot) _______ than England.\n(e) I like milk (good) ______ than coffee.\n(f) Elvis Presley is one of (popular) ________ rock singers ever.\n(g) Switzerland is one of (rich) ________ countries in the world.\n(h) People in Africa are the (poor) ________ in the world.\n(i) Alexander the Great was a (good) ________ leader than Xerxes.\n(j) China has (many) ________ people than any other country in the world.",
+          "explanation": "Comparative forms (with “than”): worse, hotter, better, better, more. Superlative forms (with “the” or “one of the”): the longest, the coldest, the most popular, the richest, the poorest. One-syllable adjectives take -er/-est (long → the longest; hot → hotter) and longer ones take more/most (popular → more popular / the most popular); irregulars keep their own forms (good → better, bad → worse, many → more). These complete the printed grammar exercise; its sweeping factual claims about countries and continents should not be treated as current geography or demographic facts.",
+          "answers": [
+            "the longest",
+            "worse",
+            "the coldest",
+            "hotter",
+            "better",
+            "the most popular",
+            "the richest",
+            "poorest",
+            "better",
+            "more"
+          ]
         },
         "7": {
           "page": 3,
@@ -40343,8 +40381,14 @@
         },
         "8": {
           "page": 3,
-          "q": "Give answers to the following sentences as directed.                                      (10×1=10)\n     (a) I can hard/hardly believe it. (Choose the correct adverb)\n     (b) She sat _____ the fire, and told me an interesting fable. (Provide a suitable preposition.)\n     (c) Never tell a lie. (Pick out the noun in the sentence.)\n     (d) The lion and the unicorn fought ____ the crown. (Provide a suitable preposition.)\n     (e) Zuala is absent because he is unwell. (Pick out the pronoun.)\n      (f) The cat sleeps on the rug. (Pick out the verb in the sentence.)\n     (g) Always speak the _____. (Supply a suitable noun.)\n     (h) I will watch _____ you sleep. (Supply a suitable conjunction.)\n      (i) Is there any later/latter news than last week’s? (Choose the correct adjective.)\n      (j) We expect to get the latest news in a few days. (Pick out the adjective in the sentence.)",
-          "explanation": "Suggested completions: (a) hardly; (b) by / near; (c) lie; (d) for; (e) he; (f) sleeps; (g) truth; (h) while; (i) later; (j) latest (the phrase “a few days” also contains the quantifier “few”). The free-response blanks can allow more than one suitable word."
+          "q": "Give answers to the following sentences as directed. (10 × 1 = 10)\n(a) I can hard/hardly believe it. (Choose the correct adverb)\n(b) She sat _____ the fire, and told me an interesting fable. (Provide a suitable preposition.)\n(c) Never tell a lie. (Pick out the noun in the sentence.)\n(d) The lion and the unicorn fought ____ the crown. (Provide a suitable preposition.)\n(e) Zuala is absent because he is unwell. (Pick out the pronoun.)\n(f) The cat sleeps on the rug. (Pick out the verb in the sentence.)\n(g) Always speak the _____. (Supply a suitable noun.)\n(h) I will watch _____ you sleep. (Supply a suitable conjunction.)\n(i) Is there any later/latter news than last week’s? (Choose the correct adjective.)\n(j) We expect to get the latest news in a few days. (Pick out the adjective in the sentence.)",
+          "explanation": "Suggested completions: (a) hardly; (b) by / near; (c) lie; (d) for; (e) he; (f) sleeps; (g) truth; (h) while; (i) later; (j) latest (the phrase “a few days” also contains the quantifier “few”). The free-response blanks can allow more than one suitable word.",
+          "answers": [
+            "by / near",
+            "for",
+            "truth",
+            "while"
+          ]
         },
         "9": {
           "page": 3,
@@ -40353,8 +40397,15 @@
         },
         "10": {
           "page": 3,
-          "q": "Read the following sentences carefully and fill in the blanks with the appropriate idioms provided\n    below:                                                                                    (5×1=5)\n    (took to his heels, within a stone’s throw of, tooth and nail, foot the bill, by long odds)\n      (a) She asked me to dine with him but I had to __________.\n     (b) He is ___________ the greatest of living mathematician.\n      (c) The burglar ________ on seeing a policeman.\n     (d) We shall fight __________ not to be deprived of our rights.\n      (e) Jenny’s school is _____________ her mother’s office.",
-          "explanation": "In order: foot the bill; by long odds; took to his heels; tooth and nail; within a stone’s throw of. They mean pay the expense, by a large margin, ran away, fiercely, and very near."
+          "q": "Read the following sentences carefully and fill in the blanks with the appropriate idioms provided below: (5 × 1 = 5)\n(took to his heels, within a stone’s throw of, tooth and nail, foot the bill, by long odds)\n(a) She asked me to dine with him but I had to __________.\n(b) He is ___________ the greatest of living mathematician.\n(c) The burglar ________ on seeing a policeman.\n(d) We shall fight __________ not to be deprived of our rights.\n(e) Jenny’s school is _____________ her mother’s office.",
+          "explanation": "In order: foot the bill; by long odds; took to his heels; tooth and nail; within a stone’s throw of. They mean pay the expense, by a large margin, ran away, fiercely, and very near.",
+          "answers": [
+            "foot the bill",
+            "by long odds",
+            "took to his heels",
+            "tooth and nail",
+            "within a stone’s throw of"
+          ]
         },
         "11": {
           "page": 3,
@@ -40399,7 +40450,11 @@
         "2": {
           "page": 1,
           "q": "Read the following passage carefully and answer the questions that follows :\n\nComputers are capable of doing extremely complicated work in all branches of learning. They\ncan solve the most complex mathematical problems or put a thousand unrelated data in order. These\nmachines can be put to varied uses. For instance, they can provide information on the best way to\nprevent traffic accidents. They work accurately and at high speed. They save research workers’\nyears of hard work.\n\nThis whole process, by which machines can be used to work for us, has been called ‘automation’.\nIn future, automation may enable human beings to enjoy more leisure than they do today. The coming\n\nof automation is bound to have important social consequences,\n\n\nSome years ago, an expert on automation, Sir Leon Bagrit, pointed out that it was a mistake to\nbelieve that these machines could think. There is no possibility that human beings will be controlled\nby machines. Though computers are capable of learning from their mistakes and improving on their\nperformances, they need detailed instructions from human beings to be able to operate. They can\nnever lead independent lives or ‘rule the world’ by taking decisions of their own.\n\nSir Leon said that, in future, computers would be developed which would be small enough to\nbe carried in one’s pocket. Ordinary people would then be able to use them to obtain valuable\ninformation. Computers could be plugged into a wireless network and could be used like radios. For\ninstance, people going on a holiday could be informed about weather conditions. Car drivers can be\ngiven an alternative route when there is a traffic jam. It will also be possible to make tiny translating\nmachines. This will enable people who do not share a common language to talk to each other without\nany difficulty or to read foreign publications.\n\nIt is impossible to assess the importance of a machine of this sort, for many international\nmisunderstandings are caused simply due to our failure to understand one another. Computers will\nalso be used in ordinary public hospitals. By providing a machine with a patient’s systems, a doctor\nwill be able to diagnose the nature of his illness. Similarly, machines could be used to keep a check on\na patient’s health record and bring it up to date. Doctors will, therefore, have immediate access to\ngreat many facts which will help them in their work. Book-keepers and Accountants too, could be\nrelieved of dull clerical work. For, the tedious task of compiling and checking lists of figures could be\ndone entirely by machines. Computers are the most efficient servant that man has ever had, and there\nis no limit to the way they can be used to improve our lives.\n\n\nQuestions:\n(a) What is the limitation of computers? (1)\n(b) In the opinion of the writer, which benefits can be derived from automation? (2)\n(c) In paragraph 1, the writer says “computers can provide information in the best way”. Explain in context. (2)\n(d) Is it True or False that Automation would not give any leisure time to human beings? (1)\n(e) In the context of the passage, the synonym of “monotonous” is _____. (1)\n(f) List two areas where computers can be used effectively. (2)\n(g) How can the benefits suggested in paragraph 3 be best described? (2)\n(h) Why is it fair to say that computers will help a lot even in ordinary public hospitals? (2)\n(i) The writer believes that automation will bring social _____. (1)\n(j) Give a suitable title for the passage. (1)",
-          "explanation": "Answer from the passage: (a) They require detailed human instructions and cannot take independent decisions. (b) Faster accurate work and more leisure. (c) They process data to identify ways of preventing traffic accidents. (d) False. (e) Tedious / dull. (f) Hospitals and accountancy, or traffic management and translation. (g) Pocket-sized networked information and translation tools; the paragraph reference is loose, so identify the relevant benefits explicitly. (h) They aid diagnosis and keep accessible, updated patient records. (i) consequences. (j) Suggested title: Computers and Automation. The passage’s historical view of computer capabilities is reproduced for comprehension, not asserted as a current technical assessment."
+          "explanation": "Answer from the passage: (a) They require detailed human instructions and cannot take independent decisions. (b) Faster accurate work and more leisure. (c) They process data to identify ways of preventing traffic accidents. (d) False. (e) Tedious / dull. (f) Hospitals and accountancy, or traffic management and translation. (g) Pocket-sized networked information and translation tools; the paragraph reference is loose, so identify the relevant benefits explicitly. (h) They aid diagnosis and keep accessible, updated patient records. (i) consequences. (j) Suggested title: Computers and Automation. The passage’s historical view of computer capabilities is reproduced for comprehension, not asserted as a current technical assessment.",
+          "answers": [
+            "Tedious / dull",
+            "consequences"
+          ]
         },
         "4": {
           "page": 2,
@@ -40408,13 +40463,31 @@
         },
         "5": {
           "page": 2,
-          "q": "Fill in the blanks using appropriate prepositions (7×1=7):\n(a) Most of the family members dissented _____ the suggestion he made.\n(b) Afflicted _____ penury he died a miserable death.\n(c) As a step to renovation he has decided to replace old furnitures _____ new ones.\n(d) Don’t loiter _____ the street.\n(e) The public are cautioned _____ pickpockets.\n(f) He is not the man to allow any one to encroach _____ his rights.\n(g) He laboured _____ his dictionary for twelve years.",
-          "explanation": "Suggested answers: (a) from; (b) with / by; (c) with; (d) in / on; (e) against; (f) on / upon; (g) at / on. Some free-response prepositions depend on the intended sense. “Furniture” is normally uncountable; the printed “furnitures” is retained here."
+          "q": "Fill in the blanks using appropriate prepositions (7 × 1 = 7):\n(a) Most of the family members dissented _____ the suggestion he made.\n(b) Afflicted _____ penury he died a miserable death.\n(c) As a step to renovation he has decided to replace old furnitures _____ new ones.\n(d) Don’t loiter _____ the street.\n(e) The public are cautioned _____ pickpockets.\n(f) He is not the man to allow any one to encroach _____ his rights.\n(g) He laboured _____ his dictionary for twelve years.",
+          "explanation": "Suggested answers: (a) from; (b) with / by; (c) with; (d) in / on; (e) against; (f) on / upon; (g) at / on. Some free-response prepositions depend on the intended sense. “Furniture” is normally uncountable; the printed “furnitures” is retained here.",
+          "answers": [
+            "from",
+            "with / by",
+            "with",
+            "in / on",
+            "against",
+            "on / upon",
+            "at / on"
+          ]
         },
         "6": {
           "page": 3,
-          "q": "Fill in the blanks using the correct form of the verbs (7×1=7):\n(a) This paper _____ twice weekly. (appear)\n(b) I meant to repair the fridge, but I _____ time to do it today. (not have)\n(c) I _____ you one of these days, I expect. (see)\n(d) By the time you return, I _____ sewing your clothes. (finish)\n(e) He _____ TV most evenings. (watch)\n(f) Did you think you _____ me somewhere before? (see)\n(g) Look! The sun _____ over the hills. (rise)",
-          "explanation": "Suggested answers: appears; did not have / have not had (depending on whether today’s opportunity has ended); will see; will have finished; watches; had seen; is rising."
+          "q": "Fill in the blanks using the correct form of the verbs (7 × 1 = 7):\n(a) This paper _____ twice weekly. (appear)\n(b) I meant to repair the fridge, but I _____ time to do it today. (not have)\n(c) I _____ you one of these days, I expect. (see)\n(d) By the time you return, I _____ sewing your clothes. (finish)\n(e) He _____ TV most evenings. (watch)\n(f) Did you think you _____ me somewhere before? (see)\n(g) Look! The sun _____ over the hills. (rise)",
+          "explanation": "Suggested answers: appears; did not have / have not had (depending on whether today’s opportunity has ended); will see; will have finished; watches; had seen; is rising.",
+          "answers": [
+            "appears",
+            "did not have / have not had",
+            "will see",
+            "will have finished",
+            "watches",
+            "had seen",
+            "is rising"
+          ]
         },
         "7": {
           "page": 3,
@@ -40482,13 +40555,27 @@
         },
         "5": {
           "page": 3,
-          "q": "Fill in appropriate verb forms (5×1=5):\n(a) The earth _____ around the sun. (rotate)\n(b) You _____ playing with the team. (is)\n(c) I _____ her for ten years. (know)\n(d) My younger brother _____ me every time he needs money. (call)\n(e) She _____ bitterly on her father’s death. (weep)",
-          "explanation": "Answers: rotates; are; have known; calls; wept. The first describes a habitual fact; the third describes a state continuing to the present."
+          "q": "Fill in appropriate verb forms (5 × 1 = 5):\n(a) The earth _____ around the sun. (rotate)\n(b) You _____ playing with the team. (is)\n(c) I _____ her for ten years. (know)\n(d) My younger brother _____ me every time he needs money. (call)\n(e) She _____ bitterly on her father’s death. (weep)",
+          "explanation": "Answers: rotates; are; have known; calls; wept. The first describes a habitual fact; the third describes a state continuing to the present.",
+          "answers": [
+            "rotates",
+            "are",
+            "have known",
+            "calls",
+            "wept"
+          ]
         },
         "6": {
           "page": 3,
-          "q": "Choose appropriate prepositions (5×1=5):\n(a) His birthday is _____ 16th February. (at/in/on)\n(b) By clicking this button, you consent _____ sharing your current location. (to/of/for)\n(c) The Commercial Vehicle Union have abstained _____ service today. (from/to/for)\n(d) Morning walk is beneficial _____ health. (for/of/from)\n(e) She turned pale _____ fear. (from/with/in)",
-          "explanation": "Answers: on; to; from; for; with. Use on with a specific date, consent to and abstain from. “With fear” is the expected idiom; “from fear” can also express cause in other contexts."
+          "q": "Choose appropriate prepositions (5 × 1 = 5):\n(a) His birthday is _____ 16th February. (at/in/on)\n(b) By clicking this button, you consent _____ sharing your current location. (to/of/for)\n(c) The Commercial Vehicle Union have abstained _____ service today. (from/to/for)\n(d) Morning walk is beneficial _____ health. (for/of/from)\n(e) She turned pale _____ fear. (from/with/in)",
+          "explanation": "Answers: on; to; from; for; with. Use on with a specific date, consent to and abstain from. “With fear” is the expected idiom; “from fear” can also express cause in other contexts.",
+          "answers": [
+            "on",
+            "to",
+            "from",
+            "for",
+            "with"
+          ]
         },
         "7": {
           "page": 3,

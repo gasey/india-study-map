@@ -396,7 +396,7 @@ evaluate("document.querySelectorAll('.udc-question-card')[76].querySelectorAll('
 wait_for("!!document.querySelectorAll('.udc-question-card')[76].querySelector('.udc-answer-sources')")
 assert evaluate("document.querySelectorAll('.udc-question-card')[76].innerText.includes('obstruct or hinder')")
 assert evaluate("document.querySelectorAll('.udc-question-card').length") == 100
-assert evaluate("document.querySelectorAll('.udc-question-card')[0].innerText.includes('I __________ this task by lunch')")
+assert evaluate("document.querySelectorAll('.udc-question-card')[0].querySelector('.udc-question-stem').querySelector('.udc-blank') && document.querySelectorAll('.udc-question-card')[0].innerText.includes(\"this task by lunch\")")
 evaluate("document.querySelectorAll('.udc-question-card')[0].querySelectorAll('.udc-option-label')[1].closest('button').click()")
 wait_for("!!document.querySelectorAll('.udc-question-card')[0].querySelector('.udc-answer-sources')")
 assert evaluate("document.querySelectorAll('.udc-question-card')[0].innerText.includes('future perfect')")
@@ -451,8 +451,8 @@ browse('Sub-Inspector of Police (Un-armed Branch)', 'General English')
 assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).some(card=>card.innerText.includes('The detrimental effects of social media')&&card.innerText.includes('The impact of Artificial Intelligence'))")
 assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).some(card=>card.innerText.includes('Write a précis')&&card.innerText.includes('Reading is one of the most valuable habits'))")
 assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).some(card=>card.innerText.includes('Which kind of human beings denounce studies?')&&card.innerText.includes('According to the author, why should one read?')&&card.innerText.includes('weigh and consider'))")
-evaluate("(()=>{const c=Array.from(document.querySelectorAll('.udc-question-card')).find(card=>card.innerText.includes('She ______ a lot of books'));if(!c)throw Error('books Q not rendered');c.querySelectorAll('.udc-option-label')[1].closest('button').click()})()")
-wait_for("Array.from(document.querySelectorAll('.udc-question-card')).find(card=>card.innerText.includes('She ______ a lot of books'))?.innerText.includes('multi-valued')")
+evaluate("(()=>{const c=Array.from(document.querySelectorAll('.udc-question-card')).find(card=>card.innerText.includes('She')&&card.innerText.includes('a lot of books'));if(!c)throw Error('books Q not rendered');c.querySelectorAll('.udc-option-label')[1].closest('button').click()})()")
+wait_for("Array.from(document.querySelectorAll('.udc-question-card')).find(card=>card.innerText.includes('She')&&card.innerText.includes('a lot of books'))?.innerText.includes('multi-valued')")
 evaluate("(()=>{const c=Array.from(document.querySelectorAll('.udc-question-card')).find(card=>card.innerText.includes('They said that they took the bus every day'));if(!c)throw Error('Q48 missing');c.querySelectorAll('.udc-option-label')[3].closest('button').click()})()")
 wait_for("Array.from(document.querySelectorAll('.udc-question-card')).find(card=>card.innerText.includes('They said that they took the bus every day'))?.innerText.includes('official final key has no answer')")
 browse('Sub-Inspector of Police (Un-armed Branch)', 'General Knowledge & Reasoning')
@@ -495,6 +495,27 @@ for exam, count, needle in (
     assert evaluate(f"document.querySelectorAll('.udc-question-card').length === {count}")
     assert evaluate(f"Array.from(document.querySelectorAll('.udc-question-card')).some(c=>c.innerText.includes({json.dumps(needle)}))")
     assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).every(c=>!c.querySelector('.udc-option-label'))")
+# Fill-in-the-blank written drills: a `_____` run renders as a ruled line, and
+# "Reveal model answer" drops each answer into its slot so the stem completes
+# like an answer sheet. The 2017 Inspector of Statistics English paper holds the
+# two ten-blank grammar drills (verbs and adjectives).
+browse('Inspector of Statistics · February 2017', 'General English')
+wait_for("Array.from(document.querySelectorAll('.udc-question-card')).some(c=>c.innerText.includes('Put the adjectives in the correct form'))")
+for needle, filled, n, revealed in (
+    ('Put the adjectives in the correct form', 'the coldest', 10, '(bad) worse than buying'),
+    ('Fill in the blanks using the correct form of the verb', 'was playing', 10, 'few days ago. (already be)'),
+):
+    stem = f"(()=>{{const c=Array.from(document.querySelectorAll('.udc-question-card')).find(card=>card.innerText.includes({json.dumps(needle)}));if(!c)throw Error('drill not rendered');c.scrollIntoView({{block:'center'}});return c.querySelector('.udc-question-stem')}})()"
+    wait_for(f"!!({stem})")
+    # Pre-reveal: every blank is a ruled line, no literal underscores left.
+    assert evaluate(f"({stem}).querySelectorAll('.udc-blank').length === {n}")
+    assert evaluate(f"({stem}).innerText.includes('_') === false")
+    evaluate(f"[...({stem}).closest('.udc-question-card').querySelectorAll('button')].find(b=>b.textContent.includes('Reveal model answer')).click()")
+    # Post-reveal: every blank carries its model answer; the stem reads completed.
+    wait_for(f"({stem}).querySelectorAll('.udc-blank-fill').length === {n}")
+    assert evaluate(f"({stem}).querySelectorAll('.udc-blank').length === 0")
+    assert evaluate(f"({stem}).innerText.includes({json.dumps(filled)})")
+    assert evaluate(f"({stem}).innerText.includes({json.dumps(revealed)})")
 browse('Junior Engineer, Agriculture & Farmer Welfare', 'General English')
 assert evaluate("document.querySelectorAll('.udc-question-card').length === 34")
 assert evaluate("document.querySelectorAll('.udc-question-card')[8].querySelector('u')?.textContent === 'little'")

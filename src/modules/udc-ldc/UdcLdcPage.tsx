@@ -756,7 +756,13 @@ function BrowseView({
                           {q.sourceReviewed ? 'The printed source is checked; this item is held unscored. ' : 'This item needs review before scored practice. '}
                           {q.sourceHref && <a href={q.sourceHref} target="_blank" rel="noreferrer">Check the printed source ↗</a>}
                         </p>}
-                        <div className={`udc-question-stem ${mode.stem}`} style={{ marginBottom: 6, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} plain={mode.plain} /></div>
+                        <div className={`udc-question-stem ${mode.stem}`} style={{ marginBottom: 6, lineHeight: 1.55, overflowWrap: 'anywhere' }}>
+                          <QuestionText
+                            text={q.question}
+                            plain={mode.plain}
+                            answers={!isMcqQuestion(q) && writeReveal[q.id] && q.answers?.length ? q.answers : undefined}
+                          />
+                        </div>
                         <QuestionImage path={q.imagePath} />
                         {q.figureBased && !q.imagePath && (
                           <div style={{

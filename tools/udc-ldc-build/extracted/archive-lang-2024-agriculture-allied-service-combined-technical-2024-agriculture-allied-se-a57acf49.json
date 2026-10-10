@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Whatfactorshavecontributedtotheshifttowardsrenewableenergysources?",
-        "b": "Accordingtothepassage,whichtworenewableenergysourceshavegainedsignificanttraction andwhy?",
-        "c": "Whatistheonemajortechnicalchallengeassociatedwithrenewableenergyinfrastructureas describedinthepassage?",
-        "d": "Whymightsomecountriesberesistanttoarapidtransitiontorenewableenergyaccordingto thepassage? renewableenergy?"
+        "a": "What factors have contributed to the shift towards renewable energy sources?",
+        "b": "According to the passage, which two renewable energy sources have gained significant traction and why?",
+        "c": "What is the one major technical challenge associated with renewable energy infrastructure as described in the passage?",
+        "d": "Why might some countries be resistant toa rapid transition to renewable energy according to the passage? renewable energy?"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Readthegivenpassagecarefullyandanswerthefollowingquestions:(5x2=10) Inrecentyears,theglobalcommunityhaswitnessedanunprecedentedshifttowardsrenewable energysources,drivenbyconcernsoverclimatechange,thedepletionoffossilfuelreserves,andthe environmentalimpactoftraditionalenergysources.Amongtheserenewablesources,solarandwind energyhavegainedsignificanttractionduetotheirscalabilityanddecliningcosts.Accordingtoa 2022reportbytheInternationalEnergyAgency(IEA),solarenergyinstallationsgrewby25%annually between2015and2022,withdevelopingnationsaccountingfornearlyhaloffallnewinstallations. However,despitethepromisinggrowthofrenewableenergy,therearesignificantchallengesto achievingafullyrenewableenergyinfrastructure.Onemajorobstacleisenergystorage.Solarand windpowerareintermittent,meaningtheygenerateelectricityonlywhenthesunisshiningorthe windisblowing.Thisintermittencynecessitateseffectiveenergystoragesolutions,suchasadvanced batterysystems,toensureastablesupplyofelectricity. Anotherchallengeliesintheeconomicandpoliticallandscape.Manyeconomies,especially thosethatrelyheavilyonfossilfuelexports,areresistanttoarapidtransition.CountrieslikeSaudi ArabiaandRussia,whoseeconomiesdependonoilexports,facepotentialeconomicdestabilization ifthedemandforoildeclinessharply. Furthermore,thereisconsiderabledebateoverwhoshouldbearthecostsofthetransition. Developingnationsarguethatindustrializedcountries,whicharehistoricallyresponsibleforthemajority ofgreenhousegasemissions,shouldtakeonalargershareofthefinancialburden. Inconclusion,whilethetransitiontorenewableenergyisgainingmomentum,acomprehensive\\ andcollaborativeapproachisessentialtoaddressthetechnical,economicandpoliticalbarriers.\\ Withoutglobalcooperationandinvestmentintechnologicalinnovation,thegoalofasustainableenergy futuremayremainelusive.",
+      "q": "Read the given passage carefully and answer the following questions: (5x2=10) In recent years, the global community has witnessed an unprecedented shift towards renewable energy sources, driven by concerns over climate change, the depletion of fossil fuel reserves, and the environmental impact of traditional energy sources. Among these renewable sources, solar and wind energy have gained significant traction due to their scalability and declining costs. According to a 2022 report by the International Energy Agency (IEA), solar energy installations grew by 25% annually between 2015 and 2022, with developing nations accounting for nearly haloff  all new installations. However, despite the promising growth of renewable energy, there are significant challenges to achieving a fully renewable energy infrastructure. One major obstacle is energy storage. Solar and wind power are intermittent, meaning they generate electricity only when the sun is shining or the wind is blowing. This intermittency necessitates effective energy storage solutions, such as advanced battery systems, to ensure a stable supply of electricity. Another challenge lies in the economic and political landscape. Many economies, especially those that rely heavily on fossil fuel exports, are resistant to a rapid transition. Countries like Saudi Arabia and Russia, whose economies depend on oil exports, face potential economic destabilization if the demand for oil declines sharply. Furthermore, there is considerable debate over who should bear the costs of the transition. Developing nations argue that industrialized countries, which are historically responsible for the majority of greenhouse gas emissions, should take on a larger share of the financial burden. In conclusion, while the transition to renewable energy is gaining momentum, a comprehensive \\ and collaborative approach is essential to address the technical, economic and political barriers. \\ Without global cooperation and investment in technological innovation, the goal of a sustainable energy future may remain elusive.",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Itwasfoolish___hertogooutwithoutacoatinthisweather.(with/on/for/of)",
-        "b": "Wegotbored___doingthesamethingeveryday.(with/for/about/on)",
-        "c": "Tamsorrythenoiselastnight.Ihopeitdidn’tdisturbyoursleep.(in/of/with/about)",
-        "d": "TheystayedbackbecauseRogerwasn’tkeen____goingoutintherain.(to/on/at/for)"
+        "a": "Itwasfoolish___her to go out without a coat in this weather. (with/  on/ for/  of)",
+        "b": "Wegotbored___ doing the same thing every day. (with/  for / about / on)",
+        "c": "Tam sorry the noise last night. I hope it didn’t disturb your sleep. (in / of / with / about)",
+        "d": "They stayed back because Roger wasn’tkeen____ going out in the rain. (to / on / at / for)"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Completethesentenceswiththerightprepositionsthatgoeswiththeadjectivebeforeit.(5x1=5)",
+      "q": "Complete the sentences with the right prepositions that goes with the adjective before it. (5x1=5)",
       "multi": false
     },
     {
@@ -61,7 +61,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "didn’i/the/few/buy/customer/first/anything.",
+        "a": "didn’i/ the/few/buy/customer/first/anything.",
         "b": "front/the/students/both/sat/at/the/former.",
         "c": "to/free/go/be/such/shouldn’t/allowed/people.",
         "d": "too/that/late/last/was/one."
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Putthewords/determinersinthecorrectordertocompletethesentencemeaningfully.(5*2=10)",
+      "q": "Put the words/ determiners in the correct order to complete the sentence meaningfully. (5*2=10)",
       "multi": false
     },
     {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Maketwosentencesusingthesamewordbutshowingthedifferenceintheirmeaning.(5*2=10) E.g:Thesingermadealowbowtotheaudience. Mariaplacedaredbowonthebirthdaygift.",
+      "q": "Make two sentences using the same word but showing the difference in their meaning. (5*2=10) E.g: The singer made a low bow to the audience. Maria placed a red bow on the birthday gift.",
       "multi": false
     },
     {
@@ -107,10 +107,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Mybicycleisthe(nice)thing|own(Insertcorrectsuperlativeadjective)",
-        "b": "Weswam.beforethestorm.(Insertcorrectadverb)",
-        "c": "Theboatsailedyesterday.(Rewriteinsimplepresenttense)",
-        "d": "Ihavefinishedmyassignment.(Rewriteinpastperfecttense)"
+        "a": "My bicycle is the (nice) thing | own (Insert correct superlative adjective)",
+        "b": "We swam. before the storm. (Insert correct adverb)",
+        "c": "The boat sailed yesterday. (Rewrite in simple present tense)",
+        "d": "Ihave finished my assignment. (Rewrite in past perfect tense)"
       },
       "marked": null,
       "cov": {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Answerthefollowingquestionsusingtheinstructionsgivenwithinthebrackets.(16x1=16)",
+      "q": "Answer the following questions using the instructions given within the brackets. (16x1=16)",
       "multi": false
     },
     {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Writethesynonymofthegivenwords.(5*1=5)",
+      "q": "Write the synonym of the given words. (5*1=5)",
       "multi": false
     },
     {
@@ -153,10 +153,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Putyourfootinyourmouth",
-        "b": "Adimeadozen",
-        "c": "Ontheball",
-        "d": "Jumponthebandwagon"
+        "a": "Put your foot in your mouth",
+        "b": "Adimea dozen",
+        "c": "On the ball",
+        "d": "Jump on the bandwagon"
       },
       "marked": null,
       "cov": {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Makemeaningfulsentenceswiththegivenidioms&phrases.(5x2=10)",
+      "q": "Make meaningful sentences with the given idioms & phrases. (5x2=10)",
       "multi": false
     },
     {
@@ -176,10 +176,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Besurethateveryonebringsownbook.",
-        "b": "Ifanyonecalls,teilthatiwillbebacksoon.",
-        "c": "Janetand____havebeenclosefriendsformanyyearsnow.",
-        "d": "Betweenyouand___,thisfilmisgoingtobeaflop. eeEK"
+        "a": "Besure that everyone brings own book.",
+        "b": "Ifanyone calls, teil that i will be back soon.",
+        "c": "Janetand____ have been close friends for many years now.",
+        "d": "Between youand ___, this film is going to bea flop. ee EK"
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Completethesentenceswithsuitablepronouns(5x1=5)",
+      "q": "Complete the sentences with suitable pronouns (5x1=5)",
       "multi": false
     }
   ],

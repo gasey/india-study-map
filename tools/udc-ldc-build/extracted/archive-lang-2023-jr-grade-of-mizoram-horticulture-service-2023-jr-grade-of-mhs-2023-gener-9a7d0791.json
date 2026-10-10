@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ThequestionwassodifficultthatIcouldnotmakeheadortailofit. (i)rememberthebeginningorend(i)understandit (iii)faceit(iv)tolerateit",
-        "b": "TheManipurissueisaburningquestionoftheday (i)dyingout(i)hurtfulmatter ii)widelydebatedissue(iv)irrelevantissue",
-        "c": "Thepoliticianwasabletoswaythemobwithhisgiftofthegab (fluencyofspeechGi)abundanceofpromises (ii)politicalvision(iv)skillandbravery:",
-        "d": "Theauthoritiestookhimtotaskforhisnegligence. @)forcedhimtoresignGi)suspendedhisassignment (ii)reprimandedhim(iv)gavehimadditionalwork (i)weretakenbysurprise(i)torunaway (iii)tookofftheirshoes(iv)surrenderedunconditionally @)_runforlife(i)becomerude (iii)beafraid(iv)confidentandstrong @acolorfulday(ii)fatalday (ii)specialandsignificantday\"(iv)aviolentday (i)confused(ii)observant Gii)hesitatingbetweentwooptions(iy)sittingidly (@)Spokehonestly(i)Tookofhisshirt (ii)Deniedthecharge(iv)Refusedtoconfess @rich(i)jealous Gi)good-looking(iv)curious (i)veryseriouslyGi)excitedly (ii)consistently(iv)intermittently @)_worktilllate(ii)reallyenjoy Gi)washherhair(iv)untieherhair @_lavishly(i)happily (ii)comfortably(iv)meagerly (i)startedabusiness(i)endedhisbusiness (ii)beganworkingseriously(iv)joinedhisfather’sbusiness (0)CollegeshaveintroducedNEP2020fromthissessionandteethingproblemsareexpected. @difficultiesatthestart(i)difficultiesattheend (ii)difficultiesallthetime(iv)difficultiesinteaching"
+        "a": "The question was so difficult that I could not make head or tail of it. (i) remember the beginning or end (i) understand it (iii) face it (iv) tolerate it",
+        "b": "The Manipur issue is a burning question of the day (i) dying out (i) hurtful matter ii) widely debated issue (iv) irrelevant issue",
+        "c": "The politician was able to sway the mob with his gift of the gab (fluency of speech Gi) abundance of promises (ii) political vision (iv) skill and bravery :",
+        "d": "The authorities took him to task for his negligence. @) forced him to resign Gi) suspended his assignment (ii) reprimanded him (iv) gave him additional work (i) were taken by surprise (i) to run away (iii) took off their shoes (iv) surrendered unconditionally @)_ run for life (i) become rude (iii) be afraid (iv) confident and strong @ acolorful day (ii) fatal day (ii) special and significant day\" (iv) aviolent day (i) confused (ii) observant Gii) hesitating between two options (iy) sitting idly (@) Spoke honestly (i) Took of his shirt (ii) Denied the charge (iv) Refused to confess @ rich (i) jealous Gi) good-looking (iv) curious (i) very seriously Gi) excitedly (ii) consistently (iv) intermittently @)_ work till late (ii) really enjoy Gi) wash her hair (iv) untie her hair @_ lavishly (i) happily (ii) comfortably (iv) meagerly (i) started a business (i) ended his business (ii) began working seriously (iv) joined his father’s business (0) Colleges have introduced NEP 2020 from this session and teething problems are expected. @ difficulties at the start (i) difficulties at the end (ii) difficulties all the time (iv) difficulties in teaching"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethecorrectmeaningoftheidiomswhichareunderlinedinthesentence:(15x1=15)",
+      "q": "Choose the correct meaning of the idioms which are underlined in the sentence: (15x1=15)",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Nothingisimpossibletothewillingmind.",
-        "b": "ALittleKnowledgeisaDangerousThing.",
-        "c": "MightisRight.",
-        "d": "Sparetherodandspoilthechild."
+        "a": "Nothing is impossible to the willing mind.",
+        "b": "A Little Knowledge is a Dangerous Thing.",
+        "c": "Mightis Right.",
+        "d": "Spare the rod and spoil the child."
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Expandtheideacontainedinanythreeofthefollowing:(3x5=15)",
+      "q": "Expand the idea contained in any three of the following: (3x5=15)",
       "multi": false
     },
     {
@@ -61,10 +61,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Explaininyourownwords:(2x2=4) @)creativegenius Gi)lushenvironment",
-        "b": "Whyisthereaneedforanalternatehomeforhumans?(3)",
-        "c": "DescribeinyourownwordshoworbitalmirrorscanraisethetemperatureofMars.(3)",
-        "d": "WhatrolewouldsolarpoweredgreenhousefactoriesplayonMars?(3) @)Home Gi)Frozen REKKKK"
+        "a": "Explain in your own words: (2x2=4) @) creative genius Gi) lushenvironment",
+        "b": "Why is there a need for an alternate home for humans? (3)",
+        "c": "Describe in your own words how orbital mirrors can raise the temperature of Mars. (3)",
+        "d": "What role would solar powered greenhouse factories play on Mars? (3) @) Home Gi) Frozen RE K KKK"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ReadthegivenPassagecarefullyandanswerthequestionsthatfollow: Therecanbenogreaterexampleofmankind’screativegenius,thanforhimtomoveoff fromhishomeplanet,andextendlifethroughoutthesolarsystem,bycreatingnewabodesforlife. Todaywithanincreasingpopulationofmorethansixbillionpeopleandthefearofpossibledisaster, theneedforanalternatehomeformankindhasbecomeurgent.Marsstandsaloneastheoneplanet inoursolarsystem-notincludingEarth-thatmightbeabletosupportlifeasithasalloftheingredients necessaryforlife.ThoughtheaveragesurfacetemperatureonMarsisfrigidanditisadesolate wliafteelresosnpliatnsestu,rfmaacres.oncehadanatmospherethickandwarmenoughtoallowfortheflowofliquid Ifitiseverdoneatall,transformingadry,desert-likeMarsintoalushenvironment,where people,plantsandotheranimalscansurvive,willbeahugeundertakingthatcouldtakeseveral decadesorevencenturies.LetusexaminetwomethodsthathavebeenProposed.Onemethodis placinglargeorbitalmirrorsthatwillreflectsunlightandheatontotheMarssurface.Thesemirrors wouldbedirectedatthepolarcapsofMarsandtheywouldmelttheice.Overaperiodofmany years,theriseintemperaturewouldreleasegreenhousegasesandheatuptheplanet. AnotheroptionwouldbetoSet-upsolar-powered,greenhousegasproducingfactories. ThesewouldimitatethenaturalProcessofplantphotosynthesis,inhalingcarbondioxideandemitting oxygen.TheMarsatmospherewouldslowlybeoxygenatedtothepointthatpeopleonMarswould needonlyabreathingapparatus. WhilewemayreachMarsthiscentury,itwouldtakeseveralmillenniatomaterializetheidea oftransformingitintoaplanetonwhichplantsandanimalscanflourish. Questions:",
+      "q": "Read the given Passage carefully and answer the questions that follow: There can be no greater example of mankind’s creative genius, than for him to move off from his home planet, and extend life throughout the solar system, by creating new abodes for life. Today with an increasing population of more than six billion people and the fear of possible disaster, the need for an alternate home for mankind has become urgent. Mars stands alone as the one planet in our solar system-not including Earth-that might be able to support life as it has all of the ingredients necessary for life. Though the average surface temperature on Mars is frigid and it is a desolate wliafteelres os np liatns estu,r fmaacres.  once had an atmosphere thick and warm enough to allow for the flow of liquid If it is ever done at all, transforming a dry, desert-like Mars into a lush environment, where people, plants and other animals can survive, will be a huge undertaking that could take several decades or even centuries. Let us examine two methods that have been Proposed. One method is placing large orbital mirrors that will reflect sunlight and heat onto the Mars surface. These mirrors would be directed at the polar caps of Mars and they would melt the ice. Over a period of many years, the rise in temperature would release greenhouse gases and heat up the planet. Another option would be to Set-up solar-powered, green house gas producing factories. These would imitate the natural Process of plant photosynthesis, inhaling carbon dioxide and emitting oxygen. The Mars atmosphere would slowly be oxygenated to the point that people on Mars would need only a breathing apparatus. While we may reach Mars this century, it would take several millennia to materialize the idea of transforming it into a planet on which plants and animals can flourish. Questions:",
       "multi": false
     }
   ],

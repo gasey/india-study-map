@@ -18,7 +18,7 @@
         "a": "Gujarat",
         "b": "Jharkhand",
         "c": "Maharashtra",
-        "d": "Odisha (a)Madagascar(b)Maldives (c)Malaysia(d)Mauritius (a)MinistryofDefence (b)MinistryofFinance (c)MinistryofScienceandTechnology (d)MinistryofStatisticsandProgrammeImplementation (a)Karnataka(b)Kerala (c)MadhyaPradesh(d)TamilNadu (a)Mizoram(b)Meghalaya (c)ArunachalPradesh(d)Sikkim (a)Jaipur,Rajasthan(b)Lucknow,UttarPradesh. (c)Rajgir,Bihar(d)Indore,MadhyaPradesh (a)Cabinetmission(b)JailianwalaBaghMassacre ({c)PartitionofBengal(d)RowlattAct (a)BanarasSession(b)CalcuttaSession (c)MadrasSession(d)SuratSession"
+        "d": "Odisha (a) Madagascar (b) Maldives (c) Malaysia (d) Mauritius (a) Ministry of Defence (b) Ministry of Finance (c) Ministry of Science and Technology (d) Ministry of Statistics and Programme Implementation (a) Karnataka (b) Kerala (c) Madhya Pradesh (d) Tamil Nadu (a) Mizoram (b) Meghalaya (c) Arunachal Pradesh (d) Sikkim (a) Jaipur, Rajasthan (b) Lucknow, Uttar Pradesh . (c) Rajgir, Bihar (d) Indore, Madhya Pradesh (a) Cabinet mission (b) Jailianwala Bagh Massacre ({c) Partition of Bengal (d) Rowlatt Act (a) Banaras Session (b) Calcutta Session (c) Madras Session (d) Surat Session"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Therearenonegativemarksforincorrectanswer. Series-A-2-. 1.TheNationalCommissionforProtectionofChildRights(NCPCR)recentlydeclaredwhichstate micamineschildlabour-free?",
+      "q": "There are no negative marks for incorrect answer. Series - A -2- . 1. The National Commission for Protection ofC hild Rights (NCPCR) recently declared which state mica mines child labour-free?",
       "multi": false
     },
     {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inwhichofthefollowingcountries“SubhashChandraBose”organizedthe“TigerLegion”?",
+      "q": "In which of the following countries “Subhash Chandra Bose” organized the “Tiger Legion”?",
       "multi": false
     },
     {
@@ -61,10 +61,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LordCurzon",
-        "b": "LordHardinge",
-        "c": "LordLytton",
-        "d": "LordRipon"
+        "a": "Lord Curzon",
+        "b": "Lord Hardinge",
+        "c": "Lord Lytton",
+        "d": "Lord Ripon"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingiscalledthe‘FatherofLocalSelfGovernment’inIndia?",
+      "q": "Which of the following is called the ‘Father of Local Self Government’ in India?",
       "multi": false
     },
     {
@@ -84,10 +84,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "HinduMuslimunity",
-        "b": "HewantedtoleadtheMuslimmovements",
-        "c": "TonegotiatewiththeBritish",
-        "d": "Noneofthese"
+        "a": "Hindu Muslim unity",
+        "b": "He wanted to lead the Muslim movements",
+        "c": "To negotiate with the British",
+        "d": "None of these"
       },
       "marked": null,
       "cov": {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "GandhijisupportedtheKhilafatMovementbecauseofwhichofthefollowingreason?",
+      "q": "Gandhiji supported the Khilafat Movement because of which of the following reason?",
       "multi": false
     },
     {
@@ -108,8 +108,8 @@
       "direction": null,
       "opts": {
         "a": "Sirajuddaula",
-        "b": "MirJafar",
-        "c": "MirQasim",
+        "b": "Mir Jafar",
+        "c": "Mir Qasim",
         "d": "Najmuddaula"
       },
       "marked": null,
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingwastheNawabofBengalatthetimeofBattleofBuxar?",
+      "q": "Which of the following was the Nawab of Bengal at the time of Battle of Buxar?",
       "multi": false
     },
     {
@@ -130,10 +130,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Isohyetisthelinejoiningpointsofequalrainfallonamapinagivenperiod",
-        "b": "Isohumeisalinerepresentingequalhumidity",
-        "c": "Isothermsarethelinesthatconnectplacesonamapthathavethesametemperature",
-        "d": "Isochronesisalinejoiningplacesthatexperienceanearthquakewiththesameintensity"
+        "a": "Isohyet is the line joining points of equal rainfall on a map in a given period",
+        "b": "Isohume is a line representing equal humidity",
+        "c": "Isotherms are the lines that connect places on a map that have the same temperature",
+        "d": "Isochrones is a line joining places that experience an earthquake with the same intensity"
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingstatementsisNOTcorrect?",
+      "q": "Which of the following statements is NOT correct?",
       "multi": false
     },
     {
@@ -153,10 +153,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "drysummerandwetwinter",
-        "b": "wetsummeranddrywinter",
-        "c": "drysummeranddrywinter",
-        "d": "}wetsummerandwetwinter"
+        "a": "dry summer and wet winter",
+        "b": "wet summer and dry winter",
+        "c": "dry summer and dry winter",
+        "d": "} wet summer and wet winter"
       },
       "marked": null,
       "cov": {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Mediterraneantypeofclimateischaracterizedby:",
+      "q": "Mediterranean type of climate is characterized by :",
       "multi": false
     },
     {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatpercentofearth’ssurfaceiscoveredbyland?",
+      "q": "What percent of earth’s surface is covered by land?",
       "multi": false
     },
     {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichamongthefollowingisthecheapestandthecoarsestmaterialusedforpackagingindustrial andagricultural!products?",
+      "q": "Which among the following is the cheapest and the coarsest material used for packaging industrial and agricultural! products?",
       "multi": false
     },
     {
@@ -225,7 +225,7 @@
         "a": "India",
         "b": "France",
         "c": "Australia",
-        "d": "Brazil (a)AttorneyGeneralofIndia(b)President (c)PrimeMinister(d)SupremeCourtofIndia"
+        "d": "Brazil (a) Attorney General of India (b) President (c) Prime Minister (d) Supreme Court of India"
       },
       "marked": null,
       "cov": {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichcountryhasbeenelectedasthePresidentoftheInternationalSolarAlliance(ISA)until2026?",
+      "q": "Which country has been elected as the President of the International Solar Alliance (ISA) until 2026?",
       "multi": false
     },
     {
@@ -247,8 +247,8 @@
       "opts": {
         "a": "B.N.Rao",
         "b": "DrB.R.Ambedkar",
-        "c": "JawaharlalNehru",
-        "d": "SardarVallabhaiPatel"
+        "c": "Jawaharlal Nehru",
+        "d": "Sardar Vallabhai Patel"
       },
       "marked": null,
       "cov": {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoisknownasthefatheroftheIndianconstitution?",
+      "q": "Who is known as the father of the Indian constitution?",
       "multi": false
     },
     {
@@ -268,10 +268,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PartIl",
-        "b": "PartVI",
-        "c": "PartVil",
-        "d": "Part{X"
+        "a": "Part Il",
+        "b": "Part VI",
+        "c": "Part Vil",
+        "d": "Part {X"
       },
       "marked": null,
       "cov": {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichpartoftheIndianConstitutionisconcernedwiththePanchayatiRajsystem?",
+      "q": "Which part of the Indian Constitution is concerned with the Panchayati Raj system?",
       "multi": false
     },
     {
@@ -291,10 +291,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "GovernmentofIndiaAct,1919",
-        "b": "IndianCouncilsAct,1909",
-        "c": "GovernmentofIndiaAct,1935",
-        "d": "IndianIndependenAccte,1947"
+        "a": "Government of India Act, 1919",
+        "b": "Indian Councils Act, 1909",
+        "c": "Government of India Act, 1935",
+        "d": "Indian IndependenAccte,  1947"
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichActofBritishIndiawasoneofthemainsourcesofConstitutionofIndia?",
+      "q": "Which Act of British India was one of the main sources of Constitution of India?",
       "multi": false
     },
     {
@@ -314,10 +314,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Theday’sbusinessnormallystartswithQuestionhourandZeroHourfollowstheQuestion Hour.",
-        "b": "Theday’sbusinessnormallystartswithZerohourandQuestionHourfollowstheZeroHour.",
-        "c": "Theday’sbusinessnormallystartswithQuestionhourorZeroHour.",
-        "d": "Noneoftheabove"
+        "a": "The day’s business normally starts with Question hour and Zero Hour follows the Question Hour.",
+        "b": "The day’s business normally starts with Zero hour and Question Hour follows the Zero Hour.",
+        "c": "The day’s business normally starts with Question hour or Zero Hour.",
+        "d": "None of the above"
       },
       "marked": null,
       "cov": {
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichamongthefollowingistrueaboutthesequenceofQuestionhourandZeroHour?",
+      "q": "Which among the following is true about the sequence of Question hour and Zero Hour?",
       "multi": false
     },
     {
@@ -337,10 +337,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PresidentwithadviceofChiefJusticeofIndia",
-        "b": "PresidentwithadviceofPrimeMinister",
-        "c": "LawMinistry",
-        "d": "PresidentwithadviceofacollegiumofJudges"
+        "a": "President with advice of Chief Justice of India",
+        "b": "President with advice of Prime Minister",
+        "c": "Law Ministry",
+        "d": "President with advice of a collegium of Judges"
       },
       "marked": null,
       "cov": {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoamongthefollowingappointsaJudgeintheHighCourtofIndianstate?",
+      "q": "Who among the following appoints a Judge in the High Court of Indian state?",
       "multi": false
     },
     {
@@ -360,10 +360,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Goodhealthandwell-being",
-        "b": "QualityEducation",
-        "c": "StateSovereignty",
-        "d": "ZeroHunger"
+        "a": "Good health and well-being",
+        "b": "Quality Education",
+        "c": "State Sovereignty",
+        "d": "Zero Hunger"
       },
       "marked": null,
       "cov": {
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingisnotaSustainableDevelopmentGoal?",
+      "q": "Which of the following is nota Sustainable Development Goal?",
       "multi": false
     },
     {
@@ -383,10 +383,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Absoluteandurbanpoverty",
-        "b": "Incomeandhumanpoverty",
-        "c": "Ruralandurbanpoverty",
-        "d": "Situationalandruralpoverty"
+        "a": "Absolute and urban poverty",
+        "b": "Income and human poverty",
+        "c": "Rural and urban poverty",
+        "d": "Situational and rural poverty"
       },
       "marked": null,
       "cov": {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatarethetwocategoriesofpovertyidentifiedbytheUnitedNationsDevelopmentProgram?",
+      "q": "What are the two categories of poverty identified by the United Nations Development Pro gram?",
       "multi": false
     },
     {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AccordingtotheWorldSteelAssociation,whichistheonlycountryamongtheworld’stopsteel producingnationstoseegrowthinproductioninApril2024?",
+      "q": "According to the World Steel Association, which is the only country among the world’s top steel producing nations to see growth in production in April 2024?",
       "multi": false
     },
     {
@@ -429,10 +429,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "OnlyAandB",
-        "b": "OnlyBandD",
-        "c": "A,BandD",
-        "d": "OnlyAandD"
+        "a": "Only Aand B",
+        "b": "Only B and D",
+        "c": "A, BandD",
+        "d": "Only Aand D"
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Considerthefollowingpairsofplacesandtheirrelatedindustries: A.Bengaluru-Iron&Steel B.Korba-Aluminium C.Jamshedpur-Aircraft- D.Maljkhand-Copper Whichoftheabovepairsis/arecorrectlymatched?",
+      "q": "Consider the following pairs of places and their related industries: A. Bengaluru - Iron & Steel B. Korba - Aluminium C. Jamshedpur - Aircraft - D. Maljkhand - Copper Which of the above pairs is/are correctly matched?",
       "multi": false
     },
     {
@@ -452,10 +452,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "AshokMehtaCommittee",
-        "b": "LakdawalaCommittee",
-        "c": "RajaMannarCommittee",
-        "d": "VijayKelkarCommittee"
+        "a": "Ashok Mehta Committee",
+        "b": "Lakdawala Committee",
+        "c": "Raja Mannar Committee",
+        "d": "Vijay Kelkar Committee"
       },
       "marked": null,
       "cov": {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingcommitteesisrelatedtopovertyestimationinIndia?",
+      "q": "Which of the following committees is related to poverty estimation in India?",
       "multi": false
     },
     {
@@ -475,10 +475,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "DampaTigerReserve",
-        "b": "LengtengWildlifeSanctuary",
-        "c": "MurlenNationalPark",
-        "d": "NgengpuiWildlifeSanctuary (a)Chhawrtuivillage(b)Khuangphahvillage (c)NorthChawilunghills(d)Zopuihills (a)Agenda21isanon-bindingactionplanoftheUnitedNationsconcerningsustainable development. (b)ItisaproductoftheWorldSummitonSustainableDevelopmentheldinJohannesburgin2002. (c)Itisanagendatocombatenvironmentaldamage,poverty,anddiseasethroughglobal cooperationandcommoninterests,mutualneeds,andsharedresponsibilities. (d)OneofitsmajorobjectivesisthateverylocalgovernmentshoulddrawitsownAgend21a. (a)NagarVanYojana(b)NagarPanchayatYojana (c)VanaMahotsavYojana(d)VanNagarPanchYojana"
+        "a": "Dampa Tiger Reserve",
+        "b": "Lengteng Wildlife Sanctuary",
+        "c": "Murlen National Park",
+        "d": "Ngengpui Wildlife Sanctuary (a) Chhawrtui village (b) Khuangphah village (c) North Chawilung hills (d) Zopuihills (a) Agenda 21 is a non-binding action plan of the United Nations concerning sustainable development. (b) Itisa product of the World Summit on Sustainable Development held in Johannesburg in 2002. (c) Itis an agenda to combat environmental damage, poverty, and disease through global cooperation and common interests, mutual needs, and shared responsibilities. (d) One ofits major objectives is that every local government should draw its own Agend21a. (a) Nagar Van Yojana (b) Nagar Panchayat Yojana (c) Vana Mahotsav Yojana (d) Van Nagar Panch Yojana"
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthelargestwildlifesanctuaryinMizoram?",
+      "q": "What is the largest wildlife sanctuary in Mizoram?",
       "multi": false
     },
     {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichState/UTestablishedaSpecialTaskForcetoEnforceAirPollutionControl]Measures?",
+      "q": "Which State/UT established a Special Task Force to Enforce Air Pollution Control] Measures?",
       "multi": false
     },
     {
@@ -521,7 +521,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "WorldBank",
+        "a": "World Bank",
         "b": "UNICEF",
         "c": "UNEP",
         "d": "UNESCO"
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichorganizationlaunchednewinitiativesfor“greeningeducation”inclassrooms?",
+      "q": "Which organization launched new initiatives for “greening education” in classrooms?",
       "multi": false
     },
     {
@@ -544,10 +544,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "APJAbdulKalam",
-        "b": "HJBhabha",
-        "c": "SatyendranathBose",
-        "d": "VikramSarabhai"
+        "a": "APJ Abdul Kalam",
+        "b": "HJ Bhabha",
+        "c": "Satyendranath Bose",
+        "d": "Vikram Sarabhai"
       },
       "marked": null,
       "cov": {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoisknownasthefatherofIndianspaceresearch?",
+      "q": "Who is known as the father of Indian space research?",
       "multi": false
     },
     {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthebasicunitofthenervoussystem?",
+      "q": "What is the basic unit of the nervous system?",
       "multi": false
     },
     {
@@ -591,9 +591,9 @@
       "direction": null,
       "opts": {
         "a": "Malaria",
-        "b": "SmallPox",
+        "b": "Small Pox",
         "c": "Tuberculosis",
-        "d": "Typhoid :(a)Gekkozoramensis(b)Gekkomizoramensis (c)Smithophiszoramensis(d)Smithophismizoramensis"
+        "d": "Typhoid : (a) Gekko zoramensis (b) Gekko mizoramensis (c) Smithophis zoramensis (d) Smithophis mizoramensis"
       },
       "marked": null,
       "cov": {
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingdiseasesiscausedbyavirus?",
+      "q": "Which of the following diseases is caused by a virus?",
       "multi": false
     },
     {
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichbranchofbiologyisknownforthestudyofflowers?",
+      "q": "Which branch of biology is known for the study of flowers?",
       "multi": false
     },
     {
@@ -639,7 +639,7 @@
         "a": "Altmann.",
         "b": "Landsteiner",
         "c": "Losch",
-        "d": "RonaldRoss"
+        "d": "Ronald Ross"
       },
       "marked": null,
       "cov": {
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Bloodgroupswerediscoveredby:",
+      "q": "Blood groups were discovered by:",
       "multi": false
     },
     {
@@ -659,10 +659,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "A.GMcCall",
-        "b": "JShakespeare",
+        "a": "A.G McCall",
+        "b": "J Shakespeare",
         "c": "N.E.Parry",
-        "d": "THLewin"
+        "d": "TH Lewin"
       },
       "marked": null,
       "cov": {
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘AMonographonLushaiCustomsandCeremonies’waswrittenby-",
+      "q": "‘A Monograph on Lushai Customs and Ceremonies’ was written by-",
       "multi": false
     },
     {
@@ -682,10 +682,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Chemsenbawih",
-        "b": "Inpuibawih",
-        "c": "Retheihbawih",
-        "d": "Tukluhbawih"
+        "a": "Chemsen bawih",
+        "b": "Inpui bawih",
+        "c": "Retheih bawih",
+        "d": "Tukluh bawih"
       },
       "marked": null,
       "cov": {
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Criminals,whotookrefugeintheChicf’shousetoescapefromtheconsequenceoftheirevildeeds are-",
+      "q": "Criminals, who took refuge in the Chicf’s house to escape from the consequence of their evil deeds are-",
       "multi": false
     },
     {
@@ -705,10 +705,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Dr.Sangihankima",
+        "a": "Dr. Sangihankima",
         "b": "K.C.Runremsangi",
-        "c": "LalbiakthangaPachuau",
-        "d": "VLNghaka"
+        "c": "Lalbiakthanga Pachuau",
+        "d": "VL Nghaka"
       },
       "marked": null,
       "cov": {
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowastherecipientofthePadmaShriAward2024fromMizoram?",
+      "q": "Who was the recipient of the Padma Shri Award 2024 from Mizoram?",
       "multi": false
     },
     {
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstLushaiExpeditionwaslaunchedin-",
+      "q": "The first Lushai Expedition was launched in-",
       "multi": false
     },
     {
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘Artialfin’mayrefersto-",
+      "q": "‘Artial fin’ may refers to-",
       "multi": false
     },
     {
@@ -774,10 +774,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "OnlyA,BandC",
-        "b": "OnlyB,CandD",
-        "c": "OnlyA,CandD",
-        "d": "OnlyA,BandD"
+        "a": "Only A, Band C",
+        "b": "Only B,C and D",
+        "c": "Only A, Cand D",
+        "d": "Only A, B and D"
       },
       "marked": null,
       "cov": {
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Considerthefollowingstatements:- A.ChapcharKuthavesomerelationshipwithhunting. B.MimKutisassociatedwithbereavefamily.. C.PawlKuthaveaconnectionwithTlingiandNgama. D.PawlKutwasrelatedwith‘buhlehsa’. Whichisthecorrectone?",
+      "q": "Consider the following statements: - A. Chapchar Kut have some relationship with hunting. B. Mim Kut is associated with bereave family. . C. Pawl Kut have a connection with Tlingi and Ngama. D. Pawl Kut was related with ‘buh leh sa’. Which is the correct one?",
       "multi": false
     },
     {
@@ -797,10 +797,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Raltevahainolaangmai",
-        "b": "Zadengtlawmturangmai",
-        "c": "Tualvungikothiamhraiangmai",
-        "d": "Pachuausualang"
+        "a": "Ralte vahai no la ang mai",
+        "b": "Zadeng tlawm tur ang mai",
+        "c": "Tualvungi ko thiam hrai ang mai",
+        "d": "Pachuau sual ang"
       },
       "marked": null,
       "cov": {
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IntheMizomyth,havingscveralmeetingsinoneagendaisknownas-",
+      "q": "Inthe Mizo myth, having scveral meetings in one agenda is known as-",
       "multi": false
     },
     {
@@ -823,7 +823,7 @@
         "a": "Yearly",
         "b": "Monthly",
         "c": "Quarterly",
-        "d": "Whenneeded"
+        "d": "When needed"
       },
       "marked": null,
       "cov": {
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InthetraditionalrevenueadministrationofMizo,thechiefreceivesFathang-",
+      "q": "In the traditional revenue administration of Mizo, the chief receives Fathang-",
       "multi": false
     },
     {
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "JV100+V36isequalto-",
+      "q": "JV100+V36 isequal to -",
       "multi": false
     },
     {
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thangahassomehensandsomegoats.Ifthetotalnumberofanimalheadsis15andtotalnumberof feetis40,howmanyhensdoesThangahave?",
+      "q": "Thanga has some hens and some goats. If the total number ofa nimal heads is 15 and total number of feet is 40, how many hens does Thanga have?",
       "multi": false
     },
     {
@@ -889,10 +889,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "8years",
-        "b": "10years",
-        "c": "12years",
-        "d": "14years"
+        "a": "8 years",
+        "b": "10 years",
+        "c": "12 years",
+        "d": "14 years"
       },
       "marked": null,
       "cov": {
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theratiooftheson’sagetohisfather’sageis2:9.Hisfather’sageis36years.Whatistheson’s age?",
+      "q": "The ratio of the son’s age to his father’s age is 2 : 9. His father’s age is 36 years. What is the son’s age?",
       "multi": false
     },
     {
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Divide€8160betweenBiakaandRuataintheRatioof5:3,FindBiaka’sshare-",
+      "q": "Divide € 8160 between Biaka and Ruata in the Ratio of 5:3, Find Biaka’s share-",
       "multi": false
     },
     {
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichoneisnotprimenumber?",
+      "q": "Which one is not prime number?",
       "multi": false
     },
     {
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Asumofmoneyislentatsimpleinterest,themoneygetsdoublein5years,thentherateofinterestis?",
+      "q": "Asum of money is lent at simple interest, the money gets double in 5 years, then the rate of interest is?",
       "multi": false
     },
     {
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Findthecompoundinterest(CT)on25000for2yearsat8%perannumcompoundedannually-",
+      "q": "Find the compound interest (CT) on 25000 for 2 years at 8% per annum compounded annually-",
       "multi": false
     },
     {
@@ -1004,10 +1004,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1500metres",
-        "b": "1560metres",
-        "c": "1600metres",
-        "d": "1650metres"
+        "a": "1500 metres",
+        "b": "1560 metres",
+        "c": "1600 metres",
+        "d": "1650 metres"
       },
       "marked": null,
       "cov": {
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Annainatrainnoticesthatshecancount26telephonepostsintwominutes.Iftheyareknowntobe 60metresapart,thetotaldistantcoveredintwominutesis-",
+      "q": "Anna ina train notices that she can count 26 telephone posts in two minutes. If they are known to be 60 metres apart, the total distant covered in two minutes is-",
       "multi": false
     },
     {
@@ -1027,10 +1027,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "2days",
-        "b": "3days",
-        "c": "4days",
-        "d": "5days"
+        "a": "2 days",
+        "b": "3 days",
+        "c": "4 days",
+        "d": "5 days"
       },
       "marked": null,
       "cov": {
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Acandoapieceofworkin6daysandBcandothesameworkin12days.If.AandBworktogether, inhowmanydays4and8canfinishthework?",
+      "q": "A can do a piece of work in 6 days and B can do the same work in 12 days. If.A and B work together, in how many days 4 and 8 can finish the work?",
       "multi": false
     },
     {
@@ -1051,7 +1051,7 @@
       "direction": null,
       "opts": {
         "a": "159cm",
-        "b": "157cm",
+        "b": "157 cm",
         "c": "156cm",
         "d": "154cm"
       },
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theaverageheightof8studentsis156cm.Iftheheightof7studentsare149cm,154cm,163cm, 157cm,162cm,156cmand148cm,thentheheightoftheremainingstudentis?",
+      "q": "The average height of 8 students is 156 cm. If the height of 7 students are 149 cm, 154 cm, 163 cm, 157 cm, 162 cm, 156 cm and 148 cm, then the height of the remaining student is?",
       "multi": false
     },
     {
@@ -1086,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thelistpriceofanarticleis¥2500,afterdiscount,thecustomerboughtanarticlefor2300.Findthe discountrate.",
+      "q": "The list price of an article is ¥2500, after discount, the customer bought an article for 2300. Find the discount rate.",
       "multi": false
     },
     {
@@ -1096,10 +1096,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "525students",
-        "b": "625students",
-        "c": "575students",
-        "d": "675students"
+        "a": "525 students",
+        "b": "625 students",
+        "c": "575 students",
+        "d": "675 students"
       },
       "marked": null,
       "cov": {
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thereare1250studentsinaschool.If54%ofthempassedinsecondterminalexamination.how .manystudentsfailed?",
+      "q": "There are 1250 students in a school. If 54% of them passed in second terminal examination. how . many students failed?",
       "multi": false
     },
     {
@@ -1132,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "FindtheangleofelevationoftheSunwhenthelengthoftheshadowofapoleisequaltotheheightof thepole-",
+      "q": "Find the angle of elevation of the Sun when the length of the shadow of a pole is equal to the height of the pole -",
       "multi": false
     },
     {
@@ -1145,7 +1145,7 @@
         "a": "16.09%",
         "b": "13.09%",
         "c": "9.09%",
-        "d": "7.09% 723.."
+        "d": "7.09% 7 2 3. ."
       },
       "marked": null,
       "cov": {
@@ -1155,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thegivenlinegraphshowtheannualfoodgrainproductionfrom1992to1997, 120— eseeGe _—- 30Se- §o—4 340cree B20 ia |199219931994199519961997 |Years WhatisanappropriatepercentagedecreaseproductionfromI!99t3o19949",
+      "q": "The given line graph show the annual food grain production from 1992 to 1997, 120 — es ee Ge _— - 30 Se - § o — 4 3 40 cree B20 i a | 1992 1993 1994 1995 1996 1997 | Years What is an appropriate percentage decrease production from I!9 9t3o  19949",
       "multi": false
     },
     {
@@ -1178,7 +1178,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheHCFandLCMoftwonumbersare6and5040respectively.Ifoneofthenumbersis210,then theothernumberis-",
+      "q": "The HCF and LCM of two numbers are 6 and 5040 respectively. If one of the numbers is 210, then the other number is-",
       "multi": false
     },
     {
@@ -1201,7 +1201,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthesquarerootof151321?",
+      "q": "What is the square root of 151321?",
       "multi": false
     },
     {
@@ -1211,10 +1211,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "28years",
-        "b": "32years",
-        "c": "35years",
-        "d": "45years"
+        "a": "28 years",
+        "b": "32 years",
+        "c": "35 years",
+        "d": "45 years"
       },
       "marked": null,
       "cov": {
@@ -1224,7 +1224,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "After5years,theratiobetweenagesof4andBwillbe5:8andafter8years,thesumofageswillbe 7)years.FindthepresentageofB.",
+      "q": "After 5 years, the ratio between ages of4  and B will be 5:8 and after 8 years, the sum of ages will be 7) years. Find the present age of B.",
       "multi": false
     },
     {
@@ -1235,7 +1235,7 @@
       "direction": null,
       "opts": {
         "a": "110",
-        "b": "150.",
+        "b": "150 .",
         "c": "135",
         "d": "120"
       },
@@ -1247,7 +1247,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AStudenthastosecure45%ofmarkstopassanexamination.Hegetsonly50marksandfailsby4 marks.Themaximummarksis-",
+      "q": "A Student has to secure 45% of marks to pass an examination. He gets only 50 marks and fails by 4 marks. The maximum marks is-",
       "multi": false
     },
     {
@@ -1260,7 +1260,7 @@
         "a": "98",
         "b": "124",
         "c": "152",
-        "d": "260:"
+        "d": "260 :"
       },
       "marked": null,
       "cov": {
@@ -1270,7 +1270,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "If'atb=8andab~15,thenwhatisthevalueofa®+b??,",
+      "q": "If'atb=8 and ab~15, then what is the value of a®+b?? ,",
       "multi": false
     },
     {
@@ -1293,7 +1293,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "The15™termoftheAP21,16,11,6........is-",
+      "q": "The 15™ term of the AP 21,16,11,6........is-",
       "multi": false
     },
     {
@@ -1316,7 +1316,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inanexamination,50%ofthecandidatesfailedinEnglish,40%failedinHindiand15%failedinboth thesubjects.ThepercentageofcandidateswhopassedinbothEnglishandHindiis-",
+      "q": "In anexamination, 50% of the candidates failed in English, 40% failed in Hindi and 15% failed in both the subjects. The percentage of candidates who passed in both English and Hindi is-",
       "multi": false
     },
     {
@@ -1326,10 +1326,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "24units",
-        "b": "30units",
-        "c": "40units",
-        "d": "50units"
+        "a": "24 units",
+        "b": "30 units",
+        "c": "40 units",
+        "d": "50 units"
       },
       "marked": null,
       "cov": {
@@ -1339,7 +1339,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theareaofarectanglewhoselengthis5morethantwiceitswidthis75squareunits.Whatisthe perimeteroftherectangle?",
+      "q": "The area of a rectangle whose length is 5 more than twice its width is 75 square units. What is the perimeter of the rectangle?",
       "multi": false
     },
     {
@@ -1362,7 +1362,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Themeanof5numbersis15.Ifonemorenumberisincluded,themeanofthe6numbersbecomes 17.Whatistheincludednumber?",
+      "q": "The mean of 5 numbers is 15. If one more number is included, the mean of the 6 numbers becomes 17. What is the included number?",
       "multi": false
     },
     {
@@ -1385,7 +1385,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Fromthegivenalternativewords,selectthewordswhichcannotbeformedusingthelettersofthe givenword: INCARCERATION",
+      "q": "From the given alternative words, select the words which cannot be formed using the letters of the given word: INCARCERATION",
       "multi": false
     },
     {
@@ -1408,7 +1408,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "If*K’denotes‘x’,‘B’denotes‘-’,“T’denotes‘—’and“M’denotes‘+’, then40B8T6M3K4=?",
+      "q": "If*K’ denotes ‘x’, ‘B’ denotes ‘-’, “T’ denotes ‘—’ and “M’ denotes ‘+’, then 40 B8 T6M3K4=?",
       "multi": false
     },
     {
@@ -1420,7 +1420,7 @@
       "opts": {
         "a": "Son",
         "b": "Son-in-law",
-        "c": "NepheworNiece",
+        "c": "Nephew or Niece",
         "d": "Brother"
       },
       "marked": null,
@@ -1431,7 +1431,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inafamily,therearesevenpersons,comprisingtwomarriedcouples,TisthesonofMandthe grandsonofK.Misawidower.MandRarebrothersandWisthedaughter-in-lawofJ,whoisthe motherofRandthegrandmotherofD.HowisDrelatedtoM?",
+      "q": "Ina family, there are seven persons, comprising two married couples, T is the son of M and the grandson of K. M is a widower. M and R are brothers and W is the daughter-in-law of J, who is the mother of R and the grandmother of D. How is D related to M?",
       "multi": false
     },
     {
@@ -1441,10 +1441,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Strand:Hair",
-        "b": "Rung:Ladder",
-        "c": "Summit:Mountain",
-        "d": "Frame:Picture"
+        "a": "Strand : Hair",
+        "b": "Rung : Ladder",
+        "c": "Summit : Mountain",
+        "d": "Frame : Picture"
       },
       "marked": null,
       "cov": {
@@ -1454,7 +1454,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Selecttherelatedwordspairfromthegivenalternatives.Vertex:Pyramid::?",
+      "q": "Select the related words pair from the given alternatives. Vertex : Pyramid :: ?",
       "multi": false
     },
     {
@@ -1477,7 +1477,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Interchanging+and~andalsothenumbers2and5,findthevalueof: 8+4x5+2-3",
+      "q": "Interchanging + and ~ and also the numbers 2 and 5, find the value of: 8+4x5+2-3",
       "multi": false
     },
     {
@@ -1500,7 +1500,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Selectthemissingnumberfromthegivenresponses.",
+      "q": "Select the missing number from the given responses.",
       "multi": false
     },
     {
@@ -1511,8 +1511,8 @@
       "direction": null,
       "opts": {
         "a": "2,3,4,1,5",
-        "b": "2,54,1,,3",
-        "c": "4,2,3,5,]",
+        "b": "2,54, 1,,3",
+        "c": "4, 2,3, 5, ]",
         "d": "4,3,5,1,2"
       },
       "marked": null,
@@ -1523,7 +1523,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Arrangethewordsinameaningful,logicalorderandthenselecttheappropriatesequencefromthe alternativesgivenbelowforeachofthegroupsofwords. 1.Crop2.Root3.Stem4,Seed5.Flower",
+      "q": "Arrange the words in a meaningful, logical order and then select the appropriate sequence from the alternatives given below for each of the groups of words. 1. Crop 2. Root 3. Stem 4, Seed 5. Flower",
       "multi": false
     },
     {
@@ -1546,7 +1546,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thepositionsofhowmanyalphabetswillremainunchangedifeachofthealphabetsintheword ‘FORGET’isarrangedinalphabeticalorderfromlefitoright?‘",
+      "q": "The positions of how many alphabets will remain unchanged if each of the alphabets in the word ‘FORGET’ is arranged in alphabetical order from lefi to right? ‘",
       "multi": false
     },
     {
@@ -1569,7 +1569,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Examinethefollowingthreefiguresinwhichthenumbersfollowaspecificpattern: |o||2| Pete}feis)Lets) Themissingnumber(?)inthethirdfigureis:",
+      "q": "Examine the following three figures in which the numbers follow a specific pattern: | o | | 2 | Pete} feis) Lets) The missing number (?) in the third figure is:",
       "multi": false
     },
     {
@@ -1592,7 +1592,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "inacertaincodelanguage,‘SueReNik’means‘Sheisbrave’,‘PiSorReNik’means‘Sheisalways smiling’and‘SorReZhi”means‘Isalwayscheerful’.Whatisthecodeusedfortheword‘smiling’?",
+      "q": "in acertain code language, ‘Sue Re Nik’ means ‘She is brave’, ‘Pi Sor Re Nik’ means ‘She is always smiling’ and ‘Sor Re Zhi” means ‘Is always cheerful’. What is the code used for the word ‘smiling’?",
       "multi": false
     },
     {
@@ -1602,10 +1602,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "+ax,n2andd4",
-        "b": "+ax,n4adnd6",
-        "c": "+andx,2and6",
-        "d": "Noneofthese"
+        "a": "+ax,n 2 andd 4",
+        "b": "+ax,n 4 adnd 6",
+        "c": "+and x, 2 and 6",
+        "d": "None of these"
       },
       "marked": null,
       "cov": {
@@ -1615,7 +1615,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichoneofthefourinterchangesinsignsandnumberswouldmakethegivenequationcorrect? 6x4+2=16",
+      "q": "Which one of the four interchanges in signs and numbers would make the given equation correct? 6x4+2=16",
       "multi": false
     },
     {
@@ -1638,7 +1638,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IfQdenotesaddition,Jdenotesmultiplication,TdenotessubtractionandKdenotesdivision,then 30K2Q316TS5=?",
+      "q": "If Q denotes addition, J denotes multiplication, T denotes subtraction and K denotes division, then 30K2Q316TS5=?",
       "multi": false
     },
     {
@@ -1648,10 +1648,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "40,65,45",
-        "b": "40,60,40",
-        "c": "45,70,50",
-        "d": "45,75,45"
+        "a": "40, 65, 45",
+        "b": "40, 60, 40",
+        "c": "45, 70, 50",
+        "d": "45, 75, 45"
       },
       "marked": null,
       "cov": {
@@ -1661,7 +1661,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inthegivenfigure,10%arestudentsandparents,another10%arestudents,teachersandparents, 15%areteachersandparents.35%arestudentsandteachers.Howmanypercentageareonly teachers,parentsandstudents? =",
+      "q": "Inthe given figure, 10% are students and parents, another 10% are students, teachers and parents, 15% are teachers and parents. 35% are students and teachers. How many percentage are only teachers, parents and students? =",
       "multi": false
     },
     {
@@ -1684,7 +1684,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inthefollowingfigure(1),(2),(3)and(4),threearesimilarincertainmanner,butonefigureis differentfromothers.Choosethedifferentone: ay(2)(3)(ay",
+      "q": "In the following figure (1), (2), (3) and (4), three are similar in certain manner, but one figure is different from others. Choose the different one: ay (2) (3) (ay",
       "multi": false
     },
     {
@@ -1692,11 +1692,11 @@
       "page": 12,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.97-100):Ineackofthefollowingquestions,arrangethewordsina",
+      "direction": "Directions (Question Nos. 97 - 100): In eack of the following questions, arrange the words in a",
       "opts": {
         "a": "5,2,3,.4,1",
-        "b": "4,3,2,1,5",
-        "c": "4,3,1,2,5",
+        "b": "4,3, 2, 1,5",
+        "c": "4,3,1, 2,5",
         "d": "2,4,3,1,5"
       },
       "marked": null,
@@ -1707,7 +1707,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "1.Puberty2.Adulthood3.Childhood4.Infancy5.Senescence",
+      "q": "1. Puberty 2. Adulthood 3. Childhood 4. Infancy 5. Senescence",
       "multi": false
     },
     {
@@ -1715,12 +1715,12 @@
       "page": 12,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.97-100):Ineackofthefollowingquestions,arrangethewordsina",
+      "direction": "Directions (Question Nos. 97 - 100): In eack of the following questions, arrange the words in a",
       "opts": {
-        "a": "4,5,3,1,2",
+        "a": "4,5, 3,1, 2",
         "b": "2,3,4,5,1",
-        "c": "4,3,1,5,2",
-        "d": "1,3,4,5,2"
+        "c": "4,3, 1,5, 2",
+        "d": "1, 3,4, 5,2"
       },
       "marked": null,
       "cov": {
@@ -1730,7 +1730,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "1.Leaf2.Fruit3.Stem4.Root5.Flower",
+      "q": "1. Leaf 2. Fruit 3. Stem 4. Root 5. Flower",
       "multi": false
     },
     {
@@ -1738,12 +1738,12 @@
       "page": 12,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.97-100):Ineackofthefollowingquestions,arrangethewordsina",
+      "direction": "Directions (Question Nos. 97 - 100): In eack of the following questions, arrange the words in a",
       "opts": {
-        "a": "1,34,,5,2",
+        "a": "1,34,,  5,2",
         "b": "1,5,3,4,2",
-        "c": "2,5,3,1.4",
-        "d": "5,2,1,4,3"
+        "c": "2,5,3, 1.4",
+        "d": "5,2, 1, 4,3"
       },
       "marked": null,
       "cov": {
@@ -1753,7 +1753,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "1.Hecto2.Centi3.Deca4.Kilo5.Deci",
+      "q": "1. Hecto 2. Centi 3. Deca 4. Kilo 5. Deci",
       "multi": false
     },
     {
@@ -1761,12 +1761,12 @@
       "page": 12,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.97-100):Ineackofthefollowingquestions,arrangethewordsina",
+      "direction": "Directions (Question Nos. 97 - 100): In eack of the following questions, arrange the words in a",
       "opts": {
-        "a": "3,5,1,4,2",
-        "b": "3,5,4,2,1",
+        "a": "3,5, 1,4,2",
+        "b": "3,5, 4, 2,1",
         "c": "5,1,4,2,3",
-        "d": "5,3,4,1,2 ReRKEE"
+        "d": "5,3,4,1,2 Re RK EE"
       },
       "marked": null,
       "cov": {
@@ -1776,7 +1776,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "1.Presentation2.Recommendation3.Arrival4.Discussion5.Introduction",
+      "q": "1. Presentation 2. Recommendation 3. Arrival 4. Discussion 5. Introduction",
       "multi": false
     }
   ],

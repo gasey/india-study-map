@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Giveasuitabletitleforthepassageabove.(2)",
-        "b": "Givethecentralideaofthegivenpassage.(2)",
-        "c": "Whatistheroleofyoungstudentsinthenationallife?(2)",
-        "d": "Usetheword‘harness’bothasanounandasaverb?(2) Gi)achievement(i)thriving"
+        "a": "Give asuitable title for the passage above. (2)",
+        "b": "Give the central idea of the given passage. (2)",
+        "c": "What is the role of young students in the national life? (2)",
+        "d": "Use the word ‘harness’ both as a noun and as a verb? (2) Gi) achievement (i) thriving"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Readthegivenpassagecarefullyandanswerthequestionsthatfollow: Graduationisonlyamilestoneinlife’sjourney.Itdoesnotmarktheendoftheroadineducation. Inaveryrealsense,itisthecommencementtime,thebeginningofanewjourneywhichwilltestthe toughnessofyourmentalandmoralfibre,theefficiencyofyouruniversitytraining.Thenewexperiences, thenewproblemsandthenewsituationwilldemandfromyoutheexerciseofqualitiesforwhose fosteringtheuniversityfunctions.Thefuturewillgivethepowerandresponsibilitiestoyou. Thehistoricroleoflargeeducatedclasses,inthebuildingupofanewIndiacannotbeover- estimated.Ifaleaderisonewhoknowswhereheisgoing,whohasafirmgraspoftheinsightsand intuitionswhichhavemadeourcivilizationsoenduring,andwhocanharnessthemtoeveryaspectof life,itisonlytheuniversitiesthatcantrainmenforleadership.Theuniversitiesaremorethaninstitutions forhigherlearningandprofessionaltraining;theyarecalledupontoeducatetheyoungergeneration, formitscharacterandcreateanewtypeofintellectualleader.Deliveringqualityeducationtostudents isessentialforfosteringamoreprosperousandresilientnation.",
+      "q": "Read the given passage carefully and answer the questions that follow: Graduation is only a milestone in life’s journey. It does not mark the end of the road in education. Inavery real sense, it is the commencement time, the beginning of a new journey which will test the toughness of your mental and moral fibre, the efficiency of your university training. The new experiences, the new problems and the new situation will demand from you the exercise of qualities for whose fostering the university functions. The future will give the power and responsibilities to you. The historic role of large educated classes, in the building up of a new India cannot be over- estimated. Ifa leader is one who knows where he is going, who has a firm grasp of the insights and intuitions which have made our civilization so enduring, and who can harness them to every aspect of life, itis only the universities that can train men for leadership. The universities are more than institutions for higher learning and professional training; they are called upon to educate the younger generation, form its character and create a new type of intellectual leader. Delivering quality education to students is essential for fostering a more prosperous and resilient nation.",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "AlthoughJlovetocook,Ihardlyhavetimeforit. (i)PrepositionGi)Conjunction Gii)Noun(iv)Adverb",
-        "b": "Thequickbrownfoxjumpsoverthelazybrowndog. G@)NounGi)Adverb (ii)Adjective(iv)Preposition.",
-        "c": "Hestilllivesinthathouse. (i)Adverb@)Adjective: (iii)Preposition(iv)Conjunction",
-        "d": "Stellaappearedinacostlyarray. @)NounGi)Verb (iii)Adverb(iv)Adjective (i)Adjective(i)Preposition ii)Verb(iv)Adverb (i)Adverb(ii)Adjective (ii)“Noun(iv)Interjection @)PersonalPronounGi)IndefinitePronoun Git)DemonstrativePronoun(iv)Reflexivepronoun (i)Adverb@)Verb Gii)Adjective(iv)Preposition (i)Adverb(ii)Adjective (ii)VerbGv)Noun (i)Conjunctioni)Interjection ii)Pronoun(iv)Verb"
+        "a": "Although J love to cook, I hardly have time for it. (i) Preposition Gi) Conjunction Gii) Noun (iv) Adverb",
+        "b": "The quick brown fox jumps over the lazy brown dog. G@) Noun Gi) Adverb (ii) Adjective (iv) Preposition .",
+        "c": "He still lives in that house. (i) Adverb @) Adjective : (iii) Preposition (iv) Conjunction",
+        "d": "Stella appeared in a costly array. @) Noun Gi) Verb (iii) Adverb (iv) Adjective (i) Adjective (i) Preposition ii) Verb (iv) Adverb (i) Adverb (ii) Adjective (ii) “Noun (iv) Interjection @) Personal Pronoun Gi) Indefinite Pronoun Git) Demonstrative Pronoun (iv) Reflexive pronoun (i) Adverb @) Verb Gii) Adjective (iv) Preposition (i) Adverb (ii) Adjective (ii) Verb Gv) Noun (i) Conjunction i) Interjection ii) Pronoun (iv) Verb"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IdentifythePartsofspeechoftheunderlinedwordsinthegivensentences.(20x1=10)",
+      "q": "Identify the Parts of speech of the underlined words in the given sentences. (20x1=10)",
       "multi": false
     },
     {
@@ -61,10 +61,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Sheistoopoortoclearherfees.(Pickouttheadverbinthesentence)",
-        "b": "The(Jury/Juries)foundhimguilty.(Choosethecorrectform)",
-        "c": "Timechangesallthings.(Pickouttheverbinthesentence)",
-        "d": "(Tiding/Tidings)cameverylate.(Choosethecorrectform)"
+        "a": "She is too poor to clear her fees. (Pick out the adverb in the sentence)",
+        "b": "The (Jury/Juries) found him guilty. (Choose the correct form)",
+        "c": "Time changes all things. (Pick out the verb in the sentence)",
+        "d": "(Tiding/Tidings) came very late. (Choose the correct form)"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Rewritethefollowingsentencesasdirected.(10x1=10)",
+      "q": "Rewrite the following sentences as directed. (10x1=10)",
       "multi": false
     },
     {
@@ -84,10 +84,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Texpressedmyabhorrenceflattery. @to(i)at Gi)of(iv)in",
-        "b": "Thebirdflewtheroof,soaringhighinthesky. (i)upon(ii)above (iii)over(iv)on",
-        "c": "Hewasacquittedallcharges. @to@)of Gi)in(iv)on",
-        "d": "Weareconfidentwinningthegame. @of@at Gil)inGv)on (i)onGi)upon Gi)atdv)an @n@)at Git)on(iv)for (i)onG)until Gil)by(iv)at (i)at@in Gi)on(iv)of ~4e (i)ofGi)at di)in(iv)under~ @)with@n (ii)on(iv)upon."
+        "a": "Texpressed my abhorrence flattery. @ to (i) at Gi) of (iv) in",
+        "b": "The bird flew the roof, soaring high in the sky. (i) upon (ii) above (iii) over (iv) on",
+        "c": "He was acquitted all charges. @ to @) of Gi) in (iv) on",
+        "d": "We are confident winning the game. @ of @ at Gil) in Gv) on (i) on Gi) upon Gi) at dv) an @ n @) at Git) on (iv) for (i) on G) until Gil) by (iv) at (i) at @ in Gi) on (iv) of ~4e (i) of Gi) at di) in (iv) under ~ @) with @ n (ii) on (iv) upon."
       },
       "marked": null,
       "cov": {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Chooseanappropriateprepositionfromtheoptionsprovidedattheendofeachquestion.(10*1=10)",
+      "q": "Choose an appropriate preposition from the options provided at the end of each question. (10*1=10)",
       "multi": false
     },
     {
@@ -107,10 +107,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Neitherofthesemencomeherebefore.(has/have)",
-        "b": "Thejurygivenitsdecision,(has/have)",
-        "c": "Maryaswellashersisterscomingtoday.(are/is)",
-        "d": "Fivehundredrupeesabigsumforapoorman.(are/is)"
+        "a": "Neither of these men come here before. (has/have)",
+        "b": "The jury given its decision, (has/have)",
+        "c": "Mary as well as her sisters coming today. (are/is)",
+        "d": "Five hundred rupees a big sum for a poor man. (are/is)"
       },
       "marked": null,
       "cov": {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Fillintheblanksinthefollowingsentenceswithappropriateverbsfromthosegiveninbrackets againsteachsentence:(10*1=10)",
+      "q": "Fill in the blanks in the following sentences with appropriate verbs from those given in brackets against each sentence: (10*1=10)",
       "multi": false
     },
     {
@@ -130,10 +130,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "EveryFriday,Mr.John(drive)hiskidstothepark. @)isdriving(ii)drove (ii)drives(iv)hasbeendriving",
-        "b": "JohnarrivedatMary’shousealittlebefore9:00P.M.butshewasnotthere.She (study,atthelibrary). (i)studiedatthelibraryGi)hasbeenstudyingatthelibrary (ii)hadstudiedatthelibrary(iv)wasstudyingatthelibrary",
-        "c": "TheTitanic(cross)theAtlanticwhenitstruckaniceberg. (i)crossesGi)hadbeencrossing ii)crossed(iv)wascrossing",
-        "d": "We(be)thereformorethanhalfanhourbythetimetheshowbegan. @~hadbeenGi)were (ii)havebeen{iv)arebeing dinner. (i)hadprepared(i)haveprepared ii)hasprepared(iv)prepared (i)cheersGi)cheer Git)wascheering(iv)willcheered"
+        "a": "Every Friday, Mr. John (drive) his kids to the park. @) is driving (ii) drove (ii) drives (iv) has been driving",
+        "b": "John arrived at Mary’s house a little before 9:00 P.M. but she was not there. She (study, at the library). (i) studied at the library Gi) has been studying at the library (ii) had studied at the library (iv) was studying at the library",
+        "c": "The Titanic (cross) the Atlantic when it struck an iceberg. (i) crosses Gi) had been crossing ii) crossed (iv) was crossing",
+        "d": "We (be) there for more than half an hour by the time the show began. @~ had been Gi) were (ii) have been {iv) are being dinner. (i) had prepared (i) have prepared ii) has prepared (iv) prepared (i) cheers Gi) cheer Git) was cheering (iv) will cheered"
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Fillintheblankswiththecorrectformsoftheverbsgiveninthebrackets.Selecttheanswerfromthe givenoptions.(6x1=6)",
+      "q": "Fill in the blanks with the correct forms of the verbs given in the brackets. Select the answer from the given options. (6x1=6)",
       "multi": false
     },
     {
@@ -153,10 +153,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Everyoneadmiresanhonestman.(IntoaComplexSentence)",
-        "b": "Hespeaksasifhewereaboyoften.(IntoaSimplesentence)",
-        "c": "Despitebeingdepressed,hemakesthemostoutofhislife.(IntoaCompoundsentence)",
-        "d": "Sugarsellscheap.(Changethevoice)"
+        "a": "Everyone admires an honest man. (Into a Complex Sentence)",
+        "b": "He speaks as if he were a boy of ten. (Into a Simple sentence)",
+        "c": "Despite being depressed, he makes the most out of his life. (Into a Compound sentence)",
+        "d": "Sugar sells cheap. (Change the voice)"
       },
       "marked": null,
       "cov": {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Changethesentencesasdirected.(10x1=10)",
+      "q": "Change the sentences as directed. (10x1=10)",
       "multi": false
     },
     {
@@ -176,10 +176,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LToftenwonderhowyouaregettingonwithhim.",
-        "b": "Hetoldastorythatsoundsuntrue.",
-        "c": "Birdsofafeatherflocktogether.",
-        "d": "WhatsheworriesaboutisthegeneraldeclineinAmericanlanguagelearningskills. EREEEE"
+        "a": "LT often wonder how you are getting on with him.",
+        "b": "He tolda story that sounds untrue.",
+        "c": "Birds ofa feather flock together.",
+        "d": "What she worries about is the general decline inA merican language learning skills. ERE EEE"
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Identifythekindofphrase/clauseofthefollowingsentences:(10x1=10)",
+      "q": "Identify the kind of phrase/clause of the following sentences: (10x1=10)",
       "multi": false
     }
   ],

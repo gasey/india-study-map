@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhenwasthefirstAtombombexploded?",
+      "q": "When was the first Atom bomb exploded?",
       "multi": false
     },
     {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheConstitutionofIndiacameintoforcein:",
+      "q": "The Constitution of India came into force in:",
       "multi": false
     },
     {
@@ -61,10 +61,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RecurringModestSecuredAccount",
-        "b": "RashtriyaMiddleSchoolAssociation",
-        "c": "RashtriyaMadhyamikShiksaAbiyan",
-        "d": "RiverManagementandSafetyAuthority"
+        "a": "Recurring Modest Secured Account",
+        "b": "Rashtriya Middle School Association",
+        "c": "Rashtriya Madhyamik Shiksa Abiyan",
+        "d": "River Management and Safety Authority"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "RMSAstandsfor:",
+      "q": "RMSA stands for:",
       "multi": false
     },
     {
@@ -84,10 +84,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RobertPeary",
+        "a": "Robert Peary",
         "b": "Magellan",
         "c": "Amundsen.",
-        "d": "AbhilashTomy"
+        "d": "Abhilash Tomy"
       },
       "marked": null,
       "cov": {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whowasthefirstpersontosailroundtheworld?",
+      "q": "Who was the first person to sail round the world?",
       "multi": false
     },
     {
@@ -107,10 +107,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "St.Peter",
-        "b": "St.Paul",
-        "c": "St.Thomas",
-        "d": "St.Joseph"
+        "a": "St. Peter",
+        "b": "St. Paul",
+        "c": "St. Thomas",
+        "d": "St. Joseph"
       },
       "marked": null,
       "cov": {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ChristianitywasintroducedinIndiaby-",
+      "q": "Christianity was introduced in India by -",
       "multi": false
     },
     {
@@ -132,7 +132,7 @@
       "opts": {
         "a": "5’brs",
         "b": "4%hrs",
-        "c": "5Shrs",
+        "c": "5S hrs",
         "d": "6hrs"
       },
       "marked": null,
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThedifferencebetweenIndianstandardtimeandGreenwichmeantimeis:",
+      "q": "The difference between Indian standard time and Greenwich mean time is:",
       "multi": false
     },
     {
@@ -153,10 +153,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "365days",
-        "b": "365%days",
-        "c": "365%days",
-        "d": "365%days"
+        "a": "365 days",
+        "b": "365% days",
+        "c": "365% days",
+        "d": "365% days"
       },
       "marked": null,
       "cov": {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Howmuchtimeearthtakestorevolveroundthesun?",
+      "q": "How much time earth takes to revolve round the sun?",
       "multi": false
     },
     {
@@ -176,10 +176,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SubscriberIdentityModule",
-        "b": "SendImportantMails",
-        "c": "SubscriberInformationMethod",
-        "d": "SystemInformationManagement"
+        "a": "Subscriber Identity Module",
+        "b": "Send Important Mails",
+        "c": "Subscriber Information Method",
+        "d": "System Information Management"
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthefullformof*SIM*?",
+      "q": "What is the full form of *SIM*?",
       "multi": false
     },
     {
@@ -200,7 +200,7 @@
       "direction": null,
       "opts": {
         "a": "Japan",
-        "b": ".Hongkong",
+        "b": ". Hongkong",
         "c": "Korea",
         "d": "Turkey"
       },
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘LandofMorningCalm’is:",
+      "q": "‘Land of Morning Calm’ is :",
       "multi": false
     },
     {
@@ -225,7 +225,7 @@
         "a": "Norway",
         "b": "Denmark",
         "c": "Belgium",
-        "d": "Switzerland -2-:"
+        "d": "Switzerland -2- :"
       },
       "marked": null,
       "cov": {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘Oslo’isthecapitalof:",
+      "q": "‘Oslo’ is the capital of :",
       "multi": false
     },
     {
@@ -245,9 +245,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "WildAsses",
+        "a": "Wild Asses",
         "b": "Rhinos",
-        "c": "AsiaticLions",
+        "c": "Asiatic Lions",
         "d": "Birds"
       },
       "marked": null,
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheBharatpurSanctuaryinRajasthanisfamousfor:",
+      "q": "The Bharatpur Sanctuary in Rajasthan is famous for :",
       "multi": false
     },
     {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MahatmaGandhidiedintheyear:",
+      "q": "Mahatma Gandhi died in the year:",
       "multi": false
     },
     {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthecurrencyofJapan?",
+      "q": "What is the currency of Japan?",
       "multi": false
     },
     {
@@ -314,10 +314,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LeoTolstoy",
+        "a": "Leo Tolstoy",
         "b": "AHuxley",
-        "c": "CharlesDicken",
-        "d": "AdamSmith"
+        "c": "Charles Dicken",
+        "d": "Adam Smith"
       },
       "marked": null,
       "cov": {
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theauthorof‘WarandPeace’was:",
+      "q": "The author of ‘War and Peace’ was:",
       "multi": false
     },
     {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "UndertheprovisionsofwhichArticleoftheconstitutionisPresident'sruleimposedinastate?",
+      "q": "Under the provisions of which Article of the constitution is President's rule imposed ina state?",
       "multi": false
     },
     {
@@ -360,9 +360,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "23and24",
-        "b": "25to28:",
-        "c": "9to22",
+        "a": "23 and 24",
+        "b": "25 to 28 :",
+        "c": "9 to 22",
         "d": "1to10"
       },
       "marked": null,
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheRighttoFreedomofreligionisguaranteedintheIndianConstitutioninArticles:",
+      "q": "The Right to Freedom of religion is guaranteed in the Indian Constitution in Articles:",
       "multi": false
     },
     {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichpartoftheconstitutiondealswiththeFundamentalRights?,",
+      "q": "Which part of the constitution deals with the Fundamental Rights? ,",
       "multi": false
     },
     {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheConstitutionofIndiaborrowedtheconceptoftheDirectivePrinciplesofStatePolicyfromthe constitutionof:",
+      "q": "The Constitution of India borrowed the concept of the Directive Principles of State Policy from the constitution of:",
       "multi": false
     },
     {
@@ -429,7 +429,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NewYork",
+        "a": "New York",
         "b": "Canada",
         "c": "Geneva",
         "d": "Nairobi"
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheheadquartersofWorldHealthOrganizationisat:",
+      "q": "The headquarters of World Health Organization is at :",
       "multi": false
     },
     {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Outofthefollowing,whichisnottheofficiallanguageofUNO?",
+      "q": "Out of the following, which is not the official language of UNO?",
       "multi": false
     },
     {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThenumberofpermanentmembersoftheUNSecurityCouncilis:",
+      "q": "The number of permanent members of the UN Security Council is:",
       "multi": false
     },
     {
@@ -498,10 +498,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Surfacewater",
-        "b": "Rainwater",
-        "c": "Wellwater",
-        "d": "Springwater"
+        "a": "Surface water",
+        "b": "Rain water",
+        "c": "Well water",
+        "d": "Spring water"
       },
       "marked": null,
       "cov": {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichisthepurestformofwater?",
+      "q": "Which is the purest form of water?",
       "multi": false
     },
     {
@@ -524,7 +524,7 @@
         "a": "Insects",
         "b": "Birds",
         "c": "Fungi",
-        "d": "Fossils -3-."
+        "d": "Fossils -3- ."
       },
       "marked": null,
       "cov": {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Entomologiysthestudyof:",
+      "q": "Entomologiys  the study of:",
       "multi": false
     },
     {
@@ -545,9 +545,9 @@
       "direction": null,
       "opts": {
         "a": "Liver",
-        "b": "LymphGlands",
+        "b": "Lymph Glands",
         "c": "Pancreas",
-        "d": "ThyroidGland"
+        "d": "Thyroid Gland"
       },
       "marked": null,
       "cov": {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thelargestglainntdhebodyis:",
+      "q": "The largest glainn tdhe  body is:",
       "multi": false
     },
     {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theinstrumentwhichmeasuresdepthoftheoceaniscalled:",
+      "q": "The instrument which measures depth of the ocean is called :",
       "multi": false
     },
     {
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘Oncology’isthestudyof:",
+      "q": "‘Oncology’ is the study of:",
       "multi": false
     },
     {
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘Lightyear’istheunitof:",
+      "q": "‘Light year’ is the unit of:",
       "multi": false
     },
     {
@@ -636,10 +636,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "South-WestMonsoon",
+        "a": "South-West Monsoon",
         "b": "Humidity",
-        "c": "Pollutantgases",
-        "d": "PopulationExplosion"
+        "c": "Pollutant gases",
+        "d": "Population Explosion"
       },
       "marked": null,
       "cov": {
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Acidrainiscausedby:",
+      "q": "Acid rain is caused by:",
       "multi": false
     },
     {
@@ -659,8 +659,8 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "15sec",
-        "b": "8sec",
+        "a": "15 sec",
+        "b": "8 sec",
         "c": "15min",
         "d": "8min"
       },
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Timetakenbysunlighttoreachtheearthis:",
+      "q": "Time taken by sunlight to reach the earth is :",
       "multi": false
     },
     {
@@ -682,10 +682,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "FirstGovernor-GeneralofIndia",
-        "b": "LastGovernor-GeneralofIndia",
-        "c": "FirstViceroyofIndia",
-        "d": "LastViceroyofIndia"
+        "a": "First Governor- General of India",
+        "b": "Last Governor- General of India",
+        "c": "First Viceroy of India",
+        "d": "Last Viceroy of India"
       },
       "marked": null,
       "cov": {
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "LordCanningwasthe:",
+      "q": "Lord Canning was the:",
       "multi": false
     },
     {
@@ -705,10 +705,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RajaRamMohanRoy",
-        "b": "SirCVRaman",
-        "c": "Mrs.SarojiniNaidu",
-        "d": "}RabindranathTagore"
+        "a": "Raja Ram Mohan Roy",
+        "b": "SirCV Raman",
+        "c": "Mrs. Sarojini Naidu",
+        "d": "} Rabindranath Tagore"
       },
       "marked": null,
       "cov": {
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheFirstIndiantogettheNobelPrizewas:",
+      "q": "The First Indian to get the Nobel Prize was :",
       "multi": false
     },
     {
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "DIETistheParliamentof:",
+      "q": "DIET is the Parliament of :",
       "multi": false
     },
     {
@@ -754,7 +754,7 @@
         "a": "Belgrade",
         "b": "Abuja",
         "c": "Havana",
-        "d": "_Tripoli"
+        "d": "_ Tripoli"
       },
       "marked": null,
       "cov": {
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheCapitalofLibyais:",
+      "q": "The Capital of Libya is:",
       "multi": false
     },
     {
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThecurrencyofThailandis:",
+      "q": "Thecurrency of Thailand is:",
       "multi": false
     },
     {
@@ -800,7 +800,7 @@
         "a": "Badminton",
         "b": "Cricket",
         "c": "Hockey",
-        "d": "Football 4.‘"
+        "d": "Football 4. ‘"
       },
       "marked": null,
       "cov": {
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Withwhatgameis‘SantoshTrophy’associated?",
+      "q": "With what game is ‘Santosh Trophy’ associated?",
       "multi": false
     },
     {
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whoiscalledthe‘FatherofGeometry’?",
+      "q": "Who is called the ‘Father of Geometry’?",
       "multi": false
     },
     {
@@ -843,10 +843,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Durandcup",
-        "b": "IFAShield",
-        "c": "RoversCup",
-        "d": "DavisCup"
+        "a": "Durand cup",
+        "b": "IFA Shield",
+        "c": "Rovers Cup",
+        "d": "Davis Cup"
       },
       "marked": null,
       "cov": {
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheoldestFootballtournamentinIndiais:",
+      "q": "The oldest Football tournament in India is :",
       "multi": false
     },
     {
@@ -866,10 +866,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "FlorenceNightingale",
-        "b": "SarojijiNaidu",
-        "c": "RaziaSultan",
-        "d": "MotherTeresa"
+        "a": "Florence Nightingale",
+        "b": "Sarojiji Naidu",
+        "c": "Razia Sultan",
+        "d": "Mother Teresa"
       },
       "marked": null,
       "cov": {
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whowasknownas‘Ladyofthelamp’?",
+      "q": "Who was known as ‘ Lady of the lamp’?",
       "multi": false
     },
     {
@@ -892,7 +892,7 @@
         "a": "Hitler",
         "b": "Stalin",
         "c": "Napoleon",
-        "d": "MahatmaGandhi"
+        "d": "Mahatma Gandhi"
       },
       "marked": null,
       "cov": {
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whowasknownas‘ManofDestinity\"?",
+      "q": "Who was known as ‘Man of Destinity\"?",
       "multi": false
     },
     {
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingistheunittoexpressthememoryofacomputer?",
+      "q": "Which of the following is the unit to express the memory of a computer?",
       "multi": false
     },
     {
@@ -936,9 +936,9 @@
       "direction": null,
       "opts": {
         "a": "CPU",
-        "b": "Inputunit",
-        "c": "ControlUnit",
-        "d": "Arithmeticunit"
+        "b": "Input unit",
+        "c": "Control Unit",
+        "d": "Arithmetic unit"
       },
       "marked": null,
       "cov": {
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisknownasthe‘brainofcomputer’?",
+      "q": "What is known as the ‘brain of computer’?",
       "multi": false
     },
     {
@@ -958,10 +958,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "21years",
-        "b": "25years",
-        "c": "30years",
-        "d": "35years‘"
+        "a": "21 years",
+        "b": "25 years",
+        "c": "30 years",
+        "d": "35 years ‘"
       },
       "marked": null,
       "cov": {
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatistheminimumagerequiredtobeeligibleforelectiontoRajyaSabha?",
+      "q": "What is the minimum age required to be eligible for election to Rajya Sabha?",
       "multi": false
     },
     {
@@ -981,10 +981,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Durandline",
-        "b": "McMahonline",
-        "c": "Radcliffeline",
-        "d": "Maginotline"
+        "a": "Durand line",
+        "b": "McMahon line",
+        "c": "Radcliffe line",
+        "d": "Maginot line"
       },
       "marked": null,
       "cov": {
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThelinedemarcatingtheboundarybetweenIndiaandPakistanis:.",
+      "q": "The line demarcating the boundary between India and Pakistan is: .",
       "multi": false
     },
     {
@@ -1007,7 +1007,7 @@
         "a": "Agra",
         "b": "Pune",
         "c": "Dehradun",
-        "d": "NewDelhi"
+        "d": "New Delhi"
       },
       "marked": null,
       "cov": {
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheJawaharlalNehruUniversitiyssituatedin:",
+      "q": "The Jawaharlal Nehru Universitiys  situated in:",
       "multi": false
     },
     {
@@ -1027,10 +1027,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "one-tenthofthemembershipofthehouse",
-        "b": "one-thirdofthemembershipofthehouse",
-        "c": "one-halfofthemembershipofthehouse",
-        "d": "four-fifthofthemembershipofthehouse"
+        "a": "one-tenth of the membership of the house",
+        "b": "one-third of the membership of the house",
+        "c": "one-half of the membership of the house",
+        "d": "four-fifth of the membership of the house"
       },
       "marked": null,
       "cov": {
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thequorumoftheparliamentisfixedat:",
+      "q": "The quorum of the parliament is fixed at:",
       "multi": false
     },
     {
@@ -1050,10 +1050,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PrimeMinisterofIndia",
-        "b": "SpeakeroftheLokSabha",
-        "c": "PresidentofIndia",
-        "d": "ChiefJusticeofIndia"
+        "a": "Prime Minister of India",
+        "b": "Speaker of the Lok Sabha",
+        "c": "President of India",
+        "d": "Chief Justice of India"
       },
       "marked": null,
       "cov": {
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThejudgesoftheSupremeCourtareappointedbythe:",
+      "q": "The judges of the Supreme Court are appointed by the :",
       "multi": false
     },
     {
@@ -1073,10 +1073,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Onlyonce",
-        "b": "Onceeveryyear",
-        "c": "Afterevery5years",
-        "d": "Afterevery10years"
+        "a": "Only once",
+        "b": "Once every year",
+        "c": "After every 5 years",
+        "d": "After every 10 years"
       },
       "marked": null,
       "cov": {
@@ -1086,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HowoftentheFinanceCommissionisconstitutedinIndia?",
+      "q": "How often the Finance Commission is constituted in India?",
       "multi": false
     },
     {
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichcountryisnotinEurope?",
+      "q": "Which country is not in Europe?",
       "multi": false
     },
     {
@@ -1119,10 +1119,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "CockpitofEurope",
-        "b": "HermitKingdom",
-        "c": "LandoftheGoldenFleece",
-        "d": "SugarBowloftheworld ~J5-."
+        "a": "Cockpit of Europe",
+        "b": "Hermit Kingdom",
+        "c": "Land of the Golden Fleece",
+        "d": "Sugar Bowl of the world ~J5- ."
       },
       "marked": null,
       "cov": {
@@ -1132,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Cubaisnicknamedas:",
+      "q": "Cuba is nicknamed as:",
       "multi": false
     },
     {
@@ -1142,10 +1142,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "OilproducingEuropeanCountries",
-        "b": "OrganizationofPetroleumExportingcountries",
-        "c": "OilandPetroleumExploringCountries",
-        "d": "OrganizationofPacificExploringcountries"
+        "a": "Oil producing European Countries",
+        "b": "Organization of Petroleum Exporting countries",
+        "c": "Oil and Petroleum Exploring Countries",
+        "d": "Organization of Pacific Exploring countries"
       },
       "marked": null,
       "cov": {
@@ -1155,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OPECstandsfor:",
+      "q": "OPEC stands for:",
       "multi": false
     },
     {
@@ -1168,7 +1168,7 @@
         "a": "Equinox",
         "b": "Occluded",
         "c": "Veering",
-        "d": "Aphelion (a)Latitudes(b)Longitudes (c)Parallels(d)Altitudes"
+        "d": "Aphelion (a) Latitudes (b) Longitudes (c) Parallels (d) Altitudes"
       },
       "marked": null,
       "cov": {
@@ -1178,7 +1178,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhendaysandnightsareofequallengthonSeptember23,thispositionisknownas:",
+      "q": "When days and nights are of equal length on September 23, this position is known as:",
       "multi": false
     },
     {
@@ -1201,7 +1201,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichatmosphericlayerismostimportantforhumanbeings?",
+      "q": "Which atmospheric layer is most important for human beings?",
       "multi": false
     },
     {
@@ -1212,9 +1212,9 @@
       "direction": null,
       "opts": {
         "a": "Assam",
-        "b": "ArunachalPradesh",
+        "b": "Arunachal Pradesh",
         "c": "Sikkim",
-        "d": "JammuandKashmir"
+        "d": "Jammu and Kashmir"
       },
       "marked": null,
       "cov": {
@@ -1224,7 +1224,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "The‘Lepchas’aremostlyfoundinanIndianstatenamely;",
+      "q": "The ‘Lepchas’ are mostly found in an Indian state namely;",
       "multi": false
     },
     {
@@ -1236,8 +1236,8 @@
       "opts": {
         "a": "Herodotus",
         "b": "Megasthenes",
-        "c": "JohnRey",
-        "d": "IbnBattuta"
+        "c": "John Rey",
+        "d": "Ibn Battuta"
       },
       "marked": null,
       "cov": {
@@ -1247,7 +1247,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘FatherofHistory’isthenamegivento:",
+      "q": "‘Father of History’ is the name given to:",
       "multi": false
     },
     {
@@ -1258,9 +1258,9 @@
       "direction": null,
       "opts": {
         "a": "Laichungnunga",
-        "b": "LallianzualaChhangte",
-        "c": "LalengmawiaRalte",
-        "d": "JejeLalpekhlua"
+        "b": "Lallianzuala Chhangte",
+        "c": "Lalengmawia Ralte",
+        "d": "Jeje Lalpekhlua"
       },
       "marked": null,
       "cov": {
@@ -1270,7 +1270,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whoisthemostrecentrecipientofthe‘AIFFIndianMen’sFootballeroftheYearAward’?",
+      "q": "Who is the most recent recipient of the ‘AIFF Indian Men’s Footballer of the Year Award’?",
       "multi": false
     },
     {
@@ -1293,7 +1293,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Mr.Lalbiakzama,thecurrentSpeakerofthe9MizoramLegislativeAssemblywaselectedfrom whichconstituency?",
+      "q": "Mr. Lalbiakzama, the current Speaker of the 9 Mizoram Legislative Assembly was elected from which constituency?",
       "multi": false
     },
     {
@@ -1316,7 +1316,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "EbrahimRaisi,whowaskilledinahelicoptercrashinMay,2024wasthePresidentof:",
+      "q": "Ebrahim Raisi, who was killed in a helicopter crash in May, 2024 was the President of:",
       "multi": false
     },
     {
@@ -1329,7 +1329,7 @@
         "a": "Afghanistan",
         "b": "India",
         "c": "Australia",
-        "d": "NewZealand"
+        "d": "New Zealand"
       },
       "marked": null,
       "cov": {
@@ -1339,7 +1339,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichteamwonthe9\"ICCMen’sT20WorldCupbydefeatingtheSouthAfricanTeam?",
+      "q": "Which team won the 9\" ICC Men’s T20 World Cup by defeating the South African Team?",
       "multi": false
     },
     {
@@ -1349,10 +1349,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "CharlesMichel",
-        "b": "HermanVanRompuy",
-        "c": "AntonieCosta",
-        "d": "VonderLeyen"
+        "a": "Charles Michel",
+        "b": "Herman Van Rompuy",
+        "c": "Antonie Costa",
+        "d": "Vonder Leyen"
       },
       "marked": null,
       "cov": {
@@ -1362,7 +1362,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Recently,whohasbeenelectedasthenewPresidentoftheEuropeanCounciloftheEuropeanUnion?",
+      "q": "Recently, who has been elected as the new President of the European Council of the European Union?",
       "multi": false
     },
     {
@@ -1372,10 +1372,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "VikramSeth",
-        "b": "NeelamSaxena",
-        "c": "VikramSingh",
-        "d": "ArundhatiRoy"
+        "a": "Vikram Seth",
+        "b": "Neelam Saxena",
+        "c": "Vikram Singh",
+        "d": "Arundhati Roy"
       },
       "marked": null,
       "cov": {
@@ -1385,7 +1385,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhohasbeenawardedthePENPinterPrize2024?",
+      "q": "Who has been awarded the PEN Pinter Prize 2024?",
       "multi": false
     },
     {
@@ -1395,7 +1395,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ArunachalPradesh",
+        "a": "Arunachal Pradesh",
         "b": "Assam",
         "c": "Sikkim",
         "d": "Tripura"
@@ -1408,7 +1408,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "PemaKhandurecentlybecametheChiefMinisterofwhichstate?",
+      "q": "Pema Khandu recently became the Chief Minister of which state?",
       "multi": false
     },
     {
@@ -1421,7 +1421,7 @@
         "a": "Bacteria",
         "b": "Fungus",
         "c": "Virus",
-        "d": "Protozoa -7-:"
+        "d": "Protozoa -7- :"
       },
       "marked": null,
       "cov": {
@@ -1431,7 +1431,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthecausativeagentofAfricanSwineFever,recentlyseeninNews?",
+      "q": "What is the causative agent of African Swine Fever, recently seen in News?",
       "multi": false
     },
     {
@@ -1454,7 +1454,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichcityiscalled‘thePinkCity’?",
+      "q": "Which city is called ‘the Pink City’?",
       "multi": false
     },
     {
@@ -1477,7 +1477,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichcountryisthenewMissUniverse2024from?",
+      "q": "Which country is the new Miss Universe 2024 from?",
       "multi": false
     },
     {
@@ -1487,10 +1487,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "VikramSarabhai",
-        "b": "SunitaWilliams",
-        "c": "RakeshSharma",
-        "d": "KalpanaChawla"
+        "a": "Vikram Sarabhai",
+        "b": "Sunita Williams",
+        "c": "Rakesh Sharma",
+        "d": "Kalpana Chawla"
       },
       "marked": null,
       "cov": {
@@ -1500,7 +1500,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowasthefirstIndiancosmonauttogointospace?",
+      "q": "Who was the first Indian cosmonaut to go into space?",
       "multi": false
     },
     {
@@ -1511,7 +1511,7 @@
       "direction": null,
       "opts": {
         "a": "C.V.Raman",
-        "b": "JawaharlalNehru",
+        "b": "Jawaharlal Nehru",
         "c": "C.Rajagopalachari",
         "d": "S.Radhakrishnan"
       },
@@ -1523,7 +1523,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowasthefirstIndiantoreceivetheBharatRatnaAward?",
+      "q": "Who was the first Indian to receive the Bharat Ratna Award?",
       "multi": false
     },
     {
@@ -1533,9 +1533,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Dr.ZakirHussain",
+        "a": "Dr. Zakir Hussain",
         "b": "FA.Ahmed",
-        "c": "Dr.APJAbdulKalam",
+        "c": "Dr. APJ Abdul Kalam",
         "d": "MHidayatullah"
       },
       "marked": null,
@@ -1546,7 +1546,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowasthefirstmuslimPresidentoftheIndianRepublic?",
+      "q": "Who was the first muslim President of the Indian Republic?",
       "multi": false
     },
     {
@@ -1556,10 +1556,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Assam,Meghalaya,Tripura",
-        "b": "Assam,AunachalPradesh,Tripura",
-        "c": "Assam,Manipur,Meghalaya",
-        "d": "Assam,Tripura,Manipur"
+        "a": "Assam, Meghalaya, Tripura",
+        "b": "Assam, Aunachal Pradesh, Tripura",
+        "c": "Assam, Manipur, Meghalaya",
+        "d": "Assam, Tripura, Manipur"
       },
       "marked": null,
       "cov": {
@@ -1569,7 +1569,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichstatesdoMizoramsharesitsborderwith?",
+      "q": "Which states do Mizoram shares its border with?",
       "multi": false
     },
     {
@@ -1579,10 +1579,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Hnahthial,Lawngtiai,Saitual",
-        "b": "Khawzawl,Hnahthial,Saitual",
-        "c": "Hnahthial,Saitual,Mamit",
-        "d": "Serchhip,Khawzawl,Hnahthial"
+        "a": "Hnahthial, Lawngtiai, Saitual",
+        "b": "Khawzawl, Hnahthial, Saitual",
+        "c": "Hnahthial, Saitual, Mamit",
+        "d": "Serchhip, Khawzawl, Hnahthial"
       },
       "marked": null,
       "cov": {
@@ -1592,7 +1592,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Which3districtsofMizorambecameoperationalafterJune2019?",
+      "q": "Which 3 districts of Mizoram became operational after June 2019?",
       "multi": false
     },
     {
@@ -1603,8 +1603,8 @@
       "direction": null,
       "opts": {
         "a": "Nuchhungi",
-        "b": "LalsangzualiSailo",
-        "c": "BuangiSailo",
+        "b": "Lalsangzuali Sailo",
+        "c": "Buangi Sailo",
         "d": "Khawlkungi"
       },
       "marked": null,
@@ -1615,7 +1615,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstMizowomanawardedwithPadmaShriinliteraturewas:",
+      "q": "The first Mizo woman awarded with Padma Shri in literature was:",
       "multi": false
     },
     {
@@ -1638,7 +1638,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhicharticleinIndianconstitutiongivespecialprovisionforMizoram?",
+      "q": "Which article in Indian constitution give special provision for Mizoram?",
       "multi": false
     },
     {
@@ -1648,10 +1648,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Socialwork",
+        "a": "Social work",
         "b": "Arts",
         "c": "Literature",
-        "d": "TradeandIndustry"
+        "d": "Trade and Industry"
       },
       "marked": null,
       "cov": {
@@ -1661,7 +1661,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InwhichcategorydidMr.SangthankimawinthePadmaShriAward?",
+      "q": "In which category did Mr. Sangthankima win the Padma Shri Award?",
       "multi": false
     },
     {
@@ -1674,7 +1674,7 @@
         "a": "Aizawl",
         "b": "Lunglei",
         "c": "Champhai",
-        "d": "Mamit (a)Rev.Zairema(b)Rev.Chuauthuama (c)Prof.Darchhawna(d)Capt.L.Z.Sailo (a)Mamit(b)Siaha (c)Aizawl(d)Kolasib (a)Tlawngriver(b)ChhimtuipuiRiver (c)Tuirialriver(d)Tuivawlriver. -8-“ A.Sihlipui:RomuanpuiiZadeng B.RinteiZunleng:LalrammawiaNgente C.BiblelehScience:C.Laizawna D.Anita:P.C.Biaksiama (a)OnlyA(b)A&B (c)C&D(d)A,C&D (a)YouthHerald(b)TheAizawlPost (c)TheMizoramPost(a)TimesofMizoram (a)Pangparhnima(6)DaidannaBangPhenaThuruk (c)Hotakhui(d)RaltiangRimawi"
+        "d": "Mamit (a) Rev. Zairema (b) Rev. Chuauthuama (c) Prof. Darchhawna (d) Capt. L.Z.Sailo (a) Mamit (b) Siaha (c) Aizawl (d) Kolasib (a) Tlawng river (b) Chhimtuipui River (c) Tuirial river (d) Tuivawl river . -8- “ A. Sihlipui : Romuanpuii Zadeng B. Rintei Zunleng : Lalrammawia Ngente C. Bibleleh Science : C.Laizawna D. Anita : P.C.Biaksiama (a) OnlyA (b) A&B (c) C&D (d) A,C&D (a) Youth Herald (b) The Aizawl Post (c) The Mizoram Post (a) Times of Mizoram (a) Pangparhnima (6) Daidanna Bang Phena Thuruk (c) Hotak hui (d) Raltiang Rimawi"
       },
       "marked": null,
       "cov": {
@@ -1684,7 +1684,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichdistricthasthelargestareainMizoram?",
+      "q": "Which district has the largest area in Mizoram?",
       "multi": false
     },
     {
@@ -1697,7 +1697,7 @@
         "a": "Arkhal",
         "b": "Daibawl",
         "c": "Kelkhal",
-        "d": "Fanodawi"
+        "d": "Fano dawi"
       },
       "marked": null,
       "cov": {
@@ -1707,7 +1707,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AccordingtoMizohistory,whichsacrificewasmadetoenhancepaddycultivationinthevillage?",
+      "q": "According to Mizo history, which sacrifice was made to enhance paddy cultivation in the village?",
       "multi": false
     },
     {
@@ -1717,10 +1717,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "CycloneFani",
-        "b": "CycloneRemal",
-        "c": "CycloneHikka",
-        "d": "CycloneMaha."
+        "a": "Cyclone Fani",
+        "b": "Cyclone Remal",
+        "c": "Cyclone Hikka",
+        "d": "Cyclone Maha ."
       },
       "marked": null,
       "cov": {
@@ -1730,7 +1730,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthenameofcyclonethathitNorthEastIndiaandcausedahugeamountofrainfallinMizoram duringMay2024?",
+      "q": "What is the name of cyclone that hit North East India and caused a huge amount of rainfall in Mizoram during May 2024?",
       "multi": false
     },
     {
@@ -1740,10 +1740,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "WardnoXIV",
-        "b": "WardNoXVI:",
-        "c": "WardNoXIX",
-        "d": "WardNoXVII"
+        "a": "Ward no XIV",
+        "b": "Ward No XVI :",
+        "c": "Ward No XIX",
+        "d": "Ward No XVII"
       },
       "marked": null,
       "cov": {
@@ -1753,7 +1753,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichAMCWardhadaby-electionforcorporatorinJune2024?",
+      "q": "Which AMC Ward had a by-election for corporator in June 2024?",
       "multi": false
     },
     {
@@ -1765,8 +1765,8 @@
       "opts": {
         "a": "Vauthla",
         "b": "Thlazing",
-        "c": "Sahmulphahthla",
-        "d": "Thitin AARRKEE"
+        "c": "Sahmulphah thla",
+        "d": "Thitin AAR RK EE"
       },
       "marked": null,
       "cov": {
@@ -1776,7 +1776,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InMizolanguage,whatisthenameforthemonthof‘August’?",
+      "q": "In Mizo language, what is the name for the month of ‘August’?",
       "multi": false
     }
   ],

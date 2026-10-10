@@ -618,6 +618,19 @@ def build_additional():
                                           for answer in key['answers'].values()))
         entry['imported'] = True
         entry['reviewRequired'] = not complete_source_review
+        if slug == 'archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde' and key:
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440' and key:
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890' and key:
+            # Printed cover, page 1: "Time Allowed: 3 hours", "FM : 100",
+            # "PART-A (40 Marks)" written; page 3: "PART-B (60 Marks)" with
+            # "one third of the marks ... deducted as penalty" for wrong answers.
+            # Part-B is 30 questions at 2 marks each, keyed from the final key.
+            meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 180,
+                             'negativeMarking': True, 'penaltyFraction': 1/3}
         if slug == 'archive2325-acf-2023-general-knowledge' and key:
             # Printed cover, page 1: "Time Allowed: 3 hours", "Full Marks: 100",
             # "All questions carry equal marks of 1 each"; no negative-marking

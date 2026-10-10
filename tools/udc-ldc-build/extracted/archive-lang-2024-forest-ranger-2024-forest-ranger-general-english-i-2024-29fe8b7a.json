@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Burythehatchet",
-        "b": "Closeshave",
-        "c": "Atthespurofamoment",
-        "d": "Anuphilltask"
+        "a": "Bury the hatchet",
+        "b": "Close shave",
+        "c": "Atthe spur ofa moment",
+        "d": "An uphill task"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Makesentenceswithanysevenofthefollowingidiomsandphrases:(7*2=14)",
+      "q": "Make sentences with any seven of the following idioms and phrases: (7*2=14)",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Romewasnotbuiltinaday",
-        "b": "Beggarscannotbechoosers",
-        "c": "Astitchintimesavesnine:",
-        "d": "Necessityisthemotherofinvention"
+        "a": "Rome was not built ina day",
+        "b": "Beggars cannot be choosers",
+        "c": "Astitch in time saves nine :",
+        "d": "Necessity is the mother of invention"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Expandtheideacontainedinanythreeofthefollowingsentences:(3x5=15)",
+      "q": "Expand the idea contained in any three of the following sentences: (3x5=15)",
       "multi": false
     },
     {
@@ -61,10 +61,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Mentionthreeproblemsthatthewriterfacedduringarainyday.(3)",
-        "b": "Whatdifficultiesdidthenewspaperreportthenextday?(3)",
-        "c": "Explain:(3x2=6) (@)Mixedfeelings @)Rhythmofnature (i)Graphicaccount",
-        "d": "Howdopeoplelivinginareaswithheavymonsoonprepareforit?(3) eRREE"
+        "a": "Mention three problems that the writer faced during a rainy day. (3)",
+        "b": "What difficulties did the newspaper report the next day? (3)",
+        "c": "Explain: (3x2=6) (@) Mixed feelings @) Rhythm of nature (i) Graphic account",
+        "d": "How do people living in areas with heavy monsoon prepare for it? (3) eR REE"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Readthepassagecarefullyandanswerthequestionsgiventhereafter: Iwenttobedwithmixedfeelingsabouttherainyday.Thoughithadinitiallystartedwellwith thecoolbreezesandthedropletsoutsidemywindow,gettingtoschoolwasanuncomfortable experience.Duringthefreeperiodswemissedthebrightsunshinewhenweusedtorunaboutinthe playground.Towardstheevening,theelectricitywentoffforafewhoursandIcouldnotdomy homework.Thenextdaythepapersreportedthatmanypeoplefacedhardshipswhiletravelling. Trainsaredelayedandtaxiswerecharginghigherratesthanusualatthestation.Buttherearedifferent seasonssowemaybeintouchwiththerhythmofnature.Italsomakesitpossibleforustoappreciate whatweotherwisetakeforgranted. Therainandrainydaysaffectpeopleindifferentwaysatdifferenttimes.AlexanderFrater’s bookChasingtheMonsoongivesagraphicaccountofthewaythemonsoonaffectspeople’slives acrossIndia.Inplaceswhichhaveaheavymonsoon,rainydaysareawayoflifeandpeopleprepare fortheseasonbystockingupprovisionsandbuyingraingear.However,inrecenttimestherainhas beenplayingtruant.Withclimatechangestaringusinthefaceglobally,itcouldwellbethatthebeauty oftherainwillbeathingofthepast. Questions:",
+      "q": "Read the passage carefully and answer the questions given thereafter : I went to bed with mixed feelings about the rainy day. Though it had initially started well with the cool breezes and the droplets outside my window, getting to school was an uncomfortable experience. During the free periods we missed the bright sunshine when we used to run about in the playground. Towards the evening, the electricity went off for a few hours and I could not do my homework. The next day the papers reported that many people faced hardships while travelling. Trains are delayed and taxis were charging higher rates than usual at the station. But there are different seasons so we may be in touch with the rhythm of nature. It also makes it possible for us to appreciate what we otherwise take for granted. The rain and rainy days affect people in different ways at different times. Alexander Frater’s book Chasing the Monsoon gives a graphic account of the way the monsoon affects people’s lives across India. In places which have a heavy monsoon, rainy days are a way of life and people prepare for the season by stocking up provisions and buying rain gear. However, in recent times the rain has been playing truant. With climate change staring us in the face globally, it could well be that the beauty of the rain will be a thing of the past. Questions:",
       "multi": false
     }
   ],

@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MemoryUnit",
-        "b": "Arithmetic&LogicUnit",
-        "c": "InputUnit",
-        "d": "OutputUnit"
+        "a": "Memory Unit",
+        "b": "Arithmetic & Logic Unit",
+        "c": "Input Unit",
+        "d": "Output Unit"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichunitisresponsibleforconvertingthedatareceivedfromtheuserintoacomputerunderstandable format?",
+      "q": "Which unit is responsible for converting the data received from the user into a computer understandable format?",
       "multi": false
     },
     {
@@ -41,7 +41,7 @@
         "a": "Auxiliary",
         "b": "Main",
         "c": "Cache",
-        "d": "Virtualmemory"
+        "d": "Virtual memory"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AnextremelyfastmemorytypethatactsasabufferbetweenRAMandtheCPU.",
+      "q": "An extremely fast memory type that acts as a buffer between RAM and the CPU.",
       "multi": false
     },
     {
@@ -61,9 +61,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ApplicationSoftware",
-        "b": "SystemSoftware",
-        "c": "UtilitySoftware",
+        "a": "Application Software",
+        "b": "System Software",
+        "c": "Utility Software",
         "d": "Script"
       },
       "marked": null,
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingisdesignedtocontroltheoperationsofacomputer?",
+      "q": "Which of the following is designed to control the operations of a computer?",
       "multi": false
     },
     {
@@ -86,7 +86,7 @@
       "opts": {
         "a": "Middleware",
         "b": "Package",
-        "c": "SystemSoftware",
+        "c": "System Software",
         "d": "Firmware"
       },
       "marked": null,
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aformofmicrocodeorprogramembeddedintohardwaredevicestohelpthemoperateeffectively.",
+      "q": "A form of microcode or program embedded into hardware devices to help them operate effectively.",
       "multi": false
     },
     {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thekeyboardlayoutwascreatedtomakeiteasierfortelegraphoperatorsto transcribeMorsecode.",
+      "q": "The keyboard layout was created to make it easier for telegraph operators to transcribe Morse code.",
       "multi": false
     },
     {
@@ -130,10 +130,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TrashBin",
-        "b": "DeletedBin",
-        "c": "GarbageBin",
-        "d": "RecycleBin"
+        "a": "Trash Bin",
+        "b": "Deleted Bin",
+        "c": "Garbage Bin",
+        "d": "Recycle Bin"
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theisatemporarystorageareaforfilesthathavebeendeletedbytheuser.",
+      "q": "The is a temporary storage area for files that have been deleted by the user.",
       "multi": false
     },
     {
@@ -153,10 +153,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Whenaprogramfirstopens",
-        "b": "Whenyoufirstbootupyourcomputer",
-        "c": "Whenaprogramisunresponsive",
-        "d": "Whenyouwanttodeleteafile"
+        "a": "Whena program first opens",
+        "b": "When you first boot up your computer",
+        "c": "Whena program is unresponsive",
+        "d": "When you want to delete a file"
       },
       "marked": null,
       "cov": {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhenwouldyouusetheCtrl+Alt+DeletekeyboardshortcutWindowsOS?",
+      "q": "When would you use the Ctrl+Alt+Delete keyboard shortcut Windows OS?",
       "multi": false
     },
     {
@@ -176,10 +176,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "DiskDefragmenter",
-        "b": "Taskmanager",
-        "c": "DiskCleanup:",
-        "d": "Backup. -2-."
+        "a": "Disk Defragmenter",
+        "b": "Task manager",
+        "c": "Disk Cleanup :",
+        "d": "Backup . -2- ."
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AWindowOSutilityprogramthatlocatesandeliminatesunnecessaryfragmentsandrearrangesfiles andunuseddiskspacetooptimizeoperations.",
+      "q": "A Window OS utility program that locates and eliminates unnecessary fragments and rearranges files and unused disk space to optimize operations.",
       "multi": false
     },
     {
@@ -199,10 +199,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Tostorefilesthatarecurrentlybeingusedbythesystemandcannotbedeleted",
-        "b": "TostoresystemfilesthatarenecessaryfortheoperationofWindows",
-        "c": "Tostorefilesthatarenolongerneeded.",
-        "d": "Todisplayalistofrecentlyusedfiles"
+        "a": "To store files that are currently being used by the system and cannot be deleted",
+        "b": "To store system files that are necessary for the operation of Windows",
+        "c": "To store files that are no longer needed.",
+        "d": "To display a list of recently used files"
       },
       "marked": null,
       "cov": {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthepurposeoftheRecentfolderinWindows?",
+      "q": "What is the purpose of the Recent folder in Windows?",
       "multi": false
     },
     {
@@ -222,7 +222,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BigSur",
+        "a": "Big Sur",
         "b": "Monteray",
         "c": "Sonoma",
         "d": "Vantura"
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThelatestMacOSversionreleasenameis-",
+      "q": "The latest Mac OS version release name is-",
       "multi": false
     },
     {
@@ -248,7 +248,7 @@
         "a": "Tellme",
         "b": "Search",
         "c": "Find",
-        "d": "FindMe"
+        "d": "Find Me"
       },
       "marked": null,
       "cov": {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InMSWord,atextfieldwhereyoucanenterwordsandphrasesaboutwhatyouwanttodonext andquicklygettofeaturesyouwanttouseoractionsyouwanttoperform.",
+      "q": "In MS Word, a text field where you can enter words and phrases about what you want to do next and quickly get to features you want to use or actions you want to perform.",
       "multi": false
     },
     {
@@ -268,10 +268,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Checkspellingasyoutype",
-        "b": "Markgrammarasyoutype",
-        "c": "Frequentlyconfusedwords",
-        "d": "Alloftheabove"
+        "a": "Check spelling as you type",
+        "b": "Mark grammar as you type",
+        "c": "Frequently confused words",
+        "d": "Allofthe above"
       },
       "marked": null,
       "cov": {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhencorrectingspellingandgrammarusingAutoCorrectioninMSWord,thefollowingoptionsare available-",
+      "q": "When correcting spelling and grammar using Auto Correction in MS Word, the following options are available-",
       "multi": false
     },
     {
@@ -291,10 +291,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Identifyingatextforfutureuse",
-        "b": "Identifyingheadersandfooters",
-        "c": "Pointingoutthecomments",
-        "d": "Identifyfontssize (a)Leftalignment(b)Rightalignment (c)Middlealignment(d)Centeralignment"
+        "a": "Identifying a text for future use",
+        "b": "Identifying headers and footers",
+        "c": "Pointing out the comments",
+        "d": "Identify fonts size (a) Leftalignment (b) Rightalignment (c) Middle alignment (d) Center alignment"
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatistheuseofBookmarkinMSWord?",
+      "q": "What is the use of Bookmark in MS Word?",
       "multi": false
     },
     {
@@ -315,8 +315,8 @@
       "direction": null,
       "opts": {
         "a": "Footnote",
-        "b": "Dropcap",
-        "c": "Tabstop",
+        "b": "Drop cap",
+        "c": "Tab stop",
         "d": "Heading"
       },
       "marked": null,
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ahugecapitalletterwiththewidthoftwoormorelinesofconventionaltextthatappearsatthestart ofatextblockoraparagraphinMSWord.",
+      "q": "A huge capital letter with the width of two or more lines of conventional text that appears at the start of a text block or a paragraph in MS Word.",
       "multi": false
     },
     {
@@ -338,7 +338,7 @@
       "direction": null,
       "opts": {
         "a": "Scaling",
-        "b": "WordWrap",
+        "b": "Word Wrap",
         "c": "WordArt",
         "d": "Numbering"
       },
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Awordprocessingfeaturethatautomaticallytransfersawordthathasnoinsufficientspacefromthe endofonelineoftexttothebeginningofthenext.",
+      "q": "A word processing feature that automatically transfers a word that has no insufficient space from the end of one line of text to the beginning of the next.",
       "multi": false
     },
     {
@@ -360,7 +360,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Ctrl+Home",
+        "a": "Ctrl + Home",
         "b": "Ctrl+O",
         "c": "Ctrl+N",
         "d": "Ctrl+C"
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AshortcutkeyusedinMSWordtomovethecursortothebeginningofthedocument.",
+      "q": "Ashortcut key used in MS Word to move the cursor to the beginning of the document.",
       "multi": false
     },
     {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aallowsyoutolinktootherpartsofthesamedocument.",
+      "q": "A allows you to link to other parts of the same document.",
       "multi": false
     },
     {
@@ -408,7 +408,7 @@
       "opts": {
         "a": "Copier",
         "b": "Formatter",
-        "c": "Formatpainter",
+        "c": "Format painter",
         "d": "Duplicator"
       },
       "marked": null,
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AnExcelcommandwhichletsyoucopyformattingfromonecelltoanother.",
+      "q": "An Excel command which lets you copy formatting from one cell to another.",
       "multi": false
     },
     {
@@ -429,10 +429,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "HighlightCellRules",
-        "b": "Top/BottomRules",
-        "c": "ExcelManageRules",
-        "d": "ConditionalFormatting ~3-,"
+        "a": "Highlight Cell Rules",
+        "b": "Top/Bottom Rules",
+        "c": "Excel Manage Rules",
+        "d": "Conditional Formatting ~3- ,"
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InExcel,isusedtochangetheappearanceofcellsinarangebasedonyourspecified conditions.",
+      "q": "InExcel, is used to change the appearance of cells in a range based on your specified conditions.",
       "multi": false
     },
     {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ApremadefunctioninExcel,whichcalculatestheaverageofarangebasedononeormoretrueor falsecondition?",
+      "q": "A premade function in Excel, which calculates the average of a range based on one or more true or false condition?",
       "multi": false
     },
     {
@@ -477,8 +477,8 @@
       "opts": {
         "a": "Tre",
         "b": "False",
-        "c": "TrueorFalse",
-        "d": "Noneoftheabove"
+        "c": "True or False",
+        "d": "None of the above"
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheSUMIFfunctionisapremadefunctioninExcel,whichcalculatesthesumofvaluesinarange basedonwhichcondition?",
+      "q": "The SUMIF function is a premade function in Excel, which calculates the sum of values in a range based on which condition?",
       "multi": false
     },
     {
@@ -499,9 +499,9 @@
       "direction": null,
       "opts": {
         "a": "Chart",
-        "b": "ColorScales",
-        "c": "Databars",
-        "d": "PivotTable"
+        "b": "Color Scales",
+        "c": "Data bars",
+        "d": "Pivot Table"
       },
       "marked": null,
       "cov": {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AfunctionalityinExcelwhichhelpsyouorganizeandanalyzedata,andletsyouaddandremove values,performcalculations,andtofilterandsortdatasets?",
+      "q": "A functionality in Excel which helps you organize and analyze data, and lets you add and remove values, perform calculations, and to filter and sort data sets?",
       "multi": false
     },
     {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HowcanyousumthevaluesincellsA]throughA10inExcel?",
+      "q": "How can you sum the values in cells A] through A10 in Excel?",
       "multi": false
     },
     {
@@ -547,7 +547,7 @@
         "a": "Copying",
         "b": "Sequences",
         "c": "Dates",
-        "d": "Alloftheabove"
+        "d": "Allofthe above"
       },
       "marked": null,
       "cov": {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InMSExcel,fillingcanbeusedfor-",
+      "q": "In MS Excel, filling can be used for-",
       "multi": false
     },
     {
@@ -567,10 +567,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Notespageview",
-        "b": "Outlineview",
-        "c": "Readingview",
-        "d": "SlideSorterview"
+        "a": "Notes page view",
+        "b": "Outline view",
+        "c": "Reading view",
+        "d": "Slide Sorter view"
       },
       "marked": null,
       "cov": {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MSPowerPointthatdisplaysallslidesasthumbnailsandisusefulforrearrangingslides,checkingthe flowofyourpresentation,orapplyingtransitioneffects.",
+      "q": "MS PowerPoint that displays all slides as thumbnails and is useful for rearranging slides, checking the flow of your presentation, or applying transition effects.",
       "multi": false
     },
     {
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheshortcutkeytostartthePowerPointpresentationfromthecurrentslide.",
+      "q": "The shortcut key to start the PowerPoint presentation from the current slide.",
       "multi": false
     },
     {
@@ -613,10 +613,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ControlTab",
-        "b": "InsertTab",
-        "c": "DesignTab",
-        "d": "TransitionTab"
+        "a": "Control Tab",
+        "b": "Insert Tab",
+        "c": "Design Tab",
+        "d": "Transition Tab"
       },
       "marked": null,
       "cov": {
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thecontainsallthefeaturestochangethelookofyourdocumentinoneplace.",
+      "q": "The contains all the features to change the look of your document in one place.",
       "multi": false
     },
     {
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InMSPowerPoint,apre-formattedcontaineronaslideforcontent(text,graphics,orvideo)is called-",
+      "q": "In MS PowerPoint, a pre-formatted container on a slide for content (text, graphics, or video) is called-",
       "multi": false
     },
     {
@@ -662,7 +662,7 @@
         "a": "Transition",
         "b": "Subtle",
         "c": "Exciting",
-        "d": "DynamicContent"
+        "d": "Dynamic Content"
       },
       "marked": null,
       "cov": {
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingcategoriesisnotthetransitioninMSPowerPoint?",
+      "q": "Which of the following categories is not the transition in MS PowerPoint?",
       "multi": false
     },
     {
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InMSPowerPoint,Normalviewdisplaysslidethumbnailsonthesideofthescreen.",
+      "q": "In MS PowerPoint, Normal view displays slide thumbnails on the side of the screen.",
       "multi": false
     },
     {
@@ -705,10 +705,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Atypeofanimationentranceeffect",
-        "b": "Amethodofadvancingslides.",
-        "c": "Amethodofmovingitemsonaslide",
-        "d": "Alloftheabove -4-,"
+        "a": "A type of animation entrance effect",
+        "b": "Amethod of advancing slides.",
+        "c": "A method of moving items ona slide",
+        "d": "Allofthe above -4- ,"
       },
       "marked": null,
       "cov": {
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MotionpathinMSPowerPointis-",
+      "q": "Motion path in MS PowerPoint is-",
       "multi": false
     },
     {
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thefirstwide-areapacket-switchednetworkwithdistributedcontrolandoneofthefirstnetworks toimplementtheTCP/IPprotocolsuite.",
+      "q": "The first wide-area packet-switched network with distributed control and one of the first networks to implement the TCP/IP protocol suite.",
       "multi": false
     },
     {
@@ -752,7 +752,7 @@
       "direction": null,
       "opts": {
         "a": "Firewall",
-        "b": "PasswordManager",
+        "b": "Password Manager",
         "c": "VPN",
         "d": "Antivirus"
       },
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "isanetworksecuritysystemthatmonitorsandcontrolsincomingandoutgoing networktrafficbasedonpredeterminedsecurityrules,",
+      "q": "is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules,",
       "multi": false
     },
     {
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichoneofthefollowingprotocolsisusedforE-mailservices?",
+      "q": "Which one of the following protocols is used for E-mail services?",
       "multi": false
     },
     {
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Anetworkingdevicethatsendsdatapacketsfromonecomputernetworktoanother.",
+      "q": "Anetworking device that sends data packets from one computer network to another.",
       "multi": false
     },
     {
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Atypicalprogramcreatessomeremoteobjects,makesreferencestotheseobjects accessible,andwaitsforclientstoinvokemethodsontheseobjects.",
+      "q": "A typical program creates some remote objects, makes references to these objects accessible, and waits for clients to invoke methods on these objects.",
       "multi": false
     },
     {
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "isusedbywebserverstoidentityandtrackusersastheynavigatedifferentpagesona website,andtoidentifyusersreturningtoawebsite.",
+      "q": "is used by web servers to identity and track users as they navigate different pages ona website, and to identify users returning to a website.",
       "multi": false
     },
     {
@@ -867,9 +867,9 @@
       "direction": null,
       "opts": {
         "a": "8bit",
-        "b": "16bit",
-        "c": "32bit",
-        "d": "128bit"
+        "b": "16 bit",
+        "c": "32 bit",
+        "d": "128 bit"
       },
       "marked": null,
       "cov": {
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthelengthoftheIPv6address?",
+      "q": "What is the length of the IPv6 address?",
       "multi": false
     },
     {
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aprivatenetworkcontainedwithinanenterprisethatisusedtosecurelysharecompanyinformation andcomputingresourcesamongemployees.",
+      "q": "A private network contained within an enterprise that is used to securely share company information and computing resources among employees.",
       "multi": false
     },
     {
@@ -912,10 +912,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Startopology",
-        "b": "Bustopology",
-        "c": "Ringtopology",
-        "d": "Treetopology"
+        "a": "Star topology",
+        "b": "Bus topology",
+        "c": "Ring topology",
+        "d": "Tree topology"
       },
       "marked": null,
       "cov": {
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Atypeofnetworktopologyinwhichallthedevicesornodesarephysicallyconnectedtoacentral nodesuchasarouter,switch,orhub.",
+      "q": "A type of network topology in which all the devices or nodes are physically connected to a central node such as a router, switch, or hub.",
       "multi": false
     },
     {
@@ -935,10 +935,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "WorldWideWebContent",
-        "b": "WorldWideWebCenire",
-        "c": "WorldWideWebConsortium",
-        "d": "WorldWideWebCommission"
+        "a": "World Wide Web Content",
+        "b": "World Wide Web Cenire",
+        "c": "World Wide Web Consortium",
+        "d": "World Wide Web Commission"
       },
       "marked": null,
       "cov": {
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AnindustryconsortiumthatseekstopromotestandardsfortheevolutionoftheWeband interoperabilitybetweenwwwproductsbyproducingspecificationsandreferencesoftware.",
+      "q": "An industry consortium that seeks to promote standards for the evolution of the Web and interoperability between www products by producing specifications and reference software.",
       "multi": false
     },
     {
@@ -959,8 +959,8 @@
       "direction": null,
       "opts": {
         "a": "Nexus",
-        "b": "NetscapeNavigator",
-        "c": "InternetExplorer",
+        "b": "Netscape Navigator",
+        "c": "Internet Explorer",
         "d": "Mosaic"
       },
       "marked": null,
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thefirstwebbrowserwasinventedin1990calledWorldWideWebwhichwaslaterrenamedto",
+      "q": "The first web browser was invented in 1990 called World Wide Web which was later renamed to",
       "multi": false
     },
     {
@@ -981,10 +981,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Webserver",
-        "b": "Webbrowser",
-        "c": "Webmatrix",
-        "d": "Webnetwork -5-:"
+        "a": "Web server",
+        "b": "Web browser",
+        "c": "Web matrix",
+        "d": "Web network -5- :"
       },
       "marked": null,
       "cov": {
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingisusedtoreadaHTMLpageandrenderit?",
+      "q": "Which of the following is used to read a HTML page and render it?",
       "multi": false
     },
     {
@@ -1005,9 +1005,9 @@
       "direction": null,
       "opts": {
         "a": "Handoff",
-        "b": "Simplemodulationtechnique",
-        "c": "Frequencyreuse",
-        "d": "Higherbandwidth"
+        "b": "Simple modulation technique",
+        "c": "Frequency reuse",
+        "d": "Higher bandwidth"
       },
       "marked": null,
       "cov": {
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThemainobjectiveofCELLinacellularmobilesystemis-",
+      "q": "The main objective of CELL in acellular mobile system is-",
       "multi": false
     },
     {
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theevolutionofcellphonestandardsarefrom1Gto5G,whatdoesGindicate?",
+      "q": "The evolution of cell phone standards are from 1 G to 5 G, what does G indicate?",
       "multi": false
     },
     {
@@ -1050,10 +1050,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Twisted-paircable",
-        "b": "Co-axialcable",
-        "c": "Open-wirecable",
-        "d": "OpticalFiberCable"
+        "a": "Twisted-pair cable",
+        "b": "Co-axial cable",
+        "c": "Open-wire cable",
+        "d": "Optical Fiber Cable"
       },
       "marked": null,
       "cov": {
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thetypeofintercommunicationcablethathasthehighestbandwidthisthe-",
+      "q": "The type of intercommunication cable that has the highest bandwidth is the-",
       "multi": false
     },
     {
@@ -1073,9 +1073,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "AppliedAI",
-        "b": "Machinelearning",
-        "c": "Internetofthings",
+        "a": "Applied AI",
+        "b": "Machine learning",
+        "c": "Internet of things",
         "d": "ParalleAlI"
       },
       "marked": null,
@@ -1086,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Facerecognitionsystemisbasedon.",
+      "q": "Face recognition system is based on .",
       "multi": false
     },
     {
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thelargestnaturalnumberwhichdivideseverynaturalnumberoftheform(n?-n)(n-2),wherenisa naturalnumbergreaterthan2is-",
+      "q": "The largest natural number which divides every natural number of the form (n?-n) (n-2), where nis a natural number greater than 2 is -",
       "multi": false
     },
     {
@@ -1119,10 +1119,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Rs.12,600.00",
-        "b": "Rs.11,500.00",
-        "c": "Rs.13,500.00",
-        "d": "Rs.10,500.00"
+        "a": "Rs. 12,600.00",
+        "b": "Rs. 11,500.00",
+        "c": "Rs. 13,500.00",
+        "d": "Rs. 10,500.00"
       },
       "marked": null,
       "cov": {
@@ -1132,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "A,BandCinvestedinaratioof7:8:5inabusiness.TheygotanannualprofitofRs.1,36,800.IfA andCwithdrawtheiramountattheendof3monthsand7monthsrespectively.Then,findthe differencebetweenAandC’sshareofprofit.",
+      "q": "A,B and C invested in a ratio of 7:8:5 in a business. They got an annual profit of Rs. 1,36,800. IfA and C withdraw their amount at the end of 3 months and 7 months respectively. Then, find the difference between A and C’s share of profit.",
       "multi": false
     },
     {
@@ -1142,10 +1142,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Rs.28,000",
-        "b": "Rs.42,000",
-        "c": "Rs.56,000",
-        "d": "Rs.84,000"
+        "a": "Rs. 28,000",
+        "b": "Rs. 42,000",
+        "c": "Rs. 56,000",
+        "d": "Rs. 84,000"
       },
       "marked": null,
       "cov": {
@@ -1155,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThemonthlyincomesofXand¥areintheratio4:3andtheirmonthlyexpendituresareintheratio 3:2.HowevereachsavesRs.6,000permonth.Whatistheirtotalmonthlyincome?",
+      "q": "The monthly incomes of X and ¥ are in the ratio 4:3 and their monthly expenditures are in the ratio 3:2. However each saves Rs. 6,000 per month. What is their total monthly income?",
       "multi": false
     },
     {
@@ -1165,10 +1165,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "2years",
-        "b": "3years",
-        "c": "4years",
-        "d": "5years"
+        "a": "2 years",
+        "b": "3 years",
+        "c": "4 years",
+        "d": "5 years"
       },
       "marked": null,
       "cov": {
@@ -1178,7 +1178,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "In4years,Rs.6,000amounttoRs.8,000.Inwhattimeatthesamerate,willRs.525amounttoRs.7007",
+      "q": "In4 years, Rs. 6,000 amount to Rs. 8,000. In what time at the same rate, will Rs. 525 amountto  Rs. 7007",
       "multi": false
     },
     {
@@ -1201,7 +1201,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inhowmanyways,thelettersoftheword‘BANKING’canbearranged?",
+      "q": "Inhow many ways, the letters of the word ‘BANKING’ can be arranged?",
       "multi": false
     },
     {
@@ -1209,7 +1209,7 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.59-61):Studythefollowingtabletoanswerthegivenquestions",
+      "direction": "Directions (Question Nos. 59-61): Study the following table to answer the given questions",
       "opts": {
         "a": "52000",
         "b": "58000",
@@ -1224,7 +1224,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TotalnumberofcandidateswhoappearedforCSandEStogetherin2011was25%morethanthe totalnumberofcandidateswhoappearedforthesametogetherin2010.Howmanyfemalecandidates appearedforboththeexamstogetherin2011,iftheyformed:thofthetotalnumberofcandidates appearingforbothCSandESthatyear?",
+      "q": "Total number of candidates who appeared for CS and ES together in 2011 was 25% more than the total number of candidates who appeared for the same together in 2010. How many female candidates appeared for both the exams together in 2011, if they formed : th of the total number of candidates appearing for both CS and ES that year?",
       "multi": false
     },
     {
@@ -1232,7 +1232,7 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.59-61):Studythefollowingtabletoanswerthegivenquestions",
+      "direction": "Directions (Question Nos. 59-61): Study the following table to answer the given questions",
       "opts": {
         "a": "13:21",
         "b": "12:17",
@@ -1247,7 +1247,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatistherespectiveratiobetweenthenumberofgraduateswhohadappearedforESin2010and thenumberofgraduateswhoappearedforCSin2010?",
+      "q": "What is the respective ratio between the number of graduates who had appeared for ES in 2010 and the number of graduates who appeared for CS in 2010?",
       "multi": false
     },
     {
@@ -1255,7 +1255,7 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.59-61):Studythefollowingtabletoanswerthegivenquestions",
+      "direction": "Directions (Question Nos. 59-61): Study the following table to answer the given questions",
       "opts": {
         "a": "38400",
         "b": "24400",
@@ -1270,7 +1270,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthedifferencebetweentheaveragenumberofcandidateswhoappearedforCSintheyears 2007and2008andaveragenumberofcandidateswhoappearedforESinthesameyearstogether?",
+      "q": "What is the difference between the average number of candidates who appeared for CS in the years 2007 and 2008 and average number of candidates who appeared for ES in the same years together?",
       "multi": false
     },
     {
@@ -1293,7 +1293,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatratepercentisoneminute12secondstoanhour?",
+      "q": "What rate percent is one minute 12 seconds to an hour?",
       "multi": false
     },
     {
@@ -1303,10 +1303,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "12days",
-        "b": "20days",
-        "c": "24days",
-        "d": "25days"
+        "a": "12 days",
+        "b": "20 days",
+        "c": "24 days",
+        "d": "25 days"
       },
       "marked": null,
       "cov": {
@@ -1316,7 +1316,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AandBcandoapieceofworkseparatelyin30daysand20days.HowlongwillittakeforbothA andBtogethertodothework?",
+      "q": "AandB can do apiece of work separately in 30 days and 20 days. How long will it take for bothA and B together to do the work?",
       "multi": false
     },
     {
@@ -1326,10 +1326,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "10%gain",
-        "b": "10%loss",
-        "c": "12%loss",
-        "d": "12%gain -7-‘"
+        "a": "10% gain",
+        "b": "10% loss",
+        "c": "12% loss",
+        "d": "12% gain -7- ‘"
       },
       "marked": null,
       "cov": {
@@ -1339,7 +1339,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ashopkeeperpurchased300bulbsforRs.10each.However20bulbswerefusedandhadtobe thrownaway.TheremainingweresoldatRs.12each.Findthegainorlosspercent.",
+      "q": "A shopkeeper purchased 300 bulbs for Rs. 10 each. However 20 bulbs were fused and had to be thrown away. The remaining were sold at Rs. 12 each. Find the gain or loss percent.",
       "multi": false
     },
     {
@@ -1362,7 +1362,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Findthevalueofmsothat(-3)\"*'x(-3)°=(-3)’-",
+      "q": "Find the value of m so that (-3)\"*'x(-3)° = (-3)’ -",
       "multi": false
     },
     {
@@ -1385,7 +1385,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatpercentof2.5litreis125mL?",
+      "q": "What percent of 2.5 litre is 125 mL?",
       "multi": false
     },
     {
@@ -1408,7 +1408,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "If40%ofthestudentsinaschoolareboysandthenumberofgirlsintheschoolis540.Howmany boysarethereintheschool?",
+      "q": "If 40% of the students in a school are boys and the number of girls in the school is 540. How many boys are there in the school?",
       "multi": false
     },
     {
@@ -1431,7 +1431,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Abicyclewheelmakes5000revolutionsinmoving11km.Thediameterofthewheelis—",
+      "q": "A bicycle wheel makes 5000 revolutions in moving 11 km. The diameter of the wheel is —",
       "multi": false
     },
     {
@@ -1454,7 +1454,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Atrainisronningataspeedof72kin/hrpassesapoleintheplatformin17seconds. Thelengthofthetrainis—",
+      "q": "A train is ronning at a speed of 72 kin/hr passes a pole in the platform in 17 seconds. The length oft he train is —",
       "multi": false
     },
     {
@@ -1477,7 +1477,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifx=3isoneoftherootsoftheequationkc?+2x—3=0,thenthevalueofkis- -1i",
+      "q": "Ifx =3 is one oft he roots of the equation kc? + 2x—3 = 0, then the value of kis - -1 i",
       "multi": false
     },
     {
@@ -1500,7 +1500,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thelengthofthecuboidisdoubleitsbreadth.Itsheightis3mandtheareaofitsfourwallsis108m7. Findthelengthofthecuboid.",
+      "q": "The length of the cuboid is double its breadth. Its height is 3 m and the area of its four walls is 108 m7. Find the length of the cuboid.",
       "multi": false
     },
     {
@@ -1523,7 +1523,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Themeanof50numberswasfoundtobe45.Lateron,itwasdetectedthatanumber26was misreadas76.Findthecorrectmeanofthegivennumbers.",
+      "q": "The mean of 50 numbers was found to be 45. Later on, it was detected that a number 26 was misread as 76. Find the correct mean of the given numbers.",
       "multi": false
     },
     {
@@ -1546,7 +1546,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "The10\"termfromtheendoftheA.P.17,14,11,...-40is—",
+      "q": "The 10\" term from the end of the A.P. 17, 14, 11, ...-40 is—",
       "multi": false
     },
     {
@@ -1569,7 +1569,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inacollege,thereare54girlswhohavecar.Iftheseconstituteonefifthofthegirlsandthetotal numberofgirlsistwo-fifthofthetotalnumberofstudentsinthecollege,whatisthenumberofboys inthecollege?",
+      "q": "Inacollege, there are 54 girls who have car. If these constitute one fifth of the girls and the total number of girls is two-fifth of the total number of students in the college, what is the number of boys in the college?",
       "multi": false
     },
     {
@@ -1592,7 +1592,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "RoseisnowaquarterasoldashermotherMary.Fouryearshence,Marywillbethreetimesasold asherdaughter.TheageofMaryinyearsis-",
+      "q": "Rose is now a quarter as old as her mother Mary. Four years hence, Mary will be three times as old as her daughter. The age of Mary in years is-",
       "multi": false
     },
     {
@@ -1602,10 +1602,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "KimaandMala",
-        "b": "MalaandRema",
-        "c": "RemaandDika",
-        "d": "DikaandMala"
+        "a": "Kimaand Mala",
+        "b": "Mala and Rema",
+        "c": "Remaand Dika",
+        "d": "Dika and Mala"
       },
       "marked": null,
       "cov": {
@@ -1615,7 +1615,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TherearefourfriendsKima,Rema,MalaandDika.Inanexamination,thesumoftheirmarksis450. Mala’smarksareequaltothetwicethesumofRemaandDika’smarks.Kima’smarksareequalto Mala’smarks.Thepersonwhogets95marksandabovewillgotothenextlevelexamination.Who arethepeoplewhogotothenextlevelexamination?",
+      "q": "There are four friends Kima, Rema, Mala and Dika. In an examination, the sum of their marks is 450. Mala’s marks are equal to the twice the sum of Rema and Dika’s marks. Kima’s marks are equal to Mala’s marks. The person who gets 95 marks and above will go to the next level examination. Who are the people who go to the next level examination?",
       "multi": false
     },
     {
@@ -1625,10 +1625,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "20years",
-        "b": "22years",
-        "c": "25years",
-        "d": "27years"
+        "a": "20 years",
+        "b": "22 years",
+        "c": "25 years",
+        "d": "27 years"
       },
       "marked": null,
       "cov": {
@@ -1638,7 +1638,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TodayisJohn’sbirthday.Oneyear,fromtodayhewillbetwiceasoldashewas12yearsago.How oldisJohntoday?",
+      "q": "Today is John’s birthday. One year, from today he will be twice as old as he was 12 years ago. How old is John today?",
       "multi": false
     },
     {
@@ -1648,10 +1648,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Rs.4andRs.23",
-        "b": "Rs.13andRs.17",
-        "c": "Rs.15andRs.14",
-        "d": "Rs.17andRs.13"
+        "a": "Rs. 4 and Rs. 23",
+        "b": "Rs. 13 and Rs. 17",
+        "c": "Rs. 15 and Rs. 14",
+        "d": "Rs. 17 and Rs. 13"
       },
       "marked": null,
       "cov": {
@@ -1661,7 +1661,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TwobusticketsfromAizawltoSerchhipandthreeticketsfromAizawltoSiahacostRs.77butthree ticketsfromAizawltoSerchhipandtwoticketsfromAizawltoSiahacostRs.73.Whatarethefares forSerchhipandSiahafromAizawl?",
+      "q": "Two bus tickets from Aizawl to Serchhip and three tickets from Aizawl to Siaha cost Rs. 77 but three tickets from Aizawl to Serchhip and two tickets from Aizawl to Siaha cost Rs. 73. What are the fares for Serchhip and Siaha from Aizawl?",
       "multi": false
     },
     {
@@ -1684,7 +1684,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Findtheoddgroupoflettersfromthegivenalternatives,",
+      "q": "Find the odd group of letters from the given alternatives,",
       "multi": false
     },
     {
@@ -1694,10 +1694,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "2,4,72",
+        "a": "2, 4, 72",
         "b": "1,2,9",
-        "c": "5,3,152",
-        "d": "3,4,98"
+        "c": "5,3, 152",
+        "d": "3, 4, 98"
       },
       "marked": null,
       "cov": {
@@ -1707,7 +1707,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Fromtheoptionsgivenbelow,selecttheonethatisdifferentfromtheotherthreeseriesofnumbers.",
+      "q": "From the options given below, select the one that is different from the other three series of numbers.",
       "multi": false
     },
     {
@@ -1730,7 +1730,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthenextnumberinthissequenceof1,3,8,19,42,89,?",
+      "q": "What is the next number in this sequence of 1, 3, 8, 19, 42, 89, ?",
       "multi": false
     },
     {
@@ -1740,10 +1740,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "DaughtersofMizoram:TheSilentFightforRights",
-        "b": "ModernMizoSociety:CrimeandWomen",
-        "c": "FromKitchentoRashtrapatiBhawan:MothersofIndia",
-        "d": "RoleofWomen:FamilyandSociety"
+        "a": "Daughters of Mizoram : The Silent Fight for Rights",
+        "b": "Modern Mizo Society : Crime and Women",
+        "c": "From Kitchen to Rashtrapati Bhawan : Mothers of India",
+        "d": "Role of Women : Family and Society"
       },
       "marked": null,
       "cov": {
@@ -1753,7 +1753,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AcollegeinLungleiwantstoholdanessaycompetitionhighlightingtheneedforwomenempowerment inMizosociety,Whichofthefollowingtopicsseemmostsuitableforthecompetition?",
+      "q": "Acollege in Lunglei wants to hold an essay competition highlighting the need for women empowerment in Mizo society, Which of the following topics seem most suitable for the competition?",
       "multi": false
     },
     {
@@ -1776,7 +1776,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Rama’smotheristheonlydaughterofMami’sfather.HowisMami’shusbandrelatedtoRama?",
+      "q": "Rama’s mother is the only daughter of Mami’s father. How is Mami’s husband related to Rama?",
       "multi": false
     },
     {
@@ -1786,10 +1786,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "iii,v,i,iv,ii",
+        "a": "iii, v, i, iv, ii",
         "b": "iti,iv,i,vii",
-        "c": "vi,iii,ii,iv",
-        "d": "ii,tii,i,v,iv"
+        "c": "vi, iii, ii, iv",
+        "d": "ii, tii,i, v, iv"
       },
       "marked": null,
       "cov": {
@@ -1799,7 +1799,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Arrangethewordsgivenbelowinameaningfulsequence. iPresentationiiRecommendation iii,Arrivaliv.Discussion v,Introduction",
+      "q": "Arrange the words given below ina meaningful sequence. i Presentation ii Recommendation iii, Arrival iv. Discussion v, Introduction",
       "multi": false
     },
     {
@@ -1822,7 +1822,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Sequence:4096,1024,256,,16,4,1 Thenumberoptiontocompletethesequencecorrectlyis-",
+      "q": "Sequence: 4096, 1024, 256,,  16, 4, 1 The number option to complete the sequence correctly is-",
       "multi": false
     },
     {
@@ -1845,7 +1845,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatamongthegivenshouldreplacethequestionmark? TOK:SNJ::LIP:?",
+      "q": "What among the given should replace the question mark? TOK : SNJ:: LIP: ?",
       "multi": false
     },
     {
@@ -1868,7 +1868,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatamongthegivenshouldreplacethequestionmark? Square:Rectangle::Circle:?",
+      "q": "What among the given should replace the question mark? Square : Rectangle :: Circle : ?",
       "multi": false
     },
     {
@@ -1891,7 +1891,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InacertaincodelanguageROSEiscodedas6821,CHAIRiscodedas73456andPREACHis codedas961473,whatwillbethecodeforHOARSE?",
+      "q": "Ina certain code language ROSE is coded as 6821, CHAIR is coded as 73456 and PREACH is coded as 961473, what will be the code for HOARSE?",
       "multi": false
     },
     {
@@ -1904,7 +1904,7 @@
         "a": "Saturday",
         "b": "Thursday",
         "c": "Wednesday",
-        "d": "Tuesday eeRKKK"
+        "d": "Tuesday ee RK KK"
       },
       "marked": null,
       "cov": {
@@ -1914,7 +1914,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TodayisMonday.After61days,itwillbe-",
+      "q": "Today is Monday. After 61 days, it will be-",
       "multi": false
     }
   ],

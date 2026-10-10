@@ -13,7 +13,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "Adverb",
         "b": "Preposition",
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shepronouncedthewordquitecorrectly.",
+      "q": "She pronounced the word quite correctly.",
       "multi": false
     },
     {
@@ -36,7 +36,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "Adverb",
         "b": "Conjunction",
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theboyisfondofmusic.",
+      "q": "The boy is fond of music.",
       "multi": false
     },
     {
@@ -59,7 +59,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "Preposition",
         "b": "Adverb",
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iranquitefast,butIstillmissedthebus.",
+      "q": "Iran quite fast, but I still missed the bus.",
       "multi": false
     },
     {
@@ -82,12 +82,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "Adjective",
         "b": "Adverb",
         "c": "Preposition",
-        "d": "Interjection (a)Noun(b)Pronoun .(¢}Preposition(d)Interjection"
+        "d": "Interjection (a) Noun (b) Pronoun . (¢} Preposition (d) Interjection"
       },
       "marked": null,
       "cov": {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Therearethirtyboysinthedormitory.",
+      "q": "There are thirty boys in the dormitory.",
       "multi": false
     },
     {
@@ -105,7 +105,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "Conjunetion",
         "b": "Verb",
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Anaccidentoccurredontheroadyesterday.",
+      "q": "An accident occurred on the road yesterday.",
       "multi": false
     },
     {
@@ -128,12 +128,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "Adverb",
         "b": "Adjective",
         "c": "Pronoun",
-        "d": "Verb."
+        "d": "Verb ."
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thechildrenwereallinwhiteuniforms.",
+      "q": "The children were all in white uniforms.",
       "multi": false
     },
     {
@@ -151,7 +151,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "Adjective",
         "b": "Pronoun",
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IhavefoundwhatIwassearchingfor.",
+      "q": "Ihave found what I was searching for.",
       "multi": false
     },
     {
@@ -174,7 +174,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "Noun",
         "b": "Adverb",
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theaftereffectsofthedrugarebad.",
+      "q": "The after effects of the drug are bad.",
       "multi": false
     },
     {
@@ -197,12 +197,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "Pronoun",
         "b": "Verb",
         "c": "Noun",
-        "d": "Adverb -4-."
+        "d": "Adverb -4- ."
       },
       "marked": null,
       "cov": {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theywhileawaytheireveningswithbooksandgames.",
+      "q": "They while away their evenings with books and games.",
       "multi": false
     },
     {
@@ -220,12 +220,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,11-15):Completethefollowingsentencesbyselectingthecorrect",
+      "direction": "Directions (Question Nos, 11 - 15): Complete the following sentences by selecting the correct",
       "opts": {
-        "a": "hadripened",
+        "a": "had ripened",
         "b": "isripe",
-        "c": "hasripened",
-        "d": "_hasbeenriped"
+        "c": "has ripened",
+        "d": "_ has been riped"
       },
       "marked": null,
       "cov": {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thefarmeriscuttingthecornwhich_",
+      "q": "The farmer is cuttingthecornwhich_",
       "multi": false
     },
     {
@@ -243,12 +243,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,11-15):Completethefollowingsentencesbyselectingthecorrect",
+      "direction": "Directions (Question Nos, 11 - 15): Complete the following sentences by selecting the correct",
       "opts": {
         "a": "saw",
         "b": "see",
         "c": "hasseen",
-        "d": "hadseen"
+        "d": "had seen"
       },
       "marked": null,
       "cov": {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "1knewhewasthere,forIhimcome.",
+      "q": "1 knew he was there, for I him come.",
       "multi": false
     },
     {
@@ -266,12 +266,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,11-15):Completethefollowingsentencesbyselectingthecorrect",
+      "direction": "Directions (Question Nos, 11 - 15): Complete the following sentences by selecting the correct",
       "opts": {
         "a": "got",
-        "b": "wasgetting",
-        "c": "hasbeengetting",
-        "d": "hadgot"
+        "b": "was getting",
+        "c": "has been getting",
+        "d": "had got"
       },
       "marked": null,
       "cov": {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hisfearincreasedwithtimebecausetheforestdarker.",
+      "q": "His fear increased with time because the forest darker.",
       "multi": false
     },
     {
@@ -289,7 +289,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,11-15):Completethefollowingsentencesbyselectingthecorrect",
+      "direction": "Directions (Question Nos, 11 - 15): Complete the following sentences by selecting the correct",
       "opts": {
         "a": "are",
         "b": "were",
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Riceandcurryatastefuldish.",
+      "q": "Rice and curry a tasteful dish.",
       "multi": false
     },
     {
@@ -312,7 +312,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionsNos,16-20):InsertappropriatePrepositions:",
+      "direction": "Direction (Questions Nos, 16 - 20): Insert appropriate Prepositions :",
       "opts": {
         "a": "after",
         "b": "over",
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Herulesavastempire.",
+      "q": "He rules a vast empire.",
       "multi": false
     },
     {
@@ -335,7 +335,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionsNos,16-20):InsertappropriatePrepositions:",
+      "direction": "Direction (Questions Nos, 16 - 20): Insert appropriate Prepositions :",
       "opts": {
         "a": "to",
         "b": "onto",
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thecatjumpedthemantelpiece.",
+      "q": "The cat jumped the mantelpiece.",
       "multi": false
     },
     {
@@ -358,7 +358,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionsNos,16-20):InsertappropriatePrepositions:",
+      "direction": "Direction (Questions Nos, 16 - 20): Insert appropriate Prepositions :",
       "opts": {
         "a": "for",
         "b": "in",
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Leasefinanceprovidesaneffectiveedgeinflation.",
+      "q": "Lease finance provides an effective edge inflation.",
       "multi": false
     },
     {
@@ -381,7 +381,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionsNos,16-20):InsertappropriatePrepositions:",
+      "direction": "Direction (Questions Nos, 16 - 20): Insert appropriate Prepositions :",
       "opts": {
         "a": "at",
         "b": "to",
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Itishumannaturetoaspirefame.",
+      "q": "It is human nature to aspire fame.",
       "multi": false
     },
     {
@@ -404,7 +404,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionsNos,16-20):InsertappropriatePrepositions:",
+      "direction": "Direction (Questions Nos, 16 - 20): Insert appropriate Prepositions :",
       "opts": {
         "a": "on",
         "b": "for",
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theypridedthemselvestheirwealth.",
+      "q": "They prided themselves their wealth.",
       "multi": false
     },
     {
@@ -427,12 +427,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-25):Selecttheonewhichbestexpressesthesamesentencein",
+      "direction": "Directions (Question Nos. 21 - 25): Select the one which best expresses the same sentence in",
       "opts": {
-        "a": "Hiswarningswerelaughedatandallhisproposalswereobjectedto.",
-        "b": "Allhisproposalswereobjectedandlaughedathiswarnings.",
-        "c": "Allhisproposalsobjectedandhiswarningswerelaughedat.",
-        "d": "Hiswarningswerelaughedatandobjectedallhisproposals. -j-."
+        "a": "His warnings were laughed at and all his proposals were objected to.",
+        "b": "Allhis proposals were objected and laughed at his warnings.",
+        "c": "Allhis proposals objected and his warnings were laughed at.",
+        "d": "His warnings were laughed at and objected all his proposals. -j- ."
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theylaughedathiswarningsandobjectedtoallhisproposals.",
+      "q": "They laughed at his warnings and objected to all his proposals.",
       "multi": false
     },
     {
@@ -450,12 +450,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-25):Selecttheonewhichbestexpressesthesamesentencein",
+      "direction": "Directions (Question Nos. 21 - 25): Select the one which best expresses the same sentence in",
       "opts": {
-        "a": "Thistlecannotbegatheredasgrapesbypeople.",
-        "b": "Grapesgatheredcannotbefromthistle.",
-        "c": "Grapescannotbegatheredfromthistle.",
-        "d": "Grapesfromthistlecannotbegathered."
+        "a": "Thistle cannot be gathered as grapes by people.",
+        "b": "Grapes gathered cannot be from thistle.",
+        "c": "Grapes cannot be gathered from thistle.",
+        "d": "Grapes from thistle cannot be gathered."
       },
       "marked": null,
       "cov": {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Onecannotgathergrapesfromthistle.",
+      "q": "One cannot gather grapes from thistle.",
       "multi": false
     },
     {
@@ -473,12 +473,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-25):Selecttheonewhichbestexpressesthesamesentencein",
+      "direction": "Directions (Question Nos. 21 - 25): Select the one which best expresses the same sentence in",
       "opts": {
-        "a": "Someacquireanddesirewealthbyall.",
-        "b": "Weaithisbeingdesiredandacquiredbyall.",
-        "c": "Wealthisdesiredbyallandsomeacquireit.",
-        "d": "Wealthisdesiredbyallandisacquiredbysome."
+        "a": "Some acquire and desire wealth by all.",
+        "b": "Weaith is being desired and acquired by all.",
+        "c": "Wealth is desired by all and some acquire it.",
+        "d": "Wealth is desired by all and is acquired by some."
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Alldesirewealthandsomeacquireit.",
+      "q": "All desire wealth and some acquire it.",
       "multi": false
     },
     {
@@ -496,12 +496,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-25):Selecttheonewhichbestexpressesthesamesentencein",
+      "direction": "Directions (Question Nos. 21 - 25): Select the one which best expresses the same sentence in",
       "opts": {
-        "a": "Sourmilkisoftenturnedbythunderstorm.",
-        "b": "Milkoftenturnssourbythunderstorm.",
-        "c": "Milkisoftenturnedsourbythunderstorm.",
-        "d": "Milkoftenturnedsourbythunderstorm."
+        "a": "Sour milk is often turned by thunderstorm.",
+        "b": "Milk often turns sour by thunderstorm.",
+        "c": "Milk is often turned sour by thunderstorm.",
+        "d": "Milk often turned sour by thunderstorm."
       },
       "marked": null,
       "cov": {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Athunderstormoftenturnsmilksour.",
+      "q": "Athunderstorm often turns milk sour.",
       "multi": false
     },
     {
@@ -519,12 +519,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-25):Selecttheonewhichbestexpressesthesamesentencein",
+      "direction": "Directions (Question Nos. 21 - 25): Select the one which best expresses the same sentence in",
       "opts": {
-        "a": "Theseawaterdamagedsomeofthecargo.",
-        "b": "Theseawaterhaddamagedsomeofthecargo.",
-        "c": "Someofthecargoweredamagedbytheseawater.",
-        "d": "Theseawaterhadbeendamagedsomeofthecargo."
+        "a": "The sea water damaged some of the cargo.",
+        "b": "The sea water had damaged some of the cargo.",
+        "c": "Some of the cargo were damaged by the sea water.",
+        "d": "The sea water had been damaged some of the cargo."
       },
       "marked": null,
       "cov": {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Someofthecargohadbeendamagedbytheseawater.",
+      "q": "Some of the cargo had been damaged by the sea water.",
       "multi": false
     },
     {
@@ -542,12 +542,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.26-35):Choosethecorrectalternativewhichisclosestinmeaning.",
+      "direction": "Directions (Question Nos. 26 - 35) : Choose the correct alternative which is closest in meaning.",
       "opts": {
-        "a": "onewhoisblindlydevotedtoanidea",
-        "b": "onewhostudiesthepatternofvotinginelections",
-        "c": "onewhohasalongexperienceofanyoccupation",
-        "d": "_onewhostudiesthehumancharacter"
+        "a": "one who is blindly devoted to an idea",
+        "b": "one who studies the pattern of voting in elections",
+        "c": "one who hasa long experience of any occupation",
+        "d": "_ one who studies the human character"
       },
       "marked": null,
       "cov": {
@@ -565,7 +565,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.26-35):Choosethecorrectalternativewhichisclosestinmeaning.",
+      "direction": "Directions (Question Nos. 26 - 35) : Choose the correct alternative which is closest in meaning.",
       "opts": {
         "a": "apostate",
         "b": "deserter",
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Onewhodesertshisreligion",
+      "q": "One who deserts his religion",
       "multi": false
     },
     {
@@ -588,7 +588,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.26-35):Choosethecorrectalternativewhichisclosestinmeaning.",
+      "direction": "Directions (Question Nos. 26 - 35) : Choose the correct alternative which is closest in meaning.",
       "opts": {
         "a": "iconoclast",
         "b": "agnostic",
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Onewhopromotestheideaofabsenceofgovernmentofanykind,whereeveryoneshouldbealaw untohimself",
+      "q": "One who promotes the idea of absence of government of any kind, where everyone should be a law unto himself",
       "multi": false
     },
     {
@@ -611,7 +611,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.26-35):Choosethecorrectalternativewhichisclosestinmeaning.",
+      "direction": "Directions (Question Nos. 26 - 35) : Choose the correct alternative which is closest in meaning.",
       "opts": {
         "a": "Indispensable",
         "b": "Impossible",
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thatwhichcannotbedonewithout",
+      "q": "That which cannot be done without",
       "multi": false
     },
     {
@@ -634,7 +634,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.26-35):Choosethecorrectalternativewhichisclosestinmeaning.",
+      "direction": "Directions (Question Nos. 26 - 35) : Choose the correct alternative which is closest in meaning.",
       "opts": {
         "a": "Accidental",
         "b": "Inanimate",
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thatwhichhasmorethanoneexplanation",
+      "q": "That which has more than one explanation",
       "multi": false
     },
     {
@@ -657,9 +657,9 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.26-35):Choosethecorrectalternativewhichisclosestinmeaning.",
+      "direction": "Directions (Question Nos. 26 - 35) : Choose the correct alternative which is closest in meaning.",
       "opts": {
-        "a": "Bankrupt:",
+        "a": "Bankrupt :",
         "b": "Homeless",
         "c": "Creditor",
         "d": "Debitor"
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Onewhocannotpayoffone’sdebt",
+      "q": "One who cannot pay off one’s debt",
       "multi": false
     },
     {
@@ -680,7 +680,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.26-35):Choosethecorrectalternativewhichisclosestinmeaning.",
+      "direction": "Directions (Question Nos. 26 - 35) : Choose the correct alternative which is closest in meaning.",
       "opts": {
         "a": "Crematory",
         "b": "Shipyard",
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Wherethedeadareburied",
+      "q": "Where the dead are buried",
       "multi": false
     },
     {
@@ -703,7 +703,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.26-35):Choosethecorrectalternativewhichisclosestinmeaning.",
+      "direction": "Directions (Question Nos. 26 - 35) : Choose the correct alternative which is closest in meaning.",
       "opts": {
         "a": "Polygamy",
         "b": "Polyandry",
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Practiceofhavingmanywives",
+      "q": "Practice of having many wives",
       "multi": false
     },
     {
@@ -726,12 +726,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-40):ChoosethecorrectmeaningoftheIdiomsandPhrasesfrom",
+      "direction": "Directions (Question Nos. 36 - 40) : Choose the correct meaning of the Idioms and Phrases from",
       "opts": {
         "a": "soft-spoken",
-        "b": "bragging:",
+        "b": "bragging :",
         "c": "red-lipped",
-        "d": "know-all:"
+        "d": "know-all :"
       },
       "marked": null,
       "cov": {
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Mealymouthed",
+      "q": "Mealy mouthed",
       "multi": false
     },
     {
@@ -749,12 +749,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-40):ChoosethecorrectmeaningoftheIdiomsandPhrasesfrom",
+      "direction": "Directions (Question Nos. 36 - 40) : Choose the correct meaning of the Idioms and Phrases from",
       "opts": {
-        "a": "12pm-3am",
-        "b": "12pm-1am",
-        "c": "12pm-2am",
-        "d": "12pm-4am"
+        "a": "12 pm-3am",
+        "b": "12pm- 1am",
+        "c": "12 pm-2am",
+        "d": "12 pm-4am"
       },
       "marked": null,
       "cov": {
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thesmallhours",
+      "q": "The small hours",
       "multi": false
     },
     {
@@ -772,7 +772,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-40):ChoosethecorrectmeaningoftheIdiomsandPhrasesfrom",
+      "direction": "Directions (Question Nos. 36 - 40) : Choose the correct meaning of the Idioms and Phrases from",
       "opts": {
         "a": "secret",
         "b": "open",
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Holeandcorner",
+      "q": "Hole and corner",
       "multi": false
     },
     {
@@ -795,12 +795,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-40):ChoosethecorrectmeaningoftheIdiomsandPhrasesfrom",
+      "direction": "Directions (Question Nos. 36 - 40) : Choose the correct meaning of the Idioms and Phrases from",
       "opts": {
-        "a": "problemsofapassage",
+        "a": "problems of a passage",
         "b": "indifficulties",
         "c": "presentable",
-        "d": "favorablesituation"
+        "d": "favorable situation"
       },
       "marked": null,
       "cov": {
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inaprettypass",
+      "q": "Inapretty pass",
       "multi": false
     },
     {
@@ -818,12 +818,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-40):ChoosethecorrectmeaningoftheIdiomsandPhrasesfrom",
+      "direction": "Directions (Question Nos. 36 - 40) : Choose the correct meaning of the Idioms and Phrases from",
       "opts": {
-        "a": "audiencefullofoldpeople",
-        "b": "amixedaudience",
-        "c": "adignifiedorgrandaudience",
-        "d": "anaudiencefullofsupporters"
+        "a": "audience full of old people",
+        "b": "amixed audience",
+        "c": "adignified or grand audience",
+        "d": "anaudience full of supporters"
       },
       "marked": null,
       "cov": {
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AnAugustaudience",
+      "q": "AnAugust audience",
       "multi": false
     },
     {
@@ -841,7 +841,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-45):Picktheoddoneoutfromtheoptions:",
+      "direction": "Directions (Question Nos. 41 - 45) : Pick the odd one out from the options:",
       "opts": {
         "a": "Haughty",
         "b": "Reticent",
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)Haughty(b)Reticent",
+      "q": "(a) Haughty (b) Reticent",
       "multi": false
     },
     {
@@ -864,7 +864,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-45):Picktheoddoneoutfromtheoptions:",
+      "direction": "Directions (Question Nos. 41 - 45) : Pick the odd one out from the options:",
       "opts": {
         "a": "Assonance",
         "b": "Euphony",
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)Assonance(b)Euphony",
+      "q": "(a) Assonance (b) Euphony",
       "multi": false
     },
     {
@@ -887,12 +887,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-45):Picktheoddoneoutfromtheoptions:",
+      "direction": "Directions (Question Nos. 41 - 45) : Pick the odd one out from the options:",
       "opts": {
         "a": "Credenza",
         "b": "Tabouret",
         "c": "Chiffonier",
-        "d": "Scalpel -7-."
+        "d": "Scalpel -7- ."
       },
       "marked": null,
       "cov": {
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)Credenza(b)Tabouret",
+      "q": "(a) Credenza (b) Tabouret",
       "multi": false
     },
     {
@@ -910,7 +910,7 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-45):Picktheoddoneoutfromtheoptions:",
+      "direction": "Directions (Question Nos. 41 - 45) : Pick the odd one out from the options:",
       "opts": {
         "a": "Transient",
         "b": "Ephemeral",
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)Transient(b)Ephemeral",
+      "q": "(a) Transient (b) Ephemeral",
       "multi": false
     },
     {
@@ -933,7 +933,7 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-45):Picktheoddoneoutfromtheoptions:",
+      "direction": "Directions (Question Nos. 41 - 45) : Pick the odd one out from the options:",
       "opts": {
         "a": "Guile",
         "b": "Chicanery",
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)Guile(b)Chicanery",
+      "q": "(a) Guile (b) Chicanery",
       "multi": false
     },
     {
@@ -956,7 +956,7 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-50):Choosethecorrectalternativetocompletethegivensentences,",
+      "direction": "Directions (Question Nos. 46 - 50) : Choose the correct alternative to complete the given sentences,",
       "opts": {
         "a": "suspense",
         "b": "suspension",
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thestoryofthisfilmisfullof.",
+      "q": "The story of this film is full of .",
       "multi": false
     },
     {
@@ -979,7 +979,7 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-50):Choosethecorrectalternativetocompletethegivensentences,",
+      "direction": "Directions (Question Nos. 46 - 50) : Choose the correct alternative to complete the given sentences,",
       "opts": {
         "a": "false",
         "b": "falseness",
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theofthesoncostthefatherhislife.",
+      "q": "The of the son cost the father his life.",
       "multi": false
     },
     {
@@ -1002,7 +1002,7 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-50):Choosethecorrectalternativetocompletethegivensentences,",
+      "direction": "Directions (Question Nos. 46 - 50) : Choose the correct alternative to complete the given sentences,",
       "opts": {
         "a": "continuous",
         "b": "continue",
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Lhavethreeattacksoftyphoid.",
+      "q": "Lhave three attacks of typhoid.",
       "multi": false
     },
     {
@@ -1025,12 +1025,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-50):Choosethecorrectalternativetocompletethegivensentences,",
+      "direction": "Directions (Question Nos. 46 - 50) : Choose the correct alternative to complete the given sentences,",
       "opts": {
         "a": "captivating",
         "b": "captive",
         "c": "captivity",
-        "d": "capturing ;(a)intimacy(b)intimate (c)intimidate(d)intimation"
+        "d": "capturing ; (a) intimacy (b) intimate (c) intimidate (d) intimation"
       },
       "marked": null,
       "cov": {
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Herbeautyisreally:",
+      "q": "Her beauty is really :",
       "multi": false
     },
     {
@@ -1048,12 +1048,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionsNo.$1-55):Identifythekindofsentence:",
+      "direction": "Directions (Questions No. $1 - 55) : Identify the kind of sentence :",
       "opts": {
-        "a": "ComplexSentence",
-        "b": "CompoundSentence",
-        "c": "SimpleSentence",
-        "d": "OptativeSentence"
+        "a": "Complex Sentence",
+        "b": "Compound Sentence",
+        "c": "Simple Sentence",
+        "d": "Optative Sentence"
       },
       "marked": null,
       "cov": {
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifyourun,youwillbeontime.",
+      "q": "If yourun, you will be on time.",
       "multi": false
     },
     {
@@ -1071,12 +1071,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionsNo.$1-55):Identifythekindofsentence:",
+      "direction": "Directions (Questions No. $1 - 55) : Identify the kind of sentence :",
       "opts": {
-        "a": "AssertiveSentence",
-        "b": "AffirmativeSentence",
-        "c": "PositiveSentence(ad)ComparativeSentence (a)ComparativeSentence(b)AffirmativeSentence",
-        "d": "PositiveSentence"
+        "a": "Assertive Sentence",
+        "b": "Affirmative Sentence",
+        "c": "Positive Sentence (ad) Comparative Sentence (a) Comparative Sentence (b) Affirmative Sentence",
+        "d": "Positive Sentence"
       },
       "marked": null,
       "cov": {
@@ -1086,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hehasaverylargenose.",
+      "q": "He has a very large nose.",
       "multi": false
     },
     {
@@ -1094,12 +1094,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionsNo.$1-55):Identifythekindofsentence:",
+      "direction": "Directions (Questions No. $1 - 55) : Identify the kind of sentence :",
       "opts": {
-        "a": "CompoundSentence",
-        "b": "ComplexSentence",
-        "c": "SimpleSentence",
-        "d": "ComparativeSentence"
+        "a": "Compound Sentence",
+        "b": "Complex Sentence",
+        "c": "Simple Sentence",
+        "d": "Comparative Sentence"
       },
       "marked": null,
       "cov": {
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Suchmenasyoucannotbeeasilydisheartened.",
+      "q": "Such men as you cannot be easily disheartened.",
       "multi": false
     },
     {
@@ -1117,12 +1117,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionsNo.$1-55):Identifythekindofsentence:",
+      "direction": "Directions (Questions No. $1 - 55) : Identify the kind of sentence :",
       "opts": {
-        "a": "CompoundSentence",
-        "b": "ComplexSentence",
-        "c": "SimpleSentence",
-        "d": "AssertiveSentence -8-,"
+        "a": "Compound Sentence",
+        "b": "Complex Sentence",
+        "c": "Simple Sentence",
+        "d": "Assertive Sentence -8- ,"
       },
       "marked": null,
       "cov": {
@@ -1132,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Healthypersonshavenoneedofthephysician.",
+      "q": "Healthy persons have no need of the physician.",
       "multi": false
     },
     {
@@ -1140,12 +1140,12 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,56-60):Pickoutthesentencewhichhasnoerrorinit.",
+      "direction": "Directions (Question Nos, 56 - 60) : Pick out the sentence which has no error in it.",
       "opts": {
-        "a": "Ablackandawhitesheepisgrazing.",
-        "b": "Don’tlosetheheart,tryagain.",
-        "c": "TcanwriteEnglishverywell.",
-        "d": "Sugarissoldbyakilogram."
+        "a": "A black and a white sheep is grazing.",
+        "b": "Don’t lose the heart, try again.",
+        "c": "Tcan write English very well.",
+        "d": "Sugar is sold by a kilogram."
       },
       "marked": null,
       "cov": {
@@ -1155,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)Ablackandawhitesheepisgrazing.",
+      "q": "(a) A black and a white sheep is grazing.",
       "multi": false
     },
     {
@@ -1163,12 +1163,12 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,56-60):Pickoutthesentencewhichhasnoerrorinit.",
+      "direction": "Directions (Question Nos, 56 - 60) : Pick out the sentence which has no error in it.",
       "opts": {
-        "a": "Thedrybushescaughtthefire.",
-        "b": "Ashleygoestotheschoolonbus.",
-        "c": "Thadneverseensuchabigwormbefore.",
-        "d": "Hehasfewpensonly."
+        "a": "The dry bushes caught the fire.",
+        "b": "Ashley goes to the school on bus.",
+        "c": "Thad never seen such a big worm before.",
+        "d": "He has few pens only."
       },
       "marked": null,
       "cov": {
@@ -1178,7 +1178,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)Thedrybushescaughtthefire.",
+      "q": "(a) The dry bushes caught the fire.",
       "multi": false
     },
     {
@@ -1186,12 +1186,12 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,56-60):Pickoutthesentencewhichhasnoerrorinit.",
+      "direction": "Directions (Question Nos, 56 - 60) : Pick out the sentence which has no error in it.",
       "opts": {
-        "a": "Thegoldisapreciousmetal.",
-        "b": "TheMathematicsisadifficultsubject.",
-        "c": "Themanismortal.",
-        "d": "TheAndamansareapartofIndia."
+        "a": "The gold isa precious metal.",
+        "b": "The Mathematics is a difficult subject.",
+        "c": "The man is mortal.",
+        "d": "The Andamans are a part of India."
       },
       "marked": null,
       "cov": {
@@ -1201,7 +1201,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)Thegoldisapreciousmetal.",
+      "q": "(a) The gold isa precious metal.",
       "multi": false
     },
     {
@@ -1209,12 +1209,12 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,56-60):Pickoutthesentencewhichhasnoerrorinit.",
+      "direction": "Directions (Question Nos, 56 - 60) : Pick out the sentence which has no error in it.",
       "opts": {
-        "a": "Thereareagoodmanytigersinthisforest.",
-        "b": "[havesenthimaword.",
-        "c": "Donotmakesomenoise.",
-        "d": "Dogisafaithfulanimal."
+        "a": "There are a good many tigers in this forest.",
+        "b": "[have sent him a word.",
+        "c": "Do not make some noise.",
+        "d": "Dogisa faithful animal."
       },
       "marked": null,
       "cov": {
@@ -1224,15 +1224,34 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)Thereareagoodmanytigersinthisforest.",
+      "q": "(a) There are a good many tigers in this forest.",
       "multi": false
     }
   ],
-  "written": [],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Read the given passage carefully and write a précis of it, giving an appropriate title. (10) It is very easy to acquire bad habits, such as eating too many sweets or too much food, or . drinking too much fluid of any kind, or smoking. The more we do a thing, the more we tend to like doing it; and, if we do not continue to do it, we feel unhappy. This is called the force of habit, and the : force of habit should be fought against. Things which may be very good when only done from time to time, tend to become very harmful when done too often and too much. This applies even to such good things as work or rest. Some people form a bad habit of working too much, and others of idling too much. The wise man always remembers that this is true about himself, and checks any bad habits. He says to himself, “I am now becoming idle,” or “I like too many sweets,” or “I smoke too much” and then adds, “I will get myself out of this habit at once”. One of the most widely spread of bad habits is the use of tobacco. Tobacco is now smoked or chewed by men, often by women, and even by children almost all over the world. It was brought into Europe from America, from Sir Walter Raleigh, four centuries ago and has thence spread everywhere. I very much doubt whether there is any good in the habit, even when tobacco is not used to excess; and it is extremely difficult to get rid of the habit when once it has been formed. Alcohol is taken in almost all cool and cold climates, and to a very much less extent in hot ones. Thus, itis taken by people who live in the Himalaya Mountains, but not nearly by those who live in the plains of India. Alcohol is not necessary in anyway to anybody. Millions of people are beginning to do without it entirely; and once the United States of America have passed laws which forbid its manufacture or sale throughout the length and breadth of their vast country. In India, it is not required by the people at all, and should be avoided by them altogether. The regular use of alcohol, even in small quantities, tends to cause mischief in many ways to various organs of the body. It affects the liver, it weakens the mental power, and lessens the general energy of the body. | 2. You area fresh graduate from college. Write a letter of application for the post of an Office Assistant to The Manager, Hartosky Industries. Include a detailed curriculum vitae. (15) OR | Write an official letter about the poor quality and inadequate supply of water to the Mayor, Municipal Corporation of your locality. Sign yourself'as the President of the local council of your locality. -2- ,",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 2,
+      "text": "Read the given passage and answer the questions that follow— I stopped to let the car cool off and to study the map. Thad expected to be near my objective by now, but everything still seemed alien to me. Iwas only five when my father had taken me abroad, and that was eighteen years ago, When my mother had died after a tragic accident, he did not quickly recover from the shock and loneliness. Everything around him was full of her presence, continually reopening the wound. So he decided to emigrate. In the new country, he became absorbed in making anew life for the two of us, so that he gradually ceased to grieve. He did not marry again and I was brought up without a woman’s care; but I lacked nothing, for he was both father and mother to me. He always meant to go back one day. but not to stay. His roots and mine had become too firmly embedded in the new land. Buthe wanted to see the old folk again and to visit my mother’s grave. He became mortally ill a few months before we had planned to go and, when he knew that he was dying, he made me promise to go on my own. Thired a car the day after landing and bought a comprehensive book of maps, which I found most helpful on the cross-country journey, but which] did not think | should need on the last stage. It was not that | actually remembered anything at all. But my father had described over and over again what we should see at every milestone, after leaving the nearest town, so that I was positive I should recognize it as familiar territory. Well, [had been wrong, for I was now lost. Ilooked at the map and then at the speedometer. I had come ten miles since leaving the town, and at this point, according to my father, I should be looking at farms and cottages in a valley, with the spire of the church of our village showing in the far distance. I could see no farms, no cottages and church spire—only a lake. I decided that I must have taken a wrong turning somewhere. So I drove back to the town and began to retrace the route, taking frequent glances at the map. I landed up at the same corner. The curious thing was that the lake was not marked in the map. I felt as if ] had : stumbled into a nightmare country, as you sometimes do in dreams. And, as in a nightmare, there was nobody in sight to help me. Fortunately for me, as Twas wondering what to do next, there appeared on the horizon a man on horseback, riding in my direction. T waited till he came near, thenJ  asked him the way to our old village. He said that there was now no village. I thought he must have misunderstood me, so I repeated its name. This time he pointed to the lake. The village no longer existed because it had been submerged, and all the valley too. The lake was nota natural one, but a man-made reservoir.",
+      "subparts": {
+        "a": "Why did the author’s father emigrate? (2)",
+        "b": "Why did the author not feel the absence of his mother after her death? (2)",
+        "c": "Why did the author’s father want to go back to his old village? (2) (a) Why had the author come back to the jand of his birth? (2) (i) frightening or unpleasant dream (i) to go under surface of water (ii) an instrument in a vehicle which shows the speed of the vehicle _3- ,"
+      }
+    }
+  ],
   "notes": [
     "Source numbering gap before Q3: expected Q2; review the printed page.",
-    "Q1 (p1, part A): only 0 option(s) [] - not emitted",
-    "Q3 (p2, part A): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p2, part A): conventional section, 3 sub-part(s) - not an MCQ",
     "Source numbering gap before Q6: expected Q5; review the printed page.",
     "Q14 (p4, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
     "Q30 (p5, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",

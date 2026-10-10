@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Accordingtothepassage,inwhichdirectionistheproportionofurbanpopulationinfuture",
-        "b": "WhatisitthatSpecialEconomicZonesaredeficientin?(4)",
-        "c": "WhatistheGovernment’splanforasmartcity?(4)",
-        "d": "Whichfacilitiesneedtobemadeavailablealongwiththephysicalinfrastructuretodevelopa"
+        "a": "According to the passage, in which direction is the proportion of urban population in future",
+        "b": "What is it that Special Economic Zones are deficient in? (4)",
+        "c": "What is the Government’s plan for a smart city? (4)",
+        "d": "Which facilities need to be made available along with the physical infrastructure to develop a"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Readthefollowingpassagecarefullyandanswerthequestionsthatfollow: TheGovernment’sapprovalforthe100smartcitiesprojectandanewurbanrenewalmission isanimportantfirststeptowarddealingwithanoldproblemthathasonlygotprogressivelyworse overtheyears:urbanlivability.AshadelessthanathirdofIndia’spopulationnowlivesinurban areas,overcrowdedcitiesandtownswithinfrastructureburstingattheseams.Thisproblemwillonly worsenwithlittleornointerventionhappening.Theproportionoftheurbanpopulationcanonlygoin onedirection—upward—asmoreIndiansmigratetothecitiesandtownsinsearchofjobs.Cities areenginesofgrowth,andasaresultattractalotofpeople.Thecountry’surbanpopulationcontributes over60percentofIndia’sGDP;in15yearsthiswillbe70percent.Ontheotherhand,thereislittle incentiveforpeopletomigrateoutofcities.Earlierattemptsatprovidingbetterurbaninfrastructure oratcreatingnewtownshipshavenotbeenabletodealwiththeissueoflivabilitysatisfactorily.Even successfulspecialeconomiczoneshavehadtocontendwiththeissueoflackofsocialinfrastructure, whichusuallymeansaccesstoavenuesofeducation,health,arts,sports,andsoon.Therearenumerous definitionsofasmartcitybutthecurrentgovernment’sideaofoneusefullyencompassesinstitutional infrastructure(governance),physicalinfrastructure,asalsosocialinfrastructure. a TheCabinetapprovalmarksthefirstofmanysteps,asalsotheeasiest,thatwillberequiredfor theproject.Thechallengesstartnow.Ofcoursethereisnodoubtthatthishascreatedtremendous enthusiasmamongstmanypossiblestakeholders,includingserviceproviderswhohavebeenpartof smartcityprojectselsewhereintheworld.CountriessuchasJapan,SingaporeandGermany,among manyothers,haveevincedinteresttobeapartofthis.Yet,initsscaleandcomplexitytheprojectwill besecondtonone.TheofficialestimateofpercapitainvestmentrequirementisRs.43386fora20- yearperiod,oratotalinvestmentofRs.7lakhcrore.Creatingasmartcityisn’tjustaboutcreating thephysicalinfrastructure—roads,cleanwater,power,transportandsoon,thingsIndiafindsdifficult todelivertoitscitizensnearlysevendecadesafterIndependence.Itishopedthatpublicprivate partnerships(PPP)willdeliverbutthemechanismseemstoneedalotoftweakinginorderforitto work,afactacknowledgedintherecentBudget.Thebigchallengewillbetocreateself-sustaining cities,whichcreatejobs,useresourceswiselyandalsotrainpeople.Thisalsomeansmoreautonomy forthesecities.Whetherthatcanhappenisamootquestiondependingheavilyonthematurityofthe Indianpoliticalsystem.",
+      "q": "Read the following passage carefully and answer the questions that follow: The Government’s approval for the 100 smart cities project and a new urban renewal mission is an important first step toward dealing with an old problem that has only got progressively worse over the years: urban livability. A shade less than a third of India’s population now lives in urban areas, overcrowded cities and towns with infrastructure bursting at the seams. This problem will only worsen with little or no intervention happening. The proportion of the urban population can only go in one direction — upward — as more Indians migrate to the cities and towns in search ofj obs. Cities are engines of growth, and as a result attract a lot of people. The country’s urban population contributes over 60 per cent of India’s GDP; in 15 years this will be 70 per cent. On the other hand, there is little incentive for people to migrate out of cities. Earlier attempts at providing better urban infrastructure or at creating new townships have not been able to deal with the issue of livability satisfactorily. Even successful special economic zones have had to contend with the issue of lack of social infrastructure, which usually means access to avenues of education, health, arts, sports, and so on. There are numerous definitions of a smart city but the current government’s idea of one usefully encompasses institutional infrastructure (governance), physical infrastructure, as also social infrastructure. a The Cabinet approval marks the first of many steps, as also the easiest, that will be required for the project. The challenges start now. Of course there is no doubt that this has created tremendous enthusiasm amongst many possible stakeholders, including service providers who have been part of smart city projects elsewhere in the world. Countries such as Japan, Singapore and Germany, among many others, have evinced interest to be a part of this. Yet, in its scale and complexity the project will be second to none. The official estimate of per capita investment requirement is Rs.43386 for a 20- year period, or a total investment of Rs.7 lakh crore. Creating a smart city isn’t just about creating the physical infrastructure — roads, clean water, power, transport and so on, things India finds difficult to deliver to its citizens nearly seven decades after Independence. It is hoped that public private partnerships (PPP) will deliver but the mechanism seems to need a lot of tweaking in order for it to work, a fact acknowledged in the recent Budget. The big challenge will be to create self-sustaining cities, which create jobs, use resources wisely and also train people. This also means more autonomy for these cities. Whether that can happen is a moot question depending heavily on the maturity oft he Indian political system.",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "alter-modify/verify/justify/edify-",
-        "b": "mitigate-deviate/elevate/alleviate/delegate",
-        "c": "elucidate-clarify/nullify/reject/subject",
-        "d": "perceive-concern/assert/deceive/discern"
+        "a": "alter - modify/ verify/ justify/ edify-",
+        "b": "mitigate - deviate/ elevate/ alleviate/ delegate",
+        "c": "elucidate - clarify/ nullify/reject/ subject",
+        "d": "perceive - concern/assert/ deceive/discern"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethecorrectsynonymofthewordsgiven:(5x1=5)",
+      "q": "Choose the correct synonym of the words given : (5x1=5)",
       "multi": false
     },
     {
@@ -61,10 +61,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "defective-functional/integral/positive/negative.",
-        "b": "inaccurate-precise/exercise/excise/exhort",
-        "c": "static-dynamic/ceramic/dyslectic/drastic",
-        "d": "isolated-integrated/polluted/dusted/gusted"
+        "a": "defective - functional/ integral/ positive/ negative.",
+        "b": "inaccurate- precise/ exercise/ excise/ exhort",
+        "c": "static- dynamic/ ceramic/ dyslectic/ drastic",
+        "d": "isolated- integrated/ polluted/ dusted/ gusted"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethecorrectantonymofthewordsgiven-(5x1=5)",
+      "q": "Choose the correct antonym of the words given - (5x1=5)",
       "multi": false
     },
     {
@@ -84,10 +84,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Thepropertywasdividedamongthetwobrothers.",
-        "b": "Theteamhavebeenpractisingforthetournamentnextweek.",
-        "c": "Meandhimwenttothestore.",
-        "d": "Thedog’swaggingit’stail. eHa"
+        "a": "The property was divided among the two brothers.",
+        "b": "The team have been practising for the tournament next week.",
+        "c": "Meand him went to the store.",
+        "d": "The dog’s wagging it’s tail. eHa"
       },
       "marked": null,
       "cov": {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Identifythegrammaticalerrorandrewritethegivensentences.(10x1=10)",
+      "q": "Identify the grammatical error and rewrite the given sentences. (10x1=10)",
       "multi": false
     },
     {
@@ -107,10 +107,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Aplacewheredeadbodiesarekeptforpostmortem.(Mortuary/Morgue)",
-        "b": "Onewhohaslongexperienceofanyoccupation.(Amateur/Veteran)",
-        "c": "Acriticaljudgeofanyartorcraft.(Connoisseur/Cynosure)",
-        "d": "Aleaderofpeoplewhoswayshisfollowersbyhisoratory.(Demagogue/Polyglot)"
+        "a": "Aplace where dead bodies are kept for post mortem. (Mortuary/  Morgue)",
+        "b": "One who has long experience of any occupation. (Amateur/  Veteran)",
+        "c": "Acritical judge of any art or craft. (Connoisseur/  Cynosure)",
+        "d": "A leader of people who sways his followers by his oratory. (Demagogue/  Polyglot)"
       },
       "marked": null,
       "cov": {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethecorrectone-wordsubstituteanduseitinasentence:(10x1=10)",
+      "q": "Choose the correct one-word substitute and use it in a sentence: (10x1=10)",
       "multi": false
     },
     {
@@ -131,9 +131,9 @@
       "direction": null,
       "opts": {
         "a": "Soul/Sole",
-        "b": "Coarse/Course",
-        "c": "Access/Excess",
-        "d": "Callous/Callus eeKKRRKE"
+        "b": "Coarse / Course",
+        "c": "Access/ Excess",
+        "d": "Callous /Callus ee KK RR KE"
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Makesentenceswith(anyfive)thegivenhomophonestoshowtheirdifferences:(5x2=10)",
+      "q": "Make sentences with (any five) the given homophones to show their differences: (5x2=10)",
       "multi": false
     }
   ],

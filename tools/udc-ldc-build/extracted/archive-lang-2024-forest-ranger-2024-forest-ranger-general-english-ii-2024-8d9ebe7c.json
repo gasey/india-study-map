@@ -13,10 +13,10 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Part of Speech of the underlined words.",
       "opts": {
-        "a": "Verb(c)Adverb",
-        "b": "Noun(d)Conjunction",
+        "a": "Verb (c) Adverb",
+        "b": "Noun (d) Conjunction",
         "c": "Noun",
         "d": "Pronoun"
       },
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HerefusedtoacknowledgemewhenIsawhimlastnight.",
+      "q": "He refused to acknowledge me whenI  saw him last night.",
       "multi": false
     },
     {
@@ -36,10 +36,10 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.26-35):Fillintheblankswiththeappropriateconjunctionor",
+      "direction": "Directions (Question Nos. 26 - 35): Fill in the blanks with the appropriate conjunction or",
       "opts": {
-        "a": "beside(c)next",
-        "b": "aside(d)besides",
+        "a": "beside (c) next",
+        "b": "aside (d) besides",
         "c": "throughout",
         "d": "thorough"
       },
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hesatonthechairtomine.",
+      "q": "He sat on the chair to mine.",
       "multi": false
     },
     {
@@ -59,12 +59,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed.",
       "opts": {
-        "a": "Aftertherainstopped,thesuncameout",
-        "b": "Therainstopped.Thesuncameout",
-        "c": "Therainstoppedthesuncomingout",
-        "d": "Thesuncameoutaftertherainstopped"
+        "a": "After the rain stopped, the sun came out",
+        "b": "Therain stopped. The sun came out",
+        "c": "The rain stopped the sun coming out",
+        "d": "The sun came out after the rain stopped"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Therainstoppedandthesuncameout(ToComplex)",
+      "q": "The rain stopped and the sun came out (To Complex)",
       "multi": false
     },
     {
@@ -82,12 +82,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed.",
       "opts": {
-        "a": "Tomfinishedhishomework,andhencesoforthwenttobed",
-        "b": "Finishinghishomework,Tomwenttobed.",
-        "c": "Goingtobed,Tomfinishedhishomework",
-        "d": "Tomfinishedhishomework,andtherefore,hewenttobed"
+        "a": "Tom finished his homework, and hence so forth went to bed",
+        "b": "Finishing his homework, Tom went to bed .",
+        "c": "Going to bed, Tom finished his homework",
+        "d": "Tom finished his homework, and therefore, he went to bed"
       },
       "marked": null,
       "cov": {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tomfinishedhishomeworkandwenttobed(ToSimple)",
+      "q": "Tom finished his homework and went to bed (To Simple)",
       "multi": false
     },
     {
@@ -105,12 +105,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed.",
       "opts": {
-        "a": "Despitebeingsick;hewenttowork~",
-        "b": "Hewassick.Hewenttowork",
-        "c": "Hewenttoworksick",
-        "d": "Hewassickbutheneverthelesswenttowork"
+        "a": "Despite being sick; he went to work ~",
+        "b": "He was sick. He went to work",
+        "c": "He went to work sick",
+        "d": "He was sick but he nevertheless went to work"
       },
       "marked": null,
       "cov": {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Despitebeingsick,hewenttowork(toCompound)",
+      "q": "Despite being sick, he went to work (to Compound)",
       "multi": false
     },
     {
@@ -128,12 +128,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed.",
       "opts": {
-        "a": "Hehastoeathealthiertoavoidgettingsick",
-        "b": "Hehastoeathealthiersothathewillgetsick",
-        "c": "Hewillgetsickifhedoesnoteathealthier",
-        "d": "Hehastoeathealthiersolongashedoesnotwanttogetsick"
+        "a": "He has to eat healthier to avoid getting sick",
+        "b": "He has to eat healthier so that he will get sick",
+        "c": "He will get sick if he does not eat healthier",
+        "d": "He has to eat healthier so long as he does not want to get sick"
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hehastoeathealthier,orhewillgetsick(toSimple)",
+      "q": "He has to eat healthier, or he will get sick (to Simple)",
       "multi": false
     },
     {
@@ -151,12 +151,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed.",
       "opts": {
-        "a": "Theconcertwasloud.Itwasenjoyable",
-        "b": "Theconcertwasloud,butitwasalsoenjoyable",
-        "c": "Beingloud,theconcertwasenjoyable",
-        "d": "Theconcertwasloudandenjoyable"
+        "a": "The concert was loud. It was enjoyable",
+        "b": "The concert was loud, but it was also enjoyable",
+        "c": "Being loud, the concert was enjoyable",
+        "d": "The concert was loud and enjoyable"
       },
       "marked": null,
       "cov": {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Althoughtheconcertwasloud,itwasenjoyable(toCompound)",
+      "q": "Although the concert was loud, it was enjoyable (to Compound)",
       "multi": false
     },
     {
@@ -174,12 +174,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed.",
       "opts": {
-        "a": "Nickdidnotgotoworkduetohisillness°",
-        "b": "Beingill,Nickdidnotgotowork",
-        "c": "Nick,owingtohisillness,didnotgotowork",
-        "d": "Nickdidnotgotoworkbecausehewasill"
+        "a": "Nick did not go to work due to his illness °",
+        "b": "Being ill, Nick did not go to work",
+        "c": "Nick, owing to his illness, did not go to work",
+        "d": "Nick did not go to work because he was ill"
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Duetohisillness,Nickdidnotgotowork(toComplex)",
+      "q": "Due to his illness, Nick did not go to work (to Complex)",
       "multi": false
     },
     {
@@ -197,12 +197,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed.",
       "opts": {
-        "a": "Thoughitwasraining,wewentout",
-        "b": "Itwasrainingbecausewewentout",
-        "c": "Wewentoutintherain",
-        "d": "_Itwasrainingandwewentout"
+        "a": "Though it was raining, we went out",
+        "b": "It was raining because we went out",
+        "c": "We went out in the rain",
+        "d": "_ It was raining and we went out"
       },
       "marked": null,
       "cov": {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Itwasrainingbutwewentout(toComplex)",
+      "q": "It was raining but we went out (to Complex)",
       "multi": false
     },
     {
@@ -220,12 +220,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed.",
       "opts": {
-        "a": "Billcannotwalkanyfurtherbecausehewassoweak",
-        "b": "Billwastooweaktowalkanyfurther",
-        "c": "Ashewassoweak,Billcouldnotwalkanyfurther",
-        "d": "Billcouldnotwalkanyfurtherasaconsequenceofhisweakness ——"
+        "a": "Bill cannot walk any further because he was so weak",
+        "b": "Bill was too weak to walk any further",
+        "c": "Ashe was so weak, Bill could not walk any further",
+        "d": "Bill could not walk any further as a consequence of his weakness ——"
       },
       "marked": null,
       "cov": {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Billwassoweakthathecouldnotwalkanyfurther(toSimple)",
+      "q": "Bill was so weak that he could not walk any further (to Simple)",
       "multi": false
     },
     {
@@ -243,12 +243,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed.",
       "opts": {
-        "a": "Beingcold,Iturnedoffthefan",
-        "b": "Iturnedoffthefanasitwascold",
-        "c": "ItisverycoldandsoIturnedoffthefan",
-        "d": "Asitwascold,Iturnedoffthefan"
+        "a": "Being cold, I turned off the fan",
+        "b": "I turned off the fan as it was cold",
+        "c": "Itis very cold and so I turned off the fan",
+        "d": "As it was cold, I turned off the fan"
       },
       "marked": null,
       "cov": {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ItissocoldthatIhadtoturnoffthefan(toCompound)",
+      "q": "Itis so cold that I had to turn off the fan (to Compound)",
       "multi": false
     },
     {
@@ -266,12 +266,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed.",
       "opts": {
-        "a": "Despitebeingrich,Claireisnothappy",
-        "b": "Pansyisrichyetsheisunhappy",
-        "c": "Pansyisunhappyinspiteofbeingrich",
-        "d": "AlthoughPansyisrich,yetsheisunhappy,"
+        "a": "Despite being rich, Claire is not happy",
+        "b": "Pansy is rich yet she is unhappy",
+        "c": "Pansy is unhappy in spite of being rich",
+        "d": "Although Pansy is rich, yet she is unhappy ,"
       },
       "marked": null,
       "cov": {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AlthoughPansyisrich,sheisnothappy(toSimple)",
+      "q": "Although Pansy is rich, she is not happy (to Simple)",
       "multi": false
     },
     {
@@ -289,12 +289,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-55):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their",
       "opts": {
-        "a": "Itwastoohottogoout",
-        "b": "Itwastoohotthatwecouldnotgoout",
-        "c": "Itwassohotthatwecouldnotgoouttoo",
-        "d": "Itwashottoogoout"
+        "a": "It was too hot to go out",
+        "b": "It was too hot that we could not go out",
+        "c": "It was so hot that we could not go out too",
+        "d": "It was hot too go out"
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Itwassohotthatwecouldnotgoout.(use‘too’)",
+      "q": "It was so hot that we could not go out. (use ‘too’)",
       "multi": false
     },
     {
@@ -312,12 +312,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-55):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their",
       "opts": {
-        "a": "Leaisgreaterthanthegreatestdanceramongstthetroupe",
-        "b": "Leaisthegreaterdanceramongstthetroupe",
-        "c": "NootherdanceramongstthetroupeisgreaterthanLea",
-        "d": "NootherdancerisasgreatasLeaamongstthetroupe (a)Thegardenwasbeautifiedbythepresenceofthefairies (b)Thepresenceofthefairiesmadethegardenbeautiful (c)Thegardenwasmadebeautifullybythepresenceofthefairies (d)Thepresenceofthefairiesgavethegardenbeauty"
+        "a": "Leais greater than the greatest dancer amongst the troupe",
+        "b": "Lea is the greater dancer amongst the troupe",
+        "c": "No other dancer amongst the troupe is greater than Lea",
+        "d": "No other dancer is as great as Lea amongst the troupe (a) The garden was beautified by the presence of the fairies (b) The presence of the fairies made the garden beautiful (c) The garden was made beautifully by the presence of the fairies (d) The presence of the fairies gave the garden beauty"
       },
       "marked": null,
       "cov": {
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Leaisthegreatestdanceramongstthetroupe.(useComparativeDegree).",
+      "q": "Leais the greatest dancer amongst the troupe. (use Comparative Degree) .",
       "multi": false
     },
     {
@@ -335,12 +335,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-55):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their",
       "opts": {
-        "a": "Anyonehasnotseenhim",
-        "b": "Hehasbeenseenbyanyone",
-        "c": "Hehasbeenseenbynobody",
-        "d": "Anyonehasseenhim"
+        "a": "Anyone has not seen him",
+        "b": "He has been seen by anyone",
+        "c": "He has been seen by nobody",
+        "d": "Anyone has seen him"
       },
       "marked": null,
       "cov": {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hehasnotbeenseenbyanyone(toAffirmative)",
+      "q": "He has not been seen by anyone (to Affirmative)",
       "multi": false
     },
     {
@@ -358,12 +358,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-55):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their",
       "opts": {
-        "a": "Hesmiledattheladieswithgreatcharmingly",
-        "b": "Hesmiledattheladieswithcharming",
-        "c": "Hesmiledattheladiescharmingly",
-        "d": "Hesmiledattheladiesinacharmfulmanner"
+        "a": "He smiled at the ladies with great charmingly",
+        "b": "He smiled at the ladies with charming",
+        "c": "He smiled at the ladies charmingly",
+        "d": "He smiled at the ladies in a charmful manner"
       },
       "marked": null,
       "cov": {
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hesmiledattheladieswithgreatcharm(useAdjective)",
+      "q": "He smiled at the ladies with great charm (use Adjective)",
       "multi": false
     },
     {
@@ -381,12 +381,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-55):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their",
       "opts": {
-        "a": "Nosoonerhadhearrivedthanhewenttobed",
-        "b": "Nosoonerthanhearrived,hewenttobed",
-        "c": "Nosoonerashearrivedthanhewenttobed",
-        "d": "Nosoonerdidhearrived,thenwenttobed"
+        "a": "No sooner had he arrived than he went to bed",
+        "b": "No sooner than he arrived, he went to bed",
+        "c": "No sooner as he arrived than he went to bed",
+        "d": "No sooner did he arrived, then went to bed"
       },
       "marked": null,
       "cov": {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Assoonashearrived,hewenttobed(use‘Nosooner...than’)",
+      "q": "As soon as he arrived, he went to bed (use ‘No sooner...than’)",
       "multi": false
     },
     {
@@ -404,12 +404,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-55):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their",
       "opts": {
-        "a": "Shewastooill-manneredsothatIcouldnottolerateher",
-        "b": "Shewastooill-manneredsoIcannottoleratethat",
-        "c": "Shewassoill-manneredthattobetolerated",
-        "d": "Shewassoill-manneredthatIcouldnottolerateher:"
+        "a": "She was too ill-mannered so that I could not tolerate her",
+        "b": "She was too ill-mannered so I cannot tolerate that",
+        "c": "She was so ill-mannered that to be tolerated",
+        "d": "She was so ill-mannered that I could not tolerate her :"
       },
       "marked": null,
       "cov": {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shewastooill-manneredtobetolerated(use‘so...that)",
+      "q": "She was too ill-mannered to be tolerated (use ‘so... that)",
       "multi": false
     },
     {
@@ -427,12 +427,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-55):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their",
       "opts": {
-        "a": "Sheisnotaveryproudperson",
-        "b": "Sheisaveryhumbleperson",
-        "c": "Sheisnotaveryhumbleperson/",
-        "d": "Sheisnotatallproud"
+        "a": "She is nota very proud person",
+        "b": "She is a very humble person",
+        "c": "She is nota very humble person /",
+        "d": "She is not at all proud"
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Sheisaveryproudperson(toNegative)",
+      "q": "She is a very proud person (to Negative)",
       "multi": false
     },
     {
@@ -450,12 +450,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-55):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their",
       "opts": {
-        "a": "Minnyistheaccomplishestsingeramongthegirls",
-        "b": "NoothergirlismoreaccomplishedinsingingthanMinny",
-        "c": "Minnyisanaccomplishedsingeramongthegirls",
-        "d": "Minnyisthemostaccomplishedsingeramongthegirls"
+        "a": "Minny is the accomplishest singer among the girls",
+        "b": "No other girl is more accomplished in singing than Minny",
+        "c": "Minny is an accomplished singer among the girls",
+        "d": "Minny is the most accomplished singer among the girls"
       },
       "marked": null,
       "cov": {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "NoothergirlisasaccomplishedasingerasMinny.(useSuperlative)",
+      "q": "No other girl is as accomplished a singer as Minny. (use Superlative)",
       "multi": false
     },
     {
@@ -473,12 +473,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without",
       "opts": {
-        "a": "John,awealthyandgenerousman,isveryeligible.",
-        "b": "Johniseligibleaswellaswealthyandgenerous.",
-        "c": "Beingwealthyandgenerous,Johnisaneligibleman.",
-        "d": "Johniseligible,wealthyandgenerous."
+        "a": "John, a wealthy and generous man, is very eligible.",
+        "b": "John is eligible as well as wealthy and generous.",
+        "c": "Being wealthy and generous, John is an eligible man.",
+        "d": "John is eligible, wealthy and generous."
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Johnisaveryeligibleman.Heiswealthyandgenerous,(useNounphraseinapposition)",
+      "q": "Johnis a very eligible man. He is wealthy and generous, (use Noun phrase in apposition)",
       "multi": false
     },
     {
@@ -496,12 +496,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without",
       "opts": {
-        "a": "Hesucceededbydintofduetohishardwork.",
-        "b": "Hesucceededbydintofhishardwork.",
-        "c": "Itisduetohishardworkbydintofhissuccess.",
-        "d": "Hesucceededduetohishardworkbydintof."
+        "a": "He succeeded by dint of due to his hard work.",
+        "b": "He succeeded by dint of his hard work.",
+        "c": "Itis due to his hard work by dint of his success.",
+        "d": "He succeeded due to his hard work by dint of."
       },
       "marked": null,
       "cov": {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hesucceeded.Itisduetohishardwork.(use‘bydintof’)",
+      "q": "He succeeded. It is due to his hard work. (use ‘by dint of’)",
       "multi": false
     },
     {
@@ -519,12 +519,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without",
       "opts": {
-        "a": "Isawherloyaltyandwasimpressed",
-        "b": "Iwasimpressedbyherloyalty",
-        "c": "Iwasimpressedonseeinghowloyalshewas",
-        "d": "Iwasimpressedonseeinghowloyallyshewasbeing"
+        "a": "I saw her loyalty and was impressed",
+        "b": "Iwas impressed by her loyalty",
+        "c": "Iwas impressed on seeing how loyal she was",
+        "d": "Iwas impressed on seeing how loyally she was being"
       },
       "marked": null,
       "cov": {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Isawherloyalty.Iwasimpressed.(useanAdjective)",
+      "q": "I saw her loyalty. I was impressed. (use an Adjective)",
       "multi": false
     },
     {
@@ -542,12 +542,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without",
       "opts": {
-        "a": "ThemoviewassoviolentthatIcouldnotfinishit",
-        "b": "ThemoviewastooviolentthatIcouldnotfinishit",
-        "c": "Themoviewastooviolent,henceIcouldnotfinishit",
-        "d": "Themoviewastooviolenttofinish:"
+        "a": "The movie was so violent that I could not finish it",
+        "b": "The movie was too violent that I could not finish it",
+        "c": "The movie was too violent, hence I could not finish it",
+        "d": "The movie was too violent to finish :"
       },
       "marked": null,
       "cov": {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Themoviewastooviolent.Icouldnotfinishit.(useinfinitive)",
+      "q": "The movie was too violent. I could not finish it. (use infinitive)",
       "multi": false
     },
     {
@@ -565,12 +565,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without",
       "opts": {
-        "a": "Hefinishedhisworkandwenthome",
-        "b": "Finishinghiswork,hewenthome",
-        "c": "Assoonashefinishedhiswork,hewenthome",
-        "d": "Hewenthomeafterfinishinghiswork"
+        "a": "He finished his work and went home",
+        "b": "Finishing his work, he went home",
+        "c": "As soonas he finished his work, he went home",
+        "d": "He went home after finishing his work"
       },
       "marked": null,
       "cov": {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hefinishedhiswork.Hewenthome,(useaParticipialPhrase)",
+      "q": "He finished his work. He went home, (use a Participial Phrase)",
       "multi": false
     },
     {
@@ -588,12 +588,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without",
       "opts": {
-        "a": "Shewassobeautifulthatotherwomenbecamejealous",
-        "b": "Herbeautymadeotherwomenbecomejealous",
-        "c": "Shewasabeautythatotherwomenwerejealous:",
-        "d": "Herbeautymadeotherwomenbecamejealous."
+        "a": "She was so beautiful that other women became jealous",
+        "b": "Her beauty made other women become jealous",
+        "c": "She was a beauty that other women were jealous :",
+        "d": "Her beauty made other women became jealous."
       },
       "marked": null,
       "cov": {
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shewassobeautiful.Otherwomenbecamejealous.(useaNoun)",
+      "q": "She was so beautiful. Other women became jealous. (use a Noun)",
       "multi": false
     },
     {
@@ -611,12 +611,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without",
       "opts": {
-        "a": "Hesatonafreshly-paintedbench",
-        "b": "Hesatonajust-been-paintedbench",
-        "c": "Hesatonapainted-bench",
-        "d": "Hesatonabenchthathadjustbeen-painted"
+        "a": "Hesat ona freshly-painted bench",
+        "b": "He sat ona just-been-painted bench",
+        "c": "He sat on a painted-bench",
+        "d": "He sat on a bench that had just been-painted"
       },
       "marked": null,
       "cov": {
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hesatonabench.Ithadjustbeenpainted.(useCompoundadjective)",
+      "q": "He sat on a bench. It had just been painted. (use Compound adjective)",
       "multi": false
     },
     {
@@ -634,12 +634,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without",
       "opts": {
-        "a": "AlthoughtheChairmanpromisedtomeettheirdemands,theworkerswerestillangry",
-        "b": "Thechairmanpromisedtomeettheirdemandsalthoughtheworkerswerestillangry",
-        "c": "Althoughtheworkerswerestillangry,theChairmanpromisedtomeettheirdemands",
-        "d": "TheChairmanalthoughpromisedtomeetthedemandsoftheangryworkers"
+        "a": "Although the Chairman promised to meet their demands, the workers were still angry",
+        "b": "The chairman promised to meet their demands although the workers were still angry",
+        "c": "Although the workers were still angry, the Chairman promised to meet their demands",
+        "d": "The Chairman although promised to meet the demands of the angry workers"
       },
       "marked": null,
       "cov": {
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheChairmanpromisedtomeettheirdemands.Theworkerswerestillangry.(use‘Although’)",
+      "q": "The Chairman promised to meet their demands. The workers were still angry. (use ‘Although’)",
       "multi": false
     },
     {
@@ -657,12 +657,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without",
       "opts": {
-        "a": "Kimdidnotforgetneitherthethief’snameandface",
-        "b": "Kimdidnotforgetthethief’snameandfaceneither:",
-        "c": "Kimdidnotforgetneitherthethief’snameorhisface",
-        "d": "Kimdidnotforgetneitherthethief’snamenorhisface"
+        "a": "Kim did not forget neither the thief’s name and face",
+        "b": "Kim did not forget the thief’s name and face neither :",
+        "c": "Kim did not forget neither the thief’s name or his face",
+        "d": "Kim did not forget neither the thief’s name nor his face"
       },
       "marked": null,
       "cov": {
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Kimdidnotforgetthethief’sname.Shealsodidnotforgethisface.(use‘neither’)",
+      "q": "Kim did not forget the thief’s name. She also did not forget his face. (use ‘neither ’)",
       "multi": false
     },
     {
@@ -680,12 +680,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without",
       "opts": {
-        "a": "Notonlydoesthiscareconomicalbutalsofeelsgoodtodrive",
-        "b": "Thiscarnotonlyiseconomical,butalsofeelsgoodtodrive",
-        "c": "Notonlythiscariseconomical,butalsofeelsgoodtodrive",
-        "d": "Thiscarnotonlyfeelsgoodtodrive,butalsofeelseconomical"
+        "a": "Not only does this car economical but also feels good to drive",
+        "b": "This car not only is economical, but also feels good to drive",
+        "c": "Not only this caris  economical, but also feels good to drive",
+        "d": "This car not only feels good to drive, but also feels economical"
       },
       "marked": null,
       "cov": {
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thiscariseconomical.Italsofeelsgoodtodrive(use‘Notonly...butalso’)",
+      "q": "This car is economical. It also feels good to drive (use ‘Not only... but also’)",
       "multi": false
     },
     {
@@ -703,12 +703,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and",
       "opts": {
-        "a": "Toadjusttoanewsituation",
-        "b": "Tobecomesuddenlymoreenergetic",
-        "c": "Towanttotravel",
-        "d": "Tomeetsomeonewhomyouinstantlylike"
+        "a": "To adjust to anew situation",
+        "b": "To become suddenly more energetic",
+        "c": "To want to travel",
+        "d": "To meet someone whom you instantly like"
       },
       "marked": null,
       "cov": {
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tofindyourfeet",
+      "q": "To find your feet",
       "multi": false
     },
     {
@@ -726,12 +726,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and",
       "opts": {
-        "a": "Tofindasolution",
-        "b": "Togiveupabadhabit",
-        "c": "Tolearnanewskill",
-        "d": "Tomakethingsmoreexciting"
+        "a": "To find a solution",
+        "b": "To give up a bad habit",
+        "c": "To learn anew skill",
+        "d": "To make things more exciting"
       },
       "marked": null,
       "cov": {
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tospicethingsup",
+      "q": "To spice things up",
       "multi": false
     },
     {
@@ -749,12 +749,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and",
       "opts": {
-        "a": "Tobeinpleasantcircumstances",
-        "b": "Tobeinserioustrouble",
-        "c": "Tomakethecorrectchoice",
-        "d": "Toinvestigatesomethingfurther :-8-"
+        "a": "To bein pleasant circumstances",
+        "b": "To be in serious trouble",
+        "c": "To make the correct choice",
+        "d": "To investigate something further : -8-"
       },
       "marked": null,
       "cov": {
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tobeinhotwater",
+      "q": "To be in hot water",
       "multi": false
     },
     {
@@ -772,12 +772,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and",
       "opts": {
-        "a": "Tokeepasecret",
-        "b": "Tobeintoxicated",
-        "c": "Tofeelunwellorsick",
-        "d": "Tolackambition"
+        "a": "To keep a secret",
+        "b": "To be intoxicated",
+        "c": "To feel unwell or sick",
+        "d": "Tolack ambition"
       },
       "marked": null,
       "cov": {
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tobeundertheweather",
+      "q": "To be under the weather",
       "multi": false
     },
     {
@@ -795,12 +795,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and",
       "opts": {
-        "a": "Topretendtoknowsomething",
-        "b": "Totrytoappearaswhatoneisnot",
-        "c": "Tomakeasmallproblemseembiggerthanitactuallyis",
-        "d": "tolaughatotherpeople’smisfortune"
+        "a": "To pretend to know something",
+        "b": "To try to appear as what one is not",
+        "c": "To make a small problem seem bigger than it actually is",
+        "d": "to laugh at other people’s misfortune"
       },
       "marked": null,
       "cov": {
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tomakeamountainoutofamolehill",
+      "q": "To make a mountain out ofa molehill",
       "multi": false
     },
     {
@@ -818,12 +818,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and",
       "opts": {
-        "a": "togetmarried",
-        "b": "toagreewithsomeone",
-        "c": "tooverthinkasituationtillyoucannotdoanythingelse",
-        "d": "tocompleteataskinacarelessmanner:"
+        "a": "to get married",
+        "b": "to agree with someone",
+        "c": "to overthink a situation till you cannot do anything else",
+        "d": "to complete a task in a careless manner :"
       },
       "marked": null,
       "cov": {
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "totietheknot:",
+      "q": "to tie the knot :",
       "multi": false
     },
     {
@@ -841,12 +841,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and",
       "opts": {
-        "a": "tobesuspiciousofone’sgoodfortune",
-        "b": "tocomeintounexpectedmoneyorgoodluck",
-        "c": "fromsomeonewithdirect,personalknowledge",
-        "d": "adauntingtask"
+        "a": "to be suspicious of one’s good fortune",
+        "b": "to come into unexpected money or good luck",
+        "c": "from someone with direct, personal knowledge",
+        "d": "adaunting task"
       },
       "marked": null,
       "cov": {
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "fromthehorse’smouth::",
+      "q": "from the horse’s mouth : :",
       "multi": false
     },
     {
@@ -864,12 +864,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and",
       "opts": {
-        "a": "tobeindecisive",
-        "b": "failorsucceed",
-        "c": "somethingofsuperiorquality‘",
-        "d": "ruthlesslycompetitive"
+        "a": "tobe indecisive",
+        "b": "fail or succeed",
+        "c": "something of superior quality ‘",
+        "d": "ruthlessly competitive"
       },
       "marked": null,
       "cov": {
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Sinkorswim",
+      "q": "Sink or swim",
       "multi": false
     },
     {
@@ -887,12 +887,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and",
       "opts": {
-        "a": "Thecauseofsomeone’smisfortune",
-        "b": "Atlittletonocost:",
-        "c": "Topostponesomething",
-        "d": "Veryexpensive"
+        "a": "The cause of someone’s misfortune",
+        "b": "At little to no cost :",
+        "c": "To postpone something",
+        "d": "Very expensive"
       },
       "marked": null,
       "cov": {
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tocostanarmandaleg",
+      "q": "To cost an arm and a leg",
       "multi": false
     },
     {
@@ -910,12 +910,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and",
       "opts": {
-        "a": "Aneternallyoptimisticperson",
-        "b": "Achronicliar",
-        "c": "Tobedeadandburied:",
-        "d": "Someonewhoworkshard,butcanneverbecomesuccessful"
+        "a": "An eternally optimistic person",
+        "b": "Achronic liar",
+        "c": "To be dead and buried :",
+        "d": "Someone who works hard, but can never become successful"
       },
       "marked": null,
       "cov": {
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tobepushingupdaisies",
+      "q": "To be pushing up daisies",
       "multi": false
     },
     {
@@ -933,10 +933,10 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.76-85):Completethefollowingsentencesbychoosingthemost",
+      "direction": "Directions (Question Nos. 76 - 85): Complete the following sentences by choosing the most",
       "opts": {
-        "a": "there(c)their",
-        "b": "they're(@)them",
+        "a": "there (c) their",
+        "b": "they're (@) them",
         "c": "condiments",
         "d": "complements"
       },
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Therefugeesweretoldtocollectbelongings.",
+      "q": "The refugees were told to collect belongings.",
       "multi": false
     },
     {
@@ -956,10 +956,10 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.76-85):Completethefollowingsentencesbychoosingthemost",
+      "direction": "Directions (Question Nos. 76 - 85): Complete the following sentences by choosing the most",
       "opts": {
-        "a": "insure(c)assure",
-        "b": "ensue(d)ensure",
+        "a": "insure (c) assure",
+        "b": "ensue (d) ensure",
         "c": "procede",
         "d": "preceed"
       },
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Wehavetakenstepstothatyourmoneyissafewithus.",
+      "q": "We have taken steps to that your money is safe with us.",
       "multi": false
     }
   ],

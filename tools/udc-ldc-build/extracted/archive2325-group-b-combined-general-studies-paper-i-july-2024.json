@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheMughalEmperorJehangirissuedaFarman(royaldecree),permittingtheEnglishtoestablisha factoryatSuratin-",
+      "q": "The Mughal Emperor Jehangir issued a Farman (royal decree), permitting the English to establish a factory at Surat in -",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Anglo-Russianwar",
-        "b": "Anglo-Frenchwar",
-        "c": "Russo-Japanesewar",
-        "d": "Anglo-Mughalwar"
+        "a": "Anglo-Russian war",
+        "b": "Anglo- French war",
+        "c": "Russo-Japanese war",
+        "d": "Anglo-Mughal war"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstCarnaticwastheextensionofwhichwar?",
+      "q": "The first Carnatic was the extension of which war?",
       "multi": false
     },
     {
@@ -61,10 +61,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MirJafar",
-        "b": "MirQasim",
+        "a": "Mir Jafar",
+        "b": "Mir Qasim",
         "c": "Siraj-ud-daulah",
-        "d": "AlivardiKhan"
+        "d": "Alivardi Khan"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "DuringwhosereigndidMonghyrbecomethecapitalofBengal?",
+      "q": "During whose reign did Monghyr become the capital of Bengal?",
       "multi": false
     },
     {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MughalemperorShahAlamIIgrantedtheDiwaniofBengal,Bihar,andOrissatotheCompanyin-",
+      "q": "Mughal emperor Shah Alam II granted the Diwani of Bengal, Bihar, and Orissa to the Company in -",
       "multi": false
     },
     {
@@ -107,10 +107,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NizamofHyderabad",
-        "b": "RajaofTanjore",
-        "c": "RulerofMysore",
-        "d": "NawabofOudh/Awadh"
+        "a": "Nizam of Hyderabad",
+        "b": "Raja of Tanjore",
+        "c": "Ruler of Mysore",
+        "d": "Nawab of Oudh/ Awadh"
       },
       "marked": null,
       "cov": {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirststatetoacceptSubsidiaryAlliancewiththeBritishEastIndiaCompanywas-",
+      "q": "The first state to accept Subsidiary Alliance with the British East India Company was -",
       "multi": false
     },
     {
@@ -130,10 +130,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LordHastings",
-        "b": "LordComwallis",
-        "c": "LordBentinck",
-        "d": "LordDalhousie"
+        "a": "Lord Hastings",
+        "b": "Lord Comwallis",
+        "c": "Lord Bentinck",
+        "d": "Lord Dalhousie"
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhointroducedZamindarysysteminIndia?",
+      "q": "Who introduced Zamindary system in India?",
       "multi": false
     },
     {
@@ -153,10 +153,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SubsidiaryAlliance",
-        "b": "DualSystem",
-        "c": "DoctrineofLapse",
-        "d": "PermanentSettlement"
+        "a": "Subsidiary Alliance",
+        "b": "Dual System",
+        "c": "Doctrine of Lapse",
+        "d": "Permanent Settlement"
       },
       "marked": null,
       "cov": {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "In1856,theBritishfinallyannexedAwadhunderthe-",
+      "q": "In 1856, the British finally annexed Awadh under the -",
       "multi": false
     },
     {
@@ -176,10 +176,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LordWellesiey",
-        "b": "ThomasMunro",
-        "c": "LordCornwallis",
-        "d": "WarrenHastings y"
+        "a": "Lord Wellesiey",
+        "b": "Thomas Munro",
+        "c": "Lord Cornwallis",
+        "d": "Warren Hastings y"
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "In1772,therevenuefarmingsystemwasintroducedby-",
+      "q": "In 1772, the revenue farming system was introduced by -",
       "multi": false
     },
     {
@@ -199,10 +199,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LerdDalhousie",
-        "b": "LordCornWallis",
-        "c": "LordRipon",
-        "d": "LordHastings"
+        "a": "Lerd Dalhousie",
+        "b": "Lord Corn Wallis",
+        "c": "Lord Ripon",
+        "d": "Lord Hastings"
       },
       "marked": null,
       "cov": {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhointroducedRailwayssysteminIndia?",
+      "q": "Who introduced Railways system in India?",
       "multi": false
     },
     {
@@ -222,10 +222,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PrarthanaSamaj",
-        "b": "AryaSamaj",
-        "c": "BrahmoSamaj",
-        "d": "RamkrishnaMission"
+        "a": "Prarthana Samaj",
+        "b": "Arya Samaj",
+        "c": "Brahmo Samaj",
+        "d": "Ramkrishna Mission"
       },
       "marked": null,
       "cov": {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "UnderwhoseinitiativethatthepracticeofSatiwasabolished?",
+      "q": "Under whose initiative that the practice of Sati was abolished?",
       "multi": false
     },
     {
@@ -245,10 +245,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Pitt’sIndiaActof1784",
-        "b": "RegulatingActof1773",
-        "c": "CharterActof1793",
-        "d": "CharterActof1813"
+        "a": "Pitt’s India Act of 1784",
+        "b": "Regulating Act of 1773",
+        "c": "Charter Act of 1793",
+        "d": "Charter Act of 1813"
       },
       "marked": null,
       "cov": {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichActraisedthestatusofGovernorofBengaltothatofGovernor-General?",
+      "q": "Which Act raised the status of Governor of Bengal to that of Governor-General?",
       "multi": false
     },
     {
@@ -270,8 +270,8 @@
       "opts": {
         "a": "Cultivators/peasants",
         "b": "Zamindars",
-        "c": "VillageCommunities",
-        "d": "Britishofficials"
+        "c": "Village Communities",
+        "d": "British officials"
       },
       "marked": null,
       "cov": {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IntheRyotwariSettlementrevenuewasdirectlycollectedfrom-",
+      "q": "Inthe Ryotwari Settlement revenue was directly collected from -",
       "multi": false
     },
     {
@@ -291,10 +291,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PritamBiswasandSauravBiswas",
-        "b": "SrikantDasandNitinDas",
-        "c": "RaviChakrabortyandPrithviGanguli",
-        "d": "DigambarBiswasandBishnuCharanBiswas"
+        "a": "Pritam Biswas and Saurav Biswas",
+        "b": "Srikant Das and Nitin Das",
+        "c": "Ravi Chakraborty and Prithvi Ganguli",
+        "d": "Digambar Biswas and Bishnu Charan Biswas"
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhofirstledtheIndigoRevoltofBengal?",
+      "q": "Who first led the Indigo Revolt of Bengal?",
       "multi": false
     },
     {
@@ -314,10 +314,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "DwarkanathTagore",
-        "b": "DebendranathTagore",
-        "c": "SatyendranathTagore",
-        "d": "RabindranathTagore."
+        "a": "Dwarkanath Tagore",
+        "b": "Debendranath Tagore",
+        "c": "Satyendranath Tagore",
+        "d": "Rabindranath Tagore ."
       },
       "marked": null,
       "cov": {
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowasthefirstIndiantoqualifyfortheIndianCivilServices?",
+      "q": "Who was the first Indian to qualify for the Indian Civil Services?",
       "multi": false
     },
     {
@@ -337,10 +337,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ThePolicyofannexingtheterritoryofIndianrulerswhodiedwithoutamaleheir",
-        "b": "ThePolicyofannexingtheterritoryofIndianrulerswhofailedtopayindemnity",
-        "c": "ThePolicyofannexingtheterritoryofIndianrulerswhoweresupportedbyFrenchEastIndia Company",
-        "d": "ThePolicyofslowingreturnterritoriestothenative(s)rulerwhattheEuropeanshavetaken"
+        "a": "The Policy of annexing the territory of Indian rulers who died without a male heir",
+        "b": "The Policy of annexing the territory of Indian rulers who failed to pay indemnity",
+        "c": "The Policy of annexing the territory of Indian rulers who were supported by French East India Company",
+        "d": "The Policy of slowing return territories to the native(s) ruler what the Europeans have taken"
       },
       "marked": null,
       "cov": {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatwasthemainfeatureof“DoctrineofLapse”?",
+      "q": "What was the main feature of “Doctrine of Lapse”?",
       "multi": false
     },
     {
@@ -360,10 +360,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TheMarwariandtheSikhmoneylenders",
-        "b": "TheMarwariandtheGujaralimoneylenders",
-        "c": "TheBritisheconomicpolicy",
-        "d": "‘TipuSultan"
+        "a": "The Marwari and the Sikh money lenders",
+        "b": "The Marwari and the Gujarali money lenders",
+        "c": "The British economic policy",
+        "d": "‘Tipu Sultan"
       },
       "marked": null,
       "cov": {
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheDeccanpeasantsuprisingof1875wasdirectedmainlyagainstwhichofthefollowing?",
+      "q": "The Deccan peasants uprising of 1875 was directed mainly against which of the following?",
       "multi": false
     },
     {
@@ -383,10 +383,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "freepassorduty-freetrade",
+        "a": "free pass or duty-free trade",
         "b": "ariot",
-        "c": "aportnearHooghly",
-        "d": "marketplace"
+        "c": "a port near Hooghly",
+        "d": "market place"
       },
       "marked": null,
       "cov": {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thetermdastakimpliesto-",
+      "q": "The term dastak implies to -",
       "multi": false
     },
     {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheMapilia/Moplahrebellionof1921tookplaceinsidethepresentIndianstateof-",
+      "q": "The Mapilia/Moplah rebellion of 1921 took place inside the present Indian state of -",
       "multi": false
     },
     {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhendidtheSanthalRebellionbreakout?",
+      "q": "When did the Santhal Rebellion break out?",
       "multi": false
     },
     {
@@ -452,8 +452,8 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "GopalKrishnaGokhale",
-        "b": "MGRanade",
+        "a": "Gopal Krishna Gokhale",
+        "b": "MG Ranade",
         "c": "BRAmbedkar",
         "d": "BGTilak"
       },
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowasthefounderofPoonaSarvajanikSabha?",
+      "q": "Who was the founder of Poona Sarvajanik Sabha?",
       "multi": false
     },
     {
@@ -475,10 +475,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Dutchsailors",
-        "b": "PortugueseJesuits",
-        "c": "Indianjournalists",
-        "d": "Englishtraders"
+        "a": "Dutch sailors",
+        "b": "Portuguese Jesuits",
+        "c": "Indian journalists",
+        "d": "English traders"
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "PrintingPressinIndiawasintroducedbythe-",
+      "q": "Printing Press in India was introduced by the -",
       "multi": false
     },
     {
@@ -498,10 +498,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MuhameAldiJinah",
-        "b": "RehmatAli",
-        "c": "MaulanaAzad.",
-        "d": "JPNarayan"
+        "a": "MuhameAldi  Jinah",
+        "b": "Rehmat Ali",
+        "c": "Maulana Azad.",
+        "d": "JP Narayan"
       },
       "marked": null,
       "cov": {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowastheMuslimleadertodemandPakistanin1933?",
+      "q": "Who was the Muslim leader to demand Pakistan in 1933?",
       "multi": false
     },
     {
@@ -521,10 +521,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ChauriChauraincident",
-        "b": "ExecutionofBhagatSingh",
-        "c": "SimonCommission",
-        "d": "JallianwalaBaghtragedy"
+        "a": "Chauri Chaura incident",
+        "b": "Execution of Bhagat Singh",
+        "c": "Simon Commission",
+        "d": "Jallianwala Bagh tragedy"
       },
       "marked": null,
       "cov": {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "RabindraNathTagoregaveuphisknighthoodbecauseof-",
+      "q": "Rabindra Nath Tagore gave up his knighthood because of -",
       "multi": false
     },
     {
@@ -547,7 +547,7 @@
         "a": "militants",
         "b": "moderates",
         "c": "extremists",
-        "d": "_pacifists"
+        "d": "_ pacifists"
       },
       "marked": null,
       "cov": {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheIndiannationalmovementupto1905wasdominatedbyleaderswhoareoftendescribedas-",
+      "q": "The Indian national movement upto 1905 was dominated by leaders who are often described as -",
       "multi": false
     },
     {
@@ -567,10 +567,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Suratsession1907",
-        "b": "Lahoresession1929",
-        "c": "Lucknowsession1916",
-        "d": "Bombaysession1934"
+        "a": "Surat session 1907",
+        "b": "Lahore session 1929",
+        "c": "Lucknow session 1916",
+        "d": "Bombay session 1934"
       },
       "marked": null,
       "cov": {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThereunionofmoderatesandextremistshappenedinwhichofthefollowingCongresssessions?",
+      "q": "The reunion of moderates and extremists happened in which of the following Congress sessions?",
       "multi": false
     },
     {
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthepasspercentageofHSSLCcommercestreamunderMizoramBoardofSchoolEducation (MBSE)in2024?",
+      "q": "What is the pass percentage of HSSLC commerce stream under Mizoram Board of School Education (MBSE) in 2024?",
       "multi": false
     },
     {
@@ -613,10 +613,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TradeDispute",
-        "b": "NegativeCommentsaboutIndiaandModibydeputyministersofMaldives",
-        "c": "Fishingrightsconflict",
-        "d": "Territorialdispute"
+        "a": "Trade Dispute",
+        "b": "Negative Comments about India and Modi by deputy ministers of Maldives",
+        "c": "Fishing rights conflict",
+        "d": "Territorial dispute"
       },
       "marked": null,
       "cov": {
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatwasthereasonbehindthediplomaticrowbetweenIndiaandMaldivesinJanuary2024?",
+      "q": "What was the reason behind the diplomatic row between India and Maldives in January 2024?",
       "multi": false
     },
     {
@@ -636,10 +636,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SeaDefenders2024",
-        "b": "TigerTriumph2024",
-        "c": "CutlassExpress2024",
-        "d": "EasternBridge2024"
+        "a": "Sea Defenders 2024",
+        "b": "Tiger Triumph 2024",
+        "c": "Cutlass Express 2024",
+        "d": "Eastern Bridge 2024"
       },
       "marked": null,
       "cov": {
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthenameofthemultinationalmaritimeexerciseinwhichIndianNavyparticipatedfrom26\" February-8'\"March?",
+      "q": "What is the name of the multinational maritime exercise in which Indian Navy participated from 26\" February-8'\" March?",
       "multi": false
     },
     {
@@ -659,10 +659,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Firststatevisit",
-        "b": "Secondstatevisit",
-        "c": "Thirdstatevisit",
-        "d": "Fourthstatevisit _4-"
+        "a": "First state visit",
+        "b": "Second state visit",
+        "c": "Third state visit",
+        "d": "Fourth state visit _4-"
       },
       "marked": null,
       "cov": {
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "PresidentoftheFrenchRepublicMr.ImmanuelMacronpaidaStatevisittoIndiaasthechiefguest forthe75“RepublicDayofIndia,whichwashis-",
+      "q": "President of the French Republic Mr. Immanuel Macron paid a State visit to India as the chief guest for the 75“ Republic Day of India, which was his -",
       "multi": false
     },
     {
@@ -685,7 +685,7 @@
         "a": "Chhattisgarh",
         "b": "Telangana",
         "c": "Uttarakhand",
-        "d": "AndraPradesh"
+        "d": "Andra Pradesh"
       },
       "marked": null,
       "cov": {
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichamongtheIndianstatesisthefirsttoenactaUniformCivilCode?",
+      "q": "Which among the Indian states is the first to enact a Uniform Civil Code?",
       "multi": false
     },
     {
@@ -705,10 +705,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NationalLibrary",
-        "b": "NationalBookTrust",
+        "a": "National Library",
+        "b": "National Book Trust",
         "c": "INFLIBNET",
-        "d": "PressInformationBureau"
+        "d": "Press Information Bureau"
       },
       "marked": null,
       "cov": {
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheDepartmentofEducation,MinistryofEducation,GovernmentofIndiasignedanMoUon3 June,2024,tocreateaninstitutionalframeworkforthedigitallibraryPlatform,Rashtriyae-Pustakalaya with-",
+      "q": "The Department of Education, Ministry of Education, Government of India signed an MoU on 3 June, 2024, to create an institutional framework for the digital library Platform, Rashtriya e-Pustakalaya with -",
       "multi": false
     },
     {
@@ -728,10 +728,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TITGuwahati",
-        "b": "HTMadras",
-        "c": "TITJodhpur",
-        "d": "UTDelhi"
+        "a": "TIT Guwahati",
+        "b": "HT Madras",
+        "c": "TIT Jodhpur",
+        "d": "UT Delhi"
       },
       "marked": null,
       "cov": {
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichIITpublishedresearchinNatureCommunicationsJournalonAirPollutionandHealthEffects inNorthernIndia?",
+      "q": "Which IIT published research in Nature Communications Journal on Air Pollution and Health Effects in Northern India?",
       "multi": false
     },
     {
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Howmanychildrenwereconferredthe‘PradhanMantriRashtriyaBalPuraskar’on22\"January 2024?",
+      "q": "How many children were conferred the ‘Pradhan Mantri Rashtriya Bal Puraskar’ on 22\" January 2024?",
       "multi": false
     },
     {
@@ -774,10 +774,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RaviShankar",
-        "b": "HarshKumar",
-        "c": "ManishChauhan",
-        "d": "VijayKhanduja"
+        "a": "Ravi Shankar",
+        "b": "Harsh Kumar",
+        "c": "Manish Chauhan",
+        "d": "Vijay Khanduja"
       },
       "marked": null,
       "cov": {
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoisappointedasthenextAmbassadorofIndiatoUkraineon30\"May,2024?",
+      "q": "Who is appointed as the next Ambassador of India to Ukraine on 30\" May, 2024?",
       "multi": false
     },
     {
@@ -797,10 +797,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PaulNthengeMackenzie",
-        "b": "PaulMthengeMackenzie",
-        "c": "PaulNthengaMackenzie",
-        "d": "PaulMthengaMackenzie"
+        "a": "Paul Nthenge Mackenzie",
+        "b": "Paul Mthenge Mackenzie",
+        "c": "Paul Nthenga Mackenzie",
+        "d": "Paul Mthenga Mackenzie"
       },
       "marked": null,
       "cov": {
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowastheKenyancultleaderchargedwiththemurderof191children?",
+      "q": "Who was the Kenyan cult leader charged with the murder of 191 children?",
       "multi": false
     },
     {
@@ -821,7 +821,7 @@
       "direction": null,
       "opts": {
         "a": "Nigeria",
-        "b": "DemocraticRepublicofCongo",
+        "b": "Democratic Republic of Congo",
         "c": "Haiti",
         "d": "Somalia"
       },
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichcountryappointedJudithSuminwaTulukaasitsfirstwomenPrimeMinisterin2024?",
+      "q": "Which country appointed Judith Suminwa Tuluka as its first women Prime Minister in 2024?",
       "multi": false
     },
     {
@@ -843,10 +843,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "AbuMaamar",
+        "a": "Abu Maamar",
         "b": "Saly",
-        "c": "MohammedSalem",
-        "d": "KhanYounis"
+        "c": "Mohammed Salem",
+        "d": "Khan Younis"
       },
       "marked": null,
       "cov": {
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoistherecipientofWorldPressPhotooftheYear,2024’?",
+      "q": "Who is the recipient of World Press Photo of the Year, 2024’?",
       "multi": false
     },
     {
@@ -866,9 +866,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "VladimirPutin",
-        "b": "MikhailMishustin",
-        "c": "VyacheslavVolodin",
+        "a": "Vladimir Putin",
+        "b": "Mikhail Mishustin",
+        "c": "Vyacheslav Volodin",
         "d": "VictorZubkov"
       },
       "marked": null,
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoisthePrimeMinisterofRussis?",
+      "q": "Who is the Prime Minister of Russis?",
       "multi": false
     },
     {
@@ -889,10 +889,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Dr.Vanlalthlana",
-        "b": "Dr.Tawnenga",
-        "c": "Prof.Vanlalhruaii",
-        "d": "Prof.LalbiakdikiHnamte"
+        "a": "Dr. Vanlalthlana",
+        "b": "Dr. Tawnenga",
+        "c": "Prof. Vanlalhruaii",
+        "d": "Prof. Lalbiakdiki Hnamte"
       },
       "marked": null,
       "cov": {
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoistheWorkingChairmanof‘MizoramEducationReformsCommittee’constitutedinthemonth ofFebruary,2024?",
+      "q": "Who is the Working Chairman of ‘Mizoram Education Reforms Committee’ constituted in the month of February, 2024?",
       "multi": false
     },
     {
@@ -912,10 +912,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "12January,2024",
-        "b": "12February,2024",
-        "c": "12March,2024",
-        "d": "12April,2024"
+        "a": "12 January, 2024",
+        "b": "12 February, 2024",
+        "c": "12 March, 2024",
+        "d": "12 April, 2024"
       },
       "marked": null,
       "cov": {
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhendidthePrimeMinisterofIndia,alongwiththePresidentofSriLankaandPrimeMinisterof Mauritius,jointlylaunchtheUPIsysteminSriLankaandUPIandRuPaycardsystemsinMauritius?",
+      "q": "When did the Prime Minister of India, along with the President of Sri Lanka and Prime Minister of Mauritius, jointly launch the UPI system in Sri Lanka and UPI and RuPay card systems in Mauritius?",
       "multi": false
     },
     {
@@ -935,10 +935,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Buildingafairer,healthierworld",
-        "b": "MyHealth,MyRight",
-        "c": "Ourplanet,ourhealth",
-        "d": "Supportnursesandmidwives"
+        "a": "Building a fairer, healthier world",
+        "b": "My Health, My Right",
+        "c": "Our planet, our health",
+        "d": "Support nurses and midwives"
       },
       "marked": null,
       "cov": {
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthethemeof‘WorldHealthDay2024°?",
+      "q": "What is the theme of ‘World Health Day 2024°?",
       "multi": false
     },
     {
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichcompanyrecentlyintroduceditsmostcapableLargeLanguageModel(LLM),theLlama3?",
+      "q": "Which company recently introduced its most capable Large Language Model (LLM), the Llama 3?",
       "multi": false
     },
     {
@@ -981,10 +981,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SaudiArabia,Egypt,UAE,Iran&Ethiopia",
-        "b": "Argentina,Chile,Iraq,Sudan&Somalia",
-        "c": "Peru,Namibia,Guyana,Bulgaria&Turkey",
-        "d": "Mali,Thailand,Myanmar,Laos&Bhutan"
+        "a": "Saudi Arabia, Egypt, UAE, Iran & Ethiopia",
+        "b": "Argentina, Chile, Iraq, Sudan & Somalia",
+        "c": "Peru, Namibia, Guyana, Bulgaria&  Turkey",
+        "d": "Mali, Thailand, Myanmar, Laos & Bhutan"
       },
       "marked": null,
       "cov": {
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichfivecountriesofficiallyjoinedtheBRICSgroup?",
+      "q": "Which five countries officially joined the BRICS group?",
       "multi": false
     },
     {
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichstatebecomesthefirstNortheasternStatetoreinstateOldPensionScheme(OPS)forits Governmentemployees?",
+      "q": "Which state becomes the first Northeastern State to reinstate Old Pension Scheme (OPS) for its Government employees?",
       "multi": false
     },
     {
@@ -1027,9 +1027,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MaYing-jeou",
-        "b": "WilliamLai",
-        "c": "TsaiIng-wen",
+        "a": "Ma Ying-jeou",
+        "b": "William Lai",
+        "c": "Tsai Ing-wen",
         "d": "Keu-nhai"
       },
       "marked": null,
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhohasbeenelectedasthepresidentofTaiwanin2024?",
+      "q": "Who has been elected as the president of Taiwan in 2024?",
       "multi": false
     },
     {
@@ -1050,10 +1050,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Reserve33%ofseatsforwomeninLokSabhaandStateAssemblies",
-        "b": "IdentifyOtherBackwardClasses(OBCs)",
-        "c": "ReservationforEconomicallyWeakerSections(EWSs)",
-        "d": "GoodsandServicesTax"
+        "a": "Reserve 33% of seats for women in Lok Sabha and State Assemblies",
+        "b": "Identify Other Backward Classes (OBCs)",
+        "c": "Reservation for Economically Weaker Sections (EWSs)",
+        "d": "Goods and Services Tax"
       },
       "marked": null,
       "cov": {
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "The128\"ConstitutionAmendmentBill,2023,isassociatedwith-",
+      "q": "The 128\" Constitution Amendment Bill, 2023, is associated with -",
       "multi": false
     },
     {
@@ -1086,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Recently,26\"WorldEnergyCongressisorganizedinwhichcountry?",
+      "q": "Recently, 26\" World Energy Congress is organized in which country?",
       "multi": false
     },
     {
@@ -1096,10 +1096,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MinistryofFinance",
-        "b": "MinistryofCommerceandIndustry",
-        "c": "MinistryofInformation&Broadcasting",
-        "d": "MinistryofCorporateAffairs"
+        "a": "Ministry of Finance",
+        "b": "Ministry of Commerce and Industry",
+        "c": "Ministry of Information & Broadcasting",
+        "d": "Ministry of Corporate Affairs"
       },
       "marked": null,
       "cov": {
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichministryhasbeenhonouredwiththeawardforBestPerformanceinAccountsduringthe FinancialYear2023-24?",
+      "q": "Which ministry has been honoured with the award for Best Performance in Accounts during the Financial Year 2023-24?",
       "multi": false
     },
     {
@@ -1121,8 +1121,8 @@
       "opts": {
         "a": "Sikkim",
         "b": "Assam",
-        "c": "WestBengal",
-        "d": "Manipur (a)MinistryofCommunication(b)MinistryofElectronicsandCommunication (c)MinistryofScienceandTechnology(d)MinistryofMSME SECTION-II(ConventionalEssayType)(100Marks) Allquestionscarryequalmarksof20each. UNIT-A ThisUnitshouldbeansweredonlyontheSeparateSheetprovided., UNIT-B ThisUnitshouldbeansweredonlyontheSeparateSheetprovided. (20) EREPRRE"
+        "c": "West Bengal",
+        "d": "Manipur (a) Ministry of Communication (b) Ministry of Electronics and Communication (c) Ministry of Science and Technology (d) Ministry of MSME SECTION - II (Conventional Essay Type) (100 Marks) All questions carry equal marks of 20 each. UNIT-A This Unit should be answered only on the Separate Sheet provided. , UNIT-B This Unit should be answered only on the Separate Sheet provided. (20) ER EPR RE"
       },
       "marked": null,
       "cov": {
@@ -1132,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "The‘India-Myanmar-ThailandTrilateralHighway’connectswhichIndianstatewithMyanmarand Thailand?",
+      "q": "The ‘India-Myanmar-Thailand Trilateral Highway’ connects which Indian state with Myanmar and Thailand?",
       "multi": false
     }
   ],

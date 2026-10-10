@@ -13,12 +13,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. I- 7) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "ThenaturalshiftsinEarth’sclimatecycles",
-        "b": "Excessiveemissionofgreenhousegasesduetohumanactivities",
-        "c": "Thedepletionoftheozonelayer",
-        "d": "Increasedvolcanicactivity"
+        "a": "The natural shifts in Earth’s climate cycles",
+        "b": "Excessive emission of greenhouse gases due to human activities",
+        "c": "The depletion of the ozone layer",
+        "d": "Increased volcanic activity"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatistheprimaryfactorcontributingtoclimatechange,asmentionedinthepassage?",
+      "q": "What is the primary factor contributing to climate change, as mentioned in the passage?",
       "multi": false
     },
     {
@@ -36,12 +36,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. I- 7) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Expansionofhabitablelandforhumansettlements.",
-        "b": "Decreasedsealevels,exposingmorecoastalland",
-        "c": "Risingsealevels,leadingtothreatsforcoastalcommunities",
-        "d": "Adecreaseinthesalinityofoceans,makingthemmoresuitableformarinelife"
+        "a": "Expansion of habitable land for human settlements .",
+        "b": "Decreased sea levels, exposing more coastal land",
+        "c": "Rising sea levels, leading to threats for coastal communities",
+        "d": "A decrease in the salinity of oceans, making them more suitable for marine life"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisoneofthemajorconsequencesofpolaricecapmelting?",
+      "q": "What is one of the major consequences of polar ice cap melting?",
       "multi": false
     },
     {
@@ -59,7 +59,7 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. I- 7) : Read the given passage carefully and answer the questions that",
       "opts": {
         "a": "Routine",
         "b": "Novel",
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthesynonymof‘unprecedented’inthecontextofthepassage?",
+      "q": "What is the synonym of ‘unprecedented’ in the context of the passage?",
       "multi": false
     },
     {
@@ -82,10 +82,10 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. I- 7) : Read the given passage carefully and answer the questions that",
       "opts": {
         "a": "Enigma",
-        "b": "Event:",
+        "b": "Event :",
         "c": "Object",
         "d": "Myth"
       },
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatistheclosestsynonymof‘phenomenon’inthispassage?",
+      "q": "What is the closest synonym of ‘phenomenon’ in this passage?",
       "multi": false
     },
     {
@@ -105,12 +105,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. I- 7) : Read the given passage carefully and answer the questions that",
       "opts": {
         "a": "Hopeful",
         "b": "Harmless",
         "c": "Threatening",
-        "d": "Promising: -3-,"
+        "d": "Promising : -3- ,"
       },
       "marked": null,
       "cov": {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthebestsynonymfor‘ominous’inthepassage?",
+      "q": "What is the best synonym for ‘ominous’ in the passage?",
       "multi": false
     },
     {
@@ -128,7 +128,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.I-7):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. I- 7) : Read the given passage carefully and answer the questions that",
       "opts": {
         "a": "Sporadic",
         "b": "Ceaseless",
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichwordcanreplace‘incessant’whilemaintainingthemeaning?",
+      "q": "Which word can replace ‘incessant’ while maintaining the meaning?",
       "multi": false
     },
     {
@@ -151,12 +151,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 8 - 15) ; Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Ithelpscounteracttheeffectsofdigitaldistractionsandsuperficialcontent",
-        "b": "Itreplacesallformsofdigitalmedia",
-        "c": "Itdiscouragestheuseofmoderntechnology",
-        "d": "Itonlybenefitsoldergenerations"
+        "a": "Ithelps counteract the effects of digital distractions and superficial content",
+        "b": "Itreplaces all forms of digital media",
+        "c": "It discourages the use of modern technology",
+        "d": "It only benefits older generations"
       },
       "marked": null,
       "cov": {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Accordingtothepassage,whyisreadingparticularlyimportantinthedigitalera?",
+      "q": "According to the passage, why is reading particularly important in the digital era?",
       "multi": false
     },
     {
@@ -174,12 +174,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 8 - 15) ; Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Readingisaleisureactivitywithminimalimpact",
-        "b": "Readingisafundamentalpracticeforintellectualandpersonalgrowth",
-        "c": "Booksareoutdatedandshouldbereplacedbydigitalmedia",
-        "d": "Readingfictionismorebeneficialthannon-fiction"
+        "a": "Reading isa leisure activity with minimal impact",
+        "b": "Reading is a fundamental practice for intellectual and personal growth",
+        "c": "Books are outdated and should be replaced by digital media",
+        "d": "Reading fiction is more beneficial than non-fiction"
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthemainargumentpresentedinthepassage?",
+      "q": "What is the main argument presented in the passage?",
       "multi": false
     },
     {
@@ -197,12 +197,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 8 - 15) ; Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Itisanineffectivewaytocopewithstress",
-        "b": "Itonlybenefitshighlyinteilectualreaders",
-        "c": "Itprovidescomfortandhelpsindividualsnavigatepersonalstruggles",
-        "d": "Itcausesemotionaldetachmentfromreality"
+        "a": "Itis an ineffective way to cope with stress",
+        "b": "Itonly benefits highly inteilectual readers",
+        "c": "It provides comfort and helps individuals navigate personal struggles",
+        "d": "It causes emotional detachment from reality"
       },
       "marked": null,
       "cov": {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatdoesthepassagesuggestabouttheemotionalbenefitsofreading?",
+      "q": "What does the passage suggest about the emotional benefits of reading?",
       "multi": false
     },
     {
@@ -220,12 +220,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 8 - 15) ; Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Itisolatesreadersfromsociety--",
-        "b": "Itimproveslinguisticskillsandcriticalthinking",
-        "c": "Itlimitsexposuretonewideas",
-        "d": "Itreducescreativity -4-7"
+        "a": "Itisolates readers from society - -",
+        "b": "Itimproves linguistic skills and critical thinking",
+        "c": "It limits exposure to new ideas",
+        "d": "Itreduces creativity -4- 7"
       },
       "marked": null,
       "cov": {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisoneofthemajorintellectualbenefitsofreading,asstatedinthepassage?",
+      "q": "What is one of the major intellectual benefits of reading, as stated in the passage?",
       "multi": false
     },
     {
@@ -243,7 +243,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 8 - 15) ; Read the given passage carefully and answer the questions that",
       "opts": {
         "a": "Ordinary",
         "b": "Extraordinary",
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatistheoppositeof‘mundane’inthepassage?",
+      "q": "What is the opposite of ‘mundane’ in the passage?",
       "multi": false
     },
     {
@@ -266,7 +266,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 8 - 15) ; Read the given passage carefully and answer the questions that",
       "opts": {
         "a": "Praiseworthy",
         "b": "Commendable",
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatistheantonymof‘laudable’asusedinthepassage?",
+      "q": "What is the antonym of ‘laudable’ as used in the passage?",
       "multi": false
     },
     {
@@ -289,7 +289,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.8-15);Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 8 - 15) ; Read the given passage carefully and answer the questions that",
       "opts": {
         "a": "Worsen",
         "b": "Improve",
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichwordcanreplace‘ameliorate’whilemaintainingthemeaninginthepassage?",
+      "q": "Which word can replace ‘ameliorate’ while maintaining the meaning in the passage?",
       "multi": false
     },
     {
@@ -312,7 +312,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "direction": "Directions (Question Nos. 16 - 25) ; Identify the parts of speech of each italicized word using the most",
       "opts": {
         "a": "noun",
         "b": "verb",
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Stiilwatersrundeep.",
+      "q": "Stiil waters run deep.",
       "multi": false
     },
     {
@@ -335,7 +335,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "direction": "Directions (Question Nos. 16 - 25) ; Identify the parts of speech of each italicized word using the most",
       "opts": {
         "a": "adverb",
         "b": "verb",
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Itweighsaboutakilogram.",
+      "q": "It weighs about a kilogram.",
       "multi": false
     },
     {
@@ -358,7 +358,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "direction": "Directions (Question Nos. 16 - 25) ; Identify the parts of speech of each italicized word using the most",
       "opts": {
         "a": "adjective",
         "b": "noun",
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Sitdownandrestawhile.",
+      "q": "Sit down and rest a while.",
       "multi": false
     },
     {
@@ -381,7 +381,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "direction": "Directions (Question Nos. 16 - 25) ; Identify the parts of speech of each italicized word using the most",
       "opts": {
         "a": "preposition",
         "b": "noun",
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theywhileawaytheireveningswithbooksandgames.",
+      "q": "They while away their evenings with books and games.",
       "multi": false
     },
     {
@@ -404,7 +404,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "direction": "Directions (Question Nos. 16 - 25) ; Identify the parts of speech of each italicized word using the most",
       "opts": {
         "a": "noun",
         "b": "pronoun",
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theaftereffectsofthedrugarebad.",
+      "q": "The after effects of the drug are bad.",
       "multi": false
     },
     {
@@ -427,12 +427,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "direction": "Directions (Question Nos. 16 - 25) ; Identify the parts of speech of each italicized word using the most",
       "opts": {
-        "a": "Subordinatingconjunction",
+        "a": "Subordinating conjunction",
         "b": "preposition",
-        "c": "Coordinatingconjunction",
-        "d": "adverb."
+        "c": "Coordinating conjunction",
+        "d": "adverb ."
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Althoughhewastired,hecontinuedworking.",
+      "q": "Although he was tired, he continued working.",
       "multi": false
     },
     {
@@ -450,10 +450,10 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "direction": "Directions (Question Nos. 16 - 25) ; Identify the parts of speech of each italicized word using the most",
       "opts": {
-        "a": "Relativepronoun",
-        "b": "Demonstrativeadjective",
+        "a": "Relative pronoun",
+        "b": "Demonstrative adjective",
         "c": "Conjunction",
         "d": "Adverb"
       },
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thebookthatsheborrowedwasveryinteresting.",
+      "q": "The book that she borrowed was very interesting.",
       "multi": false
     },
     {
@@ -473,11 +473,11 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "direction": "Directions (Question Nos. 16 - 25) ; Identify the parts of speech of each italicized word using the most",
       "opts": {
-        "a": "Conjunctiveadverb",
-        "b": "Coordinatingconjunction",
-        "c": "Subordinatingconjunction",
+        "a": "Conjunctive adverb",
+        "b": "Coordinating conjunction",
+        "c": "Subordinating conjunction",
         "d": "Preposition"
       },
       "marked": null,
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shewantedtogototheparty;however,shehadtostudy.",
+      "q": "She wanted to go to the party; however, she had to study.",
       "multi": false
     },
     {
@@ -496,7 +496,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "direction": "Directions (Question Nos. 16 - 25) ; Identify the parts of speech of each italicized word using the most",
       "opts": {
         "a": "Noun",
         "b": "Adjective",
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hewasreluctanttojointhediscussion.",
+      "q": "He was reluctant to join the discussion.",
       "multi": false
     },
     {
@@ -519,12 +519,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+      "direction": "Directions (Question Nos. 16 - 25) ; Identify the parts of speech of each italicized word using the most",
       "opts": {
-        "a": "Demonstrativepronoun",
-        "b": "Indefinitepronoun",
-        "c": "Reflexivepronoun",
-        "d": "Relativepronoun"
+        "a": "Demonstrative pronoun",
+        "b": "Indefinite pronoun",
+        "c": "Reflexive pronoun",
+        "d": "Relative pronoun"
       },
       "marked": null,
       "cov": {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HecompletedtheprojectbyHimself.",
+      "q": "He completed the project by Himself.",
       "multi": false
     },
     {
@@ -542,12 +542,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.26-30):Completethefollowingsentenceswiththemostsuitablealternative",
+      "direction": "Directions (Question Nos. 26 - 30) : Complete the following sentences with the most suitable alternative",
       "opts": {
-        "a": "nevermanaged",
-        "b": "havenevermanaged",
-        "c": "willhavenevermanaged",
-        "d": "hadnevermanaged"
+        "a": "never managed",
+        "b": "have never managed",
+        "c": "will have never managed",
+        "d": "had never managed"
       },
       "marked": null,
       "cov": {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Mentoabolishwaruptonow,butmaybetheywillfindawayinthefuture.",
+      "q": "Men to abolish war up to now, but maybe they will find a way in the future.",
       "multi": false
     },
     {
@@ -565,12 +565,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.26-30):Completethefollowingsentenceswiththemostsuitablealternative",
+      "direction": "Directions (Question Nos. 26 - 30) : Complete the following sentences with the most suitable alternative",
       "opts": {
         "a": "ischanging",
         "b": "changed",
-        "c": "haschanged",
-        "d": "hadchanged"
+        "c": "has changed",
+        "d": "had changed"
       },
       "marked": null,
       "cov": {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thecityitsappearancecompletelysince2016.",
+      "q": "The city its appearance completely since 2016.",
       "multi": false
     },
     {
@@ -588,12 +588,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.26-30):Completethefollowingsentenceswiththemostsuitablealternative",
+      "direction": "Directions (Question Nos. 26 - 30) : Complete the following sentences with the most suitable alternative",
       "opts": {
         "a": "appears",
-        "b": "isappearing",
-        "c": "hasappeared",
-        "d": "wasappearing"
+        "b": "is appearing",
+        "c": "has appeared",
+        "d": "was appearing"
       },
       "marked": null,
       "cov": {
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThisarticletwiceweeklyinVanglaininewspaper.",
+      "q": "This article twice weekly in Vanglaini newspaper.",
       "multi": false
     },
     {
@@ -611,10 +611,10 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.26-30):Completethefollowingsentenceswiththemostsuitablealternative",
+      "direction": "Directions (Question Nos. 26 - 30) : Complete the following sentences with the most suitable alternative",
       "opts": {
-        "a": "iskeeping",
-        "b": "waskeeping",
+        "a": "is keeping",
+        "b": "was keeping",
         "c": "keeps",
         "d": "keep"
       },
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Apairofwoolensockstewarmallthroughthewinter.",
+      "q": "Apair of woolen socks te warm all through the winter.",
       "multi": false
     },
     {
@@ -634,7 +634,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.26-30):Completethefollowingsentenceswiththemostsuitablealternative",
+      "direction": "Directions (Question Nos. 26 - 30) : Complete the following sentences with the most suitable alternative",
       "opts": {
         "a": "is",
         "b": "are",
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Neitherfoodnorwatergiventothewearyworkers.",
+      "q": "Neither food nor water given to the weary workers.",
       "multi": false
     },
     {
@@ -657,10 +657,10 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-35):Completethefollowingsentenceswiththemostsuitablepreposition",
+      "direction": "Directions (Question Nos. 31 - 35) : Complete the following sentences with the most suitable preposition",
       "opts": {
-        "a": "Overthecourseof",
-        "b": "Inthecourseof",
+        "a": "Over the course of",
+        "b": "In the course of",
         "c": "On",
         "d": "With"
       },
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "themeeting,severalimportantissueswerediscussed.",
+      "q": "the meeting, several important issues were discussed.",
       "multi": false
     },
     {
@@ -680,12 +680,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-35):Completethefollowingsentenceswiththemostsuitablepreposition",
+      "direction": "Directions (Question Nos. 31 - 35) : Complete the following sentences with the most suitable preposition",
       "opts": {
         "a": "hh",
-        "b": "Inthelightof",
+        "b": "Inthe light of",
         "c": "On",
-        "d": "Atthelightof"
+        "d": "Atthe light of"
       },
       "marked": null,
       "cov": {
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "recentevents,newpolicieshavebeenintroduced.",
+      "q": "recent events, new policies have been introduced.",
       "multi": false
     },
     {
@@ -703,7 +703,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-35):Completethefollowingsentenceswiththemostsuitablepreposition",
+      "direction": "Directions (Question Nos. 31 - 35) : Complete the following sentences with the most suitable preposition",
       "opts": {
         "a": "into",
         "b": "at",
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thescientistspecializesmolecularbiology.",
+      "q": "The scientist specializes molecular biology.",
       "multi": false
     },
     {
@@ -726,12 +726,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-35):Completethefollowingsentenceswiththemostsuitablepreposition",
+      "direction": "Directions (Question Nos. 31 - 35) : Complete the following sentences with the most suitable preposition",
       "opts": {
         "a": "With",
         "b": "For",
         "c": "By",
-        "d": "Over."
+        "d": "Over ."
       },
       "marked": null,
       "cov": {
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "referencetoyouremail,wewouldliketoclarifyourposition.",
+      "q": "reference to your email, we would like to clarify our position.",
       "multi": false
     },
     {
@@ -749,7 +749,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-35):Completethefollowingsentenceswiththemostsuitablepreposition",
+      "direction": "Directions (Question Nos. 31 - 35) : Complete the following sentences with the most suitable preposition",
       "opts": {
         "a": "at",
         "b": "n",
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Sheisquiteskillednegotiatingbusinessdeals,",
+      "q": "She is quite skilled negotiating business deals,",
       "multi": false
     },
     {
@@ -772,12 +772,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-40):Givenbelowarefourjumbledsentences,Selecttheoptionthat",
+      "direction": "Directions (Question Nos. 36 - 40) : Given below are four jumbled sentences, Select the option that",
       "opts": {
         "a": "ABCD",
         "b": "CBAD",
-        "c": "CABD;",
-        "d": "ACBD. -6-."
+        "c": "CABD ;",
+        "d": "ACBD . -6- ."
       },
       "marked": null,
       "cov": {
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "A)Complainingoftheirdifficulties,whiningovertheirtroubles B)Willnevergethappiness: C)Menwhoarealwaysgrumblingabouttheirpoverty D)Outoflifeorachieveanysuccess",
+      "q": "A) Complaining of their difficulties, whining over their troubles B) Willnever get happiness : C) Men who are always grumbling about their poverty D) Out of life or achieve any success",
       "multi": false
     },
     {
@@ -795,7 +795,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-40):Givenbelowarefourjumbledsentences,Selecttheoptionthat",
+      "direction": "Directions (Question Nos. 36 - 40) : Given below are four jumbled sentences, Select the option that",
       "opts": {
         "a": "CBAD",
         "b": "ABCD",
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "A)Ourviewsarenotextendedtoall B)Andveryoftenseebutonesideofamatter C)Weareallshort-sighted D)Thathasaconnectionwithit",
+      "q": "A) Our views are not extended to all B) And very often see but one side of a matter C) Weare all short-sighted D) That has aconnection with it",
       "multi": false
     },
     {
@@ -818,7 +818,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-40):Givenbelowarefourjumbledsentences,Selecttheoptionthat",
+      "direction": "Directions (Question Nos. 36 - 40) : Given below are four jumbled sentences, Select the option that",
       "opts": {
         "a": "ABCD",
         "b": "ADBC",
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "A)Asarule,thereismoregenuinesatisfactioninlife B)Inthehumblecottageofthepoorman C)Thaninthepalacesoftherich D)Andmoreobtainedfromlife",
+      "q": "A) Asarule, there is more genuine satisfaction in life B) Inthe humble cottage of the poor man C) Than in the palaces of the rich D) And more obtained from life",
       "multi": false
     },
     {
@@ -841,7 +841,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-40):Givenbelowarefourjumbledsentences,Selecttheoptionthat",
+      "direction": "Directions (Question Nos. 36 - 40) : Given below are four jumbled sentences, Select the option that",
       "opts": {
         "a": "ABCD",
         "b": "ADBC",
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "A)Theoldermensatontheirhaunchesatthethreshold B)TalkingabouttheirbattleswiththePawitribe C)Thosepeoplewhodonotweartheirhairknottedatthebackofthehead D)Theirhandwovenpuanpulledaroundtheirknees",
+      "q": "A) The older men sat on their haunches at the threshold B) Talking about their battles with the Pawi tribe C) Those people who do not wear their hair knotted at the back of the head D) Their handwoven puan pulled around their knees",
       "multi": false
     },
     {
@@ -864,7 +864,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.36-40):Givenbelowarefourjumbledsentences,Selecttheoptionthat",
+      "direction": "Directions (Question Nos. 36 - 40) : Given below are four jumbled sentences, Select the option that",
       "opts": {
         "a": "ABCD",
         "b": "ACDB",
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "A)Fromtimeimmemorialasanimportantvirtue B)Toproducingatypeofcharactercapableoffearlessnessinbattle C)Couragehasbeenrecognised D)Andagreatpartofthetrainingofboysandyoungmenhasbeendevoted",
+      "q": "A) From time immemorial as an important virtue B) To producing a type of character capable of fearlessness in battle C) Courage has been recognised D) Anda great part of the training of boys and young men has been devoted",
       "multi": false
     },
     {
@@ -887,12 +887,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-45):Outofthefouralternatives,identifythesentencethatiscorrectly",
+      "direction": "Directions (Question Nos. 41 - 45) : Out of the four alternatives, identify the sentence that is correctly",
       "opts": {
-        "a": "Wemustadoptonthenewchanges.",
-        "b": "Wemustadapttothenewchanges.",
-        "c": "Wemustadoptofthenewchanges.",
-        "d": "Wemustadaptwiththenewchanges."
+        "a": "We must adopt on the new changes.",
+        "b": "We must adapt to the new changes.",
+        "c": "We must adopt of the new changes.",
+        "d": "We must adapt with the new changes."
       },
       "marked": null,
       "cov": {
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)Wemustadoptonthenewchanges.(b)Wemustadapttothenewchanges.",
+      "q": "(a) We must adopt on the new changes. (b) We must adapt to the new changes.",
       "multi": false
     },
     {
@@ -910,12 +910,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-45):Outofthefouralternatives,identifythesentencethatiscorrectly",
+      "direction": "Directions (Question Nos. 41 - 45) : Out of the four alternatives, identify the sentence that is correctly",
       "opts": {
-        "a": "NeitherJohnnorhisfriendsiscoming.",
-        "b": "NeitherJohnnorhisfriendsarecoming.",
-        "c": "NeitherJohnorhisfriendsiscoming.",
-        "d": "NeitherJohnnorhisfriendsamcoming."
+        "a": "Neither John nor his friends is coming.",
+        "b": "Neither John nor his friends are coming.",
+        "c": "Neither John or his friends is coming.",
+        "d": "Neither John nor his friends am coming."
       },
       "marked": null,
       "cov": {
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)NeitherJohnnorhisfriendsiscoming.(b)NeitherJohnnorhisfriendsarecoming.",
+      "q": "(a) Neither John nor his friends is coming. (b) Neither John nor his friends are coming.",
       "multi": false
     },
     {
@@ -933,12 +933,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-45):Outofthefouralternatives,identifythesentencethatiscorrectly",
+      "direction": "Directions (Question Nos. 41 - 45) : Out of the four alternatives, identify the sentence that is correctly",
       "opts": {
-        "a": "Icouldhelpedyouifyouhadasked.",
-        "b": "Icouldhavehelpedyouifyouhadasked.",
-        "c": "[couldhelpyouifyouhadasked.",
-        "d": "Icouldhavehelpedyouifyouasked."
+        "a": "Icould helped you if you had asked.",
+        "b": "Icould have helped you ifyou had asked.",
+        "c": "[could help you if you had asked.",
+        "d": "Icould have helped you if you asked."
       },
       "marked": null,
       "cov": {
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)Icouldhelpedyouifyouhadasked.(b)Icouldhavehelpedyouifyouhadasked.",
+      "q": "(a) Icould helped you if you had asked. (b) Icould have helped you ifyou had asked.",
       "multi": false
     },
     {
@@ -956,12 +956,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-45):Outofthefouralternatives,identifythesentencethatiscorrectly",
+      "direction": "Directions (Question Nos. 41 - 45) : Out of the four alternatives, identify the sentence that is correctly",
       "opts": {
-        "a": "Hewassotiredthathecouldbarelykeephiseyesopen.",
-        "b": "Hewassotiredthathecouldbarelykeepshiseyesopen.",
-        "c": "Hewassotiredthathecouldhardlykepthiseyesopen.",
-        "d": "Hewassotiredthathebarelykeephiseyesopen."
+        "a": "He was so tired that he could barely keep his eyes open.",
+        "b": "He was so tired that he could barely keeps his eyes open.",
+        "c": "He was so tired that he could hardly kept his eyes open.",
+        "d": "He was so tired that he barely keep his eyes open."
       },
       "marked": null,
       "cov": {
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)Hewassotiredthathecouldbarelykeephiseyesopen.",
+      "q": "(a) He was so tired that he could barely keep his eyes open.",
       "multi": false
     },
     {
@@ -979,12 +979,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-45):Outofthefouralternatives,identifythesentencethatiscorrectly",
+      "direction": "Directions (Question Nos. 41 - 45) : Out of the four alternatives, identify the sentence that is correctly",
       "opts": {
-        "a": "IfIwasyou,Iwouldtakethejob.",
-        "b": "Iflamyou,Iwouldtakethejob.",
-        "c": "If]wereyou,Iwouldtakethejob.",
-        "d": "Ifhadbeenyou,Iwouldtakethejob. -7-,"
+        "a": "IfI was you, I would take the job.",
+        "b": "Iflam you, I would take the job.",
+        "c": "If] were you, I would take the job.",
+        "d": "If had been you, I would take the job. -7- ,"
       },
       "marked": null,
       "cov": {
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)IfIwasyou,Iwouldtakethejob.(b)Iflamyou,Iwouldtakethejob.",
+      "q": "(a) IfI was you, I would take the job. (b) Iflam you, I would take the job.",
       "multi": false
     },
     {
@@ -1002,7 +1002,7 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-50):Completethefollowingsentenceswiththemostsuitablealternative",
+      "direction": "Directions (Question Nos. 46 - 50) : Complete thef ollowing sentences with the most suitable alternative",
       "opts": {
         "a": "slowly",
         "b": "effortlessly",
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hecompletedthetest;Surprisingeveryone.",
+      "q": "He completed the test ; Surprising everyone.",
       "multi": false
     },
     {
@@ -1025,12 +1025,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-50):Completethefollowingsentenceswiththemostsuitablealternative",
+      "direction": "Directions (Question Nos. 46 - 50) : Complete thef ollowing sentences with the most suitable alternative",
       "opts": {
         "a": "studies",
         "b": "study",
         "c": "studied",
-        "d": "hadstudied"
+        "d": "had studied"
       },
       "marked": null,
       "cov": {
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifsheharder,shecouldhavepassedtheexam.",
+      "q": "Ifshe harder, she could have passed the exam.",
       "multi": false
     },
     {
@@ -1048,7 +1048,7 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-50):Completethefollowingsentenceswiththemostsuitablealternative",
+      "direction": "Directions (Question Nos. 46 - 50) : Complete thef ollowing sentences with the most suitable alternative",
       "opts": {
         "a": "never",
         "b": "barely",
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shespokesosoftlythatwecould.hearher.",
+      "q": "She spoke so softly that we could. hear her.",
       "multi": false
     },
     {
@@ -1071,7 +1071,7 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-50):Completethefollowingsentenceswiththemostsuitablealternative",
+      "direction": "Directions (Question Nos. 46 - 50) : Complete thef ollowing sentences with the most suitable alternative",
       "opts": {
         "a": "because",
         "b": "yet",
@@ -1086,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shewasverytired,shekeptworkinguntilmidnight.",
+      "q": "She was very tired, she kept working until midnight.",
       "multi": false
     },
     {
@@ -1094,12 +1094,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-50):Completethefollowingsentenceswiththemostsuitablealternative",
+      "direction": "Directions (Question Nos. 46 - 50) : Complete thef ollowing sentences with the most suitable alternative",
       "opts": {
         "a": "willplan",
-        "b": "hasplanned",
-        "c": "wouldhaveplanned",
-        "d": "wouldhavemade"
+        "b": "has planned",
+        "c": "would have planned",
+        "d": "would have made"
       },
       "marked": null,
       "cov": {
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hadsheknownaboutthemeetingearlier,sheadifferentschedule.",
+      "q": "Had she known about the meeting earlier, she adifferent schedule.",
       "multi": false
     },
     {
@@ -1117,12 +1117,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,51-55):Identifythesegmentwhichcontainsgrammaticalerrorinthe",
+      "direction": "Directions (Question Nos, 51 - 55) : Identify the segment which contains grammatical error in the",
       "opts": {
-        "a": "OncePaulWilkin,beingaskedhisnamebyhisservant",
-        "b": "foundtohisdismay",
-        "c": "thathehad",
-        "d": "forgothisownname"
+        "a": "Once Paul Wilkin, being asked his name by his servant",
+        "b": "found to his dismay",
+        "c": "that he had",
+        "d": "forgot his own name"
       },
       "marked": null,
       "cov": {
@@ -1132,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OncePaulWilkin,beingaskedhisnamebyhisservant,foundtohisdismaythathehadforgothis ownname",
+      "q": "Once Paul Wilkin, being asked his name by his servant, found to his dismay that he had forgot his own name",
       "multi": false
     },
     {
@@ -1140,12 +1140,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,51-55):Identifythesegmentwhichcontainsgrammaticalerrorinthe",
+      "direction": "Directions (Question Nos, 51 - 55) : Identify the segment which contains grammatical error in the",
       "opts": {
-        "a": "Asshemovedtoaforeigncountrywithacompletelydifferentculture,language,andlifestyle",
-        "b": "shehadtoquicklyadopttounfamiliarcustoms",
-        "c": "newwaysofcommunication,",
-        "d": "andadifferentdailyroutinetointegratesuccessfullyintohernewsurroundings."
+        "a": "As she moved to a foreign country with a completely different culture, language, and lifestyle",
+        "b": "she had to quickly adopt to unfamiliar customs",
+        "c": "new ways of communication,",
+        "d": "and a different daily routine to integrate successfully into her new surroundings."
       },
       "marked": null,
       "cov": {
@@ -1155,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Asshemovedtoaforeigncountrywithacompletelydifferentculture,language,andlifestyle,shehad toquicklyadopttounfamiliarcustoms,newwaysofcommunication,andadifferentdailyroutineto integratesuccessfullyintohernewsurroundings.",
+      "q": "As she moved to a foreign country with a completely different culture, language, and lifestyle, she had to quickly adopt to unfamiliar customs, new ways of communication, and a different daily routine to integrate successfully into her new surroundings.",
       "multi": false
     },
     {
@@ -1163,12 +1163,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,51-55):Identifythesegmentwhichcontainsgrammaticalerrorinthe",
+      "direction": "Directions (Question Nos, 51 - 55) : Identify the segment which contains grammatical error in the",
       "opts": {
-        "a": "Threeyearsshegrows",
-        "b": "insunandshower",
-        "c": "Someofthesewars",
-        "d": "havegrownouotfcommercialconsiderations."
+        "a": "Three years she grows",
+        "b": "insunand shower",
+        "c": "Some of these wars",
+        "d": "have grown ouotf c ommercial considerations."
       },
       "marked": null,
       "cov": {
@@ -1178,7 +1178,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Threeyearsshegrowsinsunandshower.Someofthesewarshavegrownoutofcommercial considerations.",
+      "q": "Three years she grows in sun and shower. Some of these wars have grown out of commercial considerations.",
       "multi": false
     },
     {
@@ -1186,12 +1186,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,51-55):Identifythesegmentwhichcontainsgrammaticalerrorinthe",
+      "direction": "Directions (Question Nos, 51 - 55) : Identify the segment which contains grammatical error in the",
       "opts": {
-        "a": "Theexpertexplainedthetopicsowellthat",
-        "b": "alltheaudiencewereunderstandingit",
-        "c": "clearlyandquickly:",
-        "d": "withoutanydoubtsintheirmind"
+        "a": "The expert explained the topic so wellthat",
+        "b": "all the audience were understanding it",
+        "c": "clearly and quickly :",
+        "d": "without any doubts in their mind"
       },
       "marked": null,
       "cov": {
@@ -1201,7 +1201,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theexpertexplainedthetopicsowellthatalltheaudiencewereunderstandingitclearlyandquickly withoutanydoubtsintheirmind.",
+      "q": "The expert explained the topic so well that all the audience were understanding it clearly and quickly without any doubts in their mind.",
       "multi": false
     },
     {
@@ -1209,12 +1209,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,51-55):Identifythesegmentwhichcontainsgrammaticalerrorinthe",
+      "direction": "Directions (Question Nos, 51 - 55) : Identify the segment which contains grammatical error in the",
       "opts": {
-        "a": "Ifshewouldstudyharder",
-        "b": "shewouldpasstheexam",
-        "c": "withflyingcolours",
-        "d": "andmakeherparentsproud. -8-°"
+        "a": "Ifshe would study harder",
+        "b": "she would pass the exam",
+        "c": "with flying colours",
+        "d": "and make her parents proud. -8- °"
       },
       "marked": null,
       "cov": {
@@ -1224,7 +1224,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifshewouldstudyharder,shewouldpasstheexamwithflyingcoloursandmakeherparentsproud.",
+      "q": "Ifshe would study harder, she would pass the exam with flying colours and make her parents proud.",
       "multi": false
     },
     {
@@ -1232,7 +1232,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.56-60):Choosethealternativethatissimilar/nearestinmeaningtothe",
+      "direction": "Directions (Question Nos. 56 - 60) : Choose the alternative that is similar/nearest in meaning to the",
       "opts": {
         "a": "Flexible",
         "b": "Unyielding",
@@ -1247,7 +1247,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Themanagerwasadamantthattheprojectmustbecompletedbythedeadline.",
+      "q": "The manager was adamant that the project must be completed by the deadline.",
       "multi": false
     },
     {
@@ -1255,7 +1255,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.56-60):Choosethealternativethatissimilar/nearestinmeaningtothe",
+      "direction": "Directions (Question Nos. 56 - 60) : Choose the alternative that is similar/nearest in meaning to the",
       "opts": {
         "a": "Reserved",
         "b": "Talkative",
@@ -1270,7 +1270,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "His¢aciturnpersonalitymadesocialgatheringsdifficultforhim.",
+      "q": "His ¢aciturn personality made social gatherings difficult for him.",
       "multi": false
     },
     {
@@ -1278,9 +1278,9 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.56-60):Choosethealternativethatissimilar/nearestinmeaningtothe",
+      "direction": "Directions (Question Nos. 56 - 60) : Choose the alternative that is similar/nearest in meaning to the",
       "opts": {
-        "a": "Stronginclination",
+        "a": "Strong inclination",
         "b": "Dislike",
         "c": "Avoidance",
         "d": "Hesitation"
@@ -1293,7 +1293,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hewasknownforhispenchantforcollectingrarebooks.",
+      "q": "He was known for his penchant for collecting rare books.",
       "multi": false
     },
     {
@@ -1301,7 +1301,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.56-60):Choosethealternativethatissimilar/nearestinmeaningtothe",
+      "direction": "Directions (Question Nos. 56 - 60) : Choose the alternative that is similar/nearest in meaning to the",
       "opts": {
         "a": "Concise",
         "b": "Talkative",
@@ -1316,7 +1316,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Her/aconicrepliesmadeitdifficulttoholdaconversation.",
+      "q": "Her /aconic replies made it difficult to hold a conversation.",
       "multi": false
     },
     {
@@ -1324,7 +1324,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-65):Choosethecorrectantonymsoftheitalicizedwordineachofthe",
+      "direction": "Directions (Question Nos. 61 - 65) : Choose the correct antonyms of the italicized word in each of the",
       "opts": {
         "a": "Continual",
         "b": "Intermittent",
@@ -1339,7 +1339,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hisincessanttalkingmadeitimpossibletoconcentrateonthetask.",
+      "q": "His incessant talking made it impossible to concentrate on the task.",
       "multi": false
     },
     {
@@ -1347,7 +1347,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-65):Choosethecorrectantonymsoftheitalicizedwordineachofthe",
+      "direction": "Directions (Question Nos. 61 - 65) : Choose the correct antonyms of the italicized word in each of the",
       "opts": {
         "a": "Normal",
         "b": "Unusual",
@@ -1362,7 +1362,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theaberrantbehaviourofthescientistshockedhiscolleagues.",
+      "q": "The aberrant behaviour of the scientist shocked his colleagues.",
       "multi": false
     },
     {
@@ -1370,7 +1370,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-65):Choosethecorrectantonymsoftheitalicizedwordineachofthe",
+      "direction": "Directions (Question Nos. 61 - 65) : Choose the correct antonyms of the italicized word in each of the",
       "opts": {
         "a": "Ignorant",
         "b": "Scholarly",
@@ -1385,7 +1385,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theprofessor’seruditelectureimpressedthestudents.",
+      "q": "The professor’s erudite lecture impressed the students.",
       "multi": false
     },
     {
@@ -1393,7 +1393,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-65):Choosethecorrectantonymsoftheitalicizedwordineachofthe",
+      "direction": "Directions (Question Nos. 61 - 65) : Choose the correct antonyms of the italicized word in each of the",
       "opts": {
         "a": "Courageous",
         "b": "Cowardly",
@@ -1408,7 +1408,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hispusillanimousreactiontothechallengedisappointedhisfriends.",
+      "q": "His pusillanimous reaction to the challenge disappointed his friends.",
       "multi": false
     },
     {
@@ -1416,7 +1416,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-65):Choosethecorrectantonymsoftheitalicizedwordineachofthe",
+      "direction": "Directions (Question Nos. 61 - 65) : Choose the correct antonyms of the italicized word in each of the",
       "opts": {
         "a": "Limited",
         "b": "Widespread",
@@ -1431,7 +1431,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Herpervasiveinfluencecouldbefeltineveryaspectofthecompany.",
+      "q": "Her pervasive influence could be felt in every aspect of the company.",
       "multi": false
     },
     {
@@ -1439,12 +1439,12 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.66-70):Choosethemostsuitablealternativetofillintheblanks.",
+      "direction": "Directions (Question Nos. 66 - 70) : Choose the most suitable alternative to fill in the blanks.",
       "opts": {
         "a": "tact",
         "b": "tactic",
         "c": "tactile",
-        "d": "tactful:"
+        "d": "tactful :"
       },
       "marked": null,
       "cov": {
@@ -1454,7 +1454,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Sheshowedgreatinhandlingthedifficultsituation.",
+      "q": "She showed great in handling the difficult situation.",
       "multi": false
     },
     {
@@ -1462,12 +1462,12 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.66-70):Choosethemostsuitablealternativetofillintheblanks.",
+      "direction": "Directions (Question Nos. 66 - 70) : Choose the most suitable alternative to fill in the blanks.",
       "opts": {
-        "a": "bitethebullet",
-        "b": "kickthebucket",
-        "c": "breaktheice",
-        "d": "hitthehay 9.."
+        "a": "bite the bullet",
+        "b": "kick the bucket",
+        "c": "break the ice",
+        "d": "hitthe hay 9. ."
       },
       "marked": null,
       "cov": {
@@ -1477,7 +1477,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hefinallydecidedtoandapologize.",
+      "q": "He finally decided to and apologize.",
       "multi": false
     },
     {
@@ -1485,7 +1485,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.66-70):Choosethemostsuitablealternativetofillintheblanks.",
+      "direction": "Directions (Question Nos. 66 - 70) : Choose the most suitable alternative to fill in the blanks.",
       "opts": {
         "a": "act",
         "b": "role",
@@ -1500,7 +1500,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "1wasfeelingnervousbeforemypresentation,butIfinallygotmytogetheranddelivered itwell.",
+      "q": "1 was feeling nervous before my presentation, but I finally got my together and delivered it well.",
       "multi": false
     },
     {
@@ -1508,7 +1508,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.66-70):Choosethemostsuitablealternativetofillintheblanks.",
+      "direction": "Directions (Question Nos. 66 - 70) : Choose the most suitable alternative to fill in the blanks.",
       "opts": {
         "a": "conventional",
         "b": "innovative",
@@ -1523,7 +1523,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shehasaveryapproachtoproblem-solving,alwaysthinkingoutsidethebox.",
+      "q": "She has a very approach to problem-solving, always thinking outside the box.",
       "multi": false
     },
     {
@@ -1531,7 +1531,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.66-70):Choosethemostsuitablealternativetofillintheblanks.",
+      "direction": "Directions (Question Nos. 66 - 70) : Choose the most suitable alternative to fill in the blanks.",
       "opts": {
         "a": "hyperbole",
         "b": "understatement",
@@ -1546,7 +1546,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hisspeechwasfullof;heexaggeratedeverything.",
+      "q": "His speech was full of ; he exaggerated everything.",
       "multi": false
     },
     {
@@ -1554,12 +1554,12 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-75):Choosethemostappropriatealternativeprovidedofeachitalicized",
+      "direction": "Directions (Question Nos. 71 - 75) : Choose the most appropriate alternative provided of each italicized",
       "opts": {
-        "a": "Feelingveryhappy",
-        "b": "Notfeelingwell",
-        "c": "Beingaffectedbytheclimate",
-        "d": "Goingonvacation"
+        "a": "Feeling very happy",
+        "b": "Not feeling well",
+        "c": "Being affected by the climate",
+        "d": "Going on vacation"
       },
       "marked": null,
       "cov": {
@@ -1569,7 +1569,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iwasfeelingundertheweather,soItookadayofffromwork.",
+      "q": "I was feeling under the weather, so I took a day off from work.",
       "multi": false
     },
     {
@@ -1577,12 +1577,12 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-75):Choosethemostappropriatealternativeprovidedofeachitalicized",
+      "direction": "Directions (Question Nos. 71 - 75) : Choose the most appropriate alternative provided of each italicized",
       "opts": {
-        "a": "Releasedapetcat",
-        "b": "Revealedasecretunintentionally",
-        "c": "Hidsomethingimportant",
-        "d": "Revealedasecretintentionally"
+        "a": "Released a pet cat",
+        "b": "Revealed a secret unintentionally",
+        "c": "Hid something important",
+        "d": "Revealed a secret intentionally"
       },
       "marked": null,
       "cov": {
@@ -1592,7 +1592,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heletthecatoutofthebagaboutthesurprisepartybeforewecouldstophim.",
+      "q": "He let the cat out of the bag about the surprise party before we could stop him.",
       "multi": false
     },
     {
@@ -1600,12 +1600,12 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-75):Choosethemostappropriatealternativeprovidedofeachitalicized",
+      "direction": "Directions (Question Nos. 71 - 75) : Choose the most appropriate alternative provided of each italicized",
       "opts": {
-        "a": "Usedahammercorrectly",
-        "b": "Solvedaproblemprecisely",
-        "c": "Hurtherself",
-        "d": "Madeamistake"
+        "a": "Used a hammer correctly",
+        "b": "Solved a problem precisely",
+        "c": "Hurt herself",
+        "d": "Madea mistake"
       },
       "marked": null,
       "cov": {
@@ -1615,7 +1615,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shehitthenailontheheadwhenshepointedouttherealissueinthemeeting.",
+      "q": "She hit the nail on the head when she pointed out the real issue in the meeting.",
       "multi": false
     },
     {
@@ -1623,12 +1623,12 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-75):Choosethemostappropriatealternativeprovidedofeachitalicized",
+      "direction": "Directions (Question Nos. 71 - 75) : Choose the most appropriate alternative provided of each italicized",
       "opts": {
-        "a": "Tofollowtherulesstrictly",
-        "b": "Tocrosstheboundary",
-        "c": "Tochallengeauthority",
-        "d": "Torefusetoobeyorders"
+        "a": "To follow the rules strictly",
+        "b": "To cross the boundary",
+        "c": "Tochallenge authority",
+        "d": "To refuse to obey orders"
       },
       "marked": null,
       "cov": {
@@ -1638,7 +1638,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aftermonthsofdebate,thecommitteedecidedtofethelineandfollowthetraditionalpolicies.",
+      "q": "After months of debate, the committee decided to fe the line and follow the traditional policies.",
       "multi": false
     },
     {
@@ -1646,12 +1646,12 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-75):Choosethemostappropriatealternativeprovidedofeachitalicized",
+      "direction": "Directions (Question Nos. 71 - 75) : Choose the most appropriate alternative provided of each italicized",
       "opts": {
-        "a": "Verydifficulttounderstand",
-        "b": "Easytograsp",
-        "c": "Highlyengaging",
-        "d": "Completelyincorrect eKKEKE"
+        "a": "Very difficult to understand",
+        "b": "Easy to grasp",
+        "c": "Highly engaging",
+        "d": "Completely incorrect eK KEKE"
       },
       "marked": null,
       "cov": {
@@ -1661,14 +1661,32 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theprofessor’scomplextheorieswereasclearasmudtomostofthestudents,",
+      "q": "The professor’s complex theories were as clear as mud to most of the students,",
       "multi": false
     }
   ],
-  "written": [],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write a précis of the following passage. (10) Over-eating is one of the most wonderful practices among those who think that they can afford it. In fact, authorities say that nearly all who can get as much as they desire, over-eat to their disadvantage. This class of people could save a great more food than they can save by missing one meal per week and at the same time they could improve their health. Aheavy meal at night, the so-called, ‘dinner’, is the fashion with many and often it is taken shortly before retiring. It is unnecessary and could be forgone, not only once a week but daily without loss of strength. From three to five hours are needed to digest food. While sleeping, this food not being required to give energy for work, is in many cases converted into excess fat, giving rise to overweight. The evening meal should be light, taken three or four hours before retiring. This prevents over-eating, conserves energy and reduces the cost of food.",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "(a) Compose a formal letter to the Director of Power and Electricity requesting a new power",
+      "subparts": {
+        "a": "Compose a formal letter to the Director of Power and Electricity requesting a new power connection for your newly constructed house. (15) OR .",
+        "b": "Draft a letter to the editor of Vanglaini newspaper highlighting the poor quality and insufficient supply of water in your locality. -2- ,"
+      }
+    }
+  ],
   "notes": [
-    "Q1 (p1, part A): only 0 option(s) [] - not emitted",
-    "Q2 (p1, part A): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 2 sub-part(s) - not an MCQ",
     "Q1 (p2, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
     "Q14 (p4, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
     "Q58 (p8, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted"

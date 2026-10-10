@@ -13,7 +13,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Part of Speech of the underlined words.",
       "opts": {
         "a": "Noun",
         "b": "Adjective",
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Macbeth’sgreatsinwashisvanity.",
+      "q": "Macbeth’s great sin was his vanity.",
       "multi": false
     },
     {
@@ -36,11 +36,11 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Part of Speech of the underlined words.",
       "opts": {
         "a": "Verb",
         "b": "Adjective",
-        "c": "Adverb‘",
+        "c": "Adverb ‘",
         "d": "Preposition"
       },
       "marked": null,
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heatethechocolategreedily.",
+      "q": "He ate the chocolate greedily.",
       "multi": false
     },
     {
@@ -59,7 +59,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Part of Speech of the underlined words.",
       "opts": {
         "a": "Adjective",
         "b": "Noun",
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hehaspreparedadeliciouscakeforus.",
+      "q": "He has prepared a delicious cake for us.",
       "multi": false
     },
     {
@@ -82,7 +82,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Part of Speech of the underlined words.",
       "opts": {
         "a": "Adjective",
         "b": "Noun",
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThePrincipalhasgivenusimportantnews.",
+      "q": "The Principal has given us important news.",
       "multi": false
     },
     {
@@ -105,7 +105,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Part of Speech of the underlined words.",
       "opts": {
         "a": "Verb",
         "b": "Preposition",
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theteachersaidthatweshouldnottalkduringclass.",
+      "q": "The teacher said that we should not talk during class.",
       "multi": false
     },
     {
@@ -128,7 +128,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Part of Speech of the underlined words.",
       "opts": {
         "a": "Noun",
         "b": "Adverb",
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Coreylovedherwithallhisheart.",
+      "q": "Corey loved her with all his heart.",
       "multi": false
     },
     {
@@ -151,7 +151,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Part of Speech of the underlined words.",
       "opts": {
         "a": "Noun",
         "b": "Adjective",
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Coreyhasagreatloveforpomegranates.",
+      "q": "Corey has a great love for pomegranates.",
       "multi": false
     },
     {
@@ -174,7 +174,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Part of Speech of the underlined words.",
       "opts": {
         "a": "Conjunction",
         "b": "Adverb",
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IwillnothaveenoughmoneyunlessIhaveasecondjob.",
+      "q": "I will not have enough money unless I have a second job.",
       "multi": false
     },
     {
@@ -197,12 +197,12 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Part of Speech of the underlined words.",
       "opts": {
         "a": "Adjective",
-        "b": "Interjection,",
+        "b": "Interjection ,",
         "c": "conjunction",
-        "d": "Preposition :>."
+        "d": "Preposition : >."
       },
       "marked": null,
       "cov": {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whereareyoufrom?",
+      "q": "Where are you from?",
       "multi": false
     },
     {
@@ -220,7 +220,7 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "direction": "Directions (Question Nos. 1 - 10) : Identify the Part of Speech of the underlined words.",
       "opts": {
         "a": "Adverb",
         "b": "Verb",
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ItissurrealhowmuchJaneresemblesMary.",
+      "q": "It is surreal how much Jane resembles Mary.",
       "multi": false
     },
     {
@@ -243,12 +243,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct form of the verbs given in",
       "opts": {
         "a": "loved",
         "b": "isloving",
         "c": "love",
-        "d": "loves."
+        "d": "loves ."
       },
       "marked": null,
       "cov": {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Neverdoubtthatshe(love)youjustthewayyouare.",
+      "q": "Never doubt that she (love) you just the way you are.",
       "multi": false
     },
     {
@@ -266,12 +266,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct form of the verbs given in",
       "opts": {
         "a": "stayed",
-        "b": "arestaying",
-        "c": "havebeenstaying",
-        "d": "hadstayed"
+        "b": "are staying",
+        "c": "have been staying",
+        "d": "had stayed"
       },
       "marked": null,
       "cov": {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "We(stay)inthatsamebuildingsinceafewyearsback.",
+      "q": "We (stay) in that same building since a few years back.",
       "multi": false
     },
     {
@@ -289,12 +289,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct form of the verbs given in",
       "opts": {
         "a": "tries",
         "b": "tried",
-        "c": "aretrying",
-        "d": ".try"
+        "c": "are trying",
+        "d": ". try"
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theteachers(try)togetthestudentstocooperatebuttheyarefailing.",
+      "q": "The teachers (try) to get the students to cooperate but they are failing.",
       "multi": false
     },
     {
@@ -312,7 +312,7 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct form of the verbs given in",
       "opts": {
         "a": "need",
         "b": "isneeding",
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "She(need)torememberthatsheisnotyetqualifiedforthejob.",
+      "q": "She (need) to remember that she is not yet qualified for the job.",
       "multi": false
     },
     {
@@ -335,12 +335,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct form of the verbs given in",
       "opts": {
-        "a": "moves.",
-        "b": "wasmoving",
+        "a": "moves .",
+        "b": "was moving",
         "c": "moved",
-        "d": "hasbeenmoving"
+        "d": "has been moving"
       },
       "marked": null,
       "cov": {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hejumpedoffthetrainwhileit(move)",
+      "q": "He jumped off the train while it (move)",
       "multi": false
     },
     {
@@ -358,7 +358,7 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct form of the verbs given in",
       "opts": {
         "a": "rose",
         "b": "rise",
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shegotoutofbedassoonasthesun(rise)",
+      "q": "She got out of bed as soon as the sun (rise)",
       "multi": false
     },
     {
@@ -381,7 +381,7 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct form of the verbs given in",
       "opts": {
         "a": "fight",
         "b": "fighted",
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "They(fight)bravelyagainsttheenemy.",
+      "q": "They (fight) bravely against the enemy.",
       "multi": false
     },
     {
@@ -404,12 +404,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct form of the verbs given in",
       "opts": {
         "a": "think",
         "b": "thought",
         "c": "thinks",
-        "d": "havethought"
+        "d": "have thought"
       },
       "marked": null,
       "cov": {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "I(think)youaremistakenaboutmyintentions.",
+      "q": "I (think) you are mistaken about my intentions.",
       "multi": false
     },
     {
@@ -427,12 +427,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct form of the verbs given in",
       "opts": {
-        "a": "wasraining",
-        "b": "hasbeenraining",
+        "a": "was raining",
+        "b": "has been raining",
         "c": "rained",
-        "d": "_rains"
+        "d": "_ rains"
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "It(rain)thismorningwhenIhadmyaccident.",
+      "q": "It (rain) this morning when I had my accident.",
       "multi": false
     },
     {
@@ -450,12 +450,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct form of the verbs given in",
       "opts": {
         "a": "consult",
-        "b": "areconsulting",
-        "c": "hadconsulted",
-        "d": "havebeenconsulting"
+        "b": "are consulting",
+        "c": "had consulted",
+        "d": "have been consulting"
       },
       "marked": null,
       "cov": {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "They(consult)alawyerwhosolvedthecaseforthem.",
+      "q": "They (consult) a lawyer who solved the case for them.",
       "multi": false
     },
     {
@@ -473,12 +473,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "direction": "Directions (Question Nos. 21 - 30) : Fill in the blanks with the most appropriate adjective or adverb.",
       "opts": {
         "a": "amiable",
-        "b": "audible.",
+        "b": "audible .",
         "c": "amoebal",
-        "d": "annible :_3-"
+        "d": "annible : _3-"
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shewaspopularbecauseofhercharacter.",
+      "q": "She was popular because of her character.",
       "multi": false
     },
     {
@@ -496,7 +496,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "direction": "Directions (Question Nos. 21 - 30) : Fill in the blanks with the most appropriate adjective or adverb.",
       "opts": {
         "a": "erotically",
         "b": "ironically",
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thetrafficpolicemanstoppedhimbecausehewasdriving:",
+      "q": "The traffic policeman stopped him because he was driving :",
       "multi": false
     },
     {
@@ -519,12 +519,12 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "direction": "Directions (Question Nos. 21 - 30) : Fill in the blanks with the most appropriate adjective or adverb.",
       "opts": {
         "a": "bride",
         "b": "bridge",
         "c": "brite",
-        "d": "_bright"
+        "d": "_ bright"
       },
       "marked": null,
       "cov": {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hewasa____—_—_studentwhoperformedverywell.",
+      "q": "Hewasa____—_—_ student who performed very well.",
       "multi": false
     },
     {
@@ -542,12 +542,12 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "direction": "Directions (Question Nos. 21 - 30) : Fill in the blanks with the most appropriate adjective or adverb.",
       "opts": {
         "a": "later",
         "b": "latent",
         "c": "letter",
-        "d": "latter."
+        "d": "latter ."
       },
       "marked": null,
       "cov": {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iprefertheformertothe:",
+      "q": "I prefer the former to the :",
       "multi": false
     },
     {
@@ -565,7 +565,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "direction": "Directions (Question Nos. 21 - 30) : Fill in the blanks with the most appropriate adjective or adverb.",
       "opts": {
         "a": "extremely",
         "b": "excruciately",
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Itwasanhotafternoon.",
+      "q": "It was an hot afternoon.",
       "multi": false
     },
     {
@@ -588,7 +588,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "direction": "Directions (Question Nos. 21 - 30) : Fill in the blanks with the most appropriate adjective or adverb.",
       "opts": {
         "a": "carved",
         "b": "cured",
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thefootballfollowedapathasitswervedintothenet.",
+      "q": "The football followed a path as it swerved into the net.",
       "multi": false
     },
     {
@@ -611,7 +611,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "direction": "Directions (Question Nos. 21 - 30) : Fill in the blanks with the most appropriate adjective or adverb.",
       "opts": {
         "a": "no",
         "b": "not",
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "______butEmmacoulddefeatthewizard.",
+      "q": "______ but Emma could defeat the wizard.",
       "multi": false
     },
     {
@@ -634,7 +634,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "direction": "Directions (Question Nos. 21 - 30) : Fill in the blanks with the most appropriate adjective or adverb.",
       "opts": {
         "a": "audible",
         "b": "legible",
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thisspeakerwasnot____fromwherewesatrightatthebackofthehall.",
+      "q": "Thisspeakerwasnot____ from where we sat right at the back of the hall.",
       "multi": false
     },
     {
@@ -657,7 +657,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "direction": "Directions (Question Nos. 21 - 30) : Fill in the blanks with the most appropriate adjective or adverb.",
       "opts": {
         "a": "illegible",
         "b": "indelible",
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hewasanyoungmanwhommanygirlswantedtomarry.",
+      "q": "He was an young man whom many girls wanted to marry.",
       "multi": false
     },
     {
@@ -680,7 +680,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "direction": "Directions (Question Nos. 21 - 30) : Fill in the blanks with the most appropriate adjective or adverb.",
       "opts": {
         "a": "internately",
         "b": "innerly",
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Helookedcalmontheoutside,buthewaspanicking.",
+      "q": "He looked calm on the outside, but he was panicking.",
       "multi": false
     },
     {
@@ -703,10 +703,10 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in the blanks with the appropriate conjunction or preposition.",
       "opts": {
         "a": "between",
-        "b": "_within",
+        "b": "_ within",
         "c": "among",
         "d": "along"
       },
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thepropertywasdivided___—_—_thethreechildren.",
+      "q": "The property wasdivided___—_—_ the three children.",
       "multi": false
     },
     {
@@ -726,12 +726,12 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in the blanks with the appropriate conjunction or preposition.",
       "opts": {
         "a": "aside",
-        "b": "aswellas",
+        "b": "as wellas",
         "c": "but",
-        "d": "inspiteof"
+        "d": "inspite of"
       },
       "marked": null,
       "cov": {
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "John,Janehasgonetothemarket.",
+      "q": "John, Jane has gone to the market.",
       "multi": false
     },
     {
@@ -749,12 +749,12 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in the blanks with the appropriate conjunction or preposition.",
       "opts": {
         "a": "inspite",
         "b": "inlieuof",
         "c": "despite",
-        "d": "bydintof"
+        "d": "by dint of"
       },
       "marked": null,
       "cov": {
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "hisillness,hewasabletosuccessfullycompletehisstudies.",
+      "q": "his illness, he was able to successfully complete his studies.",
       "multi": false
     },
     {
@@ -772,12 +772,12 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in the blanks with the appropriate conjunction or preposition.",
       "opts": {
         "a": "upon",
-        "b": "above:",
+        "b": "above :",
         "c": "upto",
-        "d": "over :4."
+        "d": "over : 4."
       },
       "marked": null,
       "cov": {
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Helivesintheflatmine.",
+      "q": "He lives in the flat mine.",
       "multi": false
     },
     {
@@ -795,7 +795,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in the blanks with the appropriate conjunction or preposition.",
       "opts": {
         "a": "beside",
         "b": "asides",
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hesatmeinclass.",
+      "q": "He sat me in class.",
       "multi": false
     },
     {
@@ -818,7 +818,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in the blanks with the appropriate conjunction or preposition.",
       "opts": {
         "a": "at",
         "b": "on",
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HelivesKhatla.",
+      "q": "He lives Khatla.",
       "multi": false
     },
     {
@@ -841,12 +841,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in the blanks with the appropriate conjunction or preposition.",
       "opts": {
         "a": "off",
         "b": "n",
         "c": "at",
-        "d": "inside."
+        "d": "inside ."
       },
       "marked": null,
       "cov": {
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "[knowhim,butIcannotrememberhisnamethetopofmyhead.",
+      "q": "[know him, but I can not remember his name the top of my head.",
       "multi": false
     },
     {
@@ -864,12 +864,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in the blanks with the appropriate conjunction or preposition.",
       "opts": {
         "a": "inlieuof",
-        "b": "alongwith",
+        "b": "along with",
         "c": "despite",
-        "d": "_bydintof"
+        "d": "_ by dint of"
       },
       "marked": null,
       "cov": {
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heofferedmetheuseofhiscar___——_—softhemoneyheowedme.",
+      "q": "He offered metheuseofhiscar___——_—sof the money he owed me.",
       "multi": false
     },
     {
@@ -887,7 +887,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in the blanks with the appropriate conjunction or preposition.",
       "opts": {
         "a": "at",
         "b": "under",
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theambulancearrived10minutes.",
+      "q": "The ambulance arrived 10 minutes.",
       "multi": false
     },
     {
@@ -910,11 +910,11 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in the blanks with the appropriate conjunction or preposition.",
       "opts": {
         "a": "as",
-        "b": "byvirtueof",
-        "c": "nosoonerthan",
+        "b": "by virtue of",
+        "c": "no sooner than",
         "d": "unless"
       },
       "marked": null,
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iwillleave,youaskmetostay.",
+      "q": "I willleave, you ask me to stay.",
       "multi": false
     },
     {
@@ -933,12 +933,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 41 - 50) : Convert the sentences as directed.",
       "opts": {
-        "a": "Asshewashungry,Annawasunabletoeataswell",
-        "b": "Annawashungry,yetshewasstillunabletoeat",
-        "c": "Beinghungry;Annacouldnoteatstill",
-        "d": "Unabletoeat,Annawasstillhungry"
+        "a": "As she was hungry, Anna was unable to eat as well",
+        "b": "Anna was hungry, yet she was still unable to eat",
+        "c": "Being hungry; Anna could not eat still",
+        "d": "Unable to eat, Anna was still hungry"
       },
       "marked": null,
       "cov": {
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Beinghungry,Annawasstillunabletoeat.(ToCompound)",
+      "q": "Being hungry, Anna was still unable to eat. (To Compound)",
       "multi": false
     },
     {
@@ -956,12 +956,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 41 - 50) : Convert the sentences as directed.",
       "opts": {
-        "a": "Theyateastalecookieastheygotastomachache",
-        "b": "Gettingastomachache,theyateastalecookie",
-        "c": "Astheyateastalecookie,astheygotastomachache",
-        "d": "Aftertheyateastalecookie,theygotastomachache"
+        "a": "They ate a stale cookie as they got a stomachache",
+        "b": "Getting a stomachache, they ate a stale cookie",
+        "c": "As they ate a stale cookie, as they got a stomachache",
+        "d": "After they ate a stale cookie, they got a stomachache"
       },
       "marked": null,
       "cov": {
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theyateastalecookie.Theygotastomachache.(ToComplex)",
+      "q": "They ate a stale cookie. They got a stomachache. (To Complex)",
       "multi": false
     },
     {
@@ -979,12 +979,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 41 - 50) : Convert the sentences as directed.",
       "opts": {
-        "a": "Wemusteattolive",
-        "b": "Wemusteattocannotlive",
-        "c": "Wecannotlivetoeat",
-        "d": "Wemusteatorlive"
+        "a": "We must eat to live",
+        "b": "We must eat to cannot live",
+        "c": "We cannot live to eat",
+        "d": "We must eat or live"
       },
       "marked": null,
       "cov": {
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Wemusteat,orwecannotlive.(ToSimple)",
+      "q": "We must eat, or we cannot live. (To Simple)",
       "multi": false
     },
     {
@@ -1002,12 +1002,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 41 - 50) : Convert the sentences as directed.",
       "opts": {
-        "a": "Ashewasgoingtothesciencemuseum,hewassurprised",
-        "b": "HewasgoingtotheScienceMuseum,Hewassurprised",
-        "c": "HewenttotheScienceMuseumandwassurprised",
-        "d": "GoingtotheScienceMuseumbuthewassurprised"
+        "a": "As he was going to the science museum, he was surprised",
+        "b": "He was going to the Science Museum, He was surprised",
+        "c": "He went to the Science Museum and was surprised",
+        "d": "Going to the Science Museum but he was surprised"
       },
       "marked": null,
       "cov": {
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "GoingtotheScienceMuseum,hewassurprised(ToCompound)",
+      "q": "Going to the Science Museum, he was surprised (To Compound)",
       "multi": false
     },
     {
@@ -1025,12 +1025,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 41 - 50) : Convert the sentences as directed.",
       "opts": {
-        "a": "Iknow.Theanswer",
-        "b": "Thattheanswerisknowntome",
-        "c": "Iknowtheansweris",
-        "d": "Iknowwhattheansweris :5."
+        "a": "I know. The answer",
+        "b": "That the answer is known to me",
+        "c": "Iknow the answer is",
+        "d": "Iknow what the answer is : 5."
       },
       "marked": null,
       "cov": {
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iknowtheanswer.(ToComplex)",
+      "q": "I know the answer. (To Complex)",
       "multi": false
     },
     {
@@ -1048,12 +1048,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 41 - 50) : Convert the sentences as directed.",
       "opts": {
-        "a": "Theblackandwhitecatissleepingonthesofa.",
-        "b": "Thecatissleepingonthesofawhichisblackandwhite",
-        "c": "Thecatisblackandwhiteandissleepingonthesofa",
-        "d": "Thecat,beingblackandwhite,sleepsonthesofa"
+        "a": "The black and white cat is sleeping on the sofa.",
+        "b": "The cat is sleeping on the sofa which is black and white",
+        "c": "The cat is black and white and is sleeping on the sofa",
+        "d": "The cat, being black and white, sleeps on the sofa"
       },
       "marked": null,
       "cov": {
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thecat,whichisblackandwhite,issleepingonthesofa.(ToSimple)",
+      "q": "The cat, which is black and white, is sleeping on the sofa. (To Simple)",
       "multi": false
     },
     {
@@ -1071,12 +1071,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 41 - 50) : Convert the sentences as directed.",
       "opts": {
-        "a": "Shehasflaws.Iloveher",
-        "b": "Shehasflaws,yetIloveher",
-        "c": "loveherflaws",
-        "d": "Despiteherflaws.Iloveher"
+        "a": "She has flaws. I love her",
+        "b": "She has flaws, yet I love her",
+        "c": "love her flaws",
+        "d": "Despite her flaws. I love her"
       },
       "marked": null,
       "cov": {
@@ -1086,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Despiteherflaws,Iloveher(ToCompound)",
+      "q": "Despite her flaws, I love her (To Compound)",
       "multi": false
     },
     {
@@ -1094,12 +1094,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 41 - 50) : Convert the sentences as directed.",
       "opts": {
-        "a": "Exerciseregularlytonotbefit",
-        "b": "Exerciseregularlytostayfit",
-        "c": "Exerciseregularly,henceyouwillnotbefit",
-        "d": "Exerciseregularly.Youwillnotbefit"
+        "a": "Exercise regularly to not be fit",
+        "b": "Exercise regularly to stay fit",
+        "c": "Exercise regularly, hence you will not be fit",
+        "d": "Exercise regularly. You will not be fit"
       },
       "marked": null,
       "cov": {
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Exerciseregularly,otherwiseyouwillnotbefit.(ToSimple).",
+      "q": "Exercise regularly, otherwise you will not be fit. (To Simple) .",
       "multi": false
     },
     {
@@ -1117,12 +1117,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 41 - 50) : Convert the sentences as directed.",
       "opts": {
-        "a": "Thegirlwhoiswearingthereddressissinging",
-        "b": "Thegirlisinthereddress.Sheissinging",
-        "c": "Thegirlisinthereddress,yetsheissinging",
-        "d": "Thesinginggirliswearingthereddress"
+        "a": "The girl who is wearing the red dress is singing",
+        "b": "The girl is in the red dress. She is singing",
+        "c": "The girl is in the red dress, yet she is singing",
+        "d": "The singing girl is wearing the red dress"
       },
       "marked": null,
       "cov": {
@@ -1132,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thegirlinthereddressissinging(ToComplex)",
+      "q": "The girl in the red dress is singing (To Complex)",
       "multi": false
     },
     {
@@ -1140,12 +1140,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "direction": "Directions (Question Nos. 41 - 50) : Convert the sentences as directed.",
       "opts": {
-        "a": "Shestudiedhard,passingtheexam",
-        "b": "Shepassedtheexamtostudyhard",
-        "c": "Passingtheexam,shestudiedhard",
-        "d": "Shestudiedhardwhichenabledhertopasstheexam"
+        "a": "She studied hard, passing the exam",
+        "b": "She passed the exam to study hard",
+        "c": "Passing the exam, she studied hard",
+        "d": "She studied hard which enabled her to pass the exam"
       },
       "marked": null,
       "cov": {
@@ -1155,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shestudiedhard,andshepassedtheexam(ToComplex)",
+      "q": "She studied hard, and she passed the exam (To Complex)",
       "multi": false
     },
     {
@@ -1163,12 +1163,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 51 - 60) : Transform the sentences as directed without changing their",
       "opts": {
-        "a": "Itiswellknownthatsheisabrilliantgirl",
-        "b": "Herbrillianceiswell-known",
-        "c": "Sheisbrilliantly",
-        "d": "Herbrilliancyiswell-known"
+        "a": "Itis well known that she is a brilliant girl",
+        "b": "Her brilliance is well-known",
+        "c": "Sheis brilliantly",
+        "d": "Her brilliancy is well-known"
       },
       "marked": null,
       "cov": {
@@ -1178,7 +1178,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Itiswell-knownthatsheisbrilliant(UseaNoun)",
+      "q": "It is well-known that she is brilliant (Use a Noun)",
       "multi": false
     },
     {
@@ -1186,12 +1186,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 51 - 60) : Transform the sentences as directed without changing their",
       "opts": {
-        "a": "Herloveforherhusbandwasstrengthenedbyhiskindness",
-        "b": "Herloveforherhusbandwasgivenstrengthbyhiskindness",
-        "c": "Shestronglylovedherhusbandforhiskindness",
-        "d": "Herloveforherhusbandwasstrongbecauseofhiskindness"
+        "a": "Her love for her husband was strengthened by his kindness",
+        "b": "Her love for her husband was given strength by his kindness",
+        "c": "She strongly loved her husband for his kindness",
+        "d": "Her love for her husband was strong because of his kindness"
       },
       "marked": null,
       "cov": {
@@ -1201,7 +1201,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Herloveforherhusbandwasmadestrongbyhiskindness(UseaVerb)",
+      "q": "Her love for her husband was made strong by his kindness (Use a Verb)",
       "multi": false
     },
     {
@@ -1209,12 +1209,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 51 - 60) : Transform the sentences as directed without changing their",
       "opts": {
-        "a": "Theroseisalovelyflower",
-        "b": "Theroseislovelierthananyflower",
-        "c": "Nootherflowerisaslovelyastherose",
-        "d": "Theroseisalovelyflowerthananyotherflower"
+        "a": "The rose is a lovely flower",
+        "b": "The rose is lovelier than any flower",
+        "c": "No other flower is as lovely as the rose",
+        "d": "Theroseisa lovely flower than any other flower"
       },
       "marked": null,
       "cov": {
@@ -1224,7 +1224,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theroseistheloveliestflower(ToPositivedegree)",
+      "q": "The rose is the loveliest flower (To Positive degree)",
       "multi": false
     },
     {
@@ -1232,12 +1232,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 51 - 60) : Transform the sentences as directed without changing their",
       "opts": {
-        "a": "Paraismorecourageousthananyothersoldierintheregiment",
-        "b": "Paraiscourageouserthananyothersoldierintheregiment",
-        "c": "NoothersoldierintheregimentisascourageousasPara",
-        "d": "Paraisthemorecourageoussoldierintheregiment"
+        "a": "Para is more courageous than any other soldier in the regiment",
+        "b": "Para is courageouser than any other soldier in the regiment",
+        "c": "No other soldier in the regiment is as courageous as Para",
+        "d": "Para is the more courageous soldier in the regiment"
       },
       "marked": null,
       "cov": {
@@ -1247,7 +1247,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Paraisthemostcourageoussoldierintheregiment.(ToComparativeDegree)",
+      "q": "Para is the most courageous soldier in the regiment. (To Comparative Degree)",
       "multi": false
     },
     {
@@ -1255,12 +1255,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 51 - 60) : Transform the sentences as directed without changing their",
       "opts": {
-        "a": "Sheisvaintonoticeherownfaults",
-        "b": "Sheisvainandnoticedherownfaults",
-        "c": "Sheissovaintonoticeherownfaults.",
-        "d": "Sheissovainthatshecannotnoticeherownfaults"
+        "a": "She is vain to notice her own faults",
+        "b": "She is vain and noticed her own faults",
+        "c": "She is so vain to notice her own faults .",
+        "d": "She is so vain that she cannot notice her own faults"
       },
       "marked": null,
       "cov": {
@@ -1270,7 +1270,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Sheistoovaintonoticeherownfaults(RemoveToo)",
+      "q": "She is too vain to notice her own faults (Remove Too)",
       "multi": false
     },
     {
@@ -1278,12 +1278,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 51 - 60) : Transform the sentences as directed without changing their",
       "opts": {
-        "a": "Iwassureofhisloyalty",
-        "b": "Iwassureofhisdisloyalty",
-        "c": "Iwasensuredofhisloyalty",
-        "d": "Iwasdoubtfulofhisloyalty"
+        "a": "Iwas sure of his loyalty",
+        "b": "Iwas sure of his disloyalty",
+        "c": "Iwas ensured of his loyalty",
+        "d": "Iwas doubtful ofhis loyalty"
       },
       "marked": null,
       "cov": {
@@ -1293,7 +1293,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iwasnotsureofhisloyalty(ToAffirmative)",
+      "q": "I was not sure of his loyalty (To Affirmative)",
       "multi": false
     },
     {
@@ -1301,12 +1301,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 51 - 60) : Transform the sentences as directed without changing their",
       "opts": {
-        "a": "Whilesheisbeautiful,Idonotdisdainhercruelty",
-        "b": "Whilesheisbeautiful,Idonotaffirmhercruelty",
-        "c": "Whilesheisbeautiful,Idonotadmirehercruelty",
-        "d": "Whilesheisbeautiful,Idonotdeplorehercruelty"
+        "a": "While she is beautiful, I do not disdain her cruelty",
+        "b": "While she is beautiful, I do not affirm her cruelty",
+        "c": "While she is beautiful, I do not admire her cruelty",
+        "d": "While she is beautiful, I do not deplore her cruelty"
       },
       "marked": null,
       "cov": {
@@ -1316,7 +1316,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whilesheisbeautiful,Idisapproveofhercruelty(ToNegative)",
+      "q": "While she is beautiful, I disapprove of her cruelty (To Negative)",
       "multi": false
     },
     {
@@ -1324,12 +1324,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 51 - 60) : Transform the sentences as directed without changing their",
       "opts": {
-        "a": "HerbeautifulnessissogreatthatIcannotspeaktoherproperly",
-        "b": "SheissobeautifulthatIcannotspeaktoherproperly",
-        "c": "Icannotspeakproperlytoherbecauseofherbeautiful",
-        "d": "SheissuchagreatbeautthatIcannotspeaktoherproperly"
+        "a": "Her beautifulness is so great that I cannot speak to her properly",
+        "b": "She is so beautiful that I cannot speak to her properly",
+        "c": "Icannot speak properly to her because of her beautiful",
+        "d": "She is such a great beaut that I cannot speak to her properly"
       },
       "marked": null,
       "cov": {
@@ -1339,7 +1339,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HerbeautyissogreatthatIcannotspeaktoherproperly(UseAdjective).",
+      "q": "Her beauty is so great that I cannot speak to her properly (Use Adjective) .",
       "multi": false
     },
     {
@@ -1347,12 +1347,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 51 - 60) : Transform the sentences as directed without changing their",
       "opts": {
-        "a": "Howisshenotquestionedbyanyone?",
-        "b": "Shehasnotbeenquestionedbyanyone?",
-        "c": "Hasshenotbeenquestionedbyanyone?",
-        "d": "Whyhasshenotbeenquestionedbyanyone"
+        "a": "Howis she not questioned by anyone?",
+        "b": "She has not been questioned by anyone?",
+        "c": "Has she not been questioned by anyone?",
+        "d": "Why has she not been questioned by anyone"
       },
       "marked": null,
       "cov": {
@@ -1362,7 +1362,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shehasnotbeenquestionedbyanyone,(ToInterrogative)",
+      "q": "She has not been questioned by anyone, (To Interrogative)",
       "multi": false
     },
     {
@@ -1370,12 +1370,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "direction": "Directions (Question Nos. 51 - 60) : Transform the sentences as directed without changing their",
       "opts": {
-        "a": "HeistooloudIcannotendurehim",
-        "b": "HeissoloudthatIcannotendurehimtoo",
-        "c": "Heistooloudtobeendured:",
-        "d": "Hetooisloudtobeendured"
+        "a": "Heistoo loud I cannot endure him",
+        "b": "Heis so loud that I cannot endure him too",
+        "c": "He is too loud to be endured :",
+        "d": "He too is loud to be endured"
       },
       "marked": null,
       "cov": {
@@ -1385,7 +1385,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HeissoloudthatIcannotendurehim(Use‘too’)",
+      "q": "He is so loud that I cannot endure him (Use ‘too’)",
       "multi": false
     },
     {
@@ -1393,12 +1393,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "direction": "Directions (Question Nos. 61 - 70) : Synthesize the following sentences as directed.",
       "opts": {
-        "a": "Ifyouwillbelateforschool,youwalktooslowly",
-        "b": "Youwillbelateforschoolifyouwalktooslowly",
-        "c": "Youwalktooslowlyifyouwillbelateforschool",
-        "d": "Ifyouwalktooslowly,ifyouwillbelateforschool"
+        "a": "Ifyou will be late for school, you walk too slowly",
+        "b": "You will be late for school if you walk too slowly",
+        "c": "You walk too slowly if you will be late for school",
+        "d": "Ifyou walk too slowly, if you will be late for school"
       },
       "marked": null,
       "cov": {
@@ -1408,7 +1408,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Youwillbelateforschool.Youwalktooslowly.(Use‘if”)",
+      "q": "You will be late for school. You walk too slowly. (Use ‘if”)",
       "multi": false
     },
     {
@@ -1416,12 +1416,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "direction": "Directions (Question Nos. 61 - 70) : Synthesize the following sentences as directed.",
       "opts": {
-        "a": "IwanttoseehertotellherthatJamsorry",
-        "b": "IwanttoseeherasIwanttotellherthatIamsorry",
-        "c": "IwanttoseeherandtellherthatIamsorry",
-        "d": "IwanttoseehersothatIcantellherthatIamsorry"
+        "a": "I want to see her to tell her that J am sorry",
+        "b": "I want to see her as I want to tell her that I am sorry",
+        "c": "I want to see her and tell her that I am sorry",
+        "d": "I want to see her so that I can tell her that Iam sorry"
       },
       "marked": null,
       "cov": {
@@ -1431,7 +1431,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iwanttoseeher.IwanttotellherthatIamsorry.(UseInfinitive)",
+      "q": "I want to see her. I want to tell her that I am sorry. (Use Infinitive)",
       "multi": false
     },
     {
@@ -1439,12 +1439,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "direction": "Directions (Question Nos. 61 - 70) : Synthesize the following sentences as directed.",
       "opts": {
-        "a": "Maryisaprettygirlwhoisournewnurse",
-        "b": "Maryisournewnurseaswellasaprettygirl",
-        "c": "Maryisnotonlyanursebutalsoaprettygirl",
-        "d": "Mary,aprettygirl,isournewnurse"
+        "a": "Mary is a pretty girl who is our new nurse",
+        "b": "Mary is our new nurse as well as a pretty girl",
+        "c": "Mary is not only a nurse but also a pretty girl",
+        "d": "Mary, a pretty girl, is our new nurse"
       },
       "marked": null,
       "cov": {
@@ -1454,7 +1454,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Maryisournewnurse.Sheisaprettygirl.(UseNounphraseinapposition)",
+      "q": "Mary is our new nurse. She is a pretty girl. (Use Noun phrase in apposition)",
       "multi": false
     },
     {
@@ -1462,12 +1462,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "direction": "Directions (Question Nos. 61 - 70) : Synthesize the following sentences as directed.",
       "opts": {
-        "a": "Hehasdonetheworkinaslowmanner",
-        "b": "Hehasdonetheworkwithslowness",
-        "c": "Hehasdonetheworkinaslowymanner",
-        "d": "Hehasdonetheworkslowly"
+        "a": "He has done the work in a slow manner",
+        "b": "He has done the work with slowness",
+        "c": "He has done the work in a slowy manner",
+        "d": "He has done the work slowly"
       },
       "marked": null,
       "cov": {
@@ -1477,7 +1477,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hehasdonethework.Heisveryslow.(UseanAdverb)",
+      "q": "He has done the work. He is very slow. (Use an Adverb)",
       "multi": false
     },
     {
@@ -1485,12 +1485,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "direction": "Directions (Question Nos. 61 - 70) : Synthesize the following sentences as directed.",
       "opts": {
-        "a": "Heissoanxiousthatitisaffectingeveryone",
-        "b": "Hisanxietyisaffectingeveryone",
-        "c": "Everyoneisaffectedbyhisanxiousness",
-        "d": "Everyoneisaffectedbyhisanxiousmanner"
+        "a": "Heis so anxious that itis affectingeveryone",
+        "b": "His anxiety is affecting everyone",
+        "c": "Everyone is affected by his anxiousness",
+        "d": "Everyone is affected by his anxious manner"
       },
       "marked": null,
       "cov": {
@@ -1500,7 +1500,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heissoanxious.Itisaffectingeveryone.(UseaNoun)",
+      "q": "He is so anxious. It is affecting everyone. (Use a Noun)",
       "multi": false
     },
     {
@@ -1508,12 +1508,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "direction": "Directions (Question Nos. 61 - 70) : Synthesize the following sentences as directed.",
       "opts": {
-        "a": "Removingmycoat,Istartedtoeatdinner",
-        "b": "I,mycoatremoved,startedtoeatdinner",
-        "c": "Iremovedmycoat,startingtoeatdinner",
-        "d": "IstartedtoeatdinnerassoonasIremovedmycoat"
+        "a": "Removing my coat, I started to eat dinner",
+        "b": "I, my coat removed, started to eat dinner",
+        "c": "Iremoved my coat, starting to eat dinner",
+        "d": "I started to eat dinner as soon as I removed my coat"
       },
       "marked": null,
       "cov": {
@@ -1523,7 +1523,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iremovedmycoat.Istartedtoeatdinner.(UseParticipialPhrase)",
+      "q": "I removed my coat. I started to eat dinner. (Use Participial Phrase)",
       "multi": false
     },
     {
@@ -1531,12 +1531,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "direction": "Directions (Question Nos. 61 - 70) : Synthesize the following sentences as directed.",
       "opts": {
-        "a": "TheteacherslikeTom,havingdonewell",
-        "b": "Doingwell,theteacherslikeTim",
-        "c": "TheteacherslikeTimsincehealwaysdoeswell",
-        "d": "Tim,doingwell,islikedbytheteachers"
+        "a": "The teachers like Tom, having done well",
+        "b": "Doing well, the teachers like Tim",
+        "c": "The teachers like Tim since he always does well",
+        "d": "Tim, doing well, is liked by the teachers"
       },
       "marked": null,
       "cov": {
@@ -1546,7 +1546,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheteacherslikeTim.Healwaysdoeswell.(UseAdverbClause).",
+      "q": "The teachers like Tim. He always does well.(Use Adverb Clause) .",
       "multi": false
     },
     {
@@ -1554,12 +1554,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "direction": "Directions (Question Nos. 61 - 70) : Synthesize the following sentences as directed.",
       "opts": {
-        "a": "ItistoocoldthatIcannotbearit",
-        "b": "Itistoocoldtobearit",
-        "c": "Itistoocold,Icannotbearit",
-        "d": "Icannotbearittoocold"
+        "a": "Itis too cold that I cannot bear it",
+        "b": "It is too cold to bear it",
+        "c": "Itis too cold, I cannot bear it",
+        "d": "Icannot bear it too cold"
       },
       "marked": null,
       "cov": {
@@ -1569,7 +1569,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Itissocold.Icannotbearit.(Use‘too’)",
+      "q": "Itis so cold. I cannot bear it. (Use ‘too’)",
       "multi": false
     },
     {
@@ -1577,12 +1577,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "direction": "Directions (Question Nos. 61 - 70) : Synthesize the following sentences as directed.",
       "opts": {
-        "a": "Shewasrudealthoughshewashonest",
-        "b": "Althoughshewasrudeandhonest",
-        "c": "Shewasrudeandhonestalthough",
-        "d": "Althoughshewasrude,shewashonest"
+        "a": "She was rude although she was honest",
+        "b": "Although she was rude and honest",
+        "c": "She was rude and honest although",
+        "d": "Although she was rude, she was honest"
       },
       "marked": null,
       "cov": {
@@ -1592,7 +1592,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shewasrude.Shewashonest.(UseAlthough)",
+      "q": "She was rude. She was honest. (Use Although)",
       "multi": false
     },
     {
@@ -1600,12 +1600,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "direction": "Directions (Question Nos. 61 - 70) : Synthesize the following sentences as directed.",
       "opts": {
-        "a": "Theenormityofwhatshehaddoneshockedeveryone",
-        "b": "Whatshehaddonewassoenormousthatitshockedeveryone",
-        "c": "Theenormousityofwhatshehaddoneshockedeveryone",
-        "d": "Theenomournessofwhatshehaddoneshockedeveryone"
+        "a": "The enormity of what she had done shocked everyone",
+        "b": "What she had done was so enormous that it shocked everyone",
+        "c": "The enormousity of what she had done shocked everyone",
+        "d": "The enomourness of what she had done shocked everyone"
       },
       "marked": null,
       "cov": {
@@ -1615,7 +1615,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatshehaddonewasenormous.Itshockedeveryone.(UseaNoun)",
+      "q": "What she had done was enormous. It shocked everyone. (Use a Noun)",
       "multi": false
     },
     {
@@ -1623,12 +1623,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "direction": "Directions (Question Nos. 71 - 80) : Choose the correct meaning of the following proverbs, idioms",
       "opts": {
-        "a": "beingangryaboutsomething",
-        "b": "preparingtodosomething",
-        "c": "toconsolesomeone",
-        "d": "toshareasecret"
+        "a": "being angry about something",
+        "b": "preparing to do something",
+        "c": "to console someone",
+        "d": "to share a secret"
       },
       "marked": null,
       "cov": {
@@ -1646,12 +1646,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "direction": "Directions (Question Nos. 71 - 80) : Choose the correct meaning of the following proverbs, idioms",
       "opts": {
-        "a": "totrainforasport",
-        "b": "todismisssomeone",
+        "a": "to train for a sport",
+        "b": "to dismiss someone",
         "c": "todie",
-        "d": "togotosleep"
+        "d": "to goto sleep"
       },
       "marked": null,
       "cov": {
@@ -1661,7 +1661,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hitthesack",
+      "q": "Hit the sack",
       "multi": false
     },
     {
@@ -1669,12 +1669,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "direction": "Directions (Question Nos. 71 - 80) : Choose the correct meaning of the following proverbs, idioms",
       "opts": {
-        "a": "toconvincesomeonetodosomethingtheywouldnothavedoneotherwise",
-        "b": "totellsomeonealie",
-        "c": "topretendtobefriendsomeoneonlytobetraythem",
-        "d": "togoonalongjourney"
+        "a": "to convince someone to do something they would not have done otherwise",
+        "b": "to tell someonea  lie",
+        "c": "to pretend to befriend someone only to betray them",
+        "d": "to go ona long journey"
       },
       "marked": null,
       "cov": {
@@ -1684,7 +1684,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Twistsomeone’sarm",
+      "q": "Twist someone’s arm",
       "multi": false
     },
     {
@@ -1692,12 +1692,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "direction": "Directions (Question Nos. 71 - 80) : Choose the correct meaning of the following proverbs, idioms",
       "opts": {
-        "a": "tomisssomebody",
-        "b": "toloseone’sfortune",
-        "c": "toloseaskillyouoncehad",
-        "d": "tonolongerkeepincontactwithsomeone"
+        "a": "to miss somebody",
+        "b": "to lose one’s fortune",
+        "c": "to lose a skill you once had",
+        "d": "tono longer keep in contact with someone"
       },
       "marked": null,
       "cov": {
@@ -1707,7 +1707,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Toloseone’stouch",
+      "q": "To lose one’s touch",
       "multi": false
     },
     {
@@ -1715,12 +1715,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "direction": "Directions (Question Nos. 71 - 80) : Choose the correct meaning of the following proverbs, idioms",
       "opts": {
-        "a": "tobecomesad",
-        "b": "toslowdown.",
-        "c": "togettothepoint",
-        "d": "toligahsittuaetinon :8."
+        "a": "to become sad",
+        "b": "toslow down .",
+        "c": "to get to the point",
+        "d": "toliga hsittuaetinon : 8."
       },
       "marked": null,
       "cov": {
@@ -1730,7 +1730,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tocuttothechase",
+      "q": "To cut to the chase",
       "multi": false
     },
     {
@@ -1738,12 +1738,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "direction": "Directions (Question Nos. 71 - 80) : Choose the correct meaning of the following proverbs, idioms",
       "opts": {
-        "a": "tofoolsomeone",
-        "b": "tobecomeunaffectedbysomething",
-        "c": "tocollectthings",
-        "d": "toquitabadhabit"
+        "a": "to fool someone",
+        "b": "to become unaffected by something",
+        "c": "tocollect things",
+        "d": "to quit a bad habit"
       },
       "marked": null,
       "cov": {
@@ -1753,7 +1753,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Togetoversomething",
+      "q": "To get over something",
       "multi": false
     },
     {
@@ -1761,12 +1761,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "direction": "Directions (Question Nos. 71 - 80) : Choose the correct meaning of the following proverbs, idioms",
       "opts": {
-        "a": "tosolveaproblem",
-        "b": "todisagreewithsomeone",
-        "c": "tomovefromoneplacetoanother",
-        "d": "_tobecomeoldandpastone’sbest"
+        "a": "tosolvea problem",
+        "b": "to disagree with someone",
+        "c": "tomove from one place to another",
+        "d": "_ to become old and past one’s best"
       },
       "marked": null,
       "cov": {
@@ -1776,7 +1776,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tobeoverthehill",
+      "q": "To be over the hill",
       "multi": false
     },
     {
@@ -1784,12 +1784,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "direction": "Directions (Question Nos. 71 - 80) : Choose the correct meaning of the following proverbs, idioms",
       "opts": {
-        "a": "tobedirty",
-        "b": "toeatalot",
-        "c": "totendtostealthings",
-        "d": "tobemulti-talented."
+        "a": "to be dirty",
+        "b": "to eata lot",
+        "c": "to tend to steal things",
+        "d": "to be multi-talented ."
       },
       "marked": null,
       "cov": {
@@ -1799,7 +1799,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tohavestickyfingers",
+      "q": "To have sticky fingers",
       "multi": false
     },
     {
@@ -1807,12 +1807,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "direction": "Directions (Question Nos. 71 - 80) : Choose the correct meaning of the following proverbs, idioms",
       "opts": {
-        "a": "tobestingywithmoney",
-        "b": "tobeaviolentperson",
-        "c": "tohavemanyclosefriends",
-        "d": "tonotrevealyoursecrets"
+        "a": "to be stingy with money",
+        "b": "to bea violent person",
+        "c": "tohave many close friends",
+        "d": "to not reveal your secrets"
       },
       "marked": null,
       "cov": {
@@ -1822,7 +1822,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tobeclose-fisted",
+      "q": "To be close-fisted",
       "multi": false
     },
     {
@@ -1830,12 +1830,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "direction": "Directions (Question Nos. 71 - 80) : Choose the correct meaning of the following proverbs, idioms",
       "opts": {
-        "a": "tobealwaysreadyandalert",
-        "b": "tostrugglewithmoney",
-        "c": "tobeagenuineperson",
-        "d": ".tohavealotofmoney"
+        "a": "to be always ready and alert",
+        "b": "to struggle with money",
+        "c": "to bea genuine person",
+        "d": ". to have a lot of money"
       },
       "marked": null,
       "cov": {
@@ -1845,7 +1845,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tobeloaded",
+      "q": "To be loaded",
       "multi": false
     },
     {
@@ -1853,7 +1853,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-87):GivetheAntonymsofthefollowingwords.",
+      "direction": "Directions (Question Nos. 81 - 87) : Give the Antonyms of the following words.",
       "opts": {
         "a": "internal",
         "b": "ephemereal",
@@ -1876,7 +1876,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-87):GivetheAntonymsofthefollowingwords.",
+      "direction": "Directions (Question Nos. 81 - 87) : Give the Antonyms of the following words.",
       "opts": {
         "a": "persuasive",
         "b": "optimist",
@@ -1891,7 +1891,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Permissive‘",
+      "q": "Permissive ‘",
       "multi": false
     },
     {
@@ -1899,12 +1899,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-87):GivetheAntonymsofthefollowingwords.",
+      "direction": "Directions (Question Nos. 81 - 87) : Give the Antonyms of the following words.",
       "opts": {
         "a": "abstruse",
         "b": "well-known",
         "c": "obtuse",
-        "d": "_well-liked"
+        "d": "_ well-liked"
       },
       "marked": null,
       "cov": {
@@ -1922,12 +1922,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-87):GivetheAntonymsofthefollowingwords.",
+      "direction": "Directions (Question Nos. 81 - 87) : Give the Antonyms of the following words.",
       "opts": {
         "a": "instant",
         "b": "lazy",
         "c": "skillful",
-        "d": "_inept"
+        "d": "_ inept"
       },
       "marked": null,
       "cov": {
@@ -1945,7 +1945,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-87):GivetheAntonymsofthefollowingwords.",
+      "direction": "Directions (Question Nos. 81 - 87) : Give the Antonyms of the following words.",
       "opts": {
         "a": "attacking",
         "b": "pensive",
@@ -1968,12 +1968,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-87):GivetheAntonymsofthefollowingwords.",
+      "direction": "Directions (Question Nos. 81 - 87) : Give the Antonyms of the following words.",
       "opts": {
         "a": "select",
         "b": "smart",
         "c": "choose",
-        "d": "_ignore"
+        "d": "_ ignore"
       },
       "marked": null,
       "cov": {
@@ -1991,7 +1991,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-87):GivetheAntonymsofthefollowingwords.",
+      "direction": "Directions (Question Nos. 81 - 87) : Give the Antonyms of the following words.",
       "opts": {
         "a": "quiet",
         "b": "minimal",
@@ -2014,10 +2014,10 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.88-94):GivetheSynonymsofthefollowing.",
+      "direction": "Directions (Question Nos. 88 - 94) : Give the Synonyms of the following.",
       "opts": {
         "a": "soar",
-        "b": "high.",
+        "b": "high .",
         "c": "plummet",
         "d": "low"
       },
@@ -2037,7 +2037,7 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.88-94):GivetheSynonymsofthefollowing.",
+      "direction": "Directions (Question Nos. 88 - 94) : Give the Synonyms of the following.",
       "opts": {
         "a": "tiny",
         "b": "maximum",
@@ -2060,7 +2060,7 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.88-94):GivetheSynonymsofthefollowing.",
+      "direction": "Directions (Question Nos. 88 - 94) : Give the Synonyms of the following.",
       "opts": {
         "a": "legal",
         "b": "fine",
@@ -2083,12 +2083,12 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.88-94):GivetheSynonymsofthefollowing.",
+      "direction": "Directions (Question Nos. 88 - 94) : Give the Synonyms of the following.",
       "opts": {
         "a": "cruel",
         "b": "intelligent",
         "c": "insane",
-        "d": "kind."
+        "d": "kind ."
       },
       "marked": null,
       "cov": {
@@ -2106,7 +2106,7 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.88-94):GivetheSynonymsofthefollowing.",
+      "direction": "Directions (Question Nos. 88 - 94) : Give the Synonyms of the following.",
       "opts": {
         "a": "beautiful",
         "b": "rude",
@@ -2129,7 +2129,7 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.88-94):GivetheSynonymsofthefollowing.",
+      "direction": "Directions (Question Nos. 88 - 94) : Give the Synonyms of the following.",
       "opts": {
         "a": "peaceful",
         "b": "violent",
@@ -2152,7 +2152,7 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.95-100):Choosethecorrectwordforthefollowingdefinitions.",
+      "direction": "Directions (Question Nos. 95 - 100) : Choose the correct word for the following definitions.",
       "opts": {
         "a": "unequivocal",
         "b": "atrocious",
@@ -2167,7 +2167,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Somethingthatcanhavemorethanoneinterpretationormeaning",
+      "q": "Something that can have more than one interpretation or meaning",
       "multi": false
     },
     {
@@ -2175,7 +2175,7 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.95-100):Choosethecorrectwordforthefollowingdefinitions.",
+      "direction": "Directions (Question Nos. 95 - 100) : Choose the correct word for the following definitions.",
       "opts": {
         "a": "optimist",
         "b": "pessimist",
@@ -2190,7 +2190,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Someonewhotendstobehopefulandconfidentaboutthefuture",
+      "q": "Someone who tends to be hopeful and confident about the future",
       "multi": false
     },
     {
@@ -2198,7 +2198,7 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.95-100):Choosethecorrectwordforthefollowingdefinitions.",
+      "direction": "Directions (Question Nos. 95 - 100) : Choose the correct word for the following definitions.",
       "opts": {
         "a": "edible",
         "b": "illegible",
@@ -2213,7 +2213,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Notclearenoughtoberead",
+      "q": "Not clear enough to be read",
       "multi": false
     },
     {
@@ -2221,7 +2221,7 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.95-100):Choosethecorrectwordforthefollowingdefinitions.",
+      "direction": "Directions (Question Nos. 95 - 100) : Choose the correct word for the following definitions.",
       "opts": {
         "a": "regency",
         "b": "tyranny",
@@ -2236,7 +2236,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Acruelandoppressivegovernmentorrule",
+      "q": "A cruel and oppressive government or rule",
       "multi": false
     },
     {
@@ -2244,7 +2244,7 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.95-100):Choosethecorrectwordforthefollowingdefinitions.",
+      "direction": "Directions (Question Nos. 95 - 100) : Choose the correct word for the following definitions.",
       "opts": {
         "a": "fidelity",
         "b": "congregation",
@@ -2259,7 +2259,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Agroupofpeoplesharingacommonprofessionorinterests",
+      "q": "A group of people sharing a common profession or interests",
       "multi": false
     },
     {
@@ -2267,12 +2267,12 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.95-100):Choosethecorrectwordforthefollowingdefinitions.",
+      "direction": "Directions (Question Nos. 95 - 100) : Choose the correct word for the following definitions.",
       "opts": {
         "a": "absolute",
         "b": "delete",
         "c": "obsolete",
-        "d": "deflate KKKKK"
+        "d": "deflate KKK KK"
       },
       "marked": null,
       "cov": {
@@ -2282,7 +2282,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Nolongerproducedorused,outofdate",
+      "q": "No longer produced or used, out of date",
       "multi": false
     }
   ],

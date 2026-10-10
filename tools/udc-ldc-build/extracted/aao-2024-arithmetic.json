@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thevalueof2uptothreeplacesofdecimalis—",
+      "q": "The value of 2 upto three places of decimal is—",
       "multi": false
     },
     {
@@ -41,7 +41,7 @@
         "a": "9604",
         "b": "2025",
         "c": "900",
-        "d": "3600 2(a)5(b)6 (c)7(d)8"
+        "d": "3600 2 (a) 5 (b) 6 (c) 7 (d) 8"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thesmallestperfectsquarenumberwhichisdivisibleby15,24and25is—",
+      "q": "The smallest perfect square number which is divisible by 15, 24 and 25 is —",
       "multi": false
     },
     {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thenumberoftermsinthesequence4,11,18,....,186is—",
+      "q": "The number of terms in the sequence 4, 11, 18, ...., 186 is—",
       "multi": false
     },
     {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "The8\"termoftheArithmeticprogression9,6,3,0,....is—",
+      "q": "The 8\" term oft he Arithmetic progression 9, 6, 3, 0, .... is—",
       "multi": false
     },
     {
@@ -110,7 +110,7 @@
         "a": "60%",
         "b": "62%",
         "c": "72%",
-        "d": "75% (a)2%(b)3% (c)4%(d)5%"
+        "d": "75% (a) 2% (b) 3% (c) 4% (d) 5%"
       },
       "marked": null,
       "cov": {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ramagets49%marksinanexaminationobtaining294marks.Thepercentageofmarksobtainedby hisfriendinthesameexamination,whoscores372marksis—",
+      "q": "Rama gets 49% marks in an examination obtaining 294 marks. The percentage of marks obtained by his friend in the same examination, who scores 372 marks is —",
       "multi": false
     },
     {
@@ -130,10 +130,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "0.25%loss",
-        "b": "0.25%gain",
-        "c": "2.5%loss",
-        "d": "2.5%gain {(a)2%(b)3% (c)4%(d)5% (a)35(b)21 (c)14(dd)7"
+        "a": "0.25% loss",
+        "b": "0.25% gain",
+        "c": "2.5% loss",
+        "d": "2.5% gain { (a) 2% (b) 3% (c) 4% (d) 5% (a) 35 (b) 21 (c) 14 (dd) 7"
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ashopkeepersellstwoshirtsat71995each.Ononehegains5%andontheotherheloses5%.His gainorlossinthewholetransactionis-",
+      "q": "A shopkeeper sells two shirts at 71995 each. On one he gains 5% and on the other he loses 5%. His gain or loss in the whole transaction is -",
       "multi": false
     },
     {
@@ -153,10 +153,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "2and3",
+        "a": "2 and3",
         "b": "4and6",
-        "c": "Sand12",
-        "d": "16and24"
+        "c": "Sand 12",
+        "d": "16 and24"
       },
       "marked": null,
       "cov": {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Twonumbersareintheratio2:3andif8isaddedtoeachofthem,theybecomeintheratio3:4.The numbersare—",
+      "q": "Two numbers are in the ratio 2:3 and if 8 is added to each of them, they become in the ratio 3:4. The numbers are —",
       "multi": false
     },
     {
@@ -176,10 +176,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "159cm",
-        "b": "158cm",
+        "a": "159 cm",
+        "b": "158 cm",
         "c": "157em",
-        "d": "156cem (a)35(b)40 (c)42(a)50"
+        "d": "156cem (a) 35 (b) 40 (c) 42 (a) 50"
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theaverageheightof30studentsoutofaclassof40is160cmandthatoftheremainingstudents is156cm.Theaverageheightofthewholeclassis—",
+      "q": "The average height of 30 students out ofa class of 40 is 160 cm and that of the remaining students is 156 cm. The average height of the whole class is —",
       "multi": false
     },
     {
@@ -202,7 +202,7 @@
         "a": "6Skg",
         "b": "60kg",
         "c": "55kg",
-        "d": "50kg :(a)7hours(b)7%hours (c)8days(d)8%hours ;(a)400hectares(b)450hectares 2(c)460hectares(d)480hectares A(a)10(b)15 3(c)20(d)25 -3-."
+        "d": "50kg : (a) 7 hours (b) 7% hours (c) 8 days (d) 8%hours ; (a) 400 hectares (b) 450 hectares 2 (c) 460 hectares (d) 480 hectares A (a) 10 (b) 15 3 (c) 20 (d) 25 -3- ."
       },
       "marked": null,
       "cov": {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Themeanweightof5menisincreasedby1kgwhenoneofthem,whoseweightis60kg,isreplaced fbyanewman.Theweightofthenewmanis—",
+      "q": "The mean weight of 5 men is increased by 1 kg when one of them, whose weight is 60 kg, is replaced f by anew man. The weight of the new man is—",
       "multi": false
     },
     {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Twopersonsstartfromthesameplaceandwalkinoppositedirectionsat5km/hrand4km/hr !respectively.Attheendof3hours,thedistancebetweenthemis—",
+      "q": "Two persons start from the same place and walk in opposite directions at 5 km/hr and 4 km/hr ! respectively. At the end of 3 hours, the distance between them is —",
       "multi": false
     },
     {
@@ -245,10 +245,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1hour",
-        "b": "2hours",
-        "c": "3hours",
-        "d": "4hours"
+        "a": "1 hour",
+        "b": "2 hours",
+        "c": "3 hours",
+        "d": "4 hours"
       },
       "marked": null,
       "cov": {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘A’and‘B’are30kmapartandwalktowardseachother.‘A’iswalkingattherateof4km/hrand ‘B’at6km/hr.Theywillmeetafter—",
+      "q": "‘A’ and ‘B’ are 30 km apart and walk towards each other. ‘A’ is walking at the rate of 4 km/hr and ‘B’ at 6 km/hr. They will meet after—",
       "multi": false
     },
     {
@@ -268,10 +268,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "12minutes",
-        "b": "15minutes",
-        "c": "18minutes",
-        "d": "20minutes"
+        "a": "12 minutes",
+        "b": "15 minutes",
+        "c": "18 minutes",
+        "d": "20 minutes"
       },
       "marked": null,
       "cov": {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whilewalkingat2oftheusualspeed,amanreacheshisdestination10minuteslate.Whatishis usualtimetoreachhisdestination?",
+      "q": "While walking at 2 of the usual speed, a man reaches his destination 10 minutes late. What is his usual time to reach his destination?",
       "multi": false
     },
     {
@@ -291,10 +291,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "15years",
-        "b": "11years",
-        "c": "7years",
-        "d": "5years"
+        "a": "15 years",
+        "b": "11 years",
+        "c": "7 years",
+        "d": "5 years"
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Liana’sageis16yearsandhiseldersister’sageis21years.Afterhowmanyyearswillthesumof theiragesbe51years?",
+      "q": "Liana’s age is 16 years and his elder sister’s age is 21 years. After how many years will the sum of their ages be 51 years?",
       "multi": false
     },
     {
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Onaplaneground,amanwalks18mduesouththenheturnstoleftandwalks6mdueeast.He againturnstoleftandwalks10mduenorth.Howfarishenowfromthestartingpoint?",
+      "q": "Ona plane ground, a man walks 18 m due south then he turns to left and walks 6 m due east. He again turns to left and walks 10m due north. How far is he now from the starting point?",
       "multi": false
     },
     {
@@ -337,10 +337,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "5%p.a.",
-        "b": "8%p.a.",
-        "c": "10%p.a.",
-        "d": "12%p.a."
+        "a": "5% p.a.",
+        "b": "8% p.a.",
+        "c": "10% p.a.",
+        "d": "12% p.a."
       },
       "marked": null,
       "cov": {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Asumofmoneybecomes72420in2yearsand22662in3years.Ifinterestiscompoundedannually, .therateofinterestis—",
+      "q": "Asum of money becomes 72420 in 2 years and 22662 in 3 years. If interest is compounded annually, . the rate of interest is —",
       "multi": false
     },
     {
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iftheperimeterofacircleisnumericallyequaltotheperimeterofasquare,thentheareasareinthe .22 ratio(takez—sj-",
+      "q": "Ifthe perimeter ofa circle is numerically equal to the perimeter of a square, then the areas are in the . 22 ratio (take z —s j-",
       "multi": false
     },
     {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thelengthofthelongestpolethatcanbekeptinaroomofdimensions(12mx9mx8m)is—",
+      "q": "The length of the longest pole that can be kept in a room of dimensions (12m x 9m x 8m) is—",
       "multi": false
     },
     {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Howmanybricks,eachmeasuring(25cm*11.25emx6cm)willberequiredtoconstructawallof dimensions(8cmx6cm*22.5em)if-_ofthevolumeofthewallisoccupiedbycementmortar? 10",
+      "q": "How many bricks, each measuring (25cm * 11.25em x 6cm) will be required to construct a wall of dimensions (8cm x 6cm * 22.5em) if -_ of the volume of the wall is occupied by cement mortar? 10",
       "multi": false
     },
     {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Akiteisflyingatacertainheightfromthehorizontalground.Thethread100mlong,attachedtothe kiteistiedtothepointontheground.Theinclinationofthethreadwiththegroundis30°.Howhigh fromthegroundisthekiteflying?",
+      "q": "A kite is flying at a certain height from the horizontal ground. The thread 100 m long, attached to the kite is tied to the point on the ground. The inclination of the thread with the ground is 30°. How high from the ground is the kite flying?",
       "multi": false
     },
     {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Abagcontains4whiteandsomeredballs.Iftheprobabilityofdrawingaredballatrandomis doublethatofdrawingawhiteball,thenumberofredballsinthebagis—",
+      "q": "A bag contains 4 white and some red balls. If the probability of drawing a red ball at random is double that of drawing a white ball, the number of red balls in the bag is —",
       "multi": false
     },
     {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inacommittee,32peoplespeakHindi,14speakEnglishand8speakbothHindiandEnglish,How manyspeakatleastoneofthetwolanguages?",
+      "q": "Inacommittee, 32 people speak Hindi, 14 speak English and 8 speak both Hindi and English, How many speak at least one of the two languages?",
       "multi": false
     },
     {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thecostofamobilehandsetis20,000.Aladypurchaseditbypaying712,000andthebalanceis tobeclearedintwoequalinstalmentsof$4500each.Whatisthetotalinterestchargedunderthe instalmentscheme?",
+      "q": "The cost of a mobile handset is 20,000. A lady purchased it by paying 712,000 and the balance is to be cleared in two equal instalments of $4500 each. What is the total interest charged under the instalment scheme?",
       "multi": false
     },
     {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifx?+x?_2x—3isdividedbyx+2,theremainderis—",
+      "q": "Ifx?+x?_2x—3 is divided by x+2, the remainder is —",
       "multi": false
     },
     {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Metallicspheresofradii3cm,4cmand5cmrespectivelyaremeltedtoformasinglesolidsphere. Theradiusoftheresultingsphereis—",
+      "q": "Metallic spheres of radii 3 cm, 4 cm and 5 cm respectively are melted to form a single solid sphere. The radius of the resulting sphere is —",
       "multi": false
     },
     {
@@ -570,7 +570,7 @@
         "a": "40-50",
         "b": "30-40",
         "c": "50-60",
-        "d": "10-20 _5-,"
+        "d": "10-20 _5- ,"
       },
       "marked": null,
       "cov": {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Themedianclassofthefollowingfrequencydistributiontableis— [rewey|+[+fos|wfeds|a|",
+      "q": "The median class of the following frequency distribution table is — [rewey | + [+ fos | wf e ds | a |",
       "multi": false
     },
     {
@@ -590,10 +590,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "44and110",
-        "b": "110and176",
-        "c": "176and242",
-        "d": "242and308"
+        "a": "44 and 110",
+        "b": "110 and 176",
+        "c": "176 and 242",
+        "d": "242 and 308"
       },
       "marked": null,
       "cov": {
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thedifferencebetweentwowholenumberis66andtheirratiois2:5.Thetwonumbersare—",
+      "q": "The difference between two whole number is 66 and their ratio is 2 : 5. The two numbers are —",
       "multi": false
     },
     {
@@ -613,10 +613,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "10years",
-        "b": "20years",
-        "c": "30years",
-        "d": "40years"
+        "a": "10 years",
+        "b": "20 years",
+        "c": "30 years",
+        "d": "40 years"
       },
       "marked": null,
       "cov": {
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "LianaistwiceasoldasMawii.FiveyearsagohisagewasthreetimesMawii’sage.Findthepresent ageofLiana.",
+      "q": "Liana is twice as old as Mawii. Five years ago his age was three times Mawii’s age. Find the present age of Liana.",
       "multi": false
     },
     {
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Findthesmallestmultipleof2352whichisaperfectsquare.",
+      "q": "Find the smallest multiple of 2352 which is a perfect square.",
       "multi": false
     },
     {
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thelistpriceofashirtis¥220.Adiscountof20%isannouncedonfestivalsale.Whatistheselling priceoftheshirt?",
+      "q": "The list price ofa shirt is ¥220. A discount of 20 % is announced on festival sale. What is the selling price of the shirt?",
       "multi": false
     },
     {
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ATVisboughtfor713500includingVATof8%.ThepriceoftheTVbeforeVATis—",
+      "q": "ATV is bought for 713500 including VAT of8  %. The price of the TV before VAT is —",
       "multi": false
     },
     {
@@ -708,7 +708,7 @@
         "a": "%33",
         "b": "227.27",
         "c": "%2640",
-        "d": "%2181.82 10°-1520-30 -1520-301010-1520-30"
+        "d": "%2181.82 10°-15 20 -30 -15 20 -30 10 10-15 20 -30"
       },
       "marked": null,
       "cov": {
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ashopkeeperbuys80articlesfor$2400andsellsthemforaprofitof10%.Findthesellingpriceof onearticle.",
+      "q": "A shopkeeper buys 80 articles for $2400 and sells them for a profit of 10 %. Find the selling price of one article.",
       "multi": false
     },
     {
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Afterreadingiofabook,Remaleft40pages.Howmanypagesheread?",
+      "q": "After reading i ofa book, Rema left 40 pages. How many pages he read?",
       "multi": false
     },
     {
@@ -754,7 +754,7 @@
         "a": "495",
         "b": "650",
         "c": "425",
-        "d": "475 (a)Sem(b)7com (c)9cm(d)llem"
+        "d": "475 (a) Sem (b) 7com (c) 9cm (d) llem"
       },
       "marked": null,
       "cov": {
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "If45%ofthestudentsinaschoolareboysandthenumberofgirlsintheschoolis605.Howmany boysarethereintheschool?",
+      "q": "If 45% of the students in a school are boys and the number of girls in the school is 605. How many boys are there in the school ?",
       "multi": false
     },
     {
@@ -774,10 +774,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Tsm/s",
-        "b": "3m/s 350",
-        "c": "50m/s:",
-        "d": "Zzm/s"
+        "a": "Ts m/s",
+        "b": "3 m/s 3 50",
+        "c": "50 m/s :",
+        "d": "Zz m/s"
       },
       "marked": null,
       "cov": {
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "1km/hrisequalto— 518",
+      "q": "1 km/hr is equal to — 5 18",
       "multi": false
     },
     {
@@ -797,10 +797,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "210m/s",
-        "b": "320m/s",
-        "c": "430m/s",
-        "d": "540m/s"
+        "a": "210 m/s",
+        "b": "320 m/s",
+        "c": "430 m/s",
+        "d": "540 m/s"
       },
       "marked": null,
       "cov": {
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Agunisfiredatadistanceof4.3kmawayfromtheman,Ifthesoundofthegunfiredisheardbythe manafter10seconds,findthespeedatwhichsoundtravelled?",
+      "q": "A gunis fired at a distance of 4.3 km away from the man, If the sound oft he gun fired is heard by the man after 10 seconds, find the speed at which sound travelled?",
       "multi": false
     },
     {
@@ -820,10 +820,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "40hours",
-        "b": "50hours",
-        "c": "60hours",
-        "d": "70hours 13,1"
+        "a": "40 hours",
+        "b": "50 hours",
+        "c": "60 hours",
+        "d": "70 hours 1 3,1"
       },
       "marked": null,
       "cov": {
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Atankwhichhasaleakinthebottomisfilledin12hours.Hadtherebeennoleakinthebottom,it wouldhavebeenfilledin10hours.Theleakcanemptythetankin—",
+      "q": "A tank which has a leak in the bottom is filled in 12 hours. Had there been no leak in the bottom, it would have been filled in 10 hours. The leak can empty the tank in—",
       "multi": false
     },
     {
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifx+—=2,thenx+=? xx",
+      "q": "If x+—=2, then x +=? x x",
       "multi": false
     },
     {
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theradiioftworightcircularcylinderofthesameheightareintheratio3:5.Findtheratiooftheir volume.",
+      "q": "The radii of two right circular cylinder of the same height are in the ratio 3 : 5. Find the ratio of their volume.",
       "multi": false
     },
     {
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Findthemedianusingempiricalformulaifmode=29andmean=38.",
+      "q": "Find the median using empirical formula if mode = 29 and mean = 38.",
       "multi": false
     },
     {
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Abagcontains12whiteballsandsomegreenballs.Iftheprobabilityofdrawingawhiteballfromthe bagisthricethatofthegreenball.Findthenumberofgreenballs?",
+      "q": "A bag contains 12 white balls and some green balls. If the probability of drawing a white ball from the bag is thrice that of the green ball. Find the number of green balls?",
       "multi": false
     },
     {
@@ -933,7 +933,7 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "714000",
         "b": "15000",
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthetotalexpenditureofthefamily?",
+      "q": "What is the total expenditure of the family?",
       "multi": false
     },
     {
@@ -956,7 +956,7 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "73600",
         "b": "%6000",
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "FindtheamountofexpendituresonEducation.",
+      "q": "Find the amount of expenditures on Education.",
       "multi": false
     },
     {
@@ -979,7 +979,7 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "28",
         "b": "30",
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Howmanytwodigitnumberswhicharedivisibleby3?",
+      "q": "How many two digit numbers which are divisible by 3?",
       "multi": false
     },
     {
@@ -1002,7 +1002,7 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "1",
         "b": "-l",
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifp-2,p+/and2p-1areinA.P.Thevalueofpis—",
+      "q": "Ifp-2, p+/ and 2p-1 are in A.P. The value of pis—",
       "multi": false
     },
     {
@@ -1025,7 +1025,7 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "35",
         "b": "20",
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inaclassof65students,40likefootball,10likebothfootballandhockey.Howmanylikehockey only?",
+      "q": "Inaclass of 65 students, 40 like football, 10 like both football and hockey. How many like hockey only?",
       "multi": false
     },
     {
@@ -1048,12 +1048,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
-        "a": "{b,f}",
+        "a": "{b, f}",
         "b": "{ff",
         "c": "",
-        "d": "(d)fa,d}"
+        "d": "(d) fa, d}"
       },
       "marked": null,
       "cov": {
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IfA={a,b,c,d}andB={b,c,f},thenB-A=?",
+      "q": "IfA={a, b, c, d} and B={b, c, f}, then B-A= ?",
       "multi": false
     },
     {
@@ -1071,7 +1071,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "15:12:8",
         "b": "15:10:12",
@@ -1094,7 +1094,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "28",
         "b": "32",
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheL.C.Moftwonumbersis48.Thenumbersareintheratio2:3.Findthesumofthenumbers.",
+      "q": "The L.C.M of two numbers is 48. The numbers are in the ratio 2 : 3. Find the sum of the numbers.",
       "multi": false
     },
     {
@@ -1117,7 +1117,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "-30",
         "b": "30",
@@ -1132,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theproductoftherootsoftheequation(x—6)(x—5)=0is—",
+      "q": "The product of the roots of the equation (x — 6)(x — 5) = 0 is —",
       "multi": false
     },
     {
@@ -1140,7 +1140,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "49",
         "b": "~49",
@@ -1155,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thediscriminant(1)ofaquadraticequation2x?—5x—3=0is—",
+      "q": "The discriminant (1) of a quadratic equation 2x? — 5x— 3 =0is—",
       "multi": false
     },
     {
@@ -1163,11 +1163,11 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
-        "a": "-1and6",
+        "a": "-1 and 6",
         "b": "1and-6",
-        "c": "—2and3",
+        "c": "—2 and 3",
         "d": "2and-3"
       },
       "marked": null,
@@ -1178,7 +1178,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thezeroesofthepolynomialx?-x-6are-",
+      "q": "The zeroes of the polynomial x?- x- 6 are -",
       "multi": false
     },
     {
@@ -1186,10 +1186,10 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "19",
-        "b": "-19:",
+        "b": "-19 :",
         "c": "29",
         "d": "-29"
       },
@@ -1201,7 +1201,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "The8\"termfromtheendoftheA.P.17,14,11,...-40is—°",
+      "q": "The 8\" term from the end of the A.P. 17, 14, 11, ... - 40 is— °",
       "multi": false
     },
     {
@@ -1209,7 +1209,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "10m",
         "b": "20m",
@@ -1224,7 +1224,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theladder20mlongjustreachesthetopofaverticalwall.Iftheladdermakes30°withtheground, findtheheightofthewall.",
+      "q": "The ladder 20 m long just reaches the top of a vertical wall. If the ladder makes 30° with the ground, find the height of the wall.",
       "multi": false
     },
     {
@@ -1232,7 +1232,7 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "100089",
         "b": "100480",
@@ -1247,7 +1247,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Findtheleastnumberof6digitswhichisaperfectsquare.",
+      "q": "Find the least number of 6 digits which is a perfect square.",
       "multi": false
     },
     {
@@ -1255,7 +1255,7 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "40",
         "b": "38",
@@ -1270,7 +1270,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thereare40childreninaclassinwhichboysare4morethanthegirls.Iftheaverageweightofallthe studentsis42.5kgandtheaverageweightofallthegirlsis48kg,thenfindtheaverageweightofall theboys.",
+      "q": "There are 40 children in a class in which boys are 4 more than the girls. If the average weight of all the students is 42.5 kg and the average weight of all the girls is 48 kg, then find the average weight of all the boys.",
       "multi": false
     },
     {
@@ -1278,7 +1278,7 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "%840",
         "b": "%820",
@@ -1293,7 +1293,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Anarticleissoldfor642.60aftersuccessivediscountof15%and10%.Whatisthemarketpriceof thearticle?",
+      "q": "Anarticle is sold for 642.60 after successive discount of 15% and 10%. What is the market price of the article?",
       "multi": false
     },
     {
@@ -1301,7 +1301,7 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "5:2",
         "b": "3:2",
@@ -1316,7 +1316,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inaschool10%ofboysareequaltotheonefourthofthegirls.Whatistheratioofboysandgirlsin thatschool?",
+      "q": "In aschool 10% of boys are equal to the one fourth of the girls. What is the ratio of boys and girls in that school?",
       "multi": false
     },
     {
@@ -1324,12 +1324,12 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
-        "a": "%3,200",
-        "b": "%3,126",
-        "c": "%3,048",
-        "d": "%3,136 2,2"
+        "a": "%3, 200",
+        "b": "%3, 126",
+        "c": "%3, 048",
+        "d": "%3, 136 2,2"
       },
       "marked": null,
       "cov": {
@@ -1339,7 +1339,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thangaspend23%ofanamountofmoneyonaninsurancepolicy,33%onfood,19%onchildren’s educationand16%onrecreation.Hedepositstheremainingamountof$504inbank.Howmuch totalamountdoeshespendonfoodandinsurancepolicytogether?",
+      "q": "Thanga spend 23% of an amount of money on an insurance policy, 33% on food, 19% on children’s education and 16% on recreation. He deposits the remaining amount of $504 in bank. How much total amount does he spend on food and insurance policy together?",
       "multi": false
     },
     {
@@ -1347,7 +1347,7 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "%72,000",
         "b": "784,000",
@@ -1362,7 +1362,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThemonthlyincomesofXandYareintheratio4:3andtheirmonthlyexpendituresareintheratio 3:2.Howevereachsaves%12,000permonth.Whatistheirtotalmonthlyincome?",
+      "q": "The monthly incomes of X and Y are in the ratio 4:3 and their monthly expenditures are in the ratio 3:2. However each saves %12,000 per month. What is their total monthly income?",
       "multi": false
     },
     {
@@ -1370,7 +1370,7 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "18",
         "b": "12",
@@ -1385,7 +1385,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AandBcandoajobtogetherin12days.Ais2timesasefficientasB.InhowmanydayscanB alonecompletesthework?",
+      "q": "A and B can do a job together in 12 days. A is 2 times as efficient as B. In how many days can B alone completes the work?",
       "multi": false
     },
     {
@@ -1393,7 +1393,7 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "3",
         "b": "9",
@@ -1408,7 +1408,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Acandoaworkin36dayswhileBcandothesamein48days.IfAworkfor‘x’dayswhileBworks for‘x+2’days,thenone-thirdoftheworkiscomplete.Findthevalueofx?",
+      "q": "A can do a work in 36 days while B can do the same in 48 days. If A work for ‘x’ days whileB  works for ‘x+2’ days, then one-third of the work is complete. Find the value of x?",
       "multi": false
     },
     {
@@ -1416,12 +1416,12 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
-        "a": "36km/hr",
-        "b": "37km/hr",
-        "c": "39km/hr",
-        "d": "32km/hr"
+        "a": "36 km/hr",
+        "b": "37 km/hr",
+        "c": "39 km/hr",
+        "d": "32 km/hr"
       },
       "marked": null,
       "cov": {
@@ -1431,7 +1431,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifyoutravel39kmataspeedof26km/hr,another39kmataspeedof39knv/hrandagain39kmataspeed of52km/hr.Whatisyouraveragespeedfortheentirejoumey?",
+      "q": "Ifyou travel 39 km ata speed of 26 km/hr, another 39 km at a speed of 39 knv/hrand again 39 km at a speed of 52 km/hr. What is your average speed for the entire joumey?",
       "multi": false
     },
     {
@@ -1439,7 +1439,7 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "%2,900",
         "b": "23,600",
@@ -1454,7 +1454,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thesimpleinterestonacertainsumfor8monthsat4%perannumis€129lessthanthesimple interestonthesamesumfor15monthsat5%perannum.Whatisthesum?",
+      "q": "The simple interest on a certain sum for 8 months at 4% per annum is €129 less than the simple interest on the same sum for 15 months at 5% per annum. What is the sum?",
       "multi": false
     },
     {
@@ -1462,7 +1462,7 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "%2,800.00",
         "b": "%2,400.00",
@@ -1477,7 +1477,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thedifferencebetweenthesimpleandthecompoundintereston%xat9%perannumfor2yearsis 20.25.Whatisthevalueofx?",
+      "q": "The difference between the simple and the compound interest on %x at 9% per annum for 2 years is 20.25. What is the value ofx?",
       "multi": false
     },
     {
@@ -1485,10 +1485,10 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
         "a": "120cm",
-        "b": "80cm.",
+        "b": "80cm .",
         "c": "100cm",
         "d": "140cm"
       },
@@ -1500,7 +1500,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theareaofasquareandarectangleareequal.Thelengthoftherectangleis8cmmorethanthe lengthofanysideofthesquareandthebreadthis6cmless.Theperimeter(incm)oftherectangle willbe-",
+      "q": "The area of a square and a rectangle are equal. The length of the rectangle is 8 cm more than the length of any side of the square and the breadth is 6 cm less. The perimeter(in cm) of the rectangle will be-",
       "multi": false
     },
     {
@@ -1508,12 +1508,12 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon",
+      "direction": "Directions (Question Nos, 65 — 67) : The given pie-chart shows the monthly expenses of a family on",
       "opts": {
-        "a": "729litres",
-        "b": "810litres",
-        "c": "16000litres",
-        "d": "15000litres 2"
+        "a": "729 litres",
+        "b": "810 litres",
+        "c": "16000 litres",
+        "d": "15000 litres 2"
       },
       "marked": null,
       "cov": {
@@ -1523,7 +1523,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Awatertankis5meterlong,3mboardand1mdeep.Howmanylitresofwatercanithold?",
+      "q": "A water tank is 5 meter long, 3 m board and 1 m deep. How many litres of water can it hold?",
       "multi": false
     }
   ],

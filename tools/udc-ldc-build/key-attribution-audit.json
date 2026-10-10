@@ -1,10 +1,10 @@
 {
  "note": "Tier 1 is not a bulk/automated win. Only assignments that validate (>=25 upstream comparisons and >=70% option-text agreement) are safe to register without a human eye; everything else is either contradicted (wrong paper) or unverifiable and must be confirmed against the printed key.",
  "counts": {
-  "unverifiable": 20,
+  "unverifiable": 18,
   "contradicted": 5
  },
- "held_in_candidates": 1873,
+ "held_in_candidates": 1714,
  "papers": [
   {
    "paper_id": "mpsc-group-b-geologist-jun-nov-2020-english-p3",
@@ -28,8 +28,8 @@
    "section_n": 65,
    "source": "pdf",
    "score": 5,
-   "upstream_n": 0,
-   "agreement": null,
+   "upstream_n": 9,
+   "agreement": 22,
    "verdict": "unverifiable"
   },
   {
@@ -54,8 +54,8 @@
    "section_n": 99,
    "source": "pdf",
    "score": 5,
-   "upstream_n": 0,
-   "agreement": null,
+   "upstream_n": 4,
+   "agreement": 75,
    "verdict": "unverifiable"
   },
   {
@@ -67,21 +67,8 @@
    "section_n": 100,
    "source": "ocr",
    "score": 7,
-   "upstream_n": 0,
-   "agreement": null,
-   "verdict": "unverifiable"
-  },
-  {
-   "paper_id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440",
-   "subject": "General English",
-   "held": 93,
-   "key_file": "Inspector of Legal Metrology under FCS&CA Deptt. Final Answer Key..pdf",
-   "section_index": 0,
-   "section_n": 100,
-   "source": "pdf",
-   "score": 8,
-   "upstream_n": 0,
-   "agreement": null,
+   "upstream_n": 6,
+   "agreement": 83,
    "verdict": "unverifiable"
   },
   {
@@ -93,8 +80,8 @@
    "section_n": 100,
    "source": "ocr",
    "score": 8,
-   "upstream_n": 0,
-   "agreement": null,
+   "upstream_n": 5,
+   "agreement": 0,
    "verdict": "unverifiable"
   },
   {
@@ -106,8 +93,8 @@
    "section_n": 98,
    "source": "pdf",
    "score": 5,
-   "upstream_n": 0,
-   "agreement": null,
+   "upstream_n": 9,
+   "agreement": 44,
    "verdict": "unverifiable"
   },
   {
@@ -119,8 +106,8 @@
    "section_n": 100,
    "source": "ocr",
    "score": 7,
-   "upstream_n": 0,
-   "agreement": null,
+   "upstream_n": 2,
+   "agreement": 50,
    "verdict": "unverifiable"
   },
   {
@@ -132,8 +119,8 @@
    "section_n": 100,
    "source": "ocr",
    "score": 7,
-   "upstream_n": 0,
-   "agreement": null,
+   "upstream_n": 2,
+   "agreement": 50,
    "verdict": "unverifiable"
   },
   {
@@ -145,19 +132,6 @@
    "section_n": 66,
    "source": "ocr",
    "score": 9,
-   "upstream_n": 0,
-   "agreement": null,
-   "verdict": "unverifiable"
-  },
-  {
-   "paper_id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde",
-   "subject": "General English",
-   "held": 66,
-   "key_file": "Final Answer Key for Assistant Director (Food & Drugs) under H&FW Department.pdf",
-   "section_index": 0,
-   "section_n": 66,
-   "source": "ocr",
-   "score": 8,
    "upstream_n": 0,
    "agreement": null,
    "verdict": "unverifiable"

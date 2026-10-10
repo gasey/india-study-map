@@ -13,7 +13,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-5):Identifytheunderlinedwordsineachofthefollowing:",
+      "direction": "Directions (Question Nos. 1 - 5) : Identify the underlined words in each of the following:",
       "opts": {
         "a": "Conjunction",
         "b": "Preposition",
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Wow,thatisanawesomevehicle!",
+      "q": "Wow, that is an awesome vehicle!",
       "multi": false
     },
     {
@@ -36,7 +36,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-5):Identifytheunderlinedwordsineachofthefollowing:",
+      "direction": "Directions (Question Nos. 1 - 5) : Identify the underlined words in each of the following:",
       "opts": {
         "a": "Pronoun",
         "b": "Adverb",
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thestudentsreceivedexcellentresults.",
+      "q": "The students received excellent results.",
       "multi": false
     },
     {
@@ -59,7 +59,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-5):Identifytheunderlinedwordsineachofthefollowing:",
+      "direction": "Directions (Question Nos. 1 - 5) : Identify the underlined words in each of the following:",
       "opts": {
         "a": "Verb",
         "b": "Conjunction",
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Wehavesomuchtodoyetwehavesolittletime.",
+      "q": "We have so much to do yet we have so little time.",
       "multi": false
     },
     {
@@ -82,7 +82,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-5):Identifytheunderlinedwordsineachofthefollowing:",
+      "direction": "Directions (Question Nos. 1 - 5) : Identify the underlined words in each of the following:",
       "opts": {
         "a": "Adverb",
         "b": "Adjective",
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Myhusbandpreparedamealthatwasastonishinglydelicious,atrueculinarymasterpiece.",
+      "q": "My husband prepared a meal that was astonishingly delicious, a true culinary masterpiece.",
       "multi": false
     },
     {
@@ -105,7 +105,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-5):Identifytheunderlinedwordsineachofthefollowing:",
+      "direction": "Directions (Question Nos. 1 - 5) : Identify the underlined words in each of the following:",
       "opts": {
         "a": "Pronoun",
         "b": "Conjunction",
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thewavesarecrashingagainsttherocks.",
+      "q": "The waves are crashing against the rocks.",
       "multi": false
     },
     {
@@ -133,7 +133,7 @@
         "a": "Who's",
         "b": "Whom",
         "c": "Who",
-        "d": "Whose (a)These(b)Those (c)That(d)This"
+        "d": "Whose (a) These (b) Those (c) That (d) This"
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "bookisthis?.",
+      "q": "book is this? .",
       "multi": false
     },
     {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Mr.Patelhaslosthissavingsinascam.",
+      "q": "Mr. Patel has lost his savings in a scam.",
       "multi": false
     },
     {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Themenhavenotheardthegossip.",
+      "q": "The men have not heard the gossip.",
       "multi": false
     },
     {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Copperisusefulmetalforus.",
+      "q": "Copper is useful metal for us.",
       "multi": false
     },
     {
@@ -220,7 +220,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-15):Choosethecorrectantonymorsynonymasindicated:",
+      "direction": "Directions (Question Nos. 11 - 15) : Choose the correct antonym or synonym as indicated:",
       "opts": {
         "a": "Unquestionable",
         "b": "Unstable",
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Synonymfor“Precarious”",
+      "q": "Synonym for “Precarious”",
       "multi": false
     },
     {
@@ -243,7 +243,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-15):Choosethecorrectantonymorsynonymasindicated:",
+      "direction": "Directions (Question Nos. 11 - 15) : Choose the correct antonym or synonym as indicated:",
       "opts": {
         "a": "Faint",
         "b": "Esoteric",
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Antonymfor“Obscure”",
+      "q": "Antonym for “Obscure”",
       "multi": false
     },
     {
@@ -266,7 +266,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-15):Choosethecorrectantonymorsynonymasindicated:",
+      "direction": "Directions (Question Nos. 11 - 15) : Choose the correct antonym or synonym as indicated:",
       "opts": {
         "a": "Acquit",
         "b": "Implicate",
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Synonymfor“Exonerate”",
+      "q": "Synonym for “Exonerate”",
       "multi": false
     },
     {
@@ -289,7 +289,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-15):Choosethecorrectantonymorsynonymasindicated:",
+      "direction": "Directions (Question Nos. 11 - 15) : Choose the correct antonym or synonym as indicated:",
       "opts": {
         "a": "Austere",
         "b": "Lenient",
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Antonymfor“Stringent”",
+      "q": "Antonym for “Stringent”",
       "multi": false
     },
     {
@@ -312,7 +312,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-15):Choosethecorrectantonymorsynonymasindicated:",
+      "direction": "Directions (Question Nos. 11 - 15) : Choose the correct antonym or synonym as indicated:",
       "opts": {
         "a": "Distracted",
         "b": "Hesitant",
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Synonymfor“Vigilant”",
+      "q": "Synonym for “Vigilant”",
       "multi": false
     },
     {
@@ -335,12 +335,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-20}:Ineachofthequestionsgivenbelow,foursentencesaregiven.",
+      "direction": "Directions (Question Nos. 16 - 20} : In each of the questions given below, four sentences are given.",
       "opts": {
-        "a": "Iprefercoffeetotea.",
-        "b": "Thesceneriesofthehillstationwerebreathtaking.",
-        "c": "Shepreventedhimfrommakingamistake.",
-        "d": "Itishightimeweleft."
+        "a": "Iprefer coffee to tea.",
+        "b": "The sceneries of the hill station were breathtaking.",
+        "c": "She prevented him from making a mistake.",
+        "d": "Itis high time we left."
       },
       "marked": null,
       "cov": {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosetheincorrectsentence:",
+      "q": "Choose the incorrect sentence:",
       "multi": false
     },
     {
@@ -358,12 +358,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-20}:Ineachofthequestionsgivenbelow,foursentencesaregiven.",
+      "direction": "Directions (Question Nos. 16 - 20} : In each of the questions given below, four sentences are given.",
       "opts": {
-        "a": "Nosoonerhadhearrivedthanitstartedraining.",
-        "b": "Ihaveneverseensuchabeautifulsunset.",
-        "c": "Shetoldmethatshewillcallmelater.",
-        "d": "Unlessyoustudyhard,youwillnotpass."
+        "a": "No sooner had he arrived than it started raining.",
+        "b": "Ihave never seen such a beautiful sunset.",
+        "c": "She told me that she will call me later.",
+        "d": "Unless you study hard, you will not pass."
       },
       "marked": null,
       "cov": {
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosetheincorrectsentence:",
+      "q": "Choose the incorrect sentence:",
       "multi": false
     },
     {
@@ -381,12 +381,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-20}:Ineachofthequestionsgivenbelow,foursentencesaregiven.",
+      "direction": "Directions (Question Nos. 16 - 20} : In each of the questions given below, four sentences are given.",
       "opts": {
-        "a": "Thepoliceareinvestigatingthematter.",
-        "b": "Eachoftheplayershavetheirownlocker.",
-        "c": "ThePrimeMinister,alongwithhisministers,isattendingthemeeting.",
-        "d": "Sheiscapableofhandlingthesituation."
+        "a": "The police are investigating the matter.",
+        "b": "Each of the players have their own locker.",
+        "c": "The Prime Minister, along with his ministers, is attending the meeting.",
+        "d": "She is capable of handling the situation."
       },
       "marked": null,
       "cov": {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosetheincorrectsentence:",
+      "q": "Choose the incorrect sentence:",
       "multi": false
     },
     {
@@ -404,12 +404,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-20}:Ineachofthequestionsgivenbelow,foursentencesaregiven.",
+      "direction": "Directions (Question Nos. 16 - 20} : In each of the questions given below, four sentences are given.",
       "opts": {
-        "a": "Heisusedtowakingupearlyinthemorning.",
-        "b": "Shewassotiredthatshefellasleepimmediately.",
-        "c": "Thenewswasshockingtoeveryone.",
-        "d": "Neitheroftheboyshavedonetheirhomework."
+        "a": "He is used to waking up early in the morning.",
+        "b": "She was so tired that she fell asleep immediately.",
+        "c": "The news was shocking to everyone.",
+        "d": "Neither of the boys have done their homework."
       },
       "marked": null,
       "cov": {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosetheincorrectsentence:",
+      "q": "Choose the incorrect sentence:",
       "multi": false
     },
     {
@@ -427,12 +427,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-20}:Ineachofthequestionsgivenbelow,foursentencesaregiven.",
+      "direction": "Directions (Question Nos. 16 - 20} : In each of the questions given below, four sentences are given.",
       "opts": {
-        "a": "Theinformationarenotaccurate.",
-        "b": "Thechildcriedbecausehelosthistoy.",
-        "c": "Sheisinterestedinlearningnewlanguages.",
-        "d": "Wehadbetterleavenowifwewanttocatchthetrain. _5-."
+        "a": "The information are not accurate.",
+        "b": "The child cried because he lost his toy.",
+        "c": "She is interested in learning new languages.",
+        "d": "We had better leave now if we want to catch the train. _5- ."
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosetheincorrectsentence:",
+      "q": "Choose the incorrect sentence:",
       "multi": false
     },
     {
@@ -450,12 +450,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:",
+      "direction": "Directions (Question Nos. 21 - 30) : Choose the correct answer from the given options:",
       "opts": {
-        "a": "Heissoweaknottogototheconcerttoday.",
-        "b": "Heissoweakthathecannotgototheconcerttoday.",
-        "c": "Heisnotweakenoughtogototheconcerttoday.",
-        "d": "Hewillnotgototheconcerttoday."
+        "a": "He is so weak not to go to the concert today.",
+        "b": "He is so weak that he cannot go to the concert today.",
+        "c": "Heis not weak enough to go to the concert today.",
+        "d": "He will not go to the concert today."
       },
       "marked": null,
       "cov": {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heistooweaktogototheconcerttoday,(RewriteintoaNegativesentence)",
+      "q": "He is too weak to go to the concert today, (Rewrite into a Negative sentence)",
       "multi": false
     },
     {
@@ -473,12 +473,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:",
+      "direction": "Directions (Question Nos. 21 - 30) : Choose the correct answer from the given options:",
       "opts": {
-        "a": "Thekatanayougavemelastyearwasedgy.",
-        "b": "Thekatanayougavemelastyearwasblunted.",
-        "c": "Thekatanayougavemelastyearwasnew.",
-        "d": "Thekatanayougavemelastyearwassharp."
+        "a": "The katana you gave me last year was edgy.",
+        "b": "The katana you gave me last year was blunted.",
+        "c": "The katana you gave me last year was new.",
+        "d": "The katana you gave me last year was sharp."
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thekatanayougavemelastyearwasnotblunt.(Rewriteintoand4ffirmativesentence)",
+      "q": "The katana you gave me last year was not blunt. (Rewrite into an d4ffirmative sentence)",
       "multi": false
     },
     {
@@ -496,12 +496,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:",
+      "direction": "Directions (Question Nos. 21 - 30) : Choose the correct answer from the given options:",
       "opts": {
-        "a": "Thechildiswiseandsheisyoung.",
-        "b": "Thechildiswiserthananyotherchildofhisage.",
-        "c": "Thechildisreallywisefortheageandtimeperiod.",
-        "d": "Thechildiswiseanditisstillsoyoungforitsage"
+        "a": "The child is wise and she is young.",
+        "b": "The child is wiser than any other child of his age.",
+        "c": "The child is really wise for the age and time period.",
+        "d": "The child is wise and itis still so young for its age"
       },
       "marked": null,
       "cov": {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thechildiswiseforitsage.(ConvertintoaComplexsentencewithoutchangingthemeaning)",
+      "q": "The child is wise for its age. (Convert into a Complex sentence without changing the meaning)",
       "multi": false
     },
     {
@@ -519,12 +519,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:",
+      "direction": "Directions (Question Nos. 21 - 30) : Choose the correct answer from the given options:",
       "opts": {
-        "a": "Theservantswerebeatenmercilessly.",
-        "b": "Theservantswerebeatenwithmercy.",
-        "c": "Theservantswerebeatenmercenarily.",
-        "d": "Theservantswerebeatenmercily."
+        "a": "The servants were beaten mercilessly.",
+        "b": "The servants were beaten with mercy.",
+        "c": "The servants were beaten mercenarily.",
+        "d": "The servants were beaten mercily."
       },
       "marked": null,
       "cov": {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theservantswerebeatenwithoutmercy.(Changetheunderlinedwordsintoanadverb)",
+      "q": "The servants were beaten without mercy. (Change the underlined words into an adverb)",
       "multi": false
     },
     {
@@ -542,12 +542,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:",
+      "direction": "Directions (Question Nos. 21 - 30) : Choose the correct answer from the given options:",
       "opts": {
-        "a": "LhopethatIwillcomealittleearlier.",
-        "b": "Iwish[hadcomealittleearlier.",
-        "c": "Lwonderifihadcomealittleearlier.",
-        "d": "IpraythatIwillcomealittleearlier."
+        "a": "Lhope that I will come a little earlier.",
+        "b": "I wish [had come a little earlier.",
+        "c": "Lwonder ifi had come a little earlier.",
+        "d": "Ipray that I will come a little earlier."
       },
       "marked": null,
       "cov": {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HadIbutcomealittleearlier!(ConvertintoanAssertivesentencewithoutchangingthemeaning)",
+      "q": "Had I but comea  little earlier! (Convert into an Assertive sentence without changing the meaning)",
       "multi": false
     },
     {
@@ -565,12 +565,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:",
+      "direction": "Directions (Question Nos. 21 - 30) : Choose the correct answer from the given options:",
       "opts": {
-        "a": "Whatforasliceofdeliciouspizza!",
-        "b": "Alasforasliceofdeliciouspizza!",
-        "c": "[longforasliceofdeliciouspizza!",
-        "d": "Oh,forasliceofdeliciouspizza! -6-."
+        "a": "What fora slice ofd elicious pizza!",
+        "b": "Alas foraslice of delicious pizza!",
+        "c": "[long fora slice of delicious pizza!",
+        "d": "Oh, fora slice of delicious pizza! -6- ."
       },
       "marked": null,
       "cov": {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ilongforasliceofdeliciouspizza.(ConvertintoanExclamatorysentencewithoutchangingthe meaning)",
+      "q": "Ilong fora slice of delicious pizza. (Convert into an Exclamatory sentence without changing the meaning)",
       "multi": false
     },
     {
@@ -588,12 +588,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:",
+      "direction": "Directions (Question Nos. 21 - 30) : Choose the correct answer from the given options:",
       "opts": {
-        "a": "Zorinisaidthatthedelegatesbrokeintothemuseum",
-        "b": "Zorinisaidthatthedelegateshadbrokenthemuseum",
-        "c": "Zorinisaidthatthedelegateshadbrokenintothemuseum.",
-        "d": "Zorinisaidthatthedelegateshavebrokenintothemuseum"
+        "a": "Zorini said that the delegates broke into the museum",
+        "b": "Zorini said that the delegates had broken the museum",
+        "c": "Zorini said that the delegates had broken into the museum.",
+        "d": "Zorini said that the delegates have broken into the museum"
       },
       "marked": null,
       "cov": {
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Zorinisaid,“Thedelegatesbrokeintothemuseum”(ConvertintoanJndirectSpeech)",
+      "q": "Zorini said, “The delegates broke into the museum” (Convert into an Jndirect Speech)",
       "multi": false
     },
     {
@@ -611,12 +611,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:",
+      "direction": "Directions (Question Nos. 21 - 30) : Choose the correct answer from the given options:",
       "opts": {
-        "a": "ScientistshaddiscoveredtracesoficeonthesurfaceofMars.",
-        "b": "ScientistshavediscoveredtracesoficeonthesurfaceofMars.",
-        "c": "ScientistswillhavediscoveredtracesoficeonthesurfaceofMars.",
-        "d": "ScientistsdiscoveredtracesoficeonthesurfaceofMars. RRRRK"
+        "a": "Scientists had discovered traces of ice on the surface of Mars.",
+        "b": "Scientists have discovered traces of ice on the surface of Mars.",
+        "c": "Scientists will have discovered traces of ice on the surface of Mars.",
+        "d": "Scientists discovered traces of ice on the surface of Mars. RRR RK"
       },
       "marked": null,
       "cov": {
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TracesoficehavebeendiscoveredonthesurfaceofMarsbyscientists.(ConvertintoanActive Voice)",
+      "q": "Traces of ice have been discovered on the surface of Mars by scientists. (Convert into an Active Voice)",
       "multi": false
     }
   ],
@@ -635,19 +635,19 @@
       "n": 2,
       "part": "A",
       "page": 1,
-      "text": "Asaconcernedcitizenofyourcity,writeaformallettertotheSecretary,Excise&Narcotics Departmentrequestingstrictactionagainstillegaldrugactivitiesinyourlocality.Highlighttheincreasing drugabuseproblems,itsimpactonyouth,andsuggestmeasuresforstricterenforcementandpublic awareness.(15)",
+      "text": "As a concerned citizen of your city, write a formal letter to the Secretary, Excise & Narcotics Department requesting strict action against illegal drug activities in your locality. Highlight the increasing drug abuse problems, its impact on youth, and suggest measures for stricter enforcement and public awareness. (15)",
       "subparts": {}
     },
     {
       "n": 3,
       "part": "A",
       "page": 2,
-      "text": "Readthegivenparagraphandanswerthequestionsgivenattheend: The‘LittleTramp’,theunforgettablecharacterCharlieChaplininvented,wasbornpurelyby accidentin1915.WhilerushingtoafilmshootinCalifornia,hegrabbedclothesotherpeoplehadleft behindinthechangingroomandwhenheemerged,hefoundhehadcreatedapersonalityeverybody loved,Alittleguyinabowlerhat,aclose-fittingjacket,acane,out-sizedshoesandabrush-like moustache! Beforelong,Chaplinfoundhimselfastar.Thatpuzzledhim,forhesawhimselfessentiallyasa shyBritishMusicHallcomedian.TheU.S.acknowledgedhimasitskingofsilentfilmcomedy.Soon, sodidcrowdsallovertheworld,Butlifewasn’talwaysalaughforCharlesSpencerChaplin.Both hisparentswereMusicHallartists,whoseparatedwhenCharliewasveryyoung.Hischildhoodwas verysad,forhismotherneverearnedenoughtolookafterCharlieandhisolderbrother,Sydney. Sometimes,Chaplinhadtosleeponthestreetsandforageforfoodinthegarbage. Charlietookhisfirstbowonstagewhenhismothermadeherlastappearance.Ithappened whenhervoicebrokeduringasong.Hersonsteppedonstageandsangapopularsong.That’swhen astarwasborn.Throughalltheseyearsofsuccess,Charlieneverforgothistroubledchildhood.It madehimrecallaChristmaswhenhewasdeniedtwoorangesandhisbagofsweetsforbreakinga ruleattheorphanagehewenttoafterhismother’sdeath.Itwouldhavebrokenhisheart,iftheother childrenhadnotofferedhimashareoftheirs.Spontancously,theadultChaplingiftedtheorphanage withamotionpicturemachineandinsistedthateachchildshouldhaveasmanyorangesandsweets astheypleased. Answerthefollowingquestions:",
+      "text": "Read the given paragraph and answer the questions given at the end: The ‘Little Tramp’, the unforgettable character Charlie Chaplin invented, was born purely by accident in 1915. While rushing to a film shoot in California, he grabbed clothes other people had left behind in the changing room and when he emerged, he found he had created a personality everybody loved, A little guy in a bowler hat, a close-fitting jacket, a cane, out-sized shoes and a brush-like moustache! Before long, Chaplin found himsel fa star. That puzzled him, for he saw himself essentially asa shy British Music Hall comedian. The U.S. acknowledged him as its king of silent film comedy. Soon, so did crowds all over the world, But life wasn’t always a laugh for Charles Spencer Chaplin. Both his parents were Music Hall artists, who separated when Charlie was very young. His childhood was very sad, for his mother never earned enough to look after Charlie and his older brother, Sydney. Sometimes, Chaplin had to sleep on the streets and forage for food in the garbage. Charlie took his first bow on stage when his mother made her last appearance. It happened when her voice broke during a song. Her son stepped on stage and sang a popular song. That’s when a star was born. Through all these years of success, Charlie never forgot his troubled childhood. It made him recall a Christmas when he was denied two oranges and his bag of sweets for breaking a rule at the orphanage he went to after his mother’s death. It would have broken his heart, if the other children had not offered him a share of theirs. Spontancously, the adult Chaplin gifted the orphanage with a motion picture machine and insisted that each child should have as many oranges and sweets as they pleased. Answer the following questions:",
       "subparts": {
-        "a": "WhichunforgettablecharacterdidCharlieChaplininvent?(2)",
-        "b": "DescribethepersonalitycreatedbyCharlie,whomeverybodyloved.(2)",
-        "c": "WhatdidCharliesechimselfas?(2)",
-        "d": "GivetworeasonstoshowthatCharlieChaplin’searlylifewasverysad.—Q) (@)stepped(i)forage (iii)emerged(iv)orphanage @created(ii)wrote (ii)struggled(iv)laughed (i)found@i)shy (ii)silent(iv)puzzled @)troubledGi)share (ii)motion(iv)success (i)insistedGi)offered ii)emerged(iv)broken"
+        "a": "Which unforgettable character did Charlie Chaplin invent? (2)",
+        "b": "Describe the personality created by Charlie, whom everybody loved. (2)",
+        "c": "What did Charlie sec himself as? (2)",
+        "d": "Give two reasons to show that Charlie Chaplin’s early life was very sad. — Q) (@) stepped (i) forage (iii) emerged (iv) orphanage @ created (ii) wrote (ii) struggled (iv) laughed (i) found @i) shy (ii) silent (iv) puzzled @) troubled Gi) share (ii) motion (iv) success (i) insisted Gi) offered ii) emerged (iv) broken"
       }
     }
   ],

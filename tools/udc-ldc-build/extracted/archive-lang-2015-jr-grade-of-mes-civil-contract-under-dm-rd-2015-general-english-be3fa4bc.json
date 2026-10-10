@@ -6,40 +6,19 @@
   "source": "archive-lang-2015-jr-grade-of-mes-civil-contract-under-dm-rd-2015-general-english-be3fa4bc.pdf",
   "sourceSha256": "3c8c877862dcd69d922fffc272666371d01e3f25570db8a15087973bf8159b4e",
   "ocr": true,
-  "count": 41,
+  "count": 40,
   "questions": [
-    {
-      "n": 1,
-      "page": 1,
-      "part": null,
-      "conventional": false,
-      "direction": null,
-      "opts": {
-        "a": "Publichygieneandsanitatio—nanationalissue",
-        "b": "Terrorism—aglobalthreat",
-        "c": "Theroleofthemedia"
-      },
-      "marked": null,
-      "cov": {
-        "a": 0.0,
-        "b": 0.0,
-        "c": 0.0
-      },
-      "ambiguous": [],
-      "q": "Writeanessayonanyoneofthegiventopicsinnotmorethan300words:",
-      "multi": false
-    },
     {
       "n": 1,
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions1-6):Readthefollowingpassagecarefullyandanswerthequestions",
+      "direction": "Directions (Questions 1 - 6): Read the following passage carefully and answer the questions",
       "opts": {
-        "a": ".Toleavethekingdomandsettledowninanotherkingdom.",
-        "b": "Toabstainfromcuttingjokesattheexpenseoftheking.",
-        "c": "Toallowhimtodiethedeathofhischoice.",
-        "d": "Totenderanunconditionalapologytotheking."
+        "a": ". To leave the kingdom and settle down in another kingdom.",
+        "b": "To abstain from cutting jokes at the expense of the king.",
+        "c": "To allow him to die the death of his choice.",
+        "d": "To tender an unconditional apology to the king."
       },
       "marked": null,
       "cov": {
@@ -49,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatofferdidthekingmaketothejester?",
+      "q": "What offer did the king make to the jester?",
       "multi": false
     },
     {
@@ -57,12 +36,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions1-6):Readthefollowingpassagecarefullyandanswerthequestions",
+      "direction": "Directions (Questions 1 - 6): Read the following passage carefully and answer the questions",
       "opts": {
-        "a": "Hewantedtosettleanoldscorewiththeking.",
-        "b": "Hethoughtitwouldbeagoodopportunitytoteachalessontothecourtiers.",
-        "c": "Hewasoffended.",
-        "d": "Hethoughtthekingwouldappreciateit."
+        "a": "He wanted to settle an old score with the king.",
+        "b": "He thought it would be a good opportunity to teach a lesson to the courtiers.",
+        "c": "He was offended.",
+        "d": "He thought the king would appreciate it."
       },
       "marked": null,
       "cov": {
@@ -72,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whydidthejestercutajokeattheexpenseoftheking?",
+      "q": "Why did the jester cut a joke at the expense of the king?",
       "multi": false
     },
     {
@@ -80,12 +59,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions1-6):Readthefollowingpassagecarefullyandanswerthequestions",
+      "direction": "Directions (Questions 1 - 6): Read the following passage carefully and answer the questions",
       "opts": {
-        "a": "Hemadefunofthecourtiers.",
-        "b": "Heentertainedeveryonewithhisintelligentjokes.",
-        "c": "Hewasveryintelligentandcrafty.",
-        "d": "Hewaskindandsympathetictoall."
+        "a": "He made fun of the courtiers.",
+        "b": "He entertained everyone with his intelligent jokes.",
+        "c": "He was very intelligent and crafty.",
+        "d": "He was kind and sympathetic to all."
       },
       "marked": null,
       "cov": {
@@ -95,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whywasthejesterverypopular?",
+      "q": "Why was the jester very popular?",
       "multi": false
     },
     {
@@ -103,12 +82,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions1-6):Readthefollowingpassagecarefullyandanswerthequestions",
+      "direction": "Directions (Questions 1 - 6): Read the following passage carefully and answer the questions",
       "opts": {
-        "a": "Onedaythejesterrefusedtoentertainthecourtiers.",
-        "b": ",Thejesterhumiliatedthecourtiers.",
-        "c": "Thekingwasinawretchedmood.",
-        "d": "Thekingfeltinsultedandoffended."
+        "a": "One day the jester refused to entertain the courtiers.",
+        "b": ", The jester humiliated the courtiers.",
+        "c": "The king was in a wretched mood.",
+        "d": "The king felt insulted and offended."
       },
       "marked": null,
       "cov": {
@@ -118,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whydidthekingbecomeangrywiththejester?",
+      "q": "Why did the king become angry with the jester?",
       "multi": false
     },
     {
@@ -126,12 +105,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions1-6):Readthefollowingpassagecarefullyandanswerthequestions",
+      "direction": "Directions (Questions 1 - 6): Read the following passage carefully and answer the questions",
       "opts": {
-        "a": "Hisdivinepowerofmakinginterestingjokes.",
-        "b": "Hisexcellentmannersandsophistication.",
-        "c": "Hissky-rocketingpopularity.",
-        "d": "_Hispowerfulimaginationandforcefulvocabulary."
+        "a": "His divine power of making interesting jokes.",
+        "b": "His excellent manners and sophistication.",
+        "c": "His sky-rocketing popularity.",
+        "d": "_ His powerful imagination and forceful vocabulary."
       },
       "marked": null,
       "cov": {
@@ -141,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatmadethejesterarrogantandconceited?",
+      "q": "What made the jester arrogant and conceited?",
       "multi": false
     },
     {
@@ -149,12 +128,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions1-6):Readthefollowingpassagecarefullyandanswerthequestions",
+      "direction": "Directions (Questions 1 - 6): Read the following passage carefully and answer the questions",
       "opts": {
-        "a": "Thejesterwaswittyandintelligent.",
-        "b": "Thekingwasangrywiththejokeofthejester.",
-        "c": "Thejesterwasafavouriteofthekingandhiscourt.",
-        "d": "Thejesterexpressedthedesiretodieofoldage."
+        "a": "The jester was witty and intelligent.",
+        "b": "The king was angry with the joke of the jester.",
+        "c": "The jester was a favourite of the king and his court.",
+        "d": "The jester expressed the desire to die of old age."
       },
       "marked": null,
       "cov": {
@@ -164,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingstatementsisnottrueinthecontextofthepassage?",
+      "q": "Which of the following statements is not true in the context of the passage?",
       "multi": false
     },
     {
@@ -172,12 +151,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions7-14):Pickthecorrectmeaningoftheidiomsandphrasesfromthegiven.",
+      "direction": "Directions (Questions 7-14): Pick the correct meaning of the idioms and phrases from the given.",
       "opts": {
-        "a": "Agoodperson",
-        "b": "Atalentedman",
-        "c": "Astrongperson",
-        "d": "Atrustedadviser"
+        "a": "A good person",
+        "b": "A talented man",
+        "c": "Astrong person",
+        "d": "A trusted adviser"
       },
       "marked": null,
       "cov": {
@@ -195,7 +174,7 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions7-14):Pickthecorrectmeaningoftheidiomsandphrasesfromthegiven.",
+      "direction": "Directions (Questions 7-14): Pick the correct meaning of the idioms and phrases from the given.",
       "opts": {
         "a": "Restless",
         "b": "Worthless",
@@ -210,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Illatease",
+      "q": "Ill at ease",
       "multi": false
     },
     {
@@ -218,12 +197,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions7-14):Pickthecorrectmeaningoftheidiomsandphrasesfromthegiven.",
+      "direction": "Directions (Questions 7-14): Pick the correct meaning of the idioms and phrases from the given.",
       "opts": {
         "a": "Apoet",
-        "b": "Adullperson",
-        "c": "Astrangeperson",
-        "d": "Apoorperson"
+        "b": "A dull person",
+        "c": "A strange person",
+        "d": "A poor person"
       },
       "marked": null,
       "cov": {
@@ -233,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ablockhead",
+      "q": "A block head",
       "multi": false
     },
     {
@@ -241,12 +220,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions7-14):Pickthecorrectmeaningoftheidiomsandphrasesfromthegiven.",
+      "direction": "Directions (Questions 7-14): Pick the correct meaning of the idioms and phrases from the given.",
       "opts": {
-        "a": "Thebestpeople",
-        "b": "Therichpeople",
-        "c": "Themerrypeople",
-        "d": "Theoldpeople"
+        "a": "The best people",
+        "b": "The rich people",
+        "c": "The merry people",
+        "d": "The old people"
       },
       "marked": null,
       "cov": {
@@ -256,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thesaltoftheearth",
+      "q": "The salt of the earth",
       "multi": false
     },
     {
@@ -264,12 +243,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions7-14):Pickthecorrectmeaningoftheidiomsandphrasesfromthegiven.",
+      "direction": "Directions (Questions 7-14): Pick the correct meaning of the idioms and phrases from the given.",
       "opts": {
-        "a": "Multiplechoice",
-        "b": "Nochoiceatall",
-        "c": "Selectivechoice",
-        "d": "Onechoice"
+        "a": "Multiple choice",
+        "b": "No choice at all",
+        "c": "Selective choice",
+        "d": "One choice"
       },
       "marked": null,
       "cov": {
@@ -279,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hobson’schoice",
+      "q": "Hobson’s choice",
       "multi": false
     },
     {
@@ -287,12 +266,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions7-14):Pickthecorrectmeaningoftheidiomsandphrasesfromthegiven.",
+      "direction": "Directions (Questions 7-14): Pick the correct meaning of the idioms and phrases from the given.",
       "opts": {
-        "a": "Apunctualperson",
-        "b": "Areliablefellow©",
-        "c": "Anunreliableperson",
-        "d": "Anhonestperson"
+        "a": "A punctual person",
+        "b": "Areliable fellow ©",
+        "c": "Anunreliable person",
+        "d": "Anhonest person"
       },
       "marked": null,
       "cov": {
@@ -302,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Agentlemanatlarge",
+      "q": "A gentleman at large",
       "multi": false
     },
     {
@@ -310,12 +289,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions7-14):Pickthecorrectmeaningoftheidiomsandphrasesfromthegiven.",
+      "direction": "Directions (Questions 7-14): Pick the correct meaning of the idioms and phrases from the given.",
       "opts": {
-        "a": ".Tobekeptwaiting",
-        "b": "Togivecreditto",
-        "c": "Tooffer",
-        "d": "Tounderstand"
+        "a": ". To be kept waiting",
+        "b": "To give credit to",
+        "c": "To offer",
+        "d": "To understand"
       },
       "marked": null,
       "cov": {
@@ -325,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "To.comehometo",
+      "q": "To.come home to",
       "multi": false
     },
     {
@@ -333,12 +312,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions7-14):Pickthecorrectmeaningoftheidiomsandphrasesfromthegiven.",
+      "direction": "Directions (Questions 7-14): Pick the correct meaning of the idioms and phrases from the given.",
       "opts": {
-        "a": "Tofailinone’splanbecauseonegoestothewrongpersonforhelp.",
-        "b": "Tobringone’scommoditiestoamarketwherethereisnodemandforthem.",
-        "c": "Toshowone’stalentbeforeanaudienceincapableofappreciatingthem.",
-        "d": "Toactwhentheopportunityislost."
+        "a": "To fail in one’s plan because one goes to the wrong person for help.",
+        "b": "To bring one’s commodities to a market where there is no demand for them.",
+        "c": "To show one’s talent before an audience incapable of appreciating them.",
+        "d": "To act when the opportunity is lost."
       },
       "marked": null,
       "cov": {
@@ -348,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tobringone’seggtoabadmarket",
+      "q": "To bring one’s egg to a bad market",
       "multi": false
     },
     {
@@ -356,7 +335,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions15—19):Fillintheblankswithcorrectprepositions.",
+      "direction": "Directions (Questions 15 — 19): Fill in the blanks with correct prepositions.",
       "opts": {
         "a": "by",
         "b": "from",
@@ -371,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thiswatchisagiftmyuncle.",
+      "q": "This watch is a gift my uncle.",
       "multi": false
     },
     {
@@ -379,12 +358,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions15—19):Fillintheblankswithcorrectprepositions.",
+      "direction": "Directions (Questions 15 — 19): Fill in the blanks with correct prepositions.",
       "opts": {
         "a": "n",
         "b": "on",
         "c": "of",
-        "d": "_with"
+        "d": "_ with"
       },
       "marked": null,
       "cov": {
@@ -394,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hespokethesubjectfortwohourscontinuously.",
+      "q": "He spoke the subject for two hours continuously.",
       "multi": false
     },
     {
@@ -402,7 +381,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions15—19):Fillintheblankswithcorrectprepositions.",
+      "direction": "Directions (Questions 15 — 19): Fill in the blanks with correct prepositions.",
       "opts": {
         "a": "at",
         "b": "on",
@@ -417,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theyhavequarreledapieceofland.",
+      "q": "They have quarreled apiece of land.",
       "multi": false
     },
     {
@@ -425,11 +404,11 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions15—19):Fillintheblankswithcorrectprepositions.",
+      "direction": "Directions (Questions 15 — 19): Fill in the blanks with correct prepositions.",
       "opts": {
         "a": "for",
         "b": "to",
-        "c": "with@n"
+        "c": "with @ n"
       },
       "marked": null,
       "cov": {
@@ -438,7 +417,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Iwasinvitedteabyhismother.",
+      "q": "I was invited tea by his mother.",
       "multi": false
     },
     {
@@ -446,7 +425,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions15—19):Fillintheblankswithcorrectprepositions.",
+      "direction": "Directions (Questions 15 — 19): Fill in the blanks with correct prepositions.",
       "opts": {
         "a": "to",
         "b": "for",
@@ -461,7 +440,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heisnotanhonestman.Youcannotrelyhim.",
+      "q": "He is not an honest man. You cannot rely him.",
       "multi": false
     },
     {
@@ -469,11 +448,11 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions20—24):Usethecorrectnouns/phrasalverbsfromthealternativesgiven.",
+      "direction": "Directions (Questions 20 — 24): Use the correct nouns/phrasal verbs from the alternatives given.",
       "opts": {
         "a": "none",
         "b": "on",
-        "c": "at@n"
+        "c": "at @ n"
       },
       "marked": null,
       "cov": {
@@ -482,7 +461,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Iwouldnotwanthisshift,hehastowakeup3AMeveryday.",
+      "q": "I would not want his shift, he has to wake up 3 AM everyday.",
       "multi": false
     },
     {
@@ -490,7 +469,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions20—24):Usethecorrectnouns/phrasalverbsfromthealternativesgiven.",
+      "direction": "Directions (Questions 20 — 24): Use the correct nouns/phrasal verbs from the alternatives given.",
       "opts": {
         "a": "for",
         "b": "in",
@@ -505,7 +484,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Idon’thaveanyplansChristmasDaybecausemyentirefamilylivesoverseas.",
+      "q": "Idon’t have any plans Christmas Day because my entire family lives overseas.",
       "multi": false
     },
     {
@@ -513,7 +492,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions20—24):Usethecorrectnouns/phrasalverbsfromthealternativesgiven.",
+      "direction": "Directions (Questions 20 — 24): Use the correct nouns/phrasal verbs from the alternatives given.",
       "opts": {
         "a": "sticks",
         "b": "people",
@@ -528,7 +507,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theboysgatheredabundleof",
+      "q": "The boys gathered a bundle of",
       "multi": false
     },
     {
@@ -536,7 +515,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions20—24):Usethecorrectnouns/phrasalverbsfromthealternativesgiven.",
+      "direction": "Directions (Questions 20 — 24): Use the correct nouns/phrasal verbs from the alternatives given.",
       "opts": {
         "a": "houses",
         "b": "flowers",
@@ -551,7 +530,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Overbytherailroadtracks,therewasaheapof.",
+      "q": "Over by the railroad tracks, there was a heap of.",
       "multi": false
     },
     {
@@ -559,7 +538,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions20—24):Usethecorrectnouns/phrasalverbsfromthealternativesgiven.",
+      "direction": "Directions (Questions 20 — 24): Use the correct nouns/phrasal verbs from the alternatives given.",
       "opts": {
         "a": "players",
         "b": "insects",
@@ -574,7 +553,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inthedistance,theonlookerscouldseeafleetof",
+      "q": "In the distance, the onlookers could see a fleet of",
       "multi": false
     },
     {
@@ -582,12 +561,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions25-32):Analysethewordsunderlined,andpickthecorrectalternative.",
+      "direction": "Directions (Questions 25 - 32): Analyse the words underlined, and pick the correct alternative.",
       "opts": {
-        "a": "Nounclause",
-        "b": "Adjectiveclause",
-        "c": "Principalclause",
-        "d": "Relativeclause"
+        "a": "Noun clause",
+        "b": "Adjective clause",
+        "c": "Principal clause",
+        "d": "Relative clause"
       },
       "marked": null,
       "cov": {
@@ -597,7 +576,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thedogthatbarksdoesnotbite.",
+      "q": "The dog that barks does not bite.",
       "multi": false
     },
     {
@@ -605,12 +584,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions25-32):Analysethewordsunderlined,andpickthecorrectalternative.",
+      "direction": "Directions (Questions 25 - 32): Analyse the words underlined, and pick the correct alternative.",
       "opts": {
-        "a": "Relativeclause",
-        "b": "Adverbclause",
-        "c": "Nounclause",
-        "d": "Adjectiveclause"
+        "a": "Relative clause",
+        "b": "Adverb clause",
+        "c": "Noun clause",
+        "d": "Adjective clause"
       },
       "marked": null,
       "cov": {
@@ -620,7 +599,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Weeatsothatwemaylive",
+      "q": "We eat so that we may live",
       "multi": false
     },
     {
@@ -628,11 +607,11 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions25-32):Analysethewordsunderlined,andpickthecorrectalternative.",
+      "direction": "Directions (Questions 25 - 32): Analyse the words underlined, and pick the correct alternative.",
       "opts": {
-        "a": "Adjectiveclause",
-        "b": "Nounclause",
-        "c": "Relativeclause;(@)Adverbclause"
+        "a": "Adjective clause",
+        "b": "Noun clause",
+        "c": "Relative clause ; (@) Adverb clause"
       },
       "marked": null,
       "cov": {
@@ -641,7 +620,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Pleaseaskhimwhathewants.",
+      "q": "Please ask him what he wants.",
       "multi": false
     },
     {
@@ -649,12 +628,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions25-32):Analysethewordsunderlined,andpickthecorrectalternative.",
+      "direction": "Directions (Questions 25 - 32): Analyse the words underlined, and pick the correct alternative.",
       "opts": {
-        "a": "Nounclause",
-        "b": "Relativeclause",
-        "c": "Adjectiveclause",
-        "d": "Adverbclause"
+        "a": "Noun clause",
+        "b": "Relative clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
       },
       "marked": null,
       "cov": {
@@ -664,7 +643,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thisistheplacewherethemurderwascommitted.",
+      "q": "This is the place where the murder was committed.",
       "multi": false
     },
     {
@@ -672,7 +651,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions25-32):Analysethewordsunderlined,andpickthecorrectalternative.",
+      "direction": "Directions (Questions 25 - 32): Analyse the words underlined, and pick the correct alternative.",
       "opts": {
         "a": "Noun",
         "b": "Verb",
@@ -687,7 +666,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Themeetingcametoacloseat6PM.",
+      "q": "The meeting came to a close at 6 PM.",
       "multi": false
     },
     {
@@ -695,7 +674,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions25-32):Analysethewordsunderlined,andpickthecorrectalternative.",
+      "direction": "Directions (Questions 25 - 32): Analyse the words underlined, and pick the correct alternative.",
       "opts": {
         "a": "Noun",
         "b": "Verb",
@@ -710,7 +689,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Pleaseclosetheshopnow.",
+      "q": "Please close the shop now.",
       "multi": false
     },
     {
@@ -718,7 +697,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions25-32):Analysethewordsunderlined,andpickthecorrectalternative.",
+      "direction": "Directions (Questions 25 - 32): Analyse the words underlined, and pick the correct alternative.",
       "opts": {
         "a": "Noun",
         "b": "Verb",
@@ -733,7 +712,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Wellbegunishalfdone.",
+      "q": "Well begun is half done.",
       "multi": false
     },
     {
@@ -741,7 +720,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions25-32):Analysethewordsunderlined,andpickthecorrectalternative.",
+      "direction": "Directions (Questions 25 - 32): Analyse the words underlined, and pick the correct alternative.",
       "opts": {
         "a": "Noun",
         "b": "Verb",
@@ -756,7 +735,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Youarewellnow.",
+      "q": "You are well now.",
       "multi": false
     },
     {
@@ -764,12 +743,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions33—40):Filluptheblanksinthepassagegivenbelowwiththemost",
+      "direction": "Directions (Questions 33 — 40): Fill up the blanks in the passage given below with the most",
       "opts": {
         "a": "hardly",
         "b": "reluctantly",
         "c": "seldom",
-        "d": "_usually"
+        "d": "_ usually"
       },
       "marked": null,
       "cov": {
@@ -779,7 +758,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)hardly(b)reluctantly",
+      "q": "(a) hardly (b) reluctantly",
       "multi": false
     },
     {
@@ -787,11 +766,11 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions33—40):Filluptheblanksinthepassagegivenbelowwiththemost",
+      "direction": "Directions (Questions 33 — 40): Fill up the blanks in the passage given below with the most",
       "opts": {
-        "a": ".better",
+        "a": ". better",
         "b": "comparable",
-        "c": ".unreasonable",
+        "c": ". unreasonable",
         "d": "proportionate"
       },
       "marked": null,
@@ -802,7 +781,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a).better(b)comparable",
+      "q": "(a) . better (b) comparable",
       "multi": false
     },
     {
@@ -810,7 +789,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions33—40):Filluptheblanksinthepassagegivenbelowwiththemost",
+      "direction": "Directions (Questions 33 — 40): Fill up the blanks in the passage given below with the most",
       "opts": {
         "a": "did",
         "b": "could",
@@ -825,7 +804,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)did(b)could",
+      "q": "(a) did (b) could",
       "multi": false
     },
     {
@@ -833,7 +812,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions33—40):Filluptheblanksinthepassagegivenbelowwiththemost",
+      "direction": "Directions (Questions 33 — 40): Fill up the blanks in the passage given below with the most",
       "opts": {
         "a": "local",
         "b": "several",
@@ -848,7 +827,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)local(b)several",
+      "q": "(a) local (b) several",
       "multi": false
     },
     {
@@ -856,7 +835,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions33—40):Filluptheblanksinthepassagegivenbelowwiththemost",
+      "direction": "Directions (Questions 33 — 40): Fill up the blanks in the passage given below with the most",
       "opts": {
         "a": "willing",
         "b": "bound",
@@ -871,7 +850,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)willing(b)bound",
+      "q": "(a) willing (b) bound",
       "multi": false
     },
     {
@@ -879,7 +858,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions33—40):Filluptheblanksinthepassagegivenbelowwiththemost",
+      "direction": "Directions (Questions 33 — 40): Fill up the blanks in the passage given below with the most",
       "opts": {
         "a": "entertain",
         "b": "retain",
@@ -894,7 +873,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)entertain(b)retain",
+      "q": "(a) entertain (b) retain",
       "multi": false
     },
     {
@@ -902,7 +881,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions33—40):Filluptheblanksinthepassagegivenbelowwiththemost",
+      "direction": "Directions (Questions 33 — 40): Fill up the blanks in the passage given below with the most",
       "opts": {
         "a": "imitate",
         "b": "protest",
@@ -917,7 +896,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)imitate(b)protest",
+      "q": "(a) imitate (b) protest",
       "multi": false
     },
     {
@@ -925,12 +904,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions33—40):Filluptheblanksinthepassagegivenbelowwiththemost",
+      "direction": "Directions (Questions 33 — 40): Fill up the blanks in the passage given below with the most",
       "opts": {
         "a": "hardly",
         "b": "considerably",
         "c": "artificially",
-        "d": "unreasonably eRKRRR"
+        "d": "unreasonably eR KR RR"
       },
       "marked": null,
       "cov": {
@@ -940,14 +919,27 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)hardly(b)considerably",
+      "q": "(a) hardly (b) considerably",
       "multi": false
     }
   ],
-  "written": [],
-  "notes": [],
+  "written": [
+    {
+      "n": 1,
+      "part": null,
+      "page": 1,
+      "text": "Write an essay on any one of the given topics in not more than 300 words:",
+      "subparts": {
+        "a": "Public hygiene and sanitatio—n  a national issue",
+        "b": "Terrorism —a global threat",
+        "c": "The role of the media"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part None): conventional section, 3 sub-part(s) - not an MCQ"
+  ],
   "gaps": {
-    "-": [],
     "B": []
   },
   "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/be3fa4bc5b3704a31048339adf9a1929/ae-civil-jrgrade-of-mes-under-dmr-2015-general-english.pdf",

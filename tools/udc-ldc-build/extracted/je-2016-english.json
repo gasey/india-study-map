@@ -13,11 +13,11 @@
       "page": 1,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions1-8):Fillintheblankswiththeidioms/Phrasesoutofthegivenoptions:",
+      "direction": "Directions (Questions 1-8): Fill in the blanks with the idioms / Phrases out of the given options:",
       "opts": {
-        "a": "blowover",
-        "b": "blowdown",
-        "c": "blowaway",
+        "a": "blow over",
+        "b": "blow down",
+        "c": "blow away",
         "d": "blowup"
       },
       "marked": null,
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Don’tworry,thepresentdisturbancewillsoon........",
+      "q": "Don’t worry, the present disturbance will soon ........",
       "multi": false
     },
     {
@@ -36,12 +36,12 @@
       "page": 1,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions1-8):Fillintheblankswiththeidioms/Phrasesoutofthegivenoptions:",
+      "direction": "Directions (Questions 1-8): Fill in the blanks with the idioms / Phrases out of the given options:",
       "opts": {
-        "a": "eyetoeye",
-        "b": "eyeforaneye",
+        "a": "eye to eye",
+        "b": "eye for an eye",
         "c": "Itol",
-        "d": "facetoface"
+        "d": "face to face"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theyfinallysaw.............andclosedthebusinessdeal.",
+      "q": "They finally saw.............and closed the business deal.",
       "multi": false
     },
     {
@@ -59,12 +59,12 @@
       "page": 1,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions1-8):Fillintheblankswiththeidioms/Phrasesoutofthegivenoptions:",
+      "direction": "Directions (Questions 1-8): Fill in the blanks with the idioms / Phrases out of the given options:",
       "opts": {
         "a": "over",
         "b": "almost",
-        "c": "wrongside",
-        "d": "rightside"
+        "c": "wrong side",
+        "d": "right side"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thebeautifulmodelissurprisinglyonthe.........offorty.",
+      "q": "The beautiful model is surprisingly on the ......... of forty.",
       "multi": false
     },
     {
@@ -82,12 +82,12 @@
       "page": 1,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions1-8):Fillintheblankswiththeidioms/Phrasesoutofthegivenoptions:",
+      "direction": "Directions (Questions 1-8): Fill in the blanks with the idioms / Phrases out of the given options:",
       "opts": {
-        "a": "nowandthen",
+        "a": "now and then",
         "b": "onceinabluemoon",
-        "c": "safeandsound",
-        "d": "atthedropofahat -2-‘"
+        "c": "safe and sound",
+        "d": "atthe drop ofa hat -2- ‘"
       },
       "marked": null,
       "cov": {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OuroverbearingbossexpectsustoshowUPSviactictss",
+      "q": "Our overbearing boss expects us to show UP Sviactictss",
       "multi": false
     },
     {
@@ -105,12 +105,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions1-8):Fillintheblankswiththeidioms/Phrasesoutofthegivenoptions:",
+      "direction": "Directions (Questions 1-8): Fill in the blanks with the idioms / Phrases out of the given options:",
       "opts": {
-        "a": "thinkonhisfeet",
-        "b": "standonhisfeet",
-        "c": "workonhisfeet",
-        "d": "noneofthese"
+        "a": "think on his feet",
+        "b": "stand on his feet",
+        "c": "work on his feet",
+        "d": "none of these"
       },
       "marked": null,
       "cov": {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Agoodsalesmanmustbeableto............toclosethedeal.",
+      "q": "A good salesman must be able to............ to close the deal.",
       "multi": false
     },
     {
@@ -128,12 +128,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions1-8):Fillintheblankswiththeidioms/Phrasesoutofthegivenoptions:",
+      "direction": "Directions (Questions 1-8): Fill in the blanks with the idioms / Phrases out of the given options:",
       "opts": {
-        "a": "awhiteelephant",
+        "a": "awhite elephant",
         "b": "anarmandaleg",
-        "c": "astorminateacup",
-        "d": "alphaandomega"
+        "c": "astorm ina teacup",
+        "d": "alpha and omega"
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thisshowisexcellentbuttheticketscost..........",
+      "q": "This show is excellent but the tickets cost..........",
       "multi": false
     },
     {
@@ -151,12 +151,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions1-8):Fillintheblankswiththeidioms/Phrasesoutofthegivenoptions:",
+      "direction": "Directions (Questions 1-8): Fill in the blanks with the idioms / Phrases out of the given options:",
       "opts": {
         "a": "inaminute",
         "b": "immediately",
-        "c": "intheblinkofaneye",
-        "d": "infrontofme"
+        "c": "inthe blink ofan eye",
+        "d": "in front ofme"
       },
       "marked": null,
       "cov": {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thethiefdisappeared.............",
+      "q": "The thief disappeared .............",
       "multi": false
     },
     {
@@ -174,12 +174,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions1-8):Fillintheblankswiththeidioms/Phrasesoutofthegivenoptions:",
+      "direction": "Directions (Questions 1-8): Fill in the blanks with the idioms / Phrases out of the given options:",
       "opts": {
-        "a": "longandshort",
-        "b": "insandouts",
-        "c": "allandsundry",
-        "d": "rightandwrong"
+        "a": "long and short",
+        "b": "ins and outs",
+        "c": "all and sundry",
+        "d": "right and wrong"
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Youmustknowthe.........ofajobbeforeyoutakeitup.",
+      "q": "You must know the.........ofa job before you take it up.",
       "multi": false
     },
     {
@@ -197,12 +197,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions9-16):choosethecorrectmeaningoftheidiomsandphrasesfromtheoptions",
+      "direction": "Directions (Questions 9-16): choose the correct meaning of the idioms and phrases from the options",
       "opts": {
-        "a": "overlyoptimistic",
-        "b": "likelytohappen",
-        "c": "completelydestroyed",
-        "d": "highlyunlikelytohappen"
+        "a": "overly optimistic",
+        "b": "likely to happen",
+        "c": "completely destroyed",
+        "d": "highly unlikely to happen"
       },
       "marked": null,
       "cov": {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whenpigsfly",
+      "q": "When pigs fly",
       "multi": false
     },
     {
@@ -220,12 +220,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions9-16):choosethecorrectmeaningoftheidiomsandphrasesfromtheoptions",
+      "direction": "Directions (Questions 9-16): choose the correct meaning of the idioms and phrases from the options",
       "opts": {
-        "a": "excitedandhappy",
-        "b": "funnyandhilarious",
-        "c": "feminineandpretty",
-        "d": "feminineandfunny"
+        "a": "excited and happy",
+        "b": "funny and hilarious",
+        "c": "feminine and pretty",
+        "d": "feminine and funny"
       },
       "marked": null,
       "cov": {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tickledpink",
+      "q": "Tickled pink",
       "multi": false
     },
     {
@@ -243,12 +243,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions9-16):choosethecorrectmeaningoftheidiomsandphrasesfromtheoptions",
+      "direction": "Directions (Questions 9-16): choose the correct meaning of the idioms and phrases from the options",
       "opts": {
-        "a": "tobeagoodsalesman",
-        "b": "tobemisunderstood",
-        "c": "tobetraysomeone",
-        "d": "tomisunderstand"
+        "a": "to bea good salesman",
+        "b": "tobe misunderstood",
+        "c": "to betray someone",
+        "d": "to misunderstand"
       },
       "marked": null,
       "cov": {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tosellsomeoneout",
+      "q": "To sell someone out",
       "multi": false
     },
     {
@@ -266,11 +266,11 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions9-16):choosethecorrectmeaningoftheidiomsandphrasesfromtheoptions",
+      "direction": "Directions (Questions 9-16): choose the correct meaning of the idioms and phrases from the options",
       "opts": {
-        "a": "feelunwanted",
+        "a": "feel unwanted",
         "b": "angry",
-        "c": "feelsleepy",
+        "c": "feel sleepy",
         "d": "feelill"
       },
       "marked": null,
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Feelundertheweather",
+      "q": "Feel under the weather",
       "multi": false
     },
     {
@@ -289,12 +289,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions9-16):choosethecorrectmeaningoftheidiomsandphrasesfromtheoptions",
+      "direction": "Directions (Questions 9-16): choose the correct meaning of the idioms and phrases from the options",
       "opts": {
-        "a": "totellafancifulstory",
-        "b": "tobetalented",
-        "c": "tobewatchful",
-        "d": "tobeoldfashioned"
+        "a": "to tella fanciful story",
+        "b": "to be talented",
+        "c": "tobe watchful",
+        "d": "to be old fashioned"
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Spinayarn",
+      "q": "Spina yarn",
       "multi": false
     },
     {
@@ -312,12 +312,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions9-16):choosethecorrectmeaningoftheidiomsandphrasesfromtheoptions",
+      "direction": "Directions (Questions 9-16): choose the correct meaning of the idioms and phrases from the options",
       "opts": {
-        "a": "totakeseriously",
-        "b": "totakewithsomereservation",
-        "c": "beingdoubtful",
-        "d": "beingcautious"
+        "a": "to take seriously",
+        "b": "to take with some reservation",
+        "c": "being doubtful",
+        "d": "being cautious"
       },
       "marked": null,
       "cov": {
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Totakewithagrainofsalt",
+      "q": "To take with a grain ofs alt",
       "multi": false
     },
     {
@@ -335,12 +335,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions9-16):choosethecorrectmeaningoftheidiomsandphrasesfromtheoptions",
+      "direction": "Directions (Questions 9-16): choose the correct meaning of the idioms and phrases from the options",
       "opts": {
-        "a": "tobeinthemiddleofthesea",
-        "b": "toloosepatience",
-        "c": "togetintotrouble",
-        "d": "tobeofhottemperament"
+        "a": "to bein the middle ofthe sea",
+        "b": "to loose patience",
+        "c": "to get into trouble",
+        "d": "to be ofhot temperament"
       },
       "marked": null,
       "cov": {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Togetintohotwaters",
+      "q": "To get into hot waters",
       "multi": false
     },
     {
@@ -358,12 +358,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions9-16):choosethecorrectmeaningoftheidiomsandphrasesfromtheoptions",
+      "direction": "Directions (Questions 9-16): choose the correct meaning of the idioms and phrases from the options",
       "opts": {
-        "a": "toreadcautiously",
-        "b": "tounderstandthehiddenmeaning",
-        "c": "toreadthefineprint",
-        "d": "toreadaloud"
+        "a": "toread cautiously",
+        "b": "to understand the hidden meaning",
+        "c": "toread the fine print",
+        "d": "to read aloud"
       },
       "marked": null,
       "cov": {
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Toreadbetweenthelines",
+      "q": "To read between the lines",
       "multi": false
     },
     {
@@ -381,12 +381,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directionsforthefollowing2(two)passages:Readthegivepassagescarefullyandanswerthe",
+      "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the",
       "opts": {
-        "a": "Whathistroublewas",
-        "b": "Whathisnamewas",
-        "c": "Whathisbusinesswas",
-        "d": "Whathisintentionwas"
+        "a": "What his trouble was",
+        "b": "What his name was",
+        "c": "What his business was",
+        "d": "What his intention was"
       },
       "marked": null,
       "cov": {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theprofessionalnoseandthroatspecialistaskedtheauthor",
+      "q": "The professional nose and throat specialist asked the author",
       "multi": false
     },
     {
@@ -404,12 +404,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directionsforthefollowing2(two)passages:Readthegivepassagescarefullyandanswerthe",
+      "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the",
       "opts": {
-        "a": "Withrespectforhisprofessionalcompetence",
-        "b": "Withafeelingofcontempttowardsthespecialist",
-        "c": "Withadmirationfortheprofessional",
-        "d": "Withafeelingofindifferencetowardstheprofessional"
+        "a": "With respect for his professional competence",
+        "b": "With a feeling of contempt towards the specialist",
+        "c": "With admiration for the professional",
+        "d": "With a feeling of indifference towards the professional"
       },
       "marked": null,
       "cov": {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theauthorwalkedoutofthespecialist’soffice",
+      "q": "The author walked out of the specialist’s office",
       "multi": false
     },
     {
@@ -427,12 +427,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directionsforthefollowing2(two)passages:Readthegivepassagescarefullyandanswerthe",
+      "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the",
       "opts": {
-        "a": "Cruelandvicious",
-        "b": "Bluntandarrogant",
-        "c": "Selfishandpossessive",
-        "d": "Proudandassertive"
+        "a": "Cruel and vicious",
+        "b": "Bluntand arrogant",
+        "c": "Selfish and possessive",
+        "d": "Proud and assertive"
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thephrase“grabbing,self-seeking”means",
+      "q": "The phrase “grabbing, self-seeking” means",
       "multi": false
     },
     {
@@ -450,12 +450,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directionsforthefollowing2(two)passages:Readthegivepassagescarefullyandanswerthe",
+      "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the",
       "opts": {
-        "a": "Thenatureoftheauthor’sillness",
-        "b": "Inhowmuchhecouldhelptheauthor",
-        "c": "Inhowmuchhecouldgetoutoftheauthor",
-        "d": "Inhowquicklyhecouldcuretheauthor’smalady a."
+        "a": "The nature of the author’s illness",
+        "b": "In how much he could help the author",
+        "c": "Inhow much he could get out of the author",
+        "d": "In how quickly he could cure the author’s malady a ."
       },
       "marked": null,
       "cov": {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thechiefconcernofthespecialistlayin:",
+      "q": "The chief concern oft he specialist lay in:",
       "multi": false
     },
     {
@@ -473,12 +473,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directionsforthefollowing2(two)passages:Readthegivepassagescarefullyandanswerthe",
+      "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the",
       "opts": {
-        "a": "Honestalwaysgetssuccess",
-        "b": "Selflessreachesthetopofhisprofession",
-        "c": "Greedyfailsmiserablyinlife",
-        "d": "Abletothinkfromthepointofviewofothersneednothaveanyworry"
+        "a": "Honest always gets success",
+        "b": "Selfless reaches the top of his profession",
+        "c": "Greedy fails miserably in life",
+        "d": "Able to think from the point of view of others need not have any worry"
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OwenD.Youngsaidthemanwhois",
+      "q": "Owen D. Young said the man who is",
       "multi": false
     },
     {
@@ -496,12 +496,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directionsforthefollowing2(two)passages:Readthegivepassagescarefullyandanswerthe",
+      "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the",
       "opts": {
         "a": "asycophant",
-        "b": "solelyconcernedwithprofits",
-        "c": "courteousandhumble",
-        "d": "competitive AteamofCaliforniaresearchersfromintensiveandprolongedstudyhavepropoundedthat"
+        "b": "solely concerned with profits",
+        "c": "courteous and humble",
+        "d": "competitive A team of California researchers from intensive and prolonged study have propounded that"
       },
       "marked": null,
       "cov": {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aprofessionalshouldbe",
+      "q": "A professional should be",
       "multi": false
     },
     {
@@ -519,12 +519,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directionsforthefollowing2(two)passages:Readthegivepassagescarefullyandanswerthe",
+      "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the",
       "opts": {
-        "a": "10yearsforamanand5yearsforawoman",
-        "b": "15yearsforamanand7yearsforawoman",
-        "c": "11yearsforamanand5yearsforawoman",
-        "d": "Noneofthese"
+        "a": "10 years for aman and 5 years for a woman",
+        "b": "15 years for a man and 7 years for a woman",
+        "c": "11 years for aman and 5 years for a woman",
+        "d": "None of these"
       },
       "marked": null,
       "cov": {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Howmanyyearsdocleanlivingandhealthyhabitsaddtoalifeofawomanandmanrespectively?",
+      "q": "How many years do clean living and healthy habits add to a life of a woman and man respectively?",
       "multi": false
     },
     {
@@ -542,12 +542,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directionsforthefollowing2(two)passages:Readthegivepassagescarefullyandanswerthe",
+      "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the",
       "opts": {
-        "a": "Cancerofthethroat",
-        "b": "Canceroftheliver",
-        "c": "Cancerofthethroatandlungs",
-        "d": "Braincancer"
+        "a": "Cancer of the throat",
+        "b": "Cancer of the liver",
+        "c": "Cancer of the throat and lungs",
+        "d": "Brain cancer"
       },
       "marked": null,
       "cov": {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatdoessmokingleadto?",
+      "q": "What does smoking lead to?",
       "multi": false
     },
     {
@@ -565,12 +565,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directionsforthefollowing2(two)passages:Readthegivepassagescarefullyandanswerthe",
+      "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the",
       "opts": {
-        "a": "Gettingeighthourssleepnightly",
-        "b": "Eatingregularlyandnotbetweenmeals",
-        "c": "Drinkingalcoholicbeverages",
-        "d": "Notsmokingordrinking"
+        "a": "Getting eight hours sleep nightly",
+        "b": "Eating regularly and not between meals",
+        "c": "Drinking alcoholic beverages",
+        "d": "Not smoking or drinking"
       },
       "marked": null,
       "cov": {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichamongstthebelowmentionedisnotoneofthesevengoldenrulesforbetterhealth?",
+      "q": "Which amongst the below mentioned is not one of the seven golden rules for better health?",
       "multi": false
     },
     {
@@ -588,9 +588,9 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directionsforthefollowing2(two)passages:Readthegivepassagescarefullyandanswerthe",
+      "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the",
       "opts": {
-        "a": "Bloodvesselslooseelasticity",
+        "a": "Blood vessels loose elasticity",
         "b": "Rigidity",
         "c": "Suppleness",
         "d": "Hallucinations"
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatdoeslackofexerciseresultin?",
+      "q": "What does lack of exercise result in?",
       "multi": false
     },
     {
@@ -611,7 +611,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directionsforthefollowing2(two)passages:Readthegivepassagescarefullyandanswerthe",
+      "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the",
       "opts": {
         "a": "Weak",
         "b": "Elderly",
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Sedentarymeans",
+      "q": "Sedentary means",
       "multi": false
     },
     {
@@ -634,7 +634,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directionsforthefollowing2(two)passages:Readthegivepassagescarefullyandanswerthe",
+      "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the",
       "opts": {
         "a": "sensitizes",
         "b": "enervates",
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Eighthoursofsleepisgoodforusasit.............US.",
+      "q": "Eight hours ofs leep is good for us as it ............. US.",
       "multi": false
     },
     {
@@ -657,7 +657,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions29-35)Filltheblankswiththecorrectphrasalverbs/prepositionsfromthe",
+      "direction": "Directions (Questions 29-35) Fill the blanks with the correct phrasal verbs / prepositions from the",
       "opts": {
         "a": "for",
         "b": "down",
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ican’tbelieveyoufell...........hislies.",
+      "q": "Ican’t believe you fell........... his lies.",
       "multi": false
     },
     {
@@ -680,7 +680,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions29-35)Filltheblankswiththecorrectphrasalverbs/prepositionsfromthe",
+      "direction": "Directions (Questions 29-35) Fill the blanks with the correct phrasal verbs / prepositions from the",
       "opts": {
         "a": "over",
         "b": "back",
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifyoudon’tmakeitasanactor,youcanalwaysfall............onyoureducation.",
+      "q": "If you don’t make it as an actor, you can always fall ............ on your education.",
       "multi": false
     },
     {
@@ -703,7 +703,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions29-35)Filltheblankswiththecorrectphrasalverbs/prepositionsfromthe",
+      "direction": "Directions (Questions 29-35) Fill the blanks with the correct phrasal verbs / prepositions from the",
       "opts": {
         "a": "of",
         "b": "down",
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thethievespulled.............theheistperfectly.",
+      "q": "The thieves pulled ............. the heist perfectly.",
       "multi": false
     },
     {
@@ -726,7 +726,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions29-35)Filltheblankswiththecorrectphrasalverbs/prepositionsfromthe",
+      "direction": "Directions (Questions 29-35) Fill the blanks with the correct phrasal verbs / prepositions from the",
       "opts": {
         "a": "onto",
         "b": "up",
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iwascompletelyworn...............afterourhike.",
+      "q": "Iwas completely worn............... after our hike.",
       "multi": false
     },
     {
@@ -749,7 +749,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions29-35)Filltheblankswiththecorrectphrasalverbs/prepositionsfromthe",
+      "direction": "Directions (Questions 29-35) Fill the blanks with the correct phrasal verbs / prepositions from the",
       "opts": {
         "a": "on",
         "b": "for",
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Citylifeisstartingtogrow...........me.",
+      "q": "City life is starting to grow ...........me.",
       "multi": false
     },
     {
@@ -772,7 +772,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions29-35)Filltheblankswiththecorrectphrasalverbs/prepositionsfromthe",
+      "direction": "Directions (Questions 29-35) Fill the blanks with the correct phrasal verbs / prepositions from the",
       "opts": {
         "a": "of",
         "b": "off",
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theflowersgive...........awonderfulsmellthatscentstheentiregarden.",
+      "q": "The flowers give ...........a wonderful smell that scents the entire garden.",
       "multi": false
     },
     {
@@ -795,12 +795,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions29-35)Filltheblankswiththecorrectphrasalverbs/prepositionsfromthe",
+      "direction": "Directions (Questions 29-35) Fill the blanks with the correct phrasal verbs / prepositions from the",
       "opts": {
         "a": "into",
         "b": "across",
         "c": "under",
-        "d": "over -6-s"
+        "d": "over -6- s"
       },
       "marked": null,
       "cov": {
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Jamescame............alotofmoneywhenhisgrandfatherpassedaway.",
+      "q": "James came............ alot of money when his grandfather passed away.",
       "multi": false
     },
     {
@@ -818,7 +818,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions36-42)Choosethecorrectanswerforeachgapfromtheadjectives,adverbsand",
+      "direction": "Directions (Questions 36-42) Choose the correct answer for each gap from the adjectives, adverbs and",
       "opts": {
         "a": "confident",
         "b": "confidently",
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Jackspoke..............totheaudienceurgingthemtoelecthim.",
+      "q": "Jack spoke .............. to the audience urging them to elect him.",
       "multi": false
     },
     {
@@ -841,12 +841,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions36-42)Choosethecorrectanswerforeachgapfromtheadjectives,adverbsand",
+      "direction": "Directions (Questions 36-42) Choose the correct answer for each gap from the adjectives, adverbs and",
       "opts": {
         "a": "good",
         "b": "well",
         "c": "better",
-        "d": "_best"
+        "d": "_ best"
       },
       "marked": null,
       "cov": {
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heknewhehada............chanceofwinningtheelection.",
+      "q": "He knew he hada............ chance of winning the election.",
       "multi": false
     },
     {
@@ -864,7 +864,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions36-42)Choosethecorrectanswerforeachgapfromtheadjectives,adverbsand",
+      "direction": "Directions (Questions 36-42) Choose the correct answer for each gap from the adjectives, adverbs and",
       "opts": {
         "a": "uncomfortably",
         "b": "comfortably",
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Mariaseemedmore...............thanrelaxedatthepicnic.",
+      "q": "Maria seemed more ............... than relaxed at the picnic.",
       "multi": false
     },
     {
@@ -887,7 +887,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions36-42)Choosethecorrectanswerforeachgapfromtheadjectives,adverbsand",
+      "direction": "Directions (Questions 36-42) Choose the correct answer for each gap from the adjectives, adverbs and",
       "opts": {
         "a": "complete",
         "b": "completed",
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thisairline’s.................lackoforganisationisastounding.",
+      "q": "This airline’s ................. lack of organisation is astounding.",
       "multi": false
     },
     {
@@ -910,7 +910,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions36-42)Choosethecorrectanswerforeachgapfromtheadjectives,adverbsand",
+      "direction": "Directions (Questions 36-42) Choose the correct answer for each gap from the adjectives, adverbs and",
       "opts": {
         "a": "good",
         "b": "better",
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Timis.............knownforhissenseofhumour.",
+      "q": "Timis............. known for his sense of humour.",
       "multi": false
     },
     {
@@ -933,7 +933,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions36-42)Choosethecorrectanswerforeachgapfromtheadjectives,adverbsand",
+      "direction": "Directions (Questions 36-42) Choose the correct answer for each gap from the adjectives, adverbs and",
       "opts": {
         "a": "usually",
         "b": "seldom",
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iwenttoarestaurantlastweek,but1.............eatathome.",
+      "q": "I went to a restaurant last week, but1............. eat at home.",
       "multi": false
     },
     {
@@ -956,7 +956,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions36-42)Choosethecorrectanswerforeachgapfromtheadjectives,adverbsand",
+      "direction": "Directions (Questions 36-42) Choose the correct answer for each gap from the adjectives, adverbs and",
       "opts": {
         "a": "rarely",
         "b": "usually",
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "L..........000004.drivetoworkbecauseofthetrafficjams.",
+      "q": "L..........000004. drive to work because of the traffic jams.",
       "multi": false
     },
     {
@@ -979,12 +979,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions49-54)Pickthecorrectclauseofthewordsunderlinedinthegivensentences.",
+      "direction": "Directions (Questions 49- 54) Pick the correct clause of the words underlined in the given sentences.",
       "opts": {
-        "a": "nounclause",
-        "b": "adverbclause",
-        "c": "adjectiveclause",
-        "d": "independentclause"
+        "a": "noun clause",
+        "b": "adverb clause",
+        "c": "adjective clause",
+        "d": "independent clause"
       },
       "marked": null,
       "cov": {
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifyoupayyourbills,youwillhaveagoodcreditscore.",
+      "q": "If you pay your bills, you will have a good credit score.",
       "multi": false
     },
     {
@@ -1002,12 +1002,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions49-54)Pickthecorrectclauseofthewordsunderlinedinthegivensentences.",
+      "direction": "Directions (Questions 49- 54) Pick the correct clause of the words underlined in the given sentences.",
       "opts": {
-        "a": "nounclause",
-        "b": "adverbclause",
-        "c": "adjectiveclause",
-        "d": "independentclause"
+        "a": "noun clause",
+        "b": "adverb clause",
+        "c": "adjective clause",
+        "d": "independent clause"
       },
       "marked": null,
       "cov": {
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Fruitthatisgrownorganicalliysexpensive.",
+      "q": "Fruit that is grown organicalliys  expensive.",
       "multi": false
     },
     {
@@ -1025,12 +1025,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions49-54)Pickthecorrectclauseofthewordsunderlinedinthegivensentences.",
+      "direction": "Directions (Questions 49- 54) Pick the correct clause of the words underlined in the given sentences.",
       "opts": {
-        "a": "nounclause",
-        "b": "adverbclause",
-        "c": "adjectiveclause",
-        "d": "independentclause"
+        "a": "noun clause",
+        "b": "adverb clause",
+        "c": "adjective clause",
+        "d": "independent clause"
       },
       "marked": null,
       "cov": {
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thatheisacheatisawellknownfact.",
+      "q": "That he is a cheat is a well known fact.",
       "multi": false
     },
     {
@@ -1048,12 +1048,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions49-54)Pickthecorrectclauseofthewordsunderlinedinthegivensentences.",
+      "direction": "Directions (Questions 49- 54) Pick the correct clause of the words underlined in the given sentences.",
       "opts": {
-        "a": "nounclause",
-        "b": "adverbclause",
-        "c": "adjectiveclause",
-        "d": "independentclause"
+        "a": "noun clause",
+        "b": "adverb clause",
+        "c": "adjective clause",
+        "d": "independent clause"
       },
       "marked": null,
       "cov": {
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Markkepthisscheduleopenincaseofemergencies.",
+      "q": "Mark kept his schedule open in case of emergencies.",
       "multi": false
     },
     {
@@ -1071,12 +1071,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions49-54)Pickthecorrectclauseofthewordsunderlinedinthegivensentences.",
+      "direction": "Directions (Questions 49- 54) Pick the correct clause of the words underlined in the given sentences.",
       "opts": {
-        "a": "nounclause",
-        "b": "adverbclause",
-        "c": "adjectiveclause",
-        "d": "independentclause"
+        "a": "noun clause",
+        "b": "adverb clause",
+        "c": "adjective clause",
+        "d": "independent clause"
       },
       "marked": null,
       "cov": {
@@ -1086,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheyallsaidthatIwouldnotsucceed.",
+      "q": "They all said that I would not succeed.",
       "multi": false
     },
     {
@@ -1094,12 +1094,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions49-54)Pickthecorrectclauseofthewordsunderlinedinthegivensentences.",
+      "direction": "Directions (Questions 49- 54) Pick the correct clause of the words underlined in the given sentences.",
       "opts": {
-        "a": "nounclause",
-        "b": "adverbclause",
-        "c": "adjectiveclause",
-        "d": "independentclause"
+        "a": "noun clause",
+        "b": "adverb clause",
+        "c": "adjective clause",
+        "d": "independent clause"
       },
       "marked": null,
       "cov": {
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Pizza,whichmostpeopleloveisnotveryhealthy.",
+      "q": "Pizza, which most people love is not very healthy.",
       "multi": false
     },
     {
@@ -1117,7 +1117,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions60-64)Identifythecorrecttypeofsentencesfromtheoptionsgivenbelow:",
+      "direction": "Directions (Questions 60-64) Identify the correct type of sentences from the options given below:",
       "opts": {
         "a": "Exclamatory",
         "b": "Imperative",
@@ -1132,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Drivetotheroundaboutandthenturnleft:",
+      "q": "Drive to the roundabout and then turn left:",
       "multi": false
     },
     {
@@ -1140,7 +1140,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions60-64)Identifythecorrecttypeofsentencesfromtheoptionsgivenbelow:",
+      "direction": "Directions (Questions 60-64) Identify the correct type of sentences from the options given below:",
       "opts": {
         "a": "Exclamatory",
         "b": "Imperative",
@@ -1155,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Intheshoppingmall,ImetafriendIhadn’tseenforyears.",
+      "q": "In the shopping mall, I met a friend I hadn’t seen for years.",
       "multi": false
     },
     {
@@ -1163,7 +1163,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions60-64)Identifythecorrecttypeofsentencesfromtheoptionsgivenbelow:",
+      "direction": "Directions (Questions 60-64) Identify the correct type of sentences from the options given below:",
       "opts": {
         "a": "Interrogative",
         "b": "Affirmative",
@@ -1178,7 +1178,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hasanyoneseenmytorch?",
+      "q": "Has anyone seen my torch?",
       "multi": false
     },
     {
@@ -1186,7 +1186,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions60-64)Identifythecorrecttypeofsentencesfromtheoptionsgivenbelow:",
+      "direction": "Directions (Questions 60-64) Identify the correct type of sentences from the options given below:",
       "opts": {
         "a": "Exclamatory",
         "b": "Affirmative",
@@ -1201,7 +1201,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "SanClementeisanIslandoffthecoastofSanDiego.",
+      "q": "San Clemente is an Island off the coast of San Diego.",
       "multi": false
     },
     {
@@ -1209,7 +1209,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions60-64)Identifythecorrecttypeofsentencesfromtheoptionsgivenbelow:",
+      "direction": "Directions (Questions 60-64) Identify the correct type of sentences from the options given below:",
       "opts": {
         "a": "Exclamatory",
         "b": "Imperative",
@@ -1224,7 +1224,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Donotcondemnthejudgmentofothersbecauseitdiffersfromyourown.",
+      "q": "Do not condemn the judgment of others because it differs from your own.",
       "multi": false
     },
     {
@@ -1232,11 +1232,11 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions65-70)Choosethewordwhichhasasimilarmeaningtotheonegiven:",
+      "direction": "Directions (Questions 65-70) Choose the word which has a similar meaning to the one given:",
       "opts": {
-        "a": "Toend",
-        "b": "Tobegin",
-        "c": "Nearingfinish",
+        "a": "To end",
+        "b": "To begin",
+        "c": "Nearing finish",
         "d": "Torun"
       },
       "marked": null,
@@ -1255,11 +1255,11 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions65-70)Choosethewordwhichhasasimilarmeaningtotheonegiven:",
+      "direction": "Directions (Questions 65-70) Choose the word which has a similar meaning to the one given:",
       "opts": {
         "a": "Grave",
         "b": "Outward",
-        "c": "Toguess",
+        "c": "To guess",
         "d": "Toclaim"
       },
       "marked": null,
@@ -1278,11 +1278,11 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions65-70)Choosethewordwhichhasasimilarmeaningtotheonegiven:",
+      "direction": "Directions (Questions 65-70) Choose the word which has a similar meaning to the one given:",
       "opts": {
         "a": "Appreciate",
         "b": "Recover",
-        "c": "Tomakeworse",
+        "c": "To make worse",
         "d": "Strengthen"
       },
       "marked": null,
@@ -1301,12 +1301,12 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions65-70)Choosethewordwhichhasasimilarmeaningtotheonegiven:",
+      "direction": "Directions (Questions 65-70) Choose the word which has a similar meaning to the one given:",
       "opts": {
-        "a": "Towarn",
-        "b": "Tocajole",
+        "a": "To warn",
+        "b": "To cajole",
         "c": "Encourage",
-        "d": "Abdicate:"
+        "d": "Abdicate :"
       },
       "marked": null,
       "cov": {
@@ -1324,11 +1324,11 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions65-70)Choosethewordwhichhasasimilarmeaningtotheonegiven:",
+      "direction": "Directions (Questions 65-70) Choose the word which has a similar meaning to the one given:",
       "opts": {
         "a": "Display",
         "b": "Gloomy",
-        "c": "Tohandleormanage",
+        "c": "To handle or manage",
         "d": "Tomortgage"
       },
       "marked": null,
@@ -1347,7 +1347,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions65-70)Choosethewordwhichhasasimilarmeaningtotheonegiven:",
+      "direction": "Directions (Questions 65-70) Choose the word which has a similar meaning to the one given:",
       "opts": {
         "a": "Understanding",
         "b": "Protest",
@@ -1370,7 +1370,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions71-74)Choosethewordwhichhastheoppositemeaningtotheonegiven",
+      "direction": "Directions (Questions 71-74) Choose the word which has the opposite meaning to the one given",
       "opts": {
         "a": "Defends",
         "b": "Deprives",
@@ -1393,12 +1393,12 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions71-74)Choosethewordwhichhastheoppositemeaningtotheonegiven",
+      "direction": "Directions (Questions 71-74) Choose the word which has the opposite meaning to the one given",
       "opts": {
         "a": "Splendor",
         "b": "Debasement",
         "c": "Fame",
-        "d": "Reputation:"
+        "d": "Reputation :"
       },
       "marked": null,
       "cov": {
@@ -1416,7 +1416,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions71-74)Choosethewordwhichhastheoppositemeaningtotheonegiven",
+      "direction": "Directions (Questions 71-74) Choose the word which has the opposite meaning to the one given",
       "opts": {
         "a": "Hindmost",
         "b": "Mature",
@@ -1439,7 +1439,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions71-74)Choosethewordwhichhastheoppositemeaningtotheonegiven",
+      "direction": "Directions (Questions 71-74) Choose the word which has the opposite meaning to the one given",
       "opts": {
         "a": "Retardation",
         "b": "Development",
@@ -1462,7 +1462,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions75-80)Choosethecorrectword/meaningfromtheoptionsgivenbelow:",
+      "direction": "Directions (Questions 75-80) Choose the correct word / meaning from the options given below:",
       "opts": {
         "a": "Claustrophobic",
         "b": "Congested",
@@ -1477,7 +1477,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hecannotliveinaclosedapartment.Heis.........",
+      "q": "He cannot live in a closed apartment. Heis.........",
       "multi": false
     },
     {
@@ -1485,7 +1485,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions75-80)Choosethecorrectword/meaningfromtheoptionsgivenbelow:",
+      "direction": "Directions (Questions 75-80) Choose the correct word / meaning from the options given below:",
       "opts": {
         "a": "Unavoidable",
         "b": "Inimitable",
@@ -1500,7 +1500,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Somethingwhichcannotbeavoided.",
+      "q": "Something which can not be avoided.",
       "multi": false
     },
     {
@@ -1508,7 +1508,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions75-80)Choosethecorrectword/meaningfromtheoptionsgivenbelow:",
+      "direction": "Directions (Questions 75-80) Choose the correct word / meaning from the options given below:",
       "opts": {
         "a": "Allude",
         "b": "Elude",
@@ -1523,7 +1523,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Genuinerelationshipsalwaysseemto.........her.",
+      "q": "Genuine relationships always seem to ......... her.",
       "multi": false
     },
     {
@@ -1531,7 +1531,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions75-80)Choosethecorrectword/meaningfromtheoptionsgivenbelow:",
+      "direction": "Directions (Questions 75-80) Choose the correct word / meaning from the options given below:",
       "opts": {
         "a": "Benediction",
         "b": "Emancipation",
@@ -1546,7 +1546,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thegeneralactofforgivenessonanationaloccasioniscalled.........",
+      "q": "The general act of forgiveness on a national occasion is called .........",
       "multi": false
     },
     {
@@ -1554,7 +1554,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(Questions75-80)Choosethecorrectword/meaningfromtheoptionsgivenbelow:",
+      "direction": "Directions (Questions 75-80) Choose the correct word / meaning from the options given below:",
       "opts": {
         "a": "Acceded",
         "b": "Exceeded",
@@ -1569,13 +1569,25 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theamountofsugarinhisblood.........thepreviousreading.",
+      "q": "The amount of sugar in his blood ......... the previous reading.",
       "multi": false
     }
   ],
-  "written": [],
+  "written": [
+    {
+      "n": 1,
+      "part": null,
+      "page": 1,
+      "text": "Write an essay on any one (1) oft he given topics (300 words).",
+      "subparts": {
+        "a": "Talent versus Hard work.",
+        "b": "Mass Media and Cultural Invasion.",
+        "c": "Youth Culture Today."
+      }
+    }
+  ],
   "notes": [
-    "Q1 (p1, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q1 (p1, part None): conventional section, 3 sub-part(s) - not an MCQ",
     "Q43 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
     "Q44 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
     "Q45 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",

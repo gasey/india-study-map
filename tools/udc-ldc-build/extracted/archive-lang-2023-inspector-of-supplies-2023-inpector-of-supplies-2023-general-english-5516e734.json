@@ -6,42 +6,19 @@
   "source": "archive-lang-2023-inspector-of-supplies-2023-inpector-of-supplies-2023-general-english-5516e734.pdf",
   "sourceSha256": "c728f490bd47097bfef2280cabe7ad0474cafb9b98042fc94897f7410d5da4e9",
   "ocr": true,
-  "count": 64,
+  "count": 63,
   "questions": [
-    {
-      "n": 3,
-      "page": 2,
-      "part": "A",
-      "conventional": false,
-      "direction": null,
-      "opts": {
-        "a": "Accordingtothepassage,whatfactorisresponsibleforruralpoverty?(2)",
-        "b": "Whatisthedesiredprobableimpactofformulationofspecificpovertyalleviationprogrammes? Q)",
-        "c": "Whichofthefollowingstatementistrueinthecontextofthepassage?qd) i)Therehasbeenasignificantincreaseinthenumberoftheruralpoor. ii)BeforetheSixthPlan,policiesregardingalleviationofruralpovertywerealmost nonexistent. iii)Socialchangecoupledwithfinancialupliftmentisimpliedinruraldevelopment.",
-        "d": "Whichofthefollowingisnotmentionedinthepassageasanimportantfactorforrural i)Enhancingproductioninvariousnewindustriesinruralareas. ii)Greateraccessofcreditsandinputs. iii)Transferringplanningfromcentraltolocalauthorities. iv)Involvementofruralfolkinthedevelopmentprocess. i)enormity ii)vital i)aggravate ii)general"
-      },
-      "marked": null,
-      "cov": {
-        "a": 0.0,
-        "b": 0.0,
-        "c": 0.0,
-        "d": 0.0
-      },
-      "ambiguous": [],
-      "q": "Readthefollowingpassageandanswerthequestionsthatfollow: Alleviationofruralpovertyhasbeenoneoftheprimaryobjectivesofplanneddevelopmentin India.Eversincetheinceptionofplanning,thepoliciesandprogrammeshavebeendesignedand redesignedwiththisaim.Theproblemofruralpovertywasbroughtintoasharperfocusduringthe SixthPlan.TheSeventhPlantooemphasisedgrowthwithsocialjustice.Itwasrealisedthata sustainablestrategyofpovertyalleviationhastobebasedonincreasingtheproductiveemployment opportunitiesintheprocessofgrowthitself.However,totheextenttheprocessofgrowthbypasses somesectionsofpopulation,itisnecessarytoformulatespecificpovertyalleviationforgenerationof acertainlevelofincomefortheruralpoor.Ruraldevelopmentimpliesboththeeconomicbetterment ofpeopleaswellasgreatersocialtransformation.Increasedparticipationofpeopleintherural developmentprocess,decentralisationofplanning,betterenforcementoflandreformsandgreater accesstocreditsandinputsgoalongwayinprospectsforeconomicdevelopment,improvementsin health,education,drinkingwater,energysupply,sanitationandhousingcoupledwithattitudinalchanges alsofacilitatetheirsocialdevelopment. Ruralpovertyisinextricablylinkedwithlowruralproductivityandunemployment,including underemployment.Hence,itisimperativetoimproveproductivityandincreaseemploymentinrural areas.Moreover,moreemploymentneedstobegeneratedathigherlevelsofproductivityinorderto generatehigheroutput.Employmentatmiserablylowlevelsofproductivityandincomesisalreadya problemoffargreatermagnitudethanunemploymentassuch.Itisestimatedthatin1987-88therate ofunemploymentwasonly3percent.AsperthecurrentlyusedmethodologyinthePlanning Commission,povertyforthesameyearwasestimatedtobe30percent.Thisdemonstratesthateven thoughalargeproportionoftheruralpopulationwasworkingitwasdifficultforthemtoekeouta livingevenatsubsistencelevelsfromit.Itistruethattherehasbeenaconsiderabledeclineinthe incidenceofruralpovertyovertime.Intermsofabsolutenumbersofpoor,thedeclinehasbeenmuch less.Whilethiscanbeattributedtothedemographicfactor,thefactremainsthatafter40yearsof planneddevelopment,about200millionsarestillpoorinIndia.",
-      "multi": false
-    },
     {
       "n": 1,
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "noun",
         "b": "verb",
         "c": "adjective",
-        "d": "adverb."
+        "d": "adverb ."
       },
       "marked": null,
       "cov": {
@@ -51,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Goddefendtheright!",
+      "q": "God defend the right!",
       "multi": false
     },
     {
@@ -59,7 +36,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "noun",
         "b": "verb",
@@ -74,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heislittleknownhere.",
+      "q": "He is little known here.",
       "multi": false
     },
     {
@@ -82,7 +59,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "noun",
         "b": "pronoun",
@@ -97,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hehasnocommandoverhimself.",
+      "q": "He has no command over himself.",
       "multi": false
     },
     {
@@ -105,7 +82,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "noun",
         "b": "pronoun",
@@ -120,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Allisnotlost.",
+      "q": "Allis not lost.",
       "multi": false
     },
     {
@@ -128,9 +105,9 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
-        "a": "noun:",
+        "a": "noun :",
         "b": "verb",
         "c": "pronoun",
         "d": "adverb"
@@ -143,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hecameroundtotheirbelief.",
+      "q": "He came round to their belief.",
       "multi": false
     },
     {
@@ -151,7 +128,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "noun",
         "b": "verb",
@@ -166,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Donotwhileawayyourprecioustime.",
+      "q": "Do not while away your precious time.",
       "multi": false
     },
     {
@@ -174,7 +151,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "verb",
         "b": "pronoun",
@@ -189,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Don’tbeinsuchahurry!",
+      "q": "Don’t be in sucha hurry!",
       "multi": false
     },
     {
@@ -197,7 +174,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "verb",
         "b": "pronoun",
@@ -212,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Mucofhitistrue.",
+      "q": "Mucofh it  is true.",
       "multi": false
     },
     {
@@ -220,7 +197,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "noun",
         "b": "pronoun",
@@ -235,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Itisnojoke.",
+      "q": "It is no joke.",
       "multi": false
     },
     {
@@ -243,7 +220,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.1-10):IdentifythePartsofSpeechoftheunderlinedwords.",
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the Parts of Speech of the underlined words.",
       "opts": {
         "a": "noun",
         "b": "pronoun",
@@ -258,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Weshallnotseehislikeagain.",
+      "q": "We shall not see his like again.",
       "multi": false
     },
     {
@@ -266,12 +243,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.11-15):Choosethecorrectprepositionstofillintheblank,",
+      "direction": "Direction (Question Nos. 11 - 15) : Choose the correct prepositions to fill in the blank,",
       "opts": {
         "a": "on",
         "b": "with",
         "c": "for",
-        "d": "of .4./"
+        "d": "of . 4. /"
       },
       "marked": null,
       "cov": {
@@ -281,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Silkwormsfeedmulberrytrees.",
+      "q": "Silkworms feed mulberry trees.",
       "multi": false
     },
     {
@@ -289,7 +266,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.11-15):Choosethecorrectprepositionstofillintheblank,",
+      "direction": "Direction (Question Nos. 11 - 15) : Choose the correct prepositions to fill in the blank,",
       "opts": {
         "a": "by",
         "b": "in",
@@ -304,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thego-downisinfestedrats.",
+      "q": "The go-down is infested rats.",
       "multi": false
     },
     {
@@ -312,7 +289,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.11-15):Choosethecorrectprepositionstofillintheblank,",
+      "direction": "Direction (Question Nos. 11 - 15) : Choose the correct prepositions to fill in the blank,",
       "opts": {
         "a": "to",
         "b": "with",
@@ -327,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Oilisgoodburns.",
+      "q": "Oilis good burns.",
       "multi": false
     },
     {
@@ -335,12 +312,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.11-15):Choosethecorrectprepositionstofillintheblank,",
+      "direction": "Direction (Question Nos. 11 - 15) : Choose the correct prepositions to fill in the blank,",
       "opts": {
         "a": "from",
         "b": "of",
         "c": "by",
-        "d": "to:"
+        "d": "to :"
       },
       "marked": null,
       "cov": {
@@ -350,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Themulewaspartiallyrelievedtheload.",
+      "q": "The mule was partially relieved the load.",
       "multi": false
     },
     {
@@ -358,7 +335,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.11-15):Choosethecorrectprepositionstofillintheblank,",
+      "direction": "Direction (Question Nos. 11 - 15) : Choose the correct prepositions to fill in the blank,",
       "opts": {
         "a": "in",
         "b": "to",
@@ -373,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThesoilofMizoramisfavourablecrops.",
+      "q": "The soil of Mizoram is favourable crops.",
       "multi": false
     },
     {
@@ -381,7 +358,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.16-20):SelecttheappropriateconjunctiontoSillintheblanks..",
+      "direction": "Direction (Question Nos. 16 - 20) : Select the appropriate conjunction to Sill in the blanks. .",
       "opts": {
         "a": "but",
         "b": "while",
@@ -396,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tamintheright,youareinthewrong.",
+      "q": "Tam in the right, you are in the wrong.",
       "multi": false
     },
     {
@@ -404,7 +381,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.16-20):SelecttheappropriateconjunctiontoSillintheblanks..",
+      "direction": "Direction (Question Nos. 16 - 20) : Select the appropriate conjunction to Sill in the blanks. .",
       "opts": {
         "a": "while",
         "b": "although",
@@ -419,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iwasnotastrangertobooks,Ihadnopracticalacquaintancewiththese.",
+      "q": "I was not a stranger to books, I had no practical acquaintance with these.",
       "multi": false
     },
     {
@@ -427,7 +404,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.16-20):SelecttheappropriateconjunctiontoSillintheblanks..",
+      "direction": "Direction (Question Nos. 16 - 20) : Select the appropriate conjunction to Sill in the blanks. .",
       "opts": {
         "a": "and",
         "b": "whereas",
@@ -442,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Themanwhoeatsinahurrylosesboththepleasureofeatingtheprofitofdigestion.",
+      "q": "The man who eats in a hurry loses both the pleasure of eating the profit of digestion.",
       "multi": false
     },
     {
@@ -450,7 +427,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.16-20):SelecttheappropriateconjunctiontoSillintheblanks..",
+      "direction": "Direction (Question Nos. 16 - 20) : Select the appropriate conjunction to Sill in the blanks. .",
       "opts": {
         "a": "and",
         "b": "since",
@@ -465,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theravinewasfullofsandnow,ithasoncebeenfullofwater,",
+      "q": "The ravine was full of sand now, it has once been full of water,",
       "multi": false
     },
     {
@@ -473,12 +450,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.21-25):Choosethecorrectverbformfromtheoptionsprovided.",
+      "direction": "Direction (Question Nos. 21 - 25) : Choose the correct verb form from the options provided.",
       "opts": {
         "a": "wants",
-        "b": "iswanting",
+        "b": "is wanting",
         "c": "want",
-        "d": "hasbeenwanting"
+        "d": "hasbeen wanting"
       },
       "marked": null,
       "cov": {
@@ -488,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheHeadmastertospeaktoyou.",
+      "q": "The Headmaster to speak to you.",
       "multi": false
     },
     {
@@ -496,12 +473,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.21-25):Choosethecorrectverbformfromtheoptionsprovided.",
+      "direction": "Direction (Question Nos. 21 - 25) : Choose the correct verb form from the options provided.",
       "opts": {
         "a": "wasliving",
         "b": "isliving",
         "c": "lives",
-        "d": "_hasbeenliving"
+        "d": "_has been living"
       },
       "marked": null,
       "cov": {
@@ -511,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hehereforthelastfiveyears.",
+      "q": "He here for the last five years.",
       "multi": false
     },
     {
@@ -519,12 +496,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.21-25):Choosethecorrectverbformfromtheoptionsprovided.",
+      "direction": "Direction (Question Nos. 21 - 25) : Choose the correct verb form from the options provided.",
       "opts": {
-        "a": "iswatching",
+        "a": "is watching",
         "b": "watches",
-        "c": "haswatched",
-        "d": "hadbeenwatching"
+        "c": "has watched",
+        "d": "had been watching"
       },
       "marked": null,
       "cov": {
@@ -534,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MybrotherTVmostevenings.",
+      "q": "My brother TV most evenings.",
       "multi": false
     },
     {
@@ -542,12 +519,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.21-25):Choosethecorrectverbformfromtheoptionsprovided.",
+      "direction": "Direction (Question Nos. 21 - 25) : Choose the correct verb form from the options provided.",
       "opts": {
         "a": "received",
-        "b": "amreceiving",
-        "c": "wasreceiving",
-        "d": "hadbeenreceiving"
+        "b": "am receiving",
+        "c": "was receiving",
+        "d": "had been receiving"
       },
       "marked": null,
       "cov": {
@@ -557,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "1hisletteraweekago.",
+      "q": "1 his letter a week ago.",
       "multi": false
     },
     {
@@ -565,12 +542,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.21-25):Choosethecorrectverbformfromtheoptionsprovided.",
+      "direction": "Direction (Question Nos. 21 - 25) : Choose the correct verb form from the options provided.",
       "opts": {
         "a": "do",
-        "b": "amdoing",
-        "c": "wasdoing",
-        "d": "havebeendoing"
+        "b": "am doing",
+        "c": "was doing",
+        "d": "have been doing"
       },
       "marked": null,
       "cov": {
@@ -580,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Don’tdisturbme.Imywork.",
+      "q": "Don’t disturb me.I  my work.",
       "multi": false
     },
     {
@@ -588,10 +565,10 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.26-30):Choosetheappropriatepronounsfromthegivenoptions.",
+      "direction": "Direction (Question Nos. 26 - 30) : Choose the appropriate pronouns from the given options.",
       "opts": {
         "a": "little",
-        "b": "alittle:",
+        "b": "alittle :",
         "c": "few",
         "d": "afew"
       },
@@ -603,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heisamanof__sors.",
+      "q": "Heisamanof__ sors.",
       "multi": false
     },
     {
@@ -611,7 +588,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.26-30):Choosetheappropriatepronounsfromthegivenoptions.",
+      "direction": "Direction (Question Nos. 26 - 30) : Choose the appropriate pronouns from the given options.",
       "opts": {
         "a": "all",
         "b": "each",
@@ -626,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "oftheboysgetsaprize.",
+      "q": "of the boys gets a prize.",
       "multi": false
     },
     {
@@ -634,7 +611,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.26-30):Choosetheappropriatepronounsfromthegivenoptions.",
+      "direction": "Direction (Question Nos. 26 - 30) : Choose the appropriate pronouns from the given options.",
       "opts": {
         "a": "which",
         "b": "that",
@@ -649,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hereisthebook_———————syourlentme.",
+      "q": "Hereisthebook_———————syourlent me.",
       "multi": false
     },
     {
@@ -657,7 +634,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.26-30):Choosetheappropriatepronounsfromthegivenoptions.",
+      "direction": "Direction (Question Nos. 26 - 30) : Choose the appropriate pronouns from the given options.",
       "opts": {
         "a": "he",
         "b": "whichever",
@@ -672,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "comesiswelcome.",
+      "q": "comes is welcome.",
       "multi": false
     },
     {
@@ -680,7 +657,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.26-30):Choosetheappropriatepronounsfromthegivenoptions.",
+      "direction": "Direction (Question Nos. 26 - 30) : Choose the appropriate pronouns from the given options.",
       "opts": {
         "a": "neither",
         "b": "either",
@@ -695,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "oftheaccusationsistrue.",
+      "q": "of the accusations is true.",
       "multi": false
     },
     {
@@ -703,7 +680,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.31-35):Fromtheoptionsgiven,choosethewordwhichbestexpressesthe",
+      "direction": "Direction (Question Nos. 31 - 35) : From the options given, choose the word which best expresses the",
       "opts": {
         "a": "disapprove",
         "b": "challenge",
@@ -726,7 +703,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.31-35):Fromtheoptionsgiven,choosethewordwhichbestexpressesthe",
+      "direction": "Direction (Question Nos. 31 - 35) : From the options given, choose the word which best expresses the",
       "opts": {
         "a": "unfold",
         "b": "unchain",
@@ -749,12 +726,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.31-35):Fromtheoptionsgiven,choosethewordwhichbestexpressesthe",
+      "direction": "Direction (Question Nos. 31 - 35) : From the options given, choose the word which best expresses the",
       "opts": {
         "a": "energetic",
         "b": "observant",
         "c": "intelligent",
-        "d": "_watchful"
+        "d": "_ watchful"
       },
       "marked": null,
       "cov": {
@@ -772,7 +749,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.36-40):Fromtheoptionsgivenbelow,choosethewordnearesttothe",
+      "direction": "Direction (Question Nos. 36 - 40) : From the options given below, choose the word nearest to the",
       "opts": {
         "a": "announced",
         "b": "pronounced",
@@ -787,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theproposalwasdenouncedbyall.",
+      "q": "The proposal was denounced by all.",
       "multi": false
     },
     {
@@ -795,7 +772,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.36-40):Fromtheoptionsgivenbelow,choosethewordnearesttothe",
+      "direction": "Direction (Question Nos. 36 - 40) : From the options given below, choose the word nearest to the",
       "opts": {
         "a": "erudition",
         "b": "experience",
@@ -810,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whereignoranceissometimesbliss,illiteracyisalwaysconsideredacurse.",
+      "q": "Where ignorance is sometimes bliss, illiteracy is always considered a curse.",
       "multi": false
     },
     {
@@ -818,10 +795,10 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.36-40):Fromtheoptionsgivenbelow,choosethewordnearesttothe",
+      "direction": "Direction (Question Nos. 36 - 40) : From the options given below, choose the word nearest to the",
       "opts": {
         "a": "ridiculous",
-        "b": "baseless.",
+        "b": "baseless .",
         "c": "authoritative",
         "d": "vacuous"
       },
@@ -833,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thenewsbroughtbythemaidservantisauthentic.",
+      "q": "The news brought by the maid servant is authentic.",
       "multi": false
     },
     {
@@ -841,7 +818,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.36-40):Fromtheoptionsgivenbelow,choosethewordnearesttothe",
+      "direction": "Direction (Question Nos. 36 - 40) : From the options given below, choose the word nearest to the",
       "opts": {
         "a": "deterioration",
         "b": "depression",
@@ -856,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thedoctorsaidthatthereisnoimprovementintheconditionofthepatient.",
+      "q": "The doctor said that there is no improvement in the condition of the patient.",
       "multi": false
     },
     {
@@ -864,7 +841,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.36-40):Fromtheoptionsgivenbelow,choosethewordnearesttothe",
+      "direction": "Direction (Question Nos. 36 - 40) : From the options given below, choose the word nearest to the",
       "opts": {
         "a": "deep",
         "b": "muddy",
@@ -879,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heplungedintotheturbidwatersofthestream.",
+      "q": "He plunged into the turbid waters of the stream.",
       "multi": false
     },
     {
@@ -887,9 +864,9 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.41-46):Choosethewords/phrasessimilarinmeaningtotheunderlined",
+      "direction": "Direction (Question Nos. 41 - 46) : Choose the words/phrases similar in meaning to the underlined",
       "opts": {
-        "a": "supported:",
+        "a": "supported :",
         "b": "opposed",
         "c": "represented",
         "d": "refused"
@@ -902,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hebackeupdhisfriend’sclaim.",
+      "q": "He backeupd  his friend’s claim.",
       "multi": false
     },
     {
@@ -910,12 +887,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.41-46):Choosethewords/phrasessimilarinmeaningtotheunderlined",
+      "direction": "Direction (Question Nos. 41 - 46) : Choose the words/phrases similar in meaning to the underlined",
       "opts": {
-        "a": "cryoutloud",
+        "a": "cry outloud",
         "b": "protested",
         "c": "suppressed",
-        "d": "feltdeephurt"
+        "d": "felt deep hurt"
       },
       "marked": null,
       "cov": {
@@ -925,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hecriedoutagainstsuchinjustice.",
+      "q": "He cried out against such injustice.",
       "multi": false
     },
     {
@@ -933,12 +910,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.41-46):Choosethewords/phrasessimilarinmeaningtotheunderlined",
+      "direction": "Direction (Question Nos. 41 - 46) : Choose the words/phrases similar in meaning to the underlined",
       "opts": {
         "a": "expired",
         "b": "extended",
-        "c": "beenlost",
-        "d": "beenrevalidated"
+        "c": "been lost",
+        "d": "been revalidated"
       },
       "marked": null,
       "cov": {
@@ -948,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theleaseofourpremiseshasrunout.",
+      "q": "The lease of our premises has run out.",
       "multi": false
     },
     {
@@ -956,12 +933,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.41-46):Choosethewords/phrasessimilarinmeaningtotheunderlined",
+      "direction": "Direction (Question Nos. 41 - 46) : Choose the words/phrases similar in meaning to the underlined",
       "opts": {
-        "a": "calledmebyname",
-        "b": "spoke'tome",
-        "c": "sentmeamessage",
-        "d": "paidmeabriefvisit"
+        "a": "called me by name",
+        "b": "spoke'to me",
+        "c": "sent mea message",
+        "d": "paid mea brief visit"
       },
       "marked": null,
       "cov": {
@@ -971,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hecalledonmeyesterday.",
+      "q": "He called on me yesterday.",
       "multi": false
     },
     {
@@ -979,11 +956,11 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.41-46):Choosethewords/phrasessimilarinmeaningtotheunderlined",
+      "direction": "Direction (Question Nos. 41 - 46) : Choose the words/phrases similar in meaning to the underlined",
       "opts": {
-        "a": "fellintoproblems",
-        "b": "failedmiserably",
-        "c": "beenexpelled",
+        "a": "fell into problems",
+        "b": "failed miserably",
+        "c": "been expelled",
         "d": "quarrelled"
       },
       "marked": null,
@@ -994,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "[amtoldthetwobrothershavefallenout.",
+      "q": "[am told the two brothers have fallen out.",
       "multi": false
     },
     {
@@ -1002,12 +979,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.41-46):Choosethewords/phrasessimilarinmeaningtotheunderlined",
+      "direction": "Direction (Question Nos. 41 - 46) : Choose the words/phrases similar in meaning to the underlined",
       "opts": {
-        "a": "showedpride",
-        "b": "becamearrogant",
-        "c": "turnedpale",
-        "d": "changedthetopic"
+        "a": "showed pride",
+        "b": "became arrogant",
+        "c": "turned pale",
+        "d": "changed the topic"
       },
       "marked": null,
       "cov": {
@@ -1017,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HechangedcolourwhenIquestionedhimabouthisantecedents.",
+      "q": "He changed colour when I questioned him about his antecedents.",
       "multi": false
     },
     {
@@ -1025,12 +1002,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.47-52):ThefollowingsentencesaregiveninDirectSpeech.Choosethe",
+      "direction": "Direction (Question Nos. 47 - 52) : The following sentences are given in Direct Speech. Choose the",
       "opts": {
-        "a": "ThePrincesaidthatithadgivenhimgreatpleasuretobetherethatevening.",
-        "b": "ThePrincesaidthatitgavehimgreatpleasuretobetherethatevening.",
-        "c": "ThePrincesaidthatithadbeengivinghimgreatpleasuretobetherethatevening.",
-        "d": "ThePrincesaidthatitwasgivinghimgreatpleasuretobetherethatevening."
+        "a": "The Prince said that it had given him great pleasure to be there that evening.",
+        "b": "The Prince said that it gave him great pleasure to be there that evening.",
+        "c": "The Prince said that it had been giving him great pleasure to be there that evening.",
+        "d": "The Prince said that it was giving him great pleasure to be there that evening."
       },
       "marked": null,
       "cov": {
@@ -1040,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThePrincesaid,“Itgivesmegreatpleasuretobeherethisevening.”",
+      "q": "The Prince said, “It gives me great pleasure to be here this evening.”",
       "multi": false
     },
     {
@@ -1048,12 +1025,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.47-52):ThefollowingsentencesaregiveninDirectSpeech.Choosethe",
+      "direction": "Direction (Question Nos. 47 - 52) : The following sentences are given in Direct Speech. Choose the",
       "opts": {
-        "a": "Hesaidthathewouldgoassoonasitwaspossible.",
-        "b": "Hesaidthathewouldgoassoonasitwouldbepossible.:",
-        "c": "Hesaidthatheshouldgoassoonasitwaspossible.",
-        "d": "Hesaidthathewillgoassoonasititpossible."
+        "a": "He said that he would go as soon as it was possible.",
+        "b": "He said that he would go as soon as it would be possible. :",
+        "c": "He said that he should go as soon as it was possible.",
+        "d": "He said that he will go as soon as it it possible."
       },
       "marked": null,
       "cov": {
@@ -1063,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hesaid,“Ishallgoassoonasitispossible.”",
+      "q": "He said, “I shall go as soon as it is possible.”",
       "multi": false
     },
     {
@@ -1071,12 +1048,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.47-52):ThefollowingsentencesaregiveninDirectSpeech.Choosethe",
+      "direction": "Direction (Question Nos. 47 - 52) : The following sentences are given in Direct Speech. Choose the",
       "opts": {
-        "a": "MyteacheroftentellsmethatifIdon’tworkhard,Iwouldfail.",
-        "b": "MyteacheroftensaystomethatifIdon’tworkhard,Iwillfail.",
-        "c": "MyteacheroftensaystomethatifIdon’tworkhardIshallfail.",
-        "d": "MyteacheroftensaystomethatifIdon’tworkhard,Iamgoingtofail."
+        "a": "My teacher often tells me that if I don’t work hard, I would fail.",
+        "b": "My teacher often says to me that if I don’t work hard, I will fail.",
+        "c": "My teacher often says to me that if I don’t work hard I shall fail.",
+        "d": "My teacher often says to me that if I don’t work hard, I am going to fail."
       },
       "marked": null,
       "cov": {
@@ -1086,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Myteacheroftensaystome,“Ifyoudon’tworkhard,youwillfail.”",
+      "q": "My teacher often says to me, “If you don’t work hard, you will fail.”",
       "multi": false
     },
     {
@@ -1094,12 +1071,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.47-52):ThefollowingsentencesaregiveninDirectSpeech.Choosethe",
+      "direction": "Direction (Question Nos. 47 - 52) : The following sentences are given in Direct Speech. Choose the",
       "opts": {
-        "a": "Hesaidthathedidnotwanttoseeanyofthemandthattheymustleave.",
-        "b": "Hesaidthathedidnotwishtoseeanyofthemandtogoaway.",
-        "c": "Hesaidthathedidnotwishto-seeanyofthemandorderedthemtogoaway.",
-        "d": "Hesaidthatitwasnothiswishtoseeanyofthemandorderedthemtogoaway."
+        "a": "He said that he did not want to see any of them and that they must leave.",
+        "b": "He said that he did not wish to see any of them and to go away.",
+        "c": "He said that he did not wish to-see any of them and ordered them to go away.",
+        "d": "He said that it was not his wish to see any of them and ordered them to go away."
       },
       "marked": null,
       "cov": {
@@ -1109,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hesaid,“Idonotwishtoseeanyofyou;goaway.”",
+      "q": "He said, “I do not wish to see any of you; go away.”",
       "multi": false
     },
     {
@@ -1117,12 +1094,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.47-52):ThefollowingsentencesaregiveninDirectSpeech.Choosethe",
+      "direction": "Direction (Question Nos. 47 - 52) : The following sentences are given in Direct Speech. Choose the",
       "opts": {
-        "a": "Shesuggestedthatsheshouldwaitforthereward.",
-        "b": "Sheproposedthattheyshouldwaitforthereward.",
-        "c": "Shesaidthattheyshouldbewaitingforthereward.",
-        "d": "Shesaidtheyshouldwaitforthereward."
+        "a": "She suggested that she should wait for the reward.",
+        "b": "She proposed that they should wait for the reward.",
+        "c": "She said that they should be waiting for the reward.",
+        "d": "She said they should wait for the reward."
       },
       "marked": null,
       "cov": {
@@ -1132,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shesaid,“Letuswaitfortheaward.”",
+      "q": "She said, “Let us wait for the award.”",
       "multi": false
     },
     {
@@ -1140,12 +1117,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.47-52):ThefollowingsentencesaregiveninDirectSpeech.Choosethe",
+      "direction": "Direction (Question Nos. 47 - 52) : The following sentences are given in Direct Speech. Choose the",
       "opts": {
-        "a": "Thepreachersaidthatweareallsinners.",
-        "b": "Thepreachersaidthattheywereallsinners.",
-        "c": "Thepreachersaidthatwewereallsinners.",
-        "d": "Thepreachersaidthattheyareallsinners."
+        "a": "The preacher said that we are all sinners.",
+        "b": "The preacher said that they were all sinners.",
+        "c": "The preacher said that we were all sinners.",
+        "d": "The preacher said that they are all sinners."
       },
       "marked": null,
       "cov": {
@@ -1155,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thepreachersaid,“Weareallsinners.”",
+      "q": "The preacher said, “We are all sinners.”",
       "multi": false
     },
     {
@@ -1163,12 +1140,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.53-59):Fromtheoptionsgiveninthefollowing,identifythecorrect",
+      "direction": "Direction (Question Nos. 53 - 59) : From the options given in the following, identify the correct",
       "opts": {
-        "a": "Nounclause",
-        "b": "Adverbclause",
-        "c": "Adjectiveclause",
-        "d": "Principalclause"
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "Principal clause"
       },
       "marked": null,
       "cov": {
@@ -1178,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Yourshirtisbetterthanmine.",
+      "q": "Your shirt is better than mine.",
       "multi": false
     },
     {
@@ -1186,12 +1163,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.53-59):Fromtheoptionsgiveninthefollowing,identifythecorrect",
+      "direction": "Direction (Question Nos. 53 - 59) : From the options given in the following, identify the correct",
       "opts": {
-        "a": "Nounclause",
-        "b": "Adverbclause",
-        "c": "Adjectiveclause",
-        "d": "Principalclause ._8-."
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "Principal clause . _8- ."
       },
       "marked": null,
       "cov": {
@@ -1201,7 +1178,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Howeverhardshemaywork,shewillnotsucceed.",
+      "q": "However hard she may work, she will not succeed.",
       "multi": false
     },
     {
@@ -1209,12 +1186,12 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.53-59):Fromtheoptionsgiveninthefollowing,identifythecorrect",
+      "direction": "Direction (Question Nos. 53 - 59) : From the options given in the following, identify the correct",
       "opts": {
         "a": "Nounclause",
-        "b": "Adverbclause",
-        "c": "Adjectiveclause",
-        "d": "Principalclause"
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "Principal clause"
       },
       "marked": null,
       "cov": {
@@ -1224,7 +1201,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Pleaseaskhimwhathewants.",
+      "q": "Please ask him what he wants.",
       "multi": false
     },
     {
@@ -1232,12 +1209,12 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.53-59):Fromtheoptionsgiveninthefollowing,identifythecorrect",
+      "direction": "Direction (Question Nos. 53 - 59) : From the options given in the following, identify the correct",
       "opts": {
-        "a": "Nounclause",
-        "b": "Adverbclause",
-        "c": "Adjectiveclause",
-        "d": "Principalclause"
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "Principal clause"
       },
       "marked": null,
       "cov": {
@@ -1247,7 +1224,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "One,wholivesinglasshouse,shouldrefrainfromthrowingstonesatothers.",
+      "q": "One, who lives in glass house, should refrain from throwing stones at others.",
       "multi": false
     },
     {
@@ -1255,12 +1232,12 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.53-59):Fromtheoptionsgiveninthefollowing,identifythecorrect",
+      "direction": "Direction (Question Nos. 53 - 59) : From the options given in the following, identify the correct",
       "opts": {
-        "a": "Nounclause",
-        "b": "Adverbclause",
-        "c": "Adjectiveclause",
-        "d": "Principalclause"
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "Principal clause"
       },
       "marked": null,
       "cov": {
@@ -1270,7 +1247,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Allthatglittersisnotgold.",
+      "q": "All that glitters is not gold.",
       "multi": false
     },
     {
@@ -1278,12 +1255,12 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.53-59):Fromtheoptionsgiveninthefollowing,identifythecorrect",
+      "direction": "Direction (Question Nos. 53 - 59) : From the options given in the following, identify the correct",
       "opts": {
-        "a": "Nounclause",
-        "b": "Adverbclause",
-        "c": "Adjectiveclause",
-        "d": "Principalclause"
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "Principal clause"
       },
       "marked": null,
       "cov": {
@@ -1293,7 +1270,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Weeatthatwemaylive.,",
+      "q": "We eat that we may live. ,",
       "multi": false
     },
     {
@@ -1301,12 +1278,12 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Direction(QuestionNos.53-59):Fromtheoptionsgiveninthefollowing,identifythecorrect",
+      "direction": "Direction (Question Nos. 53 - 59) : From the options given in the following, identify the correct",
       "opts": {
-        "a": "Nounclause",
-        "b": "Adverbclause",
-        "c": "Adjectiveclause",
-        "d": "Principalclause"
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "Principal clause"
       },
       "marked": null,
       "cov": {
@@ -1316,7 +1293,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shetoldmethatshewouldnotsupportme.",
+      "q": "She told me that she would not support me.",
       "multi": false
     },
     {
@@ -1326,10 +1303,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "canbeheldagainst",
-        "b": "canbeholdagainst",
-        "c": "canbeholdingagainst",
-        "d": "canheldagainst"
+        "a": "can be held against",
+        "b": "can be hold against",
+        "c": "can be holding against",
+        "d": "can held against"
       },
       "marked": null,
       "cov": {
@@ -1339,7 +1316,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Nothingsme.",
+      "q": "Nothing sme.",
       "multi": false
     },
     {
@@ -1349,10 +1326,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "wasbeenkeptback",
-        "b": "_wasbeingkeptback",
-        "c": "wasbeingkeepback",
-        "d": "_wasbekeptback"
+        "a": "was been kept back",
+        "b": "_ was being kept back",
+        "c": "was being keep back",
+        "d": "_ was be kept back"
       },
       "marked": null,
       "cov": {
@@ -1362,7 +1339,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thefloodwaterbybarriers.",
+      "q": "The flood water by barriers.",
       "multi": false
     },
     {
@@ -1372,10 +1349,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "willbelend",
-        "b": "willbeinglent",
-        "c": "willbelent",
-        "d": "willbeenlent"
+        "a": "will be lend",
+        "b": "will being lent",
+        "c": "will be lent",
+        "d": "will been lent"
       },
       "marked": null,
       "cov": {
@@ -1385,7 +1362,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ouralliessupport.",
+      "q": "Our allies support.",
       "multi": false
     },
     {
@@ -1395,10 +1372,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "musthavingbeenleftbehind",
-        "b": "mustbeenleftbehind",
-        "c": "musthaveleftbehind",
-        "d": "musthavebeenleftbehind"
+        "a": "must having been left behind",
+        "b": "must been left behind",
+        "c": "must have left behind",
+        "d": "must have been left behind"
       },
       "marked": null,
       "cov": {
@@ -1408,7 +1385,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thekeys:",
+      "q": "The keys :",
       "multi": false
     },
     {
@@ -1418,10 +1395,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "willpayoff.",
-        "b": "willbepaidoff",
-        "c": "willbepayingoff",
-        "d": "_willbepayedoff"
+        "a": "will pay off .",
+        "b": "will be paid off",
+        "c": "will be paying off",
+        "d": "_ will be payed off"
       },
       "marked": null,
       "cov": {
@@ -1431,7 +1408,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Mybankloaninfiveyearstime.",
+      "q": "My bank loan in five years time.",
       "multi": false
     },
     {
@@ -1441,10 +1418,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "wasletoff",
-        "b": "waslettedoff",
-        "c": "waslettingoff",
-        "d": "_wereletoff"
+        "a": "was let off",
+        "b": "was letted off",
+        "c": "was letting off",
+        "d": "_ were let off"
       },
       "marked": null,
       "cov": {
@@ -1454,7 +1431,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shewithafine.",
+      "q": "She with a fine.",
       "multi": false
     },
     {
@@ -1464,10 +1441,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Havethebookbeengivenback",
-        "b": "Havethebookbeinggivenback",
-        "c": "Hasthebookbeengivenback",
-        "d": "Hasthebookbeinggivenback kKKKK"
+        "a": "Have the book been given back",
+        "b": "Have the book being given back",
+        "c": "Has the book been given back",
+        "d": "Has the book being given back kK KKK"
       },
       "marked": null,
       "cov": {
@@ -1477,20 +1454,47 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "toyouyet?",
+      "q": "to you yet?",
       "multi": false
     }
   ],
-  "written": [],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write a précis of the following passage in about one-third of the original length and suggest a suitable title. (14) Disarmament assumes a very special importance for us, overriding all other issues. For many years past there have been talks on disarmament and some progress has undoubtedly been made in so far as the plans and proposals are concerned. Still we find that the race of armaments continues, as also the efforts to invent even more powerful engines of destruction. If even a small part of these efforts was directed to the search for peace, probably the problem of disarmament would have been solved by this time. Apart from the moral imperative of peace, every practical consideration leads us to that conclusion. The choice today in this nuclear age is one of utter annihilation and destruction of civilisation or of some way to have peaceful co-existence between nations. There is no middle way. If war is an abomination and an ultimate crime which has to be avoided, we must fashion our minds and policy accordingly. In order to achieve peace we have to develop a climate of peace and tolerance and avoid speech and action which tend to increase fear and hatred. It may not be possible to reach full disarmament in one step, though every step should be conditioned to that end. Much ground has already been covered in the discussion on disarmament. But the sands of time run out, and we dare not play about with this issue or delay its consideration. This indeed, is the main duty of the United Nations today and it fails in this, the United Nations fails in-its main purpose. (260 words)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Write a letter to the Director, Department of Food, Civil Supplies & Consumer Affairs, Government of Mizoram, on the problems faced by the public due to irregular availability of goods at local Fair Price Shops. (10) - —— a -2- :",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 2,
+      "text": "Read the following passage and answer the questions that follow: Alleviation of rural poverty has been one of the primary objectives of planned development in India. Ever since the inception of planning, the policies and programmes have been designed and redesigned with this aim. The problem of rural poverty was brought into a sharper focus during the Sixth Plan. The Seventh Plan too emphasised growth with social justice. It was realised that a sustainable strategy of poverty alleviation has to be based on increasing the productive employment opportunities in the process of growth itself. However, to the extent the process of growth bypasses some sections of population, it is necessary to formulate specific poverty alleviation for generation of acertain level of income for the rural poor. Rural development implies both the economic betterment of people as well as greater social transformation. Increased participation of people in the rural development process, decentralisation of planning, better enforcement of land reforms and greater access to credits and inputs go a long way in prospects for economic development, improvements in health, education, drinking water, energy supply, sanitation and housing coupled with attitudinal changes also facilitate their social development. Rural poverty is inextricably linked with low rural productivity and unemployment, including underemployment. Hence, it is imperative to improve productivity and increase employment in rural areas. Moreover, more employment needs to be generated at higher levels of productivity in order to generate higher output. Employment at miserably low levels of productivity and incomes is already a problem of far greater magnitude than unemployment as such. It is estimated that in 1987-88 the rate of unemployment was only 3 percent. As per the currently used methodology in the Planning Commission, poverty for the same year was estimated to be 30 percent. This demonstrates that even though a large proportion of the rural population was working it was difficult for them to eke out a living even at subsistence levels from it. It is true that there has been a considerable decline in the incidence of rural poverty over time. In terms of absolute numbers of poor, the decline has been much less. While this can be attributed to the demographic factor, the fact remains that after 40 years of planned development, about 200 millions are still poor in India.",
+      "subparts": {
+        "a": "According to the passage, what factor is responsible for rural poverty? (2)",
+        "b": "What is the desired probable impact of formulation of specific poverty alleviation programmes? Q)",
+        "c": "Which of the following statement is true in the context of the passage? qd) i) There has been a significant increase in the number of the rural poor. ii) Before the Sixth Plan, policies regarding alleviation of rural poverty were almost nonexistent. iii) Social change coupled with financial upliftment is implied in rural development.",
+        "d": "Which of the following is not mentioned in the passage as an important factor for rural i) Enhancing production in various new industries in rural areas. ii) Greater access of credits and inputs. iii) Transferring planning from central to local authorities. iv) Involvement of rural folk in the development process. i) enormity ii) vital i) aggravate ii) general"
+      }
+    }
+  ],
   "notes": [
-    "Q1 (p1, part A): only 0 option(s) [] - not emitted",
-    "Q2 (p1, part A): only 0 option(s) [] - not emitted",
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p2, part A): conventional section, 4 sub-part(s) - not an MCQ",
     "Q18 (p4, part B): only 2 option(s) ['a', 'b'] - not emitted",
     "Q34 (p5, part B): only 2 option(s) ['a', 'b'] - not emitted",
     "Q35 (p5, part B): only 2 option(s) ['a', 'b'] - not emitted"
   ],
   "gaps": {
-    "A": [],
     "B": [
       18,
       34,

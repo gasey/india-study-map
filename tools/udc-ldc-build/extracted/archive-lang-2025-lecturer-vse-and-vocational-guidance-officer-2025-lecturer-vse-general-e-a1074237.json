@@ -13,7 +13,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10);FillintheblankswithsuitablePrepositionsfromtheoptions",
+      "direction": "Directions (Question Nos. 1 - 10) ; Fill in the blanks with suitable Prepositions from the options",
       "opts": {
         "a": "through",
         "b": "from",
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thecasewasputthejudgewithinaweek.",
+      "q": "The case was put the judge within a week.",
       "multi": false
     },
     {
@@ -36,7 +36,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10);FillintheblankswithsuitablePrepositionsfromtheoptions",
+      "direction": "Directions (Question Nos. 1 - 10) ; Fill in the blanks with suitable Prepositions from the options",
       "opts": {
         "a": "on",
         "b": "n",
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheywillgotoBangaloreplane.",
+      "q": "They will go to Bangalore plane.",
       "multi": false
     },
     {
@@ -59,7 +59,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10);FillintheblankswithsuitablePrepositionsfromtheoptions",
+      "direction": "Directions (Question Nos. 1 - 10) ; Fill in the blanks with suitable Prepositions from the options",
       "opts": {
         "a": "for",
         "b": "since",
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shehasbeenwritingaweek,.",
+      "q": "She has been writing aweek,.",
       "multi": false
     },
     {
@@ -82,11 +82,11 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10);FillintheblankswithsuitablePrepositionsfromtheoptions",
+      "direction": "Directions (Question Nos. 1 - 10) ; Fill in the blanks with suitable Prepositions from the options",
       "opts": {
         "a": "by",
         "b": "with",
-        "c": "of.",
+        "c": "of .",
         "d": "in"
       },
       "marked": null,
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hefelledthetreeanaxe.",
+      "q": "He felled the tree an axe.",
       "multi": false
     },
     {
@@ -105,12 +105,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10);FillintheblankswithsuitablePrepositionsfromtheoptions",
+      "direction": "Directions (Question Nos. 1 - 10) ; Fill in the blanks with suitable Prepositions from the options",
       "opts": {
         "a": "about",
         "b": "of",
         "c": "n",
-        "d": "for."
+        "d": "for ."
       },
       "marked": null,
       "cov": {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thepoetherisalive.",
+      "q": "The poet her is alive.",
       "multi": false
     },
     {
@@ -128,7 +128,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10);FillintheblankswithsuitablePrepositionsfromtheoptions",
+      "direction": "Directions (Question Nos. 1 - 10) ; Fill in the blanks with suitable Prepositions from the options",
       "opts": {
         "a": "afier",
         "b": "for",
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heisnowanewjob..",
+      "q": "He is now anew job. .",
       "multi": false
     },
     {
@@ -151,7 +151,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10);FillintheblankswithsuitablePrepositionsfromtheoptions",
+      "direction": "Directions (Question Nos. 1 - 10) ; Fill in the blanks with suitable Prepositions from the options",
       "opts": {
         "a": "on",
         "b": "above",
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aplaneishoveringthefield.",
+      "q": "A plane is hovering the field.",
       "multi": false
     },
     {
@@ -174,11 +174,11 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10);FillintheblankswithsuitablePrepositionsfromtheoptions",
+      "direction": "Directions (Question Nos. 1 - 10) ; Fill in the blanks with suitable Prepositions from the options",
       "opts": {
         "a": "from",
         "b": "to",
-        "c": "with(4)after"
+        "c": "with (4) after"
       },
       "marked": null,
       "cov": {
@@ -187,7 +187,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Thisbookisdifferentmine.",
+      "q": "This book is different mine.",
       "multi": false
     },
     {
@@ -195,7 +195,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10);FillintheblankswithsuitablePrepositionsfromtheoptions",
+      "direction": "Directions (Question Nos. 1 - 10) ; Fill in the blanks with suitable Prepositions from the options",
       "opts": {
         "a": "n",
         "b": "at",
@@ -210,7 +210,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Duringthevoyagewewereseafortendays.",
+      "q": "During the voyage we were sea for ten days.",
       "multi": false
     },
     {
@@ -218,7 +218,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-18):Identifythenotion/conceptexpressedbythefollowing",
+      "direction": "Directions (Question Nos. 11 - 18) : Identify the notion/concept expressed by the following",
       "opts": {
         "a": "result",
         "b": "reason",
@@ -233,7 +233,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Lambetteracquaintedwiththecountrythanyouare",
+      "q": "Lam better acquainted with the country than you are",
       "multi": false
     },
     {
@@ -241,7 +241,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-18):Identifythenotion/conceptexpressedbythefollowing",
+      "direction": "Directions (Question Nos. 11 - 18) : Identify the notion/concept expressed by the following",
       "opts": {
         "a": "comparison",
         "b": "condition",
@@ -256,7 +256,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Youcan’tgetajobunlessyouhaveexperience.",
+      "q": "You can’t get ajob unless you have experience.",
       "multi": false
     },
     {
@@ -264,7 +264,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-18):Identifythenotion/conceptexpressedbythefollowing",
+      "direction": "Directions (Question Nos. 11 - 18) : Identify the notion/concept expressed by the following",
       "opts": {
         "a": "concession",
         "b": "condition",
@@ -279,7 +279,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theroomisnice,thoughsmall.",
+      "q": "The room is nice, though small.",
       "multi": false
     },
     {
@@ -287,12 +287,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-18):Identifythenotion/conceptexpressedbythefollowing",
+      "direction": "Directions (Question Nos. 11 - 18) : Identify the notion/concept expressed by the following",
       "opts": {
         "a": "purpose",
         "b": "comparison",
         "c": "result",
-        "d": "_condition"
+        "d": "_ condition"
       },
       "marked": null,
       "cov": {
@@ -302,7 +302,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shewaslesstiredandhencemoreactive.",
+      "q": "She was less tired and hence more active.",
       "multi": false
     },
     {
@@ -310,12 +310,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-18):Identifythenotion/conceptexpressedbythefollowing",
+      "direction": "Directions (Question Nos. 11 - 18) : Identify the notion/concept expressed by the following",
       "opts": {
         "a": "request",
         "b": "result",
         "c": "supposition",
-        "d": "concession -(a)supposition(b)possibility (c)reason(d)request"
+        "d": "concession - (a) supposition (b) possibility (c) reason (d) request"
       },
       "marked": null,
       "cov": {
@@ -325,7 +325,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Youmustcomeroundandseeus.",
+      "q": "You must come round and see us.",
       "multi": false
     },
     {
@@ -333,7 +333,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-18):Identifythenotion/conceptexpressedbythefollowing",
+      "direction": "Directions (Question Nos. 11 - 18) : Identify the notion/concept expressed by the following",
       "opts": {
         "a": "condition",
         "b": "purpose",
@@ -348,7 +348,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hewasannoyedthathewascontradicted.",
+      "q": "He was annoyed that he was contradicted.",
       "multi": false
     },
     {
@@ -356,7 +356,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,19-26):Fillintheblankschoosingtheappropriateword/phrase",
+      "direction": "Directions (Question Nos, 19 - 26) : Fill in the blanks choosing the appropriate word/phrase",
       "opts": {
         "a": "strong",
         "b": "honest",
@@ -371,7 +371,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heistootobedeceivedeasily.",
+      "q": "He is too to be deceived easily.",
       "multi": false
     },
     {
@@ -379,7 +379,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,19-26):Fillintheblankschoosingtheappropriateword/phrase",
+      "direction": "Directions (Question Nos, 19 - 26) : Fill in the blanks choosing the appropriate word/phrase",
       "opts": {
         "a": "naturally",
         "b": "literally",
@@ -394,7 +394,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ContemporaryeconomicdevelopmentdiffersfromtheIndustrialRevolutionofthe19 Century.",
+      "q": "Contemporary economic development differs from the Industrial Revolution of the 19 Century.",
       "multi": false
     },
     {
@@ -402,7 +402,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,19-26):Fillintheblankschoosingtheappropriateword/phrase",
+      "direction": "Directions (Question Nos, 19 - 26) : Fill in the blanks choosing the appropriate word/phrase",
       "opts": {
         "a": "altarage",
         "b": "alteration",
@@ -417,7 +417,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Therewasaserious__———_—_—sbetweenthetwobrothers.",
+      "q": "There wasaserious__———_—_—s between the two brothers.",
       "multi": false
     },
     {
@@ -425,7 +425,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,19-26):Fillintheblankschoosingtheappropriateword/phrase",
+      "direction": "Directions (Question Nos, 19 - 26) : Fill in the blanks choosing the appropriate word/phrase",
       "opts": {
         "a": "forced",
         "b": "inspired",
@@ -440,7 +440,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hispatrioticspeechespeopletodedicatetheirlivesforthenation.",
+      "q": "His patriotic speeches people to dedicate their lives for the nation.",
       "multi": false
     },
     {
@@ -448,12 +448,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,19-26):Fillintheblankschoosingtheappropriateword/phrase",
+      "direction": "Directions (Question Nos, 19 - 26) : Fill in the blanks choosing the appropriate word/phrase",
       "opts": {
-        "a": "Ifhehadnot",
-        "b": "Ifhedidnot",
-        "c": "Havingnot",
-        "d": "Ifhewouldnot"
+        "a": "Ifhe had not",
+        "b": "Ifhe did not",
+        "c": "Having not",
+        "d": "Ifhe would not"
       },
       "marked": null,
       "cov": {
@@ -463,7 +463,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "cometomyrescue,[wouldhavebeenkilled.",
+      "q": "come to my rescue, [ would have been killed.",
       "multi": false
     },
     {
@@ -471,7 +471,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,19-26):Fillintheblankschoosingtheappropriateword/phrase",
+      "direction": "Directions (Question Nos, 19 - 26) : Fill in the blanks choosing the appropriate word/phrase",
       "opts": {
         "a": "disclose",
         "b": "revive",
@@ -486,7 +486,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Wechosetoourviewsinthelightofthenewinformation.",
+      "q": "We chose to our views in the light of the new information.",
       "multi": false
     },
     {
@@ -494,12 +494,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,19-26):Fillintheblankschoosingtheappropriateword/phrase",
+      "direction": "Directions (Question Nos, 19 - 26) : Fill in the blanks choosing the appropriate word/phrase",
       "opts": {
-        "a": "blowdown",
+        "a": "blow down",
         "b": "blowup",
-        "c": "blowover",
-        "d": "blowout"
+        "c": "blow over",
+        "d": "blow out"
       },
       "marked": null,
       "cov": {
@@ -509,7 +509,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theterroristsmadeavainattempttothebridge.",
+      "q": "The terrorists made a vain attempt to the bridge.",
       "multi": false
     },
     {
@@ -517,11 +517,11 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,19-26):Fillintheblankschoosingtheappropriateword/phrase",
+      "direction": "Directions (Question Nos, 19 - 26) : Fill in the blanks choosing the appropriate word/phrase",
       "opts": {
         "a": "Should",
         "b": "Would",
-        "c": "While(ad)Wil"
+        "c": "While (ad) Wil"
       },
       "marked": null,
       "cov": {
@@ -530,7 +530,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "youmeetmysoninthemarket,askhimtocallme.",
+      "q": "you meet my son in the market, ask him to call me.",
       "multi": false
     },
     {
@@ -538,11 +538,11 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.27-31):Fillintheblankswiththemostappropriateformoftheverbs",
+      "direction": "Directions (Question Nos. 27 - 31): Fill in the blanks with the most appropriate form of the verbs",
       "opts": {
         "a": "saw",
-        "b": "haveseen",
-        "c": "hadseen",
+        "b": "have seen",
+        "c": "had seen",
         "d": "willsee"
       },
       "marked": null,
@@ -553,7 +553,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "1alotofstraydogsinthatneighbourhood.",
+      "q": "1 alot of stray dogs in that neighbourhood.",
       "multi": false
     },
     {
@@ -561,12 +561,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.27-31):Fillintheblankswiththemostappropriateformoftheverbs",
+      "direction": "Directions (Question Nos. 27 - 31): Fill in the blanks with the most appropriate form of the verbs",
       "opts": {
         "a": "willlive",
-        "b": "willhavelived",
-        "c": "havelived",
-        "d": "willhavebeenliving."
+        "b": "will have lived",
+        "c": "have lived",
+        "d": "will have been living ."
       },
       "marked": null,
       "cov": {
@@ -576,7 +576,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "BynextAugust,Iinthisvillageforadecade.",
+      "q": "By next August, I in this village for a decade.",
       "multi": false
     },
     {
@@ -584,11 +584,11 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.27-31):Fillintheblankswiththemostappropriateformoftheverbs",
+      "direction": "Directions (Question Nos. 27 - 31): Fill in the blanks with the most appropriate form of the verbs",
       "opts": {
         "a": "might",
-        "b": "may.",
-        "c": "shall({d)can"
+        "b": "may .",
+        "c": "shall ({d) can"
       },
       "marked": null,
       "cov": {
@@ -597,7 +597,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Iworkhardthatmykidshaveallthetuxuriesintheworld.",
+      "q": "I work hard that my kids have all the tuxuries in the world.",
       "multi": false
     },
     {
@@ -605,12 +605,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.27-31):Fillintheblankswiththemostappropriateformoftheverbs",
+      "direction": "Directions (Question Nos. 27 - 31): Fill in the blanks with the most appropriate form of the verbs",
       "opts": {
         "a": "searched",
-        "b": "hadsearch",
-        "c": "hadsearched",
-        "d": "_wassearching"
+        "b": "had search",
+        "c": "had searched",
+        "d": "_ was searching"
       },
       "marked": null,
       "cov": {
@@ -620,7 +620,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Yesterday,sheforherlostdogsincemorning.",
+      "q": "Yesterday, she for her lost dog since morning.",
       "multi": false
     },
     {
@@ -628,11 +628,11 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.27-31):Fillintheblankswiththemostappropriateformoftheverbs",
+      "direction": "Directions (Question Nos. 27 - 31): Fill in the blanks with the most appropriate form of the verbs",
       "opts": {
-        "a": "hadworked",
-        "b": "hadbeenworking",
-        "c": "hasworked",
+        "a": "had worked",
+        "b": "had been working",
+        "c": "has worked",
         "d": "worked"
       },
       "marked": null,
@@ -643,7 +643,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Beforepursuingentrepreneurship,MaryveryhardinITdomain.",
+      "q": "Before pursuing entrepreneurship, Mary very hard in IT domain.",
       "multi": false
     },
     {
@@ -651,7 +651,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.32-36):Identifythecorrectnotionexpressedbyeachofthefollowing",
+      "direction": "Directions (Question Nos. 32 - 36) : Identify the correct notion expressed by each of the following",
       "opts": {
         "a": "Affirmative",
         "b": "Imperative",
@@ -666,7 +666,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hetoldusnottomakesomuchnoise.",
+      "q": "He told us not to make so much noise.",
       "multi": false
     },
     {
@@ -674,7 +674,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.32-36):Identifythecorrectnotionexpressedbyeachofthefollowing",
+      "direction": "Directions (Question Nos. 32 - 36) : Identify the correct notion expressed by each of the following",
       "opts": {
         "a": "Assertive",
         "b": "Declarative",
@@ -689,7 +689,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Asalittleboy,MawialovedthebookCharlotte’sWeb.",
+      "q": "Asa little boy, Mawia loved the book Charlotte’s Web.",
       "multi": false
     },
     {
@@ -697,7 +697,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.32-36):Identifythecorrectnotionexpressedbyeachofthefollowing",
+      "direction": "Directions (Question Nos. 32 - 36) : Identify the correct notion expressed by each of the following",
       "opts": {
         "a": "Affirmative",
         "b": "Imperative",
@@ -712,7 +712,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Sheenjoysreadingbooks.",
+      "q": "She enjoys reading books.",
       "multi": false
     },
     {
@@ -720,7 +720,7 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.32-36):Identifythecorrectnotionexpressedbyeachofthefollowing",
+      "direction": "Directions (Question Nos. 32 - 36) : Identify the correct notion expressed by each of the following",
       "opts": {
         "a": "Exclamatory",
         "b": "Imperative",
@@ -735,7 +735,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Don’tyoueverborrowmylaptopagainwithoutasking!",
+      "q": "Don’t you ever borrow my laptop again without asking!",
       "multi": false
     },
     {
@@ -743,7 +743,7 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.32-36):Identifythecorrectnotionexpressedbyeachofthefollowing",
+      "direction": "Directions (Question Nos. 32 - 36) : Identify the correct notion expressed by each of the following",
       "opts": {
         "a": "Assertive",
         "b": "Declarative",
@@ -758,7 +758,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Mayyoubeblessedwithlonglife.",
+      "q": "May you be blessed with long life.",
       "multi": false
     },
     {
@@ -766,12 +766,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.37-41);Outofthefouralternatives,choosetheonewhichstatesthekind",
+      "direction": "Directions (Question Nos. 37-  41) ; Out of the four alternatives, choose the one which states the kind",
       "opts": {
-        "a": "Nounclause",
-        "b": "Adverbclause",
-        "c": "Adjectivephrase",
-        "d": "Adjectiveclause"
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective phrase",
+        "d": "Adjective clause"
       },
       "marked": null,
       "cov": {
@@ -781,7 +781,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thecarthatheboughtisveryexpensive.",
+      "q": "The car that he bought is very expensive.",
       "multi": false
     },
     {
@@ -789,12 +789,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.37-41);Outofthefouralternatives,choosetheonewhichstatesthekind",
+      "direction": "Directions (Question Nos. 37-  41) ; Out of the four alternatives, choose the one which states the kind",
       "opts": {
-        "a": "Nounclause",
-        "b": "Adjectivephrase",
-        "c": "Adverbclause",
-        "d": "Adjectiveclause"
+        "a": "Noun clause",
+        "b": "Adjective phrase",
+        "c": "Adverb clause",
+        "d": "Adjective clause"
       },
       "marked": null,
       "cov": {
@@ -804,7 +804,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Youthisthetimewhenseedsofcharacteraresown.",
+      "q": "Youth is the time when seeds of character are sown.",
       "multi": false
     },
     {
@@ -812,12 +812,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.37-41);Outofthefouralternatives,choosetheonewhichstatesthekind",
+      "direction": "Directions (Question Nos. 37-  41) ; Out of the four alternatives, choose the one which states the kind",
       "opts": {
-        "a": "Nounclause",
-        "b": "Finitesubordinateclause",
-        "c": "Non-finitesubordinateclause",
-        "d": "Adjectiveclause"
+        "a": "Noun clause",
+        "b": "Finite subordinate clause",
+        "c": "Non-finite subordinate clause",
+        "d": "Adjective clause"
       },
       "marked": null,
       "cov": {
@@ -827,7 +827,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theproblemisthatwedon’thaveenoughtime.",
+      "q": "The problem is that we don’t have enough time.",
       "multi": false
     },
     {
@@ -835,12 +835,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.37-41);Outofthefouralternatives,choosetheonewhichstatesthekind",
+      "direction": "Directions (Question Nos. 37-  41) ; Out of the four alternatives, choose the one which states the kind",
       "opts": {
-        "a": "Nounclause",
-        "b": "Adverbclause",
-        "c": "Adjectivephrase",
-        "d": "Adjectiveclause (a)Nounclause(b)Finitesubordinateclause (c)Non-finitesubordinateclause(d)Adjectiveclause"
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective phrase",
+        "d": "Adjective clause (a) Noun clause (b) Finite subordinate clause (c) Non-finite subordinate clause (d) Adjective clause"
       },
       "marked": null,
       "cov": {
@@ -850,7 +850,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thebookonthetableisamazing",
+      "q": "The book on the table is amazing",
       "multi": false
     },
     {
@@ -858,12 +858,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.42-46):Outofthefouralternatives,choosetheonewhichbestexpresses",
+      "direction": "Directions (Question Nos. 42 - 46) : Out of the four alternatives, choose the one which best expresses",
       "opts": {
-        "a": "Mymotheraskedmeareyougoingtoschooltoday.",
-        "b": "Mymotheraskedmeifwasgoingtoschoolthatday.",
-        "c": "Mymotheraskedmeif1wasgoingtoschooltoday.",
-        "d": "Mymotheraskedmeif]amgoingtoschooltoday.,"
+        "a": "My mother asked me are you going to school today.",
+        "b": "My mother asked me if was going to school that day.",
+        "c": "My mother asked me if 1 was going to school today.",
+        "d": "My mother asked me if] am going to school today. ,"
       },
       "marked": null,
       "cov": {
@@ -873,7 +873,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Mymothersaidtome,“Areyougoingtoschooltoday?”",
+      "q": "My mother said to me, “Are you going to school today?”",
       "multi": false
     },
     {
@@ -881,12 +881,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.42-46):Outofthefouralternatives,choosetheonewhichbestexpresses",
+      "direction": "Directions (Question Nos. 42 - 46) : Out of the four alternatives, choose the one which best expresses",
       "opts": {
-        "a": "ShesaidtoGeorge,“Comeshoppingwithme.”",
-        "b": "SheaskedGeorge,“Pleasecomeshoppingwithme.”",
-        "c": "“Willyougoshoppingwithme?”,shesaidtoGeorge.",
-        "d": "SheaskedGeorgepleasegoshoppingwithme."
+        "a": "She said to George, “Come shopping with me.”",
+        "b": "She asked George, “Please come shopping with me.”",
+        "c": "“Will you go shopping with me?”, she said to George.",
+        "d": "She asked George please go shopping with me."
       },
       "marked": null,
       "cov": {
@@ -896,7 +896,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "SheaskedGeorgetogoshoppingwithher.",
+      "q": "She asked George to go shopping with her.",
       "multi": false
     },
     {
@@ -904,12 +904,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.42-46):Outofthefouralternatives,choosetheonewhichbestexpresses",
+      "direction": "Directions (Question Nos. 42 - 46) : Out of the four alternatives, choose the one which best expresses",
       "opts": {
-        "a": "Timsaidthathehadworkedlatelastnight.",
-        "b": "Timsaidthathehadworkedlatethepreviousnight.",
-        "c": "Timsaidhewasworkinglatelastnight.",
-        "d": "Timsaidthatheisworkinglatelastnight."
+        "a": "Tim said that he had worked late last night.",
+        "b": "Tim said that he had worked late the previous night.",
+        "c": "Tim said he was working late last night.",
+        "d": "Tim said that he is working late last night."
       },
       "marked": null,
       "cov": {
@@ -919,7 +919,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Timsaid,“Ihadworkedlatelastnight.”",
+      "q": "Tim said, “I had worked late last night.”",
       "multi": false
     },
     {
@@ -927,12 +927,12 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.42-46):Outofthefouralternatives,choosetheonewhichbestexpresses",
+      "direction": "Directions (Question Nos. 42 - 46) : Out of the four alternatives, choose the one which best expresses",
       "opts": {
-        "a": "Hesaid,“ThoughIcame,itisagainstmywill.”",
-        "b": "Hesaid,“ThoughIhadcome,itwasagainstmywill.”",
-        "c": "Hesaid,“Thoughihavecome,itisagainstmywill.”",
-        "d": "Hesaid,“Ihavecome,butitisagainstmywill.”"
+        "a": "He said, “Though I came, it is against my will.”",
+        "b": "He said, “Though I had come, it was against my will.”",
+        "c": "He said, “Though i have come, it is against my will.”",
+        "d": "He said, “I have come, but it is against my will.”"
       },
       "marked": null,
       "cov": {
@@ -942,7 +942,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hesaidthatthoughhehadcome,itwasagainsthiswill.",
+      "q": "He said that though he had come, it was against his will.",
       "multi": false
     },
     {
@@ -950,12 +950,12 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.42-46):Outofthefouralternatives,choosetheonewhichbestexpresses",
+      "direction": "Directions (Question Nos. 42 - 46) : Out of the four alternatives, choose the one which best expresses",
       "opts": {
-        "a": "Shesaidthatwewillanalyseitthenextday.",
-        "b": "Shesaidthatwewouldanalyseitthenextday.",
-        "c": "Shesaidthattheywillanalyseitthenextday.",
-        "d": "Shesaidthattheywouldanalyseitthenextday."
+        "a": "She said that we will analyse it the next day.",
+        "b": "She said that we would analyse it the next day.",
+        "c": "She said that they will analyse it the next day.",
+        "d": "She said that they would analyse it the next day."
       },
       "marked": null,
       "cov": {
@@ -965,7 +965,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shesaid,“Wewillanalysethistomorrow.”",
+      "q": "She said, “We will analyse this tomorrow.”",
       "multi": false
     },
     {
@@ -973,7 +973,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.47-56):Identifythepartofspeechoftheunderlinedwordsbychoosing",
+      "direction": "Directions (Question Nos. 47 - 56) : Identify the part of speech of the underlined words by choosing",
       "opts": {
         "a": "Verb",
         "b": "Adverb",
@@ -988,7 +988,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iseldomgooutthesedays.",
+      "q": "I seldom go out these days.",
       "multi": false
     },
     {
@@ -996,7 +996,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.47-56):Identifythepartofspeechoftheunderlinedwordsbychoosing",
+      "direction": "Directions (Question Nos. 47 - 56) : Identify the part of speech of the underlined words by choosing",
       "opts": {
         "a": "Adverb",
         "b": "Pronoun",
@@ -1011,7 +1011,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hereceivedasummonstoday.",
+      "q": "He received a summons today.",
       "multi": false
     },
     {
@@ -1019,10 +1019,10 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.47-56):Identifythepartofspeechoftheunderlinedwordsbychoosing",
+      "direction": "Directions (Question Nos. 47 - 56) : Identify the part of speech of the underlined words by choosing",
       "opts": {
         "a": "Noun",
-        "b": "Pronoun.",
+        "b": "Pronoun .",
         "c": "Adverb",
         "d": "Adjective"
       },
@@ -1034,7 +1034,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thisisajuniorschool.",
+      "q": "This isa junior school.",
       "multi": false
     },
     {
@@ -1042,7 +1042,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.47-56):Identifythepartofspeechoftheunderlinedwordsbychoosing",
+      "direction": "Directions (Question Nos. 47 - 56) : Identify the part of speech of the underlined words by choosing",
       "opts": {
         "a": "Conjunction",
         "b": "Pronoun",
@@ -1057,7 +1057,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Putthesebooksontheshelfabove.~",
+      "q": "Put these books on the shelf above. ~",
       "multi": false
     },
     {
@@ -1065,7 +1065,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.47-56):Identifythepartofspeechoftheunderlinedwordsbychoosing",
+      "direction": "Directions (Question Nos. 47 - 56) : Identify the part of speech of the underlined words by choosing",
       "opts": {
         "a": "Preposition",
         "b": "Adjective",
@@ -1080,7 +1080,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Weeatthatwemaylive.",
+      "q": "We eat that we may live.",
       "multi": false
     },
     {
@@ -1088,7 +1088,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.47-56):Identifythepartofspeechoftheunderlinedwordsbychoosing",
+      "direction": "Directions (Question Nos. 47 - 56) : Identify the part of speech of the underlined words by choosing",
       "opts": {
         "a": "Adjective",
         "b": "Noun",
@@ -1103,7 +1103,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theproceedsweredepositedinthecourt.",
+      "q": "The proceeds were deposited in the court.",
       "multi": false
     },
     {
@@ -1111,7 +1111,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.47-56):Identifythepartofspeechoftheunderlinedwordsbychoosing",
+      "direction": "Directions (Question Nos. 47 - 56) : Identify the part of speech of the underlined words by choosing",
       "opts": {
         "a": "Pronoun,",
         "b": "Preposition",
@@ -1126,7 +1126,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Everyseatwasoccupied.",
+      "q": "Every seat was occupied.",
       "multi": false
     },
     {
@@ -1134,7 +1134,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.47-56):Identifythepartofspeechoftheunderlinedwordsbychoosing",
+      "direction": "Directions (Question Nos. 47 - 56) : Identify the part of speech of the underlined words by choosing",
       "opts": {
         "a": "Adverb",
         "b": "Adjective",
@@ -1149,7 +1149,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heisrichenougthomaintainacar.",
+      "q": "He is rich enougtho  maintain a car.",
       "multi": false
     },
     {
@@ -1157,7 +1157,7 @@
       "page": 8,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.47-56):Identifythepartofspeechoftheunderlinedwordsbychoosing",
+      "direction": "Directions (Question Nos. 47 - 56) : Identify the part of speech of the underlined words by choosing",
       "opts": {
         "a": "Preposition",
         "b": "Verb",
@@ -1172,7 +1172,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthisboxfor?",
+      "q": "What is this box for?",
       "multi": false
     },
     {
@@ -1180,7 +1180,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.47-56):Identifythepartofspeechoftheunderlinedwordsbychoosing",
+      "direction": "Directions (Question Nos. 47 - 56) : Identify the part of speech of the underlined words by choosing",
       "opts": {
         "a": "Pronoun",
         "b": "Preposition",
@@ -1195,7 +1195,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thatismyopiniononthematter.",
+      "q": "That is my opinion on the matter.",
       "multi": false
     },
     {
@@ -1203,7 +1203,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.57-66):Fillintheblanksbychoosingtheappropriatemodalsfrom",
+      "direction": "Directions (Question Nos. 57 - 66) : Fill in the blanks by choosing the appropriate modals from",
       "opts": {
         "a": "Shall",
         "b": "Will",
@@ -1218,7 +1218,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "youdomeafavour?",
+      "q": "you do me a favour?",
       "multi": false
     },
     {
@@ -1226,10 +1226,10 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.57-66):Fillintheblanksbychoosingtheappropriatemodalsfrom",
+      "direction": "Directions (Question Nos. 57 - 66) : Fill in the blanks by choosing the appropriate modals from",
       "opts": {
         "a": "oughtto",
-        "b": "usedto",
+        "b": "used to",
         "c": "need",
         "d": "dare"
       },
@@ -1241,7 +1241,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hepayyoutheloanheowesyou.",
+      "q": "He pay you the loan he owes you.",
       "multi": false
     },
     {
@@ -1249,12 +1249,12 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.57-66):Fillintheblanksbychoosingtheappropriatemodalsfrom",
+      "direction": "Directions (Question Nos. 57 - 66) : Fill in the blanks by choosing the appropriate modals from",
       "opts": {
         "a": "should",
-        "b": "oughtto",
+        "b": "ought to",
         "c": "must",
-        "d": "_usedto"
+        "d": "_ used to"
       },
       "marked": null,
       "cov": {
@@ -1264,7 +1264,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hebeatleastsixty.",
+      "q": "He be at least sixty.",
       "multi": false
     },
     {
@@ -1272,7 +1272,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.57-66):Fillintheblanksbychoosingtheappropriatemodalsfrom",
+      "direction": "Directions (Question Nos. 57 - 66) : Fill in the blanks by choosing the appropriate modals from",
       "opts": {
         "a": "shall",
         "b": "should",
@@ -1287,7 +1287,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Idon’tthinkIbeabletogo.",
+      "q": "I don’t thinkI  be able to go.",
       "multi": false
     },
     {
@@ -1295,7 +1295,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.57-66):Fillintheblanksbychoosingtheappropriatemodalsfrom",
+      "direction": "Directions (Question Nos. 57 - 66) : Fill in the blanks by choosing the appropriate modals from",
       "opts": {
         "a": "should",
         "b": "will",
@@ -1310,7 +1310,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iwishhenotplaymusicsoloudly.",
+      "q": "I wish he not play music so loudly.",
       "multi": false
     },
     {
@@ -1318,12 +1318,12 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.57-66):Fillintheblanksbychoosingtheappropriatemodalsfrom",
+      "direction": "Directions (Question Nos. 57 - 66) : Fill in the blanks by choosing the appropriate modals from",
       "opts": {
         "a": "might",
         "b": "would",
         "c": "should",
-        "d": "}must"
+        "d": "} must"
       },
       "marked": null,
       "cov": {
@@ -1333,7 +1333,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Taketheraincoatasitrainlater.",
+      "q": "Take the raincoat as it rain later.",
       "multi": false
     },
     {
@@ -1341,7 +1341,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.57-66):Fillintheblanksbychoosingtheappropriatemodalsfrom",
+      "direction": "Directions (Question Nos. 57 - 66) : Fill in the blanks by choosing the appropriate modals from",
       "opts": {
         "a": "shall",
         "b": "must",
@@ -1356,7 +1356,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Itbedifficulttoliveamidstwar.",
+      "q": "It be difficult to live amidst war.",
       "multi": false
     },
     {
@@ -1364,7 +1364,7 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.57-66):Fillintheblanksbychoosingtheappropriatemodalsfrom",
+      "direction": "Directions (Question Nos. 57 - 66) : Fill in the blanks by choosing the appropriate modals from",
       "opts": {
         "a": "have",
         "b": "need",
@@ -1379,7 +1379,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Youcomeandhavedinnerwithme.",
+      "q": "You come and have dinner with me.",
       "multi": false
     },
     {
@@ -1387,12 +1387,12 @@
       "page": 9,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.57-66):Fillintheblanksbychoosingtheappropriatemodalsfrom",
+      "direction": "Directions (Question Nos. 57 - 66) : Fill in the blanks by choosing the appropriate modals from",
       "opts": {
         "a": "shall",
         "b": "will",
         "c": "should",
-        "d": "would eeeEEK"
+        "d": "would eee EEK"
       },
       "marked": null,
       "cov": {
@@ -1402,7 +1402,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thewoundnothealinspiteofallthetreatment",
+      "q": "The wound not heal in spite of all the treatment",
       "multi": false
     }
   ],
@@ -1411,29 +1411,29 @@
       "n": 1,
       "part": "A",
       "page": 2,
-      "text": "Makeaprécisofthefollowingpassageinaboutone-thirdofitsoriginallength.Supplyasuitabletitle. (14) Gandhiji’sthoughtprovidesamarkedcontrastwithMarxisminthatthelatterbelievedthatthe class-conflictisahistoricalfactandinevitableinthenatureofmanandtheformerthatclassconflict arisesonlywhenmandoesnotremainman.Hebelievedthatcapitalandlabourshouldsupplement andhelpeachother.Theyshouldbeagreatfamilylivinginunityandharmony,capitalistsnotonly lookingtothematerialwelfareofthelabourers,buttheirmoralwelfarealsoastrusteesforthewelfare ofthelabouringclassesunderthem. Butthatdoesnotmeanthatthecapitalistswerethestrongguardiansoftheweaklabourers.He regardedbothtobeequallypowerful.Thatiswhyhesaid,“Weinvitethecapitalisttoregardhimself asatrusteeforthoseonwhomhedependsforthemaking,theretentionandtheincreaseofhis capital.Norneedtheworkerwaitforhisconversion.Ifcapitalispowersoiswork,Eitherpowercan beuseddestructivelyorcreatively.Eitherisdependentontheother.” Thismustnotbeunderstoodtobe,again,asortof“ceasefire”betweentwoequallystrong adversaries.Hepicturedthatharmonybetweencapitalandlabourwasdesirableandpossible.This necessitatedachangeinattitude.Hefelt,“Capitalandlabourneednotbeantagonistictoeachother. Tcannotpicturetomyselfatimewhennomanshailbericherthananother.But]dopicturetomyself atimewhentherichwillspurntoenrichthemselvesattheexpenseofthepoorandthepoorwillcease toenvytherich.Eveninamostperfectworldweshallfailtoavoidinequalities,butwecanandmust- avoidstrifeandbitterness.”",
+      "text": "Make a précis of the following passage in about one-third of its original length. Supply a suitable title. (14) Gandhiji’s thought provides a marked contrast with Marxism in that the latter believed that the class-conflict is a historical fact and inevitable in the nature of man and the former that class conflict arises only when man does not remain man. He believed that capital and labour should supplement and help each other. They should be a great family living in unity and harmony, capitalists not only looking to the material welfare of the labourers, but their moral welfare also as trustees for the welfare of the labouring classes under them. But that does not mean that the capitalists were the strong guardians of the weak labourers. He regarded both to be equally powerful. That is why he said, “We invite the capitalist to regard himself as a trustee for those on whom he depends for the making, the retention and the increase of his capital. Nor need the worker wait for his conversion. If capital is power so is work, Either power can be used destructively or creatively. Either is dependent on the other.” This must not be understood to be, again, a sort of “ceasefire” between two equally strong adversaries. He pictured that harmony between capital and labour was desirable and possible. This necessitated a change in attitude. He felt, “Capital and labour need not be antagonistic to each other. Tcannot picture to myself a time when no man shail be richer than another. But] do picture to myself atime when the rich will spurn to enrich themselves at the expense of the poor and the poor will cease to envy the rich. Even in a most perfect world we shall fail to avoid inequalities, but we can and must - avoid strife and bitterness.”",
       "subparts": {}
     },
     {
       "n": 2,
       "part": "A",
       "page": 2,
-      "text": "(a)Thereisapubliclibraryinyourlocality.Itremainsclosedonweekendsandpublicholidays.",
+      "text": "(a) There isa public library in your locality. It remains closed on weekends and public holidays.",
       "subparts": {
-        "a": "Thereisapubliclibraryinyourlocality.Itremainsclosedonweekendsandpublicholidays. WritealettertotheLibrarianrequestinghimtokeepthelibraryopenonholidays.(10) OR",
-        "b": "Asaconcemedcitizen,draftanopenlettertotheChairmanofyourlocality,drawingattention totheneedforvocationaltrainingamongtheyouthinyourlocalityandrequestinghim/herto makenecessaryarrangementsforthesaidcause.(furnishnecessarydetails)"
+        "a": "There isa public library in your locality. It remains closed on weekends and public holidays. Write a letter to the Librarian requesting him to keep the library open on holidays. (10) OR",
+        "b": "Asaconcemed citizen, draft an open letter to the Chairman of your locality, drawing attention to the need for vocational training among the youth in your locality and requesting him/her to make necessary arrangements for the said cause. (furnish necessary details)"
       }
     },
     {
       "n": 3,
       "part": "A",
       "page": 2,
-      "text": "Readthefollowingpassagecarefullyandanswerthequestionsthatfollow: India’se-commercesector,poisedtogrowfourtimesto$150billionby2022,isstilla workinprogresswhenitcomestosafeguardingcustomerinterest.Consumersarestillcompelledto takewildchancesinonlinetransactions.Thereislittletheycandoiftheircallsgowrong.Returnsand :reimbursementsareriskyandcumbersome.Therearenoauthenticwaystofigureoutifproduct reviews,ratingsorevendiscountsaregenuine.So,itishearteningtoseethegovernmentcomingup withasetofguidelinestoprotectinterestsofconsumers.Theguidelinesreleasedlastweekbythe ConsumerAffairsMinistryinthisregardemphasizethatane-commerceentityshallnotinfluencethe priceofthegoodsorservices,adoptanyunfairordeceptivemethodstoinfluencetransactional decisionsofconsumersorfalselyrepresentthemselvesasconsumersandpostreviewsaboutgoods andservices.Theguidelinesonreturnsandrefundsfavourconsumers.Themessageseemssimple:If onlinecompanieswanttodupeconsumerstoearnextrabucks,they’reintrouble. Series-D-3- Clearly,theMinistry’sthinkingseemstobeinlinewiththewaytheCentre’sapproachto regulatingthefast-growinge-commercesector.Itis,however,worthconsideringwhetherthe DepartmentofPromotionofIndustryandInternalTrade(thenDIPP)willstriketherightbalance betweenregulatingconsumerinterestsandencouraginginnovationandinvestmentwithoutdiscriminating againstaparticularclassofinvestors.Nowmarketplaceentitieswon’tbeabletobuymorethan25 percentfromasinglevendor,givediscountsonproductsorsellthegoodsofthecompaniesinwhich thereisequityparticipationbythemarketplaceentity.Thechangeshadirkedforeigne-tailerswho felttheruleswouldjeopardizetheirbusinessmodelsandcouldcostthemtimeandmoney.Butanecdotal evidencedoesnotentirelyseemtobearthatout. TheDPIITisalsoframingane-commercepolicyand,liketheConsumerAffairsMinistry, hasputupthedraftforcomments.Thedrafttalksaboutthecountryretainingownershipandcontrol ofdatageneratedwithinthecountry,rigorousmonitoringofcross-borderimports,placingthe responsibilityofconsumerprotectionontheintermediaryandaddressingtheissueofpiracy.That said,theelementofindecisionoverdatalocalisationrequirementisstillaworry.Attemptsmadeby boththeDPIITandtheMeitYinthee-commercepolicyandthedataprotectionpolicy,respectively, tomakeacaseforstorageofpersonaldatalocally(alongwiththeRBIinthecaseofpayment systems)havepredictablyresultedinalotofprotestsfromtheEUandUSentities.WhiletheCentre iscertainlyonasoundwickethere,itshouldtakeacallsoon-withoutsuccumbingtotherecent tendencytoover-regulatebusiness.",
+      "text": "Read the following passage carefully and answer the questions that follow: India’s e-commerce sector, poised to grow four times to $150 billion by 2022, is still a work in progress when it comes to safeguarding customer interest. Consumers are still compelled to take wild chances in online transactions. There is little they can do if their calls go wrong. Returns and : reimbursements are risky and cumbersome. There are no authentic ways to figure out if product reviews, ratings or even discounts are genuine. So, itis heartening to see the government coming up with a set of guidelines to protect interests of consumers. The guidelines released last week by the Consumer Affairs Ministry in this regard emphasize that an e-commerce entity shall not influence the price of the goods or services, adopt any unfair or deceptive methods to influence transactional decisions of consumers or falsely represent themselves as consumers and post reviews about goods and services. The guidelines on returns and refunds favour consumers. The message seems simple: If online companies want to dupe consumers to earn extra bucks, they’re in trouble. Series - D -3- Clearly, the Ministry’s thinking seems to be in line with the way the Centre’s approach to regulating the fast-growing e-commerce sector. It is, however, worth considering whether the Department of Promotion of Industry and Internal Trade (then DIPP) will strike the right balance between regulating consumer interests and encouraging innovation and investment without discriminating against a particular class of investors. Now marketplace entities won’t be able to buy more than 25 per cent from a single vendor, give discounts on products or sell the goods of the companies in which there is equity participation by the marketplace entity. The changes had irked foreign e-tailers who felt the rules would jeopardize their business models and could cost them time and money. But anecdotal evidence does not entirely seem to bear that out. The DPIIT is also framing an e-commerce policy and, like the Consumer Affairs Ministry, has put up the draft for comments. The draft talks about the country retaining ownership and control of data generated within the country, rigorous monitoring of cross-border imports, placing the responsibility of consumer protection on the intermediary and addressing the issue of piracy. That said, the element of indecision over data localisation requirement is still a worry. Attempts made by both the DPIIT and the MeitY in the e-commerce policy and the data protection policy, respectively, to make a case for storage of personal data locally (along with the RBI in the case of payment systems) have predictably resulted in a lot of protests from the EU and US entities. While the Centre is certainly on a sound wicket here, it should take a call soon-without succumbing to the recent tendency to over-regulate business.",
       "subparts": {
-        "a": "Whatistheprospectofe-commercesectorinIndiianthefuture?Q)",
-        "b": "Whataretheproblemsfacedbythee-commercecustomersinIndiathesedaysasstatedin thepassage?(2)",
-        "c": "WhatistheopinionoftheGovernmentregardingstorageofdataasstatedinthepassage?(2)}",
-        "d": "WhatcanbethereasonbehindtheprotestsfromtheEUandUSentities?(2) {i)Deceivedi)Determine (ii)Rectify(iv)Tutor passage?qd) (i)ClumsyGi)Rewarding Gil)Easy(iv)Astute"
+        "a": "What is the prospect of e-commerce sector in Indiian  the future? Q)",
+        "b": "What are the problems faced by the e-commerce customers in India these days as stated in the passage? (2)",
+        "c": "What is the opinion of the Government regarding storage of data as stated in the passage?(2)}",
+        "d": "What can be the reason behind the protests from the EU and US entities? (2) {i) Deceive di) Determine (ii) Rectify (iv) Tutor passage? qd) (i) Clumsy Gi) Rewarding Gil) Easy (iv) Astute"
       }
     }
   ],

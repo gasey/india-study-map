@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Howaretheskillsof'asalespersonsimilartotheskillsthatweallrequireinourdaily tite?(2)",
-        "b": "Whatdoyoumeanbytheterm‘peopledobusinesswithpeople’?Giveexamples fromthepassage.@)",
-        "c": "Howdoesasalespersonneednotbe‘ontheroad’butyetdobusinessefficiently?(2)",
-        "d": "Whydocompanieshavesalesconferences?(2) (e)Whatisthepassageallabout?(2) (fExplaininyourownwordsthemeaningof:(2) @majorclients Gi)potentialcustomers (g)Giveatitletothepassage.Givereasonsforyourchoice.(3)"
+        "a": "How are the skills of'a salesperson similar to the skills that we all require in our daily tite? (2)",
+        "b": "What do you mean by the term ‘people do business with people’? Give examples from the passage. @)",
+        "c": "How does a salesperson need not be ‘on the road’ but yet do business efficiently? (2)",
+        "d": "Why do companies have sales conferences? (2) (e) What is the passage all about? (2) (f Explain in your own words the meaning of: (2) @ majorclients Gi) potential customers (g) Give a title to the passage. Give reasons for your choice. (3)"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Readthepassagecarefullyandanswerthequestionsgivenbelow: Somepeoplebelievethatyouhavetobeaspecialkindofapersontosellaproduct. Butalthoughitisclearthatasuccessfulsalesrepresentativedoesneedspecialtalentsandan outgoingpersonality,manyoftheskillsheusesareusedbyusall:webuildandmaintain relationshipswithdifferentkindsofpeople,welistentoandtakenoteofwhattheytellus, andweexplainthingstothemordiscussideaswiththem. Afirmmaydependontheirownsalesteamand/oronthesalesmanshipoftheir distributors,wholesalersorretailers.Butanycompanyneedstoestablishapersonal relationshipwithitsmajorclients(‘keyaccounts’)andpotentialcustomers(‘prospects’).It isoftensaidthat‘peopledobusinesswithpeople’:afirmdoesn’tjustdealimpersonallywith anotherfirm,butapersoninthebuyingdepartmentreceivespersonalvisitsfrompeople representingthefirm’ssuppliersonaregularbasis—orinthecaseofdepartmentstoresor chainstores,ateamofbuyersmaytravelaroundvisitingsuppliers, Keepingsalespeople‘ontheroad’ismuchmoreexpensivethanemployingthemto workintheofficeasmuchoftheirtimeisspentunproductivelytravelling,Telephoneselling mayusethistimemoreproductively,butaface-to-facemeetinganddiscussionismuch moreeffective.Companiesinvolvedintheexporttradeoftenhaveaseparateexportsales force,whosetravelandaccommodationexpensesmaybeveryhigh.Servicingoverseas customersmayconsequentlyoftenbedonebyphone,faxoremailandpersonalvisitsmay beinfrequent.Manyfirmsappointanoverseasagentordistributorwhoseownsalesforce takesoverresponsibilityforsellingtheirproductsinanothercountry. Asalesdepartmentconsistsofmanypeoplewhoarebasedindifferentpartsofthe countryortheworld,whodon’thavetheday-to-daycontactandopportunitiesfor communicatingwitheachotherthatoffice-basedstaffhave.Forthisreason,firmsholdregular salesconferenceswheretheirentiresalesforcecanmeet,receiveinformationandask questionsaboutnewproductsandreceivetraining. Answerthefollowingquestions:",
+      "q": "Read the passage carefully and answer the questions given below: Some people believe that you have to be a special kind of a person to sell a product. But although it is clear that a successful sales representative does need special talents and an outgoing personality, many of the skills he uses are used by us all: we build and maintain relationships with different kinds of people, we listen to and take note of what they tell us, and we explain things to them or discuss ideas with them. A firm may depend on their own sales team and/or on the salesmanship of their distributors, wholesalers or retailers. But any company needs to establish a personal relationship with its major clients (‘key accounts’) and potential customers (‘prospects’). It is often said that ‘people do business with people’: a firm doesn’t just deal impersonally with another firm, but a person in the buying department receives personal visits from people representing the firm’s suppliers on a regular basis — or in the case of department stores or chain stores, a team of buyers may travel around visiting suppliers, Keeping sales people ‘on the road’ is much more expensive than employing them to work in the office as much of their time is spent unproductively travelling, Telephone selling may use this time more productively, but a face-to-face meeting and discussion is much more effective. Companies involved in the export trade often have a separate export sales force, whose travel and accommodation expenses may be very high. Servicing overseas customers may consequently often be done by phone, fax or email and personal visits may be infrequent. Many firms appoint an overseas agent or distributor whose own sales force takes over responsibility for selling their products in another country. Asales department consists of many people who are based in different parts of the country or the world, who don’t have the day-to-day contact and opportunities for communicating with each other that office-based staff have. For this reason, firms hold regular sales conferences where their entire sales force can meet, receive information and ask questions about new products and receive training. Answer the following questions:",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Canvas:canvass",
-        "b": "Gait:gate",
-        "c": "Jealous:zealous",
-        "d": "Rout:route"
+        "a": "Canvas : canvass",
+        "b": "Gait : gate",
+        "c": "Jealous : zealous",
+        "d": "Rout: route"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Makesentenceswitheachwordtoshowtheirdifferencesinmeaning.(5x2=10)",
+      "q": "Make sentences with each word to show their differences in meaning. (5x2=10)",
       "multi": false
     },
     {
@@ -61,9 +61,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Abirdinthehandisworthtwointhebush",
-        "b": "Contentmentismorethanakingdom.",
-        "c": "Weliveindeedsnotinyears"
+        "a": "A bird in the hand is worth two in the bush",
+        "b": "Contentment is more than a kingdom.",
+        "c": "We live in deeds not in years"
       },
       "marked": null,
       "cov": {
@@ -72,7 +72,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Expandtheideacontainedinanytwoofthefollowing:(2x5=10)",
+      "q": "Expand the idea contained in any two of the following: (2x5=10)",
       "multi": false
     },
     {
@@ -82,10 +82,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Iwillgothe6:30bus.",
-        "b": "Thebankchargesinteresttenpercent.",
-        "c": "Hewasleft___—————sdeadonthefield.",
-        "d": "Shehasretiredprivatelife. (e)Hisappealsforfundsmet_sapoorresponse."
+        "a": "Iwill go the 6:30 bus.",
+        "b": "The bank charges interest ten per cent.",
+        "c": "Hewasleft___—————s dead on the field.",
+        "d": "Shehasretired private life. (e) Hisappealsforfundsmet_ sa poorresponse."
       },
       "marked": null,
       "cov": {
@@ -95,7 +95,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Fillintheblankswiththecorrectprepositions:(5xt=5)",
+      "q": "Fill in the blanks with the correct prepositions: (5xt=5)",
       "multi": false
     },
     {
@@ -105,10 +105,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Atloggerheads",
-        "b": "Bellthecat",
-        "c": "Fabianpolicy",
-        "d": "Holdwater (e)Putaspokeonthewheel(f)Rocktheboat (g)Sweatofthebrow(hb)Underacloud @)Chipoftheoldblock(j)_Afriendatcourt"
+        "a": "Atlogger heads",
+        "b": "Bell the cat",
+        "c": "Fabian policy",
+        "d": "Hold water (e) Puta spoke on the wheel (f) Rock the boat (g) Sweat of the brow (hb) Under a cloud @) Chip of the old block (j)_ A friend at court"
       },
       "marked": null,
       "cov": {
@@ -118,7 +118,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Makesentenceswiththefollowingidiomsandphrases:(10x1=10)",
+      "q": "Make sentences with the following idioms and phrases: (10x1=10)",
       "multi": false
     },
     {
@@ -128,10 +128,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Onemusthelphissiblings.(correctthesentence)",
-        "b": "Learningmakesamanperfect.(identifygerund)",
-        "c": "Wealladmireamanofcourage.(replacephrasewithclause)",
-        "d": "Alldesirewealthandsomeacquireit.(changetopassive) {e)Thereisnosmokewithoutfire.(changetoassertive)- (f)Hesaid,“Letuswaitfortheaward.”(changethenarration) (g)Myrightthereisnonetodispute.(changetocomplex) (h)Smallserviceistrueserviceitlasts.(useconnectingword) G@)Ispeakthetruth.]amnotafraidofit.(changetosimplesentence) G)Youmaybewrong.Hemaybewrong.Youcannotbothberight.(changetocompound) (k)Hissoleincomeiswhatheearnsbyhispen.(maketheprincipalclausenegative) ()NootherplanetisasbigasJupiter.(changethedegree)"
+        "a": "One must help his siblings. (correct the sentence)",
+        "b": "Learning makes a man perfect. (identify gerund)",
+        "c": "Weall admire a man of courage. (replace phrase with clause)",
+        "d": "All desire wealth and some acquire it. (change to passive) {e) There is no smoke without fire. (change to assertive) - (f) He said, “Let us wait for the award.” (change the narration) (g) My right there is none to dispute. (change to complex) (h) Small service is true service it lasts. (use connecting word) G@) Ispeak the truth. ] am not afraid of it. (change to simple sentence) G) You may be wrong. He may be wrong. You cannot both be right. (change to compound) (k) His sole income is what he earns by his pen. (make the principal clause negative) () No other planet is as big as Jupiter. (change the degree)"
       },
       "marked": null,
       "cov": {
@@ -141,7 +141,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Rewritethefollowingsentencesasdirected(anyten):(10x1=10)",
+      "q": "Rewrite the following sentences as directed (any ten): (10x1=10)",
       "multi": false
     },
     {
@@ -151,10 +151,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Ofallmyfriends,onlyone(have)writtentome.",
-        "b": "Honesty(write)onhisface.",
-        "c": "They(work)inthegardensincemorning.",
-        "d": "(Have)mylunch,Iresumedmywork. (ce)Hepraisedmefor(write)theletterthatcontainedtruth. RRRKE"
+        "a": "Ofall my friends, only one (have) written to me.",
+        "b": "Honesty (write) on his face.",
+        "c": "They (work) in the garden since morning.",
+        "d": "(Have) my lunch, I resumed my work. (ce) He praised me for (write) the letter that contained truth. RRR KE"
       },
       "marked": null,
       "cov": {
@@ -164,7 +164,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Fillintheblankswiththecorrectformofverbs:(5*1=5)",
+      "q": "Fill in the blanks with the correct form of verbs : (5*1=5)",
       "multi": false
     }
   ],

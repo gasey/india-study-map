@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AccordingtothedraftelectoralrollpublishedbytheStateElectiondepartmentinthemonthofJuly 2023,whichdistricthastheleasteligiblevotersinMizoram?",
+      "q": "According to the draft electoral roll published by the State Election department in the month of July 2023, which district has the least eligible voters in Mizoram?",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SpeakerofLokSabha",
-        "b": "ChiefJusticeofIndia",
-        "c": "ChiefElectionCommissionerofIndia",
-        "d": "MinisterofRailways"
+        "a": "Speaker of Lok Sabha",
+        "b": "Chief Justice of India",
+        "c": "Chief Election Commissioner of India",
+        "d": "Minister of Railways"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "DhananjayaYeshwantChandrachudisthepresent",
+      "q": "Dhananjaya Yeshwant Chandrachud is the present",
       "multi": false
     },
     {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthenameofaq-commercecompany,oneofthefastestgrowingtechnologystart-upsin IndianhistorywhoseCEOisAaditPalicha?",
+      "q": "What is the name of a q-commerce company, one of the fastest growing technology start-ups in Indian history whose CEO is Aadit Palicha?",
       "multi": false
     },
     {
@@ -84,10 +84,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "July27,2023andAugust3,2023.",
-        "b": "July28,2023andAugust5,2023.",
-        "c": "July26,2023andAugust2,2023.",
-        "d": "July25,2023andAugust1,2023."
+        "a": "July 27,2023 and August 3, 2023.",
+        "b": "July 28,2023 and August 5, 2023.",
+        "c": "July 26, 2023 and August 2, 2023.",
+        "d": "July 25,2023 and August 1, 2023."
       },
       "marked": null,
       "cov": {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThecontentiousForest(Conservation)AmendmentBill,2023waspassedbytheLokSabhaand Rajyarespectivelyon",
+      "q": "The contentious Forest (Conservation) Amendment Bill, 2023 was passed by the Lok Sabha and Rajya respectively on",
       "multi": false
     },
     {
@@ -108,7 +108,7 @@
       "direction": null,
       "opts": {
         "a": "Maharashtra",
-        "b": "UttarPradesh",
+        "b": "Uttar Pradesh",
         "c": "Kerala",
         "d": "Mizoram"
       },
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thestatethathaslaunchedthe‘ElderLine’14567servicewhichaimstorescuedestituteelderly individualsandprovidethemshelterinoldagehomes-",
+      "q": "The state that has launched the ‘Elder Line’ 14567 service which aims to rescue destitute elderly individuals and provide them shelter in old age homes-",
       "multi": false
     },
     {
@@ -131,7 +131,7 @@
       "direction": null,
       "opts": {
         "a": "Maharashtra",
-        "b": "UttarPradesh",
+        "b": "Uttar Pradesh",
         "c": "Rajasthan",
         "d": "Mizoram"
       },
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "India’sfirstprivatevirtualschoolswasrecognizedbywhichoneofthefollowingstates?",
+      "q": "India’s first private virtual schools was recognized by which one of the following states?",
       "multi": false
     },
     {
@@ -153,10 +153,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MukeshAmbani",
-        "b": "CyrusPoonawalla",
-        "c": "GautamAdani",
-        "d": "ShivNadar"
+        "a": "Mukesh Ambani",
+        "b": "Cyrus Poonawalla",
+        "c": "Gautam Adani",
+        "d": "Shiv Nadar"
       },
       "marked": null,
       "cov": {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThesecondrichestIndianasofAugust2023is",
+      "q": "The second richest Indian as of August 2023 is",
       "multi": false
     },
     {
@@ -177,9 +177,9 @@
       "direction": null,
       "opts": {
         "a": "Haryana",
-        "b": "TamilNadu",
+        "b": "Tamil Nadu",
         "c": "Sikkim",
-        "d": "Meghalaya :-2-"
+        "d": "Meghalaya : -2-"
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inordertoaddresslowvoterturn-outinthestateelection,theElectionCommissionofwhichoneof thefollowingstategovernmentshasintroduced‘Mission-300’and‘MyVote,MyValentine’?",
+      "q": "In order to address low voter turn-out in the state election, the Election Commission of which one of the following state governments has introduced ‘Mission-300’ and ‘My Vote, My Valentine’?",
       "multi": false
     },
     {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThecitizensofwhichcountryisdrawingapensionfromIndia(forrenderingtheirservicesinthe defensesector)inexcessoftheirtotaldefensebudgetofthecountry?",
+      "q": "The citizens of which country is drawing a pension from India (for rendering their services in the defense sector) in excess of their total defense budget of the country?",
       "multi": false
     },
     {
@@ -222,10 +222,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "5.7percentofGDP",
-        "b": "5.9percentofGDP",
-        "c": "6.1percentofGDP",
-        "d": "6.3percentofGDP"
+        "a": "5.7 per cent of GDP",
+        "b": "5.9 per cent of GDP",
+        "c": "6.1 percent of GDP",
+        "d": "6.3 per cent of GDP"
       },
       "marked": null,
       "cov": {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AccordingtothebudgetestimateintroducedbythefinanceministerMrs.NirmalaSitharaman,the targetedfiscaldeficitforthecurrentfinancialyear2023-24is",
+      "q": "According to the budget estimate introduced by the finance minister Mrs. Nirmala Sitharaman, the targeted fiscal deficit for the current financial year 2023-24 is",
       "multi": false
     },
     {
@@ -245,10 +245,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "150\"position",
-        "b": "157\"position",
-        "c": "161%position",
-        "d": "165\"position"
+        "a": "150\" position",
+        "b": "157\" position",
+        "c": "161% position",
+        "d": "165\" position"
       },
       "marked": null,
       "cov": {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatistherankofIndiaintheWorldPressFreedomIndex2023publishedbyReportersWithout Borders(RSF)?.",
+      "q": "What is the rank of India in the World Press Freedom Index 2023 published by Reporters Without Borders (RSF)? .",
       "multi": false
     },
     {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichstateisthefirststateinIndiatointroducedigitalhealthcardsformonitoringthenutritionlevels andcognitivedevelopmentofschoolchildren?",
+      "q": "Which state is the first state in India to introduce digital health cards for monitoring the nutrition levels and cognitive development of school children?",
       "multi": false
     },
     {
@@ -291,10 +291,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "12July2023",
-        "b": "14\"July2023",
-        "c": "17\"July2023",
-        "d": "21%July2023"
+        "a": "12 July 2023",
+        "b": "14\" July 2023",
+        "c": "17\" July 2023",
+        "d": "21% July 2023"
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhenwasChandrayaan-3,themostrecentlunarIndianSpaceResearchexplorationmissionlaunched?",
+      "q": "When was Chandrayaan-3, the most recent lunar Indian Space Research exploration mission launched?",
       "multi": false
     },
     {
@@ -314,9 +314,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "JammuandKashmir.",
-        "b": "HimachalPradesh",
-        "c": "ArunachalPradesh",
+        "a": "Jammu and Kashmir .",
+        "b": "Himachal Pradesh",
+        "c": "Arunachal Pradesh",
         "d": "Sikkim"
       },
       "marked": null,
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inwhichofthefollowingsthe‘LavenderFestival’wasrecentlyorganized?",
+      "q": "In which of the followings the ‘Lavender Festival’ was recently organized?",
       "multi": false
     },
     {
@@ -337,7 +337,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NewDelhi",
+        "a": "New Delhi",
         "b": "Mumbai",
         "c": "Thiruvananthapuram",
         "d": "Chennai"
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "India’sMinistryofCultureincollaborationwithInternationalBuddhistConfederationhostedthe ‘GlobalBuddhistSummit2023’inwhichofthefollowingcities?",
+      "q": "India’s Ministry of Culture in collaboration with International Buddhist Confederation hosted the ‘Global Buddhist Summit 2023’ in which of the following cities?",
       "multi": false
     },
     {
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HowmanytypesofreligionswillbecountedinthenextcensusofIndia?",
+      "q": "How many types of religions will be counted in the next census of India?",
       "multi": false
     },
     {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Accordingtotherecentgovernmentdata,halfofIndia’smigratingpopulationworksinwhichofthe followingblocks?",
+      "q": "According to the recent government data, half of India’s migrating population works in which of the following blocks?",
       "multi": false
     },
     {
@@ -406,10 +406,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BharatRatna2022",
-        "b": "ParamVirChakra2023",
-        "c": "GandhiPeacePrize2021",
-        "d": "ArjunaAward2022"
+        "a": "Bharat Ratna 2022",
+        "b": "Param Vir Chakra 2023",
+        "c": "Gandhi Peace Prize 2021",
+        "d": "Arjuna Award 2022"
       },
       "marked": null,
       "cov": {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheJuryheadedbythePrimeMinisterShriNarendraModi,afterduedeliberationson18\"June, 2023unanimouslydecidedtoselectGitaPress,Gorakhpurastherecipientofthe",
+      "q": "The Jury headed by the Prime Minister Shri Narendra Modi, after due deliberations on 18\" June, 2023 unanimously decided to select Gita Press, Gorakhpur as the recipient of the",
       "multi": false
     },
     {
@@ -429,10 +429,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BhartiAXALifeInsurance",
-        "b": "BajajAllianzLifeInsurance",
-        "c": "AvivaLifeInsurance",
-        "d": "AdityaBirlaSunLifeInsurance :3."
+        "a": "Bharti AXA Life Insurance",
+        "b": "Bajaj Allianz Life Insurance",
+        "c": "Aviva Life Insurance",
+        "d": "Aditya Birla Sun Life Insurance : 3."
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WinneroftheInsurerInnovationAward2023fortheAPACregionatthe8thWorldDigitalInsurance Awardsis",
+      "q": "Winner of the Insurer Innovation Award 2023 for the APAC region at the 8th World Digital Insurance Awards is",
       "multi": false
     },
     {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThePunjabAgriculturalUniversity(PAU)inLudhiana,developedanewvarietyofwheatcalled “PBWRSI’tocontrolobesityand",
+      "q": "The Punjab Agricultural University (PAU) in Ludhiana, developed a new variety of wheat called “PBW RSI’ to control obesity and",
       "multi": false
     },
     {
@@ -475,10 +475,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "StateBankofIndia",
-        "b": "CanaraBank",
-        "c": "PunjabNationalBank",
-        "d": "UnionBankofIndia"
+        "a": "State Bank of India",
+        "b": "Canara Bank",
+        "c": "Punjab National Bank",
+        "d": "Union Bank of India"
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingbanksemergedastheleadingpublicsectorbankinlendingtostate-owned corporationsandPublicSectorUndertakingsduring2022-23?",
+      "q": "Which of the following banks emerged as the leading public sector bank in lending to state-owned corporations and Public Sector Undertakings during 2022-23?",
       "multi": false
     },
     {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingstateshasachieved100percenthouseholdcoverageofbankingservices, extendingthemtoallsectionsofthepopulation?",
+      "q": "Which of the following states has achieved 100 percent household coverage of banking services, extending them to all sections of the population?",
       "multi": false
     },
     {
@@ -521,10 +521,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "OperationGanga",
-        "b": "OperationDeviShakti",
-        "c": "OperationDost",
-        "d": "OperationKaveri"
+        "a": "Operation Ganga",
+        "b": "Operation Devi Shakti",
+        "c": "Operation Dost",
+        "d": "Operation Kaveri"
       },
       "marked": null,
       "cov": {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthenameoftheoperationlaunchedbyIndiatoevacuateitsstrandedcitizensfromSudanin 2023?",
+      "q": "What is the name of the operation launched by India to evacuate its stranded citizens from Sudan in 2023?",
       "multi": false
     },
     {
@@ -544,7 +544,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "HimachalPradesh",
+        "a": "Himachal Pradesh",
         "b": "Mizoram",
         "c": "Manipur",
         "d": "Maharashtra"
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theworld’sfirstbamboocrashbarrierwasinstalledonahighwayinthestateof-",
+      "q": "The world’s first bamboo crash barrier was installed on a highway in the state of-",
       "multi": false
     },
     {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Accordingtoarecentgovernmentdata,whichcountryhasbeenthelargestinvestorinIndiaduring 2022-23?.",
+      "q": "According to a recent government data, which country has been the largest investor in India during 2022-23? .",
       "multi": false
     },
     {
@@ -590,10 +590,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "WorldEnvironmentDay2023",
-        "b": "WorldEarthDay2023",
-        "c": "WorldInvestmentDay2023",
-        "d": "WorldOzoneDay2023"
+        "a": "World Environment Day 2023",
+        "b": "World Earth Day 2023",
+        "c": "World Investment Day 2023",
+        "d": "World Ozone Day 2023"
       },
       "marked": null,
       "cov": {
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘InvestinOurPlanet’isthethemeof",
+      "q": "‘Invest in Our Planet’ is the theme of",
       "multi": false
     },
     {
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichcountryhasbeendeclaredthehappiestcountryintheworldaccordingto‘WorldHappiness Index2023’?",
+      "q": "Which country has been declared the happiest country in the world according to ‘World Happiness Index 2023’?",
       "multi": false
     },
     {
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thecountrythatrecentlybanned‘DwarfBullfighting’-aneventwheredwarvesdressedincostumes participatesinbullfighting",
+      "q": "The country that recently banned ‘Dwarf Bullfighting’-an event where dwarves dressed in costumes participates in bullfighting",
       "multi": false
     },
     {
@@ -662,7 +662,7 @@
         "a": "India",
         "b": "China",
         "c": "Brazil",
-        "d": "SouthAfrica"
+        "d": "South Africa"
       },
       "marked": null,
       "cov": {
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "The15'*BRICSSummitofAugust2023isbeinghostedby",
+      "q": "The 15'* BRICS Summit of August 2023 is being hosted by",
       "multi": false
     },
     {
@@ -685,7 +685,7 @@
         "a": "Lufthansa",
         "b": "Emirates",
         "c": "Qantas",
-        "d": "DeltaAirlines :-4-"
+        "d": "Delta Airlines : -4-"
       },
       "marked": null,
       "cov": {
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theworld’sfirstroboticcheck-inassistantcalled‘Sara’wasrecentlyunveiledbywhichofthefollowing airlines?",
+      "q": "The world’s first robotic check-in assistant called ‘Sara’ was recently unveiled by which of the following airlines?",
       "multi": false
     },
     {
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichUSstatebecamethefirstAmericanstatetopassaresolutioncondemningHindu-phobiaand anti-Hindubigotry?",
+      "q": "Which US state became the first American state to pass a resolution condemning Hindu-phobia and anti-Hindu bigotry?",
       "multi": false
     },
     {
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WiththeaccessionofFinlandin2023,thenumberofNATOmembershiphasnowstoodat",
+      "q": "With the accession of Finland in 2023, the number of NATO membership has now stood at",
       "multi": false
     },
     {
@@ -752,7 +752,7 @@
       "direction": null,
       "opts": {
         "a": "China",
-        "b": "India:",
+        "b": "India :",
         "c": "France",
         "d": "Germany"
       },
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheStatueofUnityiscurrentlythetalleststatueintheworld,standingat182meters(597feet)in heightandislocatedinwhichofthefollowingcountries?",
+      "q": "The Statue of Unity is currently the tallest statue in the world, standing at 182 meters (597 feet) in height and is located in which of the following countries?",
       "multi": false
     },
     {
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichcountryhasreleasedtheworld’sfirstdigitalgovernmentbondthatwastradedonadedicated blockchainplatform?",
+      "q": "Which country has released the world’s first digital government bond that was traded on a dedicated blockchain platform?",
       "multi": false
     },
     {
@@ -797,10 +797,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TokyoAirport",
-        "b": "HyderabadAirport",
-        "c": "LondonAirport",
-        "d": "SydneyAirport"
+        "a": "Tokyo Airport",
+        "b": "Hyderabad Airport",
+        "c": "London Airport",
+        "d": "Sydney Airport"
       },
       "marked": null,
       "cov": {
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichairporthasbeenacknowledgedastheworld’smostpunctualairportaccordingtoareport releasedbyaviationanalyticsfirmCirium?",
+      "q": "Which airport has been acknowledged as the world’s most punctual airport according to a report released by aviation analytics firm Cirium?",
       "multi": false
     },
     {
@@ -820,10 +820,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "India.",
+        "a": "India .",
         "b": "China",
         "c": "Russia",
-        "d": "SouthAfrica"
+        "d": "South Africa"
       },
       "marked": null,
       "cov": {
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheG20Summitisheldannuallywitharotatingpresidency,andin2023,whichcountryholdsthe presidency?",
+      "q": "The G20 Summit is held annually with a rotating presidency, and in 2023, which country holds the presidency?",
       "multi": false
     },
     {
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichcountryisrankedfirstontheHenleyPassportIndex2023?",
+      "q": "Which country is ranked first on the Henley Passport Index 2023?",
       "multi": false
     },
     {
@@ -866,10 +866,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Wolfwarriorstrategy",
-        "b": "Stringofpearl",
-        "c": "Pandadiplomacy",
-        "d": "Cabbagestrategy"
+        "a": "Wolf warrior strategy",
+        "b": "String of pearl",
+        "c": "Panda diplomacy",
+        "d": "Cabbage strategy"
       },
       "marked": null,
       "cov": {
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ChinahasbeenconstructinganartificialislandandencirclingdisputedareasintheSouthChinaSea withnumerousshipstoassertcontrolgradually.Thisstrategyisknownas",
+      "q": "China has been constructing an artificial island and encircling disputed areas in the South China Sea with numerous ships to assert control gradually. This strategy is known as",
       "multi": false
     },
     {
@@ -892,7 +892,7 @@
         "a": "Germany",
         "b": "Netherland",
         "c": "Australia",
-        "d": "UnitedKingdom"
+        "d": "United Kingdom"
       },
       "marked": null,
       "cov": {
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ResearchersofwhichcountryhavedevelopedanoveltoolcalledtheDataCarbonLadder,which enablescompaniestoassessthecarbonemissionsgeneratedbytheirdigitaldata,particularlyfor thoseseekingtooffsettheircarbonfootprint?",
+      "q": "Researchers of which country have developed a novel tool called the Data Carbon Ladder, which enables companies to assess the carbon emissions generated by their digital data, particularly for those seeking to offset their carbon footprint?",
       "multi": false
     },
     {
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Recently,KingWillem-Alexanderapologizedforhiscountry’sroleinslaveryandaskedforforgiveness duringahistoricspeechataneventtocommemoratetheanniversaryoftheabolitionofslaveryinhis country’scolonies.Heisthekingof-",
+      "q": "Recently, King Willem-Alexander apologized for his country’s role in slavery and asked for forgiveness during a historic speech at an event to commemorate the anniversary of the abolition of slavery in his country’s colonies. He is the king of-",
       "multi": false
     },
     {
@@ -935,10 +935,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "KimJung-mi",
-        "b": "CaseyPhair",
-        "c": "NormanWhiteside",
-        "d": "YoussoufaMoukoko :5."
+        "a": "Kim Jung-mi",
+        "b": "Casey Phair",
+        "c": "Norman Whiteside",
+        "d": "Youssoufa Moukoko : 5."
       },
       "marked": null,
       "cov": {
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhorecentlybecametheyoungesteverplayertoappearattheWorldCup—just26daysafter celebratingher16thbirthday?",
+      "q": "Who recently became the youngest ever player to appear at the World Cup — just 26 days after celebrating her 16th birthday?",
       "multi": false
     },
     {
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingcountriesdonothaveanoperationalaircraftcarrier?",
+      "q": "Which of the following countries do not have an operational aircraft carrier?",
       "multi": false
     },
     {
@@ -982,7 +982,7 @@
       "direction": null,
       "opts": {
         "a": "Amazon",
-        "b": "AppleInc.",
+        "b": "Apple Inc.",
         "c": "Alphabet",
         "d": "Microsoft"
       },
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichcompanyrecentlymakeshistorybybecomingthefirstcompanyintheworldtoreachamarket valueof$3trillion",
+      "q": "Which company recently makes history by becoming the first company in the world to reach a market value of $3 trillion",
       "multi": false
     },
     {
@@ -1005,8 +1005,8 @@
       "direction": null,
       "opts": {
         "a": "Voyager1",
-        "b": "Voyager2",
-        "c": "Explorer1",
+        "b": "Voyager 2",
+        "c": "Explorer 1",
         "d": "Galileo"
       },
       "marked": null,
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingspacecraftistheonlyspacecrafttohaveevervisitedUranusandNeptuneand iscurrentlyoneofonlytwospacecrafttooperateoutsidetheheliosphere?",
+      "q": "Which of the following spacecraft is the only spacecraft to have ever visited Uranus and Neptune and is currently one of only two spacecraft to operate outside the heliosphere?",
       "multi": false
     },
     {
@@ -1027,10 +1027,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LionelMessi",
-        "b": "SunilChhetri",
+        "a": "Lionel Messi",
+        "b": "Sunil Chhetri",
         "c": "AliDaei",
-        "d": "ChristianoRonaldo"
+        "d": "Christiano Ronaldo"
       },
       "marked": null,
       "cov": {
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichoneofthefollowingfootballershasscoredthemostinternationalgoalsforhiscountry?",
+      "q": "Which one of the following footballers has scored the most international goals for his country?",
       "multi": false
     },
     {
@@ -1050,10 +1050,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BlackSea",
-        "b": "PacificOcean",
-        "c": "ArcticSea",
-        "d": "RedSea"
+        "a": "Black Sea",
+        "b": "Pacific Ocean",
+        "c": "Arctic Sea",
+        "d": "Red Sea"
       },
       "marked": null,
       "cov": {
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheCrimeanBridge,alsocalledKerchBridge,oftentermedasasymbolofRussianoccupationof Ukraine,isapairofparallelbridges,oneforafour-laneroadandoneforadouble-trackrailway, spanningtheKerchStrait.TheKerchStraitconnectstheSeaofAzovandthe",
+      "q": "The Crimean Bridge, also called Kerch Bridge, often termed as a symbol of Russian occupation of Ukraine, is a pair of parallel bridges, one for a four-lane road and one for a double-track railway, spanning the Kerch Strait. The Kerch Strait connects the Sea of Azov and the",
       "multi": false
     },
     {
@@ -1073,9 +1073,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Jupiter-II:",
+        "a": "Jupiter -II :",
         "b": "Falcon=II",
-        "c": "Jupiter-IIT",
+        "c": "Jupiter -IIT",
         "d": "Falcon=III"
       },
       "marked": null,
@@ -1086,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ElonMusk’sSpaceXislaunchingtheworld’slargestprivately-ownedsatellitecalled",
+      "q": "Elon Musk’s SpaceX is launching the world’s largest privately-owned satellite called",
       "multi": false
     },
     {
@@ -1096,10 +1096,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MarkZuckerberg",
-        "b": "JimmyDonaldson",
-        "c": "TaylorSwift",
-        "d": "BarakObama"
+        "a": "Mark Zuckerberg",
+        "b": "Jimmy Donaldson",
+        "c": "Taylor Swift",
+        "d": "Barak Obama"
       },
       "marked": null,
       "cov": {
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AspertheGuinnessWorldRecord,thefirstpersontoreachamillionThreadsfollowerafterthe platformwentliveis",
+      "q": "As per the Guinness World Record, the first person to reach a million Threads follower after the platform went live is",
       "multi": false
     },
     {
@@ -1132,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OnJune2023,NASAsharedastunningphotoofaflowergrownontheInternationalSpaceStation. Whatwasthenameofthatflower?",
+      "q": "On June 2023, NASA shared a stunning photo of a flower grown on the International Space Station. What was the name of that flower?",
       "multi": false
     },
     {
@@ -1155,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingcountriesisthefirsttohavesuppliedasophisticatedmissilecalled‘Storm Shadow’thathasarangeofover250km(155miles)toUkraine?",
+      "q": "Which of the following countries is the first to have supplied a sophisticated missile called ‘Storm Shadow’ that has a range of over 250 km(155miles) to Ukraine?",
       "multi": false
     },
     {
@@ -1165,10 +1165,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BirsaMunda",
-        "b": "BirSingh",
-        "c": "SidhuandKanhu",
-        "d": "DarogaMaheshLalDutt"
+        "a": "Birsa Munda",
+        "b": "Bir Singh",
+        "c": "Sidhu and Kanhu",
+        "d": "Daroga Mahesh Lal Dutt"
       },
       "marked": null,
       "cov": {
@@ -1178,7 +1178,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstSanthalRebellion(1854)wasledby",
+      "q": "The first Santhal Rebellion (1854) was led by",
       "multi": false
     },
     {
@@ -1190,8 +1190,8 @@
       "opts": {
         "a": "Bengal",
         "b": "Bihar",
-        "c": "UttarPradesh",
-        "d": "Malabarregion :-6-"
+        "c": "Uttar Pradesh",
+        "d": "Malabar region : -6-"
       },
       "marked": null,
       "cov": {
@@ -1201,7 +1201,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Moplahrevoltoccurredin:",
+      "q": "Moplah revolt occurred in:",
       "multi": false
     },
     {
@@ -1211,10 +1211,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "theMuslimcultivatingtenants,landlesslabourersandfishermenofMalabarregion",
-        "b": "agroupofwanderingMuslimreligiousmendicantsinBengal.",
-        "c": "thecentralIndiantribe,recognizedasanimmigranttribeinTripura",
-        "d": "agroupoftribalcommunitiesofChotanagpurineasternpartsofIndia"
+        "a": "the Muslim cultivating tenants, landless labourers and fishermen of Malabar region",
+        "b": "agroup of wandering Muslim religious mendicants in Bengal.",
+        "c": "the central Indian tribe, recognized as an immigrant tribe in Tripura",
+        "d": "agroup of tribal communities of Chotanagpur in eastern parts of India"
       },
       "marked": null,
       "cov": {
@@ -1224,7 +1224,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheMappilaswere:",
+      "q": "The Mappilas were:",
       "multi": false
     },
     {
@@ -1234,10 +1234,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LordDalhousie",
-        "b": "LordCanning",
-        "c": "LordMinto",
-        "d": "LordBentinck"
+        "a": "Lord Dalhousie",
+        "b": "Lord Canning",
+        "c": "Lord Minto",
+        "d": "Lord Bentinck"
       },
       "marked": null,
       "cov": {
@@ -1247,7 +1247,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowastheGovernorGeneralofIndiaduringtheRevoltof1857?",
+      "q": "Who was the Governor General of India during the Revolt of 1857?",
       "multi": false
     },
     {
@@ -1257,10 +1257,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LordWallesly",
-        "b": "RobertClive",
-        "c": "LordDalhausie",
-        "d": "LordComwallis"
+        "a": "Lord Wallesly",
+        "b": "Robert Clive",
+        "c": "Lord Dalhausie",
+        "d": "Lord Comwallis"
       },
       "marked": null,
       "cov": {
@@ -1270,7 +1270,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingBritishofficialsinIndiawasassociatedwiththeDualSystemofAdministration?",
+      "q": "Which of the following British officials in India was associated with the Dual System of Administration?",
       "multi": false
     },
     {
@@ -1280,10 +1280,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "DadabhaiNaoroji",
-        "b": "GopalKrishnaGokhale",
-        "c": "MahatmaGandhi,",
-        "d": "JaiPrakashNarayan"
+        "a": "Dadabhai Naoroji",
+        "b": "Gopal Krishna Gokhale",
+        "c": "Mahatma Gandhi ,",
+        "d": "Jai Prakash Narayan"
       },
       "marked": null,
       "cov": {
@@ -1293,7 +1293,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoistheexponentofthetheoryofeconomicdrainofIndiaduringtheBritishrule?",
+      "q": "Who is the exponent of the theory of economic drain of India during the British rule ?",
       "multi": false
     },
     {
@@ -1303,7 +1303,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "AlluriSitaramRaju",
+        "a": "Alluri Sitaram Raju",
         "b": "JhabkarBapa",
         "c": "Jodanang",
         "d": "BirMunsa"
@@ -1316,7 +1316,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirsttriballeaderwhowasinspiredbyMahatmaGandhiandhisideologywas",
+      "q": "The first tribal leader who was inspired by Mahatma Gandhi and his ideology was",
       "multi": false
     },
     {
@@ -1326,10 +1326,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BritishIndiaSociety",
-        "b": "BengalBritishSociety",
-        "c": "SettlersSociety",
-        "d": "ZamindariSociety"
+        "a": "British India Society",
+        "b": "Bengal British Society",
+        "c": "Settlers Society",
+        "d": "Zamindari Society"
       },
       "marked": null,
       "cov": {
@@ -1339,7 +1339,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstPoliticalOrganizationestablishedin1838inIndiawas",
+      "q": "The first Political Organization established in 1838 in India was",
       "multi": false
     },
     {
@@ -1362,7 +1362,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingstatewasnotthevictimof“TheSubsidiaryAllianceSystem”?",
+      "q": "Which of the following state was not the victim of “The Subsidiary Alliance System”?",
       "multi": false
     },
     {
@@ -1372,10 +1372,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LordCornwallis",
-        "b": "LordDalhousie",
-        "c": "LordWilliamBentinck",
-        "d": "LordWellesley"
+        "a": "Lord Cornwallis",
+        "b": "Lord Dalhousie",
+        "c": "Lord William Bentinck",
+        "d": "Lord Wellesley"
       },
       "marked": null,
       "cov": {
@@ -1385,7 +1385,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoamongthefollowinghasstartedthePublicWorksDepartmentinIndiain1848?",
+      "q": "Who among the following has started the Public Works Department in India in 1848?",
       "multi": false
     },
     {
@@ -1395,10 +1395,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LordCornwallis",
-        "b": "Johnshore",
-        "c": "ThomasMunroandCharlesReed",
-        "d": "LordWellesley"
+        "a": "Lord Cornwallis",
+        "b": "John shore",
+        "c": "Thomas Munro and Charles Reed",
+        "d": "Lord Wellesley"
       },
       "marked": null,
       "cov": {
@@ -1408,7 +1408,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhointroducedtheRyotwariSysteminIndia?",
+      "q": "Who introduced the Ryotwari System in India?",
       "multi": false
     },
     {
@@ -1418,9 +1418,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Madras,BengalandMysore",
-        "b": "Bengal,OdhishaandMysore",
-        "c": "WesternpartsofUP,PunjabandDelhi(@)_Bengal,CalcuttaandDelhi"
+        "a": "Madras, Bengal and Mysore",
+        "b": "Bengal, Odhisha and Mysore",
+        "c": "Western parts of UP, Punjab and Delhi (@)_ Bengal, Calcutta and Delhi"
       },
       "marked": null,
       "cov": {
@@ -1429,7 +1429,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Mahalwarisystemwasintroducedin:",
+      "q": "Mahalwari system was introduced in:",
       "multi": false
     },
     {
@@ -1452,7 +1452,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Duringthetimeofrentcollection,anofficercameintothevillageisknownas",
+      "q": "During the time of rent collection, an officer came into the village is known as",
       "multi": false
     },
     {
@@ -1462,10 +1462,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "increaseintheexportofIndianhandicrafts",
-        "b": "growthinthenumofInbdianeownredfactories",
-        "c": "commercializationofIndianagriculture",
-        "d": "rapidincreaseintheurbanpopulation"
+        "a": "increase in the export of Indian handicrafts",
+        "b": "growthinthe numof Inbdiane ownred  factories",
+        "c": "commercialization of Indian agriculture",
+        "d": "rapid increase in the urban population"
       },
       "marked": null,
       "cov": {
@@ -1475,7 +1475,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OneoftheeconomicconsequencesoftheBritishruleinIndiainthe19thcenturywasthe",
+      "q": "One of the economic consequences of the British rule in India in the 19th century was the",
       "multi": false
     },
     {
@@ -1485,10 +1485,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "VijayanagaraEmpire",
-        "b": "CholasandCheras",
-        "c": "PandyaEmpire",
-        "d": "HoysalaEmpire."
+        "a": "Vijayanagara Empire",
+        "b": "Cholas and Cheras",
+        "c": "Pandya Empire",
+        "d": "Hoysala Empire ."
       },
       "marked": null,
       "cov": {
@@ -1498,7 +1498,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theamara-nayakasystemwasanimportantpoliticalinnovationofthe:",
+      "q": "The amara-nayaka system was an important political innovation of the:",
       "multi": false
     },
     {
@@ -1508,10 +1508,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LordWellesley",
-        "b": "LordHardinge",
-        "c": "WilliamBentinck",
-        "d": "LordAuckland"
+        "a": "Lord Wellesley",
+        "b": "Lord Hardinge",
+        "c": "William Bentinck",
+        "d": "Lord Auckland"
       },
       "marked": null,
       "cov": {
@@ -1521,7 +1521,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThecustomofSatiwasabolishedin1829by:",
+      "q": "The custom of Sati was abolished in 1829 by:",
       "multi": false
     },
     {
@@ -1544,7 +1544,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirsttextilemillinIndiawasstartedbyCowasjeeNanabhoyin1853inwhichofthefollowing cities?",
+      "q": "The first textile mill in India was started by Cowasjee Nanabhoy in 1853 in which of the following cities?",
       "multi": false
     },
     {
@@ -1554,10 +1554,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LordWellesley",
-        "b": "LordCornwallis",
-        "c": "LordDalhousie",
-        "d": "LordRipon"
+        "a": "Lord Wellesley",
+        "b": "Lord Cornwallis",
+        "c": "Lord Dalhousie",
+        "d": "Lord Ripon"
       },
       "marked": null,
       "cov": {
@@ -1567,7 +1567,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingBritishofficialsinitiatedthe‘DoctrineofLapse’?",
+      "q": "Which of the following British officials initiated the ‘Doctrine of Lapse’?",
       "multi": false
     },
     {
@@ -1577,10 +1577,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LordCurzon;",
-        "b": "LordLytton",
-        "c": "LordHardinge’",
-        "d": "LordRipon"
+        "a": "Lord Curzon ;",
+        "b": "Lord Lytton",
+        "c": "Lord Hardinge’",
+        "d": "Lord Ripon"
       },
       "marked": null,
       "cov": {
@@ -1590,7 +1590,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichamongthefollowingViceroyswasassociatedwiththe‘IlbertBillControversy’?",
+      "q": "Which among the following Viceroys was associated with the ‘Ilbert Bill Controversy’?",
       "multi": false
     },
     {
@@ -1600,10 +1600,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Jhansi:LaxmiBhai",
-        "b": "Gwalior: TantiaTope",
-        "c": "Allahabad:KunwarSingh",
-        "d": "Kanpur:NanaSaheb"
+        "a": "Jhansi : Laxmi Bhai",
+        "b": "Gwalior :  Tantia Tope",
+        "c": "Allahabad : Kunwar Singh",
+        "d": "Kanpur : Nana Saheb"
       },
       "marked": null,
       "cov": {
@@ -1613,7 +1613,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingisnotcorrectlymatched?",
+      "q": "Which of the following is not correctly matched?",
       "multi": false
     },
     {
@@ -1623,10 +1623,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "WarrenHastings",
-        "b": "LordCornwallis",
-        "c": "LordWallesly",
-        "d": "WilliamBentinck"
+        "a": "Warren Hastings",
+        "b": "Lord Cornwallis",
+        "c": "Lord Wallesly",
+        "d": "William Bentinck"
       },
       "marked": null,
       "cov": {
@@ -1636,7 +1636,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IndianCivilServicewasestablishedby:",
+      "q": "Indian Civil Service was established by:",
       "multi": false
     },
     {
@@ -1646,10 +1646,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "DinbandhuMitra",
-        "b": "MadhusudanDutta",
-        "c": "HarishChandraMukherjee",
-        "d": "LalaSrinivasDas"
+        "a": "Dinbandhu Mitra",
+        "b": "Madhusudan Dutta",
+        "c": "Harish Chandra Mukherjee",
+        "d": "Lala Srinivas Das"
       },
       "marked": null,
       "cov": {
@@ -1659,7 +1659,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "“NeelDarpan”waswrittenin1860by:",
+      "q": "“Neel Darpan” was written in 1860 by:",
       "multi": false
     },
     {
@@ -1669,10 +1669,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Charteractof1813",
-        "b": "Charteractof1833",
-        "c": "Charteractof1853",
-        "d": "Charteractof1858"
+        "a": "Charter act of 1813",
+        "b": "Charter act of 1833",
+        "c": "Charter act of 1853",
+        "d": "Charter act of 1858"
       },
       "marked": null,
       "cov": {
@@ -1682,7 +1682,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingactsoftheBritishGovernmentinIndiagavepermissiontogranttheChristian missionariestogotoIndiatopropagateEnglishandteachtheirreligion?",
+      "q": "Which of the following acts of the British Government in India gave permission to grant the Christian missionaries to go to India to propagate English and teach their religion?",
       "multi": false
     },
     {
@@ -1692,10 +1692,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "GovernmentofIndiaAct,1909",
-        "b": "GovernmentofIndiaAct,1919",
-        "c": "GovernmentofIndiaAct,1935",
-        "d": "Noneofthese .-8-"
+        "a": "Government of India Act, 1909",
+        "b": "Government of India Act, 1919",
+        "c": "Government of India Act, 1935",
+        "d": "None of these . -8-"
       },
       "marked": null,
       "cov": {
@@ -1705,7 +1705,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingGovernmentofIndiaActintroducedthediarchysystemintheprovincesof India?",
+      "q": "Which of the following Government of India Act introduced the diarchy system in the provinces of India?",
       "multi": false
     },
     {
@@ -1716,8 +1716,8 @@
       "direction": null,
       "opts": {
         "a": "Derozians",
-        "b": "MitraBandhu",
-        "c": "BethuneSchool",
+        "b": "Mitra Bandhu",
+        "c": "Bethune School",
         "d": "Allofthese"
       },
       "marked": null,
@@ -1728,7 +1728,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingisassociatedwiththeYoungBengalMovement?",
+      "q": "Which of the following is associated with the Young Bengal Movement?",
       "multi": false
     },
     {
@@ -1738,10 +1738,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BabaDyalDas",
-        "b": "BabaRamSingh",
-        "c": "MahmudHasan",
-        "d": "JagatMithra"
+        "a": "Baba Dyal Das",
+        "b": "Baba Ram Singh",
+        "c": "Mahmud Hasan",
+        "d": "Jagat Mithra"
       },
       "marked": null,
       "cov": {
@@ -1751,7 +1751,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoamongthefollowingfoundedtheNirankariMovement?",
+      "q": "Who among the following founded the Nirankari Movement?",
       "multi": false
     },
     {
@@ -1761,10 +1761,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RabindranathTagore",
-        "b": "RajaRammohanRoy",
-        "c": "KeshabChandraSen",
-        "d": "DayanandSarawati."
+        "a": "Rabindranath Tagore",
+        "b": "RajaRammohan Roy",
+        "c": "Keshab Chandra Sen",
+        "d": "Dayanand Sarawati ."
       },
       "marked": null,
       "cov": {
@@ -1774,7 +1774,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoestablishedtheCalcuttaUnitarianCommittee?",
+      "q": "Who established the Calcutta Unitarian Committee?",
       "multi": false
     },
     {
@@ -1784,9 +1784,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "FemaleEducation",
-        "b": "AbolitionofSati",
-        "c": "WidowRemarriage",
+        "a": "Female Education",
+        "b": "Abolition of Sati",
+        "c": "Widow Remarriage",
         "d": "Untouchability"
       },
       "marked": null,
@@ -1797,7 +1797,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IshwarChandraVidyasagarwasagreat19thCenturySocialReformerwhostrugglefromwhichof thefollowingsocialcause?",
+      "q": "Ishwar Chandra Vidyasagar was a great 19th Century Social Reformer who struggle from which of the following social cause?",
       "multi": false
     },
     {
@@ -1807,10 +1807,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PanditaRamabai",
-        "b": "JyotibaPhule",
-        "c": "SwamiDayanandSaraswati",
-        "d": "MahadevGovindRanade"
+        "a": "Pandita Ramabai",
+        "b": "Jyotiba Phule",
+        "c": "Swami Dayanand Saraswati",
+        "d": "Mahadev Govind Ranade"
       },
       "marked": null,
       "cov": {
@@ -1820,7 +1820,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoamongthefollowingestablishedtheMuktiMissioninPune?",
+      "q": "Who among the following established the Mukti Mission in Pune?",
       "multi": false
     },
     {
@@ -1830,10 +1830,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SardarPatelandRajendraPrasad",
-        "b": "C.R.DasandMotilalNehru",
-        "c": "BalGangadharTilakandMahatmaGandhi",
-        "d": "BipinChandraPalandLalLajpatRai"
+        "a": "Sardar Patel and Rajendra Prasad",
+        "b": "C.R. Das and Motilal Nehru",
+        "c": "Bal Gangadhar Tilak and Mahatma Gandhi",
+        "d": "Bipin Chandra Pal and Lal Lajpat Rai"
       },
       "marked": null,
       "cov": {
@@ -1843,7 +1843,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "SwarajPartywasformedby",
+      "q": "Swaraj Party was formed by",
       "multi": false
     },
     {
@@ -1853,9 +1853,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MuhammadAliJinnah",
-        "b": "ShaukatAli",
-        "c": "NawabKhwajaSalimullah",
+        "a": "Muhammad Ali Jinnah",
+        "b": "Shaukat Ali",
+        "c": "Nawab Khwaja Salimullah",
         "d": "AgaKhan"
       },
       "marked": null,
@@ -1866,7 +1866,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowasthefounderoftheMuslimLeaguein1906?",
+      "q": "Who was the founder of the Muslim League in 1906?",
       "multi": false
     },
     {
@@ -1876,9 +1876,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MahatmaGandhi",
-        "b": "DadabhaiNaoroji",
-        "c": "SubashChandraBose",
+        "a": "Mahatma Gandhi",
+        "b": "Dadabhai Naoroji",
+        "c": "Subash Chandra Bose",
         "d": "Tilak"
       },
       "marked": null,
@@ -1889,7 +1889,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘Harijan’wasstartedby",
+      "q": "‘Harijan’ was started by",
       "multi": false
     },
     {
@@ -1899,10 +1899,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BipinChandraPal",
+        "a": "Bipin Chandra Pal",
         "b": "DadabhaiNaoroji",
-        "c": "LokmanyaTilak",
-        "d": "W.C.Banerjee"
+        "c": "Lokmanya Tilak",
+        "d": "W.C. Banerjee"
       },
       "marked": null,
       "cov": {
@@ -1912,7 +1912,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whoamongthefollowingisknownasfatherof‘IndianUnrest’?",
+      "q": "Who among the following is known as father of ‘Indian Unrest’?",
       "multi": false
     },
     {
@@ -1935,7 +1935,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhendidtheSimonCommissionvisitIndia?",
+      "q": "When did the Simon Commission visit India?",
       "multi": false
     },
     {
@@ -1945,10 +1945,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BhagatSingh",
-        "b": "RanjeetSingh",
-        "c": "LalaLajpatRai",
-        "d": "LalaHardayal"
+        "a": "Bhagat Singh",
+        "b": "Ranjeet Singh",
+        "c": "Lala Lajpat Rai",
+        "d": "Lala Hardayal"
       },
       "marked": null,
       "cov": {
@@ -1958,7 +1958,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Towhomwasthetitleof‘PunjabKesari’conferred?",
+      "q": "To whom was the title of ‘Punjab Kesari’ conferred?",
       "multi": false
     },
     {
@@ -1968,10 +1968,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "HomeRuleMovement",
-        "b": "Non-CooperationMovement",
-        "c": "CivilDisobedienceMovement",
-        "d": "QuitIndiaMovement"
+        "a": "Home Rule Movement",
+        "b": "Non-Cooperation Movement",
+        "c": "Civil Disobedience Movement",
+        "d": "Quit India Movement"
       },
       "marked": null,
       "cov": {
@@ -1981,7 +1981,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichoneofthefollowingbeganwiththeDandiMarch?",
+      "q": "Which one of the following began with the Dandi March?",
       "multi": false
     },
     {
@@ -1991,10 +1991,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MahatmaGandhi",
-        "b": "BipinChandraPal",
-        "c": "GopalKrishnaGokhale",
-        "d": "BalGangadharTilak"
+        "a": "Mahatma Gandhi",
+        "b": "Bipin Chandra Pal",
+        "c": "Gopal Krishna Gokhale",
+        "d": "Bal Gangadhar Tilak"
       },
       "marked": null,
       "cov": {
@@ -2004,7 +2004,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whosaid,”SwarajismybirthrightandIshallhaveit”?",
+      "q": "Who said,”Swaraj is my birthright and I shall have it”?",
       "multi": false
     },
     {
@@ -2014,10 +2014,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Dr.B.R.Ambedkar",
-        "b": "BabuJagijiwanRam",
-        "c": "N.S.Kajrolkar",
-        "d": "MahatmaJyotibaPhule"
+        "a": "Dr. B.R. Ambedkar",
+        "b": "Babu Jagijiwan Ram",
+        "c": "N.S. Kajrolkar",
+        "d": "Mahatma Jyotiba Phule"
       },
       "marked": null,
       "cov": {
@@ -2027,7 +2027,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "DepressedClassesLeague’wasestablishedby:",
+      "q": "Depressed Classes League’ was established by:",
       "multi": false
     },
     {
@@ -2037,10 +2037,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BalGangadharTilak",
-        "b": "JawaharlalNehru",
-        "c": "BhagatSingh",
-        "d": "MahatmaGandhi"
+        "a": "Bal Gangadhar Tilak",
+        "b": "Jawaharlal Nehru",
+        "c": "Bhagat Singh",
+        "d": "Mahatma Gandhi"
       },
       "marked": null,
       "cov": {
@@ -2050,7 +2050,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theslogan‘DoorDie’wasgivenby",
+      "q": "The slogan ‘Do or Die’ was given by",
       "multi": false
     },
     {
@@ -2060,10 +2060,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MichaelO’Dwyer",
-        "b": "NigelCollett",
-        "c": "ReginaldDyer",
-        "d": "SaifuddinKitchlew."
+        "a": "Michael O’Dwyer",
+        "b": "Nigel Collett",
+        "c": "Reginald Dyer",
+        "d": "Saifuddin Kitchlew ."
       },
       "marked": null,
       "cov": {
@@ -2073,7 +2073,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoorderedtheJallianwalaBaghmassacre?",
+      "q": "Who ordered the Jallianwala Bagh massacre?",
       "multi": false
     },
     {
@@ -2083,10 +2083,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Dr.B.RAmbedkar",
-        "b": "VitthalRamjiShinde",
-        "c": "AnnabhauSathe",
-        "d": "ShantabaiKamble"
+        "a": "Dr. B.R Ambedkar",
+        "b": "Vitthal Ramji Shinde",
+        "c": "Annabhau Sathe",
+        "d": "Shantabai Kamble"
       },
       "marked": null,
       "cov": {
@@ -2096,7 +2096,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoamongthefollowingfoundedtheDepressedClassesMissionofIndia?",
+      "q": "Who among the following founded the Depressed Classes Mission of India?",
       "multi": false
     },
     {
@@ -2106,10 +2106,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LordAttlee",
-        "b": "StraffordCripps",
-        "c": "ClementAttlee",
-        "d": "SirPLawrence"
+        "a": "Lord Attlee",
+        "b": "Strafford Cripps",
+        "c": "Clement Attlee",
+        "d": "Sir P Lawrence"
       },
       "marked": null,
       "cov": {
@@ -2119,7 +2119,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "CabinetMissionwaspresidedoverby",
+      "q": "Cabinet Mission was presided over by",
       "multi": false
     },
     {
@@ -2129,10 +2129,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SimonCommission",
-        "b": "RajajiFormula",
-        "c": "CabinetMissionPlan",
-        "d": "WavellPlan"
+        "a": "Simon Commission",
+        "b": "Rajaji Formula",
+        "c": "Cabinet Mission Plan",
+        "d": "Wavell Plan"
       },
       "marked": null,
       "cov": {
@@ -2142,7 +2142,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowinggavetheideaofConstitutionalAssemblyforIndia?",
+      "q": "Which of the following gave the idea of Constitutional Assembly for India?",
       "multi": false
     },
     {
@@ -2154,8 +2154,8 @@
       "opts": {
         "a": "S.A.Dange",
         "b": "M.R.Jayakar",
-        "c": "M.N.Roy‘",
-        "d": "NalinGupta"
+        "c": "M.N.Roy ‘",
+        "d": "Nalin Gupta"
       },
       "marked": null,
       "cov": {
@@ -2165,7 +2165,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThepioneerofCommunisminIndiawas",
+      "q": "The pioneer of Communism in India was",
       "multi": false
     },
     {
@@ -2175,9 +2175,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RajendraPrasad",
-        "b": "JawaharlalNehru",
-        "c": "SardarVallabhbhaiPatel",
+        "a": "Rajendra Prasad",
+        "b": "Jawaharlal Nehru",
+        "c": "Sardar Vallabhbhai Patel",
         "d": "Rajagopalachari"
       },
       "marked": null,
@@ -2188,7 +2188,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoheadedtheInterimCabinetformedintheyear1946?",
+      "q": "Who headed the Interim Cabinet formed in the year 1946?",
       "multi": false
     },
     {
@@ -2198,10 +2198,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "WavellPlan",
-        "b": "CrippsPlan",
-        "c": "MountbattenPlan",
-        "d": "Noneofthese"
+        "a": "Wavell Plan",
+        "b": "Cripps Plan",
+        "c": "Mountbatten Plan",
+        "d": "None of these"
       },
       "marked": null,
       "cov": {
@@ -2211,7 +2211,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichplanbecametheplatformofIndianIndependence?",
+      "q": "Which plan became the platform of Indian Independence?",
       "multi": false
     },
     {
@@ -2221,10 +2221,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "W.Churchill",
-        "b": "M.A.Jinnah",
-        "c": "LordMountbatten",
-        "d": "V.P.Menon"
+        "a": "W. Churchill",
+        "b": "M.A. Jinnah",
+        "c": "Lord Mountbatten",
+        "d": "V.P. Menon"
       },
       "marked": null,
       "cov": {
@@ -2234,7 +2234,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheBalkanPlanforfragmentationofIndiawasthebrainchildof",
+      "q": "The Balkan Plan for fragmentation of India was the brain child of",
       "multi": false
     },
     {
@@ -2244,10 +2244,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "January1947",
-        "b": "July1947",
-        "c": "August1947",
-        "d": "August1946"
+        "a": "January 1947",
+        "b": "July 1947",
+        "c": "August 1947",
+        "d": "August 1946"
       },
       "marked": null,
       "cov": {
@@ -2257,7 +2257,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheBritishParliamentpassedtheIndianIndependenceActin",
+      "q": "The British Parliament passed the Indian Independence Act in",
       "multi": false
     },
     {
@@ -2267,10 +2267,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RajendraPrasad",
-        "b": "VallabhbhaiPatel",
+        "a": "Rajendra Prasad",
+        "b": "Vallabhbhai Patel",
         "c": "Rajagopalachari",
-        "d": "LordMountbatten ERKKR"
+        "d": "Lord Mountbatten ERK KR"
       },
       "marked": null,
       "cov": {
@@ -2280,7 +2280,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowasthefirstGovernorGeneralofthenewIndianDominion?",
+      "q": "Who was the first Governor General of the new Indian Dominion?",
       "multi": false
     }
   ],

@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Atthelowestpointoftheswing",
-        "b": "Atthehighestpointoftheswing",
-        "c": "Midwaybetweenthehighestandlowestpoints",
-        "d": "Speedisconstantthroughouttheswing"
+        "a": "Atthe lowest point of the swing",
+        "b": "At the highest point of the swing",
+        "c": "Midway between the highest and lowest points",
+        "d": "Speed is constant throughout the swing"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Achildisswingingbackandforthonaplaygroundswing.Atwhatpointintheswing’smotionisthe speedofthechildatitsmaximum?",
+      "q": "Achild is swinging back and forth on a playground swing. At what point in the swing’s motion is the speed of the child at its maximum?",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Meltingofice",
-        "b": "Boilingofwater",
-        "c": "Dissolvingsugarinwater",
-        "d": "Rustingofiron (a)TodemonstrateSafeandSoftLandingonLunarSurface. (b)TodemonstrateRoverrovingonthemoon. (c)Toconductin-situscientificexperiments. (d)_Tostudythelunaratmosphere."
+        "a": "Melting of ice",
+        "b": "Boiling of water",
+        "c": "Dissolving sugar in water",
+        "d": "Rusting of iron (a) To demonstrate Safe and Soft Landing on Lunar Surface. (b) To demonstrate Rover roving on the moon. (c) To conduct in-situ scientific experiments. (d)_ To study the lunar atmosphere."
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingisachemicalchange?",
+      "q": "Which of the following is a chemical change?",
       "multi": false
     },
     {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whattypeofbiologicalmoleculeactsasacatalyst,speedingupchemicalreactionsinlivingorganisms?",
+      "q": "What type of biological molecule acts as a catalyst, speeding up chemical reactions in living organisms?",
       "multi": false
     },
     {
@@ -84,9 +84,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Toreplicatehumanintelligenceexactly",
-        "b": "Toautomatetaskswithouthumanintervention",
-        "c": "Toenablecomputerstolearnfromdataandimproveperformanceovertime (a)Tocreaterobotsthatcanthinkandfeellikehumans"
+        "a": "Toreplicate human intelligence exactly",
+        "b": "To automate tasks without human intervention",
+        "c": "To enable computers to learn from data and improve performance over time (a) To create robots that can think and feel like humans"
       },
       "marked": null,
       "cov": {
@@ -95,7 +95,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "WhatistheprimarygoalofMachineLearning(ML)?",
+      "q": "What is the primary goal of Machine Learning (ML)?",
       "multi": false
     },
     {
@@ -105,9 +105,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Machinelearning",
-        "b": "ArtificialNeuralNetwork",
-        "c": "Deeplearning",
+        "a": "Machine learning",
+        "b": "Artificial Neural Network",
+        "c": "Deep learning",
         "d": "Python"
       },
       "marked": null,
@@ -118,7 +118,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aspecificlearningtechniquethatrequireseverallayersofneuronstoincreaselearnableparameters withhugedatasetsiscalled-",
+      "q": "A specific learning technique that require several layers of neurons to increase learnable parameters with huge datasets is called -",
       "multi": false
     },
     {
@@ -128,10 +128,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LightDetectionandRanging",
-        "b": "SyntheticApertureRadar",
-        "c": "OpticalTelescopicVision",
-        "d": "ElectronMacroscopy"
+        "a": "Light Detection and Ranging",
+        "b": "Synthetic Aperture Radar",
+        "c": "Optical Telescopic Vision",
+        "d": "Electron Macroscopy"
       },
       "marked": null,
       "cov": {
@@ -141,7 +141,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Atechniquetogeneratehigh-resolutionsurfaceimageofearthbyexpandingtheradaraparturethrough motionofthemountingvehicleandtheimagequalitynotbeingaffectedbyweatherconditionis-",
+      "q": "A technique to generate high-resolution surface image of earth by expanding the radar aparture through motion of the mounting vehicle and the image quality not being affected by weather condition is -",
       "multi": false
     },
     {
@@ -151,10 +151,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Nationale-GovernancePlan",
-        "b": "e-LekhaPlan",
-        "c": "Bharate-GovPlan",
-        "d": "Indiane-GovernanceDevelopmentPlan"
+        "a": "National e-Governance Plan",
+        "b": "e-Lekha Plan",
+        "c": "Bharat e-Gov Plan",
+        "d": "Indian e-Governance Development Plan"
       },
       "marked": null,
       "cov": {
@@ -164,7 +164,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatistheambitiousplanapprovedbythegovernmentofIndiain2006forimprovingservices providedtothepeoplebythegovernmentthroughtheuseofInformationTechnology?",
+      "q": "What is the ambitious plan approved by the government of India in 2006 for improving services provided to the people by the government through the use of Information Technology?",
       "multi": false
     },
     {
@@ -187,7 +187,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Regardingwhichransomwarevirus,theCERT-inissuedadvisory?",
+      "q": "Regarding which ransomware virus, the CERT-in issued advisory?",
       "multi": false
     },
     {
@@ -197,10 +197,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Quantumcomputing",
-        "b": "ArtificialNeuralNetworks(ANNs)",
+        "a": "Quantum computing",
+        "b": "Artificial Neural Networks (ANNs)",
         "c": "Blockchain",
-        "d": "Geneticalgorithms"
+        "d": "Genetic algorithms"
       },
       "marked": null,
       "cov": {
@@ -210,7 +210,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichunderlyingtechnologypowersinteractiveAIsuchasChatGPT,ete.?",
+      "q": "Which underlying technology powers interactive AI such as ChatGPT, ete.?",
       "multi": false
     },
     {
@@ -220,10 +220,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ShrinivasRamanujan",
-        "b": "Prof.C.N.R.Rao",
-        "c": "C.V.Raman",
-        "d": "AmartyaSen"
+        "a": "Shrinivas Ramanujan",
+        "b": "Prof. C.N.R. Rao",
+        "c": "C.V. Raman",
+        "d": "Amartya Sen"
       },
       "marked": null,
       "cov": {
@@ -233,7 +233,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoisthefatherofIndiannanotechnology?",
+      "q": "Who is the father of Indian nanotechnology?",
       "multi": false
     },
     {
@@ -243,10 +243,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "28February",
-        "b": "11May",
-        "c": "16February",
-        "d": "17August"
+        "a": "28 February",
+        "b": "11 May",
+        "c": "16 February",
+        "d": "17 August"
       },
       "marked": null,
       "cov": {
@@ -256,7 +256,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "NationalTechnologyDayisobservedeveryyearonwhichdate?",
+      "q": "National Technology Day is observed every year on which date?",
       "multi": false
     },
     {
@@ -279,7 +279,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "DuringthePokhran--IInuclearteston11\"*May1998,howmanynuclearbombsweresuccessfully: tested?",
+      "q": "During the Pokhran -- II nuclear test on 11\"* May 1998, how many nuclear bombs were successfully : tested?",
       "multi": false
     },
     {
@@ -289,9 +289,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Fishspecies",
-        "b": "Orchidspecies",
-        "c": "Geckospecies",
+        "a": "Fish species",
+        "b": "Orchid species",
+        "c": "Gecko species",
         "d": "Earthworm"
       },
       "marked": null,
@@ -302,7 +302,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "CrydoductyiusvairengtensisisthenewendemictoMizoramdiscoveredin MizoraminNovember2023.",
+      "q": "Crydoductyius vairengtensis is the new endemic to Mizoram discovered in Mizoram in November 2023.",
       "multi": false
     },
     {
@@ -312,10 +312,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "215June2023",
-        "b": "7\"September2023",
-        "c": "12!January2024",
-        "d": "22™March2024"
+        "a": "215 June 2023",
+        "b": "7\" September 2023",
+        "c": "12! January 2024",
+        "d": "22™ March 2024"
       },
       "marked": null,
       "cov": {
@@ -325,7 +325,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IndiajoinedtheArtemisAccords(aninternationaleffortonspaceexplorationledbyNASA)on whichdate?",
+      "q": "India joined the Artemis Accords (an international effort on space exploration led by NASA) on which date?",
       "multi": false
     },
     {
@@ -337,7 +337,7 @@
       "opts": {
         "a": "ChatGPT",
         "b": "Pytorch",
-        "c": "INDIAai(a)BharatAI"
+        "c": "INDIAai (a) BharatAI"
       },
       "marked": null,
       "cov": {
@@ -346,7 +346,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "ThenameoftheprogrammelaunchedtopromoteArtificialIntelligenceinIndia:",
+      "q": "The name of the programme launched to promote Artificial Intelligence in India:",
       "multi": false
     },
     {
@@ -356,10 +356,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "DNAfingerprintingtechnology",
-        "b": "Restrictionenzymetechnology",
-        "c": "DNAbarcodingtechnology",
-        "d": "Wholegenomesequencingtechnology"
+        "a": "DNA finger printing technology",
+        "b": "Restriction enzyme technology",
+        "c": "DNA barcoding technology",
+        "d": "Whole genome sequencing technology"
       },
       "marked": null,
       "cov": {
@@ -369,7 +369,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThetechnologydevelopedbyDrLaljiSinghthatfoundwideapplicationinforensicinvestigationis-",
+      "q": "The technology developed by Dr Lalji Singh that found wide application in forensic investigation is -",
       "multi": false
     },
     {
@@ -379,8 +379,8 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "AndraPradesh",
-        "b": "TamilNadu",
+        "a": "Andra Pradesh",
+        "b": "Tamil Nadu",
         "c": "Karnataka",
         "d": "Kerala"
       },
@@ -392,7 +392,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Anewspeciesofdeep-seaisopod,BrucethoaIsro,namedaftertheIndianSpaceResearch OrganisationwasdiscoveredinwhichSouthIndianstate?",
+      "q": "A new species of deep-sea isopod, Brucethoa Isro, named after the Indian Space Research Organisation was discovered in which South Indian state?",
       "multi": false
     },
     {
@@ -403,7 +403,7 @@
       "direction": null,
       "opts": {
         "a": "Shalurobot",
-        "b": "Rashmirobot",
+        "b": "Rashmi robot",
         "c": "Sophia",
         "d": "Mitra"
       },
@@ -415,7 +415,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheIndianlip-syncinghumanoidrobotinventedbyRanjitShrivastava,aRanchi-basedsoftware engineeris-",
+      "q": "The Indian lip-syncing humanoid robot invented by Ranjit Shrivastava, a Ranchi-based software engineer is -",
       "multi": false
     },
     {
@@ -425,10 +425,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Kawngpuisiam",
-        "b": "Fanodawi",
-        "c": "Khawkhengthawi",
-        "d": "Dawinochhui"
+        "a": "Kawngpui siam",
+        "b": "Fano dawi",
+        "c": "Khawkheng thawi",
+        "d": "Dawino chhui"
       },
       "marked": null,
       "cov": {
@@ -438,7 +438,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InancientMizotradition,sacrificeofferedinordertoreceiveblessinginfarmingiscalled-",
+      "q": "In ancient Mizo tradition, sacrifice offered in order to receive blessing in farming is called-",
       "multi": false
     },
     {
@@ -451,7 +451,7 @@
         "a": "Zawlbuk",
         "b": "Pum",
         "c": "Sumbmun",
-        "d": "Sehuang"
+        "d": "Se huang"
       },
       "marked": null,
       "cov": {
@@ -461,7 +461,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InearlyMizosociety,womenwerenotsupposedtoenter-",
+      "q": "In early Mizo society, women were not supposed to enter -",
       "multi": false
     },
     {
@@ -471,10 +471,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "March,1966",
-        "b": "April,1966",
-        "c": "January,1967",
-        "d": "April,1967 (a)1956(b)1957 (c)1958(d)1959"
+        "a": "March, 1966",
+        "b": "April, 1966",
+        "c": "January, 1967",
+        "d": "April, 1967 (a) 1956 (b) 1957 (c) 1958 (d) 1959"
       },
       "marked": null,
       "cov": {
@@ -484,7 +484,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "GroupingofvillageswasintroducedinMizoramfrom-",
+      "q": "Grouping of villages was introduced in Mizoram from -",
       "multi": false
     },
     {
@@ -494,10 +494,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MizolehVaiChanchinbu",
-        "b": "MizoChanchinLaisuih",
-        "c": "ZoramThupuan",
-        "d": "MZPChanchinbu"
+        "a": "Mizo leh Vai Chanchinbu",
+        "b": "Mizo Chanchin Laisuih",
+        "c": "Zoram Thupuan",
+        "d": "MZP Chanchinbu"
       },
       "marked": null,
       "cov": {
@@ -507,7 +507,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstnewspaperpublishedinMizoramwas-",
+      "q": "The first newspaper published in Mizoram was-",
       "multi": false
     },
     {
@@ -530,7 +530,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichoftheseisaMizomusicalinstrument?",
+      "q": "Which of these is a Mizo musical instrument?",
       "multi": false
     },
     {
@@ -553,7 +553,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "inearlyMizotradition,toadoptthereligionofanotherclaniscalled-",
+      "q": "in early Mizo tradition, to adopt the religion of another clan is called-",
       "multi": false
     },
     {
@@ -564,9 +564,9 @@
       "direction": null,
       "opts": {
         "a": "Zohmangaihi",
-        "b": "AhmangaihiKhiangte",
-        "c": "LalhruaitluangaChawngte",
-        "d": "LalrammawiaNgente"
+        "b": "Ahmangaihi Khiangte",
+        "c": "Lalhruaitluanga Chawngte",
+        "d": "Lalrammawia Ngente"
       },
       "marked": null,
       "cov": {
@@ -576,7 +576,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MizoAcademyofLetter’sBookoftheYear,2023recipientis-",
+      "q": "Mizo Academy of Letter’s Book of the Year, 2023 recipient is-",
       "multi": false
     },
     {
@@ -599,7 +599,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichoneofthefollowingisMizoramstateanimal?",
+      "q": "Which one of the following is Mizoram state animal?",
       "multi": false
     },
     {
@@ -622,7 +622,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aflaskmadefromthehornofabisonormithunusedtocarrygunpowderis-",
+      "q": "A flask made from the horn ofa bison or mithun used to carry gunpowder is-",
       "multi": false
     },
     {
@@ -632,9 +632,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "AGMcCali",
-        "b": "Lt.Col.Treagear",
-        "c": "NEParry(a)ARHMcDonald"
+        "a": "AG McCali",
+        "b": "Lt. Col. Treagear",
+        "c": "NE Parry (a) ARH McDonald"
       },
       "marked": null,
       "cov": {
@@ -643,7 +643,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "TheSuperintendentofLushaiHills,authorof‘LushaiChrysalis’is-",
+      "q": "The Superintendent of Lushai Hills, author of ‘Lushai Chrysalis’ is-",
       "multi": false
     },
     {
@@ -666,7 +666,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thefirstpoliticalparty,MizoUnionwasestablishedin-",
+      "q": "The first political party, Mizo Union was established in-",
       "multi": false
     },
     {
@@ -676,9 +676,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "JHLorrain",
-        "b": "FWSavidge",
-        "c": "DEJones",
+        "a": "JH Lorrain",
+        "b": "FW Savidge",
+        "c": "DE Jones",
         "d": "RALorrain"
       },
       "marked": null,
@@ -689,7 +689,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheLakherPioneerMissionwasstartedby-",
+      "q": "The Lakher Pioneer Mission was started by-",
       "multi": false
     },
     {
@@ -699,10 +699,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TheLushaiExpeditionof1871-72",
-        "b": "TheExpeditionof1869",
-        "c": "TheChin-LushaiExpedition1889-1890",
-        "d": "TheLister’sExpedition1850"
+        "a": "The Lushai Expedition of 1871-72",
+        "b": "The Expedition of 1869",
+        "c": "The Chin-Lushai Expedition 1889 -1890",
+        "d": "The Lister’s Expedition 1850"
       },
       "marked": null,
       "cov": {
@@ -712,7 +712,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichexpeditionwassenttotheLushaiHillsinretaliationtothecaptureofMaryWinchester?",
+      "q": "Which expedition was sent to the Lushai Hills in retaliation to the capture of Mary Winchester?",
       "multi": false
     },
     {
@@ -725,7 +725,7 @@
         "a": "Tarmita",
         "b": "Thangliana",
         "c": "Lalmantua",
-        "d": "SapUpa"
+        "d": "Sap Upa"
       },
       "marked": null,
       "cov": {
@@ -735,7 +735,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheMizogaveT.H.Lewinanickname(Mizoname)called-",
+      "q": "The Mizo gave T.H. Lewin a nickname (Mizo name) called-",
       "multi": false
     },
     {
@@ -745,10 +745,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "J.Shakespeare",
-        "b": "A.GMeCall:",
-        "c": "PeterFraser",
-        "d": "ARHMcDonald"
+        "a": "J. Shakespeare",
+        "b": "A.G Me Call :",
+        "c": "Peter Fraser",
+        "d": "ARH McDonald"
       },
       "marked": null,
       "cov": {
@@ -758,7 +758,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowasresponsiblefortheabolitionofBawiinMizoram?",
+      "q": "Who was responsible for the abolition of Bawi in Mizoram?",
       "multi": false
     },
     {
@@ -781,7 +781,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThegreatdarknessthathappenedintheearthinMizofolktalewascalled-",
+      "q": "The great darkness that happened in the earth in Mizo folktale was called-",
       "multi": false
     },
     {
@@ -804,7 +804,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheMizospinningwheelforspinningcottonintoyarnsiscalled-",
+      "q": "The Mizo spinning wheel for spinning cotton into yarns is called-",
       "multi": false
     },
     {
@@ -814,10 +814,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Brig.T.Sailo",
-        "b": "Rev.Dr.Zairema",
-        "c": "PSChawngthu",
-        "d": "Capt.LZSailo"
+        "a": "Brig. T. Sailo",
+        "b": "Rev. Dr. Zairema",
+        "c": "PS Chawngthu",
+        "d": "Capt. LZ Sailo"
       },
       "marked": null,
       "cov": {
@@ -827,7 +827,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstandonlypersonamongtheMizoswhohasreceived‘PadmaBhushan’is-",
+      "q": "The first and only person among the Mizos who has received ‘Padma Bhushan’ is-",
       "multi": false
     },
     {
@@ -850,7 +850,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘Khuallam’isalsoknownas-",
+      "q": "‘Khuallam’ is also known as-",
       "multi": false
     },
     {
@@ -858,7 +858,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNo.41):Whatcomesinplaceofquestionsmark(?)intheseriesgivenbelow?",
+      "direction": "Directions (Question No. 41): What comes in place of questions mark(?) in the series given below?",
       "opts": {
         "a": "EW",
         "b": "DW",
@@ -873,7 +873,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AZ,BY,CX,?",
+      "q": "AZ, BY, CX, ?",
       "multi": false
     },
     {
@@ -881,7 +881,7 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNo.42):Inthefollowingquestion,twowordsarepairedwhichhaveacertain",
+      "direction": "Directions (Question No. 42): In the following question, two words are paired which have a certain",
       "opts": {
         "a": "Wrong",
         "b": "Powerless",
@@ -896,7 +896,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Rig:hDutty::Powe:r?",
+      "q": "Rig: hDutty:  : Powe:r?",
       "multi": false
     },
     {
@@ -919,7 +919,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Findouthowwillthekeyfigure(X)looklikeafterrotation. (7)IWAVICA) iSWWI (x)@@©)(@",
+      "q": "Find out how will the key figure (X) look like after rotation. (7) IWAVICA) iS WWI (x) @ @ ©) (@",
       "multi": false
     },
     {
@@ -942,7 +942,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Oaristorowboatasfootisto:",
+      "q": "Oar is to rowboat as foot is to:",
       "multi": false
     },
     {
@@ -950,7 +950,7 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNo,45):Inthequestionsgivenbelow,findthecorrectansweroutofthefour",
+      "direction": "Directions (Question No, 45): In the questions given below, find the correct answer out of the four",
       "opts": {
         "a": "",
         "b": "",
@@ -965,7 +965,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ProblemFigures +I+xX1xX+ + 4tTxTi+4T AnswerFigures +X/I1xXxX. ++x +",
+      "q": "Problem Figures + I + xX 1 xX + + 4 tT x Ti+ 4 T Answer Figures + X/I1 xX xX . + + x +",
       "multi": false
     },
     {
@@ -973,7 +973,7 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.46&47):Findthemissingtermineachofthefollowingseries:",
+      "direction": "Directions (Question Nos. 46 & 47) : Find the missing term in each of the following series:",
       "opts": {
         "a": "65",
         "b": "271",
@@ -988,7 +988,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "1,2,9,28,...7...,126,217",
+      "q": "1,2, 9, 28, ...7..., 126, 217",
       "multi": false
     },
     {
@@ -1011,7 +1011,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "44,40,34,...2..,16,4",
+      "q": "44, 40, 34, ...2.., 16,4",
       "multi": false
     },
     {
@@ -1019,12 +1019,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(Question.Nos.48-50):Eachofthefollowingquestionsconsistsofapairofwords.",
+      "direction": "Directions (Question. Nos. 48 - 50): Each of the following questions consists of a pair of words.",
       "opts": {
-        "a": "victim:depravation",
-        "b": "miser:selfishness",
-        "c": "altruist:selflessness",
-        "d": "policeman:law"
+        "a": "victim : depravation",
+        "b": "miser : selfishness",
+        "c": "altruist : selflessness",
+        "d": "policeman: law"
       },
       "marked": null,
       "cov": {
@@ -1034,7 +1034,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Libertine:Immortality::",
+      "q": "Libertine : Immortality : :",
       "multi": false
     },
     {
@@ -1042,12 +1042,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(Question.Nos.48-50):Eachofthefollowingquestionsconsistsofapairofwords.",
+      "direction": "Directions (Question. Nos. 48 - 50): Each of the following questions consists of a pair of words.",
       "opts": {
-        "a": "optician:eyesight",
-        "b": "engineer:bridge",
-        "c": "architect:blueprint",
-        "d": "doctor:stethoscope"
+        "a": "optician : eyesight",
+        "b": "engineer : bridge",
+        "c": "architect : blueprint",
+        "d": "doctor : stethoscope"
       },
       "marked": null,
       "cov": {
@@ -1057,7 +1057,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Author:Manuscript::",
+      "q": "Author : Manuscript: :",
       "multi": false
     },
     {
@@ -1065,12 +1065,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(Question.Nos.48-50):Eachofthefollowingquestionsconsistsofapairofwords.",
+      "direction": "Directions (Question. Nos. 48 - 50): Each of the following questions consists of a pair of words.",
       "opts": {
-        "a": "census:population",
-        "b": "government:administration",
-        "c": "taxation:revenue",
-        "d": "team:sports SECTION-II(100Marks) Markforeachquestionisindicatedagainstit UNIT-A: ThisUnitshouldbeansweredonlyontheSeparateSheetprovided.. Attemptany2(two)questions. UNIT-B ThisUnitshouldbeansweredonlyontheSeparateSheetprovided. Attemptany2(twa)questions. UNIT-C ThisUnitshouldbeansweredonlyontheSeparateSheetprovided. Attemptallquestions."
+        "a": "census : population",
+        "b": "government : administration",
+        "c": "taxation : revenue",
+        "d": "team : sports SECTION - II (100 Marks) Mark for each question is indicated against it UNIT-A : This Unit should be answered only on the Separate Sheet provided. . Attempt any 2 (two) questions. UNIT-B This Unit should be answered only on the Separate Sheet provided. Attempt any 2 (twa) questions. UNIT-C This Unit should be answered only on the Separate Sheet provided. Attempt all questions."
       },
       "marked": null,
       "cov": {
@@ -1080,7 +1080,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tally:Votes::",
+      "q": "Tally : Votes: :",
       "multi": false
     }
   ],

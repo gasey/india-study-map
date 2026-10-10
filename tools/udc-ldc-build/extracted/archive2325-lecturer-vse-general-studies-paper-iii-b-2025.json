@@ -18,7 +18,7 @@
         "a": "(4:8:14)",
         "b": "(12:24:36)",
         "c": "(6:20:26)",
-        "d": "(30:36:45) (a)121(b)195 (c)126(d)103"
+        "d": "(30:36:45) (a) 121 (b) 195 (c) 126 (d) 103"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "YouhavetomarkallyourresponsesonlyontheseparateOMRResponseSheetprovided.Seedirections intheOMRAnswerSheet. |6.Afiertheexaminationhasconcluded,youshouldhandovertheOMRAnswerSheettotheInvigilatoronly. |YouarepermittedtotakeawaywithyoutheQuestionBooklet. |7.SeparatesheetsforroughworkwillbeprovidedintheExaminationHall. |8.Therearenonegativemarksforincorrectanswer. | :a Series-B-2- 1.Choosethatsetofnumbersfromthefouralternativessetsthatissimilartothegivenset. (6:12:18)",
+      "q": "You have to mark all your responses only on the separate OMR Response Sheet provided. See directions in the OMR Answer Sheet. | 6. Afier the examination has concluded, you should hand over the OMR Answer Sheet to the Invigilator only. | You are permitted to take away with you the Question Booklet. | 7. Separate sheets for rough work will be provided in the Examination Hall. | 8. There are no negative marks for incorrect answer. | : a Series - B -2- 1. Choose that set of numbers from the four alternatives sets that is similar to the given set. (6:12: 18)",
       "multi": false
     },
     {
@@ -41,7 +41,7 @@
         "a": "30",
         "b": "27",
         "c": "36",
-        "d": "72 (a)6(b)12 (c)21(d)32"
+        "d": "72 (a) 6 (b) 12 (c) 21 (d) 32"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "27,36,45,72",
+      "q": "27, 36, 45, 72",
       "multi": false
     },
     {
@@ -61,10 +61,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SalimAli",
-        "b": "C.V.Raman",
-        "c": "VikramSarabhai",
-        "d": "ShrinivasRamanujan"
+        "a": "Salim Ali",
+        "b": "C.V. Raman",
+        "c": "Vikram Sarabhai",
+        "d": "Shrinivas Ramanujan"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThegreatIndianmathematicianwhomadesignificantcontributiontoinfiniteseriesis-",
+      "q": "The great Indian mathematician who made significant contribution to infinite series is-",
       "multi": false
     },
     {
@@ -84,10 +84,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MinistryofScience&Technology",
-        "b": "MinistryofSpace",
-        "c": "MinistryofCulture",
-        "d": "MinistryofEarthSciences (a)Hostileradarthreats(b)Cyberthreats (c)Biologicalthreats(d)Spacedebris"
+        "a": "Ministry of Science & Technology",
+        "b": "Ministry of Space",
+        "c": "Ministry of Culture",
+        "d": "Ministry of Earth Sciences (a) Hostile radar threats (b) Cyber threats (c) Biological threats (d) Space debris"
       },
       "marked": null,
       "cov": {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheNationalCouncilofScienceMuseumbasedinKolkataisanautonomousbodyfunctioningunder whichMinistry?",
+      "q": "The National Council of Science Museum based in Kolkata is an autonomous body functioning under which Ministry?",
       "multi": false
     },
     {
@@ -107,10 +107,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Windpower",
-        "b": "Hydropower",
-        "c": "Fossilfuels",
-        "d": "Solarenergy"
+        "a": "Wind power",
+        "b": "Hydro power",
+        "c": "Fossil fuels",
+        "d": "Solar energy"
       },
       "marked": null,
       "cov": {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichoneofthefollowingisnotarenewablesourceofenergy?",
+      "q": "Which one of the following is not a renewable source of energy?",
       "multi": false
     },
     {
@@ -130,10 +130,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NationalGreenHydrogenMission",
-        "b": "NationalQuantumMission",
-        "c": "NationalMissionforSustainableAgriculture",
-        "d": "NationalSupercomputingMission."
+        "a": "National Green Hydrogen Mission",
+        "b": "National Quantum Mission",
+        "c": "National Mission for Sustainable Agriculture",
+        "d": "National Supercomputing Mission."
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheNationalActionPlanonClimateChange(NAPCC)haseightnationalmissions.Oneofthe missionsis-",
+      "q": "The National Action Plan on Climate Change (NAPCC) has eight national missions. One of the missions is-",
       "multi": false
     },
     {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstIndianspacesatellitewhichwaslaunchedin1975was-",
+      "q": "The first Indian space satellite which was launched in 1975 was -",
       "multi": false
     },
     {
@@ -176,9 +176,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Climatechange",
-        "b": "Riseinsealevel",
-        "c": "Meltingofglacier",
+        "a": "Climate change",
+        "b": "Rise in sea level",
+        "c": "Melting of glacier",
         "d": "Deforestation"
       },
       "marked": null,
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Coralbleachingisanindicatorof-",
+      "q": "Coral bleaching is an indicator of-",
       "multi": false
     },
     {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OnOctober24,2024Indialauncheditsfourthnuclear-poweredballisticmissilesubmarine(SSBN) attheShipbuildingCentreinVishakhapatnamcalledas-",
+      "q": "On October 24, 2024 India launched its fourth nuclear-powered ballistic missile submarine (SSBN) at the Ship building Centre in Vishakhapatnam called as -",
       "multi": false
     },
     {
@@ -223,9 +223,9 @@
       "direction": null,
       "opts": {
         "a": "Windmill",
-        "b": "Darrieuswindturbine",
-        "c": "HorizontalAxisWindTurbines(HAWT)",
-        "d": "VerticalAxisWindTurbines(VAWT)"
+        "b": "Darrieus wind turbine",
+        "c": "Horizontal Axis Wind Turbines (HAWT)",
+        "d": "Vertical Axis Wind Turbines (VAWT)"
       },
       "marked": null,
       "cov": {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Indiahasmadesignificantprogressinharnessingwindenergy,drivenbybothgovernmentsupport andtechnologicaladvancements.ThemostcommonwindturbinesusedinIndiais-",
+      "q": "India has made significant progress in harnessing wind energy, driven by both government support and technological advancements. The most common wind turbines used in India is-",
       "multi": false
     },
     {
@@ -245,10 +245,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MissionDrishti",
-        "b": "MissionChandrayaan",
-        "c": "MissionRhumi",
-        "d": "MissionDhanush"
+        "a": "Mission Drishti",
+        "b": "Mission Chandrayaan",
+        "c": "Mission Rhumi",
+        "d": "Mission Dhanush"
       },
       "marked": null,
       "cov": {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OnAugust,2024IndialauncheditsfirstreusablehybridrocketfromThuruvidanthai,Chennaiwhich marksasignificantachievementinthecountry’sspaceexplorationefforts.Themissioniscalledas-",
+      "q": "On August, 2024 India launched its first reusable hybrid rocket from Thuruvidanthai, Chennai which marks a significant achievement in the country’s space exploration efforts. The mission is called as-",
       "multi": false
     },
     {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheautonomoussatellitenavigationsystemdevelopedbytheIndianSpaceResearchOrganisation (ISRO)thatfocusesontheIndiansubcontinentandsurroundingareasis-",
+      "q": "The autonomous satellite navigation system developed by the Indian Space Research Organisation (ISRO) that focuses on the Indian subcontinent and surrounding areas is-",
       "multi": false
     },
     {
@@ -291,10 +291,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TessyThomas",
-        "b": "BirbalSahni",
-        "c": "HomiJehangirBhabha",
-        "d": "MSSwaminathan"
+        "a": "Tessy Thomas",
+        "b": "Birbal Sahni",
+        "c": "Homi Jehangir Bhabha",
+        "d": "MS Swaminathan"
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefatherofIndianNuclearProgrammeis-",
+      "q": "The father of Indian Nuclear Programme is-",
       "multi": false
     },
     {
@@ -314,10 +314,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Milkproduction",
-        "b": "Fishproduction",
-        "c": "Wheatproduction",
-        "d": "Juteproduction"
+        "a": "Milk production",
+        "b": "Fish production",
+        "c": "Wheat production",
+        "d": "Jute production"
       },
       "marked": null,
       "cov": {
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheBluerevolutionthatoccurredinIndiagenerallyreferstoincreasein—",
+      "q": "The Blue revolution that occurred in India generally refers to increase in —",
       "multi": false
     },
     {
@@ -337,10 +337,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Neuralnetworkchip",
-        "b": "Brainonachip",
-        "c": "Tissuechip",
-        "d": "Minibrainimplants:"
+        "a": "Neural network chip",
+        "b": "Brain ona chip",
+        "c": "Tissue chip",
+        "d": "Mini brain implants :"
       },
       "marked": null,
       "cov": {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThenameofthetechnologydevelopedbyresearchersattheIndianInstituteofScience,Bangaluru thatmimicsthestructureandfunctionofbraintissueinaminiatureplatform,capableofstoringand processingdatain16,500is--",
+      "q": "The name of the technology developed by researchers at the Indian Institute of Science, Bangaluru that mimics the structure and function of brain tissue in a miniature platform, capable of storing and processing data in 16,500 is- -",
       "multi": false
     },
     {
@@ -361,9 +361,9 @@
       "direction": null,
       "opts": {
         "a": "Carborundum",
-        "b": "Carbondi-oxidation",
+        "b": "Carbon di-oxidation",
         "c": "Carbocation",
-        "d": "Carbonsequestration"
+        "d": "Carbon sequestration"
       },
       "marked": null,
       "cov": {
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thepotentialforstoringsignificantamountofcarboninforestsandotherecosystemsasanalternative meansofoffsettingtheeffectoffutureemissionsongreenhousegasconcentrationonatmosphereis-",
+      "q": "The potential for storing significant amount of carbon in forests and other ecosystems as an alternative means of offsetting the effect of future emissions on greenhouse gas concentration on atmosphere is-",
       "multi": false
     },
     {
@@ -383,10 +383,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "29January",
-        "b": "28\"February",
-        "c": "16November",
-        "d": "27\"March"
+        "a": "29 January",
+        "b": "28\" February",
+        "c": "16 November",
+        "d": "27\" March"
       },
       "marked": null,
       "cov": {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheNationalScienceDayiscelebratedeveryyearon—",
+      "q": "The National Science Day is celebrated every year on—",
       "multi": false
     },
     {
@@ -406,7 +406,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ArunachalPradesh",
+        "a": "Arunachal Pradesh",
         "b": "Assam",
         "c": "Meghalaya",
         "d": "Tripura"
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "DeeporBeelisaRamsarSitesituatedin-",
+      "q": "Deepor Beel is a Ramsar Site situated in-",
       "multi": false
     },
     {
@@ -429,10 +429,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Verypoor",
+        "a": "Very poor",
         "b": "Severe",
-        "c": "Moderatelypolluted",
-        "d": "Highlypolluted"
+        "c": "Moderately polluted",
+        "d": "Highly polluted"
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichoneofthefollowingcategoryisnotincludedintheNationalAirQualityIndex?",
+      "q": "Which one of the following category is not included in the National Air Quality Index?",
       "multi": false
     },
     {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "PualrengWildlifeSanctuaryislocatedinwhichdistrictofMizoram?",
+      "q": "Pualreng Wildlife Sanctuary is located in which district of Mizoram?",
       "multi": false
     },
     {
@@ -475,10 +475,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Leq]foraresidential",
-        "b": "50daytimeand40nighttime",
-        "c": "60daytimeand50nighttime",
-        "d": "65daytimeand55nighttime"
+        "a": "Leq] fora residential",
+        "b": "50 daytime and 40 night time",
+        "c": "60 daytime and 50 night time",
+        "d": "65 daytime and 55 night time"
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheambientNationalAirQualitystandardinrespectofnoise[LimitsindB(A)Leq]foraresidential",
+      "q": "The ambient National Air Quality standard in respect of noise [Limits in dB(A) Leq] fora residential",
       "multi": false
     },
     {
@@ -498,10 +498,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Sinomicrurusgorei",
-        "b": "Ahaetullaprasine",
-        "c": "Pythonbivittatus",
-        "d": "Smithophismizoramensis"
+        "a": "Sinomicrurus gorei",
+        "b": "Ahaetulla prasine",
+        "c": "Python bivittatus",
+        "d": "Smithophis mizoramensis"
       },
       "marked": null,
       "cov": {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThenewsnakespeciesdiscoveredinMizoramin2024byresearchersattheMizoramUniversityis-",
+      "q": "The new snake species discovered in Mizoram in 2024 by researchers at the Mizoram University is-",
       "multi": false
     },
     {
@@ -522,9 +522,9 @@
       "direction": null,
       "opts": {
         "a": "Bttomato",
-        "b": "Goldenrice",
+        "b": "Golden rice",
         "c": "Btcotton",
-        "d": "GMCanola"
+        "d": "GM Canola"
       },
       "marked": null,
       "cov": {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theonlyapprovedgeneticallymodified(GM)cropforcultivationinIndiais-",
+      "q": "The only approved genetically modified (GM) crop for cultivation in India is-",
       "multi": false
     },
     {
@@ -545,9 +545,9 @@
       "direction": null,
       "opts": {
         "a": "Methane",
-        "b": "CarbonDioxide",
-        "c": "WaterVapour",
-        "d": "NitrousOxide"
+        "b": "Carbon Dioxide",
+        "c": "Water Vapour",
+        "d": "Nitrous Oxide"
       },
       "marked": null,
       "cov": {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThemostabundantGreenhouseGasintheatmosphereis-",
+      "q": "The most abundant Greenhouse Gas in the atmosphere is -",
       "multi": false
     },
     {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Severalplantsaresensitivetoozoneandcontributeasanindicatorofairpollution.Ozoneenters leavesthroughthemicroscopicporesof-",
+      "q": "Several plants are sensitive to ozone and contribute as an indicator of air pollution. Ozone enters leaves through the microscopic pores of-",
       "multi": false
     },
     {
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheseriesofsupercomputersdesignedandassembledbytheCentreforDevelopmentofAdvanced Computing(C-DAC)inPune,Indiais-",
+      "q": "The series of supercomputers designed and assembled by the Centre for Development of Advanced Computing (C-DAC) in Pune, India is -",
       "multi": false
     },
     {
@@ -613,10 +613,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BharatBiotech",
+        "a": "Bharat Biotech",
         "b": "Novartis",
         "c": "Biocon",
-        "d": "DrReddy’sLab (a)EEG(b)ECG (©)CTScan(d)MRI"
+        "d": "Dr Reddy’s Lab (a) EEG (b) ECG (©) CT Scan (d) MRI"
       },
       "marked": null,
       "cov": {
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheIndianbiopharmacompanytodevelopthefirstrH-insulinusingaPichiapastorisyeastexpression systemintheworldis-",
+      "q": "The Indian biopharma company to develop the first rH-insulin using a Pichia pastoris yeast expression system in the world is-",
       "multi": false
     },
     {
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Itisanetworkthatisconstructedbyusingpublicwires/networkusuallytheinternettoconnecttoa privatenetwork-",
+      "q": "It isa network that is constructed by using public wires/network usually the internet to connect toa private network -",
       "multi": false
     },
     {
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichSustainableDevelopmentGoal(SDG)focusesoninnovation?",
+      "q": "Which Sustainable Development Goal (SDG) focuses on innovation?",
       "multi": false
     },
     {
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theprocessbywhichgreenplantsandcertainotherorganismstransformlightenergyintochemical energyiscalled-",
+      "q": "The process by which green plants and certain other organisms transform light energy into chemical energy is called -",
       "multi": false
     },
     {
@@ -705,10 +705,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BiotechnologyforEnvironment,Economy,andEmployment",
-        "b": "BiotechnologyforEnvironment,Economy,andEntrepreneurship",
-        "c": "BiotechnologyforEcology,Economy,andEmployment",
-        "d": "BiotechnologyforEcology,Economy,andEnergy"
+        "a": "Biotechnology for Environment, Economy, and Employment",
+        "b": "Biotechnology for Environment, Economy, and Entrepreneurship",
+        "c": "Biotechnology for Ecology, Economy, and Employment",
+        "d": "Biotechnology for Ecology, Economy, and Energy"
       },
       "marked": null,
       "cov": {
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheBioE3policylaunchedbytheUnionMinisterofStateforScienceandTechnologystandsfor-",
+      "q": "The BioE3 policy launched by the Union Minister of State for Science and Technology stands for-",
       "multi": false
     },
     {
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstScientificPolicyResolutioninIndiawasadoptedintheyear-",
+      "q": "The first Scientific Policy Resolution in India was adopted in the year -",
       "multi": false
     },
     {
@@ -751,10 +751,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SerumInstituteofIndiaincollaborationwithIndianCouncilofMedicalResearch",
-        "b": "BharatBiotechincollaborationwithIndianCouncilofMedicalResearch",
-        "c": "PfizerincollaborationwithIndianCouncilofMedicalResearch",
-        "d": "EliLilyandcompanyincollaborationwithIndianCouncilofMedicalResearch"
+        "a": "Serum Institute of India in collaboration with Indian Council of Medical Research",
+        "b": "Bharat Biotech in collaboration with Indian Council of Medical Research",
+        "c": "Pfizer in collaboration with Indian Council of Medical Research",
+        "d": "Eli Lily and company in collaboration with Indian Council of Medical Research"
       },
       "marked": null,
       "cov": {
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "COVAXIN,India’sfirstindigenousCovid-19vaccinewasdevelopedby-",
+      "q": "COVAXIN, India’s first indigenous Covid-19 vaccine was developed by-",
       "multi": false
     },
     {
@@ -775,9 +775,9 @@
       "direction": null,
       "opts": {
         "a": "Rairahteathawnthu",
-        "b": "ChhuralehNaathawnthu",
-        "c": "Nuchhimithawnthu",
-        "d": "Sichangneiithawnthu"
+        "b": "Chhura leh Naa thawnthu",
+        "c": "Nuchhimi thawnthu",
+        "d": "Sichangneii thawnthu"
       },
       "marked": null,
       "cov": {
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InMizofolktales,awell-knownmagicalobjectcalled‘Bahhoukte’isfoundin-",
+      "q": "In Mizo folktales, a well-known magical object called ‘Bahhoukte’ is found in -",
       "multi": false
     },
     {
@@ -799,8 +799,8 @@
       "opts": {
         "a": "Samdala",
         "b": "Keimi",
-        "c": "TlingilehNgama",
-        "d": "LaltherilehChalthanga"
+        "c": "Tlingi leh Ngama",
+        "d": "Laltheri leh Chalthanga"
       },
       "marked": null,
       "cov": {
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InMizofolktales,anthropomorphosisisfoundin-",
+      "q": "In Mizo folktales, anthropomorphosis is found in -",
       "multi": false
     },
     {
@@ -821,9 +821,9 @@
       "direction": null,
       "opts": {
         "a": "Khawnglungrun",
-        "b": "Khuanglengrun",
-        "c": "Chhimlehhmarindo",
-        "d": "Thlanrawnrawt"
+        "b": "Khuangleng run",
+        "c": "Chhim leh hmar indo",
+        "d": "Thlanrawn rawt"
       },
       "marked": null,
       "cov": {
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichoneofthefollowingisassociatedwithLallula?",
+      "q": "Which one of the following is associated with Lallula?",
       "multi": false
     },
     {
@@ -844,9 +844,9 @@
       "direction": null,
       "opts": {
         "a": "Buhseng",
-        "b": "Kangral",
+        "b": "Kang ral",
         "c": "Lovah",
-        "d": "Rammut2"
+        "d": "Rammut 2"
       },
       "marked": null,
       "cov": {
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IntraditionalMizosociety,publicholidayisusedtoobserveontheoccasionof-",
+      "q": "In traditional Mizo society, public holiday is used to observe on the occasion of -",
       "multi": false
     },
     {
@@ -867,7 +867,7 @@
       "direction": null,
       "opts": {
         "a": "Khawvelthanga",
-        "b": "Khamliana:",
+        "b": "Khamliana :",
         "c": "Lalluaia",
         "d": "Lalruma"
       },
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstMizochiefwhofreedallofhisslavesin1910was-",
+      "q": "The first Mizo chief who freed all of his slaves in 1910 was -",
       "multi": false
     },
     {
@@ -889,10 +889,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TumchhingilehRaldawna",
-        "b": "ChawngvungilehHrangchhuana",
-        "c": "ChawngmawiilehZawlpala",
-        "d": "LasirilehNeihlala"
+        "a": "Tumchhingi leh Raldawna",
+        "b": "Chawngvungi leh Hrangchhuana",
+        "c": "Chawngmawii leh Zawlpala",
+        "d": "Lasiri leh Neihlala"
       },
       "marked": null,
       "cov": {
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichoneofthefollowingiscorrectpair?",
+      "q": "Which one of the following is correct pair?",
       "multi": false
     },
     {
@@ -912,9 +912,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Pawlkut",
-        "b": "Mimkut",
-        "c": "Chapcharkut",
+        "a": "Pawl kut",
+        "b": "Mim kut",
+        "c": "Chapchar kut",
         "d": "Khuangchawi"
       },
       "marked": null,
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IntraditionalMizosocietythereligiousrite‘Kawngpuisiam’isobservedeveryyearbeforethe commencementof-",
+      "q": "In traditional Mizo society the religious rite ‘Kawngpui siam’ is observed every year before the commencement of -",
       "multi": false
     },
     {
@@ -935,10 +935,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Vahsanlakni",
-        "b": "Mangchhalni",
-        "c": "Ramtukni",
-        "d": "Chawndoni"
+        "a": "Vahsan lakni",
+        "b": "Mangchhal ni",
+        "c": "Ram tuk ni",
+        "d": "Chawn do ni"
       },
       "marked": null,
       "cov": {
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThestartingdayofslashingdowntreesforjhumplotintraditionalMizosocietyiscalled-",
+      "q": "The starting day of slashing down trees for jhum plot in traditional Mizo society is called -",
       "multi": false
     },
     {
@@ -958,10 +958,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "pawnpuiandthul",
-        "b": "pawnpuiandchem",
-        "c": "thullehchempui",
-        "d": "fianandthlengpui"
+        "a": "pawnpui and thul",
+        "b": "pawnpui and chem",
+        "c": "thul leh chempui",
+        "d": "fian and thlengpui"
       },
       "marked": null,
       "cov": {
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Itwasacustomaryonthepartofthebridetobringalongwith-",
+      "q": "It was acustomary on the part of the bride to bring along with -",
       "multi": false
     },
     {
@@ -981,7 +981,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Sumzanlut",
+        "a": "Sum zan lut",
         "b": "Pusum",
         "c": "Sumpui",
         "d": "Manpui"
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InMizomarriage,theprincipalbridepriceisknownas-",
+      "q": "In Mizo marriage, the principal bride price is known as -",
       "multi": false
     },
     {
@@ -1004,7 +1004,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Kawngkasulamak",
+        "a": "Kawngka sula mak",
         "b": "Peksachang",
         "c": "Sumchhuah",
         "d": "Sumlaitan"
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InMizodivorceorseparation,whenthehusbandbringsinanotherwoman,itiscalled-",
+      "q": "In Mizo divorce or separation, when the husband brings in another woman, it is called -",
       "multi": false
     },
     {
@@ -1028,7 +1028,7 @@
       "direction": null,
       "opts": {
         "a": "Taurus",
-        "b": "GreatBear",
+        "b": "Great Bear",
         "c": "Saturn",
         "d": "Pleiades"
       },
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AccordingtoMizotraditionalknowledgesystemofstars,‘KhiangteZawngzim’referredto-",
+      "q": "According to Mizo traditional knowledge system of stars, ‘Khiangte Zawngzim’ referred to -",
       "multi": false
     },
     {
@@ -1050,7 +1050,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Valupa",
+        "a": "Val upa",
         "b": "Rambual",
         "c": "Puithiam",
         "d": "Thirdeng"
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ApersonwhoselectthebestjhummingsiteduringthetraditionalMizosocietywascalled-",
+      "q": "A person who select the best jhumming site during the traditional Mizo society was called -",
       "multi": false
     },
     {
@@ -1073,10 +1073,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "VanhnuavsiTlhaiwmavunngaa",
-        "b": "LallianvungavsLalpuithanga",
-        "c": "VutaandMangavsLalsavunga",
-        "d": "RofuravsVuta"
+        "a": "Vanhnuavsi Tlhaiwmavunngaa",
+        "b": "Lallianvunga vs Lalpuithanga",
+        "c": "Vuta and Manga vs Lalsavunga",
+        "d": "Rofura vs Vuta"
       },
       "marked": null,
       "cov": {
@@ -1086,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefamousHast-WestWarcalled‘ChhaklehThlangIndo’wasfoughtbetween-",
+      "q": "The famous Hast- West War called ‘Chhak leh Thlang Indo’ was fought between -",
       "multi": false
     },
     {
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AizawlTheologicalSchoolwasestablishedintheyear-",
+      "q": "Aizawl Theological School was established in the year -",
       "multi": false
     },
     {
@@ -1119,9 +1119,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "June25,1903",
-        "b": "July8,1906",
-        "c": "December2,1906({d)April10,1909"
+        "a": "June 25, 1903",
+        "b": "July 8, 1906",
+        "c": "December 2, 1906 ({d) April 10, 1909"
       },
       "marked": null,
       "cov": {
@@ -1130,7 +1130,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstLowerPrimaryExaminationinMizoramwasheldin-",
+      "q": "The first Lower Primary Examination in Mizoram was held in -",
       "multi": false
     },
     {
@@ -1153,7 +1153,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AMonographonLushaiCustomsandCeremonieswaswrittenby-",
+      "q": "A Monograph on Lushai Customs and Ceremonies was written by -",
       "multi": false
     },
     {
@@ -1163,10 +1163,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RhynchostylisRetusa",
-        "b": "RedVanda",
-        "c": "AeridesOdorata",
-        "d": "LiliumMackliniae (a)Tialpapuk(b)Surpuk ({c)Tialparipuk(d)Pukzing"
+        "a": "Rhynchostylis Retusa",
+        "b": "Red Vanda",
+        "c": "Aerides Odorata",
+        "d": "Lilium Mackliniae (a) Tialpapuk (b) Sur puk ({c) Tialpari puk (d) Pukzing"
       },
       "marked": null,
       "cov": {
@@ -1176,7 +1176,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheStateFlowerofMizoramis-",
+      "q": "The State Flower of Mizoram is -",
       "multi": false
     },
     {
@@ -1187,9 +1187,9 @@
       "direction": null,
       "opts": {
         "a": "Khawlkungi",
-        "b": "NuchhungiRenthlei",
-        "c": "BuangiSailo",
-        "d": "LalsangzualiSailo"
+        "b": "Nuchhungi Renthlei",
+        "c": "Buangi Sailo",
+        "d": "Lalsangzuali Sailo"
       },
       "marked": null,
       "cov": {
@@ -1199,7 +1199,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstrecipientofthePadmaShriAwardamongthewomenfromMizoramwas-",
+      "q": "The first recipient of the Padma Shri Award among the women from Mizoram was -",
       "multi": false
     },
     {
@@ -1209,10 +1209,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Tlanglamzai",
-        "b": "Chawngchenzai",
-        "c": "Nilenzai",
-        "d": "Dawnzai"
+        "a": "Tlanglam zai",
+        "b": "Chawngchen zai",
+        "c": "Nilen zai",
+        "d": "Dawn zai"
       },
       "marked": null,
       "cov": {
@@ -1222,7 +1222,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "PumaZaiwasreplacedby-",
+      "q": "Puma Zai was replaced by -",
       "multi": false
     },
     {
@@ -1232,10 +1232,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ThefirstpresidentofYoungLushaiAssociation",
-        "b": "ThefirstEditorofMizoChanchinLaisuih",
-        "c": "ThefirstEditorofMizolehVaiChanchinbu",
-        "d": "ThefirstEditorofKristianTlangau"
+        "a": "The first president of Young Lushai Association",
+        "b": "The first Editor of Mizo Chanchin Laisuih",
+        "c": "The first Editor of Mizo leh Vai Chanchinbu",
+        "d": "The first Editor of Kristian Tlangau"
       },
       "marked": null,
       "cov": {
@@ -1245,7 +1245,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "RoleofRevL.EvansinMizohistorywas-",
+      "q": "Role of Rev L. Evans in Mizo history was -",
       "multi": false
     },
     {
@@ -1255,10 +1255,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "25February,1951",
-        "b": "25April,1952",
-        "c": "25May,1953",
-        "d": "25April,1954"
+        "a": "25 February, 1951",
+        "b": "25 April, 1952",
+        "c": "25 May, 1953",
+        "d": "25 April, 1954"
       },
       "marked": null,
       "cov": {
@@ -1268,7 +1268,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InwhichofthefollowingyearwasMizoDistrictCouncilinaugurated?",
+      "q": "In which of the following year was Mizo District Council inaugurated?",
       "multi": false
     },
     {
@@ -1291,7 +1291,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThenumberofMizoswhowenttoFranceinconnectionwiththeFirstWorldWarwas-",
+      "q": "The number of Mizos who went to France in connection with the First World War was -",
       "multi": false
     },
     {
@@ -1302,9 +1302,9 @@
       "direction": null,
       "opts": {
         "a": "S.N.Barkataki",
-        "b": "BrojoNathSaha",
-        "c": "GNBardoloi",
-        "d": "RupNathBrahma"
+        "b": "Brojo Nath Saha",
+        "c": "GN Bardoloi",
+        "d": "Rup Nath Brahma"
       },
       "marked": null,
       "cov": {
@@ -1314,7 +1314,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstIndiantotakeoverasSuperintendentofLushaiHillswas-",
+      "q": "The first Indian to take over as Superintendent of Lushai Hills was -",
       "multi": false
     },
     {
@@ -1337,7 +1337,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheMizomusicalinstrumentTumphitproduceddifferentnotes.",
+      "q": "The Mizo musical instrument Tumphit produced different notes.",
       "multi": false
     },
     {
@@ -1360,7 +1360,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoamongthefollowingistherecipientofRokungaAward,2024?",
+      "q": "Who among the following is the recipient of Rokunga Award, 2024?",
       "multi": false
     },
     {
@@ -1370,10 +1370,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Lalkhama,Laldenga,R.D.Pradhan",
-        "b": "Laithanhawla,Laldenga,R.D.Pradhan",
-        "c": "Laldenga,Laikhama,GianiZailSingh",
-        "d": "Laidenga,Laikhama,CharanSingh"
+        "a": "Lalkhama, Laldenga, R.D.Pradhan",
+        "b": "Laithanhawla, Laldenga, R.D.Pradhan",
+        "c": "Laldenga, Laikhama, Giani Zail Singh",
+        "d": "Laidenga, Laikhama, Charan Singh"
       },
       "marked": null,
       "cov": {
@@ -1383,7 +1383,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThesignatoriesofMemorandumofSettlement(MizoramAccord)were-",
+      "q": "The signatories of Memorandum of Settlement (Mizoram Accord) were -",
       "multi": false
     },
     {
@@ -1393,10 +1393,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RajivGandhi",
-        "b": "IndiraGandhi",
-        "c": "PVNarasimhaRao",
-        "d": "}MorarjiDesai"
+        "a": "Rajiv Gandhi",
+        "b": "Indira Gandhi",
+        "c": "PV Narasimha Rao",
+        "d": "} Morarji Desai"
       },
       "marked": null,
       "cov": {
@@ -1406,7 +1406,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheUnionTerritoryofMizoramwasinauguratedby-",
+      "q": "The Union Territory of Mizoram was inaugurated by -",
       "multi": false
     },
     {
@@ -1429,7 +1429,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "GroupingofvillageswasintroducedinMizoramfrom-",
+      "q": "Grouping of villages was introduced in Mizoram from -",
       "multi": false
     },
     {
@@ -1440,9 +1440,9 @@
       "direction": null,
       "opts": {
         "a": "Kungawrhi",
-        "b": "Tumchhingi-",
+        "b": "Tumchhingi -",
         "c": "Ngaiteii",
-        "d": "Chawngchilhi;"
+        "d": "Chawngchilhi ;"
       },
       "marked": null,
       "cov": {
@@ -1452,7 +1452,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AgirlwhofellinlovewithserpentinMizofolktaleis-",
+      "q": "A girl who fell in love with serpent in Mizo folktale is -",
       "multi": false
     },
     {
@@ -1462,9 +1462,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Maubuangvillage",
-        "b": "Muallungthuvillage",
-        "c": "Samlukhaivillage({d)Tachhipvillage"
+        "a": "Maubuang village",
+        "b": "Muallungthu village",
+        "c": "Samlukhai village ({d) Tachhip village"
       },
       "marked": null,
       "cov": {
@@ -1473,7 +1473,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "SibutaLungissituatedattheoutskirtof-",
+      "q": "Sibuta Lung is situated at the outskirt of -",
       "multi": false
     },
     {
@@ -1483,8 +1483,8 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Avwmlaithi",
-        "b": "Sarthi",
+        "a": "Avwmlai thi",
+        "b": "Sar thi",
         "c": "Raicheh.",
         "d": "Hlamzuih"
       },
@@ -1496,7 +1496,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whenaninfantdiedatorsoonafterbirth,itwasknownas-",
+      "q": "When an infant died at or soon after birth, it was known as -",
       "multi": false
     },
     {
@@ -1509,7 +1509,7 @@
         "a": "Liangkhaia",
         "b": "Chuautera",
         "c": "Chhuahkhama",
-        "d": "_Challiana"
+        "d": "_ Challiana"
       },
       "marked": null,
       "cov": {
@@ -1519,7 +1519,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThePilgrim’sProgresswastranslatedintoMizolanguageby-",
+      "q": "The Pilgrim’s Progress was translated into Mizo language by -",
       "multi": false
     },
     {
@@ -1529,10 +1529,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Itmustbeselectedbyramhualandsadawtbysleepingonenightattheproposesitetakingwith themwithacock.Ifthecockcrowbeforedawn,thesitewouldbeconsideredsuitable.",
-        "b": "Itmusthavetobeselectedbytheelderswhichtheydidbysleepingonenightatthepropose sitetakingwiththemacock.Ifthecockdidnotcrowbeforedawn,thesitewouldbeconsidered notsuitable.",
-        "c": "Itmusthavetobeselectedbyonly‘ramhual’whichtheydidbysleepingonenightatthe proposesitetakingwiththemacock.Ifthecockdidnotcrowbeforedawn,thesitewouldbe considerednotsuitable.",
-        "d": "Itmusthavetobeselectedbythegroupofyoungmenwhichtheydidbysleepingonenightat theproposesitetakingwiththemacock.Ifthecockdidnotcrowbeforedawn,thesitewould beconsiderednotsuitable."
+        "a": "It must be selected by ramhual and sadawt by sleeping one night at the propose site taking with them with a cock. If the cock crow before dawn, the site would be considered suitable.",
+        "b": "It must have to be selected by the elders which they did by sleeping one night at the propose site taking with them a cock. Ifthe cock did not crow before dawn, the site would be considered not suitable.",
+        "c": "It must have to be selected by only ‘ramhual’ which they did by sleeping one night at the propose site taking with them a cock. If the cock did not crow before dawn, the site would be considered not suitable.",
+        "d": "It must have to be selected by the group of young men which they did by sleeping one night at the propose site taking with them a cock. If the cock did not crow before dawn, the site would be considered not suitable."
       },
       "marked": null,
       "cov": {
@@ -1542,7 +1542,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Forselectionofnewsiteorvillage-",
+      "q": "For selection of new site or village -",
       "multi": false
     },
     {
@@ -1552,10 +1552,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "afullgrownfemalepigwaskilled",
-        "b": "ayoungpigwaskilled",
-        "c": "mithunwaskilled",
-        "d": "afullgrownhenwaskilled"
+        "a": "a full grown female pig was killed",
+        "b": "ayoung pig was killed",
+        "c": "mithun was killed",
+        "d": "a full grown hen was killed"
       },
       "marked": null,
       "cov": {
@@ -1565,7 +1565,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "In‘hnuaipui’sacrifice,",
+      "q": "In ‘hnuaipui’ sacrifice,",
       "multi": false
     },
     {
@@ -1588,7 +1588,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Rev.WilliamWilliamsarrivedMizoramintheyear-",
+      "q": "Rev. William Williams arrived Mizoram in the year -",
       "multi": false
     }
   ],

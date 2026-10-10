@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Islamabad,Pakistan",
-        "b": "Istanbul,Turkey",
-        "c": "NewDelhi,India",
-        "d": "Hanoi,Vietram"
+        "a": "Islamabad, Pakistan",
+        "b": "Istanbul, Turkey",
+        "c": "New Delhi, India",
+        "d": "Hanoi, Vietram"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InSeptember,2024,theNorthEastIndiaFestival2024washeld,andtheMinisterofArtand CulturefromMizoramattendedthefestival.Inwhichcitywasthefestivalheld?",
+      "q": "In September, 2024, the North East India Festival 2024 was held, and the Minister of Art and Culture from Mizoram attended the festival. In which city was the festival held?",
       "multi": false
     },
     {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OnSeptember4,2024,theone-dayInternationalConferenceonLiterature,CulturalStudies, Education,andSocialScienceswassuccessfullyheldinMizoram.Inwhichdistrict’scapitalwasthat conferenceheld?",
+      "q": "On September 4, 2024, the one-day International Conference on Literature, Cultural Studies, Education, and Social Sciences was successfully held in Mizoram. In which district’s capital was that conference held?",
       "multi": false
     },
     {
@@ -61,10 +61,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BenjaminLalrinsanga",
-        "b": "AnthonyVanmawia",
-        "c": "JacobLalhmangaiha",
-        "d": "JosephL.Hminga"
+        "a": "Benjamin Lalrinsanga",
+        "b": "Anthony Vanmawia",
+        "c": "Jacob Lalhmangaiha",
+        "d": "Joseph L.Hminga"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheSarvottamJeevanRakshaPadak,2023,wasposthumouslyawardedonAugust30,2024,toa youngmizoboywholosthislifewhilesavinghisbrother.Whowasthatbraveyoungboy?",
+      "q": "The Sarvottam Jeevan Raksha Padak, 2023, was posthumously awarded on August 30, 2024, toa young mizo boy who lost his life while saving his brother. Who was that brave young boy?",
       "multi": false
     },
     {
@@ -84,7 +84,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MaryLalmalsawmi",
+        "a": "Mary Lalmalsawmi",
         "b": "H.Mankimi",
         "c": "C.Thankhumi",
         "d": "B.Dinpuii"
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OnSeptember11,2024,thePresidentofIndiapresentedthe‘NationalFlorenceNightingaleAwards 2024’to15nursepersonnel.WhoreceivedtheAwardfromMizoram?",
+      "q": "On September 11, 2024, the President of India presented the ‘National Florence Nightingale Awards 2024’ to 15 nurse personnel. Who received the Award from Mizoram?",
       "multi": false
     },
     {
@@ -107,10 +107,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "60yearsofageorabove",
-        "b": "65yearsofageorabove",
-        "c": "70yearsofageorabove",
-        "d": "75yearsofageorabove?"
+        "a": "60 years of age or above",
+        "b": "65 years of age or above",
+        "c": "70 years of age or above",
+        "d": "75 years of age or above?"
       },
       "marked": null,
       "cov": {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Recently,whichagegroupofseniorcitizenshasbeenincludedunderAyushmanBharatPradhan MantriJanArogyaYojana(ABPMJAY)?",
+      "q": "Recently, which age group of senior citizens has been included under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PMJAY)?",
       "multi": false
     },
     {
@@ -130,10 +130,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PalakKohli",
-        "b": "EktaBhyan",
-        "c": "KaramijyotiDalal",
-        "d": "PreethiPal"
+        "a": "Palak Kohli",
+        "b": "Ekta Bhyan",
+        "c": "Karamijyoti Dalal",
+        "d": "Preethi Pal"
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichIndianathletecreatedahistorybywinningIndia’sfirstbronzemedalin200mraceat2024 :ParisParalympics?",
+      "q": "Which Indian athlete created a history by winning India’s first bronze medal in 200m race at 2024 : Paris Paralympics?",
       "multi": false
     },
     {
@@ -153,10 +153,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SiddharthaAgarwal",
-        "b": "VikrantKashyap",
-        "c": "AnandKumar;",
-        "d": "VikasRao"
+        "a": "Siddhartha Agarwal",
+        "b": "Vikrant Kashyap",
+        "c": "Anand Kumar ;",
+        "d": "Vikas Rao"
       },
       "marked": null,
       "cov": {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Recently,whobecametheoldestIndiantoswimacrosstheEnglishChannel?",
+      "q": "Recently, who became the oldest Indian to swim across the English Channel?",
       "multi": false
     },
     {
@@ -179,7 +179,7 @@
         "a": "DRDO",
         "b": "ISRO",
         "c": "NDRF",
-        "d": "MinistryofHomeAffairs -2-*"
+        "d": "Ministry of Home Affairs -2- *"
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "LandslideAtlasofIndia,recentlyseeninthenews,ispreparedbywhichorganization?",
+      "q": "Landslide Atlas of India, recently seen in the news, is prepared by which organization?",
       "multi": false
     },
     {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Recently,PaetongtarnShinawatrabecametheyoungestPrimeMinisterofwhichcountry?",
+      "q": "Recently, Paetongtarn Shinawatra became the youngest Prime Minister of which country?",
       "multi": false
     },
     {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichcountryreportedthefirstconfirmedcaseofdeadlyMpoxvariantoutsideAfrica?",
+      "q": "Which country reported the first confirmed case of deadly Mpox variant outside Africa?",
       "multi": false
     },
     {
@@ -245,10 +245,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NicolasMaduroMorosVenezuela",
-        "b": "PaulKagameRwanda",
-        "c": "FelixTshisekediCongo",
-        "d": "AlexanderStubbIndonesia"
+        "a": "Nicolas Maduro Moros Venezuela",
+        "b": "Paul Kagame Rwanda",
+        "c": "Felix Tshisekedi Congo",
+        "d": "Alexander Stubb Indonesia"
       },
       "marked": null,
       "cov": {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Presidentsofvariouscountrieswereelectedin2024,Thecountriesandtheirrespectivepresidents arelistedbelow.Identifytheincorrectpairing. PresidentsCountries",
+      "q": "Presidents of various countries were elected in 2024, The countries and their respective presidents are listed below. Identify the incorrect pairing. Presidents Countries",
       "multi": false
     },
     {
@@ -269,7 +269,7 @@
       "direction": null,
       "opts": {
         "a": "Harshavardhana",
-        "b": "ChandraguptaI",
+        "b": "Chandragupta I",
         "c": "Kanishka",
         "d": "Samudragupta"
       },
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘TheCouncilofNineGems’(NavaRaina),isassociatedwiththenameof:",
+      "q": "‘The Council of Nine Gems’(Nava Raina), is associated with the name of:",
       "multi": false
     },
     {
@@ -293,8 +293,8 @@
       "opts": {
         "a": "Iltutmish",
         "b": "Sabuktagin",
-        "c": "SultanaRaziya",
-        "d": "SultanMabmud"
+        "c": "Sultana Raziya",
+        "d": "Sultan Mabmud"
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thegreatscholar4/-Biruniwasthecourtierof:",
+      "q": "The great scholar 4/-Biruni was the courtier of:",
       "multi": false
     },
     {
@@ -314,10 +314,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ChandraguptaMaurya",
+        "a": "Chandragupta Maurya",
         "b": "Ashoka",
         "c": "Samudragupta",
-        "d": "ChandraguptaVikramaditya"
+        "d": "Chandragupta Vikramaditya"
       },
       "marked": null,
       "cov": {
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheHindukinggenerallyknownasthe‘indianNapolean’forhisbrilliantmilitaryexploitswas:",
+      "q": "The Hindu king generally known as the ‘indian Napolean’ for his brilliant military exploits was:",
       "multi": false
     },
     {
@@ -337,10 +337,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LordWellesley",
-        "b": "LordCurzon",
-        "c": "LordDalhousie",
-        "d": ".LordRippon"
+        "a": "Lord Wellesley",
+        "b": "Lord Curzon",
+        "c": "Lord Dalhousie",
+        "d": ". Lord Rippon"
       },
       "marked": null,
       "cov": {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstPartitionofBengalwascarriedoutin1905by:",
+      "q": "The first Partition of Bengal was carried out in 1905 by:",
       "multi": false
     },
     {
@@ -360,10 +360,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "(i)4,(id)L,(iii)2,(iv)3",
-        "b": "(i)3,(ii)4,iii)L,(iv)2",
-        "c": "(i)2,(ii)L,(iii)4,(iv)3",
-        "d": "(i)1,Gi)2,iii)3,(iv)4"
+        "a": "(i) 4, (id) L, (iii) 2, (iv) 3",
+        "b": "(i) 3, (ii) 4, iii) L, (iv) 2",
+        "c": "(i) 2, (ii) L, (iii) 4, (iv) 3",
+        "d": "(i) 1, Gi) 2, iii) 3, (iv) 4"
       },
       "marked": null,
       "cov": {
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Matchthefollowing: @)AllIndiaHomeRuleLeaque1.DayanandSaraswati Gi)PrarthanaSamaj2.GKGokhale (ii)AryaSamaj3.AnnieBeasant (iv)TheServantsofIndianSociety4.MGRanade",
+      "q": "Match the following: @) All India Home Rule Leaque 1. Dayanand Saraswati Gi) Prarthana Samaj 2. GK Gokhale (ii) Arya Samaj 3. Annie Beasant (iv) The Servants of Indian Society 4. MG Ranade",
       "multi": false
     },
     {
@@ -383,10 +383,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "HumayunandJahangir",
-        "b": "BaburandJahangir",
-        "c": "BaburandHumayun",
-        "d": "JahangirandShahJahan"
+        "a": "Humayun and Jahangir",
+        "b": "Babur and Jahangir",
+        "c": "Baburand Humayun",
+        "d": "Jahangir and Shah Jahan"
       },
       "marked": null,
       "cov": {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TwoofthegreatMughalswrotetheirownmemories.Theywere:",
+      "q": "Two of the great Mughals wrote their own memories. They were:",
       "multi": false
     },
     {
@@ -406,10 +406,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "()4,Gi)1,Gili)2,(iv)3",
-        "b": "(i)2,(ii)4,Gili)1,(iv)3",
-        "c": "(i)3,(ii)4,(iii)1,(iv)2",
-        "d": "(i)1,Gi)3,(iii)2,(iv)4"
+        "a": "() 4, Gi) 1, Gili) 2, (iv) 3",
+        "b": "(i) 2, (ii) 4, Gili) 1, (iv) 3",
+        "c": "(i) 3, (ii) 4, (iii) 1, (iv) 2",
+        "d": "(i) 1, Gi) 3, (iii) 2, (iv) 4"
       },
       "marked": null,
       "cov": {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Matchthefollowing: (i)ChamparanSatyagraha1.1919 Gi)ChauriChauraincident2.1930 Gil)JallianwalaBaghMassacre3.1917 (iv)CivilDisobedienceMovement4.1922",
+      "q": "Match the following: (i) Champaran Satyagraha 1. 1919 Gi) Chauri Chaura incident 2. 1930 Gil) Jallianwala Bagh Massacre 3. 1917 (iv) Civil Disobedience Movement 4. 1922",
       "multi": false
     },
     {
@@ -429,10 +429,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SwadeshiandBoycott",
-        "b": "SeparatistMovement",
-        "c": "Home-RuleMovement",
-        "d": "SwarajistPartyMovement"
+        "a": "Swadeshi and Boycott",
+        "b": "Separatist Movement",
+        "c": "Home-Rule Movement",
+        "d": "Swarajist Party Movement"
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThemovementinIndiawhichbecamepopularduringtheFirstWorldWarwasthe:",
+      "q": "The movement in India which became popular during the First World War was the:",
       "multi": false
     },
     {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThemostimportantkingdominDeccanandCentralIndiaaftertheMauryaswasthe:",
+      "q": "The most important kingdom in Deccan and Central India after the Mauryas was the:",
       "multi": false
     },
     {
@@ -473,12 +473,12 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.22to24):MatchthefactsofListIwithList2andthenanswerwhichcode",
+      "direction": "Directions (Question Nos. 22 to 24) : Match the facts of List I with List 2 and then answer which code",
       "opts": {
-        "a": "4312",
-        "b": "2431",
-        "c": "2341",
-        "d": "4321"
+        "a": "4 3 1 2",
+        "b": "2 4 3 1",
+        "c": "2 3 4 1",
+        "d": "4 3 2 1"
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "List1List2 A.FirstMuslimInvasionofIndia1.1191AD B.FirstMusliminvasionofBengal2.712AD C.SackofSomnath3.1202AD D.FirstBattleofTarain4.1026AD Codes: ABCcD",
+      "q": "List 1 List2 A. First Muslim Invasion of India 1. 1191AD B. First Muslim invasion of Bengal 2. 712AD C. Sack of Somnath 3. 1202 AD D. First Battle of Tarain 4. 1026AD Codes: A B Cc D",
       "multi": false
     },
     {
@@ -498,10 +498,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "2431",
-        "b": "3412",
-        "c": "3142",
-        "d": "1432 -4-."
+        "a": "2 4 3 1",
+        "b": "3 4 1 2",
+        "c": "3 1 4 2",
+        "d": "1 4 3 2 -4- ."
       },
       "marked": null,
       "cov": {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "List1List2 A.SherShah1.PeacockThrone B.Akbar2.TombofItmad-udDaula C.Shahjahan3.GrandTrunkRoad D.NurJahan4.FatehpurSikri Codes: :ABCcD",
+      "q": "List1 List2 A. Sher Shah 1. Peacock Throne B. Akbar 2. Tomb of Itmad-ud Daula C. Shahjahan 3. Grand Trunk Road D. Nur Jahan 4. Fatehpur Sikri Codes: : A B Cc D",
       "multi": false
     },
     {
@@ -521,10 +521,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "3142",
-        "b": "3412",
-        "c": "4132",
-        "d": "2413"
+        "a": "3 1 4 2",
+        "b": "3 4 1 2",
+        "c": "4 1 3 2",
+        "d": "2 4 1 3"
       },
       "marked": null,
       "cov": {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "List1List2 A.BlackholeTragedy1.1848AD B.SepoyMutiny2.1843AD C.DoctrineofLapse3.1756AD D.AnnexationofSind4.1857AD Codes: ABCcD",
+      "q": "List 1 List2 A. Blackhole Tragedy 1. 1848 AD B. Sepoy Mutiny 2. 1843AD C. Doctrine of Lapse 3. 1756AD D. Annexation of Sind 4. 1857AD Codes: A B Cc D",
       "multi": false
     },
     {
@@ -544,10 +544,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "IndiaandPakistan",
-        "b": "PakistanandAfghanistan",
-        "c": "NepalandIndia",
-        "d": "NepalandChina"
+        "a": "India and Pakistan",
+        "b": "Pakistan and Afghanistan",
+        "c": "Nepal and India",
+        "d": "Nepal and China"
       },
       "marked": null,
       "cov": {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "DurandLineistheboundaryofthetwocountriesnamely:",
+      "q": "Durand Line is the boundary of the two countries namely:",
       "multi": false
     },
     {
@@ -567,10 +567,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1,2,3,4only",
-        "b": "2,3,4only",
-        "c": "1,2,5only",
-        "d": "2,4,5only"
+        "a": "1,2,3,4 only",
+        "b": "2, 3,4 only",
+        "c": "1,2,5 only",
+        "d": "2,4,5 only"
       },
       "marked": null,
       "cov": {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Citiesandtheirnicknamesarelistedbelow.Whichofthefollowingis/arecorrectlypaired? CitiesNicknames 1.BengaluruSiliconValleyofIndia 2.ChennaiBankingcapitalofIndia 3.HyderabadCityofPearls 4.MaduraiCityofFestivals 5.MumbaiCityofSevenHills",
+      "q": "Cities and their nick names are listed below. Which of the following is/are correctly paired? Cities Nick names 1. Bengaluru Silicon Valley of India 2. Chennai Banking capital of India 3. Hyderabad City of Pearls 4. Madurai City of Festivals 5. Mumbai City of Seven Hills",
       "multi": false
     },
     {
@@ -590,9 +590,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TheGulfofMexico",
-        "b": "TheGulfofSt.Lawrence",
-        "c": "TheGulfofOb",
+        "a": "The GulfofMexico",
+        "b": "The Gulfof St. Lawrence",
+        "c": "The GulfofOb",
         "d": "GulfofAden"
       },
       "marked": null,
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefamousAmericanriverMississippiflowsintotheGulfknownas:",
+      "q": "The famous American river Mississippi flows into the Gulf known as:",
       "multi": false
     },
     {
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingcountriesistheworld’slargestproducerofnaturalrubberintheworld?",
+      "q": "Which of the following countries is the world’s largest producer of natural rubber in the world?",
       "multi": false
     },
     {
@@ -636,10 +636,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "June21",
+        "a": "June 21",
         "b": "Septembert5",
-        "c": "November30",
-        "d": "December22"
+        "c": "November 30",
+        "d": "December 22"
       },
       "marked": null,
       "cov": {
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheshortestdayandthelongestnightintheNorthernHemisphereis:",
+      "q": "The shortest day and the longest night in the Northern Hemisphere is:",
       "multi": false
     },
     {
@@ -659,10 +659,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ElNinoandLaNina",
+        "a": "El Nino and La Nina",
         "b": "EINino",
         "c": "LaNina",
-        "d": "SouthernOscillation"
+        "d": "Southern Oscillation"
       },
       "marked": null,
       "cov": {
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheoccasionaldevelopmentofwarmoceansurfacewatersalongthecoastofEcuadorandPeruis knownas:",
+      "q": "The occasional development of warm ocean surface waters along the coast of Ecuador and Peru is known as:",
       "multi": false
     },
     {
@@ -682,10 +682,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TamilNadu",
+        "a": "Tamil Nadu",
         "b": "Kerala",
         "c": "Gujarat",
-        "d": "Maharashtra. 5.*"
+        "d": "Maharashtra . 5. *"
       },
       "marked": null,
       "cov": {
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheStateinIndiawiththelongestcoastlineis::",
+      "q": "The State in India with the longest coastline is: :",
       "multi": false
     },
     {
@@ -707,8 +707,8 @@
       "opts": {
         "a": "Rajasthan",
         "b": "Bihar",
-        "c": "WestBengal",
-        "d": "AndhraPradesh"
+        "c": "West Bengal",
+        "d": "Andhra Pradesh"
       },
       "marked": null,
       "cov": {
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheStatewhichproducesmaximumuraniuminIndiais:",
+      "q": "The State which produces maximum uranium in India is:",
       "multi": false
     },
     {
@@ -728,9 +728,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LakeontheeastcoastofIndia",
-        "b": "MountainsintheHimalayas",
-        "c": "RiverinBihar({d)CityinAssam"
+        "a": "Lake on the east coast of India",
+        "b": "Mountains in the Himalayas",
+        "c": "River in Bihar ({d) City inAssam"
       },
       "marked": null,
       "cov": {
@@ -739,7 +739,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "‘Chilka’isthenameofa:",
+      "q": "‘Chilka’ is the name ofa:",
       "multi": false
     },
     {
@@ -749,10 +749,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Pollutedarea",
-        "b": "Hottestarea",
-        "c": "Frigidarea",
-        "d": "Volcanicarea"
+        "a": "Polluted area",
+        "b": "Hottest area",
+        "c": "Frigid area",
+        "d": "Volcanic area"
       },
       "marked": null,
       "cov": {
@@ -762,7 +762,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘DeathValleyi’nCalifornia(USA)isfamousfor:",
+      "q": "‘Death Valleyi’n  California(USA) is famous for:",
       "multi": false
     },
     {
@@ -785,7 +785,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingisanexampleofKharifcrops?",
+      "q": "Which of the following is an example of Kharif crops?",
       "multi": false
     },
     {
@@ -795,10 +795,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MembersofParliament",
-        "b": "MembersofParliamentandStateLegislatures",
-        "c": "MembersofStateLegislatures",
-        "d": "ElectedMembersofParliamentandStateLegislatures"
+        "a": "Members of Parliament",
+        "b": "Members of Parliament and State Legislatures",
+        "c": "Members of State Legislatures",
+        "d": "Elected Members of Parliament and State Legislatures"
       },
       "marked": null,
       "cov": {
@@ -808,7 +808,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "President’sElectoralCollegeofIndiaconsistsof:",
+      "q": "President’s Electoral College of India consists of:",
       "multi": false
     },
     {
@@ -818,10 +818,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PrimeMinister",
+        "a": "Prime Minister",
         "b": "Vice-President",
-        "c": "ChiefJusticeofIndia",
-        "d": "LokSabhaSpeaker"
+        "c": "Chief Justice of India",
+        "d": "Lok Sabha Speaker"
       },
       "marked": null,
       "cov": {
@@ -831,7 +831,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IfthePresidentofIndiahastoresign,hesendshisresignationtothe:",
+      "q": "Ifthe President of India has to resign, he sends his resignation to the:",
       "multi": false
     },
     {
@@ -844,7 +844,7 @@
         "a": "Kerala",
         "b": "Bihar",
         "c": "Gujarat",
-        "d": "UttarPradesh"
+        "d": "Uttar Pradesh"
       },
       "marked": null,
       "cov": {
@@ -854,7 +854,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ElectronicVotingMachinewasusedforthefirsttimeinIndiainwhichState?",
+      "q": "Electronic Voting Machine was used for the first time in India in which State?",
       "multi": false
     },
     {
@@ -864,10 +864,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "VoterVisitPollAccountTrail",
-        "b": "VoterVividPressAuditTrail",
-        "c": "VoterVerifiablePaperAuditTrail",
-        "d": "VoterVerifiablePaperAccountTrail"
+        "a": "Voter Visit Poll Account Trail",
+        "b": "Voter Vivid Press Audit Trail",
+        "c": "Voter Verifiable Paper Audit Trail",
+        "d": "Voter Verifiable Paper Account Trail"
       },
       "marked": null,
       "cov": {
@@ -877,7 +877,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inthecontextofelections,thetermVVPATstandsfor:",
+      "q": "Inthe context of elections, the term VVPAT stands for:",
       "multi": false
     },
     {
@@ -889,8 +889,8 @@
       "opts": {
         "a": "Non-Justiciable",
         "b": "Justiciable",
-        "c": "Justiciableifthehighestcourtfeelsitshouldbe",
-        "d": "SomeRightsarejusticiablewhileothersarenot"
+        "c": "Justiciable if the highest court feels it should be",
+        "d": "Some Rights are justiciable while others are not"
       },
       "marked": null,
       "cov": {
@@ -900,7 +900,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "FundamentalRightsofthecitizensare:",
+      "q": "Fundamental Rights of the citizens are:",
       "multi": false
     },
     {
@@ -910,10 +910,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NationalPeople’sParty",
-        "b": "NationalistCongressParty",
-        "c": "SamajwadiParty",
-        "d": "RastriyaJanataDal"
+        "a": "National People’s Party",
+        "b": "Nationalist Congress Party",
+        "c": "Samajwadi Party",
+        "d": "Rastriya Janata Dal"
       },
       "marked": null,
       "cov": {
@@ -923,7 +923,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheelephantisasymbolofwhichIndianPoliticalParty?",
+      "q": "The elephant is a symbol of which Indian Political Party?",
       "multi": false
     },
     {
@@ -933,10 +933,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ParliamentaryPrivileges",
-        "b": "JudicialReview",
-        "c": "ProcedureestablishedbyLaw",
-        "d": "SuspensionofFundamentalRightsduringemergencies -6-a"
+        "a": "Parliamentary Privileges",
+        "b": "Judicial Review",
+        "c": "Procedure established by Law",
+        "d": "Suspension of Fundamental Rights during emergencies -6- a"
       },
       "marked": null,
       "cov": {
@@ -946,7 +946,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingconstitutionalprovisionwasborrowedbytheIndianconstitutionfromBritish constitution?",
+      "q": "Which of the following constitutional provision was borrowed by the Indian constitution from British constitution?",
       "multi": false
     },
     {
@@ -956,10 +956,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "i)5,(ii)2,Gii)1,(iv)4",
-        "b": "(i)4,Gi)6,Gii)2,(iv)3",
-        "c": "(4)6,Gii)4,Gii)2,(iv)1",
-        "d": "(i)3,(ii)1,Gii)5,(iv)2"
+        "a": "i) 5, (ii) 2, Gii) 1, (iv) 4",
+        "b": "(i) 4, Gi) 6, Gii) 2, (iv)3",
+        "c": "(4) 6, Gii) 4, Gii) 2, (iv) 1",
+        "d": "(i) 3, (ii) 1, Gii) 5, (iv) 2"
       },
       "marked": null,
       "cov": {
@@ -969,7 +969,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Matchthefollowing G)Protectionoflifeandpersonalliberty @)Prohibitionoftrafficinhumanbeings (ii)QualificationforelectionasPresident (iv)Languangestobeusedinparliament RelevantArticlesoftheconstitution: 1.582.233.19- 4.1205.216.52",
+      "q": "Match the following G) Protection of life and personal liberty @) Prohibition of traffic in human beings (ii) Qualification for election as President (iv) Languanges to be used in parliament Relevant Articles of the constitution: 1. 58 2. 23 3. 19 - 4. 120 5. 21 6. 52",
       "multi": false
     },
     {
@@ -979,10 +979,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "A-1,B-IIl,C-IV,D-II",
-        "b": "A-II,B-I,C-III,D-IV",
-        "c": "A-III,B-I,C-IV,D-II",
-        "d": "A-II,B-IIl,C-I,D-IV"
+        "a": "A-1, B-IIl, C-IV, D-II",
+        "b": "A-II, B-I, C-III, D-IV",
+        "c": "A-III, B-I, C-IV, D-II",
+        "d": "A-II, B-IIl, C-I, D-IV"
       },
       "marked": null,
       "cov": {
@@ -992,7 +992,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MatchthefollowingList1(DirectivePrinciples)withList2(Articles) List1(DirectivePrinciples)List2(Articles) A.EqualjusticeandfreelegalaidI.48A B.ProtectionofenvironmentIL.39A .C.RighttoworkI.41 D.ProtectionofmonumentIv.49 Selectthecorrectoption:",
+      "q": "Match the following List 1 (Directive Principles) with List 2(Articles) List 1(Directive Principles) List 2(Articles) A. Equal justice and free legal aid I. 48A B. Protection of environment IL. 39A . C. Right to work I. 41 D. Protection of monument Iv. 49 Select the correct option:",
       "multi": false
     },
     {
@@ -1003,8 +1003,8 @@
       "direction": null,
       "opts": {
         "a": "PartI",
-        "b": "PartII",
-        "c": "PartIII",
+        "b": "Part II",
+        "c": "Part III",
         "d": "PartlV"
       },
       "marked": null,
@@ -1015,7 +1015,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Article32belongstowhichpartoftheIndianconstitution?",
+      "q": "Article 32 belongs to which part of the Indian constitution?",
       "multi": false
     },
     {
@@ -1026,9 +1026,9 @@
       "direction": null,
       "opts": {
         "a": "Onemonth",
-        "b": "Threemonths",
-        "c": "Sixmonths",
-        "d": "Oneyear"
+        "b": "Three months",
+        "c": "Six months",
+        "d": "One year"
       },
       "marked": null,
       "cov": {
@@ -1038,7 +1038,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatistheinitialdurationforwhichPresident’srulecanbeimposedinastate?",
+      "q": "What is the initial duration for which President’s rule can be imposed in a state?",
       "multi": false
     },
     {
@@ -1049,9 +1049,9 @@
       "direction": null,
       "opts": {
         "a": "M.S.Swaminathan",
-        "b": "VergheseKurien",
-        "c": "AmritaPatel",
-        "d": "A.PJ.AbdulKalam"
+        "b": "Verghese Kurien",
+        "c": "Amrita Patel",
+        "d": "A.PJ.Abdul Kalam"
       },
       "marked": null,
       "cov": {
@@ -1061,7 +1061,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whoisthepioneerof‘WhiteRevolution’inIndia?",
+      "q": "Who is the pioneer of ‘White Revolution’ in India?",
       "multi": false
     },
     {
@@ -1084,7 +1084,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inthecontextofsocialdevelopmentwhichofthefollowingstagesischaracterizedby‘IntenseSelf Awareness’?",
+      "q": "In the context of social development which of the following stages is characterized by ‘Intense Self Awareness’?",
       "multi": false
     },
     {
@@ -1094,10 +1094,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "7\"FiveYearPlan",
-        "b": "8\"FiveYearPlan",
-        "c": "2™FiveYearPlan",
-        "d": "5\"FiveYearPlan (a)acceptdemanddepositsbutdonotprovideloans (b)areregulatedbythecentralbankexclusively (c)provideloansandotherfinancialservicesbutdonotacceptdemanddeposits (d)operateintheinterbankmarkettoprovidequality"
+        "a": "7\" Five Year Plan",
+        "b": "8\" Five Year Plan",
+        "c": "2™ Five Year Plan",
+        "d": "5\" Five Year Plan (a) accept demand deposits but do not provide loans (b) are regulated by the central bank exclusively (c) provide loans and other financial services but do not accept demand deposits (d) operate in the interbank market to provide quality"
       },
       "marked": null,
       "cov": {
@@ -1107,7 +1107,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingFiveYearPlanwasimplementedwiththeslogan*GaribiHatao”?",
+      "q": "Which of the following Five Year Plan was implemented with the slogan*Garibi Hatao”?",
       "multi": false
     },
     {
@@ -1117,10 +1117,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Amanpartswithathingwhichtheothermanwants",
-        "b": "Theothermanwantsthethingwithwhichoneparts",
-        "c": "Both(a)&(b)",
-        "d": "Neither(a)nor(b)"
+        "a": "Aman parts with a thing which the other man wants",
+        "b": "The other man wants the thing with which one parts",
+        "c": "Both (a) & (b)",
+        "d": "Neither (a) nor (b)"
       },
       "marked": null,
       "cov": {
@@ -1130,7 +1130,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Wherebarterispossible?",
+      "q": "Where barter is possible?",
       "multi": false
     },
     {
@@ -1140,10 +1140,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Preciousminerals",
+        "a": "Precious minerals",
         "b": "Pulses",
         "c": "Jute",
-        "d": "HorticultureandHoney"
+        "d": "Horticulture and Honey"
       },
       "marked": null,
       "cov": {
@@ -1153,7 +1153,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘GoldenRevolution’isrelatedto-",
+      "q": "‘Golden Revolution’ is related to -",
       "multi": false
     },
     {
@@ -1163,10 +1163,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1°FiveYearPlan",
-        "b": "2\"FiveYearPlan",
-        "c": "3™FiveYearPlan",
-        "d": "4\"FiveYearPlan"
+        "a": "1° Five Year Plan",
+        "b": "2\" Five Year Plan",
+        "c": "3™ Five Year Plan",
+        "d": "4\" Five Year Plan"
       },
       "marked": null,
       "cov": {
@@ -1176,7 +1176,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichFiveYearPlanhadtheprimarygoaltoestablishIndiaasself-reliantandself-generatingeconomy?",
+      "q": "Which Five Year Plan had the primary goal to establish India as self-reliant and self-generating economy?",
       "multi": false
     },
     {
@@ -1186,8 +1186,8 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Customduties",
-        "b": "Exciseduties",
+        "a": "Custom duties",
+        "b": "Excise duties",
         "c": "VAT",
         "d": "GST"
       },
@@ -1199,7 +1199,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thetaximposedonimportandexportofcommoditiesinknownas:",
+      "q": "The tax imposed on import and export of commodities in known as:",
       "multi": false
     },
     {
@@ -1222,7 +1222,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatdoes‘M’standforinMUDRAYojana?",
+      "q": "What does ‘M’ stand for in MUDRA Yojana?",
       "multi": false
     },
     {
@@ -1235,7 +1235,7 @@
         "a": "2012",
         "b": "2013",
         "c": "2014",
-        "d": "2015 (a)Treasurybills(b)Securities (c)Specialdeposits(d)Callmoney"
+        "d": "2015 (a) Treasury bills (b) Securities (c) Special deposits (d) Call money"
       },
       "marked": null,
       "cov": {
@@ -1245,7 +1245,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheSmartCitiesMissionisanurbanrenewalprogramlaunchedbythegovernmentofIndiain-",
+      "q": "The Smart Cities Mission is an urban renewal program launched by the government of India in -",
       "multi": false
     },
     {
@@ -1255,10 +1255,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "100%electrificationofthetribalhouseholds",
-        "b": "Doublingtheincomeoftribalfarmers",
-        "c": "70%literacyrateamongthetribalcommunities",
-        "d": "100%accesstocleandrinkingwaterintribalareas"
+        "a": "100% electrification of the tribal households",
+        "b": "Doubling the income of tribal farmers",
+        "c": "70% literacy rate among the tribal communities",
+        "d": "100% access to clean drinking water in tribal areas"
       },
       "marked": null,
       "cov": {
@@ -1268,7 +1268,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingtargetachievementsissetunderthePradhanMantriVanbandhuVikasYojana by2025?",
+      "q": "Which of the following target achievements is set under the Pradhan Mantri Vanbandhu Vikas Yojana by 2025?",
       "multi": false
     },
     {
@@ -1278,10 +1278,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "frequentlandslides",
-        "b": "erosionofsurfacesoil",
+        "a": "frequent landslides",
+        "b": "erosion of surface soil",
         "c": "rainfall",
-        "d": "frequentcyclones"
+        "d": "frequent cyclones"
       },
       "marked": null,
       "cov": {
@@ -1291,7 +1291,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Deforestationmayreducethechancesof-",
+      "q": "Deforestation may reduce the chances of -",
       "multi": false
     },
     {
@@ -1301,10 +1301,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Reduce,Recycle,Reuse",
-        "b": "Replenish,Reduce,Reuse",
-        "c": "Retain,Recycle,Reduce",
-        "d": "Reduce,Recycle,Reset -8-%"
+        "a": "Reduce, Recycle, Reuse",
+        "b": "Replenish, Reduce, Reuse",
+        "c": "Retain, Recycle, Reduce",
+        "d": "Reduce, Recycle, Reset -8- %"
       },
       "marked": null,
       "cov": {
@@ -1314,7 +1314,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "The3Rprincipleinwastemanagementstandsfor?",
+      "q": "The 3R principle in waste management stands for?",
       "multi": false
     },
     {
@@ -1324,10 +1324,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "sulphuricacid",
-        "b": "nitricacid",
-        "c": "sulphuricacidandnitricacid",
-        "d": "sulphuricacid,nitricacidandhydrocloricacid"
+        "a": "sulphuric acid",
+        "b": "nitric acid",
+        "c": "sulphuric acid and nitric acid",
+        "d": "sulphuric acid, nitric acid and hydrocloric acid"
       },
       "marked": null,
       "cov": {
@@ -1337,7 +1337,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Acidraincontains:",
+      "q": "Acid rain contains:",
       "multi": false
     },
     {
@@ -1347,7 +1347,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Industrialwaste",
+        "a": "Industrial waste",
         "b": "Pesticides",
         "c": "Detergent",
         "d": "Ammonia"
@@ -1360,7 +1360,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Mostabundantwaterpollutantis:",
+      "q": "Most abundant water pollutant is:",
       "multi": false
     },
     {
@@ -1383,7 +1383,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingisanon-renewableresource?",
+      "q": "Which of the following is a non-renewable resource?",
       "multi": false
     },
     {
@@ -1406,7 +1406,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inpoorlyventilatedbuildingswhichoneofthefollowinginertgasescanbeaccumulated?",
+      "q": "In poorly ventilated buildings which one of the following inert gases can be accumulated?",
       "multi": false
     },
     {
@@ -1416,9 +1416,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Allplantspecies",
-        "b": "Allanimalspecies",
-        "c": "Threatenedspecies({d)Economicallyspecies"
+        "a": "All plant species",
+        "b": "All animal species",
+        "c": "Threatened species ({d) Economically species"
       },
       "marked": null,
       "cov": {
@@ -1427,7 +1427,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "‘RedDataBook’containsdataof:",
+      "q": "‘Red Data Book’ contains data of:",
       "multi": false
     },
     {
@@ -1437,10 +1437,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "CarbonMonoxide",
+        "a": "Carbon Monoxide",
         "b": "Ethane",
         "c": "Methane",
-        "d": "Carbondioxide"
+        "d": "Carbon dioxide"
       },
       "marked": null,
       "cov": {
@@ -1450,7 +1450,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Apoisonousgasgivenoutofvehiclesexhaustis:",
+      "q": "A poisonous gas given out of vehicles exhaust is:",
       "multi": false
     },
     {
@@ -1463,7 +1463,7 @@
         "a": "Leaching",
         "b": "Mulching",
         "c": "Terracing",
-        "d": "Croprotation"
+        "d": "Crop rotation"
       },
       "marked": null,
       "cov": {
@@ -1473,7 +1473,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Coveringthesoilsurfacebystraw,leavesorgrassesisknownas:",
+      "q": "Covering the soil surface by straw, leaves or grasses is known as:",
       "multi": false
     },
     {
@@ -1496,7 +1496,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Plantsthatcangrowindryplacesarecalled:",
+      "q": "Plants that can grow in dry places are called:",
       "multi": false
     },
     {
@@ -1519,7 +1519,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheOzonelayerispresentin:",
+      "q": "The Ozone layer is present in:",
       "multi": false
     },
     {
@@ -1529,10 +1529,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "7500meter",
-        "b": "8000meter",
-        "c": "8500meter",
-        "d": "9000meter"
+        "a": "7500 meter",
+        "b": "8000 meter",
+        "c": "8500 meter",
+        "d": "9000 meter"
       },
       "marked": null,
       "cov": {
@@ -1542,7 +1542,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatheightisknownas“Deathzone”whereoxygenisinsufficientforhumanlife?",
+      "q": "What height is known as “Death zone” where oxygen is insufficient for human life?",
       "multi": false
     },
     {
@@ -1565,7 +1565,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethecorrectlymatchedpairfromthefollowing: ColumnAColumnB ;A.Thermalpowerplant1.Fuelusedinruralareas B.Hydroelectricpowerplant2.Inundatesforests C.Biomass3.Emitgreenhousegases D.CNG4.Fuelforvehiclesinurbanareas",
+      "q": "Choose the correctly matched pair from the following: Column A Column B ; A. Thermal power plant 1. Fuel used in rural areas B. Hydroelectric power plant 2. Inundates forests C. Biomass 3. Emit greenhouse gases D. CNG 4. Fuel for vehicles in urban areas",
       "multi": false
     },
     {
@@ -1575,10 +1575,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Fourweeks",
-        "b": "Onemonth",
-        "c": "Threeweeks",
-        "d": "Twomonths _9-°"
+        "a": "Four weeks",
+        "b": "One month",
+        "c": "Three weeks",
+        "d": "Two months _9- °"
       },
       "marked": null,
       "cov": {
@@ -1588,7 +1588,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Withinhowmanydaysafterhatchingdotheyoungchickscomeoutofeggs?",
+      "q": "Within how many days after hatching do the young chicks come out of eggs?",
       "multi": false
     },
     {
@@ -1598,10 +1598,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "CopperandSteel",
-        "b": "ChromiumandIron",
-        "c": "ZincandAluminium",
-        "d": "ManganeseandMercury"
+        "a": "Copper and Steel",
+        "b": "Chromium and Iron",
+        "c": "Zinc and Aluminium",
+        "d": "Manganese and Mercury"
       },
       "marked": null,
       "cov": {
@@ -1611,7 +1611,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatmetalsareusedformanufacturingstainlesssteel?",
+      "q": "What metals are used for manufacturing stainless steel?",
       "multi": false
     },
     {
@@ -1622,8 +1622,8 @@
       "direction": null,
       "opts": {
         "a": "1,2,3,4",
-        "b": "4,2,3,1",
-        "c": "4,1,2,3",
+        "b": "4,2, 3,1",
+        "c": "4, 1,2,3",
         "d": "4,3,2,1"
       },
       "marked": null,
@@ -1634,7 +1634,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Arrangethefollowingelectricalappliancesinascendingorderofpowerconsumption: 1.Television2.Fan 3.ElectricIron4.Tubelight",
+      "q": "Arrange the following electrical appliances in ascending order of power consumption: 1. Television 2. Fan 3. Electric Iron 4. Tube light",
       "multi": false
     },
     {
@@ -1645,9 +1645,9 @@
       "direction": null,
       "opts": {
         "a": "Urea",
-        "b": "Magnesiumsulphate",
-        "c": "Sodiumacetate",
-        "d": "Calciumoxalate"
+        "b": "Magnesium sulphate",
+        "c": "Sodium acetate",
+        "d": "Calcium oxalate"
       },
       "marked": null,
       "cov": {
@@ -1657,7 +1657,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "The‘stone’formedinhumankidneyconsistmostlyof-",
+      "q": "The ‘stone’ formed in human kidney consist mostly of -",
       "multi": false
     },
     {
@@ -1667,10 +1667,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ammoniaandcarbondioxide",
-        "b": "ammoniaandsulphuricacid",
-        "c": "acetamideandethylalcohol",
-        "d": "calciumphosphateandsulphuricacid"
+        "a": "ammonia and carbon dioxide",
+        "b": "ammonia and sulphuric acid",
+        "c": "acetamide and ethyl alcohol",
+        "d": "calcium phosphate and sulphuric acid"
       },
       "marked": null,
       "cov": {
@@ -1680,7 +1680,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ureaispreparedbythechemicalreactionof:",
+      "q": "Urea is prepared by the chemical reaction of:",
       "multi": false
     },
     {
@@ -1692,7 +1692,7 @@
       "opts": {
         "a": "increased",
         "b": "decreased",
-        "c": "thesame",
+        "c": "the same",
         "d": "neutralized"
       },
       "marked": null,
@@ -1703,7 +1703,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theweightofabodyatthecentreoftheearthis:",
+      "q": "The weight ofa body at the centre oft he earth is:",
       "multi": false
     },
     {
@@ -1713,10 +1713,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "KarlLandsteiner",
-        "b": "RobertKotch",
-        "c": "WilliamHarvey",
-        "d": "LouisPasteur"
+        "a": "Karl Landsteiner",
+        "b": "Robert Kotch",
+        "c": "William Harvey",
+        "d": "Louis Pasteur"
       },
       "marked": null,
       "cov": {
@@ -1726,7 +1726,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichoneofthefollowingiscreditedfordevelopingbloodgroupingmethod?",
+      "q": "Which one of the following is credited for developing blood grouping method?",
       "multi": false
     },
     {
@@ -1749,7 +1749,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Arrangeinrightorderfromchildhoodonwardsthegrowthofthefollowingteeth: 1.incisors2.canines 3.pre-molars4,molars",
+      "q": "Arrange in right order from childhood onwards the growth of the following teeth: 1. incisors 2. canines 3. pre-molars 4, molars",
       "multi": false
     },
     {
@@ -1759,10 +1759,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Toincreasetherateoffermentation",
-        "b": "Todecreasetherateoffermentation",
-        "c": "Toimproveitsquality",
-        "d": "Tomakepaneer"
+        "a": "To increase the rate of fermentation",
+        "b": "To decrease the rate of fermentation",
+        "c": "To improve its quality",
+        "d": "To make paneer"
       },
       "marked": null,
       "cov": {
@@ -1772,7 +1772,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Amilkmanaddsaverysmallamountofbakingsodatofreshmilk.Why?",
+      "q": "A milkman adds a very small amount of baking soda to fresh milk. Why?",
       "multi": false
     },
     {
@@ -1783,8 +1783,8 @@
       "direction": null,
       "opts": {
         "a": "Phosphorus-Match",
-        "b": "PotassiumSulphate-Fertilizer",
-        "c": "MethylIsocynate-Tyre",
+        "b": "Potassium Sulphate-Fertilizer",
+        "c": "Methyl Isocynate-Tyre",
         "d": "Silicon-Giass"
       },
       "marked": null,
@@ -1795,7 +1795,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichoneiswronglymatched?",
+      "q": "Which one is wrongly matched?",
       "multi": false
     },
     {
@@ -1807,7 +1807,7 @@
       "opts": {
         "a": "Cerebrum",
         "b": "Pons",
-        "c": "Medullaoblongata",
+        "c": "Medulla oblongata",
         "d": "Cerebellum"
       },
       "marked": null,
@@ -1818,7 +1818,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Postureandbalanceofthebodyiscontrolledby:",
+      "q": "Posture and balance of the body is controlled by:",
       "multi": false
     },
     {
@@ -1828,10 +1828,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Tiger,Elephant,Bear,BarkingDeer",
-        "b": "Bear,Elephant,Barkingdeer,Wildboar",
-        "c": "Serow,Bear,Wild-gayal,Wild-boar",
-        "d": "Wild-gayal,Tiger,Serow,Rhinoceros -10-."
+        "a": "Tiger, Elephant, Bear, Barking Deer",
+        "b": "Bear, Elephant, Barking deer, Wild boar",
+        "c": "Serow, Bear, Wild-gayal, Wild-boar",
+        "d": "Wild-gayal, Tiger, Serow, Rhinoceros -10- ."
       },
       "marked": null,
       "cov": {
@@ -1841,7 +1841,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thangchhuahwasthemostdistinguishedqualityortitleinanoldmizosociety.Inordertoachievethe saidtitle,onehadtokillatleastthefollowingfourwildanimals:",
+      "q": "Thangchhuah was the most distinguished quality or title in an old mizo society. In order to achieve the said title, one had to kill at least the following four wild animals:",
       "multi": false
     },
     {
@@ -1853,7 +1853,7 @@
       "opts": {
         "a": "Khawhring",
         "b": "Chawmnu",
-        "c": "Phungpuinu(4)Tulum"
+        "c": "Phungpuinu (4) Tulum"
       },
       "marked": null,
       "cov": {
@@ -1862,7 +1862,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Whenonewasseriouslysufferedfromstomachtrouble,theancientMizopeoplethoughtthatitwas donebytheevilspiritcalled:",
+      "q": "When one was seriously suffered from stomach trouble, the ancient Mizo people thought that it was done by the evil spirit called:",
       "multi": false
     },
     {
@@ -1872,9 +1872,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Chapcharkut",
+        "a": "Chapchar kut",
         "b": "Pawlkut",
-        "c": "Mimkut",
+        "c": "Mim kut",
         "d": "Chawngchen"
       },
       "marked": null,
@@ -1885,7 +1885,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘Raltevawktalhni’isassociatedwith:",
+      "q": "‘Ralte vawk talh ni’ is associated with:",
       "multi": false
     },
     {
@@ -1895,10 +1895,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ChapcharKut",
-        "b": "Mimkut",
-        "c": "PawlKut",
-        "d": "ThalfavangKut"
+        "a": "Chapchar Kut",
+        "b": "Mim kut",
+        "c": "Pawl Kut",
+        "d": "Thalfavang Kut"
       },
       "marked": null,
       "cov": {
@@ -1908,7 +1908,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thesacrifice‘KAWNGPUISIAL’isassociatedwithwhichofthefollowingfestival?",
+      "q": "The sacrifice ‘KAWNGPUI SIAL’ is associated with which of the following festival?",
       "multi": false
     },
     {
@@ -1931,7 +1931,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichsacrificewasmainlyperformedtoprotecttheyounggrowingricecropsonthevillagejhooms fromdisease?",
+      "q": "Which sacrifice was mainly performed to protect the young growing rice crops on the village jhooms from disease?",
       "multi": false
     },
     {
@@ -1954,7 +1954,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichceremonialdancedidtheMizoancestorsperformtocelebratetheirtriumpoverdefeated enemies?",
+      "q": "Which ceremonial dance did the Mizo ancestors perform to celebrate their triump over defeated enemies?",
       "multi": false
     },
     {
@@ -1964,9 +1964,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "OnlyunmarriedmenstayedtheZawlbuk",
-        "b": "Zawlbukistheplaceofcommunityjudgement",
-        "c": "Zawlbukisusefulinemergencies"
+        "a": "Only unmarried men stayed the Zawlbuk",
+        "b": "Zawlbukis the place of community judgement",
+        "c": "Zawlbuk is useful in emergencies"
       },
       "marked": null,
       "cov": {
@@ -1975,7 +1975,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingiswrongaboutZawlbuk?",
+      "q": "Which of the following is wrong about Zawlbuk?",
       "multi": false
     },
     {
@@ -1985,9 +1985,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Tulum,Pheichham,Maimi,Khuavang",
-        "b": "Tau,Tulum,Pheichham,Lasi",
-        "c": "Lasi,Pheichham,Maimi,Khuavang"
+        "a": "Tulum, Pheichham, Maimi, Khuavang",
+        "b": "Tau, Tulum, Pheichham, Lasi",
+        "c": "Lasi, Pheichham, Maimi, Khuavang"
       },
       "marked": null,
       "cov": {
@@ -1996,7 +1996,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Whatarethegooddemonsthatthemizoancestorscalled?",
+      "q": "What are the good demons that the mizo ancestors called?",
       "multi": false
     },
     {
@@ -2004,7 +2004,7 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.94&95):Threeofthefollowingfourarealikeinacertainwayandso",
+      "direction": "Directions (Question Nos. 94 & 95) : Three of the following four are alike in a certain way and so",
       "opts": {
         "a": "Rawchhem",
         "b": "Sekhuang",
@@ -2017,7 +2017,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "(a)Rawchhem(b)Sekhuang",
+      "q": "(a) Rawchhem (b) Sekhuang",
       "multi": false
     },
     {
@@ -2038,7 +2038,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "(a)Kalkhang(b)Tukrek",
+      "q": "(a) Kalkhang (b) Tukrek",
       "multi": false
     },
     {
@@ -2059,7 +2059,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Inancientmizofolk-tale,LianchhiaricouldnotmaryherloverChawngfiangabecauseofthemessengers. ‘WhomdidLianchhiarimarry?",
+      "q": "In ancient mizo folk-tale, Lianchhiari could not mary her lover Chawngfianga because of the messengers. ‘Whom did Lianchhiari marry?",
       "multi": false
     },
     {
@@ -2069,9 +2069,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Atooltoballthecottonyarn",
-        "b": "Awoodenboxusedforkeepingvaluableitems",
-        "c": "Itisabird-catchingtool"
+        "a": "A tool to ball the cotton yarn",
+        "b": "A wooden box used for keeping valuable items",
+        "c": "Itisa bird-catching tool"
       },
       "marked": null,
       "cov": {
@@ -2080,7 +2080,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Whattoolisa‘SUVEL’?",
+      "q": "What tool is a‘SUVEL’?",
       "multi": false
     },
     {
@@ -2103,7 +2103,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thedescendingorderofthericecropyieldmeasurementsisasfollows: 1.Areihazawn2.Silaizawn 3.Chhipzawn4.Kakzawn",
+      "q": "The descending order of the rice crop yield measurements is as follows: 1. Areiha zawn 2. Silaizawn 3. Chhip zawn 4. Kak zawn",
       "multi": false
     },
     {
@@ -2111,12 +2111,12 @@
       "page": 11,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.99&100):MatchList-1withList2andselectthecorrectanswerbyusing",
+      "direction": "Directions (Question Nos. 99 & 100) : Match List-1 with List2  and select the correct answer by using",
       "opts": {
-        "a": "February1.Ramtukthla",
-        "b": "September2.Sahmulphahthla",
-        "c": "November3.Tauthla",
-        "d": "April4.Mimkutthla ABCcD (a)1234 (b)i423 (c)3421 (d)2314"
+        "a": "February 1. Ramtuk thla",
+        "b": "September 2. Sahmulphah thla",
+        "c": "November 3. Tauthla",
+        "d": "April 4. Mimkut thla A B Cc D (a) 1 2 3 4 (b) i 4 2 3 (c) 3 4 2 1 (d) 2 3 1 4"
       },
       "marked": null,
       "cov": {
@@ -2126,7 +2126,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "List1List2",
+      "q": "List 1 List2",
       "multi": false
     },
     {
@@ -2136,10 +2136,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1234",
-        "b": "3241",
-        "c": "3421",
-        "d": "1432 RRRKKEE"
+        "a": "1 2 3 4",
+        "b": "3 2 4 1",
+        "c": "3 4 2 1",
+        "d": "1 4 3 2 RRR KK EE"
       },
       "marked": null,
       "cov": {
@@ -2149,7 +2149,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ListtList2 (2)Tumphit1.Itisagunpowderhorn Codes: ABCcD",
+      "q": "Listt List2 (2) Tumphit 1. Itis a gun powder horn Codes: A B Cc D",
       "multi": false
     }
   ],

@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LordHastings",
-        "b": "LordDalhousie",
-        "c": "GeorgeCanning",
-        "d": "LordWellesley (a)Delhi(b)Kanpur (c)Jhansi(d)Meerut (a)KunwarSingh(b)TantiaTope (c)BahadurShahZafar(d)BhagatSingh (a)DadabhaiNaoroji(b)SwamiVivekananda (c)SwamiBrijanand(d)IshwarChandraVidyasagar (a)AnnieBesant(b)SarojiniNaidu (c)IndiraGandhi(d)KasturbaGandhi (a)Ireland(b)Scotland (c)USA(d)Mexico (a)Ahmedabad(b)Bombay (c)Delhi(d)Lahore (a)Extremistphase(b)Revolutionaryphase (c)Congressphase(d)Moderatephase"
+        "a": "Lord Hastings",
+        "b": "Lord Dalhousie",
+        "c": "George Canning",
+        "d": "Lord Wellesley (a) Delhi (b) Kanpur (c) Jhansi (d) Meerut (a) Kunwar Singh (b) Tantia Tope (c) Bahadur Shah Zafar (d) Bhagat Singh (a) Dadabhai Naoroji (b) Swami Vivekananda (c) Swami Brijanand (d) Ishwar Chandra Vidyasagar (a) Annie Besant (b) Sarojini Naidu (c) Indira Gandhi (d) Kasturba Gandhi (a) Ireland (b) Scotland (c) USA (d) Mexico (a) Ahmedabad (b) Bombay (c) Delhi (d) Lahore (a) Extremist phase (b) Revolutionary phase (c) Congress phase (d) Moderate phase"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Therearenonegativemarksforincorrectanswer. Series-D72- 1.WhoappliedtheDoctrineofLapsetotheIndianstates?",
+      "q": "There are no negative marks for incorrect answer. Series -D 72- 1. Who applied the Doctrine of Lapse to the Indian states?",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Non-CooperatingtheBritish",
-        "b": "Constitutionalmethods",
+        "a": "Non-Cooperating the British",
+        "b": "Constitutional methods",
         "c": "Violence",
-        "d": "Strikesandprotests"
+        "d": "Strikes and protests"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theearlynationalistsalsoreferredasthemoderateleadersusethemethodof-",
+      "q": "The early nationalists also referred as the moderate leaders use the method of-",
       "multi": false
     },
     {
@@ -61,10 +61,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BipinChandraPal",
-        "b": "AurobindoGhosh",
-        "c": "LalaLajpatRai",
-        "d": "W.C.Banerjee"
+        "a": "Bipin Chandra Pal",
+        "b": "Aurobindo Ghosh",
+        "c": "Lala Lajpat Rai",
+        "d": "W.C. Banerjee"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whoamongthefollowingwerenotamongtheextremistleaders?",
+      "q": "Who among the following were not among the extremist leaders?",
       "multi": false
     },
     {
@@ -84,10 +84,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SplitintheCongress",
-        "b": "AdoptingSwadeshi",
-        "c": "ReunificationofIndianNationalCongress",
-        "d": "CondemningtheMuslimLeague"
+        "a": "Split in the Congress",
+        "b": "Adopting Swadeshi",
+        "c": "Reunification of Indian National Congress",
+        "d": "Condemning the Muslim League"
       },
       "marked": null,
       "cov": {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheLucknowsessionoftheCongressisknownfor-",
+      "q": "The Lucknow session of the Congress is known for-",
       "multi": false
     },
     {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheAllIndiaMuslimLeaguewasestablishedintheyear-",
+      "q": "The All India Muslim League was established in the year-",
       "multi": false
     },
     {
@@ -130,10 +130,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TheMuslimsandtheHindus",
-        "b": "TheBritishofficialsandleadersoftheIndianNationalCongress",
-        "c": "TheModeratesandtheExtremists",
-        "d": "TheBengalisandtheBritish"
+        "a": "The Muslims and the Hindus",
+        "b": "The British officials and leaders of the Indian National Congress",
+        "c": "The Moderates and the Extremists",
+        "d": "The Bengalis and the British"
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheSuratSplitoccurredin1907asaresultofmisunderstandingbetween-",
+      "q": "The Surat Split occurred in 1907 as a result of misunderstanding between-",
       "multi": false
     },
     {
@@ -153,10 +153,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": ".AugustOffer",
-        "b": "WavellPlan",
-        "c": "CabinetMission",
-        "d": "CripsMission"
+        "a": ". August Offer",
+        "b": "Wavell Plan",
+        "c": "Cabinet Mission",
+        "d": "Crips Mission"
       },
       "marked": null,
       "cov": {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "LordPethick-Lawrence,StaffordCrippsandAVAlexanderwerepartof-",
+      "q": "Lord Pethick-Lawrence, Stafford Cripps and AV Alexander were part of-",
       "multi": false
     },
     {
@@ -176,10 +176,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "VandeMataram",
-        "b": "SareJahanSe",
-        "c": "MilkeChalo",
-        "d": "SarfaroshiKiTamanna"
+        "a": "Vande Mataram",
+        "b": "Sare Jahan Se",
+        "c": "Milke Chalo",
+        "d": "Sarfaroshi Ki Tamanna"
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatwasthenationalsongduringtheanti-partitionmovementinBengal?",
+      "q": "What was the national song during the anti-partition movement in Bengal?",
       "multi": false
     },
     {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MembersoftheSimonCommissionarrivedIndiaintheyear-",
+      "q": "Members of the Simon Commission arrived India in the year-",
       "multi": false
     },
     {
@@ -222,10 +222,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Lahoresession1929",
-        "b": "Calcuttasession1933",
-        "c": "Lucknowsession1936",
-        "d": "Tripurisession1939"
+        "a": "Lahore session 1929",
+        "b": "Calcutta session 1933",
+        "c": "Lucknow session 1936",
+        "d": "Tripuri session 1939"
       },
       "marked": null,
       "cov": {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theresolutionof‘PurnaSwaraj’wasadoptedin-",
+      "q": "The resolution of ‘Purna Swaraj’ was adopted in-",
       "multi": false
     },
     {
@@ -245,10 +245,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SanthalSatyagraha",
-        "b": "HarijanSatyagraha",
-        "c": "ChamparanSatyagraha",
-        "d": "DandiSatyagraha"
+        "a": "Santhal Satyagraha",
+        "b": "Harijan Satyagraha",
+        "c": "Champaran Satyagraha",
+        "d": "Dandi Satyagraha"
       },
       "marked": null,
       "cov": {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Beforeenteringnationalpolitics,in1917,Gandhifoughtthe-",
+      "q": "Before entering national politics, in 1917, Gandhi fought the-",
       "multi": false
     },
     {
@@ -268,10 +268,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MuslimHinduRiotDay",
-        "b": "HardiyalDay",
-        "c": "DirectActionDay",
-        "d": "JeevansathiDay"
+        "a": "Muslim Hindu Riot Day",
+        "b": "Hardiyal Day",
+        "c": "Direct Action Day",
+        "d": "Jeevansathi Day"
       },
       "marked": null,
       "cov": {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "The16\"ofAugust1946thatsawmassivecommunalviolencewascalled-",
+      "q": "The 16\" of August 1946 that saw massive communal violence was called-",
       "multi": false
     },
     {
@@ -291,10 +291,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ChauriChauraincident",
-        "b": "ExecutionofBhagatSingh",
-        "c": "JallianwalaBaghTragedy",
-        "d": "BrutalsuppressionofCivilDisobedienceMovement"
+        "a": "Chauri Chaura incident",
+        "b": "Execution of Bhagat Singh",
+        "c": "Jallianwala Bagh Tragedy",
+        "d": "Brutal suppression of Civil Disobedience Movement"
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "RabindraNathTagoregaveuphisKnighthoodbecauseof-",
+      "q": "Rabindra Nath Tagore gave up his Knighthood because of-",
       "multi": false
     },
     {
@@ -314,10 +314,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RowlattAct",
-        "b": "KhilafatCommittee",
-        "c": "SimonCommission",
-        "d": "DissatisfactionwiththeGovernmentofIndiaAct,1912"
+        "a": "Rowlatt Act",
+        "b": "Khilafat Committee",
+        "c": "Simon Commission",
+        "d": "Dissatisfaction with the Government of India Act, 1912"
       },
       "marked": null,
       "cov": {
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheimmediatecausewhichledtothelaunchingoftheNon-Cooperationmovementwasthe?",
+      "q": "The immediate cause which led to the launching of the Non-Cooperation movement was the?",
       "multi": false
     },
     {
@@ -337,10 +337,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TheHiltonCommissionReport",
-        "b": "TheNehrureport",
-        "c": "TheGandhianCommitteeReport",
-        "d": "TheIndianReport"
+        "a": "The Hilton Commission Report",
+        "b": "The Nehru report",
+        "c": "The Gandhian Committee Report",
+        "d": "The Indian Report"
       },
       "marked": null,
       "cov": {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheReportin1928whichprovidedaconstitutionalframeworkforIndia’sfuturegovernment draftedbytheIndianpoliticalleadersasaresponseoftheSimonCommissionwas-",
+      "q": "The Report in 1928 which provided a constitutional framework for India’s future government drafted by the Indian political leaders as a response of the Simon Commission was-",
       "multi": false
     },
     {
@@ -361,9 +361,9 @@
       "direction": null,
       "opts": {
         "a": "Talks",
-        "b": "ForceandRepression",
-        "c": "PeaceandSettlement",
-        "d": "PromiseforbetterWorkingconditions"
+        "b": "Force and Repression",
+        "c": "Peace and Settlement",
+        "d": "Promise for better Working conditions"
       },
       "marked": null,
       "cov": {
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "RoyalindianNavyMutiny1946wasrespondedbythegovernmentwith-",
+      "q": "Royal indian Navy Mutiny 1946 was responded by the government with-",
       "multi": false
     },
     {
@@ -383,10 +383,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "DandiMarch",
-        "b": "HarijanPact",
-        "c": "LucknowPact",
-        "d": "Gandhi-IrwinPact"
+        "a": "Dandi March",
+        "b": "Harijan Pact",
+        "c": "Lucknow Pact",
+        "d": "Gandhi-Irwin Pact"
       },
       "marked": null,
       "cov": {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "GandhiagreedtosuspendtheCivilDisobedienceMovementwiththe-",
+      "q": "Gandhi agreed to suspend the Civil Disobedience Movement with the-",
       "multi": false
     },
     {
@@ -406,10 +406,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "CrippsMissionPlan",
-        "b": "CabinetMissionPlan",
-        "c": "WavellPlan",
-        "d": "MountbattenPlan"
+        "a": "Cripps Mission Plan",
+        "b": "Cabinet Mission Plan",
+        "c": "Wavell Plan",
+        "d": "Mountbatten Plan"
       },
       "marked": null,
       "cov": {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingwasknownasthePartitionPlanofIndia?",
+      "q": "Which of the following was known as the Partition Plan of India?",
       "multi": false
     },
     {
@@ -429,10 +429,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "KnowYourStatus",
-        "b": "TaketheRightsPath:MyHealth,MyRight",
-        "c": "GlobalSolidarity,ResilientServices",
-        "d": "LetCommunitiesLead"
+        "a": "Know Your Status",
+        "b": "Take the Rights Path: My Health, My Right",
+        "c": "Global Solidarity, Resilient Services",
+        "d": "Let Communities Lead"
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthethemeforWorldAIDSDay2024?",
+      "q": "What is the theme for World AIDS Day 2024?",
       "multi": false
     },
     {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichstatehasbeendeclaredasthepartnerstateforHornbillFestival2024?",
+      "q": "Which state has been declared as the partner state for Hornbill Festival 2024?",
       "multi": false
     },
     {
@@ -475,10 +475,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NeuroSpicy",
+        "a": "Neuro Spicy",
         "b": "Dumpster",
-        "c": "HeatDome;",
-        "d": "BrainRot"
+        "c": "Heat Dome ;",
+        "d": "Brain Rot"
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatwordhasbeenselectedastheOxfordWordoftheyear2024?",
+      "q": "What word has been selected as the Oxford Word of the year 2024?",
       "multi": false
     },
     {
@@ -498,10 +498,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MinistryofInformationTechnology",
-        "b": "MinistryofDefense",
-        "c": "MinistryofHomeAflairs",
-        "d": "MinistryofUrbanDevelopment"
+        "a": "Ministry of Information Technology",
+        "b": "Ministry of Defense",
+        "c": "Ministry of Home Af lairs",
+        "d": "Ministry of Urban Development"
       },
       "marked": null,
       "cov": {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichMinistrylaunchedtheCivilRegistrationSystem(CSR)mobileapplicationtointegratetechnology withgovernance?",
+      "q": "Which Ministry launched the Civil Registration System (CSR) mobile application to integrate technology with governance?",
       "multi": false
     },
     {
@@ -522,8 +522,8 @@
       "direction": null,
       "opts": {
         "a": "Bitcoin",
-        "b": "UPIpaymentblock",
-        "c": "Virtualpaymentledger",
+        "b": "UPI payment block",
+        "c": "Virtual payment ledger",
         "d": "Blockchain"
       },
       "marked": null,
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Incrypto-currency,aledgerthatstoresdataandrecordsoftransactionswhicharelinkedtogether acrosscomputersiscalled",
+      "q": "In crypto-currency, a ledger that stores data and records of transactions which are linked together across computers is called",
       "multi": false
     },
     {
@@ -545,8 +545,8 @@
       "direction": null,
       "opts": {
         "a": "Dubai",
-        "b": "NewDelhi",
-        "c": "NewYork",
+        "b": "New Delhi",
+        "c": "New York",
         "d": "London"
       },
       "marked": null,
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InwhichcityCOP28or28UnitedNationsClimateChangeConferencewasheld?",
+      "q": "In which city COP28 or 28 United Nations Climate Change Conference was held?",
       "multi": false
     },
     {
@@ -567,10 +567,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "CropInsurance,WeatherForecastingandFarmMechanization",
-        "b": "Hydroponics,Aquaponics,VerticalFarmingandPrecisionAgriculture",
-        "c": "SoilTestingandDripIrrigation",
-        "d": "DroneFarming,SatelliteImageryandDataAnalysis"
+        "a": "Crop Insurance, Weather Forecasting and Farm Mechanization",
+        "b": "Hydroponics, Aquaponics, Vertical Farming and Precision Agriculture",
+        "c": "Soil Testing and Drip Irrigation",
+        "d": "Drone Farming, Satellite Imagery and Data Analysis"
       },
       "marked": null,
       "cov": {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichmodemfarmingtechniquesarebeingincludedinthemissionforIntegratedDevelopmentof Horticulture(MIDH)?",
+      "q": "Which modem farming techniques are being included in the mission for Integrated Development of Horticulture (MIDH)?",
       "multi": false
     },
     {
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichcitywillhostthe2026CommonwealthGames?",
+      "q": "Which city will host the 2026 Commonwealth Games?",
       "multi": false
     },
     {
@@ -613,10 +613,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "JensStoltenberg",
-        "b": "AndersFoghRasmussen",
-        "c": "MarkRutte",
-        "d": "OliverFranks"
+        "a": "Jens Stoltenberg",
+        "b": "Anders Fogh Rasmussen",
+        "c": "Mark Rutte",
+        "d": "Oliver Franks"
       },
       "marked": null,
       "cov": {
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whoisthe14SccrctaryGeneralofNATOsinceOctober,2024?",
+      "q": "Who is the 14 Sccrctary General of NATO since October, 2024?",
       "multi": false
     },
     {
@@ -636,10 +636,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Vikram.Misri",
-        "b": "VinayMohanKwatra",
-        "c": "HarshVardhanShringla",
-        "d": "SubrahmanyamJaishankar"
+        "a": "Vikram. Misri",
+        "b": "Vinay Mohan Kwatra",
+        "c": "Harsh Vardhan Shringla",
+        "d": "Subrahmanyam Jaishankar"
       },
       "marked": null,
       "cov": {
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoisthecurrentforeignSecretaryofIndia?",
+      "q": "Who is the current foreign Secretary of India?",
       "multi": false
     },
     {
@@ -662,7 +662,7 @@
         "a": "Gujarat",
         "b": "Haryana",
         "c": "Rajasthan",
-        "d": "UttarPradesh"
+        "d": "Uttar Pradesh"
       },
       "marked": null,
       "cov": {
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichStateisthefirstinIndiatoadoptanairshed-basedapproachforacleanairproject?",
+      "q": "Which State is the first in India to adopt an airshed-based approach for a clean air project?",
       "multi": false
     },
     {
@@ -682,10 +682,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "FoodandAgricultureOrganization",
-        "b": "WorldMeteorologicalOrganization",
-        "c": "UnitedNationsEnvironmentProgramme",
-        "d": "Citizens’ClimateLobby"
+        "a": "Food and Agriculture Organization",
+        "b": "World Meteorological Organization",
+        "c": "United Nations Environment Programme",
+        "d": "Citizens’ Climate Lobby"
       },
       "marked": null,
       "cov": {
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichOrganizationreleasedtheStateoftheClimate2024Report?",
+      "q": "Which Organization released the State of the Climate 2024 Report?",
       "multi": false
     },
     {
@@ -705,10 +705,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TheOrderofValor",
-        "b": "TheCrownJewelHonor",
-        "c": "TheGrandCrossoftheOrder",
-        "d": "TheOrderofExcellence"
+        "a": "The Order of Valor",
+        "b": "The Crown Jewel Honor",
+        "c": "The Grand Cross of the Order",
+        "d": "The Order of Excellence"
       },
       "marked": null,
       "cov": {
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthehighestNationalAwardofGuyanaconferredtothePrimeMinisterofIndia?",
+      "q": "What is the highest National Award of Guyana conferred to the Prime Minister of India?",
       "multi": false
     },
     {
@@ -728,10 +728,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "UttarPradesh",
+        "a": "Uttar Pradesh",
         "b": "Maharashtra",
         "c": "Bihar",
-        "d": "TamilNadu"
+        "d": "Tamil Nadu"
       },
       "marked": null,
       "cov": {
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichStatewillhosttheKheloIndiaYouthGames2025?",
+      "q": "Which State will host the Khelo India Youth Games 2025?",
       "multi": false
     },
     {
@@ -751,10 +751,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MinistryofEducation",
-        "b": "MinistryofScienceandTechnology",
-        "c": "MinistryofTribalAffairs",
-        "d": "MinistryofDefense"
+        "a": "Ministry of Education",
+        "b": "Ministry of Science and Technology",
+        "c": "Ministry of Tribal Affairs",
+        "d": "Ministry of Defense"
       },
       "marked": null,
       "cov": {
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "YuvaSangamisaflagshipinitiativelamchedbywhichministry?",
+      "q": "Yuva Sangam is a flagship initiative lamched by which ministry?",
       "multi": false
     },
     {
@@ -774,10 +774,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MinistryofTribalAflairs",
-        "b": "MinistryofEducation",
-        "c": "MinistryofScienceandTechnology",
-        "d": "MinistryofRuralDevelopment"
+        "a": "Ministry of Tribal A flairs",
+        "b": "Ministry of Education",
+        "c": "Ministry of Science and Technology",
+        "d": "Ministry of Rural Development"
       },
       "marked": null,
       "cov": {
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "NIPUNBharatislaunchedbywhichMinistry?",
+      "q": "NIPUN Bharat is launched by which Ministry?",
       "multi": false
     },
     {
@@ -797,10 +797,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "EkBharatShresthaBharat",
-        "b": "BetiBachaoBetiPadhao",
-        "c": "FITIndia",
-        "d": "IntegratedTeacherEducationProgramme"
+        "a": "Ek Bharat Shrestha Bharat",
+        "b": "Beti Bachao Beti Padhao",
+        "c": "FIT India",
+        "d": "Integrated Teacher Education Programme"
       },
       "marked": null,
       "cov": {
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichamongthefotlowingisbasedonthevisionofNEP2020?",
+      "q": "Which among the fotlowing is based on the vision of NEP 2020?",
       "multi": false
     },
     {
@@ -820,10 +820,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Equity,EqualityandQuality",
-        "b": "Equity,AccessandEquality",
-        "c": "Access,EquityandQuality",
-        "d": "Access,QualityandEquality"
+        "a": "Equity, Equality and Quality",
+        "b": "Equity, Access and Equality",
+        "c": "Access, Equity and Quality",
+        "d": "Access, Quality and Equality"
       },
       "marked": null,
       "cov": {
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatarethethreeprinciplesofeducationpalicytobeachievedunderSWAYAM?",
+      "q": "What are the three principles of education palicy to be achieved under SWAYAM?",
       "multi": false
     },
     {
@@ -843,10 +843,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BhargavDasgupta",
-        "b": "MasatoKanda",
-        "c": "MasatsuguAsakawa",
-        "d": "TakehikoNakao"
+        "a": "Bhargav Dasgupta",
+        "b": "Masato Kanda",
+        "c": "Masatsugu Asakawa",
+        "d": "Takehiko Nakao"
       },
       "marked": null,
       "cov": {
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whohasbeenelectedasthe11\"PresidentoftheAsianDevelopmentBank(ADB)?",
+      "q": "Who has been elected as the 11\" President of the Asian Development Bank (ADB)?",
       "multi": false
     },
     {
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichCountryamendeditsdoubletaxationavoidanceagreementwithIndiaonMarch7,2024?",
+      "q": "Which Country amended its double taxation avoidance agreement with India on March 7, 2024?",
       "multi": false
     },
     {
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichcityhostedthe23™mectingoftheShanghaiCooperationOrganizationCouncilofHeadsof Government?",
+      "q": "Which city hosted the 23™ mecting of the Shanghai Cooperation Organization Council of Heads of Government?",
       "multi": false
     },
     {
@@ -913,9 +913,9 @@
       "direction": null,
       "opts": {
         "a": "Spacex",
-        "b": "NationalAeronauticsandSpaceAdministration",
-        "c": "EuropeanSpaceAgency",
-        "d": "ChinaNationalSpaceAdministration"
+        "b": "National Aeronautics and Space Administration",
+        "c": "European Space Agency",
+        "d": "China National Space Administration"
       },
       "marked": null,
       "cov": {
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichspaceagencylaunchedtheMoonlightLunarCommunicationsandNavigationServices(LCNS) programme?",
+      "q": "Which space agency launched the Moonlight Lunar Communications and Navigation Services (LCNS) programme?",
       "multi": false
     },
     {
@@ -935,10 +935,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "VijayaKishoreRahatkar",
-        "b": "ArchanaMajumdar",
-        "c": "UmaDevi",
-        "d": "AnitaSharma (a)Vietnam(b)Thailand (c)HongKong(d)Singapore"
+        "a": "Vijaya Kishore Rahatkar",
+        "b": "Archana Majumdar",
+        "c": "Uma Devi",
+        "d": "Anita Sharma (a) Vietnam (b) Thailand (c) Hong Kong (d) Singapore"
       },
       "marked": null,
       "cov": {
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoistheChairpersonoftheNationalCommissionforWomen?",
+      "q": "Who is the Chairperson of the National Commission for Women?",
       "multi": false
     },
     {
@@ -958,10 +958,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SumitAntil",
-        "b": "ManishNarwal",
-        "c": "HarvinderSingh",
-        "d": "NishadKumar"
+        "a": "Sumit Antil",
+        "b": "Manish Narwal",
+        "c": "Harvinder Singh",
+        "d": "Nishad Kumar"
       },
       "marked": null,
       "cov": {
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoisthefirstIndianarchertowinagoldmedalinParalympic?",
+      "q": "Who is the first Indian archer to win a gold medal in Paralympic?",
       "multi": false
     },
     {
@@ -981,10 +981,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PMGatiShakti",
+        "a": "PM Gati Shakti",
         "b": "PMSVANidhi",
-        "c": "PMSurakshaStreet",
-        "d": "PMSHRI"
+        "c": "PM Suraksha Street",
+        "d": "PM SHRI"
       },
       "marked": null,
       "cov": {
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisaflagshipschemeoftheGovernmentofIndiaaimedatprovidingmicrocredit/smallloansto streetvendors?",
+      "q": "Whatis a flagship scheme of the Government of India aimed at providing micro credit/small loans to street vendors?",
       "multi": false
     },
     {
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichcountrywontheMen’sHockeyJuniourAsiaCup2024titleinMuscat,Oman?",
+      "q": "Which country won the Men’s Hockey Juniour Asia Cup 2024 title in Muscat, Oman?",
       "multi": false
     },
     {
@@ -1027,10 +1027,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "WorldBank",
-        "b": "InternationalMonetaryFund",
-        "c": "WorldTradeOrganization",
-        "d": "AsianDevelopmentBank"
+        "a": "World Bank",
+        "b": "International Monetary Fund",
+        "c": "World Trade Organization",
+        "d": "Asian Development Bank"
       },
       "marked": null,
       "cov": {
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichorganizationreleasedtheInternationalDebtReport2024?",
+      "q": "Which organization released the International Debt Report 2024?",
       "multi": false
     },
     {
@@ -1052,7 +1052,7 @@
       "opts": {
         "a": "Delhi",
         "b": "Chandigarh",
-        "c": "DamanandDiu",
+        "c": "Daman and Diu",
         "d": "Puducherry"
       },
       "marked": null,
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichUnionTerritoryisthefirsttofullyimplementallthreenewcriminallawsinIndia?",
+      "q": "Which Union Territory is the first to fully implement all three new criminal laws in India?",
       "multi": false
     },
     {
@@ -1073,10 +1073,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MichelleBachelet",
-        "b": "JokoWidodo",
-        "c": "DinaBoluarte",
-        "d": "ClaudiaSheinbaum"
+        "a": "Michelle Bachelet",
+        "b": "Joko Widodo",
+        "c": "Dina Boluarte",
+        "d": "Claudia Sheinbaum"
       },
       "marked": null,
       "cov": {
@@ -1086,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whohasbeenawardedthe2024IndiraGandhiPrizeforPeace,DisarmamentandDevelopment?",
+      "q": "Who has been awarded the 2024 Indira Gandhi Prize for Peace, Disarmament and Development?",
       "multi": false
     },
     {
@@ -1096,10 +1096,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "September9",
-        "b": "October9",
-        "c": "November9",
-        "d": "December9"
+        "a": "September 9",
+        "b": "October 9",
+        "c": "November 9",
+        "d": "December 9"
       },
       "marked": null,
       "cov": {
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichdayisobservedasInternationalAnti-CorruptionDayeachyear?",
+      "q": "Which day is observed as International Anti-Corruption Day each year?",
       "multi": false
     },
     {
@@ -1119,10 +1119,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "AbathsahayeswararTemple",
-        "b": "MahabodhiTemple",
-        "c": "GoldenTemple",
-        "d": "KamakhyaTemple"
+        "a": "Abathsahayeswarar Temple",
+        "b": "Mahabodhi Temple",
+        "c": "Golden Temple",
+        "d": "Kamakhya Temple"
       },
       "marked": null,
       "cov": {
@@ -1132,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichIndiatemplereceivedthe2023UNESCOAwardofDistinctionforitsconservation?",
+      "q": "Which India temple received the 2023 UNESCO Award of Distinction for its conservation?",
       "multi": false
     },
     {
@@ -1142,10 +1142,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MinistroyfCulture",
-        "b": "MinistryofDefense",
-        "c": "MinistroyfHomeAffairs",
-        "d": "MinistryofLawandJustice"
+        "a": "Ministroyf  Culture",
+        "b": "Ministry of Defense",
+        "c": "Ministroyf H ome Affairs",
+        "d": "Ministry of Law and Justice"
       },
       "marked": null,
       "cov": {
@@ -1155,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichministryisresponsibleforconductingthecensusinIndia?",
+      "q": "Which ministry is responsible for conducting the census in India?",
       "multi": false
     },
     {
@@ -1165,10 +1165,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ChanGuangcheng",
-        "b": "DavidBaker",
-        "c": "HanKang",
-        "d": "NihonHidankyo"
+        "a": "Chan Guangcheng",
+        "b": "David Baker",
+        "c": "Han Kang",
+        "d": "Nihon Hidankyo"
       },
       "marked": null,
       "cov": {
@@ -1178,7 +1178,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowontheNobelPrizeforLiterature,2024?",
+      "q": "Who won the Nobel Prize for Literature, 2024?",
       "multi": false
     },
     {
@@ -1188,10 +1188,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "KLLiana",
-        "b": "MichaelZothankhuma",
-        "c": "NelsonSailo",
-        "d": "MarliVankung"
+        "a": "KL Liana",
+        "b": "Michael Zothankhuma",
+        "c": "Nelson Sailo",
+        "d": "Marli Vankung"
       },
       "marked": null,
       "cov": {
@@ -1201,7 +1201,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoamongthefollowingisnotaHighCourtJudge?",
+      "q": "Who among the following is not a High Court Judge?",
       "multi": false
     },
     {
@@ -1211,7 +1211,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": ".NewJersey",
+        "a": ". New Jersey",
         "b": "Pennsylvania",
         "c": "Texas",
         "d": "Washington"
@@ -1224,7 +1224,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InwhichStateDonaldTrumpwasshotintheearduringaPresidentialcampaign?",
+      "q": "In which State Donald Trump was shot in the ear during a Presidential campaign?",
       "multi": false
     },
     {
@@ -1247,7 +1247,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichamongthefollowingjoinedNATOin2024?",
+      "q": "Which among the following joined NATO in 2024?",
       "multi": false
     },
     {
@@ -1270,7 +1270,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingisnotincludedinthelistofcropstobesupportedbyminimumsupportprice bytheGovernmentofMizoramfromJanuary2025?",
+      "q": "Which of the following is not included in the list of crops to be supported by minimum support price by the Government of Mizoram from January 2025?",
       "multi": false
     },
     {
@@ -1293,7 +1293,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InwhichyeartheCouncilofChurchesinMizoramwasformed?",
+      "q": "In which year the Council of Churches in Mizoram was formed?",
       "multi": false
     },
     {
@@ -1316,7 +1316,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InwhichDistrictofMizoramtheGovernmentofIndiaimplementedtheAspirationalDistrict Programme?",
+      "q": "In which District of Mizoram the Government of India implemented the Aspirational District Programme?",
       "multi": false
     },
     {
@@ -1326,10 +1326,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PreventionofChildLabour",
-        "b": "ReductionofInfantMortality",
-        "c": "PreventionofChildMarriage",
-        "d": "PreventionofSexualHarassment"
+        "a": "Prevention of Child Labour",
+        "b": "Reduction of Infant Mortality",
+        "c": "Prevention of Child Marriage",
+        "d": "Prevention of Sexual Harassment"
       },
       "marked": null,
       "cov": {
@@ -1339,7 +1339,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheBalVivahMuktBharatCampaignlaunchedbytheMinistryofWomenandChildDevelopment pertainsto",
+      "q": "The Bal Vivah Mukt Bharat Campaign launched by the Ministry of Women and Child Development pertains to",
       "multi": false
     },
     {
@@ -1351,7 +1351,7 @@
       "opts": {
         "a": "Anuvadini",
         "b": "Swayam",
-        "c": "Diksha(4)Bhasini"
+        "c": "Diksha (4) Bhasini"
       },
       "marked": null,
       "cov": {
@@ -1360,7 +1360,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthenameoftheAl-basedapprecentlylaunchedbytheMinistryofEducationforproviding, studymaterialsinregionallanguages?",
+      "q": "What is the name of the Al-based app recently launched by the Ministry of Education for providing, study materials in regional languages?",
       "multi": false
     },
     {
@@ -1370,9 +1370,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SundarPichai",
-        "b": "IndraNooyi",
-        "c": "SatyaNadella(¢@)NarayanaMurthi"
+        "a": "Sundar Pichai",
+        "b": "Indra Nooyi",
+        "c": "Satya Nadella (¢@) Narayana Murthi"
       },
       "marked": null,
       "cov": {
@@ -1381,7 +1381,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "WhoisthecurrentCEOofMicrosoft?",
+      "q": "Who is the current CEO of Microsoft?",
       "multi": false
     },
     {
@@ -1391,10 +1391,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "IndianRailwayEnterpriseDevelopmentAgencyLimited",
-        "b": "IndianRenewableEnergyDevelopmentAgencyLimited",
-        "c": "IndianRailwayExportDevelopmentAgencyLimited",
-        "d": "IndianRiverineExportDevelopmentAgencyLimited"
+        "a": "Indian Railway Enterprise Development Agency Limited",
+        "b": "Indian Renewable Energy Development Agency Limited",
+        "c": "Indian Railway Export Development Agency Limited",
+        "d": "Indian Riverine Export Development Agency Limited"
       },
       "marked": null,
       "cov": {
@@ -1404,7 +1404,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatdoesIREDAstandfor?",
+      "q": "What does IREDA stand for?",
       "multi": false
     },
     {
@@ -1414,9 +1414,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PMGatishakti",
-        "b": "VirtualID",
-        "c": "AcademicBankofCredit",
+        "a": "PM Gatishakti",
+        "b": "Virtual ID",
+        "c": "Academic Bank of Credit",
         "d": "Digilocker"
       },
       "marked": null,
@@ -1427,7 +1427,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheplatformintroducedbytheMinistryofElectronicsandITwhichprovidesaccesstoimportant documentsanywhereiscalled",
+      "q": "The platform introduced by the Ministry of Electronics and IT which provides access to important documents anywhere is called",
       "multi": false
     },
     {
@@ -1437,8 +1437,8 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MadhyaPradesh",
-        "b": "TamilNadu",
+        "a": "Madhya Pradesh",
+        "b": "Tamil Nadu",
         "c": "Maharashtra",
         "d": "Kerala"
       },
@@ -1450,7 +1450,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InwhichStateistheTungareshwarWildlifeSanctuarylocated?",
+      "q": "In which State is the Tungareshwar Wildlife Sanctuary located?",
       "multi": false
     },
     {
@@ -1460,10 +1460,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NationalAgriculturalDevelopmentScheme",
-        "b": "NationalMissiononNaturalFarming",
-        "c": "GreenRevolution2.0",
-        "d": "SustainableAgriculturePromotionScheme"
+        "a": "National Agricultural Development Scheme",
+        "b": "National Mission on Natural Farming",
+        "c": "Green Revolution 2.0",
+        "d": "Sustainable Agriculture Promotion Scheme"
       },
       "marked": null,
       "cov": {
@@ -1473,7 +1473,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthenameoftheschemerecentlyapprovedbytheUnionCabinettopromotenaturalfarming inIndia?",
+      "q": "What is the name of the scheme recently approved by the Union Cabinet to promote natural farming in India?",
       "multi": false
     },
     {
@@ -1483,10 +1483,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MinistryofRuralDevelopment",
-        "b": "|MinistryofTribalAffairs",
-        "c": "MinistryofHousingandUrbanAffairs",
-        "d": "MinistryofCulture"
+        "a": "Ministry of Rural Development",
+        "b": "| Ministry of Tribal Affairs",
+        "c": "Ministry of Housing and Urban Affairs",
+        "d": "Ministry of Culture"
       },
       "marked": null,
       "cov": {
@@ -1496,7 +1496,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichUnionMinistryisassociatedwiththe‘MeraGaon,MeriDharohar’Pro:pramme?",
+      "q": "Which Union Ministry is associated with the ‘Mera Gaon, Meri Dharohar’ Pro: pramme?",
       "multi": false
     },
     {
@@ -1519,7 +1519,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InwhichcityistheNotreDameCathedrallocated?",
+      "q": "In which city is the Notre Dame Cathedral located?",
       "multi": false
     },
     {
@@ -1542,7 +1542,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheEnglishEastIndiaCompanyarrivedinIndiaintheyear-",
+      "q": "The English East India Company arrived in India in the year-",
       "multi": false
     },
     {
@@ -1552,9 +1552,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MirQasim",
+        "a": "Mir Qasim",
         "b": "Shuja-ud-Daula",
-        "c": "MirJafar",
+        "c": "Mir Jafar",
         "d": "Siraj-ud-Daula"
       },
       "marked": null,
@@ -1565,7 +1565,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhofoughttheEnglishintheBattleofPlassey?",
+      "q": "Who fought the English in the Battle of Plassey?",
       "multi": false
     },
     {
@@ -1576,9 +1576,9 @@
       "direction": null,
       "opts": {
         "a": "Clive",
-        "b": "HectorMonro",
+        "b": "Hector Monro",
         "c": "Vansittart",
-        "d": "LordRipon"
+        "d": "Lord Ripon"
       },
       "marked": null,
       "cov": {
@@ -1588,7 +1588,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WholedtheEnglishforcesintheBattleofBuxar?",
+      "q": "Who led the English forces in the Battle of Buxar?",
       "multi": false
     },
     {
@@ -1598,10 +1598,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ControlofmarketsaroundBengal",
-        "b": "DiwanirightsofBengal,BiharandOrissa",
-        "c": "Warindemnityof4Lakhsrupees",
-        "d": "RegionofAwadhandCalcutta"
+        "a": "Control of markets around Bengal",
+        "b": "Diwani rights of Bengal, Bihar and Orissa",
+        "c": "War indemnity of 4 Lakhs rupees",
+        "d": "Region of Awadh and Calcutta"
       },
       "marked": null,
       "cov": {
@@ -1611,7 +1611,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WithvictoriyntheBattleofBuxarin1764,theEnglishEastIndiaCompanygainedthe-",
+      "q": "With victoriyn  the Battle of Buxar in 1764, the English East India Company gained the-",
       "multi": false
     },
     {
@@ -1621,10 +1621,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "WarrenHastings",
-        "b": "LordCornwallis",
-        "c": "RobertClive",
-        "d": "LordMayo"
+        "a": "Warren Hastings",
+        "b": "Lord Cornwallis",
+        "c": "Robert Clive",
+        "d": "Lord Mayo"
       },
       "marked": null,
       "cov": {
@@ -1634,7 +1634,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstGovernor-GeneraloftheGovernmentofBengalwas-",
+      "q": "The first Governor-General of the Government of Bengal was-",
       "multi": false
     },
     {
@@ -1644,10 +1644,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NawabofOudh",
-        "b": "PeshwaBajiRao",
+        "a": "Nawab of Oudh",
+        "b": "Peshwa Baji Rao",
         "c": "Bhonsle",
-        "d": "NizamofHyderabad"
+        "d": "Nizam of Hyderabad"
       },
       "marked": null,
       "cov": {
@@ -1657,7 +1657,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoamongthefollowingsignedthefirstSubsidiaryAllianceinIndia?",
+      "q": "Who among the following signed the first Subsidiary Alliance in India?",
       "multi": false
     },
     {
@@ -1667,10 +1667,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MalguzariSettlement",
-        "b": "MahalwariSettlement",
-        "c": "RyotwariSettlement",
-        "d": "ZamindariSettlement"
+        "a": "Malguzari Settlement",
+        "b": "Mahalwari Settlement",
+        "c": "Ryotwari Settlement",
+        "d": "Zamindari Settlement"
       },
       "marked": null,
       "cov": {
@@ -1680,7 +1680,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "PermanentSettlementofCornwallis1793wasalsoknownas-",
+      "q": "Permanent Settlement of Cornwallis 1793 was also known as-",
       "multi": false
     },
     {
@@ -1690,10 +1690,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "HenryLawrence",
+        "a": "Henry Lawrence",
         "b": "Dalhousie",
-        "c": "LordHastings",
-        "d": "WarrenHastings"
+        "c": "Lord Hastings",
+        "d": "Warren Hastings"
       },
       "marked": null,
       "cov": {
@@ -1703,7 +1703,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whowasassociatedwith‘Ringfence’policyinIndia?",
+      "q": "Who was associated with ‘Ring fence’ policy in India?",
       "multi": false
     },
     {
@@ -1713,10 +1713,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "-.WarrenHastings",
-        "b": "LordCanning",
-        "c": "LordDalhousie",
-        "d": "LordCurzon"
+        "a": "-. Warren Hastings",
+        "b": "Lord Canning",
+        "c": "Lord Dalhousie",
+        "d": "Lord Curzon"
       },
       "marked": null,
       "cov": {
@@ -1726,7 +1726,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheIndianRailwayswasintroducedduringthetenureandunderleadershipof-",
+      "q": "The Indian Railways was introduced during the tenure and under leadership of-",
       "multi": false
     },
     {
@@ -1736,10 +1736,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TheCharterActof1813",
-        "b": "WoodsDispatch1854",
-        "c": "HunterCommission1882",
-        "d": "KothariCommission1964-66"
+        "a": "The Charter Act of 1813",
+        "b": "Woods Dispatch 1854",
+        "c": "Hunter Commission 1882",
+        "d": "Kothari Commission 1964-66"
       },
       "marked": null,
       "cov": {
@@ -1749,7 +1749,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstthreeUniversitiesonmoderlineswereestablishedinBengal,BombayandMadrasfollowing therecommendationsof",
+      "q": "The first three Universities on moder lines were established in Bengal, Bombay and Madras following the recommendations of",
       "multi": false
     },
     {
@@ -1759,10 +1759,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RingFencePolicy",
-        "b": "SubsidiaryAlliance",
-        "c": "DoctrineofLapse",
-        "d": "HandHoldingPolicy"
+        "a": "Ring Fence Policy",
+        "b": "Subsidiary Alliance",
+        "c": "Doctrine of Lapse",
+        "d": "Hand Holding Policy"
       },
       "marked": null,
       "cov": {
@@ -1772,7 +1772,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheexpansionistpolicyovertheprincelystatesextensivelyusedbyWellesleywasknownas-",
+      "q": "The expansionist policy over the princely states extensively used by Wellesley was known as-",
       "multi": false
     },
     {
@@ -1782,10 +1782,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "CottontextilehandicraftsIndustry",
-        "b": "TeaIndustry",
-        "c": "Juteindustry",
-        "d": "Rubberindustry"
+        "a": "Cotton textile handicrafts Industry",
+        "b": "Tea Industry",
+        "c": "Jute industry",
+        "d": "Rubber industry"
       },
       "marked": null,
       "cov": {
@@ -1795,7 +1795,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThemostflourishingindustryinIndiabeforetheprocessofDe-Industrializationwas-.",
+      "q": "The most flourishing industry in India before the process of De-Industrialization was- .",
       "multi": false
     },
     {
@@ -1805,10 +1805,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SouthIndianRiots",
-        "b": "MalabarRiots",
-        "c": "IndigoRiots",
-        "d": "DeceanRiots"
+        "a": "South Indian Riots",
+        "b": "Malabar Riots",
+        "c": "Indigo Riots",
+        "d": "Decean Riots"
       },
       "marked": null,
       "cov": {
@@ -1818,7 +1818,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aseriesofriotsbyfarmersin1875againstthegovernment’srevenuepoliciesinthesouthernpartof Indiawaspopularlyknownasthe-",
+      "q": "Aseries of riots by farmers in 1875 against the government’s revenue policies in the southern part of India was popularly known as the-",
       "multi": false
     },
     {
@@ -1828,10 +1828,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RamMohanRoy",
-        "b": "IshwarChandraVidyasagar",
-        "c": "MaulanaAzad",
-        "d": "MGRanade"
+        "a": "Ram Mohan Roy",
+        "b": "Ishwar Chandra Vidyasagar",
+        "c": "Maulana Azad",
+        "d": "MG Ranade"
       },
       "marked": null,
       "cov": {
@@ -1841,7 +1841,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whoamongthefollowingisfamouslyknownforthecauseofwidowremarriage?",
+      "q": "Who among the following is famously known for the cause of widow remarriage?",
       "multi": false
     },
     {
@@ -1851,10 +1851,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MadhavRao",
-        "b": "BajiRaol",
-        "c": "BajiRaoIl",
-        "d": "NarayanRao"
+        "a": "Madhav Rao",
+        "b": "Baji Raol",
+        "c": "Baji Rao Il",
+        "d": "Narayan Rao"
       },
       "marked": null,
       "cov": {
@@ -1864,7 +1864,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThelastMarathaPeshwawhosefallledtothepermanentdefeatoftheMarathaEmpirewas-",
+      "q": "The last Maratha Peshwa whose fall led to the permanent defeat of the Maratha Empire was-",
       "multi": false
     },
     {
@@ -1874,7 +1874,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ChildMarriage",
+        "a": "Child Marriage",
         "b": "Infanticide",
         "c": "Slavery",
         "d": "Sati"
@@ -1887,7 +1887,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingpracticewasabolishedin1829withthejointeffortsofRajaRammohanRoy andWilliamBentinck?",
+      "q": "Which of the following practice was abolished in 1829 with the joint efforts of Raja Rammohan Roy and William Bentinck?",
       "multi": false
     },
     {
@@ -1897,10 +1897,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RajaRammohanRoy",
-        "b": "DayanandSaraswati",
-        "c": "SwamiVivekananda",
-        "d": "HenryVivianDerozio"
+        "a": "Raja Rammohan Roy",
+        "b": "Dayanand Saraswati",
+        "c": "Swami Vivekananda",
+        "d": "Henry Vivian Derozio"
       },
       "marked": null,
       "cov": {
@@ -1910,7 +1910,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefounderoftheAryaSamajandchampionoftheSuddhiMovementwas-",
+      "q": "The founder of the Arya Samaj and champion of the Suddhi Movement was-",
       "multi": false
     },
     {
@@ -1920,10 +1920,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "CharterAct",
-        "b": "CharlesMinute",
-        "c": "MacaulayMinute",
-        "d": "AnglicistsMinute"
+        "a": "Charter Act",
+        "b": "Charles Minute",
+        "c": "Macaulay Minute",
+        "d": "Anglicists Minute"
       },
       "marked": null,
       "cov": {
@@ -1933,7 +1933,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingdecisionintroducedEnglishasthemediumofinstructionin1835?",
+      "q": "Which of the following decision introduced English as the medium of instruction in 1835?",
       "multi": false
     },
     {
@@ -1943,10 +1943,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Bankingbusinessfailedintheruralareas",
-        "b": "Agriculturalfailurebecauseoffamineanddrought",
-        "c": "MajorityofIndianfarmersliveindebt",
-        "d": "Indianindigenousbankerswereindebt"
+        "a": "Banking business failed in the rural areas",
+        "b": "Agricultural failure because of famine and drought",
+        "c": "Majority of Indian farmers live in debt",
+        "d": "Indian indigenous bankers were in debt"
       },
       "marked": null,
       "cov": {
@@ -1956,7 +1956,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ruralindebtednessreferstothephenomenonwhere-",
+      "q": "Rural indebtedness refers to the phenomenon where-",
       "multi": false
     },
     {
@@ -1979,7 +1979,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MoplahUprisingalsoknownastheMalabarRebellionhappenedin-",
+      "q": "Moplah Uprising also known as the Malabar Rebellion happened in-",
       "multi": false
     },
     {
@@ -1989,10 +1989,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "CurtailtheIndianPress",
-        "b": "LegalisetheIndianPress",
-        "c": "EqualisetheEnglishandVernacularPress",
-        "d": "EncourageVernacularliteraturewithregardstoPress"
+        "a": "Curtail the Indian Press",
+        "b": "Legalise the Indian Press",
+        "c": "Equalise the English and Vernacular Press",
+        "d": "Encourage Vernacular literature with regards to Press"
       },
       "marked": null,
       "cov": {
@@ -2002,7 +2002,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "VernacularPressAct1878waspassedbythegovernmentto-",
+      "q": "Vernacular Press Act 1878 was passed by the government to-",
       "multi": false
     },
     {
@@ -2012,10 +2012,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "CreationofseparateelectoratesfortheMuslims",
-        "b": "CreationofAllIndiaFederation",
-        "c": "introducingSeparationoftheExecutiveandtheJudiciary",
-        "d": "Co-operatingtheIndianNationalCongresstothemaximum"
+        "a": "Creation of separate electorates for the Muslims",
+        "b": "Creation of All India Federation",
+        "c": "introducing Separation of the Executive and the Judiciary",
+        "d": "Co-operating the Indian National Congress to the maximum"
       },
       "marked": null,
       "cov": {
@@ -2025,7 +2025,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThemostprominentprovisionoftheMorley-MintoReforms1909was-",
+      "q": "The most prominent provision of the Morley-Minto Reforms 1909 was-",
       "multi": false
     },
     {
@@ -2038,7 +2038,7 @@
         "a": "Nationalist",
         "b": "Racist",
         "c": "Revivalist",
-        "d": "Lowercaste eRRKOKOKOK"
+        "d": "Lower caste eR RK OK OK OK"
       },
       "marked": null,
       "cov": {
@@ -2048,7 +2048,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatwasthenatureofAryaSamajmovement?",
+      "q": "What was the nature of Arya Samaj movement?",
       "multi": false
     }
   ],

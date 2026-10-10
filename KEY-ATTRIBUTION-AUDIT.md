@@ -4,27 +4,25 @@ Tier 1 is not a bulk/automated win. Only assignments that validate (>=25 upstrea
 
 ## Summary
 
-- Candidate one-to-one assignments: **25 papers (1873 held questions)**
+- Candidate one-to-one assignments: **23 papers (1714 held questions)**
 - `validated` (safe to register): **0**
 - `contradicted` (wrong paper — reject): **5**
-- `unverifiable` (needs printed-key confirmation): **20**
+- `unverifiable` (needs printed-key confirmation): **18**
 
 Validation compares the proposed key against the upstream solved corpus by chosen option text. A correct key scores near the corpus baseline (~86%); a wrong one scores near chance (~25%).
 
 | verdict | paper | subject | held | key file | src | upstream n | agreement |
 |---|---|---|---|---|---|---|---|
 | unverifiable | mpsc-group-b-geologist-jun-nov-2020-english-p3 | General English Paper-III | 100 | Provisional Answer Key of Geologist under Commerce & Industries Dept.-2024..pdf | ocr | 1 | 0% |
-| unverifiable | mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i | General Studies | 99 | Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Services (Inspector of Supplies) Final Answer Key..pdf | pdf | 0 | — |
+| unverifiable | mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i | General Studies | 99 | Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Services (Inspector of Supplies) Final Answer Key..pdf | pdf | 9 | 22% |
 | unverifiable | mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025 | General Studies | 96 | Provisional Answer Key for Technical Officer, SCERT under School Education Deptartment-2025...pdf | ocr | 0 | — |
-| unverifiable | mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii | General Studies | 96 | Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Services (Inspector of Supplies) Final Answer Key..pdf | pdf | 0 | — |
-| unverifiable | mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024 | General Studies | 94 | Provisional Answer Key for Agriculture & Allied Services (combined) under Various Department.p.pdf | ocr | 0 | — |
-| unverifiable | mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440 | General English | 93 | Inspector of Legal Metrology under FCS&CA Deptt. Final Answer Key..pdf | pdf | 0 | — |
-| unverifiable | mpsc-group-b-archive2325-assist-director-town-planning-general-studies | General Studies | 88 | Provisional Answer Key of Assistant Director (Town Planning) under UD&PA..pdf | ocr | 0 | — |
-| unverifiable | mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii | General Studies | 81 | Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Services (Inspector of Supplies) Final Answer Key..pdf | pdf | 0 | — |
-| unverifiable | mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025 | General Studies | 77 | Provisional Answer Key of Lecturer (VSE) & VGO under SCERT..pdf | ocr | 0 | — |
-| unverifiable | mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-c-2025 | General Studies | 76 | Final Answer Key of Lecturer (VSE) & VGO under SCERT..pdf | ocr | 0 | — |
+| unverifiable | mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii | General Studies | 96 | Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Services (Inspector of Supplies) Final Answer Key..pdf | pdf | 4 | 75% |
+| unverifiable | mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024 | General Studies | 94 | Provisional Answer Key for Agriculture & Allied Services (combined) under Various Department.p.pdf | ocr | 6 | 83% |
+| unverifiable | mpsc-group-b-archive2325-assist-director-town-planning-general-studies | General Studies | 88 | Provisional Answer Key of Assistant Director (Town Planning) under UD&PA..pdf | ocr | 5 | 0% |
+| unverifiable | mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii | General Studies | 81 | Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Services (Inspector of Supplies) Final Answer Key..pdf | pdf | 9 | 44% |
+| unverifiable | mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025 | General Studies | 77 | Provisional Answer Key of Lecturer (VSE) & VGO under SCERT..pdf | ocr | 2 | 50% |
+| unverifiable | mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-c-2025 | General Studies | 76 | Final Answer Key of Lecturer (VSE) & VGO under SCERT..pdf | ocr | 2 | 50% |
 | unverifiable | mpsc-group-b-archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208 | General English | 66 | Provisional Answer Key of Assistant Controller of Mines under Commerce & Industries Deptt...pdf | ocr | 0 | — |
-| unverifiable | mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde | General English | 66 | Final Answer Key for Assistant Director (Food & Drugs) under H&FW Department.pdf | ocr | 0 | — |
 | unverifiable | mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4 | General English | 66 | Provisional Answer Key of Cooperative Audit Officer (CAO) under Cooperation Deptt...pdf | ocr | 0 | — |
 | unverifiable | mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-0538ee53 | General English | 66 | Final Answer key of Cooperative Audit Officer (CAO) under Cooperation Deptt., 2026.pdf | ocr | 0 | — |
 | unverifiable | mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-a1074237 | General English | 61 | Provisional Answer Key of Lecturer (VSE) & VGO under SCERT..pdf | ocr | 0 | — |
@@ -46,7 +44,10 @@ Validation compares the proposed key against the upstream solved corpus by chose
 | aao-2024-arithmetic | 100 | /papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3 |
 | aao-2024-english | 100 | /papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1 |
 | aao-2024-gk | 100 | /papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=2 |
+| archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440 | 100 | /papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf |
+| archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde | 66 | /papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf |
 | archive-lang-2026-assistant-controller-of-mines-august-2026-assistant-controller-of-mines-cd36d7cc | 66 | /papers/group-b/keys/final-answer-key-assistant-controller-of-mines-august-2026.pdf#page=1 |
+| archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890 | 30 | /papers/group-b/keys/instructor-iti-2026-paper-i-general-english-final-key.pdf |
 | archive2325-acf-2023-general-knowledge | 100 | /papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf |
 | co-2026-p1 | 60 | /papers/group-b/keys/co-2026-final-key.pdf#page=1 |
 | co-2026-p2 | 100 | /papers/group-b/keys/co-2026-final-key.pdf#page=3 |

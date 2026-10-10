@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IntherecentlyconcludedUSPresidentialelection,thenumberofelectoralcollegevoteswonby DonaldTrumpis-",
+      "q": "In the recently concluded US Presidential election, the number of electoral college votes won by Donald Trump is-",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "GodfatherofSurgery",
-        "b": "GodfatherofiOS",
-        "c": "GodfatherofAI",
-        "d": "GodfatherofNuclearenergy"
+        "a": "Godfather of Surgery",
+        "b": "Godfather of iOS",
+        "c": "Godfather of AI",
+        "d": "Godfather of Nuclear energy"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "GeoffreyHinton,thewinnerof2024NobelPrizeforPhysicsispopularlyknownas-",
+      "q": "Geoffrey Hinton, the winner of 2024 Nobel Prize for Physics is popularly known as-",
       "multi": false
     },
     {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "The29\"UNClimateChangeConference,COP29washeldinthemonthofNovember,2024in whichofthefollowingcities?",
+      "q": "The 29\" UN Climate Change Conference, COP29 was held in the month of November, 2024 in which of the following cities?",
       "multi": false
     },
     {
@@ -84,10 +84,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Men’sSenior80kgrightcategory",
-        "b": "Men’sJunior80kgrightcategory",
-        "c": "Men’sSenior70kgrightcategory",
-        "d": "Men’sJunior70kgrightcategory"
+        "a": "Men’s Senior 80 kg right category",
+        "b": "Men’s Junior 80 kg right category",
+        "c": "Men’s Senior 70 kg right category",
+        "d": "Men’s Junior 70 kg right category"
       },
       "marked": null,
       "cov": {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IntherecentlyconcludedAsianArm-WrestlingCup2024,DenicLalruattluangafromMizoramwon Goldmedalinwhichofthefollowingcategories?",
+      "q": "Inthe recently concluded Asian Arm- Wrestling Cup 2024, Denic Lalruattluanga from Mizoram won Gold medal in which of the following categories?",
       "multi": false
     },
     {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AsofNovember2024,whichofthefollowingcountriesisrankedthethirdlargesteconomyinthe world(GDP)intermsofPurchasingPowerParity(PPP)?",
+      "q": "As of November 2024, which of the following countries is ranked the third largest economy in the world (GDP) in terms of Purchasing Power Parity (PPP)?",
       "multi": false
     },
     {
@@ -130,10 +130,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "StateBankofIndia",
-        "b": "ICICIBank",
-        "c": "HDFCBank",
-        "d": "AxisBank"
+        "a": "State Bank of India",
+        "b": "ICICI Bank",
+        "c": "HDFC Bank",
+        "d": "Axis Bank"
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingbanksisnotoneamongthethreebanksidentifiedasDomesticSystematically ImportantBanks(D-SIBs)bytheReserveBankofIndia?",
+      "q": "Which of the following banks is not one among the three banks identified as Domestic Systematically Important Banks (D-SIBs) by the Reserve Bank of India?",
       "multi": false
     },
     {
@@ -153,10 +153,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "HaldiaPort",
-        "b": "KandlaPort",
-        "c": "VishakhapatnamPort:",
-        "d": "KochiPort -2-:"
+        "a": "Haldia Port",
+        "b": "Kandla Port",
+        "c": "Vishakhapatnam Port :",
+        "d": "Kochi Port -2- :"
       },
       "marked": null,
       "cov": {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichIndianportisalsopopularlyknownas‘TheOffspringofPartition’?",
+      "q": "Which Indian port is also popularly known as ‘The Offspring of Partition’?",
       "multi": false
     },
     {
@@ -176,10 +176,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "FatherofcivilserviceinIndia",
-        "b": "AbolisherofSati",
-        "c": "Liberatorofthepress",
-        "d": "FatherofIndianjudiciary"
+        "a": "Father of civil service in India",
+        "b": "Abolisher of Sati",
+        "c": "Liberator of the press",
+        "d": "Father of Indian judiciary"
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "LordMetcalfeispopularlyknownasthe-",
+      "q": "Lord Metcalfe is popularly known as the-",
       "multi": false
     },
     {
@@ -200,8 +200,8 @@
       "direction": null,
       "opts": {
         "a": "Akbar",
-        "b": "MuhammedLodhi",
-        "c": "BahulalLodhi",
+        "b": "Muhammed Lodhi",
+        "c": "Bahulal Lodhi",
         "d": "Babar"
       },
       "marked": null,
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InthefirstbattleofPanipat,IbrahimLodhiwasdefeatedby-",
+      "q": "In the first battle of Panipat, Ibrahim Lodhi was defeated by-",
       "multi": false
     },
     {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheinfamousJallianwalaBaghMassacreincidenthappenedonApril13intheyear-",
+      "q": "The infamous Jallianwala Bagh Massacre incident happened on April 13 in the year-",
       "multi": false
     },
     {
@@ -246,9 +246,9 @@
       "direction": null,
       "opts": {
         "a": "Balban",
-        "b": "Qutub-ud-dinAibak",
+        "b": "Qutub-ud-din Aibak",
         "c": "Itutmish",
-        "d": "AllauddinKhilji"
+        "d": "Allauddin Khilji"
       },
       "marked": null,
       "cov": {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheKingwhodidnotallowanybodytolaughinhiscourtwas?",
+      "q": "The King who did not allow anybody to laugh in his court was?",
       "multi": false
     },
     {
@@ -268,10 +268,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TheDanish",
-        "b": "TheDutch",
-        "c": "ThePortuguese",
-        "d": "TheEastIndiaCompany"
+        "a": "The Danish",
+        "b": "The Dutch",
+        "c": "The Portuguese",
+        "d": "The East India Company"
       },
       "marked": null,
       "cov": {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheislandofBombaywasgiventotheEnglishPrinceCharlesIasdowryby:",
+      "q": "The island of Bombay was given to the English Prince Charles I as dowry by :",
       "multi": false
     },
     {
@@ -291,10 +291,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "24nauticalmilesfromcoastalareatothesea",
-        "b": "100nauticalmilesfromcoastalareatothesea",
-        "c": "200nauticalmilesfromcoastalareatothesea",
-        "d": "250nauticalmilesfromcoastalareatothesea"
+        "a": "24 nautical miles from coastal area to the sea",
+        "b": "100 nautical miles from coastal area to the sea",
+        "c": "200 nautical miles from coastal area to the sea",
+        "d": "250 nautical miles from coastal area to the sea"
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AccordingtotheUNLawoftheSeaConvention,theExclusiveEconomicZones(EEZ)ofacountry include-",
+      "q": "According to the UN Law of the Sea Convention, the Exclusive Economic Zones (EEZ) ofa country include -",
       "multi": false
     },
     {
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheMostimportantKharifcropsinIndiais-",
+      "q": "The Most important Kharif crops in India is-",
       "multi": false
     },
     {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichcountryispopularlyknownas‘Coffeepotoftheworld’?",
+      "q": "Which country is popularly known as ‘Coffee pot of the world’?",
       "multi": false
     },
     {
@@ -360,10 +360,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Maginotline—FranceandGermany",
-        "b": "49\"Parallelline—USAandCanada",
-        "c": "38\"Parallelline—-NorthandSouthKorea",
-        "d": "Siegfriedline—GermanyandPoland"
+        "a": "Maginot line— France and Germany",
+        "b": "49\" Parallel line— USA and Canada",
+        "c": "38\" Parallel line—-North and South Korea",
+        "d": "Siegfried line—Germany and Poland"
       },
       "marked": null,
       "cov": {
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Amongthefollowingboundarylines,whichoneisnotcorrectlymatchedwiththecountriesgiven afterwards",
+      "q": "Among the following boundary lines, which one is not correctly matched with the countries given afterwards",
       "multi": false
     },
     {
@@ -386,7 +386,7 @@
         "a": "Typhoons",
         "b": "Tornadoes",
         "c": "Blizzards",
-        "d": "Polarwinds"
+        "d": "Polar winds"
       },
       "marked": null,
       "cov": {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Verystrongandicywindsthatblowsinthepolarregionsareknownas",
+      "q": "Very strong and icy winds that blows in the polar regions are known as",
       "multi": false
     },
     {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Grasslandswhichdonotsupportanytreesarecalled?",
+      "q": "Grasslands which do not support any trees are called?",
       "multi": false
     },
     {
@@ -429,10 +429,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Article17",
-        "b": "Article18",
-        "c": "Article19",
-        "d": "Article21"
+        "a": "Article 17",
+        "b": "Article 18",
+        "c": "Article 19",
+        "d": "Article 21"
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichArticleoftheIndianconstitutionalcannotbesuspendedduringtheproclamationofnational emergencybythePresident?",
+      "q": "Which Article of the Indian constitutional cannot be suspended during the proclamation of national emergency by the President?",
       "multi": false
     },
     {
@@ -452,10 +452,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PranabMukherjee",
-        "b": "SaroshHomiKapadia",
-        "c": "DroupadiMurmu",
-        "d": "NarendraModi"
+        "a": "Pranab Mukherjee",
+        "b": "Sarosh Homi Kapadia",
+        "c": "Droupadi Murmu",
+        "d": "Narendra Modi"
       },
       "marked": null,
       "cov": {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whoisthepresentde-factoheadofIndia?",
+      "q": "Who is the present de-facto head of India?",
       "multi": false
     },
     {
@@ -475,10 +475,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Article110",
-        "b": "Article111",
-        "c": "Article202",
-        "d": "Article112"
+        "a": "Article 110",
+        "b": "Article 111",
+        "c": "Article 202",
+        "d": "Article 112"
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhicharticleoftheIndianconstitutioncontainsthemoncybill?",
+      "q": "Which article of the Indian constitution contains the moncy bill?",
       "multi": false
     },
     {
@@ -498,10 +498,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Article52",
-        "b": "Article55",
-        "c": "Article61",
-        "d": "Article72"
+        "a": "Article 52",
+        "b": "Article 55",
+        "c": "Article 61",
+        "d": "Article 72"
       },
       "marked": null,
       "cov": {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhicharticleoftheIndianconstitutioncontainsImpeachmentofthePresidentofIndia?",
+      "q": "Which article of the Indian constitution contains Impeachment of the President of India?",
       "multi": false
     },
     {
@@ -521,9 +521,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NeelamSReddy",
-        "b": "DrZakirHussain",
-        "c": "DrSRadhakrishnan",
+        "a": "Neelam S Reddy",
+        "b": "Dr Zakir Hussain",
+        "c": "DrS Radhakrishnan",
         "d": "ViV.Giri"
       },
       "marked": null,
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheonlypresidentofIndiawhowaselectedasanindependentcandidateis-",
+      "q": "The only president of India who was elected as an independent candidate is-",
       "multi": false
     },
     {
@@ -544,10 +544,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Precedentsandconventions",
-        "b": "Dueprocessoflaw",
-        "c": "Procedureestablishedbylaw",
-        "d": "Ruleoflaw"
+        "a": "Precedents and conventions",
+        "b": "Due process of law",
+        "c": "Procedure established by law",
+        "d": "Rule oflaw"
       },
       "marked": null,
       "cov": {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "JudicialReviewinIndiaisbasedon-",
+      "q": "Judicial Review in India is based on-",
       "multi": false
     },
     {
@@ -569,7 +569,7 @@
       "opts": {
         "a": "Punjab",
         "b": "Maharashtra",
-        "c": "AndhraPradesh",
+        "c": "Andhra Pradesh",
         "d": "Bihar"
       },
       "marked": null,
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstIndianstatetobecreatedonlinguisticbasisintheyear1953-",
+      "q": "The first Indian state to be created on linguistic basis in the year 1953-",
       "multi": false
     },
     {
@@ -590,10 +590,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "explainshowinterestrateseffectsaving",
-        "b": "showstherelationshipbetweeninflationandunemployment.",
-        "c": "measuresinequality",
-        "d": "illustratestherelationshipbetweentaxratesandtaxrevenue."
+        "a": "explains how interest rates effect saving",
+        "b": "shows the relationship between inflation and unemployment.",
+        "c": "measures inequality",
+        "d": "illustrates the relationship between tax rates and tax revenue."
       },
       "marked": null,
       "cov": {
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theterm‘LafferCurve’:",
+      "q": "The term ‘Laffer Curve’:",
       "multi": false
     },
     {
@@ -613,8 +613,8 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PerfectCompetition",
-        "b": "MonopolisticCompetition",
+        "a": "Perfect Competition",
+        "b": "Monopolistic Competition",
         "c": "Duopoly",
         "d": "Oligopoly"
       },
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Firmswherethereisco-existenceoflargenumberofbuyersandsellersalongsidehomogeneous productsiscalled-",
+      "q": "Firms where there is co-existence of large number of buyers and sellers alongside homogeneous products is called-",
       "multi": false
     },
     {
@@ -636,10 +636,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ParamparagatKrishiVikasYojana(PKVY)",
-        "b": "PradhanMantriFasalBimaYojana(PMFBY)",
-        "c": "PradhanMantriKisanMaanDhanYojana(PMKMY)",
-        "d": "PradhanMantriKisanSammanNidhi(PM-KISAN) -4-:"
+        "a": "Paramparagat Krishi Vikas Yojana (PKVY)",
+        "b": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+        "c": "Pradhan Mantri Kisan Maan Dhan Yojana (PMKMY)",
+        "d": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) -4- :"
       },
       "marked": null,
       "cov": {
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Acropinsuranceschemethatcoversriskslikeyieldlosses,preventedsowing,post-harvestlosses, andlocalizedcalamities-",
+      "q": "A crop insurance scheme that covers risks like yield losses, prevented sowing, post-harvest losses, and localized calamities-",
       "multi": false
     },
     {
@@ -659,10 +659,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "IncreaseBankRate",
-        "b": "DecreaseBankRate",
-        "c": "PurchaseofSecurities",
-        "d": "ReductionofRepoRate"
+        "a": "Increase Bank Rate",
+        "b": "Decrease Bank Rate",
+        "c": "Purchase of Securities",
+        "d": "Reduction of Repo Rate"
       },
       "marked": null,
       "cov": {
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inordertocontrolinflationintheeconomy,whatwouldbethedesiredactionoftheReserveBankof India?",
+      "q": "Inorder to control inflation in the economy, what would be the desired action of the Reserve Bank of India?",
       "multi": false
     },
     {
@@ -682,10 +682,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Firstfive-yearplan",
-        "b": "Secondfive-yearplan",
-        "c": "Fifthfive-yearplan",
-        "d": "Sixthfive-yearpian:"
+        "a": "First five-year plan",
+        "b": "Second five-year plan",
+        "c": "Fifth five-year plan",
+        "d": "Sixth five-year pian :"
       },
       "marked": null,
       "cov": {
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inwhichofthefollowingfive-yearplanswastheMahalanobisstrategyadoptedforthefirsttime?",
+      "q": "In which of the following five-year plans was the Mahalanobis strategy adopted for the first time?",
       "multi": false
     },
     {
@@ -705,10 +705,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ExciseDuties",
-        "b": "CustomsDuties",
-        "c": "IncomeTax",
-        "d": "CorporateTax"
+        "a": "Excise Duties",
+        "b": "Customs Duties",
+        "c": "Income Tax",
+        "d": "Corporate Tax"
       },
       "marked": null,
       "cov": {
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThesinglelargestsourceofincomeforthegovernmentofIndiaduring2023-24is-",
+      "q": "The single largest source of income for the government of India during 2023-24 is -",
       "multi": false
     },
     {
@@ -728,10 +728,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Netdeficit",
-        "b": "Primarydeficit",
-        "c": "Revenuedeficit",
-        "d": "Grossfiscaldeficit"
+        "a": "Net deficit",
+        "b": "Primary deficit",
+        "c": "Revenue deficit",
+        "d": "Gross fiscal deficit"
       },
       "marked": null,
       "cov": {
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "FiscaldeficitminusInterestPaymentgivesus-",
+      "q": "Fiscal deficit minus Interest Payment gives us-",
       "multi": false
     },
     {
@@ -751,10 +751,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Economicsustainability",
-        "b": "CarryingCapacityoftheEarth",
-        "c": "SocialSustainability",
-        "d": "InstitutionalSustainability"
+        "a": "Economic sustainability",
+        "b": "Carrying Capacity of the Earth",
+        "c": "Social Sustainability",
+        "d": "Institutional Sustainability"
       },
       "marked": null,
       "cov": {
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theabilityoftheearthtomaintainhumanbeingssustainablyandindefinitelyisknownas-",
+      "q": "The ability of the earth to maintain human beings sustainably and indefinitely is known as -",
       "multi": false
     },
     {
@@ -774,10 +774,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Onlyoneearth",
-        "b": "Myenvironment,mylife",
-        "c": "Solutionstoplasticpollution",
-        "d": "OurLand,OurFuture."
+        "a": "Only one earth",
+        "b": "My environment, my life",
+        "c": "Solutions to plastic pollution",
+        "d": "Our Land, Our Future."
       },
       "marked": null,
       "cov": {
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thethemeof2024’s‘WorldEnvironmentDay’is-",
+      "q": "The theme of 2024’s ‘ World Environment Day’ is-",
       "multi": false
     },
     {
@@ -797,10 +797,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "10newbiospherereserves",
-        "b": "11newbiospherereserves",
-        "c": "12newbiospherereserves",
-        "d": "13newbiospherereserves"
+        "a": "10 new biosphere reserves",
+        "b": "11 new biosphere reserves",
+        "c": "12 new biosphere reserves",
+        "d": "13 new biosphere reserves"
       },
       "marked": null,
       "cov": {
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OnJuly5,2024,theUnitedNationsEducational,ScientificandCulturalOrganization(UNESCO) designatedhowmanynewbiospherereserves?",
+      "q": "On July 5, 2024, the United Nations Educational, Scientific and Cultural Organization (UNESCO) designated how many new biosphere reserves?",
       "multi": false
     },
     {
@@ -820,10 +820,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TropicalWetEvergreenForest",
-        "b": "MontaneWetTemperateForest",
-        "c": "Sub-tropicalDryEvergreenForest",
-        "d": "TropicalMoistDeciduousForest"
+        "a": "Tropical Wet Evergreen Forest",
+        "b": "Montane Wet Temperate Forest",
+        "c": "Sub-tropical Dry Evergreen Forest",
+        "d": "Tropical Moist Deciduous Forest"
       },
       "marked": null,
       "cov": {
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingtypeofforestoccupiesthelargestareainIndia?",
+      "q": "Which of the following type of forest occupies the largest area in India?",
       "multi": false
     },
     {
@@ -843,10 +843,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "CharlesDarwin",
-        "b": "ErnstHaeckel",
-        "c": "GregoryMendel",
-        "d": "SaunMarine"
+        "a": "Charles Darwin",
+        "b": "Ernst Haeckel",
+        "c": "Gregory Mendel",
+        "d": "Saun Marine"
       },
       "marked": null,
       "cov": {
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whocoinedtheword‘ecology’?",
+      "q": "Who coined the word ‘ecology’?",
       "multi": false
     },
     {
@@ -866,10 +866,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "3to14June1990",
-        "b": "3to14June1991",
-        "c": "3to14June1992",
-        "d": "3to14June1993"
+        "a": "3 to 14 June 1990",
+        "b": "3 to 14 June 1991",
+        "c": "3 to 14 June 1992",
+        "d": "3 to 14 June 1993"
       },
       "marked": null,
       "cov": {
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhenwastheUnitedNationsConferenceonEnvironmentandDevelopment,alsoknownasthe EarthSummitheldinRiodeJaneiro?",
+      "q": "When was the United Nations Conference on Environment and Development, also known as the Earth Summit held in Rio de Janeiro?",
       "multi": false
     },
     {
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Throughwhichoneamongthefollowingmaterialsdoessoundtravelfastest?",
+      "q": "Through which one among the following materials does sound travel fastest?",
       "multi": false
     },
     {
@@ -912,10 +912,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Soliddispersedingas",
-        "b": "Gasdispersedingas",
-        "c": "Soliddispersedinliquid",
-        "d": "Liquiddispersedingas"
+        "a": "Solid dispersed in gas",
+        "b": "Gas dispersed in gas",
+        "c": "Solid dispersed in liquid",
+        "d": "Liquid dispersed in gas"
       },
       "marked": null,
       "cov": {
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Fogisanexampleof-",
+      "q": "Fog is an example of-",
       "multi": false
     },
     {
@@ -935,10 +935,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "AceticAcid",
-        "b": "AscorbicAcid",
-        "c": "BenzoicAcid",
-        "d": "NicotinicAcid. ~5-."
+        "a": "Acetic Acid",
+        "b": "Ascorbic Acid",
+        "c": "Benzoic Acid",
+        "d": "Nicotinic Acid . ~5- ."
       },
       "marked": null,
       "cov": {
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthekeyingredientinVinegarthatyouuseinyourdiet?",
+      "q": "What is the key ingredient in Vinegar that you use in your diet?",
       "multi": false
     },
     {
@@ -958,7 +958,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BoneMarrow",
+        "a": "Bone Marrow",
         "b": "Liver",
         "c": "Muscles",
         "d": "Pancreas"
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inwhichofthefollowingpartofhumanbody,redbloodcellsareproduced?",
+      "q": "In which of the following part of human body, red blood cells are produced?",
       "multi": false
     },
     {
@@ -984,7 +984,7 @@
         "a": "Moon",
         "b": "Meteor",
         "c": "Asteroid",
-        "d": "Littlestar"
+        "d": "Little star"
       },
       "marked": null,
       "cov": {
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthecorrectnameofa‘Shootingstar’?",
+      "q": "What is the correct name of a ‘Shooting star’?",
       "multi": false
     },
     {
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Purewaterfreezesatwhattemperature?",
+      "q": "Pure water freezes at what temperature?",
       "multi": false
     },
     {
@@ -1027,10 +1027,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "January26",
-        "b": "February26",
-        "c": "January28",
-        "d": "February28"
+        "a": "January 26",
+        "b": "February 26",
+        "c": "January 28",
+        "d": "February 28"
       },
       "marked": null,
       "cov": {
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InIndiaNationalScienceDayisobservedonwhichonthefollowingdate?",
+      "q": "In India National Science Day is observed on which on the following date?",
       "multi": false
     },
     {
@@ -1050,10 +1050,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1730-1740AD",
-        "b": "1740-1750AD",
-        "c": "1750-1760AD",
-        "d": "1760-1770AD"
+        "a": "1730-1740 AD",
+        "b": "1740-1750 AD",
+        "c": "1750-1760 AD",
+        "d": "1760-1770 AD"
       },
       "marked": null,
       "cov": {
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefamousvillageofSelesih7000wasestablishedduring-",
+      "q": "The famous village of Selesih 7000 was established during-",
       "multi": false
     },
     {
@@ -1073,10 +1073,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TheHillTractsofChittagongandTheDwellersTherein",
-        "b": "AGrammarofLushaiLanguage",
-        "c": "ProgressiveColloquialExerciseinLushaiDialectofthe‘Dzo’",
-        "d": "MizoChanchin"
+        "a": "The Hill Tracts of Chittagong and The Dwellers Therein",
+        "b": "A Grammar of Lushai Language",
+        "c": "Progressive Colloquial Exercise in Lushai Dialect of the ‘Dzo’",
+        "d": "Mizo Chanchin"
       },
       "marked": null,
       "cov": {
@@ -1086,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Capt.T.H.Lewinwroteafamousbookcailed-",
+      "q": "Capt. T.H.Lewin wrote a famous book cailed-",
       "multi": false
     },
     {
@@ -1096,10 +1096,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Zaudawh—asmallhouse",
-        "b": "Tlaisial—ayoungmithun",
-        "c": "Zawhtenoneiang-stayinginthesameplace",
-        "d": "Fatlum—theyoungestson"
+        "a": "Zaudawh—a small house",
+        "b": "Tlai sial—a young mithun",
+        "c": "Zawhte no nei ang- staying in the same place",
+        "d": "Fatlum—the youngest son"
       },
       "marked": null,
       "cov": {
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichoneofthefollowingidiomsisnotacorrectpair?",
+      "q": "Which one of the following idioms is not a correct pair?",
       "multi": false
     },
     {
@@ -1119,10 +1119,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ZikpuiiPa",
+        "a": "Zikpuii Pa",
         "b": "Lalzuithanga",
         "c": "C.Thuamluaia",
-        "d": "KCLaivunga"
+        "d": "KC Laivunga"
       },
       "marked": null,
       "cov": {
@@ -1132,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Authorofthefamousbook‘SialtonOfficial’:",
+      "q": "Author of the famous book ‘Sialton Official’:",
       "multi": false
     },
     {
@@ -1155,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichperiodisknownasthe‘Goldenperiod’intheclassificationofMizoLiterature?",
+      "q": "Which period is known as the ‘Golden period’ in the classification of Mizo Literature?",
       "multi": false
     },
     {
@@ -1166,9 +1166,9 @@
       "direction": null,
       "opts": {
         "a": "Hawilopari",
-        "b": "Lalhlaulothi",
-        "c": "Zoramkhawvel",
-        "d": "Zorami-Aredemptionsong"
+        "b": "Lal hlaulo thi",
+        "c": "Zoram khawvel",
+        "d": "Zorami-A redemption song"
       },
       "marked": null,
       "cov": {
@@ -1178,7 +1178,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstMizoNovelis-",
+      "q": "The first Mizo Novel is-",
       "multi": false
     },
     {
@@ -1191,7 +1191,7 @@
         "a": "Nose",
         "b": "Mouth",
         "c": "Ear",
-        "d": "Tipofthehead"
+        "d": "Tip of the head"
       },
       "marked": null,
       "cov": {
@@ -1201,7 +1201,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheMizosbelievedthatwhenapersondies,his/herspiritexitsthroughthe-",
+      "q": "The Mizos believed that when a person dies, his/her spirit exits through the-",
       "multi": false
     },
     {
@@ -1211,10 +1211,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TlangThimchhaklamkeikaenang",
-        "b": "IsuaVanahaawma",
-        "c": "Lalberhmaahkandingang",
-        "d": "Lalbersipaikanni _6-:"
+        "a": "Tlang Thim chhak lam kei ka en ang",
+        "b": "Isua Vanahaawma",
+        "c": "Lal ber hmaah kan ding ang",
+        "d": "Lal ber sipai kan ni _6- :"
       },
       "marked": null,
       "cov": {
@@ -1224,7 +1224,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstMizoKristiansongis-",
+      "q": "The first Mizo Kristian song is-",
       "multi": false
     },
     {
@@ -1235,7 +1235,7 @@
       "direction": null,
       "opts": {
         "a": "L.O.Clarke",
-        "b": "B.W.Roy",
+        "b": "B.W. Roy",
         "c": "GH.Loch",
         "d": "J.Shakespeare"
       },
@@ -1247,7 +1247,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThelandsettlementintheLushaiHillswasintroducedby-",
+      "q": "The land settlement in the Lushai Hills was introduced by-",
       "multi": false
     },
     {
@@ -1257,10 +1257,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LalrammawiaNgente",
-        "b": "K.C.Lalvunga",
-        "c": "JamesDokhuma",
-        "d": "LalhminglianaSaiawi"
+        "a": "Lalrammawia Ngente",
+        "b": "K.C. Lalvunga",
+        "c": "James Dokhuma",
+        "d": "Lalhmingliana Saiawi"
       },
       "marked": null,
       "cov": {
@@ -1270,7 +1270,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Writerofthenovel‘Nunnakawngthuampuiah’:",
+      "q": "Writer of the novel ‘Nunna kawng thuampuiah’:",
       "multi": false
     },
     {
@@ -1293,7 +1293,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Asmallhand-wovenclothofhandspuncottonandindigodyeiscalled-",
+      "q": "A small hand-woven cloth of handspun cotton and indigo dye is called-",
       "multi": false
     },
     {
@@ -1305,7 +1305,7 @@
       "opts": {
         "a": "India",
         "b": "Brazil",
-        "c": "SouthAfrica",
+        "c": "South Africa",
         "d": "Australia"
       },
       "marked": null,
@@ -1316,7 +1316,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichcountryhostedthe2024G20Summit?",
+      "q": "Which country hosted the 2024 G20 Summit?",
       "multi": false
     },
     {
@@ -1328,7 +1328,7 @@
       "opts": {
         "a": "Mizoram",
         "b": "Sikkim",
-        "c": "ArunachalPradesh",
+        "c": "Arunachal Pradesh",
         "d": "Nagaland"
       },
       "marked": null,
@@ -1339,7 +1339,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichnortheasternstaterecentlybecameIndia’sfirstODFPlusstate?",
+      "q": "Which northeastern state recently became India’s first ODF Plus state?",
       "multi": false
     },
     {
@@ -1349,10 +1349,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BharatiyaNyayaSanhitaBill",
-        "b": "FreedomofSpeechandExpressionBill",
-        "c": "IndianPenalReformBill",
-        "d": "CriminalJusticeReformBill"
+        "a": "Bharatiya Nyaya Sanhita Bill",
+        "b": "Freedom of Speech and Expression Bill",
+        "c": "Indian Penal Reform Bill",
+        "d": "Criminal Justice Reform Bill"
       },
       "marked": null,
       "cov": {
@@ -1362,7 +1362,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichnewbillreplacedtheBritish-eraCriminalLawinIndia?",
+      "q": "Which new bill replaced the British-era Criminal Law in India?",
       "multi": false
     },
     {
@@ -1372,10 +1372,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Multimodalinfrastructuredevelopment",
-        "b": "Greenenergyprojects",
-        "c": "Urbanhousingforall",
-        "d": "Agriculturalexports"
+        "a": "Multimodal infrastructure development",
+        "b": "Green energy projects",
+        "c": "Urban housing for all",
+        "d": "Agricultural exports"
       },
       "marked": null,
       "cov": {
@@ -1385,7 +1385,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "indiaintroducedthePMGatishaktiNationalMasterPlanin2023tofocusonwhat?",
+      "q": "india introduced the PM Gatishakti National Master Plan in 2023 to focus on what?",
       "multi": false
     },
     {
@@ -1396,8 +1396,8 @@
       "direction": null,
       "opts": {
         "a": "UNGA79",
-        "b": "G20Summit",
-        "c": "BRICSSummit",
+        "b": "G20 Summit",
+        "c": "BRICS Summit",
         "d": "COP29"
       },
       "marked": null,
@@ -1408,7 +1408,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichglobaleventsawsignificantdiscussionon‘NetZeroby2050’goalsin2024?",
+      "q": "Which global event saw significant discussion on ‘Net Zero by 2050’ goals in 2024?",
       "multi": false
     },
     {
@@ -1418,7 +1418,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ChandraguptaMaurya",
+        "a": "Chandragupta Maurya",
         "b": "Bindusara",
         "c": "Ashoka",
         "d": "Kanishka"
@@ -1431,7 +1431,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheMauryanEmperorwhoembracedBuddhismandspreaditacrossIndiawas:",
+      "q": "The Mauryan Emperor who embraced Buddhism and spread it across India was:",
       "multi": false
     },
     {
@@ -1441,10 +1441,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Religiousmatters",
-        "b": "Landrevenueandmilitaryadministration",
-        "c": "Templemanagement",
-        "d": "Maritimetrade"
+        "a": "Religious matters",
+        "b": "Land revenue and military administration",
+        "c": "Temple management",
+        "d": "Maritime trade"
       },
       "marked": null,
       "cov": {
@@ -1454,7 +1454,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheIgtasystem,introducedintheDelhiSultanate,wasprimarilyrelatedto:",
+      "q": "The Igta system, introduced in the Delhi Sultanate, was primarily related to:",
       "multi": false
     },
     {
@@ -1464,10 +1464,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Exemptionsfrompaymentoflandrevenue",
-        "b": "ExemptingtheEnglishEastIndiaCompanyfrompayingcustomsduties",
-        "c": "Exemptionsfrompaymentofhousetax",
-        "d": "Alloftheabove"
+        "a": "Exemptions from payment of land revenue",
+        "b": "Exempting the English East India Company from paying customs duties",
+        "c": "Exemptions from payment of house tax",
+        "d": "Allofthe above"
       },
       "marked": null,
       "cov": {
@@ -1477,7 +1477,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisaDastak?",
+      "q": "What is a Dastak?",
       "multi": false
     },
     {
@@ -1487,10 +1487,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SatnamiRebellion",
-        "b": "UlgulanRevolt",
-        "c": "SanthalRebellion",
-        "d": "IndigoRevolt"
+        "a": "Satnami Rebellion",
+        "b": "Ulgulan Revolt",
+        "c": "Santhal Rebellion",
+        "d": "Indigo Revolt"
       },
       "marked": null,
       "cov": {
@@ -1500,7 +1500,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "BirsaMundawasassociatedwith:",
+      "q": "Birsa Munda was associated with:",
       "multi": false
     },
     {
@@ -1510,10 +1510,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "JawaharlalNehru",
-        "b": "SubhasChandraBose",
-        "c": "MahatmaGandhi",
-        "d": "SardarPatel ~7-"
+        "a": "Jawaharlal Nehru",
+        "b": "Subhas Chandra Bose",
+        "c": "Mahatma Gandhi",
+        "d": "Sardar Patel ~7-"
       },
       "marked": null,
       "cov": {
@@ -1523,7 +1523,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whocoinedtheterm‘Satyagraha’todescribethenon-violentresistanceintheIndianNational Movement?",
+      "q": "Who coined the term ‘Satyagraha’ to describe the non-violent resistance in the Indian National Movement?",
       "multi": false
     },
     {
@@ -1533,10 +1533,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Volcaniceruptionsandearthquakes",
+        "a": "Volcanic eruptions and earthquakes",
         "b": "Tsunami",
         "c": "Lightning",
-        "d": "}Noneoftheabove"
+        "d": "} None of the above"
       },
       "marked": null,
       "cov": {
@@ -1546,7 +1546,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheRingofFireisassociatedwithwhichofthefollowing?",
+      "q": "The Ring of Fire is associated with which of the following?",
       "multi": false
     },
     {
@@ -1569,7 +1569,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichcityisknownasthe“CityofLakes”inIndia?",
+      "q": "Which city is known as the “City of Lakes” in India?",
       "multi": false
     },
     {
@@ -1579,10 +1579,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "DalLake",
-        "b": "WularLake",
-        "c": "ChilikaLake",
-        "d": "LoktakLake"
+        "a": "Dal Lake",
+        "b": "Wular Lake",
+        "c": "Chilika Lake",
+        "d": "Loktak Lake"
       },
       "marked": null,
       "cov": {
@@ -1592,7 +1592,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthelargestsaltwaterlakeinIndia?",
+      "q": "What is the largest saltwater lake in India?",
       "multi": false
     },
     {
@@ -1615,7 +1615,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichmountainrangeseparatesnorthernIndiafromtheDeccanPlateau?",
+      "q": "Which mountain range separates northern India from the Deccan Plateau?",
       "multi": false
     },
     {
@@ -1628,7 +1628,7 @@
         "a": "Russia",
         "b": "Venezuela",
         "c": "USA",
-        "d": "SaudiArabia"
+        "d": "Saudi Arabia"
       },
       "marked": null,
       "cov": {
@@ -1638,7 +1638,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingcountriesisthelargestexporterofcrudeoi]?",
+      "q": "Which of the following countries is the largest exporter of crude oi]?",
       "multi": false
     },
     {
@@ -1649,9 +1649,9 @@
       "direction": null,
       "opts": {
         "a": "President",
-        "b": "PrimeMinister",
-        "c": "SupremeCourt",
-        "d": "LokSabha"
+        "b": "Prime Minister",
+        "c": "Supreme Court",
+        "d": "Lok Sabha"
       },
       "marked": null,
       "cov": {
@@ -1661,7 +1661,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoappointstheChiefElectionCommissionerofIndia?",
+      "q": "Who appoints the Chief Election Commissioner of India?",
       "multi": false
     },
     {
@@ -1673,8 +1673,8 @@
       "opts": {
         "a": "Justiciable",
         "b": "Non-justiciable",
-        "c": "PartofFundamentalRights",
-        "d": "Noneoftheabove"
+        "c": "Part of Fundamental Rights",
+        "d": "None of the above"
       },
       "marked": null,
       "cov": {
@@ -1684,7 +1684,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheDirectivePrinciplesofStatePolicyare:",
+      "q": "The Directive Principles of State Policy are:",
       "multi": false
     },
     {
@@ -1694,10 +1694,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Article352",
-        "b": "Article356",
-        "c": "Article360",
-        "d": "Article370"
+        "a": "Article 352",
+        "b": "Article 356",
+        "c": "Article 360",
+        "d": "Article 370"
       },
       "marked": null,
       "cov": {
@@ -1707,7 +1707,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhicharticleoftheIndianConstitutionallowsthePresidenttodeclareaNationalEmergency?",
+      "q": "Which article of the Indian Constitution allows the President to declare a National Emergency?",
       "multi": false
     },
     {
@@ -1717,10 +1717,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "30years",
-        "b": "35years",
-        "c": "21years",
-        "d": "25years"
+        "a": "30 years",
+        "b": "35 years",
+        "c": "21 years",
+        "d": "25 years"
       },
       "marked": null,
       "cov": {
@@ -1730,7 +1730,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatistheagequalificationforamemberoftheLokSabha?",
+      "q": "What is the age qualification for a member of the Lok Sabha?",
       "multi": false
     },
     {
@@ -1740,10 +1740,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ThePresident",
-        "b": "TheParliament",
-        "c": "TheJudiciary",
-        "d": "TheElectionCommission"
+        "a": "The President",
+        "b": "The Parliament",
+        "c": "The Judiciary",
+        "d": "The Election Commission"
       },
       "marked": null,
       "cov": {
@@ -1753,7 +1753,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThehighestbodyresponsiblefortheformationofpublicpolicyinIndia:",
+      "q": "The highest body responsible for the formation of public policy in India:",
       "multi": false
     },
     {
@@ -1763,10 +1763,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Industrialgrowth",
-        "b": "Educationprograms",
+        "a": "Industrial growth",
+        "b": "Education programs",
         "c": "Businesses",
-        "d": "Exportpromotion"
+        "d": "Export promotion"
       },
       "marked": null,
       "cov": {
@@ -1776,7 +1776,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingisconsideredasocialsectorinitiative?",
+      "q": "Which of the following is considered a social sector initiative?",
       "multi": false
     },
     {
@@ -1786,10 +1786,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Economicgrowthwithoutregardfortheenvironment",
-        "b": "GrowthinGDPatanycost",
-        "c": "Isolationofnations",
-        "d": "Povertyeradicationandsustainabledevelopment: -8-‘"
+        "a": "Economic growth without regard for the environment",
+        "b": "Growth in GDP at any cost",
+        "c": "Isolation of nations",
+        "d": "Poverty eradication and sustainable development : -8- ‘"
       },
       "marked": null,
       "cov": {
@@ -1799,7 +1799,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingisakeyprincipleoftheUnitedNations’SustainableDevelopmentGoals (SDGs)?",
+      "q": "Which of the following is a key principle of the United Nations’ Sustainable Development Goals (SDGs)?",
       "multi": false
     },
     {
@@ -1809,10 +1809,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Providinginternationalloans",
-        "b": "Expandingimports",
-        "c": "Promotingself-relianceandstrengtheningtheeconomy",
-        "d": "Reducingunemploymentinruralareas"
+        "a": "Providing international loans",
+        "b": "Expanding imports",
+        "c": "Promoting self-reliance and strengthening the economy",
+        "d": "Reducing unemployment in rural areas"
       },
       "marked": null,
       "cov": {
@@ -1822,7 +1822,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "The‘AtmanirbharBharat’initiativeprimarilyfocuseson:",
+      "q": "The ‘Atmanirbhar Bharat’ initiative primarily focuses on:",
       "multi": false
     },
     {
@@ -1832,10 +1832,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Toreducegovernmentspending",
-        "b": "Toencourageurbanmigration",
-        "c": "Toensureequalopportunitiesforallgendersinthesocial,economic,andpoliticalsphere",
-        "d": "_Toprioritizemen’sparticipationintheworkforce"
+        "a": "Toreduce government spending",
+        "b": "To encourage urban migration",
+        "c": "To ensure equal opportunities for all genders in the social, economic, and political sphere",
+        "d": "_ To prioritize men’s participation in the workforce"
       },
       "marked": null,
       "cov": {
@@ -1845,7 +1845,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatistheprimarypurposeofgenderinclusionpolicies?",
+      "q": "What is the primary purpose of gender inclusion policies?",
       "multi": false
     },
     {
@@ -1868,7 +1868,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatistheprocessbywhichplantsconvertsunlightintochemicalenergy?",
+      "q": "What is the process by which plants convert sunlight into chemical energy?",
       "multi": false
     },
     {
@@ -1891,7 +1891,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichprocessisresponsiblefortheconversionoforganicwasteintonutrient-richmaterial?",
+      "q": "Which process is responsible for the conversion of organic waste into nutrient-rich material?",
       "multi": false
     },
     {
@@ -1902,8 +1902,8 @@
       "direction": null,
       "opts": {
         "a": "Oxygen",
-        "b": "Carbondioxide",
-        "c": "Neon(a)Helium"
+        "b": "Carbon dioxide",
+        "c": "Neon (a) Helium"
       },
       "marked": null,
       "cov": {
@@ -1912,7 +1912,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Whichgasistheprimarycontributortothegreenhouseeffect?",
+      "q": "Which gas is the primary contributor to the greenhouse effect?",
       "multi": false
     },
     {
@@ -1922,10 +1922,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "InternationalTreatyonClimateChange",
-        "b": "InternationalTreatyonNon-NuclearProliferation",
-        "c": "InternationalTreatyonGlobalTrade",
-        "d": "Noneoftheabove"
+        "a": "International Treaty on Climate Change",
+        "b": "International Treaty on Non-Nuclear Proliferation",
+        "c": "International Treaty on Global Trade",
+        "d": "None of the above"
       },
       "marked": null,
       "cov": {
@@ -1935,7 +1935,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatistheParisAgreement?",
+      "q": "What is the Paris Agreement?",
       "multi": false
     },
     {
@@ -1945,10 +1945,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PeriodiccoolingoftheoceansurfaceintheSouthChinaSea",
-        "b": "Awarmingof'seasurfacetemperaturesinthePacificOcean",
-        "c": "AvcoolingofseasurfacetemperaturesintheIndianOcean",
-        "d": "Noneoftheabove"
+        "a": "Periodic cooling of the ocean surface in the South China Sea",
+        "b": "A warming of'sea surface temperatures in the Pacific Ocean",
+        "c": "Avcooling of sea surface temperatures in the Indian Ocean",
+        "d": "None of the above"
       },
       "marked": null,
       "cov": {
@@ -1958,7 +1958,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatistheElNinophenomenon?",
+      "q": "What is the El Nino phenomenon?",
       "multi": false
     },
     {
@@ -1968,10 +1968,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Increaseinrainfall",
-        "b": "Coolingofglobaltemperatures",
-        "c": "Soilerosion",
-        "d": "Creationofwetlands"
+        "a": "Increase in rainfall",
+        "b": "Cooling of global temperatures",
+        "c": "Soil erosion",
+        "d": "Creation of wetlands"
       },
       "marked": null,
       "cov": {
@@ -1981,7 +1981,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichnaturalphenomenonisadirectresultofdeforestation?",
+      "q": "Which natural phenomenon is a direct result of deforestation?",
       "multi": false
     },
     {
@@ -2004,7 +2004,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichcolouroflighthastheshortestwavelength?",
+      "q": "Which colour of light has the shortest wavelength?",
       "multi": false
     },
     {
@@ -2016,7 +2016,7 @@
       "opts": {
         "a": "Nitrogen",
         "b": "Oxygen",
-        "c": "Carbondioxide",
+        "c": "Carbon dioxide",
         "d": "Argon"
       },
       "marked": null,
@@ -2027,7 +2027,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichgasismostabundantinEarth’satmosphere?",
+      "q": "Which gas is most abundant in Earth’s atmosphere?",
       "multi": false
     },
     {
@@ -2050,7 +2050,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthemaincomponentofnaturalgas?",
+      "q": "What is the main component of natural gas?",
       "multi": false
     },
     {
@@ -2073,7 +2073,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichorganinthehumanbodyfiltersbloodtoproduceurine?",
+      "q": "Which organ in the human body filters blood to produce urine?",
       "multi": false
     },
     {
@@ -2096,7 +2096,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThetraditionalMizosocietywasorganizedaroundwhichsystemofgovernance?",
+      "q": "The traditional Mizo society was organized around which system of governance?",
       "multi": false
     },
     {
@@ -2106,10 +2106,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NE.Parry",
-        "b": "AnthonyGilchristMcCall",
-        "c": "JohnShakespeare",
-        "d": "T.H.Lewin"
+        "a": "NE. Parry",
+        "b": "Anthony Gilchrist McCall",
+        "c": "John Shakespeare",
+        "d": "T.H. Lewin"
       },
       "marked": null,
       "cov": {
@@ -2119,7 +2119,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whowastheauthorofthebookcalledthe‘Lakhers’?",
+      "q": "Who was the author of the book called the‘Lakhers’?",
       "multi": false
     },
     {
@@ -2129,10 +2129,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Itwastax(paddy)paidtothevillagechief",
-        "b": "Itwasforcedlabourimposedbythevillagechief",
-        "c": "ItwasthesocialinstitutionoftheMizos",
-        "d": "Noneoftheabove"
+        "a": "It was tax (paddy) paid to the village chief",
+        "b": "It was forced labour imposed by the village chief",
+        "c": "It was the social institution of the Mizos",
+        "d": "None of the above"
       },
       "marked": null,
       "cov": {
@@ -2142,7 +2142,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatwasthemainpurposeofthefathangsysteminMizohistory?",
+      "q": "What was the main purpose of the fathang system in Mizo history?",
       "multi": false
     },
     {
@@ -2152,10 +2152,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Militaryfunction",
-        "b": "Economicrole",
-        "c": "Religiousfunction",
-        "d": "Communityleadership RREKEKH"
+        "a": "Military function",
+        "b": "Economic role",
+        "c": "Religious function",
+        "d": "Community leadership RR EKE KH"
       },
       "marked": null,
       "cov": {
@@ -2165,7 +2165,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatroleorfunctiondidthesadawtplayinMizosociety?",
+      "q": "What role or function did the sadawt play in Mizo society?",
       "multi": false
     }
   ],

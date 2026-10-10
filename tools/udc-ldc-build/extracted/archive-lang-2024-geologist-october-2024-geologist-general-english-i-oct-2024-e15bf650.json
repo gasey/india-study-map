@@ -6,87 +6,76 @@
   "source": "archive-lang-2024-geologist-october-2024-geologist-general-english-i-oct-2024-e15bf650.pdf",
   "sourceSha256": "4f30bf98db3b225e6252c139ef5418042d6a81ee4f5d8642cdbe4ea60f666bab",
   "ocr": true,
-  "count": 3,
-  "questions": [
+  "count": 0,
+  "questions": [],
+  "written": [
+    {
+      "n": 1,
+      "part": null,
+      "page": 1,
+      "text": "Write an essay choosing one of the topics given below: (25) - Concept ofa New India - The role of Geology in mitigating natural disasters - The Mizo Youth and the Café Culture",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": null,
+      "page": 1,
+      "text": "As Mr.A of XXX locality, write a letter to the Chairman of your Local Council drawing attention to the unsafe building constructions in your locality which poses landslide risk. (15) OR Asaconcerned Citizen, draft an open letter to the Editor of Vanglaini, a local newspaper raising awareness about the role of every citizen in mitigating natural disaster.",
+      "subparts": {}
+    },
     {
       "n": 3,
-      "page": 1,
       "part": null,
-      "conventional": false,
-      "direction": null,
-      "opts": {
-        "a": "FabianPolicy",
-        "b": "Hobson’schoice",
+      "page": 1,
+      "text": "Make sentences with any seven of the following idioms and phrases: (7*2=14)",
+      "subparts": {
+        "a": "Fabian Policy",
+        "b": "Hobson’s choice",
         "c": "Indoldrums",
         "d": "Pullstrings"
-      },
-      "marked": null,
-      "cov": {
-        "a": 0.0,
-        "b": 0.0,
-        "c": 0.0,
-        "d": 0.0
-      },
-      "ambiguous": [],
-      "q": "Makesentenceswithanysevenofthefollowingidiomsandphrases:(7*2=14)",
-      "multi": false
+      }
     },
     {
       "n": 4,
-      "page": 1,
       "part": null,
-      "conventional": false,
-      "direction": null,
-      "opts": {
-        "a": "Knowledgeispower",
-        "b": "Pridehathafail",
-        "c": "Sweetaretheusesofadversity",
-        "d": "Twowrongsdonotmakearight"
-      },
-      "marked": null,
-      "cov": {
-        "a": 0.0,
-        "b": 0.0,
-        "c": 0.0,
-        "d": 0.0
-      },
-      "ambiguous": [],
-      "q": "Expandtheideacontainedinanythreeofthefollowingsentences:(3x5=15)",
-      "multi": false
+      "page": 1,
+      "text": "Expand the idea contained in any three of the following sentences: (3x5=15)",
+      "subparts": {
+        "a": "Knowledge is power",
+        "b": "Pride hatha fail",
+        "c": "Sweet are the uses of adversity",
+        "d": "Two wrongs do not make ar ight"
+      }
     },
     {
       "n": 5,
-      "page": 1,
       "part": null,
-      "conventional": false,
-      "direction": null,
-      "opts": {
-        "a": "Whyiscapitalisminjurioustohumanrelations?(3)",
-        "b": "Whatdoescapitalismpromote(3)",
-        "c": "Howdoeconomicconditionsdividesociety?(3)",
-        "d": "Whataccordingtotheauthoristheroleofreligioninperpetuatingtheevilsofcapitalism?(3) @encourageii)abuse Gii)_tolerance(iv)assistance"
-      },
-      "marked": null,
-      "cov": {
-        "a": 0.0,
-        "b": 0.0,
-        "c": 0.0,
-        "d": 0.0
-      },
-      "ambiguous": [],
-      "q": "Readthegivenpassagecarefullyandchoosethecorrectanswergivenbelow. Thecapitalistsystemofsocietydoesnotfosterhealthyrelationsamonghumanbeings.Afew peopleownallthemeansofproductionandothers-thoughnominallyfewhavetoselltheirlabour underconditionsimposeduponthem.Theemphasisofcapitalismbeingonthesupremeimportance ofmaterialwealththeintensityofitsappealistotheacquisitiveintensity.Itpromotesworshipof :economicpowerwithlittleregardtothemeansemployedforitsacquisitionandtheendthatitserves. Byitsexploitationofhumanbeingstothelimitsofenduranceitsconcentrationisonthelargestprofit ratherthanmaximumproduction.Thusthedivisionofhumanfamilyisdoneonthebasisofeconomic circumstances.Allthisisinjurioustodivisionofhumandignityandwhentheharrowedpoorturnto thefoundersofreligionforsuccourtheyratherofferasubtledefenceoftheestablishedorder.They promisefuturehappinessfortheirpresentsufferingandconjureupvisionsofparadisetoredressthe balancetosoothethesufferingandtherevoltofthetorturedmen.Thesystemimposesinjustice,the religiondefiesit. Questions:",
-      "multi": false
+      "page": 1,
+      "text": "Read the given passage carefully and choose the correct answer given below. The capitalist system of society does not foster healthy relations among human beings. A few people own all the means of production and others-though nominally few have to sell their labour under conditions imposed upon them. The emphasis of capitalism being on the supreme importance of material wealth the intensity of its appeal is to the acquisitive intensity. It promotes worship of : economic power with little regard to the means employed for its acquisition and the end that it serves. By its exploitation of human beings to the limits of endurance its concentration is on the largest profit rather than maximum production. Thus the division of human family is done on the basis of economic circumstances. All this is injurious to division of human dignity and when the harrowed poor turn to the founders of religion for succour they rather offer a subtle defence of the established order. They promise future happiness for their present suffering and conjure up visions of paradise to redress the balance to soothe the suffering and the revolt of the tortured men. The system imposes injustice, the religion defies it. Questions:",
+      "subparts": {
+        "a": "Why is capitalism injurious to human relations? (3)",
+        "b": "What does capitalism promote (3)",
+        "c": "How do economic conditions divide society? (3)",
+        "d": "What according to the author is the role of religion in perpetuating the evils of capitalism? (3) @ encourage ii) abuse Gii)_ tolerance (iv) assistance"
+      }
+    },
+    {
+      "n": 6,
+      "part": null,
+      "page": 2,
+      "text": "Write a précis of the following passage : (15) Real happiness lies in the simplification of life. The lesser the wants, the lesser the tension. Desires are the root cause of unhappiness, discontentment and anguish. When desires are not met, when wants remain wants, heart yearns and burns and goes on pining for what is not. Life goes unmanageable. It does not mean that man should sit on his laurels and if his elementary and basic needs are fulfilled he should sit idie doing nothing. He is not to go lethargic. If he shuts the windows of his room and does not allow fresh and more air to enter the room, he will feel suffocated. He does not live by bread alone. Life is not equal to the basic needs only. Even animals get their basic needs fulfilled. Then where lies the difference between man and animal? Man is called roofand crown of this universe. He has goals to achieve and he has been sent to scale new heights and by remaining active all the time he is to touch the zenith. If amassed wealth satisfies him completely there will be no progress. To live life purposefully he must set some limits. If he has got surplus wealth he should become a philanthropist and strive for the betterment of his fellow-beings. HER EE HK",
+      "subparts": {}
     }
   ],
-  "written": [],
   "notes": [
-    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
-    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
-    "Q6 (p2, part None): only 0 option(s) [] - not emitted"
+    "Q1 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q4 (p1, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q5 (p1, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q6 (p2, part None): conventional section, 0 sub-part(s) - not an MCQ"
   ],
-  "gaps": {
-    "-": []
-  },
+  "gaps": {},
   "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/10/e15bf650c6d4e15e50c66b17c2bac735/geologist-general-english-i-oct-2024.pdf",
   "enrichmentVersion": 1,
   "answerStatus": "No verified key or checked solution attached; retain as unscored source material."

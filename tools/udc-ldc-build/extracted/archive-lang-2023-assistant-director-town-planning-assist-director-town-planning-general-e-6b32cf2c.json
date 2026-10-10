@@ -6,37 +6,14 @@
   "source": "archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c.pdf",
   "sourceSha256": "8399e3375e9b998f84d8c0024f6a12409856b824667d16428951b96324e8b8a4",
   "ocr": true,
-  "count": 56,
+  "count": 55,
   "questions": [
-    {
-      "n": 3,
-      "page": 1,
-      "part": "A",
-      "conventional": false,
-      "direction": null,
-      "opts": {
-        "a": "Whatkindofbraininjuriescanthegelmentionedinthepassagecure?(1)",
-        "b": "Why,accordingtotheauthor,braininjuriesarehardtomend?qd)",
-        "c": "Whichanimalwasusedtotestthegel?()",
-        "d": "HowdidDr.NingZhangperformherstudyontheAnimal?(2)"
-      },
-      "marked": null,
-      "cov": {
-        "a": 0.0,
-        "b": 0.0,
-        "c": 0.0,
-        "d": 0.0
-      },
-      "ambiguous": [],
-      "q": "Readcarefullytocomprehendthepassagesgivenbelowandanswerthequestionsthatfollow.Marks areindicatedattheendofeach. Scientistshavedevelopedagelthathelpsbrainsrecoverfromtraumaticinjuries.Ithasthe potentialtotreatheadinjuriessufferedincombat,caraccidents,falls,orgunshotwounds.Developed byDr.NingZhangatClemsonUniversitiynSouthCarolina,thegelisinjectedinliquidformatthe siteofinjuryandstimulatesthegrowthofstemcellsthere. Braininjuriesareparticularlyhardtorepair,sinceinjuredtissuesswellupandcancause additionaldamagetothecells.Sofar,treatmentshavetriedtolimitthissecondarydamagebylowering ageeep sBe thetemperatureorrelievingthepressureofthesiteofinjury.However,thesetechniquesareoftennot veryeffective.Morerecentlyscientistshaveconsideredtransplantingdonorbraincellsintothewound torepairdamagedtissue.Thismethodhassofarhadlimitedresultswhentreatingbraininjuries.The donorcellsoftenfailtogroworstimulaterepairattheinjurysite,possiblybecauseoftheinflammation andscarringpresentthere.Theinjurysitealsotypicallyhasverylimitedbloodsupplyandconnective tissue,whichmightpreventdonorcellsfromgettingthenutrientstheyrequire. Dr.Zhang’sgel,howevercanbeloadedwithdifferentchemicalstostimulatevariousbiological processesatthesiteofinjury.Inpreviousresearchdoneonrats,shewasabletousethegeltohelp re-establishfullbloodsupplyatthesiteofbraininjury.Thiscouldhelpcreateabetterenvironmentof donorcells.Inafollow-upstudy,Dr.Zhangloadedthegelwithimmaturestemcells,aswellasthe hemicalstheyneededtodevelopintofull-fledgedadultbraincells.Whenratswithseverebrain injuriesweretreatedwiththismixtureforeightweeks,theyshowedsignsofsignificantrecovery.The newgelcouldtreatpatientsatvaryingstagesfollowinginjury,andisexpectedtobereadyfortesting inhumansinaboutthreeyears. Questions:",
-      "multi": false
-    },
     {
       "n": 1,
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "direction": "Directions (Question Nos. 1 - 10) : Choose the correct Parts of Speech for each of the words written in",
       "opts": {
         "a": "Preposition",
         "b": "Adjective",
@@ -51,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Isawalongdressatthemall.",
+      "q": "I saw a long dress at the mall.",
       "multi": false
     },
     {
@@ -59,7 +36,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "direction": "Directions (Question Nos. 1 - 10) : Choose the correct Parts of Speech for each of the words written in",
       "opts": {
         "a": "Conjunction",
         "b": "Preposition",
@@ -74,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatdidsheaskyoutodo?",
+      "q": "What did she ask you to do?",
       "multi": false
     },
     {
@@ -82,7 +59,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "direction": "Directions (Question Nos. 1 - 10) : Choose the correct Parts of Speech for each of the words written in",
       "opts": {
         "a": "Adjective",
         "b": "Preposition",
@@ -97,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ileftmyshoesunderthekitchentable.",
+      "q": "I left my shoes under the kitchen table.",
       "multi": false
     },
     {
@@ -105,7 +82,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "direction": "Directions (Question Nos. 1 - 10) : Choose the correct Parts of Speech for each of the words written in",
       "opts": {
         "a": "Conjunction",
         "b": "Adjective",
@@ -120,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifwefinishourworkquickly,wecangotothemovies.",
+      "q": "If we finish our work quickly, we can go to the movies.",
       "multi": false
     },
     {
@@ -128,7 +105,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "direction": "Directions (Question Nos. 1 - 10) : Choose the correct Parts of Speech for each of the words written in",
       "opts": {
         "a": "Conjunction",
         "b": "Adjective",
@@ -143,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OnSaturdaysIworkfromninetofive,",
+      "q": "On Saturdays I work from nine to five,",
       "multi": false
     },
     {
@@ -151,7 +128,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "direction": "Directions (Question Nos. 1 - 10) : Choose the correct Parts of Speech for each of the words written in",
       "opts": {
         "a": "Noun",
         "b": "Pronoun",
@@ -166,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MyneighbourwantstogotoauniversityintheUnitedStates.",
+      "q": "My neighbour wants to go to a university in the United States.",
       "multi": false
     },
     {
@@ -174,7 +151,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "direction": "Directions (Question Nos. 1 - 10) : Choose the correct Parts of Speech for each of the words written in",
       "opts": {
         "a": "Verb",
         "b": "Adverb",
@@ -189,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TamsureI’vemetyourparentsbefore.",
+      "q": "Tam sure I’ve met your parents before.",
       "multi": false
     },
     {
@@ -197,7 +174,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "direction": "Directions (Question Nos. 1 - 10) : Choose the correct Parts of Speech for each of the words written in",
       "opts": {
         "a": "Preposition",
         "b": "Interjection",
@@ -212,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Well,Idon’tthinkI’1lbehomebeforenoon.",
+      "q": "Well, I don’t think I’1l be home before noon.",
       "multi": false
     },
     {
@@ -220,7 +197,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "direction": "Directions (Question Nos. 1 - 10) : Choose the correct Parts of Speech for each of the words written in",
       "opts": {
         "a": "Preposition",
         "b": "Conjunction",
@@ -235,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Andreaknockedonthedoorbutnobodyanswered.",
+      "q": "Andrea knocked on the door but nobody answered.",
       "multi": false
     },
     {
@@ -243,7 +220,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "direction": "Directions (Question Nos. 1 - 10) : Choose the correct Parts of Speech for each of the words written in",
       "opts": {
         "a": "Pronoun",
         "b": "Adverb",
@@ -258,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Afterlunch,let’sgooutforacoffee.",
+      "q": "After lunch, let’s go out fora  coffee.",
       "multi": false
     },
     {
@@ -266,7 +243,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "direction": "Directions (Question Nos. 11 - 20) : Choose the appropriate word from each of the options provided.",
       "opts": {
         "a": "Succeed",
         "b": "Successor",
@@ -281,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthenounformof‘successful’?",
+      "q": "What is the noun form of ‘successful’?",
       "multi": false
     },
     {
@@ -289,7 +266,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "direction": "Directions (Question Nos. 11 - 20) : Choose the appropriate word from each of the options provided.",
       "opts": {
         "a": "Expandable",
         "b": "Expand",
@@ -304,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatistheverbformof‘expansion’?",
+      "q": "What is the verb form of‘ expansion’?",
       "multi": false
     },
     {
@@ -312,12 +289,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "direction": "Directions (Question Nos. 11 - 20) : Choose the appropriate word from each of the options provided.",
       "opts": {
         "a": "Restriction",
         "b": "Restricted",
         "c": "Restricting",
-        "d": "Restrictive,"
+        "d": "Restrictive ,"
       },
       "marked": null,
       "cov": {
@@ -327,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthenounformof‘restrict’?",
+      "q": "What is the noun form of ‘restrict’?",
       "multi": false
     },
     {
@@ -335,7 +312,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "direction": "Directions (Question Nos. 11 - 20) : Choose the appropriate word from each of the options provided.",
       "opts": {
         "a": "Intent",
         "b": "Intend",
@@ -350,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatistheverbformof‘intention’?",
+      "q": "What is the verb form of ‘intention’?",
       "multi": false
     },
     {
@@ -358,7 +335,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "direction": "Directions (Question Nos. 11 - 20) : Choose the appropriate word from each of the options provided.",
       "opts": {
         "a": "Protective",
         "b": "Protectiveness",
@@ -373,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthenounformof‘protect’?",
+      "q": "What is the noun form of ‘protect’?",
       "multi": false
     },
     {
@@ -381,7 +358,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "direction": "Directions (Question Nos. 11 - 20) : Choose the appropriate word from each of the options provided.",
       "opts": {
         "a": "Believe",
         "b": "Believing",
@@ -396,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatistheadjectiveformof‘belief’?",
+      "q": "What is the adjective form of‘ belief’?",
       "multi": false
     },
     {
@@ -404,12 +381,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "direction": "Directions (Question Nos. 11 - 20) : Choose the appropriate word from each of the options provided.",
       "opts": {
-        "a": "Acceptance;",
+        "a": "Acceptance ;",
         "b": "Acceptably",
         "c": "Acceptable",
-        "d": "Accept:"
+        "d": "Accept :"
       },
       "marked": null,
       "cov": {
@@ -419,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatistheadverbformof‘accept’?",
+      "q": "What is the adverb form of ‘accept’?",
       "multi": false
     },
     {
@@ -427,7 +404,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "direction": "Directions (Question Nos. 11 - 20) : Choose the appropriate word from each of the options provided.",
       "opts": {
         "a": "Energy",
         "b": "Energetic",
@@ -442,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthenounformof‘energize’?",
+      "q": "What is the noun form of ‘energize’?",
       "multi": false
     },
     {
@@ -450,7 +427,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "direction": "Directions (Question Nos. 11 - 20) : Choose the appropriate word from each of the options provided.",
       "opts": {
         "a": "Forget",
         "b": "Forgetful",
@@ -465,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatistheadjectiveformof‘forgetfulness’?",
+      "q": "What is the adjective form of ‘forgetfulness’?",
       "multi": false
     },
     {
@@ -473,7 +450,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "direction": "Directions (Question Nos. 11 - 20) : Choose the appropriate word from each of the options provided.",
       "opts": {
         "a": "Accusingly",
         "b": "Accusing",
@@ -488,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthenounformof‘accusing’?",
+      "q": "What is the noun form of ‘accusing’?",
       "multi": false
     },
     {
@@ -496,7 +473,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "direction": "Directions (Question Nos. 21 - 30) : Pick out the right answer from the options given.",
       "opts": {
         "a": "Succeed",
         "b": "Mare",
@@ -511,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingisanoun?",
+      "q": "Which of the following is a noun?",
       "multi": false
     },
     {
@@ -519,7 +496,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "direction": "Directions (Question Nos. 21 - 30) : Pick out the right answer from the options given.",
       "opts": {
         "a": "Grab",
         "b": "Trap",
@@ -534,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichamongthefollowingisnotaverb?",
+      "q": "Which among the following is not a verb?",
       "multi": false
     },
     {
@@ -542,7 +519,7 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "direction": "Directions (Question Nos. 21 - 30) : Pick out the right answer from the options given.",
       "opts": {
         "a": "Gold",
         "b": "Water",
@@ -557,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingisapreposition?",
+      "q": "Which of the following is a preposition?",
       "multi": false
     },
     {
@@ -565,7 +542,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "direction": "Directions (Question Nos. 21 - 30) : Pick out the right answer from the options given.",
       "opts": {
         "a": "Shit",
         "b": "Brown",
@@ -580,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingisanadjective?",
+      "q": "Which oft he following is an adjective?",
       "multi": false
     },
     {
@@ -588,7 +565,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "direction": "Directions (Question Nos. 21 - 30) : Pick out the right answer from the options given.",
       "opts": {
         "a": "Smart",
         "b": "Short",
@@ -603,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingisanadverb?",
+      "q": "Which oft he following is an adverb?",
       "multi": false
     },
     {
@@ -611,12 +588,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "direction": "Directions (Question Nos. 21 - 30) : Pick out the right answer from the options given.",
       "opts": {
         "a": "Fast",
         "b": "Very",
         "c": "Sweet",
-        "d": "Yesterday’"
+        "d": "Yesterday ’"
       },
       "marked": null,
       "cov": {
@@ -626,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingisnotanadverb?",
+      "q": "Which oft he following is not an adverb?",
       "multi": false
     },
     {
@@ -634,12 +611,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "direction": "Directions (Question Nos. 21 - 30) : Pick out the right answer from the options given.",
       "opts": {
         "a": "Me",
         "b": "Himself",
         "c": "Themselves",
-        "d": "_Reflexive"
+        "d": "_ Reflexive"
       },
       "marked": null,
       "cov": {
@@ -649,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingwordisnotapronoun?",
+      "q": "Which oft he following word is not a pronoun?",
       "multi": false
     },
     {
@@ -657,12 +634,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "direction": "Directions (Question Nos. 21 - 30) : Pick out the right answer from the options given.",
       "opts": {
-        "a": "Sheaskedaboutthedog.",
-        "b": "Thecatranveryfast.",
-        "c": "Keepworkinghard.",
-        "d": "Wewilltalklater."
+        "a": "She asked about the dog.",
+        "b": "The cat ran very fast.",
+        "c": "Keep working hard.",
+        "d": "We will talk later."
       },
       "marked": null,
       "cov": {
@@ -672,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Identifythesentencethathasapreposition.",
+      "q": "Identify the sentence that has a preposition.",
       "multi": false
     },
     {
@@ -680,12 +657,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "direction": "Directions (Question Nos. 21 - 30) : Pick out the right answer from the options given.",
       "opts": {
-        "a": "Hey!Lookoutforthecar,",
-        "b": "Oh!Ihaveareallybadheadache.",
-        "c": "Thatwasindeedagreatmovie!",
-        "d": "Ouch!Yousteppedonmytoes,"
+        "a": "Hey! Look out for the car,",
+        "b": "Oh! Ihavea really bad headache.",
+        "c": "That was indeed a great movie!",
+        "d": "Ouch! You stepped on my toes,"
       },
       "marked": null,
       "cov": {
@@ -695,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IdentifythesentencethatdoesnothaveanInterjection.",
+      "q": "Identify the sentence that does not have an Interjection.",
       "multi": false
     },
     {
@@ -703,12 +680,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "direction": "Directions (Question Nos. 21 - 30) : Pick out the right answer from the options given.",
       "opts": {
-        "a": "Canweplayvolleyball?.",
-        "b": "Shehadaredscarf.",
-        "c": "Wehadchocolatemilk.",
-        "d": "Asmalldogbarked."
+        "a": "Can we play volleyball? .",
+        "b": "She had a red scarf.",
+        "c": "Wehad chocolate milk.",
+        "d": "Asmall dog barked."
       },
       "marked": null,
       "cov": {
@@ -718,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Identifythesentencethatdoesnothaveanadjective?",
+      "q": "Identify the sentence that does not have an adjective?",
       "multi": false
     },
     {
@@ -726,7 +703,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Identifythewordsprovidedattheendofeachsentencethatfitthe",
+      "direction": "Directions (Question Nos. 31 - 40) : Identify the words provided at the end of each sentence that fit the",
       "opts": {
         "a": "Worth",
         "b": "Better",
@@ -741,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theschoollunchshouldbetomeetthenutritionalneedsofgrowingchildren.",
+      "q": "The school lunch should be to meet the nutritional needs of growing children.",
       "multi": false
     },
     {
@@ -749,7 +726,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Identifythewordsprovidedattheendofeachsentencethatfitthe",
+      "direction": "Directions (Question Nos. 31 - 40) : Identify the words provided at the end of each sentence that fit the",
       "opts": {
         "a": "pseudo",
         "b": "super",
@@ -764,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hewasatruemathandatthesametimeavirtuosostoryteller.",
+      "q": "He was a true math and at the same time a virtuoso storyteller.",
       "multi": false
     },
     {
@@ -772,7 +749,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Identifythewordsprovidedattheendofeachsentencethatfitthe",
+      "direction": "Directions (Question Nos. 31 - 40) : Identify the words provided at the end of each sentence that fit the",
       "opts": {
         "a": "Crystllization",
         "b": "Controvertial",
@@ -787,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Findthecorrectlyspeltwordfromthefollowing.",
+      "q": "Find the correctly spelt word from the following.",
       "multi": false
     },
     {
@@ -795,11 +772,11 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Identifythewordsprovidedattheendofeachsentencethatfitthe",
+      "direction": "Directions (Question Nos. 31 - 40) : Identify the words provided at the end of each sentence that fit the",
       "opts": {
-        "a": "Topayback",
+        "a": "To pay back",
         "b": "Undress",
-        "c": "Sayagain",
+        "c": "Say again",
         "d": "Withdrew"
       },
       "marked": null,
@@ -810,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "PickoutthewordthatisnearestinmeaningtothewordincapitalREPEAL.",
+      "q": "Pick out the word that is nearest in meaning to the word in capital REPEAL.",
       "multi": false
     },
     {
@@ -818,7 +795,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Identifythewordsprovidedattheendofeachsentencethatfitthe",
+      "direction": "Directions (Question Nos. 31 - 40) : Identify the words provided at the end of each sentence that fit the",
       "opts": {
         "a": "Fecilitated",
         "b": "Felicitated",
@@ -833,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thestudentstheteacheronteacher’sdayfortwentyyearsofdedicatedteaching.",
+      "q": "The students the teacher on teacher’s day for twenty years of dedicated teaching.",
       "multi": false
     },
     {
@@ -841,7 +818,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Identifythewordsprovidedattheendofeachsentencethatfitthe",
+      "direction": "Directions (Question Nos. 31 - 40) : Identify the words provided at the end of each sentence that fit the",
       "opts": {
         "a": "tragic",
         "b": "fragile",
@@ -856,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thesuddendeathofourunclewasforallofus.",
+      "q": "The sudden death ofo ur uncle was for all of us.",
       "multi": false
     },
     {
@@ -864,12 +841,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.47-53):Identifyandchoosetheformsoftensesforthefollowingsentences:",
+      "direction": "Directions (Question Nos. 47 - 53) : Identify and choose the forms of tenses for the following sentences:",
       "opts": {
-        "a": "PresentIndefinitetense",
-        "b": "PastIndefinitetense",
-        "c": "PastContinuoustense",
-        "d": "PresentPerfecttense"
+        "a": "Present Indefinite tense",
+        "b": "Past Indefinite tense",
+        "c": "Past Continuous tense",
+        "d": "Present Perfect tense"
       },
       "marked": null,
       "cov": {
@@ -879,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thetailorssewnewclothes.",
+      "q": "The tailors sew new clothes.",
       "multi": false
     },
     {
@@ -887,12 +864,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.47-53):Identifyandchoosetheformsoftensesforthefollowingsentences:",
+      "direction": "Directions (Question Nos. 47 - 53) : Identify and choose the forms of tenses for the following sentences:",
       "opts": {
-        "a": "PresentContinuoustense",
-        "b": "PresentPerfectContinuoustense",
-        "c": "NegativeformofPresenttense",
-        "d": "NegativeformofPresentContinuoustense"
+        "a": "Present Continuous tense",
+        "b": "Present Perfect Continuous tense",
+        "c": "Negative form of Present tense",
+        "d": "Negative form of Present Continuous tense"
       },
       "marked": null,
       "cov": {
@@ -902,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thegirlsarenotsingingamelodioussong.",
+      "q": "The girls are not singing a melodious song.",
       "multi": false
     },
     {
@@ -910,12 +887,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.47-53):Identifyandchoosetheformsoftensesforthefollowingsentences:",
+      "direction": "Directions (Question Nos. 47 - 53) : Identify and choose the forms of tenses for the following sentences:",
       "opts": {
-        "a": "NegativeInterrogativeformofContinuoustense.:",
-        "b": "NegativeInterrogativeformofPastContinuoustense",
-        "c": "InterrogativeformofPasttense.",
-        "d": "NegativeInterrogativeformofPasttense."
+        "a": "Negative Interrogative form of Continuous tense. :",
+        "b": "Negative Interrogative form of Past Continuous tense",
+        "c": "Interrogative form ofP ast tense.",
+        "d": "Negative Interrogative form of Past tense."
       },
       "marked": null,
       "cov": {
@@ -925,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Weretheynotwaitingforyouanxiously?",
+      "q": "Were they not waiting for you anxiously?",
       "multi": false
     },
     {
@@ -933,12 +910,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.47-53):Identifyandchoosetheformsoftensesforthefollowingsentences:",
+      "direction": "Directions (Question Nos. 47 - 53) : Identify and choose the forms of tenses for the following sentences:",
       "opts": {
-        "a": "PastContinuoustense",
-        "b": "PastPerfectContinuoustense",
-        "c": "NegativeformofPastPerfectContinuoustense",
-        "d": "InterrogativeformofPasttense"
+        "a": "Past Continuous tense",
+        "b": "Past Perfect Continuous tense",
+        "c": "Negative form of Past Perfect Continuous tense",
+        "d": "Interrogative form of Past tense"
       },
       "marked": null,
       "cov": {
@@ -948,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shehadbeenpreparingforthetestforafortnight.",
+      "q": "She had been preparing for the test for a fortnight.",
       "multi": false
     },
     {
@@ -956,12 +933,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.47-53):Identifyandchoosetheformsoftensesforthefollowingsentences:",
+      "direction": "Directions (Question Nos. 47 - 53) : Identify and choose the forms of tenses for the following sentences:",
       "opts": {
-        "a": "FutureIndefinitetense",
-        "b": "FuturePerfecttense",
-        "c": "InterrogativeformofFutureIndefinitetense",
-        "d": "InterrogativeFuturetense (a)FutureContinuoustense(b)FuturePerfecttense (c)FutureIndefinitetense(d)FuturePerfectContinuoustense"
+        "a": "Future Indefinite tense",
+        "b": "Future Perfect tense",
+        "c": "Interrogative form of Future Indefinite tense",
+        "d": "Interrogative Future tense (a) Future Continuous tense (b) Future Perfect tense (c) Future Indefinite tense (d) Future Perfect Continuous tense"
       },
       "marked": null,
       "cov": {
@@ -971,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ShallIgotovisitthepatienttomorrow?",
+      "q": "Shall I go to visit the patient tomorrow?",
       "multi": false
     },
     {
@@ -979,12 +956,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.47-53):Identifyandchoosetheformsoftensesforthefollowingsentences:",
+      "direction": "Directions (Question Nos. 47 - 53) : Identify and choose the forms of tenses for the following sentences:",
       "opts": {
-        "a": "ThePerfectContinuoustense",
-        "b": "PresentPerfectContinuoustense",
-        "c": "PastPerfectContinuoustense",
-        "d": "PastContinuoustense"
+        "a": "The Perfect Continuous tense",
+        "b": "Present Perfect Continuous tense",
+        "c": "Past Perfect Continuous tense",
+        "d": "Past Continuous tense"
       },
       "marked": null,
       "cov": {
@@ -994,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thecathasbeenchasingtheratsforanhour.",
+      "q": "The cat has been chasing the rats for an hour.",
       "multi": false
     },
     {
@@ -1002,7 +979,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.54-60):Identifythetypesofsentencesandchoosethecorrectanswerfrom",
+      "direction": "Directions (Question Nos. 54 - 60) : Identify the types of sentences and choose the correct answer from",
       "opts": {
         "a": "Affirmative",
         "b": "Interrogative",
@@ -1017,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ah!Whatabeauty.",
+      "q": "Ah! What ab eauty.",
       "multi": false
     },
     {
@@ -1025,7 +1002,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.54-60):Identifythetypesofsentencesandchoosethecorrectanswerfrom",
+      "direction": "Directions (Question Nos. 54 - 60) : Identify the types of sentences and choose the correct answer from",
       "opts": {
         "a": "Affirmative",
         "b": "Interrogative",
@@ -1040,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Wewereignorantoftherealfacts.",
+      "q": "We were ignorant of the real facts.",
       "multi": false
     },
     {
@@ -1048,7 +1025,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.54-60):Identifythetypesofsentencesandchoosethecorrectanswerfrom",
+      "direction": "Directions (Question Nos. 54 - 60) : Identify the types of sentences and choose the correct answer from",
       "opts": {
         "a": "Affirmative",
         "b": "Interrogative",
@@ -1063,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Didyouseethehugebuildingonyourwaybackhome?",
+      "q": "Did you see the huge building on your way back home?",
       "multi": false
     },
     {
@@ -1071,7 +1048,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.54-60):Identifythetypesofsentencesandchoosethecorrectanswerfrom",
+      "direction": "Directions (Question Nos. 54 - 60) : Identify the types of sentences and choose the correct answer from",
       "opts": {
         "a": "Affirmative",
         "b": "Negative",
@@ -1086,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theoldwomandoesnotwantanyonecomingtoseeheratoddhours.",
+      "q": "The old woman does not want anyone coming to see her at odd hours.",
       "multi": false
     },
     {
@@ -1094,7 +1071,7 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.54-60):Identifythetypesofsentencesandchoosethecorrectanswerfrom",
+      "direction": "Directions (Question Nos. 54 - 60) : Identify the types of sentences and choose the correct answer from",
       "opts": {
         "a": "Affirmative",
         "b": "Negative",
@@ -1109,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Idifferwithyouonthismatter.",
+      "q": "I differ with you on this matter.",
       "multi": false
     },
     {
@@ -1117,7 +1094,7 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.54-60):Identifythetypesofsentencesandchoosethecorrectanswerfrom",
+      "direction": "Directions (Question Nos. 54 - 60) : Identify the types of sentences and choose the correct answer from",
       "opts": {
         "a": "Affirmative",
         "b": "Negative",
@@ -1132,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thelabourershavenotdugthefoundation.",
+      "q": "The labourers have not dug the foundation.",
       "multi": false
     },
     {
@@ -1140,7 +1117,7 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.54-60):Identifythetypesofsentencesandchoosethecorrectanswerfrom",
+      "direction": "Directions (Question Nos. 54 - 60) : Identify the types of sentences and choose the correct answer from",
       "opts": {
         "a": "Affirmative",
         "b": "Negative",
@@ -1155,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhenareyourfriendsgoingfortrekkingthisAutumn?",
+      "q": "When are your friends going for trekking this Autumn?",
       "multi": false
     },
     {
@@ -1163,12 +1140,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-66):Identifythetypesofphrasesandclauses,directandindirect",
+      "direction": "Directions (Question Nos. 61 - 66) : Identify the types of phrases and clauses, direct and indirect",
       "opts": {
-        "a": "Adjectivephrase",
-        "b": "Nounclause",
-        "c": "Nounphrase",
-        "d": "Adjectiveclause"
+        "a": "Adjective phrase",
+        "b": "Noun clause",
+        "c": "Noun phrase",
+        "d": "Adjective clause"
       },
       "marked": null,
       "cov": {
@@ -1178,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whoevercomesupwithanideawillbeacknowledged.",
+      "q": "Whoever comes up with an idea will be acknowledged.",
       "multi": false
     },
     {
@@ -1186,12 +1163,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-66):Identifythetypesofphrasesandclauses,directandindirect",
+      "direction": "Directions (Question Nos. 61 - 66) : Identify the types of phrases and clauses, direct and indirect",
       "opts": {
-        "a": "Nounphrase",
-        "b": "Nounclause",
-        "c": "Adjectiveclause",
-        "d": "Adverbphrase"
+        "a": "Noun phrase",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb phrase"
       },
       "marked": null,
       "cov": {
@@ -1201,7 +1178,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thehugeelephantthatyousawyesterdayismissingfromthezoo.",
+      "q": "The huge elephant that you saw yesterday is missing from the zoo.",
       "multi": false
     },
     {
@@ -1209,12 +1186,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-66):Identifythetypesofphrasesandclauses,directandindirect",
+      "direction": "Directions (Question Nos. 61 - 66) : Identify the types of phrases and clauses, direct and indirect",
       "opts": {
-        "a": "Nounclause",
-        "b": "Nounphrase",
-        "c": "Adjectivephrase.",
-        "d": "Adjectiveclause"
+        "a": "Noun clause",
+        "b": "Noun phrase",
+        "c": "Adjective phrase .",
+        "d": "Adjective clause"
       },
       "marked": null,
       "cov": {
@@ -1224,7 +1201,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thehorse’slarge,menacingeyessaidafightwasimminent.",
+      "q": "The horse’s large, menacing eyes said a fight was imminent.",
       "multi": false
     },
     {
@@ -1232,12 +1209,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-66):Identifythetypesofphrasesandclauses,directandindirect",
+      "direction": "Directions (Question Nos. 61 - 66) : Identify the types of phrases and clauses, direct and indirect",
       "opts": {
-        "a": "Nounclause",
-        "b": "Nounphrase",
-        "c": "Adjectiveclause",
-        "d": "Adjectivephrase"
+        "a": "Noun clause",
+        "b": "Noun phrase",
+        "c": "Adjective clause",
+        "d": "Adjective phrase"
       },
       "marked": null,
       "cov": {
@@ -1247,7 +1224,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "NikkoM.,whoalwayswearsahatwillbejoiningusthisyear.",
+      "q": "Nikko M., who always wears a hat will be joining us this year.",
       "multi": false
     },
     {
@@ -1255,12 +1232,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-66):Identifythetypesofphrasesandclauses,directandindirect",
+      "direction": "Directions (Question Nos. 61 - 66) : Identify the types of phrases and clauses, direct and indirect",
       "opts": {
-        "a": "Adverbialphrase",
-        "b": "Adverbialclause",
-        "c": "Adjectivephrase",
-        "d": "Adjectiveclause"
+        "a": "Adverbial phrase",
+        "b": "Adverbial clause",
+        "c": "Adjective phrase",
+        "d": "Adjective clause"
       },
       "marked": null,
       "cov": {
@@ -1270,7 +1247,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Anandwaitedsilentlyandpatiently.",
+      "q": "Anand waited silently and patiently.",
       "multi": false
     },
     {
@@ -1278,12 +1255,12 @@
       "page": 7,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-66):Identifythetypesofphrasesandclauses,directandindirect",
+      "direction": "Directions (Question Nos. 61 - 66) : Identify the types of phrases and clauses, direct and indirect",
       "opts": {
-        "a": "Adverbialphrase",
-        "b": "Adverbialclause",
-        "c": "Adjectiveclause",
-        "d": "Adjectivephrase ORRORRROK"
+        "a": "Adverbial phrase",
+        "b": "Adverbial clause",
+        "c": "Adjective clause",
+        "d": "Adjective phrase ORR ORR ROK"
       },
       "marked": null,
       "cov": {
@@ -1293,19 +1270,46 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Wewillmeetwhereverweprefer.",
+      "q": "We will meet wherever we prefer.",
       "multi": false
     }
   ],
-  "written": [],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Read the following passage carefully and write a precis in about 1/3\" of the original giving a suitable title for the same. (14) Almost every organism has the tendency to react to certain stimuli for survival. This reaction to each and every situation has an evolutionary basis of adaptation. The study of human emotions dates back to the 19th century and psychologists have discovered many reasons for every emotion, yet these are just theories. The arousal of emotions and their assumed structures is said to occur due to repeated encounters with a situation followed by the adaptation of the encounter. Human emotions have been linked to adaptively regulate emotion-gathering mechanisms. The emotion of fear which is associated with ancient parts of the brain has presumably evolved among our pre-mammal ancestors while the emotion ofa mother’s love called the ‘filial emotion’ has seen to evolve among early mammals. Various emotions work as manipulative strategies that favour survival. Feigning emotions by an accused person may help him be saved from the punishment. An exaggerated display of anger is also associated with manipulating or threatening someone. Despite there being several emotions for various events, ironically the most interesting emotion is the emotion ofd isgust. Disgust is aroused when the body senses a danger to the immunity or the physiology of the human. The disgusted memory is associated with alerting the brain of a potentially dangerous substance. A few studies have shown that the encoding triggered in adaptive memory for problems is stronger than any other behaviour. This makes us instantly have a disgusted expression at the sight of something that makes us uncomfortable or uneasy. These expressions are also closely linked to self-protective communication.",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "You are PC Lalrintluangi of Vaivakawn, Bazaar area. Write a letter to the Town Planning Officer of your municipality seeking permission to construct a house in your chosen site. (10)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 1,
+      "text": "Read carefully to comprehend the passages given below and answer the questions that follow. Marks are indicated at the end of each. Scientists have developed a gel that helps brains recover from traumatic injuries. It has the potential to treat head injuries suffered in combat, car accidents, falls, or gunshot wounds. Developed by Dr. Ning Zhang at Clemson Universitiyn  South Carolina, the gel is injected in liquid form at the site of injury and stimulates the growth ofs tem cells there. Brain injuries are particularly hard to repair, since injured tissues swell up and can cause additional damage to the cells. So far, treatments have tried to limit this secondary damage by lowering a gee ep sBe the temperature or relieving the pressure of the site of injury. However, these techniques are often not very effective. More recently scientists have considered transplanting donor brain cells into the wound to repair damaged tissue. This method has so far had limited results when treating brain injuries. The donor cells often fail to grow or stimulate repair at the injury site, possibly because of the inflammation and scarring present there. The injury site also typically has very limited blood supply and connective tissue, which might prevent donor cells from getting the nutrients they require. Dr. Zhang’s gel, however can be loaded with different chemicals to stimulate various biological processes at the site of injury. In previous research done on rats , she was able to use the gelto help re-establish full blood supply at the site of brain injury. This could help create a better environment of donor cells. In a follow-up study, Dr. Zhang loaded the gelwith immature stem cells, as well as the hemicals they needed to develop into full-fledged adult brain cells. When rats with severe brain injuries were treated with this mixture for eight weeks, they showed signs of significant recovery. The new gel could treat patients at varying stages following injury, and is expected to be ready for testing in humans in about three years. Questions:",
+      "subparts": {
+        "a": "What kind of brain injuries can the gel mentioned in the passage cure? (1)",
+        "b": "Why, according to the author, brain injuries are hard to mend? qd)",
+        "c": "Which animal was used to test the gel? ()",
+        "d": "How did Dr. Ning Zhang perform her study on the Animal? (2)"
+      }
+    }
+  ],
   "notes": [
-    "Q1 (p1, part A): only 0 option(s) [] - not emitted",
-    "Q2 (p1, part A): only 0 option(s) [] - not emitted",
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part A): conventional section, 4 sub-part(s) - not an MCQ",
     "Source numbering gap before Q47: expected Q37; review the printed page.",
     "Source numbering gap before Q53: expected Q52; review the printed page."
   ],
   "gaps": {
-    "A": [],
     "B": [
       37,
       38,

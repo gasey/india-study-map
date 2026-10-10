@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "23\"October,2024",
-        "b": "2%December,2024",
-        "c": "8\"January,2025",
-        "d": "15March,2025"
+        "a": "23\" October, 2024",
+        "b": "2% December, 2024",
+        "c": "8\" January, 2025",
+        "d": "15 March, 2025"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhenwastheMemorandumofAgreementsignedbetweenAssamRiflesandGovernmentofMizoram forrelocationofAssamRiflesBattalionfromAizawlCitytoZokhawsang?",
+      "q": "When was the Memorandum of Agreement signed between Assam Rifles and Government of Mizoram for relocation of Assam Rifles Battalion from Aizawl City to Zokhawsang?",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ReligiousorsocialpracticesoftheMizos",
-        "b": "Mizocustomarylawandprocedure",
-        "c": "AdministrationofcivilandcriminaljusticeinvolvingdecisionsaccordingtoMizocustomary law",
-        "d": "Ownershipandtransferofnaturalresources"
+        "a": "Religious or social practices of the Mizos",
+        "b": "Mizo customary law and procedure",
+        "c": "Administration of civil and criminal justice involving decisions according to Mizo customary law",
+        "d": "Ownership and transfer of natural resources"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingisnotcoveredunderArticle371GoftheConstitutionofIndia?",
+      "q": "Which of the following is not covered under Article 371G of the Constitution of India?",
       "multi": false
     },
     {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatistheamountof“Zoramchhiah”thatistobepaidannuallybyeachMizofamily?",
+      "q": "What is the amount of “Zoramchhiah” that is to be paid annually by each Mizo family?",
       "multi": false
     },
     {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthenameofthenewportallaunchedbyLandRevenue&SettlementDepartment,Government ofMizoramforsubmissionofvarioustypesofapplications?",
+      "q": "What is the name of the new portal launched by Land Revenue & Settlement Department, Government of Mizoram for submission of various types of applications?",
       "multi": false
     },
     {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichDistrictwasoriginallypartoftheAspirationalDistrictProgrammelaunchedbyNITIAayogin 2018?",
+      "q": "Which District was originally part of the Aspirational District Programme launched by NITI Aayog in 2018?",
       "multi": false
     },
     {
@@ -130,10 +130,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "523.6sq.m.",
-        "b": "1214.5sq.m.",
-        "c": "1337.8sq.m.",
-        "d": "1524.9sq.m. -~2-5"
+        "a": "523.6 sq.m.",
+        "b": "1214.5 sq.m.",
+        "c": "1337.8 sq.m.",
+        "d": "1524.9 sq.m. -~2- 5"
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AccordingtotheMizoram(LandRevenue)Act,onebighaisequalto",
+      "q": "According to the Mizoram (Land Revenue) Act, one bigha is equal to",
       "multi": false
     },
     {
@@ -155,7 +155,7 @@
       "opts": {
         "a": "%500",
         "b": "2700",
-        "c": "1000({d)71500"
+        "c": "1000 ({d) 71500"
       },
       "marked": null,
       "cov": {
@@ -164,7 +164,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "AsperthenewlylaunchedMizoramUniversalHealthcareScheme,whatisthemonthlycontribution forgovernmentemployeesonLevel10paylevel?",
+      "q": "As per the newly launched Mizoram Universal Healthcare Scheme, what is the monthly contribution for government employees on Level 10 pay level?",
       "multi": false
     },
     {
@@ -177,7 +177,7 @@
         "a": "Bawngkawno",
         "b": "Zemabawk",
         "c": "Chaltlang",
-        "d": "BethlehemVengthlang"
+        "d": "Bethlehem Vengthlang"
       },
       "marked": null,
       "cov": {
@@ -187,7 +187,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AccordingtotherecentlyconcludedGeneralElectiontoLocalCouncils,2025,whichLocalCouncil inAizawlhadthemostnumberofregisteredvoters?",
+      "q": "According to the recently concluded General Election to Local Councils, 2025, which Local Council in Aizawl had the most number of registered voters?",
       "multi": false
     },
     {
@@ -197,10 +197,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LalthruaitluangaChawngte",
-        "b": "Dr.LaltluanglianaKhiangte",
-        "c": "AhmangaihiKhiangte",
-        "d": "StephenAuhmun"
+        "a": "Lalthruaitluanga Chawngte",
+        "b": "Dr. Laltluangliana Khiangte",
+        "c": "Ahmangaihi Khiangte",
+        "d": "Stephen Auhmun"
       },
       "marked": null,
       "cov": {
@@ -210,7 +210,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoistheauthoroftheMizonovel“Pangparhnima”whichwontheMALBookoftheYear2024?",
+      "q": "Who is the author of the Mizo novel “Pangparhnima” which won the MAL Book of the Year 2024?",
       "multi": false
     },
     {
@@ -233,7 +233,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HowmanyMLAsdoestheBJPcurrentlyhaveintheMizoramLegislativeAssembly?",
+      "q": "How many MLAs does the BJP currently have in the Mizoram Legislative Assembly?",
       "multi": false
     },
     {
@@ -243,10 +243,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ZoneII",
-        "b": "ZoneII",
-        "c": "ZoneIV",
-        "d": "ZoneV"
+        "a": "Zone II",
+        "b": "Zone II",
+        "c": "Zone IV",
+        "d": "Zone V"
       },
       "marked": null,
       "cov": {
@@ -256,7 +256,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "UnderwhatIndianseismiczonedoesMizoramfall?",
+      "q": "Under what Indian seismic zone does Mizoram fall?",
       "multi": false
     },
     {
@@ -279,7 +279,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InwhichyearwasSCERTestablishedinMizoram?",
+      "q": "In which year was SCERT established in Mizoram?",
       "multi": false
     },
     {
@@ -302,7 +302,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Mizobelongstowhichlanguagefamily?",
+      "q": "Mizo belongs to which language family?",
       "multi": false
     },
     {
@@ -312,10 +312,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "AizawlNorth-I",
-        "b": "AizawlNorth-II",
-        "c": "AizawlNorth-III",
-        "d": "AizawlEast-I"
+        "a": "Aizawl North-I",
+        "b": "Aizawl North-II",
+        "c": "Aizawl North-III",
+        "d": "Aizawl East-I"
       },
       "marked": null,
       "cov": {
@@ -325,7 +325,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThecurrentMinisterofSchoolEducationDepartmentwaselectedfromwhichAssembly Constituency?",
+      "q": "The current Minister of School Education Department was elected from which Assembly Constituency?",
       "multi": false
     },
     {
@@ -335,10 +335,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "15\"July",
-        "b": "15\"September",
-        "c": "5October",
-        "d": "23™November"
+        "a": "15\" July",
+        "b": "15\" September",
+        "c": "5 October",
+        "d": "23™ November"
       },
       "marked": null,
       "cov": {
@@ -348,7 +348,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OnwhatdateisNationalEngineers”DaycelebratedinIndia?.",
+      "q": "On what date is National Engineers” Day celebrated in India? .",
       "multi": false
     },
     {
@@ -358,9 +358,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PartX",
-        "b": "PartXVII",
-        "c": "PartV",
+        "a": "Part X",
+        "b": "Part XVII",
+        "c": "Part V",
         "d": "PartXV"
       },
       "marked": null,
@@ -371,7 +371,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingpartsoftheConstitutionofIndiadealswithofficiallanguages?",
+      "q": "Which of the following parts of the Constitution of India deals with official languages?",
       "multi": false
     },
     {
@@ -381,9 +381,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Manipur:",
-        "b": "Meghalaya-",
-        "c": "Nagaland(a)Sikkim"
+        "a": "Manipur :",
+        "b": "Meghalaya -",
+        "c": "Nagaland (a) Sikkim"
       },
       "marked": null,
       "cov": {
@@ -392,7 +392,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "HornbillFestivaliscelebratedinwhichIndianState?",
+      "q": "Hornbill Festival is celebrated in which Indian State?",
       "multi": false
     },
     {
@@ -402,10 +402,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MinistryofCivilAviation",
-        "b": "MinistryofHomeAffairs",
-        "c": "MinistryofDefence",
-        "d": "MinistryofCommunications"
+        "a": "Ministry of Civil Aviation",
+        "b": "Ministry of Home Affairs",
+        "c": "Ministry of Defence",
+        "d": "Ministry of Communications"
       },
       "marked": null,
       "cov": {
@@ -415,7 +415,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "BorderRoadsOrganisationcomesunderwhichoneofthefollowingMinistriesoftheGovernmentof India?",
+      "q": "Border Roads Organisation comes under which one of the following Ministries of the Government of India?",
       "multi": false
     },
     {
@@ -425,10 +425,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "24hours",
-        "b": "36hours",
-        "c": "48hours",
-        "d": "72hours"
+        "a": "24 hours",
+        "b": "36 hours",
+        "c": "48 hours",
+        "d": "72 hours"
       },
       "marked": null,
       "cov": {
@@ -438,7 +438,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AccordingtoRTIAct,2005,whatisthetimelinewithinwhichinformationshouldbesuppliedifthe lifeandlibertyoftheapplicantisatrisk?",
+      "q": "According to RTI Act, 2005, whatis the timeline within which information should be supplied if the life and liberty of the applicant is at risk?",
       "multi": false
     },
     {
@@ -449,9 +449,9 @@
       "direction": null,
       "opts": {
         "a": "asubmarine",
-        "b": "anaircraftcarrier",
+        "b": "anaircraft carrier",
         "c": "atanker",
-        "d": "afrigate"
+        "d": "a frigate"
       },
       "marked": null,
       "cov": {
@@ -461,7 +461,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "INSVikrantis",
+      "q": "INS Vikrant is",
       "multi": false
     },
     {
@@ -471,10 +471,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BharatiyaNagarikSurakshaSanhita",
-        "b": "BharatiyaNyayaSanhita",
-        "c": "BharatiyaSakshyaAdhiniyam",
-        "d": "TheIndianSafetyCode"
+        "a": "Bharatiya Nagarik Suraksha Sanhita",
+        "b": "Bharatiya Nyaya Sanhita",
+        "c": "Bharatiya Sakshya Adhiniyam",
+        "d": "The Indian Safety Code"
       },
       "marked": null,
       "cov": {
@@ -484,7 +484,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthenameofthelegislationthatreplacedtheIndianPenalCode(IPC)?",
+      "q": "What is the name of the legislation that replaced the Indian Penal Code (IPC)?",
       "multi": false
     },
     {
@@ -507,7 +507,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AsperthelatestIndiaStateofForestReportpublishedinDecember2024,thetotalforestandtree coverinIndiaiswhatpercentageofthecountry’sgeographicalarea?",
+      "q": "As per the latest India State of Forest Report published in December 2024, the total forest and tree cover in India is what percentage of the country’s geographical area?",
       "multi": false
     },
     {
@@ -517,10 +517,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NationalInstitutionforTransformingIndia=",
-        "b": "NationalInstitutetoTransformIndia",
-        "c": "NationalInstituteforTransformationofIndia",
-        "d": "NationalInstitutionforTransformedIndia"
+        "a": "National Institution for Transforming India =",
+        "b": "National Institute to Transform India",
+        "c": "National Institute for Transformation of India",
+        "d": "National Institution for Transformed India"
       },
       "marked": null,
       "cov": {
@@ -530,7 +530,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthefullformof“NITT’inNITIAayog?",
+      "q": "What is the full form of “NITT’ in NITI Aayog?",
       "multi": false
     },
     {
@@ -540,10 +540,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ChiefInformationCommissioner",
-        "b": "AppelateAuthority",
-        "c": "PublicInformationOfficer",
-        "d": "AssistantPublicInformationOfficer"
+        "a": "Chief Information Commissioner",
+        "b": "Appelate Authority",
+        "c": "Public Information Officer",
+        "d": "Assistant Public Information Officer"
       },
       "marked": null,
       "cov": {
@@ -553,7 +553,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheOfficerdesignedunderRTIAct2005toprovideinformatiotonthecitizensrequestinginformation iscalled",
+      "q": "The Officer designed under RTI Act 2005 to provide informatioton  the citizens requesting information is called",
       "multi": false
     },
     {
@@ -563,10 +563,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MinistryofSocialJusticeandEmpowerment",
-        "b": "MinistryofHomeAffairs",
-        "c": "MinistryofHousingandUrbanAffairs",
-        "d": "MinistryofRuralDevelopment"
+        "a": "Ministry of Social Justice and Empowerment",
+        "b": "Ministry of Home Affairs",
+        "c": "Ministry of Housing and Urban Affairs",
+        "d": "Ministry of Rural Development"
       },
       "marked": null,
       "cov": {
@@ -576,7 +576,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "NashaMuktBharatAbhiyaanisaninitiativelaunchedbywhichUnionMinistry?",
+      "q": "Nasha Mukt Bharat Abhiyaan is an initiative launched by which Union Ministry?",
       "multi": false
     },
     {
@@ -587,9 +587,9 @@
       "direction": null,
       "opts": {
         "a": "President",
-        "b": "PrimeMinister",
+        "b": "Prime Minister",
         "c": "Parliament",
-        "d": "Comptroller&AuditorGeneral"
+        "d": "Comptroller & Auditor General"
       },
       "marked": null,
       "cov": {
@@ -599,7 +599,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ApprovalofwhichamongthefollowingisneededtodrawfundsfromConsolidatedFundofIndia?",
+      "q": "Approval of which among the following is needed to draw funds from Consolidated Fund of India?",
       "multi": false
     },
     {
@@ -622,7 +622,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichschemewasrecentlylaunchedtocoverselectedurbanareasusingdronesurvey?",
+      "q": "Which scheme was recently launched to cover selected urban areas using drone survey?",
       "multi": false
     },
     {
@@ -632,10 +632,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BorderSecurityForce",
-        "b": "CentralReservePoliceForce.",
-        "c": "AssamRifles",
-        "d": "CentralArmedPoliceForce"
+        "a": "Border Security Force",
+        "b": "Central Reserve Police Force .",
+        "c": "Assam Rifles",
+        "d": "Central Armed Police Force"
       },
       "marked": null,
       "cov": {
@@ -645,7 +645,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingistheoldestcentralparamilitaryforceinIndia?",
+      "q": "Which of the following is the oldest central paramilitary force in India?",
       "multi": false
     },
     {
@@ -655,10 +655,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ITDelhi",
-        "b": "UTKanpur",
-        "c": "IITKharagpur",
-        "d": "ITDhanbad -4-*"
+        "a": "IT Delhi",
+        "b": "UT Kanpur",
+        "c": "IIT Kharagpur",
+        "d": "IT Dhanbad -4- *"
       },
       "marked": null,
       "cov": {
@@ -668,7 +668,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichistheoldestIITinIndia?",
+      "q": "Which is the oldest IIT in India?",
       "multi": false
     },
     {
@@ -678,10 +678,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Itensures150daysofemploymenttoneedypersonsinruralareas",
-        "b": "Itgiveshigherwagestowomenthanmen",
-        "c": "Peoplearegivenbothskilledandunskilledjobs",
-        "d": "ItisimplementedonlyinruralareasofIndia"
+        "a": "Itensures 150 days of employment to needy persons in rural areas",
+        "b": "It gives higher wages to women than men",
+        "c": "People are given both skilled and unskilled jobs",
+        "d": "Itisimplemented only in rural areas of India"
       },
       "marked": null,
       "cov": {
@@ -691,7 +691,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingstatementsistruewithregardstotheMGNREGA2005?",
+      "q": "Which of the following statements is true with regards to the MGNREGA 2005?",
       "multi": false
     },
     {
@@ -714,7 +714,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatwasthenameofthetaxintroducedbythefamousMuslimrulerAurangzebonhisnon-Muslim subjects?",
+      "q": "What was the name of the tax introduced by the famous Muslim ruler Aurangzeb on his non-Muslim subjects?",
       "multi": false
     },
     {
@@ -724,10 +724,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ChiefMinister",
-        "b": "ChiefSecretary",
-        "c": "HomeMinister",
-        "d": "Director,DisasterManagement&RehabilitationDepartment"
+        "a": "Chief Minister",
+        "b": "Chief Secretary",
+        "c": "Home Minister",
+        "d": "Director, Disaster Management & Rehabilitation Department"
       },
       "marked": null,
       "cov": {
@@ -737,7 +737,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "StateDisasterManagementAuthorityisheadedby",
+      "q": "State Disaster Management Authority is headed by",
       "multi": false
     },
     {
@@ -747,10 +747,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "%2lakh",
-        "b": "23lakh",
-        "c": "%4lakh",
-        "d": "%5lakh"
+        "a": "%2 lakh",
+        "b": "23 lakh",
+        "c": "%4 lakh",
+        "d": "%5 lakh"
       },
       "marked": null,
       "cov": {
@@ -760,7 +760,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AsperthenewincometaxratesforFY2025-26intheUnionBudget2025,whatisthethreshold amountofannualincomeunderwhichincometaxiszero?",
+      "q": "As per the new income tax rates for FY 2025-26 in the Union Budget 2025, what is the threshold amount of annual income under which income tax is zero?",
       "multi": false
     },
     {
@@ -783,7 +783,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatistheratioofcementtosandtocoarseaggregatesinM10concretegrade?",
+      "q": "What is the ratio of cement to sand to coarse aggregates in M10 concrete grade?",
       "multi": false
     },
     {
@@ -794,8 +794,8 @@
       "direction": null,
       "opts": {
         "a": "Subsidence",
-        "b": "Overburdensink",
-        "c": "Groundcollapse",
+        "b": "Overburden sink",
+        "c": "Ground collapse",
         "d": "Faulting"
       },
       "marked": null,
@@ -806,7 +806,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthenameofthephenomenoninwhichthegroundsurfacesinksduetoactivitiessuchas groundwaterextractionormining?",
+      "q": "What is the name of the phenomenon in which the ground surface sinks due to activities such as groundwater extraction or mining?",
       "multi": false
     },
     {
@@ -818,7 +818,7 @@
       "opts": {
         "a": "1x104m",
         "b": "1x10%m",
-        "c": "Lx10?m",
+        "c": "Lx 10? m",
         "d": "1x107'Sm"
       },
       "marked": null,
@@ -829,7 +829,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Apicometerisequalto",
+      "q": "Apicometer is equal to",
       "multi": false
     },
     {
@@ -839,10 +839,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "thealbedoeffect",
-        "b": "thegreenhouseeffect",
-        "c": "thegenshineffect",
-        "d": "refractiveindex"
+        "a": "the albedo effect",
+        "b": "the greenhouse effect",
+        "c": "the genshin effect",
+        "d": "refractive index"
       },
       "marked": null,
       "cov": {
@@ -852,7 +852,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theexpressionoftheabilityofasurfacetoreflectsunlightiscalled",
+      "q": "The expression of the ability ofa surface to reflect sunlight is called",
       "multi": false
     },
     {
@@ -863,9 +863,9 @@
       "direction": null,
       "opts": {
         "a": "5minutes",
-        "b": "8minutes",
-        "c": "12minutes",
-        "d": "30minutes"
+        "b": "8 minutes",
+        "c": "12 minutes",
+        "d": "30 minutes"
       },
       "marked": null,
       "cov": {
@@ -875,7 +875,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HowlongdoessunlighttaketoreachtheEarthapproximately?",
+      "q": "How long does sunlight take to reach the Earth approximately?",
       "multi": false
     },
     {
@@ -885,10 +885,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "protectthetransformerfromrusting",
-        "b": "avoidnoiseinatransformer",
-        "c": "serveasalubricant",
-        "d": "insulateandcoolatransformer"
+        "a": "protect the transformer from rusting",
+        "b": "avoid noise in a transformer",
+        "c": "serve asa lubricant",
+        "d": "insulate and cool a transformer"
       },
       "marked": null,
       "cov": {
@@ -898,7 +898,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thepurposeofoilinatransformeristo",
+      "q": "The purpose of oil in a transformer is to",
       "multi": false
     },
     {
@@ -908,10 +908,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "slowsdownandbendsawayfromthenormal",
-        "b": "slowsdownandbendstowardsthenormal",
-        "c": "speedsupandbendsawayfromthenormal",
-        "d": "speedsupandbendstowardsthenormal -~5-."
+        "a": "slows down and bends away from the normal",
+        "b": "slows down and bends towards the normal",
+        "c": "speeds up and bends away from the normal",
+        "d": "speeds up and bends towards the normal -~5- ."
       },
       "marked": null,
       "cov": {
@@ -921,7 +921,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Atayoflighttravellingfromararermediumtoadensermedium.",
+      "q": "Atay of light travelling from a rarer medium to a denser medium .",
       "multi": false
     },
     {
@@ -931,10 +931,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "changeintemperatureofthemedia",
-        "b": "changeintheamplitudeoflight",
-        "c": "changeinthespeedoflight",
-        "d": "internalpropertyoflight"
+        "a": "change in temperature of the media",
+        "b": "change in the amplitude of light",
+        "c": "change in the speed of light",
+        "d": "internal property of light"
       },
       "marked": null,
       "cov": {
@@ -944,7 +944,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Refractionoflight,asitentersfromonetransparentmediumtoanother,isdueto",
+      "q": "Refraction of light, as it enters from one transparent medium to another, is due to",
       "multi": false
     },
     {
@@ -967,7 +967,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheSIUnitoftemperatureis",
+      "q": "The SI Unit of temperature is",
       "multi": false
     },
     {
@@ -977,9 +977,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "reducessubstantially",
-        "b": "doesnotchange",
-        "c": "increasesheavily",
+        "a": "reduces substantially",
+        "b": "does not change",
+        "c": "increases heavily",
         "d": "fluctuates"
       },
       "marked": null,
@@ -990,7 +990,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Atthetimeofshortcircuit,thecurrentinthecireuit",
+      "q": "Atthe time of short circuit, the current in the cireuit",
       "multi": false
     },
     {
@@ -1000,10 +1000,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "surfacearea",
+        "a": "surface area",
         "b": "temperature",
         "c": "humidity",
-        "d": "windspeed"
+        "d": "wind speed"
       },
       "marked": null,
       "cov": {
@@ -1013,7 +1013,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Therateofevaporationofaliquiddecreaseswithanincreasein",
+      "q": "The rate of evaporation of a liquid decreases with an increase in",
       "multi": false
     },
     {
@@ -1023,10 +1023,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Ga,Sb,Pb",
-        "b": "At,Sn,Le",
-        "c": "Au,Sn,Pb",
-        "d": "Au,Sb,Pb"
+        "a": "Ga, Sb, Pb",
+        "b": "At, Sn, Le",
+        "c": "Au, Sn, Pb",
+        "d": "Au, Sb, Pb"
       },
       "marked": null,
       "cov": {
@@ -1036,7 +1036,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichoneamongthefollowingarethecorrectsymbolsfortheelementsGold,TinandLead respectively?",
+      "q": "Which one among the following are the correct symbols for the elements Gold, Tin and Lead respectively?",
       "multi": false
     },
     {
@@ -1046,10 +1046,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "leadandtin",
-        "b": "copperandtin",
-        "c": "leadandcopper",
-        "d": "copperandgold"
+        "a": "lead and tin",
+        "b": "copper and tin",
+        "c": "lead and copper",
+        "d": "copper and gold"
       },
       "marked": null,
       "cov": {
@@ -1059,7 +1059,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Bronzeisanallooyf:",
+      "q": "Bronze is an allooyf  :",
       "multi": false
     },
     {
@@ -1069,10 +1069,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Copperore",
-        "b": "Micaore",
-        "c": "Bauxiteore",
-        "d": "Manganeseore (a)0(b)4 (c)37.4(d)100"
+        "a": "Copper ore",
+        "b": "Mica ore",
+        "c": "Bauxite ore",
+        "d": "Manganese ore (a) 0 (b) 4 (c) 37.4 (d) 100"
       },
       "marked": null,
       "cov": {
@@ -1082,7 +1082,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aluminiumismanufacturedfrom",
+      "q": "Aluminium is manufactured from",
       "multi": false
     },
     {
@@ -1092,10 +1092,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Atomicvolume",
-        "b": "Atomicnumber",
-        "c": "Atomicmass",
-        "d": "Atomicdensity"
+        "a": "Atomic volume",
+        "b": "Atomic number",
+        "c": "Atomic mass",
+        "d": "Atomic density"
       },
       "marked": null,
       "cov": {
@@ -1105,7 +1105,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichoneofthefollowingpropertiesofanelementwasconsideredinMendeleev’sPeriodicTable?",
+      "q": "Which one of the following properties of an element was considered in Mendeleev’s Periodic Table?",
       "multi": false
     },
     {
@@ -1115,10 +1115,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BiologicalOxygenDemand",
-        "b": "BiochemicalOxygenDemand",
-        "c": "BiologicalOxygenDeficiency",
-        "d": "BiologicallyOxidisedDextrose"
+        "a": "Biological Oxygen Demand",
+        "b": "Biochemical Oxygen Demand",
+        "c": "Biological Oxygen Deficiency",
+        "d": "Biologically Oxidised Dextrose"
       },
       "marked": null,
       "cov": {
@@ -1128,7 +1128,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichisthecorrectfullformofBOD?",
+      "q": "Which is the correct full form of BOD?",
       "multi": false
     },
     {
@@ -1138,10 +1138,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Protons.",
-        "b": "Electrons.",
+        "a": "Protons .",
+        "b": "Electrons .",
         "c": "Neutrons",
-        "d": "Nucleus -6-."
+        "d": "Nucleus -6- ."
       },
       "marked": null,
       "cov": {
@@ -1151,7 +1151,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichoneamongthefollowingisresponsiblefordeterminingthechemicalpropertiesofanelement?",
+      "q": "Which one among the following is responsible for determining the chemical properties of an element?",
       "multi": false
     },
     {
@@ -1162,9 +1162,9 @@
       "direction": null,
       "opts": {
         "a": "Deforestation",
-        "b": "Conservationoffloraandfauna",
-        "c": "Slashandburn",
-        "d": "Shiftingagriculture"
+        "b": "Conservation of flora and fauna",
+        "c": "Slash and burn",
+        "d": "Shifting agriculture"
       },
       "marked": null,
       "cov": {
@@ -1174,7 +1174,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingisnotassociatedwithJhumcultivation?",
+      "q": "Which of the following is not associated with Jhum cultivation?",
       "multi": false
     },
     {
@@ -1197,7 +1197,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingvirusesisconsideredtoberesponsibleforCOVID-19?",
+      "q": "Which of the following viruses is considered to be responsible for COVID-19?",
       "multi": false
     },
     {
@@ -1220,7 +1220,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingcategoryofbiomoleculesdoesStarchbelongto?",
+      "q": "Which of the following category of biomolecules does Starch belong to?",
       "multi": false
     },
     {
@@ -1243,7 +1243,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thegreenpigmentsofleavescalledchlorophyllarefoundinwhichpartofaleaf",
+      "q": "The green pigments of leaves called chlorophyll are found in which part ofa leaf",
       "multi": false
     },
     {
@@ -1253,10 +1253,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "acraterontheMoon",
-        "b": "DNAmolecules",
-        "c": "thevirusresponsibleforCOVID-19",
-        "d": "thevirusresponsibleforthecommoncold"
+        "a": "acrater on the Moon",
+        "b": "DNA molecules",
+        "c": "the virus responsible for COVID-19",
+        "d": "the virus responsible for the common cold"
       },
       "marked": null,
       "cov": {
@@ -1266,7 +1266,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Photo51referstoanimageof",
+      "q": "Photo 51 refers to an image of",
       "multi": false
     },
     {
@@ -1276,10 +1276,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SilverRevolution",
-        "b": "GreyRevolution",
-        "c": "PinkRevolution",
-        "d": "GoldenRevolution"
+        "a": "Silver Revolution",
+        "b": "Grey Revolution",
+        "c": "Pink Revolution",
+        "d": "Golden Revolution"
       },
       "marked": null,
       "cov": {
@@ -1289,7 +1289,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichamongthefollowingisrelatedtofertilisers?",
+      "q": "Which among the following is related to fertilisers?",
       "multi": false
     },
     {
@@ -1312,7 +1312,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ChromosomesarecomposedofDNAand",
+      "q": "Chromosomes are composed of DNA and",
       "multi": false
     },
     {
@@ -1335,7 +1335,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingiscommonlyknownas“thepowerhouseofthecell”?",
+      "q": "Which of the following is commonly known as “the powerhouse of the cell”?",
       "multi": false
     },
     {
@@ -1358,7 +1358,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Plantsprepareglucosethroughaprocesscalled",
+      "q": "Plants prepare glucose through a process called",
       "multi": false
     },
     {
@@ -1368,10 +1368,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Umbrellaspecies",
-        "b": "Flagshipspecies",
-        "c": "Priorityspecies",
-        "d": "Keystonespecies"
+        "a": "Umbrella species",
+        "b": "Flagship species",
+        "c": "Priority species",
+        "d": "Keystone species"
       },
       "marked": null,
       "cov": {
@@ -1381,7 +1381,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichoneofthefollowingspeciesdisproportionatelyaffectsecosystemdynamics?",
+      "q": "Which one of the following species disproportionately affects ecosystem dynamics?",
       "multi": false
     },
     {
@@ -1391,9 +1391,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "onekharab",
+        "a": "one kharab",
         "b": "onebillion",
-        "c": "onearab",
+        "c": "one arab",
         "d": "onemillion"
       },
       "marked": null,
@@ -1404,7 +1404,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IntheIndiannumberingsystem,onehundredcroreisalsoknownas",
+      "q": "Inthe Indian numbering system, one hundred crore is also known as",
       "multi": false
     },
     {
@@ -1414,10 +1414,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Mode=3Median—2Mean",
-        "b": "Mean=2Mode—3Median",
-        "c": "Median=3Mean—2Mode",
-        "d": "Mean=Median—Mode"
+        "a": "Mode = 3 Median —2 Mean",
+        "b": "Mean =2 Mode —3 Median",
+        "c": "Median =3 Mean—2 Mode",
+        "d": "Mean = Median — Mode"
       },
       "marked": null,
       "cov": {
@@ -1427,7 +1427,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatistherelationbetweenmean,medianandmodeinstatistics?",
+      "q": "What is the relation between mean, median and mode in statistics?",
       "multi": false
     },
     {
@@ -1440,7 +1440,7 @@
         "a": "50m",
         "b": "100m",
         "c": "200m",
-        "d": "250m -7-+"
+        "d": "250m -7- +"
       },
       "marked": null,
       "cov": {
@@ -1450,7 +1450,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aboycompletesoneroundofacirculartrackofdiameter200min30seconds.Whatwillbethe displacementattheendof3minutesand45seconds?",
+      "q": "Aboy completes one round of a circular track of diameter 200 m in 30 seconds. What will be the displacement at the end of 3 minutes and 45 seconds?",
       "multi": false
     },
     {
@@ -1473,7 +1473,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thenumber1followedbyahundredzeroesiscalled",
+      "q": "The number 1 followed by a hundred zeroes is called",
       "multi": false
     },
     {
@@ -1483,9 +1483,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SpaceXDragon",
-        "b": "NASAFalcon",
-        "c": "TheChallenger",
+        "a": "SpaceX Dragon",
+        "b": "NASA Falcon",
+        "c": "The Challenger",
         "d": "INSAT-3DS"
       },
       "marked": null,
@@ -1496,7 +1496,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthenameofthespacecapsulethatwasrecentlysenttorescuethetwostrandedastronauts SunitaWilliamsandButchWilmore?",
+      "q": "What is the name of the space capsule that was recently sent to rescue the two stranded astronauts Sunita Williams and Butch Wilmore?",
       "multi": false
     },
     {
@@ -1519,7 +1519,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HowmanyelectoralvotesdidDonaldTrumpsecuretowinthe2024USPresidentialElections?",
+      "q": "How many electoral votes did Donald Trump secure to win the 2024 US Presidential Elections?",
       "multi": false
     },
     {
@@ -1532,7 +1532,7 @@
         "a": "India",
         "b": "China",
         "c": "Brazil",
-        "d": "SouthAfrica"
+        "d": "South Africa"
       },
       "marked": null,
       "cov": {
@@ -1542,7 +1542,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichcountryisthechairofG20in2025?",
+      "q": "Which country is the chair of G20 in 2025?",
       "multi": false
     },
     {
@@ -1552,10 +1552,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TimotheeChalamet",
-        "b": "RalphFiennes",
-        "c": "RyanReynolds",
-        "d": "AdrienBrody"
+        "a": "Timothee Chalamet",
+        "b": "Ralph Fiennes",
+        "c": "Ryan Reynolds",
+        "d": "Adrien Brody"
       },
       "marked": null,
       "cov": {
@@ -1565,7 +1565,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IntheOscars2025,whichactorwontheawardforbestactorinaleadingrole?",
+      "q": "Inthe Oscars 2025, which actor won the award for best actor in a leading role?",
       "multi": false
     },
     {
@@ -1575,7 +1575,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Apple:",
+        "a": "Apple :",
         "b": "Microsoft",
         "c": "Samsung",
         "d": "Amazon"
@@ -1588,7 +1588,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AsofForbes’Global2000listin2024,whichistheworld’smostvaluablecompany?",
+      "q": "As of Forbes’ Global 2000 list in 2024, which is the world’s most valuable company?",
       "multi": false
     },
     {
@@ -1611,7 +1611,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "C-Domeairdefencesystemisdeployedbywhichcountry?",
+      "q": "C-Dome air defence system is deployed by which country?",
       "multi": false
     },
     {
@@ -1621,7 +1621,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NewZealand",
+        "a": "New Zealand",
         "b": "Australia",
         "c": "Tonga",
         "d": "Samoa"
@@ -1634,7 +1634,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inwhichcountryistheplacewiththelongestnamelocated?",
+      "q": "In which country is the place with the longest name located?",
       "multi": false
     },
     {
@@ -1644,10 +1644,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "KingCharles1",
-        "b": "KingCharlesIT",
-        "c": "KingCharlesIIT",
-        "d": "KingCharlesTV"
+        "a": "King Charles 1",
+        "b": "King Charles IT",
+        "c": "King Charles IIT",
+        "d": "King Charles TV"
       },
       "marked": null,
       "cov": {
@@ -1657,7 +1657,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoisthepresentmonarchoftheUnitedKingdom?",
+      "q": "Who is the present monarch of the United Kingdom?",
       "multi": false
     },
     {
@@ -1667,10 +1667,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MountAtlas",
-        "b": "MountKilimanjaro",
-        "c": "‘MountKenya",
-        "d": "MountElgon:"
+        "a": "Mount Atlas",
+        "b": "Mount Kilimanjaro",
+        "c": "‘Mount Kenya",
+        "d": "Mount Elgon :"
       },
       "marked": null,
       "cov": {
@@ -1680,7 +1680,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichoneamongthefollowingisthehighestmountaininAfrica?",
+      "q": "Which one among the following is the highest mountain in A frica?",
       "multi": false
     },
     {
@@ -1703,7 +1703,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichamongthefollowingcountriesislocatednorthernmost?",
+      "q": "Which among the following countries is located northernmost?",
       "multi": false
     },
     {
@@ -1716,7 +1716,7 @@
         "a": "France",
         "b": "China",
         "c": "Japan",
-        "d": "UnitedKingdom"
+        "d": "United Kingdom"
       },
       "marked": null,
       "cov": {
@@ -1726,7 +1726,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingcountriesisnotapermanentmemberoftheUNSecurityCouncil?",
+      "q": "Which of the following countries is not a permanent member of the UN Security Council?",
       "multi": false
     },
     {
@@ -1739,7 +1739,7 @@
         "a": "Microsoft",
         "b": "Google",
         "c": "Samsung",
-        "d": "Apple ~8-*"
+        "d": "Apple ~8- *"
       },
       "marked": null,
       "cov": {
@@ -1749,7 +1749,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichoneofthefollowingdeveloptheAndroidoperatingsystem?",
+      "q": "Which one of the following develop the Android operating system?",
       "multi": false
     },
     {
@@ -1760,9 +1760,9 @@
       "direction": null,
       "opts": {
         "a": "5*June",
-        "b": "15%June",
-        "c": "21*June",
-        "d": "30%June"
+        "b": "15% June",
+        "c": "21* June",
+        "d": "30% June"
       },
       "marked": null,
       "cov": {
@@ -1772,7 +1772,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheWorldEnvironmentDayiscelebratedannuallyonwhichdate?",
+      "q": "The World Environment Day is celebrated annually on which date?",
       "multi": false
     },
     {
@@ -1795,7 +1795,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HowmanySustainableDevelopmentGoals(SDGs)arethereundertheUN?",
+      "q": "How many Sustainable Development Goals (SDGs) are there under the UN?",
       "multi": false
     },
     {
@@ -1805,10 +1805,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "FranklinD.Roosevelt",
-        "b": "BenitoMussolini",
+        "a": "Franklin D. Roosevelt",
+        "b": "Benito Mussolini",
         "c": "AdolfHitler",
-        "d": "_WinstonChurchill"
+        "d": "_ Winston Churchill"
       },
       "marked": null,
       "cov": {
@@ -1818,7 +1818,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whogavethefamous“Weshallfightonthebeaches”speechduringWorldWarII?",
+      "q": "Who gave the famous “We shall fight on the beaches” speech during World War II?",
       "multi": false
     },
     {
@@ -1828,10 +1828,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ContinentalDrifthypothesis",
-        "b": "DiscoveryofOzoneHole",
-        "c": "TheoryofEvolution",
-        "d": "Inventionofthetransistor"
+        "a": "Continental Drift hypothesis",
+        "b": "Discovery of Ozone Hole",
+        "c": "Theory of Evolution",
+        "d": "Invention of the transistor"
       },
       "marked": null,
       "cov": {
@@ -1841,7 +1841,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisAlfredWegenerbestknownfor?",
+      "q": "What is Alfred Wegener best known for?",
       "multi": false
     },
     {
@@ -1851,10 +1851,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ConservativeandUnionistParty",
-        "b": "LabourParty",
-        "c": "ReformParty",
-        "d": "LiberalDemocrats"
+        "a": "Conservative and Unionist Party",
+        "b": "Labour Party",
+        "c": "Reform Party",
+        "d": "Liberal Democrats"
       },
       "marked": null,
       "cov": {
@@ -1864,7 +1864,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichpoliticalpartycurrentlyformstheGovernmentintheBritishHouseofCommons?",
+      "q": "Which political party currently forms the Government in the British House of Commons?",
       "multi": false
     },
     {
@@ -1887,7 +1887,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichcityisknownas“ScotlandoftheEast”?",
+      "q": "Which city is known as “Scotland of the East”?",
       "multi": false
     },
     {
@@ -1900,7 +1900,7 @@
         "a": "solid",
         "b": "liquid",
         "c": "gas",
-        "d": "viscousfluid"
+        "d": "viscous fluid"
       },
       "marked": null,
       "cov": {
@@ -1910,7 +1910,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheEarth’sinnercoreisinwhichstate?",
+      "q": "The Earth’s inner core is in which state?",
       "multi": false
     },
     {
@@ -1920,10 +1920,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Shutdown",
-        "b": "Coldbooting",
-        "c": "Warmbooting",
-        "d": "Loggingoff"
+        "a": "Shut down",
+        "b": "Cold booting",
+        "c": "Warm booting",
+        "d": "Logging off"
       },
       "marked": null,
       "cov": {
@@ -1933,7 +1933,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Restaringacomputerthatisalreadyswitchedonisknownas",
+      "q": "Restaring a computer that is already switched on is known as",
       "multi": false
     },
     {
@@ -1943,10 +1943,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "theArctic",
-        "b": "theTropics",
-        "c": "theEquator",
-        "d": "theAntarctic"
+        "a": "the Arctic",
+        "b": "the Tropics",
+        "c": "the Equator",
+        "d": "the Antarctic"
       },
       "marked": null,
       "cov": {
@@ -1956,7 +1956,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ozoneholeisaregionover",
+      "q": "Ozone hole is a region over",
       "multi": false
     },
     {
@@ -1979,7 +1979,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingUNorganisationshasnotbeenawardedtheNobelPrize?",
+      "q": "Which of the following UN organisations has not been awarded the Nobel Prize?",
       "multi": false
     },
     {
@@ -2002,7 +2002,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheTropicofCapricorndoesnotpassthrough-;",
+      "q": "The Tropic of Capricorn does not pass through - ;",
       "multi": false
     },
     {
@@ -2012,7 +2012,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Bhubaneswar,",
+        "a": "Bhubaneswar ,",
         "b": "Panaji",
         "c": "Mumbai",
         "d": "Chennai"
@@ -2025,7 +2025,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichamongthefollowingStatecapitalsisclosesttotheEquator?",
+      "q": "Which among the following State capitals is closest to the Equator?",
       "multi": false
     },
     {
@@ -2035,10 +2035,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Mandamus;",
-        "b": "HabeasCorpus:",
+        "a": "Mandamus ;",
+        "b": "Habeas Corpus :",
         "c": "Certiorari",
-        "d": "QuoWarranto -9-*"
+        "d": "Quo Warranto -9- *"
       },
       "marked": null,
       "cov": {
@@ -2048,7 +2048,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingwritsmeans“youmayhavethebody”?",
+      "q": "Which of the following writs means “you may have the body”?",
       "multi": false
     },
     {
@@ -2071,7 +2071,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ismadeupofsmokeandfog.",
+      "q": "is made up of smoke and fog.",
       "multi": false
     },
     {
@@ -2084,7 +2084,7 @@
         "a": "Pakistan",
         "b": "Australia",
         "c": "England",
-        "d": "NewZealand"
+        "d": "New Zealand"
       },
       "marked": null,
       "cov": {
@@ -2094,7 +2094,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichcountrydidIndiabeatinthefinaloftheICCChampionsTrophy2025?",
+      "q": "Which country did India beat in the final of the ICC Champions Trophy 2025?",
       "multi": false
     },
     {
@@ -2117,7 +2117,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThehostcountryoftheinauguralKhoKhoWorldCup,2025is-",
+      "q": "The host country of the inaugural Kho Kho World Cup, 2025 is -",
       "multi": false
     },
     {
@@ -2140,7 +2140,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InwhichcontinentistheFIFAWorldCup2026settobehosted?",
+      "q": "In which continent is the FIFA World Cup 2026 set to be hosted?",
       "multi": false
     },
     {
@@ -2150,10 +2150,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "London,UnitedKingdom",
-        "b": "Madrid,Spain",
-        "c": "Lisbon,Portugal",
-        "d": "Paris,France"
+        "a": "London, United Kingdom",
+        "b": "Madrid, Spain",
+        "c": "Lisbon, Portugal",
+        "d": "Paris, France"
       },
       "marked": null,
       "cov": {
@@ -2163,7 +2163,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inwhichcitywasthe2024SummerOlympicsheld?",
+      "q": "In which city was the 2024 Summer Olympics held?",
       "multi": false
     },
     {
@@ -2174,9 +2174,9 @@
       "direction": null,
       "opts": {
         "a": "Miniaturisation",
-        "b": "Masscustomization",
-        "c": "Reactivemode",
-        "d": "Firefighting"
+        "b": "Mass customization",
+        "c": "Reactive mode",
+        "d": "Fire fighting"
       },
       "marked": null,
       "cov": {
@@ -2186,7 +2186,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichoneofthefollowingreferstoeffortstotailotthousandsofproductstospecificcustomers’ needs?",
+      "q": "Which one of the following refers to efforts to tailot thousands of products to specific customers’ needs?",
       "multi": false
     },
     {
@@ -2197,9 +2197,9 @@
       "direction": null,
       "opts": {
         "a": "Stagnation",
-        "b": "Mediangrowth",
+        "b": "Median growth",
         "c": "Recession",
-        "d": "Stagflation RAKKE"
+        "d": "Stagflation RAK KE"
       },
       "marked": null,
       "cov": {
@@ -2209,7 +2209,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thesituationinaneconomywithslowgrowthandrapidinflationisknownas-",
+      "q": "The situation in an economy with slow growth and rapid inflation is known as -",
       "multi": false
     }
   ],

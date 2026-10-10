@@ -3297,8 +3297,7 @@
     "sourceHref": "/papers/group-b/archive-lang-2024-geologist-october-2024-geologist-general-english-i-oct-2024-e15bf650.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 5
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59",
@@ -3383,10 +3382,10 @@
     "sitting": "2023",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 100
+    "expectedMcq": 100,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
@@ -3661,10 +3660,10 @@
     "sitting": "2026",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/instructor-iti-2026-paper-i-general-english-final-key.pdf",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 30
+    "expectedMcq": 30,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237",
@@ -3759,14 +3758,14 @@
     "sitting": "2025",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "imported": true,
     "sharedPosts": [
       "Assistant Director (Food & Drugs),November- 2025",
       "Child Development Project Officer (CDPO) - November-2025"
     ],
-    "reviewRequired": true,
-    "expectedMcq": 66
+    "expectedMcq": 66,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-mcs-combined-competitive-main-examination-2025-mcs-main-general-english-b14cce93",

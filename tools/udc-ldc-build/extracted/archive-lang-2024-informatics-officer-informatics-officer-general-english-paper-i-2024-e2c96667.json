@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Fleshandblood",
-        "b": "Footthebill",
-        "c": "Puttwoandtwotogether",
-        "d": "Onthespurofthemoment -2-:"
+        "a": "Flesh and blood",
+        "b": "Foot the bill",
+        "c": "Put two and two together",
+        "d": "On the spur of the moment -2- :"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Makesentencesonany7(seven)usingthefollowingIdiomsandPhrasestobringouttheirmeaning: (7*2=14)",
+      "q": "Make sentences on any 7 (seven) using the following Idioms and Phrases to bring out their meaning: (7*2=14)",
       "multi": false
     },
     {
@@ -38,9 +38,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "‘Thejourneyismoreimportantthanthedestination’byexploringthesignificanceofthe experiencesandgrowththatoccurduringthejourney,comparedtocontributetopersonal developmentandfulfilment.Provideexamplesofhowfocusingonthejourneyratherthanjust thedestinationcanleadtoamoremeaningfulandrewardingexperience,",
-        "b": "‘Innovationdriveseconomicgrowth’bydiscussinghowinnovationcontributestoeconomic development.Includeexamplesofinnovationsthathaveledtosignificanteconomicchanges andadvancements.",
-        "c": "Reading-an-excellentdiversion-pleasanthobby-byreading-wecomeincontactwithnoblest mindsofallages-books-bestcompanionsinloneliness-ourcharacter-shapedbybooks."
+        "a": "‘The journey is more important than the destination’ by exploring the significance of the experiences and growth that occur during the journey, compared to contribute to personal development and fulfilment. Provide examples of how focusing on the journey rather than just the destination can lead to a more meaningful and rewarding experience,",
+        "b": "‘Innovation drives economic growth’ by discussing how innovation contributes to economic development. Include examples of innovations that have led to significant economic changes and advancements.",
+        "c": "Reading-an-excellent diversion-pleasant hobby-by reading-we come in contact with noblest minds of all ages-books-best companions in loneliness-our character-shaped by books."
       },
       "marked": null,
       "cov": {
@@ -49,7 +49,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Expandonanyoneofthefollowing.qs)",
+      "q": "Expand on any one of the following. qs)",
       "multi": false
     },
     {
@@ -59,10 +59,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Whatisaprimarychallengeofrapidurbanizationaccordingtothepassage? i)Increasedruraldevelopmentii)Improvedairquality iii)Strainoninfrastructureiv)Decreasedpopulationdensity",
-        "b": "Whatsocio-economicissueishighlightedinthepassageasaresultofurbanization? i)Equaldistributionofwealthi)Decreasedcostofliving iii)Increasedincomeinequalityiv)Uniformaccesstoservices",
-        "c": "Howdoesurbanizationtypicallyaffectgreenspaces? i)Itpreservesandexpandsthemi)Itoftenleadstotheirreduction ii)[thasnoimpactongreenspacesiv)Itenhancestheirbiodiversity",
-        "d": "Whichstrategyissuggestedformitigatingenvironmentalimpactsofurbanization? i)Expandingindustrialareasii)Reducinggreenroofs ii)Developingenergy-efficientbuildingsiv)Decreasingprivatecarownership ~3-: i)Urbanizationsometimesimprovesqualityoflife ii)Qualityoflifeisunaffectedbyurbanization iii)Urbanizationcannegativelyaffectqualityoflifeifnotmanagedproperly iv)Qualityoflifeimproveswithoutaddressinginfrastructureissues i)Tomaintaincurrentpopulationlevels ii)Tocreateandpreservegreenspaces ii}Toaddressandmanagethechallengesofurbanization iv)Toincreaseculturalexchange i)Theyincreasethecostofdevelopment ii)Theycontributetoenvironmentaldegradation iii)Theyhelpmitigatesomeenvironmentalimpactsofurbanization iv)Theyareirrelevanttourbanplanning i)Citieswillnaturallyresolvetheirinfrastructureissues ii)Urbanareaswillbecomelessdiverse iit)Innovativeandinclusiveplanningwillbecrucialforsustainableurbangrowth iv)Urbanizationwillstopimpactingtheenvironment aRRKKKK"
+        "a": "What is a primary challenge of rapid urbanization according to the passage? i) Increased rural development ii) Improved air quality iii) Strain on infrastructure iv) Decreased population density",
+        "b": "What socio-economic issue is highlighted in the passage as a result of urbanization? i) Equal distribution of wealth i) Decreased cost of living iii) Increased income inequality iv) Uniform access to services",
+        "c": "How does urbanization typically affect green spaces? i) It preserves and expands them i) It often leads to their reduction ii) [thas no impact on green spaces iv) Itenhances their biodiversity",
+        "d": "Which strategy is suggested for mitigating environmental impacts of urbanization? i) Expanding industrial areas ii) Reducing green roofs ii) Developing energy-efficient buildings iv) Decreasing private car ownership ~3- : i) Urbanization sometimes improves quality of life ii) Quality of life is unaffected by urbanization iii) Urbanization can negatively affect quality of life if not managed properly iv) Quality of life improves without addressing infrastructure issues i) To maintain current population levels ii) To create and preserve green spaces ii} To address and manage the challenges of urbanization iv) To increase cultural exchange i) They increase the cost of development ii) They contribute to environmental degradation iii) They help mitigate some environmental impacts of urbanization iv) They are irrelevant to urban planning i) Cities will naturally resolve their infrastructure issues ii) Urban areas will become less diverse iit) Innovative and inclusive planning will be crucial for sustainable urban growth iv) Urbanization will stop impacting the environment aR RK KKK"
       },
       "marked": null,
       "cov": {
@@ -72,7 +72,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Readthefollowingpassagecarefullyandanswerthequestionsthatfollow:(8*2=16) Urbanization,theprocessbywhichmoreofapopulationmovesintocities,hassignificantly transformedsocietiesoverthepastcentury.Ascitiesgrow,theybecomecentersofeconomicactivity, culturalexchange,andinnovation.However,rapidurbanizationalsobringscomplexchallengesthat requirethoughtfulmanagement. Onemajorissueisthestrainoninfrastructure.Expandingcitiesneedtodevelopandmaintain transportationnetworks,utilities,andpublicservicestoaccommodateincreasingpopulations.Without adequateplanning,thiscanleadtocongestion,pollution,anddecreasedqualityoflife.Forinstance, trafficcongestioncanresultinlongercommutetimesandincreasedemissions,exacerbatingairquality problems. Anotherchallengeissocio-economicdisparity.Urbanareasoftenattractdiversepopulations, whichcanleadtosignificantincomeinequality.Whilesomeresidentsmaybenefitfromtheeconomic opportunitiescitiesoffer,othersmayfaceincreasedcostsoflivingandinadequateaccesstoessential services. Furthermore,urbanizationcanimpacttheenvironment.Greenspacesareoftensacrificed fornewdevelopments,leadingtoalossofbiodiversityanddisruptionoflocalecosystems.Effective urbanplanningmustintegratesustainablepracticestomitigatetheseeffects,suchascreatinggreen roofs,developingpublictransportationsystems,andpromotingenergy-efficientbuildings. Inconclusion,whileurbanizationisadrivingforcebehindeconomicandculturaladvancement, itpresentschallengesthatmustbeaddressedthroughinnovativeandinclusiveplanning.Balancing growthwithsustainabilityisessentialforcreatinglivableandequitableurbanenvironments. Questions:",
+      "q": "Read the following passage carefully and answer the questions that follow: (8*2=16) Urbanization, the process by which more of a population moves into cities, has significantly transformed societies over the past century. As cities grow, they become centers of economic activity, cultural exchange, and innovation. However, rapid urbanization also brings complex challenges that require thoughtful management. One major issue is the strain on infrastructure. Expanding cities need to develop and maintain transportation networks, utilities, and public services to accommodate increasing populations. Without adequate planning, this can lead to congestion, pollution, and decreased quality of life. For instance, traffic congestion can result in longer commute times and increased emissions, exacerbating air quality problems. Another challenge is socio-economic disparity. Urban areas often attract diverse populations, which can lead to significant income inequality. While some residents may benefit from the economic opportunities cities offer, others may face increased costs of living and inadequate access to essential services. Furthermore, urbanization can impact the environment. Green spaces are often sacrificed for new developments, leading to a loss of biodiversity and disruption of local ecosystems. Effective urban planning must integrate sustainable practices to mitigate these effects, such as creating green roofs, developing public transportation systems, and promoting energy-efficient buildings. Inconclusion, while urbanization is a driving force behind economic and cultural advancement, it presents challenges that must be addressed through innovative and inclusive planning. Balancing growth with sustainability is essential for creating livable and equitable urban environments. Questions:",
       "multi": false
     }
   ],

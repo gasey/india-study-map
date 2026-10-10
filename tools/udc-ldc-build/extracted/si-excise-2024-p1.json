@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheperiodoftheFirstFiveYearPlaninIndiawas-",
+      "q": "The period of the First Five Year Plan in India was-",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1%January2017",
-        "b": "1April2017",
-        "c": "1%July2017",
-        "d": "1%July2018"
+        "a": "1% January 2017",
+        "b": "1 April 2017",
+        "c": "1% July 2017",
+        "d": "1% July 2018"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "GoodsandServicesTaxeswasintroducedinIndiaon-",
+      "q": "Goods and Services Taxes was introduced in India on -",
       "multi": false
     },
     {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichamongthefollowingisnotwritteninthePreambleofourConstitution?",
+      "q": "Which among the following is not written in the Preamble of our Constitution?",
       "multi": false
     },
     {
@@ -84,10 +84,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Constitutionalbody",
-        "b": "Quasi-JudicialBody",
-        "c": "Statutorybody",
-        "d": "DevelopmentCommission"
+        "a": "Constitutional body",
+        "b": "Quasi-Judicial Body",
+        "c": "Statutory body",
+        "d": "Development Commission"
       },
       "marked": null,
       "cov": {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheNationalDisasterManagementAuthorityis-",
+      "q": "The National Disaster Management Authority is -",
       "multi": false
     },
     {
@@ -107,10 +107,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MembersofLokSabha",
-        "b": "MembersofStateLegislativeAssemblies",
-        "c": "StateCouncilofMinisters",
-        "d": "MembersofParliamentandStateLegislativeAssemblies"
+        "a": "Members of Lok Sabha",
+        "b": "Members of State Legislative Assemblies",
+        "c": "State Council of Ministers",
+        "d": "Members of Parliament and State Legislative Assemblies"
       },
       "marked": null,
       "cov": {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoelectedthemembersoftheRajyaSabha?",
+      "q": "Who elected the members of the Rajya Sabha?",
       "multi": false
     },
     {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HowmanymembersdoestheLokSabhacurrentlyconsistof?",
+      "q": "How many members does the Lok Sabha currently consist of?",
       "multi": false
     },
     {
@@ -154,7 +154,7 @@
       "direction": null,
       "opts": {
         "a": "Goa",
-        "b": "Jammu&Kashmir",
+        "b": "Jammu & Kashmir",
         "c": "Puducherry",
         "d": "Chandigarh"
       },
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichisnotaUnionTerritory?",
+      "q": "Which is not a Union Territory?",
       "multi": false
     },
     {
@@ -176,10 +176,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ElectionCommissionofIndia",
-        "b": "StateElectionCommission",
-        "c": "StateLocalAdministrationDepartment",
-        "d": "DesignatedBodyoftheStateGovernment"
+        "a": "Election Commission of India",
+        "b": "State Election Commission",
+        "c": "State Local Administration Department",
+        "d": "Designated Body of the State Government"
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whoconductselectionstotheruralandurbanlocalbodies?",
+      "q": "Who conducts elections to the rural and urban local bodies?",
       "multi": false
     },
     {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingbenchmarkindicesisrelatedtoNationalStockExchange?",
+      "q": "Which of the following benchmark indices is related to National Stock Exchange?",
       "multi": false
     },
     {
@@ -222,10 +222,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TheCentralGovernment",
-        "b": "FinanceMinistry",
-        "c": "CentralBank",
-        "d": "CommercialBanks"
+        "a": "The Central Government",
+        "b": "Finance Ministry",
+        "c": "Central Bank",
+        "d": "Commercial Banks"
       },
       "marked": null,
       "cov": {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Monetarypolicyisregulatedby-",
+      "q": "Monetary policy is regulated by -",
       "multi": false
     },
     {
@@ -248,7 +248,7 @@
         "a": "Agriculture",
         "b": "Industry",
         "c": "Service",
-        "d": "Tourism|"
+        "d": "Tourism |"
       },
       "marked": null,
       "cov": {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichsectoriscommonlyassociatedwithdisguisedunemployment?",
+      "q": "Which sector is commonly associated with disguised unemployment?",
       "multi": false
     },
     {
@@ -268,10 +268,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "GreenRevolution",
-        "b": "BlueRevolution",
+        "a": "Green Revolution",
+        "b": "Blue Revolution",
         "c": "Aquaculture",
-        "d": "Multi-dimensionalfisheries"
+        "d": "Multi-dimensional fisheries"
       },
       "marked": null,
       "cov": {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aremarkableincreaseintheproductionoffishandmarineproductsiscalled-",
+      "q": "A remarkable increase in the production of fish and marine products is called -",
       "multi": false
     },
     {
@@ -293,8 +293,8 @@
       "opts": {
         "a": "Increase",
         "b": "Decrease",
-        "c": "Nochange",
-        "d": "Noexpansion"
+        "c": "No change",
+        "d": "No expansion"
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theeffectofreducingcashreserveratiobythecentralbankoncreditcreationis-",
+      "q": "The effect of reducing cash reserve ratio by the central bank on credit creation is -",
       "multi": false
     },
     {
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aformoftaxchargedoverandabovethebasetaxliabilityofataxpayeris-",
+      "q": "A form of tax charged over and above the base tax liability ofa taxpayer is -",
       "multi": false
     },
     {
@@ -337,10 +337,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "%2455.08crores",
-        "b": "72500.52crores",
-        "c": "%2200.02crores",
-        "d": "%2550.08crores"
+        "a": "%2455.08 crores",
+        "b": "7 2500.52 crores",
+        "c": "%2200.02 crores",
+        "d": "% 2550.08 crores"
       },
       "marked": null,
       "cov": {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheamountallocatedforcapitalexpenditureintheMizoramBudget2024-25is-",
+      "q": "The amount allocated for capital expenditure in the Mizoram Budget 2024-25 is -",
       "multi": false
     },
     {
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TherevenueexpenditureaccountedforofthetotalexpenditureintheBudgetEstimate ofMizoramfortheyear2024-25.",
+      "q": "The revenue expenditure accounted for of the total expenditure in the Budget Estimate of Mizoram for the year 2024-25.",
       "multi": false
     },
     {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichisnotcentrallysponsoredschemeinMizoram?",
+      "q": "Which is not centrally sponsored scheme in Mizoram?",
       "multi": false
     },
     {
@@ -406,10 +406,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RabindraNathTagore",
-        "b": "SarojiniNaidu",
-        "c": "BankimChandraChatterjee",
-        "d": "RamdhariSinghDinkar"
+        "a": "Rabindra Nath Tagore",
+        "b": "Sarojini Naidu",
+        "c": "Bankim Chandra Chatterjee",
+        "d": "Ramdhari Singh Dinkar"
       },
       "marked": null,
       "cov": {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whowasthecomposerofthesong“VandeMataram”?",
+      "q": "Who was the composer of the song “Vande Mataram”?",
       "multi": false
     },
     {
@@ -429,10 +429,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BengalGazette",
-        "b": "HindustanTimes",
-        "c": "ThePioneer",
-        "d": "SambadKaumadi"
+        "a": "Bengal Gazette",
+        "b": "Hindustan Times",
+        "c": "The Pioneer",
+        "d": "Sambad Kaumadi"
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstnewspaperinIndiawas-",
+      "q": "The first newspaper in India was -",
       "multi": false
     },
     {
@@ -452,10 +452,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SwamiVivekananda",
-        "b": "AOHume",
-        "c": "NanaSaheb",
-        "d": "RajaRamMohanRoy"
+        "a": "Swami Vivekananda",
+        "b": "AO Hume",
+        "c": "Nana Saheb",
+        "d": "Raja Ram Mohan Roy"
       },
       "marked": null,
       "cov": {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whowasknownas“ModernManofIndia”?",
+      "q": "Who was known as “Modern Man of India”?",
       "multi": false
     },
     {
@@ -475,10 +475,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RajaRamMohanRoy",
-        "b": "MahatmaGandhi",
-        "c": "BalGangadharTilak",
-        "d": "JawaharLalNehru"
+        "a": "Raja Ram Mohan Roy",
+        "b": "Mahatma Gandhi",
+        "c": "Bal Gangadhar Tilak",
+        "d": "Jawahar Lal Nehru"
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whosaid“Swarajismybirthright,Ishallhaveit”?",
+      "q": "Who said “Swaraj is my birth right, I shall have it”?",
       "multi": false
     },
     {
@@ -498,10 +498,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "DadabhaiNaoroji",
-        "b": "GopalKrishnaGokhale",
-        "c": "RameshChandraBanerjee",
-        "d": "LokamaniaTilak"
+        "a": "Dadabhai Naoroji",
+        "b": "Gopal Krishna Gokhale",
+        "c": "Ramesh Chandra Banerjee",
+        "d": "Lokamania Tilak"
       },
       "marked": null,
       "cov": {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whowascalled“GrandOldManofIndia”?",
+      "q": "Who was called “Grand Old Man of India”?",
       "multi": false
     },
     {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheProvincialGovernmentswereconstitutedundertheActof-",
+      "q": "The Provincial Governments were constituted under the Act of -",
       "multi": false
     },
     {
@@ -544,10 +544,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BalGangadharTilak",
-        "b": "JawaharlalNehru",
-        "c": "BhagatSingh",
-        "d": "MahatmaGandhi"
+        "a": "Bal Gangadhar Tilak",
+        "b": "Jawaharlal Nehru",
+        "c": "Bhagat Singh",
+        "d": "Mahatma Gandhi"
       },
       "marked": null,
       "cov": {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theslogan“doordie”wasgivenby-",
+      "q": "The slogan “do or die” was given by -",
       "multi": false
     },
     {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichisavolcanicisland?",
+      "q": "Whichis a volcanic island?",
       "multi": false
     },
     {
@@ -590,9 +590,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "WesternGhats",
-        "b": "ChhotaNagpur",
-        "c": "MalwaPlateau",
+        "a": "Western Ghats",
+        "b": "Chhota Nagpur",
+        "c": "Malwa Plateau",
         "d": "Arravalis"
       },
       "marked": null,
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichisincludedintheDeccanPlateauregion?",
+      "q": "Which is included in the Deccan Plateau region?",
       "multi": false
     },
     {
@@ -613,10 +613,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "IndiaandNepal",
-        "b": "IndiaandChina",
-        "c": "IndiaandBhutan",
-        "d": "IndiaandPakistan"
+        "a": "India and Nepal",
+        "b": "India and China",
+        "c": "India and Bhutan",
+        "d": "India and Pakistan"
       },
       "marked": null,
       "cov": {
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "McMohanLineineffectdemarcates",
+      "q": "Mc Mohan Line in effect demarcates",
       "multi": false
     },
     {
@@ -636,10 +636,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Fairweather",
-        "b": "Stormyweather",
-        "c": "Coldweather",
-        "d": "Hotweather"
+        "a": "Fair weather",
+        "b": "Stormy weather",
+        "c": "Cold weather",
+        "d": "Hot weather"
       },
       "marked": null,
       "cov": {
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Asuddenfallinmercuricbarometerindicates-",
+      "q": "A sudden fall in mercuric barometer indicates -",
       "multi": false
     },
     {
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingtemperaturescaleisbaseduponabsolutezero?",
+      "q": "Which of the following temperature scale is based upon absolute zero?",
       "multi": false
     },
     {
@@ -682,10 +682,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Uniformvelocity",
-        "b": "Uniformacceleration",
-        "c": "Zeroacceleration",
-        "d": "Non-uniformacceleration"
+        "a": "Uniform velocity",
+        "b": "Uniform acceleration",
+        "c": "Zero acceleration",
+        "d": "Non-uniform acceleration"
       },
       "marked": null,
       "cov": {
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Themotionofanobjectunderfreefallisanexampleof-",
+      "q": "The motion of an object under free fall is an example of -",
       "multi": false
     },
     {
@@ -705,7 +705,7 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Smallintestine",
+        "a": "Small intestine",
         "b": "Rectum",
         "c": "Pharynx",
         "d": "Spleen"
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingisnotapartofthedigestivesystem?",
+      "q": "Which of the following is not a part of the digestive system?",
       "multi": false
     },
     {
@@ -728,10 +728,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Deoxyribonucleicacid",
-        "b": "Dinucleicacid",
-        "c": "Diribonucleicacid",
-        "d": "Dualnitrogenacid"
+        "a": "Deoxyribonucleic acid",
+        "b": "Dinucleic acid",
+        "c": "Diribo nucleic acid",
+        "d": "Dual nitrogen acid"
       },
       "marked": null,
       "cov": {
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefullformofDNAis-",
+      "q": "The full form of DNA is -",
       "multi": false
     },
     {
@@ -753,8 +753,8 @@
       "opts": {
         "a": "C.Durthanga",
         "b": "Englandthanga",
-        "c": "C.Dinthanga",
-        "d": "SailothangiSailo"
+        "c": "C. Dinthanga",
+        "d": "Sailothangi Sailo"
       },
       "marked": null,
       "cov": {
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowasthecomposerofMizopopularsongLentlaiaruallo?",
+      "q": "Who was the composer of Mizo popular song Lentlai a rual lo?",
       "multi": false
     },
     {
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichisthemostliteratedistrictaccordingto2011Census?",
+      "q": "Which is the most literate district according to 2011 Census?",
       "multi": false
     },
     {
@@ -797,10 +797,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PrathamNGO",
-        "b": "MinistryofEducation",
-        "c": "SamagraShikshaAbhyan",
-        "d": "NITIAayog"
+        "a": "Pratham NGO",
+        "b": "Ministry of Education",
+        "c": "Samagra Shiksha Abhyan",
+        "d": "NITI Aayog"
       },
       "marked": null,
       "cov": {
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AnnualStatusofEducationReport(ASER)2023wasreleasedby-",
+      "q": "Annual Status of Education Report (ASER) 2023 was released by -",
       "multi": false
     },
     {
@@ -820,10 +820,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MinistryofSocialJusticeandEmpowerment",
-        "b": "MinistryofCommerceandIndustry",
+        "a": "Ministry of Social Justice and Empowerment",
+        "b": "Ministry of Commerce and Industry",
         "c": "NITIAayog",
-        "d": "PrimeMinister’sOffice"
+        "d": "Prime Minister’s Office"
       },
       "marked": null,
       "cov": {
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "NationalMultidimensionalPovertyIndexisreleasedby-",
+      "q": "National Multidimensional Poverty Index is released by -",
       "multi": false
     },
     {
@@ -843,10 +843,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Freeelectrictothepoorhouseholds",
-        "b": "Rooftopsolarpowetroonecrorehouseholds",
-        "c": "Gridconnectedpowertothehouseholds",
-        "d": "Greenenergytothepeople"
+        "a": "Free electric to the poor households",
+        "b": "Rooftop solar powetro  one crore households",
+        "c": "Grid connected power to the households",
+        "d": "Green energy to the people"
       },
       "marked": null,
       "cov": {
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThePrimeMinistryrecentlyannouncedPradhanMantriSuryodayaYojanatoprovide",
+      "q": "The Prime Ministry recently announced Pradhan Mantri Suryodaya Yojana to provide",
       "multi": false
     },
     {
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheElectoralBond,recentlystruckdownbytheSupremeCourt,wasimplementedsince-",
+      "q": "The Electoral Bond, recently struck down by the Supreme Court, was implemented since -",
       "multi": false
     },
     {
@@ -892,7 +892,7 @@
         "a": "Assam",
         "b": "Gujarat",
         "c": "Uttarakhand",
-        "d": "UttarPradesh"
+        "d": "Uttar Pradesh"
       },
       "marked": null,
       "cov": {
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichstateisthefirsttoenactUniformCivilCode?",
+      "q": "Which state is the first to enact Uniform Civil Code?",
       "multi": false
     },
     {
@@ -912,10 +912,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "JoeBiden",
-        "b": "NarendraModi",
-        "c": "VladimirPutin",
-        "d": "VolodymyrZelensky"
+        "a": "Joe Biden",
+        "b": "Narendra Modi",
+        "c": "Vladimir Putin",
+        "d": "Volodymyr Zelensky"
       },
       "marked": null,
       "cov": {
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whowasrecognisedasthe2022PersonoftheYearbytheTimeMagazine?",
+      "q": "Who was recognised as the 2022 Person of the Year by the Time Magazine?",
       "multi": false
     },
     {
@@ -936,8 +936,8 @@
       "direction": null,
       "opts": {
         "a": "Benin",
-        "b": "BurkinaFaso-",
-        "c": "Coted'Ivoire",
+        "b": "BurkinaFaso -",
+        "c": "Cote d'Ivoire",
         "d": "Ghana"
       },
       "marked": null,
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingcountriesgrapplingwithjihadistviolenceandpovertyhaverecentlyannounced itsdeparturefromECOWAS?",
+      "q": "Which of the following countries grappling with jihadist violence and poverty have recently announced its departure from ECOWAS?",
       "multi": false
     },
     {
@@ -958,10 +958,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1December",
-        "b": "2™December",
-        "c": "5December",
-        "d": "7December"
+        "a": "1 December",
+        "b": "2™ December",
+        "c": "5 December",
+        "d": "7 December"
       },
       "marked": null,
       "cov": {
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichdayinayeariscelebratedasWorldAIDSDay?",
+      "q": "Which day ina year is celebrated as World AIDS Day?",
       "multi": false
     },
     {
@@ -981,10 +981,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RohanBopanna",
-        "b": "VishnuVardhan",
-        "c": "LeanderPaes",
-        "d": "M.Bhupathi"
+        "a": "Rohan Bopanna",
+        "b": "Vishnu Vardhan",
+        "c": "Leander Paes",
+        "d": "M. Bhupathi"
       },
       "marked": null,
       "cov": {
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IndiantennisplayerwhowonAustralianmendoubles2024was-",
+      "q": "Indian tennis player who won Australian men doubles 2024 was -",
       "multi": false
     },
     {
@@ -1004,10 +1004,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Shemightgotothepartyifshefinishesherworkontime.",
-        "b": "Youshouldwearacoat;it’scoldoutside.",
-        "c": "Hewouldplaytenniseveryweekendwhenhewasyounger.",
-        "d": "Theycanswimverywell. (a)Might(b)Must (c)Shall(d)Should:"
+        "a": "She might go to the party if she finishes her work on time.",
+        "b": "You should weara  coat; it’s cold outside.",
+        "c": "He would play tennis every weekend when he was younger.",
+        "d": "They can swim very well. (a) Might (b) Must (c) Shall (d) Should :"
       },
       "marked": null,
       "cov": {
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inwhichofthefollowingsentencesisthemodalverbusedtoexpressnecessity?",
+      "q": "In which of the following sentences is the modal verb used to express necessity?",
       "multi": false
     },
     {
@@ -1027,10 +1027,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "IcanspeakFrenchfluently.",
-        "b": "Heshouldhavearrivedbynow.",
-        "c": "Shewouldalwayshelpmewithmyhomework.",
-        "d": "Wewillneedtoleaveearlytomorrow."
+        "a": "Ican speak French fluently.",
+        "b": "He should have arrived by now.",
+        "c": "She would always help me with my homework.",
+        "d": "We will need to leave early tomorrow."
       },
       "marked": null,
       "cov": {
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inwhichsentenceisthemodalverbexpressingapastability?",
+      "q": "In which sentence is the modal verb expressing a past ability?",
       "multi": false
     },
     {
@@ -1050,10 +1050,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Youshouldtakeanumbrella;itmightrainlater.",
-        "b": "Shemustfinishherhomeworkbeforeshecangoouttoplay.",
-        "c": "Hecouldrunveryfastwhenhewasyounger.",
-        "d": "Theywouldalwayshelptheirneighborswithchores."
+        "a": "You should take an umbrella; it might rain later.",
+        "b": "She must finish her homework before she can go out to play.",
+        "c": "He could run very fast when he was younger.",
+        "d": "They would always help their neighbors with chores."
       },
       "marked": null,
       "cov": {
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inwhichsentenceisthemodalverbusedtoexpressapastobligation?",
+      "q": "In which sentence is the modal verb used to express a past obligation?",
       "multi": false
     },
     {
@@ -1086,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thecatjumpedthefenceandranaway.",
+      "q": "The cat jumped the fence and ran away.",
       "multi": false
     },
     {
@@ -1099,7 +1099,7 @@
         "a": "©",
         "b": "to",
         "c": "at",
-        "d": "_by"
+        "d": "_ by"
       },
       "marked": null,
       "cov": {
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Sheisallergicsats.",
+      "q": "Sheisallergic sats.",
       "multi": false
     },
     {
@@ -1119,10 +1119,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Theflowers",
+        "a": "The flowers",
         "b": "Bloomed",
-        "c": "Bloomedbeautifully",
-        "d": "Inthegarden"
+        "c": "Bloomed beautifully",
+        "d": "In the garden"
       },
       "marked": null,
       "cov": {
@@ -1132,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inthesentence“Theflowersinthegardenbloomedbeautifully,”whatisthepredicate?",
+      "q": "In the sentence “The flowers in the garden bloomed beautifully,” what is the predicate?",
       "multi": false
     },
     {
@@ -1142,10 +1142,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "“Theconcert”isthesubjectand“captivatedtheaudience”isthepredicate.",
-        "b": "“Filledwithexcitementandanticipation”isthesubjectand“captivatedtheaudience”isthe predicate.",
-        "c": "“Theconcert,filledwithexcitementandanticipation”isthesubjectand“captivatedtheaudience” isthepredicate.",
-        "d": "“Theconcert”isthesubjectand“filledwithexcitementandanticipation”isthepredicate."
+        "a": "“The concert” is the subject and “captivated the audience” is the predicate.",
+        "b": "“Filled with excitement and anticipation” is the subject and “captivated the audience” is the predicate.",
+        "c": "“The concert, filled with excitement and anticipation” is the subject and “captivated the audience” is the predicate.",
+        "d": "“The concert” is the subject and “filled with excitement and anticipation” is the predicate."
       },
       "marked": null,
       "cov": {
@@ -1155,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inthesentence“Theconcert,filledwithexcitementandanticipation,captivatedtheaudience,”which ofthefollowingstatementsistrue?",
+      "q": "In the sentence “The concert, filled with excitement and anticipation, captivated the audience,” which of the following statements is true?",
       "multi": false
     },
     {
@@ -1166,9 +1166,9 @@
       "direction": null,
       "opts": {
         "a": "haven’tthey?",
-        "b": "havethey?",
-        "c": "havetheyfinished?",
-        "d": "haven’ttheyfinished? (a)Shehasgonetothestoretobuysomegroceries. (b)Theyhasbeenwaitingforthebusforoveranhour. (c)IhaveneverbeentoParisbefore. (d)Wehavealreadyeatendinner."
+        "b": "have they?",
+        "c": "have they finished?",
+        "d": "haven’t they finished? (a) She has gone to the store to buy some groceries. (b) They has been waiting for the bus for over an hour. (c) Ihave never been to Paris before. (d) We have already eaten dinner."
       },
       "marked": null,
       "cov": {
@@ -1178,7 +1178,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatisthecorrectquestiontagforthestatement:“Theyhaven’tfinishedtheirhomeworkyet”?",
+      "q": "What is the correct question tag for the statement: “They haven’t finished their homework yet”?",
       "multi": false
     },
     {
@@ -1188,10 +1188,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Shewasstudyingwhenthelightswentout.",
-        "b": "Hewassleepingwhenthephonerang.",
-        "c": "Theyhavebeengoingtoschoollastweek.",
-        "d": "Wewerewalkingintheparkwhenitstartedraining."
+        "a": "She was studying when the lights went out.",
+        "b": "He was sleeping when the phone rang.",
+        "c": "They have been going to school last week.",
+        "d": "We were walking in the park when it started raining."
       },
       "marked": null,
       "cov": {
@@ -1201,7 +1201,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Identifythesentencewithanerrorintheuseofthepastcontinuoustense:",
+      "q": "Identify the sentence with an error in the use of the past continuous tense:",
       "multi": false
     },
     {
@@ -1211,10 +1211,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Hishomeworkhasbeencompletedbyhim.",
-        "b": "Hishomeworkiscompletedbyhim.",
-        "c": "Hishomeworkwascompletedbyhim.",
-        "d": "Hishomeworkhasbeencompletingbyhim."
+        "a": "His homework has been completed by him.",
+        "b": "His homework is completed by him.",
+        "c": "His homework was completed by him.",
+        "d": "His homework has been completing by him."
       },
       "marked": null,
       "cov": {
@@ -1224,7 +1224,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Changethesentence“Hehascompletedhishomework”intopassivevoice.",
+      "q": "Change the sentence “He has completed his homework” into passive voice.",
       "multi": false
     },
     {
@@ -1234,10 +1234,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Hesendstheletter.",
-        "b": "Hehassenttheletter.",
-        "c": "Heissendingtheletter.",
-        "d": "Hesenttheletter. -6-."
+        "a": "He sends the letter.",
+        "b": "He has sent the letter.",
+        "c": "Heis sending the letter.",
+        "d": "He sent the letter. -6- ."
       },
       "marked": null,
       "cov": {
@@ -1247,7 +1247,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Changethesentence“Theletterhasbeensentbyhim”intoactivevoice.",
+      "q": "Change the sentence “The letter has been sent by him” into active voice.",
       "multi": false
     },
     {
@@ -1270,7 +1270,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethesynonymfor“ephemeral”?.",
+      "q": "Choose the synonym for “ephemeral”? .",
       "multi": false
     },
     {
@@ -1280,10 +1280,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ThisisthemostcomplicatedpuzzleIhaveeverseen.",
-        "b": "Herhouseisbiggerthanmyapartment.",
-        "c": "Thisproblemismoredifficultascomparedtothepreviousone.",
-        "d": "Hespeaksmorefluentlythananyoneelseintheclass."
+        "a": "This is the most complicated puzzle I have ever seen.",
+        "b": "Her house is bigger than my apartment.",
+        "c": "This problem is more difficult as compared to the previous one.",
+        "d": "He speaks more fluently than anyone else in the class."
       },
       "marked": null,
       "cov": {
@@ -1293,7 +1293,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Identifythesentencewiththecorrectuseofthecomparativedegree:",
+      "q": "Identify the sentence with the correct use of the comparative degree:",
       "multi": false
     },
     {
@@ -1303,10 +1303,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Sheismorebeautifulthananyothergirlintheroom.",
-        "b": "ThisisthemostinterestingbookI’veeverread.",
-        "c": "Thatcarisfasterthanmine.",
-        "d": "Heisthestrongerofthetwobrothers."
+        "a": "She is more beautiful than any other girl in the room.",
+        "b": "This is the most interesting book I’ve ever read.",
+        "c": "That car is faster than mine.",
+        "d": "He is the stronger of the two brothers."
       },
       "marked": null,
       "cov": {
@@ -1316,7 +1316,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Identifythesentencewiththecorrectuseofthesuperlativedegree:",
+      "q": "Identify the sentence with the correct use of the superlative degree:",
       "multi": false
     },
     {
@@ -1326,10 +1326,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Theyaregoingtothebeach;tomorrow.",
-        "b": "Thedogbarked,atthemailman.",
-        "c": "Heasked,“Whattimeisthemeeting”?",
-        "d": "Thebookisontheshelf;it’sonthetop."
+        "a": "They are going to the beach; tomorrow.",
+        "b": "The dog barked, at the mailman.",
+        "c": "He asked, “What time is the meeting”?",
+        "d": "The book is on the shelf; it’s on the top."
       },
       "marked": null,
       "cov": {
@@ -1339,7 +1339,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethesentencewithcorrectpunctuation:",
+      "q": "Choose the sentence with correct punctuation:",
       "multi": false
     },
     {
@@ -1349,10 +1349,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Theyhadapicnic,andplayedgames,inthepark.",
-        "b": "Theconcertstartsat8pm,don’tbelate.",
-        "c": "Shewhispered,“Ihaveasecret”.",
-        "d": "Helookedaroundbutcouldn’tfindhiskeys."
+        "a": "They had a picnic, and played games, in the park.",
+        "b": "The concert starts at 8 pm, don’t be late.",
+        "c": "She whispered, “I have a secret”.",
+        "d": "He looked around but couldn’t find his keys."
       },
       "marked": null,
       "cov": {
@@ -1362,7 +1362,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethesentencewithcorrectpunctuation:",
+      "q": "Choose the sentence with correct punctuation:",
       "multi": false
     },
     {
@@ -1372,10 +1372,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Thetrainarrivedat10:30,itwaslate.",
-        "b": "TheyvisitedRome,Italy,andParisontheirtrip.",
-        "c": "Shesaid“Iwillmeetyouatthecafeat3pm”.",
-        "d": "Theconcertstartsat7:00,butweshouldarriveearly."
+        "a": "The train arrived at 10:30, it was late.",
+        "b": "They visited Rome, Italy, and Paris on their trip.",
+        "c": "She said “I will meet you at the cafe at 3 pm”.",
+        "d": "The concert starts at 7:00, but we should arrive early."
       },
       "marked": null,
       "cov": {
@@ -1385,7 +1385,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethesentencewithcorrectpunctuation:",
+      "q": "Choose the sentence with correct punctuation:",
       "multi": false
     },
     {
@@ -1395,10 +1395,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Read-a-she-book-interesting-found-yesterday,",
-        "b": "Played-the-children-happily-the-park-in. .",
-        "c": "To-they-movies-went-the-yesterday.",
-        "d": "Coffee-she-in-the-morning-enjoys."
+        "a": "Read -a- she - book - interesting - found - yesterday,",
+        "b": "Played - the - children - happily - the - park-in.  .",
+        "c": "To - they - movies - went - the - yesterday.",
+        "d": "Coffee - she - in - the - morning - enjoys."
       },
       "marked": null,
       "cov": {
@@ -1408,7 +1408,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Arrangethejumbledwordsandidentifythecorrectsentence.",
+      "q": "Arrange the jumbled words and identify the correct sentence.",
       "multi": false
     },
     {
@@ -1418,10 +1418,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "The-swam-fish-in-pond-the-happily.",
-        "b": "Walked-dog-the-she-in-park-the.",
-        "c": "Sat-they-on-bench-the-enjoying-the-view.",
-        "d": "Cycled-they-along-the-river-scenic-route."
+        "a": "The - swam - fish - in - pond - the - happily.",
+        "b": "Walked - dog - the - she - in - park - the.",
+        "c": "Sat - they - on - bench - the - enjoying - the - view.",
+        "d": "Cycled - they - along - the - river - scenic - route."
       },
       "marked": null,
       "cov": {
@@ -1431,7 +1431,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Arrangethejumbledwordsandidentifythecorrectsentence.",
+      "q": "Arrange the jumbled words and identify the correct sentence.",
       "multi": false
     },
     {
@@ -1441,10 +1441,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Tomakeamistake",
-        "b": "Tobeinthewrongplace",
-        "c": "Tobeoverlyoptimistic",
-        "d": "Topursuethewrongcourseofaction"
+        "a": "To make a mistake",
+        "b": "To be in the wrong place",
+        "c": "To be overly optimistic",
+        "d": "To pursue the wrong course of action"
       },
       "marked": null,
       "cov": {
@@ -1454,7 +1454,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatdoestheidiom“barkingupthewrongtree”mean?",
+      "q": "What does the idiom “barking up the wrong tree” mean?",
       "multi": false
     },
     {
@@ -1464,10 +1464,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Tobeinabadmood",
-        "b": "Tobefeelinghealthy",
-        "c": "Tobefeelingillorunwell",
-        "d": "Tobeoverlyoptimistic -~7-."
+        "a": "To be ina bad mood",
+        "b": "To be feeling healthy",
+        "c": "To be feeling ill or unwell",
+        "d": "Tobeoverly optimistic -~7- ."
       },
       "marked": null,
       "cov": {
@@ -1477,7 +1477,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatdoestheidiom“undertheweather”mean?",
+      "q": "What does the idiom “under the weather” mean?",
       "multi": false
     },
     {
@@ -1487,10 +1487,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Toinjureoneself",
-        "b": "Towishsomeonegoodluck",
-        "c": "Togoonavacation",
-        "d": "Toquitajob"
+        "a": "To injure oneself",
+        "b": "To wish someone good luck",
+        "c": "To go ona vacation",
+        "d": "To quitajob"
       },
       "marked": null,
       "cov": {
@@ -1500,7 +1500,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatdoestheidiom“breakaleg”mean?",
+      "q": "What does the idiom “break a leg” mean?",
       "multi": false
     },
     {
@@ -1508,7 +1508,7 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.76-80):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 76 - 80) : Read the given passage carefully and answer the questions that",
       "opts": {
         "a": "metaphorical",
         "b": "rhetorical",
@@ -1523,7 +1523,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thepassagemakesuseoflanguagethatis~",
+      "q": "The passage makes use of language that is ~",
       "multi": false
     },
     {
@@ -1531,12 +1531,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.76-80):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 76 - 80) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "rainbringswithitcoldtemperaturesforthefollowingdays.",
-        "b": "theweatherismuchwarmerthanitisforchildren.",
-        "c": "theydonotgetalongtimeofffromworkfortheseason.",
-        "d": "theybetterknowhowtooccupytheirdowntime."
+        "a": "rain brings with it cold temperatures for the following days.",
+        "b": "the weather is much warmer than it is for children.",
+        "c": "they do not get a long time off from work for the season.",
+        "d": "they better know how to occupy their downtime."
       },
       "marked": null,
       "cov": {
@@ -1546,7 +1546,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Accordingtothepassage,summerisdifferentforadultsbecause-",
+      "q": "According to the passage, summer is different for adults because -",
       "multi": false
     },
     {
@@ -1554,12 +1554,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.76-80):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 76 - 80) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Heorshewasoftenboredonsummerdays.",
-        "b": "Heorshepreferredcoolerweather.",
-        "c": "Heorshelikedstayingindoors.",
-        "d": "Heorshehadnosiblings."
+        "a": "He or she was often bored on summer days.",
+        "b": "He or she preferred cooler weather.",
+        "c": "He or she liked staying indoors.",
+        "d": "He or she had no siblings."
       },
       "marked": null,
       "cov": {
@@ -1569,7 +1569,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Accordingtothepassage,whichofthefollowingisatruestatementaboutthenarratorasachild?",
+      "q": "According to the passage, which of the following is a true statement about the narrator as a child?",
       "multi": false
     },
     {
@@ -1577,12 +1577,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.76-80):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 76 - 80) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "apermanentconclusion",
-        "b": "ashortcontinuation",
-        "c": "ahigherlevelofpain",
-        "d": "atemporarybreak -8-."
+        "a": "a permanent conclusion",
+        "b": "ashort continuation",
+        "c": "ahigher level of pain",
+        "d": "atemporary break -8- ."
       },
       "marked": null,
       "cov": {
@@ -1592,7 +1592,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Asusedinthefinalparagraph,thewordreprievemostnearlymeans-",
+      "q": "As used in the final paragraph, the word reprieve most nearly means -",
       "multi": false
     },
     {
@@ -1600,12 +1600,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-85):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 81 - 85) : Read the given passage carefully and answer the questions that",
       "opts": {
         "a": "vanity",
         "b": "ignorance",
         "c": "overconfidence",
-        "d": "faultyinformation"
+        "d": "faulty information"
       },
       "marked": null,
       "cov": {
@@ -1615,7 +1615,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Basedoninformationinthepassage,itcanbeconcludedthatHookerlosttheBattleofChancellorsville mostlybecauseofhis-",
+      "q": "Based on information in the passage, it can be concluded that Hooker lost the Battle of Chancellorsville mostly because of his -",
       "multi": false
     },
     {
@@ -1623,12 +1623,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-85):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 81 - 85) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "showcasethedifferentbackgroundsandpersonalhistoriesofthesetwoenemysoldiers.",
-        "b": "providesupportfortheideathatLeewasamorevirtuouspersonthanHooker,andtherefore",
-        "c": "suggestthatifHookerhadbeenmoredevoutandprincipled,hemightnothavebeenoutwitted",
-        "d": "implythatthesemenfundamentallydifferedintheirapproachestonearlyeverything,including"
+        "a": "showcase the different backgrounds and personal histories of these two enemy soldiers.",
+        "b": "provide support for the idea that Lee was a more virtuous person than Hooker, and therefore",
+        "c": "suggest that if Hooker had been more devout and principled, he might not have been outwitted",
+        "d": "imply that these men fundamentally differed in their approaches to nearly everything, including"
       },
       "marked": null,
       "cov": {
@@ -1638,7 +1638,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThecontrastdrawnbetweenLeeandHookerinparagraph2isintendedto-",
+      "q": "The contrast drawn between Lee and Hooker in paragraph 2 is intended to -",
       "multi": false
     },
     {
@@ -1646,12 +1646,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-85):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 81 - 85) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "fondness,partiality,affection",
-        "b": "flaw,fault,shortcoming",
-        "c": "distaste,aversion,dissatisfaction",
-        "d": "tendency,inclination,predisposition"
+        "a": "fondness, partiality, affection",
+        "b": "flaw, fault, shortcoming",
+        "c": "distaste, aversion, dissatisfaction",
+        "d": "tendency, inclination, predisposition"
       },
       "marked": null,
       "cov": {
@@ -1661,7 +1661,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Basedonitsuseinparagraph3,itcanbeinferredthatthewordpropensitybelongstowhichofthe followingwordgroups?",
+      "q": "Based on its use in paragraph 3, it can be inferred that the word propensity belongs to which of the following word groups?",
       "multi": false
     },
     {
@@ -1669,7 +1669,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-85):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 81 - 85) : Read the given passage carefully and answer the questions that",
       "opts": {
         "a": "strengthened",
         "b": "anchored",
@@ -1684,7 +1684,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Asusedinparagraph4,buoyedmostnearlymeans-",
+      "q": "As used in paragraph 4, buoyed most nearly means -",
       "multi": false
     },
     {
@@ -1692,12 +1692,12 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-85):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 81 - 85) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Notonetogloatoverhissuccess,Leeremarkedthatthevictoryhadbeentheproductof valiantfightingandgoodluck,ashebegantomapoutstrategiesfortheirnextmove.",
-        "b": "Inallhisdaysoffighting,Hookerhadneverbeenmetwithsuchsurpriseandopposition;he tooktosolemncontemplationoftheeventsthathadtranspiredaswellasthelessonshemight Jearnfromthem.",
-        "c": "Woundedinbothbodyandspirit,Hookerandhisseverelydiminishedforcesretreatedto highergroundwheretheyproceededtoreloadtheirweaponsandprepareforacounterattack.",
-        "d": "Uponreturningtocamp,thetriumphantLeeimmediatelyorderedforsupplicstobebroughtup andprovisionsmadeforaraucousvictorycelebration."
+        "a": "Not one to gloat over his success, Lee remarked that the victory had been the product of valiant fighting and good luck, as he began to map out strategies for their next move.",
+        "b": "Inall his days of fighting, Hooker had never been met with such surprise and opposition; he took to solemn contemplation of the events that had transpired as well as the lessons he might Jearn from them.",
+        "c": "Wounded in both body and spirit, Hooker and his severely diminished forces retreated to higher ground where they proceeded to reload their weapons and prepare for a counter attack.",
+        "d": "Upon returning to camp, the triumphant Lee immediately ordered for supplics to be brought up and provisions made for a raucous victory celebration."
       },
       "marked": null,
       "cov": {
@@ -1707,7 +1707,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifthispassageweretocontinue,whichofthefollowingwouldmostlikelybethefirstsentenceofthe nextparagraph?",
+      "q": "Ifthis passage were to continue, which of the following would most likely be the first sentence of the next paragraph?",
       "multi": false
     },
     {
@@ -1715,7 +1715,7 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.86-90):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 86 - 90) : Read the given passage carefully and answer the questions that",
       "opts": {
         "a": "Unintelligent",
         "b": "Boring",
@@ -1730,7 +1730,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Asusedinparagraph2,whatisthebestantonymforcredible?",
+      "q": "As used in paragraph 2, what is the best antonym for credible?",
       "multi": false
     },
     {
@@ -1738,12 +1738,12 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.86-90):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 86 - 90) : Read the given passage carefully and answer the questions that",
       "opts": {
         "a": "Pathos",
         "b": "Ethos",
         "c": "Logos",
-        "d": "Combinationofethos,pathos,andlogos"
+        "d": "Combination of ethos, pathos, and logos"
       },
       "marked": null,
       "cov": {
@@ -1753,7 +1753,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Amyistryingtoconvincehermothertobuyherapairof$200shoes.Shesays:“Mom,theshoesI havearereallyoldandugly.If[don’tgetthesenewshoes,everyoneatschoolisgoingtolaughatme. IwillbesoembarrassedthatIwillwanttodie.”WhatformofpersuasionisAmyusinghere?",
+      "q": "Amy is trying to convince her mother to buy her a pair of $200 shoes. She says: “Mom, the shoes I have are really old and ugly. If [ don’t get these new shoes, everyone at school is going to laugh at me. I will be so embarrassed that I will want to die.” What form of persuasion is Amy using here?",
       "multi": false
     },
     {
@@ -1761,12 +1761,12 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.86-90):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 86 - 90) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "anaudienceismoreeasilyconvincedbyfactsandinformationthansimpleappealstoemotions",
-        "b": "anaudienceismorelikelytotrustaspeakerwhousesevidencetosupporthisargument.",
-        "c": "aspeakerwhooverusespathosmightmakeanaudiencetooemotional;audienceswhoaretoo",
-        "d": "aspeakercanusemisleadingorfalseinformationtomakehisargumentseemmoreconvincing."
+        "a": "anaudience is more easily convinced by facts and information than simple appeals to emotions",
+        "b": "an audience is more likely to trust a speaker who uses evidence to support his argument.",
+        "c": "aspeaker who overuses pathos might make an audience too emotional; audiences who are too",
+        "d": "aspeaker can use misleading or false information to make his argument seem more convincing."
       },
       "marked": null,
       "cov": {
@@ -1776,7 +1776,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Accordingtothepassage,logoscanbuildethosbecause-",
+      "q": "According to the passage, logos can build ethos because -",
       "multi": false
     },
     {
@@ -1784,12 +1784,12 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.86-90):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 86 - 90) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Ethos,becauseyoucannotpersuadeanaudiencethatdoesnottrustyou",
-        "b": "Logos,becauseitcanalsobeusedtobuildethos",
-        "c": "Acombinationofethos,pathos,andlogos",
-        "d": "Pathos,becausehumanbeingsaremosteasilypersuadedbyemotion"
+        "a": "Ethos, because you cannot persuade an audience that does not trust you",
+        "b": "Logos, because it can also be used to build ethos",
+        "c": "Acombination of ethos, pathos, and logos",
+        "d": "Pathos, because human beings are most easily persuaded by emotion"
       },
       "marked": null,
       "cov": {
@@ -1799,7 +1799,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Accordingtothepassage,themosteffectivetoolofpersuasionis-",
+      "q": "According to the passage, the most effective tool of persuasion is -",
       "multi": false
     },
     {
@@ -1807,12 +1807,12 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.86-90):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 86 - 90) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Credibilityisirrelevantinpersuasion.",
-        "b": "Pathosismoreimportantthancredibilityinpersuasion.",
-        "c": "Credibilityisessentialforeffectivepersuasion.",
-        "d": "Logosismoreimportantthancredibilityinpersuasion."
+        "a": "Credibility is irrelevant in persuasion.",
+        "b": "Pathos is more important than credibility in persuasion.",
+        "c": "Credibility is essential for effective persuasion.",
+        "d": "Logos is more important than credibility in persuasion."
       },
       "marked": null,
       "cov": {
@@ -1822,7 +1822,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatconclusioncanbedrawnabouttheimportanceofcredibilityinpersuasion?",
+      "q": "What conclusion can be drawn about the importance of credibility in persuasion?",
       "multi": false
     },
     {
@@ -1830,12 +1830,12 @@
       "page": 11,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 91 - 100) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Theyhelpinpreventingmusclesorenessafterphysicalactivities.",
-        "b": "Theyassistintheabsorptionofironandzincfromchickpeas.",
-        "c": "Theycontributetothepreservationofmusclemassduringexercise.",
-        "d": "Theyaidintherefuellingofenergylevelsafterstrenuousactivities."
+        "a": "They help in preventing muscle soreness after physical activities.",
+        "b": "They assist in the absorption of iron and zinc from chickpeas.",
+        "c": "They contribute to the preservation of muscle mass during exercise.",
+        "d": "They aid in the refuelling of energy levels after strenuous activities."
       },
       "marked": null,
       "cov": {
@@ -1845,7 +1845,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Accordingtothepassage,whatroledosulphurcompoundsinonionandgarlicplayinthebody?",
+      "q": "According to the passage, what role do sulphur compounds in onion and garlic play in the body?",
       "multi": false
     },
     {
@@ -1853,12 +1853,12 @@
       "page": 11,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 91 - 100) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Theyprimarilyconsistofchildrenandadolescents.",
-        "b": "Theyarespecificallydesignedforprofessionalathletes.",
-        "c": "Theycatertoindividualsconcernedabouttheirhealthandfitness.",
-        "d": "Theyareonlysuitableforindividualswithirondeficiencies."
+        "a": "They primarily consist of children and adolescents.",
+        "b": "They are specifically designed for professional athletes.",
+        "c": "They cater to individuals concerned about their health and fitness.",
+        "d": "They are only suitable for individuals with iron deficiencies."
       },
       "marked": null,
       "cov": {
@@ -1868,7 +1868,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Fromthepassage,whoarethetargetaudienceofpowerfoods?",
+      "q": "From the passage, who are the target audience of power foods?",
       "multi": false
     },
     {
@@ -1876,12 +1876,12 @@
       "page": 11,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 91 - 100) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Theyarerichincarbohydratesbutlowinproteins.",
-        "b": "Theyareprimarilyconsumedbyindividualswithasweettooth.",
-        "c": "Theyarenotrecommendedforconsumptionafterphysicalactivities.",
-        "d": "Theyprovideacombinationofproteinsandcarbohydratesbeneficialformusclerecovery."
+        "a": "They are rich in carbohydrates but low in proteins.",
+        "b": "They are primarily consumed by individuals with a sweet tooth.",
+        "c": "They are not recommended for consumption after physical activities.",
+        "d": "They provide a combination of proteins and carbohydrates beneficial for muscle recovery."
       },
       "marked": null,
       "cov": {
@@ -1891,7 +1891,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Fromthepassage,whatinferencecanbemadeaboutthenutritionalbenefitsofyoghurtandbananas asasnack?",
+      "q": "From the passage, what inference can be made about the nutritional benefits of yoghurt and bananas asa snack?",
       "multi": false
     },
     {
@@ -1899,12 +1899,12 @@
       "page": 11,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 91 - 100) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Greenteaismoreeffectivethanlemonjuicealoneinpreventingoxidativedamagetocells.",
-        "b": "Addinglemonjuicetogreenteaenhancesitsflavorbutdoesnotaffectitsnutritionalvalue.",
-        "c": "Greenteawithlemonjuiceislesseffectiveinhaltingoxidativedamagecomparedtoother beverages.",
-        "d": "Thecombinationofgreenteaandlemonjuiceimprovestheabsorptionofcatechins,thus enhancingitsbenefits."
+        "a": "Green tea is more effective than lemon juice alone in preventing oxidative damage to cells.",
+        "b": "Adding lemon juice to green tea enhances its flavor but does not affect its nutritional value.",
+        "c": "Green tea with lemon juice is less effective in halting oxidative damage compared to other beverages.",
+        "d": "The combination of green tea and lemon juice improves the absorption of catechins, thus enhancing its benefits."
       },
       "marked": null,
       "cov": {
@@ -1914,7 +1914,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Basedonthepassage,whatinferencecanbedrawnabouttheeffectivenessofgreenteawithlemon juice?",
+      "q": "Based on the passage, what inference can be drawn about the effectiveness of green tea with lemon juice?",
       "multi": false
     },
     {
@@ -1922,12 +1922,12 @@
       "page": 11,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 91 - 100) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Increasedconsumptionofpowerfoodsmayleadtoareductioninhealthcarecostsdueto improvedoverallhealthandreducedincidenceofchronicdiseases.",
-        "b": "Powerfoodsmayexacerbatehealthdisparitiesasaccesstothesenutrient-richfoodsmaybe limitedforcertainsocio-economicgroups.",
-        "c": "Publichealthpoliciesshouldprioritizethepromotionofpowerfoodstoaddressnutritional deficienciesandimprovepopulationhealthoutcomes.",
-        "d": "Thefocusonpowerfoodsoverlooksculturaldietarypreferencesandmaynotbeapplicableor accessibletoallindividuals."
+        "a": "Increased consumption of power foods may lead to a reduction in healthcare costs due to improved overall health and reduced incidence of chronic diseases.",
+        "b": "Power foods may exacerbate health disparities as access to these nutrient-rich foods may be limited for certain socio-economic groups.",
+        "c": "Public health policies should prioritize the promotion of power foods to address nutritional deficiencies and improve population health outcomes.",
+        "d": "The focus on power foods overlooks cultural dietary preferences and may not be applicable or accessible to all individuals."
       },
       "marked": null,
       "cov": {
@@ -1937,7 +1937,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Reflectingonthenutritionalbenefitsofpowerfoodsdiscussedinthepassage,whatimplications mighttheserecommendationshaveonbroadersocietalissuessuchashealthcarecostsandpublic healthpolicies?",
+      "q": "Reflecting on the nutritional benefits of power foods discussed in the passage, what implications might these recommendations have on broader societal issues such as healthcare costs and public health policies?",
       "multi": false
     },
     {
@@ -1945,12 +1945,12 @@
       "page": 11,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 91 - 100) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Powerfoodsareexclusivelyrecommendedforindividualswithspecificdietaryrestrictions.",
-        "b": "Theconsumptionofpowerfoodsisprimarilyintendedtoenhancetasteandflavorinmeals.",
-        "c": "Powerfoodsplayacrucialroleinprovidingessentialnutrientsandsupportingmuscle development.",
-        "d": "Powerfoodshavelimitedeffectivenessandarenotconsideredsignificantcontributorstooverall _p-."
+        "a": "Power foods are exclusively recommended for individuals with specific dietary restrictions.",
+        "b": "The consumption of power foods is primarily intended to enhance taste and flavor in meals.",
+        "c": "Power foods play a crucial role in providing essential nutrients and supporting muscle development.",
+        "d": "Power foods have limited effectiveness and are not considered significant contributors to overall _p- ."
       },
       "marked": null,
       "cov": {
@@ -1960,7 +1960,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Fromtheinformationprovidedinthepassage,whatcanbeinferredabouttheroleofpowerfoodsin promotingoverallhealthandfitness?",
+      "q": "From the information provided in the passage, what can be inferred about the role of power foods in promoting overall health and fitness?",
       "multi": false
     },
     {
@@ -1968,12 +1968,12 @@
       "page": 12,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 91 - 100) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Properpreparation,usingfreshingredientsandchoosingflavorsthatappealtoindividualtastes",
-        "b": "Properpreparation,usingfreshingredients,andchoosingflavorsthatappealtoindividualtastes,",
-        "c": "Properpreparation,usingfreshingredients,andchoosingflavorsthatappealtoindividualtastes",
-        "d": "Properpreparationusingfreshingredients,andchoosingflavorsthatappealtoindividualtastes"
+        "a": "Proper preparation, using fresh ingredients and choosing flavors that appeal to individual tastes",
+        "b": "Proper preparation, using fresh ingredients, and choosing flavors that appeal to individual tastes,",
+        "c": "Proper preparation, using fresh ingredients, and choosing flavors that appeal to individual tastes",
+        "d": "Proper preparation using fresh ingredients, and choosing flavors that appeal to individual tastes"
       },
       "marked": null,
       "cov": {
@@ -1983,7 +1983,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingsentencesfromthepassageispunctuatedcorrectly?",
+      "q": "Which of the following sentences from the passage is punctuated correctly?",
       "multi": false
     },
     {
@@ -1991,12 +1991,12 @@
       "page": 12,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 91 - 100) : Read the given passage carefully and answer the questions that",
       "opts": {
-        "a": "Thesulfurcompoundsinonionsandgarlicenhancestheabsorptionofironandzincfrom",
-        "b": "Irondeficiencycanleadtofatigue,brainfog,andtiredness.",
-        "c": "Exercisingburnsglucoseandthusloweringbloodsugar.",
-        "d": "Addinglemonjuicetogreenteamakethecatechinsmoreabsorbable."
+        "a": "The sulfur compounds in onions and garlic enhances the absorption of iron and zinc from",
+        "b": "Iron deficiency can lead to fatigue, brain fog, and tiredness.",
+        "c": "Exercising burns glucose and thus lowering blood sugar.",
+        "d": "Adding lemon juice to green tea make the catechins more absorbable."
       },
       "marked": null,
       "cov": {
@@ -2006,7 +2006,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethesentencefromthepassagewithcorrectsubject-verbagreement:",
+      "q": "Choose the sentence from the passage with correct subject-verb agreement:",
       "multi": false
     },
     {
@@ -2014,12 +2014,12 @@
       "page": 12,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat",
+      "direction": "Directions (Question Nos. 91 - 100) : Read the given passage carefully and answer the questions that",
       "opts": {
         "a": "Including",
         "b": "adopting",
         "c": "Eliminating",
-        "d": "Increasing eRARRRK"
+        "d": "Increasing eR ARR RK"
       },
       "marked": null,
       "cov": {
@@ -2029,7 +2029,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichwordisclosestinmeaningto“incorporating”asusedinthepassage?",
+      "q": "Which word is closest in meaning to “incorporating” as used in the passage?",
       "multi": false
     }
   ],

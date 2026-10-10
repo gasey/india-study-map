@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "JayShah",
-        "b": "MohammedShah",
-        "c": "SouravGanguly",
-        "d": "GautamGambhir (a)1150(b)1160 (c)1170(d)1180 (a)¥,i,ii,iii,iv(b)i,v,iv,ii,iii (c) iitiv,i,v,ii(d)_iv,v,iii,ti,i (a)Bangladesh(b)Oman (c)Pakistan(d)Iran (a)JyotiRatre(b)SoniKumari (c)AshalataSinha(d)ArunimaChoudhary (a)LokAyukta,Mizoram (b)VigilanceDepartmentMizoram (c)CentralBureauofInvestigation&AntiCorruptionBureau(Joint) (d)CentralVigilanceCommission: (a)Minister(b)LocalMuslims (c)Immigrants(d)Traders (a)KhilafatMovement(b)Non-CooperationMovement (c)DandiMarch(d)QuitIndiaMovement"
+        "a": "Jay Shah",
+        "b": "Mohammed Shah",
+        "c": "Sourav Ganguly",
+        "d": "Gautam Gambhir (a) 1150 (b) 1160 (c) 1170 (d) 1180 (a) ¥, i, ii, iii, iv (b) i, v, iv, ii, iii (c)  iitiv,i,v,ii (d)_ iv, v, iii, ti, i (a) Bangladesh (b) Oman (c) Pakistan (d) Iran (a) Jyoti Ratre (b) Soni Kumari (c) Ashalata Sinha (d) Arunima Choudhary (a) Lok Ayukta, Mizoram (b) Vigilance Department Mizoram (c) Central Bureau of Investigation & Anti Corruption Bureau (Joint) (d) Central Vigilance Commission : (a) Minister (b) Local Muslims (c) Immigrants (d) Traders (a) Khilafat Movement (b) Non-Cooperation Movement (c) Dandi March (d) Quit India Movement"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Therearenonegativemarksforincorrectanswer. -2-°Series-A 1.WhowillbetheyoungesteverInternationalCricketCouncil(ICC)chairman,whowillassumethe roleon1December,2024?",
+      "q": "There are no negative marks for incorrect answer. -2- ° Series-A 1. Who will be the youngest ever International Cricket Council (ICC) chairman, who will assume the role on 1 December, 2024?",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "18June,1947",
-        "b": "18July,1947",
-        "c": "18March,1947",
-        "d": "18April,1947"
+        "a": "18 June, 1947",
+        "b": "18 July, 1947",
+        "c": "18 March, 1947",
+        "d": "18 April, 1947"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OnwhichdateIndianIndependenceAct,1947gotRoyalAssent?",
+      "q": "On which date Indian Independence Act, 1947 got Royal Assent?",
       "multi": false
     },
     {
@@ -61,10 +61,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MohammadAliJinnah",
-        "b": "AbulKalamAzad",
-        "c": "QutbUddinAhmad",
-        "d": "RamsayMcDonald"
+        "a": "Mohammad Ali Jinnah",
+        "b": "Abul Kalam Azad",
+        "c": "Qutb Uddin Ahmad",
+        "d": "Ramsay McDonald"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OnAugust161932,CommunalAwardwasannouncedby-",
+      "q": "On August 16 1932, Communal Award was announced by-",
       "multi": false
     },
     {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "In1877,theentranceagetoICSwasreducedfrom21to-",
+      "q": "In 1877, the entrance age to ICS was reduced from 21 to-",
       "multi": false
     },
     {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichoneofthefollowingterritorieswasnotaffectedbytherevoltof1857?",
+      "q": "Which one of the following territories was not affected by the revolt of 1857?",
       "multi": false
     },
     {
@@ -130,10 +130,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "IndiraHeights",
-        "b": "IndiraCol",
-        "c": "IndiraPoint",
-        "d": "Noneofthese (a)Mararibeach(b)CheraiBeach (c)KollamBeach(d)KannurBeach (a)Saffroncultivation(b)Terracefarming (c)Appleorchards(d)Shumcultivation (a)Thenorthernpartofthestate(b)Thecentralpartofthestate (c)Theeasternpartofthestate(d)Thesouthernpartofthestate (a)Abundanceofmagnesium.(b)Accumulatedhumus (c)Presenceofferricoxides(d)Abundanceofphosphates (a)NavyService,AirforceServiceandArmyService (b)CivilService,MilitaryServiceandParamilitaryService (c)All-IndiaServices,CentralServicesandStateServices (d)All-IndiaService,MilitaryServiceandCivilServices (a)Executiveisresponsibletothejudiciary(b)Legislatureisresponsibletotheexecutive (c)Executiveisresponsibletothepeople(d)Executiveisresponsibletothelegislature (a)PublicAccountsComunittee(b)EstimatesCommittee (c)FinanceMinistry(d)CommitteeonPublicUndertakings (a)25electedseatsand5nominatedseats(b)27electedseatsand3nominatedseats (c)30electedseatsand3nominatedseats(d)33electedseatsand3nominatedseats (a)Article19(b)Article21 (c)Article25(d)Article29 -4-,Series-A (a)ItalianConstitution(b)CanadianConstitution (c)FrenchConstitution(d)ConstitutionofUSA (a)IntegratedFinancialMobilizationandInformationSystem (b)IntegratedFinancialManagementandInformationSystem (c)IntegratedFinancialManagementandInformalSystem (d)IntegratedFinanceManagerialandInformaticsSystem (a)14(b)15 (c)9@ul (a)CreditInformationBureauIndiaLimited (b)CreditIndexBureauIndiaLimited (c)ConsumerIndexBureauIndiaLimited (d)ConsumerInformationBureauIndiaLimited (a)Bothagricultureandindustryareequallypromotedbythestate (b)Thereisco-existenceofprivatesectoralongwiththepublicsector (c)Thereisimportanceofsmallscaleindustriesalongwithheavyindustries (d)Economyiscontrolledbymilitaryaswellascivilianrules (a)ReserveBankofIndiaAct,1935(b)BankingRegulatiAoctn,1949 (c)PreventionofMoneyLaunderingAct,2002(d)PaymentandScttlementSystemsAct,2007 (a)i,vi,v,iy,iii,fi(b)vi,iv,v,i,iii,ii (c)v,1,vi,iv,iii,ii(d)_Vi,V,i,iv,ili,ti (a)FundamentalDuties(b)FundamentalRight (c)DirectivePrinciplesofStatePolicy(d)}EnvironmentProtectionAct (a)3zones(b)4zones (c)5zones(d)6zones (a)Five(b)Six (c)Seven(d)Bight (a)IndianRhinoceros(b)Lion-tailedMacaque (c)Blackbuck(d)GreatIndianBustard (a)CentralWaterCommission(b)CentralGroundWaterBoard (c)CentralGroundWaterAuthority(d)NationalWaterDevelopmentAgency (a)Fungi(b)Plants (c)Elephant(d)Rocks (a)Graphite(b)Granite (c)Gold(d)Gypsum (a)Velocity(b)Acceleration (c)Mass(d)Weight (a)Hindlimb(b)Forelimb (c)Pelvicgirdle(d)Noneofthese (a)Cervix(b)Fallopiantube (c)Lowerpartofuterus(d)Upperpartofuterus (a)Cerebellum(b)Cerebrum (c)Medullaoblongata(d)Pons (a)Butterfly({b)Triangular (c)Crescent(d)Oval (a)Hunter(b)Animal (c)Bird(d)Divorcewomen (a)Farm(b)Water (c)Rice(d)Land"
+        "a": "Indira Heights",
+        "b": "Indira Col",
+        "c": "Indira Point",
+        "d": "None of these (a) Marari beach (b) Cherai Beach (c) Kollam Beach (d) Kannur Beach (a) Saffron cultivation (b) Terrace farming (c) Apple orchards (d) Shum cultivation (a) The northern part of the state (b) The central part of the state (c) The eastern part of the state (d) The southern part of the state (a) Abundance of magnesium. (b) Accumulated humus (c) Presence of ferric oxides (d) Abundance of phosphates (a) Navy Service, Air force Service and Army Service (b) Civil Service, Military Service and Paramilitary Service (c) All-India Services, Central Services and State Services (d) All-India Service, Military Service and Civil Services (a) Executive is responsible to the judiciary (b) Legislature is responsible to the executive (c) Executive is responsible to the people (d) Executive is responsible to the legislature (a) Public Accounts Comunittee (b) Estimates Committee (c) Finance Ministry (d) Committee on Public Undertakings (a) 25 elected seats and 5 nominated seats (b) 27 elected seats and 3 nominated seats (c) 30 elected seats and 3 nominated seats (d) 33 elected seats and 3 nominated seats (a) Article 19 (b) Article 21 (c) Article 25 (d) Article 29 -4- , Series-A (a) Italian Constitution (b) Canadian Constitution (c) French Constitution (d) Constitution of USA (a) Integrated Financial Mobilization and Information System (b) Integrated Financial Management and Information System (c) Integrated Financial Management and Informal System (d) Integrated Finance Managerial and Informatics System (a) 14 (b) 15 (c) 9 @ ul (a) Credit Information Bureau India Limited (b) Credit Index Bureau India Limited (c) Consumer Index Bureau India Limited (d) Consumer Information Bureau India Limited (a) Both agriculture and industry are equally promoted by the state (b) There is co-existence of private sector along with the public sector (c) There is importance of small scale industries along with heavy industries (d) Economy is controlled by military as well as civilian rules (a) Reserve Bank of India Act, 1935 (b) Banking RegulatiAoctn,  1949 (c) Prevention of Money Laundering Act, 2002 (d) Payment and Scttlement Systems Act, 2007 (a) i, vi, v, iy, iii, fi (b) vi, iv, v, i, iii, ii (c) v,1, vi, iv, iii, ii (d)_ Vi, V, i, iv, ili, ti (a) Fundamental Duties (b) Fundamental Right (c) Directive Principles of State Policy (d)} Environment Protection Act (a) 3 zones (b) 4 zones (c) 5 zones (d) 6 zones (a) Five (b) Six (c) Seven (d) Bight (a) Indian Rhinoceros (b) Lion-tailed Macaque (c) Blackbuck (d) Great Indian Bustard (a) Central Water Commission (b) Central Ground Water Board (c) Central Ground Water Authority (d) National Water Development Agency (a) Fungi (b) Plants (c) Elephant (d) Rocks (a) Graphite (b) Granite (c) Gold (d) Gypsum (a) Velocity (b) Acceleration (c) Mass (d) Weight (a) Hindlimb (b) Forelimb (c) Pelvic girdle (d) None of these (a) Cervix (b) Fallopian tube (c) Lower part of uterus (d) Upper part of uterus (a) Cerebellum (b) Cerebrum (c) Medulla oblongata (d) Pons (a) Butterfly ({b) Triangular (c) Crescent (d) Oval (a) Hunter (b) Animal (c) Bird (d) Divorce women (a) Farm (b) Water (c) Rice (d) Land"
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThenorthernmostpointofIndiaisknownas:",
+      "q": "The northernmost point of India is known as:",
       "multi": false
     },
     {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefastesteverhumanbeingintheMizoFolktaleis-",
+      "q": "The fastest ever human being in the Mizo Folktale is-",
       "multi": false
     },
     {
@@ -179,7 +179,7 @@
         "a": "Ngaitei",
         "b": "Chawngchilhi",
         "c": "Kelchawngi",
-        "d": "Kungawrhi -6-.Series-A"
+        "d": "Kungawrhi -6- . Series-A"
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IntheMizofolktale,abeautifulbabygirlbornfromhisfather’sthumbis-",
+      "q": "Inthe Mizo folktale, a beautiful baby girl born from his father’s thumb is-",
       "multi": false
     },
     {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aplacewhereslave(bawih)liveinaChiefhouseisknownas-",
+      "q": "A place where slave (bawih) live in a Chief house is known as-",
       "multi": false
     },
     {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingisthefirststageinMizo’sclearingofforestforcultivationofcrops?",
+      "q": "Which of the following is the first stage in Mizo’s clearing of forest for cultivation of crops?",
       "multi": false
     },
     {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HowmanymethodsofThangchhuahwerethereintraditionalMizosociety?",
+      "q": "How many methods of Thangchhuah were there in traditional Mizo society?",
       "multi": false
     },
     {
@@ -268,10 +268,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "AHScott",
-        "b": "GHLoch",
+        "a": "AH Scott",
+        "b": "GH Loch",
         "c": "J.Shakespeare",
-        "d": "MacDonald"
+        "d": "Mac Donald"
       },
       "marked": null,
       "cov": {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhostartedlandsettlementinLushaihills?",
+      "q": "Who started land settlement in Lushai hills?",
       "multi": false
     },
     {
@@ -294,7 +294,7 @@
         "a": "180m",
         "b": "170m",
         "c": "165m",
-        "d": "150m 11 11 (c)3(d)2"
+        "d": "150m 1 1 1 1 (c) 3 (d) 2"
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Abusrunsat54kmperhour.Howfaritgoin12seconds?",
+      "q": "Abus runs at 54 km per hour. How far it go in 12 seconds?",
       "multi": false
     },
     {
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HowmanytermarethereintheAP7,10,13,...,214?",
+      "q": "How many term are there in the AP7 ,10, 13,..., 214?",
       "multi": false
     },
     {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thesumofallnaturalnumbersfrom1to100is—",
+      "q": "The sum ofa ll natural numbers from 1 to 100 is—",
       "multi": false
     },
     {
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inasurveyof200studentsinaschool,itwasfoundthat125likeorangejuice,90likeapplejuice and60likebothorangeaswellasapplejuice.Howmanylikeneitherorangenorapplejuice?",
+      "q": "Inasurvey of 200 students in a school, it was found that 125 like orange juice, 90 like apple juice and 60 like both orange as well as apple juice. How many like neither orange nor apple juice?",
       "multi": false
     },
     {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Awireisloopedintheformofacircleofradius28cm.Itisrebentintheformofasquare.Thelength ofthesideofasquareis—",
+      "q": "A wire is looped in the form ofa circle of radius 28cm. It is rebent in the form ofa square. The length oft he side ofa  square is —",
       "multi": false
     },
     {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theareaofasectorofacircleofradius21cmandcentralangle120°is—",
+      "q": "The area of a sector of a circle of radius 21cm and central angle 120° is —",
       "multi": false
     },
     {
@@ -431,8 +431,8 @@
       "opts": {
         "a": "6800",
         "b": "7040",
-        "c": "7500.",
-        "d": "8000:"
+        "c": "7500 .",
+        "d": "8000 :"
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Howmanybricks,eachofsize25cmx13.5em*6cem,willberequiredtobuildawall8mlong,5.4m highand33cmthick?",
+      "q": "How many bricks, each of size 25cm x 13.5em * 6cem, will be required to build a wall 8m long, 5.4m high and 33cm thick?",
       "multi": false
     },
     {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thevolumeofaroomis378m?anditsheightis4.5m.Thefloorareaoftheroomis-",
+      "q": "The volume of a room is 378m? and its height is 4.5m. The floor area of the room is -",
       "multi": false
     },
     {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thevolumeofacubeis125cm’.Itstotalsurfaceareais—",
+      "q": "The volume ofa cube is 125cm’. Its total surface area is —",
       "multi": false
     },
     {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theadjoiningpie-chartshowsthemarksscoredinanexaminationbyastudentindifferentsubjects. Ifthestudentobtained105marksinHindi,thetotalmarksobtainedbythestudentis- Hindi83 faeSeton 100°]90° Maths|Science",
+      "q": "The adjoining pie-chart shows the marks scored in an examination by a student in different subjects. If the student obtained 105 marks in Hindi, the total marks obtained by the student is - Hindi 83 fae Seton 100°] 90° Maths | Science",
       "multi": false
     },
     {
@@ -524,7 +524,7 @@
         "a": "4:3",
         "b": "5:3",
         "c": "3:2",
-        "d": "6:5 12,1,"
+        "d": "6:5 1 2,1,"
       },
       "marked": null,
       "cov": {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inamixtureof45litres,theratioofalcoholandwateris4:1.If15litresofwaterbemixedinit,the ratioofalcoholandwaterinthenewmixtureis—",
+      "q": "Ina mixture of 45 litres, the ratio of alcohol and water is 4: 1. If 15 litres of water be mixed in it, the ratio of alcohol and water in the new mixture is —",
       "multi": false
     },
     {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifx+—=8,thevaluofex\"+,is— xx",
+      "q": "If x+— =8, the valuofe x \" +, is— x x",
       "multi": false
     },
     {
@@ -567,10 +567,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "12years",
-        "b": "10years",
-        "c": "8years",
-        "d": "6years"
+        "a": "12 years",
+        "b": "10 years",
+        "c": "8 years",
+        "d": "6 years"
       },
       "marked": null,
       "cov": {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThesumofthepresentagesofLalaandhissonis46years.5yearsago,Lalawas11timesasoldas hisson.Thepresentageofhissonis~",
+      "q": "The sum of the present ages of Lala and his son is 46 years. 5 years ago, Lala was 11 times as old as his son. The present age of his son is ~",
       "multi": false
     },
     {
@@ -590,10 +590,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "7brs15min",
-        "b": "7hrs45min",
-        "c": "7brs30min",
-        "d": "7hrs20min"
+        "a": "7 brs 15 min",
+        "b": "7 hrs 45 min",
+        "c": "7 brs30 min",
+        "d": "7 hrs 20 min"
       },
       "marked": null,
       "cov": {
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Twopipescanfillatankin10hoursand12hoursrespectively,whileathirdpipeemptiesthefulltank in20hours.Ifallthethreepipesoperatesimultaneouslyintheemptytank,inhowmuchtimewillthe tankbefull?",
+      "q": "Two pipes can fill a tank in 10 hours and 12 hours respectively, while a third pipe empties the full tank in 20 hours. Ifall the three pipes operate simultaneously in the empty tank, in how much time will the tank be full?",
       "multi": false
     },
     {
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thesumoftwonumbersis86andtheirdifferenceis40.Thesmallernumberis—",
+      "q": "The sum of two numbers is 86 and their difference is 40. The smaller number is—",
       "multi": false
     },
     {
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Twomenstartingfromthesamepointwalkattherateof4kmperhourand4.5kmperhour respectively.Iftheywalkinoppositedirection,distancebetweenthemafter8hoursis—",
+      "q": "Two men starting from the same point walk at the rate of 4 km per hour and 4.5 km per hour respectively. If they walk in opposite direction, distance between them after 8 hours is—",
       "multi": false
     },
     {
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theareaofanequilateraltriangleis81/3cm,itsperimeteirs—",
+      "q": "The area of an equilateral triangle is 81/3 cm, its perimeteirs  —",
       "multi": false
     },
     {
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thevalueof[ens~5x4of10-f45+(7-2}|is-",
+      "q": "The value of [ens ~5x 4 of 10-f45 +(7-2}| is-",
       "multi": false
     },
     {
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thesumofthreeconsecutiveevennumbersis444.Themiddlenumberis—",
+      "q": "The sum of three consecutive even numbers is 444. The middle number is —",
       "multi": false
     },
     {
@@ -728,10 +728,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "9years",
-        "b": "10years",
-        "c": "11years",
-        "d": "13years"
+        "a": "9 years",
+        "b": "10 years",
+        "c": "11 years",
+        "d": "13 years"
       },
       "marked": null,
       "cov": {
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theaverageageof50studentsinaclassis12years.Theaverageageoffirst30studentsis14years. Theaverageageofremaining20studentsis—",
+      "q": "The average age of 50 students ina class is 12 years. The average age of first 30 students is 14 years. The average age of remaining 20 students is —",
       "multi": false
     },
     {
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aspeedof20m/secisequalto—",
+      "q": "A speed of 20 m/sec is equal to —",
       "multi": false
     },
     {
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iftheheightofatowerisequaltotheshadowofthetower,thentheangleofelevationis—",
+      "q": "Ifthe height of a tower is equal to the shadow of the tower, then the angle of elevation is —",
       "multi": false
     },
     {
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Simplify[{(12sx33=1142)x34}+493]x22",
+      "q": "Simplify [{(12s x33=1142)x34} +493] x22",
       "multi": false
     },
     {
@@ -821,7 +821,7 @@
       "direction": null,
       "opts": {
         "a": "i",
-        "b": "ii:",
+        "b": "ii :",
         "c": "ii",
         "d": "wv"
       },
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "@JKLGi)GHI di)MNO(iv)ILT",
+      "q": "@ JKL Gi) GHI di) MNO (iv) ILT",
       "multi": false
     },
     {
@@ -841,12 +841,12 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.83&84);Ineachofthefollowingquestions,arrangethewordsina",
+      "direction": "Directions (Question Nos. 83 & 84) ; In each of the following questions, arrange the words in a",
       "opts": {
         "a": "1,3,2,4,5",
         "b": "1,2,3,5,4",
-        "c": "4,2,1,5,3",
-        "d": "5,21,4,,3"
+        "c": "4,2, 1,5,3",
+        "d": "5,21, 4,,3"
       },
       "marked": null,
       "cov": {
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "1.Key2.Door 3.Lock4.Room 5.Switchon",
+      "q": "1. Key 2. Door 3. Lock 4. Room 5. Switchon",
       "multi": false
     },
     {
@@ -866,10 +866,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "4,1,5,2,3",
-        "b": "4,51,3,,2",
+        "a": "4, 1,5, 2,3",
+        "b": "4,51, 3,,2",
         "c": "1,4,3,2,5",
-        "d": "4,1,3,5,2 -10-:Series-A"
+        "d": "4,1, 3,5,2 -10- : Series-A"
       },
       "marked": null,
       "cov": {
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "1.Word2.Paragraph 3.Sentence4,Letter 3.Phrase",
+      "q": "1. Word 2. Paragraph 3. Sentence 4, Letter 3. Phrase",
       "multi": false
     },
     {
@@ -887,7 +887,7 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.85&86):Inthefollowingquestions,choosethewordwhichbestexpresses",
+      "direction": "Directions (Question Nos. 85 & 86) : In the following questions, choose the word which best expresses",
       "opts": {
         "a": "Clear",
         "b": "Balance",
@@ -933,12 +933,12 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.88&89):Lookcarefullyatthesequenceofsymbolstofindthepattern.",
+      "direction": "Directions (Question Nos. 88 & 89) : Look carefully at the sequence of symbols to find the pattern.",
       "opts": {
         "a": "1",
         "b": "2",
         "c": "3",
-        "d": "4 (a)1(b)2"
+        "d": "4 (a) 1 (b) 2"
       },
       "marked": null,
       "cov": {
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "oOedaAala? OoOeAaol (iy(2)3)(4)",
+      "q": "oOedaAala? Oo Oe Aa ol (iy (2) 3) (4)",
       "multi": false
     },
     {
@@ -960,8 +960,8 @@
       "opts": {
         "a": "254",
         "b": "238",
-        "c": "188:",
-        "d": "258."
+        "c": "188 :",
+        "d": "258 ."
       },
       "marked": null,
       "cov": {
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IfAmeans‘+’,Bmeans‘-’Cmeans‘x’andDmeans‘+’,then18C14A6B16D4=?",
+      "q": "IfA  means ‘+’, B means ‘-’ C means ‘x’ and D means ‘+’, then 18 C 14A6B 16D 4=?",
       "multi": false
     },
     {
@@ -979,7 +979,7 @@
       "page": 11,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91&92):Inthisseries,youwillbelookingattheletterpattern.Fillthe",
+      "direction": "Directions (Question Nos. 91 & 92) : In this series, you will be looking at the letter pattern. Fill the",
       "opts": {
         "a": "OLPA",
         "b": "KLMA",
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ELFA,GLHA,ILJA,;MLNA",
+      "q": "ELFA, GLHA, ILJA, ; MLNA",
       "multi": false
     },
     {
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "CMM,EOO,GQQ,»KUU",
+      "q": "CMM, EOO, GQQ, »KUU",
       "multi": false
     },
     {
@@ -1025,12 +1025,12 @@
       "page": 11,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.93&94):Findthecorrectalternative:",
+      "direction": "Directions (Question Nos. 93 & 94) : Find the correct alternative:",
       "opts": {
-        "a": "Junior:Senior",
-        "b": "Elder:Younger",
-        "c": "Debtor:Creditor",
-        "d": "Officer:Clerk"
+        "a": "Junior:  Senior",
+        "b": "Elder: Younger",
+        "c": "Debtor: Creditor",
+        "d": "Officer : Clerk"
       },
       "marked": null,
       "cov": {
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Supervisor:Worker::?",
+      "q": "Supervisor : Worker ::?",
       "multi": false
     },
     {
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Major:Battalion::Colonel:?",
+      "q": "Major:  Battalion :: Colonel : ?",
       "multi": false
     },
     {
@@ -1071,7 +1071,7 @@
       "page": 11,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.95-97);Choosetheoddoneout:",
+      "direction": "Directions (Question Nos. 95 - 97) ; Choose the odd one out:",
       "opts": {
         "a": "Zoology",
         "b": "Botany",
@@ -1086,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)Zoology(b)Botany",
+      "q": "(a) Zoology (b) Botany",
       "multi": false
     },
     {
@@ -1094,7 +1094,7 @@
       "page": 11,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.95-97);Choosetheoddoneout:",
+      "direction": "Directions (Question Nos. 95 - 97) ; Choose the odd one out:",
       "opts": {
         "a": "Rice",
         "b": "Wheat",
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)Rice(b)Wheat",
+      "q": "(a) Rice (b) Wheat",
       "multi": false
     },
     {
@@ -1117,7 +1117,7 @@
       "page": 11,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.95-97);Choosetheoddoneout:",
+      "direction": "Directions (Question Nos. 95 - 97) ; Choose the odd one out:",
       "opts": {
         "a": "121",
         "b": "324",
@@ -1132,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "(a)121(b)324",
+      "q": "(a) 121 (b) 324",
       "multi": false
     },
     {
@@ -1155,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IfthedaybeforeyesterdaywasSaturday,whatdaywillbeonthedayaftertomorrow?",
+      "q": "Ifthe day before yesterday was Saturday, what day will be on the day after tomorrow?",
       "multi": false
     }
   ],

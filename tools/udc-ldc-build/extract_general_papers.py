@@ -75,6 +75,13 @@ def extract_one(row):
                     for i, char in enumerate(text):
                         chars.append(module.GlyphPath(char, ((left + w*i/len(text))/module.SCALE, y0,
                                                             (left+w*(i+1)/len(text))/module.SCALE, y0+12), 12))
+                    # Tesseract word boxes carry no space glyphs, unlike a native
+                    # PDF text layer. Without one, build_lines' per-character
+                    # render joins every word ("Thetallmanisintheshop."). Emit a
+                    # space at the word's right edge so the original spacing is
+                    # recovered; the whole OCR tier then reviews as plain text.
+                    chars.append(module.GlyphPath(" ", ((left + w)/module.SCALE, y0,
+                                                        (left + w + 4)/module.SCALE, y0 + 12), 12))
                 yield chars
         module.page_chars = page_chars
     # Several 2018 English items intentionally print three alternatives.

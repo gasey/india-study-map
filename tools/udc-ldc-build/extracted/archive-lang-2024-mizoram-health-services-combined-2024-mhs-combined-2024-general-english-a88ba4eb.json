@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "DescribetheextentofdeforestationinIndia.(6),",
-        "b": "Whathasbeentheresultofdeforestation?@)",
-        "c": "Whyhasthefloodcontrolmeasuresfailedinourcountry?@B)",
-        "d": "Howdoespopulationincreaseaffectthehills?GB) Gi)tomakebare Gi)happenagainandagain ii)seriousmisfortunes (iv)innerpartofacountry (v)setright"
+        "a": "Describe the extent of deforestation in India. (6) ,",
+        "b": "What has been the result of deforestation? @)",
+        "c": "Why has the flood control measures failed in our country? @B)",
+        "d": "How does population increase affect the hills? GB) Gi) to make bare Gi) happen again and again ii) serious misfortunes (iv) inner part ofa country (v) set right"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Readthepassagecarefullyandanswerthequestionsthatfollow: Ttiscommonknowledgethattherehasbeenwidedeforestationinrecentyears.Accordingto conservativeestimates,fivemillionacreshavebeendenudedofforests.Thishasbroughtabout widespreadclimaticchangealloverthecountry—leadingtorecurringdroughtandothernatural calamities.Erosionoftopsoilinthecatchmentareashasresultedinthetragedyofyearlyfloodingof ourmajorrivers.Andfloodcontrolmeasureshavenotbeeneffectivebecausethosehavebeenlimited 1osuperficialremedieslikebuildingembankmentsratherthanrectifyingtherootcausebystartinga vigorousafforestationdrive.Deforestationofourhills,inparticular,hasledtosoilerosionandlandslides onunprecedentedscale,threateningthesurvivalofsomeofourpopularhillstations. Thepopularincreasehassparedthehills.Inthetownsmoreandmoreareasarebeingcleared 1omakeroomforhousesandroadsarebeingbuiltinthefondhopeofcarryingthefruitsofdevelopment iothehinterland.Thisisinevitable,ofcourse,butitneednothavebeendoneindiscriminately,without athoughttotheconsequences.Asthingsare,thenaturaldrainageoftheseareashasbeenupsetand waterseepingintobareearthhasledtoslippingandsinkingofland.Pipedwaterwhichisbeing introducedinhilltownshipswithoutdevelopingadequatedrainagefacilitieshasalsoaddedtothe threatofrapiderosion. QUESTIONS:",
+      "q": "Read the passage carefully and answer the questions that follow : Tt is common knowledge that there has been wide deforestation in recent years. According to conservative estimates, five million acres have been denuded of forests. This has brought about widespread climatic change all over the country—  leading to recurring drought and other natural calamities. Erosion of topsoil in the catchment areas has resulted in the tragedy of yearly flooding of our major rivers. And flood control measures have not been effective because those have been limited 1o superficial remedies like building embankments rather than rectifying the root cause by starting a vigorous afforestation drive. Deforestation of our hills, in particular, has led to soil erosion and landslides on unprecedented scale, threatening the survival of some of our popular hill stations. The popular increase has spared the hills. In the towns more and more areas are being cleared 1o make room for houses and roads are being built in the fond hope of carrying the fruits of development io the hinterland. This is inevitable, of course, but it need not have been done indiscriminately, without a thought to the consequences. As things are, the natural drainage of these areas has been upset and water seeping into bare earth has led to slipping and sinking of land. Piped water which is being introduced in hill townships without developing adequate drainage facilities has also added to the threat of rapid erosion. QUESTIONS :",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Thegirlsaid,“Teacher,shallIwritethispoemagain” Gi)Thegirlaskedtheteacherifsheshouldwritethatpoemagain. (iit)Thegirlaskedtheteacherifsheshouldwritethispoemagain. (iv)Thegirlaskedtheteacherifsheshallwritethatpoemagain.—-",
-        "b": "Theclerksaid,“Submityourformstomorrow.” (i)Theclerkaskedustosubmitourformstomorrow. (ii)Theclerkaskedustosubmitourformsthefollowingday. Git)Theclerkasksustosubmitourformsthefollowingday. (iv)Theclerkhasaskedustosubmitourformsthefollowingday.",
-        "c": "Shesaid,“Weareallmortals.” (i)Shesaysthatweareallmortals. Gi)Shesaidthatweareallmortals. (ii)Shesaidthatwewereallmortals. (iv)Shesaysthatwehaveallbeenmortals.",
-        "d": "Thecriminalsaidtotheking,“Pleasehavemercyonme.” (i)Thecriminalbegsthekingtohavemercyonhim. (i)Thecriminalbeggedthekingtohavemercyonhim ii)Thecriminalhasbeggedthekingtohavemercyonhim (iv)Thecriminalhadbeggedthekingtohavemercyonhim. (i)Hetoldyouthatyouhadbeenlate. @i)Hesaidtoyouthatyouhadbeenlate Gi)Hetoldyouthatyouarelate (iv)Hetoldyouthatyouwerelate. ~3-."
+        "a": "The girl said, “Teacher, shall I write this poem again” Gi) The girl asked the teacher if she should write that poem again. (iit) The girl asked the teacher if she should write this poem again. (iv) The girl asked the teacher if she shall write that poem again. — -",
+        "b": "The clerk said, “Submit your forms tomorrow.” (i) The clerk asked us to submit our forms tomorrow. (ii) The clerk asked us to submit our forms the following day. Git) The clerk asks us to submit our forms the following day. (iv) The clerk has asked us to submit our forms the following day.",
+        "c": "She said, “We are all mortals.” (i) She says that we are all mortals. Gi) She said that we are all mortals. (ii) She said that we were all mortals. (iv) She says that we have all been mortals.",
+        "d": "The criminal said to the king, “Please have mercy on me.” (i) The criminal begs the king to have mercy on him. (i) The criminal begged the king to have mercy on him ii) The criminal has begged the king to have mercy on him (iv) The criminal had begged the king to have mercy on him. (i) He told you that you had been late. @i) He said to you that you had been late Gi) He told you that you are late (iv) He told you that you were late. ~3- ."
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethecorrectindirectformofspeechfromthefollowingdirectsentences.(5x1=5)",
+      "q": "Choose the correct indirect form of speech from the following direct sentences. (5x1=5)",
       "multi": false
     },
     {
@@ -61,10 +61,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Heworkshardearningaliving.",
-        "b": "Heismorehandsomethanme.",
-        "c": "Thechildrenarebusytodotheirproject.",
-        "d": "Neithermothernorfatherwereathome.:"
+        "a": "He works hard earning a living.",
+        "b": "He is more handsome than me.",
+        "c": "The children are busy to do their project.",
+        "d": "Neither mother nor father were at home. :"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Correctthefollowingsentences,(10x1=16)",
+      "q": "Correct the following sentences, (10x1=16)",
       "multi": false
     },
     {
@@ -84,10 +84,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Thethiefenteredthehouseawindow.(from/by/through/into)",
-        "b": "Thehorsejumpedthefence.(above/over/upto/into)",
-        "c": "Hecametoschoolfoot.(on/by/with/in)",
-        "d": "Ihavenotseenherthelastthreedays.(since/from/for/in)"
+        "a": "The thief entered the house a window. (from/  by / through/  into)",
+        "b": "The horse jumped the fence. (above / over/  upto / into)",
+        "c": "He came to school foot. (on / by / with / in)",
+        "d": "Ihave not seen her the last three days. (since /f rom /f or / in)"
       },
       "marked": null,
       "cov": {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Fillintheblanksbychoosingtheappropriateprepositionsfromthegivenalternatives: (5*1=5)",
+      "q": "Fill in the blanks by choosing the appropriate prepositions from the given alternatives:  (5*1=5)",
       "multi": false
     },
     {
@@ -108,9 +108,9 @@
       "direction": null,
       "opts": {
         "a": "elusive/illusive",
-        "b": "facilitate/felicitate",
+        "b": "facilitate / felicitate",
         "c": "inept/inapt",
-        "d": "hoard/horde FERREREE"
+        "d": "hoard / horde FERRER EE"
       },
       "marked": null,
       "cov": {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Makesentenceswitheachwordinthefollowingpairofwordtoshowtheirdifferenceinmeaning: (5x2=10)",
+      "q": "Make sentences with each word in the following pair of word to show their difference in meaning : (5x2=10)",
       "multi": false
     }
   ],

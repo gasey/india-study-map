@@ -13,7 +13,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.I-10):ChoosethecorrectPartsofSpeechfortheunderlinedwords",
+      "direction": "Directions (Question Nos. I - 10) : Choose the correct Parts of Speech for the underlined words",
       "opts": {
         "a": "Noun",
         "b": "Pronoun",
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MuslimsfastinthemonthofRamzan.",
+      "q": "Muslims fast in the month of Ramzan.",
       "multi": false
     },
     {
@@ -36,7 +36,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.I-10):ChoosethecorrectPartsofSpeechfortheunderlinedwords",
+      "direction": "Directions (Question Nos. I - 10) : Choose the correct Parts of Speech for the underlined words",
       "opts": {
         "a": "Noun",
         "b": "Pronoun",
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hestilllivesinthatdilapidatedhouse.",
+      "q": "He still lives in that dilapidated house.",
       "multi": false
     },
     {
@@ -59,12 +59,12 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.I-10):ChoosethecorrectPartsofSpeechfortheunderlinedwords",
+      "direction": "Directions (Question Nos. I - 10) : Choose the correct Parts of Speech for the underlined words",
       "opts": {
         "a": "Adverb",
         "b": "Preposition",
         "c": "Conjunction",
-        "d": "Interjection (a)Adverb(b)Preposition (c)Conjunction(d)Interjection (a)Noun(b)Pronoun (c)Verb(d)Adjective"
+        "d": "Interjection (a) Adverb (b) Preposition (c) Conjunction (d) Interjection (a) Noun (b) Pronoun (c) Verb (d) Adjective"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theyarrivedafterwehadleft.",
+      "q": "They arrived after we had left.",
       "multi": false
     },
     {
@@ -82,7 +82,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.I-10):ChoosethecorrectPartsofSpeechfortheunderlinedwords",
+      "direction": "Directions (Question Nos. I - 10) : Choose the correct Parts of Speech for the underlined words",
       "opts": {
         "a": "Noun",
         "b": "Pronoun",
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Eitherthemanagerorhisassistantsfailedintheirduty.",
+      "q": "Either the manager or his assistants failed in their duty.",
       "multi": false
     },
     {
@@ -105,7 +105,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.I-10):ChoosethecorrectPartsofSpeechfortheunderlinedwords",
+      "direction": "Directions (Question Nos. I - 10) : Choose the correct Parts of Speech for the underlined words",
       "opts": {
         "a": "Adverb",
         "b": "Preposition",
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thelionandtheunicornfoughtforthecrown.",
+      "q": "The lion and the unicorn fought for the crown.",
       "multi": false
     },
     {
@@ -128,7 +128,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.I-10):ChoosethecorrectPartsofSpeechfortheunderlinedwords",
+      "direction": "Directions (Question Nos. I - 10) : Choose the correct Parts of Speech for the underlined words",
       "opts": {
         "a": "Adverb",
         "b": "Preposition",
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OhmyGod!Thatwasunexpected.",
+      "q": "Oh my God! That was unexpected.",
       "multi": false
     },
     {
@@ -151,7 +151,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.I-10):ChoosethecorrectPartsofSpeechfortheunderlinedwords",
+      "direction": "Directions (Question Nos. I - 10) : Choose the correct Parts of Speech for the underlined words",
       "opts": {
         "a": "Noun",
         "b": "Pronoun",
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Therhythmoftheroadandthewindcominginthecrackedwindowsbroughtonasurgeofnostalgia.",
+      "q": "The rhythm of the road and the wind coming in the cracked windows brought on a surge of nostalgia.",
       "multi": false
     },
     {
@@ -174,7 +174,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.I-10):ChoosethecorrectPartsofSpeechfortheunderlinedwords",
+      "direction": "Directions (Question Nos. I - 10) : Choose the correct Parts of Speech for the underlined words",
       "opts": {
         "a": "Noun",
         "b": "Pronoun",
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Somepeopledisagreewiththistheory,however,it’sneverbeenprovenright.",
+      "q": "Some people disagree with this theory, however, it’s never been proven right.",
       "multi": false
     },
     {
@@ -197,12 +197,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformsoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct forms of the verbs given in",
       "opts": {
         "a": "accuse",
         "b": "accused",
         "c": "accusing",
-        "d": "accusedby"
+        "d": "accused by"
       },
       "marked": null,
       "cov": {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thethiefwas(accuse)ofrobbingthebankandattackingthreemen.",
+      "q": "The thief was (accuse) of robbing the bank and attacking three men.",
       "multi": false
     },
     {
@@ -220,12 +220,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformsoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct forms of the verbs given in",
       "opts": {
         "a": "conflicts",
         "b": "conflicting",
         "c": "conflict",
-        "d": "areconflicting"
+        "d": "are conflicting"
       },
       "marked": null,
       "cov": {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thefactthathelikesexpensivecarsverymuch_—_(conflict)withthefactthatheisapoorman.",
+      "q": "The fact thathe likes expensivecars verymuch_—_ (conflict) with the fact that he is a poor man.",
       "multi": false
     },
     {
@@ -243,7 +243,7 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformsoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct forms of the verbs given in",
       "opts": {
         "a": "deserve",
         "b": "deserving",
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IthinkthatTurkey(deserve)aspecialplaceamongothercountriesbecauseofits tremendouspotential.",
+      "q": "I think that Turkey (deserve) a special place among other countries because of its tremendous potential.",
       "multi": false
     },
     {
@@ -266,7 +266,7 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformsoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct forms of the verbs given in",
       "opts": {
         "a": "survive",
         "b": "surviving",
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Itisamazingthatonlyathree-year-oldchild(survive)theplanecrashinwhichhundreds ofpassengersdied.",
+      "q": "Itis amazing that only a three-year-old child (survive) the plane crash in which hundreds of passengers died.",
       "multi": false
     },
     {
@@ -289,7 +289,7 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformsoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct forms of the verbs given in",
       "opts": {
         "a": "ignore",
         "b": "ignores",
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heissoarrogantandvainthathelooksdownoneveryone,Consequently,everyone (ignore)him.",
+      "q": "He is so arrogant and vain that he looks down on everyone, Consequently, everyone (ignore) him.",
       "multi": false
     },
     {
@@ -312,12 +312,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformsoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct forms of the verbs given in",
       "opts": {
         "a": "hesitate",
         "b": "hesitates",
         "c": "hesitated",
-        "d": "hesitating:"
+        "d": "hesitating :"
       },
       "marked": null,
       "cov": {
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Itisaverybadhabitforapersonto(hesitate)whenheiscrossingthestreet.",
+      "q": "Itis avery bad habit for a person to (hesitate) when he is crossing the street.",
       "multi": false
     },
     {
@@ -335,7 +335,7 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformsoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct forms of the verbs given in",
       "opts": {
         "a": "inherit",
         "b": "inherits",
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thebaby(inherit)hismother’sgreeneyesandhisfather’sstrength.-",
+      "q": "The baby (inherit) his mother’s green eyes and his father’s strength. -",
       "multi": false
     },
     {
@@ -358,7 +358,7 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformsoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct forms of the verbs given in",
       "opts": {
         "a": "invent",
         "b": "invents",
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifmoneyhadn’tbeen(invent)maybetherewouldn’tbesomuchchaosintheworld.",
+      "q": "Ifmoney hadn’t been (invent) maybe there wouldn’t be so much chaos in the world.",
       "multi": false
     },
     {
@@ -381,10 +381,10 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformsoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct forms of the verbs given in",
       "opts": {
         "a": "insist",
-        "b": "_insists",
+        "b": "_ insists",
         "c": "insisted",
         "d": "insisting"
       },
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whydoyou(insist)onhissmokingallthetimeeventhoughyoukntohatwheisnotasmoker?",
+      "q": "Why do you (insist) on his smoking all the time even though you kntohatw he  is nota smoker?",
       "multi": false
     },
     {
@@ -404,7 +404,7 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformsoftheverbsgivenin",
+      "direction": "Directions (Question Nos. 11 - 20) : Fill in the blanks with the correct forms of the verbs given in",
       "opts": {
         "a": "fight",
         "b": "fights",
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thearmybravely(fight)theenemy.",
+      "q": "The army bravely (fight) the enemy.",
       "multi": false
     },
     {
@@ -427,7 +427,7 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):IdentifythetypeofImperativesentencesandpickoutthe",
+      "direction": "Directions (Question Nos. 21 - 30) : Identify the type of Imperative sentences and pick out the",
       "opts": {
         "a": "Command",
         "b": "Request",
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Watchyourmouth,youngman.",
+      "q": "Watch your mouth, young man.",
       "multi": false
     },
     {
@@ -450,7 +450,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):IdentifythetypeofImperativesentencesandpickoutthe",
+      "direction": "Directions (Question Nos. 21 - 30) : Identify the type of Imperative sentences and pick out the",
       "opts": {
         "a": "Command",
         "b": "Request",
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Don’tcountthedays.Makethedayscount.",
+      "q": "Don’t count the days. Make the days count.",
       "multi": false
     },
     {
@@ -473,12 +473,12 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):IdentifythetypeofImperativesentencesandpickoutthe",
+      "direction": "Directions (Question Nos. 21 - 30) : Identify the type of Imperative sentences and pick out the",
       "opts": {
         "a": "Command",
         "b": "Request",
         "c": "Instruction",
-        "d": "}Advice"
+        "d": "} Advice"
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Helpmepickuptheseboxes.",
+      "q": "Help me pick up these boxes.",
       "multi": false
     },
     {
@@ -496,7 +496,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):IdentifythetypeofImperativesentencesandpickoutthe",
+      "direction": "Directions (Question Nos. 21 - 30) : Identify the type of Imperative sentences and pick out the",
       "opts": {
         "a": "Warning",
         "b": "Instruction",
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Watchout!",
+      "q": "Watch out!",
       "multi": false
     },
     {
@@ -519,7 +519,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):IdentifythetypeofImperativesentencesandpickoutthe",
+      "direction": "Directions (Question Nos. 21 - 30) : Identify the type of Imperative sentences and pick out the",
       "opts": {
         "a": "Warning",
         "b": "Instruction",
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heatthepanbeforepouringthebatter.",
+      "q": "Heat the pan before pouring the batter.",
       "multi": false
     },
     {
@@ -542,7 +542,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):IdentifythetypeofImperativesentencesandpickoutthe",
+      "direction": "Directions (Question Nos. 21 - 30) : Identify the type of Imperative sentences and pick out the",
       "opts": {
         "a": "Warming",
         "b": "Instruction",
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Letusallgoforaswimtomorrow.",
+      "q": "Let us all go for a swim tomorrow.",
       "multi": false
     },
     {
@@ -565,7 +565,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):IdentifythetypeofImperativesentencesandpickoutthe",
+      "direction": "Directions (Question Nos. 21 - 30) : Identify the type of Imperative sentences and pick out the",
       "opts": {
         "a": "Warning",
         "b": "Instruction",
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Noparking!",
+      "q": "No parking!",
       "multi": false
     },
     {
@@ -588,7 +588,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):IdentifythetypeofImperativesentencesandpickoutthe",
+      "direction": "Directions (Question Nos. 21 - 30) : Identify the type of Imperative sentences and pick out the",
       "opts": {
         "a": "Warning",
         "b": "Instruction",
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Trynottocrosstheyellowline.",
+      "q": "Try not to cross the yellow line.",
       "multi": false
     },
     {
@@ -611,7 +611,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.21-30):IdentifythetypeofImperativesentencesandpickoutthe",
+      "direction": "Directions (Question Nos. 21 - 30) : Identify the type of Imperative sentences and pick out the",
       "opts": {
         "a": "Warning",
         "b": "Request",
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Can|borrowyourpen?",
+      "q": "Can | borrow your pen?",
       "multi": false
     },
     {
@@ -634,7 +634,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillinwiththeappropriateprepositionprovidedattheend",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in with the appropriate preposition provided at the end",
       "opts": {
         "a": "In",
         "b": "By",
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "amonthhereturned.",
+      "q": "a month he returned.",
       "multi": false
     },
     {
@@ -657,7 +657,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillinwiththeappropriateprepositionprovidedattheend",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in with the appropriate preposition provided at the end",
       "opts": {
         "a": "n",
         "b": "at",
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Herulesavastempire.",
+      "q": "He rules a vast empire.",
       "multi": false
     },
     {
@@ -680,7 +680,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillinwiththeappropriateprepositionprovidedattheend",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in with the appropriate preposition provided at the end",
       "opts": {
         "a": "by",
         "b": "of",
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "JohnGilpinwasacitizencreditandrenown.",
+      "q": "John Gilpin was a citizen credit and renown.",
       "multi": false
     },
     {
@@ -703,7 +703,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillinwiththeappropriateprepositionprovidedattheend",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in with the appropriate preposition provided at the end",
       "opts": {
         "a": "with",
         "b": "before",
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heworkedandsangmorntillnight.",
+      "q": "He worked and sang morn till night.",
       "multi": false
     },
     {
@@ -726,11 +726,11 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillinwiththeappropriateprepositionprovidedattheend",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in with the appropriate preposition provided at the end",
       "opts": {
         "a": "at",
         "b": "by",
-        "c": "on(dd)n"
+        "c": "on (dd) n"
       },
       "marked": null,
       "cov": {
@@ -739,7 +739,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Shesatthefire,andtoldmeatale.",
+      "q": "She sat the fire, and told me a tale.",
       "multi": false
     },
     {
@@ -747,11 +747,11 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillinwiththeappropriateprepositionprovidedattheend",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in with the appropriate preposition provided at the end",
       "opts": {
         "a": "besides",
         "b": "with",
-        "c": "among(a)by"
+        "c": "among (a) by"
       },
       "marked": null,
       "cov": {
@@ -760,7 +760,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "HegoesonSundaytothechurch,andsitshisboys.",
+      "q": "He goes on Sunday to the church, and sits his boys.",
       "multi": false
     },
     {
@@ -768,7 +768,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillinwiththeappropriateprepositionprovidedattheend",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in with the appropriate preposition provided at the end",
       "opts": {
         "a": "with",
         "b": "without",
@@ -783,7 +783,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Onecrowdedhourofgloriouslifeisworthanageaname.",
+      "q": "One crowded hour of glorious life is worth an age aname.",
       "multi": false
     },
     {
@@ -791,7 +791,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillinwiththeappropriateprepositionprovidedattheend",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in with the appropriate preposition provided at the end",
       "opts": {
         "a": "of",
         "b": "by",
@@ -806,7 +806,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "|triedtoreasonhimouthisfears.",
+      "q": "| tried to reason him out his fears.",
       "multi": false
     },
     {
@@ -814,7 +814,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.31-40):Fillinwiththeappropriateprepositionprovidedattheend",
+      "direction": "Directions (Question Nos. 31 - 40) : Fill in with the appropriate preposition provided at the end",
       "opts": {
         "a": "Within",
         "b": "Off",
@@ -829,7 +829,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "thestreetthePiperstept.",
+      "q": "the street the Piper stept.",
       "multi": false
     },
     {
@@ -837,7 +837,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Identifythetypeofsentencesandchoosethecorrectanswer",
+      "direction": "Directions (Question Nos. 41 - 50) : Identify the type of sentences and choose the correct answer",
       "opts": {
         "a": "Declarative",
         "b": "Imperative",
@@ -852,7 +852,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Pleaseleavemenow,Ihaveanimportantappointmentwithyourseniors.",
+      "q": "Please leave me now, I have an important appointment with your seniors.",
       "multi": false
     },
     {
@@ -860,7 +860,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Identifythetypeofsentencesandchoosethecorrectanswer",
+      "direction": "Directions (Question Nos. 41 - 50) : Identify the type of sentences and choose the correct answer",
       "opts": {
         "a": "Declarative",
         "b": "Imperative",
@@ -875,7 +875,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Suchanumberofrockscameoverherhead.",
+      "q": "Such a number of rocks came over her head.",
       "multi": false
     },
     {
@@ -883,7 +883,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Identifythetypeofsentencesandchoosethecorrectanswer",
+      "direction": "Directions (Question Nos. 41 - 50) : Identify the type of sentences and choose the correct answer",
       "opts": {
         "a": "Declarative",
         "b": "Imperative",
@@ -898,7 +898,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Don’tyoudarecrossmypath.",
+      "q": "Don’t you dare cross my path.",
       "multi": false
     },
     {
@@ -906,7 +906,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Identifythetypeofsentencesandchoosethecorrectanswer",
+      "direction": "Directions (Question Nos. 41 - 50) : Identify the type of sentences and choose the correct answer",
       "opts": {
         "a": "Declarative",
         "b": "Imperative",
@@ -921,7 +921,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatafantasticoffer!",
+      "q": "What a fantastic offer!",
       "multi": false
     },
     {
@@ -929,7 +929,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Identifythetypeofsentencesandchoosethecorrectanswer",
+      "direction": "Directions (Question Nos. 41 - 50) : Identify the type of sentences and choose the correct answer",
       "opts": {
         "a": "Declarative",
         "b": "Interrogative",
@@ -944,7 +944,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shutthewindowbeforeyoucomedown.",
+      "q": "Shut the window before you come down.",
       "multi": false
     },
     {
@@ -952,7 +952,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Identifythetypeofsentencesandchoosethecorrectanswer",
+      "direction": "Directions (Question Nos. 41 - 50) : Identify the type of sentences and choose the correct answer",
       "opts": {
         "a": "Declarative",
         "b": "Interrogative",
@@ -967,7 +967,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ah!Iamingreatpain.",
+      "q": "Ah! I am in great pain.",
       "multi": false
     },
     {
@@ -975,7 +975,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Identifythetypeofsentencesandchoosethecorrectanswer",
+      "direction": "Directions (Question Nos. 41 - 50) : Identify the type of sentences and choose the correct answer",
       "opts": {
         "a": "Declarative",
         "b": "Interrogative",
@@ -990,7 +990,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HowdoyoudifferentiateNinaandMinawhoaresoidentical?",
+      "q": "How do you differentiate Nina and Mina who are so identical?",
       "multi": false
     },
     {
@@ -998,7 +998,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Identifythetypeofsentencesandchoosethecorrectanswer",
+      "direction": "Directions (Question Nos. 41 - 50) : Identify the type of sentences and choose the correct answer",
       "opts": {
         "a": "Declarative",
         "b": "Interrogative",
@@ -1013,7 +1013,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MostofthemigratorybirdsinthislakecomefromSiberiaeverywinter.",
+      "q": "Most of the migratory birds in this lake come from Siberia every winter.",
       "multi": false
     },
     {
@@ -1021,7 +1021,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Identifythetypeofsentencesandchoosethecorrectanswer",
+      "direction": "Directions (Question Nos. 41 - 50) : Identify the type of sentences and choose the correct answer",
       "opts": {
         "a": "Declarative",
         "b": "Interrogative",
@@ -1036,7 +1036,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "KindlyforwardthemessageIsentyoutoallourfriends.",
+      "q": "Kindly forward the message I sent you to all our friends.",
       "multi": false
     },
     {
@@ -1044,7 +1044,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-50):Identifythetypeofsentencesandchoosethecorrectanswer",
+      "direction": "Directions (Question Nos. 41 - 50) : Identify the type of sentences and choose the correct answer",
       "opts": {
         "a": "Declarative",
         "b": "Interrogative",
@@ -1059,7 +1059,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whenistherainexpectedinthispartofthecountry?",
+      "q": "When is the rain expected in this part of the country?",
       "multi": false
     },
     {
@@ -1067,7 +1067,7 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Analyzethefollowingsentencesandindicatethekindofeach.",
+      "direction": "Directions (Question Nos. 51 - 60) : Analyze the following sentences and indicate the kind of each.",
       "opts": {
         "a": "Simple",
         "b": "Compound",
@@ -1080,7 +1080,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Lifehasfewenjoyments;still,weclingtoit.",
+      "q": "Life has few enjoyments; still, we cling to it.",
       "multi": false
     },
     {
@@ -1088,7 +1088,7 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Analyzethefollowingsentencesandindicatethekindofeach.",
+      "direction": "Directions (Question Nos. 51 - 60) : Analyze the following sentences and indicate the kind of each.",
       "opts": {
         "a": "Simple",
         "b": "Compound",
@@ -1101,7 +1101,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Onlydotheright,andyouwillhavenoreasontobeashamed.",
+      "q": "Only do the right, and you will have no reason to be ashamed.",
       "multi": false
     },
     {
@@ -1109,7 +1109,7 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Analyzethefollowingsentencesandindicatethekindofeach.",
+      "direction": "Directions (Question Nos. 51 - 60) : Analyze the following sentences and indicate the kind of each.",
       "opts": {
         "a": "Simple",
         "b": "Compound",
@@ -1122,7 +1122,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Agoodtreecannotbringforthevilfruit.",
+      "q": "A good tree cannot bring forth evil fruit.",
       "multi": false
     },
     {
@@ -1130,7 +1130,7 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Analyzethefollowingsentencesandindicatethekindofeach.",
+      "direction": "Directions (Question Nos. 51 - 60) : Analyze the following sentences and indicate the kind of each.",
       "opts": {
         "a": "Simple",
         "b": "Compound",
@@ -1143,7 +1143,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Timefliesfast,yetitsometimesappearstomoveslowly.",
+      "q": "Time flies fast, yet it sometimes appears to move slowly.",
       "multi": false
     },
     {
@@ -1151,7 +1151,7 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Analyzethefollowingsentencesandindicatethekindofeach.",
+      "direction": "Directions (Question Nos. 51 - 60) : Analyze the following sentences and indicate the kind of each.",
       "opts": {
         "a": "Simple",
         "b": "Compound",
@@ -1164,7 +1164,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Keepquietoryouwillbepunished.",
+      "q": "Keep quiet or you will be punished.",
       "multi": false
     },
     {
@@ -1172,11 +1172,11 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Analyzethefollowingsentencesandindicatethekindofeach.",
+      "direction": "Directions (Question Nos. 51 - 60) : Analyze the following sentences and indicate the kind of each.",
       "opts": {
         "a": "Simple",
         "b": "Compound",
-        "c": "Complex-"
+        "c": "Complex -"
       },
       "marked": null,
       "cov": {
@@ -1185,7 +1185,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Whenhesawthedangerhepaused.",
+      "q": "When he saw the danger he paused.",
       "multi": false
     },
     {
@@ -1193,7 +1193,7 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Analyzethefollowingsentencesandindicatethekindofeach.",
+      "direction": "Directions (Question Nos. 51 - 60) : Analyze the following sentences and indicate the kind of each.",
       "opts": {
         "a": "Simple",
         "b": "Compound",
@@ -1206,7 +1206,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Assoonashegotthetelegram,heleftinataxi.",
+      "q": "As soonas he got the telegram, he left in a taxi.",
       "multi": false
     },
     {
@@ -1214,7 +1214,7 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Analyzethefollowingsentencesandindicatethekindofeach.",
+      "direction": "Directions (Question Nos. 51 - 60) : Analyze the following sentences and indicate the kind of each.",
       "opts": {
         "a": "Simple",
         "b": "Compound",
@@ -1227,7 +1227,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "AftersceingtheChiefMinisterhedeparted.",
+      "q": "After sceing the Chief Minister he departed.",
       "multi": false
     },
     {
@@ -1235,7 +1235,7 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Analyzethefollowingsentencesandindicatethekindofeach.",
+      "direction": "Directions (Question Nos. 51 - 60) : Analyze the following sentences and indicate the kind of each.",
       "opts": {
         "a": "Simple",
         "b": "Compound",
@@ -1248,7 +1248,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Hesavedthechildattheriskofhislife.",
+      "q": "He saved the child at the risk of his life.",
       "multi": false
     },
     {
@@ -1256,7 +1256,7 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):Analyzethefollowingsentencesandindicatethekindofeach.",
+      "direction": "Directions (Question Nos. 51 - 60) : Analyze the following sentences and indicate the kind of each.",
       "opts": {
         "a": "Simpie",
         "b": "Compound",
@@ -1269,7 +1269,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Althoughhesawthedanger,hepressedon.",
+      "q": "Although he saw the danger, he pressed on.",
       "multi": false
     },
     {
@@ -1277,12 +1277,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Choosethecorrecttypeofclauseforthewordsunderlinedin",
+      "direction": "Directions (Question Nos. 61 - 70) : Choose the correct type of clause for the words underlined in",
       "opts": {
         "a": "Mainclause",
-        "b": "Nounclause",
-        "c": "Adjectiveclause",
-        "d": "Adverbclause"
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
       },
       "marked": null,
       "cov": {
@@ -1292,7 +1292,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theywentwherelivingwascheaper.",
+      "q": "They went where living was cheaper.",
       "multi": false
     },
     {
@@ -1300,12 +1300,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Choosethecorrecttypeofclauseforthewordsunderlinedin",
+      "direction": "Directions (Question Nos. 61 - 70) : Choose the correct type of clause for the words underlined in",
       "opts": {
-        "a": "Mainclause",
-        "b": "Nounclause",
-        "c": "Adjectiveclause",
-        "d": "Adverbclause (a)Mainclause(b)Nounclause (c)Adjectiveclause(d)Adverbclause"
+        "a": "Main clause",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause (a) Mainclause (b) Noun clause (c) Adjective clause (d) Adverb clause"
       },
       "marked": null,
       "cov": {
@@ -1315,7 +1315,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IrememberthehousewhereIwasborn.",
+      "q": "Iremember the house where I was born.",
       "multi": false
     },
     {
@@ -1323,12 +1323,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Choosethecorrecttypeofclauseforthewordsunderlinedin",
+      "direction": "Directions (Question Nos. 61 - 70) : Choose the correct type of clause for the words underlined in",
       "opts": {
         "a": "Mainclause",
-        "b": "Nounclause",
-        "c": "Adjectiveclause",
-        "d": "Adverbclause"
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
       },
       "marked": null,
       "cov": {
@@ -1338,7 +1338,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "[havealittleshadowwhichgoesinandoutwithme.",
+      "q": "[havea little shadow which goes in and out with me.",
       "multi": false
     },
     {
@@ -1346,12 +1346,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Choosethecorrecttypeofclauseforthewordsunderlinedin",
+      "direction": "Directions (Question Nos. 61 - 70) : Choose the correct type of clause for the words underlined in",
       "opts": {
-        "a": "Mainclause",
-        "b": "Nounclause",
-        "c": "Adjectiveclause",
-        "d": "Adverbclause"
+        "a": "Main clause",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
       },
       "marked": null,
       "cov": {
@@ -1361,7 +1361,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Weshallwaithereuntilyoucome.",
+      "q": "We shall wait here until you come.",
       "multi": false
     },
     {
@@ -1369,12 +1369,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Choosethecorrecttypeofclauseforthewordsunderlinedin",
+      "direction": "Directions (Question Nos. 61 - 70) : Choose the correct type of clause for the words underlined in",
       "opts": {
         "a": "Mainclause",
-        "b": "Nounclause",
-        "c": "Adjectiveclause",
-        "d": "Adverbclause"
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
       },
       "marked": null,
       "cov": {
@@ -1384,7 +1384,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Peoplewholiveinglasshousesshouldnotthrowstones.",
+      "q": "People who live in glass houses should not throw stones.",
       "multi": false
     },
     {
@@ -1392,12 +1392,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Choosethecorrecttypeofclauseforthewordsunderlinedin",
+      "direction": "Directions (Question Nos. 61 - 70) : Choose the correct type of clause for the words underlined in",
       "opts": {
-        "a": "Mainclause",
-        "b": "Nounclause",
-        "c": "Adjectiveclause",
-        "d": "Adverbclause"
+        "a": "Main clause",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
       },
       "marked": null,
       "cov": {
@@ -1407,7 +1407,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iearnwhatever|can.",
+      "q": "I earn whatever | can.",
       "multi": false
     },
     {
@@ -1415,12 +1415,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Choosethecorrecttypeofclauseforthewordsunderlinedin",
+      "direction": "Directions (Question Nos. 61 - 70) : Choose the correct type of clause for the words underlined in",
       "opts": {
-        "a": "Mainclause",
-        "b": "Nounclause",
-        "c": "Adjectiveclause",
-        "d": "Adverbclause"
+        "a": "Main clause",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
       },
       "marked": null,
       "cov": {
@@ -1430,7 +1430,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thatyoushouldcheatmehurtsme.",
+      "q": "That you should cheat me hurts me.",
       "multi": false
     },
     {
@@ -1438,12 +1438,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Choosethecorrecttypeofclauseforthewordsunderlinedin",
+      "direction": "Directions (Question Nos. 61 - 70) : Choose the correct type of clause for the words underlined in",
       "opts": {
-        "a": "Mainclause",
-        "b": "Nounclause",
-        "c": "Adjectiveclause",
-        "d": "Adverbclause"
+        "a": "Main clause",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
       },
       "marked": null,
       "cov": {
@@ -1453,7 +1453,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "[knowthemanwhowashere.",
+      "q": "[know the man who was here.",
       "multi": false
     },
     {
@@ -1461,12 +1461,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.61-70):Choosethecorrecttypeofclauseforthewordsunderlinedin",
+      "direction": "Directions (Question Nos. 61 - 70) : Choose the correct type of clause for the words underlined in",
       "opts": {
         "a": "Mainclause",
-        "b": "Nounclause",
-        "c": "Adjectiveclause",
-        "d": "Adverbclause"
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
       },
       "marked": null,
       "cov": {
@@ -1476,7 +1476,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thelawwillpunishwhosoeverisguilty.",
+      "q": "The law will punish whosoeveris guilty.",
       "multi": false
     },
     {
@@ -1484,10 +1484,10 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):ForeachoftheunderlinedIdiomsandPhrasesinthefollowing:",
+      "direction": "Directions (Question Nos. 71 - 80) : For each of the underlined Idioms and Phrases in the following :",
       "opts": {
-        "a": "outofreach",
-        "b": "veryhappy",
+        "a": "out of reach",
+        "b": "very happy",
         "c": "puzzled",
         "d": "drowning"
       },
@@ -1499,7 +1499,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "1amallalsea.",
+      "q": "1am allal sea.",
       "multi": false
     },
     {
@@ -1507,12 +1507,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):ForeachoftheunderlinedIdiomsandPhrasesinthefollowing:",
+      "direction": "Directions (Question Nos. 71 - 80) : For each of the underlined Idioms and Phrases in the following :",
       "opts": {
-        "a": "havingtoomuchcriticalhabit",
-        "b": "eccentricandpeculiarperson",
-        "c": "dishonestperson",
-        "d": "verymeanperson"
+        "a": "having too much critical habit",
+        "b": "eccentric and peculiar person",
+        "c": "dishonest person",
+        "d": "very mean person"
       },
       "marked": null,
       "cov": {
@@ -1522,7 +1522,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Icannotdealwithaqueerfishlikehim.",
+      "q": "Icannot deal with a queer fish like him.",
       "multi": false
     },
     {
@@ -1530,12 +1530,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):ForeachoftheunderlinedIdiomsandPhrasesinthefollowing:",
+      "direction": "Directions (Question Nos. 71 - 80) : For each of the underlined Idioms and Phrases in the following :",
       "opts": {
-        "a": "avoidstarvation",
-        "b": "guardfrompickpockets",
-        "c": "wardoffmosquitoes",
-        "d": "_keeponeselfhealthy"
+        "a": "avoid starvation",
+        "b": "guard from pickpockets",
+        "c": "ward off mosquitoes",
+        "d": "_ keep oneself healthy"
       },
       "marked": null,
       "cov": {
@@ -1545,7 +1545,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thousandsputonadailyfighttokeepthewolffromthedoor.",
+      "q": "Thousands put ona daily fight to keep the wolf from the door.",
       "multi": false
     },
     {
@@ -1553,7 +1553,7 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):ForeachoftheunderlinedIdiomsandPhrasesinthefollowing:",
+      "direction": "Directions (Question Nos. 71 - 80) : For each of the underlined Idioms and Phrases in the following :",
       "opts": {
         "a": "open",
         "b": "simple",
@@ -1568,7 +1568,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hisdealingsareallaboveboard.",
+      "q": "His dealings are all above board.",
       "multi": false
     },
     {
@@ -1576,12 +1576,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):ForeachoftheunderlinedIdiomsandPhrasesinthefollowing:",
+      "direction": "Directions (Question Nos. 71 - 80) : For each of the underlined Idioms and Phrases in the following :",
       "opts": {
-        "a": "shortontime",
-        "b": "averymildpunishment",
-        "c": "tohaveadispute",
-        "d": "toforceanissue"
+        "a": "short on time",
+        "b": "avery mild punishment",
+        "c": "to have adispute",
+        "d": "to force an issue"
       },
       "marked": null,
       "cov": {
@@ -1591,7 +1591,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theteachergavethenaughtychildaslaponthewrist.",
+      "q": "The teacher gave the naughty child a slap on the wrist.",
       "multi": false
     },
     {
@@ -1599,7 +1599,7 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):ForeachoftheunderlinedIdiomsandPhrasesinthefollowing:",
+      "direction": "Directions (Question Nos. 71 - 80) : For each of the underlined Idioms and Phrases in the following :",
       "opts": {
         "a": "frustrated",
         "b": "homeless",
@@ -1614,7 +1614,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Forthefirstweek,theapprenticefeltlikefishoutofwater.",
+      "q": "For the first week, the apprentice felt like fish out of water.",
       "multi": false
     },
     {
@@ -1622,12 +1622,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):ForeachoftheunderlinedIdiomsandPhrasesinthefollowing:",
+      "direction": "Directions (Question Nos. 71 - 80) : For each of the underlined Idioms and Phrases in the following :",
       "opts": {
-        "a": "softspeech",
-        "b": "wordpower",
+        "a": "soft speech",
+        "b": "word power",
         "c": "flattery",
-        "d": "fluencyinspeech"
+        "d": "fluency in speech"
       },
       "marked": null,
       "cov": {
@@ -1637,7 +1637,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hisoilytonguehaswonhimpromotion.",
+      "q": "His oily tongue has won him promotion.",
       "multi": false
     },
     {
@@ -1645,12 +1645,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):ForeachoftheunderlinedIdiomsandPhrasesinthefollowing:",
+      "direction": "Directions (Question Nos. 71 - 80) : For each of the underlined Idioms and Phrases in the following :",
       "opts": {
         "a": "absurdity",
         "b": "deception",
-        "c": "slightsatisfaction",
-        "d": "foolishproposal"
+        "c": "slight satisfaction",
+        "d": "foolish proposal"
       },
       "marked": null,
       "cov": {
@@ -1660,7 +1660,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thenewsofyourexamgavemecoldcomfort.",
+      "q": "The news of your exam gave me cold comfort.",
       "multi": false
     },
     {
@@ -1668,12 +1668,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-80):ForeachoftheunderlinedIdiomsandPhrasesinthefollowing:",
+      "direction": "Directions (Question Nos. 71 - 80) : For each of the underlined Idioms and Phrases in the following :",
       "opts": {
-        "a": "triedtocauseanaccident",
-        "b": "helpedintheexecutionoftheplan",
-        "c": "thwartedtheexecutionoftheplan",
-        "d": "destroytheplan"
+        "a": "tried to cause an accident",
+        "b": "helped in the execution of the plan",
+        "c": "thwarted the execution of the plan",
+        "d": "destroy the plan"
       },
       "marked": null,
       "cov": {
@@ -1683,7 +1683,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Itwashewhoputaspokeinmywheel.",
+      "q": "It was he who put a spoke in my wheel.",
       "multi": false
     },
     {
@@ -1691,7 +1691,7 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-90):Identifythewordthatbestexpressesitsmeaningtofillinthe",
+      "direction": "Directions (Question Nos. 81 - 90) : Identify the word that best expresses its meaning to fill in the",
       "opts": {
         "a": "aberrancy",
         "b": "currency",
@@ -1706,7 +1706,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theydemandedfromthegovernmentregardingthepolicy.",
+      "q": "They demanded from the government regarding the policy.",
       "multi": false
     },
     {
@@ -1714,12 +1714,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-90):Identifythewordthatbestexpressesitsmeaningtofillinthe",
+      "direction": "Directions (Question Nos. 81 - 90) : Identify the word that best expresses its meaning to fill in the",
       "opts": {
         "a": "purposeful",
         "b": "resolute",
         "c": "persistent",
-        "d": "persevering :(a)enormous(b)fierce (c)extreme(d)intense"
+        "d": "persevering : (a) enormous (b) fierce (c) extreme (d) intense"
       },
       "marked": null,
       "cov": {
@@ -1729,7 +1729,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shewasinhereffortstolearnthenewlanguage.",
+      "q": "She was in her efforts to learn the new language.",
       "multi": false
     },
     {
@@ -1737,11 +1737,11 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-90):Identifythewordthatbestexpressesitsmeaningtofillinthe",
+      "direction": "Directions (Question Nos. 81 - 90) : Identify the word that best expresses its meaning to fill in the",
       "opts": {
         "a": "creaking",
         "b": "bitter",
-        "c": "disturbing(ad)craggy"
+        "c": "disturbing (ad) craggy"
       },
       "marked": null,
       "cov": {
@@ -1750,7 +1750,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "TheoldchairmadeasoundwhenIsatonit.",
+      "q": "The old chair made a sound whenI  sat on it.",
       "multi": false
     },
     {
@@ -1758,7 +1758,7 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-90):Identifythewordthatbestexpressesitsmeaningtofillinthe",
+      "direction": "Directions (Question Nos. 81 - 90) : Identify the word that best expresses its meaning to fill in the",
       "opts": {
         "a": "illusion",
         "b": "allusion",
@@ -1773,7 +1773,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hemadesometotheyearstheylivedapart.",
+      "q": "He made some to the years they lived apart.",
       "multi": false
     },
     {
@@ -1781,7 +1781,7 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-90):Identifythewordthatbestexpressesitsmeaningtofillinthe",
+      "direction": "Directions (Question Nos. 81 - 90) : Identify the word that best expresses its meaning to fill in the",
       "opts": {
         "a": "amiable",
         "b": "boorish",
@@ -1796,7 +1796,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theydivorcedinapleasantandmanner.",
+      "q": "They divorced in a pleasant and manner.",
       "multi": false
     },
     {
@@ -1804,7 +1804,7 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-90):Identifythewordthatbestexpressesitsmeaningtofillinthe",
+      "direction": "Directions (Question Nos. 81 - 90) : Identify the word that best expresses its meaning to fill in the",
       "opts": {
         "a": "adage",
         "b": "paradox",
@@ -1819,7 +1819,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Murphy’sLawisagoodexampleofanthattakesapessimisticviewoflife.",
+      "q": "Murphy’s Law is a good example of an that takes a pessimistic view of life.",
       "multi": false
     },
     {
@@ -1827,12 +1827,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-90):Identifythewordthatbestexpressesitsmeaningtofillinthe",
+      "direction": "Directions (Question Nos. 81 - 90) : Identify the word that best expresses its meaning to fill in the",
       "opts": {
         "a": "mashed",
         "b": "crushed",
         "c": "pounded.",
-        "d": "squashed (a)callosity(b)insensitivity (c)callousness(d)numbness ~8-"
+        "d": "squashed (a) callosity (b) insensitivity (c) callousness (d) numbness ~8-"
       },
       "marked": null,
       "cov": {
@@ -1842,7 +1842,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thespectatorshadtobeintothehallforwantofspace.",
+      "q": "The spectators had to be into the hall for want of space.",
       "multi": false
     },
     {
@@ -1850,7 +1850,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.81-90):Identifythewordthatbestexpressesitsmeaningtofillinthe",
+      "direction": "Directions (Question Nos. 81 - 90) : Identify the word that best expresses its meaning to fill in the",
       "opts": {
         "a": "hamper",
         "b": "facilitate",
@@ -1865,7 +1865,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Althoughthepainmedicationhasitsbenefits,itcanalsothebody’scapacitytobreak downtoxins.",
+      "q": "Although the pain medication has its benefits, it can also the body’s capacity to break down toxins.",
       "multi": false
     },
     {
@@ -1873,7 +1873,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Choosethecorrectone-wordsubstitutefromthechoices",
+      "direction": "Directions (Question Nos. 91 - 100) : Choose the correct one-word substitute from the choices",
       "opts": {
         "a": "Belligerent",
         "b": "Crusade",
@@ -1888,7 +1888,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheactionoroffenceofspeakingsacrilegiouslyaboutGodorsacredthings.",
+      "q": "The action or offence of speaking sacrilegiously about God or sacred things.",
       "multi": false
     },
     {
@@ -1896,7 +1896,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Choosethecorrectone-wordsubstitutefromthechoices",
+      "direction": "Directions (Question Nos. 91 - 100) : Choose the correct one-word substitute from the choices",
       "opts": {
         "a": "Pedantic",
         "b": "Pantheism",
@@ -1911,7 +1911,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AdoctrinewhichidentifiesGodwiththeuniverse.",
+      "q": "A doctrine which identifies God with the universe.",
       "multi": false
     },
     {
@@ -1919,7 +1919,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Choosethecorrectone-wordsubstitutefromthechoices",
+      "direction": "Directions (Question Nos. 91 - 100) : Choose the correct one-word substitute from the choices",
       "opts": {
         "a": "Autocracy",
         "b": "Autonomy",
@@ -1934,7 +1934,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Asystemofgovernmentbyonepersonwithabsolutepower.",
+      "q": "Asystem of government by one person with absolute power.",
       "multi": false
     },
     {
@@ -1942,7 +1942,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Choosethecorrectone-wordsubstitutefromthechoices",
+      "direction": "Directions (Question Nos. 91 - 100) : Choose the correct one-word substitute from the choices",
       "opts": {
         "a": "Aviary",
         "b": "Apiary",
@@ -1957,7 +1957,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aplacewherebeesarekept;acollectionofbeehives.",
+      "q": "A place where bees are kept; a collection of beehives.",
       "multi": false
     },
     {
@@ -1965,7 +1965,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Choosethecorrectone-wordsubstitutefromthechoices",
+      "direction": "Directions (Question Nos. 91 - 100) : Choose the correct one-word substitute from the choices",
       "opts": {
         "a": "Cache",
         "b": "Creche",
@@ -1980,7 +1980,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aroominapublicbuildingwhereoutdoorclothesorluggagemaybeleft.",
+      "q": "A room ina public building where outdoor clothes or luggage may be left.",
       "multi": false
     },
     {
@@ -1988,10 +1988,10 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Choosethecorrectone-wordsubstitutefromthechoices",
+      "direction": "Directions (Question Nos. 91 - 100) : Choose the correct one-word substitute from the choices",
       "opts": {
         "a": "Clique",
-        "b": "Cortege.",
+        "b": "Cortege .",
         "c": "Caucus",
         "d": "Caravan"
       },
@@ -2003,7 +2003,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aclosedpoliticalmeeting.:",
+      "q": "A closed political meeting. :",
       "multi": false
     },
     {
@@ -2011,11 +2011,11 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Choosethecorrectone-wordsubstitutefromthechoices",
+      "direction": "Directions (Question Nos. 91 - 100) : Choose the correct one-word substitute from the choices",
       "opts": {
         "a": "Hamlet",
         "b": "Herd",
-        "c": "Horde({d)Posse"
+        "c": "Horde ({d) Posse"
       },
       "marked": null,
       "cov": {
@@ -2024,7 +2024,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Acommunityofpeoplesmallerthanavillage.",
+      "q": "A community of people smaller than a village.",
       "multi": false
     },
     {
@@ -2032,7 +2032,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Choosethecorrectone-wordsubstitutefromthechoices",
+      "direction": "Directions (Question Nos. 91 - 100) : Choose the correct one-word substitute from the choices",
       "opts": {
         "a": "Amateur",
         "b": "Auditor",
@@ -2047,7 +2047,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Onewhomakesanofficialexaminationofaccounts.",
+      "q": "One who makes an official examination of accounts.",
       "multi": false
     },
     {
@@ -2055,7 +2055,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Choosethecorrectone-wordsubstitutefromthechoices",
+      "direction": "Directions (Question Nos. 91 - 100) : Choose the correct one-word substitute from the choices",
       "opts": {
         "a": "Fastidious",
         "b": "Fugitive",
@@ -2070,7 +2070,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Onewhoishardtoplease.",
+      "q": "One who is hard to please.",
       "multi": false
     },
     {
@@ -2078,12 +2078,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.91-100):Choosethecorrectone-wordsubstitutefromthechoices",
+      "direction": "Directions (Question Nos. 91 - 100) : Choose the correct one-word substitute from the choices",
       "opts": {
         "a": "Uxorious",
         "b": "Virtuoso",
         "c": "Termagant",
-        "d": "Stoic eKRE"
+        "d": "Stoic eK RE"
       },
       "marked": null,
       "cov": {
@@ -2093,7 +2093,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ascoldingnaggingbad-temperedwoman.",
+      "q": "A scolding nagging bad-tempered woman.",
       "multi": false
     }
   ],

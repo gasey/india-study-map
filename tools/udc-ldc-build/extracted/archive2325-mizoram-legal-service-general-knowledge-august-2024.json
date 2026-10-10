@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ICMR-RegionalMedicalResearchCentre,Dibrugarh",
-        "b": "AIMS,NewDelhi",
-        "c": "TataMemorialCentre,Mumbai",
-        "d": "InstituteofCytologyandPreventiveOncology,Noida"
+        "a": "ICMR- Regional Medical Research Centre, Dibrugarh",
+        "b": "AIMS, New Delhi",
+        "c": "Tata Memorial Centre, Mumbai",
+        "d": "Institute of Cytology and Preventive Oncology, Noida"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichmedicalinstituteinthecountryhasrecentlyannounceddevelopmentofacancertreatment drugcostingonlyRs.100perpill?",
+      "q": "Which medical institute in the country has recently announced development of a cancer treatment drug costing only Rs. 100 per pill?",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PressTrustofIndia",
-        "b": "PressInformationBureau",
-        "c": "CentralBureauofInvestigation",
-        "d": "CentralInformationCommission (a)150MostBackwardDistricts(b)MostBackwardTribalAreas (c)NorthEastIndia(4)CoastalRegions"
+        "a": "Press Trust of India",
+        "b": "Press Information Bureau",
+        "c": "Central Bureau of Investigation",
+        "d": "Central Information Commission (a) 150 Most Backward Districts (b) Most Backward Tribal Areas (c) North East India (4) Coastal Regions"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "K.N.ShanthKumarhasbeenappointedastheChairpersonofwhichinstitution?",
+      "q": "K.N. Shanth Kumar has been appointed as the Chairperson of which institution?",
       "multi": false
     },
     {
@@ -61,10 +61,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PVSindhu&SharathKamal",
-        "b": "PVSindhu&NeerajChopra",
-        "c": "PVSindhu&RohanBopanna",
-        "d": "PVSindhu&HSPrannoy"
+        "a": "PV Sindhu & Sharath Kamal",
+        "b": "PV Sindhu & Neeraj Chopra",
+        "c": "PV Sindhu & Rohan Bopanna",
+        "d": "PV Sindhu & HS Prannoy"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoweretheflagbearersforIndiaduringtheopeningceremonyatthe2024ParisOlympics?",
+      "q": "Who were the flag bearers for India during the opening ceremony at the 2024 Paris Olympics?",
       "multi": false
     },
     {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HowmanyseatsdidtheIndianNationalCongress(INC)wininGeneralElectiontomemberof Parliament(LokSabha)in2024?",
+      "q": "How many seats did the Indian National Congress (INC) win in General Election to member of Parliament (Lok Sabha) in 2024?",
       "multi": false
     },
     {
@@ -109,7 +109,7 @@
       "opts": {
         "a": "Assam",
         "b": "Sikkim",
-        "c": "ArunachalPradesh",
+        "c": "Arunachal Pradesh",
         "d": "Nagaland"
       },
       "marked": null,
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "PakkePagaHombillFestival,whichwasseeninthenews,iscelebratedinwhichstateofIndia?",
+      "q": "Pakke Paga Hombill Festival, which was seen in the news, is celebrated in which state of India?",
       "multi": false
     },
     {
@@ -130,10 +130,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SBIBank",
-        "b": "ICICIBank",
-        "c": "CanaraBank",
-        "d": "AxisBank"
+        "a": "SBI Bank",
+        "b": "ICICI Bank",
+        "c": "Canara Bank",
+        "d": "Axis Bank"
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Money2India(Canada)app,toeasetheprocessoftransferringmoneytoIndia,waslaunchedby whichbank?",
+      "q": "Money2India (Canada) app, to ease the process of transferring money to India, was launched by which bank?",
       "multi": false
     },
     {
@@ -153,9 +153,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "CarmenLucia",
-        "b": "JairBolsonaro",
-        "c": "MichelTemer(4)LuizInacioLuladaSilva"
+        "a": "Carmen Lucia",
+        "b": "Jair Bolsonaro",
+        "c": "Michel Temer (4) Luiz Inacio Lula da Silva"
       },
       "marked": null,
       "cov": {
@@ -164,7 +164,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "PrimeMinisterNarendraModihandedovertheG20presidencyto:",
+      "q": "Prime Minister Narendra Modi handed over the G20 presidency to :",
       "multi": false
     },
     {
@@ -174,10 +174,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Helpcentersdedicatedtowomenwhohavesurvivedwarcrimes.",
-        "b": "Communitycenterstosupportvictimsofwarundergoingtreatmentformentalandphysicaltrauma.",
-        "c": "Creationofasafeandsupportiveenvironmentforeffectivecommunicationbetweenlaw",
-        "d": "Supportcentersforelderlycitizenswhohavesuffereddisplacementduetowarorconflicts."
+        "a": "Help centers dedicated to women who have survived war crimes.",
+        "b": "Community centers to support victims of war undergoing treatment for mental and physical trauma.",
+        "c": "Creation of a safe and supportive environment for effective communication between law",
+        "d": "Support centers for elderly citizens who have suffered displacement due to war or conflicts."
       },
       "marked": null,
       "cov": {
@@ -187,7 +187,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thepurposeof‘GreenRooms’whichwererecentlylaunchedinUkrainecanbedescribedas-",
+      "q": "The purpose of ‘Green Rooms’ which were recently launched in Ukraine can be described as -",
       "multi": false
     },
     {
@@ -197,10 +197,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NitrogenHypoxia",
-        "b": "CarbonMonoxidehypoxia",
-        "c": "Hydrogencyanidehypoxia",
-        "d": "Saringasexecution (a)ShapinganInterconnectedWorld(b)BuildingaJustWorldandaSustainablePlanet (c)Fightingpovertywithrigidity(d)OneEarth-OneFamily-OneFuture"
+        "a": "Nitrogen Hypoxia",
+        "b": "Carbon Monoxide hypoxia",
+        "c": "Hydrogen cyanide hypoxia",
+        "d": "Sarin gas execution (a) Shaping an Interconnected World (b) Building a Just World anda  Sustainable Planet (c) Fighting poverty with rigidity (d) One Earth-One Family-One Future"
       },
       "marked": null,
       "cov": {
@@ -210,7 +210,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthecontroversialformofexecutionthatwasrecentlyintroducedintheUS?",
+      "q": "What is the controversial form of execution that was recently introduced in the US?",
       "multi": false
     },
     {
@@ -233,7 +233,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichgianttechcompanyrecentlyannouncedthelaunchof‘AMBERalerts’tofindmissingchildren?",
+      "q": "Which giant tech company recently announced the launch of ‘AMBER alerts’ to find missing children?",
       "multi": false
     },
     {
@@ -246,7 +246,7 @@
         "a": "UNDP",
         "b": "UNEP",
         "c": "IMF",
-        "d": "WorldBank"
+        "d": "World Bank"
       },
       "marked": null,
       "cov": {
@@ -256,7 +256,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheGlobalWasteManagementOutlook,2024waspublishedby-",
+      "q": "The Global Waste Management Outlook, 2024 was published by -",
       "multi": false
     },
     {
@@ -266,10 +266,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "land2only",
-        "b": "2and3only",
-        "c": "1and3only",
-        "d": "Alistatementsaretrue"
+        "a": "land2 only",
+        "b": "2and3 only",
+        "c": "1and3 only",
+        "d": "Ali statements are true"
       },
       "marked": null,
       "cov": {
@@ -279,7 +279,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Considerthefollowingstatementsregarding“DigitalIndiaBhashini”: i.BhashinistandsforBHASHAInterfaceforIndia. 2.ItisanArtificialIntelligence(AT)ledlanguagetranslationplatformundertheMinistryofTTandElectronics. 3.BhashiniPlatformisapartoftheNationalLanguageTranslationMission.: Whichofthestatementsgivenaboveis/arefalse?",
+      "q": "Consider the following statements regarding “Digital India Bhashini”: i. Bhashini stands for BHASHA Interface for India. 2. Itisan Artificial Intelligence (AT) led language translation platform under the Ministry of TT and Electronics. 3. Bhashini Platform is a part of the National Language Translation Mission. : Which of the statements given above is/are false?",
       "multi": false
     },
     {
@@ -289,10 +289,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "CRISPR-CASS9geneeditingsystems",
-        "b": "CAR-Tcellsforcancertreatment",
-        "c": "mRNAvaccinesagainstCOVID19",
-        "d": "Thermalandmechanicaltransducers."
+        "a": "CRISPR-CASS9 gene editing systems",
+        "b": "CAR-T cells for cancer treatment",
+        "c": "mRNA vaccines against COVID19",
+        "d": "Thermal and mechanical transducers."
       },
       "marked": null,
       "cov": {
@@ -302,7 +302,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "The2023NobelPrizeinPhysiologyorMedicinewasawardedtoKatalinKarikéandDrewWeissman fortheirpioneeringworkon-",
+      "q": "The 2023 Nobel Prize in Physiology or Medicine was awarded to Katalin Kariké and Drew Weissman for their pioneering work on -",
       "multi": false
     },
     {
@@ -312,10 +312,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1and2aretrue",
-        "b": "|and3aretrue",
-        "c": "Only1istrue",
-        "d": "Allstatementsaretrue"
+        "a": "1 and 2 are true",
+        "b": "| and 3 are true",
+        "c": "Only 1 is true",
+        "d": "All statements are true"
       },
       "marked": null,
       "cov": {
@@ -325,7 +325,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ConsiderthefollowingstatementsregardingtheNariShaktiVandanAdhiniyamortheWomen’s ReservationBillwhichwasrecentlypassedbytheParliament: 1.TheActaimstoreserveone-thirdofallseatsforwomenintheLokSabhaandtheStateLegislatures. 2.TheActalsoincludedreservationofonethirdoftheseatstowomenofeconomicallyweakersections. 3.TheActshallalsoreserveonethirdoftheseatsforSCandSTsections. Choosethecorrectanswer:",
+      "q": "Consider the following statements regarding the Nari Shakti Vandan Adhiniyam or the Women’s Reservation Bill which was recently passed by the Parliament : 1. TheActaims to reserve one-third of all seats for women in the Lok Sabha and the State Legislatures. 2. TheActalso included reservation of one third of the seats to women of economically weaker sections. 3. The Act shall also reserve one third of the seats for SC and ST sections. Choose the correct answer:",
       "multi": false
     },
     {
@@ -335,10 +335,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MinistryofEducation",
-        "b": "MinistryofHomeAffairs",
-        "c": "MinistryofMinorityAffairs",
-        "d": "MinistryofYouthaffairsandsports"
+        "a": "Ministry of Education",
+        "b": "Ministry of Home Affairs",
+        "c": "Ministry of Minority Affairs",
+        "d": "Ministry of Youth affairs and sports"
       },
       "marked": null,
       "cov": {
@@ -348,7 +348,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheElectionCommissionofIndiastartedthe‘MeraPehlaVoteDeshKeLiye’campaignwithwhichministry?",
+      "q": "The Election Commission of India started the ‘Mera Pehla Vote Desh Ke Liye’ campaign with which ministry?",
       "multi": false
     },
     {
@@ -358,10 +358,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Theyarelegaltendersissuedandbackedbyacentralbank.",
-        "b": "Itisthesameasafiatcurrencyandisexchangeableone-to-onewiththefiatcurrency.",
-        "c": "Thedigitalfiatcurrencycanbetransactedusingwalletsbackedbyblockchain.",
-        "d": "Thevalueofthedigitalcurrencyispeggedtothepriceofacommoditysuchasgoldorsilver."
+        "a": "They are legal tenders issued and backed by a central bank.",
+        "b": "Itis the same as a fiat currency and is exchangeable one-to-one with the fiat currency.",
+        "c": "The digital fiat currency can be transacted using wallets backed by blockchain.",
+        "d": "The value of the digital currency is pegged to the price of a commodity such as gold or silver."
       },
       "marked": null,
       "cov": {
@@ -371,7 +371,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthesestatementsregardingthelaunchedCentralBankDigitalCurrency(CBDC)isfalse?",
+      "q": "Which of these statements regarding the launched Central Bank Digital Currency (CBDC) is false?",
       "multi": false
     },
     {
@@ -394,7 +394,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichcountrylaunchedthe‘UkraineSecurityAssistanceInitiative’?",
+      "q": "Which country launched the ‘Ukraine Security Assistance Initiative’?",
       "multi": false
     },
     {
@@ -404,10 +404,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "HTDelhi",
-        "b": "ScBengaluru",
-        "c": "HTMadras",
-        "d": "NITTiruchirappalli:"
+        "a": "HT Delhi",
+        "b": "Sc Bengaluru",
+        "c": "HT Madras",
+        "d": "NIT Tiruchirappalli :"
       },
       "marked": null,
       "cov": {
@@ -417,7 +417,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichIndianinstitutionhasdevelopedandpatentedadevicenamed‘Artsens’toscreenfor cardiovasculardiseases?",
+      "q": "Which Indian institution has developed and patented a device named ‘Artsens’ to screen for cardiovascular diseases?",
       "multi": false
     },
     {
@@ -427,10 +427,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "November29",
-        "b": "November30",
-        "c": "December1",
-        "d": "December2"
+        "a": "November 29",
+        "b": "November 30",
+        "c": "December 1",
+        "d": "December 2"
       },
       "marked": null,
       "cov": {
@@ -440,7 +440,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "The‘InternationalDayofSolidaritywiththePalestinianPeople’observedbytheUNyearlysince 1978ison-",
+      "q": "The ‘International Day of Solidarity with the Palestinian People’ observed by the UN yearly since 1978 is on -",
       "multi": false
     },
     {
@@ -463,7 +463,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AirIndia’sAl-poweredchatassistanttointroduceagenerativAelvirtualagent?",
+      "q": "Air India’s Al-powered chat assistant to introduce a generativAel  virtual agent?",
       "multi": false
     },
     {
@@ -473,10 +473,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Rs.10,000",
-        "b": "Rs.50,000",
-        "c": "Rs.1lakh",
-        "d": "Rs.5lakh:"
+        "a": "Rs. 10,000",
+        "b": "Rs. 50,000",
+        "c": "Rs. 1 lakh",
+        "d": "Rs. 5 lakh :"
       },
       "marked": null,
       "cov": {
@@ -486,7 +486,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthedailypaymentlimitforUPItransactionssetbytheNationalPaymentsCorporationof India(NPCI)startingfromJanuary1,2024?(exceptforEducationalInstituteofHealthcare)",
+      "q": "What is the daily payment limit for UPI transactions set by the National Payments Corporation of India (NPCI) starting from January 1, 2024? (except for Educational Institute of Healthcare)",
       "multi": false
     },
     {
@@ -509,7 +509,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichcompanyhasrecentlyannouncedaninitiative“AIOdyssey”toskill100,000developersin IndiaonAltechnology?",
+      "q": "Which company has recently announced an initiative “AI Odyssey” to skill 100,000 developers in India on Al technology?",
       "multi": false
     },
     {
@@ -519,10 +519,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "AdaniDefenceandAerospace",
+        "a": "Adani Defence and Aerospace",
         "b": "DRDO",
-        "c": "HindustanAeronautics",
-        "d": "ADVANCEDWeaponsandEquipmentIndiaLimited (a)12.5%(b)13.04% (c)14.2%(d)14.06% (a)Goa(b)HimachalPradesh (c)Uttarakhand(d)Gujarat (a)USA(b)France (c)Germany(d)Denmark"
+        "c": "Hindustan Aeronautics",
+        "d": "ADVANCED Weapons and Equipment India Limited (a) 12.5% (b) 13.04% (c) 14.2% (d) 14.06% (a) Goa (b) Himachal Pradesh (c) Uttarakhand (d) Gujarat (a) USA (b) France (c) Germany (d) Denmark"
       },
       "marked": null,
       "cov": {
@@ -532,7 +532,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Drishti10Starliner,theindigenouslymanufacturedUnmannedAerialVehicle(UAV)recentlyflagged °offbyChiefofNavalStaffwasdevelopedby-",
+      "q": "Drishti 10 Starliner, the indigenously manufactured Unmanned Aerial Vehicle (UAV) recently flagged ° off by Chief of Naval Staff was developed by -",
       "multi": false
     },
     {
@@ -544,7 +544,7 @@
       "opts": {
         "a": "Monkeypox",
         "b": "Covidl9",
-        "c": "Zikaviras({d)Dengue"
+        "c": "Zika viras ({d) Dengue"
       },
       "marked": null,
       "cov": {
@@ -553,7 +553,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "ThecountryofPerurecentlydeclaredanoutbreakofwhichdisease—",
+      "q": "The country of Peru recently declared an outbreak of which disease —",
       "multi": false
     },
     {
@@ -563,10 +563,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MaryamNawaz",
-        "b": "BenazirBhutto",
-        "c": "ZartajGul",
-        "d": "NafisaShah"
+        "a": "Maryam Nawaz",
+        "b": "Benazir Bhutto",
+        "c": "Zartaj Gul",
+        "d": "Nafisa Shah"
       },
       "marked": null,
       "cov": {
@@ -576,7 +576,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoisthefirstwomantobeelectedasChiefMinisterofaprovinceinPakistan?",
+      "q": "Who is the first woman to be elected as Chief Minister of a province in Pakistan?",
       "multi": false
     },
     {
@@ -589,7 +589,7 @@
         "a": "lonly",
         "b": "land2",
         "c": "2and3",
-        "d": "|and3"
+        "d": "| and3"
       },
       "marked": null,
       "cov": {
@@ -599,7 +599,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ConsiderthefollowingstatementsregardingtheFreeMovementRegime- 1.Ithasbeeninplacesince2018. 2.Itallowstribesinhabitingbothsidesofthebordertotravelupto16kmacrosstheborder withoutvisas. 3.Individualswerealsoallowedupto3monthsintheneighboringcountrybygettingaone-year borderpass. SelectthestatementsthatareTrue:",
+      "q": "Consider the following statements regarding the Free Movement Regime - 1. Ithas been in place since 2018. 2. It allows tribes inhabiting both sides of the border to travel up to 16 km across the border without visas. 3. Individuals were also allowed up to 3 months in the neighboring country by getting a one-year border pass. Select the statements that are True:",
       "multi": false
     },
     {
@@ -622,7 +622,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichcountryfiledacaseagainstIsraelintheInternationalCourtofJusticeclaimingviolationsofits obligationsundertheGenocideConventionregardingactsagainstPalestiniansinGaza?",
+      "q": "Which country filed a case against Israel in the International Court of Justice claiming violations of its obligations under the Genocide Convention regarding acts against Palestinians in Gaza?",
       "multi": false
     },
     {
@@ -635,7 +635,7 @@
         "a": "Dubai",
         "b": "Cairo",
         "c": "Riyadh",
-        "d": "AbuDhabi"
+        "d": "Abu Dhabi"
       },
       "marked": null,
       "cov": {
@@ -645,7 +645,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefoundationstoneforBharatMartwasrecentlylaidbyPrimeMinisterNarendraModiinwhich city—",
+      "q": "The foundation stone for Bharat Mart was recently laid by Prime Minister Narendra Modi in which city —",
       "multi": false
     },
     {
@@ -655,9 +655,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Rs.10lakhs",
-        "b": "Rs.20lakhs",
-        "c": "Rs.30lakhs({d)Rs.40lakhs"
+        "a": "Rs. 10 lakhs",
+        "b": "Rs. 20 lakhs",
+        "c": "Rs. 30 lakhs ({d) Rs. 40 lakhs"
       },
       "marked": null,
       "cov": {
@@ -666,7 +666,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "TheSupremeCourtofIndia,inanattempttoensurethecompleteeradicationofmanualscavenging hasorderedthecompensationinthecasesofsewerdeathstobeincreasedto-",
+      "q": "The Supreme Court of India, in an attempt to ensure the complete eradication of manual scavenging has ordered the compensation in the cases of sewer deaths to be increased to -",
       "multi": false
     },
     {
@@ -689,7 +689,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatpercentofGSTisleviedoncancer-fightingdrugs,medicinesforrarediseases,andfood productsforspecialmedicalpurposes?",
+      "q": "What per cent of GST is levied on cancer-fighting drugs, medicines for rare diseases, and food products for special medical purposes?",
       "multi": false
     },
     {
@@ -701,7 +701,7 @@
       "opts": {
         "a": "TRAI",
         "b": "NASSCOM",
-        "c": "MeITY(a)MinistyofInformationandBroadcasting"
+        "c": "MeITY (a) Ministy of Information and Broadcasting"
       },
       "marked": null,
       "cov": {
@@ -710,7 +710,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "WhichinstitutionhasreleasedasetofguidelinesregardingGenerativAleinIndiatoensureresponsible Aluse?",
+      "q": "Which institution has released a set of guidelines regarding GenerativAle  in India to ensure responsible Al use?",
       "multi": false
     },
     {
@@ -733,7 +733,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "GIFTNIFTYisthefirstcross-borderinitiativeinconnectingthecapitalmarketsofIndiaandwhich country?",
+      "q": "GIFT NIFTY is the first cross-border initiative in connecting the capital markets of India and which country?",
       "multi": false
     },
     {
@@ -756,7 +756,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingadvancedAImodelhasbeenlaunchedbyGoogle’sparentcompanyAlphabet?",
+      "q": "Which of the following advanced AI model has been launched by Google’s parent company Alphabet?",
       "multi": false
     },
     {
@@ -779,7 +779,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichoftheseMizo‘puan’hasnotbeengivenaGItag?",
+      "q": "Which of these Mizo ‘puan’ has not been given a GI tag?",
       "multi": false
     },
     {
@@ -802,7 +802,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichcountryhasjoinedNATOasits32\"4member?",
+      "q": "Which country has joined NATO as its 32\"4 member?",
       "multi": false
     },
     {
@@ -812,10 +812,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Judicialreview—Britishpractice",
-        "b": "ConcurrentList—AustralianConstitution",
-        "c": "DirectivePrinciples—IrishConstitution",
-        "d": "FundamentalRights—USConstitution"
+        "a": "Judicial review — British practice",
+        "b": "Concurrent List— Australian Constitution",
+        "c": "Directive Principles — Irish Constitution",
+        "d": "Fundamental Rights— US Constitution"
       },
       "marked": null,
       "cov": {
@@ -825,7 +825,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingfeaturesandtheirsourceiswronglymatched?",
+      "q": "Which of the following features and their source is wrongly matched?",
       "multi": false
     },
     {
@@ -835,10 +835,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Asinglecitizenship",
-        "b": "DualJudiciary",
-        "c": "ThreelistsintheConstitution",
-        "d": "AFederalSupremeCourttointerprettheConstitution"
+        "a": "Asingle citizenship",
+        "b": "Dual Judiciary",
+        "c": "Three lists in the Constitution",
+        "d": "A Federal Supreme Court to interpret the Constitution"
       },
       "marked": null,
       "cov": {
@@ -848,7 +848,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingisafeaturecommontoboththeIndianFederationandtheAmerican Federation?",
+      "q": "Which of the following is a feature common to both the Indian Federation and the American Federation?",
       "multi": false
     },
     {
@@ -860,7 +860,7 @@
       "opts": {
         "a": "1only",
         "b": "2only",
-        "c": "Both]and2(4)Neither|nor2"
+        "c": "Both ] and 2 (4) Neither | nor2"
       },
       "marked": null,
       "cov": {
@@ -869,7 +869,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingis/areincludedintheDirectivePrinciplesofStatePolicy? 1.Prohibitionoftrafficinhumanbeingsandforcedlabour. 2.Prohibitionofconsumptionexceptformedicinalpurposesofintoxicatingdrinksandofother drugswhichareinjurioustohealth.",
+      "q": "Which of the following is/are included in the Directive Principles of State Policy? 1. Prohibition of traffic in human beings and forced labour. 2. Prohibition of consumption except for medicinal purposes of intoxicating drinks and of other drugs which are injurious to health.",
       "multi": false
     },
     {
@@ -892,7 +892,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheArticlesoftheConstitutionofIndiawhichdealwithDirectivePrinciplesofStatePolicyare:",
+      "q": "The Articles of the Constitution of India which deal with Directive Principles of State Policy are :",
       "multi": false
     },
     {
@@ -902,10 +902,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Only1isTrue",
-        "b": "Only2istrue",
-        "c": "1and2aretrue",
-        "d": "2and3aretrue"
+        "a": "Only 1 is True",
+        "b": "Only 2 is true",
+        "c": "1 and 2 are true",
+        "d": "2 and 3 are true"
       },
       "marked": null,
       "cov": {
@@ -915,7 +915,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ConsiderthefollowingstatementsregardingUniformCivilCode: 1.ItismentionedinArticle43oftheConstitution. 2.Itwouldreplacethedistinctpersonallawsofeachreligion. 3.IthasbeenenforcedinthreestatesinIndia. Selectthecorrectanswer.",
+      "q": "Consider the following statements regarding Uniform Civil Code: 1. Itismentioned in Article 43 of the Constitution. 2. It would replace the distinct personal laws of each religion. 3. Ithas been enforced in three states in India. Select the correct answer.",
       "multi": false
     },
     {
@@ -928,7 +928,7 @@
         "a": "1and2",
         "b": "land3",
         "c": "2and3",
-        "d": "1,2and3"
+        "d": "1,2 and3"
       },
       "marked": null,
       "cov": {
@@ -938,7 +938,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WithregardtoAutonomousDistrictCouncilsintheSixthScheduleareas,considerthefollowing statements- 1,Thegovernorisempoweredtoorganiseandre-organisetheautonomousdistricts. 2.TheactsofParliamentorthestatelegislaturedonotapplytoautonomousdistrictsand autonomousregions. 3.ThegovernmenthasintroducedaConstitutionAmendmentBilltolimitthefinancialandexecutive powersoftheexistingAutonomousDistrictCouncils. SelectthestatementsthatareTrue:",
+      "q": "With regard to Autonomous District Councils in the Sixth Schedule areas, consider the following statements- 1, The governor is empowered to organise and re-organise the autonomous districts. 2. The acts of Parliament or the state legislature do not apply to autonomous districts and autonomous regions. 3. The government has introduced a Constitution Amendment Bill to limit the financial and executive powers of the existing Autonomous District Councils. Select the statements that are True:",
       "multi": false
     },
     {
@@ -948,10 +948,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Forests—ConcurrentList",
-        "b": "Bankruptcyandinsolvency-StateList",
-        "c": "Insurance—UnionList",
-        "d": "MarriageandDivorce—ConcurrentList"
+        "a": "Forests—Concurrent List",
+        "b": "Bankruptcy and insolvency - State List",
+        "c": "Insurance — Union List",
+        "d": "Marriage and Divorce — Concurrent List"
       },
       "marked": null,
       "cov": {
@@ -961,7 +961,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingisnotcorrectlymatchedwithreferencetotheConstitution?",
+      "q": "Which of the following is not correctly matched with reference to the Constitution?",
       "multi": false
     },
     {
@@ -971,10 +971,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NationalIntegrationCouncil",
-        "b": "PlanningCommission",
-        "c": "NationalDevelopmentCouncil",
-        "d": "ZonalCouncil"
+        "a": "National Integration Council",
+        "b": "Planning Commission",
+        "c": "National Development Council",
+        "d": "Zonal Council"
       },
       "marked": null,
       "cov": {
@@ -984,7 +984,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThePrimeMinister.UnionCabinetMinister,ChiefMinisterandCouncilofMinistersareallmembersof",
+      "q": "The Prime Minister. Union Cabinet Minister, Chief Minister and Council of Ministers are all members of",
       "multi": false
     },
     {
@@ -994,10 +994,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Only1istrue",
-        "b": "Only2istrue",
-        "c": "Both1and2aretrue",
-        "d": "Neither1or2aretrue"
+        "a": "Only 1 is true",
+        "b": "Only 2 is true",
+        "c": "Both 1 and 2 are true",
+        "d": "Neither 1 or 2 are true"
       },
       "marked": null,
       "cov": {
@@ -1007,7 +1007,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethecorrectanswer,consideringthefollowingstatements: 1.TheJammuandKashmirReorganisationBill,2019wasintroducedinRajyaSabha. 2.TheabrogationofArticle370bifurcatedthestateintothreeseparateUnionTerritories—Jammu &Kashmir,LadakhandLeh.",
+      "q": "Choose the correct answer, considering the following statements: 1. The Jammu and Kashmir Reorganisation Bill, 2019 was introduced in Rajya Sabha. 2. The abrogation of Article 370 bifurcated the state into three separate Union Territories — Jammu & Kashmir, Ladakh and Leh.",
       "multi": false
     },
     {
@@ -1017,10 +1017,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Itwouidbelefttothestatestodecidewhethertocontinuetheno-detentionpolicy.",
-        "b": "Ifachildfails,theamendmentbillgrantsaprovisiontogiveherorhimadditionalopportunityto takeare-examinationwithintwomonths.",
-        "c": "TheStateshallprovidefreeandcompulsoryeducationtoallchildrenoftheageof'5tofifteenyears.",
-        "d": "ItisbasedontherecommendationoftheTSRSubramaniancommittee. (a)Only1isTrue(b)Only2istrue (c)1and2aretrue(d)2and3aretrue"
+        "a": "It wouid be left to the states to decide whether to continue the no-detention policy.",
+        "b": "Ifa child fails, the amendment bill grants a provision to give her or him additional opportunity to take a re-examination within two months.",
+        "c": "The State shall provide free and compulsory education to all children of the age of'5 to fifteen years.",
+        "d": "Itis based on the recommendation of the TSR Subramanian committee. (a) Only 1 is True (b) Only 2 is true (c) 1 and 2 are true (d) 2 and 3 are true"
       },
       "marked": null,
       "cov": {
@@ -1030,7 +1030,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WithregardtotheRightofChildrentoFreeandCompulsoryEducation(AmendmenAtct),2019, selecttheincorrectstatement-",
+      "q": "With regard to the Right of Children to Free and Compulsory Education (AmendmenAtct),  2019, select the incorrect statement -",
       "multi": false
     },
     {
@@ -1040,10 +1040,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1and2",
-        "b": "Only1",
+        "a": "1 and2",
+        "b": "Only 1",
         "c": "Only3",
-        "d": "2and3"
+        "d": "2 and3"
       },
       "marked": null,
       "cov": {
@@ -1053,7 +1053,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthestatementsis/arefalseregardingthepowersoftheRajyaSabha? 1.AmoneybillcannotbeintroducedintheRajyaSabha 2.TheRajyaSabhahasnopowertorejectoramendaMoneyBill 3.IthasvotingrightsontheDemandsforgrants",
+      "q": "Which of the statements is/are false regarding the powers of the Rajya Sabha? 1. A money bill cannot be introduced in the Rajya Sabha 2. The Rajya Sabha has no power to reject or amend a Money Bill 3. It has voting rights on the Demands for grants",
       "multi": false
     },
     {
@@ -1063,10 +1063,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "DepartmentofRevenue",
-        "b": "DepartmentofFinancialServices",
-        "c": "DepartmentofExpenditure",
-        "d": "DepartmentofEconomicAffairs"
+        "a": "Department of Revenue",
+        "b": "Department of Financial Services",
+        "c": "Department of Expenditure",
+        "d": "Department of Economic Affairs"
       },
       "marked": null,
       "cov": {
@@ -1076,7 +1076,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichoneofthefollowingisresponsibleforthepreparationandpresentationofUnionBudgettothe Parliament?",
+      "q": "Which one of the following is responsible for the preparation and presentation of Union Budget to the Parliament?",
       "multi": false
     },
     {
@@ -1086,10 +1086,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PartlV,Article324",
-        "b": "PartVI,Article320",
-        "c": "PartXV,Article324",
-        "d": "PartXI,Article320"
+        "a": "Part lV, Article 324",
+        "b": "Part VI, Article 320",
+        "c": "Part XV, Article 324",
+        "d": "Part XI, Article 320"
       },
       "marked": null,
       "cov": {
@@ -1099,7 +1099,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheestablishmentandpoweroftheElectionCommissionofIndiacomesunderof theConstitution,",
+      "q": "The establishment and power of the Election Commission of India comes under of the Constitution,",
       "multi": false
     },
     {
@@ -1109,10 +1109,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "HeisthelegaladvisortotheGovernmentofIndia",
-        "b": "HehasvotingrightsintheproceedingoftheParliament",
-        "c": "HistenureandsalaryaredecidedbythePresident",
-        "d": "HeappearsbeforehighcourtsandSupremeCourtincasesinvolvinguniongovernment."
+        "a": "He is the legal advisor to the Government of India",
+        "b": "He has voting rights in the proceeding of the Parliament",
+        "c": "His tenure and salary are decided by the President",
+        "d": "He appears before high courts and Supreme Court in cases involving union government."
       },
       "marked": null,
       "cov": {
@@ -1122,7 +1122,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichoneisnottrueabouttheAttorneyGeneralofIndia?",
+      "q": "Which one is not true about the Attorney General of India?",
       "multi": false
     },
     {
@@ -1132,10 +1132,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "One-twelfthofthetotalnumberofmembersoftheHouse.",
-        "b": "One-sixthofthetotalnumbersofmembersoftheHouse.",
-        "c": "Two-thirdsofthetotalnumberofmembersoftheHouse.",
-        "d": "One-tenthofthetotalnumberofmembersoftheHouse."
+        "a": "One- twelfth of the total number of members of the House.",
+        "b": "One-sixth of the total numbers of members of the House.",
+        "c": "Two-thirds of the total number of members of the House.",
+        "d": "One-tenth of the total number of members of the House."
       },
       "marked": null,
       "cov": {
@@ -1145,7 +1145,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThequorumforJointSittingoftheIndianParliamentis-",
+      "q": "The quorum for Joint Sitting of the Indian Parliament is -",
       "multi": false
     },
     {
@@ -1156,9 +1156,9 @@
       "direction": null,
       "opts": {
         "a": "land2",
-        "b": "2and3",
-        "c": "Zand4",
-        "d": "Alloftheabove"
+        "b": "2 and3",
+        "c": "Zand 4",
+        "d": "All of the above"
       },
       "marked": null,
       "cov": {
@@ -1168,7 +1168,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingisnotcorrectlymatchedundertheConstitutionofIndia? 1.ThePanchayats——PartIX 2.TheMunicipalities——~PartIXA. 3.Tribunal——sPartXA 4.TheCooperativeSocieties———PartXB",
+      "q": "Which of the following is not correctly matched under the Constitution of India? 1. The Panchayats —— Part IX 2. The Municipalities ——~ Part IX A. 3. Tribunal——s  Part XA 4. The Cooperative Societies ——— Part X B",
       "multi": false
     },
     {
@@ -1178,10 +1178,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "GovernmentofIndiaActof1935",
-        "b": "GovernmentofIndiaActof1953",
-        "c": "GovernmentofIndiaActof1947",
-        "d": "GovernmentofIndiaActof1950 (a)UnitedKingdom(b)UnitedStates (c)Ireland(d)Australia"
+        "a": "Government of India Act of 1935",
+        "b": "Government of India Act of 1953",
+        "c": "Government of India Act of 1947",
+        "d": "Government of India Act of 1950 (a) United Kingdom (b) United States (c) Ireland (d) Australia"
       },
       "marked": null,
       "cov": {
@@ -1191,7 +1191,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thissinglesystemofcourts,adoptedfromtheenforcesbothCentralJawsaswellas thestatelaws.",
+      "q": "This single system of courts, adopted from the enforces both Central Jaws as well as the state laws.",
       "multi": false
     },
     {
@@ -1214,7 +1214,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheSupremeCourtofIndiatendersadvicetothePresidentofIndiaonmattersoflaworfact- 1.onitsowninitiative(onanymatteroflargerpublicinterest) 2.ifheseekssuchanadvice 3.onlyifthemattersrelatetotheFundamentalRightsofthecitizens Selectthecorrectanswer:",
+      "q": "The Supreme Court of India tenders advice to the President of India on matters of law or fact - 1. onits own initiative (on any matter of larger public interest) 2. ifhe seeks such an advice 3. only ifthe matters relate to the Fundamental Rights of the citizens Select the correct answer:",
       "multi": false
     },
     {
@@ -1224,10 +1224,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "disparityreductionrate,humanresourcedevelopmentrateandthecompositeindex.",
-        "b": "longevity,educationandlivingstandard.",
-        "c": "minimumschooling,adultliteracyandtertiaryeducationalattainment.",
-        "d": "humanresourcetraining,developmentandR&D."
+        "a": "disparity reduction rate, human resource development rate and the composite index.",
+        "b": "longevity, education and living standard.",
+        "c": "minimum schooling, adult literacy and tertiary educational attainment.",
+        "d": "human resource training, development and R&D."
       },
       "marked": null,
       "cov": {
@@ -1237,7 +1237,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheHumanDevelopmentIndex(HDI)summarizesagreatdealofsocialperformanceinasingle compositeindex,whichcombines-",
+      "q": "The Human Development Index (HDI) summarizes a great deal of social performance in a single composite index, which combines -",
       "multi": false
     },
     {
@@ -1247,10 +1247,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "January1992",
-        "b": "March1993",
-        "c": "December1992",
-        "d": "November1993"
+        "a": "January 1992",
+        "b": "March 1993",
+        "c": "December 1992",
+        "d": "November 1993"
       },
       "marked": null,
       "cov": {
@@ -1260,7 +1260,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhenwastheUnitedNationsCommissiononSustainableDevelopment(CSD)startedbytheUN GeneralAssembly?",
+      "q": "When was the United Nations Commission on Sustainable Development (CSD) started by the UN General Assembly?",
       "multi": false
     },
     {
@@ -1273,7 +1273,7 @@
         "a": "land2",
         "b": "land3",
         "c": "2and3",
-        "d": "1,2and3"
+        "d": "1,2 and3"
       },
       "marked": null,
       "cov": {
@@ -1283,7 +1283,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WithregardtothePradhanMantriRozgarProtsahanYojana,considerthefollowingstatements- 1.ItisimplementedbytheMinistryofLabourandEmployment. 2.TheschemeistargetedforworkersearningwagesuptoRs.15,000/-permonth 3.Anypersonwhocrossed30yearsofagecanjointhescheme. Whichamongtheabovestatementsis/arecorrect?",
+      "q": "With regard to the Pradhan Mantri Rozgar Protsahan Yojana, consider the following statements- 1. Itisimplemented by the Ministry of Labour and Employment. 2. The scheme is targeted for workers earning wages upto Rs. 15,000/- per month 3. Any person who crossed 30 years of age can join the scheme. Which among the above statements is/are correct?",
       "multi": false
     },
     {
@@ -1293,10 +1293,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Topromoteexport-ledgrowth.",
-        "b": "Toremovedisconnectbetweendemandandsupplyofskilledmanpower.",
-        "c": "Toattractforeigninvestmentfornewindustrialisation.",
-        "d": "Tocreate100millionadditionaljobsby2022."
+        "a": "To promote export-led growth.",
+        "b": "To remove disconnect between demand and supply of skilled manpower.",
+        "c": "To attract foreign investment for new industrialisation.",
+        "d": "To create 100 million additional jobs by 2022."
       },
       "marked": null,
       "cov": {
@@ -1306,7 +1306,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichoftheseisnotanobjectiveof“MakeInIndia”initiative?",
+      "q": "Which of these is not an objective of “Make In India” initiative?",
       "multi": false
     },
     {
@@ -1316,9 +1316,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MinistryofScienceandTechnology",
-        "b": "MinistryofYouthAffairsandSports",
-        "c": "MinistryofPower(a)MinistryofHousingandUrbanAffairs"
+        "a": "Ministry of Science and Technology",
+        "b": "Ministry of Youth Affairs and Sports",
+        "c": "Ministry of Power (a) Ministry of Housing and Urban Affairs"
       },
       "marked": null,
       "cov": {
@@ -1327,7 +1327,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "The‘YUVAPORTALtoidentifypotentialyoungStart-Upsfunctionsunderwhichunionministry?",
+      "q": "The ‘YUVA PORTAL to identify potential young Start-Ups functions under which union ministry?",
       "multi": false
     },
     {
@@ -1337,10 +1337,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Interestspayments",
-        "b": "Defencepurchases",
-        "c": "Wagebillofthegovernment",
-        "d": "Alloftheabove _8-"
+        "a": "Interests payments",
+        "b": "Defence purchases",
+        "c": "Wage bill of the government",
+        "d": "Allofthe above _8-"
       },
       "marked": null,
       "cov": {
@@ -1350,7 +1350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingisapartoftherevenueexpenditureintheIndiangovernmentbudget?",
+      "q": "Which of the following is a part of the revenue expenditure in the Indian government budget?",
       "multi": false
     },
     {
@@ -1361,9 +1361,9 @@
       "direction": null,
       "opts": {
         "a": "Only!",
-        "b": "OnlyII",
-        "c": "andI",
-        "d": "NeitherInorII"
+        "b": "Only II",
+        "c": "and I",
+        "d": "NeitherI  nor II"
       },
       "marked": null,
       "cov": {
@@ -1373,7 +1373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Considerthefollowingstatements: 1.TheSelf-HelpGroup(SHG)programmewasoriginallyinitiatedbytheStateBankofIndiaby providingmicrocredittothefinanciallydeprived. 2.InanSHGallmembersofagrouptakeresponsibilityforaloanthatanindividualmembertakes. Whichofthesestatementsaretrue?",
+      "q": "Consider the following statements: 1. The Self-Help Group (SHG) programme was originally initiated by the State Bank of India by providing microcredit to the financially deprived. 2. Inan SHG all members ofa group take responsibility for a loan that an individual member takes. Which of these statements are true?",
       "multi": false
     },
     {
@@ -1386,7 +1386,7 @@
         "a": "land2",
         "b": "2and3",
         "c": "3and4",
-        "d": "Alloftheabove"
+        "d": "Allof the above"
       },
       "marked": null,
       "cov": {
@@ -1396,7 +1396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingCommitteesoftheConstituentAssemblywasheadedbySardarVallabhbhaiPatel? 1.ProvincialConstitutionCommittee 2.AdvisoryCommitteeonFundamentalRights,Minorities,andTribalandExcludedAreas 3.UnionConstitutioncommittee 4.DraftingCommittee Selectthecorrectanswer-",
+      "q": "Which of the following Committees of the Constituent Assembly was headed by Sardar Vallabhbhai Patel? 1. Provincial Constitution Committee 2. Advisory Committee on Fundamental Rights, Minorities, and Tribal and Excluded Areas 3. Union Constitution committee 4. Drafting Committee Select the correct answer -",
       "multi": false
     },
     {
@@ -1406,10 +1406,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1975;40%",
-        "b": "1975;424",
-        "c": "1976;42n4",
-        "d": "1977;4374"
+        "a": "1975; 40%",
+        "b": "1975; 424",
+        "c": "1976; 42n4",
+        "d": "1977; 4374"
       },
       "marked": null,
       "cov": {
@@ -1419,7 +1419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theterm‘Socialist’inthePreamblewasaddedtotheconstitutionintheyearbythe ConstitutionalAmendmentAct.",
+      "q": "The term ‘Socialist’ in the Preamble was added to the constitution in the year by the Constitutional Amendment Act.",
       "multi": false
     },
     {
@@ -1429,10 +1429,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "April19—-5Mar0ch1955",
-        "b": "April1951-March1956",
-        "c": "April1952—March1957",
-        "d": "April1953—March1958."
+        "a": "April 19—-5 Mar0ch  1955",
+        "b": "April 1951 - March 1956",
+        "c": "April 1952 — March 1957",
+        "d": "April 1953 — March 1958 ."
       },
       "marked": null,
       "cov": {
@@ -1442,7 +1442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "India’sfirstFiveYearPlanintroducedbyJawaharlalNehruspannedtheperiodbetween-",
+      "q": "India’s first Five Year Plan introduced by Jawaharlal Nehru spanned the period between -",
       "multi": false
     },
     {
@@ -1453,7 +1453,7 @@
       "direction": null,
       "opts": {
         "a": "1950",
-        "b": "1951:",
+        "b": "1951 :",
         "c": "1952",
         "d": "1953"
       },
@@ -1465,7 +1465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheStateReorganisationCommissionwasconstitutedintheyear-",
+      "q": "The State Reorganisation Commission was constituted in the year -",
       "multi": false
     },
     {
@@ -1475,10 +1475,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "J.B.Kripalani",
-        "b": "JawaharlalNehru",
-        "c": "SardarVallabhaiPatel",
-        "d": "AbulKalamAzad"
+        "a": "J.B. Kripalani",
+        "b": "Jawaharlal Nehru",
+        "c": "Sardar Vallabhai Patel",
+        "d": "Abul Kalam Azad"
       },
       "marked": null,
       "cov": {
@@ -1488,7 +1488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowasthepresidentofIndianNationalCongressatthetimeofIndia’sIndependence?",
+      "q": "Who was the president of Indian National Congress at the time of India’s Independence?",
       "multi": false
     },
     {
@@ -1498,10 +1498,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Radhakrishnancommission",
-        "b": "KothariCommission",
-        "c": "HunterCommission",
-        "d": "Sakariacommission"
+        "a": "Radhakrishnan commission",
+        "b": "Kothari Commission",
+        "c": "Hunter Commission",
+        "d": "Sakaria commission"
       },
       "marked": null,
       "cov": {
@@ -1511,7 +1511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thedevelopmentofwomen’seducationinIndiawasfirstintroducedby-",
+      "q": "The development of women’s education in India was first introduced by -",
       "multi": false
     },
     {
@@ -1521,10 +1521,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MizochanchinLaisuih",
-        "b": "Mizolehvaichanchinbu",
-        "c": "KristianTlangau",
-        "d": "Zoenchanchinbu"
+        "a": "Mizo chanchin Laisuih",
+        "b": "Mizo leh vai chanchinbu",
+        "c": "Kristian Tlangau",
+        "d": "Zoen chanchinbu"
       },
       "marked": null,
       "cov": {
@@ -1534,7 +1534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatwasthenameofthefirstmonthlynewspaperinMizo?",
+      "q": "What was the name of the first monthly newspaper in Mizo?",
       "multi": false
     },
     {
@@ -1544,9 +1544,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Khiangtezawngzim",
-        "b": "Dingdipuantah",
-        "c": "HrangkhupaSelu",
+        "a": "Khiangte zawng zim",
+        "b": "Dingdi puan tah",
+        "c": "Hrangkhupa Selu",
         "d": "Leiruangtuam"
       },
       "marked": null,
@@ -1557,7 +1557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingisnotanameofastarconstellation?",
+      "q": "Which of the following is not a name of astar constellation?",
       "multi": false
     },
     {
@@ -1580,7 +1580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InMizotraditionalbelief,thepracticesofFanodawi,KawngpuisiamandDawinochhuiweremainly associatedwith-",
+      "q": "In Mizo traditional belief, the practices of Fano dawi, Kawngpui siam and Dawino chhui were mainly associated with -",
       "multi": false
     },
     {
@@ -1590,10 +1590,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MizoUnion",
-        "b": "People’sConferenceParty",
-        "c": "MizoNationalFamineFront",
-        "d": "ZoramNationalistParty"
+        "a": "Mizo Union",
+        "b": "People’s Conference Party",
+        "c": "Mizo National Famine Front",
+        "d": "Zoram Nationalist Party"
       },
       "marked": null,
       "cov": {
@@ -1603,7 +1603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheUnitedMizoFreedomOrganisationwasestablishedasaresultofthesplitofwhichpolitical party-",
+      "q": "The United Mizo Freedom Organisation was established as a result of the split of which political party -",
       "multi": false
     },
     {
@@ -1616,7 +1616,7 @@
         "a": "Mangkhawh",
         "b": "Hnuhpui",
         "c": "Vahchap",
-        "d": "Hnawhkhal:"
+        "d": "Hnawhkhal :"
       },
       "marked": null,
       "cov": {
@@ -1626,7 +1626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingtermsisnotassociatedwithtraditionalMizofarmingpractices?",
+      "q": "Which of the following terms is not associated with traditional Mizo farming practices?",
       "multi": false
     },
     {
@@ -1636,10 +1636,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Weavinginstruments",
-        "b": "Musicalinstruments",
+        "a": "Weaving instruments",
+        "b": "Musical instruments",
         "c": "Traps/Snares",
-        "d": "Farmtools"
+        "d": "Farm tools"
       },
       "marked": null,
       "cov": {
@@ -1649,7 +1649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "“Beai”,“falpui”,“kilen”&“kawlper”arenamesof‘traditionalMizo.",
+      "q": "“Beai”, “falpui”, “kilen” & “kawlper” are names of ‘traditional Mizo.",
       "multi": false
     },
     {
@@ -1672,7 +1672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theaverageof7consecutivenumbersis20,Thelargestofthesenumbersis:",
+      "q": "The average of 7 consecutive numbers is 20, The largest of these numbers is :",
       "multi": false
     },
     {
@@ -1695,7 +1695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ashopkeepercheatstotheextentof10%whilebuyingandselling,byusingfalseweights.Histotal gainis-",
+      "q": "A shopkeeper cheats to the extent of 10% while buying and selling, by using false weights. His total gain is -",
       "multi": false
     },
     {
@@ -1705,10 +1705,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "200,250,300",
-        "b": "300,200,250",
-        "c": "200,300,400",
-        "d": "Noneofthese"
+        "a": "200, 250, 300",
+        "b": "300, 200, 250",
+        "c": "200, 300, 400",
+        "d": "None of these"
       },
       "marked": null,
       "cov": {
@@ -1718,7 +1718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "4candoapieceofworkin10days,Bin15days.Theyworktogetherfor5days,therestofthe workisfinishedbyCintwomoredays.IftheygetRs.3000aswagesforthewholework,whatare thedailywagesofA,BandCrespectively(inRs.)?",
+      "q": "4 can do a piece of work in 10 days, B in 15 days. They work together for 5 days, the rest of the work is finished by C in two more days. If they get Rs. 3000 as wages for the whole work, what are the daily wages of A, B and C respectively (in Rs.)?",
       "multi": false
     },
     {
@@ -1741,7 +1741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Findthenumberoftrianglesinthegivenfigure.",
+      "q": "Find the number of triangles in the given figure.",
       "multi": false
     },
     {
@@ -1751,10 +1751,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": ". o raseGFwe o A)(ly(2)@B)(4)",
-        "b": "Option1,3and4",
-        "c": "Option2and3",
-        "d": "Option2,3and4"
+        "a": ". o r ase GF we o A) (ly (2) @B) (4)",
+        "b": "Option 1,3 and 4",
+        "c": "Option 2 and 3",
+        "d": "Option 2,3 and4"
       },
       "marked": null,
       "cov": {
@@ -1764,7 +1764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosetheboxthatissimilartotheboxformedfromthegivensheetofpaper(A).",
+      "q": "Choose the box that is similar to the box formed from the given sheet of paper (A).",
       "multi": false
     },
     {
@@ -1787,7 +1787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inaclassof60studentswheregirlsaretwicethatofboys,Laxmiranked27\"fromthetop.Ifthere are9boysaheadofLaxmi,howmanygirlsareafterherrank?",
+      "q": "Inaclass of 60 students where girls are twice that of boys, Laxmi ranked 27\" from the top. If there are 9 boys ahead of Laxmi, how many girls are after her rank?",
       "multi": false
     },
     {
@@ -1797,10 +1797,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "coughfightsoughactscatsideamore",
-        "b": "coughfightsoughactscatsmoreidea",
-        "c": "coughmorefightsoughactsideacats",
-        "d": "noneofthese"
+        "a": "cough fight sough acts cats idea more",
+        "b": "cough fight sough acts cats more idea",
+        "c": "cough more fight sough acts idea cats",
+        "d": "none of these"
       },
       "marked": null,
       "cov": {
@@ -1810,7 +1810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Awordarrangingdevicerearrangeswordsstep-by-stepinaparticularorderaccordingtosetof rules.Thedevicestopswhenthefinalresultisobtained. Input:butgoingforcrepttelightsir Step1:creptbutgoingfortelightsir Step2:creptgoinglightbutfortesir Step3:creptgoinglightbutforsirte AndStep3isthelaststepforthisinput.Now,findoutanappropriatestepinthefollowingquestion followingtheaboverules. Question: Input:morefightcatscoughsoughactsidea Whatwillbethelaststepforthisinput?",
+      "q": "A word arranging device rearranges words step-by-step in a particular order according to set of rules. The device stops when the final result is obtained. Input : but going for crept te light sir Step 1: crept but going for te light sir Step 2: crept going light but for te sir Step 3: crept going light but for sir te And Step 3 is the last step for this input. Now, find out an appropriate step in the following question following the above rules. Question: Input : more fight cats cough sough acts idea What will be the last step for this input?",
       "multi": false
     },
     {
@@ -1833,7 +1833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "1.TanyaisolderthanEric. Il.CliffisolderthanTanya.. TIL.EricisolderthanCliff. Ifthefirsttwostatementsaretrue,thethirdstatementis",
+      "q": "1. Tanya is older than Eric. Il. Cliffis older than Tanya. . TIL. Eric is older than Cliff. If the first two statements are true, the third statement is",
       "multi": false
     },
     {
@@ -1856,7 +1856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Seismography:Earthquake::Taseometer:?",
+      "q": "Seismography : Earthquake :: Taseometer : ?",
       "multi": false
     },
     {
@@ -1879,7 +1879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethesetoffigureswhichfollowsthegivenrule. Rule:Anyfigurecanbetracedbyasingleunbrokenlinewithoutretracting. oZILoTAN “LWIA || ofXCaA|",
+      "q": "Choose the set of figures which follows the given rule. Rule: Any figure can be traced by a single unbroken line without retracting. oZILoTAN “LWIA || of XCaA|",
       "multi": false
     },
     {
@@ -1889,9 +1889,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1,3,5;2,4,7;6,8,9",
-        "b": "1,5,7;2,3,6;4,8,9",
-        "c": "1,3,5;2,6,7;4,8,9(a)1,6,9;2,4,7;3,5,8"
+        "a": "1,3,5 ; 2,4,7 ; 6,8,9",
+        "b": "1,5,7 ; 2,3,6 ; 4,8,9",
+        "c": "1,3,5; 2,6,7 ; 4,8,9 (a) 1,6,9 ; 2,4,7 ; 3,5,8"
       },
       "marked": null,
       "cov": {
@@ -1900,7 +1900,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Groupthegivenfiguresintothreeclassesusingeachfigureonlyonce. HASOx 22345 6789",
+      "q": "Group the given figures into three classes using each figure only once. HAS Ox 2 2 3 4 5 6 7 8 9",
       "multi": false
     },
     {
@@ -1910,10 +1910,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1,5,9;2,7,8;3,4,6",
-        "b": "2,4,9;6,7,8;1,3,5",
-        "c": "3,7,8;4,5,9;1.2,6",
-        "d": "1,5,6:4,7,8;2,3,9 PPrahaLexa| x)d)(2)(3)(4) (a)1(b)4 {ce}3(d)2"
+        "a": "1,5,9 ; 2,7,8 ; 3,4,6",
+        "b": "2,4,9 ; 6,7,8 ; 1,3,5",
+        "c": "3,7,8;4,5,9 ; 1.2,6",
+        "d": "1,5,6 : 4,7,8 ; 2,3,9 P Praha Lexa | x) d) (2) (3) (4) (a) 1 (b) 4 {ce} 3 (d) 2"
       },
       "marked": null,
       "cov": {
@@ -1923,7 +1923,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Groupthegivenfiguresintothreeclassesusingeachfigureonlyonce. Aisle’ 73",
+      "q": "Group the given figures into three classes using each figure only once. Aisle’ 7 3",
       "multi": false
     },
     {
@@ -1946,7 +1946,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "SelectafigurefromthefouralternativesthatwouldcompletetheFigureMatrix. rE)fe ©2 ag)@@@&",
+      "q": "Select a figure from the four alternatives that would complete the Figure Matrix. rE) fe © 2 ag) @ @ @&",
       "multi": false
     },
     {
@@ -1969,7 +1969,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Findthetotalnumberofcubesinthegivenfigure. <> ok NARS CCC.e NANSUE eSS NONPRENS OOKOROK BSANANENANEN RARPNPRENERS",
+      "q": "Find the total number of cubes in the given figure. <> ok NARS CC C.e NANSUE eS S NONPRENS OOK OR OK BSANANENANEN RARPNPRENERS",
       "multi": false
     },
     {
@@ -1979,10 +1979,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "4isadjacentto6",
-        "b": "2isadjacentto5",
-        "c": "lisadjacentto6",
-        "d": "1isadjacentto4"
+        "a": "4is adjacent to 6",
+        "b": "2 is adjacent to 5",
+        "c": "lisadjacent to6",
+        "d": "1 is adjacent to 4"
       },
       "marked": null,
       "cov": {
@@ -1992,7 +1992,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Adiceisnumberedfrom1to6indifferentways. If1isadjacentto2,3and5,thenwhichofthefollowingstatementsisnecessarilytrue?",
+      "q": "A dice is numbered from 1 to 6 in different ways. If 1 is adjacent to 2, 3 and 5, then which of the following statements is necessarily true?",
       "multi": false
     },
     {
@@ -2015,7 +2015,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethealternativewhichiscloselyresemblesthewaterimageofthegivencombination/figure. ADVANCE ()FONVACY2)VWDAVACE 3)FOMAVDA(4)None",
+      "q": "Choose the alternative which is closely resembles the water image of the given combination/figure. ADVANCE () FONVACY 2) VWDAVACE 3) FOMAVDA (4) None",
       "multi": false
     }
   ],

@@ -12227,3 +12227,39 @@ the extraction truncated their sentence segments; the separate Part A written
 section has duplicate numbering and remains distinct. The bank now has 351
 papers / 22,607 records, 3,763 practice-ready (1,618 official-key-backed).
 Generated with `build_group_b.py`; no push or deploy was requested.
+
+## OCR text recovery + Tier 1 native-key batch — 11 October 2026
+
+Found the whole OCR tier's question text was systematically word-joined
+("Thetallmanisintheshop."). Cause: the scan path builds one glyph per character
+from Tesseract word boxes but emits no space glyph, so the shared renderer joined
+every word. Added a space glyph at each word's right edge in
+`extract_general_papers.py::page_chars` and re-extracted all 82 OCR papers. Text
+and options are now readable across the OCR tier (fixes 3,435 held questions'
+display; residual single-character OCR noise such as ordinals remains and is
+caught by the review gate).
+
+Finished the Tier 1 native-key pass. The coverage report's on-disk-key matches are
+a naive title bound; confirming each against the printed cover rejected almost all
+(Geologist-2020 paper vs a 2024 key; MES-Electrical General Studies paper vs a
+technical-subject key; MLS July-2023 paper vs an Aug-2024 key; Legal Metrology /
+SEO / CDPO / Research-Invigilator / Instructor mismatches on year or section).
+Registered two keys that score immediately through the keyed-native path:
+
+- **Instructor, ITI (April-2026) Paper-I General English, Part-B** — final key
+  (No. A.12031/9/2026-MPSC(PE)/1). Cover: FM 100, Part-A 40 written; Part-B 60
+  marks (30 Q at 2 marks, 1/3 negative marking per the printed rule). 30 scored.
+- **Assistant Director (Food & Drugs) (Nov-2025) General English, Section-B** —
+  provisional key (No. Asst. Director (C)/25/2025-MPSC(Exam)(1)); Section-B 66
+  marks, 1 each, no negative marking. The printed 3-column table was re-OCR'd at
+  400 dpi (a misread "31"→"34" fixed). 63 scored; Q44–Q46 stay held (spot-the-error
+  items whose option text is empty in the extraction).
+
+Also registered as groundwork (correct, but the scanned paper needs text review
+before it can score): Inspector of Legal Metrology (Nov-2023) General English
+Paper-II.
+
+Bank now 352 papers / 22,685 records, **4,027 practice-ready (+93)**, 17,834 held
+MCQs. 25 repair tests and `tsc --noEmit` pass. Regenerated the key-attribution
+audit (23 candidates, 0 validated, 5 contradicted, 18 unverifiable) and the
+coverage report (Tier 2a 83, Tier 2b 8,244, Tier 3 8,353).

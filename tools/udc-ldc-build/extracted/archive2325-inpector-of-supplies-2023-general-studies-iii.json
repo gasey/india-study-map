@@ -17,8 +17,8 @@
       "opts": {
         "a": "1024GB",
         "b": "1024TB",
-        "c": "1024KB",
-        "d": "1024Bytes"
+        "c": "1024 KB",
+        "d": "1024 Bytes"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "1MBisequalto",
+      "q": "1 MBis equal to",
       "multi": false
     },
     {
@@ -38,9 +38,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SatyaNadella",
-        "b": "SundarPichai",
-        "c": "BillGates(4)RajivSuri"
+        "a": "Satya Nadella",
+        "b": "Sundar Pichai",
+        "c": "Bill Gates (4) Rajiv Suri"
       },
       "marked": null,
       "cov": {
@@ -49,7 +49,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "WhowasthefirstIndian-bornpersontobecometheCEOofMicrosoft?",
+      "q": "Who was the first Indian-born person to become the CEO of Microsoft?",
       "multi": false
     },
     {
@@ -60,9 +60,9 @@
       "direction": null,
       "opts": {
         "a": "BSNL",
-        "b": "BhartiAirtel",
-        "c": "RelianceJio",
-        "d": "VodafoneIdea"
+        "b": "Bharti Airtel",
+        "c": "Reliance Jio",
+        "d": "Vodafone Idea"
       },
       "marked": null,
       "cov": {
@@ -72,7 +72,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheFirsttelecomcompanytolaunch5GnetworkserviceinIndiais",
+      "q": "The First telecom company to launch 5G network service in India is",
       "multi": false
     },
     {
@@ -82,10 +82,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Instantaneousspeed",
+        "a": "Instantaneous speed",
         "b": "Distance",
         "c": "RPM",
-        "d": "Petrol/Diesellevel"
+        "d": "Petrol/Diesel level"
       },
       "marked": null,
       "cov": {
@@ -95,7 +95,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatdoesanodometerinavehiclemeasure?",
+      "q": "What does an odometer in a vehicle measure?",
       "multi": false
     },
     {
@@ -105,10 +105,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "isnotabrittle",
-        "b": "haslowerelasticity",
-        "c": "hashigherelasticity",
-        "d": "hasnoductileproperty"
+        "a": "isnota brittle",
+        "b": "has lower elasticity",
+        "c": "has higher elasticity",
+        "d": "has no ductile property"
       },
       "marked": null,
       "cov": {
@@ -118,7 +118,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘Shock-absorber’isusuallymadeofsteelasit",
+      "q": "‘Shock-absorber’ is usually made of steel as it",
       "multi": false
     },
     {
@@ -141,7 +141,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Chipkomovementwaslaunchedfortheprotectionof",
+      "q": "Chipko movement was launched for the protection of",
       "multi": false
     },
     {
@@ -151,10 +151,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1%July,2012",
-        "b": "1%July,2015",
-        "c": "1stJuly,2017",
-        "d": "1%July,2020"
+        "a": "1%July, 2012",
+        "b": "1% July, 2015",
+        "c": "1st July, 2017",
+        "d": "1% July, 2020"
       },
       "marked": null,
       "cov": {
@@ -164,7 +164,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Toenabledigitaldeliveryofservicestocitizens,‘DigitalIndia’programmewaslaunchedon",
+      "q": "To enable digital delivery of services to citizens, ‘Digital India’ programme was launched on",
       "multi": false
     },
     {
@@ -177,7 +177,7 @@
         "a": "1969",
         "b": "1975",
         "c": "1980",
-        "d": "1995 :-2-"
+        "d": "1995 : -2-"
       },
       "marked": null,
       "cov": {
@@ -187,7 +187,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IndianSpaceResearchOrganizationwasformedin",
+      "q": "Indian Space Research Organization was formed in",
       "multi": false
     },
     {
@@ -197,10 +197,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RamanParimala",
-        "b": "ShakuntalaDevi",
-        "c": "SunitaSarawagi",
-        "d": "IndiraGandhi"
+        "a": "Raman Parimala",
+        "b": "Shakuntala Devi",
+        "c": "Sunita Sarawagi",
+        "d": "Indira Gandhi"
       },
       "marked": null,
       "cov": {
@@ -210,7 +210,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoisthemostfamousfemaleIndianmathematicianoftenreferredtoasthe“humancomputer”?",
+      "q": "Who is the most famous female Indian mathematician often referred to as the “human computer”?",
       "multi": false
     },
     {
@@ -233,7 +233,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthenameofthefirstmissiledevelopedinIndia?",
+      "q": "What is the name of the first missile developed in India?",
       "multi": false
     },
     {
@@ -246,7 +246,7 @@
         "a": "LVM-3",
         "b": "Gaganyaan",
         "c": "Chanrayaan-1",
-        "d": "LUPEX."
+        "d": "LUPEX ."
       },
       "marked": null,
       "cov": {
@@ -256,7 +256,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "India’sfirstmannedspacecraftiscalled",
+      "q": "India’s first manned spacecraft is called",
       "multi": false
     },
     {
@@ -266,10 +266,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Inventingthetelephone",
-        "b": "Proposingtheperiodictable",
-        "c": "Developingthetheoryofrelativity",
-        "d": "DiscoveringtheRamanEffect"
+        "a": "Inventing the telephone",
+        "b": "Proposing the periodic table",
+        "c": "Developing the theory of relativity",
+        "d": "Discovering the Raman Effect"
       },
       "marked": null,
       "cov": {
@@ -279,7 +279,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisC.V.Ramanbestknownfor?",
+      "q": "What is C.V. Raman best known for?",
       "multi": false
     },
     {
@@ -290,9 +290,9 @@
       "direction": null,
       "opts": {
         "a": "Aryabhatta",
-        "b": "C.V.Raman",
+        "b": "C.V. Raman",
         "c": "Brahmagupta",
-        "d": "NarendraKarmarka"
+        "d": "Narendra Karmarka"
       },
       "marked": null,
       "cov": {
@@ -302,7 +302,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whoisoftenreferredtoasthe“FatherofIndianMathematics”?",
+      "q": "Who is often referred to as the “Father of Indian Mathematics”?",
       "multi": false
     },
     {
@@ -315,7 +315,7 @@
         "a": "Brahmagupta",
         "b": "Aryabhatta",
         "c": "Bhaskara-II",
-        "d": "C.V.Raman"
+        "d": "C.V. Raman"
       },
       "marked": null,
       "cov": {
@@ -325,7 +325,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichIndianmathematicianisrenownedforhisroleinformulatingrulespertainingtonegativenumbers?",
+      "q": "Which Indian mathematician is renowned for his role in formulating rules pertaining to negative numbers?",
       "multi": false
     },
     {
@@ -337,7 +337,7 @@
       "opts": {
         "a": "Physics",
         "b": "Chemistry",
-        "c": "Medicine‘",
+        "c": "Medicine ‘",
         "d": "Biology"
       },
       "marked": null,
@@ -348,7 +348,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InwhichfielddidVenkatramanRamakrishnanreceivetheNobelPrizein2009?",
+      "q": "In which field did Venkatraman Ramakrishnan receive the Nobel Prize in 2009?",
       "multi": false
     },
     {
@@ -358,10 +358,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PacificOcean",
-        "b": "IndianOcean",
-        "c": "ArcticOcean",
-        "d": "AntarcticOcean"
+        "a": "Pacific Ocean",
+        "b": "Indian Ocean",
+        "c": "Arctic Ocean",
+        "d": "Antarctic Ocean"
       },
       "marked": null,
       "cov": {
@@ -371,7 +371,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InwhichoceanhastheEarth’slowestgeoidanomalybeenlocated?",
+      "q": "In which ocean has the Earth’s lowest geoid anomaly been located?",
       "multi": false
     },
     {
@@ -394,7 +394,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthepopularnameofIndia’sMarsOrbiterMission?",
+      "q": "What is the popular name of India’s Mars Orbiter Mission?",
       "multi": false
     },
     {
@@ -404,10 +404,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "WorldWideWeb",
-        "b": "WorldWideWebpage",
-        "c": "WebonWorldWeb",
-        "d": "WorldWideWatch"
+        "a": "World Wide Web",
+        "b": "World Wide Webpage",
+        "c": "Web on World Web",
+        "d": "World Wide Watch"
       },
       "marked": null,
       "cov": {
@@ -417,7 +417,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WWWstandsfor(withinthecontextofinformationtechnology)",
+      "q": "WWW stands for (within the context of information technology)",
       "multi": false
     },
     {
@@ -440,7 +440,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstsupercomputerinIndia,PARAM8000,wasdevelopedby",
+      "q": "The first supercomputer in India, PARAM 8000, was developed by",
       "multi": false
     },
     {
@@ -452,7 +452,7 @@
       "opts": {
         "a": "Bharati",
         "b": "Himadri",
-        "c": "DakshinGangotri",
+        "c": "Dakshin Gangotri",
         "d": "Tarun"
       },
       "marked": null,
@@ -463,7 +463,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichisthefirstresearchstationestablishedbyIndiainAntarctica?",
+      "q": "Which is the first research station established by India in Antarctica?",
       "multi": false
     },
     {
@@ -473,10 +473,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "HedevelopedthefirstIndiansatellite.",
-        "b": "HeledtheChandrayaanmissiontotheMoon.",
-        "c": "HeinitiatedtheMarsOrbiterMission.",
-        "d": "HewasakeyscientistinIndia’sballisticmissileprogram."
+        "a": "He developed the first Indian satellite.",
+        "b": "He led the Chandrayaan mission to the Moon.",
+        "c": "He initiated the Mars Orbiter Mission.",
+        "d": "He was akey scientist in India’s ballistic missile program."
       },
       "marked": null,
       "cov": {
@@ -486,7 +486,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichsignificantroledidDr.A.P.J.AbdulKalamplayinIndia’sspaceprogram?",
+      "q": "Which significant role did Dr. A.P.J. Abdul Kalam play in India’s space program?",
       "multi": false
     },
     {
@@ -496,8 +496,8 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BharatBiotechInternationalLtd",
-        "b": "SerumInstituteofIndia",
+        "a": "Bharat Biotech International Ltd",
+        "b": "Serum Institute of India",
         "c": "AstraZeneca",
         "d": "Pfizer"
       },
@@ -509,7 +509,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Covaxin,India’sindigenousCOVID-19vaccine,isdevelopedby",
+      "q": "Covaxin, India’s indigenous COVID-19 vaccine, is developed by",
       "multi": false
     },
     {
@@ -521,7 +521,7 @@
       "opts": {
         "a": "Maharashtra",
         "b": "Kerala",
-        "c": "TamilNadu",
+        "c": "Tamil Nadu",
         "d": "Delhi"
       },
       "marked": null,
@@ -532,7 +532,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichstateinIndiareportedthefirstcaseofCOVID-19inearly2020?",
+      "q": "Which state in India reported the first case of COVID-19 in early 2020?",
       "multi": false
     },
     {
@@ -544,8 +544,8 @@
       "opts": {
         "a": "Garuda-Drone",
         "b": "Drona",
-        "c": "SkyeAir",
-        "d": "_Pixxel"
+        "c": "Skye Air",
+        "d": "_ Pixxel"
       },
       "marked": null,
       "cov": {
@@ -555,7 +555,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichcompanylaunchedIndia’sFirstdroneairtrafficmanagementsystem?",
+      "q": "Which company launched India’s First drone air traffic management system?",
       "multi": false
     },
     {
@@ -565,10 +565,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "OperationDesertStorm",
-        "b": "OperationShakti",
-        "c": "OperationSmilingBuddha",
-        "d": "OperationTigerGiant"
+        "a": "Operation Desert Storm",
+        "b": "Operation Shakti",
+        "c": "Operation Smiling Buddha",
+        "d": "Operation Tiger Giant"
       },
       "marked": null,
       "cov": {
@@ -578,7 +578,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthecodenameofIndia’sfirstsuccessfulnuclearweaponstestin1974?:",
+      "q": "What is the codename of India’s first successful nuclear weapons test in 1974? :",
       "multi": false
     },
     {
@@ -601,7 +601,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "isthefirstIndiansatellitebuiltexclusivelytoservetheeducationalsector.",
+      "q": "is the first Indian satellite built exclusively to serve the educational sector.",
       "multi": false
     },
     {
@@ -624,7 +624,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "India’sfirstelectriccarwas",
+      "q": "India’s first electric car was",
       "multi": false
     },
     {
@@ -636,8 +636,8 @@
       "opts": {
         "a": "RSAT-1",
         "b": "RISAT-1",
-        "c": "MSAT-1:",
-        "d": "GSAT-1 (a)EquatorialClimate(b)MediterraneanClimate (c)MonsoonClimate(d)SavannaClimate (a)Karnataka(b)TamilNadu (c)Kerala(d)WestBengal (a)1983(b)1986 (c)1995(d)2000 (a)Mawsynram,Meghalaya(b)Agumbe,Karnataka (c)Mahabaleshwar,Maharashtra(d)Paighat,ArunachalPradesh (a)30\"June2003(b)30%June2008 (c)30June2010(d)30June2020 (a)BharOS(b)TamilOS (c)IndOS(d)MadrasOS (a)UttarPradesh(b)Maharashtra (c)Gujarat(d)Rajasthan (a)8(b)10 (c)12(d)14 (a)Donors(b)Recipients (c)Transfusers(d)Plasmaproviders: (a)bawrhkeu(b)hlamzuih (c)chhim(d)artehringban"
+        "c": "MSAT-1 :",
+        "d": "GSAT-1 (a) Equatorial Climate (b) Mediterranean Climate (c) Monsoon Climate (d) Savanna Climate (a) Karnataka (b) Tamil Nadu (c) Kerala (d) West Bengal (a) 1983 (b) 1986 (c) 1995 (d) 2000 (a) Mawsynram, Meghalaya (b) Agumbe, Karnataka (c) Mahabaleshwar, Maharashtra (d) Paighat, Arunachal Pradesh (a) 30\" June 2003 (b) 30% June 2008 (c) 30 June 2010 (d) 30 June 2020 (a) BharOS (b) TamilOS (c) IndOS (d) MadrasOS (a) Uttar Pradesh (b) Maharashtra (c) Gujarat (d) Rajasthan (a) 8 (b) 10 (c) 12 (d) 14 (a) Donors (b) Recipients (c) Transfusers (d) Plasma providers : (a) bawrh keu (b) hlamzuih (c) chhim (d) arte hring ban"
       },
       "marked": null,
       "cov": {
@@ -647,7 +647,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisIndia’sfirstmicrowaveremote-sensingsatellite?",
+      "q": "What is India’s first microwave remote-sensing satellite?",
       "multi": false
     },
     {
@@ -657,10 +657,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1951census",
-        "b": "1961census",
-        "c": "1971census",
-        "d": "1981census"
+        "a": "1951 census",
+        "b": "1961 census",
+        "c": "1971 census",
+        "d": "1981 census"
       },
       "marked": null,
       "cov": {
@@ -670,7 +670,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘ThetermMizoisacollectivenameforthepeopleinhibitingMizoram,possessingonelanguage, sameoriginandacommonwayoflife...’isbegantousein",
+      "q": "‘The term Mizo is a collective name for the people inhibiting Mizoram, possessing one language, same origin and a common way of life...’ is began to use in",
       "multi": false
     },
     {
@@ -680,10 +680,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1865—1869",
+        "a": "1865—  1869",
         "b": "1869-1870",
-        "c": "1871-1872",
-        "d": "18—718375"
+        "c": "1871 - 1872",
+        "d": "18—7 18375"
       },
       "marked": null,
       "cov": {
@@ -693,7 +693,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstLushaiexpeditionwaslaunchedintheyear",
+      "q": "The first Lushai expedition was launched in the year",
       "multi": false
     },
     {
@@ -703,8 +703,8 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "artehringban.",
-        "b": "rihsangkai",
+        "a": "arte hring ban .",
+        "b": "rihsang kai",
         "c": "hlamzuih",
         "d": "thlabual"
       },
@@ -716,7 +716,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifachilddiedwithinayearofitsbirth,itwascalled",
+      "q": "Ifachild died within a year of its birth, it was called",
       "multi": false
     },
     {
@@ -739,7 +739,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MizoramwasmadeasoneoftheUnionTerritoryofAssamStatein",
+      "q": "Mizoram was made as one of the Union Territory of Assam State in",
       "multi": false
     },
     {
@@ -762,7 +762,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whenamandied,thefamilymembershadtomournforacertainperiod.Theseconddaywascalled",
+      "q": "When aman died, the family members had to mourn for a certain period. The second day was called",
       "multi": false
     },
     {
@@ -772,10 +772,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ZoteVillage",
-        "b": "Zopuivillage",
-        "c": "RuantlangVillage",
-        "d": "RulchawmVillage"
+        "a": "Zote Village",
+        "b": "Zopui village",
+        "c": "Ruantlang Village",
+        "d": "Rulchawm Village"
       },
       "marked": null,
       "cov": {
@@ -785,7 +785,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MuraPukissituatedat",
+      "q": "Mura Puk is situated at",
       "multi": false
     },
     {
@@ -798,7 +798,7 @@
         "a": "hlamzuih",
         "b": "awnlai",
         "c": "Sarthi",
-        "d": "_thihthiap"
+        "d": "_ thihthiap"
       },
       "marked": null,
       "cov": {
@@ -808,7 +808,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InMizosocietynaturaldeathwascalled",
+      "q": "In Mizo society natural death was called",
       "multi": false
     },
     {
@@ -831,7 +831,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InthetraditionalMizosociety,theminimumfineinflicteduponthelosingpartywascalled",
+      "q": "In the traditional Mizo society, the minimum fine inflicted upon the losing party was called",
       "multi": false
     },
     {
@@ -854,7 +854,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Zawlbukwasplacedunderthechargeofaleadercalled",
+      "q": "Zawlbuk was placed under the charge of a leader called",
       "multi": false
     },
     {
@@ -864,10 +864,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "lalpuitu",
+        "a": "lal puitu",
         "b": "sailolal",
-        "c": "hnamchawmlal",
-        "d": "lalbawi"
+        "c": "hnamchawm lal",
+        "d": "lal bawi"
       },
       "marked": null,
       "cov": {
@@ -877,7 +877,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AftertheBritishoccupation,theadministrationoccasionallyappointedGovernmentemployeesas chiefsinplaceofthosechiefswhoweredeposedandsuchchiefwerecalled",
+      "q": "After the British occupation, the administration occasionally appointed Government employees as chiefs in place of those chiefs who were deposed and such chief were called",
       "multi": false
     },
     {
@@ -900,7 +900,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IntraditionalMizosociety,itwascustomaryonthepartofthebridetobringalongwithher",
+      "q": "In traditional Mizo society, it was customary on the part of the bride to bring along with her",
       "multi": false
     },
     {
@@ -910,10 +910,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "inpuichhungbawi",
-        "b": "tukluhbawi",
-        "c": "_chemsenbawi",
-        "d": "_inhrangbawi,"
+        "a": "inpuichhung bawi",
+        "b": "tukluh bawi",
+        "c": "_ chemsen bawi",
+        "d": "_ inhrang bawi ,"
       },
       "marked": null,
       "cov": {
@@ -923,7 +923,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thosewhotookrefugeinthechief’shouseduetopovertywerecalled",
+      "q": "Those who took refuge in the chief’s house due to poverty were called",
       "multi": false
     },
     {
@@ -933,9 +933,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "mualveng",
+        "a": "mual veng",
         "b": "venglai",
-        "c": "mualbawk",
+        "c": "mual bawk",
         "d": "mualkil"
       },
       "marked": null,
@@ -946,7 +946,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Partofthevillagewherethechiefresidedinthevillagewas",
+      "q": "Part of the village where the chief resided in the village was",
       "multi": false
     },
     {
@@ -956,9 +956,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Chapcharkut",
-        "b": "Mimkut",
-        "c": "Pawlkut",
+        "a": "Chapchar kut",
+        "b": "Mim kut",
+        "c": "Pawl kut",
         "d": "Chhawnghnawt"
       },
       "marked": null,
@@ -969,7 +969,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thitinwasassociatedwith",
+      "q": "Thitin was associated with",
       "multi": false
     },
     {
@@ -992,7 +992,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingwasnottraditionalmethodoftrapping?",
+      "q": "Which of the following was not traditional method of trapping?",
       "multi": false
     },
     {
@@ -1002,9 +1002,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "pawlkut‘",
+        "a": "pawl kut ‘",
         "b": "mimkut",
-        "c": "chapcharkut",
+        "c": "chapchar kut",
         "d": "hnuaipui"
       },
       "marked": null,
@@ -1015,7 +1015,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingwasrelatedwithkhawzimpathian?",
+      "q": "Which of the following was related with khawzim pathian?",
       "multi": false
     },
     {
@@ -1025,10 +1025,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ramlamathangchhuah",
-        "b": "inlamathangchhuah",
+        "a": "ram lama thangchhuah",
+        "b": "inlama thangchhuah",
         "c": "zaudawh",
-        "d": "khuangchawinulehpa"
+        "d": "khuangchawi nu leh pa"
       },
       "marked": null,
       "cov": {
@@ -1038,7 +1038,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Amanwhoperformedkhuangchawiceremoniesthriceinhislifetimewascalled",
+      "q": "A man who performed khuangchawi ceremonies thrice in his life time was called",
       "multi": false
     },
     {
@@ -1061,7 +1061,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "J.ShakespearewhoincludedtenMizofolktalesinhisbookentitledMizoandNonMizoTaleswas publishin",
+      "q": "J. Shakespeare who included ten Mizo folktales in his book entitled Mizo and Non Mizo Tales was publish in",
       "multi": false
     },
     {
@@ -1084,7 +1084,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichMizofolktaleisassociatedwithVanhrika?",
+      "q": "Which Mizo folktale is associated with Vanhrika?",
       "multi": false
     },
     {
@@ -1107,7 +1107,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheMizobelievedthatonthedeathofaman,hissoullefthimfromthetopofhis",
+      "q": "The Mizo believed that on the death of a man, his soul left him from the top of his",
       "multi": false
     },
     {
@@ -1117,10 +1117,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "J.HLorrain",
+        "a": "J.H Lorrain",
         "b": "E.LMendus",
-        "c": "NEParry",
-        "d": "Rev.L.Evans ._6-"
+        "c": "NE Parry",
+        "d": "Rev. L. Evans . _6-"
       },
       "marked": null,
       "cov": {
@@ -1130,7 +1130,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstpresidentofYoungLushaiAssociationwas",
+      "q": "The first president of Young Lushai Association was",
       "multi": false
     },
     {
@@ -1153,7 +1153,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MizoCommonPeople’sUnionwasrenamedasMizoUnionintheyear",
+      "q": "Mizo Common People’s Union was renamed as Mizo Union in the year",
       "multi": false
     },
     {
@@ -1163,10 +1163,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "J.Shakespeare",
-        "b": "A.OChamber",
-        "c": "ASReid",
-        "d": "H.RBrowne"
+        "a": "J. Shakespeare",
+        "b": "A.O Chamber",
+        "c": "AS Reid",
+        "d": "H.R Browne"
       },
       "marked": null,
       "cov": {
@@ -1176,7 +1176,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "NametheauthorofthebookcalledChin-LushaiLand(1893)",
+      "q": "Name the author of the book called Chin-Lushai Land (1893)",
       "multi": false
     },
     {
@@ -1186,10 +1186,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "24October1961",
-        "b": "2\"June1962",
-        "c": "4%May1963",
-        "d": "_8\"March1965:"
+        "a": "24 October 1961",
+        "b": "2\" June 1962",
+        "c": "4% May 1963",
+        "d": "_ 8\" March 1965 :"
       },
       "marked": null,
       "cov": {
@@ -1199,7 +1199,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MizoNationalFamineFrontwasconvertedintoapoliticalcalledMizoNationalFrontin",
+      "q": "Mizo National Famine Front was converted into a political called Mizo National Front in",
       "multi": false
     },
     {
@@ -1222,7 +1222,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingdancewasrelatedtohunting",
+      "q": "Which of the following dance was related to hunting",
       "multi": false
     },
     {
@@ -1232,10 +1232,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Vanchhungkhal",
+        "a": "Vanchhung khal",
         "b": "Hnuaite",
         "c": "Sakung",
-        "d": "_Hnuaipui"
+        "d": "_ Hnuaipui"
       },
       "marked": null,
       "cov": {
@@ -1245,7 +1245,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AnofferingmadetoLasiiscalled",
+      "q": "An offering made to Lasi is called",
       "multi": false
     },
     {
@@ -1268,7 +1268,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofoneofthefollowingisnotindigenousmusicalinstrumentofMizo?",
+      "q": "Which of one of the following is not indigenous musical instrument of Mizo?",
       "multi": false
     },
     {
@@ -1278,10 +1278,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "22\"January1952",
-        "b": "20\"February1952",
-        "c": "13January1953,",
-        "d": "218June1952"
+        "a": "22\" January 1952",
+        "b": "20\" February 1952",
+        "c": "13 January 1953 ,",
+        "d": "218 June 1952"
       },
       "marked": null,
       "cov": {
@@ -1291,7 +1291,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingistrueinregardstotheabolitionofkuliinMizoram?",
+      "q": "Which of the following is true in regards to the abolition of kuli in Mizoram?",
       "multi": false
     },
     {
@@ -1314,7 +1314,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Awkpakaisfoundin",
+      "q": "Awkpaka is found in",
       "multi": false
     },
     {
@@ -1325,7 +1325,7 @@
       "direction": null,
       "opts": {
         "a": "ngawidawh",
-        "b": "sanghabomb",
+        "b": "sangha bomb",
         "c": "hawlhrawk",
         "d": "lensuah"
       },
@@ -1337,7 +1337,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingistrueinregardstoMizotraditionalmethodoftrappingfish?",
+      "q": "Which of the following is true in regards to Mizo traditional method of trapping fish?",
       "multi": false
     },
     {
@@ -1360,7 +1360,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThebiggestriverinMizoramis",
+      "q": "The biggest river in Mizoram is",
       "multi": false
     },
     {
@@ -1370,10 +1370,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Dualsyllabiclanguage",
-        "b": "Disyllabiclanguage",
-        "c": "Monosyllabiclanguage",
-        "d": "Hexsyllabiclanguage"
+        "a": "Dual syllabic language",
+        "b": "Disyllabic language",
+        "c": "Monosyllabic language",
+        "d": "Hex syllabic language"
       },
       "marked": null,
       "cov": {
@@ -1383,7 +1383,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Mizotawngis",
+      "q": "Mizo tawng is",
       "multi": false
     },
     {
@@ -1393,10 +1393,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Tibeto-Burman",
-        "b": "Aryan-Indogroup",
-        "c": "AngloBurman",
-        "d": "IndoTibetan"
+        "a": "Tibeto- Burman",
+        "b": "Aryan- Indo group",
+        "c": "Anglo Burman",
+        "d": "Indo Tibetan"
       },
       "marked": null,
       "cov": {
@@ -1406,7 +1406,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Mizotawngbelongsto",
+      "q": "Mizo tawng belongs to",
       "multi": false
     },
     {
@@ -1417,9 +1417,9 @@
       "direction": null,
       "opts": {
         "a": "Surtlang",
-        "b": "Lengtengtlang",
-        "c": "Phawngpuitlang",
-        "d": "Pukzingvillage"
+        "b": "Lengteng tlang",
+        "c": "Phawngpui tlang",
+        "d": "Pukzing village"
       },
       "marked": null,
       "cov": {
@@ -1429,7 +1429,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tialparipukwassituatedat",
+      "q": "Tialpari puk was situated at",
       "multi": false
     },
     {
@@ -1439,10 +1439,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "HiteswarSaikia",
-        "b": "AR.Kohli",
-        "c": "H.S.Dubey",
-        "d": "_S.P.Mukherjee"
+        "a": "Hiteswar Saikia",
+        "b": "AR. Kohli",
+        "c": "H.S. Dubey",
+        "d": "_ S.P. Mukherjee"
       },
       "marked": null,
       "cov": {
@@ -1452,7 +1452,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefirstGovernorofMizoramafterbecomingstatehood.",
+      "q": "The first Governor of Mizoram after becoming statehood.",
       "multi": false
     },
     {
@@ -1475,7 +1475,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Findthesumofallevennumbersfrom100to175,",
+      "q": "Find the sum of all even numbers from 100 to 175,",
       "multi": false
     },
     {
@@ -1488,7 +1488,7 @@
         "a": "28",
         "b": "40",
         "c": "32",
-        "d": "64."
+        "d": "64 ."
       },
       "marked": null,
       "cov": {
@@ -1498,7 +1498,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheLCMoftwonumbersis48.Ifthenumbersareinratioof2:3,thenfindthesumofthenumbers.",
+      "q": "The LCM of two numbers is 48. If the numbers are in ratio of 2:3, then find the sum of the numbers.",
       "multi": false
     },
     {
@@ -1521,7 +1521,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "rTehceormdeeadnasm5a7r.kFsiondf3th0esctourdreencttsmienana.classis58.5.Lateron,itwasfoundthat75waswrongly",
+      "q": "rTehceo rmdeead na sm 5a7r.k Fsi ondf  3th0e  sctourdreenctts m iena na. c lass is 58.5. Later on, it was found that 75 was wrongly",
       "multi": false
     },
     {
@@ -1544,7 +1544,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inanexamination,950boysand250girlsappeared.90%oftheboysand60%ofthegirlspassed theexamination.ThePercentageofcandidatesthatfailedis",
+      "q": "In an examination, 950 boys and 250 girls appeared. 90% of the boys and 60% of the girls passed the examination. The Percentage of candidates that failed is",
       "multi": false
     },
     {
@@ -1567,7 +1567,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Findtheleastnumberwhichwhenmultipliedwith74088willmakeitaperfectsquare.",
+      "q": "Find the least number which when multiplied with 74088 will make it a perfect square.",
       "multi": false
     },
     {
@@ -1590,7 +1590,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "If3/4\"oftheemployeesinasupermarketarenotcollegegraduates,thenwhatistheratioofthe numberofcollegegraduatestothosewhoarenotcollegegraduates?",
+      "q": "If 3/4\" of the employees in a super market are not college graduates, then what is the ratio of the number of college graduates to those who are not college graduates?",
       "multi": false
     },
     {
@@ -1613,7 +1613,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theproductoftwonumbersis48.Thesumoftheirsquaresis100.Thesumofthenumbersis",
+      "q": "The product of two numbers is 48. The sum of their squares is 100. The sum of the numbers is",
       "multi": false
     },
     {
@@ -1626,7 +1626,7 @@
         "a": "13",
         "b": "15",
         "c": "14",
-        "d": "16-"
+        "d": "16 -"
       },
       "marked": null,
       "cov": {
@@ -1636,7 +1636,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thenumberof;primenumbersbetween0and50is",
+      "q": "The number of; prime numbers between 0 and 50is",
       "multi": false
     },
     {
@@ -1659,7 +1659,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "-InCtOheRfPoUllLoEwiNngTthequestionschoosethewordwhichbestexpressesthemeaningofthegivenword",
+      "q": "-I nC tOheR fPoUllLoEwiNngT t he questions choose the word which best expresses the meaning of the given word",
       "multi": false
     },
     {
@@ -1682,7 +1682,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Fatesmiles......thosewhountiringlygrapplewithstarkrealitiesoflife",
+      "q": "Fate smiles ...... those who untiringly grapple with stark realities of life",
       "multi": false
     },
     {
@@ -1692,10 +1692,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Totrapsomeone",
-        "b": "Tocatchadangerousperson",
-        "c": "Tomeetwithdisaster",
-        "d": "Todealwithapersonwhoismorethanone’smatch :-8-"
+        "a": "To trap someone",
+        "b": "Tocatcha dangerous person",
+        "c": "To meet with disaster",
+        "d": "To deal with a person who is more than one’s match : -8-"
       },
       "marked": null,
       "cov": {
@@ -1705,7 +1705,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethecorrectmeaningoftheproverb/idiom—‘Tocatchatartar’",
+      "q": "Choose the correct meaning of the proverb/idiom — ‘To catch a tartar’",
       "multi": false
     },
     {
@@ -1728,7 +1728,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Extremeoldagewhenamanbehaveslikeafool",
+      "q": "Extreme old age when a man behaves like a fool",
       "multi": false
     },
     {
@@ -1741,7 +1741,7 @@
         "a": "speech:dumb",
         "b": "language:deaf",
         "c": "tongue:sound",
-        "d": "_voice:vibration"
+        "d": "_ voice:vibration"
       },
       "marked": null,
       "cov": {
@@ -1751,7 +1751,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Sclectthepairwhichhasthesamerelationship LIGHT:BLIND",
+      "q": "Sclect the pair which has the same relationship LIGHT: BLIND",
       "multi": false
     },
     {
@@ -1761,10 +1761,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "hellbentingetting",
-        "b": "hellbentforgetting,",
-        "c": "hellbentupongetting",
-        "d": "hellbenttogetting"
+        "a": "hell bent in getting",
+        "b": "hell bent for getting ,",
+        "c": "hell bent upon getting",
+        "d": "hell bent to getting"
       },
       "marked": null,
       "cov": {
@@ -1774,7 +1774,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethecorrectalternative— Theworkersarehellbentatgettingwhatisduetothem.",
+      "q": "Choose the correct alternative — The workers are hell bent at getting what is due to them.",
       "multi": false
     },
     {
@@ -1797,7 +1797,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethewordwhichbestexpressesthemeaningofthegivenword-EMBEZZLE",
+      "q": "Choose the word which best expresses the meaning of the given word - EMBEZZLE",
       "multi": false
     },
     {
@@ -1810,7 +1810,7 @@
         "a": "",
         "b": "",
         "c": "",
-        "d": " .-10--"
+        "d": " . -10- -"
       },
       "marked": null,
       "cov": {
@@ -1820,7 +1820,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichcubecannotbemadebasedontheunfoldedcube? AlaAla i|| Abo?wilop",
+      "q": "Which cube cannot be made based on the unfolded cube? Ala Ala i | | Abo?wi l op",
       "multi": false
     },
     {
@@ -1843,7 +1843,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Filltheblankintheseries SCD,TEF,UGH,,WKL",
+      "q": "Fill the blank in the series SCD, TEF, UGH, , WKL",
       "multi": false
     },
     {
@@ -1866,7 +1866,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Findthenumberoftrianglesinthegivenfigure.",
+      "q": "Find the number of triangles in the given figure.",
       "multi": false
     }
   ],

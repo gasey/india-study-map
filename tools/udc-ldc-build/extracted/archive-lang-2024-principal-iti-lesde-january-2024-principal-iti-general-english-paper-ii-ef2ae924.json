@@ -13,12 +13,12 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-7):IdentifythepartofSpeechofthewordsinitalicsandchoosethe",
+      "direction": "Directions (Question Nos. 1 - 7) : Identify the part of Speech of the words in italics and choose the",
       "opts": {
         "a": "Noun",
         "b": "Pronoun",
         "c": "Conjunction",
-        "d": "_Preposition"
+        "d": "_ Preposition"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tommyranfastbutmissedthebus.",
+      "q": "Tommy ran fast but missed the bus.",
       "multi": false
     },
     {
@@ -36,7 +36,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-7):IdentifythepartofSpeechofthewordsinitalicsandchoosethe",
+      "direction": "Directions (Question Nos. 1 - 7) : Identify the part of Speech of the words in italics and choose the",
       "opts": {
         "a": "Noun",
         "b": "Pronoun",
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theladyisfondofflowers.:",
+      "q": "The lady is fond of flowers. :",
       "multi": false
     },
     {
@@ -59,7 +59,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-7):IdentifythepartofSpeechofthewordsinitalicsandchoosethe",
+      "direction": "Directions (Question Nos. 1 - 7) : Identify the part of Speech of the words in italics and choose the",
       "opts": {
         "a": "Verb",
         "b": "Adverb",
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thechildrensangtotheirheart’scontentbeforethewardenreturnedfrommarket.",
+      "q": "The children sang to their heart’s content before the warden returned from market.",
       "multi": false
     },
     {
@@ -82,7 +82,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-7):IdentifythepartofSpeechofthewordsinitalicsandchoosethe",
+      "direction": "Directions (Question Nos. 1 - 7) : Identify the part of Speech of the words in italics and choose the",
       "opts": {
         "a": "Verb",
         "b": "Adverb",
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Abeautifulbravegirlstoodinfrontofthecrowd.",
+      "q": "A beautiful brave girl stood in front oft he crowd.",
       "multi": false
     },
     {
@@ -105,7 +105,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-7):IdentifythepartofSpeechofthewordsinitalicsandchoosethe",
+      "direction": "Directions (Question Nos. 1 - 7) : Identify the part of Speech of the words in italics and choose the",
       "opts": {
         "a": "Verb",
         "b": "Adverb",
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AsIwaswalkingbackhometoday,a/onelycloudpassedby.",
+      "q": "As Iwas walking back home today, a /onely cloud passed by.",
       "multi": false
     },
     {
@@ -128,7 +128,7 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-7):IdentifythepartofSpeechofthewordsinitalicsandchoosethe",
+      "direction": "Directions (Question Nos. 1 - 7) : Identify the part of Speech of the words in italics and choose the",
       "opts": {
         "a": "Noun",
         "b": "Pronoun",
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Pridecanbeveryharmfulifnotchecked.",
+      "q": "Pride can be very harmful if not checked.",
       "multi": false
     },
     {
@@ -151,12 +151,12 @@
       "page": 1,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.1-7):IdentifythepartofSpeechofthewordsinitalicsandchoosethe",
+      "direction": "Directions (Question Nos. 1 - 7) : Identify the part of Speech of the words in italics and choose the",
       "opts": {
         "a": "Noun",
         "b": "Pronoun",
         "c": "Interjection",
-        "d": "Preposition .-2-"
+        "d": "Preposition . -2-"
       },
       "marked": null,
       "cov": {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hey!Haveawonderfulday.",
+      "q": "Hey! Have a wonderful day.",
       "multi": false
     },
     {
@@ -174,12 +174,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.8-15):IdentifythekindofadjectivesforthewordsinItalicsfromthe",
+      "direction": "Directions (Question Nos. 8 -15) : Identify the kind of adjectives for the words in Italics from the",
       "opts": {
-        "a": "AdjectiveofQuantity",
-        "b": "AdjectiveofQuality",
-        "c": "Adjectiveofnumber",
-        "d": "Demonstrativeadjective"
+        "a": "Adjective of Quantity",
+        "b": "Adjective of Quality",
+        "c": "Adjective ofnumber",
+        "d": "Demonstrative adjective"
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThesewordsarefromtheFrenchlanguage.",
+      "q": "These words are from the French language.",
       "multi": false
     },
     {
@@ -197,12 +197,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.8-15):IdentifythekindofadjectivesforthewordsinItalicsfromthe",
+      "direction": "Directions (Question Nos. 8 -15) : Identify the kind of adjectives for the words in Italics from the",
       "opts": {
-        "a": "AdjectiveofQuality",
-        "b": "AdjectiveofNumber",
-        "c": "Demonstrativeadjective",
-        "d": "Interrogativeadjective"
+        "a": "Adjective of Quality",
+        "b": "Adjective of Number",
+        "c": "Demonstrative adjective",
+        "d": "Interrogative adjective"
       },
       "marked": null,
       "cov": {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hedidnoteatanyrice.",
+      "q": "He did not eat any rice.",
       "multi": false
     },
     {
@@ -220,12 +220,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.8-15):IdentifythekindofadjectivesforthewordsinItalicsfromthe",
+      "direction": "Directions (Question Nos. 8 -15) : Identify the kind of adjectives for the words in Italics from the",
       "opts": {
-        "a": "AdjectiveofQuality",
-        "b": "AdjectiveofNumber",
-        "c": "Demonstrativeadjective",
-        "d": "Interrogativeadjective"
+        "a": "Adjective of Quality",
+        "b": "Adjective of Number",
+        "c": "Demonstrative adjective",
+        "d": "Interrogative adjective"
       },
       "marked": null,
       "cov": {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thoserascalsmustbepunished.:",
+      "q": "Those rascals must be punished. :",
       "multi": false
     },
     {
@@ -243,11 +243,11 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.8-15):IdentifythekindofadjectivesforthewordsinItalicsfromthe",
+      "direction": "Directions (Question Nos. 8 -15) : Identify the kind of adjectives for the words in Italics from the",
       "opts": {
-        "a": "AdjectiveofQuality",
-        "b": "AdjectiveofNumber",
-        "c": "Demonstrativeadjective",
+        "a": "Adjective of Quality",
+        "b": "Adjective of Number",
+        "c": "Demonstrative adjective",
         "d": "Interrogativeadjective"
       },
       "marked": null,
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whatmannerofmanishe?",
+      "q": "What manner of man is he?",
       "multi": false
     },
     {
@@ -266,12 +266,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.8-15):IdentifythekindofadjectivesforthewordsinItalicsfromthe",
+      "direction": "Directions (Question Nos. 8 -15) : Identify the kind of adjectives for the words in Italics from the",
       "opts": {
-        "a": "AdjectiveofQuality",
-        "b": "AdjectiveofNumber.",
-        "c": "Demonstrativeadjective}",
-        "d": "Interrogativeadjective"
+        "a": "Adjective of Quality",
+        "b": "Adjective of Number .",
+        "c": "Demonstrative adjective }",
+        "d": "Interrogative adjective"
       },
       "marked": null,
       "cov": {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Trynottobeinsuchahurry..",
+      "q": "Try not to be in such a hurry. .",
       "multi": false
     },
     {
@@ -289,12 +289,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.8-15):IdentifythekindofadjectivesforthewordsinItalicsfromthe",
+      "direction": "Directions (Question Nos. 8 -15) : Identify the kind of adjectives for the words in Italics from the",
       "opts": {
-        "a": "AdjectiveofQuality",
-        "b": "AdjectiveofNuniber",
-        "c": "Interrogativeadjective.",
-        "d": "Demonstrativeadjective."
+        "a": "Adjective of Quality",
+        "b": "Adjective of Nuniber",
+        "c": "Interrogative adjective .",
+        "d": "Demonstrative adjective ."
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "YonderfortoncebelongedtoShivaji..",
+      "q": "Yonder fort once belonged to Shivaji. .",
       "multi": false
     },
     {
@@ -312,12 +312,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.8-15):IdentifythekindofadjectivesforthewordsinItalicsfromthe",
+      "direction": "Directions (Question Nos. 8 -15) : Identify the kind of adjectives for the words in Italics from the",
       "opts": {
-        "a": "AdjectiveofQuality",
-        "b": "Interrogativeadjective",
-        "c": "Demonstrativeadjective",
-        "d": "DistributiveNumeralAdjective"
+        "a": "Adjective of Quality",
+        "b": "Interrogative adjective",
+        "c": "Demonstrative adjective",
+        "d": "Distributive Numeral Adjective"
       },
       "marked": null,
       "cov": {
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Eachchildmusttakehis/herturn.>",
+      "q": "Each child must take his/her turn. >",
       "multi": false
     },
     {
@@ -335,12 +335,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.8-15):IdentifythekindofadjectivesforthewordsinItalicsfromthe",
+      "direction": "Directions (Question Nos. 8 -15) : Identify the kind of adjectives for the words in Italics from the",
       "opts": {
-        "a": "AdjectiveofQuantity",
-        "b": "AdjectiveofQuality",
-        "c": "Adjectiveofnumber",
-        "d": "Demonstrativeadjective."
+        "a": "Adjective of Quantity",
+        "b": "Adjective of Quality",
+        "c": "Adjective ofnumber",
+        "d": "Demonstrative adjective ."
       },
       "marked": null,
       "cov": {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Youhavehadenoughexercise.",
+      "q": "You have had enough exercise.",
       "multi": false
     },
     {
@@ -358,12 +358,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-22):Choosethecorrectformoftheverbasprovidedattheendofeach.",
+      "direction": "Directions (Question Nos. 16 - 22) : Choose the correctf orm of the verb as provided at the end of each.",
       "opts": {
-        "a": "formedaunion",
-        "b": "askedforincreaseinsalary",
-        "c": "decidedtoworkextrahours",
-        "d": "wentonastrike"
+        "a": "formed aunion",
+        "b": "asked for increase in salary",
+        "c": "decided to work extra hours",
+        "d": "went ona strike"
       },
       "marked": null,
       "cov": {
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inordertosavethecompanyfromfurtherloss,theemployees:",
+      "q": "In order to save the company from further loss, the employees :",
       "multi": false
     },
     {
@@ -381,7 +381,7 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-22):Choosethecorrectformoftheverbasprovidedattheendofeach.",
+      "direction": "Directions (Question Nos. 16 - 22) : Choose the correctf orm of the verb as provided at the end of each.",
       "opts": {
         "a": "squeeze",
         "b": "squeezing",
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifyouyoureyesyouwillhurtthem.",
+      "q": "Ifyou your eyes you will hurt them.",
       "multi": false
     },
     {
@@ -404,12 +404,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-22):Choosethecorrectformoftheverbasprovidedattheendofeach.",
+      "direction": "Directions (Question Nos. 16 - 22) : Choose the correctf orm of the verb as provided at the end of each.",
       "opts": {
         "a": "taining",
         "b": "rained",
-        "c": "beenraining",
-        "d": "hasbeenraining"
+        "c": "been raining",
+        "d": "has been raining"
       },
       "marked": null,
       "cov": {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Althoughit(rain)heavilythismonsoon,thereisadeficitofrainfallinsomepartsofthe state.",
+      "q": "Although it (rain) heavily this monsoon, there is a deficit of rainfall in some parts of the state.",
       "multi": false
     },
     {
@@ -427,7 +427,7 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-22):Choosethecorrectformoftheverbasprovidedattheendofeach.",
+      "direction": "Directions (Question Nos. 16 - 22) : Choose the correctf orm of the verb as provided at the end of each.",
       "opts": {
         "a": "must",
         "b": "could",
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iambusytoday.Youmeetmetomorrowaftertheclass.",
+      "q": "Iam busy today. You meet me tomorrow after the class.",
       "multi": false
     },
     {
@@ -450,12 +450,12 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-22):Choosethecorrectformoftheverbasprovidedattheendofeach.",
+      "direction": "Directions (Question Nos. 16 - 22) : Choose the correctf orm of the verb as provided at the end of each.",
       "opts": {
         "a": "drink",
         "b": "drank",
         "c": "drunk",
-        "d": "_beendrunk."
+        "d": "_ been drunk ."
       },
       "marked": null,
       "cov": {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thatyouare(drink)whiledriving,aggravatesyouroffence.",
+      "q": "That you are (drink) while driving, aggravates your offence.",
       "multi": false
     },
     {
@@ -473,7 +473,7 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-22):Choosethecorrectformoftheverbasprovidedattheendofeach.",
+      "direction": "Directions (Question Nos. 16 - 22) : Choose the correctf orm of the verb as provided at the end of each.",
       "opts": {
         "a": "havemoved",
         "b": "moving",
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ifyourpathisbeingblocked,I(move)myvehicleoutofyourway.",
+      "q": "Ifyour path is being blocked, I (move) my vehicle out of your way.",
       "multi": false
     },
     {
@@ -496,12 +496,12 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.16-22):Choosethecorrectformoftheverbasprovidedattheendofeach.",
+      "direction": "Directions (Question Nos. 16 - 22) : Choose the correctf orm of the verb as provided at the end of each.",
       "opts": {
         "a": "repairs",
-        "b": "willberepairing",
+        "b": "will berepairing",
         "c": "willrepair",
-        "d": "repaired:"
+        "d": "repaired :"
       },
       "marked": null,
       "cov": {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iwasverygratefulthathe(repair)mycomputersopromptly.",
+      "q": "Iwas very grateful that he (repair) my computer so promptly.",
       "multi": false
     },
     {
@@ -524,7 +524,7 @@
         "a": "for",
         "b": "against",
         "c": "about",
-        "d": "with:"
+        "d": "with :"
       },
       "marked": null,
       "cov": {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thisisinconformitytheruleslaiddownbythecorporation.",
+      "q": "This is in conformity the rules laid down by the corporation.",
       "multi": false
     },
     {
@@ -546,7 +546,7 @@
       "opts": {
         "a": "for",
         "b": "over",
-        "c": "since(@)fom"
+        "c": "since (@) fom"
       },
       "marked": null,
       "cov": {
@@ -555,7 +555,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "ShehasnoteatenanythingMonday,-",
+      "q": "She has not eaten anything Monday, -",
       "multi": false
     },
     {
@@ -566,7 +566,7 @@
       "direction": null,
       "opts": {
         "a": "at",
-        "b": "to| (a)with(b)for",
+        "b": "to | (a) with (b) for",
         "c": "nm",
         "d": "at"
       },
@@ -578,7 +578,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Eggsaresoldthedozen.",
+      "q": "Eggs are sold the dozen.",
       "multi": false
     },
     {
@@ -601,7 +601,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Marypassedmeherbicycle.",
+      "q": "Mary passed me her bicycle.",
       "multi": false
     },
     {
@@ -613,7 +613,7 @@
       "opts": {
         "a": "with",
         "b": "over",
-        "c": "on(a)of"
+        "c": "on (a) of"
       },
       "marked": null,
       "cov": {
@@ -622,7 +622,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Nowadaysrichpeopleenjoyinfluencethepoliceauthorities.",
+      "q": "Nowadays rich people enjoy influence the police authorities.",
       "multi": false
     },
     {
@@ -630,12 +630,12 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.29-34):IdentifythekindofNounsforthewordsinitalicsfromthe",
+      "direction": "Directions (Question Nos. 29 - 34) : Identify the kind of Nouns for the words in italics from the",
       "opts": {
-        "a": "CommonNoun",
-        "b": "ProperNoun",
-        "c": "CollectiveNoun",
-        "d": "AbstractNoun"
+        "a": "Common Noun",
+        "b": "Proper Noun",
+        "c": "Collective Noun",
+        "d": "Abstract Noun"
       },
       "marked": null,
       "cov": {
@@ -645,7 +645,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ChicagoisacitiynLlinois.",
+      "q": "Chicago is a citiyn  Llinois.",
       "multi": false
     },
     {
@@ -653,12 +653,12 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.29-34):IdentifythekindofNounsforthewordsinitalicsfromthe",
+      "direction": "Directions (Question Nos. 29 - 34) : Identify the kind of Nouns for the words in italics from the",
       "opts": {
-        "a": "CommonNoun",
-        "b": "ProperNoun",
-        "c": "CollectiveNoun",
-        "d": "AbstractNoun"
+        "a": "Common Noun",
+        "b": "Proper Noun",
+        "c": "Collective Noun",
+        "d": "Abstract Noun"
       },
       "marked": null,
       "cov": {
@@ -668,7 +668,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MyfavouritenewspaperisTheHindu.",
+      "q": "My favourite newspaper is The Hindu.",
       "multi": false
     },
     {
@@ -676,12 +676,12 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.29-34):IdentifythekindofNounsforthewordsinitalicsfromthe",
+      "direction": "Directions (Question Nos. 29 - 34) : Identify the kind of Nouns for the words in italics from the",
       "opts": {
-        "a": "CommonNoun",
-        "b": "ProperNoun",
-        "c": "CollectiveNoun",
-        "d": "AbstractNoun .4. (a)CommonNoun(b)ProperNoun. (c)AbstractNoun(d)CollectiveNoun (a)CommonNoun(b)ProperNoun (c)CollectiveNoun(d)AbstractNoun"
+        "a": "Common Noun",
+        "b": "Proper Noun",
+        "c": "Collective Noun",
+        "d": "Abstract Noun . 4. (a) Common Noun (b) Proper Noun . (c) Abstract Noun (d) Collective Noun (a) Common Noun (b) Proper Noun (c) Collective Noun (d) Abstract Noun"
       },
       "marked": null,
       "cov": {
@@ -691,7 +691,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "SlaveryisabolishedinIndia.",
+      "q": "Slavery is abolished in India.",
       "multi": false
     },
     {
@@ -699,12 +699,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.29-34):IdentifythekindofNounsforthewordsinitalicsfromthe",
+      "direction": "Directions (Question Nos. 29 - 34) : Identify the kind of Nouns for the words in italics from the",
       "opts": {
-        "a": "CommonNoun",
-        "b": "ProperNoun:",
-        "c": "CollectiveNoun",
-        "d": "AbstractNoun:"
+        "a": "Common Noun",
+        "b": "Proper Noun :",
+        "c": "Collective Noun",
+        "d": "Abstract Noun :"
       },
       "marked": null,
       "cov": {
@@ -714,7 +714,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThefarmersaidhisnamewasTommy.",
+      "q": "The farmer said his name was Tommy.",
       "multi": false
     },
     {
@@ -722,12 +722,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.35-40):Fillinwithappropriateconjunctions.Choosetheanswerfrom",
+      "direction": "Directions (Question Nos. 35 - 40) : Fill in with appropriate conjunctions. Choose the answer from",
       "opts": {
         "a": "not",
-        "b": "and:",
+        "b": "and :",
         "c": "but",
-        "d": "-or"
+        "d": "- or"
       },
       "marked": null,
       "cov": {
@@ -737,7 +737,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HenotonlyvisitedLahore,alsoKarachi.",
+      "q": "Henot only visited Lahore, also Karachi.",
       "multi": false
     },
     {
@@ -745,11 +745,11 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.35-40):Fillinwithappropriateconjunctions.Choosetheanswerfrom",
+      "direction": "Directions (Question Nos. 35 - 40) : Fill in with appropriate conjunctions. Choose the answer from",
       "opts": {
-        "a": "whether.",
+        "a": "whether .",
         "b": "because",
-        "c": "also(a)but"
+        "c": "also (a) but"
       },
       "marked": null,
       "cov": {
@@ -758,7 +758,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Manypeoplereadthepaperitintereststhem.",
+      "q": "Many people read the paper it interests them.",
       "multi": false
     },
     {
@@ -766,7 +766,7 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.35-40):Fillinwithappropriateconjunctions.Choosetheanswerfrom",
+      "direction": "Directions (Question Nos. 35 - 40) : Fill in with appropriate conjunctions. Choose the answer from",
       "opts": {
         "a": "so",
         "b": "nor",
@@ -781,7 +781,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MrMohilalgrewupinasmalltown,hefeelsverycomfortableinabigcity.",
+      "q": "Mr Mohilal grew up in a small town, he feels very comfortable in a big city.",
       "multi": false
     },
     {
@@ -789,10 +789,10 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.35-40):Fillinwithappropriateconjunctions.Choosetheanswerfrom",
+      "direction": "Directions (Question Nos. 35 - 40) : Fill in with appropriate conjunctions. Choose the answer from",
       "opts": {
         "a": "for",
-        "b": "since.",
+        "b": "since .",
         "c": "so",
         "d": "after"
       },
@@ -804,7 +804,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "SomanythingshavehappenedIsawyou.",
+      "q": "So many things have happened Isaw you.",
       "multi": false
     },
     {
@@ -812,12 +812,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.35-40):Fillinwithappropriateconjunctions.Choosetheanswerfrom",
+      "direction": "Directions (Question Nos. 35 - 40) : Fill in with appropriate conjunctions. Choose the answer from",
       "opts": {
         "a": "until",
         "b": "while",
         "c": "whether",
-        "d": "unless*"
+        "d": "unless *"
       },
       "marked": null,
       "cov": {
@@ -827,7 +827,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Zainwillnotpayheiscompelled.",
+      "q": "Zain will not pay he is compelled.",
       "multi": false
     },
     {
@@ -835,12 +835,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-48):Analysethefollowingsentencesandchoosetherightone.",
+      "direction": "Directions (Question Nos. 41 - 48) : Analyse the following sentences and choose the right one.",
       "opts": {
-        "a": "Simplesentence",
-        "b": "Compoundsentence",
-        "c": "Complexsentence.",
-        "d": "Noneofthese"
+        "a": "Simple sentence",
+        "b": "Compound sentence",
+        "c": "Complex sentence .",
+        "d": "None of these"
       },
       "marked": null,
       "cov": {
@@ -850,7 +850,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thewolfknockedonthepig’sdoorbuttheywouldn’tlethimin.",
+      "q": "The wolfknocked on the pig’s door but they wouldn’t let him in.",
       "multi": false
     },
     {
@@ -858,12 +858,12 @@
       "page": 4,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-48):Analysethefollowingsentencesandchoosetherightone.",
+      "direction": "Directions (Question Nos. 41 - 48) : Analyse the following sentences and choose the right one.",
       "opts": {
-        "a": "Simplesentence",
-        "b": "Compoundsentence",
-        "c": "Complexsentence",
-        "d": "Noneofthese"
+        "a": "Simple sentence",
+        "b": "Compound sentence",
+        "c": "Complex sentence",
+        "d": "None of these"
       },
       "marked": null,
       "cov": {
@@ -873,7 +873,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whilethepeoplecame,Rachelsneakedinthroughthewindow.",
+      "q": "While the people came, Rachel sneaked in through the window.",
       "multi": false
     },
     {
@@ -881,12 +881,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-48):Analysethefollowingsentencesandchoosetherightone.",
+      "direction": "Directions (Question Nos. 41 - 48) : Analyse the following sentences and choose the right one.",
       "opts": {
-        "a": "Simplesentence",
-        "b": "Compoundsentence",
-        "c": "Complexsentence",
-        "d": "Noneofthese. (a)Simplesentence(b)Compoundsentence (c)Complexsentence(d)Noneofthese"
+        "a": "Simple sentence",
+        "b": "Compound sentence",
+        "c": "Complex sentence",
+        "d": "None of these . (a) Simple sentence (b) Compound sentence (c) Complex sentence (d) None of these"
       },
       "marked": null,
       "cov": {
@@ -896,7 +896,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Althoughhesearchedeverywhere,Mr.Brookscouldnotfindthekeystothecomputerlab.",
+      "q": "Although he searched everywhere, Mr. Brooks could not find the keys to the computer lab.",
       "multi": false
     },
     {
@@ -904,12 +904,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-48):Analysethefollowingsentencesandchoosetherightone.",
+      "direction": "Directions (Question Nos. 41 - 48) : Analyse the following sentences and choose the right one.",
       "opts": {
-        "a": "Simplesentence",
-        "b": "Compoundsentence-",
-        "c": "Complexsentence",
-        "d": "Noneofthese"
+        "a": "Simple sentence",
+        "b": "Compoundsentence -",
+        "c": "Complex sentence",
+        "d": "None of these"
       },
       "marked": null,
       "cov": {
@@ -919,7 +919,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Havingcompletedhertraining,shetookajob.",
+      "q": "Having completed her training, she took ajob.",
       "multi": false
     },
     {
@@ -927,12 +927,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-48):Analysethefollowingsentencesandchoosetherightone.",
+      "direction": "Directions (Question Nos. 41 - 48) : Analyse the following sentences and choose the right one.",
       "opts": {
-        "a": "Simplesentence",
-        "b": "Compoundsentence",
-        "c": "Complexsentence",
-        "d": "Noneofthese"
+        "a": "Simple sentence",
+        "b": "Compound sentence",
+        "c": "Complex sentence",
+        "d": "None of these"
       },
       "marked": null,
       "cov": {
@@ -942,7 +942,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Althoughshewasconsideredsmart,shefailedallherexams.‘",
+      "q": "Although she was considered smart, she failed all her exams. ‘",
       "multi": false
     },
     {
@@ -950,12 +950,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-48):Analysethefollowingsentencesandchoosetherightone.",
+      "direction": "Directions (Question Nos. 41 - 48) : Analyse the following sentences and choose the right one.",
       "opts": {
-        "a": "Simplesentence",
-        "b": "Compoundsentence",
-        "c": "Complexsentence",
-        "d": "Noneofthese,"
+        "a": "Simple sentence",
+        "b": "Compound sentence",
+        "c": "Complex sentence",
+        "d": "None of these ,"
       },
       "marked": null,
       "cov": {
@@ -965,7 +965,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ididnotknowthatthisfoodwasmeantonlyforthestaff.",
+      "q": "I did not know that this food was meant only for the staff.",
       "multi": false
     },
     {
@@ -973,12 +973,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.49-58):Transformthesentencesasdirectedandchoosetherightoption",
+      "direction": "Directions (Question Nos. 49 - 58) : Transform the sentences as directed and choose the right option",
       "opts": {
-        "a": "Howisthesunsetsogorgeous?",
-        "b": "TheSunsetisgorgeous,isn’tit?",
-        "c": "Thesunsetisverygorgeous.*",
-        "d": "Howgorgeousthesunsetis!: (a)Humanisimmortal.(b)Humanisnotimmortal (c)Notallhumansaremortal(d)Notallhumansareimmortal"
+        "a": "Howis the sunset so gorgeous?",
+        "b": "The Sunset is gorgeous, isn’t it?",
+        "c": "The sunsetis very gorgeous. *",
+        "d": "How gorgeous the sunset is! : (a) Human isimmortal. (b) Human is not immortal (c) Notall humans are mortal (d) Notall humans are immortal"
       },
       "marked": null,
       "cov": {
@@ -988,7 +988,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Howgorgeousisthesunset!(changetoAssertivesentence).",
+      "q": "How gorgeous is the sunset! (change to Assertive sentence) .",
       "multi": false
     },
     {
@@ -996,12 +996,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.49-58):Transformthesentencesasdirectedandchoosetherightoption",
+      "direction": "Directions (Question Nos. 49 - 58) : Transform the sentences as directed and choose the right option",
       "opts": {
-        "a": "MyambitionisthatIshouldservemycountry.",
-        "b": "MyambitioinsthatIshallservemycountry.",
-        "c": "Toservemycountryismyambition.",
-        "d": "Iservemycountryismygreatambition."
+        "a": "My ambition is thatI  should serve my country.",
+        "b": "My ambitioins  thatI  shall serve my country.",
+        "c": "To serve my country is my ambition.",
+        "d": "Iserve my country is my great ambition."
       },
       "marked": null,
       "cov": {
@@ -1011,7 +1011,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Myambitionistoservethecountry.(changetocomplexsentence)",
+      "q": "My ambition is to serve the country. (change to complex sentence)",
       "multi": false
     },
     {
@@ -1019,12 +1019,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.49-58):Transformthesentencesasdirectedandchoosetherightoption",
+      "direction": "Directions (Question Nos. 49 - 58) : Transform the sentences as directed and choose the right option",
       "opts": {
-        "a": "Thechocolatevaryintheirsweetness.-",
-        "b": "Thischocolateissweeterthanthatchocolate..",
-        "c": "Thischocolateisnotsweeterthanthatchocolate.",
-        "d": "Thischocolateissweeterthanthatone."
+        "a": "The chocolate vary in their sweetness. -",
+        "b": "This chocolate is sweeter than that chocolate. .",
+        "c": "This chocolate is not sweeter than that chocolate.",
+        "d": "This chocolate is sweeter than that one."
       },
       "marked": null,
       "cov": {
@@ -1034,7 +1034,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thatchocolateisnotassweetasthisone.(Transformtoacomparativesentence)",
+      "q": "That chocolate is not as sweet as this one. (Transform to a comparative sentence)",
       "multi": false
     },
     {
@@ -1042,12 +1042,12 @@
       "page": 5,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.49-58):Transformthesentencesasdirectedandchoosetherightoption",
+      "direction": "Directions (Question Nos. 49 - 58) : Transform the sentences as directed and choose the right option",
       "opts": {
-        "a": "HaseverybodyheardofAmitabhBachchan?.",
-        "b": "Isn’tthateverybodyhasheardofAmitabhBachchan?",
-        "c": "EverybodyhasheardofAmitabhBachchanisn’tit?",
-        "d": "AmitabhBachchanisknowntoall,isn’tit? (a)Herlooksproclaimthatsheisinnocent.(b)Sheisinnocent,herlooksproclaim. (c)Herinnocenceisseenonherlooks.(d)Sheisinnocent,proclaimsherlooks. .~6-"
+        "a": "Has everybody heard of Amitabh Bachchan? .",
+        "b": "Isn’t that everybody has heard of Amitabh Bachchan?",
+        "c": "Everybody has heard of Amitabh Bachchan isn’t it?",
+        "d": "Amitabh Bachchan is known to all, isn’t it? (a) Her looks proclaim that she is innocent. (b) She is innocent, her looks proclaim. (c) Her innocence is seen on her looks. (d) She is innocent, proclaims her looks. . ~6-"
       },
       "marked": null,
       "cov": {
@@ -1057,7 +1057,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "EverybodyhasheardofAmitabhBachchan.(Changetointerrogativesentence)",
+      "q": "Everybody has heard of Amitabh Bachchan. (Change to interrogative sentence)",
       "multi": false
     },
     {
@@ -1065,12 +1065,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.49-58):Transformthesentencesasdirectedandchoosetherightoption",
+      "direction": "Directions (Question Nos. 49 - 58) : Transform the sentences as directed and choose the right option",
       "opts": {
-        "a": "Theearthisroundandeveryoneknowsit.",
-        "b": "Everyoneknowsthattheearthiscircularinshape.%",
-        "c": "Theearthisroundisafact.",
-        "d": "Theearthisroundisknowntoeveryone."
+        "a": "The earth is round and everyone knows it.",
+        "b": "Everyone knows that the earth is circular in shape. %",
+        "c": "The earth is round is a fact.",
+        "d": "The earth is round is known to everyone."
       },
       "marked": null,
       "cov": {
@@ -1080,7 +1080,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Everyoneknowsthattheearthisround.(Changetocompoundsentence)",
+      "q": "Everyone knows that the earth is round. (Change to compound sentence)",
       "multi": false
     },
     {
@@ -1088,12 +1088,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.49-58):Transformthesentencesasdirectedandchoosetherightoption",
+      "direction": "Directions (Question Nos. 49 - 58) : Transform the sentences as directed and choose the right option",
       "opts": {
-        "a": "Anitacametometodelivertheletter.",
-        "b": "Anitacametodelivertheletter..",
-        "c": "Anitadeliveredtheletterwhileshewascomingtome.",
-        "d": "Anitacametomeanddeliveredtheletter.. (a)Ifyoubuyoneshirt,yougetanothershirtfree.(b)Ifyoubuyoneshirt,yougetonefree. (c)Ashirtfreeonpurchaseofashirt.(d)Buyoneshirttogetonefree."
+        "a": "Anita came to me to deliver the letter.",
+        "b": "Anita came to deliver the letter. .",
+        "c": "Anita delivered the letter while she was coming to me.",
+        "d": "Anita came to me and delivered the letter. . (a) Ifyou buy one shirt, you get another shirt free. (b) Ifyou buy one shirt, you get one free. (c) A shirt free on purchase ofa shirt. (d) Buy one shirt to get one free."
       },
       "marked": null,
       "cov": {
@@ -1103,7 +1103,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Comingtome,Anitadeliveredtheletter.(Changetocompoundsentence)",
+      "q": "Coming to me, Anita delivered the letter. (Change to compound sentence)",
       "multi": false
     },
     {
@@ -1111,12 +1111,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.49-58):Transformthesentencesasdirectedandchoosetherightoption",
+      "direction": "Directions (Question Nos. 49 - 58) : Transform the sentences as directed and choose the right option",
       "opts": {
-        "a": "Howkindofyouthatyouhelpedherlikethat.",
-        "b": "Itisverykindofyoutohelpher.",
-        "c": "Youareverykindtohelpherlikethat.",
-        "d": "'Itisverykindofyoutohelpherlikethat."
+        "a": "Howkind ofyou that you helped her like that.",
+        "b": "Itis very kind of you to help her.",
+        "c": "You are very kind to help her like that.",
+        "d": "' Itis very kind of you to help her like that."
       },
       "marked": null,
       "cov": {
@@ -1126,7 +1126,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Howkindofyoutohelpherlikethat.(ChangetheexclamatorysentencetoAssertivesentence)",
+      "q": "How kind of you to help her like that. (Change the exclamatory sentence to Assertive sentence)",
       "multi": false
     },
     {
@@ -1134,12 +1134,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.59-64):Selecttheoptionthatexpressesthegivensentenceindirect",
+      "direction": "Directions (Question Nos. 59 - 64) : Select the option that expresses the given sentence in direct",
       "opts": {
-        "a": "Thecaptainsaid,“ThecrewhavetoleavetheshipatLiverpool.”",
-        "b": "Thecaptainsaidtothe’crew,“LeavetheshipatLiverpool.”—",
-        "c": "Thecaptainsaid,“ThecrewcouldleavetheshipatLiverpool.”",
-        "d": "Thecaptainsaid,“ThecrewhastoleavetheshipatLiverpool,”"
+        "a": "The captain said, “The crew have to leave the ship at Liverpool.”",
+        "b": "The captain said to the’crew, “Leave the ship at Liverpool.” —",
+        "c": "The captain said, “The crew could leave the ship at Liverpool.”",
+        "d": "The captain said, “The crew has to leave the ship at Liverpool,”"
       },
       "marked": null,
       "cov": {
@@ -1149,7 +1149,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThecaptainsaidthatthecrewhadtoleavetheshipatLiverpool.:",
+      "q": "The captain said that the crew had to leave the ship at Liverpool. :",
       "multi": false
     },
     {
@@ -1157,12 +1157,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.59-64):Selecttheoptionthatexpressesthegivensentenceindirect",
+      "direction": "Directions (Question Nos. 59 - 64) : Select the option that expresses the given sentence in direct",
       "opts": {
-        "a": "Theguardsaidtotheboy,“Hadn’tyoutoldtobeindoors?”",
-        "b": "Theguardsaidtotheboy,“Wasn’thetoldtobeindoors?”,:",
-        "c": "Theguardsaidtotheboy,“Weren’tyoutoldtobeindoors?”",
-        "d": "Theguardsaidtotheboy,“Youweren’ttoldtobeindoors?”"
+        "a": "The guard said to the boy, “Hadn’t you told to be indoors?”",
+        "b": "The guard said to the boy, “Wasn’t he told to be indoors?” , :",
+        "c": "The guard said to the boy, “Weren’t you told to be indoors?”",
+        "d": "The guard said to the boy, “You weren’t told to be indoors?”"
       },
       "marked": null,
       "cov": {
@@ -1172,7 +1172,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theguardaskedtheboyifhehadn’tbeentoldtobeindoors.",
+      "q": "The guard asked the boy if he hadn’t been told to be indoors.",
       "multi": false
     },
     {
@@ -1180,12 +1180,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.59-64):Selecttheoptionthatexpressesthegivensentenceindirect",
+      "direction": "Directions (Question Nos. 59 - 64) : Select the option that expresses the given sentence in direct",
       "opts": {
-        "a": "Hesaidtome,“Whendidyoubooktheflighttickets?”",
-        "b": "Hesaidtome,“Whenareyoubookingtheflighttickets?”",
-        "c": "Hesaidtome,“Whendoyoubooktheflighttickets?”",
-        "d": "Hesaidtome,“Whenyouhadbooktheflighttickets?”"
+        "a": "He saidto me, “When did you book the flight tickets?”",
+        "b": "He said to me, “When are you booking the flight tickets?”",
+        "c": "He said to me, “When do you book the flight tickets?”",
+        "d": "He said to me, “When you had book the flight tickets?”"
       },
       "marked": null,
       "cov": {
@@ -1195,7 +1195,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HeaskedmewhenIhadbookedtheflighttickets.:",
+      "q": "He asked me when I had booked the flight tickets. :",
       "multi": false
     },
     {
@@ -1203,12 +1203,12 @@
       "page": 6,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.59-64):Selecttheoptionthatexpressesthegivensentenceindirect",
+      "direction": "Directions (Question Nos. 59 - 64) : Select the option that expresses the given sentence in direct",
       "opts": {
-        "a": "NehasaidtoShila,“Mayyourdreamscometrue.”",
-        "b": "NehasaidtoShila,“Yourdreamswillcometrue.”",
-        "c": "NehasaidtoShila,“Prayforyourdreamstocometrue.”",
-        "d": "NehasaidtoShila,“Iamprayingforyourdreamstocometrue.”"
+        "a": "Neha said to Shila, “May your dreams come true.”",
+        "b": "Neha said to Shila, “Your dreams will come true.”",
+        "c": "Neha said to Shila, “Pray for your dreams to come true.”",
+        "d": "Neha said to Shila, “I am praying for your dreams to come true.”"
       },
       "marked": null,
       "cov": {
@@ -1218,7 +1218,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "NehawishedShilathatherdreamsmightcometrue.",
+      "q": "Neha wished Shila that her dreams might come true.",
       "multi": false
     },
     {
@@ -1226,12 +1226,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.59-64):Selecttheoptionthatexpressesthegivensentenceindirect",
+      "direction": "Directions (Question Nos. 59 - 64) : Select the option that expresses the given sentence in direct",
       "opts": {
-        "a": "Thelittleboysaid,“Thoseflowerswereverycolourful.”.",
-        "b": "Thelittleboysays,“Howcolourfulweretheseflowers!”",
-        "c": "Thelittleboysaid,“Arethoseflowersverycolourful?”",
-        "d": "Thelittleboysaid,“Theseflowersareverycolourful.”"
+        "a": "The little boy said, “Those flowers were very colourful.” .",
+        "b": "The little boy says, “How colourful were these flowers!”",
+        "c": "The little boy said, “Are those flowers very colourful?”",
+        "d": "The little boy said, “These flowers are very colourful.”"
       },
       "marked": null,
       "cov": {
@@ -1241,7 +1241,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thelittleboysaidthatthoseflowerswereverycolourful.",
+      "q": "The little boy said that those flowers were very colourful.",
       "multi": false
     },
     {
@@ -1249,12 +1249,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.59-64):Selecttheoptionthatexpressesthegivensentenceindirect",
+      "direction": "Directions (Question Nos. 59 - 64) : Select the option that expresses the given sentence in direct",
       "opts": {
-        "a": "Ridhimasaid,“havealreadymakethelunchandthedinner.”",
-        "b": "Ridhimasaid,“Ihavealreadymadelunchanddinner.”",
-        "c": "Ridhimasaid,“Ihadalreadymadethelnchandthedinner.”:",
-        "d": "Ridhimasaid,“hasalreadymadethelunchandthedinner.”"
+        "a": "Ridhima said, “have already make the lunch and the dinner.”",
+        "b": "Ridhima said, “I have already made lunch and dinner.”",
+        "c": "Ridhima said, “Ihad already made the lnch and the dinner.” :",
+        "d": "Ridhima said, “has already made the lunch and the dinner.”"
       },
       "marked": null,
       "cov": {
@@ -1264,7 +1264,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ridhimasaidthatshehadalreadymadelunchanddinner.",
+      "q": "Ridhima said that she had already made lunch and dinner.",
       "multi": false
     },
     {
@@ -1272,12 +1272,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.65-70):IdentifythetypesofsentencesfortheFollowingsentencesby",
+      "direction": "Directions (Question Nos. 65 - 70) : Identify the types of sentences for the Following sentences by",
       "opts": {
-        "a": "Declarativesentence",
-        "b": "Imperativesentence",
-        "c": "Interrogativesentence",
-        "d": "Exclamatorysentence"
+        "a": "Declarative sentence",
+        "b": "Imperative sentence",
+        "c": "Interrogative sentence",
+        "d": "Exclamatory sentence"
       },
       "marked": null,
       "cov": {
@@ -1287,7 +1287,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "“Thereisnowaylamgoingtoletyougetatatoo.”.",
+      "q": "“There isno wayl am going to let you get a tatoo.” .",
       "multi": false
     },
     {
@@ -1295,12 +1295,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.65-70):IdentifythetypesofsentencesfortheFollowingsentencesby",
+      "direction": "Directions (Question Nos. 65 - 70) : Identify the types of sentences for the Following sentences by",
       "opts": {
-        "a": "Declarativesentence-",
-        "b": "Imperativesentence.",
-        "c": "Interrogativesentence",
-        "d": "Exclamatorysentence (a)Exclamatorysentence(b)Interrogativesentence’‘ ;(c)Imperativesentence(d)Declarativesentence"
+        "a": "Declarative sentence -",
+        "b": "Imperative sentence .",
+        "c": "Interrogative sentence",
+        "d": "Exclamatory sentence (a) Exclamatory sentence (b) Interrogative sentence ’ ‘ ; (c) Imperative sentence (d) Declarative sentence"
       },
       "marked": null,
       "cov": {
@@ -1310,7 +1310,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Gabrielleisoneofthebestsoccerplayersonherteam.",
+      "q": "Gabrielle is one of the best soccer players on her team.",
       "multi": false
     },
     {
@@ -1318,12 +1318,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.65-70):IdentifythetypesofsentencesfortheFollowingsentencesby",
+      "direction": "Directions (Question Nos. 65 - 70) : Identify the types of sentences for the Following sentences by",
       "opts": {
-        "a": "Declarativesentence",
-        "b": "Imperativesentence",
-        "c": "Interrogativesentence",
-        "d": "Exclamatorysentence"
+        "a": "Declarative sentence",
+        "b": "Imperative sentence",
+        "c": "Interrogative sentence",
+        "d": "Exclamatory sentence"
       },
       "marked": null,
       "cov": {
@@ -1333,7 +1333,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Anthonywasridingabikebeforehetummedsevenyearsold.",
+      "q": "Anthony was riding a bike before he tummed seven years old.",
       "multi": false
     },
     {
@@ -1341,12 +1341,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.65-70):IdentifythetypesofsentencesfortheFollowingsentencesby",
+      "direction": "Directions (Question Nos. 65 - 70) : Identify the types of sentences for the Following sentences by",
       "opts": {
-        "a": "Declarativesentence",
-        "b": "Interrogativesentence",
-        "c": "Exclamatorysentence",
-        "d": "Imperativesentence"
+        "a": "Declarative sentence",
+        "b": "Interrogative sentence",
+        "c": "Exclamatory sentence",
+        "d": "Imperative sentence"
       },
       "marked": null,
       "cov": {
@@ -1356,7 +1356,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Tellmewhereyoufoundthoseglasses,.",
+      "q": "Tell me where you found those glasses, .",
       "multi": false
     },
     {
@@ -1364,12 +1364,12 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.65-70):IdentifythetypesofsentencesfortheFollowingsentencesby",
+      "direction": "Directions (Question Nos. 65 - 70) : Identify the types of sentences for the Following sentences by",
       "opts": {
-        "a": "Exclamationmark",
-        "b": "Period:",
-        "c": "-Fullstop",
-        "d": "Alloftheabove"
+        "a": "Exclamation mark",
+        "b": "Period :",
+        "c": "-Full stop",
+        "d": "Allofthe above"
       },
       "marked": null,
       "cov": {
@@ -1379,7 +1379,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Anexclamatorysentenceendswithan",
+      "q": "An exclamatory sentence ends with an",
       "multi": false
     },
     {
@@ -1387,11 +1387,11 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-78):Choosethenearestinmeaningforthewordsitalicized.",
+      "direction": "Directions (Question Nos. 71 - 78) : Choose the nearest in meaning for the words italicized.",
       "opts": {
-        "a": "touchedthejury",
-        "b": "reportedimmediately",
-        "c": "departedsecretly(a)leftafterdiscussion"
+        "a": "touched the jury",
+        "b": "reported immediately",
+        "c": "departed secretly (a) leftafter discussion"
       },
       "marked": null,
       "cov": {
@@ -1400,7 +1400,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Theconvictedcriminalabscondedpriortothesentencingphaseofthetrial.",
+      "q": "The convicted criminal absconded prior to the sentencing phase of the trial.",
       "multi": false
     },
     {
@@ -1408,11 +1408,11 @@
       "page": 7,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-78):Choosethenearestinmeaningforthewordsitalicized.",
+      "direction": "Directions (Question Nos. 71 - 78) : Choose the nearest in meaning for the words italicized.",
       "opts": {
         "a": "Secretive",
         "b": "Stingy",
-        "c": "Kind(@)Careful :-8-"
+        "c": "Kind (@) Careful : -8-"
       },
       "marked": null,
       "cov": {
@@ -1421,7 +1421,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Theoldmanwasbenevolentwithhisfortune.",
+      "q": "The old man was benevolent with his fortune.",
       "multi": false
     },
     {
@@ -1429,12 +1429,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-78):Choosethenearestinmeaningforthewordsitalicized.",
+      "direction": "Directions (Question Nos. 71 - 78) : Choose the nearest in meaning for the words italicized.",
       "opts": {
         "a": "Quack",
-        "b": "Knowledgeablephysician",
-        "c": "Proceduralphysician.",
-        "d": "Medicalexaminer."
+        "b": "Knowledgeable physician",
+        "c": "Procedural physician.",
+        "d": "Medical examiner ."
       },
       "marked": null,
       "cov": {
@@ -1444,7 +1444,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thedoctorwasknownasacharlatanovertheyearsofhispractice.",
+      "q": "The doctor was known as a charlatan over the years of his practice.",
       "multi": false
     },
     {
@@ -1452,7 +1452,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-78):Choosethenearestinmeaningforthewordsitalicized.",
+      "direction": "Directions (Question Nos. 71 - 78) : Choose the nearest in meaning for the words italicized.",
       "opts": {
         "a": "Desist",
         "b": "Deter",
@@ -1467,7 +1467,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thedetectivewasabletoderivethefactsofthecase.",
+      "q": "The detective was able to derive the facts of the case.",
       "multi": false
     },
     {
@@ -1475,10 +1475,10 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-78):Choosethenearestinmeaningforthewordsitalicized.",
+      "direction": "Directions (Question Nos. 71 - 78) : Choose the nearest in meaning for the words italicized.",
       "opts": {
-        "a": "Largecave",
-        "b": "Smallcavern",
+        "a": "Large cave",
+        "b": "Small cavern",
         "c": "Hotel",
         "d": "Motel"
       },
@@ -1490,7 +1490,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThedesperadosheldupinagrottoinNewMexicoduringtheescape.",
+      "q": "The desperados held up in a grotto in New Mexico during the escape.",
       "multi": false
     },
     {
@@ -1498,7 +1498,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-78):Choosethenearestinmeaningforthewordsitalicized.",
+      "direction": "Directions (Question Nos. 71 - 78) : Choose the nearest in meaning for the words italicized.",
       "opts": {
         "a": "Water",
         "b": "Lake",
@@ -1513,7 +1513,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theyachtclubmemberswereexcitedaboutconditionsontheloch.;",
+      "q": "The yacht club members were excited about conditions on the loch. ;",
       "multi": false
     },
     {
@@ -1521,12 +1521,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-78):Choosethenearestinmeaningforthewordsitalicized.",
+      "direction": "Directions (Question Nos. 71 - 78) : Choose the nearest in meaning for the words italicized.",
       "opts": {
         "a": "Infuse",
         "b": "Delay",
         "c": "Inscribe",
-        "d": "Indict,"
+        "d": "Indict ,"
       },
       "marked": null,
       "cov": {
@@ -1536,7 +1536,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thegeneraltriedtoinstillinhistroopsthehopeofvictory.",
+      "q": "The general tried to instill in his troops the hope of victory.",
       "multi": false
     },
     {
@@ -1544,12 +1544,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.71-78):Choosethenearestinmeaningforthewordsitalicized.",
+      "direction": "Directions (Question Nos. 71 - 78) : Choose the nearest in meaning for the words italicized.",
       "opts": {
         "a": "Merry",
         "b": "Sad",
         "c": "Somber",
-        "d": "Laborious:"
+        "d": "Laborious :"
       },
       "marked": null,
       "cov": {
@@ -1559,7 +1559,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThewinningteamoftheWorldSeriesoftenhasajovialattitude.",
+      "q": "The winning team of the World Series often has a jovial attitude.",
       "multi": false
     },
     {
@@ -1567,12 +1567,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,79-85):Selectthemostappropriatemeaningofthegivenidiom/phrase..",
+      "direction": "Directions (Question Nos, 79 - 85) : Select the most appropriate meaning of the given idiom/phrase. .",
       "opts": {
-        "a": "Theonlyparttowhichtwoarguingpartiesagree;",
-        "b": "Anissueoverwhichthereiscontinuingdisagreement",
-        "c": "Averyexpensiveinheritedproperty",
-        "d": "Tobehappywithonlyafewthings"
+        "a": "The only part to which two arguing parties agree ;",
+        "b": "An issue over which there is continuing disagreement",
+        "c": "Avery expensive inherited property",
+        "d": "To behappy with only a few things"
       },
       "marked": null,
       "cov": {
@@ -1582,7 +1582,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aboneofcontention:og",
+      "q": "Abone of contention : og",
       "multi": false
     },
     {
@@ -1590,12 +1590,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,79-85):Selectthemostappropriatemeaningofthegivenidiom/phrase..",
+      "direction": "Directions (Question Nos, 79 - 85) : Select the most appropriate meaning of the given idiom/phrase. .",
       "opts": {
-        "a": "Keepquietaboutsomething",
-        "b": "Totalkfast,",
-        "c": "Tonotthinkbeforespeaking",
-        "d": "Thesilencebeforeastorm"
+        "a": "Keep quiet about something",
+        "b": "To talk fast ,",
+        "c": "To not think before speaking",
+        "d": "The silence before a storm"
       },
       "marked": null,
       "cov": {
@@ -1605,7 +1605,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Zipyourlip",
+      "q": "Zip your lip",
       "multi": false
     },
     {
@@ -1613,12 +1613,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,79-85):Selectthemostappropriatemeaningofthegivenidiom/phrase..",
+      "direction": "Directions (Question Nos, 79 - 85) : Select the most appropriate meaning of the given idiom/phrase. .",
       "opts": {
-        "a": "Toperformbeautifullyinfrontofanaudience.",
-        "b": "Makeapublicdisturbanceorexcitedemotionaldisplay.",
-        "c": "Tonarrateanelaboratefalsestory",
-        "d": "Describeasceneinsomuchdetailthatitcomesvividly. (a)Tohelpsomeoneachievesuccess.(b)Toovercomeanobstaclebygoingoverit. (c)Toclosesomeone’spathofescape.(d)Makesomeoneveryirritatedorangry."
+        "a": "To perform beautifully in front of an audience .",
+        "b": "Make a public disturbance or excited emotional display.",
+        "c": "To narrate an elaborate false story",
+        "d": "Describe a scene in so much detail that it comes vividly. (a) To help someone achieve success. (b) To overcome an obstacle by going over it. (c) To close someone’s path of escape. (d) Make someone very irritated or angry."
       },
       "marked": null,
       "cov": {
@@ -1628,7 +1628,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Makeascene",
+      "q": "Make a scene",
       "multi": false
     },
     {
@@ -1636,12 +1636,12 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,79-85):Selectthemostappropriatemeaningofthegivenidiom/phrase..",
+      "direction": "Directions (Question Nos, 79 - 85) : Select the most appropriate meaning of the given idiom/phrase. .",
       "opts": {
-        "a": "Asafetynetofprecautionfromfires.",
-        "b": "Apersonwhodiscouragesenjoymentorenthusiasm.",
-        "c": "Anextremelyuncomfortableplacetosleep.",
-        "d": "Atricktoshooawayunwelcomeguests. os"
+        "a": "Asafety net of precaution from fires.",
+        "b": "Aperson who discourages enjoyment or enthusiasm.",
+        "c": "An extremely uncomfortable place to sleep.",
+        "d": "A trick to shoo away unwelcome guests. os"
       },
       "marked": null,
       "cov": {
@@ -1651,7 +1651,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Awetblanket",
+      "q": "A wet blanket",
       "multi": false
     },
     {
@@ -1659,12 +1659,12 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos,79-85):Selectthemostappropriatemeaningofthegivenidiom/phrase..",
+      "direction": "Directions (Question Nos, 79 - 85) : Select the most appropriate meaning of the given idiom/phrase. .",
       "opts": {
-        "a": "Averyexpensivesolutionusedonlyasthelastmeasure,",
-        "b": "Asimpleandseeminglymagicalsolutiontoacomplicatedproblem.",
-        "c": "Asolutionwhichisworsethantheproblem.",
-        "d": "_Athingofbeautbuytwhichisactuallydeadly,"
+        "a": "Avery expensive solution used only as the last measure,",
+        "b": "A simple and seemingly magical solution to a complicated problem.",
+        "c": "A solution which is worse than the problem.",
+        "d": "_ A thing of beautbuyt  which is actually deadly ,"
       },
       "marked": null,
       "cov": {
@@ -1674,7 +1674,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Silverbullet",
+      "q": "Silver bullet",
       "multi": false
     },
     {
@@ -1682,12 +1682,12 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.86-92):Rearrangetheorderofwordstoformmeaningfulsentences,",
+      "direction": "Directions (Question Nos. 86 - 92) : Rearrange the order of words to form meaningful sentences,",
       "opts": {
-        "a": "Thereporterisfastrunningtothecar.",
-        "b": "Thereporterisrunningfasttothecar.",
-        "c": "Thecarisrunningfasttothereporter,",
-        "d": "Thecarisrunningtothereporterfast. :(a)Catsdonotusuallysleepatnight,(b)Usually,catsdonotsleepatnight..,: ,(c)Catsusuallydonotsleepatnight.(d)Alloftheabove"
+        "a": "The reporter is fast running to the car.",
+        "b": "The reporter is running fast to the car.",
+        "c": "The caris running fast to the reporter,",
+        "d": "The car is running to the reporter fast. : (a) Cats do not usually sleep at night, (b) Usually, cats do not sleep at night. ., : , (c) Cats usually do not sleep at night. (d) All ofthe above"
       },
       "marked": null,
       "cov": {
@@ -1697,7 +1697,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thefastrunningtothecarreporteris",
+      "q": "The fast running to the car reporter is",
       "multi": false
     },
     {
@@ -1705,12 +1705,12 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.86-92):Rearrangetheorderofwordstoformmeaningfulsentences,",
+      "direction": "Directions (Question Nos. 86 - 92) : Rearrange the order of words to form meaningful sentences,",
       "opts": {
-        "a": "Icannotseetwohamsters.",
-        "b": "Icanseethreehamsters.",
-        "c": "Shecannotseetwohamsters.",
-        "d": "Hecannotseetwohamsters,"
+        "a": "Icannot see two hamsters.",
+        "b": "I can see three hamsters.",
+        "c": "She cannot see two hamsters.",
+        "d": "He cannot see two hamsters,"
       },
       "marked": null,
       "cov": {
@@ -1720,7 +1720,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Itwocannothamsterssee.",
+      "q": "Itwo cannot hamsters see.",
       "multi": false
     },
     {
@@ -1728,11 +1728,11 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.86-92):Rearrangetheorderofwordstoformmeaningfulsentences,",
+      "direction": "Directions (Question Nos. 86 - 92) : Rearrange the order of words to form meaningful sentences,",
       "opts": {
-        "a": "ShegoesseldomtothecomputerlabonTuesdayafternoon,",
-        "b": "SheseldomgoestothecomputerlabonTuesdayafternoon.",
-        "c": "SheseldomgoesonTuesdayafternoontothecomputerlab."
+        "a": "She goes seldom to the computer lab on Tuesday afternoon,",
+        "b": "She seldom goes to the computer lab on Tuesday afternoon.",
+        "c": "She seldom goes on Tuesday afternoon to the computer lab."
       },
       "marked": null,
       "cov": {
@@ -1741,7 +1741,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "ComputersheonafternoonsseldomlabgoesTuesdaytheto,",
+      "q": "Computer she on afternoons seldom lab goes Tuesday the to ,",
       "multi": false
     },
     {
@@ -1749,12 +1749,12 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.86-92):Rearrangetheorderofwordstoformmeaningfulsentences,",
+      "direction": "Directions (Question Nos. 86 - 92) : Rearrange the order of words to form meaningful sentences,",
       "opts": {
-        "a": "Heissinginganewsongnow.",
-        "b": "Anewsongheissingingnow.",
-        "c": "Nowheissinginganewsong.",
-        "d": "Heisnowsinginganewsong."
+        "a": "Heis singing a new song now.",
+        "b": "Anew song heis singing now.",
+        "c": "Nowheis singing anew song.",
+        "d": "Heisnow singing anew song."
       },
       "marked": null,
       "cov": {
@@ -1764,7 +1764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heanewissingingnowsong",
+      "q": "He anewis singing now song",
       "multi": false
     },
     {
@@ -1772,12 +1772,12 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.86-92):Rearrangetheorderofwordstoformmeaningfulsentences,",
+      "direction": "Directions (Question Nos. 86 - 92) : Rearrange the order of words to form meaningful sentences,",
       "opts": {
-        "a": "Mumanddadonweekdaysdonotstayuplate.",
-        "b": "Mumanddaddonotstayuplateonweekdays.",
-        "c": "Mumanddadweekdaysondonotstayuplate.",
-        "d": "Mumanddaddoesnotstayuplateonweekdays. .-10-"
+        "a": "Mum and dad on weekdays do not stay up late.",
+        "b": "Mum and dad do not stay up late on weekdays.",
+        "c": "Mum and dad weekdays on do not stay up late.",
+        "d": "Mum and dad does not stay up late on weekdays. . -10-"
       },
       "marked": null,
       "cov": {
@@ -1787,7 +1787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Latenotdomumanddadstayuponweekdays",
+      "q": "Late not do mum and dad stay up on weekdays",
       "multi": false
     },
     {
@@ -1795,7 +1795,7 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.93-100):Inthefollowingsentences,supplyaverbinagreementwithits",
+      "direction": "Directions (Question Nos. 93 - 100) : In the following sentences, supply a verb in agreement with its",
       "opts": {
         "a": "have",
         "b": "has",
@@ -1810,7 +1810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheUnitedStatesabignavy..",
+      "q": "The United States abig navy. .",
       "multi": false
     },
     {
@@ -1818,11 +1818,11 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.93-100):Inthefollowingsentences,supplyaverbinagreementwithits",
+      "direction": "Directions (Question Nos. 93 - 100) : In the following sentences, supply a verb in agreement with its",
       "opts": {
         "a": "",
         "b": "was",
-        "c": "are(a)has:"
+        "c": "are (a) has :"
       },
       "marked": null,
       "cov": {
@@ -1831,7 +1831,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Nonesodeafasthosewhowillnothear.",
+      "q": "None so deaf as those who will not hear.",
       "multi": false
     },
     {
@@ -1839,12 +1839,12 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.93-100):Inthefollowingsentences,supplyaverbinagreementwithits",
+      "direction": "Directions (Question Nos. 93 - 100) : In the following sentences, supply a verb in agreement with its",
       "opts": {
-        "a": "do.",
+        "a": "do .",
         "b": "has",
         "c": "have",
-        "d": ".does;"
+        "d": ". does ;"
       },
       "marked": null,
       "cov": {
@@ -1854,7 +1854,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Manyamannotknowhisowngooddeeds.",
+      "q": "Many aman not know his own good deeds.",
       "multi": false
     },
     {
@@ -1862,7 +1862,7 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.93-100):Inthefollowingsentences,supplyaverbinagreementwithits",
+      "direction": "Directions (Question Nos. 93 - 100) : In the following sentences, supply a verb in agreement with its",
       "opts": {
         "a": "is",
         "b": "are",
@@ -1877,7 +1877,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thecommitteedividedononeminorpoint.",
+      "q": "The committee divided on one minor point.",
       "multi": false
     },
     {
@@ -1885,7 +1885,7 @@
       "page": 10,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionNos.93-100):Inthefollowingsentences,supplyaverbinagreementwithits",
+      "direction": "Directions (Question Nos. 93 - 100) : In the following sentences, supply a verb in agreement with its",
       "opts": {
         "a": "5\t1\t1\t1\t23\t2\t192\t906\t38\t14\t96.030190\twas\n5\t1\t1\t1\t23\t3\t649\t902\t28\t24\t90.190811",
         "b": "5\t1\t1\t1\t23\t4\t697\t908\t49\t14\t94.563789\twere\n4\t1\t1\t1\t24\t0\t146\t936\t902\t26\t-1\t\n5\t1\t1\t1\t24\t1\t146\t936\t27\t25\t92.983055",
@@ -1900,7 +1900,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thehouse,withitscontents,insured.\n5\t1\t1\t1\t22\t8\t1089\t890\t5\t7\t50.323654\t,\n5\t1\t1\t1\t22\t9\t1195\t864\t12\t29\t76.477829\t£\n4\t1\t1\t1\t23\t0\t146\t900\t600\t26\t-1\t\n5\t1\t1\t1\t23\t1\t146\t900\t27\t24\t79.573921\t(a)\n5\t1\t1\t1\t23\t2\t192\t906\t38\t14\t96.030190\twas\n5\t1\t1\t1\t23\t3\t649\t902\t28\t24\t90.190811\t(b)\n5\t1\t1\t1\t23\t4\t697\t908\t49\t14\t94.563789\twere\n4\t1\t1\t1\t24\t0\t146\t936\t902\t26\t-1\t\n5\t1\t1\t1\t24\t1\t146\t936\t27\t25\t92.983055\t(c)\n5\t1\t1\t1\t24\t2\t192\t936\t32\t20\t96.349991\thas\n5\t1\t1\t1\t24\t3\t649\t938\t28\t24\t88.482574\t(d)\n5\t1\t1\t1\t24\t4\t697\t938\t46\t19\t95.661194\thave\n5\t1\t1\t1\t24\t5\t1046\t956\t2\t2\t13.907127\t.\n4\t1\t1\t1\t25\t0\t75\t979\t446\t19\t-1\t\n5\t1\t1\t1\t25\t1\t75\t980\t44\t18\t85.527451\t100.\n5\t1\t1\t1\t25\t2\t132\t980\t53\t18\t95.763489\tTime\n5\t1\t1\t1\t25\t3\t191\t979\t36\t18\t95.535973\tand\n5\t1\t1\t1\t25\t4\t232\t979\t38\t18\t95.535973\ttide\n5\t1\t1\t1\t25\t5\t408\t980\t29\t18\t94.525383\tfor\n5\t1\t1\t1\t25\t6\t441\t986\t25\t12\t92.829224\tno\n5\t1\t1\t1\t25\t7\t472\t986\t49\t12\t92.829224\tman.\n4\t1\t1\t1\t26\t0\t146\t1015\t600\t25\t-1\t\n5\t1\t1\t1\t26\t1\t146\t1016\t27\t23\t70.865173\t(a)\n5\t1\t1\t1\t26\t2\t191\t1015\t42\t19\t70.865173\twait\n5\t1\t1\t1\t26\t3\t649\t1017\t28\t23\t91.073471\t(b)\n5\t1\t1\t1\t26\t4\t697\t1018\t49\t18\t95.568344\twaits\n4\t1\t1\t1\t27\t0\t145\t1052\t639\t24\t-1\t\n5\t1\t1\t1\t27\t1\t145\t1052\t27\t23\t87.647629\t(c)\n5\t1\t1\t1\t27\t2\t192\t1052\t66\t18\t96.818443\twaited\n5\t1\t1\t1\t27\t3\t648\t1053\t29\t23\t88.564468\t(d)\n5\t1\t1\t1\t27\t4\t696\t1059\t39\t12\t91.911423\twas\n5\t1\t1\t1\t27\t5\t740\t1054\t44\t18\t96.680710\twait\n4\t1\t1\t1\t28\t0\t529\t1207\t230\t12\t-1\t\n5\t1\t1\t1\t28\t1\t529\t1208\t10\t11\t31.522278\tAe\n5\t1\t1\t1\t28\t2\t569\t1208\t30\t11\t52.793255\tkk\n5\t1\t1\t1\t28\t3\t609\t1208\t30\t11\t50.089310\tRk\n5\t1\t1\t1\t28\t4\t649\t1209\t10\t10\t29.384186\toe\n5\t1\t1\t1\t28\t5\t756\t1207\t3\t2\t40.753952\t.\n4\t1\t1\t1\t29\t0\t0\t1740\t1240\t15\t-1\t\n5\t1\t1\t1\t29\t1\t0\t1720\t105\t35\t17.787132\tee",
+      "q": "The house, with its contents, insured.\n5\t1\t1\t1\t22\t8\t1089\t890\t5\t7\t50.323654\t,\n5\t1\t1\t1\t22\t9\t1195\t864\t12\t29\t76.477829\t£\n4\t1\t1\t1\t23\t0\t146\t900\t600\t26\t-1\t\n5\t1\t1\t1\t23\t1\t146\t900\t27\t24\t79.573921\t(a)\n5\t1\t1\t1\t23\t2\t192\t906\t38\t14\t96.030190\twas\n5\t1\t1\t1\t23\t3\t649\t902\t28\t24\t90.190811\t(b)\n5\t1\t1\t1\t23\t4\t697\t908\t49\t14\t94.563789\twere\n4\t1\t1\t1\t24\t0\t146\t936\t902\t26\t-1\t\n5\t1\t1\t1\t24\t1\t146\t936\t27\t25\t92.983055\t(c)\n5\t1\t1\t1\t24\t2\t192\t936\t32\t20\t96.349991\thas\n5\t1\t1\t1\t24\t3\t649\t938\t28\t24\t88.482574\t(d)\n5\t1\t1\t1\t24\t4\t697\t938\t46\t19\t95.661194\thave\n5\t1\t1\t1\t24\t5\t1046\t956\t2\t2\t13.907127\t.\n4\t1\t1\t1\t25\t0\t75\t979\t446\t19\t-1\t\n5\t1\t1\t1\t25\t1\t75\t980\t44\t18\t85.527451\t100.\n5\t1\t1\t1\t25\t2\t132\t980\t53\t18\t95.763489\tTime\n5\t1\t1\t1\t25\t3\t191\t979\t36\t18\t95.535973\tand\n5\t1\t1\t1\t25\t4\t232\t979\t38\t18\t95.535973\ttide\n5\t1\t1\t1\t25\t5\t408\t980\t29\t18\t94.525383\tfor\n5\t1\t1\t1\t25\t6\t441\t986\t25\t12\t92.829224\tno\n5\t1\t1\t1\t25\t7\t472\t986\t49\t12\t92.829224\tman.\n4\t1\t1\t1\t26\t0\t146\t1015\t600\t25\t-1\t\n5\t1\t1\t1\t26\t1\t146\t1016\t27\t23\t70.865173\t(a)\n5\t1\t1\t1\t26\t2\t191\t1015\t42\t19\t70.865173\twait\n5\t1\t1\t1\t26\t3\t649\t1017\t28\t23\t91.073471\t(b)\n5\t1\t1\t1\t26\t4\t697\t1018\t49\t18\t95.568344\twaits\n4\t1\t1\t1\t27\t0\t145\t1052\t639\t24\t-1\t\n5\t1\t1\t1\t27\t1\t145\t1052\t27\t23\t87.647629\t(c)\n5\t1\t1\t1\t27\t2\t192\t1052\t66\t18\t96.818443\twaited\n5\t1\t1\t1\t27\t3\t648\t1053\t29\t23\t88.564468\t(d)\n5\t1\t1\t1\t27\t4\t696\t1059\t39\t12\t91.911423\twas\n5\t1\t1\t1\t27\t5\t740\t1054\t44\t18\t96.680710\twait\n4\t1\t1\t1\t28\t0\t529\t1207\t230\t12\t-1\t\n5\t1\t1\t1\t28\t1\t529\t1208\t10\t11\t31.522278\tAe\n5\t1\t1\t1\t28\t2\t569\t1208\t30\t11\t52.793255\tkk\n5\t1\t1\t1\t28\t3\t609\t1208\t30\t11\t50.089310\tRk\n5\t1\t1\t1\t28\t4\t649\t1209\t10\t10\t29.384186\toe\n5\t1\t1\t1\t28\t5\t756\t1207\t3\t2\t40.753952\t.\n4\t1\t1\t1\t29\t0\t0\t1740\t1240\t15\t-1\t\n5\t1\t1\t1\t29\t1\t0\t1720\t105\t35\t17.787132\tee",
       "multi": false
     }
   ],

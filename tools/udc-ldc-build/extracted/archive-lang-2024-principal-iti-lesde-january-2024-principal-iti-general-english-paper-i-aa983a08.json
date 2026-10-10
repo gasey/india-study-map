@@ -15,9 +15,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Lifewouldbedulliftherewerenodifficulties.",
-        "b": "Eachman’sbeliefisrightinhisowneyes.",
-        "c": "Makehaywhilethesunshines. eee ._2-"
+        "a": "Life would be dull ifthere were no difficulties.",
+        "b": "Each man’s belief is right in his own eyes.",
+        "c": "Make hay while the sun shines. eee . _2-"
       },
       "marked": null,
       "cov": {
@@ -26,7 +26,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Expandthegivenpassages:(3x5=15)",
+      "q": "Expand the given passages: (3x5=15)",
       "multi": false
     },
     {
@@ -36,10 +36,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Whatdidmeneatiftherewasshortageoffood?(2)",
-        "b": "Whatdifferencedidweaponsmakeinthekindsoffoodmenate?(2)",
-        "c": "Atfirstmenwanderedfromplacetoplacetofindtheirfood,thensomeofthembegantostay.",
-        "d": "WhataresomeofthethingsimportedfromChina?(2) Gi)fortunatei)rotten. ii)littlebylittle(iv)unspecified"
+        "a": "What did men eat if there was shortage of food? (2)",
+        "b": "What difference did weapons make in the kinds of food men ate? (2)",
+        "c": "At first men wandered from place to place to find their food, then some of them began to stay .",
+        "d": "What are some of the things imported from China? (2) Gi) fortunate i) rotten. ii) little by little (iv) unspecified"
       },
       "marked": null,
       "cov": {
@@ -49,7 +49,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Readthefollowingpassageandanswerthequestionsgiven: Longagomenspentmostoftheirtimelookingforfood.Theyateanythingtheycouldfind. Somelivedmostlyonplants.Theyatethefruit,stemsandleavesofsomeplantsandtherootsof. others.Whenfoodwasscarce,theyatethebarkoftrees.Iftheywerelucky,theywouldfindabird’s nestwitheggs.Peoplewholivednearthewateratefishoranythingthatwashedashore,evenrotten whales.Somepeoplealsoateinsectsandsmallanimalslikelizardsthatwereeasytokill.Later,men Jeamedtomakeweapons.Withweapons,theycouldkilllargeranimalsformeat. Theseearlypeoplehadbigappetites.Iftheykilledananimal,theywoulddrinktheblood,eat themeatandchewthebones.Whentheyfinishedthemeal,therewasnothingleft.Atfirst,men wanderedfromplacetoplacetofindtheirfood.Butwhentheybegantogrowplants,theystayedin oneplaceandatewhattheycouldgrow.Theytamedanimals,trainedthemtoworkandkilledthem formeat.Lifewasalittlebetterthen,buttherewasstillnotmuchvarietyintheirmeals.Dayafterday .peopleatethesamefoods.Gradually,menbegantotravelgreaterdistances.Theexplorerswho .sailedunknownseasfoundnewlands.Andintheselandstheyfoundnewfoodsandspicesandtook thembackhome.ThePortuguesewhosailedaroundthestormyCapeofGoodHopetoreachChina tookback“Chineseapples”,thefruitwecallorangestoday.Later,Portuguesecolonistscarried orangeseedstoBrazil.FromBrazilorangeswerebroughttoCalifornia,thefirstplacetogrow orangesintheUnitedStates.PeachesandmelonsalsocamefromChina.Sodidanewdrink,tea. Questions:.",
+      "q": "Read the following passage and answer the questions given: Long ago men spent most of their time looking for food. They ate anything they could find. Some lived mostly on plants. They ate the fruit, stems and leaves of some plants and the roots of . others. When food was scarce, they ate the bark of trees. If they were lucky, they would find a bird’s nest with eggs. People who lived near the water ate fish or anything that washed ashore, even rotten whales. Some people also ate insects and small animals like lizards that were easy to kill. Later, men Jeamed to make weapons. With weapons, they could kill larger animals for meat. These early people had big appetites. If they killed an animal, they would drink the blood, eat the meat and chew the bones. When they finished the meal, there was nothing left. At first, men wandered from place to place to find their food. But when they began to grow plants, they stayed in one place and ate what they could grow. They tamed animals, trained them to work and killed them for meat. Life was a little better then, but there was still not much variety in their meals. Day after day . people ate the same foods. Gradually, men began to travel greater distances. The explorers who . sailed unknown seas found new lands. And in these lands they found new foods and spices and took them back home. The Portuguese who sailed around the stormy Cape of Good Hope to reach China took back “Chinese apples”, the fruit we call oranges today. Later, Portuguese colonists carried orange seeds to Brazil. From Brazil oranges were brought to California, the first place to grow oranges in the United States. Peaches and melons also came from China. So did anew drink, tea. Questions: .",
       "multi": false
     },
     {
@@ -59,10 +59,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "farandwide",
-        "b": "takeheart",
-        "c": "nipinthebud",
-        "d": "giftofthegab okKkROK"
+        "a": "far and wide",
+        "b": "take heart",
+        "c": "nip inthe bud",
+        "d": "gift of the gab ok Kk ROK"
       },
       "marked": null,
       "cov": {
@@ -72,7 +72,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Makemeaningfulsentencesusingany7(seven)ofthefollowing:(7x2=14)",
+      "q": "Make meaningful sentences using any 7 (seven) of the following: (7x2=14)",
       "multi": false
     }
   ],

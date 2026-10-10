@@ -13,7 +13,7 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,1-10);FiltintheblankswiththemostappropriatePrepositiongiven",
+      "direction": "Directions (Question Nos, 1 - 10) ; Filt in the blanks with the most appropriate Preposition given",
       "opts": {
         "a": "to",
         "b": "with",
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thereisnoexceptionthisrule.",
+      "q": "There is no exception this rule.",
       "multi": false
     },
     {
@@ -36,7 +36,7 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,1-10);FiltintheblankswiththemostappropriatePrepositiongiven",
+      "direction": "Directions (Question Nos, 1 - 10) ; Filt in the blanks with the most appropriate Preposition given",
       "opts": {
         "a": "to",
         "b": "on",
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Agoodjudgenevergropestheconclusion.",
+      "q": "A good judge never gropes the conclusion.",
       "multi": false
     },
     {
@@ -59,7 +59,7 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,1-10);FiltintheblankswiththemostappropriatePrepositiongiven",
+      "direction": "Directions (Question Nos, 1 - 10) ; Filt in the blanks with the most appropriate Preposition given",
       "opts": {
         "a": "through",
         "b": "with",
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Myvoicereverberatedthewallsofthecastle.",
+      "q": "My voice reverberated the walls of the castle.",
       "multi": false
     },
     {
@@ -82,7 +82,7 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,1-10);FiltintheblankswiththemostappropriatePrepositiongiven",
+      "direction": "Directions (Question Nos, 1 - 10) ; Filt in the blanks with the most appropriate Preposition given",
       "opts": {
         "a": "of",
         "b": "with",
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hedispensedtheservicesofhisdishonestclerk.",
+      "q": "He dispensed the services of his dishonest clerk.",
       "multi": false
     },
     {
@@ -105,10 +105,10 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,1-10);FiltintheblankswiththemostappropriatePrepositiongiven",
+      "direction": "Directions (Question Nos, 1 - 10) ; Filt in the blanks with the most appropriate Preposition given",
       "opts": {
         "a": "over",
-        "b": "on:",
+        "b": "on :",
         "c": "at",
         "d": "to"
       },
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thereisnohindrancehisgoingthere.",
+      "q": "There is no hindrance his going there.",
       "multi": false
     },
     {
@@ -128,7 +128,7 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,1-10);FiltintheblankswiththemostappropriatePrepositiongiven",
+      "direction": "Directions (Question Nos, 1 - 10) ; Filt in the blanks with the most appropriate Preposition given",
       "opts": {
         "a": "of",
         "b": "with",
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theypartookourfoodandweresatisfied.",
+      "q": "They partook our food and were satisfied.",
       "multi": false
     },
     {
@@ -151,12 +151,12 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,1-10);FiltintheblankswiththemostappropriatePrepositiongiven",
+      "direction": "Directions (Question Nos, 1 - 10) ; Filt in the blanks with the most appropriate Preposition given",
       "opts": {
         "a": "up",
         "b": "off",
         "c": "about",
-        "d": "by."
+        "d": "by ."
       },
       "marked": null,
       "cov": {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theeventcameashehadpredicted.",
+      "q": "The event came as he had predicted.",
       "multi": false
     },
     {
@@ -174,7 +174,7 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,1-10);FiltintheblankswiththemostappropriatePrepositiongiven",
+      "direction": "Directions (Question Nos, 1 - 10) ; Filt in the blanks with the most appropriate Preposition given",
       "opts": {
         "a": "along",
         "b": "with",
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HewillabidehisfriendDaviidnallcircumstances.",
+      "q": "He will abide his friend Daviidn  all circumstances.",
       "multi": false
     },
     {
@@ -197,11 +197,11 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,1-10);FiltintheblankswiththemostappropriatePrepositiongiven",
+      "direction": "Directions (Question Nos, 1 - 10) ; Filt in the blanks with the most appropriate Preposition given",
       "opts": {
         "a": "from",
         "b": "by",
-        "c": "_through",
+        "c": "_ through",
         "d": "at"
       },
       "marked": null,
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theflycameinthedoor.",
+      "q": "The fly came in the door.",
       "multi": false
     },
     {
@@ -220,9 +220,9 @@
       "page": 2,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,1-10);FiltintheblankswiththemostappropriatePrepositiongiven",
+      "direction": "Directions (Question Nos, 1 - 10) ; Filt in the blanks with the most appropriate Preposition given",
       "opts": {
-        "a": "by,",
+        "a": "by ,",
         "b": "of",
         "c": "with",
         "d": "for"
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "I’dbegladsomehelp.",
+      "q": "I’d be glad some help.",
       "multi": false
     },
     {
@@ -243,7 +243,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-16):Outofthefouralternativesgiven,choosetheonewhichisopposite",
+      "direction": "Directions (Question Nos. 11 - 16): Out of the four alternatives given, choose the one which is opposite",
       "opts": {
         "a": "back-biting",
         "b": "condemnation",
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theusualadulationofofficersmustend.",
+      "q": "The usual adulation of officers must end.",
       "multi": false
     },
     {
@@ -266,7 +266,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-16):Outofthefouralternativesgiven,choosetheonewhichisopposite",
+      "direction": "Directions (Question Nos. 11 - 16): Out of the four alternatives given, choose the one which is opposite",
       "opts": {
         "a": "rural",
         "b": "indifferent",
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Iwasdeeplyaffectedbyhisurbanebehaviour.",
+      "q": "I was deeply affected by his urbane behaviour.",
       "multi": false
     },
     {
@@ -289,7 +289,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-16):Outofthefouralternativesgiven,choosetheonewhichisopposite",
+      "direction": "Directions (Question Nos. 11 - 16): Out of the four alternatives given, choose the one which is opposite",
       "opts": {
         "a": "animosity",
         "b": "enmity",
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thereisrancourbetweenthetwofriends.",
+      "q": "There is rancour between the two friends.",
       "multi": false
     },
     {
@@ -312,7 +312,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-16):Outofthefouralternativesgiven,choosetheonewhichisopposite",
+      "direction": "Directions (Question Nos. 11 - 16): Out of the four alternatives given, choose the one which is opposite",
       "opts": {
         "a": "easy",
         "b": "difficult",
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hewasassignedanarduoustask.",
+      "q": "He was assigned an arduous task.",
       "multi": false
     },
     {
@@ -335,7 +335,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.11-16):Outofthefouralternativesgiven,choosetheonewhichisopposite",
+      "direction": "Directions (Question Nos. 11 - 16): Out of the four alternatives given, choose the one which is opposite",
       "opts": {
         "a": "lingering",
         "b": "terse",
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Shealwaysgiveslaconicanswers.",
+      "q": "She always gives laconic answers.",
       "multi": false
     },
     {
@@ -358,11 +358,11 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.17-21):Choosethecorrectoptionwhichbestagreeswiththesubjectof",
+      "direction": "Directions (Question Nos. 17 - 21): Choose the correct option which best agrees with the subject of",
       "opts": {
         "a": "who",
         "b": "which",
-        "c": "whose(ad)whom ia)is(b)are",
+        "c": "whose (ad) whom ia) is (b) are",
         "d": "was"
       },
       "marked": null,
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Abigailistheonetheyaskedtomakethedress.",
+      "q": "Abigail is the one they asked to make the dress.",
       "multi": false
     },
     {
@@ -381,11 +381,11 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.17-21):Choosethecorrectoptionwhichbestagreeswiththesubjectof",
+      "direction": "Directions (Question Nos. 17 - 21): Choose the correct option which best agrees with the subject of",
       "opts": {
         "a": "were",
         "b": "are",
-        "c": "_was",
+        "c": "_ was",
         "d": "have"
       },
       "marked": null,
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Nostudentandteacherpresent.",
+      "q": "No student and teacher present.",
       "multi": false
     },
     {
@@ -404,7 +404,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.17-21):Choosethecorrectoptionwhichbestagreeswiththesubjectof",
+      "direction": "Directions (Question Nos. 17 - 21): Choose the correct option which best agrees with the subject of",
       "opts": {
         "a": "I",
         "b": "me",
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Itwasthatcalledyouhere.",
+      "q": "It was that called you here.",
       "multi": false
     },
     {
@@ -427,7 +427,7 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.17-21):Choosethecorrectoptionwhichbestagreeswiththesubjectof",
+      "direction": "Directions (Question Nos. 17 - 21): Choose the correct option which best agrees with the subject of",
       "opts": {
         "a": "Every",
         "b": "All",
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ofourtraineespayshistuitionfeeatthebeginningofthemonth.",
+      "q": "of our trainees pays his tuition fee at the beginning of the month.",
       "multi": false
     },
     {
@@ -450,11 +450,11 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,22-29):Fillintheblankswiththemostappropriateformoftheverbs",
+      "direction": "Directions (Question Nos, 22 - 29): Fill in the blanks with the most appropriate form of the verbs",
       "opts": {
         "a": "willleave",
-        "b": "willhaveleft",
-        "c": "hadleft",
+        "b": "will have left",
+        "c": "had left",
         "d": "hasleft"
       },
       "marked": null,
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thebusbythetimewereachthestation.",
+      "q": "The bus by the time we reach the station.",
       "multi": false
     },
     {
@@ -473,10 +473,10 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,22-29):Fillintheblankswiththemostappropriateformoftheverbs",
+      "direction": "Directions (Question Nos, 22 - 29): Fill in the blanks with the most appropriate form of the verbs",
       "opts": {
-        "a": "hadfinished",
-        "b": "havefinished",
+        "a": "had finished",
+        "b": "have finished",
         "c": "finished",
         "d": "finish"
       },
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aftertheythework,theysleptsoundly.",
+      "q": "After they the work, they slept soundly.",
       "multi": false
     },
     {
@@ -496,12 +496,12 @@
       "page": 3,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,22-29):Fillintheblankswiththemostappropriateformoftheverbs",
+      "direction": "Directions (Question Nos, 22 - 29): Fill in the blanks with the most appropriate form of the verbs",
       "opts": {
         "a": "stands",
-        "b": "hasstood",
-        "c": "isstanding",
-        "d": "hasbeenstanding _4e."
+        "b": "has stood",
+        "c": "is standing",
+        "d": "has been standing _4e ."
       },
       "marked": null,
       "cov": {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thatmanatthebusstopforthelasthalfhour.",
+      "q": "That man at the bus stop for the last half hour.",
       "multi": false
     },
     {
@@ -519,10 +519,10 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,22-29):Fillintheblankswiththemostappropriateformoftheverbs",
+      "direction": "Directions (Question Nos, 22 - 29): Fill in the blanks with the most appropriate form of the verbs",
       "opts": {
-        "a": "isgone",
-        "b": "hasgone",
+        "a": "is gone",
+        "b": "has gone",
         "c": "isgoing",
         "d": "went"
       },
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ShallItellhimthatthebus2",
+      "q": "Shall I tell him that the bus 2",
       "multi": false
     },
     {
@@ -542,12 +542,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,22-29):Fillintheblankswiththemostappropriateformoftheverbs",
+      "direction": "Directions (Question Nos, 22 - 29): Fill in the blanks with the most appropriate form of the verbs",
       "opts": {
-        "a": "nevermet",
-        "b": "havenotmet",
-        "c": "didnotmeet",
-        "d": "hadnotmet"
+        "a": "never met",
+        "b": "have not met",
+        "c": "didnot meet",
+        "d": "had not met"
       },
       "marked": null,
       "cov": {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ihimthismorning.",
+      "q": "I him this morning.",
       "multi": false
     },
     {
@@ -565,12 +565,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,22-29):Fillintheblankswiththemostappropriateformoftheverbs",
+      "direction": "Directions (Question Nos, 22 - 29): Fill in the blanks with the most appropriate form of the verbs",
       "opts": {
         "a": "carries",
-        "b": "hadcarried",
+        "b": "had carried",
         "c": "carried",
-        "d": "wascarrying"
+        "d": "was carrying"
       },
       "marked": null,
       "cov": {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Themurdererthecorpsedownthestairswhenheheardaknockonthedoor.",
+      "q": "The murderer the corpse down the stairs when he heard a knock on the door.",
       "multi": false
     },
     {
@@ -588,12 +588,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,22-29):Fillintheblankswiththemostappropriateformoftheverbs",
+      "direction": "Directions (Question Nos, 22 - 29): Fill in the blanks with the most appropriate form of the verbs",
       "opts": {
-        "a": "willbepractising",
-        "b": "willpractise",
-        "c": "willhavebeenpractising",
-        "d": "willhavepractised"
+        "a": "will be practising",
+        "b": "will practise",
+        "c": "will have been practising",
+        "d": "will have practised"
       },
       "marked": null,
       "cov": {
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "We'dbettergoouttomorrowbecauseMarythepianoallday.",
+      "q": "We'd better go out tomorrow because Mary the piano all day.",
       "multi": false
     },
     {
@@ -611,12 +611,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,22-29):Fillintheblankswiththemostappropriateformoftheverbs",
+      "direction": "Directions (Question Nos, 22 - 29): Fill in the blanks with the most appropriate form of the verbs",
       "opts": {
-        "a": "haveread",
+        "a": "have read",
         "b": "read",
         "c": "willread",
-        "d": "hadread"
+        "d": "had read"
       },
       "marked": null,
       "cov": {
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "1theinstructionsbutIdonotunderstandthem.",
+      "q": "1 the instructions but I do not understand them.",
       "multi": false
     },
     {
@@ -634,10 +634,10 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.30-35):Choosethewordorphrasewhichisnearestinmeaningtothekey",
+      "direction": "Directions (Question Nos. 30 - 35): Choose the word or phrase which is nearest in meaning to the key",
       "opts": {
         "a": "whirlwind",
-        "b": "epidemic.",
+        "b": "epidemic .",
         "c": "stagnant",
         "d": "occasional"
       },
@@ -657,11 +657,11 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.30-35):Choosethewordorphrasewhichisnearestinmeaningtothekey",
+      "direction": "Directions (Question Nos. 30 - 35): Choose the word or phrase which is nearest in meaning to the key",
       "opts": {
         "a": "blunt",
-        "b": "inpoeticmetre",
-        "c": "ofthenatureofteaching",
+        "b": "in poetic metre",
+        "c": "of the nature of teaching",
         "d": "direct"
       },
       "marked": null,
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Didactic,",
+      "q": "Didactic ,",
       "multi": false
     },
     {
@@ -680,9 +680,9 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.30-35):Choosethewordorphrasewhichisnearestinmeaningtothekey",
+      "direction": "Directions (Question Nos. 30 - 35): Choose the word or phrase which is nearest in meaning to the key",
       "opts": {
-        "a": "historicallyimportant",
+        "a": "historically important",
         "b": "hypersensitive",
         "c": "overdramatic",
         "d": "inactive"
@@ -703,9 +703,9 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.30-35):Choosethewordorphrasewhichisnearestinmeaningtothekey",
+      "direction": "Directions (Question Nos. 30 - 35): Choose the word or phrase which is nearest in meaning to the key",
       "opts": {
-        "a": "shortbreak",
+        "a": "short break",
         "b": "fatigue",
         "c": "illwill",
         "d": "reform"
@@ -726,12 +726,12 @@
       "page": 4,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,36-40):Outofthefouralternativesgiven,choosetheonewhichbest",
+      "direction": "Directions (Question Nos, 36 - 40): Out of the four alternatives given, choose the one which best",
       "opts": {
-        "a": "(said,“Shefinishedherwork”",
-        "b": "Isaid,“Shefinishesherwork”",
-        "c": "Isaid,“Shehasfinishedherwork”",
-        "d": "Isaid,“Sheisfinishingherwork” _5-."
+        "a": "(said, “She finished her work”",
+        "b": "I said, “She finishes her work”",
+        "c": "I said, “She has finished her work”",
+        "d": "Isaid, “She is finishing her work” _5- ."
       },
       "marked": null,
       "cov": {
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Isaidthatshehadfinishedherwork.",
+      "q": "I said that she had finished her work.",
       "multi": false
     },
     {
@@ -749,12 +749,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,36-40):Outofthefouralternativesgiven,choosetheonewhichbest",
+      "direction": "Directions (Question Nos, 36 - 40): Out of the four alternatives given, choose the one which best",
       "opts": {
-        "a": "HegreetedandaskedmewhatIwasdoing",
-        "b": "HegreetedandaskedmewhatIhadbeendoing",
-        "c": "HegreetedandaskedmewhatIhavebeendoing",
-        "d": "HegreetedandaskedmewhatIamdoing"
+        "a": "He greeted and asked me what I was doing",
+        "b": "He greeted and asked me what I had been doing",
+        "c": "He greeted and asked me what I have been doing",
+        "d": "He greeted and asked me what I am doing"
       },
       "marked": null,
       "cov": {
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hesaid,“Hello,whatareyoudoing?”",
+      "q": "He said, “Hello, what are you doing?”",
       "multi": false
     },
     {
@@ -772,12 +772,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,36-40):Outofthefouralternativesgiven,choosetheonewhichbest",
+      "direction": "Directions (Question Nos, 36 - 40): Out of the four alternatives given, choose the one which best",
       "opts": {
-        "a": "Thegirlssaid,“Theteacherhavenotcome”",
-        "b": "Thegirlssaid,“Theteacherdidnotcome”",
-        "c": "Thegirlssaid,“Theteacherisnotcoming”",
-        "d": "Thegirlssaid,“Theteacherwasnotcoming”"
+        "a": "The girls said, “The teacher have not come”",
+        "b": "The girls said, “The teacher did not come”",
+        "c": "The girls said, “The teacher isnot coming”",
+        "d": "The girls said, “The teacher was not coming”"
       },
       "marked": null,
       "cov": {
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thegirlssaidthattheteacherhadnotcome.",
+      "q": "The girls said that the teacher had not come.",
       "multi": false
     },
     {
@@ -795,12 +795,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,36-40):Outofthefouralternativesgiven,choosetheonewhichbest",
+      "direction": "Directions (Question Nos, 36 - 40): Out of the four alternatives given, choose the one which best",
       "opts": {
-        "a": "[askedherifshewentawaythepreviousyear",
-        "b": "[toldherwhethershehadgoneawaylastyear",
-        "c": "Laskedherthatshehadgoneawaythepreviousyear",
-        "d": "Laskedherwhethershehadgoneawaythepreviousyear"
+        "a": "[asked her if she went away the previous year",
+        "b": "[told her whether she had gone away last year",
+        "c": "Lasked her that she had gone away the previous year",
+        "d": "Lasked her whether she had gone away the previous year"
       },
       "marked": null,
       "cov": {
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Isaidtoher,“Didyougoawaylastyear?”",
+      "q": "I said to her, “Did you go away last year?”",
       "multi": false
     },
     {
@@ -818,12 +818,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos,36-40):Outofthefouralternativesgiven,choosetheonewhichbest",
+      "direction": "Directions (Question Nos, 36 - 40): Out of the four alternatives given, choose the one which best",
       "opts": {
-        "a": "Hesaid,“Ithadrainedallday”",
-        "b": "Hesaidtome,“Itisrainingallday”",
-        "c": "Hesaidtome,“Itwasrainingallday”",
-        "d": "Hesaidtome,“Ithadbeenrainingallday”"
+        "a": "He said, “It had rained all day”",
+        "b": "He said to me, “It is raining all day”",
+        "c": "He said to me, “It was raining all day”",
+        "d": "He said to me, “It had been raining all day”"
       },
       "marked": null,
       "cov": {
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hetoldmethatithadbeenrainingal!day.",
+      "q": "He told me that it had been raining al! day.",
       "multi": false
     },
     {
@@ -841,12 +841,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-45):Identifythecorrectnotionexpressedbyeachofthefollowing",
+      "direction": "Directions (Question Nos. 41 - 45): Identify the correct notion expressed by each of the following",
       "opts": {
-        "a": "AssertiveSentence",
-        "b": "AffirmativeSentence",
-        "c": "InterrogativeSentence",
-        "d": "ImperativeSentence"
+        "a": "Assertive Sentence",
+        "b": "Affirmative Sentence",
+        "c": "Interrogative Sentence",
+        "d": "Imperative Sentence"
       },
       "marked": null,
       "cov": {
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Hesaitdome,“Pleasegivemetheaddress”",
+      "q": "He saitdo  me, “Please give me the address”",
       "multi": false
     },
     {
@@ -864,12 +864,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-45):Identifythecorrectnotionexpressedbyeachofthefollowing",
+      "direction": "Directions (Question Nos. 41 - 45): Identify the correct notion expressed by each of the following",
       "opts": {
-        "a": "AssertiveSentence",
-        "b": "AffirmativeSentence",
-        "c": "OptativeSentence",
-        "d": "ImperativeSentence"
+        "a": "Assertive Sentence",
+        "b": "Affirmative Sentence",
+        "c": "Optative Sentence",
+        "d": "Imperative Sentence"
       },
       "marked": null,
       "cov": {
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Douglashadanaversiontowater.",
+      "q": "Douglas had an aversion to water.",
       "multi": false
     },
     {
@@ -887,12 +887,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-45):Identifythecorrectnotionexpressedbyeachofthefollowing",
+      "direction": "Directions (Question Nos. 41 - 45): Identify the correct notion expressed by each of the following",
       "opts": {
-        "a": "AffirmativeSentence",
-        "b": "ExclamatorySentence",
-        "c": "OptativeSentence",
-        "d": "ImperativeSentence"
+        "a": "Affirmative Sentence",
+        "b": "Exclamatory Sentence",
+        "c": "Optative Sentence",
+        "d": "Imperative Sentence"
       },
       "marked": null,
       "cov": {
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Mayyoulivelong.",
+      "q": "May you live long.",
       "multi": false
     },
     {
@@ -910,12 +910,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-45):Identifythecorrectnotionexpressedbyeachofthefollowing",
+      "direction": "Directions (Question Nos. 41 - 45): Identify the correct notion expressed by each of the following",
       "opts": {
-        "a": "DeclaratorySentence",
-        "b": "AffirmativeSentence",
-        "c": "ExclamatorySentence",
-        "d": "ImperativeSentence"
+        "a": "Declaratory Sentence",
+        "b": "Affirmative Sentence",
+        "c": "Exclamatory Sentence",
+        "d": "Imperative Sentence"
       },
       "marked": null,
       "cov": {
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Helivesinanapartmentbuilding.",
+      "q": "He lives in an apartment building.",
       "multi": false
     },
     {
@@ -933,12 +933,12 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.41-45):Identifythecorrectnotionexpressedbyeachofthefollowing",
+      "direction": "Directions (Question Nos. 41 - 45): Identify the correct notion expressed by each of the following",
       "opts": {
-        "a": "DeclaratorySentence",
-        "b": "ExclamatorySentence",
-        "c": "OptativeSentence",
-        "d": "AffirmativeSentence"
+        "a": "Declaratory Sentence",
+        "b": "Exclamatory Sentence",
+        "c": "Optative Sentence",
+        "d": "Affirmative Sentence"
       },
       "marked": null,
       "cov": {
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "|lovemycountry.",
+      "q": "| love my country.",
       "multi": false
     },
     {
@@ -956,7 +956,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-50):Outofthegivenalternativeschoosetheonewhichcanbesubstituted",
+      "direction": "Directions (Question Nos. 46 - 50): Out of the given alternatives choose the one which can be substituted",
       "opts": {
         "a": "anarchy",
         "b": "monarchy",
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Governmentbyoneman",
+      "q": "Government by one man",
       "multi": false
     },
     {
@@ -979,7 +979,7 @@
       "page": 5,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-50):Outofthegivenalternativeschoosetheonewhichcanbesubstituted",
+      "direction": "Directions (Question Nos. 46 - 50): Out of the given alternatives choose the one which can be substituted",
       "opts": {
         "a": "judge",
         "b": "arbitrator",
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Apersonwhoisappointedbytwopartiestosolveadispute",
+      "q": "A person who is appointed by two parties to solve a dispute",
       "multi": false
     },
     {
@@ -1002,7 +1002,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-50):Outofthegivenalternativeschoosetheonewhichcanbesubstituted",
+      "direction": "Directions (Question Nos. 46 - 50): Out of the given alternatives choose the one which can be substituted",
       "opts": {
         "a": "soliloquy",
         "b": "dialogue",
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Aspeechmadetooneself",
+      "q": "A speech made to oneself",
       "multi": false
     },
     {
@@ -1025,12 +1025,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.46-50):Outofthegivenalternativeschoosetheonewhichcanbesubstituted",
+      "direction": "Directions (Question Nos. 46 - 50): Out of the given alternatives choose the one which can be substituted",
       "opts": {
         "a": "remark",
         "b": "statement",
         "c": "platitude",
-        "d": "epigram (a)trail(b)jaunt (c)voyage(d)itinerary"
+        "d": "epigram (a) trail (b) jaunt (c) voyage (d) itinerary"
       },
       "marked": null,
       "cov": {
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Acommonplaceremark",
+      "q": "A commonplace remark",
       "multi": false
     },
     {
@@ -1048,12 +1048,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):ChoosetheexactmeaningoftheunderlinedIdioms/Phrases",
+      "direction": "Directions (Question Nos. 51 - 60): Choose the exact meaning of the underlined Idioms / Phrases",
       "opts": {
-        "a": "growingmore",
-        "b": "atrockbottom",
-        "c": "atitspeak",
-        "d": "graduallydeclining"
+        "a": "growing more",
+        "b": "atrock bottom",
+        "c": "atits peak",
+        "d": "gradually declining"
       },
       "marked": null,
       "cov": {
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thepopularityofrockmusicisonthewane",
+      "q": "The popularity of rock music is on the wane",
       "multi": false
     },
     {
@@ -1071,7 +1071,7 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):ChoosetheexactmeaningoftheunderlinedIdioms/Phrases",
+      "direction": "Directions (Question Nos. 51 - 60): Choose the exact meaning of the underlined Idioms / Phrases",
       "opts": {
         "a": "anxiously",
         "b": "happily",
@@ -1086,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Everybodywaitedforthetestresultwithbatedbreath",
+      "q": "Everybody waited for the test result with bated breath",
       "multi": false
     },
     {
@@ -1094,12 +1094,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):ChoosetheexactmeaningoftheunderlinedIdioms/Phrases",
+      "direction": "Directions (Question Nos. 51 - 60): Choose the exact meaning of the underlined Idioms / Phrases",
       "opts": {
-        "a": "afalseinvention",
+        "a": "a false invention",
         "b": "asuccess",
-        "c": "anoblething",
-        "d": "complexsituation"
+        "c": "anoble thing",
+        "d": "complex situation"
       },
       "marked": null,
       "cov": {
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theinvolvementofteachersintheschemeofeducationprovedtobeamare’snest:",
+      "q": "The involvement of teachers in the scheme of education proved to be amare’s nest :",
       "multi": false
     },
     {
@@ -1117,12 +1117,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):ChoosetheexactmeaningoftheunderlinedIdioms/Phrases",
+      "direction": "Directions (Question Nos. 51 - 60): Choose the exact meaning of the underlined Idioms / Phrases",
       "opts": {
-        "a": "movingrestlessly",
-        "b": "feelingannoyed",
-        "c": "grindingherteeth",
-        "d": "thinkingdeeply (a)true(b)exaggeratedmatter (c)fakeinformation(d)interestingstory"
+        "a": "moving restlessly",
+        "b": "feeling annoyed",
+        "c": "grinding her teeth",
+        "d": "thinking deeply (a) true (b) exaggerated matter (c) fake information (d) interesting story"
       },
       "marked": null,
       "cov": {
@@ -1132,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "HeseemedtobechewingthecudwhenIaskedherabouttheappraisal",
+      "q": "He seemed to be chewing the cud when I asked her about the appraisal",
       "multi": false
     },
     {
@@ -1140,12 +1140,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):ChoosetheexactmeaningoftheunderlinedIdioms/Phrases",
+      "direction": "Directions (Question Nos. 51 - 60): Choose the exact meaning of the underlined Idioms / Phrases",
       "opts": {
-        "a": "insympathywiththeaggrieved",
-        "b": "ifhewerepaidtodoit",
+        "a": "in sympathy with the aggrieved",
+        "b": "if he were paid to do it",
         "c": "outoflove",
-        "d": "_aftercarefulthought"
+        "d": "_ after careful thought"
       },
       "marked": null,
       "cov": {
@@ -1155,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Heisthesortofmanwhowoulddoanythingforaconsideration",
+      "q": "He is the sort of man who would do anything for a consideration",
       "multi": false
     },
     {
@@ -1163,12 +1163,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):ChoosetheexactmeaningoftheunderlinedIdioms/Phrases",
+      "direction": "Directions (Question Nos. 51 - 60): Choose the exact meaning of the underlined Idioms / Phrases",
       "opts": {
         "a": "insuspension",
         "b": "cancelled",
-        "c": "innotime",
-        "d": "inabsence"
+        "c": "inno time",
+        "d": "in absence"
       },
       "marked": null,
       "cov": {
@@ -1178,7 +1178,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inabeyance",
+      "q": "In abeyance",
       "multi": false
     },
     {
@@ -1186,12 +1186,12 @@
       "page": 6,
       "part": "B",
       "conventional": false,
-      "direction": "Directions(QuestionNos.51-60):ChoosetheexactmeaningoftheunderlinedIdioms/Phrases",
+      "direction": "Directions (Question Nos. 51 - 60): Choose the exact meaning of the underlined Idioms / Phrases",
       "opts": {
         "a": "atreaty",
-        "b": "sourapple",
+        "b": "sour apple",
         "c": "aquarrel",
-        "d": "thecauseofcontention"
+        "d": "the cause of contention"
       },
       "marked": null,
       "cov": {
@@ -1201,7 +1201,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Anappleofdiscord",
+      "q": "An apple of discord",
       "multi": false
     },
     {
@@ -1211,10 +1211,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "allhappy",
-        "b": "rifewithrumours",
+        "a": "all happy",
+        "b": "rife with rumours",
         "c": "restless",
-        "d": "uproar ERKERK"
+        "d": "uproar ERK ERK"
       },
       "marked": null,
       "cov": {
@@ -1228,9 +1228,17 @@
       "multi": false
     }
   ],
-  "written": [],
+  "written": [
+    {
+      "n": 1,
+      "part": null,
+      "page": 1,
+      "text": "Write an essay on any one oft he topic. (25) - The benefits of bilingual education - Effects of growing pollution in rivers - Advantages of technology in everyday life ; 2. Write a précis of the following passage in about a third of its length: (15) | A majority of Indians prefer to use the internet for accessing banking and other financial services , than shopping online, shows a new survey. Almost 57% of Indian respondents using the internet prefer to bank online and use other financial services due to hassel-free access and time saving feature of online banking according to the survey. Checking information on products and services online comes a close second at 53% while 50% shop for products online. The fourth on the list - around 42% of respondents in India surfed online to look for jobs, the survey said. Online banking has made things much easier for the people and it saves a lot of time. It has eliminated the problems associated with traditional way of banking where one has to stand in a queue and fill up several forms. Most of the banks in India have introduced customer- friendly online banking facility with advanced security features to protect customers against cybercrime. The easy registration process for net banking has improved customers’ access to several banking, products increased customer loyalty, facilitated money transfetro  any bank across India and has help banks-attract new customers. The Indian results closely track the global trends as well conducted among 19216 people from 24 countries, the survey showed that banking and keeping track of finances and searching for jobs are the main tasks of internet users around the globe. Overall, 60% of people surveyed used the web to check their bank account and other financial assets in the past 90 days, making it the most popular use of the internet globality. Shopping was not too far behind at 48%, the survey showed and 41% went online in search of a job in terms of country preferences, almost 90% of respondents in Sweden use e-banking. Online banking has also caught on in a big way in nations like France, Canada, Australia, Poland, South Africa and Belgium, the survey showed. The Germans and British come on top for using online shopping with 74% of respondents in both countries having bought something online in the past three months. They are followed by 68% of respondents in Sweden, 65% in US and 62% in South Korea. -2- .",
+      "subparts": {}
+    }
+  ],
   "notes": [
-    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q1 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
     "Source numbering gap before Q12: expected Q11; review the printed page.",
     "Source numbering gap before Q19: expected Q18; review the printed page.",
     "Q34 (p4, part B): only 1 option(s) ['a'] - not emitted",

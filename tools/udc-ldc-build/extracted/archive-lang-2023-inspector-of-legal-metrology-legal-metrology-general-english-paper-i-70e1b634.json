@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "toharponthesamestring",
-        "b": "likeafishoutofwater",
-        "c": "throughfireandwater",
-        "d": "_playducksanddrake"
+        "a": "to harp on the same string",
+        "b": "likea fish out of water",
+        "c": "through fire and water",
+        "d": "_ play ducks and drake"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Makesentenceswiththeanysevenofthefollowingidiomsandphrases(7x2=14)",
+      "q": "Make sentences with the any seven of the following idioms and phrases (7x2=14)",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Honestyisthebestpolicy",
-        "b": "Ashipinharbourissafe,butthatisnotwhatashipisfor",
-        "c": "Hewhohesitatesislost",
-        "d": "Romewasnotbuiltinaday"
+        "a": "Honesty is the best policy",
+        "b": "A ship in harbour is safe, but that is not what a ship is for",
+        "c": "He who hesitates is lost",
+        "d": "Rome was not built in a day"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Expandtheideacontainedinanythreeofthefollowing:(3x5=15)",
+      "q": "Expand the idea contained in any three of the following : (3x5=15)",
       "multi": false
     },
     {
@@ -59,12 +59,12 @@
       "page": 2,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionsNo.6-8):Readthepassagecarefullyandanswerthequestionsgiven:",
+      "direction": "Directions (Questions No. 6-8): Read the passage carefully and answer the questions given :",
       "opts": {
-        "a": "Whatismeantbyenvironment?",
-        "b": "Whatistheproblemrelatedwithrubbishofplastics?",
-        "c": "Whydofishdie?",
-        "d": "Whatagentsdamagebuildings? mae"
+        "a": "What is meant by environment?",
+        "b": "What is the problem related with rubbish of plastics?",
+        "c": "Why do fish die?",
+        "d": "What agents damage buildings? mae"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Answerthefollowingquestion:(5x2=10)",
+      "q": "Answer the following question: (5x2=10)",
       "multi": false
     },
     {
@@ -82,12 +82,12 @@
       "page": 3,
       "part": null,
       "conventional": false,
-      "direction": "Directions(QuestionsNo.6-8):Readthepassagecarefullyandanswerthequestionsgiven:",
+      "direction": "Directions (Questions No. 6-8): Read the passage carefully and answer the questions given :",
       "opts": {
-        "a": "Problemofwasteisfacedin (i)largecities(ii)industrialcountries ii)land,water,air",
-        "b": "Spaceistakenupby (i)rubbishplace(ii)refuse (ii)pollutedriversandseas",
-        "c": "Litterisproducedby (i)woodandpaper(ii)plastics: (ii)waste",
-        "d": "Watercannotdilute (i)marinelife(ii)rubbish (iii)sewage (i)harmfulbacteria(i)carbonmonoxideandhydrocarbon (iii)smoke"
+        "a": "Problem of waste is faced in (i) large cities (ii) industrial countries ii) land,water,air",
+        "b": "Space is taken up by (i) rubbish place (ii) refuse (ii) polluted rivers and seas",
+        "c": "Litter is produced by (i) wood and paper (ii) plastics : (ii) waste",
+        "d": "Water cannot dilute (i) marine life (ii) rubbish (iii) sewage (i) harmful bacteria (i) carbon monoxide and hydrocarbon (iii) smoke"
       },
       "marked": null,
       "cov": {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethecorrectanswer:(5x1=5)",
+      "q": "Choose the correct answer : (5x1=5)",
       "multi": false
     }
   ],

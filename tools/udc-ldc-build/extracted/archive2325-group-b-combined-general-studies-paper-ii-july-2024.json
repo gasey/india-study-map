@@ -15,8 +15,8 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "SubhashChandraBose",
-        "b": "MLN.Roy",
+        "a": "Subhash Chandra Bose",
+        "b": "MLN. Roy",
         "c": "Lohia",
         "d": "E.M.S"
       },
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoisknownastheHumanisticcritiqueofMarxism?",
+      "q": "Who is known as the Humanistic critique of Marxism?",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "J.P.Narayan",
-        "b": "BalGangadharTilak",
-        "c": "M.N.Roy",
-        "d": "RajaRamMohanRoy"
+        "a": "J.P. Narayan",
+        "b": "Bal Gangadhar Tilak",
+        "c": "M.N. Roy",
+        "d": "Raja Ram Mohan Roy"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "“SwarajismybirthrightandIshallhaveit.”Whosaidthis?",
+      "q": "“Swaraj is my birth right and I shall have it.” Who said this?",
       "multi": false
     },
     {
@@ -64,7 +64,7 @@
         "a": "violence",
         "b": "kindness",
         "c": "love",
-        "d": "truth,tolerance,non-violenceandpeacefulprotests"
+        "d": "truth, tolerance, non-violence and peaceful protests"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Satyagrahaisaphilosophyofactionbasedon-",
+      "q": "Satyagraha is a philosophy of action based on -",
       "multi": false
     },
     {
@@ -85,7 +85,7 @@
       "direction": null,
       "opts": {
         "a": "Sachchidananda",
-        "b": "Supermind",
+        "b": "Super mind",
         "c": "Existence",
         "d": "God"
       },
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AurobindodescribesRealityas-",
+      "q": "Aurobindo describes Reality as -",
       "multi": false
     },
     {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThekeycharacteristicofNehru’sdemocraciys-",
+      "q": "The key characteristic of Nehru’s democraciys  -",
       "multi": false
     },
     {
@@ -130,10 +130,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "therewasnoIndianmemberintheCommission",
-        "b": "itsupportedtheMuslimLeague",
-        "c": "CongressfeltthatpeopledeservedSwaraj",
-        "d": "thereweredifferencesamongthemembers"
+        "a": "there was no Indian member in the Commission",
+        "b": "it supported the Muslim League",
+        "c": "Congress felt that people deserved Swaraj",
+        "d": "there were differences among the members"
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheSimonCommissionwasboycottedinIndiabecause-",
+      "q": "The Simon Commission was boycotted in India because -",
       "multi": false
     },
     {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheresolutionofPoornaSwarajwasadoptedatwhichsessionoftheCongress’?",
+      "q": "The resolution of Poorna Swaraj was adopted at which session of the Congress’?",
       "multi": false
     },
     {
@@ -176,10 +176,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Nagaland,Meghalaya,Mizoram",
-        "b": "Tripuraonly",
-        "c": "Assamonly",
-        "d": "SikkimandArunachalPradesh -2-:"
+        "a": "Nagaland, Meghalaya, Mizoram",
+        "b": "Tripura only",
+        "c": "Assam only",
+        "d": "Sikkim and Arunachal Pradesh -2- :"
       },
       "marked": null,
       "cov": {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "73AmendmentAct,1992exemptedthefollowingstatesofNEIndia:",
+      "q": "73 Amendment Act,1992 exempted the following states of NE India:",
       "multi": false
     },
     {
@@ -199,10 +199,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ItcontendsthatitwillconsideraconstitutionalstatusforPanchayatRajinstitutionsinfuture.",
-        "b": "ItdoesnotprovideaconstitutionalstatustothePanchayatRajinstitutions.",
-        "c": "ItundidtheconstitutionalstatusthatwasprovidedtoPanchayatRajinstitutionsearlier.",
-        "d": "ItprovidesaconstitutionalstatustothePanchayatRajinstitutions."
+        "a": "It contends that it will consider a constitutional status for Panchayat Raj institutions in future.",
+        "b": "It does not provide a constitutional status to the Panchayat Raj institutions.",
+        "c": "It undid the constitutional status that was provided to Panchayat Raj institutions earlier.",
+        "d": "It provides a constitutional status to the Panchayat Raj institutions."
       },
       "marked": null,
       "cov": {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingstatementspertainintogthe73“ConstitutionAmendmentActof1992iscorrect?",
+      "q": "Which of the following statements pertainintog  the 73“ Constitution Amendment Act of 1992 is correct?",
       "multi": false
     },
     {
@@ -222,10 +222,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ChiefMinister",
-        "b": "ChiefJusticeoftheHighCourt",
+        "a": "Chief Minister",
+        "b": "Chief Justice of the High Court",
         "c": "Governor",
-        "d": "SpeakeroftheLegislativeAssembly"
+        "d": "Speaker of the Legislative Assembly"
       },
       "marked": null,
       "cov": {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Lokayuktasubmitsitsreporttothe-",
+      "q": "Lokayukta submits its report to the -",
       "multi": false
     },
     {
@@ -245,10 +245,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "9\"Schedule",
-        "b": "10\"Schedule",
-        "c": "11\"Schedule",
-        "d": "12\"Schedule"
+        "a": "9\" Schedule",
+        "b": "10\" Schedule",
+        "c": "11\" Schedule",
+        "d": "12\" Schedule"
       },
       "marked": null,
       "cov": {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichscheduleoftheIndianConstitutioncontainsprovisionsregardingAnti-DefectionAct?",
+      "q": "Which schedule of the Indian Constitution contains provisions regarding Anti-Defection Act?",
       "multi": false
     },
     {
@@ -268,10 +268,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "76\"ConstitutionalAmendmenActt",
-        "b": "83™ConstitutionalAmendmentAct",
-        "c": "86\"ConstitutionalAmendmentAct",
-        "d": "93\"ConstitutionalAmendmentAct"
+        "a": "76\" Constitutional AmendmenActt",
+        "b": "83™ Constitutional Amendment Act",
+        "c": "86\" Constitutional Amendment Act",
+        "d": "93\" Constitutional Amendment Act"
       },
       "marked": null,
       "cov": {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "RighttoEducationwasaddedasaFundamentalRightbythe-",
+      "q": "Right to Education was added as a Fundamental Right by the -",
       "multi": false
     },
     {
@@ -291,10 +291,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Lame-ducksession",
-        "b": "DysfunctionalSession",
-        "c": "Non-FunctionalSession",
-        "d": "Non-PerformingSession"
+        "a": "Lame - duck session",
+        "b": "Dysfunctional Session",
+        "c": "Non-Functional Session",
+        "d": "Non-Performing Session"
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "LastsessionofexistingLokSabha,afteranewLokSabhahasbeenelectediscalled-",
+      "q": "Last session of existing Lok Sabha, after a new Lok Sabha has been elected is called -",
       "multi": false
     },
     {
@@ -314,10 +314,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "16\"August1950",
-        "b": "1*April1951.",
-        "c": "6August1952",
-        "d": "16August1952"
+        "a": "16\" August 1950",
+        "b": "1* April 1951 .",
+        "c": "6 August 1952",
+        "d": "16 August 1952"
       },
       "marked": null,
       "cov": {
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "NationalDevelopmentCouncilwasconstitutedon-",
+      "q": "National Development Council was constituted on -",
       "multi": false
     },
     {
@@ -337,10 +337,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1,2and4",
+        "a": "1,2 and 4",
         "b": "Only3",
-        "c": "1,2and3",
-        "d": "1,3and4"
+        "c": "1,2 and3",
+        "d": "1,3 and4"
       },
       "marked": null,
       "cov": {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Readthefollowingpointsandchoosethecorrectanswer: 1,ThedoctrineofjudicialreviewisoriginatedanddevelopedintheUSA. 2,JudicialReviewisthepowerofthejudiciarytoexaminetheconstitutionalityoflegislative enactmentsandexecutiveordersofbothcentralandstategovernments. 3.JudicialReviewisneededtoupholdtheprincipleofthesupremacyoftheConstitution. 4.JudicialReviewpowercanalsobeexercisebybothUnionandStateminister. Whichoftheabovestatementis/arecorrect?",
+      "q": "Read the following points and choose the correct answer: 1, The doctrine ofj udicial review is originated and developed in the USA. 2, Judicial Review is the power of the judiciary to examine the constitutionality of legislative enactments and executive orders of both central and state governments. 3. Judicial Review is needed to uphold the principle of the supremacy of the Constitution. 4. Judicial Review power can also be exercise by both Union and State minister. Which of the above statement is/are correct?",
       "multi": false
     },
     {
@@ -360,10 +360,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ElectionCommissionofIndia",
-        "b": "StateLegislativeAssembly",
+        "a": "Election Commission of India",
+        "b": "State Legislative Assembly",
         "c": "Parliament",
-        "d": "PresidentofIndia"
+        "d": "President of India"
       },
       "marked": null,
       "cov": {
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "RecognitionofPoliticalpartiesinIndiaisaccordedbythe-",
+      "q": "Recognition of Political parties in India is accorded by the -",
       "multi": false
     },
     {
@@ -383,10 +383,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1,2and4",
+        "a": "1,2 and 4",
         "b": "Only4",
         "c": "land3",
-        "d": "1,2and3 _3-:"
+        "d": "1,2 and3 _3- :"
       },
       "marked": null,
       "cov": {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ApartyisrecognisedasaNationalPartyifanyofthefollowingconditionsisfulfilled: 1.Ifitsecuressixpercentofvalidvotespolledinanyfourormorestateatageneralelectionto theLokSabhaortotheLegislativeAssembly. 2.IfitwinsfourseatsintheLokSabhafromanyStateorStates. 3.IfitwinstwopercentoftheseatsintheLokSabhaatageneralelectionandthesecandidates areelectedfromthreeStates. 4.IfitisrecognisedasaStatepartyatleastin8States. Whichoftheabovestatementis/arecorrect?",
+      "q": "A party is recognised as a National Party if any of the following conditions is fulfilled: 1. Ifit secures six percent of valid votes polled in any four or more state at a general election to the Lok Sabha or to the Legislative Assembly. 2. If it wins four seats in the Lok Sabha from any State or States. 3. Ifit wins two percent of the seats in the Lok Sabha at a general election and these candidates are elected from three States. 4. Ifitis recognised as a State party at least in 8 States. Which of the above statement is/are correct?",
       "multi": false
     },
     {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThesloganofwhichFive-YearPlaninIndiais“Faster,MoreinclusiveandSustainableGrowth”?",
+      "q": "The slogan of which Five-Year Plan in India is “Faster, More inclusive and Sustainable Growth”?",
       "multi": false
     },
     {
@@ -429,10 +429,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "50members",
-        "b": "60members",
-        "c": "55members",
-        "d": "1/3oftotalmembersoftheLokSabha"
+        "a": "50 members",
+        "b": "60 members",
+        "c": "55 members",
+        "d": "1/3 of total members of the Lok Sabha"
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TobeofficiallyrecognisedbytheSpeakerofLokSabhaasanOppositionGroup,apartyorcoalition ofpartiesmusthaveatleast:",
+      "q": "To be officially recognised by the Speaker of Lok Sabha as an Opposition Group, a party or coalition of parties must have at least:",
       "multi": false
     },
     {
@@ -452,10 +452,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Againstthelaw",
-        "b": "Equivalenttolaw",
-        "c": "FoundtobeviolativeoftheConstitution",
-        "d": "Foundtobeacceptablewiththecase"
+        "a": "Against the law",
+        "b": "Equivalent to law",
+        "c": "Found to be violative of the Constitution",
+        "d": "Found to be acceptable with the case"
       },
       "marked": null,
       "cov": {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThenomenciatureoftenusedinJudicialReview‘ultravires‘referto-",
+      "q": "The nomenciature often used in Judicial Review ‘ultra vires ‘refer to -",
       "multi": false
     },
     {
@@ -475,10 +475,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1January,1935",
-        "b": "1%April,1935",
-        "c": "1January,1949",
-        "d": "1\"April,1949"
+        "a": "1 January, 1935",
+        "b": "1% April, 1935",
+        "c": "1 January, 1949",
+        "d": "1\" April, 1949"
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ReserveBankofIndiawasestablishedon-",
+      "q": "Reserve Bank of India was established on -",
       "multi": false
     },
     {
@@ -498,10 +498,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Povertyratio",
-        "b": "PerCapitaIncome",
-        "c": "NationalIncome",
-        "d": "Unemploymentrate"
+        "a": "Poverty ratio",
+        "b": "Per Capita Income",
+        "c": "National Income",
+        "d": "Unemployment rate"
       },
       "marked": null,
       "cov": {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingreflectsthestandardoflivinginacountry?",
+      "q": "Which of the following reflects the standard of living in a country?",
       "multi": false
     },
     {
@@ -521,10 +521,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Socialisteconomy",
-        "b": "Closedeconomy",
-        "c": "Openeconomy",
-        "d": "Mixedeconomy"
+        "a": "Socialist economy",
+        "b": "Closed economy",
+        "c": "Open economy",
+        "d": "Mixed economy"
       },
       "marked": null,
       "cov": {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhattypeofeconomydoesIndiahave?",
+      "q": "What type of economy does India have?",
       "multi": false
     },
     {
@@ -544,10 +544,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Unionlist",
-        "b": "Statelist",
-        "c": "Concurrentlist",
-        "d": "Notinaparticularlist"
+        "a": "Union list",
+        "b": "State list",
+        "c": "Concurrent list",
+        "d": "Not ina particular list"
       },
       "marked": null,
       "cov": {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "EconomicPlanningisasubjectof-",
+      "q": "Economic Planning is a subject of -",
       "multi": false
     },
     {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AGMARKActwasimplementedinIndiaintheyear-",
+      "q": "AGMARK Act was implemented in India in the year -",
       "multi": false
     },
     {
@@ -590,10 +590,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "DadabhaiNaoroji",
-        "b": "RCDutta",
-        "c": "VKRVRao:",
-        "d": "DRGadgil"
+        "a": "Dadabhai Naoroji",
+        "b": "RC Dutta",
+        "c": "VK RV Rao :",
+        "d": "DR Gadgil"
       },
       "marked": null,
       "cov": {
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhofirstestimatedtheNationalIncomeinIndia?",
+      "q": "Who first estimated the National Income in India?",
       "multi": false
     },
     {
@@ -613,10 +613,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "TheyearwhoseincomeisbeingusedtocalculatethenominalGDP",
-        "b": "TheyearwhosepricesarebeingusedtocalculatethenominalGDP",
-        "c": "TheyearwhosepricesarebeingusedtocalculatetherealGDP",
-        "d": "TheyearwhoseincomearebeingusedtocalculatetherealGDP"
+        "a": "The year whose income is being used to calculate the nominal GDP",
+        "b": "The year whose prices are being used to calculate the nominal GDP",
+        "c": "The year whose prices are being used to calculate the real GDP",
+        "d": "The year whose income are being used to calculate the real GDP"
       },
       "marked": null,
       "cov": {
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "‘Baseyear’inNationalIncomeaccountingmeans-",
+      "q": "‘Base year ’ in National Income accounting means -",
       "multi": false
     },
     {
@@ -636,9 +636,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "AndraPradesh",
+        "a": "Andra Pradesh",
         "b": "Punjab",
-        "c": "WestBengal(a)TamilNadu"
+        "c": "West Bengal (a) Tamil Nadu"
       },
       "marked": null,
       "cov": {
@@ -647,7 +647,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Atpresent,whichofthefollowingstatesisthehighestproducerofriceinIndia?",
+      "q": "Atpresent, which of the following states is the highest producer of rice in India?",
       "multi": false
     },
     {
@@ -657,10 +657,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Cottontextiles",
-        "b": "Ironandsteel",
+        "a": "Cotton textiles",
+        "b": "Iron and steel",
         "c": "Jute",
-        "d": "Paper -4-."
+        "d": "Paper -4- ."
       },
       "marked": null,
       "cov": {
@@ -670,7 +670,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatistheoldestlargescaleindustryinIndia?",
+      "q": "What is the oldest large scale industry in India?",
       "multi": false
     },
     {
@@ -680,10 +680,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "IndiraGandhi",
-        "b": "NarendraModi",
-        "c": "NarasimhaRao",
-        "d": "ManmohanSingh"
+        "a": "Indira Gandhi",
+        "b": "Narendra Modi",
+        "c": "Narasimha Rao",
+        "d": "Manmohan Singh"
       },
       "marked": null,
       "cov": {
@@ -693,7 +693,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThePolicyofLiberalization,PrivatizationandGlobalizationwasannouncedasNewEconomicPolicy (NEP)bythePrimeMinister-",
+      "q": "The Policy of Liberalization, Privatization and Globalization was announced as New Economic Policy (NEP) by the Prime Minister -",
       "multi": false
     },
     {
@@ -703,10 +703,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PrimarySector",
-        "b": "QuaternarySector",
-        "c": "SecondarySector",
-        "d": "TertiarySector"
+        "a": "Primary Sector",
+        "b": "Quaternary Sector",
+        "c": "Secondary Sector",
+        "d": "Tertiary Sector"
       },
       "marked": null,
       "cov": {
@@ -716,7 +716,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichsectormakesthelargestcontributionstoIndia’sGDP?",
+      "q": "Which sector makes the largest contributions to India’s GDP?",
       "multi": false
     },
     {
@@ -728,7 +728,7 @@
       "opts": {
         "a": "CSO",
         "b": "NSSO",
-        "c": "NITIAayog’staskforce",
+        "c": "NITI Aayog’s task force",
         "d": "RBI"
       },
       "marked": null,
@@ -739,7 +739,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "PovertyestimationinIndiaiscarriedoutby-",
+      "q": "Poverty estimation in India is carried out by -",
       "multi": false
     },
     {
@@ -749,10 +749,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MilkProduction",
-        "b": "PoultryProduction",
-        "c": "RiceProduction",
-        "d": "WheatProduction"
+        "a": "Milk Production",
+        "b": "Poultry Production",
+        "c": "Rice Production",
+        "d": "Wheat Production"
       },
       "marked": null,
       "cov": {
@@ -762,7 +762,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "OperationFlood,launchedin1970isassociatedwithwhichofthefollowing?",
+      "q": "Operation Flood, launched in 1970 is associated with which of the following?",
       "multi": false
     },
     {
@@ -772,10 +772,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ChidambaramSubramaniam",
-        "b": "DilbaghSinghAthwal",
-        "c": "M.S.Swaminathan",
-        "d": "NormanBorlaug"
+        "a": "Chidambaram Subramaniam",
+        "b": "Dilbagh Singh Athwal",
+        "c": "M.S. Swaminathan",
+        "d": "Norman Borlaug"
       },
       "marked": null,
       "cov": {
@@ -785,7 +785,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whoiscalled“theFatheroftheGreenRevolution’inIndia?",
+      "q": "Who is called “the Father of the Green Revolution’ in India?",
       "multi": false
     },
     {
@@ -795,8 +795,8 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "FoodCorporationofIndia",
-        "b": "MinistryofAgriculture",
+        "a": "Food Corporation of India",
+        "b": "Ministry of Agriculture",
         "c": "NAFED",
         "d": "TRIFED"
       },
@@ -808,7 +808,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichagencyisresponsibleforprocurement,distribution,andstorageoffoodgrainsproductionin India?",
+      "q": "Which agency is responsible for procurement, distribution, and storage of foodgrains production in India?",
       "multi": false
     },
     {
@@ -818,10 +818,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Fiscalpolicy-",
-        "b": "LabourMarketpolicy",
-        "c": "Monetarypolicy",
-        "d": "Tradepolicy"
+        "a": "Fiscal policy -",
+        "b": "Labour Market policy",
+        "c": "Monetary policy",
+        "d": "Trade policy"
       },
       "marked": null,
       "cov": {
@@ -831,7 +831,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingpoliciesdealswiththetaxationandexpendituredecisionsofthegovernment?",
+      "q": "Which of the following policies deals with the taxation and expenditure decisions of the government?",
       "multi": false
     },
     {
@@ -841,10 +841,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "JawaharlaiNehru",
-        "b": "JohnMathai",
-        "c": "KshitishChandraNeogy",
-        "d": "R.K.ShanmukhamChetty"
+        "a": "Jawaharlai Nehru",
+        "b": "John Mathai",
+        "c": "Kshitish Chandra Neogy",
+        "d": "R.K. Shanmukham Chetty"
       },
       "marked": null,
       "cov": {
@@ -854,7 +854,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhointroducedthefirstbudgetinIndiaafterindependence?",
+      "q": "Who introduced the first budget in India after independence?",
       "multi": false
     },
     {
@@ -864,10 +864,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BankofBaroda",
+        "a": "Bank of Baroda",
         "b": "ICICI",
-        "c": "PunjabNationalBank",
-        "d": "StateBankofIndia"
+        "c": "Punjab National Bank",
+        "d": "State Bank of India"
       },
       "marked": null,
       "cov": {
@@ -877,7 +877,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthelargestCommercialbankinIndia?",
+      "q": "What is the largest Commercial bank in India?",
       "multi": false
     },
     {
@@ -887,10 +887,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1Five-YearPlan",
-        "b": "3”Five-YearPlan.",
-        "c": "5”Five-YearPlan",
-        "d": "7\"Five-YearPlan"
+        "a": "1 Five-Year Plan",
+        "b": "3” Five-Year Plan .",
+        "c": "5” Five-Year Plan",
+        "d": "7\" Five-Year Plan"
       },
       "marked": null,
       "cov": {
@@ -900,7 +900,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Theslogan“GaribiHatao”wasintroducedinwhichFive-YearPlan?",
+      "q": "The slogan “Garibi Hatao” was introduced in which Five-Year Plan?",
       "multi": false
     },
     {
@@ -910,10 +910,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "KarakoramRange",
-        "b": "GreaterHimalaya",
-        "c": "KailashRange",
-        "d": "AjantaRange"
+        "a": "Karakoram Range",
+        "b": "Greater Himalaya",
+        "c": "Kailash Range",
+        "d": "Ajanta Range"
       },
       "marked": null,
       "cov": {
@@ -923,7 +923,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InancientIndianliterature‘Himadri’isanamegiventothe-",
+      "q": "In ancient Indian literature ‘Himadri’is a name given to the -",
       "multi": false
     },
     {
@@ -933,10 +933,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Blacksoil",
-        "b": "Redsoil",
-        "c": "Lateritesoil",
-        "d": "Alluvialsoil"
+        "a": "Black soil",
+        "b": "Red soil",
+        "c": "Laterite soil",
+        "d": "Alluvial soil"
       },
       "marked": null,
       "cov": {
@@ -946,7 +946,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Soilswhichhavebeenbroughtdownanddepositedbyriversarecalled:",
+      "q": "Soils which have been brought down and deposited by rivers are called:",
       "multi": false
     },
     {
@@ -969,7 +969,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Ingeographicalterm,abodyoflandthatisborderedonthreesidesbywater,includingthesouthern partsofIndia,istermedas-",
+      "q": "In geographical term, a body of land that is bordered on three sides by water, including the southern parts ofI ndia, is termed as -",
       "multi": false
     },
     {
@@ -980,7 +980,7 @@
       "direction": null,
       "opts": {
         "a": "Meghalaya",
-        "b": "JammuandKashmir",
+        "b": "Jammu and Kashmir",
         "c": "Kerala",
         "d": "Gujarat"
       },
@@ -992,7 +992,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheSilentValleywhichishometorareplantsandanimalsislocatedinwhichofthefollowingState?",
+      "q": "The Silent Valley which is home to rare plants and animals is located in which of the following State?",
       "multi": false
     },
     {
@@ -1003,8 +1003,8 @@
       "direction": null,
       "opts": {
         "a": "50sq.km.",
-        "b": "250sq.km.",
-        "c": "500sq.km.({d)750sq.km."
+        "b": "250 sq. km.",
+        "c": "500 sq.km. ({d) 750 sq. km."
       },
       "marked": null,
       "cov": {
@@ -1013,7 +1013,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "ThegeographicalareaofDampaTigerReserveinMizoramis:",
+      "q": "The geographical area of Dampa Tiger Reserve in Mizoram is:",
       "multi": false
     },
     {
@@ -1026,7 +1026,7 @@
         "a": "Blizzard",
         "b": "Loo",
         "c": "Barkhans",
-        "d": "Delta (a)Orissa(b)Assam (c)Rajasthan(d)TamilNadu"
+        "d": "Delta (a) Orissa (b) Assam (c) Rajasthan (d) Tamil Nadu"
       },
       "marked": null,
       "cov": {
@@ -1036,7 +1036,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThearidtopographywithsanddunesintheAravaliareknownas:",
+      "q": "The arid topography with sand dunes in the Aravali are known as:",
       "multi": false
     },
     {
@@ -1059,7 +1059,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheChota-Nagpurplateauisfamousforitsrichnesson:",
+      "q": "The Chota-Nagpur plateau is famous for its richness on:",
       "multi": false
     },
     {
@@ -1069,10 +1069,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Southernrailway",
-        "b": "Northernrailway",
-        "c": "SouthCentralrailwaymeg",
-        "d": "NorthCentralrailway"
+        "a": "Southern railway",
+        "b": "Northern railway",
+        "c": "South Central railway meg",
+        "d": "North Central railway"
       },
       "marked": null,
       "cov": {
@@ -1082,7 +1082,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichisthelargestrailwayzoneinIndia?",
+      "q": "Which is the largest railway zone in India?",
       "multi": false
     },
     {
@@ -1092,10 +1092,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "AlluminiumIndustry",
-        "b": "CementIndustry",
-        "c": "TronandSteelIndustry",
-        "d": "FertilizerIndustry SECTION-II(ConventionalEssayType)(100Marks) Ailquestionscarryequalmarksof20each. UNIT-A ThisUnitshouldbeansweredonlyontheSeparateSheetprovided. Attemptany2(two)questions. UNIT-B ThisUnitshouldbeansweredonlyontheSeparateSheetprovided. Attemptany2(two)questions. (20) UNIT-FC. ThisUnitshouldbeansweredonlyontheSeparateSheetprovided. AttemptonlyI(one)question. (5+15=20) eRRRRE"
+        "a": "Alluminium Industry",
+        "b": "Cement Industry",
+        "c": "Tronand Steel Industry",
+        "d": "Fertilizer Industry SECTION-  II (Conventional Essay Type) (100 Marks) Ail questions carry equal marks of 20 each. UNIT-A This Unit should be answered only on the Separate Sheet provided. Attempt any 2 (two) questions. UNIT-B This Unit should be answered only on the Separate Sheet provided. Attempt any 2 (two) questions. (20) UNIT-FC. This Unit should be answered only on the Separate Sheet provided. Attempt only I (one) question. (5+15=20) eR RR RE"
       },
       "marked": null,
       "cov": {
@@ -1105,7 +1105,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThelargestmineralbasedIndustryinIndia.",
+      "q": "The largest mineral based Industry in India.",
       "multi": false
     }
   ],

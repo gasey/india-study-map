@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Killtwobirdswithonestone",
-        "b": "Prosandcons",
-        "c": "Beataroundthebush",
-        "d": "Thelion’sshare"
+        "a": "Kill two birds with one stone",
+        "b": "Pros and cons",
+        "c": "Beat around the bush",
+        "d": "The lion’s share"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Makesentencesusingthefollowingidiomsandphrases:(5x2=10)",
+      "q": "Make sentences using the following idioms and phrases: (5x2=10)",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Inthelapofluxury: @)_snobbishandproud (@)greatcomfortandwealth Gil)easywork Gv)findinglargeamountofmoney",
-        "b": "Cryoverspiltmilk:: (i)tobedistressedoverdeaths (i)toworryovermilkboilingonastove Gi)toexpressregretaboutsomething (iv)tohavefeelingsforinanimateobjects",
-        "c": "Lickone’swounds: (i)tohealone’swoundswithsaliva (ii)togivemedicinetothesick (ii)averyfatalillness (iv)recuperatefrominjuriesorhurtfeelings",
-        "d": "Swallowone’spride: Gi)sorethroat (ii)todosomethinginspiteofshame (iii)toeatsomethingtastyandrich (iv)tobeextremelywealthy (i)ingoodtimesandbadtimes Gi)weightfluctuations (ii)ahealthyexerciseregime (iv)anadventuroushikeinthejungle"
+        "a": "Inthe lap of luxury: @)_ snobbish and proud (@) great comfort and wealth Gil) easy work Gv) finding large amount of money",
+        "b": "Cry over spilt milk: : (i) to be distressed over deaths (i) to worry over milk boiling on a stove Gi) to express regret about something (iv) to have feelings for inanimate objects",
+        "c": "Lick one’s wounds: (i) to heal one’s wounds with saliva (ii) to give medicine to the sick (ii) avery fatal illness (iv) recuperate from injuries or hurt feelings",
+        "d": "Swallow one’s pride: Gi) sore throat (ii) to do something inspite of shame (iii) to eat something tasty and rich (iv) to be extremely wealthy (i) in good times and bad times Gi) weight fluctuations (ii) ahealthy exercise regime (iv) an adventurous hike in the jungle"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Choosethecorrectmeaningofthefollowingidiomsandphrases:(5x1=5)",
+      "q": "Choose the correct meaning of the following idioms and phrases: (5x1=5)",
       "multi": false
     },
     {
@@ -61,9 +61,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Whyistherenocultureintheworldthatisabsolutelypristine?(2)",
-        "b": "Whatistheworstpossiblethinginculturalmatter?(2)",
-        "c": "WhatgovernsthecultureofArabiaandwhy?(2) (a)HowisthegrowthanddeclineofIndiameasuredinhistory?(2) G)nitsoriginalcondition— @)Lackofgrowthordevelopment— (ii)Characterizedbyconstantactivityorprogress— (iv)Thestateoffeelingalone— (v)Notmovingorchanging— eeEKERK"
+        "a": "Why is there no culture in the world that is absolutely pristine? (2)",
+        "b": "What is the worst possible thing in cultural matter? (2)",
+        "c": "What governs the culture of Arabia and why? (2) (a) Howis the growth and decline of India measured in history? (2) G) nits original condition — @) Lack of growth or development — (ii) Characterized by constant activity or progress — (iv) The state of feeling alone — (v) Not moving or changing— ee EK ERK"
       },
       "marked": null,
       "cov": {
@@ -72,7 +72,7 @@
         "c": 0.0
       },
       "ambiguous": [],
-      "q": "Comprehensionofgivenpassages: Thereis,1suppose,nocultureintheworldwhichisabsolutelypristine,pureandunaffectedby anyotherculture.Itsimplycannotbe,justasnobodycansaythathebelongsonehundredpercent toaparticularracialtype,becauseinthecourseofhundredsandthousandsofyearsunmistakable changesandmixtureshaveoccurred.So,cultureisboundtogetalittlemixedup,eventhoughthe basicelementofaparticularnationalcultureremainsdominant.Ifthatkindofthinggoesonpeacefully, thereisnoharminit,Butitoftenleadstoconflicts.Itsometimesleadsagrouptofearthattheir cultureisbeingoverwhelmedbywhattheyconsidertobeanoutsideoralieninfluence.Thenthey drawthemselvesintoashellwhichisolatesthemandpreventstheirthoughtsandideasgoingout.That isanunhealthysituation,becauseinanymatterandmuchmoresoinwhatmightbecalledacultural matter,stagnationistheworstpossiblething.Culture,ifithasanyvalue,musthaveacertaindepth.It mustalsohaveacertaindynamiccharacter,Afterall,culturedependsonavastnumberoffactors.If weleaveoutwhatmightbecalledthebasicmouldthatwasgiventoitintheearlystagesofanation’s orapeople’sgrowth,itisaffectedbygeography,byclimateandbyallkindsofotherfactors.The cultureofArabiaisintimatelygovernedbythegeographyandthedesertsofArabiabecauseitgrew upthere.Obviously,thecultureofIndiaintheolddayswasaffectedgreatly,asweseeinourown literature,bytheHimalayas,theforestsandthegreatriversofIndiaamongotherthings.Itwasa naturalgrowthfromthesoil.Ofthevariousdomainsofculture,likearchitecture,musicandliterature, anytwomaymixtogether,astheyoftendid,andproduceahappycombination.Butwherethereisan attempttoimprovesomethingortheotherwhichdoesnotnaturallygrowandmoulditselfwithout uprootingitself,conflictincvitablyarises.Thenalsocomessomethingwhichtomymindisbasically opposedtoallideasofculture.Andthatistheisolationofthemindandthedeliberateshuttingupof themindtootherinfluences.MyownviewofIndia’shistoryisthatwecanalmostmeasurethe growthandtheadvanceofIndiaandthedeclineofIndiabyrelatingthemtoperiodswhenIndiahad hermindopentotheoutsideworldandwhenshewantedtocloseitup.Themoreshecloseditup, themorestaticshebecame.Life,whetheroftheindividual,group,nationorsociety,isessentiallya dynamic,changing,growingthing.Whateverstopsthatdynamicgrowthalsoinjuresitandundermines it. Answerthefollowingquestions:",
+      "q": "Comprehension of given passages: There is, 1 suppose, no culture in the world which is absolutely pristine, pure and unaffected by any other culture. It simply cannot be, just as nobody can say that he belongs one hundred per cent toa particular racial type, because in the course of hundreds and thousands of years unmistakable changes and mixtures have occurred. So, culture is bound to get a little mixed up, even though the basic element of a particular national culture remains dominant. If that kind of thing goes on peacefully, there is no harm in it, But it often leads to conflicts. It sometimes leads a group to fear that their culture is being overwhelmed by what they consider to be an outside or alien influence. Then they draw themselves into a shell which isolates them and prevents their thoughts and ideas going out. That is an unhealthy situation, because in any matter and much more so in what might be called a cultural matter, stagnation is the worst possible thing. Culture, if it has any value, must have a certain depth. It must also have a certain dynamic character, After all, culture depends on a vast number of factors. If we leave out what might be called the basic mould that was given to it in the early stages of a nation’s or a people’s growth, it is affected by geography, by climate and by all kinds of other factors. The culture of Arabia is intimately governed by the geography and the deserts of Arabia because it grew up there. Obviously, the culture of India in the old days was affected greatly, as we see in our own literature, by the Himalayas, the forests and the great rivers of India among other things. It was a natural growth from the soil. Of the various domains of culture, like architecture, music and literature, any two may mix together, as they often did, and produce a happy combination. But where there is an attempt to improve something or the other which does not naturally grow and mould itself without uprooting itself, conflict incvitably arises. Then also comes something which to my mind is basically opposed to all ideas of culture. And that is the isolation of the mind and the deliberate shutting up of the mind to other influences. My own view of India’s history is that we can almost measure the growth and the advance of India and the decline of India by relating them to periods when India had her mind open to the outside world and when she wanted to close it up. The more she closed it up, the more static she became. Life, whether of the individual, group, nation or society, is essentially a dynamic, changing, growing thing. Whatever stops that dynamic growth also injures it and undermines it. Answer the following questions:",
       "multi": false
     }
   ],

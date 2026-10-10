@@ -15,10 +15,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Agriculture&Alliedsector",
-        "b": "Manufacturingsector",
-        "c": "Servicesector",
-        "d": "Externalsector"
+        "a": "Agriculture & Allied sector",
+        "b": "Manufacturing sector",
+        "c": "Service sector",
+        "d": "External sector"
       },
       "marked": null,
       "cov": {
@@ -28,7 +28,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichsectorcontributesthehighesttotheGrossDomesticProductofIndia?",
+      "q": "Which sector contributes the highest to the Gross Domestic Product of India?",
       "multi": false
     },
     {
@@ -38,10 +38,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "JanDhanYojana,AadharandMobilePhone",
-        "b": "Itistheplatformtoimplementdirectsubsidytransfer",
-        "c": "Itallowsthedirecttransferoffundstothebeneficiariesandreducesinterruptionsbyintermediaries intheprocess",
-        "d": "ItisusedbyNITIAayogtoestimatepovertyincidenceinthecountry (a)Pensionschemeforsmallandmarginalfarmers (b)Directmoneytransferschemetothefarmersaccordingtothesizeoflandholding (c)Cropinsuranceschemeforthefarmers (d)Subsidyschemeforfarmerscultivatingcashcrops"
+        "a": "Jan Dhan Yojana, Aadhar and Mobile Phone",
+        "b": "Itis the platform to implement direct subsidy transfer",
+        "c": "Itallows the direct transfer of funds to the beneficiaries and reduces interruptions by intermediaries in the process",
+        "d": "Itis used by NITI Aayog to estimate poverty incidence in the country (a) Pension scheme for small and marginal farmers (b) Direct money transfer scheme to the farmers according to the size of landholding (c) Crop insurance scheme for the farmers (d) Subsidy scheme for farmers cultivating cash crops"
       },
       "marked": null,
       "cov": {
@@ -51,7 +51,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichisnotrelatedtoJAMTrinity?",
+      "q": "Which is not related to JAM Trinity?",
       "multi": false
     },
     {
@@ -61,10 +61,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Theeconomywasopeneduptowardsinternationaltradeandforeigninvestment",
-        "b": "Decreaseinthetaxationofimportsandexports",
-        "c": "Commercialbankscandecidetheirowninterestrates",
-        "d": "PSUsweresoldtotheprivatesector"
+        "a": "The economy was opened up towards international trade and foreign investment",
+        "b": "Decrease in the taxation of imports and exports",
+        "c": "Commercial banks can decide their own interest rates",
+        "d": "PSUs were sold to the private sector"
       },
       "marked": null,
       "cov": {
@@ -74,7 +74,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingisrelatedtotheliberalizationintheeconomicreformof1991?",
+      "q": "Which of the following is related to the liberalization in the economic reform of 1991?",
       "multi": false
     },
     {
@@ -97,7 +97,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thefirstindustrialpolicywaslaunchedin",
+      "q": "The first industrial policy was launched in",
       "multi": false
     },
     {
@@ -107,10 +107,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NarendraModi",
-        "b": "SumanBery",
-        "c": "ArvindPranagaria",
-        "d": "BibekDebroy"
+        "a": "Narendra Modi",
+        "b": "Suman Bery",
+        "c": "Arvind Pranagaria",
+        "d": "Bibek Debroy"
       },
       "marked": null,
       "cov": {
@@ -120,7 +120,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoisthepresentchairmanofNITIAayog?",
+      "q": "Who is the present chairman of NITI Aayog?",
       "multi": false
     },
     {
@@ -130,10 +130,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MinistryofAgricultureandFarmersWelfare",
-        "b": "CabinetCommitteeonEconomicAffairs",
-        "c": "AgriculturalPriceCommission",
-        "d": "CommissionofAgricultureCostsandPrices -2-."
+        "a": "Ministry of Agriculture and Farmers Welfare",
+        "b": "Cabinet Committee on Economic Affairs",
+        "c": "Agricultural Price Commission",
+        "d": "Commission ofA griculture Costs and Prices -2- ."
       },
       "marked": null,
       "cov": {
@@ -143,7 +143,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Minimumsupportprice(MSP)istheguaranteedamountpaidtothefarmersbasedonthe recommendationsof",
+      "q": "Minimum support price (MSP) is the guaranteed amount paid to the farmers based on the recommendations of",
       "multi": false
     },
     {
@@ -166,7 +166,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "InwhichyearPlanningCommissionwassetuptohelpdesignandexecutesuitablepoliciesforeconomic development?",
+      "q": "In which year Planning Commission was set up to help design and execute suitable policies for economic development?",
       "multi": false
     },
     {
@@ -189,7 +189,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Inwhichyearthe734AmendmenttotheConstitutionwasenacted",
+      "q": "In which year the 734 Amendment to the Constitution was enacted",
       "multi": false
     },
     {
@@ -199,10 +199,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PanchsheelAgreement,1954",
-        "b": "ShimlaAgreement,1972",
-        "c": "OpenSkyAgreement2005",
-        "d": "Sino-IndianAgreement1954"
+        "a": "Panchsheel Agreement, 1954",
+        "b": "Shimla Agreement, 1972",
+        "c": "Open Sky Agreement 2005",
+        "d": "Sino-Indian Agreement 1954"
       },
       "marked": null,
       "cov": {
@@ -212,7 +212,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichAgreementisknownasFivePrinciplesofCoexistence?",
+      "q": "Which Agreement is known as Five Principles of Coexistence?",
       "multi": false
     },
     {
@@ -222,10 +222,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Thefirstnationalpopulationpolicywasannouncedin1976",
-        "b": "Thefistnationalpopulationpolicyincreasedtheminimumageforboysandgirlsto21and18",
-        "c": "Therewasmassforcedsterilisationsduringemergencyperiod",
-        "d": "Allthemeasurestakenundernationalpopulationpolicyendedafternationalemergency"
+        "a": "The first national population policy was announced in 1976",
+        "b": "The fist national population policy increased the minimum age for boys and girls to 21 and 18",
+        "c": "There was mass forced sterilisations during emergency period",
+        "d": "All the measures taken under national population policy ended after national emergency"
       },
       "marked": null,
       "cov": {
@@ -235,7 +235,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichstatementisnotcorrectaboutnationalpopulationpoliciesinIndia?",
+      "q": "Which statement is not correct about national population policies in India?",
       "multi": false
     },
     {
@@ -245,10 +245,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Nationalsecurity",
-        "b": "Peacefulusesofnuclearenergy",
+        "a": "National security",
+        "b": "Peaceful uses of nuclear energy",
         "c": "Interpol",
-        "d": "Freetrade"
+        "d": "Free trade"
       },
       "marked": null,
       "cov": {
@@ -258,7 +258,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AnagreementbetweenIndiaandUSAsignedin2007andalsoknownas123Agreementwasinthe fieldof",
+      "q": "An agreement between India and USA signed in 2007 and also known as 123 Agreement was in the field of",
       "multi": false
     },
     {
@@ -268,10 +268,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "1%January2017",
-        "b": "1April2017",
-        "c": "18July2017",
-        "d": "1%July2018"
+        "a": "1% January 2017",
+        "b": "1 April 2017",
+        "c": "18July 2017",
+        "d": "1% July 2018"
       },
       "marked": null,
       "cov": {
@@ -281,7 +281,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "GoodsandServicesTaxeswasintroducedinIndiaon.",
+      "q": "Goods and Services Taxes was introduced in India on .",
       "multi": false
     },
     {
@@ -291,10 +291,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Tochalkoutrecommendationsformajortaxreforms",
-        "b": "Toidentifysociallyoreducationallybackwardclassesandtoconsiderreservations",
-        "c": "Toaddresstheproblemofeconomicinequalityamongthebackwardcommunity",
-        "d": "TostudythefragmentationsoflandholdingsinIndiaandsuggestsuitablelandreformmeasures"
+        "a": "To chalk out recommendations for major tax reforms",
+        "b": "To identify socially or educationally backward classes and to consider reservations",
+        "c": "To address the problem of economic inequality among the backward community",
+        "d": "To study the fragmentations of landholdings in India and suggest suitable land reform measures"
       },
       "marked": null,
       "cov": {
@@ -304,7 +304,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThechiefmandateofMandalCommissionsetupin1979was",
+      "q": "The chief mandate of Mandal Commission set up in 1979 was",
       "multi": false
     },
     {
@@ -314,10 +314,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PawlKut",
-        "b": "ChapcharKut",
-        "c": "MimKut",
-        "d": "ThalfavangKut"
+        "a": "Pawl Kut",
+        "b": "Chapchar Kut",
+        "c": "Mim Kut",
+        "d": "Thalfavang Kut"
       },
       "marked": null,
       "cov": {
@@ -327,7 +327,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichfestivaloftheZoPeopleiscelebratedduringAugust-September?",
+      "q": "Which festival of the Zo People is celebrated during August - September?",
       "multi": false
     },
     {
@@ -337,10 +337,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "11\"January",
-        "b": "15\"March",
-        "c": "15\"April",
-        "d": "30\"September"
+        "a": "11\" January",
+        "b": "15\" March",
+        "c": "15\" April",
+        "d": "30\" September"
       },
       "marked": null,
       "cov": {
@@ -350,7 +350,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichdayinayeariscelebratedasMissionaryDayinMizoram?",
+      "q": "Which day ina year is celebrated as Missionary Day in Mizoram?",
       "multi": false
     },
     {
@@ -360,8 +360,8 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Ch.Saprawnga",
-        "b": "R.Vanlawma",
+        "a": "Ch. Saprawnga",
+        "b": "R. Vanlawma",
         "c": "B.Lalthangliana",
         "d": "R.Zamawia"
       },
@@ -373,7 +373,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowastheauthorofthebookKaRamlehKei?",
+      "q": "Who was the author of the book Ka Ram leh Kei?",
       "multi": false
     },
     {
@@ -386,7 +386,7 @@
         "a": "Rokunga",
         "b": "Vankhama",
         "c": "C.Lakhawliana",
-        "d": "RolianaRalte"
+        "d": "Roliana Ralte"
       },
       "marked": null,
       "cov": {
@@ -396,7 +396,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowasthecomposerofthesongLeimitehunbianchhiare?",
+      "q": "Who was the composer of the song Lei mi te hunbi an chhiar e?",
       "multi": false
     },
     {
@@ -409,7 +409,7 @@
         "a": "Aizawl",
         "b": "Champhai",
         "c": "Serchhip",
-        "d": "Lunglei .3."
+        "d": "Lunglei . 3."
       },
       "marked": null,
       "cov": {
@@ -419,7 +419,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichisthemostliteratedistrictaccordingto2011Census?",
+      "q": "Which is the most literate district according to 2011 Census?",
       "multi": false
     },
     {
@@ -429,10 +429,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "LADChas25electedand4nominatedmembers",
-        "b": "TheearlierPawi-LakherRegionalCouncilwastrifurcatedtothreeregionalcouncilsin1972, whichwerelaterupgradedtothreeADCs.",
-        "c": "LADChasthelargestgeographicalareaandpopulation,followedbyMADC",
-        "d": "TheCADCcoversChawngteandBungtlangSouthRDBlocks"
+        "a": "LADC has 25 elected and 4 nominated members",
+        "b": "The earlier Pawi-Lakher Regional Council was trifurcated to three regional councils in 1972, which were later upgraded to three ADCs.",
+        "c": "LADC has the largest geographical area and population, followed by MADC",
+        "d": "The CADC covers Chawngte and Bungtlang South RD Blocks"
       },
       "marked": null,
       "cov": {
@@ -442,7 +442,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichstatementisnotcorrectabouttheautonomousdistrictcouncilsinMizoram?",
+      "q": "Which statement is not correct about the autonomous district councils in Mizoram?",
       "multi": false
     },
     {
@@ -452,10 +452,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "AnindividualseligibleunderFMRcantravelwithin16kmradiusacrossborderwithoutvisafor aperiodofoneyear",
-        "b": "Anindividualcancrosstheborderfreelyandenterintoeachother’scountrywithoutvisa",
-        "c": "AnindividualseligibleunderFMRcantravelwithin40kmradiusacrossborderwithoutvisafor aperiodofoneyear",
-        "d": "AnindividualseligibleunderFMRcantravelwithin16kmradiusacrossborderwithoutvisafor aperiodofonenightonly"
+        "a": "Anindividuals eligible under FMR can travel within 16km radius across border without visa for a period of one year",
+        "b": "An individual can cross the border freely and enter into each other’s country without visa",
+        "c": "Anindividuals eligible under FMR can travel within 40km radius across border without visa for a period of one year",
+        "d": "An individuals eligible under FMR can travel within 16km radius across border without visa for a period of one night only"
       },
       "marked": null,
       "cov": {
@@ -465,7 +465,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "UnderIndia-MyanmarFreeMovementRegime(FMR)?:",
+      "q": "Under India-Myanmar Free Movement Regime (FMR)? :",
       "multi": false
     },
     {
@@ -475,10 +475,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Providinghousingloantopoorpeopleatcheaperinterestrates",
-        "b": "Promotingwomen’sself-helpgroupsinbackwardareas",
-        "c": "Promotingfinancialinclusioninthecountry",
-        "d": "Providingfinancialhelptothemarginalizedcommunities"
+        "a": "Providing housing loan to poor people at cheaper interest rates",
+        "b": "Promoting women’s self-help groups in backward areas",
+        "c": "Promoting financial inclusion in the country",
+        "d": "Providing financial help to the marginalized communities"
       },
       "marked": null,
       "cov": {
@@ -488,7 +488,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "PradhanMantriJan-DhanYojanawaslaunchedfor",
+      "q": "Pradhan Mantri Jan-Dhan Yojana was launched for",
       "multi": false
     },
     {
@@ -498,10 +498,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Upliftthepoor",
-        "b": "Uplifttheurbanpoor",
-        "c": "Upliftthefarmer:",
-        "d": "Upliftthelandlesslabour (a)1,2&3(b)2&4 (c)1&3(d)1,2,4&4"
+        "a": "Uplift the poor",
+        "b": "Uplift the urban poor",
+        "c": "Upliftthe farmer :",
+        "d": "Uplift the landless labour (a) 1,2&3 (b) 2&4 (c) 1&3 (d) 1,2,4&4"
       },
       "marked": null,
       "cov": {
@@ -511,7 +511,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisthemainobjectiveofAntyodayaProgramme?",
+      "q": "What is the main objective of Antyodaya Programme?",
       "multi": false
     },
     {
@@ -534,7 +534,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "CommonwealthLegalEducationAssociation(CLEA)wasfoundedin",
+      "q": "Commonwealth Legal Education Association (CLEA) was founded in",
       "multi": false
     },
     {
@@ -557,7 +557,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThetermLibertywasderivedfrom",
+      "q": "The term Liberty was derived from",
       "multi": false
     },
     {
@@ -567,10 +567,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Therichest",
-        "b": "Theuppermiddleclass",
-        "c": "Themiddleclass",
-        "d": "Theleastwell-off"
+        "a": "The richest",
+        "b": "The upper middle class",
+        "c": "The middle class",
+        "d": "The least well-off"
       },
       "marked": null,
       "cov": {
@@ -580,7 +580,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AccordingtoRawls,inequalityispermissibleifandonlyifitbenefitsthe",
+      "q": "According to Rawls, inequality is permissible if and only if it benefits the",
       "multi": false
     },
     {
@@ -590,10 +590,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "August15,1947",
-        "b": "November26,1949",
-        "c": "January26,1950",
-        "d": "January1,1950"
+        "a": "August 15, 1947",
+        "b": "November 26, 1949",
+        "c": "January 26, 1950",
+        "d": "January 1, 1950"
       },
       "marked": null,
       "cov": {
@@ -603,7 +603,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheConstitutionofIndiawasenforcedon",
+      "q": "The Constitution of India was enforced on",
       "multi": false
     },
     {
@@ -626,7 +626,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThenumberoffreedomsguaranteedundertheRighttoFreedomis",
+      "q": "The number of freedoms guaranteed under the Right to Freedom is",
       "multi": false
     },
     {
@@ -649,7 +649,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhenwastheNationalEducationalPolicystarted?",
+      "q": "When was the National Educational Policy started?",
       "multi": false
     },
     {
@@ -659,10 +659,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Hehimselfisotherwisesatisfied",
-        "b": "ThePrimeMinistergiveswrittenadvice",
-        "c": "TheParliamentrecommendsit",
-        "d": "TheCabinetrecommendsinwriting"
+        "a": "He himselfis otherwise satisfied",
+        "b": "The Prime Minister gives written advice",
+        "c": "The Parliament recommends it",
+        "d": "The Cabinet recommends in writing"
       },
       "marked": null,
       "cov": {
@@ -672,7 +672,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThePresidentcandeclareNationalEmergencyif",
+      "q": "The President can declare National Emergency if",
       "multi": false
     },
     {
@@ -682,10 +682,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "EitherHouseofParliament",
-        "b": "RajyaSabha",
-        "c": "LokSabha",
-        "d": "VidhanSabha"
+        "a": "Either House of Parliament",
+        "b": "Rajya Sabha",
+        "c": "Lok Sabha",
+        "d": "Vidhan Sabha"
       },
       "marked": null,
       "cov": {
@@ -695,7 +695,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheproposalofimpeachmentofPresidentcanbemovedin",
+      "q": "The proposal of impeachment of President can be moved in",
       "multi": false
     },
     {
@@ -705,10 +705,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Thebudgetisanannualfinancialstatementshowingexpectedrevenueandexpenditureofthe government",
-        "b": "ItisnotaBill",
-        "c": "ItispresentedbytheFinanceMinisterintheLokSabha",
-        "d": "ItispresentedinRajyaSabhaiftheFinanceMinisteritsmember"
+        "a": "The budget is an annual financial statement showing expected revenue and expenditure of the government",
+        "b": "Itisnota Bill",
+        "c": "Itis presented by the Finance Minister in the Lok Sabha",
+        "d": "It is presented in Rajya Sabha if the Finance Minister its member"
       },
       "marked": null,
       "cov": {
@@ -718,7 +718,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichstatementisnotcorrectabouttheBudget",
+      "q": "Which statement is not correct about the Budget",
       "multi": false
     },
     {
@@ -728,8 +728,8 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Advisory.",
-        "b": "Original.",
+        "a": "Advisory .",
+        "b": "Original .",
         "c": "Appellate",
         "d": "Primary"
       },
@@ -741,7 +741,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThedisputebetweentwoormorestatesisbroughtbeforetheSupremeCourtunderits jurisdiction",
+      "q": "The dispute between two or more states is brought before the Supreme Court under its jurisdiction",
       "multi": false
     },
     {
@@ -751,10 +751,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Sevenyears",
-        "b": "Sixyears",
-        "c": "Fiveyears",
-        "d": "Fouryears"
+        "a": "Seven years",
+        "b": "Six years",
+        "c": "Five years",
+        "d": "Four years"
       },
       "marked": null,
       "cov": {
@@ -764,7 +764,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thegovernorisappointedforatermof",
+      "q": "The governor is appointed for a term of",
       "multi": false
     },
     {
@@ -776,8 +776,8 @@
       "opts": {
         "a": "President",
         "b": "Governor",
-        "c": "PrimeMinister",
-        "d": "ChiefMinister"
+        "c": "Prime Minister",
+        "d": "Chief Minister"
       },
       "marked": null,
       "cov": {
@@ -787,7 +787,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "MoneybillisintroducedintheStateLegislatureontherecommendationofthe",
+      "q": "Money bill is introduced in the State Legislature on the recommendation of the",
       "multi": false
     },
     {
@@ -797,10 +797,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "CentralGovernment",
-        "b": "StateGovernment",
-        "c": "CentralFinanceCommission",
-        "d": "StateFinanceCommission"
+        "a": "Central Government",
+        "b": "State Government",
+        "c": "Central Finance Commission",
+        "d": "State Finance Commission"
       },
       "marked": null,
       "cov": {
@@ -810,7 +810,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "The734Amendmenthasprovidedforatoregulatethefinancesoflocalbodies.",
+      "q": "The 734 Amendment has provided for a to regulate the finances of local bodies.",
       "multi": false
     },
     {
@@ -820,10 +820,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "12hoursbeforethepolling",
-        "b": "24hoursbeforethepolling",
-        "c": "48hoursbeforethepolling",
-        "d": "76hoursbeforethepolling"
+        "a": "12 hours before the polling",
+        "b": "24 hours before the polling",
+        "c": "48 hours before the polling",
+        "d": "76 hours before the polling"
       },
       "marked": null,
       "cov": {
@@ -833,7 +833,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Campaigningintheelectionisstopped",
+      "q": "Campaigning in the election is stopped",
       "multi": false
     },
     {
@@ -843,10 +843,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Thatatleast1%ofthevotespolledintherecentLokSabhaorAssemblyelections",
-        "b": "Thatatleast2%ofthevotespolledintherecentLokSabhaorAssemblyelections",
-        "c": "Thatatleast5%ofthevotespolledintherecentLokSabhaorAssemblyelections",
-        "d": "AnypoliticalpartyrecognisedbytheElectionCommissionofIndia ._5-"
+        "a": "That at least 1% of the votes polled in the recent Lok Sabha or Assembly elections",
+        "b": "That at least 2% of the votes polled in the recent Lok Sabha or Assembly elections",
+        "c": "That at least 5% of the votes polled in the recent Lok Sabha or Assembly elections",
+        "d": "Any political party recognised by the Election Commission of India . _5-"
       },
       "marked": null,
       "cov": {
@@ -856,7 +856,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Partiesthatcouldreceivefundingviatheelectoralbonds,whichwasrecentlystruckdownbythe SupremeCourt,were",
+      "q": "Parties that could receive funding via the electoral bonds, which was recently struck down by the Supreme Court, were",
       "multi": false
     },
     {
@@ -866,10 +866,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MadhyaPradesh,Mizoram,Chhatisgarh,Punjab",
-        "b": "WestBengal,MadhyaPradesh,Mizoram,Telangana",
-        "c": "Rajasthan,Mizoram,Chhatisarh,Maharashtra",
-        "d": "Telangana,Mizoram,Rajasthan,MadhyaPradesh"
+        "a": "Madhya Pradesh, Mizoram, Chhatisgarh, Punjab",
+        "b": "West Bengal, Madhya Pradesh, Mizoram, Telangana",
+        "c": "Rajasthan, Mizoram, Chhatisarh, Maharashtra",
+        "d": "Telangana, Mizoram, Rajasthan, Madhya Pradesh"
       },
       "marked": null,
       "cov": {
@@ -879,7 +879,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingstateshadAssemblyElectionin2023?",
+      "q": "Which of the following states had Assembly Election in 2023?",
       "multi": false
     },
     {
@@ -889,10 +889,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "KarpooriThakur",
-        "b": "T.N.Sheshan",
-        "c": "ShomNathChatterjee",
-        "d": "SheikhHasina"
+        "a": "Karpoori Thakur",
+        "b": "T.N. Sheshan",
+        "c": "Shom Nath Chatterjee",
+        "d": "Sheikh Hasina"
       },
       "marked": null,
       "cov": {
@@ -902,7 +902,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowasawardedBharatRatnarecently",
+      "q": "Who was awarded Bharat Ratna recently",
       "multi": false
     },
     {
@@ -913,7 +913,7 @@
       "direction": null,
       "opts": {
         "a": "Mizoram",
-        "b": "Assam,",
+        "b": "Assam ,",
         "c": "Nagaland",
         "d": "Tripura"
       },
@@ -925,7 +925,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthepresent-daystatewasnotapartofcolonialAssam?",
+      "q": "Which of the present-day state was not a part of colonial Assam?",
       "multi": false
     },
     {
@@ -948,7 +948,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Sistan-Baluchestanregion,sometimesseeninthenews,islocatedin",
+      "q": "Sistan-Baluchestan region, sometimes seen in the news, is located in",
       "multi": false
     },
     {
@@ -958,10 +958,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "NovakDjokovic",
-        "b": "JannikSinner",
-        "c": "DanilMedvedev",
-        "d": "CarlosAlcaraz"
+        "a": "Novak Djokovic",
+        "b": "Jannik Sinner",
+        "c": "Danil Medvedev",
+        "d": "Carlos Alcaraz"
       },
       "marked": null,
       "cov": {
@@ -971,7 +971,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Winnerofthemen’ssingleAustralianOpen2024was",
+      "q": "Winner of the men’s single Australian Open 2024 was",
       "multi": false
     },
     {
@@ -984,7 +984,7 @@
         "a": "Pakistan",
         "b": "Bangladesh",
         "c": "Canada",
-        "d": "Italy :(a)Kazakhstan(b)SaudiArabia (c)UnitedArabEminates(d)Iran"
+        "d": "Italy : (a) Kazakhstan (b) Saudi Arabia (c) United Arab Eminates (d) Iran"
       },
       "marked": null,
       "cov": {
@@ -994,7 +994,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "RecentlyIndiasignedMigrationandMobilityAgreementwithwhichofthefollowingcountries?",
+      "q": "Recently India signed Migration and Mobility Agreement with which of the following countries?",
       "multi": false
     },
     {
@@ -1004,10 +1004,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Anautomaticdronetheworksonvoicecommands",
-        "b": "Acomputersoftwarethatinstallsspywareondevicewithoutowners’consent",
-        "c": "Amalaciouswebsitethatshowsirrelevantadvertisements",
-        "d": "AnewlylaunchedautomaticgunforIndianarmy"
+        "a": "Anautomatic drone the works on voice commands",
+        "b": "A computer software that installs spyware on device without owners’ consent",
+        "c": "A malacious website that shows irrelevant advertisements",
+        "d": "A newly launched automatic gun for Indian army"
       },
       "marked": null,
       "cov": {
@@ -1017,7 +1017,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Pegasus,sometimesseeninthenewsis",
+      "q": "Pegasus, sometimes seen in the news is",
       "multi": false
     },
     {
@@ -1027,9 +1027,9 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Inadequatehousing",
+        "a": "Inadequate housing",
         "b": "Overcrowding",
-        "c": "Adequatewatersupply",
+        "c": "Adequate water supply",
         "d": "Congestion"
       },
       "marked": null,
@@ -1040,7 +1040,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichisnotthecharacteristicsofslumsinIndia?",
+      "q": "Which is not the characteristics of slums in India?",
       "multi": false
     },
     {
@@ -1050,10 +1050,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PrathamNGO",
-        "b": "MinistryofEducation",
-        "c": "SamagraShikshaAbhyan",
-        "d": "NITIAayog"
+        "a": "Pratham NGO",
+        "b": "Ministry of Education",
+        "c": "Samagra Shiksha Abhyan",
+        "d": "NITI Aayog"
       },
       "marked": null,
       "cov": {
@@ -1063,7 +1063,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "AnnualStatusofEducationReport(ASER)2023wasreleasedby",
+      "q": "Annual Status of Education Report (ASER) 2023 was released by",
       "multi": false
     },
     {
@@ -1073,10 +1073,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MinistryofSocialJusticeandEmpowerment",
-        "b": "MinistryofCommerceandIndustry",
-        "c": "NITIAayog",
-        "d": "PrimeMinister’sOffice"
+        "a": "Ministry of Social Justice and Empowerment",
+        "b": "Ministry of Commerce and Industry",
+        "c": "NITI Aayog",
+        "d": "Prime Minister’s Office"
       },
       "marked": null,
       "cov": {
@@ -1086,7 +1086,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "NationalMultidimensionalPovertyIndexisreleasedby",
+      "q": "National Multidimensional Poverty Index is released by",
       "multi": false
     },
     {
@@ -1096,10 +1096,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Freeelectrictothepoorhouseholds",
-        "b": "Rooftopsolarpowertoonecrorehouseholds",
-        "c": "Gridconnectedpowertothehouseholds",
-        "d": "Greenenergytothepeople i"
+        "a": "Free electric to the poor households",
+        "b": "Rooftop solar power to one crore households",
+        "c": "Grid connected power to the households",
+        "d": "Green energy to the people i"
       },
       "marked": null,
       "cov": {
@@ -1109,7 +1109,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThePrimeMinisterrecentlyannouncedPradhanMantriSuryodayaYojanatoprovide",
+      "q": "The Prime Minister recently announced Pradhan Mantri Suryodaya Yojana to provide",
       "multi": false
     },
     {
@@ -1132,7 +1132,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "RecentlythePrimeMinistryofIndiainauguratedthecountry’slongestbridgeovertheseacalledAtal Setuinwhichofthefollowingcities?",
+      "q": "Recently the Prime Ministry of India inaugurated the country’s longest bridge over the sea called Atal Setu in which of the following cities?",
       "multi": false
     },
     {
@@ -1142,10 +1142,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "PresidentofIndia",
-        "b": "PrimeMinisterofIndia",
-        "c": "UnionSportsMinister",
-        "d": "HomeMinisterofIndia"
+        "a": "President of India",
+        "b": "Prime Minister of India",
+        "c": "Union Sports Minister",
+        "d": "Home Minister of India"
       },
       "marked": null,
       "cov": {
@@ -1155,7 +1155,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoamongthefollowingdignitariesofIndiapresentstheNationalSportsandAdventureAwards?",
+      "q": "Who among the following dignitaries of India presents the National Sports and Adventure Awards?",
       "multi": false
     },
     {
@@ -1165,10 +1165,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MinistryofRoadTransport&Highways",
-        "b": "MinistryofHomeAffairs",
-        "c": "MinistryofAgriculture&FarmersWelfare",
-        "d": "MinistryofDefence."
+        "a": "Ministry of Road Transport & Highways",
+        "b": "Ministry of Home Affairs",
+        "c": "Ministry of Agriculture & Farmers Welfare",
+        "d": "Ministry of Defence ."
       },
       "marked": null,
       "cov": {
@@ -1178,7 +1178,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingministriesgetthelargestallocationintheinterimbudget2024-25?",
+      "q": "Which of the following ministries get the largest allocation in the interim budget 2024-25?",
       "multi": false
     },
     {
@@ -1188,10 +1188,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ManagingImmunization",
-        "b": "ManagingUrbanwetlands",
-        "c": "ManagingWomenSafety",
-        "d": "Managingfarmers’suicide"
+        "a": "Managing Immunization",
+        "b": "Managing Urban wetlands",
+        "c": "Managing Women Safety",
+        "d": "Managing farmers’ suicide"
       },
       "marked": null,
       "cov": {
@@ -1201,7 +1201,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheU-WINplatformrolledoutacrossthecountrythroughBudget2024-25isassociatedwithwhich ofthefollowing?",
+      "q": "The U-WIN platform rolled out across the country through Budget 2024-25 is associated with which of the following?",
       "multi": false
     },
     {
@@ -1211,10 +1211,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Atypeofbiomedicineusingnanotechnologythatareabletoattackcancercellsselectively",
-        "b": "Atypeoffertilizercontainingnitrogenandphosphorus",
-        "c": "Anonobiosensorthatcouldbeusedtodetectthepresenceofpathogensinfood",
-        "d": "Smartfabricsmadeusingnanotechnology"
+        "a": "A type of biomedicine using nanotechnology that are able to attack cancer cells selectively",
+        "b": "A type of fertilizer containing nitrogen and phosphorus",
+        "c": "Anonobiosensor that could be used to detect the presence of pathogens in food",
+        "d": "Smart fabrics made using nanotechnology"
       },
       "marked": null,
       "cov": {
@@ -1224,7 +1224,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhatisNano-DAP,mentionedintheInterimBudget2024-25?-",
+      "q": "What is Nano-DAP, mentioned in the Interim Budget 2024-25? -",
       "multi": false
     },
     {
@@ -1234,10 +1234,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Rajasthan,",
+        "a": "Rajasthan ,",
         "b": "Kerala",
         "c": "Goa",
-        "d": "TamilNadu"
+        "d": "Tamil Nadu"
       },
       "marked": null,
       "cov": {
@@ -1247,7 +1247,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichstateofIndiabecamethefirsttoimplementblindnesscontrolpolicycalled“RighttoSight”?:",
+      "q": "Which state of India became the first to implement blindness control policy called “Right to Sight”? :",
       "multi": false
     },
     {
@@ -1257,10 +1257,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "BiblabKumarDev",
-        "b": "ManikSaha",
-        "c": "ManikSarkar",
-        "d": "BiblabSarma"
+        "a": "Biblab Kumar Dev",
+        "b": "Manik Saha",
+        "c": "Manik Sarkar",
+        "d": "Biblab Sarma"
       },
       "marked": null,
       "cov": {
@@ -1270,7 +1270,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whowasrecentlysworninasthe12\"ChiefMinisterofTripura",
+      "q": "Who was recently sworn in as the 12\" Chief Minister of Tripura",
       "multi": false
     },
     {
@@ -1280,10 +1280,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "JoeBiden",
-        "b": "NarendraModi",
-        "c": "VladimirPutin",
-        "d": "VolodymyrZelenskyy"
+        "a": "Joe Biden",
+        "b": "Narendra Modi",
+        "c": "Vladimir Putin",
+        "d": "Volodymyr Zelenskyy"
       },
       "marked": null,
       "cov": {
@@ -1293,7 +1293,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whowasrecognisedasthe2022PersonoftheYearbytheTimeMagazine?",
+      "q": "Who was recognised as the 2022 Person of the Year by the Time Magazine?",
       "multi": false
     },
     {
@@ -1303,10 +1303,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "AngelaMerkel",
-        "b": "RishiSunak",
-        "c": "KamalaHarris",
-        "d": "EmanuelMacron"
+        "a": "Angela Merkel",
+        "b": "Rishi Sunak",
+        "c": "Kamala Harris",
+        "d": "Emanuel Macron"
       },
       "marked": null,
       "cov": {
@@ -1316,7 +1316,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhowasawardedtheUNESCOPeacePrize2022?",
+      "q": "Who was awarded the UNESCO Peace Prize 2022?",
       "multi": false
     },
     {
@@ -1328,7 +1328,7 @@
       "opts": {
         "a": "Odisha",
         "b": "Maharashtra",
-        "c": "WestBengal",
+        "c": "West Bengal",
         "d": "Assam"
       },
       "marked": null,
@@ -1339,7 +1339,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThepresentVicePresidentofIndia,JagdeepDhankar,wastheformerGovernorofwhichstate?",
+      "q": "The present Vice President of India, Jagdeep Dhankar, was the former Governor of which state?",
       "multi": false
     },
     {
@@ -1349,10 +1349,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "M.C.MaryKom",
-        "b": "LovlinaBorgohain",
-        "c": "SaweetyBoora",
-        "d": "JennyLalremliani"
+        "a": "M.C. Mary Kom",
+        "b": "Lovlina Borgohain",
+        "c": "Saweety Boora",
+        "d": "Jenny Lalremliani"
       },
       "marked": null,
       "cov": {
@@ -1362,7 +1362,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhoamongthefollowingisthefirstIndianwomenboxertowinamedalinOlympicGames?",
+      "q": "Who among the following is the first Indian women boxer to win a medal in Olympic Games?",
       "multi": false
     },
     {
@@ -1372,10 +1372,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Certificateofdeposit",
-        "b": "Commercialpaper",
-        "c": "Promissorynote",
-        "d": "Participatorynotes ——"
+        "a": "Certificate of deposit",
+        "b": "Commercial paper",
+        "c": "Promissory note",
+        "d": "Participatory notes ——"
       },
       "marked": null,
       "cov": {
@@ -1385,7 +1385,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichofthefollowingisissuedbyregisteredforeignportfolioinvestorstooverseasinvestorswho wanttobepartoftheIndianstockmarketwithoutregisteringthemselvesdirectly?",
+      "q": "Which of the following is issued by registered foreign portfolio investors to overseas investors who want to be part of the Indian stock market without registering themselves directly?",
       "multi": false
     },
     {
@@ -1396,8 +1396,8 @@
       "direction": null,
       "opts": {
         "a": "Benin",
-        "b": "BurkinaFaso",
-        "c": "Coted’Ivoire",
+        "b": "Burkina Faso",
+        "c": "Cote d’Ivoire",
         "d": "Ghana"
       },
       "marked": null,
@@ -1408,7 +1408,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichofthefollowingcountriesgrapplingwithJihadistviolenceandpovertyhaverecentlyannounced itsdeparturefromECOWAS?",
+      "q": "Which of the following countries grappling with Jihadist violence and poverty have recently announced its departure from ECOWAS?",
       "multi": false
     },
     {
@@ -1418,10 +1418,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "25\"January",
-        "b": "26\"January",
-        "c": "15\"August",
-        "d": "29%November"
+        "a": "25\" January",
+        "b": "26\" January",
+        "c": "15\" August",
+        "d": "29% November"
       },
       "marked": null,
       "cov": {
@@ -1431,7 +1431,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichdayinayeariscelebratedasNationalVotersDayinIndia?",
+      "q": "Which day in a year is celebrated as National Voters Day in India?",
       "multi": false
     },
     {
@@ -1442,7 +1442,7 @@
       "direction": null,
       "opts": {
         "a": "Surat",
-        "b": "Portblair.",
+        "b": "Portblair .",
         "c": "Goa",
         "d": "Jaipur"
       },
@@ -1454,7 +1454,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thewinnerofthecleanestcitiesaward2023givenbythePresidentwasgivento",
+      "q": "The winner of the cleanest cities award 2023 given by the President was given to",
       "multi": false
     },
     {
@@ -1464,10 +1464,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Maharashtra,MizoramandMadhyaPradesh",
-        "b": "Maharashtra,MadhyaPradeshandChhatisgarh",
-        "c": "Maharashtra,OdhissaandTamilNadu",
-        "d": "Maharashtra,KarnatakaandKerala"
+        "a": "Maharashtra, Mizoram and Madhya Pradesh",
+        "b": "Maharashtra, Madhya Pradesh and Chhatisgarh",
+        "c": "Maharashtra, Odhissa and Tamil Nadu",
+        "d": "Maharashtra, Karnataka and Kerala"
       },
       "marked": null,
       "cov": {
@@ -1477,7 +1477,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "ThebestperformingstatesonSwachSurvekshanAwards2023are",
+      "q": "The best performing states on Swach Survekshan Awards 2023 are",
       "multi": false
     },
     {
@@ -1487,10 +1487,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "WorldHealthOrganisation",
-        "b": "WorldTradeOrganisation",
-        "c": "WorldEconomicForum",
-        "d": "TheUnitedNationsConferenceonTradeandDevelopment (a)NorthMacedonia(b)Finland :(c)Hungary(d)Sweeden"
+        "a": "World Health Organisation",
+        "b": "World Trade Organisation",
+        "c": "World Economic Forum",
+        "d": "The United Nations Conference on Trade and Development (a) North Macedonia (b) Finland : (c) Hungary (d) Sweeden"
       },
       "marked": null,
       "cov": {
@@ -1500,7 +1500,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "GlobalRiskReportisreleasedby",
+      "q": "Global Risk Report is released by",
       "multi": false
     },
     {
@@ -1510,10 +1510,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Temperatureshouldbelow",
-        "b": "Leshumidity/moisture",
-        "c": "Condensationofwaterdroplets",
-        "d": "Both(a)&(c)"
+        "a": "Temperature should be low",
+        "b": "Les humidity/moisture",
+        "c": "Condensation of water droplets",
+        "d": "Both (a) & (c)"
       },
       "marked": null,
       "cov": {
@@ -1523,7 +1523,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichstatementsiscorrectregardingconditionsforformationof.fog?",
+      "q": "Which statements is correct regarding conditions for formation of. fog?",
       "multi": false
     },
     {
@@ -1534,8 +1534,8 @@
       "direction": null,
       "opts": {
         "a": "PuLalduhawma",
-        "b": "Dr.KennethChawngliana",
-        "c": "Dr.RenukaSharma",
+        "b": "Dr. Kenneth Chawngliana",
+        "c": "Dr. Renuka Sharma",
         "d": "PuLalmalsawma"
       },
       "marked": null,
@@ -1546,7 +1546,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "TheChairmanoftheMizoramStatePlanningBoardis",
+      "q": "The Chairman of the Mizoram State Planning Board is",
       "multi": false
     },
     {
@@ -1569,7 +1569,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhenwasNationalHighwayandInfrastructureDevelopmentCorporationLimited(NHIDCL) established?",
+      "q": "When was National Highway and Infrastructure Development Corporation Limited (NHIDCL) established?",
       "multi": false
     },
     {
@@ -1579,10 +1579,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "ThisschemewaslaunchedbytheMinistryofScienceandTechnology",
-        "b": "Itprovidesadvancedwarningservicesfornaturaldisasters",
-        "c": "ItaimstoexplorethethreepolesoftheEarth-Arctic,AntarcticandHimalayas",
-        "d": "TheschemewaslaunchedbytheMinistryofDefence"
+        "a": "This scheme was launched by the Ministry of Science and Technology",
+        "b": "It provides advanced warning services for natural disasters",
+        "c": "Itaims to explore the three poles of the Earth-Arctic, Antarctic and Himalayas",
+        "d": "The scheme was launched by the Ministry of Defence"
       },
       "marked": null,
       "cov": {
@@ -1592,7 +1592,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WhichstatementiscorrectabouttherecentlylaunchedPRITHviVigyanScheme",
+      "q": "Which statement is correct about the recently launched PRITHvi Vigyan Scheme",
       "multi": false
     },
     {
@@ -1602,10 +1602,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "RohanBopanna",
-        "b": "VishnuVardhan",
-        "c": "LeanderPaes",
-        "d": "M.Bhupathi"
+        "a": "Rohan Bopanna",
+        "b": "Vishnu Vardhan",
+        "c": "Leander Paes",
+        "d": "M. Bhupathi"
       },
       "marked": null,
       "cov": {
@@ -1615,7 +1615,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IndiantennisplayerwhowonAustralianmen’sdoubles2024was",
+      "q": "Indian tennis player who won Australian men’s doubles 2024 was",
       "multi": false
     },
     {
@@ -1625,10 +1625,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "MinistryofDefence",
-        "b": "MinistryofCulture",
-        "c": "MinistryofFinance",
-        "d": "MinistryofCorporateAffairs"
+        "a": "Ministry of Defence",
+        "b": "Ministry of Culture",
+        "c": "Ministry of Finance",
+        "d": "Ministry of Corporate Affairs"
       },
       "marked": null,
       "cov": {
@@ -1638,7 +1638,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thetableauthemed“BharatMotherofDemocracy”whichclinched1*PlaceattheRepublicDay 2024wasassociatedwith",
+      "q": "The tableau themed “Bharat Mother of Democracy” which clinched 1* Place at the Republic Day 2024 was associated with",
       "multi": false
     },
     {
@@ -1661,7 +1661,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "India’srankinthecorruptionperceptionindex2023ofTransparencyInternationalwas",
+      "q": "India’s rank in the corruption perception index 2023 of Transparency International was",
       "multi": false
     },
     {
@@ -1671,10 +1671,10 @@
       "conventional": false,
       "direction": null,
       "opts": {
-        "a": "Genderequalitytodayforasustainbletomorrow",
-        "b": "DigitAll:innovationandtechnologyforgenderequality:",
-        "c": "Thinkequal,buildsmark,innovateforchange",
-        "d": "Investinwomen:accelerateprogress"
+        "a": "Gender equality today for a sustainble tomorrow",
+        "b": "DigitAll: innovation and technology for gender equality :",
+        "c": "Think equal, build smark, innovate for change",
+        "d": "Invest in women: accelerate progress"
       },
       "marked": null,
       "cov": {
@@ -1684,7 +1684,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Thethemeof‘InternationalWomen’sDay2024’was",
+      "q": "The theme of ‘International Women’s Day 2024’ was",
       "multi": false
     },
     {
@@ -1697,7 +1697,7 @@
         "a": "Bengaluru",
         "b": "Hyderabad",
         "c": "Kolkata",
-        "d": "Chennai:"
+        "d": "Chennai :"
       },
       "marked": null,
       "cov": {
@@ -1707,7 +1707,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "WherewastheIndia’sfirstunderwatermetroserviceinaugurated?",
+      "q": "Where was the India’s first underwater metro service inaugurated?",
       "multi": false
     },
     {
@@ -1730,7 +1730,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichcountryrecentlybecamethefirsttoincludetherighttoabortioninitsconstitution?",
+      "q": "Which country recently became the first to include the right to abortion in its constitution?",
       "multi": false
     },
     {
@@ -1738,7 +1738,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "DirectiontosolveQuestionNos.81&82:Replacethequestionsmark(2)intheseriesgiven.",
+      "direction": "Direction to solve Question Nos. 81 & 82 : Replace the questions mark (2) in the series given .",
       "opts": {
         "a": "1440",
         "b": "960",
@@ -1753,7 +1753,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "2,4,12,48,240,?",
+      "q": "2,4,12,48,240, ?",
       "multi": false
     },
     {
@@ -1776,7 +1776,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "88,64,24,?",
+      "q": "88, 64, 24, ?",
       "multi": false
     },
     {
@@ -1789,7 +1789,7 @@
         "a": "2%",
         "b": "3%",
         "c": "1%",
-        "d": "Noneofthese"
+        "d": "None of these"
       },
       "marked": null,
       "cov": {
@@ -1799,7 +1799,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "IfthesalaryofDavidisfirstincreasedby10%andthenreducedby10%,thenwhatwillbethenet% changeinhissalary?",
+      "q": "Ifthe salary of David is first increased by 10% and then reduced by 10%, then what will be the net % change in his salary?",
       "multi": false
     },
     {
@@ -1807,7 +1807,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "DirectiontosolveQuestonNos.84&85:Ineachofthefollowingquestions,onenumberis",
+      "direction": "Direction to solve Queston Nos. 84 & 85 : In each of the following questions, one number is",
       "opts": {
         "a": "343",
         "b": "64",
@@ -1822,7 +1822,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "8,27,64,125,218,343",
+      "q": "8, 27, 64, 125, 218, 343",
       "multi": false
     },
     {
@@ -1830,7 +1830,7 @@
       "page": 8,
       "part": null,
       "conventional": false,
-      "direction": "DirectiontosolveQuestonNos.84&85:Ineachofthefollowingquestions,onenumberis",
+      "direction": "Direction to solve Queston Nos. 84 & 85 : In each of the following questions, one number is",
       "opts": {
         "a": "9",
         "b": "32",
@@ -1845,7 +1845,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "9,14,19,25,32,40",
+      "q": "9, 14, 19, 25, 32, 40",
       "multi": false
     },
     {
@@ -1853,12 +1853,12 @@
       "page": 9,
       "part": null,
       "conventional": false,
-      "direction": "DirectiontosolveQuestionNo.87:Choosethewordwhichistheexactoppositeofthegiven",
+      "direction": "Direction to solve Question No. 87: Choose the word which is the exact opposite of the given",
       "opts": {
         "a": "Active",
         "b": "Weak",
         "c": "Dormant",
-        "d": "Unconcerned andshorterthanSunita.SunitaisnotthetallestandRenuisnottheshortest."
+        "d": "Unconcerned and shorter than Sunita. Sunita is not the tallest and Renu is not the shortest."
       },
       "marked": null,
       "cov": {
@@ -1881,7 +1881,7 @@
         "a": "Sunita",
         "b": "Bina",
         "c": "Gauri",
-        "d": "Datainadequate (a)Radha(b)Renu (c)Bina(d)Seema (a)Pedantic(b)Verbose °(c)Ornate(d)Pompous"
+        "d": "Data inadequate (a) Radha (b) Renu (c) Bina (d) Seema (a) Pedantic (b) Verbose ° (c) Ornate (d) Pompous"
       },
       "marked": null,
       "cov": {
@@ -1891,7 +1891,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whoisthetallest?",
+      "q": "Who is the tallest?",
       "multi": false
     },
     {
@@ -1914,7 +1914,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whichfigureisarotationoftheobject?",
+      "q": "Which figure isa rotation of the object?",
       "multi": false
     },
     {
@@ -1937,7 +1937,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Outofthefollowing5images,selecttheonedepictingthesameobjectshownabove. 4ty Beasee ia| eezlwr",
+      "q": "Out of the following 5 images, select the one depicting the same object shown above. 4 ty Beas ee ia | ee zl wr",
       "multi": false
     },
     {
@@ -1960,7 +1960,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Whenputtogetherproperly,thetopthreepuzzlepieceswillcreateoneofthefollowingshapes.Note thatasidemarkeAdhastotoucAhandsoforth.Choosethecorrectanswer. B D.piaD 5atlLE| eT.gleee iVo:a4 \\i-E ~¢éOAc Ac 2Se,mn”Po ‘Es\\Le ss,eSiLLt-4",
+      "q": "When put together properly, the top three puzzle pieces will create one of the following shapes. Note that a side markeAd  has to toucAh  and so forth. Choose the correct answer. B D. pia D 5 atl LE | eT. gl eee i Vo : a4 \\ i - E ~ ¢ é OA c A c 2 Se , mn” Po ‘ Es \\ Le ss, eS i LL t-4",
       "multi": false
     },
     {
@@ -1968,7 +1968,7 @@
       "page": 12,
       "part": null,
       "conventional": false,
-      "direction": "DirectionstosolveQuestionNos.98-100:Ineachofthefollowingquestions,selectthefigures",
+      "direction": "Directions to solve Question Nos. 98 - 100 : In each of the following questions, select the figures",
       "opts": {
         "a": "",
         "b": "",
@@ -1983,7 +1983,7 @@
         "d": 0.0
       },
       "ambiguous": [],
-      "q": "Identifythefigurethatcompletesthepattern. ePlPl]Py",
+      "q": "Identify the figure that completes the pattern. e Pl Pl] Py",
       "multi": false
     }
   ],

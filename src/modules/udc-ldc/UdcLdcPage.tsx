@@ -3,6 +3,7 @@ import { getBank } from '@/data/banks/index';
 import { mpscUdcLdcNegativeMarking } from '@/data/banks/mpsc-udc-ldc';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
 import { QuestionText } from './QuestionText';
+import { QuestionContext } from './QuestionContext';
 import { QuestionImage } from './QuestionImage';
 import type { ProgressMap } from './useProgress';
 import { isMcqQuestion } from '@/data/banks/types';
@@ -748,11 +749,7 @@ function BrowseView({
                         />
                       )}
                       <div style={{ flex: 1 }}>
-                        {q.direction && (
-                          <div className="udc-question-direction">
-                            {q.direction}
-                          </div>
-                        )}
+                        <QuestionContext direction={q.direction} passage={q.passage} plain={mode.plain} collapsed />
                         {q.sourceReview && <p style={{ fontSize: 12, color: 'var(--warn, #b06f1a)', margin: '0 0 8px' }}>
                           {q.sourceReviewed ? 'The printed source is checked; this item is held unscored. ' : 'This item needs review before scored practice. '}
                           {q.sourceHref && <a href={q.sourceHref} target="_blank" rel="noreferrer">Check the printed source ↗</a>}

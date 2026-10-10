@@ -44,37 +44,60 @@ new papers. Cross-page duplicates exist. `2019–20 G` is already covered by the
 | [2022–2023 G](https://mpsc.mizoram.gov.in/page/old-question-2022-2023) | 7 | 0 | Imported eligible new English links. Mathematics in MCS Main remains excluded as optional specialist subject, not arithmetic. |
 | [2023–2025 G](https://mpsc.mizoram.gov.in/page/old-question-2023-2024) | 33 | 0 | Imported eligible new General English PDFs; existing 40 GS/Knowledge/Math/Arithmetic PDFs were reused. |
 | [2025–2027 G](https://mpsc.mizoram.gov.in/page/old-question-g-2025-2027) | 26 | 2 | Imported eligible new English PDFs and the distinct JAO 2026 Series B GK/Arithmetic/Reasoning booklet. Its 15 arithmetic questions are separated from GK and Reasoning. |
-| [2024–2027 NG](https://mpsc.mizoram.gov.in/page/old-question-ng) | 19 | 1 | Imported the distinct Assistant LESO April 2026 General English paper (66 MCQs, official final key); AAO 2024 Arithmetic is an exact duplicate. AAO/SI alternate English series B–D are duplicate question sets. |
+| [2024–2027 NG](https://mpsc.mizoram.gov.in/page/old-question-ng) | 19 | 1 | Imported the distinct Assistant LESO April 2026 General English paper (66 MCQs, 65 ready, one held key conflict); AAO 2024 Arithmetic is an exact duplicate. AAO/SI alternate English series B–D are duplicate question sets. |
 
 ## Continuation steps
 
 ### Solving progress
 
-The English archive import is complete, but its questions are not fully
-source-reviewed or solved. A first scan-verified batch is complete for the
-August 2026 Assistant Controller of Mines General English paper:
+The eligible English archive import is complete. Content review and solving
+continue paper by paper; most archive questions remain unscored.
 
-- Part B MCQs 1–10, 16–25, 27–28, 30–43, 45–63, and 65–66 have exact
-  stems/options checked against printed pages 3–12, with derived answers and
-  explanations. These 57 are practice-ready; the paper remains excluded from
-  full Exam mode because other MCQs and its separate written section remain.
-- MCQs 11–15 remain held. The extraction cuts off the end of each sentence;
-  recover the complete text and options from printed page 5 before scoring.
-- Q26 and Q29 each have multiple grammatically acceptable rewrites; Q44 has
-  two potentially defensible meanings; Q64 has formal “whom” and widely
-  accepted “who” object usage. Keep all four held unless an official key or
-  stronger source evidence resolves the choice.
-- Part A contains written prompts with numbering that overlaps Part B. Keep
-  the written section distinct; do not merge its numbering into the MCQ set.
-- Repairs: `tools/udc-ldc-build/group-b-text-repairs.json`, keyed by the archive
-  source slug. Generation logic and the exam marking metadata are in
-  `tools/udc-ldc-build/group_b_sources.py`.
+| Reviewed paper | MCQs checked | Ready / official | Held | Written guide records |
+| --- | ---: | ---: | ---: | ---: |
+| Assistant Controller of Mines, August 2026 | 66 | 66 / 66 | 0 | 4 |
+| Assistant LESO, April 2026 | 66 | 65 / 65 | 1 | 3 |
 
-Current bank: 352 papers / 22,676 records; 3,829 practice-ready (1,684
-official-key-backed). The latest build report is authoritative. The English
-archive backlog still needs page-by-page transcription and worked solutions;
-legacy inferred answers are candidates only and must not be scored without
-reasoning and scan checks.
+Mines Q11–15 are recovered from pages 4–5. Its official final key dated
+31 August 2026 agrees with all 57 previously derived answers and supplies the
+expected answers for Q26/Q29/Q44/Q64. The guides preserve defensible usage
+alternatives. The key is registered in `verified-general-keys.json`, with the
+official download URL and local PDF page reference. Question 3 subquestion 4
+retains stable ID `-written-4`, is displayed as 3.4, and carries the passage.
+
+LESO Q58 is held: official final key B conflicts with option D's grammatical
+“so … that” construction. The official B and independent D remain visible with
+their provenance. Other source quirks, contextual alternatives and modern
+singular “their” are explained. Neither mixed written/MCQ paper enters full
+Exam mode; its reviewed MCQs remain available in practice.
+
+The provenance correction also exposed three pre-existing AAO 2024 English
+conflicts: Q23 (meaning-preserving passive), Q37 (“tenacious of life”), and Q77
+(“come in the way of” = hamper). They now remain unscored. The generator holds
+any scan-reviewed independent solution that conflicts with a single official
+choice; it retains both answers and adds a dispute note. Four solved/key
+conflicts are held in total, including LESO Q58. Legacy inferred candidates
+remain distinct and are not promoted to independently solved answers.
+
+Repairs are hash-pinned in `tools/udc-ldc-build/group-b-text-repairs.json`.
+The generator preserves official answer provenance and stores independently
+worked answers separately. Written outlines are independent guides, not an
+official model answer or scoring rubric issued by MPSC.
+
+Current bank: **352 papers / 22,676 records; 3,834 practice-ready (1,752
+official-key-backed)**. The latest build report is authoritative. The English
+review ledger is `tools/udc-ldc-build/english-review-progress.json`, regenerated
+by the bank builder. It covers 236 English-bearing sources; 8,421 extracted
+MCQs and 645 written records still need review/guides, with 30 reviewed English
+MCQs held. Missing totals are tracked separately; null means unknown. Counts
+refer to grouped records, not necessarily individual written subparts.
+
+Next: select a ledger row with `pendingMcq` or `pendingWritten`, verify its
+source hash and cover, render every relevant PDF page, and add exact
+transcription plus worked explanations in durable repair inputs. Prioritize
+papers with recoverable numbering/typography and complete official keys. Do
+not re-import sources already in the ledger. Legacy inferred answers stay
+unscored until independently reasoned and scan-checked.
 
 1. Read the module contract in [HANDOFF-SUBJECT-PRACTICE.md](HANDOFF-SUBJECT-PRACTICE.md)
    and current import inventory in [HANDOFF-GROUP-B.md](HANDOFF-GROUP-B.md).
@@ -104,6 +127,10 @@ reasoning and scan checks.
       extraction and the official final key. Three written prompts are retained
       separately. The key was visually checked from the official key PDF page 1.
 
+- [x] Complete source typography, directions, explanations and seven written
+      guide records for Mines and LESO. Attach Mines' official final key; retain
+      LESO Q58 as an explicit unscored conflict.
+- [x] Add a deterministic English progress ledger for future model continuation.
 - [x] Fetch all eight supplied archive pages and count relevant unique PDF URLs.
 - [x] Check all 214 title-matched English/Arithmetic attachment URLs; 212
       responded with PDF/HTTP 200 and the two 404s are listed above.
@@ -181,8 +208,8 @@ reasoning and scan checks.
 - The Gazetted addition consists of 109 new English source PDFs and one JAO 2026
   Series B booklet with a distinct question set. NG added Assistant LESO General
   English as the only distinct English source in the audited page. The generated
-  bank now has 352 papers / 22,676 records; 3,829 are practice-ready
-  (1,684 official-key-backed).
+  bank now has 352 papers / 22,676 records; 3,834 are practice-ready
+  (1,752 official-key-backed).
 - The JAO Series B set has 60 GK, 17 Reasoning and 15 Arithmetic questions.
   After page 2–12 scan review, 14 were manually solved and 82 exact Series A
   stem/options matches supplied independent solutions; Q40 remains held among
@@ -214,3 +241,36 @@ application state are in the sibling import handoffs. The in-app preview
 browser previously declined localhost access; that attempt must not be retried
 through a workaround. Use the approved local verification route if one becomes
 available.
+
+### Model and effort guidance
+
+Task-specific judgment based on the [official OpenAI model-selection guide](https://developers.openai.com/api/docs/guides/model-selection):
+use **GPT-6 Luna, medium** for a small, clearly bounded paper with readable
+scans, known option order and a complete official key; use **low** for verified
+metadata/format-only edits. Start with one paper and keep every verification
+gate above. Use **GPT-6.1 Sol, xhigh** for damaged OCR, overlapping numbering,
+ambiguous grammar or key conflicts such as LESO Q58. This is a workflow
+recommendation, not a guarantee that an answer is correct; evidence controls
+readiness. [GPT-6 Luna documentation](https://developers.openai.com/api/docs/models/gpt-6-luna)
+lists its supported efforts. Do not auto-switch a running task or spawn agents
+without the user's applicable authorization.
+
+### Repeatable checks
+
+```sh
+python3 tools/udc-ldc-build/build_group_b.py
+python3 -m unittest discover -s tools/udc-ldc-build -p 'test_*.py'
+node tools/udc-ldc-build/check-question-text.mjs
+npm run build
+git diff --check
+```
+
+The renderer check uses React server rendering and covers combined emphasis,
+separate blanks/answer reveal, plain arithmetic and all 132 reviewed stems and
+option sets. Browser verification is still unavailable under the existing
+in-app browser access restriction; do not retry via another browser/CDP route.
+
+The final checks passed: 27 Python tests, the React server-rendered typography
+and passage tests, TypeScript/Vite production build, and `git diff --check`.
+The Vite large-chunk warning remains. Shared reading context now displays in
+Read, Practice and Exam; no browser verification was attempted via a workaround.

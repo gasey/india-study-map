@@ -3595,10 +3595,10 @@
     "sitting": "2026",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-controller-of-mines-august-2026-assistant-controller-of-mines-cd36d7cc.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/final-answer-key-assistant-controller-of-mines-august-2026.pdf#page=1",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 66
+    "expectedMcq": 66,
+    "reviewRequired": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976",

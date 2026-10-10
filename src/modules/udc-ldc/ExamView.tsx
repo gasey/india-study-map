@@ -7,6 +7,7 @@ import { groupBPaperMeta } from '@/data/banks/mpsc-group-b-general';
 import { SECTION_LABEL, optionLetter, sectionOf, isAnswerable, textMode, type SectionId } from './filters';
 import { useAttemptState } from '@/modules/mpsc/useAttemptState';
 import { QuestionText } from './QuestionText';
+import { QuestionContext } from './QuestionContext';
 import { QuestionImage } from './QuestionImage';
 
 // ============================================
@@ -300,11 +301,7 @@ function ExamSitting({
                   {q.questionNumber ?? i + 1}.
                 </span>
                 <div style={{ flex: 1 }}>
-                  {q.direction && (
-                    <div className="udc-question-direction">
-                      {q.direction}
-                    </div>
-                  )}
+                  <QuestionContext direction={q.direction} passage={q.passage} plain={mode.plain} />
                   <div className={`udc-question-stem ${mode.stem}`} style={{ marginBottom: 8, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} plain={mode.plain} /></div>
                   <QuestionImage path={q.imagePath} />
                   {q.figureBased && !q.imagePath && (

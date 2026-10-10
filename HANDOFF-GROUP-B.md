@@ -1,3 +1,39 @@
+## English review update — 10 October 2026
+
+This is the current snapshot; later dated import counts are historical notes.
+The bank has **352 papers / 22,676 records** (21,896 MCQs, 780 written), with
+**3,834 practice-ready questions / 1,752 official-key-backed**. Source review:
+18,704 records (18,657 unreviewed, 47 reviewed but held). Known MCQ gaps: 533.
+
+- Assistant Controller of Mines, August 2026: all 66 MCQs scan-checked with
+  worked explanations and the official final key dated 31 August. Q11–15 are
+  recovered; the four previously ambiguous choices now retain the official
+  exam answer with usage caveats. Four stable written records have study guides;
+  the last is Question 3 subquestion 4, displayed as 3.4 with its passage.
+- Assistant LESO, April 2026: all 66 MCQs scan-checked with explanations;
+  65 are ready. Q58 remains unscored: final key B conflicts with the printed
+  grammatical answer D (so … that). Three written prompts have independent
+  précis, letter and comprehension guides. They are never MCQ-scored.
+- Source bold/italic/underline combinations, blank runs and shared directions
+  are restored for both papers. Printed typos and contextual alternatives are
+  annotated; no official answer is silently replaced by an independent one.
+- The generated per-paper ledger is
+  [`tools/udc-ldc-build/english-review-progress.json`](tools/udc-ldc-build/english-review-progress.json).
+  It covers 236 English-bearing sources, including the 109 G archive additions,
+  with ready/held/pending MCQs, written guides and known gaps. Null gap totals
+  mean unknown. This is a record of progress, not a claim that the archive is
+  fully solved.
+
+AAO 2024 English Q23/Q37/Q77 are also held by the generator after its official
+key and independently worked answers were correctly separated. Shared reading
+passages now render in Read, Practice and Exam views.
+
+Checks: 27 Python tests, React server-rendered typography/passage checks,
+TypeScript/Vite production build and `git diff --check`.
+
+Continue from [HANDOFF-ARCHIVE-AUDIT.md](HANDOFF-ARCHIVE-AUDIT.md) and preserve
+the rules in [HANDOFF-SUBJECT-PRACTICE.md](HANDOFF-SUBJECT-PRACTICE.md).
+
 ## Archive audit and continuation — 10 October 2026
 
 Final audit of the eight supplied MPSC archives, including English/Arithmetic
@@ -8,7 +44,7 @@ rules in [HANDOFF-SUBJECT-PRACTICE.md](HANDOFF-SUBJECT-PRACTICE.md).
 
 ## Latest bank snapshot — 10 October 2026
 
-The bank has 352 question-bearing papers and 22,676 records (21,896 MCQs, 780 written); 3,829 are practice-ready, including 1,684 official-key-backed. NG Assistant LESO April 2026 English adds 66 official-key-backed MCQs plus three preserved written prompts. Its written section remains review-gated and excluded from full Exam mode. The broader English archive still needs scan-level typography/punctuation review and worked guides. See [HANDOFF-ARCHIVE-AUDIT.md](HANDOFF-ARCHIVE-AUDIT.md).
+The current English review snapshot is at the top of this file. The broader archive still needs scan-level typography/punctuation review and worked guides.
 
 ## Dedicated subject practice — 10 October 2026
 

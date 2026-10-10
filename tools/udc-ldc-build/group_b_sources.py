@@ -851,22 +851,28 @@ def build_additional():
             bad_text = bool(re.search(r'[\ue000-\uf8ff�]', q['q'])) or any(not option.strip() or len(option) > 600 or re.search(r'[\ue000-\uf8ff�]', option) for option in opts)
             text_reviewed = (q['n'] in reviewed_numbers or
                              (slug == jao_b_review['slug'] and 1 <= q['n'] <= 100 and q['n'] != 40))
-            source_review = ((extracted['ocr'] or not complete_native or layout) and not text_reviewed) or bad_text or (len(key_choices) != 1 and not derived) or bool(q.get('unscored'))
+            solved_key_conflict = bool(derived and text_reviewed and len(key_choices) == 1
+                                       and derived['answerIndex'] != key_choices[0])
+            source_review = ((extracted['ocr'] or not complete_native or layout) and not text_reviewed) or bad_text or (len(key_choices) != 1 and not derived) or bool(q.get('unscored')) or solved_key_conflict
             answer = key_choices[0] if key_choices and not source_review else derived['answerIndex'] if derived and not source_review else -1
             note = 'Text extraction needs comparison with the printed paper; candidate answers are not scored.' if source_review else ''
             if q.get('unscored'):
                 note = (q.get('reviewNote') or q.get('explanation')
                         or 'This item is held out because the printed question or options do not support a unique answer.')
+            elif solved_key_conflict:
+                note = f"Official key gives {'ABCD'[key_choices[0]]}; the reviewed independent solution gives {'ABCD'[derived['answerIndex']]}. Held unscored until the conflict is resolved."
             if text_reviewed and not source_review:
                 note = ('Text and option order checked against the printed scan; scored using the official key.'
                         if key_choices else 'Text and option order checked against the printed scan; scored from a worked derivation.')
+            if q.get('sourceNote'):
+                note += ' ' + q['sourceNote']
             if len(key_choices) > 1:
                 note = 'The official key accepts ' + ' and '.join('ABCD'[x] for x in key_choices) + '; this item is kept out of the single-answer drill.'
             if independent >= 0 and not q.get('unscored') and not (derived and text_reviewed):
                 note += ' The independent candidate came from the legacy inferred bank and still needs reasoning review.'
             section = 'english' if 'English' in subject else 'arithmetic' if subject in ('Arithmetic', 'Mathematics') else 'gk'
             topic_id, topic_label = 'general', subject
-            solution_explanation = q.get('explanation', '')
+            solution_explanation = derived['explanation'] if derived and text_reviewed else q.get('explanation', '')
             if slug in DIRECT_LANGUAGE_SLUGS and 'Arithmetic & Reasoning' in subject:
                 peer = jao_by_question.get(normalized(q['q']))
                 if peer:
@@ -903,7 +909,8 @@ def build_additional():
                               'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]), 'sourceHref': href + '#page=' + str(q['page']),
                               **({'independentAnswerIndex': independent, 'independentAnswerSource': 'legacy-inferred', 'answerConfidence': 'low'} if independent >= 0 and not (derived and text_reviewed) else {}),
                               **({'officialAnswerCandidates': key_choices, 'answerSource': 'official', 'answerKeyRef': key_ref} if key_choices else {}),
-                              **({'answerSource': 'derived', 'answerConfidence': derived.get('answerConfidence', 'high'), 'explanation': derived['explanation']} if derived and answer >= 0 else {}),
+                              **({'answerSource': 'derived', 'answerConfidence': derived.get('answerConfidence', 'high'), 'explanation': derived['explanation']} if derived and answer >= 0 and not key_choices else {}),
+                              **({'independentAnswerIndex': derived['answerIndex'], 'independentAnswerSource': 'solved'} if derived and text_reviewed and key_choices else {}),
                               **({'independentAnswerIndex': jao_peer_candidate,
                                   'independentAnswerSource': 'solved',
                                   'answerConfidence': 'medium'} if jao_peer_candidate is not None else {}),
@@ -916,7 +923,8 @@ def build_additional():
                               **({'sourceNote': note.strip()} if note else {}),
                               **({'direction': q['direction']} if q.get('direction') else {}),
                               **({'passage': q['passage']} if q.get('passage') else {}),
-                              **({'disputeNote': f"Legacy inferred candidate gives {'ABCD'[independent]}; the final key gives {'ABCD'[key_choices[0]]}. Verify the printed item."} if independent >= 0 and len(key_choices) == 1 and independent != key_choices[0] else {})})
+                              **({'disputeNote': f"Independent solution gives {'ABCD'[derived['answerIndex']]}; the official key gives {'ABCD'[key_choices[0]]}. " + (q.get('reviewNote') or 'Verify the printed item before scoring.')} if derived and text_reviewed and len(key_choices) == 1 and derived['answerIndex'] != key_choices[0] else {}),
+                              **({'disputeNote': f"Legacy inferred candidate gives {'ABCD'[independent]}; the final key gives {'ABCD'[key_choices[0]]}. Verify the printed item."} if independent >= 0 and not (derived and text_reviewed) and len(key_choices) == 1 and independent != key_choices[0] else {})})
         written_rows = {str(q.get('n') or i+1): q for i, q in enumerate(extracted['written'])}
         for number, written_review in reviewed_written.items():
             if number not in written_rows:
@@ -931,12 +939,16 @@ def build_additional():
             prompt = written_review['q'] if written_review else q['text'] + ('\n' + '\n'.join(f"{k}. {v}" for k,v in q['subparts'].items()) if q.get('subparts') else '')
             n = q.get('n') or i+1
             questions.append({'id': paper_id + '-written-' + str(n), 'paperId': paper_id, 'type': 'descriptive',
-                              'questionNumber': str(n), 'subject': 'english', 'studySection': 'english',
+                              'questionNumber': str(written_review.get('questionNumber', n) if written_review else n), 'subject': 'english', 'studySection': 'english',
                               'topic': 'written', 'topicLabel': 'General English · written', 'difficulty': 'medium',
                               'question': prompt,
                               **({'answers': written_review['answers']} if written_review and written_review.get('answers') else {}),
                               'explanation': written_review.get('explanation', '') if written_review else '',
-                              'sourceReview': not bool(written_review), 'sourceNote': '' if written_review else 'Written response and transcription awaiting source review.',
+                              'sourceReview': not bool(written_review),
+                              **({'sourceReviewed': True} if written_review else {}),
+                              **({'direction': written_review['direction']} if written_review and written_review.get('direction') else {}),
+                              **({'passage': written_review['passage']} if written_review and written_review.get('passage') else {}),
+                              'sourceNote': written_review.get('sourceNote', '') if written_review else 'Written response and transcription awaiting source review.',
                               'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]), 'sourceHref': href + '#page=' + str(written_review.get('page', q['page']) if written_review else q['page'])})
         for row in manual_language_rows:
             questions.append({'id': paper_id + '-written-' + str(row['n']), 'paperId': paper_id, 'type': 'descriptive',

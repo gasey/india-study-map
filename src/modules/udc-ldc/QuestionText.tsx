@@ -1,7 +1,8 @@
 /**
  * Render a question stem, turning the recovered emphasis markup back into real
  * emphasis: `**word**` into bold, `__word__` into an underline, `*word*`
- * into italics.
+ * into italics. Combined `***word***` and `__*word*__` preserve bold italics
+ * and underlined italics when the scan prints both.
  *
  * MPSC marks the tested word typographically — "Identify the parts of speech of
  * the underlined word" on "The population of India is less than that of China"
@@ -24,25 +25,17 @@
  *
  * Deliberately NOT a markdown renderer. These stems contain `_____` blanks,
  * stray backticks and lone asterisks straight off the page, and a general
- * markdown pass would eat them or emphasise half a sentence. Three rules,
- * applied once.
+ * markdown pass would eat them or emphasise half a sentence. Bounded emphasis
+ * spans are handled locally, with only the supported combinations nested.
  */
 
-// `**x**`, `__x__` and `*x*` where x is non-empty and contains no
-// further delimiter, so a `_____` blank (underscores with nothing
-// between them) can never match. The leading `[^\s*]` / `[^\s_]` also
-// stops a bare `** ` / `__ ` mark from opening a span. The bold
-// alternative is listed FIRST so `**x**` matches bold and never falls
-// through to the single-asterisk italic rule (which would otherwise
-// match the inner `*x*` and leave literal asterisks on both sides).
-//
-// Capped at 80 characters on purpose. No stem in the bank has two leftover `__`
-// blanks, and the four containing an asterisk each contain exactly one — but if
-// that ever changed, an unbounded match would run from the first delimiter to
-// the second and emphasise everything in between, silently marking the wrong
-// words. That is the exact failure this markup exists to fix. A real span is a
-// word or a short clause; "as heroes do" is the longest in the bank.
-const MARKED = /\*\*([^\s*][^*]{0,78})\*\*|__([^\s_][^_]{0,78})__|\*([^\s*][^*]{0,78})\*/g;
+// Test bold italics before bold and italics, so delimiters are consumed together.
+// Underlined spans can contain italic or bold spans. Runs of three or more
+// underscores remain blanks; whitespace cannot open an emphasis span.
+// Each span is capped at 80 characters to avoid marking a long stretch of text
+// between unrelated leftover delimiters. InlineText owns its scanner so nested
+// spans cannot change the parent scanner's position.
+const MARKED = /\*\*\*([^\s*][^*]{0,78})\*\*\*|\*\*([^\s*][^*]{0,78})\*\*|__([^\s_][^_]{0,78})__|\*([^\s*][^*]{0,78})\*/g;
 
 // A `_____` fill-in-the-blank run, scanned in the same pass as the emphasis
 // markup so the two never interleave. Runs of 3+ underscores are blanks;
@@ -50,7 +43,7 @@ const MARKED = /\*\*([^\s*][^*]{0,78})\*\*|__([^\s_][^_]{0,78})__|\*([^\s*][^*]{
 // never mistaken for a blank. When the revealed answer is known (the `answers`
 // slice for this segment), the blank renders as the completed text; otherwise
 // it renders as a printed line the reader fills.
-const MARKED_OR_BLANK = /_{3,}|\*\*([^\s*][^*]{0,78})\*\*|__([^\s_][^_]{0,78})__|\*([^\s*][^*]{0,78})\*/g;
+const MARKED_OR_BLANK = new RegExp(`_{3,}|${MARKED.source}`, 'g');
 
 /** Width of an unfilled blank line, traced from the printed underscore run. */
 function blankWidth(n: number): string {
@@ -220,29 +213,36 @@ function InlineText({ text, plain, answers }: { text: string; plain?: boolean; a
   let last = 0;
   let local = 0;
   let m: RegExpExecArray | null;
-  MARKED.lastIndex = 0;
   let repaired = repairMathGlyphs(text);
   if (plain) {
     // No underline / italic / bold for this question — drop the recovered
     // emphasis markers and render the plain word. English is left alone for now.
-    repaired = repaired.replace(MARKED, (_m, b: string | undefined, u: string | undefined, e: string | undefined) => b ?? u ?? e ?? '');
+    let previous: string;
+    do {
+      previous = repaired;
+      repaired = repaired.replace(MARKED, (_m, bi: string | undefined, b: string | undefined, u: string | undefined, e: string | undefined) => bi ?? b ?? u ?? e ?? '');
+    } while (repaired !== previous);
     return <>{repaired}</>;
   }
-  MARKED_OR_BLANK.lastIndex = 0;
-  while ((m = MARKED_OR_BLANK.exec(repaired)) !== null) {
+  // Each nested render needs its own cursor: the PDF can italicize AND
+  // underline the same tested word (__*Bible*__), or use bold italics.
+  const markedOrBlank = new RegExp(MARKED_OR_BLANK.source, 'g');
+  while ((m = markedOrBlank.exec(repaired)) !== null) {
     if (m.index > last) parts.push(repaired.slice(last, m.index));
     if (m[1] !== undefined) {
+      parts.push(<strong key={m.index}><em>{m[1]}</em></strong>);
+    } else if (m[2] !== undefined) {
       // Bold — the "highlighted word" papers print the target in a
       // heavier face; the build marks it `**word**`.
-      parts.push(<strong key={m.index}>{m[1]}</strong>);
-    } else if (m[2] !== undefined) {
+      parts.push(<strong key={m.index}><InlineText text={m[2]} /></strong>);
+    } else if (m[3] !== undefined) {
       parts.push(
         <u key={m.index} style={{ textUnderlineOffset: 3 }}>
-          {m[2]}
+          <InlineText text={m[3]} />
         </u>,
       );
-    } else if (m[3] !== undefined) {
-      parts.push(<em key={m.index}>{m[3]}</em>);
+    } else if (m[4] !== undefined) {
+      parts.push(<em key={m.index}><InlineText text={m[4]} /></em>);
     } else {
       // First alternative matched: a fill-in-the-blank run. `answers` is the
       // slice for THIS text segment, so a fresh `local` index per call is

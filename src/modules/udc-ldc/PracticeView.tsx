@@ -4,6 +4,7 @@ import { isMcqQuestion } from '@/data/banks/types';
 import type { ProgressMap } from './useProgress';
 import { BANK_ID, SECTION_COLOUR, isAnswerable, optionLetter, sectionOf, textMode } from './filters';
 import { QuestionText } from './QuestionText';
+import { QuestionContext } from './QuestionContext';
 import { QuestionImage } from './QuestionImage';
 import { QuestionReviewPanel } from '@/modules/mpsc/QuestionReviewPanel';
 import { groupBGeneralPapers } from '@/data/banks/mpsc-group-b-general';
@@ -172,11 +173,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
             Open printed paper ↗
           </a>
         )}
-        {q.direction && (
-          <div className="udc-question-direction">
-            {q.direction}
-          </div>
-        )}
+        <QuestionContext direction={q.direction} passage={q.passage} plain={mode.plain} />
         <div className={`udc-question-stem ${mode.stem}`} style={{ fontSize: 15.5, marginBottom: 14, lineHeight: 1.5 }}><QuestionText text={q.question} plain={mode.plain} /></div>
         <QuestionImage path={q.imagePath} />
 

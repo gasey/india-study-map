@@ -73,6 +73,15 @@ html.dark .udc-ldc-page {
 .udc-ldc-page button:active:not(:disabled) { transform: translateY(1px); }
 
 .udc-question-stem { font-weight: 650; }
+.udc-question-passage {
+  margin: 0 0 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--border, #dcdce3);
+  border-radius: 8px;
+  font-size: 0.95em;
+}
+.udc-question-passage > summary { cursor: pointer; font-weight: 600; }
+
 .udc-question-direction {
   margin-bottom: 12px;
   padding: 10px 12px;

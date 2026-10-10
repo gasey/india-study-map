@@ -304,6 +304,13 @@ class ReviewedRepairTests(unittest.TestCase):
         rows = []
         for match in re.finditer(r'const groupBQuestionsPart\d+: BankQuestion\[\] = ', source):
             rows.extend(decoder.raw_decode(source, match.end())[0])
+        for q in rows:
+            if (q.get('independentAnswerSource') == 'solved'
+                    and len(q.get('officialAnswerCandidates', [])) == 1
+                    and q['independentAnswerIndex'] != q['officialAnswerCandidates'][0]):
+                self.assertEqual(q['answerIndex'], -1, q['id'])
+                self.assertTrue(q['sourceReview'], q['id'])
+                self.assertTrue(q['disputeNote'], q['id'])
         library = json.loads((root / 'src/data/banks/mpsc-group-b-library.json').read_text())
         self.assertEqual({p['id'] for p in library if p['imported']}, {q['paperId'] for q in rows})
         for paper in library:
@@ -380,6 +387,54 @@ class ReviewedRepairTests(unittest.TestCase):
         del self.repair['questions']['88']
         with self.assertRaisesRegex(AssertionError, 'missing or extra'):
             reviewed_extraction(self.extracted, self.repair)
+
+    def test_leso_and_mines_complete_reviews_preserve_official_provenance(self):
+        repairs = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']
+        keys = json.loads((HERE / 'verified-general-keys.json').read_text())
+        root = HERE.parents[1]
+        source = (root / 'src/data/banks/mpsc-group-b-general.ts').read_text()
+        decoder, rows = json.JSONDecoder(), []
+        for match in re.finditer(r'const groupBQuestionsPart\d+: BankQuestion\[\] = ', source):
+            rows.extend(decoder.raw_decode(source, match.end())[0])
+        leso = 'ng-april-2026-assistant-leso-general-english'
+        mines = 'archive-lang-2026-assistant-controller-of-mines-august-2026-assistant-controller-of-mines-cd36d7cc'
+        for slug, written_count, ready_count in [(leso, 3, 65), (mines, 4, 66)]:
+            with self.subTest(slug=slug):
+                repair = repairs[slug]
+                self.assertFalse(repair['partialReview'])
+                self.assertEqual(set(map(int, repair['questions'])), set(range(1, 67)))
+                self.assertEqual(set(map(int, repair['derivedAnswers'])), set(range(1, 67)))
+                self.assertEqual(set(map(int, keys[slug]['answers'])), set(range(1, 67)))
+                part = [q for q in rows if q['paperId'] == 'mpsc-group-b-' + slug]
+                mcqs = [q for q in part if q.get('type') != 'descriptive']
+                written = [q for q in part if q.get('type') == 'descriptive']
+                self.assertEqual(len(mcqs), 66)
+                self.assertEqual(len(written), written_count)
+                self.assertEqual(sum(q['answerIndex'] >= 0 and not q.get('sourceReview') for q in mcqs), ready_count)
+                for q in mcqs:
+                    self.assertTrue(q['sourceReviewed'])
+                    self.assertEqual(q['answerSource'], 'official')
+                    self.assertEqual(q['independentAnswerSource'], 'solved')
+                    self.assertTrue(q['direction'].strip() and q['explanation'].strip())
+                    self.assertTrue(q['paperExamExcluded'])
+                    self.assertTrue((root / 'public' / q['answerKeyRef'].split('#')[0].lstrip('/')).is_file())
+                self.assertTrue(all(q['sourceReviewed'] and not q['sourceReview'] and q['explanation'].strip() for q in written))
+                if slug == mines:
+                    self.assertTrue(all(q['answerIndex'] == q['independentAnswerIndex'] for q in mcqs))
+                    self.assertIn('high professional and with absolute tact', repair['questions']['11']['q'])
+                    self.assertEqual(repair['derivedAnswers']['11']['answerIndex'], 2)
+                    vocabulary = next(q for q in written if q['id'].endswith('-written-4'))
+                    self.assertEqual(vocabulary['questionNumber'], '3.4')
+                    self.assertIn('invasive', vocabulary['passage'])
+                    self.assertIn('subquestion 4', vocabulary['direction'])
+                else:
+                    held = next(q for q in mcqs if q['questionNumber'] == 'B58')
+                    self.assertEqual(held['answerIndex'], -1)
+                    self.assertEqual(held['officialAnswerCandidates'], [1])
+                    self.assertEqual(held['independentAnswerIndex'], 3)
+                    self.assertTrue(held['sourceReview'])
+                    self.assertIn('official key gives B', held['disputeNote'])
+                    self.assertIn('__*Bible*__', repair['questions']['1']['q'])
 
     def test_rejects_answer_override(self):
         self.repair['questions']['3']['answerIndex'] = 0

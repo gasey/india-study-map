@@ -8,7 +8,8 @@ coverage remain visible. Run from any directory with Python 3.
 import json
 import re
 from pathlib import Path
-from group_b_sources import build_additional
+from group_b_sources import build_additional, MPSC_LANGUAGE_ARCHIVE, MPSC_NG_ARCHIVE_2024_2027
+from english_review_progress import english_review_progress
 from fix_emphasis_markers import patch as restore_emphasis
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -249,8 +250,13 @@ def build():
               'heldReviewed': sum(bool(q.get('sourceReview')) and bool(q.get('sourceReviewed')) for q in questions),
               'missingMcq': sum(max(0, p.get('expectedMcq', 0) - sum(q['paperId'] == p['id'] and q.get('type') != 'descriptive' for q in questions)) for p in library),
               'keyDisagreements': sum(q.get('independentAnswerIndex', -1) >= 0 and q.get('answerIndex', -1) >= 0 and q['independentAnswerIndex'] != q['answerIndex'] for q in questions),
+              'heldKeyConflicts': sum(q.get('sourceReview', False) and q.get('independentAnswerSource') == 'solved'
+                                      and len(q.get('officialAnswerCandidates', [])) == 1
+                                      and q['independentAnswerIndex'] != q['officialAnswerCandidates'][0] for q in questions),
               'compensated': sum(bool(q.get('compensated')) for q in questions)}
     (Path(__file__).parent / 'build-report.json').write_text(json.dumps(report, indent=2) + '\n')
+    (Path(__file__).parent / 'english-review-progress.json').write_text(
+        json.dumps(english_review_progress(library, questions, MPSC_LANGUAGE_ARCHIVE, MPSC_NG_ARCHIVE_2024_2027), ensure_ascii=False, indent=2) + '\n')
     payload, _ = restore_emphasis(compact_answers_arrays(payload))
     OUT.write_text(payload)
     (ROOT / 'src' / 'data' / 'banks' / 'mpsc-group-b-library.json').write_text(json.dumps(library, ensure_ascii=False, indent=2) + '\n')

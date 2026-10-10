@@ -122,8 +122,8 @@ Apply these rules to all imported/archive questions, including older papers:
 TypeScript and production build checks are required. Browser verification must
 click each tab, select a populated topic, read an inline paper group, answer an
 eligible MCQ and switch English to Written. Check narrow-screen wrapping and
-that source-review items never enter scoring. On this run local preview browser
-the in-app browser denied access, so visual verification is still outstanding;
+that source-review items never enter scoring. The in-app browser denied
+access, so visual verification is still outstanding;
 its security policy forbids alternate browser/CDP routes. The implementation is
 published at `https://map.hawayu.in` (Vercel reports the production deployment
 READY).
@@ -139,5 +139,42 @@ classification gap, separate from a missing/held answer.
 Archive import and OCR/source exceptions are tracked in
 [HANDOFF-ARCHIVE-AUDIT.md](HANDOFF-ARCHIVE-AUDIT.md). Latest import: 109 new G
 General English PDFs, one distinct JAO Series B booklet, and NG Assistant LESO
-2026 General English with its final key. All new items remain
-review-gated until the source/punctuation/key quality pass is done.
+2026 General English with its final key. Mines and LESO have completed
+source/explanation reviews; LESO Q58 stays held. Remaining archive material
+stays review-gated until its source and solution checks pass.
+
+## Combined typography and official-key conflicts — 10 October 2026
+
+Store `**word**` for bold, `*word*` for italics, `__word__` for underline,
+`***word***` for bold italics and `__*word*__` for underlined italics. Use these
+only where the scan prints that emphasis. The renderer has bounded local
+scanners, so nested marks cannot consume later text or printed blank runs.
+Runs of three or more underscores are blanks. Leave the question blank empty;
+store reveal answers separately. Run `check-question-text.mjs` after changing
+the renderer or recovering combined marks.
+
+If source instructions and emphasis disagree, preserve both and annotate the
+source exception. Mines Q31–35 say “underlined” while their targets are bold.
+Preserve source spelling, punctuation and awkward grammar in stems/options;
+explain the issue in `sourceNote` and the worked guide.
+
+When an independently worked answer and an official key coexist, keep
+`answerSource: official` plus its `answerKeyRef` and store the independent
+answer in `independentAnswerIndex`/`independentAnswerSource: solved`. Show the
+worked explanation. A material key conflict must remain unscored with
+`sourceReview` and a `disputeNote`; LESO B58 and AAO 2024 Q23/Q37/Q77 are
+regression examples. The generator holds these conflicts automatically.
+Written passages, directions, subpart labels and guides can be source-reviewed
+without ever entering MCQ scoring. Preserve stable IDs when correcting display
+numbering (Mines `-written-4` is displayed as 3.4).
+
+The English review ledger is regenerated with the bank. Its counts and gates
+are separate from topic classification. Remaining English Mixed topics and
+8,421 pending English MCQs are continuation work, not completed coverage.
+
+Shared context is rendered by `QuestionContext.tsx` in Read, Practice and Exam.
+Read questions initially collapses the passage behind “Read passage”; Practice
+and Exam initially open it. Source directions use `QuestionText`, preserving
+typography and line breaks. Do not store a needed passage only in import data
+without showing it alongside the question. Context blanks never reveal an
+answer merely because an MCQ option was selected.

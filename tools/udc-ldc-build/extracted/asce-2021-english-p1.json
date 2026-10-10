@@ -1,0 +1,26 @@
+{
+  "slug": "asce-2021-english-p1",
+  "exam": "Assistant Soil Conservation Engineer under LRS&WC Department",
+  "sitting": "February 2021",
+  "subject": "General English Paper-I",
+  "source": "asce-2021-english-p1.pdf",
+  "sourceSha256": "3624e1ee946a6fef19d5a486dc57c75b1bc3ad5098ef54aafc2569ef58689b0c",
+  "ocr": false,
+  "count": 0,
+  "questions": [],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p2, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      5
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/ddea45efb2d2df1cb7eb2e00a234424e/asce-general-english-paper-i.pdf",
+  "enrichmentVersion": 2,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

@@ -1,0 +1,1881 @@
+{
+  "slug": "asce-2021-english-p2",
+  "exam": "Assistant Soil Conservation Engineer under LRS&WC Department",
+  "sitting": "February 2021",
+  "subject": "General English Paper-II",
+  "source": "asce-2021-english-p2.pdf",
+  "sourceSha256": "f595f6305bec2efe9d6632a97a6d46c129203a860f52f9c62aa02948432dd324",
+  "ocr": false,
+  "count": 79,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words",
+      "opts": {
+        "a": "Noun",
+        "b": "Pronoun",
+        "c": "Verb",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Harry **and** his friends are in a hurry.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words",
+      "opts": {
+        "a": "Noun",
+        "b": "Pronoun",
+        "c": "Verb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**None** of my friends was in the class.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words",
+      "opts": {
+        "a": "Noun",
+        "b": "Pronoun",
+        "c": "Verb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **swimmer** got off the road in a hurry.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words",
+      "opts": {
+        "a": "Noun",
+        "b": "Pronoun",
+        "c": "Verb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Freedom** is a great blessing indeed.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words",
+      "opts": {
+        "a": "Noun",
+        "b": "Pronoun",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What an **amusing** show!",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words",
+      "opts": {
+        "a": "Adjective",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Lift** this load and keep it in the corner.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words",
+      "opts": {
+        "a": "Adjective",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You **look** awesome.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words",
+      "opts": {
+        "a": "Adjective",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is **too** hot to go out.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words",
+      "opts": {
+        "a": "Preposition",
+        "b": "Conjunction",
+        "c": "Interjection",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Ohh!** What a blunder.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words",
+      "opts": {
+        "a": "Preposition",
+        "b": "Conjunction",
+        "c": "Interjection",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He jumped **off** his bicycle.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the",
+      "opts": {
+        "a": "Command",
+        "b": "Advice",
+        "c": "Request",
+        "d": "Proposal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Be off my eyes.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the",
+      "opts": {
+        "a": "Command",
+        "b": "Advice",
+        "c": "Request",
+        "d": "Proposal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Forgive me, my Lord.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the",
+      "opts": {
+        "a": "Command",
+        "b": "Advice",
+        "c": "Request",
+        "d": "Proposal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Let me show you how this is done.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the",
+      "opts": {
+        "a": "Command",
+        "b": "Advice",
+        "c": "Request",
+        "d": "proposal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Always take good care of your health.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the",
+      "opts": {
+        "a": "Command",
+        "b": "Advice",
+        "c": "Request",
+        "d": "Proposal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do what I bid you.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the",
+      "opts": {
+        "a": "Command",
+        "b": "Advice",
+        "c": "Request",
+        "d": "Proposal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do not insult your elders.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the",
+      "opts": {
+        "a": "Command",
+        "b": "Advice",
+        "c": "Request",
+        "d": "Proposal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Stop all your tantrums.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the",
+      "opts": {
+        "a": "Command",
+        "b": "Advice",
+        "c": "Request",
+        "d": "Proposal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do not disobey your parents.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the",
+      "opts": {
+        "a": "Command",
+        "b": "Advice",
+        "c": "Request",
+        "d": "Proposal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Let me make an effort to help you.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the",
+      "opts": {
+        "a": "Command",
+        "b": "Advice",
+        "c": "Request",
+        "d": "Proposal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Speak some kind words, please.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at",
+      "opts": {
+        "a": "above",
+        "b": "behind",
+        "c": "before",
+        "d": "beneath"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The capseller rested ___________ a shady tree.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at",
+      "opts": {
+        "a": "for",
+        "b": "at",
+        "c": "by",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My uncle sent a watch ___________ me.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at",
+      "opts": {
+        "a": "on",
+        "b": "in",
+        "c": "of",
+        "d": "by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This is the school that she studies___________.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at",
+      "opts": {
+        "a": "on",
+        "b": "with",
+        "c": "by",
+        "d": "at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A knife is to cut ___________.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at",
+      "opts": {
+        "a": "over",
+        "b": "behind",
+        "c": "beyond",
+        "d": "above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The amount is ___________ my ability to spend.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at",
+      "opts": {
+        "a": "during",
+        "b": "considering",
+        "c": "owing",
+        "d": "regarding"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The players will be chosen ___________ their all-year performance.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at",
+      "opts": {
+        "a": "during",
+        "b": "considering",
+        "c": "owing",
+        "d": "regarding"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Please do not disturb me ___________ my examinations.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at",
+      "opts": {
+        "a": "during",
+        "b": "considering",
+        "c": "owing",
+        "d": "regarding"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At the end of the long journey, all the children opened up ___________ their likes and dislikes.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at",
+      "opts": {
+        "a": "at",
+        "b": "with",
+        "c": "by",
+        "d": "of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Five excited puppies are almost too many to put up ___________.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at",
+      "opts": {
+        "a": "at",
+        "b": "to",
+        "c": "with",
+        "d": "for"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who should I give a high five ___________?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Most of our communication is to give other people information.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Can you help me find my shoes?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What a gorgeous room!",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I don’t like to gamble, but if there’s one thing I’m willing to bet on, it’s myself.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which do you prefer, white or red?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hey, no smoking in here!",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Watch out.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Keep off the grass.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What kind of music do you want to dance to?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How interesting this film is!",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "Co-ordinate clause",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He must have done his duty, **for he is a conscientious man**.",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "Co-ordinate clause",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The moment **which is lost** is lost for ever.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "Co-ordinate clause",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The exact time **when this occurred** has not been ascertained.",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "Co-ordinate clause",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**While there is life** there is hope.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "Co-ordinate clause",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The heart **that is full of grief** is heavy.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "Co-ordinate clause",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You can talk **as much as you want**.",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "Co-ordinate clause",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**That you are drunk** aggravates your offence.",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "Co-ordinate clause",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tell me **where you live**.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "Co-ordinate clause",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Everybody else went down to meet the train, **but I did not**.",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence",
+      "opts": {
+        "a": "done for",
+        "b": "done with",
+        "c": "done up",
+        "d": "done at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Having walked twenty miles, he is quite ___________.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence",
+      "opts": {
+        "a": "brings in",
+        "b": "brings about",
+        "c": "brings over",
+        "d": "brings below"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "That building ___________ Rs.5000 a month.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence",
+      "opts": {
+        "a": "call for",
+        "b": "call out",
+        "c": "call in",
+        "d": "call on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "New responsibilities often ___________ virtues and abilities unsuspected before.",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence",
+      "opts": {
+        "a": "come of",
+        "b": "come off",
+        "c": "come in",
+        "d": "come by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When does the Convocation ___________?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence",
+      "opts": {
+        "a": "carry forward",
+        "b": "carry of",
+        "c": "carry over",
+        "d": "carry out"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He agreed to ___________ my orders.",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence",
+      "opts": {
+        "a": "cut for",
+        "b": "cut with",
+        "c": "cut off",
+        "d": "cut over"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was ___________ in the prime of life.",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence",
+      "opts": {
+        "a": "passed off",
+        "b": "passed by",
+        "c": "passed on",
+        "d": "passed with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Director generally___________ the faults of his subordinates.",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence",
+      "opts": {
+        "a": "make out",
+        "b": "make up",
+        "c": "made for",
+        "d": "made of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I cannot ___________ the meaning of this verse.",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence",
+      "opts": {
+        "a": "run up with",
+        "b": "run in with",
+        "c": "run away with",
+        "d": "run up to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The tailor’s bill has ___________ a large amount.",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence",
+      "opts": {
+        "a": "takes in",
+        "b": "takes up",
+        "c": "takes on",
+        "d": "takes off"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The piano ___________ too much room.",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to",
+      "opts": {
+        "a": "respected",
+        "b": "respectable",
+        "c": "respective",
+        "d": "respectful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They are not rich but they always wear ___________ clothes.",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to",
+      "opts": {
+        "a": "gravely",
+        "b": "bravely",
+        "c": "fatefully",
+        "d": "fatally"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The truck driver was ___________ injured, he died within half an hour.",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to",
+      "opts": {
+        "a": "strong",
+        "b": "kind",
+        "c": "diligent",
+        "d": "intelligent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is too ___________ to be deceived easily.",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to",
+      "opts": {
+        "a": "enforce",
+        "b": "show",
+        "c": "incur",
+        "d": "exhibit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The government instructed the soldiers to ___________ restraint and handle the situation meticulously.",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to",
+      "opts": {
+        "a": "comprehend",
+        "b": "supplement",
+        "c": "complement",
+        "d": "sense"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We could ___________ trouble on our borders.",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to",
+      "opts": {
+        "a": "locality",
+        "b": "area",
+        "c": "site",
+        "d": "sight"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This is the ___________ chosen for the hospital complex to be built next year.",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to",
+      "opts": {
+        "a": "allusions",
+        "b": "illusions",
+        "c": "conclusions",
+        "d": "delusions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She lives in the world of ___________.",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to",
+      "opts": {
+        "a": "feat",
+        "b": "wonder",
+        "c": "creation",
+        "d": "strength"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Eiffel Tower is a remarkable ___________ of engineering.",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to",
+      "opts": {
+        "a": "inappropriate",
+        "b": "justified",
+        "c": "unfair",
+        "d": "unfit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is grossly ___________ to suggest that the school was responsible for the accident.",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to",
+      "opts": {
+        "a": "impede",
+        "b": "impose",
+        "c": "infect",
+        "d": "impair"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If you drink too much, it will ___________ your judgement.",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices",
+      "opts": {
+        "a": "insecticide",
+        "b": "fungicide",
+        "c": "germicide",
+        "d": "pesticide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "medicine that kills germs",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices",
+      "opts": {
+        "a": "regicide",
+        "b": "infanticide",
+        "c": "homicide",
+        "d": "fratricide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "one who kills the king",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices",
+      "opts": {
+        "a": "non-vegetarian",
+        "b": "herbivore",
+        "c": "grassivore",
+        "d": "piscivore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "an animal that lives on fish",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices",
+      "opts": {
+        "a": "theist",
+        "b": "monotheist",
+        "c": "polytheist",
+        "d": "atheist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "a person who worships one God",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices",
+      "opts": {
+        "a": "philanthropist",
+        "b": "misanthropist",
+        "c": "misogynist",
+        "d": "philogynist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "one who loves mankind",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices",
+      "opts": {
+        "a": "biography",
+        "b": "nomography",
+        "c": "calligraphy",
+        "d": "autobiography"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "beautiful writing",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices",
+      "opts": {
+        "a": "physiology",
+        "b": "philology",
+        "c": "geology",
+        "d": "algology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "study of languages",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices",
+      "opts": {
+        "a": "corrigible",
+        "b": "incorrigible",
+        "c": "credible",
+        "d": "incredible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "that can be corrected",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices",
+      "opts": {
+        "a": "zoology",
+        "b": "biology",
+        "c": "geology",
+        "d": "botany"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "science of living beings",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices",
+      "opts": {
+        "a": "monarchy",
+        "b": "oligarchy",
+        "c": "democracy",
+        "d": "polyarchy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "government by the few",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q21 (p2, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q22 (p2, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q23 (p2, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q24 (p3, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q25 (p3, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q26 (p3, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q27 (p3, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q28 (p3, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q29 (p3, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q30 (p3, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q41 (p4, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q42 (p4, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q43 (p4, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q44 (p4, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q45 (p4, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q46 (p4, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q47 (p4, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q48 (p4, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q49 (p4, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q50 (p4, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q68 (p6, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      68
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/6166f18e72e93efccca99920fe815f5a/asce-general-english-paper-ii.pdf",
+  "enrichmentVersion": 2,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

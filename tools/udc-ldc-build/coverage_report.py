@@ -416,6 +416,12 @@ def main() -> int:
     lines.append("## Totals\n")
     lines.append(f"- Held MCQs: **{held_total:,}**")
     lines.append(f"- Tier 1 — official key available (scorable mechanically): **{t1:,}**")
+    lines.append("")
+    lines.append("  > **Tier 1 is not a safe bulk win.** The count above is a "
+                 "filename-similarity upper bound; validating the candidate "
+                 "key→paper assignments against the upstream corpus mostly "
+                 "*rejects* them. See `KEY-ATTRIBUTION-AUDIT.md` "
+                 "(`key_attribution_audit.py`) before registering any key.")
     lines.append(f"- Tier 2a — upstream answer solid, import then score: **{t2s:,}**")
     lines.append(f"- Tier 2b — upstream *inferred* candidate, **must be verified** "
                  f"before scoring: **{t2c:,}**")

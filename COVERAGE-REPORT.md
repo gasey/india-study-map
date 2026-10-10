@@ -6,6 +6,8 @@ Evidence scanned: 120 official key PDFs on disk (20 registered), upstream `mpsc_
 
 - Held MCQs: **18,059**
 - Tier 1 — official key available (scorable mechanically): **1,255**
+
+  > **Tier 1 is not a safe bulk win.** The count above is a filename-similarity upper bound; validating the candidate key→paper assignments against the upstream corpus mostly *rejects* them. See `KEY-ATTRIBUTION-AUDIT.md` (`key_attribution_audit.py`) before registering any key.
 - Tier 2a — upstream answer solid, import then score: **76**
 - Tier 2b — upstream *inferred* candidate, **must be verified** before scoring: **8,135**
 - Tier 3 — needs fresh derivation: **8,593**

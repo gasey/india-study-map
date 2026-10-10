@@ -163,7 +163,10 @@ assert evaluate("document.querySelectorAll('.udc-question-card')[51].innerText.i
 assert evaluate("document.querySelectorAll('.udc-question-card')[82].innerText.includes('not scored')")
 for index in (64, 79, 85, 88, 93, 94, 95):
     evaluate(f"document.querySelectorAll('.udc-question-card')[{index}].scrollIntoView({{block:'center'}})")
-    wait_for(f"document.querySelectorAll('.udc-question-card')[{index}].querySelector('img')?.naturalWidth > 0")
+    # Lazy figure loads are sometimes aborted mid-session (complete=true,
+    # naturalWidth 0) when React re-renders during paper switching; relaunch
+    # the load on each poll until it settles, as the ASI figure loop below does.
+    wait_for(f"(()=>{{const im=document.querySelectorAll('.udc-question-card')[{index}].querySelector('img');if(im&&!im.naturalWidth&&im.complete){{im.loading='eager';im.src=im.currentSrc||im.src;}}return !!im&&im.naturalWidth>0}})()")
 evaluate("document.querySelectorAll('.udc-question-card')[71].querySelectorAll('.udc-option-label')[0].closest('button').click()")
 wait_for("document.querySelectorAll('.udc-question-card')[71].innerText.includes('Only option A is a root')")
 evaluate("document.querySelectorAll('.udc-question-card')[92].querySelectorAll('.udc-option-label')[0].closest('button').click()")

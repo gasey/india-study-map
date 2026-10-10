@@ -2420,8 +2420,9 @@
     "sitting": "2023",
     "subject": "General Knowledge",
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {

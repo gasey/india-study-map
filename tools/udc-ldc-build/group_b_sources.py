@@ -618,6 +618,12 @@ def build_additional():
                                           for answer in key['answers'].values()))
         entry['imported'] = True
         entry['reviewRequired'] = not complete_source_review
+        if slug == 'archive2325-acf-2023-general-knowledge' and key:
+            # Printed cover, page 1: "Time Allowed: 3 hours", "Full Marks: 100",
+            # "All questions carry equal marks of 1 each"; no negative-marking
+            # rule is printed. Keyed from the official final answer key.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'inspector-stats-2026-p1' and repairs.get(slug, {}).get('derivedAnswers'):
             entry['expectedMcq'] = 6
         if slug in DIRECT_LANGUAGE_SLUGS and extracted['questions']:

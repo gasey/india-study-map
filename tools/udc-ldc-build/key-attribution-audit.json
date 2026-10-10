@@ -1,25 +1,11 @@
 {
  "note": "Tier 1 is not a bulk/automated win. Only assignments that validate (>=25 upstream comparisons and >=70% option-text agreement) are safe to register without a human eye; everything else is either contradicted (wrong paper) or unverifiable and must be confirmed against the printed key.",
  "counts": {
-  "validated": 1,
   "unverifiable": 20,
   "contradicted": 5
  },
- "held_in_candidates": 1973,
+ "held_in_candidates": 1873,
  "papers": [
-  {
-   "paper_id": "mpsc-group-b-archive2325-acf-2023-general-knowledge",
-   "subject": "General Knowledge",
-   "held": 100,
-   "key_file": "Final Answer Key for Jr. Grade of Mizoram Forest Service (ACF) under E&FCC Deptt...pdf",
-   "section_index": 0,
-   "section_n": 99,
-   "source": "ocr",
-   "score": 7,
-   "upstream_n": 81,
-   "agreement": 85,
-   "verdict": "validated"
-  },
   {
    "paper_id": "mpsc-group-b-geologist-jun-nov-2020-english-p3",
    "subject": "General English Paper-III",

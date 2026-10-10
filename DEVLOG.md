@@ -1,3 +1,30 @@
+## 11 October 2026 — Tier 1 key audit; registered the ACF-2023 GK key
+
+Added `coverage_report.py`/`COVERAGE-REPORT.md`, which tiers the 18k held
+Group B MCQs by available evidence, and `key_attribution_audit.py`/
+`KEY-ATTRIBUTION-AUDIT.md`. The audit pairs each unkeyed held paper with a
+candidate official key *section* (exam-token overlap + subject class + question
+count, resolved one-to-one) and then validates the pairing against the upstream
+solved corpus by chosen option text. The result is a warning: the "official key
+on disk" Tier 1 count is an unsafe upper bound. Nearly every candidate pairing
+scores at chance (36/33/27/24/15%) — the key belongs to a different paper — so
+bulk-registering those keys would have silently injected wrong answers. The
+audit also inventories the registered keys.
+
+Registered the one pairing the validator accepted:
+`archive2325-acf-2023-general-knowledge` — Jr. Grade of Mizoram Forest Service
+(ACF) 2023, General Knowledge. Official final key dated 20 November 2024; one
+OCR cell (q88) was misread as 38 and was recovered from its column position;
+the pairing validates at 85% option-text agreement (the corpus baseline). The
+printed cover (page 1) states three hours, 100 marks, one mark per question and
+no negative marking, so the marking scheme is source-backed rather than assumed.
+The bank is now 3,934 practice-ready MCQs (1,852 official-key-backed); held MCQs
+fell 18,059 → 17,959.
+
+Tier 1 does not scale mechanically: the remaining candidates each need a human
+confirmation against the printed key, and 76 of the 120 key PDFs are scans
+(their `.ocr.txt` companions make parsing possible but not self-checking).
+
 ## 11 October 2026 — Reviewed study guides + per-subject progress ledger
 
 Added the durable `reviewed-study-guides.json` input and `reviewed_study_guides.py`,

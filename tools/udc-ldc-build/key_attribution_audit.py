@@ -259,6 +259,16 @@ def main() -> int:
                      f"{r['held']} | {r['key_file']} | {r['source']} | "
                      f"{r['upstream_n']} | {acc} |")
     lines.append("")
+    registry_path = HERE / "verified-general-keys.json"
+    registry = (json.loads(registry_path.read_text())
+                if registry_path.exists() else {})
+    lines.append("## Registered keys (`verified-general-keys.json`)\n")
+    lines.append("| slug | answers | href |")
+    lines.append("|---|---|---|")
+    for slug, entry in sorted(registry.items()):
+        lines.append(f"| {slug} | {len(entry.get('answers', {}))} | "
+                     f"{entry.get('href', '')} |")
+    lines.append("")
     (REPO / "KEY-ATTRIBUTION-AUDIT.md").write_text("\n".join(lines) + "\n")
 
     print(f"candidate assignments: {len(rows)} papers "

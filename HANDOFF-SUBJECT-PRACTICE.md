@@ -123,8 +123,10 @@ TypeScript and production build checks are required. Browser verification must
 click each tab, select a populated topic, read an inline paper group, answer an
 eligible MCQ and switch English to Written. Check narrow-screen wrapping and
 that source-review items never enter scoring. On this run local preview browser
-access was declined, so visual verification is still outstanding; do not claim
-that check passed. The local implementation is not yet published.
+the in-app browser denied access, so visual verification is still outstanding;
+its security policy forbids alternate browser/CDP routes. The implementation is
+published at `https://map.hawayu.in` (Vercel reports the production deployment
+READY).
 
 Completed checks: TypeScript, production build and `git diff --check` pass.
 All 114 stored tags reference existing questions and resolve to the correct

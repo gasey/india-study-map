@@ -12,7 +12,7 @@ The bank has 352 question-bearing papers and 22,676 records (21,896 MCQs, 780 wr
 
 ## Dedicated subject practice — 10 October 2026
 
-Maths/Arithmetic, English only and Computer Knowledge now have separate local study tabs. Maths and Computer use topic cards; English separates MCQs from written work. Future import and answer-derivation work must follow [HANDOFF-SUBJECT-PRACTICE.md](HANDOFF-SUBJECT-PRACTICE.md), including canonical tags, durable classification inputs, and unchanged scoring gates. This UI update is not yet published; local browser verification was declined.
+Maths/Arithmetic, English only and Computer Knowledge now have separate study tabs. Maths and Computer use topic cards; English separates MCQs from written work. Future import and answer-derivation work must follow [HANDOFF-SUBJECT-PRACTICE.md](HANDOFF-SUBJECT-PRACTICE.md). Production is deployed at `https://map.hawayu.in`; visual browser verification is outstanding because the in-app browser denied access and forbids alternate browser/CDP routes.
 
 ## Gazetted English archive import — 10 October 2026
 

@@ -141,11 +141,12 @@ reasoning and scan checks.
       2018; the 2017 MHS row also contains this stray link, alongside its valid
       MHS-specific Paper-I URL. No matching cached source was found for the two
       affected exam papers, so leave both unavailable.
-- [ ] Complete the production build. The in-app browser denied access to the
-      active map tab; per its security instruction, do not retry through another
-      browser/CDP route. Push to main after build; GitHub/Vercel integration is
-      the deployment path, and verify deployment status from available non-browser
-      metadata if possible.
+- [x] Production build passed (`npm run build`), commit `8a6cf13` was pushed to
+      `main`, and Vercel reports production deployment
+      `dpl_FdihmjPp65YYpx6m3NDt7HTTXzEL` as READY at `https://map.hawayu.in`.
+- [ ] Visual browser verification remains unavailable: the in-app browser
+      denied access to the active map tab and forbids retrying through another
+      browser or CDP route. Do not work around that restriction.
 
 ## Notes for the next model
 

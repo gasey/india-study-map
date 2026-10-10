@@ -1,7 +1,20 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T06:14:54.740Z",
+  "updatedAt": "2026-10-10T06:08:58.733Z",
   "days": [
+    {
+      "date": "2026-10-10",
+      "title": "National & International — 2026-10-10",
+      "mcqCount": 15,
+      "topics": [
+        "Polity and Governance",
+        "Judiciary",
+        "Environment and Ecology",
+        "Geography and Disasters",
+        "International Affairs",
+        "Social Issues"
+      ]
+    },
     {
       "date": "2026-08-11",
       "title": "National & International — 2026-08-11",

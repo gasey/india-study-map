@@ -178,3 +178,7 @@ and Exam initially open it. Source directions use `QuestionText`, preserving
 typography and line breaks. Do not store a needed passage only in import data
 without showing it alongside the question. Context blanks never reveal an
 answer merely because an MCQ option was selected.
+
+This context/formatting update is published from app content commit `49ff3ae`
+in deployment `dpl_5BsDcBvgUYqGVQQHNaXKK6nojnY8` (READY), aliased to
+https://map.hawayu.in. Visual browser verification remains outstanding.

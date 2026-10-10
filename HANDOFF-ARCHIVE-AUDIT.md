@@ -168,9 +168,9 @@ unscored until independently reasoned and scan-checked.
       2018; the 2017 MHS row also contains this stray link, alongside its valid
       MHS-specific Paper-I URL. No matching cached source was found for the two
       affected exam papers, so leave both unavailable.
-- [x] Production build passed (`npm run build`), commit `8a6cf13` was pushed to
+- [x] Production build passed (`npm run build`), app content commit `49ff3ae` was pushed to
       `main`, and Vercel reports production deployment
-      `dpl_FdihmjPp65YYpx6m3NDt7HTTXzEL` as READY at `https://map.hawayu.in`.
+      `dpl_5BsDcBvgUYqGVQQHNaXKK6nojnY8` as READY at `https://map.hawayu.in`.
 - [ ] Visual browser verification remains unavailable: the in-app browser
       denied access to the active map tab and forbids retrying through another
       browser or CDP route. Do not work around that restriction.
@@ -274,3 +274,7 @@ The final checks passed: 27 Python tests, the React server-rendered typography
 and passage tests, TypeScript/Vite production build, and `git diff --check`.
 The Vite large-chunk warning remains. Shared reading context now displays in
 Read, Practice and Exam; no browser verification was attempted via a workaround.
+
+Latest publication: app content commit `49ff3ae` pushed to `main`; Vercel
+deployment `dpl_5BsDcBvgUYqGVQQHNaXKK6nojnY8` reports READY and is aliased to
+https://map.hawayu.in. Both local and remote production builds passed.

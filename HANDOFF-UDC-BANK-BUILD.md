@@ -1,3 +1,13 @@
+## Published English review batch — 10 October 2026
+
+App content commit `49ff3ae` is pushed to `main` and deployed to production.
+Vercel deployment `dpl_5BsDcBvgUYqGVQQHNaXKK6nojnY8` reports **READY** and is
+aliased to https://map.hawayu.in. Deployment URL:
+https://india-study-njhpkrrgq-gaseys-projects.vercel.app.
+Local and remote production builds passed. The 27 Python tests, React source
+render checks, deterministic regeneration and stable-ID checks passed. Browser
+visual verification remains outstanding under the existing access restriction.
+
 ## English review update — 10 October 2026
 
 This is the current snapshot; later dated import counts are historical notes.

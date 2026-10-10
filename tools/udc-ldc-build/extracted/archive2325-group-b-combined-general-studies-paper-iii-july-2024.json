@@ -1,0 +1,1103 @@
+{
+  "slug": "archive2325-group-b-combined-general-studies-paper-iii-july-2024",
+  "exam": "Group 'B' (Gazetted) General Service (Combined) July-2024",
+  "sitting": "July 2024",
+  "subject": "General Studies",
+  "source": "archive2325-group-b-combined-general-studies-paper-iii-july-2024.pdf",
+  "sourceSha256": "d650455e423fdb6310b84b49526837869d43fe16ce888ffb9ddda73f129d2b46",
+  "ocr": true,
+  "count": 47,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Atthelowestpointoftheswing",
+        "b": "Atthehighestpointoftheswing",
+        "c": "Midwaybetweenthehighestandlowestpoints",
+        "d": "Speedisconstantthroughouttheswing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Achildisswingingbackandforthonaplaygroundswing.Atwhatpointintheswing’smotionisthe speedofthechildatitsmaximum?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Meltingofice",
+        "b": "Boilingofwater",
+        "c": "Dissolvingsugarinwater",
+        "d": "Rustingofiron (a)TodemonstrateSafeandSoftLandingonLunarSurface. (b)TodemonstrateRoverrovingonthemoon. (c)Toconductin-situscientificexperiments. (d)_Tostudythelunaratmosphere."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingisachemicalchange?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Enzyme",
+        "b": "Hormone",
+        "c": "Antibody",
+        "d": "Lipid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whattypeofbiologicalmoleculeactsasacatalyst,speedingupchemicalreactionsinlivingorganisms?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Toreplicatehumanintelligenceexactly",
+        "b": "Toautomatetaskswithouthumanintervention",
+        "c": "Toenablecomputerstolearnfromdataandimproveperformanceovertime (a)Tocreaterobotsthatcanthinkandfeellikehumans"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatistheprimarygoalofMachineLearning(ML)?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Machinelearning",
+        "b": "ArtificialNeuralNetwork",
+        "c": "Deeplearning",
+        "d": "Python"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Aspecificlearningtechniquethatrequireseverallayersofneuronstoincreaselearnableparameters withhugedatasetsiscalled-",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "LightDetectionandRanging",
+        "b": "SyntheticApertureRadar",
+        "c": "OpticalTelescopicVision",
+        "d": "ElectronMacroscopy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Atechniquetogeneratehigh-resolutionsurfaceimageofearthbyexpandingtheradaraparturethrough motionofthemountingvehicleandtheimagequalitynotbeingaffectedbyweatherconditionis-",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nationale-GovernancePlan",
+        "b": "e-LekhaPlan",
+        "c": "Bharate-GovPlan",
+        "d": "Indiane-GovernanceDevelopmentPlan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatistheambitiousplanapprovedbythegovernmentofIndiain2006forimprovingservices providedtothepeoplebythegovernmentthroughtheuseofInformationTechnology?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Akita",
+        "b": "Akira",
+        "c": "Antaki",
+        "d": "Kimino"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regardingwhichransomwarevirus,theCERT-inissuedadvisory?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Quantumcomputing",
+        "b": "ArtificialNeuralNetworks(ANNs)",
+        "c": "Blockchain",
+        "d": "Geneticalgorithms"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichunderlyingtechnologypowersinteractiveAIsuchasChatGPT,ete.?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ShrinivasRamanujan",
+        "b": "Prof.C.N.R.Rao",
+        "c": "C.V.Raman",
+        "d": "AmartyaSen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhoisthefatherofIndiannanotechnology?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "28February",
+        "b": "11May",
+        "c": "16February",
+        "d": "17August"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "NationalTechnologyDayisobservedeveryyearonwhichdate?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3",
+        "b": "4",
+        "c": "5",
+        "d": "6"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "DuringthePokhran--IInuclearteston11\"*May1998,howmanynuclearbombsweresuccessfully: tested?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fishspecies",
+        "b": "Orchidspecies",
+        "c": "Geckospecies",
+        "d": "Earthworm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "CrydoductyiusvairengtensisisthenewendemictoMizoramdiscoveredin MizoraminNovember2023.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "215June2023",
+        "b": "7\"September2023",
+        "c": "12!January2024",
+        "d": "22™March2024"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IndiajoinedtheArtemisAccords(aninternationaleffortonspaceexplorationledbyNASA)on whichdate?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ChatGPT",
+        "b": "Pytorch",
+        "c": "INDIAai(a)BharatAI"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThenameoftheprogrammelaunchedtopromoteArtificialIntelligenceinIndia:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DNAfingerprintingtechnology",
+        "b": "Restrictionenzymetechnology",
+        "c": "DNAbarcodingtechnology",
+        "d": "Wholegenomesequencingtechnology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThetechnologydevelopedbyDrLaljiSinghthatfoundwideapplicationinforensicinvestigationis-",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AndraPradesh",
+        "b": "TamilNadu",
+        "c": "Karnataka",
+        "d": "Kerala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Anewspeciesofdeep-seaisopod,BrucethoaIsro,namedaftertheIndianSpaceResearch OrganisationwasdiscoveredinwhichSouthIndianstate?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shalurobot",
+        "b": "Rashmirobot",
+        "c": "Sophia",
+        "d": "Mitra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheIndianlip-syncinghumanoidrobotinventedbyRanjitShrivastava,aRanchi-basedsoftware engineeris-",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kawngpuisiam",
+        "b": "Fanodawi",
+        "c": "Khawkhengthawi",
+        "d": "Dawinochhui"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InancientMizotradition,sacrificeofferedinordertoreceiveblessinginfarmingiscalled-",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zawlbuk",
+        "b": "Pum",
+        "c": "Sumbmun",
+        "d": "Sehuang"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InearlyMizosociety,womenwerenotsupposedtoenter-",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "March,1966",
+        "b": "April,1966",
+        "c": "January,1967",
+        "d": "April,1967 (a)1956(b)1957 (c)1958(d)1959"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "GroupingofvillageswasintroducedinMizoramfrom-",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MizolehVaiChanchinbu",
+        "b": "MizoChanchinLaisuih",
+        "c": "ZoramThupuan",
+        "d": "MZPChanchinbu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThefirstnewspaperpublishedinMizoramwas-",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tungchaw",
+        "b": "Berhbu",
+        "c": "Lemlawi",
+        "d": "Chumchi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichoftheseisaMizomusicalinstrument?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sakung",
+        "b": "Sedawi",
+        "c": "Saphun",
+        "d": "Sekhuan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "inearlyMizotradition,toadoptthereligionofanotherclaniscalled-",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zohmangaihi",
+        "b": "AhmangaihiKhiangte",
+        "c": "LalhruaitluangaChawngte",
+        "d": "LalrammawiaNgente"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "MizoAcademyofLetter’sBookoftheYear,2023recipientis-",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sathar",
+        "b": "Sakei",
+        "c": "Saza",
+        "d": "Sazuk"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichoneofthefollowingisMizoramstateanimal?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fungki",
+        "b": "Kingkawt",
+        "c": "Sahmim",
+        "d": "Paitung"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Aflaskmadefromthehornofabisonormithunusedtocarrygunpowderis-",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AGMcCali",
+        "b": "Lt.Col.Treagear",
+        "c": "NEParry(a)ARHMcDonald"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheSuperintendentofLushaiHills,authorof‘LushaiChrysalis’is-",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1946",
+        "b": "1947",
+        "c": "1948",
+        "d": "1945"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thefirstpoliticalparty,MizoUnionwasestablishedin-",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "JHLorrain",
+        "b": "FWSavidge",
+        "c": "DEJones",
+        "d": "RALorrain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheLakherPioneerMissionwasstartedby-",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TheLushaiExpeditionof1871-72",
+        "b": "TheExpeditionof1869",
+        "c": "TheChin-LushaiExpedition1889-1890",
+        "d": "TheLister’sExpedition1850"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichexpeditionwassenttotheLushaiHillsinretaliationtothecaptureofMaryWinchester?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tarmita",
+        "b": "Thangliana",
+        "c": "Lalmantua",
+        "d": "SapUpa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheMizogaveT.H.Lewinanickname(Mizoname)called-",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "J.Shakespeare",
+        "b": "A.GMeCall:",
+        "c": "PeterFraser",
+        "d": "ARHMcDonald"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhowasresponsiblefortheabolitionofBawiinMizoram?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khawzing",
+        "b": "Thimzing",
+        "c": "Thlazing",
+        "d": "_Khawzim"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThegreatdarknessthathappenedintheearthinMizofolktalewascalled-",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Suvel",
+        "b": "Herawt",
+        "c": "Ladinlek",
+        "d": "Hoi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheMizospinningwheelforspinningcottonintoyarnsiscalled-",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brig.T.Sailo",
+        "b": "Rev.Dr.Zairema",
+        "c": "PSChawngthu",
+        "d": "Capt.LZSailo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThefirstandonlypersonamongtheMizoswhohasreceived‘PadmaBhushan’is-",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chawnglaizawn",
+        "b": "Solakia",
+        "c": "Thingdim",
+        "d": "Chai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Khuallam’isalsoknownas-",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNo.41):Whatcomesinplaceofquestionsmark(?)intheseriesgivenbelow?",
+      "opts": {
+        "a": "EW",
+        "b": "DW",
+        "c": "GH",
+        "d": "EU _5-"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AZ,BY,CX,?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNo.42):Inthefollowingquestion,twowordsarepairedwhichhaveacertain",
+      "opts": {
+        "a": "Wrong",
+        "b": "Powerless",
+        "c": "Weak",
+        "d": "Liability"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rig:hDutty::Powe:r?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Findouthowwillthekeyfigure(X)looklikeafterrotation. (7)IWAVICA) iSWWI (x)@@©)(@",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Running",
+        "b": "Sneaker",
+        "c": "Skateboard",
+        "d": "Jumping"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Oaristorowboatasfootisto:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNo,45):Inthequestionsgivenbelow,findthecorrectansweroutofthefour",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ProblemFigures +I+xX1xX+ + 4tTxTi+4T AnswerFigures +X/I1xXxX. ++x +",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.46&47):Findthemissingtermineachofthefollowingseries:",
+      "opts": {
+        "a": "65",
+        "b": "271",
+        "c": "56",
+        "d": "172"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "1,2,9,28,...7...,126,217",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "26",
+        "b": "21",
+        "c": "28",
+        "d": "19"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "44,40,34,...2..,16,4",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(Question.Nos.48-50):Eachofthefollowingquestionsconsistsofapairofwords.",
+      "opts": {
+        "a": "victim:depravation",
+        "b": "miser:selfishness",
+        "c": "altruist:selflessness",
+        "d": "policeman:law"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Libertine:Immortality::",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(Question.Nos.48-50):Eachofthefollowingquestionsconsistsofapairofwords.",
+      "opts": {
+        "a": "optician:eyesight",
+        "b": "engineer:bridge",
+        "c": "architect:blueprint",
+        "d": "doctor:stethoscope"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Author:Manuscript::",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(Question.Nos.48-50):Eachofthefollowingquestionsconsistsofapairofwords.",
+      "opts": {
+        "a": "census:population",
+        "b": "government:administration",
+        "c": "taxation:revenue",
+        "d": "team:sports SECTION-II(100Marks) Markforeachquestionisindicatedagainstit UNIT-A: ThisUnitshouldbeansweredonlyontheSeparateSheetprovided.. Attemptany2(two)questions. UNIT-B ThisUnitshouldbeansweredonlyontheSeparateSheetprovided. Attemptany2(twa)questions. UNIT-C ThisUnitshouldbeansweredonlyontheSeparateSheetprovided. Attemptallquestions."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tally:Votes::",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Source numbering gap before Q4: expected Q3; review the printed page.",
+    "Q16 (p2, part None): only 1 option(s) ['a'] - not emitted",
+    "Source numbering gap before Q25: expected Q24; review the printed page."
+  ],
+  "gaps": {
+    "-": [
+      3,
+      16,
+      24
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/08/2daeac9dee835b013edf725bd1899bfc/group-b-combined-general-studies-paper-iii-july-2024.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

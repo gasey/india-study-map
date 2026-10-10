@@ -15,7 +15,7 @@ import hashlib
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 from PIL import Image
-from group_b_sources import ARCHIVE, ALL_GENERAL_PAPERS, DIRECT_2019_SLUGS, ROOT, HERE, source_path
+from group_b_sources import ARCHIVE, ALL_GENERAL_PAPERS, DIRECT_2019_SLUGS, DIRECT_ARCHIVE_SLUGS, ROOT, HERE, source_path
 from enrich_2018_papers import enrich, SOURCE_URLS, ENRICHMENT_VERSIONS
 
 OUT = HERE / 'extracted'
@@ -84,6 +84,8 @@ def extract_one(row):
         # The 2019-2020 English/General Studies sections print three-choice
         # sentence-type and idiom items; keep the printed option count.
         option_counts = (4,) if slug in WRITTEN_ONLY_2019 else (3, 4)
+    if slug in DIRECT_ARCHIVE_SLUGS:
+        option_counts = (3, 4)
     if slug in WRITTEN_ONLY_2019:
         # "Attempt all questions." marks these as all-conventional papers.
         module.ANSWER_SHEET_RE = re.compile(r'attempt all questions', re.I)

@@ -6,6 +6,7 @@ fractions, diagrams and underlining that the native text parser cannot retain.
 import io
 import re
 import subprocess
+import json
 from pathlib import Path
 import pymupdf
 from PIL import Image
@@ -42,8 +43,16 @@ SOURCE_URLS = {
     'assistant-grade-2018-p2': 'https://mpsc.mizoram.gov.in/uploads/attachments/d607eb9ce8b9d614f7b3182105066f74/assistant-grade-paper-ii.pdf',
     'acf-2018-english': 'https://mpsc.mizoram.gov.in/uploads/attachments/2022/11/5346b34df48ea93827fdc570f36227ae/acf-general-english.pdf',
     'acf-2018-gk': 'https://mpsc.mizoram.gov.in/uploads/attachments/2022/11/4383215b71170131887f678da00c1524/acf-general-knowledge.pdf',
+    'asce-2021-english-p1': 'https://mpsc.mizoram.gov.in/uploads/attachments/ddea45efb2d2df1cb7eb2e00a234424e/asce-general-english-paper-i.pdf',
+    'asce-2021-english-p2': 'https://mpsc.mizoram.gov.in/uploads/attachments/6166f18e72e93efccca99920fe815f5a/asce-general-english-paper-ii.pdf',
+    'vety-mah-2021-english-p1': 'https://mpsc.mizoram.gov.in/uploads/attachments/7b7af9c664ce828ce7c815c8dafcae96/jr-gr-of-mah-vety-general-english-paper-i.pdf',
+    'vety-mah-2021-english-p2': 'https://mpsc.mizoram.gov.in/uploads/attachments/29018a49281ddd387e32d3dba38b5fc4/jr-gr-of-mah-vety-general-english-paper-ii.pdf',
 }
-ENRICHMENT_VERSIONS = {slug: (5 if slug in ('mes-pwd-2018-english', 'mes-pwd-2018-gs', 'mes-power-2018-english', 'mes-power-2018-gs', 'veterinary-officer-2018-english-p1', 'veterinary-officer-2018-english-p2', 'je-iwr-2018-english', 'assistant-jailor-2018-english', 'asi-home-2018-english', 'asi-home-2018-gk', 'asi-home-2018-mathematics', 'assistant-grade-2018-p1', 'assistant-grade-2018-p2', 'acf-2018-english', 'acf-2018-gk') else 3) for slug in SOURCE_URLS}
+ENRICHMENT_VERSIONS = {slug: (2 if slug.startswith(('asce-2021-', 'vety-mah-2021-')) else 5 if slug in ('mes-pwd-2018-english', 'mes-pwd-2018-gs', 'mes-power-2018-english', 'mes-power-2018-gs', 'veterinary-officer-2018-english-p1', 'veterinary-officer-2018-english-p2', 'je-iwr-2018-english', 'assistant-jailor-2018-english', 'asi-home-2018-english', 'asi-home-2018-gk', 'asi-home-2018-mathematics', 'assistant-grade-2018-p1', 'assistant-grade-2018-p2', 'acf-2018-english', 'acf-2018-gk') else 3) for slug in SOURCE_URLS}
+ARCHIVE_2023_2025 = json.loads((Path(__file__).parent / 'mpsc-archive-2023-2025.json').read_text())
+SOURCE_URLS.update({row['slug']: row['url'] for row in ARCHIVE_2023_2025})
+ENRICHMENT_VERSIONS.update({row['slug']: 1 for row in ARCHIVE_2023_2025})
+
 
 
 def source_passage(text, start, first_question):
@@ -83,10 +92,14 @@ def enrich(result, source):
     if slug not in SOURCE_URLS:
         return result
     result['sourceUrl'] = SOURCE_URLS[slug]
+    if slug in {row['slug'] for row in ARCHIVE_2023_2025}:
+        result['enrichmentVersion'] = ENRICHMENT_VERSIONS[slug]
+        result['answerStatus'] = 'No verified key or worked solutions attached; unscored source transcription.'
+        return result
     result['enrichmentVersion'] = ENRICHMENT_VERSIONS[slug]
     result['answerStatus'] = 'No verified key or worked solutions attached; unscored source transcription.'
     rows = {q['n']: q for q in result['questions']}
-    written_only = ('mes-pwd-2018-english', 'mes-power-2018-english', 'veterinary-officer-2018-english-p1', 'assistant-grade-2018-p1')
+    written_only = ('mes-pwd-2018-english', 'mes-power-2018-english', 'veterinary-officer-2018-english-p1', 'assistant-grade-2018-p1', 'asce-2021-english-p1', 'vety-mah-2021-english-p1')
     if slug in written_only:
         # These are written language papers. The generic parser can mistake
         # subparts for MCQs, so leave them unscored until separately transcribed.
@@ -158,9 +171,10 @@ def enrich(result, source):
                 question_crop(doc, rows[n], slug)
     expected = (0 if slug in written_only else
                 125 if slug == 'assistant-grade-2018-p2' else
+                100 if slug in ('asce-2021-english-p2', 'vety-mah-2021-english-p2') else
                 75 if slug.startswith('si-fcs-') and 'English' not in result['subject'] else
                 80 if 'English' in result['subject'] and not slug.endswith('-p2') else 100)
-    partial_source = slug.startswith(('mes-pwd-2018-', 'mes-power-2018-', 'veterinary-officer-2018-', 'je-iwr-2018-', 'assistant-jailor-2018-', 'asi-home-2018-', 'assistant-grade-2018-', 'acf-2018-'))
+    partial_source = slug.startswith(('mes-pwd-2018-', 'mes-power-2018-', 'veterinary-officer-2018-', 'je-iwr-2018-', 'assistant-jailor-2018-', 'asi-home-2018-', 'assistant-grade-2018-', 'acf-2018-', 'asce-2021-', 'vety-mah-2021-'))
     if partial_source:
         # Preserve native text-layer gaps. The paper PDF remains authoritative;
         # missing questions are not synthesized from numbering alone.

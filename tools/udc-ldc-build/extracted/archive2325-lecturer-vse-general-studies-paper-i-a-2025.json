@@ -1,0 +1,2032 @@
+{
+  "slug": "archive2325-lecturer-vse-general-studies-paper-i-a-2025",
+  "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
+  "sitting": "2025",
+  "subject": "General Studies",
+  "source": "archive2325-lecturer-vse-general-studies-paper-i-a-2025.pdf",
+  "sourceSha256": "cc648134c45e4ff16db26dbf7ee3c229394b4ed79342011470fd6dc8ac3e3109",
+  "ocr": true,
+  "count": 87,
+  "questions": [
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1498",
+        "b": "1608",
+        "c": "1717",
+        "d": "1757 (a)MirQasim(b)Shuja-ud-Daula (c)MirJafar(d)Siraj-ud-Daula (a)Clive(b)HectorMonro (c)Vansittart(d)LordRipon (a)ControlofmarketsaroundBengal (b)DiwanirightsofBengal,BiharandOrissa (c)Warindemnityof4Lakhsrupees (d)RegionofAwadhandCalcutta (a)WarrenHastings(b)LordComwallis (c)RobertClive(d)LordMayo (a)NawabofOudh(b)PeshwaBajiRao (c)Bhonsle(d)NizamofHyderabad (a)HyderAli(b)BalajiBajiRao (c)TipuSultan(d)RanjitSingh (a)MalguzariSettlement(b)MahalwariSettlement (c)RyotwariSettlement(d)}ZamindariSettlement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Therearenonegativemarksforincorrectanswer. Series-A-2- 1.TheEnglishEastIndiaCompanyarrivedinIndiaintheyear-",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "HenryLawrence",
+        "b": "Dalhousie",
+        "c": "LordHastings",
+        "d": "WarrenHastings"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whowasassociatedwith“Ringfence’policiynIndia?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "WarrenHastings",
+        "b": "LordCanning",
+        "c": "LordDalhousie",
+        "d": "LordCurzon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheIndianRailwayswasintroducedduringthetenureandunderleadershipof-",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TheCharterActof1813",
+        "b": "WoodsDispatch1854",
+        "c": "HunterCommission1882",
+        "d": "KothariCommission1964-66"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThefirstthreeUniversitiesonmodernlineswereestablishedinBengal,BombayandMadrasfollowing therecommendationsof",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RingFencePolicy",
+        "b": "SubsidiaryAlliance",
+        "c": "DoctrineofLapse",
+        "d": "HandHoldingPolicy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheexpansionistpolicyovertheprincelystatesextensivelyusedbyWellesleywasknownas-",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1855",
+        "b": "1863",
+        "c": "1865",
+        "d": "1870"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThefirstJuteMillinIndiawasstartedin?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CottontextilehandicraftsIndustry",
+        "b": "TeaIndustry",
+        "c": "Juteindustry(a)Rubberindustry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThemostflourishingindustryinIndiabeforetheprocessofDe-Industrializationwas-",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SouthIndianRiots",
+        "b": "MalabarRiots",
+        "c": "IndigoRiots",
+        "d": "DeccanRiots"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A’seriesofriotsbyfarmersin1875againstthegovernment’srevenuepoliciesinthesouthernpartof Indiawaspopularlyknownasthe-",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RamMohanRoy",
+        "b": "IshwarChandraVidyasagar",
+        "c": "MaulanaAzad",
+        "d": "MGRanade"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whoamongthefollowingisfamouslyknownforthecauseofwidowremarriage?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MadhavRao",
+        "b": "BajiRaol",
+        "c": "BajiRao(a)NarayanRao"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThelastMarathaPeshwawhosefallledtothepermanentdefeatoftheMarathaEmpirewas-",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ChildMarriage",
+        "b": "Infanticide",
+        "c": "Slavery",
+        "d": "Sati"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingpracticewasabolishedin1829withthejointeffortsofRajaRammohanRoy andWilliamBentinck?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RajaRammohanRoy",
+        "b": "DayanandSaraswati",
+        "c": "SwamiVivekananda",
+        "d": "HenryVivianDerozio"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThefounderoftheAryaSamajandchampionoftheSuddhiMovementwas-",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CharterAct",
+        "b": "CharlesMinute",
+        "c": "MacaulayMinute",
+        "d": "AnglicistsMinute"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘WhichofthefollowingdecisionintroducedEnglishasthemediumofinstructionin1835?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bankingbusinessfailedintheruralareas",
+        "b": "Agriculturalfailurebecauseoffamineanddrought",
+        "c": "MajorityofIndianfarmersliveindebt",
+        "d": "Indianindigenousbankerswereindebt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ruralindebtednessreferstothephenomenonwhere-",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1916",
+        "b": "1918",
+        "c": "1921",
+        "d": "1923"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "MoplahUprisingalsoknownastheMalabarRebellionhappenedin-",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CurtailtheIndianPress",
+        "b": "LegalisetheIndianPress",
+        "c": "EqualisetheEnglishandVernacularPress",
+        "d": "EncourageVernacularliteraturewithregardstoPress"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "VernacularPressAct1878waspassedbythegovernmentto-",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CreationofseparateelectoratesfortheMuslims",
+        "b": "CreationofAllIndiaFederation",
+        "c": "IntroducingSeparationoftheExecutiveandtheJudiciary",
+        "d": "Co-operatingtheIndianNationalCongresstothemaximum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThemostprominentprovisionoftheMorley-MintoReforms1909was-",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nationalist",
+        "b": "Racist",
+        "c": "Revivalist",
+        "d": "Lowercaste"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatwasthenatureofAryaSamajmovement?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "LordHastings",
+        "b": "LordDalhousie",
+        "c": "GeorgeCanning",
+        "d": "LordWellesley"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhoappliedtheDoctrineofLapsetotheIndianstates?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi",
+        "b": "Kanpur",
+        "c": "Jhansi",
+        "d": "Meerut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheRevoltof1857startedat-",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "KunwarSingh",
+        "b": "TantiaTope",
+        "c": "BahadurShahZafar",
+        "d": "BhagatSingh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whoamongthefollowingwasnotoneoftheleadersofthe1857Rebellion?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DadabhaiNaoroji",
+        "b": "SwamiVivekananda",
+        "c": "SwamiBrijanand",
+        "d": "IshwarChandraVidyasagar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhospokeonbehalfoftheHindureligioninthe“CongressofReligions”inChicago1893?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AnnieBesant",
+        "b": "SarojiniNaidu",
+        "c": "IndiraGandhi",
+        "d": "KasturbaGandhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThefirstIndianwomanPresidentoftheIndianNationalCongresswas-",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ireland",
+        "b": "Scotland",
+        "c": "USA",
+        "d": "Mexico"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheleaderoftheHomeRulemovementborrowedtheterm‘HomeRule’fromsimilarmovementin-",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ahmedabad",
+        "b": "Bombay",
+        "c": "Delhi",
+        "d": "Lahore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WherewasthefirstmeetingofAllIndiaNationalCongressheld?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Extremistphase",
+        "b": "Revolutionaryphase",
+        "c": "Congressphase",
+        "d": "Moderatephase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theperiodbetween1885and1905duringtheIndianNationalMovementcametobeknownas-",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Non-CooperatingtheBritish",
+        "b": "Constitutionalmethods",
+        "c": "Violence",
+        "d": "Strikesandprotests"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheearlynationalistsalsoreferredasthemoderateIcadersusethemethodof-",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BipinChandraPal",
+        "b": "AurobindoGhosh",
+        "c": "LalaLajpatRai",
+        "d": "W.C.Banerjee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whoamongthefollowingwerenotamongtheextremistleaders?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SplitintheCongress",
+        "b": "AdoptingSwadeshi",
+        "c": "ReunificationofIndianNationalCongress",
+        "d": "CondemningtheMuslimLeague"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheLucknowsessionoftheCongressisknownfor-",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1905",
+        "b": "1906",
+        "c": "1907",
+        "d": "1908"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheAllIndiaMuslimLeaguewasestablishedintheyear-",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TheMuslimsandtheHindus",
+        "b": ".TheBritishofficialsandleadersoftheIndianNationalCongress",
+        "c": "TheModeratesandtheExtremists:",
+        "d": "TheBengalisandtheBritish"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheSuratSplitoccurredin1907asaresultofmisunderstandingbetween-",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AugustOffer",
+        "b": "WavellPlan",
+        "c": "CabinetMission",
+        "d": "CripsMission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "LordPethick-Lawrence,StaffordCrippsandAVAlexanderwerepartof-",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "VandeMataram",
+        "b": "SareJahanSe",
+        "c": "MilkeChalo",
+        "d": "SarfaroshiKiTamanna"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatwasthenationalsongduringtheanti-partitionmovementinBengal?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1922",
+        "b": "1927",
+        "c": "1928",
+        "d": "1930"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "MembersoftheSimonCommissionarrivedIndiaintheyear-",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lahoresession1929",
+        "b": "Calcuttasession1933",
+        "c": "Lucknowsession1936",
+        "d": "Tripurisession1939"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theresolutionof‘PurnaSwaraj’wasadoptedin-",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SanthalSatyagraha",
+        "b": "HarijanSatyagraha",
+        "c": "ChamparanSatyagraha",
+        "d": "DandiSatyagraha (a)MuslimHinduRiotDay(b)HardiyalDay (c)DirectActionDay(d)JeevansathiDay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Beforeenteringnationalpolitics,in1917,Gandhifoughtthe-",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ChauriChauraincident",
+        "b": "ExecutionofBhagatSingh",
+        "c": "JallianwalaBaghTragedy",
+        "d": "BrutalsuppressionofCivilDisobedienceMovement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "RabindraNathTagoregaveuphisKnighthoodbecauseof-",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RowlattAct",
+        "b": "KhilafatCommittee",
+        "c": "SimonCommission",
+        "d": "DissatisfactionwiththeGovernmentofIndiaAct,1912"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheimmediatecausewhichledtotheJaunchingoftheNon-Cooperationmovementwasthe?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TheHiltonCommissionReport",
+        "b": "TheNehrureport",
+        "c": "TheGandhianCommitteeReport({d)TheIndianReport"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheReportin1928whichprovidedaconstitutionalframeworkforIndia’sfuturegovernment draftedbytheIndianpoliticalleadersasaresponseoftheSimonCommissionwas-",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Talks",
+        "b": "ForceandRepression",
+        "c": "PeaceandSettlement",
+        "d": "PromiseforbetterWorkingconditions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "RoyalIndianNavyMutiny1946wasrespondedbytheGovernmentwith-",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DandiMarch",
+        "b": "HarijanPact",
+        "c": "LucknowPact",
+        "d": "Gandhi-IrwinPact"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "GandhiagreedtosuspendtheCivilDisobedienceMovementwiththe-",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CrippsMissionPlan",
+        "b": "CabinetMissionPlan",
+        "c": "WavellPlan",
+        "d": "MountbattenPlan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingwasknownasthePartitionPlanofIndia?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "KnowYourStatus",
+        "b": "TaketheRightsPath:MyHealth,MyRight",
+        "c": "GlobalSolidarity,ResilientServices",
+        "d": "LetCommunitiesLead"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatisthethemeforWorldAIDSDay2024?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sikkim",
+        "b": "Assam",
+        "c": "Manipur",
+        "d": "Tripura"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichstatehasbeendeclaredasthepartnerstateforHornbillFestival2024?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NeuroSpicy",
+        "b": "Dumpster",
+        "c": "HeatDome",
+        "d": "BrainRot"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatwordhasbeenselectedastheOxfordWordoftheyear2024?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MinistryofInformationTechnology",
+        "b": "MinistryofDefense",
+        "c": "MinistryofHomeAffairs",
+        "d": "MinistryofUrbanDevelopment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichMinistrylaunchedtheCivilRegistrationSystem(CSR)mobileapplicationtointegratetechnology withgovernance?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bitcoin",
+        "b": "UPIpaymentblock",
+        "c": "Virtualpaymentledger",
+        "d": "Blockchain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Incrypto-currency,aledgerthatstoresdataandrecordsoftransactionswhicharelinkedtogether acrosscomputersiscalled",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dubai",
+        "b": "NewDelhi",
+        "c": "NewYork",
+        "d": "London (a)CropInsurance,WeatherForecastingandFarmMechanization (b)Hydroponics,Aquaponics,VerticalFarmingandPrecisionAgriculture (c)SoilTestingandDripIrrigation (d)DroneFarming,SatelliteImageryandDataAnalysis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InwhichcityCOP28or28\"UnitedNationsClimateChangeConferencewasheld?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Glasgow",
+        "b": "London",
+        "c": "Shanghai",
+        "d": "Sydney"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichcitywillhostthe2026CommonwealthGames?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "JensStoltenberg",
+        "b": "AndersFoghRasmussen",
+        "c": "MarkRutte",
+        "d": "OliverFranks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whoisthe14\"SecretaryGeneralofNATOsinceOctober,2024?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "VikramMisri",
+        "b": "VinayMohanKwatra",
+        "c": "HarshVardhanShringla",
+        "d": "SubrahmanyamJaishankar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhoisthecurrentforeignSecretaryofIndia?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gujarat",
+        "b": "Haryana",
+        "c": "“Rajasthan",
+        "d": "UttarPradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichStateisthefirstinIndiatoadoptanairshed-basedapproachforacleanairproject?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FoodandAgricultureOrganization",
+        "b": "WorldMeteorologicalOrganization",
+        "c": "UnitedNationsEnvironmentProgramme",
+        "d": "Citizens’ClimateLobby"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichOrganizationreleasedtheStateoftheClimate2024Report?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TheOrderofValor",
+        "b": "TheCrownJewelHonor",
+        "c": "TheGrandCrossoftheOrder",
+        "d": "TheOrderofExcellence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatisthehighestNationalAwardofGuyanaconferredtothePrimeMinisterofIndia?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "UttarPradesh",
+        "b": "-Maharashtra",
+        "c": "Bihar",
+        "d": "TamilNadu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichStatewillhosttheKheloIndiaYouthGames2025?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MinistryofEducation",
+        "b": "MinistryofScienceandTechnology",
+        "c": "MinistryofTribalAffairs",
+        "d": "MinistryofDefense"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "YuvaSangamisaflagshipinitiativelaunchedbywhichministry?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MinistryofTribalAffairs",
+        "b": "MinistryofEducation",
+        "c": "MinistryofScienceandTechnology",
+        "d": "MinistryofRuralDevelopment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "NIPUNBharatislaunchedbywhichMinistry?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "EkBharatShresthaBharat",
+        "b": "BetiBachaoBetiPadhao",
+        "c": "FITIndia",
+        "d": "IntegratedTeacherEducationProgramme"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichamongthefollowingisbasedonthevisionofNEP20202?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Equity,EqualityandQuality",
+        "b": "Equity,AccessandEquality",
+        "c": "Access,EquityandQuality",
+        "d": "Access,QualityandEquality"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatarethethreeprinciplesofeducationpolicytobeachievedunderSWAYAM?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BhargavDasgupta",
+        "b": "MasatoKanda:",
+        "c": "MasatsuguAsakawa",
+        "d": "TakehikoNakao"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whohasbeenelectedasthe11\"\"PresidentoftheAsianDevelopmentBank(ADB)?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MinistryofConsumerAffairs,FoodandPublicDistribution",
+        "b": "MinistryofFoodProcessingIndustries",
+        "c": "MinistryofSocialJusticeandEmpowerment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichUnionMinistryimplementedthe‘SakshamAnganwadiandPoshan2.0Scheme’?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Maldives",
+        "b": "Mauritius",
+        "c": "Bangladesh",
+        "d": "Singapore (a)Shanghai(b)Beijing (c)Islamabad(d)Dhaka (a)SpaceX (b)NationalAeronauticsandSpaceAdministration (c)EuropeanSpaceAgency (d)ChinaNationalSpaceAdministration (a)VijayaKishoreRahatkar(b)}ArchanaMajumdar (c)UmaDevi(4)AnitaSharma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichCountryamendeditsdoubletaxationavoidanceagreementwithIndiaonMarch7,2024?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vietnam",
+        "b": "Thailand",
+        "c": "HongKong",
+        "d": "Singapore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichCountryrecentlybannedtheuseofWhatsappandGoogleDriveinGovernmentDepartments?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SumitAntil",
+        "b": "ManishNarwal",
+        "c": "HarvinderSingh",
+        "d": "NishadKumar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhoisthefirstIndianarchertowinagoldmedalinParalympic?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PMGatiShakti",
+        "b": "PMSVANidhi",
+        "c": "PMSurakshaStreet",
+        "d": "PMSHRI"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatisaflagshipschemeoftheGovernmentofIndiaaimedatprovidingmicrocredit/smallloansto streetvendors?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Malaysia",
+        "b": "India",
+        "c": "Pakistan",
+        "d": "China"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichcountrywontheMen’sHockeyJuniourAsiaCup2024titleinMuscat,Oman?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "WorldBank",
+        "b": "InternationalMonetaryFund",
+        "c": "WorldTradeOrganization",
+        "d": "AsianDevelopmentBank"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichorganizationreleasedtheInternationalDebtReport2024?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi",
+        "b": "Chandigarh",
+        "c": "DamanandDiu",
+        "d": "Puducherry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichUnionTerritoryisthefirsttofullyimplementallthreenewcriminallawsinIndia?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MichelleBachelet",
+        "b": "JokoWidodo",
+        "c": "DinaBoluarte",
+        "d": "ClaudiaSheinbaum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whohasbeenawardedthe2024IndiraGandhiPrizeforPeace,DisarmamentandDevelopment?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "September9",
+        "b": "October9",
+        "c": "November9",
+        "d": "December9"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichdayisobservedasInternationalAnti-CorruptionDayeachyear?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AbathsahayeswararTemple",
+        "b": "MahabodhiTempie",
+        "c": "GoldenTemple",
+        "d": "KamakhyaTemple"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichIndiatemplereceivedthe2023UNESCOAwardofDistinctionforitsconservation?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MinistryofCulture",
+        "b": "MinistryofDefense",
+        "c": "MinistryofHomeAffairs",
+        "d": "MinistryofLawandJustice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichMinistryisresponsibleforconductingthecensusinIndia?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ChanGuangcheng",
+        "b": "DavidBaker",
+        "c": "HanKang",
+        "d": "NihonHidankyo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhowontheNobelPrizeforLiterature,2024?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "KLLiana",
+        "b": "MichaelZothankhuma",
+        "c": "-NelsonSailo",
+        "d": "} MarliVankung"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhoamongthefollowingisnotaHighCourtJudge?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NewJersey",
+        "b": "Pennsylvania",
+        "c": "Texas",
+        "d": "Washington"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InwhichStateDonaldTrumpwasshotintheearduringaPresidentialcampaign?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Spain",
+        "b": "Turkey",
+        "c": "Ukraine",
+        "d": "Sweden"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichamongthefollowingjoinedNATOin2024?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ginger",
+        "b": "Broom",
+        "c": "Turmeric",
+        "d": "Rice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingisnotincludedinthelistofcropstobesupportedbyminimumsupportprice bytheGovernmentofMizoramfromJanuary2025?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1986",
+        "b": "1998",
+        "c": "2001",
+        "d": "2024"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InwhichyeartheCouncilofChurchesinMizoramwasformed?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lawngtlai",
+        "b": "Mamit",
+        "c": "Siaha",
+        "d": "Hnahthial"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InwhichDistrictofMizoramtheGovernmentofIndiaimplementedtheAspirationalDistrict Programme?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PreventionofChildLabour",
+        "b": "ReductionofInfantMortality",
+        "c": "PreventionofChildMarriage",
+        "d": "PreventionofSexualHarassment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheBalVivahMuktBharatCampaignlaunchedbytheMinistryofWomenandChildDevelopment pertainsto",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anuvadini",
+        "b": "Swayam",
+        "c": "Diksha",
+        "d": "Bhasini"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatisthenameoftheAl-basedapprecentlylaunchedbytheMinistryofEducationforproviding studymaterialsinregionallanguages?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SundarPichai",
+        "b": "IndraNooyi‘",
+        "c": "SatyaNadella",
+        "d": "NarayanaMurthi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhoisthecurrentCEOofMicrosoft?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IndianRailwayEnterpriseDevelopmentAgencyLimited",
+        "b": "IndianRenewableEnergyDevelopmentAgencyLimited",
+        "c": "IndianRailwayExportDevelopmentAgencyLimited",
+        "d": "IndianRiverineExportDevelopmentAgencyLimited"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatdoesIREDAstandfor?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PMGatishakti",
+        "b": "VirtualID",
+        "c": "AcademicBankofCredit",
+        "d": "Digilocker"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheplatformintroducedbytheMinistryofElectronicsandITwhichprovidesaccesstoimportant documentsanywhereiscalled",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MadhyaPradesh",
+        "b": "TamilNadu",
+        "c": "Maharashtra",
+        "d": "Kerala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InwhichStateistheTungareshwarWildlifeSanctuarylocated?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NationalAgriculturalDevelopmentScheme",
+        "b": "NationalMissiononNaturalFarming",
+        "c": "GreenRevolution2.0",
+        "d": "SustainableAgriculturePromotionScheme"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatisthenameoftheschemerecentlyapprovedbytheUnionCabinettopromotenaturalfarming inIndia?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rome",
+        "b": "Paris",
+        "c": "London",
+        "d": "Frankfurt teeKEK"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InwhichcityistheNotreDameCathedrallocated?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q4 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q6 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q7 (p1, part None): only 0 option(s) [] - not emitted",
+    "Source numbering gap before Q45: expected Q44; review the printed page.",
+    "Source numbering gap before Q58: expected Q57; review the printed page.",
+    "Source numbering gap before Q74: expected Q71; review the printed page.",
+    "Q99 (p10, part None): only 1 option(s) ['a'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      44,
+      57,
+      71,
+      72,
+      73,
+      99
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/02/616a05109bbfe4722670ac785e9c8862/lecturer-vse-general-studies-paper-i-a-2025.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

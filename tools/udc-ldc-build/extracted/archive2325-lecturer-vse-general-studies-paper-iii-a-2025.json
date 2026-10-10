@@ -1,0 +1,1807 @@
+{
+  "slug": "archive2325-lecturer-vse-general-studies-paper-iii-a-2025",
+  "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
+  "sitting": "2025",
+  "subject": "General Studies",
+  "source": "archive2325-lecturer-vse-general-studies-paper-iii-a-2025.pdf",
+  "sourceSha256": "18e59d4c6d7c08458080402d689eb0ed165fa8c5825cb447c9522c21b6225b87",
+  "ocr": true,
+  "count": 77,
+  "questions": [
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IndianSpaceResearchOrganisation",
+        "b": "NationalAerospaceLaboratories",
+        "c": "HindustanAcronauticsPvt.Ltd.",
+        "d": "NationalSpaceAgency (a)India’sMarsorbitermission(b)Chandrayaan-3lunarmission (c)GSAT-9(d)LVM3rocket (a)NationalCouncilforScienceCommunication (b)Science&TechnologyPopularisationCommissionofIndia (c)NationalCouncilforScienceandTechnologyCommunication (d)NationalCouncilforSciencePromotion (a)Delhi(b)Mumbai (c)Bengaluru(d)Kanpur (a)NationalElectricityTransmissionCorporation(b)POWERGRID (c)PowerTradingCorporation(a)NationalElectricityRegulatoryCommission- (a)SalimAli(b)C.V.Raman. (c)VikramSarabhai(d)ShrinivasRamanujan (a)MinistryofScience&Technology(b)MinistryofSpace (c)MinistryofCulture(d)MinistryofEarthSciences (a)Hostileradarthreats(b)Cyberthreats (c)Biologicalthreats(d)Spacedebris"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Therearenonegativemarksforincorrectanswer. Series-A-2-: 1.ItisthemajorplayerinIndia’saerospaceprogrammesandhasdevelopedworldclasscapacityfor design,developmentandfabricationoflargecomponentsofadvancedcompositesforcivilianand combataircraft,structuraltestingandanalysis,aerospaceelectronicsandsystem.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Windpower",
+        "b": "Hydropower",
+        "c": "Fossilfuels",
+        "d": "Solarenergy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichoneofthefollowingisnotarenewablesourceofenergy?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NationalGreenHydrogenMission.",
+        "b": "NationalQuantumMission",
+        "c": "NationalMissionforSustainableAgriculture",
+        "d": "NationalSupercomputingMission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheNationalActionPlanonClimateChange(NAPCC)haseightnationalmissions.Oneofthe missionsis-",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bhaskara-I",
+        "b": "Rohini",
+        "c": "Aryabhatta",
+        "d": "IRS-1A"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThefirstIndianspacesatellitewhichwaslaunchedin1975was-",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Climatechange",
+        "b": "Riseinsealevel",
+        "c": "Meltingofglacier",
+        "d": "Deforestation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Coralbleachingisanindicatorof-",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "$4",
+        "b": "INS",
+        "c": "AGNI-3",
+        "d": "ABHAY"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "OnOctober24,2024Indialauncheditsfourthnuclear-poweredballisticmissilesubmarine(SSBN) attheShipbuildingCentreinVishakhapatnamcalledas-",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Windmill",
+        "b": "Darrieuswindturbine",
+        "c": "HorizontalAxisWindTurbines(HAWT)",
+        "d": "VerticalAxisWindTurbines(VAWT)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indiahasmadesignificantprogressinharnessingwindenergy,drivenbybothgovernmentsupport andtechnologicaladvancements.ThemostcommonwindturbinesusedinIndiais-",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MissionDrishti",
+        "b": "MissionChandrayaan",
+        "c": "MissionRhumi",
+        "d": "MissionDhanush"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "OnAugust,2024IndialauncheditsfirstreusablehybridrocketfromThuruvidanthai,Chennaiwhich marksasignificantachievementinthecountry’sspaceexplorationefforts.Themissioniscalledas-",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GPS",
+        "b": "GLONASS",
+        "c": "Galileo",
+        "d": "NavIC (a)TessyThomas(b)BirbalSahni (c)HomiJehangirBhabha(d)MSSwaminathan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheautonomoussatellitenavigationsystemdevelopedbytheIndianSpaceResearchOrganisation (ISRO)thatfocusesontheIndiansubcontinentandsurroundingareasis-",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Milkproduction",
+        "b": "Fishproduction",
+        "c": "Wheatproduction",
+        "d": "Juteproduction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheBluerevolutionthatoccurredinIndiagenerallyreferstoincreasein—",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Neuralnetworkchip",
+        "b": "Brainonachip",
+        "c": "Tissuechip",
+        "d": "Minibrainimplants"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThenameofthetechnologydevelopedbyresearchersattheIndianInstituteofScience,Bangaluru thatmimicsthestructureandfunctionofbraintissueinaminiatureplatform,capableofstoringand processingdatain16,500is-",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carborundum",
+        "b": "Carbondi-oxidation",
+        "c": "Carbocation",
+        "d": "Carbonsequestration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thepotentialforstoringsignificantamountofcarboninforestsandotherecosystemsasanalternative meansofoffsettingtheeffectoffutureemissionsongreenhousegasconcentrationonatmosphereis-",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "29\"January",
+        "b": "28\"February",
+        "c": "16November(a)27\"March (a)ArunachalPradesh(b)Assam",
+        "d": "Tripura (a)Verypoor(b)Severe (c)Moderatelypolluted(d)Highlypolluted (a)Mamit(b)Lungkei (c)Kolasib(d)Champhai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheNationalScienceDayiscelebratedeveryyearon—",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Leq]foraresidential",
+        "b": "50daytimeand40nighttime",
+        "c": "60daytimeand50nighttime",
+        "d": "65daytimeand55nighttime"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheambientNationalAirQualitystandardinrespectofnoise[LimitsindB(A)Leq]foraresidential",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sinomicrurusgorei",
+        "b": "Ahaetullaprasine",
+        "c": "Pythonbivittatus(4)Smithophismizoramensis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThenewsnakespeciesdiscoveredinMizoramin2024byresearchersattheMizoramUniversityis-",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bttomato",
+        "b": "Goldenrice",
+        "c": "Btcotton",
+        "d": "GMCanola"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theonlyapprovedgeneticallymodified(GM)cropforcultivationinIndiais-",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Methane",
+        "b": "CarbonDioxide",
+        "c": "WaterVapour",
+        "d": "NitrousOxide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThemostabundantGreenhouseGasintheatmosphereis-",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Xylem",
+        "b": "Phloem",
+        "c": "Stomata",
+        "d": "Macropores."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Severalplantsaresensitivetoozoneandcontributeasanindicatorofairpollution.Ozoneenters leavesthroughthemicroscopicporesof-",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PARAM",
+        "b": "Arka",
+        "c": "Arunika",
+        "d": "Mihir"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheseriesofsupercomputersdesignedandassembledbytheCentreforDevelopmentofAdvanced Computing(C-DAC)inPune,indiais-",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BharatBiotech",
+        "b": "Novartis",
+        "c": "Biocon",
+        "d": "DrReddy’sLab"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheIndianbiopharmacompanytodevelopthefirstrH-insulinusingaPichiapastorisyeastexpression systemintheworldis-",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "EEG",
+        "b": "ECG",
+        "c": "CTScan",
+        "d": "MRI"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ItisamethodbasedonX-raystocreatedetailedimagesoftheinsideofthebody-",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "VPN",
+        "b": "WAN",
+        "c": "LAN",
+        "d": "MAN"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Itisanetworkthatisconstructedbyusingpublicwires/networkusuallytheinternettoconnecttoa privatenetwork-",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SDG4",
+        "b": "SDG8",
+        "c": "SDG9",
+        "d": "SDG11"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichSustainableDevelopmentGoal(SDG)focusesoninnovation?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Photosynthesis",
+        "b": "Respiration",
+        "c": "Asphixia",
+        "d": "Oxidation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theprocessbywhichgreenplantsandcertainotherorganismstransformlightenergyintochemical energyiscalled-",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BiotechnologyforEnvironment,Economy,andEmployment",
+        "b": "BiotechnologyforEnvironment,Economy,andEntrepreneurship",
+        "c": "BiotechnologyforEcology,Economy,andEmployment",
+        "d": "BiotechnologyforEcology,Economy,andEnergy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheBioE3policylaunchedbytheUnionMinisterofStateforScienceandTechnologystandsfor-",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1971",
+        "b": "1949",
+        "c": "1958",
+        "d": "1963"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThefirstScientificPolicyResolutioninIndiawasadoptedintheyear-",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SerumInstituteofIndiaincollaborationwithIndianCouncilofMedicalResearch",
+        "b": "BharatBiotechincollaborationwithIndianCouncilofMedicalResearch",
+        "c": "PfizerincollaborationwithIndianCouncilofMedicalResearch",
+        "d": "EliLilyandcompanyincollaborationwithIndianCouncilofMedicalResearch"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "COVAXIN,India’sfirstindigenousCovid-19vaccinewasdevelopedby-",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rairahteathawnthu",
+        "b": "ChhuralehNaathawnthu",
+        "c": "Nuchhimithawnthu",
+        "d": "Sichangneiithawnthu (a)Samdala(bo)Keimi .(c)TlingilehNgama(d)LaltherilehChalthanga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InMizofolktales,awell-knownmagicalobjectcalled‘Bahhnukte’isfoundin-",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khawnglungrun",
+        "b": "Khuanglengrun",
+        "c": "Chhimlehbmarindo",
+        "d": "Thlanrawnrawt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichoneofthefollowingisassociatedwithLallula?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Buhseng",
+        "b": "Kangral",
+        "c": "Lovah",
+        "d": "Rammut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IntraditionalMizosociety,publicholidayisusedtoobserveontheoccasionof-",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khawvelthanga",
+        "b": "Khamliana",
+        "c": "Lalluaia(a)Lalruma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThefirstMizochiefwhofreedallofhisslavesin1910was-",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TumchhingilehRaldawna",
+        "b": "ChawngvungilehHrangchhuana",
+        "c": "ChawngmawiilehZawlpala",
+        "d": "_LasirilehNeihlala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichoneofthefollowingiscorrectpair?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pawlkut",
+        "b": "Mimkut",
+        "c": "Chapcharkut",
+        "d": "Khuangchawi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TntraditionalMizosocietythereligiousrite‘Kawngpuisiam’isobservedeveryyearbeforethe commencementof-",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vahsanlakni",
+        "b": "Mangchhalni",
+        "c": "Ramtukni",
+        "d": "Chawndoni"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThestartingdayofslashingdowntreesforjhumplotintraditionalMizosocietyiscalled-",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "pawnpuiandthul",
+        "b": "pawnpuiandchem",
+        "c": "thullehchempui",
+        "d": "fianandthlengpui"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Itwasacustomaryonthepartofthebridetobringalongwith-",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sumzanlut",
+        "b": "Pusum",
+        "c": "Sumpui",
+        "d": "Manpui"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InMizomarriage,theprincipalbridepriceisknownas-",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kawngkasulamak",
+        "b": "Peksachang",
+        "c": "Sumehhuah(a)Sumlaitan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "InMizodivorceorseparation,whenthehusbandbringsinanotherwoman,itiscalled-",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Taurus",
+        "b": "GreatBear",
+        "c": "Saturn(@)Pleiades"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "AccordingtoMizotraditionalknowledgesystemofstars,*“KhiangteZawngzim’referredto-",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Valupa",
+        "b": "}Ramhual",
+        "c": "Puithiam",
+        "d": "Thirdeng"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ApersonwhoselectthebestjhummingsiteduringthetraditionalMizosocietywascalled-",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "VanhnuailianavsThawmvunga",
+        "b": "LallianvungavsLalpuithanga",
+        "c": "VutaandMangavsLalsavunga(a)RoluravsVuta (a)1902(b)1907",
+        "d": "1919."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThefamousEast-WestWarcalled“ChhaklehThiangIndo’wasfoughtbetween-",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "June25,1903",
+        "b": "July8,1906",
+        "c": "December2,1906",
+        "d": "April10,1909"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThefirstLowerPrimaryExaminationinMizoramwasheldin--",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "J.Shakespear",
+        "b": "A.S.Reid",
+        "c": "N.E-Parry",
+        "d": "McCall"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AMonographonLushaiCustomsandCeremonieswaswrittenby-",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RhynchostylisRetusa",
+        "b": "RedVanda",
+        "c": "AeridesOdorata",
+        "d": "LiliumMackliniae"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheStateFlowerofMizoramis-",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tialpapuk",
+        "b": "Surpuk",
+        "c": "Tialparipuk(4)Pukzing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "AcavefoundinPhawngpuitlangwas-",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khawlkungi",
+        "b": "NuchhungiRenthlei",
+        "c": "BuangiSailo",
+        "d": "LalsangzualiSailo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThefirstrecipientofthePadmaShriAwardamongthewomenfromMizoramwas-",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tlanglamzai",
+        "b": "Chawngchenzai",
+        "c": "Nilenzai",
+        "d": "Dawnzai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "PumaZaiwasreplacedby-",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ThefirstpresidentofYoungLushaiAssociation",
+        "b": "ThefirstEditorofMizoChanchinLaisuih",
+        "c": "ThefirstEditorofMizolehVaiChanchinbu",
+        "d": "ThefirstEditorofKristianTlangau"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "RoleofRevL.EvansinMizohistorywas-",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25February,1951",
+        "b": "25April,1952",
+        "c": "25May,1953",
+        "d": "25April,1954"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InwhichofthefollowingyearwasMizoDistrictCouncilinaugurated?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2000",
+        "b": "2100",
+        "c": "2150",
+        "d": "2200"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThenumberofMizoswhowenttoFranceinconnectionwiththeFirstWorldWarwas-",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "S.N.Barkataki",
+        "b": "BrojoNathSaha",
+        "c": "GNBardoloi",
+        "d": "RupNathBrahma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThefirstIndiantotakeoverasSuperintendentofLushaiHillswas-",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Three",
+        "b": "Four",
+        "c": "Five",
+        "d": "Six"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheMizomusicalinstrumentTumphitproduceddifferentnotes.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "C.Chhuanvawra",
+        "b": "C.Laizawna",
+        "c": "B.Lalthangliana",
+        "d": "C.Thangmawia (a)Latkhama,Laldenga,R.D.Pradhan(b)Lalthanhawla,Laldenga,R.D.Pradhan .(c)Laldenga,Lalkhama,GianiZailSingh(d)Laldenga,Lalkhama,CharanSingh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhoamongthefollowingistherecipientofRokungaAward,2024?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RajivGandhi",
+        "b": "IndiraGandhi",
+        "c": "PVNarasimhaRao",
+        "d": "MorarjiDesai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheUnionTerritoryofMizoramwasinauguratedby-",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1966",
+        "b": "1968",
+        "c": "1967",
+        "d": "1969"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "GroupingofvillageswasintroducedinMizoramfrom-",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kungawrhi",
+        "b": "Tumchhingi",
+        "c": "Ngaiteii",
+        "d": "Chawngchilhi:"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AgirlwhofellinlovewithserpentinMizofolktaleis-",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Maubuangvillage",
+        "b": "Muallungthuvillage",
+        "c": "Samlukhaivillage",
+        "d": "Tachhipvillage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "SibutaLungissituatedattheoutskirtof-",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Awmlaithi",
+        "b": "Sarthi",
+        "c": "Raicheh",
+        "d": "Hlamzuih"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whenaninfantdiedatorsoonafterbirth,itwasknownas-",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Liangkhaia",
+        "b": "Chuautera",
+        "c": "Chhuahkhama",
+        "d": "Challiana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThePilgrim’sProgresswastranslatedintoMizolanguageby-",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Itmustbeselectedbyramhualandsadawtbysleepingonenightattheproposesitetakingwith themwithacock.Ifthecockcrowbeforedawn,thesitewouldbeconsideredsuitable.",
+        "b": "Itmusthavetobeselectedbytheelderswhichtheydidbysleepingonenightatthepropose sitetakingwiththemacock.Ifthecockdidnotcrowbeforedawn,thesitewouldbeconsidered notsuitable.",
+        "c": "Itmusthavetobeselectedbyonly‘rambhual’whichtheydidbysleepingonenightatthe proposesitetakingwiththemacock.Ifthecockdidnotcrowbeforedawn,thesitewouldbe considerednotsuitable.",
+        "d": "_itmusthavetobeselectedbythegroupofyoungmenwhichtheydidbysleepingonenightat theproposesitetakingwiththemacock.Ifthecockdidnotcrowbeforedawn,thesitewould beconsiderednotsuitable."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Forselectionofnewsiteorvillage-",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "afullgrownfemalepigwaskilled",
+        "b": "ayoungpigwaskilled",
+        "c": "mithun-waskilled",
+        "d": "afullgrownhenwaskilled"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In‘hnuaipui’sacrifice,",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1890",
+        "b": "1891",
+        "c": "1892",
+        "d": "1893"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rey.WilliamWilliamsarrivedMizoramintheyear-",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(4:8:14)",
+        "b": "(12:24:36)",
+        "c": "(6:20:26)(a)(30:36:45)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethatsetofnumbersfromthefouralternativessetsthatissimilartothegivenset. (6:12:18)",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "121",
+        "b": "195.",
+        "c": "126",
+        "d": "103"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "2,9,28,65.2,",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30",
+        "b": "27",
+        "c": "36",
+        "d": "72"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inthegivenseries,oneofthetermsinthenumberseriesiswrong.Findoutthewrongterm. 30,27,36,45,72",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6",
+        "b": "12",
+        "c": "21",
+        "d": "32"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Findtheonethatdoesnotbelongtotheseries: 6,12,21,32,45,60",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "144",
+        "b": "216",
+        "c": "343",
+        "d": "125"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethenumberwhichisdifferentfromothers.",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "523",
+        "b": "121",
+        "c": "324",
+        "d": "729"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosetheoddoneoutfromthenumbersgiven",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "61",
+        "b": "63",
+        "c": "65",
+        "d": "81"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thenextnumberinthesequencewillbe? 1,3,9,15,25,35,49,....",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Isolate",
+        "b": "Foam",
+        "c": "Extinguishes",
+        "d": "Explode"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Findthewordwhichholdsthesamerelationwiththethirdwordasthereinbetweenthefirsttwo words. Oxygen:Burn::Carbondioxide:?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GHIET",
+        "b": "VEENS",
+        "c": "ORFU",
+        "d": "VIDEID"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrangethefollowinglettersofeachgrouptomakeameaningfulwordandthenfindtheoddoneout.",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Psychology:Mind",
+        "b": "Anatomy:Body",
+        "c": "Phylosophy:Language",
+        "d": "Archeology:Antiques"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identifythepairwhich‘doesnot’exhibitthesamerelationshipasthecapitalizedpair: Etymology:Words",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Water",
+        "b": "Tree",
+        "c": "Wall",
+        "d": "Sky"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IfWateriscalledfood,foodiscalledtree,treeiscalledsky,skyiscalledwall.onwhichofthe .followinggrowsafruit?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Enlarge",
+        "b": "Decrease",
+        "c": "Decline",
+        "d": "Slow"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ChoosetheantonymofAbate:",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.89&90):Readthefollowingpassageandanswerthetwo(2)questions",
+      "opts": {
+        "a": "2only",
+        "b": "1and3only",
+        "c": "2and3only",
+        "d": "1,2and3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Withreferencetothepassage,thefollowingassumptionshavebeenmade: 1,Humanrelationshipsarederivedfromtheirreligioustraditions 2.HumanbeingscanbedutyboundonlyiftheybelieveinGod 3.Religioustraditionsareessentialtopracticeandunderstandjustice Whichoftheseassumption(s)is/arevalid?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Havingrelationshipstothedivineprincipleisagreatvirtue",
+        "b": "Ourdutiestooneanotherderivefromourreligioustraditions",
+        "c": "ReligiousconceptsofrightsisprimarilyderivedfromourrelationshiptoGod",
+        "d": "Balancebetweenrightsanddutiesiscrucialtothedeliveryofjusticeinasociety"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichoneofthefollowingisthecruxofthispassage?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Completethefigurematrixfromtheanswerfigures: QLOO? O)O]2. AnswerFigures:",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ProblemFigures: —_>| AnswerFigures:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q4 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q6 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q7 (p1, part None): only 0 option(s) [] - not emitted",
+    "Source numbering gap before Q18: expected Q17; review the printed page.",
+    "Source numbering gap before Q24: expected Q21; review the printed page.",
+    "Source numbering gap before Q41: expected Q40; review the printed page.",
+    "Source numbering gap before Q54: expected Q53; review the printed page.",
+    "Source numbering gap before Q67: expected Q66; review the printed page.",
+    "Source numbering gap before Q81: expected Q80; review the printed page.",
+    "Source numbering gap before Q92: expected Q91; review the printed page.",
+    "Q93 (p10, part None): only 0 option(s) [] - not emitted",
+    "Q95 (p11, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      17,
+      21,
+      22,
+      23,
+      40,
+      53,
+      66,
+      80,
+      91,
+      93
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/02/f5752cbec99823020cb815276aa26ef1/lecturer-vse-general-studies-paper-iii-a-2025.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

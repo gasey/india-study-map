@@ -1,0 +1,235 @@
+{
+  "slug": "archive2325-acf-2023-mathematics",
+  "exam": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt",
+  "sitting": "2023",
+  "subject": "Mathematics",
+  "source": "archive2325-acf-2023-mathematics.pdf",
+  "sourceSha256": "0091e5ffba4cced11433d9303dc5c15e5a4d7deeb1ee0836e340b8d01a07695a",
+  "ocr": false,
+  "count": 9,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Find the inverse of the matrix, A=123.(5) 311",
+        "b": "For the 3-dimensional space ³ over the field of real numbers ,determine whether the set {(2,-1,0), (3,5,1), (1,1,2) is a basis.(5)",
+        "c": "Let the mapping T:³³defined by T(x, x, x) = (x+ x + x, 2x + x + 2x, x + 2x + x); (x, x, x) ³. 123123123123123 Show that T is linear mapping.(5) xy",
+        "d": "Let V be the vector space of all 2×2 matrices over R. Let  W =x,y,zR; 1 z0 x0 W = x,zR. Prove that W , W are subspaces of V..(5) 212 0z"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)Find the inverse of the matrix, A=123.(5)",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "For what values of a, b and c if any, does the function, x²,x≤0 f(x)=ax+b,0<x≤1 is differentiable at x = 0 and x = 1.(5) c,x>1",
+        "b": "Find the area bounded by the parabola x² = 8y and the line x−2y + 8 = 0.(5) 32232",
+        "c": "Find the asymptote of the curve 3x+2xy−7xy+2y−14xy+7y+4x+5y=0.(5) 2222222u2u2u",
+        "d": "If u = logx+y+z, prove that (x+y+z)++=1.(5) 222 xyz"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)For what values of a, b and c if any, does the function,",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Find the equation of the cone whose vertex is the point (,,)and whose generating lines x2y2 ab",
+        "b": "Find the length and the equations of the shortest distance between the lines. x−1y−2z−3x−2y−4z−5 .(5) ==;== 234345",
+        "c": "For what value of  does the equation 12x²−10xy+2y²+11x−5y+=0 −11 7 x2y2",
+        "d": "Show that the plane 8x−6y−z=5 touches the paraboloid −=z.    (5) 23"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)Find the equation of the cone whose vertex is the point (,,)and whose generating lines",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "By substituting x² = u and y² = v , reduce x²(y-px) = yp² into Clairaut’s form and find the dy132",
+        "b": "Reduce the equation +sin2y=xcosy to a linear differential equation and solve it. (5) dxx dy",
+        "c": "Solve sinpxcosy=cospxsiny+p, where p=.(5) dx 22d",
+        "d": "Solve (xD−xD+2)y=xlogx, where D.(5) dx"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)By substituting x² = u and y² = v , reduce x²(y-px) = yp² into Clairaut’s form and find the",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A particle of mass m is falling under the influence of gravity through a medium whose resistance m²_m^tt 2 m",
+        "b": "A particle is moving with SHM and while making an excursion from one position of rest to the −1x₁+x₃ 2x 2",
+        "c": "A particle moves with simple harmonic motion in a straight line. In the first second starting from rest, it travels a distance ‘a’ and in the next second it travels a distance ‘b’ in the same direction. 2a² Prove that the amplitude of motion is .(5) 3a−b",
+        "d": "A particle is projected in a direction making an angle  with the horizon. If it passes through the point whose co-ordinate are (x₁,y₁) referred to the perpendicular axes through the point of y₁R projection. Show that  tan=where R is the horizontal range. If it also passes x₁R−x₁ x22y1−x12y2 through the point (x₂,y₂), prove that tan=.(5) x₁x₂(x₂−x₁)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)A particle of mass m is falling under the influence of gravity through a medium whose resistance",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prove that for any three vectors a,b,c, a×(b×c)=(a⋅c)b−(a⋅b)c.(5) ²",
+        "b": "Verify Stoke’s theorem for the function F=xi+xyj integrated along the rectangle in the xy- plane whose sides are along the lines x=0, y=0; x=a and y=b.(5)",
+        "c": "Find (A×)×B at the point of (1,-1,2), if 2² A=xzi+2yj−3xzk and B=3xzi+2yzj−zk(5)",
+        "d": "Find the value of the constant d such that the vectors, 2i−j + k, i + 2j−3k and 3i + dj + 5k are coplanar.    (5)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)Prove that for any three vectors a,b,c, a×(b×c)=(a⋅c)b−(a⋅b)c.(5)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prove that the intersection of two subgroups of a group G is a subgroup of G.(5)",
+        "b": "If R is the additive group of real numbers and R⁺ the multiplicative group of all positive real numbers. Then prove that the mapping f : RR⁺ defined by f(x) = e^x for all x R is an isomorphism of R onto R⁺.(5)",
+        "c": "Prove that a ring R is without zero-divisors if and only if  for all a, b, c R, ab=ac and a0 imply b=c.(5)",
+        "d": "Let G is a finite group. Prove that order of any element of G divides order of G.(5) b dx"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)Prove that the intersection of two subgroups of a group G is a subgroup of G.(5)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prove that the improper integral ₙ converges if and only if n < 1.(5) (xa) ₐ−",
+        "b": "Let f(x)=x over [0,1]. By dissecting [0,1] into n-equal parts and show that f is Riemann integrable.(5) 1",
+        "c": "Expand f(z) in power series valid in 0<z+1<2.(5) (z+1)(z+3) 2z³+2",
+        "d": "Find the value of the integral ₂dz, where C:z−2=2 described in _C (z−1)(z+9)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a)Prove that the improper integral ₙ converges if and only if n < 1.(5)",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Find the positive real root of xlog₁₀x=1.2 using the bisection method in three iterations.(5)",
+        "b": "Find the positive solution of 2sinx=xusing Newton-Raphson method.(5) 131x21",
+        "c": "Find the value of log2from dx using Simpson’ss   rule with h = 0.25.(5) ³3 ₀1+x dy",
+        "d": "Using Euler’s method, solve the ordinary differential equation =1+xy given that dx y(0)=2and find y(0.3).(5)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(a) Find the positive real root of xlog₁₀x=1.2 using the bisection method in three iterations.(5)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q9 (p4, part B): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q10 (p4, part B): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q12 (p4, part B): only 2 option(s) ['a', 'b'] - not emitted"
+  ],
+  "gaps": {
+    "A": [],
+    "B": [
+      9,
+      10
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2023/09/12c2acc19fe4a5ed4945f495fa5def7a/acf-2023-mathematics.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

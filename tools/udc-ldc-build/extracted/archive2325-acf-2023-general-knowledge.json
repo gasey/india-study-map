@@ -1,0 +1,2320 @@
+{
+  "slug": "archive2325-acf-2023-general-knowledge",
+  "exam": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt",
+  "sitting": "2023",
+  "subject": "General Knowledge",
+  "source": "archive2325-acf-2023-general-knowledge.pdf",
+  "sourceSha256": "5b2e30afe79e4f896daa4fdacb15cde6c81bd141e11a69de1a2ab6ddde51f58a",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Yajurveda",
+        "b": "Rigveda",
+        "c": "Samaveda",
+        "d": "Atharvaveda"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is the oldest Veda?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Alan Mathison Turing",
+        "b": "John McCarthy",
+        "c": "Elon Musk",
+        "d": "Steve Jobs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the father of artificial inteliigence?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Narasimhadeva Varman",
+        "b": "Rajendra Chola",
+        "c": "Ashoka",
+        "d": "Krishnadeva Rai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who built the Konark Sun Temple?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reserve Bank of India",
+        "b": "National Payments Corporation of India",
+        "c": "Securities Exchange Board of India",
+        "d": "NITI Aayog"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which institution developed the Unified payments interface (UPI) payment system?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Akbar",
+        "b": "Jahangir",
+        "c": "Shah Jahan",
+        "d": "Aurangzeb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following shifted the capital of the Mughal Empire from Agra to Delhi?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "John Paul II",
+        "b": "Wendell Berry",
+        "c": "George Bernard Shaw",
+        "d": "Percy Bysshe Shelley"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“The Earth will not continue to offer its harvest, except with faithful stewardship. We cannot say we love the land and then take steps to destroy it for use by future generations,” has been stated by:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kolkata",
+        "b": "Mumbai",
+        "c": "Chennai",
+        "d": "Hyderabad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fort William was built by the British in",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lord Bentinck",
+        "b": "Lord Dalhousie",
+        "c": "Lord Wellesley",
+        "d": "Lord Canning"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the Governor General during the Revolt of 1857?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arabian Sea",
+        "b": "Indian Ocean",
+        "c": "Bay of Bengal",
+        "d": "Persian Gulf"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cyclone Mocha was a severe cyclonic stormed that formed in the _________ on May 10, 2023.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cabinet Mission Plan",
+        "b": "Cripps proposal",
+        "c": "Simon Commission report",
+        "d": "Wavell plan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Quit India Movement’ was launched in response to",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sialsuk Village Council",
+        "b": "Reiek Village Council",
+        "c": "Ngopa Village Council",
+        "d": "Lungdai Village Council"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the recipient of the National Panchayat Award (Nanaji Deshmukh Sarvottam Panchayat Satat Vikas Puraskar) 2023?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1990",
+        "b": "1991",
+        "c": "1992",
+        "d": "1993"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which year did the Soviet Union collapse?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20 km/sec",
+        "b": "30 km/sec",
+        "c": "40 km/sec",
+        "d": "50 km/sec"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average speed at which the Earth revolve around the Sun is",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DR Congo",
+        "b": "Malawi",
+        "c": "Angola",
+        "d": "Tanzania"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mount Nyiragongo is an active volcano in",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Luminosity",
+        "b": "Temperature",
+        "c": "Distance from the sun",
+        "d": "Distance from the earth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The colour of a star is an indication of its:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Greater Himalaya",
+        "b": "Middle Himalaya",
+        "c": "Siwalik",
+        "d": "Tibetan Himalaya"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Himadri is also called",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assemblage of plant species living in association with each other in a given environmental frame",
+        "b": "Plants of a particular region or period, listed by species and considered as a group",
+        "c": "A large tract covered by trees and shrubs and its administration for assessing economic benefits",
+        "d": "Role played by species of animals in the maintenance of ecological balance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘flora’ in the context of natural vegetation refers to",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ken",
+        "b": "Betwa",
+        "c": "Son",
+        "d": "Chambal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following rivers is not a tributary of Yamuna River?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bay of Bengal, Kerala",
+        "b": "Arabian Sea, Kerala",
+        "c": "Bay of Bengal, Tamil Nadu",
+        "d": "Arabian Sea, Tamil Nadu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The southwest Monsoon arrives from the _________, and hits the state of _________ before any parts of India.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Montane Wet Temperate Forest",
+        "b": "Sub-tropical Dry EvergreenForest",
+        "c": "Tropical Moist Deciduous Forest",
+        "d": "Tropical Wet Evergreen Forest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which type of forest occupies the largest area in India?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam",
+        "b": "Meghalaya",
+        "c": "Karnataka",
+        "d": "Kerala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state is the largest producer of Areca nut in India?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "forest vegetation of tropical regions",
+        "b": "tropical mixed vegetation dominated by grasses",
+        "c": "temperate type of grassland having only grasses",
+        "d": "type of vegetation adapted to arid climate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Savanna is a",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Wheat",
+        "b": "Rice",
+        "c": "Sugarcane",
+        "d": "Millets"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Among the following crops, which one is the most important anthropogenic source of both methane and nitrous oxide?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "holds any office of profit",
+        "b": "is of unsound mind or an undischarged insolvent",
+        "c": "is not a citizen of India",
+        "d": "is sentenced to imprisonment for two years or more"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Article 102 of Indian Constitution specifies that a person shall disqualified for contesting elections and being a Member of Parliament if he/she",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Powers and functions of the Election Commission",
+        "b": "Appointment of the Prime Minister and Cabinet",
+        "c": "Election of the President of India",
+        "d": "Appointment of the Governor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Article 54 of the Indian Constitution deals with",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10",
+        "b": "11",
+        "c": "12",
+        "d": "13"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The total number of Schedules in the Indian constitution is",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Minorities Commission",
+        "b": "Commission for Scheduled Castes and Scheduled Tribes",
+        "c": "Extension of reservation of seats for Scheduled Castes and Scheduled Tribes",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 45th Amendment to the Indian Constitution relates to the",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indira Gandhi",
+        "b": "Morarji Desai",
+        "c": "VP Singh",
+        "d": "Rajiv Gandhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mandal Commission was constituted during the tenure of one of the following prime Minister",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Parliament",
+        "b": "Prime Minister",
+        "c": "Chief Justice of India",
+        "d": "Vice-President"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the President of India wants to resign, he should address his resignation letter to the",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 14 and 15",
+        "b": "Article 16 and 18",
+        "c": "Article 17 and 19",
+        "d": "Article 20 and 21"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Articles cannot be suspended during national emergency?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Members of both Houses of Parliament",
+        "b": "Elected members of both Houses of Parliament",
+        "c": "Elected members of both Houses of Parliament and the state Legislative Assemblies",
+        "d": "Members of both Houses of Parliament and the state Legislative Assemblies"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Vice-President of India is elected by an electoral college consisting of",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Prime Minister",
+        "b": "The President",
+        "c": "The Lok Sabha",
+        "d": "The Parliament"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has the authority to proclaim Emergency in a state?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The G20 was founded in 1999",
+        "b": "It is an informal group consisting of 19 countries and the European Union",
+        "c": "The permanent secretariat of G20 is in London",
+        "d": "India holds the Presidency of the G20 from 1 December 2022 to 30 November 2023"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one the following statement with reference to G20 is incorrect?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Solicitor General of India",
+        "b": "Chief Justice of Supreme Court",
+        "c": "Law Secretary",
+        "d": "Attorney General of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Chief Legal Advisor to the Government of India is",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tendulkar Committee",
+        "b": "Lakdawala Committee",
+        "c": "Hashim Committee",
+        "d": "Rangarajan Committee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following committees was set up in India for identification of BPL families in urban areas?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Neville Chamberlain",
+        "b": "Clement Atlee",
+        "c": "Harold Wilson",
+        "d": "Lloyd George"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The British Prime Minister who was opposed to the continuation of British rule in India was?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bal Gangadhar Tilak",
+        "b": "Dadabhai Naoroji",
+        "c": "Pt. Jawaharlal Nehru",
+        "d": "Chittaranjan Das"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Swaraj as a national demand was first made by",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Charter Act of 1813",
+        "b": "Charter Act of 1833",
+        "c": "Charter Act of 1853",
+        "d": "Government of India Act of 1858"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following acts introduced an open competition system of recruitment in Civil Service?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lead",
+        "b": "Cadmium",
+        "c": "Mercury",
+        "d": "Arsenic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Minamata disease is a severe neurological disease caused by the presence of",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nandini Satpathy",
+        "b": "Dr. J. Jayalalitha",
+        "c": "Sucheta Kripalani",
+        "d": "Ms. Mayawati"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first woman to become a Chief Minister of any State in India was?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "First",
+        "b": "Second",
+        "c": "Third",
+        "d": "Fourth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the position of India in the Asia Cup hockey tournament 2022?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A.O. Hume",
+        "b": "Vivekanand",
+        "c": "Dayanand",
+        "d": "D.E. Wacha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘India for the Indians’ was the political message of",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Diabetes",
+        "b": "Hypertension",
+        "c": "COVID-19",
+        "d": "Tuberculosis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Arcturus’ is associated with which disease?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fifth Five-Year Plan",
+        "b": "Six Five-Year Plan",
+        "c": "Seventh Five-Year Plan",
+        "d": "Eight Five-Year Plan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Social Forestry Programme was launched in the",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Phoebe Hainesiana",
+        "b": "Aquilaria Malaccensis",
+        "c": "Indian Rose Chestnut",
+        "d": "Dipterocarpus Retusus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the state Tree of Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Three",
+        "b": "Four",
+        "c": "Five",
+        "d": "Six"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many people have served as the Chief Minister of Mizoram since 1972?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kartiki Gonsalves and Guneet Monga",
+        "b": "Guneet Monga and AR Rehman",
+        "c": "Kartiki Gonsalves and Manish Malhotra",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who won the Oscar for India the Elephant Whisperer in 2023?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Forest (Conservation) Act, 1973",
+        "b": "Forest (Conservation) Act, 1980",
+        "c": "Forest (Conservation) Act, 1991",
+        "d": "Forest (Conservation) Act, 2000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Forest (Conservation) Rules, 2022 have been promulgated to implement the provisions of",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Alley cropping",
+        "b": "Shifting cultivation",
+        "c": "Organic farming",
+        "d": "Taungya systems"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The oldest known agro-forestry system is",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kolkata",
+        "b": "Chennai",
+        "c": "Dehradun",
+        "d": "Bangalore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The headquarter of Forest Survey of India is located in",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "21st January",
+        "b": "21st February",
+        "c": "21st March",
+        "d": "21st April"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "International Day of Forests is observed on",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Centre-State relations",
+        "b": "Inter-State relations",
+        "c": "River water disputes",
+        "d": "Public sector undertakings"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Sarkaria Commission was set up to examine",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Preamble",
+        "b": "Fundamental Rights",
+        "c": "Fundamental Duties",
+        "d": "Directive Principles of State Policy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of welfare state finds elaboration in the",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USA",
+        "b": "UK",
+        "c": "France",
+        "d": "Austria"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In January 2023, India signed a Comprehensive Migration and Mobility Partnership Agreement with",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 110",
+        "b": "Article 112",
+        "c": "Article 117",
+        "d": "Article 315"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following article is associated with budget?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prime Minister",
+        "b": "President",
+        "c": "Parliament",
+        "d": "Supreme Court"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is responsible for amending the law relating to Indian citizenship?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vijay Lakshmi Pandit",
+        "b": "Sarojini Naidu",
+        "c": "Indira Gandhi",
+        "d": "Meira Kumar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first woman to be the Speaker of the Lok Sabha is",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Haemorrhage",
+        "b": "Hematuria",
+        "c": "Haemophilia",
+        "d": "Anaemia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is a condition of delayed blood clotting?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Protect States against external aggression and internal disturbance",
+        "b": "Allow extension of legislative powers of the Union on any state",
+        "c": "Allow suspension of enforcement of rights",
+        "d": "Proclaim financial emergency"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under Article 355 of the Constitution of India, it is the duty of the Union to",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Five List of subjects",
+        "b": "Four List of Subjects",
+        "c": "Three List of subjects",
+        "d": "Two List of subjects"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The division of powers between the Union Government and the State Government has been made on the basis of",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Horticulture and Honey",
+        "b": "Fertilizers",
+        "c": "Sugar",
+        "d": "Steel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Grey Revolution’ is related to",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rajasthan and Andhra Pradesh",
+        "b": "Tamil Nadu and Karnataka",
+        "c": "Uttar Pradesh and Bihar",
+        "d": "Madhya Pradesh and Maharashtra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following pairs of states were the first to implement the Panchayati Raj system?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A.O. Hume",
+        "b": "Dadabhai Naoroji",
+        "c": "W.C. Bannerjee",
+        "d": "Pherozeshah Mehta"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first session of the Indian National Congress was held under the presidentship of",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1980",
+        "b": "1982",
+        "c": "1984",
+        "d": "1986"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "National Bank for Agriculture and Rural Development (NABARD) was established in the year",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Om Birla",
+        "b": "Maneka Gandhi",
+        "c": "Rao Inderjit Singh",
+        "d": "Meera Singh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the present Speaker of the Lok Sabha?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ranjit Sinha",
+        "b": "Dhananjaya Yeshwant Chandrachud",
+        "c": "Ranjan Gogoi",
+        "d": "Sharad Bobde"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_________ is the present Chief Justice of India.",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tawi Wetland",
+        "b": "Tam Wetland",
+        "c": "Pala Wetland",
+        "d": "Rih Wetland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is recently recognized as the first Ramsar site in Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "50",
+        "b": "75",
+        "c": "80",
+        "d": "100"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As of May, 2023, India has how many Ramsar sites?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Skills and Knowledge",
+        "b": "Health and Social Institutions",
+        "c": "Infrastructures",
+        "d": "Land, Water, minerals and Forests"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following comes under Natural Resources?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Social and economic disasters",
+        "b": "Environmental disasters",
+        "c": "Human disasters",
+        "d": "Global disasters"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Continuous and unchecked exploitation of the natural resources led to",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It is the marginal land which is not cultivated every year",
+        "b": "It is the area under cultivation",
+        "c": "It is the area used for pastures",
+        "d": "It is the land reserved for construction sites"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What do you mean by Fallow Land?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Special status to Himachal Pradesh",
+        "b": "Special status to Northeast India",
+        "c": "Special status to Jammu and Kashmir",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Article 370 of the constitution of India is related to",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Special provision with respect to the State of Nagaland",
+        "b": "Special provision with respect to the State of Mizoram",
+        "c": "Special provision with respect to the State of Manipur",
+        "d": "Special provision with respect to the State of Meghalaya"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Article 371g of the constitution of India gave",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dampa, Tokalo, Lengteng, Tawi wildlife sanctuaries",
+        "b": "Dampa, Tokalo, Mamit, Phawngpui wildlife sanctuaries",
+        "c": "Dampa, Tokalo, Reiek, Phawngpui wildlife sanctuaries",
+        "d": "Dampa, Tokalo, Serlui, Phawngpui wildlife sanctuaries"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following are the popular wildlife sanctuaries of Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The President of India",
+        "b": "The Prime Minister of India",
+        "c": "The Lok Sabha Secretariat",
+        "d": "The Supreme court of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which/Who of the following is the custodian of Indian Constitution?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The President of India",
+        "b": "Reserve Bank of India",
+        "c": "The Finance Minister of India",
+        "d": "State Bank of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the custodian of the Forex Exchange Reserves of India?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rangamati Jail",
+        "b": "Cellular Jail",
+        "c": "Rajah Mundry Jail",
+        "d": "Tihar Jail"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which Jail was Lalnu Ropuiliani detained?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bodrum castle",
+        "b": "Uchisar castle",
+        "c": "Gaziantep castle",
+        "d": "Kusadasi castle"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which castle was badly damaged by the earthquake that struck Turkey and Syria in February 2023?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "HnamRopuite u, Tho r’u le",
+        "b": "Daidanna bang phena thuruk",
+        "c": "Zofate U, Finna zawng ula",
+        "d": "Mizo Buanpuite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The recipient of the MAL Book of the Year 2022 is",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs. 6 Lakh",
+        "b": "Rs. 7 Lakh",
+        "c": "Rs. 8 Lakh",
+        "d": "Rs. 9 Lakh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per the Union Budget 2023, what is the income limit for availing tax rebate?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20th February 1986",
+        "b": "20th February 1987",
+        "c": "20th February 1988",
+        "d": "20th February 1989"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When did Mizoram attained Statehood?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "France",
+        "b": "Australia",
+        "c": "Germany",
+        "d": "India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is the largest Democracy in the World?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Elements",
+        "b": "Hydrocarbons",
+        "c": "Polymers",
+        "d": "Salts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Petroleum can be categorised under which one of the following terms?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2",
+        "b": "2 and 4",
+        "c": "3 and 4",
+        "d": "1 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following characteristics are associated with the dry monsoon forest of India? 1.Annual rainfall is below 50 cm 2.The trees are short rooted 3.Thorny shrubs and grassland 4.Mango, Mahua, Sisam and Keeker are the prominent trees.",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Prime Minister",
+        "b": "The President",
+        "c": "Chief Justice of Supreme Court",
+        "d": "The Parliament"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An Inter State Council may be established by",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Single citizenship",
+        "b": "Independent Judiciary",
+        "c": "Division of Powers",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a Unitary feature of the Government?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10",
+        "b": "9",
+        "c": "7",
+        "d": "5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the ‘Red Data Books’ published by the International Union for Conservation of Nature and Natural Resources (IUCN), species are classified into _________ categories",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ricin",
+        "b": "Capsaicin",
+        "c": "Arecoline",
+        "d": "Caffeol"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Red chillies are hot because they contain a chemical called",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "North Eastern Frontier Agency",
+        "b": "Tipperah",
+        "c": "Kamrupa",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arunachal Pradesh was earlier known as",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "iElect",
+        "b": "cVigil",
+        "c": "iMonitor",
+        "d": "Samadhan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Election Commission of India recently launched a mobile app for enabling citizens to report Model Code of Conduct and Expenditure violations during the elections. The app has been named as:",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Israel",
+        "b": "France",
+        "c": "Japan",
+        "d": "Italy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "FRINJEX-23 was the first-ever joint military exercise between India and",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bihar",
+        "b": "Assam",
+        "c": "Uttar Pradesh",
+        "d": "Kerala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which state is the Terai Elephant Reserve (TER) approved to be set up?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nagaland",
+        "b": "Mizoram",
+        "c": "Meghalaya",
+        "d": "Manipur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state hosted the ‘Tokhü Emong Bird Count (TEBC)’ event?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Myanmar",
+        "b": "Pakistan",
+        "c": "Bhutan",
+        "d": "Bangladesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sundarbans, the world’s largest mangrove delta is governed by India along with which country?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brahmo Samaj",
+        "b": "Arya Samaj",
+        "c": "Ramakrishna Mission",
+        "d": "Theosophical society"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Raja Ram Mohan Roy was the founder of the",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tamilnadu",
+        "b": "Karnataka",
+        "c": "Odhisa",
+        "d": "Delhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state/UT hosted the ‘First Urban Climate Film Festival’ in India?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Madhya Pradesh",
+        "b": "Gujarat",
+        "c": "Telengana",
+        "d": "Maharashtra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Aarey Forest, which was seen in the news, is located in which state/UT?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India",
+        "b": "Afghanistan",
+        "c": "Pakistan",
+        "d": "Kazakhstan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mohenjo Daro, the UNESCO World Heritage Site, is located in which country?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sikkim",
+        "b": "Arunachal Pradesh",
+        "c": "West Bengal",
+        "d": "Jharkhand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Donyi Polo Airport has been inaugurated in which state/ UT?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MV-ITT TIGER (V-273)",
+        "b": "MV-ITT LION (V-273)",
+        "c": "MV-ITT VIKRANT (V-273)",
+        "d": "MV-ITT VIKASH (V-273)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The name of the first Indian cargo ship that successfully docks at the Sittwe Port on 9 May 2023 was",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2023/09/fa966919065ab0ec7ea5dddceb925eba/acf-2023-general-knowledge.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

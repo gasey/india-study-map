@@ -1,0 +1,2053 @@
+{
+  "slug": "archive2325-mizoram-legal-service-general-knowledge-august-2024",
+  "exam": "Mizoram Legal Service (MLS)- August-2024",
+  "sitting": "August 2024",
+  "subject": "General Knowledge",
+  "source": "archive2325-mizoram-legal-service-general-knowledge-august-2024.pdf",
+  "sourceSha256": "9b17f6283b2eb3b9b0758e5b42969932dc881816dd595b88c0258fd48294a72a",
+  "ocr": true,
+  "count": 88,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ICMR-RegionalMedicalResearchCentre,Dibrugarh",
+        "b": "AIMS,NewDelhi",
+        "c": "TataMemorialCentre,Mumbai",
+        "d": "InstituteofCytologyandPreventiveOncology,Noida"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichmedicalinstituteinthecountryhasrecentlyannounceddevelopmentofacancertreatment drugcostingonlyRs.100perpill?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PressTrustofIndia",
+        "b": "PressInformationBureau",
+        "c": "CentralBureauofInvestigation",
+        "d": "CentralInformationCommission (a)150MostBackwardDistricts(b)MostBackwardTribalAreas (c)NorthEastIndia(4)CoastalRegions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "K.N.ShanthKumarhasbeenappointedastheChairpersonofwhichinstitution?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PVSindhu&SharathKamal",
+        "b": "PVSindhu&NeerajChopra",
+        "c": "PVSindhu&RohanBopanna",
+        "d": "PVSindhu&HSPrannoy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhoweretheflagbearersforIndiaduringtheopeningceremonyatthe2024ParisOlympics?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "96",
+        "b": "97",
+        "c": "98",
+        "d": "99"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HowmanyseatsdidtheIndianNationalCongress(INC)wininGeneralElectiontomemberof Parliament(LokSabha)in2024?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam",
+        "b": "Sikkim",
+        "c": "ArunachalPradesh",
+        "d": "Nagaland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "PakkePagaHombillFestival,whichwasseeninthenews,iscelebratedinwhichstateofIndia?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SBIBank",
+        "b": "ICICIBank",
+        "c": "CanaraBank",
+        "d": "AxisBank"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Money2India(Canada)app,toeasetheprocessoftransferringmoneytoIndia,waslaunchedby whichbank?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CarmenLucia",
+        "b": "JairBolsonaro",
+        "c": "MichelTemer(4)LuizInacioLuladaSilva"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "PrimeMinisterNarendraModihandedovertheG20presidencyto:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Helpcentersdedicatedtowomenwhohavesurvivedwarcrimes.",
+        "b": "Communitycenterstosupportvictimsofwarundergoingtreatmentformentalandphysicaltrauma.",
+        "c": "Creationofasafeandsupportiveenvironmentforeffectivecommunicationbetweenlaw",
+        "d": "Supportcentersforelderlycitizenswhohavesuffereddisplacementduetowarorconflicts."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thepurposeof‘GreenRooms’whichwererecentlylaunchedinUkrainecanbedescribedas-",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NitrogenHypoxia",
+        "b": "CarbonMonoxidehypoxia",
+        "c": "Hydrogencyanidehypoxia",
+        "d": "Saringasexecution (a)ShapinganInterconnectedWorld(b)BuildingaJustWorldandaSustainablePlanet (c)Fightingpovertywithrigidity(d)OneEarth-OneFamily-OneFuture"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatisthecontroversialformofexecutionthatwasrecentlyintroducedintheUS?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Microsoft",
+        "b": "Google",
+        "c": "Meta",
+        "d": "Apple"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichgianttechcompanyrecentlyannouncedthelaunchof‘AMBERalerts’tofindmissingchildren?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "UNDP",
+        "b": "UNEP",
+        "c": "IMF",
+        "d": "WorldBank"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheGlobalWasteManagementOutlook,2024waspublishedby-",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "land2only",
+        "b": "2and3only",
+        "c": "1and3only",
+        "d": "Alistatementsaretrue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Considerthefollowingstatementsregarding“DigitalIndiaBhashini”: i.BhashinistandsforBHASHAInterfaceforIndia. 2.ItisanArtificialIntelligence(AT)ledlanguagetranslationplatformundertheMinistryofTTandElectronics. 3.BhashiniPlatformisapartoftheNationalLanguageTranslationMission.: Whichofthestatementsgivenaboveis/arefalse?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CRISPR-CASS9geneeditingsystems",
+        "b": "CAR-Tcellsforcancertreatment",
+        "c": "mRNAvaccinesagainstCOVID19",
+        "d": "Thermalandmechanicaltransducers."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The2023NobelPrizeinPhysiologyorMedicinewasawardedtoKatalinKarikéandDrewWeissman fortheirpioneeringworkon-",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1and2aretrue",
+        "b": "|and3aretrue",
+        "c": "Only1istrue",
+        "d": "Allstatementsaretrue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ConsiderthefollowingstatementsregardingtheNariShaktiVandanAdhiniyamortheWomen’s ReservationBillwhichwasrecentlypassedbytheParliament: 1.TheActaimstoreserveone-thirdofallseatsforwomenintheLokSabhaandtheStateLegislatures. 2.TheActalsoincludedreservationofonethirdoftheseatstowomenofeconomicallyweakersections. 3.TheActshallalsoreserveonethirdoftheseatsforSCandSTsections. Choosethecorrectanswer:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MinistryofEducation",
+        "b": "MinistryofHomeAffairs",
+        "c": "MinistryofMinorityAffairs",
+        "d": "MinistryofYouthaffairsandsports"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheElectionCommissionofIndiastartedthe‘MeraPehlaVoteDeshKeLiye’campaignwithwhichministry?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Theyarelegaltendersissuedandbackedbyacentralbank.",
+        "b": "Itisthesameasafiatcurrencyandisexchangeableone-to-onewiththefiatcurrency.",
+        "c": "Thedigitalfiatcurrencycanbetransactedusingwalletsbackedbyblockchain.",
+        "d": "Thevalueofthedigitalcurrencyispeggedtothepriceofacommoditysuchasgoldorsilver."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthesestatementsregardingthelaunchedCentralBankDigitalCurrency(CBDC)isfalse?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USA",
+        "b": "UK",
+        "c": "Australia",
+        "d": "Germany"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichcountrylaunchedthe‘UkraineSecurityAssistanceInitiative’?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "HTDelhi",
+        "b": "ScBengaluru",
+        "c": "HTMadras",
+        "d": "NITTiruchirappalli:"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichIndianinstitutionhasdevelopedandpatentedadevicenamed‘Artsens’toscreenfor cardiovasculardiseases?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "November29",
+        "b": "November30",
+        "c": "December1",
+        "d": "December2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The‘InternationalDayofSolidaritywiththePalestinianPeople’observedbytheUNyearlysince 1978ison-",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SkyMate",
+        "b": "Maharaja",
+        "c": "CloudTalk",
+        "d": "Aisha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AirIndia’sAl-poweredchatassistanttointroduceagenerativAelvirtualagent?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.10,000",
+        "b": "Rs.50,000",
+        "c": "Rs.1lakh",
+        "d": "Rs.5lakh:"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatisthedailypaymentlimitforUPItransactionssetbytheNationalPaymentsCorporationof India(NPCI)startingfromJanuary1,2024?(exceptforEducationalInstituteofHealthcare)",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IBM",
+        "b": "Google",
+        "c": "Amazon",
+        "d": "Microsoft"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichcompanyhasrecentlyannouncedaninitiative“AIOdyssey”toskill100,000developersin IndiaonAltechnology?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AdaniDefenceandAerospace",
+        "b": "DRDO",
+        "c": "HindustanAeronautics",
+        "d": "ADVANCEDWeaponsandEquipmentIndiaLimited (a)12.5%(b)13.04% (c)14.2%(d)14.06% (a)Goa(b)HimachalPradesh (c)Uttarakhand(d)Gujarat (a)USA(b)France (c)Germany(d)Denmark"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Drishti10Starliner,theindigenouslymanufacturedUnmannedAerialVehicle(UAV)recentlyflagged °offbyChiefofNavalStaffwasdevelopedby-",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Monkeypox",
+        "b": "Covidl9",
+        "c": "Zikaviras({d)Dengue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThecountryofPerurecentlydeclaredanoutbreakofwhichdisease—",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MaryamNawaz",
+        "b": "BenazirBhutto",
+        "c": "ZartajGul",
+        "d": "NafisaShah"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhoisthefirstwomantobeelectedasChiefMinisterofaprovinceinPakistan?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "lonly",
+        "b": "land2",
+        "c": "2and3",
+        "d": "|and3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ConsiderthefollowingstatementsregardingtheFreeMovementRegime- 1.Ithasbeeninplacesince2018. 2.Itallowstribesinhabitingbothsidesofthebordertotravelupto16kmacrosstheborder withoutvisas. 3.Individualswerealsoallowedupto3monthsintheneighboringcountrybygettingaone-year borderpass. SelectthestatementsthatareTrue:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "UK",
+        "b": "Germany",
+        "c": "SouthAfrica",
+        "d": "Brazil"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichcountryfiledacaseagainstIsraelintheInternationalCourtofJusticeclaimingviolationsofits obligationsundertheGenocideConventionregardingactsagainstPalestiniansinGaza?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dubai",
+        "b": "Cairo",
+        "c": "Riyadh",
+        "d": "AbuDhabi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThefoundationstoneforBharatMartwasrecentlylaidbyPrimeMinisterNarendraModiinwhich city—",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.10lakhs",
+        "b": "Rs.20lakhs",
+        "c": "Rs.30lakhs({d)Rs.40lakhs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheSupremeCourtofIndia,inanattempttoensurethecompleteeradicationofmanualscavenging hasorderedthecompensationinthecasesofsewerdeathstobeincreasedto-",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0%",
+        "b": "2%",
+        "c": "5%",
+        "d": "12%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatpercentofGSTisleviedoncancer-fightingdrugs,medicinesforrarediseases,andfood productsforspecialmedicalpurposes?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TRAI",
+        "b": "NASSCOM",
+        "c": "MeITY(a)MinistyofInformationandBroadcasting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichinstitutionhasreleasedasetofguidelinesregardingGenerativAleinIndiatoensureresponsible Aluse?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Japan",
+        "b": "France",
+        "c": "USA",
+        "d": "Singapore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "GIFTNIFTYisthefirstcross-borderinitiativeinconnectingthecapitalmarketsofIndiaandwhich country?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aqua",
+        "b": "Gemini",
+        "c": "Neo",
+        "d": "Gossip"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingadvancedAImodelhasbeenlaunchedbyGoogle’sparentcompanyAlphabet?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Puanchei",
+        "b": "Hmaram",
+        "c": "Tawlhlohpuan",
+        "d": "Puanropui"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichoftheseMizo‘puan’hasnotbeengivenaGItag?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sweden",
+        "b": "Finland",
+        "c": "Ukraine",
+        "d": "Serbia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichcountryhasjoinedNATOasits32\"4member?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Judicialreview—Britishpractice",
+        "b": "ConcurrentList—AustralianConstitution",
+        "c": "DirectivePrinciples—IrishConstitution",
+        "d": "FundamentalRights—USConstitution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingfeaturesandtheirsourceiswronglymatched?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Asinglecitizenship",
+        "b": "DualJudiciary",
+        "c": "ThreelistsintheConstitution",
+        "d": "AFederalSupremeCourttointerprettheConstitution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingisafeaturecommontoboththeIndianFederationandtheAmerican Federation?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1only",
+        "b": "2only",
+        "c": "Both]and2(4)Neither|nor2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingis/areincludedintheDirectivePrinciplesofStatePolicy? 1.Prohibitionoftrafficinhumanbeingsandforcedlabour. 2.Prohibitionofconsumptionexceptformedicinalpurposesofintoxicatingdrinksandofother drugswhichareinjurioustohealth.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "26-41",
+        "b": "30-45",
+        "c": "36-51",
+        "d": "46-61"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheArticlesoftheConstitutionofIndiawhichdealwithDirectivePrinciplesofStatePolicyare:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only1isTrue",
+        "b": "Only2istrue",
+        "c": "1and2aretrue",
+        "d": "2and3aretrue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ConsiderthefollowingstatementsregardingUniformCivilCode: 1.ItismentionedinArticle43oftheConstitution. 2.Itwouldreplacethedistinctpersonallawsofeachreligion. 3.IthasbeenenforcedinthreestatesinIndia. Selectthecorrectanswer.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1and2",
+        "b": "land3",
+        "c": "2and3",
+        "d": "1,2and3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WithregardtoAutonomousDistrictCouncilsintheSixthScheduleareas,considerthefollowing statements- 1,Thegovernorisempoweredtoorganiseandre-organisetheautonomousdistricts. 2.TheactsofParliamentorthestatelegislaturedonotapplytoautonomousdistrictsand autonomousregions. 3.ThegovernmenthasintroducedaConstitutionAmendmentBilltolimitthefinancialandexecutive powersoftheexistingAutonomousDistrictCouncils. SelectthestatementsthatareTrue:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Forests—ConcurrentList",
+        "b": "Bankruptcyandinsolvency-StateList",
+        "c": "Insurance—UnionList",
+        "d": "MarriageandDivorce—ConcurrentList"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingisnotcorrectlymatchedwithreferencetotheConstitution?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NationalIntegrationCouncil",
+        "b": "PlanningCommission",
+        "c": "NationalDevelopmentCouncil",
+        "d": "ZonalCouncil"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThePrimeMinister.UnionCabinetMinister,ChiefMinisterandCouncilofMinistersareallmembersof",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only1istrue",
+        "b": "Only2istrue",
+        "c": "Both1and2aretrue",
+        "d": "Neither1or2aretrue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethecorrectanswer,consideringthefollowingstatements: 1.TheJammuandKashmirReorganisationBill,2019wasintroducedinRajyaSabha. 2.TheabrogationofArticle370bifurcatedthestateintothreeseparateUnionTerritories—Jammu &Kashmir,LadakhandLeh.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Itwouidbelefttothestatestodecidewhethertocontinuetheno-detentionpolicy.",
+        "b": "Ifachildfails,theamendmentbillgrantsaprovisiontogiveherorhimadditionalopportunityto takeare-examinationwithintwomonths.",
+        "c": "TheStateshallprovidefreeandcompulsoryeducationtoallchildrenoftheageof'5tofifteenyears.",
+        "d": "ItisbasedontherecommendationoftheTSRSubramaniancommittee. (a)Only1isTrue(b)Only2istrue (c)1and2aretrue(d)2and3aretrue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WithregardtotheRightofChildrentoFreeandCompulsoryEducation(AmendmenAtct),2019, selecttheincorrectstatement-",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1and2",
+        "b": "Only1",
+        "c": "Only3",
+        "d": "2and3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthestatementsis/arefalseregardingthepowersoftheRajyaSabha? 1.AmoneybillcannotbeintroducedintheRajyaSabha 2.TheRajyaSabhahasnopowertorejectoramendaMoneyBill 3.IthasvotingrightsontheDemandsforgrants",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DepartmentofRevenue",
+        "b": "DepartmentofFinancialServices",
+        "c": "DepartmentofExpenditure",
+        "d": "DepartmentofEconomicAffairs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichoneofthefollowingisresponsibleforthepreparationandpresentationofUnionBudgettothe Parliament?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PartlV,Article324",
+        "b": "PartVI,Article320",
+        "c": "PartXV,Article324",
+        "d": "PartXI,Article320"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheestablishmentandpoweroftheElectionCommissionofIndiacomesunderof theConstitution,",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "HeisthelegaladvisortotheGovernmentofIndia",
+        "b": "HehasvotingrightsintheproceedingoftheParliament",
+        "c": "HistenureandsalaryaredecidedbythePresident",
+        "d": "HeappearsbeforehighcourtsandSupremeCourtincasesinvolvinguniongovernment."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichoneisnottrueabouttheAttorneyGeneralofIndia?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "One-twelfthofthetotalnumberofmembersoftheHouse.",
+        "b": "One-sixthofthetotalnumbersofmembersoftheHouse.",
+        "c": "Two-thirdsofthetotalnumberofmembersoftheHouse.",
+        "d": "One-tenthofthetotalnumberofmembersoftheHouse."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThequorumforJointSittingoftheIndianParliamentis-",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "land2",
+        "b": "2and3",
+        "c": "Zand4",
+        "d": "Alloftheabove"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingisnotcorrectlymatchedundertheConstitutionofIndia? 1.ThePanchayats——PartIX 2.TheMunicipalities——~PartIXA. 3.Tribunal——sPartXA 4.TheCooperativeSocieties———PartXB",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GovernmentofIndiaActof1935",
+        "b": "GovernmentofIndiaActof1953",
+        "c": "GovernmentofIndiaActof1947",
+        "d": "GovernmentofIndiaActof1950 (a)UnitedKingdom(b)UnitedStates (c)Ireland(d)Australia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thissinglesystemofcourts,adoptedfromtheenforcesbothCentralJawsaswellas thestatelaws.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "land3",
+        "b": "land2",
+        "c": "2and3",
+        "d": "3only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheSupremeCourtofIndiatendersadvicetothePresidentofIndiaonmattersoflaworfact- 1.onitsowninitiative(onanymatteroflargerpublicinterest) 2.ifheseekssuchanadvice 3.onlyifthemattersrelatetotheFundamentalRightsofthecitizens Selectthecorrectanswer:",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "disparityreductionrate,humanresourcedevelopmentrateandthecompositeindex.",
+        "b": "longevity,educationandlivingstandard.",
+        "c": "minimumschooling,adultliteracyandtertiaryeducationalattainment.",
+        "d": "humanresourcetraining,developmentandR&D."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheHumanDevelopmentIndex(HDI)summarizesagreatdealofsocialperformanceinasingle compositeindex,whichcombines-",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "January1992",
+        "b": "March1993",
+        "c": "December1992",
+        "d": "November1993"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhenwastheUnitedNationsCommissiononSustainableDevelopment(CSD)startedbytheUN GeneralAssembly?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "land2",
+        "b": "land3",
+        "c": "2and3",
+        "d": "1,2and3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WithregardtothePradhanMantriRozgarProtsahanYojana,considerthefollowingstatements- 1.ItisimplementedbytheMinistryofLabourandEmployment. 2.TheschemeistargetedforworkersearningwagesuptoRs.15,000/-permonth 3.Anypersonwhocrossed30yearsofagecanjointhescheme. Whichamongtheabovestatementsis/arecorrect?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Topromoteexport-ledgrowth.",
+        "b": "Toremovedisconnectbetweendemandandsupplyofskilledmanpower.",
+        "c": "Toattractforeigninvestmentfornewindustrialisation.",
+        "d": "Tocreate100millionadditionaljobsby2022."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichoftheseisnotanobjectiveof“MakeInIndia”initiative?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MinistryofScienceandTechnology",
+        "b": "MinistryofYouthAffairsandSports",
+        "c": "MinistryofPower(a)MinistryofHousingandUrbanAffairs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The‘YUVAPORTALtoidentifypotentialyoungStart-Upsfunctionsunderwhichunionministry?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Interestspayments",
+        "b": "Defencepurchases",
+        "c": "Wagebillofthegovernment",
+        "d": "Alloftheabove _8-"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingisapartoftherevenueexpenditureintheIndiangovernmentbudget?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only!",
+        "b": "OnlyII",
+        "c": "andI",
+        "d": "NeitherInorII"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Considerthefollowingstatements: 1.TheSelf-HelpGroup(SHG)programmewasoriginallyinitiatedbytheStateBankofIndiaby providingmicrocredittothefinanciallydeprived. 2.InanSHGallmembersofagrouptakeresponsibilityforaloanthatanindividualmembertakes. Whichofthesestatementsaretrue?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "land2",
+        "b": "2and3",
+        "c": "3and4",
+        "d": "Alloftheabove"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingCommitteesoftheConstituentAssemblywasheadedbySardarVallabhbhaiPatel? 1.ProvincialConstitutionCommittee 2.AdvisoryCommitteeonFundamentalRights,Minorities,andTribalandExcludedAreas 3.UnionConstitutioncommittee 4.DraftingCommittee Selectthecorrectanswer-",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1975;40%",
+        "b": "1975;424",
+        "c": "1976;42n4",
+        "d": "1977;4374"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theterm‘Socialist’inthePreamblewasaddedtotheconstitutionintheyearbythe ConstitutionalAmendmentAct.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "April19—-5Mar0ch1955",
+        "b": "April1951-March1956",
+        "c": "April1952—March1957",
+        "d": "April1953—March1958."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’sfirstFiveYearPlanintroducedbyJawaharlalNehruspannedtheperiodbetween-",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1950",
+        "b": "1951:",
+        "c": "1952",
+        "d": "1953"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheStateReorganisationCommissionwasconstitutedintheyear-",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "J.B.Kripalani",
+        "b": "JawaharlalNehru",
+        "c": "SardarVallabhaiPatel",
+        "d": "AbulKalamAzad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhowasthepresidentofIndianNationalCongressatthetimeofIndia’sIndependence?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Radhakrishnancommission",
+        "b": "KothariCommission",
+        "c": "HunterCommission",
+        "d": "Sakariacommission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thedevelopmentofwomen’seducationinIndiawasfirstintroducedby-",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MizochanchinLaisuih",
+        "b": "Mizolehvaichanchinbu",
+        "c": "KristianTlangau",
+        "d": "Zoenchanchinbu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhatwasthenameofthefirstmonthlynewspaperinMizo?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khiangtezawngzim",
+        "b": "Dingdipuantah",
+        "c": "HrangkhupaSelu",
+        "d": "Leiruangtuam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingisnotanameofastarconstellation?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sadawt",
+        "b": "Bawlpu",
+        "c": "Lal",
+        "d": "Puithiam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InMizotraditionalbelief,thepracticesofFanodawi,KawngpuisiamandDawinochhuiweremainly associatedwith-",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MizoUnion",
+        "b": "People’sConferenceParty",
+        "c": "MizoNationalFamineFront",
+        "d": "ZoramNationalistParty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheUnitedMizoFreedomOrganisationwasestablishedasaresultofthesplitofwhichpolitical party-",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mangkhawh",
+        "b": "Hnuhpui",
+        "c": "Vahchap",
+        "d": "Hnawhkhal:"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingtermsisnotassociatedwithtraditionalMizofarmingpractices?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Weavinginstruments",
+        "b": "Musicalinstruments",
+        "c": "Traps/Snares",
+        "d": "Farmtools"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Beai”,“falpui”,“kilen”&“kawlper”arenamesof‘traditionalMizo.",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "21",
+        "b": "22",
+        "c": "23",
+        "d": "24"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theaverageof7consecutivenumbersis20,Thelargestofthesenumbersis:",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20%",
+        "b": "21%",
+        "c": "22%",
+        "d": "23%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ashopkeepercheatstotheextentof10%whilebuyingandselling,byusingfalseweights.Histotal gainis-",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "200,250,300",
+        "b": "300,200,250",
+        "c": "200,300,400",
+        "d": "Noneofthese"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "4candoapieceofworkin10days,Bin15days.Theyworktogetherfor5days,therestofthe workisfinishedbyCintwomoredays.IftheygetRs.3000aswagesforthewholework,whatare thedailywagesofA,BandCrespectively(inRs.)?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "21",
+        "b": "15",
+        "c": "18",
+        "d": "20"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Findthenumberoftrianglesinthegivenfigure.",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": ". o raseGFwe o A)(ly(2)@B)(4)",
+        "b": "Option1,3and4",
+        "c": "Option2and3",
+        "d": "Option2,3and4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosetheboxthatissimilartotheboxformedfromthegivensheetofpaper(A).",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "23",
+        "b": "21",
+        "c": "22",
+        "d": "24"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inaclassof60studentswheregirlsaretwicethatofboys,Laxmiranked27\"fromthetop.Ifthere are9boysaheadofLaxmi,howmanygirlsareafterherrank?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "coughfightsoughactscatsideamore",
+        "b": "coughfightsoughactscatsmoreidea",
+        "c": "coughmorefightsoughactsideacats",
+        "d": "noneofthese"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Awordarrangingdevicerearrangeswordsstep-by-stepinaparticularorderaccordingtosetof rules.Thedevicestopswhenthefinalresultisobtained. Input:butgoingforcrepttelightsir Step1:creptbutgoingfortelightsir Step2:creptgoinglightbutfortesir Step3:creptgoinglightbutforsirte AndStep3isthelaststepforthisinput.Now,findoutanappropriatestepinthefollowingquestion followingtheaboverules. Question: Input:morefightcatscoughsoughactsidea Whatwillbethelaststepforthisinput?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "true",
+        "b": "false",
+        "c": "uncertain",
+        "d": "none"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "1.TanyaisolderthanEric. Il.CliffisolderthanTanya.. TIL.EricisolderthanCliff. Ifthefirsttwostatementsaretrue,thethirdstatementis",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Landslides",
+        "b": "Strains",
+        "c": "Resistances",
+        "d": "Volcanoes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Seismography:Earthquake::Taseometer:?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4 -}1-"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethesetoffigureswhichfollowsthegivenrule. Rule:Anyfigurecanbetracedbyasingleunbrokenlinewithoutretracting. oZILoTAN “LWIA || ofXCaA|",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1,3,5;2,4,7;6,8,9",
+        "b": "1,5,7;2,3,6;4,8,9",
+        "c": "1,3,5;2,6,7;4,8,9(a)1,6,9;2,4,7;3,5,8"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Groupthegivenfiguresintothreeclassesusingeachfigureonlyonce. HASOx 22345 6789",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1,5,9;2,7,8;3,4,6",
+        "b": "2,4,9;6,7,8;1,3,5",
+        "c": "3,7,8;4,5,9;1.2,6",
+        "d": "1,5,6:4,7,8;2,3,9 PPrahaLexa| x)d)(2)(3)(4) (a)1(b)4 {ce}3(d)2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Groupthegivenfiguresintothreeclassesusingeachfigureonlyonce. Aisle’ 73",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4",
+        "b": "3",
+        "c": "2",
+        "d": "1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "SelectafigurefromthefouralternativesthatwouldcompletetheFigureMatrix. rE)fe ©2 ag)@@@&",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "56",
+        "b": "60",
+        "c": "64",
+        "d": "72"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Findthetotalnumberofcubesinthegivenfigure. <> ok NARS CCC.e NANSUE eSS NONPRENS OOKOROK BSANANENANEN RARPNPRENERS",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4isadjacentto6",
+        "b": "2isadjacentto5",
+        "c": "lisadjacentto6",
+        "d": "1isadjacentto4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Adiceisnumberedfrom1to6indifferentways. If1isadjacentto2,3and5,thenwhichofthefollowingstatementsisnecessarilytrue?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethealternativewhichiscloselyresemblesthewaterimageofthegivencombination/figure. ADVANCE ()FONVACY2)VWDAVACE 3)FOMAVDA(4)None",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Source numbering gap before Q4: expected Q3; review the printed page.",
+    "Source numbering gap before Q12: expected Q11; review the printed page.",
+    "Source numbering gap before Q28: expected Q25; review the printed page.",
+    "Source numbering gap before Q52: expected Q51; review the printed page.",
+    "Source numbering gap before Q60: expected Q59; review the printed page.",
+    "Q77 (p8, part None): only 1 option(s) ['a'] - not emitted",
+    "Q86 (p9, part None): only 1 option(s) ['a'] - not emitted",
+    "Q87 (p10, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Source numbering gap before Q96: expected Q95; review the printed page.",
+    "Q100 (p12, part None): only 1 option(s) ['a'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      3,
+      11,
+      25,
+      26,
+      27,
+      51,
+      59,
+      77,
+      86,
+      87,
+      95
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/08/e303d4fd1d0bb973040a30c11f6ee0fd/mizoram-legal-service-general-knowledge-august-2024.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

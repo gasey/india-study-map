@@ -1,3 +1,17 @@
+## MPSC 2023–2025 archive: General Studies/Knowledge and Maths — 10 October 2026
+
+Source: [MPSC old-question archive](https://mpsc.mizoram.gov.in/page/old-question-2023-2024). Registered the 40 PDFs on that page whose listed subject is General Studies, General Knowledge, Mathematics, or Arithmetic. English and technical papers were omitted. This includes the ACF Mathematics paper and Group B Combined General Studies I–III. MCS Main optional Mathematics was excluded as a specialist subject.
+
+The generated bank now has **238 question-bearing papers and 17,719 records** (17,300 MCQ, 419 written); the paper library lists **254 sources** including source-only descriptive papers. 3,611 are ready (1,618 official-key-backed); 13,977 remain under source review, with 175 MCQs absent from their source PDFs. Archive extractions are unscored and review-gated. Several MCS Main GS papers are descriptive and remain source-only until their prompts are transcribed.
+
+The 2021 ASCE and Jr. Grade MAH & Veterinary Officer English papers are also registered: four PDFs, 179 extracted MCQs, and 21 known missing ASCE blocks. Their Paper-I PDFs remain source-only.
+
+## Assistant Soil Conservation Engineer and Veterinary Officer 2021 papers — 10 October 2026
+
+Added four official PDFs to the library: ASCE (LRS&WC) General English I/II, February 2021, and Jr. Grade MAH & Veterinary Officer General English I/II, November 2021. The two Paper-I PDFs are descriptive papers and remain source-only until their written prompts are transcribed. Paper-II has 100 printed one-mark questions per cover; 79 ASCE and all 100 Veterinary questions were extracted. The 21 missing ASCE question blocks are retained as gaps, not fabricated. All new items remain unscored/source-review gated because no verified key is attached.
+
+The generated practice bank now has 208 papers and 15,268 records (14,849 MCQ, 419 written). The paper library has four additional source entries (214 total). PDFs, source URLs, and extraction records are registered under `tools/udc-ldc-build/` and `public/papers/group-b/`.
+
 ## MPSC 2019-2020 old-questions import — 10 October 2026
 
 The generated Group B/general-paper catalog now has **206 papers and 15,089 records** (14,670 MCQ, 419 written). Of these, 3,611 are ready for practice (1,618 with official keys) and 11,347 are source-review items; 154 MCQs are missing from their sources. This batch imports all **111 papers** on `https://mpsc.mizoram.gov.in/page/2019` (archive folder `Direct_2019-2020`): every UDC / Assistant Grade / combined-clerical paper in full, plus the **non-technical sections of the technical exams** (each exam's General English, General Studies, General Knowledge and General Science). Pure technical subject papers were deliberately excluded. That is **8,315 new records** (8,046 MCQ, 269 written). No 2019 paper has an official key, so all of them stay source-review-gated and unscored and never enter Exam mode.

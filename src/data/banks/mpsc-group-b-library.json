@@ -620,6 +620,46 @@
     "reviewRequired": true
   },
   {
+    "id": "mpsc-group-b-asce-2021-english-p1",
+    "exam": "Assistant Soil Conservation Engineer under LRS&WC Department",
+    "sitting": "February 2021",
+    "subject": "General English Paper-I",
+    "sourceHref": "/papers/group-b/asce-2021-english-p1.pdf",
+    "keyHref": null,
+    "imported": false
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2",
+    "exam": "Assistant Soil Conservation Engineer under LRS&WC Department",
+    "sitting": "February 2021",
+    "subject": "General English Paper-II",
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf",
+    "keyHref": null,
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-vety-mah-2021-english-p1",
+    "exam": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract)",
+    "sitting": "November 2021",
+    "subject": "General English Paper-I",
+    "sourceHref": "/papers/group-b/vety-mah-2021-english-p1.pdf",
+    "keyHref": null,
+    "imported": false
+  },
+  {
+    "id": "mpsc-group-b-vety-mah-2021-english-p2",
+    "exam": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract)",
+    "sitting": "November 2021",
+    "subject": "General English Paper-II",
+    "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf",
+    "keyHref": null,
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
     "id": "mpsc-group-b-ato-2017-english",
     "exam": "Assistant Tourist Officer under Tourism Department",
     "sitting": "December 2017",
@@ -2131,6 +2171,396 @@
     "imported": true,
     "reviewRequired": true,
     "expectedMcq": 100
+  },
+  {
+    "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025",
+    "exam": "Technical Officer (SCERT) under School Education Deptt.",
+    "sitting": "April 2025",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
+    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
+    "sitting": "2025",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-i-a-2025.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-b-2025",
+    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
+    "sitting": "2025",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-i-b-2025.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025",
+    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
+    "sitting": "2025",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-i-c-2025.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025",
+    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
+    "sitting": "2025",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-i-d-2025.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
+    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
+    "sitting": "2025",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-ii-a-2025.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025",
+    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
+    "sitting": "2025",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-ii-b-2025.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025",
+    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
+    "sitting": "2025",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-ii-c-2025.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
+    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
+    "sitting": "2025",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-ii-d-2025.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-a-2025",
+    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
+    "sitting": "2025",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-iii-a-2025.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025",
+    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
+    "sitting": "2025",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-iii-b-2025.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-c-2025",
+    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
+    "sitting": "2025",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-iii-c-2025.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
+    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
+    "sitting": "2025",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-iii-d-2025.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024",
+    "exam": "Agriculture & Allied Service ( Combined Technical)-2024",
+    "sitting": "December 2024",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-mcs-main-general-studies-paper-i-2024",
+    "exam": "MCS ( Main ) - 2024",
+    "sitting": "2024",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-mcs-main-general-studies-paper-i-2024.pdf",
+    "keyHref": null,
+    "imported": false
+  },
+  {
+    "id": "mpsc-group-b-archive2325-mcs-main-general-studies-paper-ii-2024",
+    "exam": "MCS ( Main ) - 2024",
+    "sitting": "2024",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-mcs-main-general-studies-paper-ii-2024.pdf",
+    "keyHref": null,
+    "imported": false
+  },
+  {
+    "id": "mpsc-group-b-archive2325-mcs-main-general-studies-paper-iii-2024",
+    "exam": "MCS ( Main ) - 2024",
+    "sitting": "2024",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-mcs-main-general-studies-paper-iii-2024.pdf",
+    "keyHref": null,
+    "imported": false
+  },
+  {
+    "id": "mpsc-group-b-archive2325-mcs-main-general-studies-paper-iv-2024",
+    "exam": "MCS ( Main ) - 2024",
+    "sitting": "2024",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-mcs-main-general-studies-paper-iv-2024.pdf",
+    "keyHref": null,
+    "imported": false
+  },
+  {
+    "id": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024",
+    "exam": "Mizoram Legal Service (MLS)- August-2024",
+    "sitting": "August 2024",
+    "subject": "General Knowledge",
+    "sourceHref": "/papers/group-b/archive2325-mizoram-legal-service-general-knowledge-august-2024.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-mcs-main-2023-general-studies-paper-i",
+    "exam": "MCS (Combined) Main Examination - 2023",
+    "sitting": "2023",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-mcs-main-2023-general-studies-paper-i.pdf",
+    "keyHref": null,
+    "imported": false
+  },
+  {
+    "id": "mpsc-group-b-archive2325-mcs-main-2023-general-studies-paper-ii",
+    "exam": "MCS (Combined) Main Examination - 2023",
+    "sitting": "2023",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-mcs-main-2023-general-studies-paper-ii.pdf",
+    "keyHref": null,
+    "imported": false
+  },
+  {
+    "id": "mpsc-group-b-archive2325-mcs-main-2023-general-studies-paper-iii",
+    "exam": "MCS (Combined) Main Examination - 2023",
+    "sitting": "2023",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-mcs-main-2023-general-studies-paper-iii.pdf",
+    "keyHref": null,
+    "imported": false
+  },
+  {
+    "id": "mpsc-group-b-archive2325-mcs-main-2023-general-studies-paper-iv",
+    "exam": "MCS (Combined) Main Examination - 2023",
+    "sitting": "2023",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-mcs-main-2023-general-studies-paper-iv.pdf",
+    "keyHref": null,
+    "imported": false
+  },
+  {
+    "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
+    "exam": "Jr. Grade of MES, P&E Cadre (Electrical Wing) under P&E Deptt",
+    "sitting": "2023",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge",
+    "exam": "Jr. Grade of Mizoram Legal Service (MLS) under Law & Judicial Deptt",
+    "sitting": "2023",
+    "subject": "General Knowledge",
+    "sourceHref": "/papers/group-b/archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge",
+    "exam": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt",
+    "sitting": "2023",
+    "subject": "General Knowledge",
+    "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-acf-2023-mathematics",
+    "exam": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt",
+    "sitting": "2023",
+    "subject": "Mathematics",
+    "sourceHref": "/papers/group-b/archive2325-acf-2023-mathematics.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
+    "exam": "Assistant Director (Town Planning)",
+    "sitting": "2023",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-assist-director-town-planning-general-studies.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i",
+    "exam": "Inspector of Supplies-2023",
+    "sitting": "2023",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii",
+    "exam": "Inspector of Supplies-2023",
+    "sitting": "2023",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
+    "exam": "Inspector of Supplies-2023",
+    "sitting": "2023",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-grade-iii-of-mhs-2023-general-studies",
+    "exam": "Grade-III of MHS-2023",
+    "sitting": "2023",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-grade-iii-of-mhs-2023-general-studies.pdf",
+    "keyHref": null,
+    "imported": false
+  },
+  {
+    "id": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies",
+    "exam": "Psychologist&Case Worker-January-2024",
+    "sitting": "2024",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-psychologistcase-worker-2024-general-studies.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-case-worker-2024-general-studies",
+    "exam": "Case Worker-February-2024",
+    "sitting": "2024",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-case-worker-2024-general-studies.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024",
+    "exam": "Grade-III of MJS-2024",
+    "sitting": "2024",
+    "subject": "General Knowledge",
+    "sourceHref": "/papers/group-b/archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
+    "exam": "Jr.Grade of MES (Combined) July-2024",
+    "sitting": "July 2024",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-mhs-combined-2024-general-studies",
+    "exam": "Mizoram Health Services ( Combined)-2024",
+    "sitting": "2024",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-mhs-combined-2024-general-studies.pdf",
+    "keyHref": null,
+    "imported": false
+  },
+  {
+    "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-i-july-2024",
+    "exam": "Group 'B' (Gazetted) General Service (Combined) July-2024",
+    "sitting": "July 2024",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-group-b-combined-general-studies-paper-i-july-2024.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024",
+    "exam": "Group 'B' (Gazetted) General Service (Combined) July-2024",
+    "sitting": "July 2024",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-group-b-combined-general-studies-paper-ii-july-2024.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-iii-july-2024",
+    "exam": "Group 'B' (Gazetted) General Service (Combined) July-2024",
+    "sitting": "July 2024",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/archive2325-group-b-combined-general-studies-paper-iii-july-2024.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-jao-2026-p1",

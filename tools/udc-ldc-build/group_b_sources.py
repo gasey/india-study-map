@@ -91,6 +91,10 @@ GENERAL_PAPERS = [
  ('assistant-grade-2018-p2', 'Assistant Grade', 'April 2018', 'Paper-II', 'assistant-grade-2018-p2.pdf'),
  ('acf-2018-english', 'Assistant Conservator of Forest', '2018', 'General English', 'acf-2018-english.pdf'),
  ('acf-2018-gk', 'Assistant Conservator of Forest', '2018', 'General Knowledge', 'acf-2018-gk.pdf'),
+ ('asce-2021-english-p1', 'Assistant Soil Conservation Engineer under LRS&WC Department', 'February 2021', 'General English Paper-I', 'asce-2021-english-p1.pdf'),
+ ('asce-2021-english-p2', 'Assistant Soil Conservation Engineer under LRS&WC Department', 'February 2021', 'General English Paper-II', 'asce-2021-english-p2.pdf'),
+ ('vety-mah-2021-english-p1', 'Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract)', 'November 2021', 'General English Paper-I', 'vety-mah-2021-english-p1.pdf'),
+ ('vety-mah-2021-english-p2', 'Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract)', 'November 2021', 'General English Paper-II', 'vety-mah-2021-english-p2.pdf'),
 
  ('ato-2017-english', 'Assistant Tourist Officer under Tourism Department', 'December 2017', 'General English', 'ato-2017-english.pdf'),
  ('feo-2017-english-p1', 'Fishery Extension Officer under Fisheries Department', 'December 2017', 'General English Paper-I', 'feo-2017-english-p1.pdf'),
@@ -244,7 +248,10 @@ GENERAL_PAPERS_2019 = [
  ('inspector-fcs-2019-gs2', 'Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector)', '2019', 'General Studies Paper-II', 'Inspector under F,CS & CA Dept-2019, General Studies Paper II..pdf'),
  ('inspector-fcs-2019-gs3', 'Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector)', '2019', 'General Studies Paper-III', 'Inspector under F,CS & CA Dept-2019, General Studies Paper III..pdf'),
 ]
-ALL_GENERAL_PAPERS = GENERAL_PAPERS + GENERAL_PAPERS_2019
+MPSC_ARCHIVE_2023_2025 = json.loads((HERE / 'mpsc-archive-2023-2025.json').read_text())
+GENERAL_PAPERS_2023_2025 = [(r['slug'], r['exam'], r['sitting'], r['subject'], r['filename']) for r in MPSC_ARCHIVE_2023_2025]
+DIRECT_ARCHIVE_SLUGS = {row[0] for row in GENERAL_PAPERS_2023_2025}
+ALL_GENERAL_PAPERS = GENERAL_PAPERS + GENERAL_PAPERS_2019 + GENERAL_PAPERS_2023_2025
 DIRECT_2019_SLUGS = {row[0] for row in GENERAL_PAPERS_2019}
 
 # Marking scheme read from each 2019-2020 printed cover (marks per question and
@@ -384,7 +391,9 @@ GENERAL_ARCHIVE_FOLDERS = {
 def source_path(slug, filename):
     if slug in DIRECT_2019_SLUGS:
         return ARCHIVE / 'Direct_2019-2020' / filename
-    if slug.startswith(('si-excise-2014-', 'si-police-ub-2018-', 'horticulture-demonstrator-2018-', 'si-fcs-2018-', 'programmer-phe-2018-', 'sericulture-seo-2018-', 'station-officer-2018-', 'mes-pwd-2018-', 'mes-power-2018-', 'veterinary-officer-2018-', 'je-iwr-2018-', 'assistant-jailor-2018-', 'asi-home-2018-', 'assistant-grade-2018-', 'acf-2018-', 'ato-2017-', 'feo-2017-', 'mhs-grade-v-2017-', 'labtech-hfw-2017-', 'mcon-lecturer-2017-', 'assistant-prof-geography-2017-', 'ada-2014-', 'mes-phe-2014-', 'mes-pe-2012-')):
+    if slug in DIRECT_ARCHIVE_SLUGS:
+        return PUBLIC / filename
+    if slug.startswith(('si-excise-2014-', 'si-police-ub-2018-', 'horticulture-demonstrator-2018-', 'si-fcs-2018-', 'programmer-phe-2018-', 'sericulture-seo-2018-', 'station-officer-2018-', 'mes-pwd-2018-', 'mes-power-2018-', 'veterinary-officer-2018-', 'je-iwr-2018-', 'assistant-jailor-2018-', 'asi-home-2018-', 'assistant-grade-2018-', 'acf-2018-', 'ato-2017-', 'feo-2017-', 'mhs-grade-v-2017-', 'labtech-hfw-2017-', 'mcon-lecturer-2017-', 'assistant-prof-geography-2017-', 'ada-2014-', 'mes-phe-2014-', 'mes-pe-2012-', 'asce-2021-', 'vety-mah-2021-')):
         return PUBLIC / filename
     return ARCHIVE / GENERAL_ARCHIVE_FOLDERS.get(slug, 'Direct_NG_2024-2027') / filename
 HUB_FILES = {
@@ -502,6 +511,8 @@ def build_additional():
             entry['expectedMcq'] = 125
         if slug.startswith('acf-2018-'):
             entry['expectedMcq'] = 80 if slug.endswith('english') else 100
+        if slug in ('asce-2021-english-p2', 'vety-mah-2021-english-p2'):
+            entry['expectedMcq'] = 100
         if slug.startswith('si-police-2026-'):
             entry['keyHref'] = '/papers/group-b/keys/si-police-2026-final-key.pdf'
         if slug.startswith('radio-2026-'):
@@ -534,7 +545,7 @@ def build_additional():
         entry['reviewRequired'] = not complete_source_review
         if slug == 'inspector-stats-2026-p1' and repairs.get(slug, {}).get('derivedAnswers'):
             entry['expectedMcq'] = 6
-        papers.append({'id': paper_id, 'examType': 'Direct' if slug in DIRECT_2019_SLUGS or slug in SHARED_POSTS or slug.startswith(('si-police-ub-2018-', 'horticulture-demonstrator-2018-', 'si-fcs-2018-', 'programmer-phe-2018-', 'sericulture-seo-2018-', 'station-officer-2018-', 'mes-pwd-2018-', 'mes-power-2018-', 'veterinary-officer-2018-', 'je-iwr-2018-', 'assistant-jailor-2018-', 'asi-home-2018-', 'assistant-grade-2018-', 'acf-2018-', 'ato-2017-', 'feo-2017-', 'mhs-grade-v-2017-', 'labtech-hfw-2017-', 'mcon-lecturer-2017-', 'assistant-prof-geography-2017-', 'ada-2014-', 'mes-phe-2014-', 'mes-pe-2012-')) else 'Direct_NG',
+        papers.append({'id': paper_id, 'examType': 'Direct' if slug in DIRECT_2019_SLUGS or slug in DIRECT_ARCHIVE_SLUGS or slug in SHARED_POSTS or slug.startswith(('si-police-ub-2018-', 'horticulture-demonstrator-2018-', 'si-fcs-2018-', 'programmer-phe-2018-', 'sericulture-seo-2018-', 'station-officer-2018-', 'mes-pwd-2018-', 'mes-power-2018-', 'veterinary-officer-2018-', 'je-iwr-2018-', 'assistant-jailor-2018-', 'asi-home-2018-', 'assistant-grade-2018-', 'acf-2018-', 'ato-2017-', 'feo-2017-', 'mhs-grade-v-2017-', 'labtech-hfw-2017-', 'mcon-lecturer-2017-', 'assistant-prof-geography-2017-', 'ada-2014-', 'mes-phe-2014-', 'mes-pe-2012-', 'asce-2021-', 'vety-mah-2021-')) else 'Direct_NG',
                        'examName': exam, 'post': ' / '.join(SHARED_POSTS[slug]) + ' under MIMER' if slug in SHARED_POSTS else exam,
                        'paperNumber': 'Paper-I' if slug.endswith('-p1') else 'Paper-II' if slug.endswith('-p2') else 'Paper-III' if slug.endswith('-p3') else subject,
                        'paperSubject': subject, 'year': int(sitting[-4:]), 'sourceFile': href})
@@ -559,6 +570,9 @@ def build_additional():
         if slug.startswith(('programmer-phe-2018-', 'sericulture-seo-2018-', 'station-officer-2018-')):
             meta[paper_id] = {'marksPerQuestion': 1,
                              'durationMinutes': 120 if slug.endswith(('-p2', '-gk')) else 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug in ('asce-2021-english-p2', 'vety-mah-2021-english-p2'):
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
                              'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'aao-2024-gk' and reviewed_numbers:
             # Printed page 1: 100 marks, one per question, three hours.
@@ -831,6 +845,7 @@ def build_additional():
     appended_ids.update('mpsc-group-b-' + row[0] for row in GENERAL_PAPERS
                         if row[0].startswith(('si-police-ub-2018-', 'horticulture-demonstrator-2018-', 'si-fcs-2018-')))
     appended_ids.update('mpsc-group-b-' + row[0] for row in GENERAL_PAPERS_2019)
+    appended_ids.update('mpsc-group-b-' + row[0] for row in GENERAL_PAPERS_2023_2025)
     papers.sort(key=lambda paper: paper['id'] in appended_ids)
     questions.sort(key=lambda question: question['paperId'] in appended_ids)
     by_id = {question['id']: question for question in questions}

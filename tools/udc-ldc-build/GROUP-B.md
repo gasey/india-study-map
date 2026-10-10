@@ -1,3 +1,17 @@
+## MPSC 2023–2025 archive: General Studies/Knowledge and Maths — 10 October 2026
+
+Source: [MPSC old-question archive](https://mpsc.mizoram.gov.in/page/old-question-2023-2024). Registered the 40 PDFs on that page whose listed subject is General Studies, General Knowledge, Mathematics, or Arithmetic. English and technical papers were omitted. This includes the ACF Mathematics paper and Group B Combined General Studies I–III. MCS Main optional Mathematics was excluded as a specialist subject.
+
+The generated bank now has **238 question-bearing papers and 17,719 records** (17,300 MCQ, 419 written); the paper library lists **254 sources** including source-only descriptive papers. 3,611 are ready (1,618 official-key-backed); 13,977 remain under source review, with 175 MCQs absent from their source PDFs. Archive extractions are unscored and review-gated. Several MCS Main GS papers are descriptive and remain source-only until their prompts are transcribed.
+
+The 2021 ASCE and Jr. Grade MAH & Veterinary Officer English papers are also registered: four PDFs, 179 extracted MCQs, and 21 known missing ASCE blocks. Their Paper-I PDFs remain source-only.
+
+## Assistant Soil Conservation Engineer and Veterinary Officer 2021 papers — 10 October 2026
+
+Added four official PDFs to the library: ASCE (LRS&WC) General English I/II, February 2021, and Jr. Grade MAH & Veterinary Officer General English I/II, November 2021. The two Paper-I PDFs are descriptive papers and remain source-only until their written prompts are transcribed. Paper-II has 100 printed one-mark questions per cover; 79 ASCE and all 100 Veterinary questions were extracted. The 21 missing ASCE question blocks are retained as gaps, not fabricated. All new items remain unscored/source-review gated because no verified key is attached.
+
+The generated practice bank now has 208 papers and 15,268 records (14,849 MCQ, 419 written). The paper library has four additional source entries (214 total). PDFs, source URLs, and extraction records are registered under `tools/udc-ldc-build/` and `public/papers/group-b/`.
+
 # Group B general-paper supplement
 
 ## MPSC 2019-2020 old-questions import — 10 October 2026 (latest)

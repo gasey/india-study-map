@@ -1,0 +1,2058 @@
+{
+  "slug": "archive2325-psychologistcase-worker-2024-general-studies",
+  "exam": "Psychologist&Case Worker-January-2024",
+  "sitting": "2024",
+  "subject": "General Studies",
+  "source": "archive2325-psychologistcase-worker-2024-general-studies.pdf",
+  "sourceSha256": "6969750630e00ba2f110f366bb8ead1227b8cd93eb895483b1c6a1d389c4d56f",
+  "ocr": true,
+  "count": 88,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AitanaBonmati",
+        "b": "AlexiaPutellas",
+        "c": "MeganRatinoe",
+        "d": "AdaHegerberg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhoisthewinnerofBalond’Or2023Female?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Canada",
+        "b": "Argentina",
+        "c": "India({d)Brazil +(a):64October2023;(b)7\"October2023",
+        "d": "18%September2023 (a)TharDesert,India(b)DeccanPlateau,India (c)GobiDesert,China(d)IndusValley,Pakistan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichcountrywillholdthe2024G20summit?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aizawl",
+        "b": "Chandigarh",
+        "c": "Indore",
+        "d": "Panjim"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichcitytoppedthe‘SwachhVayuSarvekshan2023CleanAirSurvey’?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Squash",
+        "b": "Boxing",
+        "c": "Sailing",
+        "d": "Wrestling."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "NehaThakur,whosecuredasilvermedalforIndiaatAsianGames,playswhichsports?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GSTN",
+        "b": "InvestIndia",
+        "c": "NITIAayog",
+        "d": "DPIIT"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichinstitutionhasintroduced‘Geocoding’functionalitytoidentifyandlocatebusinessesacross thecountry?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AndhraPradesh",
+        "b": "UttarPradesh",
+        "c": "MadhyaPradesh",
+        "d": "Telangana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inwhichstate/UTwas‘Eco-VizagCampaign’?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "24",
+        "b": "19",
+        "c": "23",
+        "d": "20 -2-:"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InhowmanyconstituencieshavetheBJPcontestedtheMizoramStateLegislativeAssemblyElection 2023?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "182",
+        "b": "174",
+        "c": "184",
+        "d": "172"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThetotalnumberofcontestantsintheMizoramStateLegislativeAssemblyElection2023was—",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4",
+        "b": "5",
+        "c": "7",
+        "d": "6"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IntheNationalGames2023,Mizoramstood27\"withhowmanymedals?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "JacquelineRalte",
+        "b": "JenniferChhangte",
+        "c": "JennyChhakchhuak",
+        "d": "JenniferRalte."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The2\"RunnerUpintheMissNortheast2023was~",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "VedicCivilization",
+        "b": "HarappanCivilization",
+        "c": "MauryanCivilization",
+        "d": "GuptaCivilization"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheIndusValleyCivilizationisalsoknownas:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ChandraguptaMaurya",
+        "b": "Bindusara",
+        "c": "Ashoka",
+        "d": "Kanishka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheMauryanEmperorwhoembracedBuddhismandspreaditacrossIndiawas:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Skandagupta",
+        "b": "ChandraguptaI:",
+        "c": "Samudragupta",
+        "d": "Ashoka (a)Rashtrakuta;(b)Chola (c)Pallava(4)Chalukyaoe—"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhowasthefounderoftheGuptaEmpire,oftenreferredtoasthe“GoldenAge”ofancientIndia?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Akbar",
+        "b": "Humayun",
+        "c": "Jahangir",
+        "d": "Babur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhowasthefirstMughalemperor?.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RabindranathTagore",
+        "b": "MahatmaGandhi",
+        "c": "JawaharlalNehru",
+        "d": "SardarPatel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whowastheauthorofthefamousbook“DiscoveryofIndia”?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "JawaharlalNehru",
+        "b": "SubhasChandraBose",
+        "c": "MuhammadAliJinnah",
+        "d": "MahatmaGandhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhowastheleaderthatsupportedtheKhilafatMovement,whichaimedtosupporttheOttoman Empire?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "QuitIndiaMovement",
+        "b": "SeparateelectoratesforDalits,etc",
+        "c": "PartitionofIndia",
+        "d": "Swaraj"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The“PoonaPact”wasanagreementbetweenDr.B.R.AmbedkarandMahatmaGandhioveran issueregarding:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NetajiSubashChandraBose",
+        "b": "SardarVallabhaiPatel",
+        "c": "JawaharlalNehru",
+        "d": "MotilalNehru"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thecoinageoftheslogan“Dillichalo”isattributedto:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "JawaharlalNehru",
+        "b": "SubhasChandraBose",
+        "c": "MahatmaGandhi",
+        "d": "SardarPatel (a)1905(b)1911 (c)1920(d)1947"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whocoinedtheterm“Satyagraha”todescribethenon-violentresistanceusedintheIndianNational Movement?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bihar",
+        "b": "Gujarat",
+        "c": "Punjab",
+        "d": "TamilNadu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The“ChamparanSatyagraha”wasamovementledbyMahatmaGandhiagainsttheexploitationof indigofarmersinwhichstate?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Yangtzeriver",
+        "b": "Yellowriver",
+        "c": "Mekongriver",
+        "d": "Hanriver,"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shanghaicitydevelopedonthebanksofthe",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3.28millionsqkm",
+        "b": "4.28millionsqkm",
+        "c": "2.28millionsqkm",
+        "d": "5,28millionskqm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThetotalgeographicalareaofIndiais",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Paris",
+        "b": "Quebec",
+        "c": "Tahiti",
+        "d": "Kinshasa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingcitieshasthelargestnumberofFrenchspeakersintheworld?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Myanmar",
+        "b": "China",
+        "c": "Pakistan",
+        "d": "SriLanka :(a)North(b)South ,(c)East(d)West (a)Arabianplate(b)Chineseplate (c)Eurasianplate(d)Tibetanplate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThePatkaihillsseparateIndiafrom",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tronore",
+        "b": "Bauxite",
+        "c": "Silver",
+        "d": "Copper"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "BailadilarangeintheDeccanplateauiswellknownfortheproductionof",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Betwa",
+        "b": "Lani",
+        "c": "Lohit",
+        "d": "Gomti"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingriverdrainsintotheBrahmaputraRiver?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NilgiriHills",
+        "b": "GreatNicobarIslands",
+        "c": "AndamanIslands",
+        "d": "Lakshadweep"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shompentribesarefoundin",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RedseaandDeadsea",
+        "b": "RedseaandArabiansea",
+        "c": "RedseaandMediterraneansea({d)RedseaandBlacksea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingseasareconnectedbytheSuezCanal?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Maldives",
+        "b": "Madagascar",
+        "c": "SriLanka",
+        "d": "Sumatra -4-‘"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThelargestislandintheIndianoceanis",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AndhraPradesh",
+        "b": "UttarPradesh",
+        "c": "Maharashtra",
+        "d": "MadhyaPradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheTropicofCancerpassesthrough",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15\"August,1947",
+        "b": "26November,1949",
+        "c": "26\"January,1950",
+        "d": "24\"January,1950"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheConstitutionofIndiawasadoptedbytheConstituentAssemblyofIndiaon",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8",
+        "b": "6",
+        "c": "7",
+        "d": "Noneofthese"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HowmanyFundamentalRightsarethereintheConstitutionofIndia?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article35—Article50",
+        "b": "Articles34-Article51",
+        "c": "Article36-Article52",
+        "d": "Article36—Article51"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "DirectivePrinciplesofStatePolicyisincorporatedinwhicharticlenumbersoftheConstitutionof India?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Constitution40AmendmentAct,1976",
+        "b": "Constitution41AmendmentAct,1976",
+        "c": "Constitution42AmendmentAct,1976",
+        "d": "Constitution43AmendmentAct,1977"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "FundamentalDutiesareincorporatedintheconstitutionofIndiabythe",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Religionandlanguage",
+        "b": "Religionandtribe:",
+        "c": "LanguageandCaste",
+        "d": "Religion,languageandtribe,"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "MinoritiesintheConstitutionofIndiaisinterpretedonthebasisof..",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SingleElectionCommission",
+        "b": "AppointmentofJudgesoftheHighCourtbythePresident",
+        "c": "DistributionofpowersbetweenUnionGovernmentandStateGovernmentbytheconstitution",
+        "d": "AppointmentofGovernoroftheStatebythePresidentofIndia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichoneofthefollowingisafederalfeatureoftheIndianConstitution?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Preamble",
+        "b": "Fundamentalrights",
+        "c": "Basicstructure",
+        "d": "Centre-staterelation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AnypartoftheconstitutionofIndiacanbeamendedbytheParliamentwithouttouching",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "One-tier",
+        "b": "Two-tiers",
+        "c": "Three-tiers",
+        "d": "Notiersystem"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheConstitutionSeventyThirdAmendmentAct,1992incorporatedhowmanytiersofPanchayats?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FundamentalRightsarejusticiablewhileDirectivePrinciplesofStatePolicyarenotjusticiable",
+        "b": "FundamentalRightsarepositivewhileDirectivePrinciplesofStatePolicyarenegative",
+        "c": "DirectivePrinciplesofStatePolicyaregivenprecedenceoverFundamentalRightsbyCourts",
+        "d": "DirectivePrinciplesofStatePolicyarenon-justiciablebutnotpositive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThemaindifferencebetweentheFundamentalRightsandtheDirectivePrinciplesofStatePolicyis",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Samajwadiparty",
+        "b": "NationalConference",
+        "c": "BijuJanataDal(BJD)",
+        "d": "AamAdmiParty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingisanationalparty?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shehaselectedheadofstate",
+        "b": "Shehasparliamentarydemocracy",
+        "c": "SheisaUnionofStates",
+        "d": "Shehasbicamerallegislature"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indiaisarepublicbecause",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Peoplewholiveonlessthan$1.25aday",
+        "b": "Peoplewholiveonlessthan$1.35aday",
+        "c": "Peoplewholiveonlessthan$1.45aday(4)Peoplewholiveonlessthan$1.55aday"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheFirstSustainableDevelopmentGoalaimstoeradicateextremepoverty.HowdoestheUnited Nationscurrentlymeasureextremepoverty?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2014",
+        "b": "2015",
+        "c": "2016",
+        "d": "2017 (a)2030(b)2035 (c)2040(d)2045"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheSustainableDevelopmentGoals(SDGs),alsoknownastheGlobalGoalswereadoptedbythe UnitedNationsin",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "a-iii,b-ii,c-i,d-iv",
+        "b": "a-iv,b-iii,c-ii,d-i",
+        "c": "a-iii,b-ii,c-iv,d-i",
+        "d": "_ariii,b-i,c-iv,d-ii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inthetwolistsgivenbelow,List-IprovidesthenumberofSustainableDevelopmentGoals,while List-IIindicatesitsbroadarea.MatchthetwoListsandchoosethecorrectanswerfromthecodes givenbelow: List-1List-II a.Goal2‘iQualityEducation b.Goal-3ii,GoodHealthandWell-being c.Goal4ii,ZeroHunger d.Goall3iv,ClimateAction",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kerala",
+        "b": "Punjab",
+        "c": "Haryana",
+        "d": "Delhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InIndia,povertyratioislowestin",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PlanningCommission",
+        "b": "NationalSampleSurveyOrganization(NSSO)",
+        "c": "CentralStatisticalOrganization(CSO)",
+        "d": "MinistryofTribalAffairs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingcollectsdatapovertyinIndia?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Inequalityofincomeandwealth",
+        "b": "Unequaldistributionofland",
+        "c": "Lackofeffectiveimplementationoflandreforms",
+        "d": "Alloftheabove"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichofthefollowingisresponsibleforhighpovertyratesinIndia?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1770",
+        "b": "1780",
+        "c": "1870",
+        "d": "1947 .-6-"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhenwastheBankofHindustan(theFirstBankofIndia)established?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Steelindustry",
+        "b": "Cottontextileindustry",
+        "c": "LargeScaleindustries",
+        "d": "MediumandSmallScaleindustries"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhichindustrygetsSpecialAssistancefromtheStateFinancialCorporationintheStateBankof India?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "StateBankofIndia",
+        "b": "ReserveBankofIndia",
+        "c": "AgriculturalRefinanceandDevelopmentCorporation(ARDC)",
+        "d": "EXTMBank."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "NationalBankforAgricultureandRuralDevelopment(NABARD)wasmergedwithwhichorganization in1982?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agricultureexpenses",
+        "b": "Economicexpenses",
+        "c": "Defenceexpenses",
+        "d": "SocialCommunityExpenses"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichexpenseisnotincludedinthedevelopmentexpenditure?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fillingthegapbetweengovernmentrevenueandgovernmentexpenditureinagovernmentbudget",
+        "b": "Differencebetweenthecurrentyear’sfiscaldeficitandinterestpaymentonpreviousborrowings",
+        "c": "RelyingonfundingofCentralGovernment",
+        "d": "Notspendingenoughtoensuredevelopment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Deficitfinancingrefersto",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1962",
+        "b": "1972",
+        "c": "1982‘",
+        "d": "1992"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "InwhichyearwastheU.N.ConferenceonhumanenvironmentheldinStockholm",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Haeckel",
+        "b": "Odum",
+        "c": "Tansely",
+        "d": "RamdeoMishra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thetermecologywasintroducedby:",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pollution",
+        "b": "introductionofexoticspecies",
+        "c": "over-exploitation",
+        "d": "habitatdestruction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Themostimportantreasonfordecreaseinbiodiversityis",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MansbalareainKashmir",
+        "b": "SilentvalleyinKerala",
+        "c": "SundarbanareainBengal",
+        "d": "TehrigarhwalareaofUttarPradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Chipkomovementisapublicagitationthatoccurredin",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zoo",
+        "b": "NationalParks",
+        "c": "BiosphereReserves",
+        "d": "Sanctuaries"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichoneofthefollowingisnotanin-situconservationmethod?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Numberofindividualsleavingthehabitat",
+        "b": "Numberofindividualsenteringthehabitat",
+        "c": "Deathrate",
+        "d": "Birthrate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Natalityrefersto",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Amensalism",
+        "b": "Protocooperation",
+        "c": "Mutualism",
+        "d": "Parasitism"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mycorthizaareexampleof",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Atomicpower",
+        "b": "Hydroelectricpower",
+        "c": "Thermalpower({d)Naturalgas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingisarenewablesourceofenergy?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ecosystemofstandingwater",
+        "b": "Ecosystemofflowingwater",
+        "c": "Ecosystemofestuaries",
+        "d": "Deepmarinewatersystem"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Loticecosystemrefersto",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "allplantspecies",
+        "b": "allanimalspecies",
+        "c": "economicallyimportantspecies",
+        "d": "threatenedspecies;"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Reddatabookcontainsdataof",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thermosphere",
+        "b": "Stratosphere",
+        "c": "Ionosphere",
+        "d": "Mesosphere"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ozonelayerissituatedinwhichstrataofatmosphere?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbonmonoxide",
+        "b": "Methane",
+        "c": "NOx",
+        "d": "Carbondioxide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Themajorgreenhousegaswhichcontributesmosttogreenhouseeffectamongthefollowingis",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "70.89%",
+        "b": "92.31%",
+        "c": "84.53%",
+        "d": "56.45%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AccordingtotheIndianStateofForestReport2021,thepercentageofForestcoverareainMizoramis",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fats-‘",
+        "b": "Nucleosides",
+        "c": "Aminoacids",
+        "d": "Phospholipids (a)Glucose(b)Starch (c)Sugars(d)Glycogen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Proteinsaremadeupbyvariedarrangementof",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ParaffinwaxandStearicacid",
+        "b": "BeewaxandParaffinwax",
+        "c": "BeewaxandStearicacid",
+        "d": "HigherFattyacids"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Candlescontainamixtureof",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pheromones",
+        "b": "Hormones",
+        "c": "Steroids",
+        "d": "Nucleotides"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thechemicalcompoundsreleasedbyonespeciesofanimalsinordertoinfluencethebehaviourof theothermembersofthesamespeciesarecalled",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nicotine",
+        "b": "Morphine",
+        "c": "Cocaine",
+        "d": "Caffeine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Heroinisacetylderivativeof",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Antihistamine",
+        "b": "‘Analgesic",
+        "c": "Diuretic",
+        "d": "Tranquiliser -8-“"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Drugwhichhelpstoreduceanxietyandbringsaboutcalmnessis",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "isantagonistictoCO,.",
+        "b": "iscarcinogenic",
+        "c": "hashigheraffinityforhaemoglobinascomparedtooxygen",
+        "d": "isdestructivetoozone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Carbonmonoxideisharmfultohumanbeingsasit:",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "killgerms",
+        "b": "increaseoxygencontent",
+        "c": "removehardness",
+        "d": "removesuspendedparticles"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Waterisoftentreatedwithchlorineto",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2017",
+        "b": "2018",
+        "c": "2019",
+        "d": "2020"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheAizawlMunicipalCorporation(AMC)hasbannedsingleuseplasticswhicharelessthan50 micronthicknessinAizawlCityintheyear,",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anaerobiccompostingundercontrolledcondition",
+        "b": "Acceleratedanaerobiccompostingundercontrolledcondition",
+        "c": "Aerobiccompostingundercontrolledcondition",
+        "d": "Acceleratedaerobiccompostingundercontrolledcondition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThetechnologyusedbySIPMIUinmunicipalsolidwasteprocessingplantinTuirialis",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thevillagewriter.",
+        "b": "AmanwhoadvisestheChiefwherejhumsshouldbecuteachyear:.:",
+        "c": "Thevillageblacksmith",
+        "d": "Thevillagecrier"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "KhawchhiarintheMizovillagewas:",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sachhiah",
+        "b": "Ranchhiah",
+        "c": "Khuaichhiah",
+        "d": "Fathang"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "istheduepayabletoachiefbyanyofhisownvillageorbyanyonefromanothervillage whocultivateshisland:",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sa-uitan.",
+        "b": "Peksachang",
+        "c": "Fanghmanoei",
+        "d": "Remartalh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "isaformofdivorcebyagreement.",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chawnghnawt",
+        "b": "Chawngtawk",
+        "c": "Thiantawk",
+        "d": "Chhawnghnawt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Afeastheldduringthe‘Chawng’ceremonyis:",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PawiKut",
+        "b": "MimKut",
+        "c": "Kawngpuisiam",
+        "d": "ChapcharKut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "festivalisusuallyheldassoonasjhumshavebeencut:",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mosquitos",
+        "b": "Wildanimals",
+        "c": "Birdseatingripecrops",
+        "d": "Noneofthese"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“FanoDawi”isaceremonyperformedtoensuregoodcropsandtopreventtoomany:",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Awidow",
+        "b": "Awidower",
+        "c": "Aconcubine",
+        "d": "Adivorcee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Lamthlangrapthla’means:",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fathang",
+        "b": "Chawng",
+        "c": "Zupui",
+        "d": "Salam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IndealingwithcasesoftheftbyMizochiefandUpas,aisalwaysimposedonaman whocommitstheft(ofpaddy,etc.)asasupplementarypenalty:",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lasi",
+        "b": "Khuavang",
+        "c": "Khawhring",
+        "d": "PuVana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whenthebridereachesherhusband’shouse;thepriestkillsapulletandsingsachantwishingthe coupleforlonglife,manychildrenetc.,andthischantisaddressedto:.",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sarthi",
+        "b": "Hlamzuih",
+        "c": "Raicheh(a)Awmlai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "InMizoSociety,thedeathofawomanwhilegivingbirthwascalled",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ralkai",
+        "b": "Khualkai",
+        "c": "Puankhai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whenagirlmarriesamanwholivesinanothervillage,itisknownas:",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "-T.H.Lewin",
+        "b": "J.Skakespeare.",
+        "c": "N.E.Parry,",
+        "d": "MacDonald .(a)Ear(b)Nose (c)Forehead(d)Mouth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheauthoroftheBook,“AflyontheWheel,orHowIHelpedtoGovernIndia”was:",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rev,Chhuahkhama",
+        "b": "K.Zawla",
+        "c": "Seletthanga",
+        "d": "PastorChalliana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“HmasangMizoAwmdan”wasauthoredby:",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ranpuiphur",
+        "b": "Rualchawphur",
+        "c": "Ranpuipu",
+        "d": "Rualsapu eRRREO"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thecarrierofmeatat“Chawng”wassaidtobe:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Source numbering gap before Q5: expected Q3; review the printed page.",
+    "Source numbering gap before Q17: expected Q16; review the printed page.",
+    "Source numbering gap before Q24: expected Q23; review the printed page.",
+    "Source numbering gap before Q31: expected Q29; review the printed page.",
+    "Q40 (p4, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Source numbering gap before Q52: expected Q51; review the printed page.",
+    "Source numbering gap before Q76: expected Q75; review the printed page.",
+    "Q77 (p7, part None): only 1 option(s) ['a'] - not emitted",
+    "Q85 (p8, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Source numbering gap before Q99: expected Q98; review the printed page."
+  ],
+  "gaps": {
+    "-": [
+      3,
+      4,
+      16,
+      23,
+      29,
+      30,
+      40,
+      51,
+      75,
+      77,
+      85,
+      98
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/02/a06e278228272758555e034d340190a0/psychologistcase-worker-2024-general-studies.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

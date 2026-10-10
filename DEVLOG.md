@@ -1,3 +1,25 @@
+## 11 October 2026 — Reviewed study guides + per-subject progress ledger
+
+Added the durable `reviewed-study-guides.json` input and `reviewed_study_guides.py`,
+which attach checked worked guides to records that already carry an official
+single-choice key without clearing any hold; a guide whose independent answer
+disagrees with the key is held automatically with a dispute note. Added
+`subject_review_progress.py` and the generated `subject-review-progress.json`,
+which track every subject (English, Arithmetic, Computer, GK, Reasoning) per paper
+and separate "the key gives an answer" (`keyOnlyFeedback`) from "the question has
+a checked worked explanation" (`workedGuidesReviewed`). Wrote
+HANDOFF-REVIEW-GUIDE.md, the workflow guide for continuing models.
+
+First concrete batch: MPSC Combined Group B (NG) Paper-II December 2024, Series A
+(`mpsc-group-b-ng-2024-paper-2-a`) — Computer Knowledge Q1–8 and Simple Arithmetic
+Q36–45. The paper and key are scans with no text layer, so the printed pages were
+read with Tesseract and every independent derivation was worked out and matched
+the MPSC final key. 18 key-only records became worked guides; Q36's stale
+transcribed conflict (independent D vs official A) resolved to the correct A. The
+bank is unchanged at 352 papers / 22,676 records, 3,834 practice-ready (1,752
+official-key-backed); worked guides now cover 2,480 MCQs and 552 official records
+remain key-only.
+
 ## 10 October 2026 — Dedicated subject practice
 
 Shipped locally: Maths/Arithmetic, English-only and Computer Knowledge tabs with isolated subject pools; Maths/Computer topic cards and read/practise counts; English MCQ/written switching; shared progress and source review gates. Added 114 durable Maths/Computer topic assignments and a continuation contract in HANDOFF-SUBJECT-PRACTICE.md. This makes subject practice directly discoverable and gives future import/derivation work stable tagging rules. Remaining Mixed material needs topic review; browser preview access was declined, so visual verification remains open. Not published yet.

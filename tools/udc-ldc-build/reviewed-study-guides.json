@@ -1,0 +1,251 @@
+{
+  "note": "Worked study guides added on top of records that already carry an official single-choice key. Each stem/option set was matched to the printed page and each independent solution was worked out and compared with that key. A batch must not invent answers, options or page numbers; ids, paper ids and scoring gates are preserved.",
+  "batches": [
+    {
+      "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+      "exam": "Combined Competitive Examination for Group B (Non-Gazetted) posts, December 2024, Paper-II, Series A",
+      "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf",
+      "sourceSha256": "c45fbaf9a23d97cd767ac2e0036831d1bd1bf40baa960d644017176ac252cff9",
+      "keyHref": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
+      "keySha256": "122276716def67fbb1936075b17ef1402ff9fef7d6689b0122cf6c6ff609f805",
+      "reviewedOn": "2026-10-11",
+      "evidence": "Printed stems and options read from scanned pages 2, 5 and 6 of the Paper-II Series A booklet and compared with the stored transcription; every independent derivation matched the MPSC final key. Computer Knowledge Q1-8 and Simple Arithmetic Q36-45.",
+      "questions": {
+        "mpsc-group-b-ng-2024-paper-2-a-q001": {
+          "expectedQuestion": "Which of the following is a characteristic of SSDs (Solid State Drives)?",
+          "expectedOptions": [
+            "They have moving parts",
+            "They are slower than HDDs",
+            "They are more durable and faster",
+            "They use magnetic storage"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "An SSD (Solid State Drive) stores data in flash memory and has no moving parts, so it is more resistant to shock (more durable) and its read/write access is faster than a mechanical HDD. Option (a) “moving parts” and (d) “magnetic storage” describe an HDD, and (b) reverses the speed comparison.",
+          "page": 2
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q002": {
+          "expectedQuestion": "What technology is primarily associated with the third generation of computers?",
+          "expectedOptions": [
+            "Microprocessors",
+            "Integrated Circuits",
+            "Vacuum tubes",
+            "Transistors"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "Computer generations are named by their main electronic component: 1st vacuum tubes, 2nd transistors, 3rd integrated circuits (ICs), 4th microprocessors. The third generation therefore used Integrated Circuits.",
+          "page": 2
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q003": {
+          "expectedQuestion": "Devices used by banking industry to read account numbers on cheques",
+          "expectedOptions": [
+            "MICR (Magnetic Ink Character Recognition)",
+            "OMR (Optical Mark Recognition)",
+            "OBR (Optical Bar Code Reader)",
+            "CNR (Cheque Number Reader)"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "MICR (Magnetic Ink Character Recognition) reads the magnetic-ink characters printed along the bottom of a cheque, which encode the bank, branch and account number; banks use it for fast, accurate cheque processing.",
+          "page": 2
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q004": {
+          "expectedQuestion": "A computer program that is designed to run a computer's hardware and application programs is called -",
+          "expectedOptions": [
+            "Database Software",
+            "Application Software",
+            "System Software",
+            "Utility Software"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "System software — the operating system and device drivers — is designed to run the computer's hardware and provides the platform on which application programs run. Application software performs user tasks, while database and utility software are specific kinds of program.",
+          "page": 2
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q005": {
+          "expectedQuestion": "Which of the following is a type of computer memory built directly into the processor or CPU (Central Processing Unit) that is used to store and manipulate data during the execution of instructions -",
+          "expectedOptions": [
+            "Cache",
+            "Registers",
+            "Main memory",
+            "Virtual Memory"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "Registers are small, very fast storage locations built directly into the CPU. The processor loads operands into registers and manipulates them there while executing instructions. Cache is fast memory near the CPU, but the registers are the storage the CPU works on directly.",
+          "page": 2
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q006": {
+          "expectedQuestion": "What is a \"widget\" in GUI terminology?",
+          "expectedOptions": [
+            "A type of hardware",
+            "A network protocol",
+            "A command used in a shell",
+            "A graphical control element, like a button or slider"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "In GUI terminology a widget (a control) is a reusable graphical element the user interacts with, such as a button, checkbox, radio button or slider.",
+          "page": 2
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q007": {
+          "expectedQuestion": "What is the primary purpose of an I/O system in a computer?",
+          "expectedOptions": [
+            "To store data permanently",
+            "To increase the processing power of the CPU",
+            "To manage the computer's memory",
+            "To facilitate communication between the computer and external devices"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "The input/output (I/O) system manages the transfer of data between the computer (CPU and memory) and external devices such as the keyboard, display, disk and printer. It does not itself store data permanently or add processing power.",
+          "page": 2
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q008": {
+          "expectedQuestion": "In GUI design, what does \"responsive design\" refer to?",
+          "expectedOptions": [
+            "A design that reacts to user input",
+            "A design that uses minimal graphics",
+            "A design that prioritizes speed",
+            "A design that adapts to different screen sizes and resolutions"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "Responsive design builds a layout that adapts to different screen sizes and resolutions, so the same page stays usable on a phone, tablet and desktop.",
+          "page": 2
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q036": {
+          "expectedQuestion": "What least number must be subtracted from 518, so that the difference is completely divisible by 13?",
+          "expectedOptions": [
+            "11",
+            "10",
+            "9",
+            "12"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "13 × 39 = 507 and 13 × 40 = 520, so 518 is 11 above 507. Subtracting 11 gives 507 = 13 × 39 exactly. The least number to subtract is 11.",
+          "page": 5
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q037": {
+          "expectedQuestion": "The value of (√180 × √18 × √5 × √3) / (√96 × 5) is-",
+          "expectedOptions": [
+            "5 1/2",
+            "2 3/4",
+            "1 1/2",
+            "4 1/2"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "Numerator: √180·√18·√5·√3 = √(180×18×5×3) = √48600 = √(8100×6) = 90√6. Denominator: √96 × 5 = √(16×6) × 5 = 4√6 × 5 = 20√6. Ratio = 90√6 / 20√6 = 9/2 = 4½.",
+          "page": 5
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q038": {
+          "expectedQuestion": "What will be the average of the first 5 positive even numbers divisible by 9?",
+          "expectedOptions": [
+            "50",
+            "54",
+            "48",
+            "62"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "Numbers that are positive, even and divisible by 9 are the multiples of 18: 18, 36, 54, 72, 90. Their average is 270 ÷ 5 = 54.",
+          "page": 5
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q039": {
+          "expectedQuestion": "A man buys 400 oranges for ₹2000. How many oranges can be sold for ₹260 so that he gets a profit of 30%?",
+          "expectedOptions": [
+            "35",
+            "30",
+            "40",
+            "45"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "Cost price per orange = ₹2000 ÷ 400 = ₹5. A 30% profit needs a selling price of ₹5 × 1.30 = ₹6.50 per orange. At ₹260, the number of oranges = 260 ÷ 6.50 = 40.",
+          "page": 5
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q040": {
+          "expectedQuestion": "A and B can together complete a work in 3 days. They started together but after 2 days, B left the work. If the work is completed after 2 more days, B alone could do the work in how many days?",
+          "expectedOptions": [
+            "5 days",
+            "6 days",
+            "7 days",
+            "10 days"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "A and B together do 1/3 of the work per day. In the first 2 days they finish 2/3, leaving 1/3 that A does alone over the next 2 days, so A's rate is 1/6 per day. B's rate = 1/3 − 1/6 = 1/6, so B alone needs 6 days.",
+          "page": 5
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q041": {
+          "expectedQuestion": "For a certain sum, the simple interest in 2 years at 8% per annum is ₹110 more than the simple interest in 1 year at the rate of 5% per annum for the same sum. Find the sum.",
+          "expectedOptions": [
+            "₹1000",
+            "₹950",
+            "₹1050",
+            "₹1200"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "Let the sum be P. Interest at 8% for 2 years = 0.16P; at 5% for 1 year = 0.05P. Difference = 0.16P − 0.05P = 0.11P = ₹110, so P = ₹1000.",
+          "page": 5
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q042": {
+          "expectedQuestion": "The angle of elevation of the top of a tower from two points which are at distances of 10m and 5m from the base of the tower, and in the same side and same straight line with it are complementary. The height of the tower is",
+          "expectedOptions": [
+            "5m",
+            "15m",
+            "√50m",
+            "√75m"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "Let h be the height. From 10 m, tan θ = h/10; from 5 m the angle is complementary, so tan(90° − θ) = h/5. Since tan θ × tan(90° − θ) = 1, (h/10)(h/5) = 1, giving h² = 50 and h = √50 m.",
+          "page": 5
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q043": {
+          "expectedQuestion": "What is the sum of first 30 natural numbers?",
+          "expectedOptions": [
+            "470",
+            "468",
+            "463",
+            "465"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "Sum of the first n natural numbers = n(n+1)/2. For n = 30: 30 × 31 / 2 = 465.",
+          "page": 5
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q044": {
+          "expectedQuestion": "Solve: 1800 ÷ (11 × 24 ÷ 8 × 3 - 69)^2",
+          "expectedOptions": [
+            "2",
+            "3",
+            "5",
+            "4"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "Inside the bracket: 11 × 24 = 264; 264 ÷ 8 = 33; 33 × 3 = 99; 99 − 69 = 30. Then 30² = 900, and 1800 ÷ 900 = 2.",
+          "page": 5
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q045": {
+          "expectedQuestion": "A student has to score 40% marks to get through the exam. If he gets 40 marks and fails by 40 marks, then find the maximum marks set for the examination.",
+          "expectedOptions": [
+            "150",
+            "200",
+            "250",
+            "300"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "Passing marks needed = marks scored (40) + marks short (40) = 80, which is 40% of the maximum. Maximum marks = 80 ÷ 0.40 = 200.",
+          "page": 6
+        }
+      }
+    }
+  ]
+}

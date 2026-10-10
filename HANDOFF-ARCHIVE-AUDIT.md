@@ -57,6 +57,11 @@ continue paper by paper; most archive questions remain unscored.
 | --- | ---: | ---: | ---: | ---: |
 | Assistant Controller of Mines, August 2026 | 66 | 66 / 66 | 0 | 4 |
 | Assistant LESO, April 2026 | 66 | 65 / 65 | 1 | 3 |
+| Combined Group B (NG) Paper-II, Dec 2024, Series A | 18 worked guides | 18 / 18 | 0 | 0 |
+
+The Series A batch adds worked Computer Knowledge guides (Q1–8) and Simple
+Arithmetic guides (Q36–45) through `reviewed-study-guides.json`; the item-level
+method is in [HANDOFF-REVIEW-GUIDE.md](HANDOFF-REVIEW-GUIDE.md).
 
 Mines Q11–15 are recovered from pages 4–5. Its official final key dated
 31 August 2026 agrees with all 57 previously derived answers and supplies the

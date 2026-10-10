@@ -182,3 +182,30 @@ answer merely because an MCQ option was selected.
 This context/formatting update is published from app content commit `49ff3ae`
 in deployment `dpl_5BsDcBvgUYqGVQQHNaXKK6nojnY8` (READY), aliased to
 https://map.hawayu.in. Visual browser verification remains outstanding.
+
+## Reviewed study guides and the subject progress ledger — 11 October 2026
+
+Two durable additions let future models measure and extend review without
+touching generated files:
+
+- `reviewed-study-guides.json` (applied by `reviewed_study_guides.py`) attaches a
+  checked worked guide to a record that already carries an official single-choice
+  key. It never clears an existing gate, and if the independent answer differs
+  from the key the item is held unscored with a dispute note. Use it to turn
+  key-only feedback into a real worked explanation. Generate the `expected*`
+  fields from the built bank so a stale entry fails the build instead of
+  overwriting a checked stem.
+- `subject-review-progress.json` (from `subject_review_progress.py`) reports every
+  subject (English, Arithmetic, Computer, GK, Reasoning) per paper. It separates
+  `keyOnlyFeedback` ("the key gives an answer") from `workedGuidesReviewed` ("the
+  question has a checked worked explanation") and lists `heldItems` with reasons.
+  It is read-only and never changes readiness.
+- The full continuation workflow, formatting rules, exception handling, model
+  guidance and publish steps are in
+  [HANDOFF-REVIEW-GUIDE.md](HANDOFF-REVIEW-GUIDE.md).
+
+First batch: Combined Group B (NG) Paper-II, December 2024, Series A
+(`mpsc-group-b-ng-2024-paper-2-a`) — Computer Knowledge Q1–8 and Simple
+Arithmetic Q36–45, read from the scanned pages and matched to the final key. The
+bank stays at 352 papers / 22,676 records, 3,834 practice-ready (1,752 official);
+2,480 MCQs now carry worked guides and 552 official records are still key-only.

@@ -8,8 +8,10 @@ coverage remain visible. Run from any directory with Python 3.
 import json
 import re
 from pathlib import Path
-from group_b_sources import build_additional, MPSC_LANGUAGE_ARCHIVE, MPSC_NG_ARCHIVE_2024_2027
+from group_b_sources import build_additional, MPSC_LANGUAGE_ARCHIVE, MPSC_NG_ARCHIVE_2024_2027, MPSC_ARCHIVE_2023_2025
 from english_review_progress import english_review_progress
+from subject_review_progress import load_study_taxonomy, subject_review_progress
+from reviewed_study_guides import apply_reviewed_study_guides
 from fix_emphasis_markers import patch as restore_emphasis
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -211,6 +213,7 @@ def build():
                            'expectedMcq': 75 if p['id'].endswith('-1-a') else 100})
     papers.extend(extra_papers)
     questions.extend(extra_questions)
+    apply_reviewed_study_guides(ROOT, questions, json.loads((Path(__file__).parent / 'reviewed-study-guides.json').read_text()))
     assert len({q['id'] for q in questions}) == len(questions)
     assert all(q['paperId'] in {p['id'] for p in papers} for q in questions)
     # Keep answer feedback useful and honest when the source provides only a
@@ -257,6 +260,12 @@ def build():
     (Path(__file__).parent / 'build-report.json').write_text(json.dumps(report, indent=2) + '\n')
     (Path(__file__).parent / 'english-review-progress.json').write_text(
         json.dumps(english_review_progress(library, questions, MPSC_LANGUAGE_ARCHIVE, MPSC_NG_ARCHIVE_2024_2027), ensure_ascii=False, indent=2) + '\n')
+    mappings, topics = load_study_taxonomy(ROOT)
+    tags = json.loads((ROOT / 'src/data/banks/mpsc-study-topic-tags.json').read_text())['tags']
+    subject_progress = subject_review_progress(library, questions, mappings, topics, tags,
+        MPSC_LANGUAGE_ARCHIVE + MPSC_NG_ARCHIVE_2024_2027 + MPSC_ARCHIVE_2023_2025)
+    assert subject_progress['summary']['records'] == report['items'] and subject_progress['summary']['ready'] == report['ready']
+    (Path(__file__).parent / 'subject-review-progress.json').write_text(json.dumps(subject_progress, ensure_ascii=False, indent=2) + '\n')
     payload, _ = restore_emphasis(compact_answers_arrays(payload))
     OUT.write_text(payload)
     (ROOT / 'src' / 'data' / 'banks' / 'mpsc-group-b-library.json').write_text(json.dumps(library, ensure_ascii=False, indent=2) + '\n')

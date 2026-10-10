@@ -1,0 +1,164 @@
+{
+  "slug": "archive-lang-2010-inspector-of-legal-metrology-2010-under-food-civil-supplies-consumer-aff-942fb6d6",
+  "exam": "Inspector of Legal Metrology 2010 under Food,Civil Supplies & Consumer Affairs",
+  "sitting": "2010",
+  "subject": "General English",
+  "source": "archive-lang-2010-inspector-of-legal-metrology-2010-under-food-civil-supplies-consumer-aff-942fb6d6.pdf",
+  "sourceSha256": "cd2179bcd25c63349e244998f1c8cc242fd411126148dd9b8416f43a02b258ab",
+  "ocr": false,
+  "count": 6,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mobile phone usage and Mizo youth",
+        "b": "Honesty is the best policy",
+        "c": "Government service versus private entrepreneurship"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Write an essay in about 1000 words on **any one** of the following topics:(15)",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "no time like the present",
+        "b": "hard of hearing",
+        "c": "get cold feet",
+        "d": "by word of mouth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences with the following idioms and phrases:(5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Where do we get our fear of snakes from?(2)",
+        "b": "How is a snake often symbolized as in literature?(2)",
+        "c": "What kills people more often than snakes?(2)",
+        "d": "What is the reaction of most snakes to human beings?(2)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following passage and answer the questions: Most people are afraid of snakes – but this fear is as irrational as the fear of ghosts. The fear of snakes, according to some biologists, may be an instinct passed on to us by our ancestors. There may be some truth in this theory because monkeys have a deep, instinctive fear of pythons and other tree snakes. Or it may be that we learn the fear of snakes as children from grown-ups. Anyway, snakes have been feared and hated for thousands of years, and in the literature of many countries, the snake is regarded as a symbol of evil. Whatever the truth, there is no real reason for the terror which the sight of a snake causes in most people. Many more people are killed, much more frequently, by motorcycles and cigarettes than by snakes. The majority of snakes are harmless, and only too anxious to avoid human beings. Of the poisonous snakes, only those found in the sea are always dangerous; being aggressive by nature, they can attack human beings for no reason at all, taking a fisherman or swimmer by surprise in the water where the man is somewhat helpless.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The clown chased a dog around the ring and then fell flat on his face.",
+        "b": "Frankenstein is the name of the scientist, not the monster.",
+        "c": "The manager confidently made his presentation to the board of directors.",
+        "d": "The taxi-driver angrily waved his fist at the careless pedestrian."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the part of speech (noun/ adjective/ verb/ adverb/ preposition) in every italicized word: (10)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Because you are flying direct, you will probably have severe jet-lag.",
+        "b": "I like only those movies which end happily.",
+        "c": "Show me the folder in which you stored the documents.",
+        "d": "I do not know what he will do. (e)When we sell the house, we’ll probably leave most of the furniture. (ii)Rewrite the following sentences without changing their meaning:(5) (a)The last time I saw him was in 2001. (b)I can never forget my first view of Aizawl. (c)If only you wouldn’t drive so fast. (d)Somebody should tell him. (e)The lecture was so boring that I left. (a)He has a lot of money. But he is unhappy. (b)I have some work. I must do it now. (c)The rain stopped. We set out on our journey. (d)You must love and respect your parents. It is your duty. (e)They decided to elect John their chairman. All agreed to this."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(i)Identify the kinds of clauses in these sentences:(5)",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I want you to promise me that you will stop to smoke.",
+        "b": "The new secretary has been running a fever from yesterday.",
+        "c": "A gang of thugs were hired to disrupt the procession.",
+        "d": "My teenaged daughter has been on the phone describing about her new dress for the last two hours. (f)He was quite amusing when he heard what had happened. (i)The truth always prevails. (j)I would rather play tennis than swimming."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Correct the errors in these sentences:(10)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p2, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      2,
+      3,
+      5
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/942fb6d6e4b5546a3a04fe3c9558ea77/inspector-of-legal-metrology-2010-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

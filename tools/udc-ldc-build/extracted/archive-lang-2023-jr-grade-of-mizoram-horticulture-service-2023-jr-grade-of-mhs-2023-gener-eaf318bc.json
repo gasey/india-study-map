@@ -1,0 +1,2301 @@
+{
+  "slug": "archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
+  "exam": "Jr Grade of Mizoram Horticulture Service-2023",
+  "sitting": "2023",
+  "subject": "General English",
+  "source": "archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc.pdf",
+  "sourceSha256": "bc6bd32864e56a085c96974213da36d7892ad3ec44f47e9d8b9fd3e0bb0489a8",
+  "ocr": true,
+  "count": 99,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Macbeth’sgreatsinwashisvanity.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "opts": {
+        "a": "Verb",
+        "b": "Adjective",
+        "c": "Adverb‘",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Heatethechocolategreedily.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "opts": {
+        "a": "Adjective",
+        "b": "Noun",
+        "c": "Adverb",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hehaspreparedadeliciouscakeforus.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "opts": {
+        "a": "Adjective",
+        "b": "Noun",
+        "c": "Verb",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ThePrincipalhasgivenusimportantnews.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "opts": {
+        "a": "Verb",
+        "b": "Preposition",
+        "c": "Adverb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theteachersaidthatweshouldnottalkduringclass.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "opts": {
+        "a": "Noun",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Coreylovedherwithallhisheart.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Verb",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Coreyhasagreatloveforpomegranates.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Adverb",
+        "c": "Preposition",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IwillnothaveenoughmoneyunlessIhaveasecondjob.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "opts": {
+        "a": "Adjective",
+        "b": "Interjection,",
+        "c": "conjunction",
+        "d": "Preposition :>."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whereareyoufrom?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "opts": {
+        "a": "Adverb",
+        "b": "Verb",
+        "c": "Adjective",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ItissurrealhowmuchJaneresemblesMary.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "opts": {
+        "a": "loved",
+        "b": "isloving",
+        "c": "love",
+        "d": "loves."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neverdoubtthatshe(love)youjustthewayyouare.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "opts": {
+        "a": "stayed",
+        "b": "arestaying",
+        "c": "havebeenstaying",
+        "d": "hadstayed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We(stay)inthatsamebuildingsinceafewyearsback.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "opts": {
+        "a": "tries",
+        "b": "tried",
+        "c": "aretrying",
+        "d": ".try"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theteachers(try)togetthestudentstocooperatebuttheyarefailing.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "opts": {
+        "a": "need",
+        "b": "isneeding",
+        "c": "needed",
+        "d": "needs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She(need)torememberthatsheisnotyetqualifiedforthejob.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "opts": {
+        "a": "moves.",
+        "b": "wasmoving",
+        "c": "moved",
+        "d": "hasbeenmoving"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hejumpedoffthetrainwhileit(move)",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "opts": {
+        "a": "rose",
+        "b": "rise",
+        "c": "rises",
+        "d": "risen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shegotoutofbedassoonasthesun(rise)",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "opts": {
+        "a": "fight",
+        "b": "fighted",
+        "c": "fights",
+        "d": "fought"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They(fight)bravelyagainsttheenemy.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "opts": {
+        "a": "think",
+        "b": "thought",
+        "c": "thinks",
+        "d": "havethought"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I(think)youaremistakenaboutmyintentions.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "opts": {
+        "a": "wasraining",
+        "b": "hasbeenraining",
+        "c": "rained",
+        "d": "_rains"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It(rain)thismorningwhenIhadmyaccident.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Fillintheblankswiththecorrectformoftheverbsgivenin",
+      "opts": {
+        "a": "consult",
+        "b": "areconsulting",
+        "c": "hadconsulted",
+        "d": "havebeenconsulting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They(consult)alawyerwhosolvedthecaseforthem.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "opts": {
+        "a": "amiable",
+        "b": "audible.",
+        "c": "amoebal",
+        "d": "annible :_3-"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shewaspopularbecauseofhercharacter.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "opts": {
+        "a": "erotically",
+        "b": "ironically",
+        "c": "erratically",
+        "d": "arrayically"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thetrafficpolicemanstoppedhimbecausehewasdriving:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "opts": {
+        "a": "bride",
+        "b": "bridge",
+        "c": "brite",
+        "d": "_bright"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hewasa____—_—_studentwhoperformedverywell.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "opts": {
+        "a": "later",
+        "b": "latent",
+        "c": "letter",
+        "d": "latter."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Iprefertheformertothe:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "opts": {
+        "a": "extremely",
+        "b": "excruciately",
+        "c": "execratically",
+        "d": "exemplary"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Itwasanhotafternoon.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "opts": {
+        "a": "carved",
+        "b": "cured",
+        "c": "curbed",
+        "d": "curved"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thefootballfollowedapathasitswervedintothenet.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "opts": {
+        "a": "no",
+        "b": "not",
+        "c": "none",
+        "d": "non"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "______butEmmacoulddefeatthewizard.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "opts": {
+        "a": "audible",
+        "b": "legible",
+        "c": "edible",
+        "d": "delible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thisspeakerwasnot____fromwherewesatrightatthebackofthehall.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "opts": {
+        "a": "illegible",
+        "b": "indelible",
+        "c": "inedible",
+        "d": "eligible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hewasanyoungmanwhommanygirlswantedtomarry.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Fillintheblankswiththemostappropriateadjectiveoradverb.",
+      "opts": {
+        "a": "internately",
+        "b": "innerly",
+        "c": "insidedly",
+        "d": "intemally"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Helookedcalmontheoutside,buthewaspanicking.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "opts": {
+        "a": "between",
+        "b": "_within",
+        "c": "among",
+        "d": "along"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thepropertywasdivided___—_—_thethreechildren.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "opts": {
+        "a": "aside",
+        "b": "aswellas",
+        "c": "but",
+        "d": "inspiteof"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "John,Janehasgonetothemarket.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "opts": {
+        "a": "inspite",
+        "b": "inlieuof",
+        "c": "despite",
+        "d": "bydintof"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "hisillness,hewasabletosuccessfullycompletehisstudies.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "opts": {
+        "a": "upon",
+        "b": "above:",
+        "c": "upto",
+        "d": "over :4."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Helivesintheflatmine.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "opts": {
+        "a": "beside",
+        "b": "asides",
+        "c": "besides",
+        "d": "aside"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hesatmeinclass.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "opts": {
+        "a": "at",
+        "b": "on",
+        "c": "n",
+        "d": "inside"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HelivesKhatla.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "opts": {
+        "a": "off",
+        "b": "n",
+        "c": "at",
+        "d": "inside."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "[knowhim,butIcannotrememberhisnamethetopofmyhead.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "opts": {
+        "a": "inlieuof",
+        "b": "alongwith",
+        "c": "despite",
+        "d": "_bydintof"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Heofferedmetheuseofhiscar___——_—softhemoneyheowedme.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "opts": {
+        "a": "at",
+        "b": "under",
+        "c": "by",
+        "d": "within"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theambulancearrived10minutes.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-40):Fillintheblankswiththeappropriateconjunctionorpreposition.",
+      "opts": {
+        "a": "as",
+        "b": "byvirtueof",
+        "c": "nosoonerthan",
+        "d": "unless"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Iwillleave,youaskmetostay.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Asshewashungry,Annawasunabletoeataswell",
+        "b": "Annawashungry,yetshewasstillunabletoeat",
+        "c": "Beinghungry;Annacouldnoteatstill",
+        "d": "Unabletoeat,Annawasstillhungry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Beinghungry,Annawasstillunabletoeat.(ToCompound)",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Theyateastalecookieastheygotastomachache",
+        "b": "Gettingastomachache,theyateastalecookie",
+        "c": "Astheyateastalecookie,astheygotastomachache",
+        "d": "Aftertheyateastalecookie,theygotastomachache"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theyateastalecookie.Theygotastomachache.(ToComplex)",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Wemusteattolive",
+        "b": "Wemusteattocannotlive",
+        "c": "Wecannotlivetoeat",
+        "d": "Wemusteatorlive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Wemusteat,orwecannotlive.(ToSimple)",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Ashewasgoingtothesciencemuseum,hewassurprised",
+        "b": "HewasgoingtotheScienceMuseum,Hewassurprised",
+        "c": "HewenttotheScienceMuseumandwassurprised",
+        "d": "GoingtotheScienceMuseumbuthewassurprised"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "GoingtotheScienceMuseum,hewassurprised(ToCompound)",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Iknow.Theanswer",
+        "b": "Thattheanswerisknowntome",
+        "c": "Iknowtheansweris",
+        "d": "Iknowwhattheansweris :5."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Iknowtheanswer.(ToComplex)",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Theblackandwhitecatissleepingonthesofa.",
+        "b": "Thecatissleepingonthesofawhichisblackandwhite",
+        "c": "Thecatisblackandwhiteandissleepingonthesofa",
+        "d": "Thecat,beingblackandwhite,sleepsonthesofa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thecat,whichisblackandwhite,issleepingonthesofa.(ToSimple)",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Shehasflaws.Iloveher",
+        "b": "Shehasflaws,yetIloveher",
+        "c": "loveherflaws",
+        "d": "Despiteherflaws.Iloveher"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Despiteherflaws,Iloveher(ToCompound)",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Exerciseregularlytonotbefit",
+        "b": "Exerciseregularlytostayfit",
+        "c": "Exerciseregularly,henceyouwillnotbefit",
+        "d": "Exerciseregularly.Youwillnotbefit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Exerciseregularly,otherwiseyouwillnotbefit.(ToSimple).",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Thegirlwhoiswearingthereddressissinging",
+        "b": "Thegirlisinthereddress.Sheissinging",
+        "c": "Thegirlisinthereddress,yetsheissinging",
+        "d": "Thesinginggirliswearingthereddress"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thegirlinthereddressissinging(ToComplex)",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.41-50):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Shestudiedhard,passingtheexam",
+        "b": "Shepassedtheexamtostudyhard",
+        "c": "Passingtheexam,shestudiedhard",
+        "d": "Shestudiedhardwhichenabledhertopasstheexam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shestudiedhard,andshepassedtheexam(ToComplex)",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "Itiswellknownthatsheisabrilliantgirl",
+        "b": "Herbrillianceiswell-known",
+        "c": "Sheisbrilliantly",
+        "d": "Herbrilliancyiswell-known"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Itiswell-knownthatsheisbrilliant(UseaNoun)",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "Herloveforherhusbandwasstrengthenedbyhiskindness",
+        "b": "Herloveforherhusbandwasgivenstrengthbyhiskindness",
+        "c": "Shestronglylovedherhusbandforhiskindness",
+        "d": "Herloveforherhusbandwasstrongbecauseofhiskindness"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Herloveforherhusbandwasmadestrongbyhiskindness(UseaVerb)",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "Theroseisalovelyflower",
+        "b": "Theroseislovelierthananyflower",
+        "c": "Nootherflowerisaslovelyastherose",
+        "d": "Theroseisalovelyflowerthananyotherflower"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theroseistheloveliestflower(ToPositivedegree)",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "Paraismorecourageousthananyothersoldierintheregiment",
+        "b": "Paraiscourageouserthananyothersoldierintheregiment",
+        "c": "NoothersoldierintheregimentisascourageousasPara",
+        "d": "Paraisthemorecourageoussoldierintheregiment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Paraisthemostcourageoussoldierintheregiment.(ToComparativeDegree)",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "Sheisvaintonoticeherownfaults",
+        "b": "Sheisvainandnoticedherownfaults",
+        "c": "Sheissovaintonoticeherownfaults.",
+        "d": "Sheissovainthatshecannotnoticeherownfaults"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sheistoovaintonoticeherownfaults(RemoveToo)",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "Iwassureofhisloyalty",
+        "b": "Iwassureofhisdisloyalty",
+        "c": "Iwasensuredofhisloyalty",
+        "d": "Iwasdoubtfulofhisloyalty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Iwasnotsureofhisloyalty(ToAffirmative)",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "Whilesheisbeautiful,Idonotdisdainhercruelty",
+        "b": "Whilesheisbeautiful,Idonotaffirmhercruelty",
+        "c": "Whilesheisbeautiful,Idonotadmirehercruelty",
+        "d": "Whilesheisbeautiful,Idonotdeplorehercruelty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whilesheisbeautiful,Idisapproveofhercruelty(ToNegative)",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "HerbeautifulnessissogreatthatIcannotspeaktoherproperly",
+        "b": "SheissobeautifulthatIcannotspeaktoherproperly",
+        "c": "Icannotspeakproperlytoherbecauseofherbeautiful",
+        "d": "SheissuchagreatbeautthatIcannotspeaktoherproperly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HerbeautyissogreatthatIcannotspeaktoherproperly(UseAdjective).",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "Howisshenotquestionedbyanyone?",
+        "b": "Shehasnotbeenquestionedbyanyone?",
+        "c": "Hasshenotbeenquestionedbyanyone?",
+        "d": "Whyhasshenotbeenquestionedbyanyone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shehasnotbeenquestionedbyanyone,(ToInterrogative)",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.51-60):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "HeistooloudIcannotendurehim",
+        "b": "HeissoloudthatIcannotendurehimtoo",
+        "c": "Heistooloudtobeendured:",
+        "d": "Hetooisloudtobeendured"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HeissoloudthatIcannotendurehim(Use‘too’)",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "opts": {
+        "a": "Ifyouwillbelateforschool,youwalktooslowly",
+        "b": "Youwillbelateforschoolifyouwalktooslowly",
+        "c": "Youwalktooslowlyifyouwillbelateforschool",
+        "d": "Ifyouwalktooslowly,ifyouwillbelateforschool"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Youwillbelateforschool.Youwalktooslowly.(Use‘if”)",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "opts": {
+        "a": "IwanttoseehertotellherthatJamsorry",
+        "b": "IwanttoseeherasIwanttotellherthatIamsorry",
+        "c": "IwanttoseeherandtellherthatIamsorry",
+        "d": "IwanttoseehersothatIcantellherthatIamsorry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Iwanttoseeher.IwanttotellherthatIamsorry.(UseInfinitive)",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "opts": {
+        "a": "Maryisaprettygirlwhoisournewnurse",
+        "b": "Maryisournewnurseaswellasaprettygirl",
+        "c": "Maryisnotonlyanursebutalsoaprettygirl",
+        "d": "Mary,aprettygirl,isournewnurse"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Maryisournewnurse.Sheisaprettygirl.(UseNounphraseinapposition)",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "opts": {
+        "a": "Hehasdonetheworkinaslowmanner",
+        "b": "Hehasdonetheworkwithslowness",
+        "c": "Hehasdonetheworkinaslowymanner",
+        "d": "Hehasdonetheworkslowly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hehasdonethework.Heisveryslow.(UseanAdverb)",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "opts": {
+        "a": "Heissoanxiousthatitisaffectingeveryone",
+        "b": "Hisanxietyisaffectingeveryone",
+        "c": "Everyoneisaffectedbyhisanxiousness",
+        "d": "Everyoneisaffectedbyhisanxiousmanner"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Heissoanxious.Itisaffectingeveryone.(UseaNoun)",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "opts": {
+        "a": "Removingmycoat,Istartedtoeatdinner",
+        "b": "I,mycoatremoved,startedtoeatdinner",
+        "c": "Iremovedmycoat,startingtoeatdinner",
+        "d": "IstartedtoeatdinnerassoonasIremovedmycoat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Iremovedmycoat.Istartedtoeatdinner.(UseParticipialPhrase)",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "opts": {
+        "a": "TheteacherslikeTom,havingdonewell",
+        "b": "Doingwell,theteacherslikeTim",
+        "c": "TheteacherslikeTimsincehealwaysdoeswell",
+        "d": "Tim,doingwell,islikedbytheteachers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheteacherslikeTim.Healwaysdoeswell.(UseAdverbClause).",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "opts": {
+        "a": "ItistoocoldthatIcannotbearit",
+        "b": "Itistoocoldtobearit",
+        "c": "Itistoocold,Icannotbearit",
+        "d": "Icannotbearittoocold"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Itissocold.Icannotbearit.(Use‘too’)",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "opts": {
+        "a": "Shewasrudealthoughshewashonest",
+        "b": "Althoughshewasrudeandhonest",
+        "c": "Shewasrudeandhonestalthough",
+        "d": "Althoughshewasrude,shewashonest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shewasrude.Shewashonest.(UseAlthough)",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-70):Synthesizethefollowingsentencesasdirected.",
+      "opts": {
+        "a": "Theenormityofwhatshehaddoneshockedeveryone",
+        "b": "Whatshehaddonewassoenormousthatitshockedeveryone",
+        "c": "Theenormousityofwhatshehaddoneshockedeveryone",
+        "d": "Theenomournessofwhatshehaddoneshockedeveryone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatshehaddonewasenormous.Itshockedeveryone.(UseaNoun)",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "opts": {
+        "a": "beingangryaboutsomething",
+        "b": "preparingtodosomething",
+        "c": "toconsolesomeone",
+        "d": "toshareasecret"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Upinarms",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "opts": {
+        "a": "totrainforasport",
+        "b": "todismisssomeone",
+        "c": "todie",
+        "d": "togotosleep"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hitthesack",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "opts": {
+        "a": "toconvincesomeonetodosomethingtheywouldnothavedoneotherwise",
+        "b": "totellsomeonealie",
+        "c": "topretendtobefriendsomeoneonlytobetraythem",
+        "d": "togoonalongjourney"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Twistsomeone’sarm",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "opts": {
+        "a": "tomisssomebody",
+        "b": "toloseone’sfortune",
+        "c": "toloseaskillyouoncehad",
+        "d": "tonolongerkeepincontactwithsomeone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Toloseone’stouch",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "opts": {
+        "a": "tobecomesad",
+        "b": "toslowdown.",
+        "c": "togettothepoint",
+        "d": "toligahsittuaetinon :8."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tocuttothechase",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "opts": {
+        "a": "tofoolsomeone",
+        "b": "tobecomeunaffectedbysomething",
+        "c": "tocollectthings",
+        "d": "toquitabadhabit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Togetoversomething",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "opts": {
+        "a": "tosolveaproblem",
+        "b": "todisagreewithsomeone",
+        "c": "tomovefromoneplacetoanother",
+        "d": "_tobecomeoldandpastone’sbest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tobeoverthehill",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "opts": {
+        "a": "tobedirty",
+        "b": "toeatalot",
+        "c": "totendtostealthings",
+        "d": "tobemulti-talented."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tohavestickyfingers",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "opts": {
+        "a": "tobestingywithmoney",
+        "b": "tobeaviolentperson",
+        "c": "tohavemanyclosefriends",
+        "d": "tonotrevealyoursecrets"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tobeclose-fisted",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.71-80):Choosethecorrectmeaningofthefollowingproverbs,idioms",
+      "opts": {
+        "a": "tobealwaysreadyandalert",
+        "b": "tostrugglewithmoney",
+        "c": "tobeagenuineperson",
+        "d": ".tohavealotofmoney"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tobeloaded",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.81-87):GivetheAntonymsofthefollowingwords.",
+      "opts": {
+        "a": "internal",
+        "b": "ephemereal",
+        "c": "incessant",
+        "d": "permanent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Eternal",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.81-87):GivetheAntonymsofthefollowingwords.",
+      "opts": {
+        "a": "persuasive",
+        "b": "optimist",
+        "c": "strict",
+        "d": "disregard"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Permissive‘",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.81-87):GivetheAntonymsofthefollowingwords.",
+      "opts": {
+        "a": "abstruse",
+        "b": "well-known",
+        "c": "obtuse",
+        "d": "_well-liked"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Obscure",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.81-87):GivetheAntonymsofthefollowingwords.",
+      "opts": {
+        "a": "instant",
+        "b": "lazy",
+        "c": "skillful",
+        "d": "_inept"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Talented",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.81-87):GivetheAntonymsofthefollowingwords.",
+      "opts": {
+        "a": "attacking",
+        "b": "pensive",
+        "c": "protective",
+        "d": "thoughtful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Defensive",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.81-87):GivetheAntonymsofthefollowingwords.",
+      "opts": {
+        "a": "select",
+        "b": "smart",
+        "c": "choose",
+        "d": "_ignore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Acknowledge",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.81-87):GivetheAntonymsofthefollowingwords.",
+      "opts": {
+        "a": "quiet",
+        "b": "minimal",
+        "c": "obvious",
+        "d": "optimum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Subtle",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.88-94):GivetheSynonymsofthefollowing.",
+      "opts": {
+        "a": "soar",
+        "b": "high.",
+        "c": "plummet",
+        "d": "low"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Escalate",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.88-94):GivetheSynonymsofthefollowing.",
+      "opts": {
+        "a": "tiny",
+        "b": "maximum",
+        "c": "minimum",
+        "d": "large"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Miniature",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.88-94):GivetheSynonymsofthefollowing.",
+      "opts": {
+        "a": "legal",
+        "b": "fine",
+        "c": "deadly",
+        "d": "coarse"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lethal",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.88-94):GivetheSynonymsofthefollowing.",
+      "opts": {
+        "a": "cruel",
+        "b": "intelligent",
+        "c": "insane",
+        "d": "kind."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Benevolent",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.88-94):GivetheSynonymsofthefollowing.",
+      "opts": {
+        "a": "beautiful",
+        "b": "rude",
+        "c": "ugly",
+        "d": "sociable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gregarious",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.88-94):GivetheSynonymsofthefollowing.",
+      "opts": {
+        "a": "peaceful",
+        "b": "violent",
+        "c": "strong",
+        "d": "weak"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Brutal",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.95-100):Choosethecorrectwordforthefollowingdefinitions.",
+      "opts": {
+        "a": "unequivocal",
+        "b": "atrocious",
+        "c": "ambiguous",
+        "d": "unilateral"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Somethingthatcanhavemorethanoneinterpretationormeaning",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.95-100):Choosethecorrectwordforthefollowingdefinitions.",
+      "opts": {
+        "a": "optimist",
+        "b": "pessimist",
+        "c": "optometrist",
+        "d": "pacifist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Someonewhotendstobehopefulandconfidentaboutthefuture",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.95-100):Choosethecorrectwordforthefollowingdefinitions.",
+      "opts": {
+        "a": "edible",
+        "b": "illegible",
+        "c": "legible",
+        "d": "inedible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Notclearenoughtoberead",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.95-100):Choosethecorrectwordforthefollowingdefinitions.",
+      "opts": {
+        "a": "regency",
+        "b": "tyranny",
+        "c": "patriarchy",
+        "d": "regime"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Acruelandoppressivegovernmentorrule",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.95-100):Choosethecorrectwordforthefollowingdefinitions.",
+      "opts": {
+        "a": "fidelity",
+        "b": "congregation",
+        "c": "conflagration",
+        "d": "fraternity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Agroupofpeoplesharingacommonprofessionorinterests",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.95-100):Choosethecorrectwordforthefollowingdefinitions.",
+      "opts": {
+        "a": "absolute",
+        "b": "delete",
+        "c": "obsolete",
+        "d": "deflate KKKKK"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Nolongerproducedorused,outofdate",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q92 (p9, part None): only 1 option(s) ['a'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      92
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/02/eaf318bc375cd640d13e0eaaa0530587/jrgrade-of-mhs-2023-general-english-paper-ii.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

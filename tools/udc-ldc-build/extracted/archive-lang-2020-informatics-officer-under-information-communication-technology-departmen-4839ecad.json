@@ -1,0 +1,91 @@
+{
+  "slug": "archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-4839ecad",
+  "exam": "Informatics Officer under Information Communication Technology Department",
+  "sitting": "2020",
+  "subject": "General English",
+  "source": "archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-4839ecad.pdf",
+  "sourceSha256": "32ae9b4f1a89629f1a08c9f84066676877da0f619438e43d0421a67af6c00264",
+  "ocr": false,
+  "count": 3,
+  "questions": [
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dirt Cheap",
+        "b": "Fall in a heap",
+        "c": "Hand in glove",
+        "d": "Nip in the bud (i)Pillar to post(j)Child’s play"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences with any 7 (seven) of the following Idioms and Phrases to bring out their meaning: (7×2=14)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A great deal of talent is lost in the world for the want of a little courage",
+        "b": "Peace hath her victories no less renowned than war.",
+        "c": "Variety is the spice of life"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expand the idea contained in any one of the following:(15)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Which of the following was the advantage of struggle against colonialism? (i)Tribal groups held their separate identity throughout the struggle. (ii)Communities got divided on the basis of religion and language. (iii)Backwardness of tribals was eradicated. (iv)Awareness beyond linguistic and religious identity was generated.",
+        "b": "How did colonial power react to topple the anti-colonial structure? (i)by splitting people on the basis of their financial positions (ii)by using tempting economic strategies (iii)by creating linguistic, tribal and religious divides (iv)by instigating tribals against anti-communal forces.",
+        "c": "The author has given the example of Angola, South Africa, etc in order to (i)bring out the similarity of tactics used by the rulers of colonies to divide the natives. (ii)emphasise how nationalism has become almost extinct and capitalism has borne roots. (iii)support the argument that feudalism was opposed by people in underdeveloped countries also. (iv)lay stress on the fact that tribals in those countries were divided on account of language",
+        "d": "What was the role of an introduction of market relations in the process of economic integration? (i)It had different impacts in all colonial exercises. (ii)It overthrew the capitalistic approach in the third world countries. (iii)It advocated importance of localism and restricted economic growth. (iv)It broke the shackles of localism and helped unify the economic structures. (i)as a struggle against feudalism (ii)as vehement opposition to colonialism (iii)to advocate capitalistic movement (iv)to strengthen localism (f)What was the motive of colonial powers in writing a distorted history? (i)to emphasise he existence of domination by one tribe over other weaker tribes. (ii)to make people aware of and to integregate on the basis of their rich cultural heritage. (iii)to make people aware of their glorious religion and widely used language (iv)to give an impression to general people that there was no national consciousness and to prevent them from being united. (i)a vehement critic of anti-feudalism (ii)a staunch follower of capitalistic pattern (iii)an impartial commentator of historical and political events (iv)a person holding colonialism in high esteem (i)a historical fact having ancient roots. (ii)skirmish led by a dominating tribe or a religious group with selfish motive. (iii)dominance of narrow sectional ends over national goals. (iv)survival of the fittest in the struggle against colonialism."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following passage carefully and answer the questions that follow:(8×2=16) The development of nationalism in the third world countries, as is well known, followed a very different trajectory from that in the advanced capitalist countries. In the latter it was a part of the process of the emergence of the bourgeois order in opposition of feudalism, while in the former it was a part of the anti-colonial struggle. The impact of colonialism, though it differed across countries, had on the whole been in the direction of transcending localism and unifying supra-local economic structures through the introduction of market relations. The struggle against colonialism, consequently, took the form of a national struggle in each instance in which people belonging to different tribes or linguistic communities participated. And the colonial power in each instance attempted to break this emerging national unity by splitting people. The modus operandi of this splitting was not just through political manipulation as happened for instance in Angola, South Africa and a host of other countries; an important part of this modus operandi was through the nurturing of a historiography that just denied the existence of any overarching national consciousness. The national struggle, the national movement were given a tribal or religious character, they were portrayed as being no more than the movement of the dominant tribe or the dominant religious group for the achievement of narrow sectional ends. But the important point in this colonialism, while, on the one hand, it objectively created the condition for the coming into being of a national consciousness at a supra-tribal, supra-local and supra-religious level, on the other hand it sought deliberately to subvert this very consciousness by using the same forces which it has objectively undermined. Questions:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/4839ecadfdcd633bb9dd32a1ac0fda2b/informatics-officer-general-english-paper-i.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

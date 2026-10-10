@@ -1,0 +1,931 @@
+{
+  "slug": "archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a",
+  "exam": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+  "sitting": "2025",
+  "subject": "General English",
+  "source": "archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf",
+  "sourceSha256": "d0705e32872096d3e411349b5779e23b1929dc5bf458898fa38ef8f77277dcf2",
+  "ocr": false,
+  "count": 36,
+  "questions": [
+    {
+      "n": 1,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given",
+      "opts": {
+        "a": "Preposition",
+        "b": "Adverb",
+        "c": "Pronoun",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This is **what** I want.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given",
+      "opts": {
+        "a": "Adverb",
+        "b": "Noun",
+        "c": "Interjection",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This is an **absolute** truth.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Verb",
+        "c": "Noun",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What are the latest **tidings**?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given",
+      "opts": {
+        "a": "Adjective",
+        "b": "Interjection",
+        "c": "Verb",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Oh!** That I had the wings of a bird.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given",
+      "opts": {
+        "a": "Preposition",
+        "b": "Verb",
+        "c": "Noun",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This **information** is all wrong.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Adverb",
+        "c": "Interjection",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is **too** hot to go out.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Preposition",
+        "c": "Verb",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Besides** clothes, I gave him money.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given",
+      "opts": {
+        "a": "Verb",
+        "b": "Noun",
+        "c": "Interjection",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The player **kicked** the ball.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given",
+      "opts": {
+        "a": "Preposition",
+        "b": "Adjective",
+        "c": "Interjection",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ours is the **last** house in the street.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given",
+      "opts": {
+        "a": "Adverb",
+        "b": "Noun",
+        "c": "Pronoun",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "These mangoes are **almost** ripe.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences.",
+      "opts": {
+        "a": "of",
+        "b": "from",
+        "c": "to",
+        "d": "upon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The court has absolved him _______ all the charges leveled against him.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences.",
+      "opts": {
+        "a": "upon",
+        "b": "off",
+        "c": "to",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consequent upon heavy loss he is worse ____ these days.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences.",
+      "opts": {
+        "a": "in",
+        "b": "for",
+        "c": "by",
+        "d": "till"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I shall stay here _______ Friday.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences.",
+      "opts": {
+        "a": "by",
+        "b": "to",
+        "c": "on",
+        "d": "for"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She was overcome _____ fatigue and went to bed.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences.",
+      "opts": {
+        "a": "to",
+        "b": "over",
+        "c": "across",
+        "d": "in"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She swam ______ the river to the other side.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences.",
+      "opts": {
+        "a": "over",
+        "b": "under",
+        "c": "to",
+        "d": "for"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rain water seeps ______ the ground.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences.",
+      "opts": {
+        "a": "on",
+        "b": "at",
+        "c": "by",
+        "d": "of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He piques himself _______his artistic taste.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences.",
+      "opts": {
+        "a": "by",
+        "b": "to",
+        "c": "with",
+        "d": "of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His head is teeming ___________ brilliant ideas.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences.",
+      "opts": {
+        "a": "to",
+        "b": "for",
+        "c": "with",
+        "d": "at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Extremism is detrimental ______ the progress of the country.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences.",
+      "opts": {
+        "a": "among",
+        "b": "to",
+        "c": "at",
+        "d": "between"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The property was divided __________ the two brothers.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 21 - 28) : Choose the Correct Word or Phrase to Complete the Sentence:",
+      "opts": {
+        "a": "arbitrary",
+        "b": "objective",
+        "c": "hypothetical",
+        "d": "flawed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The proposal, though initially appealing, was ultimately rejected due to its ___ assumptions about the market.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 21 - 28) : Choose the Correct Word or Phrase to Complete the Sentence:",
+      "opts": {
+        "a": "escalate",
+        "b": "pacify",
+        "c": "obscure",
+        "d": "deflect"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Despite his public apology, the minister’s explanation failed to ___ the growing public anger.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 21 - 28) : Choose the Correct Word or Phrase to Complete the Sentence:",
+      "opts": {
+        "a": "directly",
+        "b": "deliberately",
+        "c": "truthfully",
+        "d": "explicitly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She took the comment as a personal insult, even though none was ___ intended.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 21 - 28) : Choose the Correct Word or Phrase to Complete the Sentence:",
+      "opts": {
+        "a": "circumstantial",
+        "b": "empirical",
+        "c": "verbal",
+        "d": "anecdotal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The report was dismissed as being full of vague generalizations and lacked ___ evidence.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 21 - 28) : Choose the Correct Word or Phrase to Complete the Sentence:",
+      "opts": {
+        "a": "passive",
+        "b": "lenient",
+        "c": "tactful",
+        "d": "submissive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The new officer’s approach was admired for being ___ but firm, avoiding unnecessary confrontation.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 21 - 28) : Choose the Correct Word or Phrase to Complete the Sentence:",
+      "opts": {
+        "a": "astute",
+        "b": "dispassionate",
+        "c": "poor",
+        "d": "speculative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The company’s decision to withdraw from the project was not strategic but rather a result of ___ financial planning.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 21 - 28) : Choose the Correct Word or Phrase to Complete the Sentence:",
+      "opts": {
+        "a": "direct",
+        "b": "rigid",
+        "c": "vague",
+        "d": "ambiguous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Her statement was so ___ that it could be interpreted in several ways, depending on the context.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 21 - 28) : Choose the Correct Word or Phrase to Complete the Sentence:",
+      "opts": {
+        "a": "assertive",
+        "b": "persuasive",
+        "c": "formal",
+        "d": "condescending"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Although he had the facts on his side, his ___ tone alienated even those who agreed with him.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:",
+      "opts": {
+        "a": "predictable",
+        "b": "temporary",
+        "c": "dangerous",
+        "d": "unstable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following words is closest in meaning to ‘precarious’?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:",
+      "opts": {
+        "a": "aggravate is to pain",
+        "b": "exaggerate is to story",
+        "c": "ease is to burden",
+        "d": "inflict is to wound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mitigate is to damage as:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:",
+      "opts": {
+        "a": "He was impartial to her feelings.",
+        "b": "The referee made an impartial call.",
+        "c": "She expressed her impartial love for sweets.",
+        "d": "The manager showed impartiality by promoting only her relatives."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which sentence best uses the word ‘impartial’?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:",
+      "opts": {
+        "a": "The witness alleged the facts with strong evidence.",
+        "b": "The accused was alleged guilty without trial.",
+        "c": "The newspaper alleged that corruption had occurred.",
+        "d": "He alleged a prize for his honesty."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the option in which ‘allege’ is used correctly.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:",
+      "opts": {
+        "a": "Approval",
+        "b": "Disagreement",
+        "c": "Accord",
+        "d": "Harmony"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the antonym of ‘consensus’ in the context of group decisions?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:",
+      "opts": {
+        "a": "alleged",
+        "b": "dissenting",
+        "c": "mitigated",
+        "d": "acclaimed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word best fits the sentence: ‘He was widely ___ for his honesty and dedication to duty.’",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:",
+      "opts": {
+        "a": "Object",
+        "b": "Concur",
+        "c": "Challenge",
+        "d": "Protest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Dissent’ is most opposite in meaning to:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:",
+      "opts": {
+        "a": "arbitrary",
+        "b": "biased",
+        "c": "lenient",
+        "d": "judicious"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word best fits the sentence: ‘The judge’s decision was widely considered ___ because it balanced law with compassion.’",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Read the passage below and write a précis in 120-140 words giving a suitable title(14) The modern world is full of bustle and activity. Men live in a perpetual hurry, and their minds are perpetually occupied with a thousand fleeting interests. The pressure of immediate needs and urgent tasks absorbs their attention. Reflection, solitude, and leisurely thought are becoming rare luxuries. In earlier times, particularly in simpler societies, people were more given to introspection. They lived closer to nature and closer to themselves. But now, man has become a stranger to silence, to solitude, to the inner world. The greatest loss that this entails is the decline of independent thinking. The individual today thinks less and less for himself. His opinions are formed by mass communication—by newspapers, radio, and television. Instead of thinking, he absorbs ideas; instead of forming convictions, he repeats clichés. Public opinion is not so much the result of personal deliberation as it is a reflection of mass suggestion. True education is meant to awaken the capacity for critical thought, to teach individuals how to think rather than what to think. But unfortunately, even education has become increasingly a system of training minds to conform, rather than to inquire and dissent. The man who dares to think independently finds himself in a difficult position. Society does not easily forgive originality. Nonconformity is often punished, either by ridicule or isolation. Yet, it is this very nonconformist, the one who questions the accepted dogmas and resists the pull of the crowd, who is often the source of progress. It was never the crowd that led the way in science, in art, or in ethics—it was always the individual. In such a world, the value of cultivating solitude and independent judgment cannot be overstated. To read great books, to converse with one’s own mind, to retreat occasionally from the world’s noise—these are not escapist habits but essential practices for a fully realized life. A democracy flourishes not merely by the number of people who vote, but by the quality of thought behind those votes.",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 2,
+      "text": "Attempt any one (1)  question given below:(10×1=10) -You are XYZ, a resident of Lungpho village, where the local Health Sub-Centre lacks essential medical equipment and staff. Write a letter to the Director of Health Services requesting urgent upgradation of the centre and suggesting practical measures to improve rural healthcare delivery. OR -You are ABC living in XYZ locality, Aizawl. Write a letter to the Municipal Commissioner, AMC complaining about poor sanitation in your area and give a suggestion for proper garbage disposal.",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 2,
+      "text": "Read the passage carefully and answer the questions given below: India is chiefly an agricultural land. The cultivation of crops depends on a proper supply of water throughout the year. Since olden times, large parts of our country have suffered from occasional periods of too much rain and those of drought. People had known that if surplus flood water could be stored away for use during the dry season, these problems will be solved. Unfortunately, they had neither the knowledge nor the means to do so much in this direction. Whatever little they knew, they tried to put into practice. They dug canals to drain water from perennial rivers. This was heavy and expensive work and practicable over only a small area. Large tanks were excavated and small dams built to hold back floods. But it was not possible to do anything on a countrywide scale.",
+      "subparts": {
+        "a": "How has our country suffered since olden times?(2)",
+        "b": "What did the people do to avoid this suffering?(2)",
+        "c": "What obstacles did they face?(2)",
+        "d": "Give the central idea of the passage.(2) (i)Want of rain(ii)Flowing throughout year"
+      }
+    },
+    {
+      "n": 4,
+      "part": "A",
+      "page": 2,
+      "text": "Fill in the blanks with the correct form of verbs.(10×1=10)",
+      "subparts": {
+        "a": "We ______________ our breakfast half an hour ago. (finished / have finished)",
+        "b": "They _________ Paris last year. (visited / have visited)",
+        "c": "I _______________Physics for five years. (am studying / have been studying)",
+        "d": "This paper ___________twice weekly. (is appearing/appears)"
+      }
+    },
+    {
+      "n": 5,
+      "part": "A",
+      "page": 3,
+      "text": "Fill in the blanks with the correct tense form of the verb provided in brackets. Ensure correct subject– verb agreement and tense logic.(6×1=6)",
+      "subparts": {
+        "a": "By the time we reached the station, the train already ___ (leave).",
+        "b": "She ___ (study) environmental law for two years before switching to public policy.",
+        "c": "If he ___ (be) more careful, he wouldn’t have made that error.",
+        "d": "While the meeting ___ (go) on, several staff members slipped out."
+      }
+    },
+    {
+      "n": 6,
+      "part": "A",
+      "page": 3,
+      "text": "Rewrite the following sentences as directed.(10×1=10)",
+      "subparts": {
+        "a": "I can prove that this fact is true. (into compound sentence)",
+        "b": "He was so tired that he could not stand. (into simple sentence)",
+        "c": "Run and you will be in time. (into complex sentence)",
+        "d": "The earth is round and we can prove it. (into complex sentence)"
+      }
+    },
+    {
+      "n": 7,
+      "part": "A",
+      "page": 3,
+      "text": "Answer the questions as directed:(4×1 = 4)",
+      "subparts": {
+        "a": "I am not sure **whether he will agree or not**. (Label the underlined part as noun/ adverb clause or noun/adverb phrase etc.)",
+        "b": "We waited **until the rain stopped**. (Label the underlined part as noun/ adverb clause or noun/adverb phrase etc.)",
+        "c": "**Being tired**, he declined the invitation. (Label the underlined part as noun/ adverb clause or noun/adverb phrase etc.)",
+        "d": "The teacher said, “Be punctual in class.” (Rewrite in indirect speech)"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p2, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p2, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q4 (p2, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q5 (p3, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q6 (p3, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q7 (p3, part A): conventional section, 4 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/08/029fa88a792bc3f4f58742e6fc747751/general-english-inspector-of-excise-2025.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

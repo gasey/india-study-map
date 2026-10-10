@@ -1,0 +1,185 @@
+{
+  "slug": "archive-lang-2024-mcs-main-2024-mcs-main-general-english-2024-8e9e1be2",
+  "exam": "MCS ( Main ) - 2024",
+  "sitting": "2024",
+  "subject": "General English",
+  "source": "archive-lang-2024-mcs-main-2024-mcs-main-general-english-2024-8e9e1be2.pdf",
+  "sourceSha256": "a3fec0faf13c11a10beece6cd3d034a516903be67a34afd0e61b1e0ac1a47569",
+  "ocr": true,
+  "count": 7,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Howaretheskillsof'asalespersonsimilartotheskillsthatweallrequireinourdaily tite?(2)",
+        "b": "Whatdoyoumeanbytheterm‘peopledobusinesswithpeople’?Giveexamples fromthepassage.@)",
+        "c": "Howdoesasalespersonneednotbe‘ontheroad’butyetdobusinessefficiently?(2)",
+        "d": "Whydocompanieshavesalesconferences?(2) (e)Whatisthepassageallabout?(2) (fExplaininyourownwordsthemeaningof:(2) @majorclients Gi)potentialcustomers (g)Giveatitletothepassage.Givereasonsforyourchoice.(3)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Readthepassagecarefullyandanswerthequestionsgivenbelow: Somepeoplebelievethatyouhavetobeaspecialkindofapersontosellaproduct. Butalthoughitisclearthatasuccessfulsalesrepresentativedoesneedspecialtalentsandan outgoingpersonality,manyoftheskillsheusesareusedbyusall:webuildandmaintain relationshipswithdifferentkindsofpeople,welistentoandtakenoteofwhattheytellus, andweexplainthingstothemordiscussideaswiththem. Afirmmaydependontheirownsalesteamand/oronthesalesmanshipoftheir distributors,wholesalersorretailers.Butanycompanyneedstoestablishapersonal relationshipwithitsmajorclients(‘keyaccounts’)andpotentialcustomers(‘prospects’).It isoftensaidthat‘peopledobusinesswithpeople’:afirmdoesn’tjustdealimpersonallywith anotherfirm,butapersoninthebuyingdepartmentreceivespersonalvisitsfrompeople representingthefirm’ssuppliersonaregularbasis—orinthecaseofdepartmentstoresor chainstores,ateamofbuyersmaytravelaroundvisitingsuppliers, Keepingsalespeople‘ontheroad’ismuchmoreexpensivethanemployingthemto workintheofficeasmuchoftheirtimeisspentunproductivelytravelling,Telephoneselling mayusethistimemoreproductively,butaface-to-facemeetinganddiscussionismuch moreeffective.Companiesinvolvedintheexporttradeoftenhaveaseparateexportsales force,whosetravelandaccommodationexpensesmaybeveryhigh.Servicingoverseas customersmayconsequentlyoftenbedonebyphone,faxoremailandpersonalvisitsmay beinfrequent.Manyfirmsappointanoverseasagentordistributorwhoseownsalesforce takesoverresponsibilityforsellingtheirproductsinanothercountry. Asalesdepartmentconsistsofmanypeoplewhoarebasedindifferentpartsofthe countryortheworld,whodon’thavetheday-to-daycontactandopportunitiesfor communicatingwitheachotherthatoffice-basedstaffhave.Forthisreason,firmsholdregular salesconferenceswheretheirentiresalesforcecanmeet,receiveinformationandask questionsaboutnewproductsandreceivetraining. Answerthefollowingquestions:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Canvas:canvass",
+        "b": "Gait:gate",
+        "c": "Jealous:zealous",
+        "d": "Rout:route"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Makesentenceswitheachwordtoshowtheirdifferencesinmeaning.(5x2=10)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Abirdinthehandisworthtwointhebush",
+        "b": "Contentmentismorethanakingdom.",
+        "c": "Weliveindeedsnotinyears"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expandtheideacontainedinanytwoofthefollowing:(2x5=10)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Iwillgothe6:30bus.",
+        "b": "Thebankchargesinteresttenpercent.",
+        "c": "Hewasleft___—————sdeadonthefield.",
+        "d": "Shehasretiredprivatelife. (e)Hisappealsforfundsmet_sapoorresponse."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fillintheblankswiththecorrectprepositions:(5xt=5)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Atloggerheads",
+        "b": "Bellthecat",
+        "c": "Fabianpolicy",
+        "d": "Holdwater (e)Putaspokeonthewheel(f)Rocktheboat (g)Sweatofthebrow(hb)Underacloud @)Chipoftheoldblock(j)_Afriendatcourt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Makesentenceswiththefollowingidiomsandphrases:(10x1=10)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Onemusthelphissiblings.(correctthesentence)",
+        "b": "Learningmakesamanperfect.(identifygerund)",
+        "c": "Wealladmireamanofcourage.(replacephrasewithclause)",
+        "d": "Alldesirewealthandsomeacquireit.(changetopassive) {e)Thereisnosmokewithoutfire.(changetoassertive)- (f)Hesaid,“Letuswaitfortheaward.”(changethenarration) (g)Myrightthereisnonetodispute.(changetocomplex) (h)Smallserviceistrueserviceitlasts.(useconnectingword) G@)Ispeakthetruth.]amnotafraidofit.(changetosimplesentence) G)Youmaybewrong.Hemaybewrong.Youcannotbothberight.(changetocompound) (k)Hissoleincomeiswhatheearnsbyhispen.(maketheprincipalclausenegative) ()NootherplanetisasbigasJupiter.(changethedegree)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rewritethefollowingsentencesasdirected(anyten):(10x1=10)",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ofallmyfriends,onlyone(have)writtentome.",
+        "b": "Honesty(write)onhisface.",
+        "c": "They(work)inthegardensincemorning.",
+        "d": "(Have)mylunch,Iresumedmywork. (ce)Hepraisedmefor(write)theletterthatcontainedtruth. RRRKE"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fillintheblankswiththecorrectformofverbs:(5*1=5)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q2 (p3, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p3, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      2,
+      3
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/11/8e9e1be2e6c1ba2884e3f2ef43f72560/mcs-main-general-english-2024.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

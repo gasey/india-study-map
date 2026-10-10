@@ -1,3 +1,37 @@
+## Archive audit and continuation — 10 October 2026
+
+Final audit of the eight supplied MPSC archives, including English/Arithmetic
+scope, accessible links, broken URLs, duplicate checks and remaining Gazetted
+work: [HANDOFF-ARCHIVE-AUDIT.md](HANDOFF-ARCHIVE-AUDIT.md). The next model
+should continue from its Progress checklist and preserve the subject-practice
+rules in [HANDOFF-SUBJECT-PRACTICE.md](HANDOFF-SUBJECT-PRACTICE.md).
+
+## Dedicated subject practice — 10 October 2026
+
+Maths/Arithmetic, English only and Computer Knowledge now have separate local study tabs. Maths and Computer use topic cards; English separates MCQs from written work. Future import and answer-derivation work must follow [HANDOFF-SUBJECT-PRACTICE.md](HANDOFF-SUBJECT-PRACTICE.md), including canonical tags, durable classification inputs, and unchanged scoring gates. This UI update is not yet published; local browser verification was declined.
+
+## Gazetted English archive import — 10 October 2026
+
+Added 109 distinct General English PDF sources from the audited MPSC G archives
+and one distinct JAO 2026 Series B GK/Arithmetic/Reasoning booklet. The booklet
+was separated into 60 GK, 17 Reasoning and 15 Arithmetic questions. Exact
+duplicate PDFs were reused. The generated bank now has 351 question-bearing
+papers and 22,607 records (21,830 MCQ, 777 written); 3,763 are practice-ready
+(1,618 official-key-backed) and 18,770 remain source-review items.
+
+The JAO Series B scan pass restored Q1–Q8 and Q43 and source-checked all 100
+questions. Ninety-five are practice-ready: 14 manually worked and 81 matched
+to Series A by identical stems/options. Five exceptions remain held: Q7 has no
+exact option; Q40's figure solution is unverified; Q41/Q44 have image options;
+Q43 wording is directionally ambiguous. The durable repairs and continuation
+instructions are in [HANDOFF-ARCHIVE-AUDIT.md](HANDOFF-ARCHIVE-AUDIT.md).
+
+Content review rules for punctuation, emphasis, section instructions, blanks,
+written prompts, explanations and older-source exceptions are in
+[HANDOFF-SUBJECT-PRACTICE.md](HANDOFF-SUBJECT-PRACTICE.md); source coverage,
+unresolved links, OCR/numbering review leads and NG follow-up are in
+[HANDOFF-ARCHIVE-AUDIT.md](HANDOFF-ARCHIVE-AUDIT.md).
+
 ## MPSC NG archive additions — 10 October 2026
 
 Source: [MPSC Old Question NG archive](https://mpsc.mizoram.gov.in/page/old-question-ng). The other explicitly titled General Knowledge papers found on the page already exist in the bank. Added the three missing eligible sources: Assistant LESO General Studies (April 2026), Group B (NG) Technical General Studies (January 2026), and Group B (NG) Technical General Knowledge (November 2024). Their 294 extracted MCQs remain unscored and review-gated.
@@ -432,12 +466,13 @@ browser check pins the split on the mixed Computer/Arithmetic/Reasoning paper
 (30 math / 35 reasoning / 120 math options).
 
 `browser-check.py` uses a Chrome CDP session at `127.0.0.1:9222` and the Vite
-`/udc-ldc` route (or a URL argument). Its hardcoded progress assertions now
-expect **3,540 ready**, **1,618 official**, **36 held** and **13 missing**.
-There is now also an Exam-mode assertion: AAO 2024 General English has become
-eligible (its last held items were fixed) while AAO 2024 Arithmetic stays out
-(it still has a compensated item). Update these counts if further verified
-repairs change them.
+`/udc-ldc` route (or a URL argument). Its historical hardcoded progress
+assertions still expect **3,540 ready**, **1,618 official**, **36 held** and
+**13 missing**; these no longer match the imported archive. Refresh those
+assertions before relying on the script. The current generated report is
+3,763 ready, 1,618 official, 43 held-reviewed, 18,707 unreviewed and 533
+missing MCQs. AAO 2024 General English is Exam-mode eligible while AAO 2024
+Arithmetic remains out because it has a compensated item.
 
 When extracting generated question arrays for an audit, use
 `json.JSONDecoder().raw_decode` from each `const groupBQuestionsPartN` start; a

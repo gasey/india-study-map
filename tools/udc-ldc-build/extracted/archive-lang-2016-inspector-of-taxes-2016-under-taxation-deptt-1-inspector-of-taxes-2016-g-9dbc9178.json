@@ -1,0 +1,118 @@
+{
+  "slug": "archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-1-inspector-of-taxes-2016-g-9dbc9178",
+  "exam": "Inspector of Taxes-2016 under Taxation Deptt.",
+  "sitting": "2016",
+  "subject": "General English",
+  "source": "archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-1-inspector-of-taxes-2016-g-9dbc9178.pdf",
+  "sourceSha256": "336ee463b45938354b1877cdf69b984eaf65ba6fd2d92e5d43387443b2f8c78d",
+  "ocr": false,
+  "count": 4,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "My vision of India in 2020",
+        "b": "Corruption in Public Life",
+        "c": "Paying Taxes – Responsibility and Duty of Citizens",
+        "d": "The importance of public health and sanitation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Write an essay on any one of the given topics(25)",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "a man of straw",
+        "b": "to read between the lines",
+        "c": "call a spade a spade",
+        "d": "high and mighty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences with the following idioms and phrases to show their meaning :(7×2=14)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "People living in glass houses should not throw stones",
+        "b": "The crown and glory of life is character",
+        "c": "Great talkers are never great doers",
+        "d": "Make hay while the sun shines"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expand the idea contained in any three of the following :(3×5=15)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "What is meant by ‘supposing that she had struck’?(3)",
+        "b": "How can Nelson be said to have been partly responsible for his death?        (3)",
+        "c": "What do you understand by the ‘mizzen-top’?     (3)",
+        "d": "Why did Nelson insist that the surgeon should leave him and attend to others?   (3)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the passage below and answer the questions that follow it : It has been part of Nelson’s prayer that the British fleet might be distinguished by humanity in the victory which he expected. Setting an example himself, he twice gave orders to cease firing upon the Redoubtable, supposing that she had struck because her great guns were silent: for as she carried no flag, there was no means of instantly ascertaining the fact. From this ship, which he had thus twice spared, he received his death. A ball fired from her mizzen-top which, in the then situation of the two vessels was not more than fifteen yards from that part of the deck where he was standing, struck the epaulette on his left shoulder about a quarter after one, just in the heat of action. He fell upon his face on the spot which was covered with his poor secretary’s blood. Hardy, who was a few steps from him turning round, saw three men raising him up. “They have done for me at last, Hardy,” said he. “I hope not,” cried Hardy. “Yes,” he replied; “my back-bone is shot through.” Yet, even now not for a moment losing his presence of mind, he observed as they were carrying him down the ladder, that the tiller-ropes which had been shot away, were not yet replaced and ordered that new ones should be roped immediately. Then that he might not be seen by the crew, he took out his handkerchief and covered his face and his stars. Had he but concealed these badges of honour from the enemy, England perhaps would not have had cause to receive with sorrow the news of the battle of Trafalgar. The cockpit was crowded with wounded and dying men; over whose bodies he was with some difficulties conveyed, and laid upon a pallet in the midshipmen’s berth. It was soon perceived, upon examination, that the wound was mortal. This, however, was concealed from all, except Captain Hardy, the chaplain, and the medical attendants. He himself being certain, from the sensation in his back, and the gush of blood he felt momentarily within his breast, that no human care could avail him, insisted that the surgeon should leave him and attend to those to whom he might be useful.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      2,
+      3
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/9dbc91781722c4647cc804a06f835f2a/inspector-of-taxes-2016-general-english-paper-i.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

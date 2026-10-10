@@ -1,3 +1,7 @@
+## Dedicated subject practice — 10 October 2026
+
+Maths/Arithmetic, English only and Computer Knowledge now have separate local study tabs. Maths and Computer use topic cards; English separates MCQs from written work. Future import and answer-derivation work must follow [HANDOFF-SUBJECT-PRACTICE.md](HANDOFF-SUBJECT-PRACTICE.md), including canonical tags, durable classification inputs, and unchanged scoring gates. This UI update is not yet published; local browser verification was declined.
+
 # Handoff — UDC / Assistant / Group B computer questions
 
 Written 2026-09-02. Read this before adding more clerical computer questions to
@@ -141,3 +145,9 @@ reintroduce it.
 - Nobody has audited the other generated files for hand-edits living in the same
   silent-deletion trap. Two were found by accident (the UDC paper, and the
   Syllabus tab's "Recommended reading" panel). A deliberate sweep would be cheap.
+## MPSC archive continuation
+
+Use [HANDOFF-ARCHIVE-AUDIT.md](HANDOFF-ARCHIVE-AUDIT.md) for the source-page
+audit, broken-link list and remaining Gazetted General English/Arithmetic work.
+Use [HANDOFF-SUBJECT-PRACTICE.md](HANDOFF-SUBJECT-PRACTICE.md) for module
+classification and import/derivation rules.

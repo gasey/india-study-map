@@ -1,0 +1,93 @@
+{
+  "slug": "archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-i-aa983a08",
+  "exam": "Principal ITI LESDE January-2024",
+  "sitting": "2024",
+  "subject": "General English",
+  "source": "archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-i-aa983a08.pdf",
+  "sourceSha256": "2f8257a653c380dc141236807f1a088c25d87d76665106f15ca08afea8e480ea",
+  "ocr": true,
+  "count": 3,
+  "questions": [
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lifewouldbedulliftherewerenodifficulties.",
+        "b": "Eachman’sbeliefisrightinhisowneyes.",
+        "c": "Makehaywhilethesunshines. eee ._2-"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expandthegivenpassages:(3x5=15)",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Whatdidmeneatiftherewasshortageoffood?(2)",
+        "b": "Whatdifferencedidweaponsmakeinthekindsoffoodmenate?(2)",
+        "c": "Atfirstmenwanderedfromplacetoplacetofindtheirfood,thensomeofthembegantostay.",
+        "d": "WhataresomeofthethingsimportedfromChina?(2) Gi)fortunatei)rotten. ii)littlebylittle(iv)unspecified"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Readthefollowingpassageandanswerthequestionsgiven: Longagomenspentmostoftheirtimelookingforfood.Theyateanythingtheycouldfind. Somelivedmostlyonplants.Theyatethefruit,stemsandleavesofsomeplantsandtherootsof. others.Whenfoodwasscarce,theyatethebarkoftrees.Iftheywerelucky,theywouldfindabird’s nestwitheggs.Peoplewholivednearthewateratefishoranythingthatwashedashore,evenrotten whales.Somepeoplealsoateinsectsandsmallanimalslikelizardsthatwereeasytokill.Later,men Jeamedtomakeweapons.Withweapons,theycouldkilllargeranimalsformeat. Theseearlypeoplehadbigappetites.Iftheykilledananimal,theywoulddrinktheblood,eat themeatandchewthebones.Whentheyfinishedthemeal,therewasnothingleft.Atfirst,men wanderedfromplacetoplacetofindtheirfood.Butwhentheybegantogrowplants,theystayedin oneplaceandatewhattheycouldgrow.Theytamedanimals,trainedthemtoworkandkilledthem formeat.Lifewasalittlebetterthen,buttherewasstillnotmuchvarietyintheirmeals.Dayafterday .peopleatethesamefoods.Gradually,menbegantotravelgreaterdistances.Theexplorerswho .sailedunknownseasfoundnewlands.Andintheselandstheyfoundnewfoodsandspicesandtook thembackhome.ThePortuguesewhosailedaroundthestormyCapeofGoodHopetoreachChina tookback“Chineseapples”,thefruitwecallorangestoday.Later,Portuguesecolonistscarried orangeseedstoBrazil.FromBrazilorangeswerebroughttoCalifornia,thefirstplacetogrow orangesintheUnitedStates.PeachesandmelonsalsocamefromChina.Sodidanewdrink,tea. Questions:.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "farandwide",
+        "b": "takeheart",
+        "c": "nipinthebud",
+        "d": "giftofthegab okKkROK"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Makemeaningfulsentencesusingany7(seven)ofthefollowing:(7x2=14)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      5
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/01/aa983a08ffbfbbcc85d897cd4a0eb4fc/principal-iti-general-english-paper-i.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

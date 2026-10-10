@@ -1,3 +1,17 @@
+## Latest import and solving status — 10 October 2026
+
+The Gazetted archive batch adds 109 distinct English PDFs and one JAO 2026
+Series B booklet. The full 100-question JAO scan pass has 95 questions
+practice-ready after 14 manual solutions and 81 exact Series A matches. The
+bank has 351 papers / 22,607 records and 3,763 practice-ready questions
+(1,618 official-key-backed). Q7, Q40, Q41, Q43 and Q44 are held for answer or
+image ambiguity; the new English papers still require review. See
+[HANDOFF-ARCHIVE-AUDIT.md](HANDOFF-ARCHIVE-AUDIT.md) for continuation details.
+
+## Dedicated subject practice — 10 October 2026
+
+Maths/Arithmetic, English only and Computer Knowledge now have separate local study tabs. Maths and Computer use topic cards; English separates MCQs from written work. Future import and answer-derivation work must follow [HANDOFF-SUBJECT-PRACTICE.md](HANDOFF-SUBJECT-PRACTICE.md), including canonical tags, durable classification inputs, and unchanged scoring gates. This UI update is not yet published; local browser verification was declined.
+
 ## MPSC NG archive additions — 10 October 2026
 
 Source: [MPSC Old Question NG archive](https://mpsc.mizoram.gov.in/page/old-question-ng). The other explicitly titled General Knowledge papers found on the page already exist in the bank. Added the three missing eligible sources: Assistant LESO General Studies (April 2026), Group B (NG) Technical General Studies (January 2026), and Group B (NG) Technical General Knowledge (November 2024). Their 294 extracted MCQs remain unscored and review-gated.
@@ -396,3 +410,9 @@ four arbitration entries cover. Verified against both
 papers in `state/official-answer-keys.json`. The only UDC/Assistant key in the
 corpus is the April-2024 sitting, which is the one already used to measure
 `solved-html` at 158/159.
+## Archive audit and continuation — 10 October 2026
+
+See [HANDOFF-ARCHIVE-AUDIT.md](HANDOFF-ARCHIVE-AUDIT.md) for the final audit
+of the supplied MPSC pages, broken English/Arithmetic URLs and prioritized
+Gazetted import backlog. Follow [HANDOFF-SUBJECT-PRACTICE.md](HANDOFF-SUBJECT-PRACTICE.md)
+for the durable Maths/Arithmetic, English-only and Computer Knowledge rules.

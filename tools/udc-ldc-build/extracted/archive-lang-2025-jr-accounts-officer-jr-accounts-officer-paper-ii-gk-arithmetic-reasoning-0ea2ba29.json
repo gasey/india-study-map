@@ -1,0 +1,2147 @@
+{
+  "slug": "archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29",
+  "exam": "Jr. Accounts Officer",
+  "sitting": "July 2026",
+  "subject": "General Knowledge, Arithmetic & Reasoning",
+  "source": "archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf",
+  "sourceSha256": "2c7e67fd9ecc4b7739a95a7a08f601e07a910678c8a73a8515f9de2696d9c3ae",
+  "ocr": false,
+  "count": 92,
+  "questions": [
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "19",
+        "b": "20",
+        "c": "21",
+        "d": "22 (a)45(b)60 (c)72(d)90 (a)151(b)155 (c)161(d)145 (a)4(b)5 (c)6(d)7 (a)5(b)9 (c)13(d)4 (a)150(b)180 (c)200(d)160 (a)54kg(b)55kg (c)56kg(d)57kg (a)24%(b)25% (c)27%(d)28%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Notes regarding Negative Marking : (i)There will be penalty (negative marking) for every wrong answer given by a candidate in the MCQ type questions. (ii)For each question for which a wrong answer has been given by the candidate, one third of the marks assigned to that question will be deducted as penalty. (iii)If a candidate gives more than one answer to one question, it will be treated as wrong answer even if one of the given answers happens to be correct and there will be same penalty as above for that question. (iv)If any question is left blank i.e. no answer is given by the candidate, there will be no penalty for that question. 1.How many integers are there between −12 and 9?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30%",
+        "b": "40%",
+        "c": "45%",
+        "d": "50%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ratio of the cost price and selling price of a ceiling fan is 5:7. The gain percent is:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "₹600",
+        "b": "₹630",
+        "c": "₹650",
+        "d": "₹700"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "By selling a coat for ₹630, a shopkeeper gains 5%. The cost price of the coat is:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10:15:21",
+        "b": "2:3:7",
+        "c": "10:3:7",
+        "d": "2:15:21 35"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If P:Q = 2:3 and Q:R = 5:7, then P:Q:R = ?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "₹1,200",
+        "b": "₹1,600",
+        "c": "₹1,800",
+        "d": "₹2,000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Divide ₹4,800 into three parts such that the second part is  of the first part and the third part is 43 of the second part. The amount of the first part is:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 days",
+        "b": "6 days",
+        "c": "7 days",
+        "d": "8 days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A alone can complete the work in 18 days while B alone in 15 days. B alone worked at it for 10 days and then left the work. In how many more days will A alone complete the remaining work?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8%",
+        "b": "6%",
+        "c": "5%",
+        "d": "4%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The simple interest on a sum for 5 years is one-fourth of the sum. The rate of interest per annum is:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "₹2,500",
+        "b": "₹2,562",
+        "c": "₹2,562.50",
+        "d": "₹2,425.25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What would be the compound interest on ₹25,000 for 2 years at 5% per annum?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "144 sq.m",
+        "b": "160 sq.m",
+        "c": "176 sq.m",
+        "d": "184 sq.m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A square park of side 20 m has a path 2 m wide running around it on the inside. The area of the path is:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2 cm",
+        "b": "3 cm",
+        "c": "4 cm",
+        "d": "6 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the volume of a sphere is 36πcm³, then its radius is:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "22680",
+        "b": "45360",
+        "c": "90720",
+        "d": "181440"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many distinct permutations can be made from the letters of the word ‘COMMITTEE’?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "371",
+        "b": "364",
+        "c": "385",
+        "d": "301"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From 7 men and 4 women, a committee of 6 is to be formed with at least 4 men. In how many ways can this be done?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20 min",
+        "b": "25 min",
+        "c": "30 min",
+        "d": "35 min"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pipe A can fill a tank in 10 minutes while pipe B can empty it in 15 minutes. If both the pipes are opened in that empty tank, the time taken to fill the tank is:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "11",
+        "b": "8",
+        "c": "6",
+        "d": "10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Observe the Histogram given below and answer the question that follows: How many students scored more than the average marks of the class?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4",
+        "b": "6",
+        "c": "8",
+        "d": "10 −3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If 3ⁿ=81, then the value of n is:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 39 11",
+        "c": "",
+        "d": " 2771"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of 9² is: 11",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "90ml and 80ml, respectively.",
+        "b": "80ml and 90ml, respectively.",
+        "c": "90ml each.",
+        "d": "80ml each."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An 800ml mixture contains water and milk in the ratio 8:2. How much more water and milk should be added in the same mixture to get them in the ratio 9:3?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1500 m.",
+        "b": "1700 m.",
+        "c": "1800 m.",
+        "d": "2100 m. 11"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A 300m long train is running at the speed of 60 km/hr. If it crosses a tunnel in 2 minutes, what is the length of the tunnel?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "123",
+        "b": "125",
+        "c": "132",
+        "d": "152"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many   are there in 25 ? 63",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 27 & 28): The following pie chart shows the expenditure of a family on",
+      "opts": {
+        "a": "30°",
+        "b": "65°",
+        "c": "90°",
+        "d": "180°"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The central angle subtended by the savings portion on the pie chart is approximately equal to:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1:6",
+        "b": "9:13",
+        "c": "4:13",
+        "d": "4:9"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the ratio of the expenditure on electricity to that on rent?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40%",
+        "b": "30%",
+        "c": "50%",
+        "d": "25%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There are 12 boys in a class of 20 students. A student is chosen from the class at random to be the class representative. What is the probability that the class representative is a girl?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12:12 PM",
+        "b": "12:18 PM",
+        "c": "11:48 AM",
+        "d": "11:42 AM"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A clock is set right at 6 AM. If the clock gains 12 minutes in 24 hours, what will be the right time when the clock indicates 12 Noon on the following day?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Violin",
+        "b": "Piano",
+        "c": "Tabla",
+        "d": "Trumpet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select the option that is related to the third term in the same way as the second term is related to the first term: String : Sitar :: Percussion : ?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tennis",
+        "b": "Kabaddi",
+        "c": "Chess",
+        "d": "Swimming"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the word which has the same relationship among the three given words: Cricket, Hockey, Football",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ii, iii, iv, i, v",
+        "b": "iii, ii, i, iv, v",
+        "c": "ii, iii, i, iv, v",
+        "d": "iii, iv, ii, i, v"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrange the following words related to flood management in a meaningful sequence and logical order. (i) Relief, (ii) Warning, (iii) Flood, (iv) Rescue, (v) Rehabilitation",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "480",
+        "b": "600",
+        "c": "720",
+        "d": "840"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the next term: 2, 6, 24, 120, ?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3",
+        "b": "1",
+        "c": "9",
+        "d": "8"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If ‘he will say’ is coded as ‘1 3 9’ and ‘say to him’ is coded as ‘3 5 2’ and ‘he may do’ is coded as ‘8 7 9’, then what will be the code of ‘will’?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "Four"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many meaningful English words can be made from ‘RTEA’ using each letter once?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "23",
+        "b": "24",
+        "c": "25",
+        "d": "26"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If ‘P’ means ‘×’, ‘Q’ means ‘÷’, ‘R’ means ‘+’, ‘S’ means ‘−’, then 18 Q 3 P 4 R 5 S 6 = ?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25",
+        "b": "26",
+        "c": "27",
+        "d": "28"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a row of boys, Liana is 12th from the left and 15th from the right. How many boys are there in the row?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30",
+        "b": "35",
+        "c": "40",
+        "d": "28"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the missing character: **9 16 25 ** **3 4 5 ** **12 20 ? **",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8",
+        "b": "7",
+        "c": "9",
+        "d": "10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many triangles are there in the given figure?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A piece of paper is folded and cut as shown below in the question figures. How would this paper look when unfolded?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Friday",
+        "b": "Saturday",
+        "c": "Sunday",
+        "d": "Monday"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If today is a Monday, after 75 days it will be:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the odd one out from the given figures:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "169",
+        "b": "196",
+        "c": "256",
+        "d": "289"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the following figure, what should replace the question mark?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "If both Conclusions I and II follow.",
+        "b": "If neither Conclusions I nor II follows.",
+        "c": "If only Conclusions I follows.",
+        "d": "If only Conclusions II follows."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Statements:All fruits are flowers. All seeds are fruits. Conclusions:I.  All flowers are fruits. II.  All seeds are flowers. Select the best option from the following:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Nunga",
+        "b": "Lawma",
+        "c": "Sanga",
+        "d": "Thanga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Six friends are sitting in a row. Puia sits exactly in between Sanga and Vula. Nunga sits exactly in between Lawma and Thanga. Five friends sit to the left of Sanga. Thanga is not sitting immediately next to Vula. Who sits second to the left of Vula?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "MUME",
+        "b": "MOME",
+        "c": "LOOE",
+        "d": "LOME"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a certain code language, LOVE is written as MUWI and GOOD is written as HUUE. How will KIND be written in the same language?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the letters of the word REASONING are arranged in alphabetical order, how many letters will remain in the same position?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Mother-in-law",
+        "b": "Son-in-law",
+        "c": "Son",
+        "d": "Grandson"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "T is the daughter of S whose wife is R. R is the daughter of P whose husband is Q. How is S related to P?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "tracing and recovering criminally obtained assets.",
+        "b": "locating  missing persons.",
+        "c": "seeking the location and arrest of persons wanted for prosecution.",
+        "d": "seeking information on unidentified bodies."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Recently, INTERPOL has published its first ever Silver Notice, it is associated with:",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "A global initiative aimed at improving groundwater recharge and conservation.",
+        "b": "A technology-driven project for realtime water quality monitoring and assessment.",
+        "c": "A sustainable desalination project for providing potable water in coastal regions.",
+        "d": "A subsea cable network to strengthen the scale and reliability of the world’s digital highways."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Project Waterworth’, sometimes mentioned in the news, is related to:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Provide career counselling and life skills education to empower tribal students studying in Eklavya Model Residential Schools (EMRSs)",
+        "b": "Investigate juvenile delinquency among tribal students in residential schools across India",
+        "c": "Promote sports and cultural exchange among tribal students at the national level",
+        "d": "Identify and train tribal youth for recruitment into government services"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The TALASH programme, recently launched by the Government of India in collaboration with UNICEF, aims to:",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Russia",
+        "b": "Bhutan",
+        "c": "Greenland",
+        "d": "Nepal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The “Yala Glacier”, recently declared as “dead”, is located in which one of the following countries?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements with reference to Subsidiary Alliance: 1.Under the Alliance, a British Resident was posted in the court of Indian rulers. 2.It was introduced by the Governor- General Warren Hastings. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Uparikas and Vishayapatis",
+        "b": "Bhogikas and Vishayapatis",
+        "c": "Amatyas and Uparikas",
+        "d": "Vishayapatis and Sannidhatas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the Gupta administration, the empire was divided into provinces, each under a governor, and further into districts under local heads. Which of the following terms correctly refer to the provincial governors and the district heads, respectively?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to the Anglo–Maratha Wars, consider the following statements: 1.The First Anglo–Maratha War ended with the Treaty of Salbai. 2.The Second Anglo–Maratha War took place during the tenure of Lord Wellesley. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: 1.Convectional rainfall occurs primarily in polar regions. 2.Orographic rainfall is caused by mountains forcing moist air to rise. Which of the above statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "The total heat stored in oceans and continents at any given time",
+        "b": "The balance between incoming solar radiation and outgoing terrestrial radiation.",
+        "c": "The total energy reflected by clouds and the Earth’s surface",
+        "d": "The heat absorbed by water vapour and greenhouse gases"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of Earth’s climate system, what does the term “Heat Budget” refer to?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is not correct regarding the Inter Tropical Convergence Zone (ITCZ)? 1.It is a high-pressure zone located at the equator where trade winds converge. 2.The seasonal migration of the ITCZ is one of the major factors responsible for the onset and withdrawal of the Indian monsoon. Select the correct answer using the code given below.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "2 only",
+        "b": "1 and 2 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to Fundamental Duties under the Constitution of India, consider the following statements: 1.These were not present in the original Constitution adopted on 26th January 1950. 2.They are applicable to all persons residing in the territory of India. 3.Parliament can enforce the Fundamental Duties by enacting a law. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "J.B. Kripalani",
+        "b": "K.M. Munshi",
+        "c": "Syed Mohammad Saadullah",
+        "d": "T.T. Krishanamachari"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following was not a member of the Drafting Committee of the Constituent Assembly?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding Gross National Product (GNP): 1.It measures the total monetary value of output produced by a country’s residents and foreigners in the domestic territory of the country. 2.It does not include intermediate goods and services. Which of the statements given above is/are not correct?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Life expectancy at birth",
+        "b": "Gross National Income per capita",
+        "c": "Mean years of schooling",
+        "d": "Infant mortality rate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The UNDP’s Human Development Index (HDI) does not include which of the following indicators?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Direct income support to farmers not linked to production",
+        "b": "Public investment in agricultural research and extension services",
+        "c": "Subsidies directly linked to production that are considered to distort trade and output",
+        "d": "Payments to farmers for adopting environmentally sustainable farming practices"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following subsidies is most likely to fall under the Amber Box category of the World Trade Organization (WTO)?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Species that have never been endangered",
+        "b": "Species that were previously endangered, but are no longer threatened",
+        "c": "Species that are in the least concern category",
+        "d": "Species that are in the data-deficient category"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Green pages in the Red Data Book of the International Union for Conservation of Nature denote:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "an interaction where both species are harmed.",
+        "b": "a relationship in which one species is inhibited while the other is unaffected.",
+        "c": "an association where both species benefit.",
+        "d": "a relationship in which one organism is benefited by direct utilization of another."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of ecology, Amensalism refers to:",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "The internal energy used by the man is zero.",
+        "b": "The work done by the man is zero.",
+        "c": "The force applied by the man is zero.",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A man is pushing hard against a rigid brick wall. In this context, which among the following is correct?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 2 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following are advantages of Lithium-ion batteries over conventional lead–acid batteries? 1.Light weight 2.High energy density 3.Lower cost Select the correct answer using the code given below:",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Lung infections",
+        "b": "Prostate cancer",
+        "c": "Thyroid disorders",
+        "d": "Kidney stones"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Radioisotope Iodine-131 is commonly used in the treatment of which of the following medical conditions?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Mim Kut",
+        "b": "Pawl Kut",
+        "c": "Chapchar Kut",
+        "d": "Hnahsin Kut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘Zupui Ni’ is associated with which Mizo festival?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "The British annexation of the Lushai Hills after the 1871–72 expedition",
+        "b": "The MNF-led armed uprising aimed at securing independence for Mizoram in 1966",
+        "c": "The formation of a Mizo battalion during the Second World War",
+        "d": "The aerial bombing of Aizawl by the Indian Air Force in March 1966."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Operation Jericho’, often mentioned in the history of Mizoram, refers to:",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Chhingpuii",
+        "b": "Chemtei",
+        "c": "Kungawrhi",
+        "d": "Chawngchilhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Mizo folklore, a female character is said to have miraculously emerged from a festering wound on a man’s thumb. Who was she?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "1871",
+        "b": "1890",
+        "c": "1898",
+        "d": "1947"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which year were the North and South Lushai Hills united into a single district with its headquarters at Aizawl?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "BC Plate",
+        "b": "Rose Bowl",
+        "c": "Estadio Azteca",
+        "d": "Metlife Studium"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the followintg Stadium became the first venue to host three FIFA World Cup opening matches?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "28 RD Blocks",
+        "b": "27 RD Blocks",
+        "c": "26 RD Blocks",
+        "d": "25 RD Blocks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The recently launched ‘Project Thaichhawninu’ will be implemented in:",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Press freedom",
+        "b": "Judicial equality between Indians and Europeans",
+        "c": "Land revenue reforms",
+        "d": "Expansion of railways"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Ilbert Bill controversy during British India was related to:",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Promote Indian language newspapers",
+        "b": "Restrict criticism of British policies in Indian-language newspapers",
+        "c": "Encourage literacy among peasants",
+        "d": "Regulate English education"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Vernacular Press Act of 1878 was enacted to:",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding the Cripps Mission: 1.It was sent during the Second World War. 2.It proposed Dominion Status after the war. 3.It was accepted unanimously by Congress and the Muslim League. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "1 only",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding cyclones: 1.Tropical cyclones derive energy from warm ocean waters. 2.Cyclones rotate clockwise in the Northern Hemisphere. 3.The eye of a cyclone is generally calm. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "1 and 3 only",
+        "b": "1 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: 1.The Equator passes through Sri Lanka. 2.The Tropic of Cancer passes through India. 3.The Prime Meridian passes through Greenwich. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Deccan Plateau",
+        "b": "Colorado Plateau",
+        "c": "Tibetan Plateau",
+        "d": "Iranian Plateau"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The highest plateau in the world is:",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "1 and 3 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding Money Bills: 1.A Money Bill can be introduced only in the Lok Sabha. 2.The Rajya Sabha can reject a Money Bill. 3.The Speaker certifies whether a Bill is a Money Bill. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Amend the Constitution",
+        "b": "Review the working of political parties",
+        "c": "Examine the constitutional validity of laws and executive actions",
+        "d": "Conduct elections"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term “Judicial Review” refers to the power of the judiciary to:",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Seventh Schedule",
+        "b": "Eighth Schedule",
+        "c": "Tenth Schedule",
+        "d": "Eleventh Schedule"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Schedule of the Constitution deals with anti-defection provisions?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "UPSC",
+        "b": "Finance Commission",
+        "c": "NITI Aayog",
+        "d": "Election Commission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is NOT a constitutional body?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding Self Help Groups (SHGs): 1.They function exclusively in urban areas. 2.They promote financial inclusion. 3.They are generally formed by small groups with common socio-economic objectives. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Ratio of exports to imports",
+        "b": "Ratio of dependent population to working-age population",
+        "c": "Ratio of urban to rural population",
+        "d": "Ratio of tax revenue to GDP"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The “dependency ratio” refers to:",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Kothari Commission Report",
+        "b": "Brundtland Report",
+        "c": "Sarkaria Commission Report",
+        "d": "Kelkar Committee Report"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sustainable development was most famously defined in which report?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Carbon monoxide and methane",
+        "b": "Sulphur dioxide and nitrogen oxides",
+        "c": "Ozone and helium",
+        "d": "Hydrogen and oxygen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following pollutants is mainly responsible for acid rain?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "1 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding biosphere reserves: 1.They aim to balance conservation and sustainable use. 2.They are recognized under UNESCO’s Man and Biosphere Programme. 3.Human activities are completely prohibited in all zones. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Rapid growth of forests",
+        "b": "Increase in biodiversity over time",
+        "c": "Progressive accumulation of toxic substances along the food chain",
+        "d": "Migration of species to higher altitudes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term “biomagnification” refers to:",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: 1.Wetlands act as natural flood buffers. 2.Coral bleaching is associated with rising sea temperatures. 3.Biodiversity enhances ecosystem resilience. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Cerebrum",
+        "b": "Medulla oblongata",
+        "c": "Cerebellum",
+        "d": "Hypothalamus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which part of the human brain is primarily responsible for maintaining balance and coordination?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Reflection",
+        "b": "Refraction",
+        "c": "Dispersion",
+        "d": "Scattering of light"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following phenomena explains the blue colour of the sky?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: 1.Human beings normally have 48 chromosomes. 2.RNA is involved in protein synthesis. 3.DNA carries hereditary information. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Thingvandek",
+        "b": "Thingvando",
+        "c": "Thingvantawng",
+        "d": "Thingvanchen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Mizo mythology, the tall tree standing at the centre of the Earth was called:",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Tlang lam",
+        "b": "Chawnglaizawn",
+        "c": "Cheraw",
+        "d": "Khuallam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Mizo dance was also known as Thingdim lam?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "Henry Walter George Cole",
+        "b": "John Shakespear",
+        "c": "Col. Granville Henry Loch",
+        "d": "N.E. Parry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which British administrator was nicknamed “Ram sem sap” owing to his practice of fixing the boundaries of the Mizo chiefs’ jurisdiction?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+      "opts": {
+        "a": "HS Dubey",
+        "b": "Hiteswar Saikia",
+        "c": "KV Krishna Rao",
+        "d": "Williamson A. Sangma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the 2nd Governor of Mizoram after it achieved Statehood?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q4 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q6 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q7 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q43 (p6, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      43
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2026/07/0ea2ba2901bddbcb05037352ee8c12ad/jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-series-b.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

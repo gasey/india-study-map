@@ -1,0 +1,93 @@
+{
+  "slug": "archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-8e5445d6",
+  "exam": "Sericulture Extension Officer (SEO) under Serculture Deptt August 2022",
+  "sitting": "2022",
+  "subject": "General English",
+  "source": "archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-8e5445d6.pdf",
+  "sourceSha256": "9ed3acd6126574aa716acf042d3901c4e5994197a67e50bc7f29b0a324c8caec",
+  "ocr": false,
+  "count": 3,
+  "questions": [
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Make both ends meet",
+        "b": "A burning question",
+        "c": "In a nutshell",
+        "d": "End in smoke"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences with the any five of the following idioms and phrases:(5×3=15)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Knowledge is power.",
+        "b": "We live in deeds not in years.",
+        "c": "Spare the rod and spoil the child.",
+        "d": "Paths of glory lead but to the grave."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expand any three of the following sentences:(3×5=15)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "What is the author’s opinion of people in present day civilization?(3)",
+        "b": "What according to the author is the impact of such excessively busy lifestyle?(3)",
+        "c": "How do children develop in such an environment of materialism?(3)",
+        "d": "What do parents eventually discover about their children?(3) (i)Rest (ii)well-informed (iii)characteristics"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the given passage carefully and answer the questions that follow.(15) People in the present day civilization have become highly materialistic.Money is the only God they know.Consequently, all their efforts, and most of their working hours, go into earning money and still more money. The life of a rich businessman, especially in the developed countries is extremely busy.Thousands have to be converted into lakhs and lakhs into crores.There is no end and no respite for him.Along with money, come the demands of their social life.To keep abreast of the times, they have to throw and attend big parties, meeting powerful and influential people to serve their business ends. One unfortunate result of their excessively busy and fast life is the total neglect of their children.The rich can provide their children with all that money can buy,rich food,expensive clothes,cars and every other imaginable comfort and luxury.But they simply cannot give them what they need most,parental care and affection on a personal level for which there is no substitute in the whole world.These children brought up almost entirely by hired attendants develop a twisted personality.Money ceases to attract them and they have known nothing beyond it.Their rich,busy and well-bred parents are one day shocked to find that their children have developed some of the traits of their own attendants which are,to say the least,considerably less than well-bred.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 2 option(s) ['a', 'b'] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2022/11/8e5445d67ee95ae45a37ddc31ac2670d/seo-under-sericulture-deptt-2022-general-english-i.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "archive-lang-2014-grade-v-of-mizoram-horticulture-service-2014-1-grade-v-of-mhs-2014-gener-7a67fcb3",
+  "exam": "Grade-V of Mizoram Horticulture Service-2014",
+  "sitting": "2014",
+  "subject": "General English",
+  "source": "archive-lang-2014-grade-v-of-mizoram-horticulture-service-2014-1-grade-v-of-mhs-2014-gener-7a67fcb3.pdf",
+  "sourceSha256": "0627d79502919638246f90c70d48a36fed88c3c0f38783854524be1808a855df",
+  "ocr": false,
+  "count": 2,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MLTP Act",
+        "b": "Horticulture - a blessing to a country’s economy.",
+        "c": "Transparency in administration."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Write an essay on **any one** of the topics given below:(25)",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To beat about the bush",
+        "b": "A bed of roses",
+        "c": "A child’s play",
+        "d": "Fair and square (e)Helter skelter(f)Rhyme or reason (g)Bear the brunt of(h)Follow suit (i)Call a spade a spade(j)In a tight corner"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make meaningful sentences with the following idioms and phrases:(10×1½=15)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q6 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      2,
+      3
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/7a67fcb348fe6f643b117851959d4cac/grade-v-of-mhs-2014-general-english-i.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

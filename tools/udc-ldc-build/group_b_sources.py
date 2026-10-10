@@ -250,11 +250,14 @@ GENERAL_PAPERS_2019 = [
 ]
 MPSC_ARCHIVE_2023_2025 = json.loads((HERE / 'mpsc-archive-2023-2025.json').read_text())
 MPSC_NG_ARCHIVE_2024_2027 = json.loads((HERE / 'mpsc-ng-2024-2027.json').read_text())
+MPSC_LANGUAGE_ARCHIVE = json.loads((HERE / 'mpsc-language-archive.json').read_text())
+GENERAL_PAPERS_LANGUAGE = [(r['slug'], r['exam'], r['sitting'], r['subject'], r['filename']) for r in MPSC_LANGUAGE_ARCHIVE]
+DIRECT_LANGUAGE_SLUGS = {row[0] for row in GENERAL_PAPERS_LANGUAGE}
 GENERAL_PAPERS_NG_2024_2027 = [(r['slug'], r['exam'], r['sitting'], r['subject'], r['filename']) for r in MPSC_NG_ARCHIVE_2024_2027]
 DIRECT_NG_ARCHIVE_SLUGS = {row[0] for row in GENERAL_PAPERS_NG_2024_2027}
 GENERAL_PAPERS_2023_2025 = [(r['slug'], r['exam'], r['sitting'], r['subject'], r['filename']) for r in MPSC_ARCHIVE_2023_2025]
-DIRECT_ARCHIVE_SLUGS = {row[0] for row in GENERAL_PAPERS_2023_2025} | DIRECT_NG_ARCHIVE_SLUGS
-ALL_GENERAL_PAPERS = GENERAL_PAPERS + GENERAL_PAPERS_2019 + GENERAL_PAPERS_2023_2025 + GENERAL_PAPERS_NG_2024_2027
+DIRECT_ARCHIVE_SLUGS = {row[0] for row in GENERAL_PAPERS_2023_2025} | DIRECT_NG_ARCHIVE_SLUGS | DIRECT_LANGUAGE_SLUGS
+ALL_GENERAL_PAPERS = GENERAL_PAPERS + GENERAL_PAPERS_2019 + GENERAL_PAPERS_2023_2025 + GENERAL_PAPERS_NG_2024_2027 + GENERAL_PAPERS_LANGUAGE
 DIRECT_2019_SLUGS = {row[0] for row in GENERAL_PAPERS_2019}
 
 # Marking scheme read from each 2019-2020 printed cover (marks per question and
@@ -383,6 +386,24 @@ SHARED_POSTS = {
      'Lab Technician', 'Medical Record Technician', 'Staff Nurse', 'Computer Operator',
  ],
 }
+LANGUAGE_SHARED_POSTS = {
+    row['slug']: list(dict.fromkeys(x['exam'] for x in row.get('aliases', [])))
+    for row in MPSC_LANGUAGE_ARCHIVE
+    if len({x['exam'] for x in row.get('aliases', [])}) > 1
+}
+LANGUAGE_ARCHIVE_BY_SLUG = {row['slug']: row for row in MPSC_LANGUAGE_ARCHIVE}
+LANGUAGE_WRITTEN_RE = re.compile(
+    r'\b(write an essay|write short essays|write a letter|comprehension|read (?:the |a |following |given )?(?:given )?passage|'
+    r'expand (?:the )?(?:idea|given passage)|make (?:meaningful )?sentences|fill in the blanks|'
+    r'insert (?:the |an? )?(?:appropriate )?(?:word|preposition|article)|complete the sentences|'
+    r'correct (?:the )?(?:grammatical )?errors|identify the error and rewrite|edit and reproduce|'
+    r'translate (?:the|into)|write a precis|write a précis|summari[sz]e)\b', re.I)
+
+
+def language_written_prompt(slug, question):
+    if slug not in DIRECT_LANGUAGE_SLUGS or 'English' not in LANGUAGE_ARCHIVE_BY_SLUG[slug]['subject']:
+        return False
+    return bool(LANGUAGE_WRITTEN_RE.search(question.get('q', '')))
 
 GENERAL_ARCHIVE_FOLDERS = {
  'inspector-stats-2026-p1': 'Direct_2025-2027', 'inspector-stats-2026-p2': 'Direct_2025-2027',
@@ -392,6 +413,8 @@ GENERAL_ARCHIVE_FOLDERS = {
 
 
 def source_path(slug, filename):
+    if slug in DIRECT_LANGUAGE_SLUGS:
+        return HERE / 'archive-language-sources' / filename
     if slug in DIRECT_2019_SLUGS:
         return ARCHIVE / 'Direct_2019-2020' / filename
     if slug in DIRECT_ARCHIVE_SLUGS:
@@ -479,6 +502,10 @@ def build_additional():
     spec.loader.exec_module(taxonomy)
     verified = json.loads((HERE / 'verified-general-keys.json').read_text()) if (HERE / 'verified-general-keys.json').exists() else {}
     repairs = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']
+    language_repairs = json.loads((HERE / 'language-written-repairs.json').read_text())['papers']
+    jao_b_review = json.loads((HERE / 'jao-2026-series-b-reviewed.json').read_text())
+    jao_2026 = json.loads((ROOT / 'tools' / 'practice-hub-build' / 'staged' / 'jao-2026-p2.json').read_text())
+    jao_by_question = {normalized(q['q']): q for q in jao_2026['questions']}
     assert set(repairs) <= {row[0] for row in ALL_GENERAL_PAPERS}, 'Orphan source-reviewed repair paper'
     papers, questions, meta, library = [], [], {}, []
     legacy = legacy_answers()
@@ -492,6 +519,8 @@ def build_additional():
                  'subject': subject, 'sourceHref': href, 'keyHref': None, 'imported': False}
         if slug in SHARED_POSTS:
             entry['sharedPosts'] = SHARED_POSTS[slug]
+        elif slug in LANGUAGE_SHARED_POSTS:
+            entry['sharedPosts'] = LANGUAGE_SHARED_POSTS[slug]
         if slug.startswith('aao-2024-'):
             entry['keyHref'] = '/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf'
             entry['correctionHref'] = '/papers/group-b/keys/corrigendum-of-final-answer-key-for-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf'
@@ -526,10 +555,48 @@ def build_additional():
             continue
         extracted = json.loads(extraction_path.read_text())
         assert extracted.get('sourceSha256') == hashlib.sha256(source_path(slug, file).read_bytes()).hexdigest(), f'Re-extract changed source: {slug}'
+        jao_manual = {}
+        if slug == jao_b_review['slug']:
+            assert extracted['sourceSha256'] == jao_b_review['sourceSha256'], 'Stale JAO Series B review'
+            jao_manual = {row['n']: row for row in jao_b_review['questions']}
+            original = {row['n']: row for row in extracted['questions']}
+            assert 8 in original, 'Expected the merged first-question extraction to be present'
+            # The parser merged printed Q1 and its directions/options into its
+            # Q8 record. Replace it with the PDF-checked Q1 and restore Q2-Q8.
+            restored = []
+            for number, row in original.items():
+                if number == 8:
+                    continue
+                if number in jao_manual:
+                    row = {**row, 'q': jao_manual[number]['q'], 'opts': jao_manual[number]['opts']}
+                restored.append(row)
+            for number in range(1, 9):
+                if number in jao_manual:
+                    row = jao_manual[number]
+                    restored.append({'n': number, 'page': row['page'], 'part': None,
+                                     'conventional': False, 'direction': None, 'opts': row['opts'],
+                                     'marked': None, 'cov': {k: 0.0 for k in row['opts']},
+                                     'ambiguous': [], 'q': row['q'], 'multi': False})
+            # Q43 is absent from text extraction but legible on the scanned page.
+            if 43 in jao_manual:
+                row = jao_manual[43]
+                restored.append({'n': 43, 'page': row['page'], 'part': None,
+                                 'conventional': False, 'direction': None, 'opts': row['opts'],
+                                 'marked': None, 'cov': {k: 0.0 for k in row['opts']},
+                                 'ambiguous': [], 'q': row['q'], 'multi': False})
+            extracted['questions'] = sorted(restored, key=lambda row: row['n'])
+        manual_language = language_repairs.get(slug)
+        if manual_language:
+            assert manual_language.get('sourceSha256') == extracted['sourceSha256'], 'Stale manual language transcription'
+            assert manual_language.get('sourcePage') and manual_language.get('reviewedOn'), 'Manual language transcription needs provenance'
+            for row in manual_language['questions']:
+                assert row['n'] > 0 and row.get('q', '').strip() and row.get('page', 0) > 0, 'Invalid manual written prompt'
         extracted, reviewed_numbers = reviewed_extraction(extracted, repairs.get(slug))
         reviewed_written = repairs.get(slug, {}).get('written') or {}
-        has_written_section = bool(reviewed_written or extracted['written'])
-        if not extracted['questions'] and not extracted['written'] and not reviewed_written:
+        language_written_numbers = {q['n'] for q in extracted['questions'] if language_written_prompt(slug, q)}
+        manual_language_rows = manual_language.get('questions', []) if manual_language else []
+        has_written_section = bool(reviewed_written or extracted['written'] or language_written_numbers or manual_language_rows)
+        if not extracted['questions'] and not extracted['written'] and not reviewed_written and not manual_language_rows:
             continue
         paper_id = entry['id']
         key = verified.get(slug)
@@ -548,7 +615,11 @@ def build_additional():
         entry['reviewRequired'] = not complete_source_review
         if slug == 'inspector-stats-2026-p1' and repairs.get(slug, {}).get('derivedAnswers'):
             entry['expectedMcq'] = 6
-        papers.append({'id': paper_id, 'examType': 'Direct_NG' if slug in DIRECT_NG_ARCHIVE_SLUGS else 'Direct' if slug in DIRECT_2019_SLUGS or slug in DIRECT_ARCHIVE_SLUGS or slug in SHARED_POSTS or slug.startswith(('si-police-ub-2018-', 'horticulture-demonstrator-2018-', 'si-fcs-2018-', 'programmer-phe-2018-', 'sericulture-seo-2018-', 'station-officer-2018-', 'mes-pwd-2018-', 'mes-power-2018-', 'veterinary-officer-2018-', 'je-iwr-2018-', 'assistant-jailor-2018-', 'asi-home-2018-', 'assistant-grade-2018-', 'acf-2018-', 'ato-2017-', 'feo-2017-', 'mhs-grade-v-2017-', 'labtech-hfw-2017-', 'mcon-lecturer-2017-', 'assistant-prof-geography-2017-', 'ada-2014-', 'mes-phe-2014-', 'mes-pe-2012-', 'asce-2021-', 'vety-mah-2021-')) else 'Direct_NG',
+        if slug in DIRECT_LANGUAGE_SLUGS and extracted['questions']:
+            printed_mcq_numbers = [q['n'] for q in extracted['questions'] if q.get('part') != 'A']
+            if printed_mcq_numbers:
+                entry['expectedMcq'] = max(printed_mcq_numbers)
+        papers.append({'id': paper_id, 'examType': 'Direct_NG' if slug in DIRECT_NG_ARCHIVE_SLUGS else 'Direct' if slug in DIRECT_2019_SLUGS or slug in DIRECT_ARCHIVE_SLUGS or slug in SHARED_POSTS or slug in DIRECT_LANGUAGE_SLUGS or slug.startswith(('si-police-ub-2018-', 'horticulture-demonstrator-2018-', 'si-fcs-2018-', 'programmer-phe-2018-', 'sericulture-seo-2018-', 'station-officer-2018-', 'mes-pwd-2018-', 'mes-power-2018-', 'veterinary-officer-2018-', 'je-iwr-2018-', 'assistant-jailor-2018-', 'asi-home-2018-', 'assistant-grade-2018-', 'acf-2018-', 'ato-2017-', 'feo-2017-', 'mhs-grade-v-2017-', 'labtech-hfw-2017-', 'mcon-lecturer-2017-', 'assistant-prof-geography-2017-', 'ada-2014-', 'mes-phe-2014-', 'mes-pe-2012-', 'asce-2021-', 'vety-mah-2021-')) else 'Direct_NG',
                        'examName': exam, 'post': ' / '.join(SHARED_POSTS[slug]) + ' under MIMER' if slug in SHARED_POSTS else exam,
                        'paperNumber': 'Paper-I' if slug.endswith('-p1') else 'Paper-II' if slug.endswith('-p2') else 'Paper-III' if slug.endswith('-p3') else subject,
                        'paperSubject': subject, 'year': int(sitting[-4:]), 'sourceFile': href})
@@ -563,6 +634,14 @@ def build_additional():
                               **GENERAL_PAPERS_2019_META[slug]}
             if part_questions:
                 entry['expectedMcq'] = max(q['n'] for q in part_questions)
+        if slug == jao_b_review['slug']:
+            meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
+                             'negativeMarking': True, 'penaltyFraction': 1/3}
+        if slug == 'archive-lang-2026-assistant-controller-of-mines-august-2026-assistant-controller-of-mines-cd36d7cc' and repairs.get(slug, {}).get('derivedAnswers'):
+            # Printed cover: 3 hours, 100 marks. Part B has 66 one-mark MCQs
+            # and the instructions specify a one-third penalty for wrong answers.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': True, 'penaltyFraction': 1/3}
         # Only the native key-backed sections whose full numbering is verified
         # enter scoring. OCR and malformed options stay visible for review.
         complete_native = bool(key) and not extracted['ocr'] and {q['n'] for q in part_questions} == {int(n) for n in key['answers']}
@@ -705,6 +784,15 @@ def build_additional():
             meta[paper_id] = {'marksPerQuestion': 2 if slug == 'si-police-2026-p2' else 1,
                              'durationMinutes': 180 if 'English' in subject else 120, 'negativeMarking': True, 'penaltyFraction': 1/3}
         for q in extracted['questions']:
+            if q['n'] in language_written_numbers:
+                prompt = q['q'] + ('\n' + '\n'.join(f"{k}. {v}" for k, v in q['opts'].items()) if q.get('opts') else '')
+                questions.append({'id': paper_id + '-written-' + str(q['n']), 'paperId': paper_id, 'type': 'descriptive',
+                                  'questionNumber': str(q['n']), 'subject': 'english', 'studySection': 'english',
+                                  'topic': 'written', 'topicLabel': 'General English · written', 'difficulty': 'medium',
+                                  'question': prompt, 'explanation': '', 'sourceReview': True,
+                                  'sourceNote': 'Written response prompt. Check punctuation, emphasis, blanks and subpart boundaries against the official PDF.',
+                                  'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]), 'sourceHref': href + '#page=' + str(q['page'])})
+                continue
             if 'English' in subject and q.get('part') == 'A' and slug != 'hfw-2026-p1':
                 questions.append({'id': paper_id + '-conventional-' + str(q['n']), 'paperId': paper_id, 'type': 'descriptive',
                                   'questionNumber': 'A' + str(q['n']), 'subject': 'english', 'studySection': 'english', 'topic': 'written',
@@ -718,13 +806,46 @@ def build_additional():
             independent = matching[0] if len(matching) == 1 else -1
             conventional = ('English' in subject and q.get('part') == 'A'
                             and slug != 'hfw-2026-p1')
+            language_written = language_written_prompt(slug, q)
+            if language_written:
+                prompt = q['q'] + ('\n' + '\n'.join(f"{k}. {v}" for k, v in q['opts'].items()) if q.get('opts') else '')
+                questions.append({'id': paper_id + '-written-' + str(q['n']), 'paperId': paper_id, 'type': 'descriptive',
+                                  'questionNumber': str(q['n']), 'subject': 'english', 'studySection': 'english',
+                                  'topic': 'written', 'topicLabel': 'General English · written', 'difficulty': 'medium',
+                                  'question': prompt, 'explanation': '', 'sourceReview': True,
+                                  'sourceNote': 'Written response prompt. Check punctuation, emphasis, blanks and subpart boundaries against the official PDF.',
+                                  'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]), 'sourceHref': href + '#page=' + str(q['page'])})
+                continue
             cell = key['answers'].get(str(q['n']), 'unmatched') if key and not conventional else 'unmatched'
             key_ref = key.get('correctionRefs', {}).get(str(q['n']), key['href']) if key else None
             key_choices = ['ABCD'.index(x) for x in cell.split('&')] if isinstance(cell, str) and cell != 'unmatched' else []
             derived = (repairs.get(slug, {}).get('derivedAnswers') or {}).get(str(q['n']))
+            jao_peer_candidate = None
+            if slug == jao_b_review['slug']:
+                manual_solution = jao_manual.get(q['n'])
+                if manual_solution:
+                    q['unscored'] = bool(manual_solution.get('unscored'))
+                    if manual_solution.get('answerIndex', -1) >= 0:
+                        derived = {'answerIndex': manual_solution['answerIndex'],
+                                   'explanation': manual_solution['explanation']}
+                    elif manual_solution.get('explanation'):
+                        q['explanation'] = manual_solution['explanation']
+                        q['reviewNote'] = manual_solution['explanation']
+                elif 1 <= q['n'] <= 100:
+                    peer = jao_by_question.get(normalized(q['q']))
+                    if peer and {normalized(v) for v in peer['opts'].values()} == {normalized(v) for v in opts}:
+                        peer_answer = peer.get('answer')
+                        peer_answer = peer_answer.upper() if isinstance(peer_answer, str) else None
+                        jao_peer_candidate = ('ABCD'.index(peer_answer)
+                                              if isinstance(peer_answer, str) and peer_answer in 'ABCD' else None)
+                        if jao_peer_candidate is not None:
+                            derived = {'answerIndex': jao_peer_candidate,
+                                       'explanation': peer.get('why') or 'Independently matched to the Series A solved booklet.',
+                                       'answerConfidence': 'medium'}
             layout = bool(re.search(r'\b(figure|diagram|matrix|List\s*[-–]?\s*I|underlined)\b', q['q'] + ' ' + (q.get('direction') or ''), re.I) and '**' not in q['q'])
             bad_text = bool(re.search(r'[\ue000-\uf8ff�]', q['q'])) or any(not option.strip() or len(option) > 600 or re.search(r'[\ue000-\uf8ff�]', option) for option in opts)
-            text_reviewed = q['n'] in reviewed_numbers
+            text_reviewed = (q['n'] in reviewed_numbers or
+                             (slug == jao_b_review['slug'] and 1 <= q['n'] <= 100 and q['n'] != 40))
             source_review = ((extracted['ocr'] or not complete_native or layout) and not text_reviewed) or bad_text or (len(key_choices) != 1 and not derived) or bool(q.get('unscored'))
             answer = key_choices[0] if key_choices and not source_review else derived['answerIndex'] if derived and not source_review else -1
             note = 'Text extraction needs comparison with the printed paper; candidate answers are not scored.' if source_review else ''
@@ -739,17 +860,48 @@ def build_additional():
             if independent >= 0 and not q.get('unscored') and not (derived and text_reviewed):
                 note += ' The independent candidate came from the legacy inferred bank and still needs reasoning review.'
             section = 'english' if 'English' in subject else 'arithmetic' if subject in ('Arithmetic', 'Mathematics') else 'gk'
+            topic_id, topic_label = 'general', subject
+            solution_explanation = q.get('explanation', '')
+            if slug in DIRECT_LANGUAGE_SLUGS and 'Arithmetic & Reasoning' in subject:
+                peer = jao_by_question.get(normalized(q['q']))
+                if peer:
+                    peer_options = {normalized(v) for v in peer['opts'].values()}
+                    source_options = {normalized(v) for v in opts}
+                    if peer_options == source_options:
+                        group, topic_label, _known_topic = taxonomy.resolve(peer.get('topic') or '')
+                        topic_id = peer.get('topic') or 'general'
+                        section = 'arithmetic' if group == 'aptitude' else 'reasoning' if group == 'reasoning' else 'gk'
+                        solution_explanation = peer.get('why') or solution_explanation
+            if slug == jao_b_review['slug']:
+                # Series B is partitioned on the printed scan: Q1–30 arithmetic,
+                # Q31–45 reasoning and Q46–100 general knowledge. The classifier
+                # must not leave manually repaired items in the broad GK bucket.
+                if q['n'] <= 30:
+                    section = 'arithmetic'
+                elif q['n'] <= 45:
+                    section = 'reasoning'
+                    if topic_id == 'general':
+                        topic_label = 'General Intelligence & Reasoning'
+                else:
+                    section = 'gk'
+                manual_solution = jao_manual.get(q['n'])
+                if manual_solution:
+                    topic_id = manual_solution.get('topic', topic_id)
+                    topic_label = manual_solution.get('topicLabel', topic_label)
             if slug == 'inspector-stats-2026-p2' and q['n'] > 50:
                 section = 'arithmetic'
             questions.append({'id': paper_id + '-' + (q.get('part') or 'Q') + str(q['n']), 'paperId': paper_id,
                               'questionNumber': (q.get('part') or '') + str(q['n']), 'subject': section,
-                              'studySection': section, 'topic': 'general', 'topicLabel': subject, 'difficulty': 'medium',
+                              'studySection': section, 'topic': topic_id, 'topicLabel': topic_label, 'difficulty': 'medium',
                               'question': q['q'], 'options': opts, 'answerIndex': answer,
-                              'explanation': q.get('explanation', ''),
+                              'explanation': solution_explanation,
                               'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]), 'sourceHref': href + '#page=' + str(q['page']),
                               **({'independentAnswerIndex': independent, 'independentAnswerSource': 'legacy-inferred', 'answerConfidence': 'low'} if independent >= 0 and not (derived and text_reviewed) else {}),
                               **({'officialAnswerCandidates': key_choices, 'answerSource': 'official', 'answerKeyRef': key_ref} if key_choices else {}),
-                              **({'answerSource': 'derived', 'answerConfidence': 'high', 'explanation': derived['explanation']} if derived and answer >= 0 else {}),
+                              **({'answerSource': 'derived', 'answerConfidence': derived.get('answerConfidence', 'high'), 'explanation': derived['explanation']} if derived and answer >= 0 else {}),
+                              **({'independentAnswerIndex': jao_peer_candidate,
+                                  'independentAnswerSource': 'solved',
+                                  'answerConfidence': 'medium'} if jao_peer_candidate is not None else {}),
                               **({'imagePath': q['imagePath']} if q.get('imagePath') else {}),
                               **({'answerSource': 'official', 'answerKeyRef': key_ref, 'compensated': True} if cell is None else {}),
                               **({'sourceReview': True, 'paperExamExcluded': True} if source_review else {}),
@@ -781,6 +933,13 @@ def build_additional():
                               'explanation': written_review.get('explanation', '') if written_review else '',
                               'sourceReview': not bool(written_review), 'sourceNote': '' if written_review else 'Written response and transcription awaiting source review.',
                               'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]), 'sourceHref': href + '#page=' + str(written_review.get('page', q['page']) if written_review else q['page'])})
+        for row in manual_language_rows:
+            questions.append({'id': paper_id + '-written-' + str(row['n']), 'paperId': paper_id, 'type': 'descriptive',
+                              'questionNumber': str(row['n']), 'subject': 'english', 'studySection': 'english',
+                              'topic': 'written', 'topicLabel': 'General English · written', 'difficulty': 'medium',
+                              'question': row['q'], 'explanation': '', 'sourceReview': True,
+                              'sourceNote': 'Manual text-layer transcription; compare punctuation, emphasis and line layout with the official PDF. No answer key attached.',
+                              'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]), 'sourceHref': href + '#page=' + str(row['page'])})
     for hub_id, (folder, file) in HUB_FILES.items():
         d = json.loads((ROOT / 'tools' / 'practice-hub-build' / 'staged' / (hub_id + '.json')).read_text())
         slug = 'mpsc-group-b-' + hub_id

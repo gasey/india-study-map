@@ -1,0 +1,393 @@
+{
+  "slug": "archive-lang-2022-cao-question-paper-2022-general-english-paper-i-cao-pdf-80d325dd",
+  "exam": "CAO Question Paper 2022",
+  "sitting": "2022",
+  "subject": "General English",
+  "source": "archive-lang-2022-cao-question-paper-2022-general-english-paper-i-cao-pdf-80d325dd.pdf",
+  "sourceSha256": "4e8c54c9b4551b88336d068fc9eab335c38b76b84b2607944240035096cbd302",
+  "ocr": false,
+  "count": 16,
+  "questions": [
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question No. 4 & 17) : Choose the correct alternative which best expresses the meaning",
+      "opts": {
+        "a": "seeking the help",
+        "b": "picking up a fight",
+        "c": "getting a right path",
+        "d": "giving unwanted advice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He has a habit of getting into a row over trivial matters.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To listen eagerly",
+        "b": "To give false alarm",
+        "c": "To turn pale",
+        "d": "To keep off starvation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The man residing at the corner of the street loves to cry wolf.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "made me think of the future",
+        "b": "made me remember my past",
+        "c": "made my words or actions ineffective",
+        "d": "made me depressed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His speech has taken the wind out of my sails.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "in a compact disc",
+        "b": "not accessible",
+        "c": "on her typewriter",
+        "d": "readily available"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The secretary had the information at her fingertips.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "got down",
+        "b": "walked fast",
+        "c": "stood up",
+        "d": "was firm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On the issue of marriage, Sarita put her foot down.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "being unfriendly and critical",
+        "b": "trying to cool the situation down and then raking it up again",
+        "c": "being good and bad alternately",
+        "d": "being friendly at one moment and unfriendly the next"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She keeps blowing hot and cold and therefore, nobody can befriend her for long.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "harried",
+        "b": "quick",
+        "c": "eager",
+        "d": "alert"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cops were on their toes throughout the day.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "live within his income",
+        "b": "improve his tailoring abilities",
+        "c": "overcome his problems",
+        "d": "wear modest clothes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Anand has not learnt to cut his coat according to his cloth.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "made one stubborn",
+        "b": "had little success",
+        "c": "was counterproductive",
+        "d": "had a strong impact"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My sincere advice to my maidservant fell on stony ground.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "lifeless",
+        "b": "uninvolved",
+        "c": "gloomy",
+        "d": "sober"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was out of spirits for a few days after his defeat.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "be embarrassed",
+        "b": "shave your head",
+        "c": "get angry",
+        "d": "get a headache"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do not lose your head in public.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "spoiled my day",
+        "b": "made me resentful",
+        "c": "gave me great pleasure",
+        "d": "displeased me"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He made my day by telling me how important I was to him.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "dissociated themselves from",
+        "b": "seemed eager to continue",
+        "c": "waited for a response to",
+        "d": "claimed credit for"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Once the case reached the court, the police washed their hands off it.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "comb her hair",
+        "b": "work till late",
+        "c": "really enjoy",
+        "d": "wash her hair"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regardless of what her parents said, she wanted to let her hair down that night.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question No. 19 & 20) : Read and comprehend the given passages. Answer the questions",
+      "opts": {
+        "a": "An atom bomb was dropped on Nagasaki on 9th August 1945.",
+        "b": "Reiko Yanada is an atomic bomb survivor who witnessed the dropping of the first atom bomb.",
+        "c": "Immediately after the nuclear blasts, one million died on the spot.",
+        "d": "The government has agreed to fulfill the demand of the sufferers. for a fair deal in life."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "State whether the following sentences are True or False.(7×1=7)",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Where was the first atomic bomb dropped? How is it affecting people even today?",
+        "b": "Who left Hiroshima and Nagasaki after the disaster? What is their reaction to the government’s approach to the survivors?",
+        "c": "What compelled Japan to surrender to the allied forces? How did the Pacific war come to an end?"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Answer each of the following questions in about 30-40 words:(3×3=9)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q18 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      18
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2023/04/80d325dd856c1ed7a91c52e121abed4b/general-english-paper-i-cao.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

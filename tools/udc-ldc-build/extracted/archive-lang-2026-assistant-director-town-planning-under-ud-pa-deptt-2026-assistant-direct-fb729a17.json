@@ -1,0 +1,1569 @@
+{
+  "slug": "archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
+  "exam": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+  "sitting": "2026",
+  "subject": "General English",
+  "source": "archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf",
+  "sourceSha256": "5c23b4539d1ff0d546eb053103e6a417ffe2ddc9e4f449165a5e74516dd71c85",
+  "ocr": false,
+  "count": 66,
+  "questions": [
+    {
+      "n": 1,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rain was a **blessed** relief after two months of scorching heat.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Preposition",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I believe he has learnt his lesson **through** experience.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Verb",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He retained an enduring **love** for football till his death last year.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Verb",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is fascinated by ancient Roman and Greek **culture**.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Noun",
+        "b": "Preposition",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I hope to complete this by **tomorrow**.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Preposition",
+        "b": "Adjective",
+        "c": "Conjunction",
+        "d": "Interjection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Although** she was tired, she finished the race.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Adverb",
+        "b": "Adjective",
+        "c": "Noun",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A **thorough** investigation of the witness revealed several facts.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Preposition",
+        "b": "Verb",
+        "c": "Pronoun",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“You **shall** not pass,” said the wizard.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Adverb",
+        "c": "Preposition",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Since** its raining, we’ll stay inside.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Noun",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The flowers **smell** strange.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:",
+      "opts": {
+        "a": "around",
+        "b": "on",
+        "c": "over",
+        "d": "at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We stayed there _____ the weekend.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:",
+      "opts": {
+        "a": "by",
+        "b": "at",
+        "c": "with",
+        "d": "over"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I am happy _____ the results you have shown me.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:",
+      "opts": {
+        "a": "within",
+        "b": "over",
+        "c": "by",
+        "d": "in"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I expect you to finish this project _____ this week itself.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:",
+      "opts": {
+        "a": "over",
+        "b": "beside",
+        "c": "below",
+        "d": "beneath"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She hid her insecurities _____ a calm exterior.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:",
+      "opts": {
+        "a": "within",
+        "b": "among",
+        "c": "by",
+        "d": "besides"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You’re safe, you’re _____ friends now.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:",
+      "opts": {
+        "a": "about",
+        "b": "on",
+        "c": "at",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The teacher was angry _____ the students for their misbehaviour.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:",
+      "opts": {
+        "a": "at",
+        "b": "on",
+        "c": "in",
+        "d": "by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The book was published _____ the end of the 19th century.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:",
+      "opts": {
+        "a": "with",
+        "b": "from",
+        "c": "of",
+        "d": "by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She was trembling _____ fear when she heard the news.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:",
+      "opts": {
+        "a": "in",
+        "b": "on",
+        "c": "for",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She has no interest _____ politics.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:",
+      "opts": {
+        "a": "of",
+        "b": "in",
+        "c": "on",
+        "d": "for"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She takes pride _____ her achievements.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:",
+      "opts": {
+        "a": "unless",
+        "b": "lest",
+        "c": "or",
+        "d": "because"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She whispered _____ she wakes the baby.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:",
+      "opts": {
+        "a": "Though",
+        "b": "As",
+        "c": "Since",
+        "d": "Then"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_____ he was angry, he kept smiling.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:",
+      "opts": {
+        "a": "with",
+        "b": "by dint of",
+        "c": "or",
+        "d": "as well as"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She plays the guitar _____ the violin.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:",
+      "opts": {
+        "a": "Since",
+        "b": "While",
+        "c": "Because",
+        "d": "As"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_____ I like tea, she prefers coffee.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:",
+      "opts": {
+        "a": "then",
+        "b": "yet",
+        "c": "hence",
+        "d": "although"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She performed well; _____ she got the job.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:",
+      "opts": {
+        "a": "while",
+        "b": "whereas",
+        "c": "because",
+        "d": "even if"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She left _____ she was tired.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:",
+      "opts": {
+        "a": "wherein",
+        "b": "although",
+        "c": "because",
+        "d": "until"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She attended the meeting, carefully noting the points _____ disagreements arose.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:",
+      "opts": {
+        "a": "when",
+        "b": "then",
+        "c": "than",
+        "d": "while"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "No sooner did the bell ring _____ the students rushed out.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:",
+      "opts": {
+        "a": "before",
+        "b": "till",
+        "c": "unless",
+        "d": "while"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the traffic signal is red, cars must stop _____ it turns green.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:",
+      "opts": {
+        "a": "from which",
+        "b": "where",
+        "c": "thence",
+        "d": "whence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He returned to the town, _____ he had come years ago.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 31 - 35) Choose the correct form of the verb given in the bracket to complete",
+      "opts": {
+        "a": "argued",
+        "b": "had been arguing",
+        "c": "have been arguing",
+        "d": "were arguing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They _____ (argue) for hours before the manager intervened.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 31 - 35) Choose the correct form of the verb given in the bracket to complete",
+      "opts": {
+        "a": "will teach",
+        "b": "will have taught",
+        "c": "will have been teaching",
+        "d": "am teaching"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "By 2027, I _____ (teach) at this college for 15 years.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 31 - 35) Choose the correct form of the verb given in the bracket to complete",
+      "opts": {
+        "a": "finished",
+        "b": "had finished",
+        "c": "have finished",
+        "d": "was finishing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I _____ (finish) my report before the manager asked me to submit it.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 31 - 35) Choose the correct form of the verb given in the bracket to complete",
+      "opts": {
+        "a": "has read",
+        "b": "has been reading",
+        "c": "read",
+        "d": "had read"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She _____ (read) five books this month.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 31 - 35) Choose the correct form of the verb given in the bracket to complete",
+      "opts": {
+        "a": "have seen",
+        "b": "saw",
+        "c": "see",
+        "d": "had seen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I _____ (see) that movie last week.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 36 - 40) Out of the four alternatives, choose the one which can be substituted",
+      "opts": {
+        "a": "Ascetic",
+        "b": "Miser",
+        "c": "Epicurean",
+        "d": "Hedonist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who hoard money.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 36 - 40) Out of the four alternatives, choose the one which can be substituted",
+      "opts": {
+        "a": "Somnambulist",
+        "b": "Insomniac",
+        "c": "Hypnotist",
+        "d": "Sleepwalker"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who walks in their sleep.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 36 - 40) Out of the four alternatives, choose the one which can be substituted",
+      "opts": {
+        "a": "Dipsomaniac",
+        "b": "Teetotaller",
+        "c": "Inebriate",
+        "d": "Tippler"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who completely abstains from alcohol is called a:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 36 - 40) Out of the four alternatives, choose the one which can be substituted",
+      "opts": {
+        "a": "Uxorious",
+        "b": "Philanderer",
+        "c": "Bigamist",
+        "d": "Misanthrope"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A man who is excessively devoted to his wife is called:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 36 - 40) Out of the four alternatives, choose the one which can be substituted",
+      "opts": {
+        "a": "Numismatist",
+        "b": "Philatelist",
+        "c": "Collector",
+        "d": "Antiquarian"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who loves or collects coins.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questoin Nos. 41 - 45): Identify the phrase or clause of the underlined words:",
+      "opts": {
+        "a": "Adverb clause",
+        "b": "Noun phrase",
+        "c": "Adjective clause",
+        "d": "Adverb phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**The book that I borrowed** is very interesting.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questoin Nos. 41 - 45): Identify the phrase or clause of the underlined words:",
+      "opts": {
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective phrase",
+        "d": "Noun phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Her greatest regret was **that she had never said goodbye**.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questoin Nos. 41 - 45): Identify the phrase or clause of the underlined words:",
+      "opts": {
+        "a": "Adjective phrase",
+        "b": "Noun clause",
+        "c": "Adverb phrase",
+        "d": "Noun phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I remember with fondness when we travelled **across the country**.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questoin Nos. 41 - 45): Identify the phrase or clause of the underlined words:",
+      "opts": {
+        "a": "Noun phrase",
+        "b": "Adjective clause",
+        "c": "Adverb clause",
+        "d": "Adverb phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I was asked to read **my favourite book**.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questoin Nos. 41 - 45): Identify the phrase or clause of the underlined words:",
+      "opts": {
+        "a": "Adjective phrase",
+        "b": "Adjective clause",
+        "c": "Adverb clause",
+        "d": "Noun clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She married the man **whom she met in college**.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 46 - 50): Choose the correct meaning of the following idioms and phrases:",
+      "opts": {
+        "a": "to be knowledgeable about current trends",
+        "b": "to be in a state of total confusion or disarray",
+        "c": "to be in an orderly manner",
+        "d": "to be on the verge of completion of something"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "at sixes and sevens",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 46 - 50): Choose the correct meaning of the following idioms and phrases:",
+      "opts": {
+        "a": "to acquire initial practice or experience of a particular activity",
+        "b": "to deliberately injure oneself to spite someone",
+        "c": "to be free from a previously mandatory activity",
+        "d": "to enter a rivalry or a competition with someone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "to cut one’s teeth",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 46 - 50): Choose the correct meaning of the following idioms and phrases:",
+      "opts": {
+        "a": "to acquire complete knowledge of a person or a thing",
+        "b": "to support someone who has the least chance of winning",
+        "c": "to show complete disregard towards one’s inferiors",
+        "d": "to completely dismantle something down to its foundation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "rooting for the underdog",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 46 - 50): Choose the correct meaning of the following idioms and phrases:",
+      "opts": {
+        "a": "to completely retract what one has said since one has been proven wrong",
+        "b": "to make a living out of one’s skill in speaking",
+        "c": "to completely sabotage one’s chances through miscommunication",
+        "d": "to patch up differences after an argument"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "to eat one’s words",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 46 - 50): Choose the correct meaning of the following idioms and phrases:",
+      "opts": {
+        "a": "to be clear about a decision",
+        "b": "to incessantly long for something always out of one’s reach",
+        "c": "to live up to someone’s expectations, especially in one’s profession",
+        "d": "to be undecided about something"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "on the fence",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 51 - 54): Choose the correct meaning and spelling:",
+      "opts": {
+        "a": "Itenary",
+        "b": "Itemary",
+        "c": "Itemerary",
+        "d": "Itinerary"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A plan of a journey, including the route and the places that you will visit",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 51 - 54): Choose the correct meaning and spelling:",
+      "opts": {
+        "a": "Unineligible",
+        "b": "Uninedible",
+        "c": "Unintelligible",
+        "d": "Unindelible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Impossible to understand (a speech or a writing)",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 51 - 54): Choose the correct meaning and spelling:",
+      "opts": {
+        "a": "Dozier",
+        "b": "Dossiere",
+        "c": "Dosser",
+        "d": "Dossier"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A collection of papers containing detailed information about a person, an event or a subject",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 51 - 54): Choose the correct meaning and spelling:",
+      "opts": {
+        "a": "Bureaucracy",
+        "b": "Beauraucracy",
+        "c": "Beuraucracy",
+        "d": "Bauraucracy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The system of official rules that an organization has for doing something",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 55 - 58) Choose the correct antonym of the following:",
+      "opts": {
+        "a": "Hostile",
+        "b": "Kind",
+        "c": "Generous",
+        "d": "Greedy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Benign",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 55 - 58) Choose the correct antonym of the following:",
+      "opts": {
+        "a": "Indecisive",
+        "b": "Difficult",
+        "c": "Certain",
+        "d": "Easy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ambivalent",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 55 - 58) Choose the correct antonym of the following:",
+      "opts": {
+        "a": "Similar",
+        "b": "Permanent",
+        "c": "Temporary",
+        "d": "Dissimilar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Equivalent",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 55 - 58) Choose the correct antonym of the following:",
+      "opts": {
+        "a": "Pathetic",
+        "b": "Indifference",
+        "c": "Desirous",
+        "d": "Interest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "apathy",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 59 - 61) From the following, choose the word similar in meaning to the",
+      "opts": {
+        "a": "Refuse",
+        "b": "Celebrate",
+        "c": "Response",
+        "d": "Question"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Repartee",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 59 - 61) From the following, choose the word similar in meaning to the",
+      "opts": {
+        "a": "Waver",
+        "b": "Never",
+        "c": "Quiver",
+        "d": "queer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Vacillate",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 59 - 61) From the following, choose the word similar in meaning to the",
+      "opts": {
+        "a": "Fascinating",
+        "b": "Unforgettable",
+        "c": "Beautiful",
+        "d": "Sparkling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Scintillating",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 62 - 66) Change the speech of the following sentences by choosing the",
+      "opts": {
+        "a": "He said uncertainly that he could leave early today",
+        "b": "He said uncertainly that he may leave early today",
+        "c": "He said that he would leave early today",
+        "d": "He said uncertainly that he might leave early that day"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Direct: “I may leave early today,” he said uncertainly.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 62 - 66) Change the speech of the following sentences by choosing the",
+      "opts": {
+        "a": "The audience exclaimed that it was a wonderful performance I had given",
+        "b": "The audience exclaimed what a wonderful performance I gave",
+        "c": "The audience exclaimed that what a wonderful performance I gave",
+        "d": "The audience exclaimed that it is a wonderful performance I gave"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Direct: “What a wonderful performance you gave!” the audience exclaimed.",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 62 - 66) Change the speech of the following sentences by choosing the",
+      "opts": {
+        "a": "He exclaimed that how foolish he had been",
+        "b": "He exclaimed that he had been very foolish",
+        "c": "He exclaimed how foolish he has been",
+        "d": "He exclaimed that he was foolish"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Direct: “How foolish I have been!” he exclaimed.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 62 - 66) Change the speech of the following sentences by choosing the",
+      "opts": {
+        "a": "“It is a very beautiful painting,” she exclaimed.",
+        "b": "“What a beautiful painting it is!” she exclaimed.",
+        "c": "“How beautiful painting it was!” she exclaimed.",
+        "d": "“It was a very beautiful painting!” she exclaimed."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indirect: She exclaimed that it was a very beautiful painting.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 62 - 66) Change the speech of the following sentences by choosing the",
+      "opts": {
+        "a": "“I may not attend the meeting today,” he said.",
+        "b": "“I might not attend the meeting that day,” he said.",
+        "c": "“I might not attend the meeting today,” he said.",
+        "d": "“I may not attend the meeting that day,” he said."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indirect: He said that he might not attend the meeting that day.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Read the following passage carefully and answer the questions that follow in your own words. In recent years, the accelerating integration of digital technologies into governance has reshaped the relationship between the State and its citizens. Among these technologies, Artificial Intelligence (AI) occupies a particularly transformative position. Governments across the world are deploying AI-driven systems to improve efficiency in public service delivery, optimize resource allocation, detect fraud, and enhance policy formulation through data-driven insights. However, this rapid adoption also raises complex ethical, legal, and institutional challenges that demand careful deliberation. At its core, AI promises administrative efficiency. Predictive analytics can help governments anticipate welfare needs, identify tax evasion patterns, and manage urban infrastructure more effectively. In sectors such as healthcare and agriculture, AI-enabled tools assist in disease surveillance, crop forecasting, and disaster preparedness. For developing countries with limited administrative capacity, such technologies offer the possibility of “leapfrogging” traditional constraints by enabling smarter governance at lower marginal costs. Nevertheless, the deployment of AI in the public sector is not value-neutral. Algorithms are trained on historical data, which often reflect existing social biases and structural inequalities. When such biased data inform automated decision-making—whether in policing, welfare eligibility, or credit access—the result can be the reinforcement of discrimination under the guise of technological objectivity. This phenomenon, sometimes described as “algorithmic opacity,” makes it difficult for affected individuals to challenge decisions, thereby undermining procedural fairness. Another significant concern relates to accountability. Traditional governance systems rely on clearly identifiable decision-makers who can be held responsible for policy outcomes. AI systems, by contrast, distribute decision-making across complex networks of programmers, data providers, and institutional users. This diffusion of responsibility complicates legal and ethical accountability, particularly when automated systems cause harm. Without robust frameworks for oversight, there is a risk that governments may abdicate critical judgment to machines while evading responsibility for their consequences. Data privacy constitutes an equally pressing issue. AI systems require vast amounts of personal data to function effectively. In the absence of strong data protection regimes, the extensive collection and processing of such data can lead to surveillance excesses and erosion of civil liberties. While proponents argue that data-driven governance enhances security and efficiency, critics caution that unchecked surveillance can weaken democratic norms and chill dissent. Recognizing these challenges, many experts advocate for a governance framework grounded in transparency, explainability, and human oversight. Rather than replacing human judgment, AI should function as a decision-support tool. Institutional mechanisms such as algorithmic audits, ethical review boards, and clear grievance redressal pathways are essential to ensure that technological innovation aligns with constitutional values and public interest. Ultimately, the question is not whether governments should use AI, but how they should do so responsibly. The legitimacy of AI-enabled governance depends on its capacity to enhance public welfare without compromising equity, accountability, and individual rights. As States navigate this technological frontier, their choices will shape not only administrative efficiency but also the moral foundations of governance in the digital age. (i)What administrative advantages does AI offer to governments?(2) (ii)Explain the term “algorithmic opacity” as used in the passage.(2) (iii)How does AI complicate accountability in governance?(2) (iv)What, according to the passage, determines the legitimacy of AI-enabled governance?(2) (v)Choose the word from the passage that is closest in meaning to “scrutiny.”(1)",
+      "subparts": {
+        "a": "Diffusion",
+        "b": "Oversight",
+        "c": "Surveillance",
+        "d": "Allocation (a)Alignment(b)Enhancement (c)Support(d)Undermining"
+      }
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 2,
+      "text": "Write the precis of the following passage in about one-third of its original length. Provide a suitable title.(14) The functioning of democratic institutions in the twenty-first century is increasingly shaped by rapid economic change, technological innovation, and shifting patterns of public engagement. While democracy remains the most widely accepted form of political organization, its effectiveness depends not only on electoral processes but also on the quality of governance delivered between elections. The growing gap between public expectations and institutional performance has emerged as a central challenge for modern States. Economic transformation driven by globalization has expanded markets and accelerated growth, yet it has also intensified inequality and employment insecurity. Governments are required to balance competitiveness with social justice, ensuring that economic progress does not marginalize large sections of society. Policy choices that prioritize growth without adequate redistribution risk eroding social cohesion, whereas excessive protectionism can undermine innovation and long-term prosperity. Effective governance, therefore, demands nuanced economic management rather than ideological rigidity. Technological advances have altered the nature of State-citizen interaction. Digital platforms facilitate faster service delivery, greater transparency, and improved access to information. However, the same technologies have enabled misinformation, digital surveillance, and exclusion of those lacking access or skills. When technological adoption outpaces regulatory capacity, democratic accountability may weaken, and public trust in institutions can decline. Technology thus acts as both an enabler and a disruptor of democratic governance. Environmental sustainability has become an unavoidable dimension of policy-making. Climate change, resource depletion, and environmental degradation threaten livelihoods, public health, and economic stability. These challenges disproportionately affect vulnerable communities, highlighting the ethical responsibility of the State to pursue inclusive and sustainable development. Yet, long-term environmental goals often conflict with short-term political incentives, making decisive action politically difficult. In this complex context, the resilience of democracy depends on institutional adaptability, transparency, and responsiveness. Citizen participation must extend beyond periodic voting to meaningful engagement in decision-making processes. Without credible accountability mechanisms and ethical leadership, democratic institutions risk becoming procedurally intact but substantively weak. Ultimately, democracy’s survival rests on the State’s ability to reconcile efficiency with equity, innovation with regulation, and authority with accountability.",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 3,
+      "text": "You are XXX, a resident of YYY Locality, Aizawl. The roads in your area are severely congested due to uncontrolled roadside parking and the absence of proper garages or parking facilities. Write a formal letter to the Deputy Commissioner (DC), Aizawl, bringing the matter to their attention and requesting urgent action. Your letter should clearly describe the problem, its impact on residents and traffic flow, highlight safety concerns and suggesting possible solutions.(10)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q2 (p2, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p3, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2026/02/fb729a1703e489f2716e541fe4c495a7/assistant-director-general-english-2026.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

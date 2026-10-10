@@ -1,0 +1,161 @@
+{
+  "slug": "archive-lang-2020-junior-grade-of-mls-law-officer-under-law-judicial-department-mls-genera-d05f8c37",
+  "exam": "Junior Grade of MLS (Law Officer) under Law & Judicial Department",
+  "sitting": "2020",
+  "subject": "General English",
+  "source": "archive-lang-2020-junior-grade-of-mls-law-officer-under-law-judicial-department-mls-genera-d05f8c37.pdf",
+  "sourceSha256": "77a2a584ba9c02d274944b0e271d7dc4690c574de4fcf75e521d76085e405b18",
+  "ocr": false,
+  "count": 6,
+  "questions": [
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The meeting that was scheduled for 12 noon _________ to be cancelled.",
+        "b": "Everyone _________ it sometime or the other.",
+        "c": "All the participants unanimously _________ the proposal.",
+        "d": "She always _________ a shower in the morning. (f)I have _________ the truth. (i)Writing essays _________ [a lot of skill. (j)Mathematics _________ a pure science."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Complete the sentences using the correct form of the verb:(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mrs. Smith has been teaching English _________ the last ten years.",
+        "b": "Please select the gift _________ the shop in the corner.",
+        "c": "It is _________ an hour that I have been waiting for you.",
+        "d": "We usually have meetings _________ Friday afternoons."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks with appropriate prepositions:(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Guardian ad litem",
+        "b": "Sui juris",
+        "c": "Bona vacantia",
+        "d": "Wet signature"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences with the given idioms, phrases and expressions:(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hangar - Hanger",
+        "b": "Hart - Heart",
+        "c": "Envelop - Envelope",
+        "d": "Auger - Augur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences with any five of the following to show their differences:(5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "One should not look down on poor.",
+        "b": "The boys should not had made so much noise.",
+        "c": "The bus arrived lately so I missed my first class.",
+        "d": "He was thorough interested in the subject."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Correct the following sentences:(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Someone broke the glass.  (Change into interrogative sentence)",
+        "b": "_________ do they get to work?  (Give suitable interrogative word)",
+        "c": "You’ve got a camera, _________?  (Add question tag)",
+        "d": "I don’t like eggs.  (Add negative agreement)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do as directed:(10×1=10)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/d05f8c37e4fed6c33d1c746230a5a975/mls-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

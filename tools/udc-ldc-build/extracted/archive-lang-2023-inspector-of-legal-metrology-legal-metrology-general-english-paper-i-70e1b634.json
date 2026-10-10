@@ -1,0 +1,117 @@
+{
+  "slug": "archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-i-70e1b634",
+  "exam": "Inspector of Legal Metrology",
+  "sitting": "2023",
+  "subject": "General English",
+  "source": "archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-i-70e1b634.pdf",
+  "sourceSha256": "a228a039dae681cf346ea5df6390c6f009ec217baf5b092e0f8c2b588f97bdaf",
+  "ocr": true,
+  "count": 4,
+  "questions": [
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "toharponthesamestring",
+        "b": "likeafishoutofwater",
+        "c": "throughfireandwater",
+        "d": "_playducksanddrake"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Makesentenceswiththeanysevenofthefollowingidiomsandphrases(7x2=14)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Honestyisthebestpolicy",
+        "b": "Ashipinharbourissafe,butthatisnotwhatashipisfor",
+        "c": "Hewhohesitatesislost",
+        "d": "Romewasnotbuiltinaday"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expandtheideacontainedinanythreeofthefollowing:(3x5=15)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionsNo.6-8):Readthepassagecarefullyandanswerthequestionsgiven:",
+      "opts": {
+        "a": "Whatismeantbyenvironment?",
+        "b": "Whatistheproblemrelatedwithrubbishofplastics?",
+        "c": "Whydofishdie?",
+        "d": "Whatagentsdamagebuildings? mae"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Answerthefollowingquestion:(5x2=10)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionsNo.6-8):Readthepassagecarefullyandanswerthequestionsgiven:",
+      "opts": {
+        "a": "Problemofwasteisfacedin (i)largecities(ii)industrialcountries ii)land,water,air",
+        "b": "Spaceistakenupby (i)rubbishplace(ii)refuse (ii)pollutedriversandseas",
+        "c": "Litterisproducedby (i)woodandpaper(ii)plastics: (ii)waste",
+        "d": "Watercannotdilute (i)marinelife(ii)rubbish (iii)sewage (i)harmfulbacteria(i)carbonmonoxideandhydrocarbon (iii)smoke"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethecorrectanswer:(5x1=5)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p2, part None): only 0 option(s) [] - not emitted",
+    "Q8 (p3, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2023/11/70e1b63453df9380c8d1fc95f7190b85/legal-metrology-general-english-paper-i.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

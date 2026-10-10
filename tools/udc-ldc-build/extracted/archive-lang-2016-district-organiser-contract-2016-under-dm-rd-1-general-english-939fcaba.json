@@ -1,0 +1,126 @@
+{
+  "slug": "archive-lang-2016-district-organiser-contract-2016-under-dm-rd-1-general-english-939fcaba",
+  "exam": "District Organiser (Contract) 2016 under DM&RD",
+  "sitting": "2016",
+  "subject": "General English",
+  "source": "archive-lang-2016-district-organiser-contract-2016-under-dm-rd-1-general-english-939fcaba.pdf",
+  "sourceSha256": "7f9d1c018db157338bd588eef45861076a711a2525b9798ec26eec5a47485db4",
+  "ocr": false,
+  "count": 4,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "confuse",
+        "b": "illuminate",
+        "c": "clear",
+        "d": "gravel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "to be in a fix",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "at the front",
+        "b": "be aside",
+        "c": "at the back",
+        "d": "straight"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "to go to the wall",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "suffered",
+        "b": "illness",
+        "c": "ignorance",
+        "d": "uninformed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "to keep one in the dark",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "completely",
+        "b": "in between",
+        "c": "partly",
+        "d": "generally"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "over head and ears",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on any one of the given topics (not more than 300 words)(20)",
+      "subparts": {
+        "a": "My favorite author and his works.",
+        "b": "Industrialisation – My vision for Mizoram.",
+        "c": "New Land Use Policy in Mizoram – its impact."
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 3 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/939fcaba96c9d542ec477613e36e85c2/district-organiser-contract-2016-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

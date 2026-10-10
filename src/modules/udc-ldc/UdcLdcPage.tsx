@@ -22,6 +22,7 @@ import { PracticeView } from './PracticeView';
 import { ExamView } from './ExamView';
 import { GroupBPaperLibrary } from './GroupBPaperLibrary';
 import { AnswerSources } from './AnswerSources';
+import { SubjectStudyView } from './SubjectStudyView';
 import { groupBGeneralQuestions, groupBPaperMeta, groupBExpectedMcq } from '@/data/banks/mpsc-group-b-general';
 import './udc-ldc.css';
 
@@ -42,7 +43,7 @@ import './udc-ldc.css';
 // ============================================
 
 
-type Tab = 'progress' | 'papers' | 'browse' | 'practice' | 'exam';
+type Tab = 'progress' | 'papers' | 'maths' | 'english' | 'computer' | 'browse' | 'practice' | 'exam';
 const paperNegativeMarking = {
   ...mpscUdcLdcNegativeMarking,
   ...Object.fromEntries(Object.entries(groupBPaperMeta).map(([id, meta]) => [id, meta.negativeMarking])),
@@ -1016,7 +1017,7 @@ export default function UdcLdcPage() {
       </div>
 
       <div className="udc-tabs" style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 18 }}>
-        {(['progress', 'papers', 'browse', 'practice', 'exam'] as Tab[]).map((t) => (
+        {(['progress', 'papers', 'maths', 'english', 'computer', 'browse', 'practice', 'exam'] as Tab[]).map((t) => (
           <button
             key={t}
             className={`udc-tab ${tab === t ? 'is-active' : ''}`}
@@ -1029,12 +1030,20 @@ export default function UdcLdcPage() {
               color: tab === t ? '#fff' : 'inherit',
             }}
           >
-            {t === 'papers' ? 'Group B papers' : t}
+            {t === 'papers' ? 'Group B papers' : t === 'maths' ? 'Maths / Arithmetic' : t === 'english' ? 'English only' : t === 'computer' ? 'Computer Knowledge' : t}
           </button>
         ))}
       </div>
 
       {tab === 'progress' && <ProgressView rows={data.rows} />}
+      {(tab === 'maths' || tab === 'english' || tab === 'computer') && <SubjectStudyView
+        key={tab}
+        subject={tab === 'maths' ? 'arithmetic' : tab === 'computer' ? 'computer' : 'english'}
+        questions={correctedQuestions}
+        progress={progress}
+        onAnswer={record}
+        renderBrowse={(questions) => <BrowseView rows={data.rows} questions={questions} progress={progress} flags={flags} />}
+      />}
       {tab === 'papers' && <GroupBPaperLibrary questions={correctedQuestions} onBrowse={(id) => {
         setFilters({ ...EMPTY_FILTERS, paperIds: [id] });
         setFiltersOpen(false);

@@ -1,0 +1,210 @@
+{
+  "slug": "archive-lang-2022-mcs-combined-main-2022-mcs-main-2022-general-english-64a7ef14",
+  "exam": "MCS Combined MAIN 2022",
+  "sitting": "2022",
+  "subject": "General English",
+  "source": "archive-lang-2022-mcs-combined-main-2022-mcs-main-2022-general-english-64a7ef14.pdf",
+  "sourceSha256": "43ae349c40192318a2f200b71f591d78d59169e9cbb6de13855e981b8358c88c",
+  "ocr": false,
+  "count": 8,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Which of the following best describes the organization of the passage?(2) (i)The passage organizes ideas in order of increasing importance. (ii)The author presents an argument and then uses evidence to dismiss opposing views. (iii)The author explains a problem, explores solutions, and then dismisses these solutions as inadequate. (iv)The author explains a problem and then persuades readers to agree with his or her solution to the problem. (v)The author explains a problem, contextualizes the problem, and ultimately dismisses it as an unnecessary concern.",
+        "b": "The passage discusses all of the following solutions to password fatigue except(2) (i)writing the passwords down on a piece of paper (ii)voice-recognition software (iii)KeePass (iv)using very simple passwords (v)intelligent encryption",
+        "c": "As used in paragraph 3, which is the best synonym for mitigate?(2) (i)predict(ii)postpone (iii)investigate(iv)lessen (v)complicate",
+        "d": "According to the passage, SSO authentication software may be safer than password management software because:(2) I.stolen personal computers contain passwords memorized by a user s web browser II.if a user of password management software forgets his or her login credentials, the user can no longer access any of the applications protected by the password III.hackers who access password management software can gain access to all of the applications protected by that password (i)I only(ii)II only (iii)I and II only(iv)II and III only (v)I, II, and III (e)Which of the following statements from the passage represents an opinion, as opposed to a fact?(2) (i)“For people who use email or other internet applications at work, the number of required username/password combinations may surpass 30.” (ii)“The feeling of frustration that results from maintaining a memorized list of login credentials has grown so prevalent that it actually has a name: password fatigue.” (iii)“Having to remember so many different passwords is irritating, but it can also be dangerous.” (iv)“Additionally, recovering a forgotten password is only a temporary solution; it does not address the larger problem of password fatigue.” (v)“The problems associated with SOS, password management software, and biometrics continue to stimulate software engineers and computer security experts to search for the cure to password fatigue.” (f)In paragraph 6, the author notes that “the use of biometrics raises ethical questions concerning privacy.” Which of the following situations could be used as an example to illustrate this point?(2) (i)A thief steals a personal computer with password management software and gains access to private email accounts, credit card numbers, and bank statements. (ii)An employee at a company uses a voice recognition system to log in to his computer, only to be called away by his boss. While he is away from the computer but still logged in, another employee snoops on his computer and reads personal email correspondence. (iii)A computer hacker gains access to a system that uses SSO software by cracking the password, thus gaining private access to all linked accounts. (iv)A company that employs fingerprint identification security software turns over its database of fingerprints to the local police department when a violent crime occurs on its grounds. (v)Even when a person is on password-protected websites, an internet browser tracks the person s internet use and collects information in order to tailor advertisements to his or her interests. (g)In the final paragraph, the author’s tone can best be described as:(2) (i)angry(ii)resigned (iii)confused(iv)hopeful (v)depressed (h)Give a suitable title to the passage.(1)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following passage and choose the most appropriate answer to the questions that follow: The average computer user has between 5 and 15 username/password combinations to log in to email accounts, social networking sites, discussion boards, news and entertainment sites, online stores, online banking accounts, or other websites. For people who use email or other internet applications at work, the number of required username/password combinations may surpass 30. Some of these accounts demand that you use a specific number of symbols and digits, while others require you to change your password every 60 days. When you add to this list the codes needed to access things like ATMs, home alarm systems, padlocks, or voicemail, the number of passwords becomes staggering. The feeling of frustration that results from maintaining a memorized list of login credentials has grown so prevalent that it actually has a name: password fatigue. Having to remember so many different passwords is irritating, but it can also be dangerous. Because it is virtually impossible to remember a unique password for each of these accounts, many people leave handwritten lists of usernames and passwords on or next to their computers. Others solve this problem by using the same password for every account or using extremely simple passwords. While these practices make it easier to remember login information, they also make it exponentially easier for thieves to hack into accounts. Single sign-on (SSO) authentication and password management software can help mitigate this problem, but there are drawbacks to both approaches. SSO authentication can be used for related, but independent software systems. With SSO, users log in once to access a variety of different applications. Users only need to remember one password to log in to the main system; the SSO software then automatically logs the user in to other accounts within the system. SSO software is typically used by large companies, schools, or libraries. Password management software, such as KeePass and Password Safe, is most often used on personal computers. These software programs— which have been built into many major web browsers—store passwords in a remote database and automatically “remember” users passwords for a variety of sites. The problem with both SSO authentication and password management software is that the feature that makes them useful is also what makes them vulnerable. If a user loses or forgets the password required to log in to SSO software, the user will then lose access to all of the applications linked to the SSO account. Furthermore, if a hacker can crack the SSO password, he or she will then have access to all of the linked accounts. Users who rely on password management software are susceptible to the same problems, but they also incur the added threat of passwords being compromised because of computer theft. Although most websites or network systems allow users to recover or change lost passwords by providing email addresses or answering a prompt, this process can waste time and cause further frustration. What is more, recovering a forgotten password is only a temporary solution; it does not address the larger problem of password fatigue. Some computer scientists have suggested that instead of passwords, computers rely on biometrics. This is a method of recognizing human users based on unique traits, such as fingerprints, voice, or DNA. Biometric identification is currently used by some government agencies and private companies, including the Department of Defense and Disney World. While biometrics would certainly eliminate the need for people to remember passwords, the use of biometrics raises ethical questions concerning privacy and can also be expensive to implement. The problems associated with SSO, password management software, and biometrics continue to stimulate software engineers and computer security experts to search for the cure to password fatigue. Until they find the perfect solution, however, everyone will simply have to rely on the flawed password system currently in place. Questions :",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "No other singer is as great as Mariah. (change to comparative degree)",
+        "b": "Put off the lights. (change the voice)",
+        "c": "They had finished meal when he arrived. (change to passive)",
+        "d": "Only trained graduates need to apply. (use ‘none’ instead of only) (f)Nobody likes a liar. (change to assertive sentence) (i)He will fail _________ you help him. (join with appropriate connector) (j)She opened the door **with great care**. (change the underlined words into adjective form)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rewrite the following sentences as directed:(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "differ, defer",
+        "b": "equable, equitable",
+        "c": "demure, demur",
+        "d": "caret, carat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences with each word in the following pairs to show their difference:(5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To hit the sack",
+        "b": "To go the extra mile",
+        "c": "Show a clean pair of heels",
+        "d": "Throw out of gear (e)On tenterhooks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Define the given idioms and phrases and make sentences accordingly:(5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Plucking flowers are forbidden.",
+        "b": "John as well as Tom are waiting for you.",
+        "c": "Every boy and every teacher have his own looks.",
+        "d": "The scholar and the poet is dead. (e)Every one of the men were punished."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rewrite the following sentences correctly:(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Supervisor is wanting to see you.",
+        "b": "She had wrote a letter to me about you.",
+        "c": "The Planets followed a fixed path around the sun.",
+        "d": "His speech was applaud universally. (e)He search for his watch for a long time, but in vain."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Correct the verbs of the following sentences :(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "He lives in the floor _________ mine. (under/ below)",
+        "b": "The police promised to look _________ the matter of the theft. (at/ into)",
+        "c": "It cannot be done _________ offence. (for/without)",
+        "d": "They were cautioned _________ burglars. (over/against) (e)There are a total 15 students _________ maths class. (in/ for)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks with the correct prepositions in the brackets :(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Though I am poor I am honest.",
+        "b": "The lady wore a gown made of silk.",
+        "c": "Sanga ran with great speed.",
+        "d": "The house that we live in belongs to our neighbour. (e)No one knows who he is."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "State whether the words in italics are clause or phrase:(5×1=5)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q2 (p4, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p4, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      2,
+      3
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2022/07/64a7ef14ab1db5ff195bab893e910df1/mcs-main-2022-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

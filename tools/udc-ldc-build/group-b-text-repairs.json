@@ -44747,6 +44747,1043 @@
           "explanation": "Section A conventional essay (20 marks). No model answer is printed; write on any one of the three topics in not less than 300 words."
         }
       }
+    },
+    "archive-lang-2026-assistant-controller-of-mines-august-2026-assistant-controller-of-mines-cd36d7cc": {
+      "sourceSha256": "9fb2038eb894ba476b0a69f176572fa5c221510d505725fbb3ca8dd069bc3970",
+      "expectedMcq": 66,
+      "partialReview": true,
+      "reviewedOn": "2026-10-10",
+      "evidence": "Questions 1–10, 16–25, 27–28, 30–43, 45–63, and 65–66 in Part B were compared with the official PDF scan (printed pages 3–12). Stems and options match. Part A written prompts have separate duplicate numbering and are excluded. Answers are derived and explained; no official key was located. Q11–15 remain held because extraction truncated their sentence segments. Q26 and Q29 each have two grammatically acceptable rewrites; Q44 has two potentially defensible meanings; Q64 is held because formal “whom” and widely accepted “who” are both used for the object in modern English.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 3,
+          "part": "B",
+          "direction": "Direction (Question Nos. 1 - 10): Answer the following questions as directed:",
+          "opts": {
+            "a": "Adjective",
+            "b": "Adverb",
+            "c": "Noun",
+            "d": "Conjunction"
+          },
+          "q": "In the sentence, “The regional committee met weekly to review the mining lease applications,” what part of speech is the word ‘weekly’?",
+          "explanation": "‘Weekly’ modifies the verb ‘met’ by telling how often the committee met, so it is an adverb."
+        },
+        "2": {
+          "n": 2,
+          "page": 3,
+          "part": "B",
+          "direction": "Direction (Question Nos. 1 - 10): Answer the following questions as directed:",
+          "opts": {
+            "a": "Adjective",
+            "b": "Adverb",
+            "c": "Verb",
+            "d": "Noun"
+          },
+          "q": "In the sentence, “We must find a fast solution to the slope stability issue before the monsoon begins,” what part of speech is the word ‘fast’?",
+          "explanation": "‘Fast’ describes the noun ‘solution’, so it functions as an adjective."
+        },
+        "3": {
+          "n": 3,
+          "page": 3,
+          "part": "B",
+          "direction": "Direction (Question Nos. 1 - 10): Answer the following questions as directed:",
+          "opts": {
+            "a": "Adverb",
+            "b": "Noun",
+            "c": "Preposition",
+            "d": "Verb"
+          },
+          "q": "In the sentence, “The surveyor walked past the boundary pillar without noticing the structural damage,” what part of speech is the word ‘past’?",
+          "explanation": "‘Past’ is followed by the noun phrase ‘the boundary pillar’, which makes it a preposition here."
+        },
+        "4": {
+          "n": 4,
+          "page": 4,
+          "part": "B",
+          "direction": "Direction (Question Nos. 1 - 10): Answer the following questions as directed:",
+          "opts": {
+            "a": "Noun",
+            "b": "Adjective",
+            "c": "Verb",
+            "d": "Preposition"
+          },
+          "q": "In the sentence, “The department decided to house the new core samples in the main laboratory,” what part of speech is the word ‘house’?",
+          "explanation": "‘House’ means to provide a place for the samples. It is the main verb of the infinitive phrase ‘to house’."
+        },
+        "5": {
+          "n": 5,
+          "page": 4,
+          "part": "B",
+          "direction": "Direction (Question Nos. 1 - 10): Answer the following questions as directed:",
+          "opts": {
+            "a": "Conjunction",
+            "b": "Pronoun",
+            "c": "Adjective",
+            "d": "Adverb"
+          },
+          "q": "In the sentence, “Neither the operator nor the safety engineer cleared the quarry site for blasting,” what part of speech is the word ‘neither’?",
+          "explanation": "‘Neither’ is paired with ‘nor’ to join the two subjects, so it functions as a correlative conjunction."
+        },
+        "6": {
+          "n": 6,
+          "page": 4,
+          "part": "B",
+          "direction": "Direction (Question Nos. 1 - 10): Answer the following questions as directed:",
+          "opts": {
+            "a": "The miners extracted high-grade iron from the structural belt.",
+            "b": "You need to iron out the discrepancies in the annual mineral report.",
+            "c": "The safety inspector wore an iron helmet during the field audit.",
+            "d": "Iron is a vital resource for heavy industrial manufacturing."
+          },
+          "q": "In which of the following sentences is the word “iron” used as an adjective?",
+          "explanation": "In ‘an iron helmet’, ‘iron’ describes the material or quality of the noun ‘helmet’, so it is used adjectivally."
+        },
+        "7": {
+          "n": 7,
+          "page": 4,
+          "part": "B",
+          "direction": "Direction (Question Nos. 1 - 10): Answer the following questions as directed:",
+          "opts": {
+            "a": "I have visited the Tlawng river quarry before.",
+            "b": "The candidate stood before the selection board for his interview.",
+            "c": "Clean the core drill thoroughly before you store it in the shed.",
+            "d": "The administration issued the warning two days before."
+          },
+          "q": "In which of the following sentences is the word “before” used as a subordinating conjunction?",
+          "explanation": "‘Before’ introduces the dependent clause ‘you store it in the shed’, so it is a subordinating conjunction."
+        },
+        "8": {
+          "n": 8,
+          "page": 4,
+          "part": "B",
+          "direction": "Direction (Question Nos. 1 - 10): Answer the following questions as directed:",
+          "opts": {
+            "a": "The noun “audit”",
+            "b": "The verb “completed”",
+            "c": "The adverb “quickly”",
+            "d": "The adjective “environmental”"
+          },
+          "q": "Read the sentence: “The team completed the environmental audit fairly quickly.” What does the adverb “fairly” modify?",
+          "explanation": "‘Fairly’ modifies the adverb ‘quickly’, indicating the degree to which the audit was completed quickly."
+        },
+        "9": {
+          "n": 9,
+          "page": 4,
+          "part": "B",
+          "direction": "Direction (Question Nos. 1 - 10): Answer the following questions as directed:",
+          "opts": {
+            "a": "Adjective",
+            "b": "Pronoun",
+            "c": "Conjunction",
+            "d": "Verb"
+          },
+          "q": "In the sentence, “Both plans look operationally viable, but the second one is safer,” the word “Both” functions as a/an:",
+          "explanation": "‘Both’ specifies the noun ‘plans’; it functions as a determiner/adjective in this sentence."
+        },
+        "10": {
+          "n": 10,
+          "page": 4,
+          "part": "B",
+          "direction": "Direction (Question Nos. 1 - 10): Answer the following questions as directed:",
+          "opts": {
+            "a": "Adverb of Time",
+            "b": "Adverb of Degree",
+            "c": "Adverb of Manner",
+            "d": "Adverb of Place"
+          },
+          "q": "In the sentence, “The local administration handled the public protest politely yet firmly,” the word “politely” is an:",
+          "explanation": "‘Politely’ describes the manner in which the administration handled the protest, so it is an adverb of manner."
+        },
+        "16": {
+          "n": 16,
+          "page": 5,
+          "part": "B",
+          "direction": "Direction (Question Nos. 16 - 25): Choose the correct option as instructed:",
+          "opts": {
+            "a": "Adjective of Quality",
+            "b": "Demonstrative Adjective",
+            "c": "Distributive Adjective",
+            "d": "Quantitative Adjective"
+          },
+          "q": "In the sentence, “The department issued a formal notice to the leaseholder,” what category of adjective is the word ‘formal’?",
+          "explanation": "‘Formal’ describes the quality or type of the notice, so it is an adjective of quality."
+        },
+        "17": {
+          "n": 17,
+          "page": 5,
+          "part": "B",
+          "direction": "Direction (Question Nos. 16 - 25): Choose the correct option as instructed:",
+          "opts": {
+            "a": "Conjunction",
+            "b": "Preposition",
+            "c": "Verb",
+            "d": "Adverb"
+          },
+          "q": "In the sentence, “The field office is located near the active quarry site,” what part of speech is the word ‘near’?",
+          "explanation": "‘Near’ is followed by the noun phrase ‘the active quarry site’ and relates the office’s location to it, so it is a preposition."
+        },
+        "18": {
+          "n": 18,
+          "page": 5,
+          "part": "B",
+          "direction": "Direction (Question Nos. 16 - 25): Choose the correct option as instructed:",
+          "opts": {
+            "a": "The noun “process”",
+            "b": "The verb “was”",
+            "c": "The adjective “chaotic”",
+            "d": "The noun “planning”"
+          },
+          "q": "In the sentence, “The extraction process was extremely chaotic due to unscientific planning,” what does the adverb ‘extremely’ modify?",
+          "explanation": "‘Extremely’ modifies the adjective ‘chaotic’ by expressing its degree."
+        },
+        "19": {
+          "n": 19,
+          "page": 6,
+          "part": "B",
+          "direction": "Direction (Question Nos. 16 - 25): Choose the correct option as instructed:",
+          "opts": {
+            "a": "The inspector is ‘checking’ the transport passes at the border checkpost.",
+            "b": "‘Blasting’ requires a valid statutory permit from the mining controller.",
+            "c": "The ‘shattered’ shale layers made structural drilling highly unpredictable.",
+            "d": "She will be ‘running’ the drone volumetric survey tomorrow morning."
+          },
+          "q": "Which of the target words in the choices below functions as a Gerund?",
+          "explanation": "‘Blasting’ names an activity and functions as the subject of the sentence. This -ing form is a gerund."
+        },
+        "20": {
+          "n": 20,
+          "page": 6,
+          "part": "B",
+          "direction": "Direction (Question Nos. 16 - 25): Choose the correct option as instructed:",
+          "opts": {
+            "a": "Indefinite Pronoun",
+            "b": "Adjective of Quantity",
+            "c": "Adverb of Degree",
+            "d": "Demonstrative Adjective"
+          },
+          "q": "In the sentence, “The Assistant Controller found ‘few’ errors in the structural design blueprint,” the word ‘few’ is a/an:",
+          "explanation": "‘Few’ quantifies the countable noun ‘errors’; in the sentence it is an adjective of quantity (also called an adjective of number in some grammars)."
+        },
+        "21": {
+          "n": 21,
+          "page": 6,
+          "part": "B",
+          "direction": "Direction (Question Nos. 16 - 25): Choose the correct option as instructed:",
+          "opts": {
+            "a": "Adverb of Time",
+            "b": "Adverb of Degree",
+            "c": "Adverb of Manner",
+            "d": "Adverb of Place"
+          },
+          "q": "In the sentence, “The heavy dumpers move slowly along the steep hill paths,” the word ‘slowly’ is an:",
+          "explanation": "‘Slowly’ tells how the dumpers move, so it is an adverb of manner."
+        },
+        "22": {
+          "n": 22,
+          "page": 6,
+          "part": "B",
+          "direction": "Direction (Question Nos. 16 - 25): Choose the correct option as instructed:",
+          "opts": {
+            "a": "It modifies the verb “raised” as an adverb.",
+            "b": "It connects the noun phrase “the heavy dust pollution” to the rest of the sentence as a preposition.",
+            "c": "It links two independent clauses as a coordinating conjunction.",
+            "d": "It stands alone as an abstract naming word."
+          },
+          "q": "In the sentence, “The village council raised concerns about the heavy dust pollution,” what is the structural function of the word ‘about’?",
+          "explanation": "‘About’ introduces the noun phrase ‘the heavy dust pollution’ and links it to ‘concerns’, so it functions as a preposition."
+        },
+        "23": {
+          "n": 23,
+          "page": 6,
+          "part": "B",
+          "direction": "Direction (Question Nos. 16 - 25): Choose the correct option as instructed:",
+          "opts": {
+            "a": "Adjective of Quality",
+            "b": "Adverb of Frequency",
+            "c": "Noun of Time",
+            "d": "Coordinating Conjunction"
+          },
+          "q": "In the sentence, “The safety parameters must be checked daily by the site engineers,” the word ‘daily’ functions as an:",
+          "explanation": "‘Daily’ tells how often the parameters must be checked, so it is an adverb of frequency."
+        },
+        "24": {
+          "n": 24,
+          "page": 6,
+          "part": "B",
+          "direction": "Direction (Question Nos. 16 - 25): Choose the correct option as instructed:",
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Preposition of Reason",
+            "c": "Coordinating Conjunction",
+            "d": "Abstract Noun"
+          },
+          "q": "In the sentence, “The heavy rain caused the soil overburden to liquefy, so the operations were suspended,” the word ‘so’ is a/an:",
+          "explanation": "‘So’ joins the cause clause to the result clause, so it is a coordinating conjunction here."
+        },
+        "25": {
+          "n": 25,
+          "page": 6,
+          "part": "B",
+          "direction": "Direction (Question Nos. 16 - 25): Choose the correct option as instructed:",
+          "opts": {
+            "a": "Distributive Adjective",
+            "b": "Distributive Pronoun",
+            "c": "Adverb of Frequency",
+            "d": "Relative Pronoun"
+          },
+          "q": "In the sentence, “The leaseholder must submit each of the monthly extraction logs by Friday,” the word ‘each’ functions as a/an:",
+          "explanation": "‘Each’ stands for the members of a group in the construction ‘each of the logs’, so it functions as a distributive pronoun."
+        },
+        "27": {
+          "n": 27,
+          "page": 7,
+          "part": "B",
+          "direction": "Direction (Question Nos. 26 - 35): Rewrite the sentences by changing the part of speech of the",
+          "opts": {
+            "a": "I do not think I am strengthened enough to continue",
+            "b": "I do not think I can continue strongly",
+            "c": "I do not think I am strong enough to continue",
+            "d": "I do not think I have the strongness to continue"
+          },
+          "q": "I do not think I have the **strength** to continue. ( to Adjective)",
+          "explanation": "‘Strength’ is a noun; changing it to the adjective ‘strong’ gives the equivalent phrase ‘I am strong enough to continue.’"
+        },
+        "28": {
+          "n": 28,
+          "page": 7,
+          "part": "B",
+          "direction": "Direction (Question Nos. 26 - 35): Rewrite the sentences by changing the part of speech of the",
+          "opts": {
+            "a": "He proposed that we deal directly with the suppliers",
+            "b": "He offered me a proposal to deal directly with the suppliers",
+            "c": "He proposalled to deal directly with the suppliers",
+            "d": "He offered me a proposition to deal directly with the suppliers"
+          },
+          "q": "He offered me a **proposal** to deal directly with the suppliers. (to Verb)",
+          "explanation": "The noun ‘proposal’ changes to the verb ‘proposed’; option A preserves the intended meaning and sentence structure."
+        },
+        "30": {
+          "n": 30,
+          "page": 7,
+          "part": "B",
+          "direction": "Direction (Question Nos. 26 - 35): Rewrite the sentences by changing the part of speech of the",
+          "opts": {
+            "a": "I truly do not deserve her",
+            "b": "It is truthful that I do not deserve her",
+            "c": "It is the truth that I do not deserve her",
+            "d": "I truthfully do not deserve her"
+          },
+          "q": "It is **true** that I do not deserve her. (to Noun)",
+          "explanation": "The noun form of ‘true’ is ‘truth’, producing ‘It is the truth that I do not deserve her.’"
+        },
+        "31": {
+          "n": 31,
+          "page": 7,
+          "part": "B",
+          "direction": "Direction (Question Nos. 31 - 35): Answer the following questions as instructed:",
+          "opts": {
+            "a": "Comparative Degree of an Adjective",
+            "b": "Positive Degree of an Adverb",
+            "c": "Superlative Degree of an Adjective",
+            "d": "Superlative Degree of an Adverb"
+          },
+          "q": "“Read the following sentence and choose the correct degree of the target word: “Of all the heavy aggregate transport trucks deployed at the site, the new dumper runs the most efficiently.”",
+          "explanation": "‘Most efficiently’ is the superlative form of the adverb ‘efficiently’; it modifies ‘runs’."
+        },
+        "32": {
+          "n": 32,
+          "page": 7,
+          "part": "B",
+          "direction": "Direction (Question Nos. 31 - 35): Answer the following questions as instructed:",
+          "opts": {
+            "a": "Relative Pronoun",
+            "b": "Interrogative Pronoun",
+            "c": "Demonstrative Pronoun",
+            "d": "Reflexive Pronoun"
+          },
+          "q": "Read the following sentence and choose the correct class of the target pronoun: “The safety engineer who authorized the blasting operation has submitted his field log.”",
+          "explanation": "‘Who’ introduces a relative clause describing ‘the safety engineer’, so it is a relative pronoun."
+        },
+        "33": {
+          "n": 33,
+          "page": 7,
+          "part": "B",
+          "direction": "Direction (Question Nos. 31 - 35): Answer the following questions as instructed:",
+          "opts": {
+            "a": "Adverb of Manner",
+            "b": "Adverb of Degree",
+            "c": "Adverb of Frequency",
+            "d": "Adverb of Place"
+          },
+          "q": "Read the following sentence and choose the specific category of the target adverb: “The Assistant Controller of Mines seldom issues an immediate suspension notice without a prior written warning.”",
+          "explanation": "‘Seldom’ tells how often the Controller issues a notice, so it is an adverb of frequency."
+        },
+        "34": {
+          "n": 34,
+          "page": 8,
+          "part": "B",
+          "direction": "Direction (Question Nos. 31 - 35): Answer the following questions as instructed:",
+          "opts": {
+            "a": "Positive Degree",
+            "b": "Comparative Degree",
+            "c": "Superlative Degree",
+            "d": "Absolute Indefinite Degree"
+          },
+          "q": "Read the following sentence and choose the correct degree of the target adjective: “The technical committee concluded that this was the most apparent structural violation recorded this year.”",
+          "explanation": "‘Most apparent’ expresses the highest degree of the adjective ‘apparent’, so it is superlative."
+        },
+        "35": {
+          "n": 35,
+          "page": 8,
+          "part": "B",
+          "direction": "Direction (Question Nos. 31 - 35): Answer the following questions as instructed:",
+          "opts": {
+            "a": "Adverb of Place",
+            "b": "Adverb of Time",
+            "c": "Adverb of Manner",
+            "d": "Adverb of Certainty"
+          },
+          "q": "Read the following sentence and choose the specific category of the target adverb: “The technical task force set up its portable laboratory testing equipment there, right next to the core drill unit.”",
+          "explanation": "‘There’ indicates where the task force set up the equipment, so it is an adverb of place."
+        },
+        "36": {
+          "n": 36,
+          "page": 8,
+          "part": "B",
+          "direction": "Direction (Question Nos. 36 - 40): Choose the word that best fits the sentence both grammatically and",
+          "opts": {
+            "a": "obfuscate",
+            "b": "delineate",
+            "c": "reciprocate",
+            "d": "condone"
+          },
+          "q": "Because the steep terrain makes physical inspection exceptionally difficult, the department must rely on drone surveys to ________ the exact boundaries of the remote mountain leases.",
+          "explanation": "‘Delineate’ means to describe or mark boundaries precisely, which fits the sentence."
+        },
+        "37": {
+          "n": 37,
+          "page": 8,
+          "part": "B",
+          "direction": "Direction (Question Nos. 36 - 40): Choose the word that best fits the sentence both grammatically and",
+          "opts": {
+            "a": "perennial",
+            "b": "makeshift",
+            "c": "definitive",
+            "d": "meticulous"
+          },
+          "q": "Rather than implementing permanent engineering modifications, the contractor offered only a ________, short-term fix to the crumbling retaining wall.",
+          "explanation": "A ‘makeshift’ fix is temporary and improvised, matching a short-term repair."
+        },
+        "38": {
+          "n": 38,
+          "page": 8,
+          "part": "B",
+          "direction": "Direction (Question Nos. 36 - 40): Choose the word that best fits the sentence both grammatically and",
+          "opts": {
+            "a": "siphoning",
+            "b": "bolstering",
+            "c": "condensing",
+            "d": "exonerating"
+          },
+          "q": "The revenue records showed a massive discrepancy, indicating that illegal transport networks had been systematically ________ state mineral royalties for years.",
+          "explanation": "‘Siphoning’ means secretly or illegally diverting something; it fits the illegal transport networks taking royalties."
+        },
+        "39": {
+          "n": 39,
+          "page": 8,
+          "part": "B",
+          "direction": "Direction (Question Nos. 36 - 40): Choose the word that best fits the sentence both grammatically and",
+          "opts": {
+            "a": "reckless",
+            "b": "sporadic",
+            "c": "judicious",
+            "d": "dogmatic"
+          },
+          "q": "To avoid unscientific extraction, the state’s updated mineral master plan mandates a ________ approach that prioritizes long-term resource conservation over immediate profit.",
+          "explanation": "‘Judicious’ means showing good judgment, which fits a plan prioritizing long-term conservation."
+        },
+        "40": {
+          "n": 40,
+          "page": 8,
+          "part": "B",
+          "direction": "Direction (Question Nos. 36 - 40): Choose the word that best fits the sentence both grammatically and",
+          "opts": {
+            "a": "ambiguous",
+            "b": "superficial",
+            "c": "articulate",
+            "d": "redundant"
+          },
+          "q": "The village council’s written petition was highly ________, listing dozens of specific dates and environmental violations caused by the nearby crushing units.",
+          "explanation": "‘Articulate’ means clear and effective in expression. A petition listing specific dates and violations is articulate."
+        },
+        "41": {
+          "n": 41,
+          "page": 8,
+          "part": "B",
+          "direction": "Direction (Question Nos. 41 - 46): Choose the correct meaning of the following idioms and phrases:",
+          "opts": {
+            "a": "To try to do more than you can manage",
+            "b": "To excel beyond one’s expectations",
+            "c": "to let go of things that no longer serve you",
+            "d": "to receive no acknowledgement for hard work"
+          },
+          "q": "Bite off more than you can chew:",
+          "explanation": "‘Bite off more than you can chew’ means to take on more than one can manage."
+        },
+        "42": {
+          "n": 42,
+          "page": 9,
+          "part": "B",
+          "direction": "Direction (Question Nos. 41 - 46): Choose the correct meaning of the following idioms and phrases:",
+          "opts": {
+            "a": "To make yourself less noticeable",
+            "b": "To make enough money to be comfortable",
+            "c": "To feel ill or unwell",
+            "d": "To feel lonely or melancholy for no reason"
+          },
+          "q": "To be under the weather:",
+          "explanation": "‘Under the weather’ means feeling ill or unwell."
+        },
+        "43": {
+          "n": 43,
+          "page": 9,
+          "part": "B",
+          "direction": "Direction (Question Nos. 41 - 46): Choose the correct meaning of the following idioms and phrases:",
+          "opts": {
+            "a": "To be guilty of a crime",
+            "b": "To attract unwanted attention",
+            "c": "To be lucky all the time",
+            "d": "To be in financial debt"
+          },
+          "q": "To be in the red:",
+          "explanation": "‘In the red’ means in debt or operating at a financial loss."
+        },
+        "45": {
+          "n": 45,
+          "page": 9,
+          "part": "B",
+          "direction": "Direction (Question Nos. 41 - 46): Choose the correct meaning of the following idioms and phrases:",
+          "opts": {
+            "a": "To leave behind a lot of debt after death",
+            "b": "To leave behind a lot of wealth after death",
+            "c": "To die peacefully with a clear conscience",
+            "d": "To die while in service"
+          },
+          "q": "to die in harness:",
+          "explanation": "‘Die in harness’ means to die while still working or serving."
+        },
+        "46": {
+          "n": 46,
+          "page": 9,
+          "part": "B",
+          "direction": "Direction (Question Nos. 41 - 46): Choose the correct meaning of the following idioms and phrases:",
+          "opts": {
+            "a": "A decisive test that provides a clear answer",
+            "b": "A test that produces inconclusive results",
+            "c": "A test that is doomed to end in failure",
+            "d": "a test that heavily favours someone"
+          },
+          "q": "A litmus test:",
+          "explanation": "A ‘litmus test’ is a decisive test that reveals or establishes something important."
+        },
+        "47": {
+          "n": 47,
+          "page": 9,
+          "part": "B",
+          "direction": "Direction (Question Nos.  47 - 51) : Choose the correct term for the following definitions:",
+          "opts": {
+            "a": "teeter-totter",
+            "b": "prohibitionist",
+            "c": "teetotaler",
+            "d": "abstentist"
+          },
+          "q": "someone who completely abstains from drinking:",
+          "explanation": "A teetotaler completely abstains from drinking alcohol."
+        },
+        "48": {
+          "n": 48,
+          "page": 9,
+          "part": "B",
+          "direction": "Direction (Question Nos.  47 - 51) : Choose the correct term for the following definitions:",
+          "opts": {
+            "a": "obsolete",
+            "b": "obstreperous",
+            "c": "abolish",
+            "d": "admonish"
+          },
+          "q": "a word or practice that has gone out of use:",
+          "explanation": "‘Obsolete’ means no longer in use."
+        },
+        "49": {
+          "n": 49,
+          "page": 9,
+          "part": "B",
+          "direction": "Direction (Question Nos.  47 - 51) : Choose the correct term for the following definitions:",
+          "opts": {
+            "a": "immolate",
+            "b": "mortarium",
+            "c": "memoriam",
+            "d": "immortalize"
+          },
+          "q": "to cause someone to be celebrated or remembered forever:",
+          "explanation": "‘Immortalize’ means to preserve someone or something in lasting memory or fame."
+        },
+        "50": {
+          "n": 50,
+          "page": 9,
+          "part": "B",
+          "direction": "Direction (Question Nos.  47 - 51) : Choose the correct term for the following definitions:",
+          "opts": {
+            "a": "apocalyptic",
+            "b": "tyranny",
+            "c": "anarchy",
+            "d": "dysmorphia"
+          },
+          "q": "a state where no law and order exists:",
+          "explanation": "‘Anarchy’ is a state of disorder caused by the absence or non-enforcement of law."
+        },
+        "51": {
+          "n": 51,
+          "page": 9,
+          "part": "B",
+          "direction": "Direction (Question Nos.  47 - 51) : Choose the correct term for the following definitions:",
+          "opts": {
+            "a": "Eponymous",
+            "b": "Unanimous",
+            "c": "anonymous",
+            "d": "ubiquitous"
+          },
+          "q": "a decision or opinion that is completely agreed upon by everyone in a group:",
+          "explanation": "‘Unanimous’ describes a decision or opinion agreed to by everyone in a group."
+        },
+        "52": {
+          "n": 52,
+          "page": 10,
+          "part": "B",
+          "direction": "Directions (Qusetion Nos. 52 - 56): Choose the correct antonym of the following:",
+          "opts": {
+            "a": "Random",
+            "b": "Rational",
+            "c": "unclear",
+            "d": "unique"
+          },
+          "q": "Arbitrary:",
+          "explanation": "‘Arbitrary’ means based on personal choice or whim; ‘rational’ is the closest opposite among the choices."
+        },
+        "53": {
+          "n": 53,
+          "page": 10,
+          "part": "B",
+          "direction": "Directions (Qusetion Nos. 52 - 56): Choose the correct antonym of the following:",
+          "opts": {
+            "a": "Illegal",
+            "b": "Friendly",
+            "c": "unsociable",
+            "d": "lawful"
+          },
+          "q": "Convivial:",
+          "explanation": "‘Convivial’ means friendly and sociable; ‘unsociable’ is its opposite."
+        },
+        "54": {
+          "n": 54,
+          "page": 10,
+          "part": "B",
+          "direction": "Directions (Qusetion Nos. 52 - 56): Choose the correct antonym of the following:",
+          "opts": {
+            "a": "Delible",
+            "b": "Avoidable",
+            "c": "edible",
+            "d": "recognizable"
+          },
+          "q": "Inevitable:",
+          "explanation": "‘Inevitable’ means unavoidable; its opposite is ‘avoidable’."
+        },
+        "55": {
+          "n": 55,
+          "page": 10,
+          "part": "B",
+          "direction": "Directions (Qusetion Nos. 52 - 56): Choose the correct antonym of the following:",
+          "opts": {
+            "a": "Former",
+            "b": "Permanent",
+            "c": "momentary",
+            "d": "current"
+          },
+          "q": "Erstwhile:",
+          "explanation": "‘Erstwhile’ means former or previous; ‘current’ is the opposite."
+        },
+        "56": {
+          "n": 56,
+          "page": 10,
+          "part": "B",
+          "direction": "Directions (Qusetion Nos. 52 - 56): Choose the correct antonym of the following:",
+          "opts": {
+            "a": "Dissuade",
+            "b": "Request",
+            "c": "force",
+            "d": "deny"
+          },
+          "q": "Compel:",
+          "explanation": "‘Compel’ means force someone to do something; ‘dissuade’ means persuade them not to."
+        },
+        "57": {
+          "n": 57,
+          "page": 10,
+          "part": "B",
+          "direction": "Directions (Qusetion Nos. 57 - 61): Combine the following sentences as indicated:",
+          "opts": {
+            "a": "Being hot, we cannot go out",
+            "b": "It is too hot to go out",
+            "c": "It is very hot, therefore, we cannot go out",
+            "d": "We cannot go out as it is hot"
+          },
+          "q": "It is very hot. One cannot go out. (use an infinitive)",
+          "explanation": "‘Too hot to go out’ combines the ideas and uses the infinitive ‘to go’ as directed."
+        },
+        "58": {
+          "n": 58,
+          "page": 10,
+          "part": "B",
+          "direction": "Directions (Qusetion Nos. 57 - 61): Combine the following sentences as indicated:",
+          "opts": {
+            "a": "Fortunately, he passed the test",
+            "b": "He passed the test with great fortune",
+            "c": "It was very fortunate that he passed the test",
+            "d": "He was to fortunate to not have passed the test"
+          },
+          "q": "He passed the test. It was very fortunate. (use an Adverb)",
+          "explanation": "‘Fortunately’ is the adverb form and modifies the statement that he passed the test."
+        },
+        "59": {
+          "n": 59,
+          "page": 10,
+          "part": "B",
+          "direction": "Directions (Qusetion Nos. 57 - 61): Combine the following sentences as indicated:",
+          "opts": {
+            "a": "John is my friend who is a captain in the army",
+            "b": "A captain in the army, John is my friend",
+            "c": "John, my friend, is a captain in the army",
+            "d": "John is my friend as well as a captain in the army"
+          },
+          "q": "John is my friend. He is a captain in the army. (use Noun phrase in apposition)",
+          "explanation": "‘My friend’ renames ‘John’ next to it, forming a noun phrase in apposition."
+        },
+        "60": {
+          "n": 60,
+          "page": 10,
+          "part": "B",
+          "direction": "Directions (Qusetion Nos. 57 - 61): Combine the following sentences as indicated:",
+          "opts": {
+            "a": "My cow, red in colour, was sold",
+            "b": "I have sold my red cow",
+            "c": "I have sold my cow which was red in colour",
+            "d": "I have sold a cow that is red"
+          },
+          "q": "I have sold my cow. It was red in colour. (using adjective clause)",
+          "explanation": "‘Which was red in colour’ is an adjective clause modifying ‘cow’."
+        },
+        "61": {
+          "n": 61,
+          "page": 11,
+          "part": "B",
+          "direction": "Directions (Qusetion Nos. 57 - 61): Combine the following sentences as indicated:",
+          "opts": {
+            "a": "Do what you like, but don’t bother me",
+            "b": "Do what you like and don’t bother me",
+            "c": "Do what you like, therefore don’t bother me",
+            "d": "Do what you like or don’t bother me"
+          },
+          "q": "Do what you like. Do not bother me. (use adversative conjunction)",
+          "explanation": "‘But’ is an adversative conjunction that contrasts the second instruction with the first."
+        },
+        "62": {
+          "n": 62,
+          "page": 11,
+          "part": "B",
+          "direction": "Direction (Question Nos. 62 - 66): Select the option that is completely free of grammatical, syntax,",
+          "opts": {
+            "a": "Neither the field surveyor nor the structural engineers is satisfied with the stability of the opencast benches.",
+            "b": "Neither the field surveyor nor the structural engineers are satisfied with the stability of the opencast benches.",
+            "c": "Neither the field surveyor nor the structural engineers was satisfied with the stability of the opencast benches.",
+            "d": "Neither the field surveyor nor the structural engineers has been satisfied with the stability of the opencast benches."
+          },
+          "q": "Which sentence correctly handles subject-verb agreement with compound structures?",
+          "explanation": "With ‘neither…nor’, the verb agrees with the nearer subject. ‘Structural engineers’ is plural, so ‘are’ is correct."
+        },
+        "63": {
+          "n": 63,
+          "page": 11,
+          "part": "B",
+          "direction": "Direction (Question Nos. 62 - 66): Select the option that is completely free of grammatical, syntax,",
+          "opts": {
+            "a": "The unscientific dumping of aggregate waste will adverse effect the local water table within a few months.",
+            "b": "The unscientific dumping of aggregate waste will adversely effect the local water table within a few months.",
+            "c": "The unscientific dumping of aggregate waste will adversely affect the local water table within a few months.",
+            "d": "The unscientific dumping of aggregate waste will have an adverse affect on the local water table within a few months."
+          },
+          "q": "Which sentence displays correct word usage regarding “effect” and “affect”?",
+          "explanation": "‘Adversely’ is the adverb; ‘affect’ is the verb meaning to influence. The other options misuse ‘adverse’, ‘effect’ or ‘affect’ as a noun."
+        },
+        "65": {
+          "n": 65,
+          "page": 11,
+          "part": "B",
+          "direction": "Direction (Question Nos. 62 - 66): Select the option that is completely free of grammatical, syntax,",
+          "opts": {
+            "a": "The three quarrys’ common access road was heavily damaged by the overloaded transport dumpers.",
+            "b": "The three quarries’ common access road was heavily damaged by the overloaded transport dumpers.",
+            "c": "The three quarry’s common access road was heavily damaged by the overloaded transport dumpers.",
+            "d": "The three quarries common access road was heavily damaged by the overloaded transport dumpers."
+          },
+          "q": "Which sentence uses possessive punctuation flawlessly?",
+          "explanation": "‘Quarries’ is the plural of ‘quarry’; its plural possessive is formed with an apostrophe after the s: ‘quarries’ common access road’."
+        },
+        "66": {
+          "n": 66,
+          "page": 12,
+          "part": "B",
+          "direction": "Direction (Question Nos. 62 - 66): Select the option that is completely free of grammatical, syntax,",
+          "opts": {
+            "a": "When the inspector reached the drilling site, he discovered that the workers already fled the",
+            "b": "When the inspector reached the drilling site, he discovered that the workers had already fled",
+            "c": "When the inspector reaches the drilling site, he discovered that the workers already fled the",
+            "d": "When the inspector reached the drilling site, he discovers that the workers had already fled the"
+          },
+          "q": "Which sentence showcases accurate use of tense?",
+          "explanation": "The workers fled before the inspector arrived, so past perfect ‘had fled’ correctly marks the earlier past action."
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 1,
+          "explanation": "‘Weekly’ modifies the verb ‘met’ by telling how often the committee met, so it is an adverb."
+        },
+        "2": {
+          "answerIndex": 0,
+          "explanation": "‘Fast’ describes the noun ‘solution’, so it functions as an adjective."
+        },
+        "3": {
+          "answerIndex": 2,
+          "explanation": "‘Past’ is followed by the noun phrase ‘the boundary pillar’, which makes it a preposition here."
+        },
+        "4": {
+          "answerIndex": 2,
+          "explanation": "‘House’ means to provide a place for the samples. It is the main verb of the infinitive phrase ‘to house’."
+        },
+        "5": {
+          "answerIndex": 0,
+          "explanation": "‘Neither’ is paired with ‘nor’ to join the two subjects, so it functions as a correlative conjunction."
+        },
+        "6": {
+          "answerIndex": 2,
+          "explanation": "In ‘an iron helmet’, ‘iron’ describes the material or quality of the noun ‘helmet’, so it is used adjectivally."
+        },
+        "7": {
+          "answerIndex": 2,
+          "explanation": "‘Before’ introduces the dependent clause ‘you store it in the shed’, so it is a subordinating conjunction."
+        },
+        "8": {
+          "answerIndex": 2,
+          "explanation": "‘Fairly’ modifies the adverb ‘quickly’, indicating the degree to which the audit was completed quickly."
+        },
+        "9": {
+          "answerIndex": 0,
+          "explanation": "‘Both’ specifies the noun ‘plans’; it functions as a determiner/adjective in this sentence."
+        },
+        "10": {
+          "answerIndex": 2,
+          "explanation": "‘Politely’ describes the manner in which the administration handled the protest, so it is an adverb of manner."
+        },
+        "16": {
+          "answerIndex": 0,
+          "explanation": "‘Formal’ describes the quality or type of the notice, so it is an adjective of quality."
+        },
+        "17": {
+          "answerIndex": 1,
+          "explanation": "‘Near’ is followed by the noun phrase ‘the active quarry site’ and relates the office’s location to it, so it is a preposition."
+        },
+        "18": {
+          "answerIndex": 2,
+          "explanation": "‘Extremely’ modifies the adjective ‘chaotic’ by expressing its degree."
+        },
+        "19": {
+          "answerIndex": 1,
+          "explanation": "‘Blasting’ names an activity and functions as the subject of the sentence. This -ing form is a gerund."
+        },
+        "20": {
+          "answerIndex": 1,
+          "explanation": "‘Few’ quantifies the countable noun ‘errors’; in the sentence it is an adjective of quantity (also called an adjective of number in some grammars)."
+        },
+        "21": {
+          "answerIndex": 2,
+          "explanation": "‘Slowly’ tells how the dumpers move, so it is an adverb of manner."
+        },
+        "22": {
+          "answerIndex": 1,
+          "explanation": "‘About’ introduces the noun phrase ‘the heavy dust pollution’ and links it to ‘concerns’, so it functions as a preposition."
+        },
+        "23": {
+          "answerIndex": 1,
+          "explanation": "‘Daily’ tells how often the parameters must be checked, so it is an adverb of frequency."
+        },
+        "24": {
+          "answerIndex": 2,
+          "explanation": "‘So’ joins the cause clause to the result clause, so it is a coordinating conjunction here."
+        },
+        "25": {
+          "answerIndex": 1,
+          "explanation": "‘Each’ stands for the members of a group in the construction ‘each of the logs’, so it functions as a distributive pronoun."
+        },
+        "27": {
+          "answerIndex": 2,
+          "explanation": "‘Strength’ is a noun; changing it to the adjective ‘strong’ gives the equivalent phrase ‘I am strong enough to continue.’"
+        },
+        "28": {
+          "answerIndex": 0,
+          "explanation": "The noun ‘proposal’ changes to the verb ‘proposed’; option A preserves the intended meaning and sentence structure."
+        },
+        "30": {
+          "answerIndex": 2,
+          "explanation": "The noun form of ‘true’ is ‘truth’, producing ‘It is the truth that I do not deserve her.’"
+        },
+        "31": {
+          "answerIndex": 3,
+          "explanation": "‘Most efficiently’ is the superlative form of the adverb ‘efficiently’; it modifies ‘runs’."
+        },
+        "32": {
+          "answerIndex": 0,
+          "explanation": "‘Who’ introduces a relative clause describing ‘the safety engineer’, so it is a relative pronoun."
+        },
+        "33": {
+          "answerIndex": 2,
+          "explanation": "‘Seldom’ tells how often the Controller issues a notice, so it is an adverb of frequency."
+        },
+        "34": {
+          "answerIndex": 2,
+          "explanation": "‘Most apparent’ expresses the highest degree of the adjective ‘apparent’, so it is superlative."
+        },
+        "35": {
+          "answerIndex": 0,
+          "explanation": "‘There’ indicates where the task force set up the equipment, so it is an adverb of place."
+        },
+        "36": {
+          "answerIndex": 1,
+          "explanation": "‘Delineate’ means to describe or mark boundaries precisely, which fits the sentence."
+        },
+        "37": {
+          "answerIndex": 1,
+          "explanation": "A ‘makeshift’ fix is temporary and improvised, matching a short-term repair."
+        },
+        "38": {
+          "answerIndex": 0,
+          "explanation": "‘Siphoning’ means secretly or illegally diverting something; it fits the illegal transport networks taking royalties."
+        },
+        "39": {
+          "answerIndex": 2,
+          "explanation": "‘Judicious’ means showing good judgment, which fits a plan prioritizing long-term conservation."
+        },
+        "40": {
+          "answerIndex": 2,
+          "explanation": "‘Articulate’ means clear and effective in expression. A petition listing specific dates and violations is articulate."
+        },
+        "41": {
+          "answerIndex": 0,
+          "explanation": "‘Bite off more than you can chew’ means to take on more than one can manage."
+        },
+        "42": {
+          "answerIndex": 2,
+          "explanation": "‘Under the weather’ means feeling ill or unwell."
+        },
+        "43": {
+          "answerIndex": 3,
+          "explanation": "‘In the red’ means in debt or operating at a financial loss."
+        },
+        "45": {
+          "answerIndex": 3,
+          "explanation": "‘Die in harness’ means to die while still working or serving."
+        },
+        "46": {
+          "answerIndex": 0,
+          "explanation": "A ‘litmus test’ is a decisive test that reveals or establishes something important."
+        },
+        "47": {
+          "answerIndex": 2,
+          "explanation": "A teetotaler completely abstains from drinking alcohol."
+        },
+        "48": {
+          "answerIndex": 0,
+          "explanation": "‘Obsolete’ means no longer in use."
+        },
+        "49": {
+          "answerIndex": 3,
+          "explanation": "‘Immortalize’ means to preserve someone or something in lasting memory or fame."
+        },
+        "50": {
+          "answerIndex": 2,
+          "explanation": "‘Anarchy’ is a state of disorder caused by the absence or non-enforcement of law."
+        },
+        "51": {
+          "answerIndex": 1,
+          "explanation": "‘Unanimous’ describes a decision or opinion agreed to by everyone in a group."
+        },
+        "52": {
+          "answerIndex": 1,
+          "explanation": "‘Arbitrary’ means based on personal choice or whim; ‘rational’ is the closest opposite among the choices."
+        },
+        "53": {
+          "answerIndex": 2,
+          "explanation": "‘Convivial’ means friendly and sociable; ‘unsociable’ is its opposite."
+        },
+        "54": {
+          "answerIndex": 1,
+          "explanation": "‘Inevitable’ means unavoidable; its opposite is ‘avoidable’."
+        },
+        "55": {
+          "answerIndex": 3,
+          "explanation": "‘Erstwhile’ means former or previous; ‘current’ is the opposite."
+        },
+        "56": {
+          "answerIndex": 0,
+          "explanation": "‘Compel’ means force someone to do something; ‘dissuade’ means persuade them not to."
+        },
+        "57": {
+          "answerIndex": 1,
+          "explanation": "‘Too hot to go out’ combines the ideas and uses the infinitive ‘to go’ as directed."
+        },
+        "58": {
+          "answerIndex": 0,
+          "explanation": "‘Fortunately’ is the adverb form and modifies the statement that he passed the test."
+        },
+        "59": {
+          "answerIndex": 2,
+          "explanation": "‘My friend’ renames ‘John’ next to it, forming a noun phrase in apposition."
+        },
+        "60": {
+          "answerIndex": 2,
+          "explanation": "‘Which was red in colour’ is an adjective clause modifying ‘cow’."
+        },
+        "61": {
+          "answerIndex": 0,
+          "explanation": "‘But’ is an adversative conjunction that contrasts the second instruction with the first."
+        },
+        "62": {
+          "answerIndex": 1,
+          "explanation": "With ‘neither…nor’, the verb agrees with the nearer subject. ‘Structural engineers’ is plural, so ‘are’ is correct."
+        },
+        "63": {
+          "answerIndex": 2,
+          "explanation": "‘Adversely’ is the adverb; ‘affect’ is the verb meaning to influence. The other options misuse ‘adverse’, ‘effect’ or ‘affect’ as a noun."
+        },
+        "65": {
+          "answerIndex": 1,
+          "explanation": "‘Quarries’ is the plural of ‘quarry’; its plural possessive is formed with an apostrophe after the s: ‘quarries’ common access road’."
+        },
+        "66": {
+          "answerIndex": 1,
+          "explanation": "The workers fled before the inspector arrived, so past perfect ‘had fled’ correctly marks the earlier past action."
+        }
+      }
     }
   }
 }

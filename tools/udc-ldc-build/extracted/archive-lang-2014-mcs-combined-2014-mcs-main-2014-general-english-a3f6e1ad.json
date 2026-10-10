@@ -1,0 +1,206 @@
+{
+  "slug": "archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad",
+  "exam": "MCS Combined - 2014",
+  "sitting": "2014",
+  "subject": "General English",
+  "source": "archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad.pdf",
+  "sourceSha256": "013d5da5f7aff9c0511409dd3ac27aff944f92839b3d798b277129c597e816c6",
+  "ocr": false,
+  "count": 8,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FIFA World Cup unifies the Nation.  Do you agree?",
+        "b": "Factors for improving the economy of Mizoram.",
+        "c": "Transformation by Information Technology on Mizo Society."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Write an essay in about 1000 words on any of the given topics:(20)",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "What are the factors that hinder the growth of the mind?(3)",
+        "b": "Mention the failures that hamper the presence of fruitful mind.(3)",
+        "c": "How can evil be avoided in the formation of nationalism?(3)",
+        "d": "What solution can be applied to achieve a balance in culture?(3)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following passage carefully and answer the questions that follow: Nationalism, of course, is a curious phenomenon which at a certain stage in a country’s history gives life, growth, strength and unity but, at the same time, it has a tendency to limit one, because one thinks of one’s country as something different from the rest of  the world.  The perspective changes and one is continuously thinking of one’s own struggles and virtues and failings to the exclusion of other thoughts.  The result is that the same nationalism, which is the symbol of growth of people, becomes a symbol of cessation of that growth in mind.  Nationalism, when it becomes successful, sometimes goes on spreading in an aggressive way and becomes a danger internationally.  Whatever line of thought you follow, you arrive at a conclusion that some kind of balance must be found.  Otherwise something that was good can turn into evil. Culture, which is essentially good, becomes not only static but aggressive and something that breeds conflict and hatred when looked at from a wrong point of view.  We turn to economic theories because they have an undoubted importance.  It is folly to talk of culture or even of God when human beings starve and die. Before one can talk about anything else one must provide one of the essentials of life to human beings.  That is where economics comes in. Human beings today are not in the mood to tolerate this suffering and starvation and inequality when they see that the burden is not equally shared.  Others profit while they only bear the burden. So if we approach our fellow human beings or countries in a friendly way, with out minds and hearts open and prepared to accept whatever good comes to them - and that does not mean surrendering something that we consider of essential value to truth or to our own genius - then we shall be led not only towards understanding but the right type of understanding.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It was done by the butler. (change to active)",
+        "b": "The accident shocked her. (change to passive)",
+        "c": "The son promised his mother that he would never be rude to her. (change to direct)",
+        "d": "The strike was going to be called off.  The leader told me that. (change to complex) compound) (g)Choose the correct alternative: (i)Could you give me _______ honey, please? (some / any) (ii)He hasn’t finished the work _______ (still / yet) (h)Put the words in the sentences in the right order: (i)They offered a job me. (ii)We made captain him."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rewrite the following sentences as directed:(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Compare your answers _______ your partner.",
+        "b": "This key holder is very special _______ me.",
+        "c": "Kittens and mice are _______ the same place.",
+        "d": "Write _______ me soon. (e)Have you got a piece _______ paper? (f)I’m tall _______ black hair and brown eyes. (g)We have got a house _______ a big garden. (h)I come _______ a big family. (i)Match the pictures _______ the names. (j)Is your house _______ the country? (k)Guess.  What have I got _______ my hand? (l)I have got two pens.  What _______ you?"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks with the correct prepositions **(any ten)**:(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sobriety",
+        "b": "Liquidate",
+        "c": "Gigantic",
+        "d": "Magnify (e)Susceptible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Use each of the words provided below to make sentences that bring out their meaning clearly: (5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jack was not tired _______ he took a nap.",
+        "b": "The neighbourhood isn’t very interesting.  I like the house _______.",
+        "c": "The children slept _______ the noise.",
+        "d": "She is extremely rich; _______ she’s not snobbish. (e)You’d better take a taxi _______ you’ll arrive late."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks using one of the following linkers/connectors:(5×1=5) though, otherwise, nevertheless, however, despite",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "My daughter likes purple _______. (stationary/stationery)",
+        "b": "The government’s decision met with much _______. (descent/dissent)",
+        "c": "We went before the teen _______. (council/counsel)",
+        "d": "A joke should _______ (precede/proceed) your speech."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the appropriate word to fill in the blanks:(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Baker’s Dozen",
+        "b": "Field Day",
+        "c": "Graveyard Shift",
+        "d": "It takes two to tango"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences with the following idioms and phrases **(any five)**:(5×2=10)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      2
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/a3f6e1addac04290ad20a72ccc5f179b/mcs-main-2014-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

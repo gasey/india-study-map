@@ -1,0 +1,1082 @@
+{
+  "slug": "archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+  "exam": "Forest Ranger-2024",
+  "sitting": "2024",
+  "subject": "General English",
+  "source": "archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf",
+  "sourceSha256": "6150708e440ad75a4d166c545c63057471925f41b6eed061f58085ac76886851",
+  "ocr": true,
+  "count": 42,
+  "questions": [
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):IdentifythePartofSpeechoftheunderlinedwords.",
+      "opts": {
+        "a": "Verb(c)Adverb",
+        "b": "Noun(d)Conjunction",
+        "c": "Noun",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HerefusedtoacknowledgemewhenIsawhimlastnight.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.26-35):Fillintheblankswiththeappropriateconjunctionor",
+      "opts": {
+        "a": "beside(c)next",
+        "b": "aside(d)besides",
+        "c": "throughout",
+        "d": "thorough"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hesatonthechairtomine.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Aftertherainstopped,thesuncameout",
+        "b": "Therainstopped.Thesuncameout",
+        "c": "Therainstoppedthesuncomingout",
+        "d": "Thesuncameoutaftertherainstopped"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Therainstoppedandthesuncameout(ToComplex)",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Tomfinishedhishomework,andhencesoforthwenttobed",
+        "b": "Finishinghishomework,Tomwenttobed.",
+        "c": "Goingtobed,Tomfinishedhishomework",
+        "d": "Tomfinishedhishomework,andtherefore,hewenttobed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tomfinishedhishomeworkandwenttobed(ToSimple)",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Despitebeingsick;hewenttowork~",
+        "b": "Hewassick.Hewenttowork",
+        "c": "Hewenttoworksick",
+        "d": "Hewassickbutheneverthelesswenttowork"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Despitebeingsick,hewenttowork(toCompound)",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Hehastoeathealthiertoavoidgettingsick",
+        "b": "Hehastoeathealthiersothathewillgetsick",
+        "c": "Hewillgetsickifhedoesnoteathealthier",
+        "d": "Hehastoeathealthiersolongashedoesnotwanttogetsick"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hehastoeathealthier,orhewillgetsick(toSimple)",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Theconcertwasloud.Itwasenjoyable",
+        "b": "Theconcertwasloud,butitwasalsoenjoyable",
+        "c": "Beingloud,theconcertwasenjoyable",
+        "d": "Theconcertwasloudandenjoyable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Althoughtheconcertwasloud,itwasenjoyable(toCompound)",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Nickdidnotgotoworkduetohisillness°",
+        "b": "Beingill,Nickdidnotgotowork",
+        "c": "Nick,owingtohisillness,didnotgotowork",
+        "d": "Nickdidnotgotoworkbecausehewasill"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Duetohisillness,Nickdidnotgotowork(toComplex)",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Thoughitwasraining,wewentout",
+        "b": "Itwasrainingbecausewewentout",
+        "c": "Wewentoutintherain",
+        "d": "_Itwasrainingandwewentout"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Itwasrainingbutwewentout(toComplex)",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Billcannotwalkanyfurtherbecausehewassoweak",
+        "b": "Billwastooweaktowalkanyfurther",
+        "c": "Ashewassoweak,Billcouldnotwalkanyfurther",
+        "d": "Billcouldnotwalkanyfurtherasaconsequenceofhisweakness ——"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Billwassoweakthathecouldnotwalkanyfurther(toSimple)",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Beingcold,Iturnedoffthefan",
+        "b": "Iturnedoffthefanasitwascold",
+        "c": "ItisverycoldandsoIturnedoffthefan",
+        "d": "Asitwascold,Iturnedoffthefan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ItissocoldthatIhadtoturnoffthefan(toCompound)",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.36-45):Convertthesentencesasdirected.",
+      "opts": {
+        "a": "Despitebeingrich,Claireisnothappy",
+        "b": "Pansyisrichyetsheisunhappy",
+        "c": "Pansyisunhappyinspiteofbeingrich",
+        "d": "AlthoughPansyisrich,yetsheisunhappy,"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AlthoughPansyisrich,sheisnothappy(toSimple)",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.46-55):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "Itwastoohottogoout",
+        "b": "Itwastoohotthatwecouldnotgoout",
+        "c": "Itwassohotthatwecouldnotgoouttoo",
+        "d": "Itwashottoogoout"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Itwassohotthatwecouldnotgoout.(use‘too’)",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.46-55):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "Leaisgreaterthanthegreatestdanceramongstthetroupe",
+        "b": "Leaisthegreaterdanceramongstthetroupe",
+        "c": "NootherdanceramongstthetroupeisgreaterthanLea",
+        "d": "NootherdancerisasgreatasLeaamongstthetroupe (a)Thegardenwasbeautifiedbythepresenceofthefairies (b)Thepresenceofthefairiesmadethegardenbeautiful (c)Thegardenwasmadebeautifullybythepresenceofthefairies (d)Thepresenceofthefairiesgavethegardenbeauty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Leaisthegreatestdanceramongstthetroupe.(useComparativeDegree).",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.46-55):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "Anyonehasnotseenhim",
+        "b": "Hehasbeenseenbyanyone",
+        "c": "Hehasbeenseenbynobody",
+        "d": "Anyonehasseenhim"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hehasnotbeenseenbyanyone(toAffirmative)",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.46-55):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "Hesmiledattheladieswithgreatcharmingly",
+        "b": "Hesmiledattheladieswithcharming",
+        "c": "Hesmiledattheladiescharmingly",
+        "d": "Hesmiledattheladiesinacharmfulmanner"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hesmiledattheladieswithgreatcharm(useAdjective)",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.46-55):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "Nosoonerhadhearrivedthanhewenttobed",
+        "b": "Nosoonerthanhearrived,hewenttobed",
+        "c": "Nosoonerashearrivedthanhewenttobed",
+        "d": "Nosoonerdidhearrived,thenwenttobed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Assoonashearrived,hewenttobed(use‘Nosooner...than’)",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.46-55):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "Shewastooill-manneredsothatIcouldnottolerateher",
+        "b": "Shewastooill-manneredsoIcannottoleratethat",
+        "c": "Shewassoill-manneredthattobetolerated",
+        "d": "Shewassoill-manneredthatIcouldnottolerateher:"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shewastooill-manneredtobetolerated(use‘so...that)",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.46-55):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "Sheisnotaveryproudperson",
+        "b": "Sheisaveryhumbleperson",
+        "c": "Sheisnotaveryhumbleperson/",
+        "d": "Sheisnotatallproud"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sheisaveryproudperson(toNegative)",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.46-55):Transformthesentencesasdirectedwithoutchangingtheir",
+      "opts": {
+        "a": "Minnyistheaccomplishestsingeramongthegirls",
+        "b": "NoothergirlismoreaccomplishedinsingingthanMinny",
+        "c": "Minnyisanaccomplishedsingeramongthegirls",
+        "d": "Minnyisthemostaccomplishedsingeramongthegirls"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "NoothergirlisasaccomplishedasingerasMinny.(useSuperlative)",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "opts": {
+        "a": "John,awealthyandgenerousman,isveryeligible.",
+        "b": "Johniseligibleaswellaswealthyandgenerous.",
+        "c": "Beingwealthyandgenerous,Johnisaneligibleman.",
+        "d": "Johniseligible,wealthyandgenerous."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Johnisaveryeligibleman.Heiswealthyandgenerous,(useNounphraseinapposition)",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "opts": {
+        "a": "Hesucceededbydintofduetohishardwork.",
+        "b": "Hesucceededbydintofhishardwork.",
+        "c": "Itisduetohishardworkbydintofhissuccess.",
+        "d": "Hesucceededduetohishardworkbydintof."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hesucceeded.Itisduetohishardwork.(use‘bydintof’)",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "opts": {
+        "a": "Isawherloyaltyandwasimpressed",
+        "b": "Iwasimpressedbyherloyalty",
+        "c": "Iwasimpressedonseeinghowloyalshewas",
+        "d": "Iwasimpressedonseeinghowloyallyshewasbeing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Isawherloyalty.Iwasimpressed.(useanAdjective)",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "opts": {
+        "a": "ThemoviewassoviolentthatIcouldnotfinishit",
+        "b": "ThemoviewastooviolentthatIcouldnotfinishit",
+        "c": "Themoviewastooviolent,henceIcouldnotfinishit",
+        "d": "Themoviewastooviolenttofinish:"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Themoviewastooviolent.Icouldnotfinishit.(useinfinitive)",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "opts": {
+        "a": "Hefinishedhisworkandwenthome",
+        "b": "Finishinghiswork,hewenthome",
+        "c": "Assoonashefinishedhiswork,hewenthome",
+        "d": "Hewenthomeafterfinishinghiswork"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hefinishedhiswork.Hewenthome,(useaParticipialPhrase)",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "opts": {
+        "a": "Shewassobeautifulthatotherwomenbecamejealous",
+        "b": "Herbeautymadeotherwomenbecomejealous",
+        "c": "Shewasabeautythatotherwomenwerejealous:",
+        "d": "Herbeautymadeotherwomenbecamejealous."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shewassobeautiful.Otherwomenbecamejealous.(useaNoun)",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "opts": {
+        "a": "Hesatonafreshly-paintedbench",
+        "b": "Hesatonajust-been-paintedbench",
+        "c": "Hesatonapainted-bench",
+        "d": "Hesatonabenchthathadjustbeen-painted"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hesatonabench.Ithadjustbeenpainted.(useCompoundadjective)",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "opts": {
+        "a": "AlthoughtheChairmanpromisedtomeettheirdemands,theworkerswerestillangry",
+        "b": "Thechairmanpromisedtomeettheirdemandsalthoughtheworkerswerestillangry",
+        "c": "Althoughtheworkerswerestillangry,theChairmanpromisedtomeettheirdemands",
+        "d": "TheChairmanalthoughpromisedtomeetthedemandsoftheangryworkers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TheChairmanpromisedtomeettheirdemands.Theworkerswerestillangry.(use‘Although’)",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "opts": {
+        "a": "Kimdidnotforgetneitherthethief’snameandface",
+        "b": "Kimdidnotforgetthethief’snameandfaceneither:",
+        "c": "Kimdidnotforgetneitherthethief’snameorhisface",
+        "d": "Kimdidnotforgetneitherthethief’snamenorhisface"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kimdidnotforgetthethief’sname.Shealsodidnotforgethisface.(use‘neither’)",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.56-65):Syrithesizethefollowingsentencesasdirectedwithout",
+      "opts": {
+        "a": "Notonlydoesthiscareconomicalbutalsofeelsgoodtodrive",
+        "b": "Thiscarnotonlyiseconomical,butalsofeelsgoodtodrive",
+        "c": "Notonlythiscariseconomical,butalsofeelsgoodtodrive",
+        "d": "Thiscarnotonlyfeelsgoodtodrive,butalsofeelseconomical"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thiscariseconomical.Italsofeelsgoodtodrive(use‘Notonly...butalso’)",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "opts": {
+        "a": "Toadjusttoanewsituation",
+        "b": "Tobecomesuddenlymoreenergetic",
+        "c": "Towanttotravel",
+        "d": "Tomeetsomeonewhomyouinstantlylike"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tofindyourfeet",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "opts": {
+        "a": "Tofindasolution",
+        "b": "Togiveupabadhabit",
+        "c": "Tolearnanewskill",
+        "d": "Tomakethingsmoreexciting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tospicethingsup",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "opts": {
+        "a": "Tobeinpleasantcircumstances",
+        "b": "Tobeinserioustrouble",
+        "c": "Tomakethecorrectchoice",
+        "d": "Toinvestigatesomethingfurther :-8-"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tobeinhotwater",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "opts": {
+        "a": "Tokeepasecret",
+        "b": "Tobeintoxicated",
+        "c": "Tofeelunwellorsick",
+        "d": "Tolackambition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tobeundertheweather",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "opts": {
+        "a": "Topretendtoknowsomething",
+        "b": "Totrytoappearaswhatoneisnot",
+        "c": "Tomakeasmallproblemseembiggerthanitactuallyis",
+        "d": "tolaughatotherpeople’smisfortune"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tomakeamountainoutofamolehill",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "opts": {
+        "a": "togetmarried",
+        "b": "toagreewithsomeone",
+        "c": "tooverthinkasituationtillyoucannotdoanythingelse",
+        "d": "tocompleteataskinacarelessmanner:"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "totietheknot:",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "opts": {
+        "a": "tobesuspiciousofone’sgoodfortune",
+        "b": "tocomeintounexpectedmoneyorgoodluck",
+        "c": "fromsomeonewithdirect,personalknowledge",
+        "d": "adauntingtask"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "fromthehorse’smouth::",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "opts": {
+        "a": "tobeindecisive",
+        "b": "failorsucceed",
+        "c": "somethingofsuperiorquality‘",
+        "d": "ruthlesslycompetitive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sinkorswim",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "opts": {
+        "a": "Thecauseofsomeone’smisfortune",
+        "b": "Atlittletonocost:",
+        "c": "Topostponesomething",
+        "d": "Veryexpensive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tocostanarmandaleg",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.66-75):Choosethecorrectmeaningofthefollowingidiomsand",
+      "opts": {
+        "a": "Aneternallyoptimisticperson",
+        "b": "Achronicliar",
+        "c": "Tobedeadandburied:",
+        "d": "Someonewhoworkshard,butcanneverbecomesuccessful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tobepushingupdaisies",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.76-85):Completethefollowingsentencesbychoosingthemost",
+      "opts": {
+        "a": "there(c)their",
+        "b": "they're(@)them",
+        "c": "condiments",
+        "d": "complements"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Therefugeesweretoldtocollectbelongings.",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.76-85):Completethefollowingsentencesbychoosingthemost",
+      "opts": {
+        "a": "insure(c)assure",
+        "b": "ensue(d)ensure",
+        "c": "procede",
+        "d": "preceed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Wehavetakenstepstothatyourmoneyissafewithus.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Source numbering gap before Q2: expected Q1; review the printed page.",
+    "Q2 (p1, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q3 (p1, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q4 (p1, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Source numbering gap before Q7: expected Q6; review the printed page.",
+    "Q7 (p1, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q8 (p1, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q9 (p1, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q10 (p1, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q11 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q12 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q13 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q14 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q15 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q16 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q17 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q18 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q19 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q20 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q21 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q22 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q23 (p3, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q24 (p3, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q25 (p3, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Source numbering gap before Q27: expected Q26; review the printed page.",
+    "Q27 (p3, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q28 (p3, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q29 (p3, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Source numbering gap before Q32: expected Q31; review the printed page.",
+    "Q32 (p3, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q33 (p3, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q34 (p3, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q35 (p3, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Source numbering gap before Q47: expected Q46; review the printed page.",
+    "Source numbering gap before Q50: expected Q49; review the printed page.",
+    "Q76 (p8, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q77 (p8, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q78 (p8, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Source numbering gap before Q81: expected Q80; review the printed page.",
+    "Q81 (p9, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Source numbering gap before Q84: expected Q83; review the printed page.",
+    "Q84 (p9, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q85 (p9, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q86 (p9, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q87 (p9, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q88 (p9, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q89 (p9, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q90 (p9, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q91 (p10, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q92 (p10, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q93 (p10, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q94 (p10, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q95 (p10, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q96 (p10, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q97 (p10, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q98 (p10, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q99 (p10, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q100 (p10, part None): only 2 option(s) ['a', 'b'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      31,
+      32,
+      33,
+      34,
+      35,
+      46,
+      49,
+      76,
+      77,
+      78,
+      80,
+      81
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/06/8d9ebe7cd55a959ee5488ae949af869a/forest-ranger-general-english-ii-2024.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

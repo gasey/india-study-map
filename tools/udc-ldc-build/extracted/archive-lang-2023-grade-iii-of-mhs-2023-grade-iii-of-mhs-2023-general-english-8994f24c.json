@@ -1,0 +1,488 @@
+{
+  "slug": "archive-lang-2023-grade-iii-of-mhs-2023-grade-iii-of-mhs-2023-general-english-8994f24c",
+  "exam": "Grade-III of MHS-2023",
+  "sitting": "2023",
+  "subject": "General English",
+  "source": "archive-lang-2023-grade-iii-of-mhs-2023-grade-iii-of-mhs-2023-general-english-8994f24c.pdf",
+  "sourceSha256": "99bd9538b9d75c5369ffb5c99fc83650a8ab535fc2acd828ff2f45f7c18a6b5e",
+  "ocr": true,
+  "count": 20,
+  "questions": [
+    {
+      "n": 8,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.8-12):Choosethecorrectanswerfromthechoicesgiven:",
+      "opts": {
+        "a": "Appreciative",
+        "b": "Sarcastic",
+        "c": "Neutral",
+        "d": "Speculative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fromthepassage,whatcanweconcludeabouttheviewoftheauthoraboutLordMountbatten?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.8-12):Choosethecorrectanswerfromthechoicesgiven:",
+      "opts": {
+        "a": "BecauseGandhiwasassassinated",
+        "b": "BecausetheBritishleftthesub-continentinhaste.",
+        "c": "BecausetheHindusandMuslimscouldnotliveinpeace.",
+        "d": "BecauseLordMountbattenwaswatchingamovieon14thAugust1947."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatistheauthorlikelytoagreetoasthereasonforthechaosinthesub-continentin1947?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.8-12):Choosethecorrectanswerfromthechoicesgiven:",
+      "opts": {
+        "a": "GrandParty",
+        "b": "Celebrations",
+        "c": "Loftyspeech",
+        "d": "Destiny"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatcouldpossibly“grandiloquence”meanasinferredfromthecontextinwhichithasbeenusedin thepassage?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.8-12):Choosethecorrectanswerfromthechoicesgiven:",
+      "opts": {
+        "a": "Mountbatten’sassociationwithIndia.",
+        "b": "Nehru’sspeech",
+        "c": "Gandhi’sassassination",
+        "d": "Theaftermathofthepartition."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatistheauthorprimarilytalkingaboutinthearticle?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.8-12):Choosethecorrectanswerfromthechoicesgiven:",
+      "opts": {
+        "a": "Becausethemoviewasaclassicof1947",
+        "b": "Hethinksitcausedthepartitionofthesub-continent.",
+        "c": "HeusesittoshowtheapathyoftheBritisherstowardsthesub-continent",
+        "d": "ItwasMountbatten’sfavouritemovie."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theauthorpersistsontalkingaboutthe“BobHopemovie”inthearticle.Why?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.13-27):Choosethenearestinmeaningforthefollowingquestions",
+      "opts": {
+        "a": "Reliant",
+        "b": "Reluctant",
+        "c": "Relinquished",
+        "d": "Resistance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fillinwithappropriateword:Shewasn’tfeelingwell,soshewastogototheevening party.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.13-27):Choosethenearestinmeaningforthefollowingquestions",
+      "opts": {
+        "a": "Passive",
+        "b": "Savage",
+        "c": "Merciless",
+        "d": "Cordial a"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichistheantonymfor‘vicious’?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.13-27):Choosethenearestinmeaningforthefollowingquestions",
+      "opts": {
+        "a": "Cynosure",
+        "b": "Antagonism",
+        "c": "Support",
+        "d": "Behemoth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichwordhasthesamemeaningas‘hostility’?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.13-27):Choosethenearestinmeaningforthefollowingquestions",
+      "opts": {
+        "a": "Ascetic",
+        "b": "Raconteur",
+        "c": "Aesthetic",
+        "d": "Eclectic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatistherightwordforsomeone‘practisinglivinglikeahermit’?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.13-27):Choosethenearestinmeaningforthefollowingquestions",
+      "opts": {
+        "a": "Collusion",
+        "b": "Behemoth",
+        "c": "Trivial",
+        "d": "Piety."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Selectthewordthatmeans‘somethinghuge’.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.13-27):Choosethenearestinmeaningforthefollowingquestions",
+      "opts": {
+        "a": "Relegate",
+        "b": "Digress",
+        "c": "Assemble",
+        "d": "Dissipate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatistheoppositeof‘amass’?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.13-27):Choosethenearestinmeaningforthefollowingquestions",
+      "opts": {
+        "a": "Big",
+        "b": "Cut",
+        "c": "Little",
+        "d": "Green"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Findthewordwhichhasthesamemeaningas‘cleave’.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.13-27):Choosethenearestinmeaningforthefollowingquestions",
+      "opts": {
+        "a": "Impact",
+        "b": "Impress",
+        "c": "Implant",
+        "d": "Implement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fillinwiththeappropriateword:‘Thedecisionwilltheentirenation.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.13-27):Choosethenearestinmeaningforthefollowingquestions",
+      "opts": {
+        "a": "Secure.",
+        "b": "Exalted",
+        "c": "Uncertain",
+        "d": "Important"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisanotherwordfor‘precarious’?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.13-27):Choosethenearestinmeaningforthefollowingquestions",
+      "opts": {
+        "a": "Come",
+        "b": "forward",
+        "c": "Retreat",
+        "d": "move"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingwordmeans‘torecedeback’?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.13-27):Choosethenearestinmeaningforthefollowingquestions",
+      "opts": {
+        "a": "Hostile",
+        "b": "tacit",
+        "c": "Overt",
+        "d": "Generic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichwordmeans‘beingimplied’without‘beingstated’?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.13-27):Choosethenearestinmeaningforthefollowingquestions",
+      "opts": {
+        "a": "Grumpy",
+        "b": "Friendly",
+        "c": "Pleasant",
+        "d": "Affable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosetherightantonymoftheword‘amicable’.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.13-27):Choosethenearestinmeaningforthefollowingquestions",
+      "opts": {
+        "a": "Praised",
+        "b": "Supervised",
+        "c": "Reproached",
+        "d": "Detained"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthesynonymfor‘berated’?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.13-27):Choosethenearestinmeaningforthefollowingquestions",
+      "opts": {
+        "a": "Cowardly",
+        "b": "Courageous",
+        "c": "Fearful",
+        "d": "Timid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatistheoppositefor‘intrepid’?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions(QuestionNos.13-27):Choosethenearestinmeaningforthefollowingquestions",
+      "opts": {
+        "a": "Parch",
+        "b": "Douse",
+        "c": "Extinguish",
+        "d": "Smother KKKKEK"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thewordoppositeto‘quench’is:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p3, part None): only 0 option(s) [] - not emitted",
+    "Q4 (p3, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p3, part None): only 0 option(s) [] - not emitted",
+    "Q6 (p3, part None): only 0 option(s) [] - not emitted",
+    "Q7 (p3, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/02/8994f24c54898930096bd21bc235c350/grade-iii-of-mhs-2023-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

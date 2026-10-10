@@ -1,14 +1,14 @@
 {
-  "papers": 241,
-  "items": 18013,
-  "mcq": 17594,
-  "written": 419,
-  "ready": 3611,
+  "papers": 351,
+  "items": 22607,
+  "mcq": 21830,
+  "written": 777,
+  "ready": 3763,
   "readyOfficial": 1618,
-  "sourceReview": 14271,
-  "unreviewed": 14232,
-  "heldReviewed": 39,
-  "missingMcq": 175,
+  "sourceReview": 18713,
+  "unreviewed": 18670,
+  "heldReviewed": 43,
+  "missingMcq": 533,
   "keyDisagreements": 37,
   "compensated": 6
 }

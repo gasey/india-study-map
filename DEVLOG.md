@@ -1,3 +1,7 @@
+## 10 October 2026 — Dedicated subject practice
+
+Shipped locally: Maths/Arithmetic, English-only and Computer Knowledge tabs with isolated subject pools; Maths/Computer topic cards and read/practise counts; English MCQ/written switching; shared progress and source review gates. Added 114 durable Maths/Computer topic assignments and a continuation contract in HANDOFF-SUBJECT-PRACTICE.md. This makes subject practice directly discoverable and gives future import/derivation work stable tagging rules. Remaining Mixed material needs topic review; browser preview access was declined, so visual verification remains open. Not published yet.
+
 # Dev log
 
 Append-only log of what got built, when, and why — written at the end of
@@ -12126,3 +12130,51 @@ just compiled):**
 - `mock_attempts`/`question_notes`/etc. have no admin-facing "delete my
   data" or GDPR-style export — fine for a closed personal tool, would need
   attention before ever opening signup to the public.
+## MPSC archive audit and English/Arithmetic continuation — 10 October 2026
+
+Audited all eight user-supplied official archive pages directly. All page HTML
+was available; three pages that errored in the web preview loaded via direct
+HTTP fetch. Checked 214 unique PDF links labelled General English or Arithmetic:
+212 returned PDF/200 and two returned 404. Added
+`HANDOFF-ARCHIVE-AUDIT.md` with archive-by-archive counts, the inaccessible URLs,
+prior import status, scope rules, and a checklist for the next model to reconcile
+and import remaining Gazetted English/Arithmetic papers. Linked this handoff
+from the Group B, UDC, subject-practice and question-bank continuation notes.
+# Gazetted English archive import and review guide — 10 October 2026
+
+Imported 109 distinct General English source PDFs from the audited Gazetted
+archives and one distinct JAO 2026 Series B GK/Arithmetic/Reasoning booklet.
+Separated the booklet's 15 Arithmetic questions from 60 GK and 17 Reasoning.
+Exact PDF duplicates were reused. Added written-prompt handling and a manual
+transcription repair for the eight ACF 2009 English descriptive prompts. The
+bank builds to 351 papers / 22,599 records; the production build passes. All
+new records stay unscored and source-review-gated. Handoff now specifies exact
+punctuation/emphasis/directions/blanks retention, solving-guide quality, and
+handling of source typos/OCR/numbering gaps. See HANDOFF-ARCHIVE-AUDIT.md for
+source exceptions and NG follow-up; the import is local and not pushed or
+deployed.
+
+## JAO Series B scan-based solving pass — 10 October 2026
+
+Reviewed the 2026 JAO Paper-II Series B scan pages 2–6. Repaired the parser's
+merged Q1 and missing Q2–Q8, restored Q43, and corrected OCR-damaged fractions,
+choice text and a number table. Added worked solutions for 14 clear questions;
+for 81 more, copied Series A answers/explanations only after exact stem/options
+matches and scan confirmation. These 95 items are practice-ready.
+Q7 (computed average 57.2 kg is absent from choices), Q40 (figure-counting
+derivation not verified), Q41/Q44 (figure options), and Q43 (direction wording)
+remain held. All 100 questions received scan review. The bank now has
+351 papers / 22,607 records, 3,706 practice-ready (1,618 official-key-backed).
+Repairs are in `jao-2026-series-b-reviewed.json`; generator updates are in
+`group_b_sources.py`. TypeScript/Vite production build and `git diff --check`
+pass. Changes remain local, not pushed or deployed.
+
+## General English scan-review batch — 10 October 2026
+
+Verified Assistant Controller of Mines (August 2026) General English Part B
+questions 1–10, 16–25, 27–28, 30–43, 45–63, and 65–66 against printed pages 3–12.
+Added derived answers and short explanations for 57 items. Q11–15 remain held because
+the extraction truncated their sentence segments; the separate Part A written
+section has duplicate numbering and remains distinct. The bank now has 351
+papers / 22,607 records, 3,763 practice-ready (1,618 official-key-backed).
+Generated with `build_group_b.py`; no push or deploy was requested.

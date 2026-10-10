@@ -1,0 +1,942 @@
+{
+  "slug": "archive-lang-2015-steno-grade-ii-2015-contract-under-dp-ar-ssw-steno-grade-iii-2015-contra-8732af63",
+  "exam": "Steno Grade-II, 2015 (Contract) under DP&AR (SSW) Steno Grade-III, 2015 (Contract) under DP&AR (SSW",
+  "sitting": "2015",
+  "subject": "General English",
+  "source": "archive-lang-2015-steno-grade-ii-2015-contract-under-dp-ar-ssw-steno-grade-iii-2015-contra-8732af63.pdf",
+  "sourceSha256": "8575a2fbbc8f76ae837ac6a52af4e31575f25d36f6cc754d1300048c19a2a33a",
+  "ocr": false,
+  "count": 40,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8):  Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "knowledge of different types of ropes",
+        "b": "good in tying ropes",
+        "c": "know how something is done or organized",
+        "d": "learning how to tie knots"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To learn the ropes",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8):  Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "go seriously wrong",
+        "b": "making wire with hay",
+        "c": "climbing on a wire",
+        "d": "to go near a hay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Go haywire",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8):  Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "difficult to swallow",
+        "b": "to have sore throat",
+        "c": "to make one feel very emotional",
+        "d": "strangle someone on the neck."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bring a lump to one’s throat",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8):  Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "talk about fashion",
+        "b": "talk exclusively about shopping",
+        "c": "talk exclusively about business or professional affairs",
+        "d": "to indulge in gossip"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Talk shop",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8):  Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "to have a personal interest",
+        "b": "to grind something",
+        "c": "to have a good axe",
+        "d": "to come to halt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I am certain ‘he has an axe to grind’ in this matter",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8):  Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "to do the right thing",
+        "b": "to be very rich",
+        "c": "to get lots of gifts",
+        "d": "a talent for speaking."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is difficult to compete with Thanga because ‘he has the gift of the gab’",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8):  Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "smelling of money",
+        "b": "very wealthy",
+        "c": "place where money is made",
+        "d": "to exchange money."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Made of money",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 8):  Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "to be completely free",
+        "b": "to get off at Scotland",
+        "c": "be released without punishment",
+        "d": "relating to Scotland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To get off scot free",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9 – 14):  Read the following passage carefully and choose the best answer",
+      "opts": {
+        "a": "across the Sabarmati river",
+        "b": "on the banks of Sabarmati river",
+        "c": "in Gujarat",
+        "d": "in imperial Mughal courts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rebels were camped :",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9 – 14):  Read the following passage carefully and choose the best answer",
+      "opts": {
+        "a": "the rebels were strong",
+        "b": "the river was flooded",
+        "c": "they rode almost continuously",
+        "d": "none of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The soldiers were exhausted because",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9 – 14):  Read the following passage carefully and choose the best answer",
+      "opts": {
+        "a": "a river in flood",
+        "b": "a calm and serene river",
+        "c": "a deep river",
+        "d": "a shallow river"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The expression “swollen river” means :",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9 – 14):  Read the following passage carefully and choose the best answer",
+      "opts": {
+        "a": "they were cowards",
+        "b": "they had joined hands with the rebels",
+        "c": "they were waiting for the king to arrive",
+        "d": "they were tired after a difficult journey"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mughal soldiers didn’t cross the river because :",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9 – 14):  Read the following passage carefully and choose the best answer",
+      "opts": {
+        "a": "surprised the soldiers",
+        "b": "angered the soldiers",
+        "c": "dismayed the soldiers",
+        "d": "enthused the soldiers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sudden arrival of king Akbar :",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9 – 14):  Read the following passage carefully and choose the best answer",
+      "opts": {
+        "a": "a dismal failure",
+        "b": "a grand success",
+        "c": "of  no particular significance",
+        "d": "an ordinary affair"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The attack on the rebels turned out to be :",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 15 – 19):  Fill in the blanks with correct prepositions:",
+      "opts": {
+        "a": "to",
+        "b": "than",
+        "c": "above",
+        "d": "before"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is senior ______ me in service.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 15 – 19):  Fill in the blanks with correct prepositions:",
+      "opts": {
+        "a": "at",
+        "b": "for",
+        "c": "with",
+        "d": "between"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Be patient _____ children.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 15 – 19):  Fill in the blanks with correct prepositions:",
+      "opts": {
+        "a": "for",
+        "b": "in",
+        "c": "of",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "That man is worthy _____ a better job.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 15 – 19):  Fill in the blanks with correct prepositions:",
+      "opts": {
+        "a": "in",
+        "b": "on",
+        "c": "by",
+        "d": "at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What’s the time ______ your watch ?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 15 – 19):  Fill in the blanks with correct prepositions:",
+      "opts": {
+        "a": "with",
+        "b": "between",
+        "c": "among",
+        "d": "over"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do not make me choose _____ the two of you.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 20 – 24) : Fill in the blanks with the correct word/phrase from the given",
+      "opts": {
+        "a": "within",
+        "b": "after",
+        "c": "beside",
+        "d": "besides"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He plays football ________ cricket.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 20 – 24) : Fill in the blanks with the correct word/phrase from the given",
+      "opts": {
+        "a": "clear",
+        "b": "reveal",
+        "c": "obstruct",
+        "d": "connect"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Too many skyscrapers _______ the view along the beach.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 20 – 24) : Fill in the blanks with the correct word/phrase from the given",
+      "opts": {
+        "a": "once",
+        "b": "once it was",
+        "c": "that once",
+        "d": "it was once"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "___ a busy city, Pompeii was virtually destroyed by the eruption of Mount Vesuvius in 79 A.D.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 20 – 24) : Fill in the blanks with the correct word/phrase from the given",
+      "opts": {
+        "a": "loan",
+        "b": "hire",
+        "c": "borrow",
+        "d": "demand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have lost my purse. Can I ______ some money from you ?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 20 – 24) : Fill in the blanks with the correct word/phrase from the given",
+      "opts": {
+        "a": "even if",
+        "b": "even though",
+        "c": "because of",
+        "d": "in spite of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Many people in Mumbai celebrated Diwali in a grand way _______ the high prices.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 25 – 29) : Identify the notion/concept expressed by each of the following",
+      "opts": {
+        "a": "advice",
+        "b": "prohibition",
+        "c": "threat",
+        "d": "promise"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You shall be punished for that.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 25 – 29) : Identify the notion/concept expressed by each of the following",
+      "opts": {
+        "a": "command",
+        "b": "possibility",
+        "c": "invitation",
+        "d": "request"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Will you have tea ?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 25 – 29) : Identify the notion/concept expressed by each of the following",
+      "opts": {
+        "a": "discontinued habit",
+        "b": "suggestion",
+        "c": "likelihood",
+        "d": "strong possibility"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I used to live in Lunglei when I was a girl.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 25 – 29) : Identify the notion/concept expressed by each of the following",
+      "opts": {
+        "a": "determination",
+        "b": "moral obligation",
+        "c": "arrangement",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We ought to love our neighbours.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 25 – 29) : Identify the notion/concept expressed by each of the following",
+      "opts": {
+        "a": "future obligation",
+        "b": "wish",
+        "c": "strong desire",
+        "d": "past obligation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You should have been more careful.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 30 – 35) : Analyze the given sentences and choose the correct option :",
+      "opts": {
+        "a": "simple sentence",
+        "b": "complex sentence",
+        "c": "compound sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "He came, he saw, he conquered.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 30 – 35) : Analyze the given sentences and choose the correct option :",
+      "opts": {
+        "a": "compound sentence",
+        "b": "simple sentence",
+        "c": "complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Everything comes to a diligent and patient man.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 30 – 35) : Analyze the given sentences and choose the correct option :",
+      "opts": {
+        "a": "complex sentence",
+        "b": "compound sentence",
+        "c": "simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tell me where you live.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 30 – 35) : Analyze the given sentences and choose the correct option :",
+      "opts": {
+        "a": "simple sentence",
+        "b": "complex sentence",
+        "c": "compound sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Spare the rod and spoil the child.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 30 – 35) : Analyze the given sentences and choose the correct option :",
+      "opts": {
+        "a": "complex sentence",
+        "b": "simple sentence",
+        "c": "compound sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "He will pay only under compulsion.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 30 – 35) : Analyze the given sentences and choose the correct option :",
+      "opts": {
+        "a": "complex sentence",
+        "b": "compound sentence",
+        "c": "compound sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "If I make a promise, I keep it.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 36 – 40) : In the given sentences, pick the correct clause of the verbs",
+      "opts": {
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "Relative clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is clear that **he was guilty.**",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 36 – 40) : In the given sentences, pick the correct clause of the verbs",
+      "opts": {
+        "a": "Adverb clause",
+        "b": "Adjective clause",
+        "c": "Principal clause",
+        "d": "Noun clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You will succeed **if you work hard**.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 36 – 40) : In the given sentences, pick the correct clause of the verbs",
+      "opts": {
+        "a": "Adverb clause",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Relative clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The boy **who has long hair** failed in the test.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 36 – 40) : In the given sentences, pick the correct clause of the verbs",
+      "opts": {
+        "a": "Adverb clause",
+        "b": "Noun clause",
+        "c": "Adjective clause",
+        "d": "Principal clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "No one knows  **who he is.**",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 36 – 40) : In the given sentences, pick the correct clause of the verbs",
+      "opts": {
+        "a": "Adjective clause",
+        "b": "Adverb clause",
+        "c": "Noun clause",
+        "d": "Relative clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You can put it **wherever you like**",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on any one of the topics in not more than 300 words :",
+      "subparts": {
+        "a": "Are newspapers  becoming  obsolete ?",
+        "b": "New school timing in Mizoram – advantages and disadvantages.",
+        "c": "Seat reservation for women in local council election."
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 3 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/8732af6399c4fba373508606d6a0ea19/steno-grade-iii-contract-2015-under-dparssw-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

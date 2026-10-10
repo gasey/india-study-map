@@ -1,0 +1,141 @@
+{
+  "slug": "archive-lang-2024-mizoram-health-services-combined-2024-mhs-combined-2024-general-english-a88ba4eb",
+  "exam": "Mizoram Health Services ( Combined)-2024",
+  "sitting": "2024",
+  "subject": "General English",
+  "source": "archive-lang-2024-mizoram-health-services-combined-2024-mhs-combined-2024-general-english-a88ba4eb.pdf",
+  "sourceSha256": "527c8cac21759aa1cbee92f8d8bc568cdb3958d2fbdb3d7e569899c9bc0070b1",
+  "ocr": true,
+  "count": 5,
+  "questions": [
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DescribetheextentofdeforestationinIndia.(6),",
+        "b": "Whathasbeentheresultofdeforestation?@)",
+        "c": "Whyhasthefloodcontrolmeasuresfailedinourcountry?@B)",
+        "d": "Howdoespopulationincreaseaffectthehills?GB) Gi)tomakebare Gi)happenagainandagain ii)seriousmisfortunes (iv)innerpartofacountry (v)setright"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Readthepassagecarefullyandanswerthequestionsthatfollow: Ttiscommonknowledgethattherehasbeenwidedeforestationinrecentyears.Accordingto conservativeestimates,fivemillionacreshavebeendenudedofforests.Thishasbroughtabout widespreadclimaticchangealloverthecountry—leadingtorecurringdroughtandothernatural calamities.Erosionoftopsoilinthecatchmentareashasresultedinthetragedyofyearlyfloodingof ourmajorrivers.Andfloodcontrolmeasureshavenotbeeneffectivebecausethosehavebeenlimited 1osuperficialremedieslikebuildingembankmentsratherthanrectifyingtherootcausebystartinga vigorousafforestationdrive.Deforestationofourhills,inparticular,hasledtosoilerosionandlandslides onunprecedentedscale,threateningthesurvivalofsomeofourpopularhillstations. Thepopularincreasehassparedthehills.Inthetownsmoreandmoreareasarebeingcleared 1omakeroomforhousesandroadsarebeingbuiltinthefondhopeofcarryingthefruitsofdevelopment iothehinterland.Thisisinevitable,ofcourse,butitneednothavebeendoneindiscriminately,without athoughttotheconsequences.Asthingsare,thenaturaldrainageoftheseareashasbeenupsetand waterseepingintobareearthhasledtoslippingandsinkingofland.Pipedwaterwhichisbeing introducedinhilltownshipswithoutdevelopingadequatedrainagefacilitieshasalsoaddedtothe threatofrapiderosion. QUESTIONS:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thegirlsaid,“Teacher,shallIwritethispoemagain” Gi)Thegirlaskedtheteacherifsheshouldwritethatpoemagain. (iit)Thegirlaskedtheteacherifsheshouldwritethispoemagain. (iv)Thegirlaskedtheteacherifsheshallwritethatpoemagain.—-",
+        "b": "Theclerksaid,“Submityourformstomorrow.” (i)Theclerkaskedustosubmitourformstomorrow. (ii)Theclerkaskedustosubmitourformsthefollowingday. Git)Theclerkasksustosubmitourformsthefollowingday. (iv)Theclerkhasaskedustosubmitourformsthefollowingday.",
+        "c": "Shesaid,“Weareallmortals.” (i)Shesaysthatweareallmortals. Gi)Shesaidthatweareallmortals. (ii)Shesaidthatwewereallmortals. (iv)Shesaysthatwehaveallbeenmortals.",
+        "d": "Thecriminalsaidtotheking,“Pleasehavemercyonme.” (i)Thecriminalbegsthekingtohavemercyonhim. (i)Thecriminalbeggedthekingtohavemercyonhim ii)Thecriminalhasbeggedthekingtohavemercyonhim (iv)Thecriminalhadbeggedthekingtohavemercyonhim. (i)Hetoldyouthatyouhadbeenlate. @i)Hesaidtoyouthatyouhadbeenlate Gi)Hetoldyouthatyouarelate (iv)Hetoldyouthatyouwerelate. ~3-."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethecorrectindirectformofspeechfromthefollowingdirectsentences.(5x1=5)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Heworkshardearningaliving.",
+        "b": "Heismorehandsomethanme.",
+        "c": "Thechildrenarebusytodotheirproject.",
+        "d": "Neithermothernorfatherwereathome.:"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Correctthefollowingsentences,(10x1=16)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thethiefenteredthehouseawindow.(from/by/through/into)",
+        "b": "Thehorsejumpedthefence.(above/over/upto/into)",
+        "c": "Hecametoschoolfoot.(on/by/with/in)",
+        "d": "Ihavenotseenherthelastthreedays.(since/from/for/in)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fillintheblanksbychoosingtheappropriateprepositionsfromthegivenalternatives: (5*1=5)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "elusive/illusive",
+        "b": "facilitate/felicitate",
+        "c": "inept/inapt",
+        "d": "hoard/horde FERREREE"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Makesentenceswitheachwordinthefollowingpairofwordtoshowtheirdifferenceinmeaning: (5x2=10)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q7 (p3, part None): only 2 option(s) ['a', 'b'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      7
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/07/a88ba4ebd6fcf58363ecb5016c7aa2b2/mhs-combined-2024-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

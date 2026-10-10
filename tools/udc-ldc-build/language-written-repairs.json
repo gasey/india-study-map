@@ -1,0 +1,52 @@
+{
+  "_note": "Manual source transcription for language papers whose full written structure was not recovered by the geometric parser. All prompts remain source-review gated and have no guessed answers.",
+  "papers": {
+    "archive-lang-2009-assistant-conservator-of-forest-acf-2009-6-general-english-b1da9fb6": {
+      "sourcePage": "https://mpsc.mizoram.gov.in/page/Old%20Question%20Paper-17-08-21-17-08-22",
+      "sourceSha256": "0aaaf609f14d4e1ab5b44ed9e2303316a4fd11a3b81becc4e2305e71d9e32cb1",
+      "reviewedOn": "2026-10-10",
+      "questions": [
+        {
+          "n": 1,
+          "page": 1,
+          "q": "Write an essay of 800–900 words on any one of the following topics (20 marks):\n(a) Survival: brain or brawn?\n(b) Success.\n(c) Unemployment.\n(d) Man is more dispensable than his environment.\n(e) Work versus Sports."
+        },
+        {
+          "n": 2,
+          "page": 1,
+          "q": "Give a summary of the following conversation (15 marks):\nTana: Where are you going so early in the morning?\nSena: I was going to ask you the same question.\nTana: It is my daily routine to visit the park in the wee hours.\nSena: That’s what I’m doing too.\nTana: How come I never saw you before?\nSena: You may be right.\nTana: Is there some special occasion this morning?\nSena: I could not sleep a wink last night.\nTana: Why?\nSena: There as a night-long power-failure.\nTana: What’s that got to do with sleep, when you had a whole night to freedom?\nSena: You know, AC didn’t work; same with fans. But the little monsters seemed to be happy about it.\nTana: I had never made myself a slave to such things.\nSena: Explain yourself.\nTana: We slept in the courtyard under mosquito nets.\nSena: But that’s not civilized by modern standard!\nTana: On the other hand, I find nothing civilized in having insomnia, or being betrayed by our masters, these gadgets of luxury.\nSena: But is sleeping in the open safe? You might get robbed.\nTana: Well, but it seemed to me most robbers like the challenge of breaking into houses of sleeping people than pick the easy ones outside, ha ha!"
+        },
+        {
+          "n": 3,
+          "page": 3,
+          "q": "The following passage has fifteen missing words. Rewrite the passage complete with the missing words (15 marks):\nA moderate earthquake ________ 5.9 on the Richter scale jolted Andaman ________ Nicobar Islands early this morning, creating ________ flutter ________ the islanders, who ran out of their houses ________ ________ panic. The earthquake lasted nearly 30 seconds. Tsunami, which was triggered ________ a mega quake in December ________ previous year, had killed nearly 3500 persons ________ this remote archipelago ________ left haunting memories ________ all. People came running ________ ________ their houses, as the epicentre ________ close ________ the island."
+        },
+        {
+          "n": 4,
+          "page": 3,
+          "q": "Make five sentences using any five of the following expressions (10 marks):\n(a) burn the candle at both ends;\n(b) say under one’s breath;\n(c) hit the nail on the head;\n(d) bring the house down;\n(e) stand in someone’s light;\n(f) hell bent;\n(g) given to;\n(h) spoiling for."
+        },
+        {
+          "n": 5,
+          "page": 4,
+          "q": "Choose the correct meaning of each word (5 marks):\n(a) fastidious — (i) too careful; (ii) slow to act; (iii) very particular about dress; (iv) quick to find fault.\n(b) invidious — (i) likely to cause ill-feeling; (ii) intentionally deceptive; (iii) deliciously tempting; (iv) suggestively immoral.\n(c) anarchy — (i) rule of archbishop; (ii) absence of government or control; (iii) a satellite kingdom; (iv) a chitinous insect.\n(d) apotheosis — (i) worship of God; (ii) making or becoming a god; (iii) study of god; (iv) religious dissertation.\n(e) anomaly — (i) an extra number; (ii) deviation from rule; (iii) non-existent name; (iv) incomplete."
+        },
+        {
+          "n": 6,
+          "page": 5,
+          "q": "Underline the incorrect part and rewrite each sentence correctly [10 × (½ + 1) = 15 marks]:\n(a) Cut it with a scissor.\n(b) I found him burning in anger.\n(c) The compartment was packed with capacity.\n(d) The P.M. clarified that the Nuclear Deal did not impinge India’s sovereignty.\n(e) The book is selling as hot cakes.\n(f) Never waste your time with idle gossip.\n(g) Make hay where the sun shines.\n(h) She resembles to her mother.\n(i) There is no end of your folly!\n(j) Many a times man feels disappointed with life."
+        },
+        {
+          "n": 7,
+          "page": 5,
+          "q": "Give the most appropriate words for the numbered blanks in the passage (10 marks):\nThe fast-degrading environment can (1) ________ preserved and improved as well, if we learn (2) ________ transform waste (3) ________ artifacts. This message (4) ________ conveyed (5) ________ students (6) ________ a school, who exhibited (7) ________ prepared by them (8) ________ waste materials on the conclusion (9) ________ (10) ________ hobby session."
+        },
+        {
+          "n": 8,
+          "page": 5,
+          "q": "Make sentences with the gerund of any five of the following words (5 × 2 = 10 marks):\nCommute · Dance · Go · Hear · Garden · Pluck · Ride · Run · Shop · Train"
+        }
+      ]
+    }
+  }
+}

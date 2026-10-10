@@ -1,0 +1,206 @@
+{
+  "slug": "archive-lang-2015-mpe-ss-2015-5-mpe-ss-2015-general-english-0439a35c",
+  "exam": "MPE&SS - 2015",
+  "sitting": "2015",
+  "subject": "General English",
+  "source": "archive-lang-2015-mpe-ss-2015-5-mpe-ss-2015-general-english-0439a35c.pdf",
+  "sourceSha256": "2a171402e3c6288dfae73ffff391bda1d7455d85328759758dbcd012adeaad4c",
+  "ocr": false,
+  "count": 8,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Importance of proper planning for development of a state",
+        "b": "Rainy season and landslides in Mizoram",
+        "c": "Effects of Information Technology on the youths of today"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Write an essay on any one of the following :(20)",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "What constitutes conceit?        (3)",
+        "b": "What should be our attitude towards other countries?(3)",
+        "c": "What is the present condition of India?(3)",
+        "d": "Are all countries good and perfect?(3)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following passage given and answer the questions given below: In every country people imagine that they are the best and the cleverest and others are not so good as they are. The Englishman thinks that he and his country are the best; the Frenchman is very proud of France and everything French; the Germans and Italians think no end of their countries and many Indians imagine India is in many ways the greatest country in the world. This is all conceit. Everybody wants to think well of himself and his country. But there is no person who has not got some good in him and some bad. And in the same way there is no country, which is not partly good and partly bad. We must take the good wherever we find it and try to remove the bad wherever it may be. We must take the good wherever we find it and try to remove wherever it may be. We are, of course, most concerned with our country - India. Unhappily it is in a bad way today and most of our people are very poor and miserable. They have no pleasure in their lives. We have to find out how we can make them happier.  We have to see what is good in our own ways and customs and try to keep it and whatever is bad we have to throw away. If we find anything good in other countries, we should certainly take it.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "There was a bridge __________ the river.",
+        "b": "Tell me __________ your adventure.",
+        "c": "We all depend __________ you.",
+        "d": "The horse jumped __________ the fence."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks with appropriate prepositions :(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The wind __________ (blow) furiously last night.",
+        "b": "I always __________ (feel) sorry for my faults.",
+        "c": "The old woman __________ (sit) in the sun in winter.",
+        "d": "My books __________ (lie) in a heap on the floor."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks with the correct tense of the verb from those given in brackets:(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "She told me that she might write to me. (change the speech)",
+        "b": "The thief had been caught by the policemen. (change the voice)",
+        "c": "She said, “I have a bad headache.” (change the speech)",
+        "d": "Let him be called in. (change the voice)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rewrite as directed:        (5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "You can get many information from the library",
+        "b": "Bible is the Holy book of Christians",
+        "c": "The meeting was held on the auditorium",
+        "d": "One of the boys have done this"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Correct the following sentences without changing their meaning : (5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The police caught the thief quickly.",
+        "b": "She found her purse.",
+        "c": "George wrote a poem.",
+        "d": "Those boys drank all the wine."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Convert theses sentences from the past simple tense into:(5×2=10) (i) negative sentence (ii) interrogative sentence",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "accept, except",
+        "b": "fair, fare",
+        "c": "precede, proceed",
+        "d": "quiet, quite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences with each word in the following pairs of words to show their difference in meaning (5×2=10)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      2
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/0439a35c243298ed12652d7e6ec95f1c/mpess-2015-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

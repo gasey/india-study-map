@@ -1,0 +1,229 @@
+{
+  "slug": "archive-lang-2015-mcs-combined-preliminary-main-2015-general-english-15-bd5631e1",
+  "exam": "MCS (Combined) Preliminary&Main - 2015",
+  "sitting": "2015",
+  "subject": "General English",
+  "source": "archive-lang-2015-mcs-combined-preliminary-main-2015-general-english-15-bd5631e1.pdf",
+  "sourceSha256": "be8aea90d041a2522ddde48cef3d07759ff8ac830a5832c7a37a9c09bb9732c1",
+  "ocr": false,
+  "count": 9,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Religion and Politics.",
+        "b": "Tolerance: The Key to National Unity.",
+        "c": "Education: an all-round development."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Write an essay in about 1000 words on any of the given topics:(20)",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "How is a book compared to ‘visiting a forest where you once blazed a trail’?(3)",
+        "b": "What is fundamental in human beings according to Phelps?(3)",
+        "c": "Mention how books are the best decorations at home.(3)",
+        "d": "How are books more convenient as friends than people?(3) (i)Mural(ii)Recluse (iii)inaccessible(iv)acquaintance (v)stimulating"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following passage carefully and answer the questions that follow: Books are for use, not for show; you should own no book that you are afraid to mark up, or afraid to place on the table, wide open and face down. A good reason for marking favourite passages in books is that this practice enables you to remember more easily the significant sayings, to refer to them quickly, and then in later years, it is like visiting a forest where you once blazed a trail. You have the pleasure of going over the old ground, and recalling both the intellectual scenery and your own earlier self. Everyone should begin collecting a private library in youth; the instinct of private property, which is fundamental in human beings, can here be cultivated with every advantage and no evils. One should have one’s own bookshelves, which should not have doors, glass windows, or keys; they should be free and accessible to the hand as well as to the eye. The best of mural decorations is books; they are more varied in color and appearance than any wallpaper, they are more attractive in design, and they have the prime advantage of being separate personalities, so that if you sit alone in the room in the firelight, you are surrounded with intimate friends. The knowledge that they are there in plain view is both stimulating and refreshing. There are of course no friends like living, breathing, corporeal men and women; my devotion to reading has never made me a recluse. How could it? Books are of the people, by the people, for the people. Literature is the immortal part of history; it is the best and most enduring part of personality. But book-friends have this advantage over living friends; you can enjoy the most truly aristocratic society in the world whenever you want it. The great dead are beyond our physical reach, and the great living are usually almost as inaccessible; as for our personal friends and acquaintances, we cannot always see them. Perchance they are asleep, or away on a journey. But in a private library, you can at any moment converse with Socrates or Shakespeare or Carlyle or Dumas or Dickens or Shaw or Barrie or Galsworthy. And there is no doubt that in these books you see these men at their best. They wrote for you. They “laid themselves out,” they did their ultimate best to entertain you, to make a favourable impression. You are necessary to them as an audience is to an actor; only instead of seeing them masked, you look into their innermost heart of heart. (William Lyon Phelps)",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "He sank in the swimming pool.",
+        "b": "He denied to help me.",
+        "c": "You must hear the lectures with concentration.",
+        "d": "The judge discharged the prisoner for lack of evidence. (e)It is wonderful coming back to one’s house."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Replace the word in italics with a synonym more appropriate in the context:(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "They live in a small house __________ the river. (beside/besides)",
+        "b": "Prolonged use of powerful drugs will __________ our health. (affect/effect)",
+        "c": "He is very __________. (industrious/industrial)",
+        "d": "Celebrities live __________ lives. (luxurious/luxuriant) (e)The house is __________ with rats. (infected/infested)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Complete the sentences using an appropriate word.(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "We are playing football every day.",
+        "b": "The hen has lain six eggs.",
+        "c": "I have seen him yesterday.",
+        "d": "He is sleeping for two hours. (e)They discussed about the whole matter"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Correct the following sentences.(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "He is much __________ now. (good)",
+        "b": "He is too __________ to be taught. (intelligent)",
+        "c": "The pain was __________ than he could bear. (much)",
+        "d": "As time went by, things began to get __________.(bad) (e)He is __________ than I thought him to be. (clever)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks using appropriate adjectives given within the brackets.(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The mouse was killed by the cat. (Change to Active)",
+        "b": "We must listen to his words. (Change to Passive)",
+        "c": "We hoped to win the game. (Change to Complex)",
+        "d": "I love him because he was my friend. (Change to Compound)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rewrite the following sentences as directed:(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China is __________ the north of India.",
+        "b": "He picks a quarrel __________ everybody.",
+        "c": "He insisted __________ me to go there.",
+        "d": "He applied __________ the bank __________ a loan."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks with the correct prepositions:(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A dark horse",
+        "b": "Laughing stock",
+        "c": "Turn a blind eye",
+        "d": "A wild goose chase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences with the following idioms and phrases (**any five**):(5×2=10)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      2
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/bd5631e101f18d402e4b5267b12c071d/general-english-15.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

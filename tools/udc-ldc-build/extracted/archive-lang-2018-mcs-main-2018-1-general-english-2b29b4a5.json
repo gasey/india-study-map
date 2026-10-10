@@ -1,0 +1,207 @@
+{
+  "slug": "archive-lang-2018-mcs-main-2018-1-general-english-2b29b4a5",
+  "exam": "MCS Main - 2018",
+  "sitting": "2018",
+  "subject": "General English",
+  "source": "archive-lang-2018-mcs-main-2018-1-general-english-2b29b4a5.pdf",
+  "sourceSha256": "ef4549180a4f79a1f2af5f8cfbeee9910df8f90ac6f93d3a411ff23fcc262f57",
+  "ocr": false,
+  "count": 8,
+  "questions": [
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "What technological advancement has helped in changing teaching-learning process?(3)",
+        "b": "What were the motives of early innovators to develop technologies in education?(3)",
+        "c": "How has improvements in educational technology catered the needs of students with disabilities?(3)",
+        "d": "In what ways do computers help the learning process of the English language?(3) (e)What is the main idea conveyed in the passage?(3)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the given passage and answer the following questions. The use of technology in education has closely mirrored the development of the personal computer. Since their introduction in the late seventies, personal computers have developed in speed, power and ease of use. Falling prices have made it possible for more and more students, particularly those in post-secondary education, to purchase their own computers. Today, the use of laptops is ubiquitous on most college campuses. Improved access to the Internet has put a wealth of resources just a click away and has revolutionized the way instruction is delivered. More and more courses are available on-line and the use of the Internet for teacher-student communication has become a fact of everyday life. Many early innovations in educational technology grew out of a desire to help students with various physical and learning disabilities overcome barriers to success in school. For example, touch screens and alternate keyboards were introduced to improve physical access to the computer; communication devices provided a way for students physically unable to speak to communicate; text readers provided auditory reinforcement for the visually impaired or struggling readers. Among the many innovative tools, programs that converted printed text into audible speech have been among the most popular. Although originally designed for students who were visually impaired or had learning difficulties, educators soon realized that text-to-speech software could benefit students with a broad spectrum of learning needs, including English Language Learners. It is not surprising, given its early history, that educators using text-to-speech software with children with special needs were among the first to recognize the benefits of such programs for English Language Learners. Many began to notice how much programs such as Kurzweil 3000 were also helping their English Language Learners become more proficient in English. Improvements in the quality of synthesized speech have continued to make these programs even more effective for this population.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "An action of making amends for a wrong or injury.",
+        "b": "That can be easily broken.",
+        "c": "Events that may or may not happen.",
+        "d": "A remedy for all diseases. (e)Happening at the same time."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Provide One Word Substitution for the following :(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I was born _____________ a Wednesday.",
+        "b": "They all agreed _____________ the proposal of the leader.",
+        "c": "Rema has been seriously ill _____________ the past week.",
+        "d": "My uncle deals _____________ oils and tea. (e)We shall wait _____________ the doctor’s orders."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Insert correct prepositions to complete the sentences.(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Another match will be played next week. ( by introducing the sentence with ‘there’)",
+        "b": "They bought a new house. (change voice)",
+        "c": "They have not received the message yet. (supply a question tag)",
+        "d": "He wrote an amazing essay and scored A⁺ (change to Complex Sentence) (e)They were digging up a road in order to repair a pipe. (replace ‘in order to’ by ‘so that’)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rewrite the following sentences as directed:(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "She has _____________ the brunt of his anger. (bear)",
+        "b": "I could tell something _____________ happening. (be)",
+        "c": "I _____________ him for a long time. (know)",
+        "d": "He _____________ when I arrived. (read) (e)Look! The circus _____________ from the other side. (come)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks with the correct form of verbs:(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "She is the girl **whom I shall marry**.",
+        "b": "Give this book to the boy **with the blue shirt**.",
+        "c": "I do not know **where she has gone**.",
+        "d": "**The lady at the store** is my mother. (e)The house **on the hill is haunted**."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "State whether the underlined groups of words are clauses or phrases and name them:(5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "course, coarse",
+        "b": "fare, fair",
+        "c": "prosecute, persecute",
+        "d": "marshal, marshall (e)mute, moot"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences with each word from the following given pairs of words to show their meaning: (5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "to fall out",
+        "b": "cut no ice",
+        "c": "to set up",
+        "d": "Yeoman’s service (e)to turn down"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Define the given idioms and phrases and make sentences accordingly:(5×2=10)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2b29b4a54dd14e1264089002495a27ae/general-english-18.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

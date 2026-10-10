@@ -1,0 +1,91 @@
+{
+  "slug": "archive-lang-2016-cdpo-under-social-welfare-deptt-1-cdpo-under-social-welfare-department-2-fc4e1911",
+  "exam": "CDPO under Social Welfare Deptt.",
+  "sitting": "2016",
+  "subject": "General English",
+  "source": "archive-lang-2016-cdpo-under-social-welfare-deptt-1-cdpo-under-social-welfare-department-2-fc4e1911.pdf",
+  "sourceSha256": "366cd5ad55368bf706348fd1ca5981cdb866c349327d35bd46f9e1b0e37a0680",
+  "ocr": false,
+  "count": 3,
+  "questions": [
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bury the hatchet",
+        "b": "Give vent to",
+        "c": "Turn a deaf ear",
+        "d": "By fits and starts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make a sentence with any seven of the following idioms and phrases(7×2=14)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The face is the index of character",
+        "b": "To anyone who wishes to amend his life there is no time like the present.",
+        "c": "Spare the rod and spoil the child"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expand the idea contained in each of the following.(3×5=15)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Explain the meaning of the following in your own words;(2×3=6) i)abstract sort of life ii)rootlessness iii)alienation from nature",
+        "b": "What kind of threat does modern technology impose?(3)",
+        "c": "How does man compromise his humanity and individuality?(2)",
+        "d": "Why has modern man developed a  feeling of ‘not-belonging’?(3)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the passage carefully and answer the questions that follow: Technology ,now threatens  to grow into a system, functioning purely in its own interests without regard for the best interest of mankind. Symptomatic of this is the way in which technology has been driven to evolve  a special technique for suggesting to man what he imagines he needs.We might eventually arrive at a stage where man, who should be the beneficiary of modern production, becomes a slave to the productive process.On the one hand, he may buy a car,a television set or a washing machine but he becomes,on the other hand,in the office,at his machine in the factory,at his drawing board,in sales-promotion,or even in the manager’s office,merely a tiny cog in a gigantic organisation.He performs his function and plays his part.The little humanity and individuality  he has,must be bought at the price of living to further the aims of others.Instead of being able to participate in  lively  cut-and – thrust of dealing with his fellow beings,instead of handling matters that concern real people, a modern businessman leads a remarkably abstract sort of life.The result is that feeling of ‘not –belonging’,so often deplored these days in public discussions. It is an inner emotion of modern man who experiences sensations of rootlessness,of belonging nowhere,who feels a stranger in his own backyard. Man’s liberation from the vagaries of nature,the basic task we attributed to technology,has now become ,by a strange freak of logic,man’s alienation from nature. And what in its beginning seemed destined to exert a humanising influence on man,now turns out to be brutalizing him. Questions:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/fc4e19113c61b73269cd12e28e295724/cdpo-under-social-welfare-department-2016-general-english-paper-i-common.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

@@ -1,0 +1,160 @@
+{
+  "slug": "archive-lang-2015-jr-grade-of-mizoram-engineering-service-2015-under-phe-and-p-e-deptt-2-j-b7d6b507",
+  "exam": "Jr.Grade of Mizoram Engineering Service-2015 under PHE and P&E Deptt.",
+  "sitting": "2015",
+  "subject": "General English",
+  "source": "archive-lang-2015-jr-grade-of-mizoram-engineering-service-2015-under-phe-and-p-e-deptt-2-j-b7d6b507.pdf",
+  "sourceSha256": "8113016596394930aee4bb9f761479167204953950084e0d532f892908e4fc91",
+  "ocr": false,
+  "count": 6,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Same sex marriage",
+        "b": "Religious revivals in Mizoram",
+        "c": "The strength of India lies in its diversity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Write an essay on any one of the following topics:(20)",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "In what sense is international level sport mimic warfare?(3)",
+        "b": "Why has serious sport nothing to do with fair play?(3)",
+        "c": "Why do organised games flourish in urban communities?(3)",
+        "d": "How is the spread of organised sport bound up with the rise of nationalism?(3) (i)savage passions (ii)a confined life"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the passage and answer the questions given below: I am always amazed when I hear people say that sport creates goodwill between the nations, and that if only the common people of the world could meet one another at football or cricket, they would have no inclination to meet on the battlefield. Nearly all the sports practised nowadays are competitive. You play to win, and the game has little meaning unless you do your utmost to win. Anyone who has played even in a school football match knows this. At the international level sports is frankly mimic warfare. But the significant thing is not the behaviour of the players but the attitude of the spectators, of the nations who work themselves into furies over these absurd contests, and seriously believe – at any rate for short periods – that running, jumping and kicking a ball are tests of national virtue. As soon as strong feelings of rivalry are aroused, the notion of playing the game according to the rules always vanishes. People want to see one side on top and the other side humiliated, and they forget that victory gained through cheating or through the intervention of the crowd is meaningless. Even when the spectators don’t intervene physically they try to influence the game by cheering their own side and ‘rattling’ opposing players with boos and insults. Serious sport has nothing to do with fair play. It is bound up with hatred, jealousy, boastfulness, disregard of all rules and sadistic pleasure in witnessing violence: in other words, it is war minus the shooting. Instead of blahblahing about the clean, healthy rivalry of the football field and the great part played by the Olympic Games in bringing the nations together, it is more useful to inquire how and why the modern cult of sport arose. Most of the games we now play are of ancient origin, but sport does not seem to have been taken very seriously between Roman times and the nineteenth century. The games were built up into a heavily-financed activity, capable of attracting vast crowds and rousing savage passions, and the infection spread from country to country. It is the most violently combative sports, football and boxing, that have spread the widest. There cannot be much doubt that the whole thing is bound up with the rise of nationalism – that is, with the lunatic modern habits of identifying oneself with large power units and seeing everything in terms of competitive prestige. Also, organised games are more likely to flourish in urban communities where the average human being lives a sedentary or at least a confined life, and does not get much opportunity for creative labour. In a rustic community a boy or young man works off a good deal of his surplus energy by walking, swimming, climbing trees, riding horses, and by various sports involving cruelty to animals, such as fishing, cock-fighting and ferreting for rats. In a big town one must indulge in group activities if one wants an outlet for one’s physical strength or for one’s sadistic impulses.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I __________ (lie) in the bath when the phone __________ (ring).",
+        "b": "It  __________ (be) cold when we __________ (leave) the house that day, and a light snow __________ (fall).",
+        "c": "Your friend who __________ (come) here the other day __________ (seem) very nice. I __________ (enjoy) meeting her.",
+        "d": "When I __________ (see) the man, he __________ (stand) outside the bank."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Put in the correct form of each verb to complete the sentences. Use the past continuous or simple past.(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shall we walk into town?",
+        "b": "Laura wanted a talk with Rita.",
+        "c": "The windows aren’t very clean.",
+        "d": "We went to a fabulous show in Mumbai."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the part of speech of the underlined words :(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I am not inclined to dispose __________ my books.",
+        "b": "My father advised me to work __________ these lines.",
+        "c": "It is best to stay indoors __________ such a hot day.",
+        "d": "A hundred soldiers rushed headlong __________ the mouth of death."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Insert appropriate prepositions:(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "He is a man of __________ birth. (decent/descent)",
+        "b": "Perfect health depends on the __________ of a few simple rules of health. (observation/ observance)",
+        "c": "We sat down __________ the stream. (beside/besides)",
+        "d": "Aesop has written an __________ conversation between a wolf and a lamb. (imaginary/ imaginative)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rewrite the following sentences inserting the words given in brackets:     (10×1=10)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      2
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/b7d6b5072ba059eddaa4d43169050118/jr-grade-of-mizoram-engineering-service-mes-2015-general-english-common.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

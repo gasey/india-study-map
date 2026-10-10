@@ -1,0 +1,1786 @@
+{
+  "slug": "archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d",
+  "exam": "Tourist Officer",
+  "sitting": "2025",
+  "subject": "General English",
+  "source": "archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d.pdf",
+  "sourceSha256": "b200602b63c202f40faf3a59a1bc90f1f24d95347504390c4e0703c3f74e9bd8",
+  "ocr": false,
+  "count": 76,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Read the following passage and answer the questions that follow:",
+      "opts": {
+        "a": "Maximizing short-term profits.",
+        "b": "Earning a living while meeting present and future needs.",
+        "c": "Increasing industrial production.",
+        "d": "Reducing population growth."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary focus of a sustainable livelihood?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Read the following passage and answer the questions that follow:",
+      "opts": {
+        "a": "Depend entirely on government support.",
+        "b": "Avoid all economic activities.",
+        "c": "Withstand external shocks and continue supporting people’s well-being.",
+        "d": "Focus only on environmental protection."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the passage, a sustainable livelihood should be able to:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Read the following passage and answer the questions that follow:",
+      "opts": {
+        "a": "Climate change",
+        "b": "Population growth",
+        "c": "Environmental degradation",
+        "d": "Technological advancement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is NOT mentioned as a challenge to sustainable livelihoods?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Read the following passage and answer the questions that follow:",
+      "opts": {
+        "a": "Increase",
+        "b": "Restore",
+        "c": "Exhaust",
+        "d": "Protect"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The word ‘deplete’ in the passage most nearly means:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Read the following passage and answer the questions that follow:",
+      "opts": {
+        "a": "Software development and banking",
+        "b": "Agriculture, forestry and fishing",
+        "c": "Manufacturing and mining only",
+        "d": "Tourism and aviation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which activities do many rural communities depend on for their livelihoods?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Read the following passage and answer the questions that follow:",
+      "opts": {
+        "a": "Excessive use of chemical fertilizers",
+        "b": "Water conservation and skill development",
+        "c": "Dependence on a single source of income",
+        "d": "Overexploitation of natural resources"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is suggested as a way to promote sustainable livelihoods?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Read the following passage and answer the questions that follow:",
+      "opts": {
+        "a": "Social exclusion",
+        "b": "Privatization of all resources",
+        "c": "Restricting access to education",
+        "d": "Community participation in decision-making"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sustainable livelihoods emphasize:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Read the following passage and answer the questions that follow:",
+      "opts": {
+        "a": "Reducing poverty and improving resilience",
+        "b": "Increasing dependence on natural resources",
+        "c": "Encouraging migration to cities",
+        "d": "Limiting community participation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is one of the ultimate goals of sustainable livelihood strategies?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Read the following passage and answer the questions that follow:",
+      "opts": {
+        "a": "Education and healthcare",
+        "b": "Credit facilities and technology",
+        "c": "Both (a) and (b)",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Access to which of the following can strengthen livelihoods?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 10): Read the following passage and answer the questions that follow:",
+      "opts": {
+        "a": "Sustainable livelihoods focus on environmental conservation.",
+        "b": "Rural livelihoods should depend on agriculture.",
+        "c": "Sustainable livelihoods combine economic security, environmental protection, and social inclusion to improve long-term well-being.",
+        "d": "Climate change is the only threat to livelihoods."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which statement best summarizes the passage?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20): Identify the part of speech of the underlined word in the following",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "adjective",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I **usually** study in the library for an hour after the class.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20): Identify the part of speech of the underlined word in the following",
+      "opts": {
+        "a": "conjunction",
+        "b": "adverb",
+        "c": "adjective",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is judged not **by** what he says but by his deed.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20): Identify the part of speech of the underlined word in the following",
+      "opts": {
+        "a": "conjunction",
+        "b": "adverb",
+        "c": "adjective",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**When** I was a student, I went to the gym everyday.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20): Identify the part of speech of the underlined word in the following",
+      "opts": {
+        "a": "conjunction",
+        "b": "interjection",
+        "c": "adjective",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I was planning to buy a car, but **wait !.** The price just doubled overnight.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20): Identify the part of speech of the underlined word in the following",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "adjective",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The lecture **interested** the student.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20): Identify the part of speech of the underlined word in the following",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "adjective",
+        "d": "noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Don’t give a **lame** excuse.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20): Identify the part of speech of the underlined word in the following",
+      "opts": {
+        "a": "pronoun",
+        "b": "preposition",
+        "c": "adjective",
+        "d": "noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The two countries went to war with **one another** over oil prices.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20): Identify the part of speech of the underlined word in the following",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "adjective",
+        "d": "noun."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She brought me **round** to her views.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20): Identify the part of speech of the underlined word in the following",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "adjective",
+        "d": "noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The movie is a comedy but **rather** a dull one.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 20): Identify the part of speech of the underlined word in the following",
+      "opts": {
+        "a": "conjunction",
+        "b": "verb",
+        "c": "adjective",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He called me **after** he had finished eating.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30): Choose the correct preposition from the alternatives given to complete",
+      "opts": {
+        "a": "in",
+        "b": "with",
+        "c": "on",
+        "d": "by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Her novel approach to the data set is predicted ________ several flawed assumptions.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30): Choose the correct preposition from the alternatives given to complete",
+      "opts": {
+        "a": "in",
+        "b": "at",
+        "c": "on",
+        "d": "of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The applicant is found deficient ________ the quantitative skills required for the fellowship.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30): Choose the correct preposition from the alternatives given to complete",
+      "opts": {
+        "a": "with",
+        "b": "to",
+        "c": "for",
+        "d": "by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Despite his initial resistance, he eventually acquiesced ________ the Minister’s demands.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30): Choose the correct preposition from the alternatives given to complete",
+      "opts": {
+        "a": "on",
+        "b": "by",
+        "c": "along",
+        "d": "at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He spent the week taking long walks ________ the picturesque trails.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30): Choose the correct preposition from the alternatives given to complete",
+      "opts": {
+        "a": "to",
+        "b": "on",
+        "c": "onto",
+        "d": "by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is imperative that we hold ________ our core values during this period of change.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30): Choose the correct preposition from the alternatives given to complete",
+      "opts": {
+        "a": "with",
+        "b": "for",
+        "c": "to",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She has a remarkable aptitude ________ learning foreign languages.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30): Choose the correct preposition from the alternatives given to complete",
+      "opts": {
+        "a": "to",
+        "b": "by",
+        "c": "at",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The witness complied ________the court’s instructions.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30): Choose the correct preposition from the alternatives given to complete",
+      "opts": {
+        "a": "on",
+        "b": "up",
+        "c": "onto",
+        "d": "at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cat jumped ________ the table and knocked over a vase.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30): Choose the correct preposition from the alternatives given to complete",
+      "opts": {
+        "a": "in",
+        "b": "through",
+        "c": "on",
+        "d": "onto"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The river flows ________ the valley for nearly fifty kilometers.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 21 - 30): Choose the correct preposition from the alternatives given to complete",
+      "opts": {
+        "a": "with",
+        "b": "for",
+        "c": "in",
+        "d": "about"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The new policy is consistent ________ the organization’s long-term objectives.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40): Choose the correct option from the alternatives given below to",
+      "opts": {
+        "a": "over",
+        "b": "on",
+        "c": "with",
+        "d": "to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Prime Minister invested the new establishment________ judical authority.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40): Choose the correct option from the alternatives given below to",
+      "opts": {
+        "a": "with",
+        "b": "at",
+        "c": "on",
+        "d": "to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was vexed ________ the behaviour of his son.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40): Choose the correct option from the alternatives given below to",
+      "opts": {
+        "a": "with",
+        "b": "at",
+        "c": "on",
+        "d": "about"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He always connives________ the faults of his children.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40): Choose the correct option from the alternatives given below to",
+      "opts": {
+        "a": "though",
+        "b": "provided that",
+        "c": "so that",
+        "d": "even though"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I will support your proposal ________ it is financially viable.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40): Choose the correct option from the alternatives given below to",
+      "opts": {
+        "a": "like",
+        "b": "as if",
+        "c": "because",
+        "d": "therefore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He acted ________ he knew everything.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40): Choose the correct option from the alternatives given below to",
+      "opts": {
+        "a": "yet",
+        "b": "but",
+        "c": "although",
+        "d": "whereas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We continued our journey ________ the road was flooded.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40): Choose the correct option from the alternatives given below to",
+      "opts": {
+        "a": "some",
+        "b": "any",
+        "c": "every",
+        "d": "all"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hardly ________ students understood the complexity of the theorem.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40): Choose the correct option from the alternatives given below to",
+      "opts": {
+        "a": "Most",
+        "b": "Much",
+        "c": "Many",
+        "d": "All"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "________ research has been conducted on this topic.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40): Choose the correct option from the alternatives given below to",
+      "opts": {
+        "a": "much",
+        "b": "many",
+        "c": "more",
+        "d": "some"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There isn’t ________ water left in the tank.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31 - 40): Choose the correct option from the alternatives given below to",
+      "opts": {
+        "a": "either",
+        "b": "neither",
+        "c": "none",
+        "d": "both"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I invited Sarah and Esther but ________ of them came.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 45): Choose the word nearest in meaning to the underlined word or",
+      "opts": {
+        "a": "silent",
+        "b": "moderate",
+        "c": "loud",
+        "d": "excited"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The children became **clamorous** when they heard the ice-cream truck approaching.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 45): Choose the word nearest in meaning to the underlined word or",
+      "opts": {
+        "a": "infirm",
+        "b": "weak",
+        "c": "important",
+        "d": "strong"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Education is a **potent** tool for breaking the cycles of poverty.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 45): Choose the word nearest in meaning to the underlined word or",
+      "opts": {
+        "a": "logical",
+        "b": "playful",
+        "c": "absurd",
+        "d": "magical"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The story has a **whimsical** charm that appeals to both children and adults.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 45): Choose the word nearest in meaning to the underlined word or",
+      "opts": {
+        "a": "robust",
+        "b": "strange",
+        "c": "feeble",
+        "d": "flawed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We laughed at their **puny** attempt to sneak into the theatre.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 45): Choose the word nearest in meaning to the underlined word or",
+      "opts": {
+        "a": "enmity",
+        "b": "opposition",
+        "c": "resentment",
+        "d": "hardships"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The leader showed remarkable courage in the face of **adversity**.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 46 - 50): Choose the correct meaning of the idioms underlined:",
+      "opts": {
+        "a": "to confuse others",
+        "b": "something impossible",
+        "c": "to outshine others",
+        "d": "through unfair means"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They will finish the construction on schedule **when pigs fly.**",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 46 - 50): Choose the correct meaning of the idioms underlined:",
+      "opts": {
+        "a": "do nothing",
+        "b": "make irrelevant effort",
+        "c": "celebrate noisily",
+        "d": "to aggravate the situation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The government was accused of **sitting on its hands** during the crisis.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 46 - 50): Choose the correct meaning of the idioms underlined:",
+      "opts": {
+        "a": "provide money dishonestly",
+        "b": "frustratingly",
+        "c": "pay in a hurried way",
+        "d": "pay unwillingly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Although he did not want to, he finally **coughed up** the admission fee.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 46 - 50): Choose the correct meaning of the idioms underlined:",
+      "opts": {
+        "a": "talk nonsense",
+        "b": "rebuke someone",
+        "c": "go off - topic",
+        "d": "expresses anger"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The speaker went **off on a tangent**, making it difficult for the audience to understand the topic.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 46 - 50): Choose the correct meaning of the idioms underlined:",
+      "opts": {
+        "a": "stab him in the back",
+        "b": "support him blindly",
+        "c": "put him to shame",
+        "d": "make him confess"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They could not **heap coals of fire** on his head.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 56): Choose the correct vocabulary to complete the sentence:",
+      "opts": {
+        "a": "emanciated",
+        "b": "enunciated",
+        "c": "elevated",
+        "d": "emaciated"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "During the winter, many deer become ________ and die because of food shortage.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 56): Choose the correct vocabulary to complete the sentence:",
+      "opts": {
+        "a": "clandestinely",
+        "b": "wickedly",
+        "c": "precociously",
+        "d": "belligerently"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The conspirators met ________ in order to plot a revolt against the ruler.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 56): Choose the correct vocabulary to complete the sentence:",
+      "opts": {
+        "a": "democratic",
+        "b": "prejudiced",
+        "c": "obsolete",
+        "d": "emotional"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It would be difficult for one so ________ to be led to believe that all men are equal and that we must disregard race, colour and creed.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 56): Choose the correct vocabulary to complete the sentence:",
+      "opts": {
+        "a": "resolve",
+        "b": "diminish",
+        "c": "castigate",
+        "d": "aggravate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rent control restrictions on small apartment owners may unfortunately ________ rather than alleviate the housing problem.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 56): Choose the correct vocabulary to complete the sentence:",
+      "opts": {
+        "a": "interesting",
+        "b": "practical",
+        "c": "significant",
+        "d": "irrelevant"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Most of the issues discussed here in the meeting were trivial and only a few were ________.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 51 - 56): Choose the correct vocabulary to complete the sentence:",
+      "opts": {
+        "a": "panel",
+        "b": "staff",
+        "c": "bunch",
+        "d": "band"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Questions will be answered by a ________ of experts.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 57 - 61): Pick out the correct clause/phrase of the words underlined in the",
+      "opts": {
+        "a": "adverb phrase",
+        "b": "noun phrase",
+        "c": "adjective phrase",
+        "d": "verb phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A man **is being questioned** by the police.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 57 - 61): Pick out the correct clause/phrase of the words underlined in the",
+      "opts": {
+        "a": "adverb phrase",
+        "b": "adjective phrase",
+        "c": "verb phrase",
+        "d": "noun phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**The brilliant young scientist from Aizawl** won the prestigious national innovation award.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 57 - 61): Pick out the correct clause/phrase of the words underlined in the",
+      "opts": {
+        "a": "adverbial clause",
+        "b": "adjective clause",
+        "c": "co-ordinate clause",
+        "d": "noun clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The proposal **which was submitted by the Superintendent last week** has been approved.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 57 - 61): Pick out the correct clause/phrase of the words underlined in the",
+      "opts": {
+        "a": "Noun Clause",
+        "b": "Adjective Clause",
+        "c": "Adverb Clause",
+        "d": "Adjective Phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Since you insist**, I shall accompany you.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 57 - 61): Pick out the correct clause/phrase of the words underlined in the",
+      "opts": {
+        "a": "Noun Clause",
+        "b": "Adjective Clause",
+        "c": "Adverb Clause",
+        "d": "Adverb Phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All depends on **how it is done**.",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 62 - 66): Choose the correct transformation of sentences as directed:",
+      "opts": {
+        "a": "How wise she was handling the crisis.",
+        "b": "Did she handle the crisis wisely?",
+        "c": "She handled the crisis wisely.",
+        "d": "The crisis was handled by her wisely."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How wisely she handled the crisis! ( Assertive Sentence)",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 62 - 66): Choose the correct transformation of sentences as directed:",
+      "opts": {
+        "a": "There is success with hard work.",
+        "b": "Hard work quarantee success.",
+        "c": "Hard work is necessary for success.",
+        "d": "Success comes only through hard work."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There is no success without hard work. ( Affirmative Sentence)",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 62 - 66): Choose the correct transformation of sentences as directed:",
+      "opts": {
+        "a": "No one appreciated the proposal.",
+        "b": "Nobody failed to appreciate the proposal.",
+        "c": "Nobody appreciate the proposal.",
+        "d": "Everyone did not appreciate the proposal."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Everyone appreciated the proposal. (Negative Sentence)",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 62 - 66): Choose the correct transformation of sentences as directed:",
+      "opts": {
+        "a": "Can anyone solve the problem without cooperation?",
+        "b": "Is it possible to solve the problem without cooperation?",
+        "c": "Is it not impossible to solve the problem without cooperation?",
+        "d": "Will they solve the problem without cooperation?"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is impossible to solve the problem without cooperation. (Interrogative Sentence)",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 62 - 66): Choose the correct transformation of sentences as directed:",
+      "opts": {
+        "a": "Why! The boy is innocent!",
+        "b": "What is an innocent child!",
+        "c": "Alas, The child is innocent!",
+        "d": "How innocent the boy is!"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The boy is innocent. ( Exclamatory Sentence)",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 67 - 71): Out of the four alternatives suggested, select the one which best",
+      "opts": {
+        "a": "The lady inquired, “ Are you now quite well again?”",
+        "b": "The lady inquires, “ Are you quite well again now?”",
+        "c": "“Were you quite well again now?”, inquired the lady.",
+        "d": "The lady asked, “Have you been quite well now?”"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The lady inquired if he was now quite well again.",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 67 - 71): Out of the four alternatives suggested, select the one which best",
+      "opts": {
+        "a": "Mr. Scrooge sigh saying that milk is a rare article in London.",
+        "b": "Mr. Scrooge exclaimed milk was, to be sure, a rare article in London.",
+        "c": "Mr. Scrooge exclaimed with a sigh that milk was, to be sure, a rare article in London.",
+        "d": "Mr. Scrooge sighed, saying that milk was, to be sure, a rare article in London."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘What a rare article milk is, to be sure, in London!’ said Mr. Scrooge with a sigh.",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 67 - 71): Out of the four alternatives suggested, select the one which best",
+      "opts": {
+        "a": "He said, “ Though I come, it is against my will.”",
+        "b": "He said, “Though I have come, it is against my will.”",
+        "c": "He said “Though I came, it was against my will.”",
+        "d": "He says, “ Though I come, it is not my will.”"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He said that though he had come, it was against his will.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 67 - 71): Out of the four alternatives suggested, select the one which best",
+      "opts": {
+        "a": "He enquired when I intend to pay him.",
+        "b": "He enquired when I do intend to pay him.",
+        "c": "He enquired when I intended to pay him.",
+        "d": "He enquired when I intend to paid him."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘When do you intend to pay me?’ he enquired.",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 67 - 71): Out of the four alternatives suggested, select the one which best",
+      "opts": {
+        "a": "He thought his hour is come and decided to meet his death like a man.",
+        "b": "He thought his hour has come and said that he would meet his death like a man.",
+        "c": "He thought he would meet his death like a man as his hour has come.",
+        "d": "He thought that his hour had come and decided to meet his death like a man."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘My hour is come,’ thought he. ‘Let me meet death like a man.’",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 72 - 76): Fill in the blanks using the correct tense form from the alternatives",
+      "opts": {
+        "a": "arrived",
+        "b": "are arriving",
+        "c": "have arrived",
+        "d": "had arrived"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The invitees ________; they are sitting in the room.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 72 - 76): Fill in the blanks using the correct tense form from the alternatives",
+      "opts": {
+        "a": "is reading",
+        "b": "read",
+        "c": "has been reading",
+        "d": "reads"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She ________ books most evenings.",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 72 - 76): Fill in the blanks using the correct tense form from the alternatives",
+      "opts": {
+        "a": "did I reached",
+        "b": "I reached",
+        "c": "did I reach",
+        "d": "had I reached"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "No sooner ________ then it started raining.",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 72 - 76): Fill in the blanks using the correct tense form from the alternatives",
+      "opts": {
+        "a": "will have made",
+        "b": "will be making",
+        "c": "would make",
+        "d": "will make"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We ________ significant advances in renewable energy by the end of this century.",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 72 - 76): Fill in the blanks using the correct tense form from the alternatives",
+      "opts": {
+        "a": "has already started",
+        "b": "started",
+        "c": "had already started",
+        "d": "was already starting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When we went to the theatre, the movie ________.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write a precis of the following passage by reducing to one third of its original length and give suitable title.(14) If a business activity does not require anything special to be done, it is not entrepreneurship. In fact a person cannot be called an entrepreneur unless he introduces something new, something different, in his venture. This is known as innovation, that is, doing something different from others. Entrepreneurs are constantly on the look out for something unique to fulfil the needs or wants of people. They may or may not be inventors of new products or new methods of production, but they are able to foresee the possibility of making use of an invention for business. Others who come to know about the same invention may not be capable of thinking about its practical usefulness in business, or they may not have the ambition or self-confidence to take advantage of it. In a competitive market, an entrepreneur can succeed only through innovation. Innovation need not necessarily be something big or dramatic. A simple adjustment to an existing product, providing service without extra charge, using colourful packaging, or selling a product in packets of different weights may all be profitable innovations. However, if similar things are done by many producers and sellers, entrepreneurs must think of other types of innovations. No wonder imagination is often more important than knowledge for innovative thinking. An entrepreneur must possess imagination as well as the ability to think creatively. Take the case of fruit juice. Nowadays fruit juice is sold in small cartons instead of bottles so that one can carry it easily and discard the container after use. This is an innovation. Let us consider another example. You may have heard of Henry Ford, who established the Ford Motor Company in the United States. He did not invent the automobile, but he applied new methods of mass production and produced passenger cars at low cost so that many people could afford them.",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Write a letter to the editor of a renowned daily newspaper in your state sharing your views on the preservation of historical sites in the state.(10)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2026/07/e4a6e30d2551f276b341bd9c587443cd/tourist-officer-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

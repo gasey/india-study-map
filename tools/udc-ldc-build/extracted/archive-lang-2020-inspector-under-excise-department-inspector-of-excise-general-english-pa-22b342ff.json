@@ -1,0 +1,76 @@
+{
+  "slug": "archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-22b342ff",
+  "exam": "Inspector under Excise Department",
+  "sitting": "2020",
+  "subject": "General English",
+  "source": "archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-22b342ff.pdf",
+  "sourceSha256": "4e3b36d37aea5b2af95bec91b011bdc624e99e6b2fef6437090bf386a446835a",
+  "ocr": false,
+  "count": 2,
+  "questions": [
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Weal and woe",
+        "b": "Pot-luck dinner",
+        "c": "Under a cloud",
+        "d": "Through and through"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Construct sentences with any seven of the following idioms and phrases to highlight their meanings (7×2=14)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Health is wealth",
+        "b": "Lost time is never found again",
+        "c": "Nothing is impossible to the willing mind",
+        "d": "He who has a why to live can bear almost any how"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expand any three of the following passages:(3×5=-15)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p2, part None): only 0 option(s) [] - not emitted",
+    "Q6 (p2, part None): only 0 option(s) [] - not emitted",
+    "Q7 (p2, part None): only 0 option(s) [] - not emitted",
+    "Q8 (p2, part None): only 0 option(s) [] - not emitted",
+    "Q9 (p2, part None): only 0 option(s) [] - not emitted",
+    "Q10 (p2, part None): only 0 option(s) [] - not emitted",
+    "Q11 (p2, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/22b342ffa0751fdde23197fc78b7f769/inspector-of-excise-general-english-paper-i.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

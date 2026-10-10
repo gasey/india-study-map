@@ -1,0 +1,91 @@
+{
+  "slug": "archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-29b4f771",
+  "exam": "Assistant Labour Officer under under Labour, Employment, Skill Development & Entrepreneurship Deptt.",
+  "sitting": "2020",
+  "subject": "General English",
+  "source": "archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-29b4f771.pdf",
+  "sourceSha256": "977b8f3580fc3134faae667535d13d83fb12e3f5a7e0d6e947c0606bfd6927db",
+  "ocr": false,
+  "count": 3,
+  "questions": [
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Yellow press",
+        "b": "Arcadian life",
+        "c": "Break the ice",
+        "d": "At daggers drawn"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make meaningful sentences with the given idioms and phrases:(7×2=14)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A moral life is a healthy life",
+        "b": "Knowledge speaks, but wisdom listens",
+        "c": "The marks humans leave are too often scars"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expand the following passages to bring out the idea in them:(3×5=15)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "What is St. Maartan? Pick the appropriate sentence.(2)",
+        "b": "Who are the Arawaks?(2)",
+        "c": "What defeated the Carib Indians?(2)",
+        "d": "What were some problems that the Indians met with?(2) (i)strife(ii)intriguing (iii)hostile(iv)abandon (v)succumbed(vi)artifacts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the passage below and answer the questions that follow: The crystal clear, blue water and the magnificent sun make the Caribbean island of Saint Maarten a favorite vacation spot, one that is popular with North Americans during their winter holidays from December through March, as well as with South Americans and Europeans from April through August. The French and Dutch settled on the island in the 1600s, and to this day, the island is divided between the two of them. The French capital is Marigot; the Dutch capital is Philipsburg. Tourists soon discover that St. Maarten has an intriguing history. Ancient artifacts found on the island date back to the Stone Age, 6,000 years ago! Tourists also learn that 1,200 years ago the Arawak Indians inhabited all the islands of the West Indies and were a peaceful people living under the guidance of their chiefs. Three hundred years after the Arawaks first arrived on St. Maarten, in the 1300s, they were defeated and forced to abandon the island by a hostile tribe of Indians originating in South America. This new tribe was called the Carib. The Caribbean Sea was named after them. Unlike the Arawaks, they had no permanent chiefs or leaders, except in times of strife. And they were extremely warlike. Worse, they were cannibalistic, eating the enemy warriors they captured. In fact, the very word cannibal comes from the Spanish name for the Carib Indians. The Spanish arrived in the fifteenth century and, unfortunately, they carried diseases to which the Indians had no immunity. Many Indians succumbed to common European illnesses; others died from the hard labor forced upon them. Answer the questions:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 2 option(s) ['a', 'b'] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/29b4f7715a5b24520cbfa8c290b56f7a/assistant-lo-general-english-paper-i.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

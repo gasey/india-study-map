@@ -1,0 +1,93 @@
+{
+  "slug": "archive-lang-2024-geologist-october-2024-geologist-general-english-i-oct-2024-e15bf650",
+  "exam": "Geologist October-2024",
+  "sitting": "2024",
+  "subject": "General English",
+  "source": "archive-lang-2024-geologist-october-2024-geologist-general-english-i-oct-2024-e15bf650.pdf",
+  "sourceSha256": "4f30bf98db3b225e6252c139ef5418042d6a81ee4f5d8642cdbe4ea60f666bab",
+  "ocr": true,
+  "count": 3,
+  "questions": [
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FabianPolicy",
+        "b": "Hobson’schoice",
+        "c": "Indoldrums",
+        "d": "Pullstrings"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Makesentenceswithanysevenofthefollowingidiomsandphrases:(7*2=14)",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Knowledgeispower",
+        "b": "Pridehathafail",
+        "c": "Sweetaretheusesofadversity",
+        "d": "Twowrongsdonotmakearight"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expandtheideacontainedinanythreeofthefollowingsentences:(3x5=15)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Whyiscapitalisminjurioustohumanrelations?(3)",
+        "b": "Whatdoescapitalismpromote(3)",
+        "c": "Howdoeconomicconditionsdividesociety?(3)",
+        "d": "Whataccordingtotheauthoristheroleofreligioninperpetuatingtheevilsofcapitalism?(3) @encourageii)abuse Gii)_tolerance(iv)assistance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Readthegivenpassagecarefullyandchoosethecorrectanswergivenbelow. Thecapitalistsystemofsocietydoesnotfosterhealthyrelationsamonghumanbeings.Afew peopleownallthemeansofproductionandothers-thoughnominallyfewhavetoselltheirlabour underconditionsimposeduponthem.Theemphasisofcapitalismbeingonthesupremeimportance ofmaterialwealththeintensityofitsappealistotheacquisitiveintensity.Itpromotesworshipof :economicpowerwithlittleregardtothemeansemployedforitsacquisitionandtheendthatitserves. Byitsexploitationofhumanbeingstothelimitsofenduranceitsconcentrationisonthelargestprofit ratherthanmaximumproduction.Thusthedivisionofhumanfamilyisdoneonthebasisofeconomic circumstances.Allthisisinjurioustodivisionofhumandignityandwhentheharrowedpoorturnto thefoundersofreligionforsuccourtheyratherofferasubtledefenceoftheestablishedorder.They promisefuturehappinessfortheirpresentsufferingandconjureupvisionsofparadisetoredressthe balancetosoothethesufferingandtherevoltofthetorturedmen.Thesystemimposesinjustice,the religiondefiesit. Questions:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q6 (p2, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/10/e15bf650c6d4e15e50c66b17c2bac735/geologist-general-english-i-oct-2024.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

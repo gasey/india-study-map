@@ -1,3 +1,7 @@
+## Subject practice continuation
+
+Follow [HANDOFF-SUBJECT-PRACTICE.md](../../HANDOFF-SUBJECT-PRACTICE.md) for the Maths/Arithmetic, English and Computer Knowledge tabs, canonical topics and import/derivation requirements.
+
 ## MPSC NG archive additions — 10 October 2026
 
 Source: [MPSC Old Question NG archive](https://mpsc.mizoram.gov.in/page/old-question-ng). The other explicitly titled General Knowledge papers found on the page already exist in the bank. Added the three missing eligible sources: Assistant LESO General Studies (April 2026), Group B (NG) Technical General Studies (January 2026), and Group B (NG) Technical General Knowledge (November 2024). Their 294 extracted MCQs remain unscored and review-gated.

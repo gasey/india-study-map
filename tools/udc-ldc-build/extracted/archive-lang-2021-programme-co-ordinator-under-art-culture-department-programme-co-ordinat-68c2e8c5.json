@@ -1,0 +1,73 @@
+{
+  "slug": "archive-lang-2021-programme-co-ordinator-under-art-culture-department-programme-co-ordinat-68c2e8c5",
+  "exam": "Programme Co-ordinator under Art & Culture Department",
+  "sitting": "2021",
+  "subject": "General English",
+  "source": "archive-lang-2021-programme-co-ordinator-under-art-culture-department-programme-co-ordinat-68c2e8c5.pdf",
+  "sourceSha256": "fcb539c714ddbcba87b01c5ff1749381b4c31c6f27c4f6ebde9996e959208660",
+  "ocr": false,
+  "count": 2,
+  "questions": [
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "reinventing the wheel",
+        "b": "gained ground",
+        "c": "shades of grey",
+        "d": "pulled no punches"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Create sentences to clearly bring out the meanings of the following idioms and phrases by using them exactly as they are given:-(7×2=14)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "What, according to the author, has induced men to unite themselves by means of civil societies? (2)",
+        "b": "How is the paradox of preserving both public liberty and authority of the government resolved? (4)",
+        "c": "To what does the author attribute the origin of the rule of law?(2)",
+        "d": "Which words in the passage are closest in meaning to the following?(4×1=4) (i)transcendent(ii)reasons (iii)infringement(iv)divine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following passage and answer the questions that follow:- The first and most important rule of legitimate or popular government, that is to say, of government whose object is the good of the people, is therefore, as I have observed, to follow in everything the general will. But to follow this will it is necessary to know it, and above all to distinguish it from the particular will, beginning with one’s self: this distinction is always very difficult to make, and only the most sublime virtue can afford sufficient illumination for it. As, in order to will, it is necessary to be free, a difficulty no less great than the former arises- that of preserving at once the public liberty and the authority of government. Look into the motives that have induced men, once united by their common needs in a general society, to unite themselves still more intimately by means of civil societies: you will find no other motive than that of assuring the property, life and liberty of each member by the protection of all. But can men be forced to defend the liberty of any one among them, without trespassing on that of others? And how can they provide for the public needs, without alienating the individual property of those who are forced to contribute to them? With whatever sophistry all this may be covered over, it is certain that if any constraint be laid on my will, I am no longer free, and that I am no longer master of my own property, if anyone else can lay a hand on it. This difficulty, which would have seemed insurmountable, has been removed, like the first, by the most sublime of all institutions, or rather by a divine inspiration, which teaches mankind to imitate here below the unchangeable decrees of the Deity. By what inconceivable art has a means been found of making men free by making them subject; of using in the service of the State properties, the persons and even the lives of all its members, without constraining and without consulting them; of confining their will by their own admission, of overcoming their refusal by that consent, and forcing them to punish themselves, when they act against their own will? How can it be that all should obey, yet nobody take upon him to command, and that all should serve, and yet have no masters, but be the more free, as, in apparent subjection, each loses no part of his liberty but what might be hurtful to that of another? These wonders are the work of law. It is to law alone that men owe justice and liberty. It is this salutary organ of the will of all which establishes, in civil right, the natural equality between men. It is this celestial voice which dictates to each citizen the precepts of public reason, and teaches him to act according to the rules of his own judgement, and not to behave inconsistently with himself. It is with this voice alone that political rulers should speak when they command; for no sooner does one man, setting aside the law, claim to subject another to his private will, than he departs from the state of civil society, and confronts him face to face in the pure state of nature, in which obedience is prescribed solely by necessity.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q5 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      5
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/68c2e8c5ce13a24fcc0b84be79c00aba/programme-co-ordinator-under-ac-deptt-general-english-i.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

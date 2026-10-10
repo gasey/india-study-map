@@ -1,0 +1,900 @@
+{
+  "slug": "archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+  "exam": "Circle Education November - 2025",
+  "sitting": "2025",
+  "subject": "General English",
+  "source": "archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf",
+  "sourceSha256": "a3b617a9b67098ab26fcb4798a8d0d931136c363c524da23a789a27d602b6b92",
+  "ocr": false,
+  "count": 37,
+  "questions": [
+    {
+      "n": 1,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 5) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Verb",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She expressed her **happiness** on receiving a scholarship.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 5) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Verb",
+        "c": "Adverb",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You **must** obey your parents.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 5) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Adverb",
+        "b": "Preposition",
+        "c": "Adjective",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The harvest is **almost** ripe.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 5) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Interjection",
+        "c": "Adjective",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The father divided the inheritance **among** his daughters and sons.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 5) : Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Adverb",
+        "c": "Preposition",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You must have some food, **for** you are hungry and have a long journey ahead.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:",
+      "opts": {
+        "a": "along",
+        "b": "besides",
+        "c": "beside",
+        "d": "in"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mrs. Sharma saw the gardener sitting ________ her grandson.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:",
+      "opts": {
+        "a": "at",
+        "b": "in",
+        "c": "by",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The heir to the throne was born ________ March last year.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:",
+      "opts": {
+        "a": "for",
+        "b": "on",
+        "c": "within",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The manager told his staff that he would return ________ a month.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:",
+      "opts": {
+        "a": "while",
+        "b": "while",
+        "c": "before",
+        "d": "since"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have met with a lot of hurdles ________ we last spoke on the phone.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:",
+      "opts": {
+        "a": "within",
+        "b": "in",
+        "c": "but",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He tried his best ________ could not land the job.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:",
+      "opts": {
+        "a": "only",
+        "b": "or",
+        "c": "but",
+        "d": "while"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hurry up ________ you will miss the train.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:",
+      "opts": {
+        "a": "before",
+        "b": "over",
+        "c": "from",
+        "d": "to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I prefer coffee ________ tea.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:",
+      "opts": {
+        "a": "at",
+        "b": "about",
+        "c": "with",
+        "d": "from"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We are very excited ________ our trip to New Delhi next week.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:",
+      "opts": {
+        "a": "on",
+        "b": "for",
+        "c": "in",
+        "d": "against"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She insisted ________ helping me with the dishes.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:",
+      "opts": {
+        "a": "with",
+        "b": "without",
+        "c": "after",
+        "d": "from"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The driver is recovering ________ his injuries.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the",
+      "opts": {
+        "a": "has shaken",
+        "b": "shakes",
+        "c": "is shaking",
+        "d": "was shaking"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The pillar ________ when he climbed it this morning.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the",
+      "opts": {
+        "a": "will work",
+        "b": "will be working",
+        "c": "has been working",
+        "d": "had worked"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mr. Miyagi ________ on this project since 2022.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the",
+      "opts": {
+        "a": "rises",
+        "b": "does rise",
+        "c": "rise",
+        "d": "rose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sun ________  in the east.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the",
+      "opts": {
+        "a": "wish",
+        "b": "wished",
+        "c": "will have been wishing",
+        "d": "has wished"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The boy ________  he had asked another question to the doctor.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the",
+      "opts": {
+        "a": "steal",
+        "b": "has stolen",
+        "c": "stole",
+        "d": "stealed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who ________ my laptop?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the",
+      "opts": {
+        "a": "will be running",
+        "b": "will have run",
+        "c": "runs",
+        "d": "would run"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hruaii ________ in the marathon tomorrow at 5:00 a.m.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the",
+      "opts": {
+        "a": "wants",
+        "b": "is wanting",
+        "c": "want",
+        "d": "have wanted"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Martha ________ to be a doctor when she grows up.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the",
+      "opts": {
+        "a": "was receiving",
+        "b": "receive",
+        "c": "received",
+        "d": "receives"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He rushed home after he ________ the phone call.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the",
+      "opts": {
+        "a": "is examining",
+        "b": "has examined",
+        "c": "was examining",
+        "d": "examines"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "While the doctor________ the patient, there was an uproar in the hall.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the",
+      "opts": {
+        "a": "is landing",
+        "b": "will land",
+        "c": "has been landing",
+        "d": "landed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The passengers deboarded after the plane ________.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26 - 29) : Complete the following sentences with the most appropriate words:",
+      "opts": {
+        "a": "imminent",
+        "b": "integral",
+        "c": "eminent",
+        "d": "intelligible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mrs. Clooney is an ________ lawyer.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26 - 29) : Complete the following sentences with the most appropriate words:",
+      "opts": {
+        "a": "sight",
+        "b": "sight",
+        "c": "cite",
+        "d": "sigh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When you write your thesis, make sure to ________ the sources you have used.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26 - 29) : Complete the following sentences with the most appropriate words:",
+      "opts": {
+        "a": "military",
+        "b": "moralist",
+        "c": "fatalist",
+        "d": "mercenary"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My brother is a ________ who works for money and not for honour.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26 - 29) : Complete the following sentences with the most appropriate words:",
+      "opts": {
+        "a": "philanthropist",
+        "b": "misanthropist",
+        "c": "philanderer",
+        "d": "pedestrian"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is a ________ who cannot stay loyal to one woman.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 30 - 33 ) : Substitute each expression with a single word from among the",
+      "opts": {
+        "a": "misogamy",
+        "b": "bigamy",
+        "c": "polygamy",
+        "d": "monogamy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The custom of having many wives­",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 30 - 33 ) : Substitute each expression with a single word from among the",
+      "opts": {
+        "a": "astrology",
+        "b": "astrophysics",
+        "c": "astronomer",
+        "d": "astroentitis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who studies stars, planets and other heavenly bodies­",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 30 - 33 ) : Substitute each expression with a single word from among the",
+      "opts": {
+        "a": "palaeontology",
+        "b": "atomy",
+        "c": "epistemology",
+        "d": "anatomy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A science of the structure of human body­",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 30 - 33 ) : Substitute each expression with a single word from among the",
+      "opts": {
+        "a": "pessimist",
+        "b": "optimist",
+        "c": "philanthropist",
+        "d": "anarchist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who looks at the dark side of things­",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 34 - 37) : Choose the most appropriate meaning for the following idioms",
+      "opts": {
+        "a": "To be violent and cruel",
+        "b": "To be very handy",
+        "c": "To make peace",
+        "d": "To make use of an opportunity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To bury the hatchet",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 34 - 37) : Choose the most appropriate meaning for the following idioms",
+      "opts": {
+        "a": "A selfish friend",
+        "b": "A lazy friend",
+        "c": "A selfless friend",
+        "d": "A complete friend"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A fair weather friend",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 34 - 37) : Choose the most appropriate meaning for the following idioms",
+      "opts": {
+        "a": "To give an advantage",
+        "b": "To inspire",
+        "c": "To encourage",
+        "d": "To discourage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To throw dust in one’s eyes",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 34 - 37) : Choose the most appropriate meaning for the following idioms",
+      "opts": {
+        "a": "A significant chase",
+        "b": "A well­planned pursuit",
+        "c": "An impromptu treasure hunt",
+        "d": "A foolish and useless pursuit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A wild goose chase",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write a précis of the following passage and provide an appropriate title.(14) Reading or the enjoyment of books has always been regarded among the charms of cultured life and is respected and envied by those who rarely give themselves that privilege. This is easy to understand when we compare the differences between the life of a man who does no reading and that of a man who does. The man who has not the habit of reading is imprisoned in his immediate world, in respect of time and place. His life falls into a set routine; he is limited to contact and conversation with a few friends and acquaintances, and he sees only what happens in his immediate neighbourhood. From this prison there is no escape. But the moment he takes up a book, he immediately enters a different world, and if it is a good book, he is immediately put in touch with one of the best talkers of the world. This talker leads him on and carries him into a different country or a different age, or unburdens to him some of his personal regrets, or discusses with him some special line or aspect of life that the reader knows nothing about. An ancient author puts him in communion with a dead spirit of long ago, and as he reads along, he begins to imagine what that ancient author looked like and what type of person he was. Now to be able to live two hours out of twelve in a different world and take one’s thought off the claims of the immediate present is, of course, a privilege to be envied by people shut in their bodily prison. But there is more to it than this. The reader is always carried away into a world of thought and reflection. Even if it is a book about physical events, there is a difference between seeing such events in person or living through them, and reading about them in books, for then the events always assume the quality of a spectacle and the reader becomes a detached spectator. The best reading is therefore that which leads us into this contemplative mood, and not that which is merely occupied with the report of events.",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Write a formal application as XYZ for the post of Lecturer in Social Science addressed to the Principal, MYG Higher Secondary School, Bawngkawn, Aizawl, Mizoram in response to the advertisment in The Aizawl Post, Vol. XVII, Issue 21 of 12th August 2025.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 2,
+      "text": "Read the following passage and answer the questions given at the end: Toward the end of her day in London Mrs. Drover went round to her shut­up house to look for several things she wanted to take away. Some belonged to herself, some to her family, who were by now used to their country life. It was late August; it had been a steamy, showery day. At the moment the trees down the pavement glittered in an escape of humid yellow afternoon sun. Against the next batch of clouds already piling up ink­dark, broken chimneys and parapets stood out. In her once familiar street, as in any unused channel, an unfamiliar queerness had silted up; a cat wove itself in and out of railings, but no human eye watched Mrs. Drover’s return. Shifting some parcels under her arm, she slowly forced round her latchkey in an unwilling lock, then gave the door, which had warped, a push with her knee. Dead air came out to meet her as she went in. The staircase window having been boarded up, no light came down into the hall. But one door, she could just see, stood ajar, so she went quickly through into the room and unshuttered the big window in there. Now the prosaic woman, looking about her, was more perplexed than she knew by everything that she saw, by traces of her long former habit of life—the yellow smoke stain up the white marble mantelpiece, the ring left by a vase on the top of the escritoire; the bruise in the wallpaper where, on the door being thrown open widely, the china handle had always hit the wall. The piano, having gone away to be stored, had left what looked like claw marks on its part of the parquet. Though not much dust had seeped in, each object wore a film of another kind; and, the only ventilation being the chimney, the whole drawing room smelled of the cold hearth. Mrs. Drover put down her parcels on the escritoire and left the room to proceed upstairs; the things she wanted were in a bedroom chest. She had been anxious to see how the house was—the part­time caretaker she shared with some neighbours was away this week on his holiday, known to be not yet back. At the best of times he did not look in often, and she was never sure that she trusted him. There were some cracks in the structure, left by the last bombing, on which she was anxious to keep an eye. Not that one could do anything. A shaft of refracted daylight now lay across the hall. She stopped dead and stared  at the hall table—on this lay a letter addressed to her. (i)Why was Mrs. Drover anxious to see how the house was?(2) (ii)Why did Mrs. Drover go to her “shut­up house”?(2) (iii)Describe how Mrs. Drover enters the house.(2) (iv)What are the things Mrs. Dover notices when she enters the house?(2) (v)Find words in the passage that has the same meaning as the following:(2×1=2)",
+      "subparts": {
+        "a": "trickled or flowed",
+        "b": "gazed or looked"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p2, part A): conventional section, 2 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/11/2eebed82d327ddf3ec8045781487823a/ceo-general-english-2025.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

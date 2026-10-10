@@ -1,0 +1,1452 @@
+{
+  "slug": "archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48",
+  "exam": "Staff Nurse August 2026",
+  "sitting": "2026",
+  "subject": "General English",
+  "source": "archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48.pdf",
+  "sourceSha256": "4c31f9501ca82a0f1668f58adb348fcd5690fd734c76d6b901abce6453d9fcce",
+  "ocr": false,
+  "count": 60,
+  "questions": [
+    {
+      "n": 1,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1-8): The following sentences has a word or phrase underlined. Read the",
+      "opts": {
+        "a": "Noun",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do I make you **happy**?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1-8): The following sentences has a word or phrase underlined. Read the",
+      "opts": {
+        "a": "Noun",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Let’s go somewhere **quiet.**",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1-8): The following sentences has a word or phrase underlined. Read the",
+      "opts": {
+        "a": "Noun",
+        "b": "**Adverb**",
+        "c": "Verb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I thought you spoke to her rather **sharply**.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1-8): The following sentences has a word or phrase underlined. Read the",
+      "opts": {
+        "a": "Noun",
+        "b": "**Adverb**",
+        "c": "Verb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The door was **wide** open.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1-8): The following sentences has a word or phrase underlined. Read the",
+      "opts": {
+        "a": "Interjection",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Well!** I suppose we could submit the proposal tomorrow.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1-8): The following sentences has a word or phrase underlined. Read the",
+      "opts": {
+        "a": "Noun",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sports has never really **interested** me.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1-8): The following sentences has a word or phrase underlined. Read the",
+      "opts": {
+        "a": "Noun",
+        "b": "Conjunction",
+        "c": "Adjective",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The minister, under **intense** public pressure, submited a letter of resignation.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1-8): The following sentences has a word or phrase underlined. Read the",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The two countries went to war with **each other** over oil price.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 9-11): Select the most appropriate options to fill in the blank so that the",
+      "opts": {
+        "a": "by",
+        "b": "to",
+        "c": "with",
+        "d": "for"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The passengers were very happy__________the friendly and warm treatment given to them.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 9-11): Select the most appropriate options to fill in the blank so that the",
+      "opts": {
+        "a": "on, that, to",
+        "b": "with, of, to",
+        "c": "with, to, on",
+        "d": "with, off, to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A metaphor provides us __________ ways __________ referring __________things that are part of our everyday experience.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 9-11): Select the most appropriate options to fill in the blank so that the",
+      "opts": {
+        "a": "for, within, by",
+        "b": "on, for, on",
+        "c": "on, in, by",
+        "d": "for, on, from"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We went__________a trip to Paris__________a day__________the train and saw the Eiffel Tower and Notre Dame Cathedral.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 12 & 13): In the following sentences, an underlined/highlighted part of a",
+      "opts": {
+        "a": "I played well",
+        "b": "I play well",
+        "c": "I am playing well",
+        "d": "No improvement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If **I had played well**, I would have won the match.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "looking forward towards seeing",
+        "b": "looking forward for seeing",
+        "c": "looking forward to seeing",
+        "d": "No improvement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I am **looking forward to see** you soon.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 14 & 15): Choose the correct option to fill in the blank with the correct form",
+      "opts": {
+        "a": "make",
+        "b": "made",
+        "c": "makes",
+        "d": "have made"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two and two__________four.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "would help",
+        "b": "would have helped",
+        "c": "will help",
+        "d": "can help"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If I were a millionaire, I__________the needy.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 & 17): Read the sentence given below and choose the correct option that",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Compound sentence",
+        "c": "Complex sentence",
+        "d": "Compound-complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Listen carefully and take notes.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex sentence",
+        "c": "Compound sentence",
+        "d": "Compound-complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sanga is too poor to buy a bicycle.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 18 & 19): Choose the word which is nearest in meaning to the underlined",
+      "opts": {
+        "a": "high-sounding",
+        "b": "wrong",
+        "c": "difficult",
+        "d": "superfluous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There is not even one **redundant** word in the paragraph.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "careless",
+        "b": "incidental",
+        "c": "unintentional",
+        "d": "unscrupulous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An **inadvertent** error in his curriculum vitae cost him his job.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 20-22): In the following questions, the sentences have been given in Active/",
+      "opts": {
+        "a": "Him is believed to be innocent by the people.",
+        "b": "He is believed to be innocent.",
+        "c": "He is believed innocent by people.",
+        "d": "Him to be innocent is believed by the people"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "People believe him to be innocent.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 20-22): In the following questions, the sentences have been given in Active/",
+      "opts": {
+        "a": "Our needs should be met.",
+        "b": "All our needs are to be met by us.",
+        "c": "All our needs should be met by us.",
+        "d": "All of us should meet our needs."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We should meet all our needs.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 20-22): In the following questions, the sentences have been given in Active/",
+      "opts": {
+        "a": "By whom had the flower been painted?",
+        "b": "By whom was the flower painted?",
+        "c": "By whom is the flower been painted?",
+        "d": "By whom has the flower been painted?"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who painted the flower?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 23-25): Select the correct direct/indirect form of the given sentence:",
+      "opts": {
+        "a": "Siami told him that she has got a hefty discount on that television.",
+        "b": "Siami told him that she is getting a hefty discount on that television.",
+        "c": "Siami told him that she had got a hefty discount on that television.",
+        "d": "Siami told him that she has got a hefty discount on that television."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Siami said to him, “I got a hefty discount on this television.”",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 23-25): Select the correct direct/indirect form of the given sentence:",
+      "opts": {
+        "a": "She asked him who he was and who he was looking for.",
+        "b": "She questioned him who he was and who was he looking for.",
+        "c": "She asked him who was he and who was he looking for.",
+        "d": "She asked him who are you and who are you looking for."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She said to him, “Who are you? Who are you looking for?”",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 23-25): Select the correct direct/indirect form of the given sentence:",
+      "opts": {
+        "a": "He said to her, “Alas! You did very well.”",
+        "b": "He said to her, “Very good, she has done very well.”",
+        "c": "He said to her, “How should you do so well?”",
+        "d": "He said to her, “Very good, you have done very well!”"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He complimented that she had done very well.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26-28): Out of the four alternatives choose the one which can be substituted",
+      "opts": {
+        "a": "Pessimist",
+        "b": "Optimist",
+        "c": "Atheist",
+        "d": "Altruist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who looks at the bright side of things.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26-28): Out of the four alternatives choose the one which can be substituted",
+      "opts": {
+        "a": "Extempore",
+        "b": "Debate",
+        "c": "Soliloquy",
+        "d": "Lecture"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A speech made without any prior preparation.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 26-28): Out of the four alternatives choose the one which can be substituted",
+      "opts": {
+        "a": "Philatelist",
+        "b": "Numismatist",
+        "c": "Anthropologist",
+        "d": "Archaeologist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who collects or studies stamps.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 29-40): Identify the correct part of speech of the underlined word/words in",
+      "opts": {
+        "a": "Adverb",
+        "b": "Adjective",
+        "c": "Pronoun",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She was the **only** child of her parents.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 29-40): Identify the correct part of speech of the underlined word/words in",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He went **home** after the meeting.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 29-40): Identify the correct part of speech of the underlined word/words in",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Interjection",
+        "c": "Preposition",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Alas!** We lost the match.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 29-40): Identify the correct part of speech of the underlined word/words in",
+      "opts": {
+        "a": "Better",
+        "b": "Than",
+        "c": "Wisdom",
+        "d": "Is"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the **Abstract Noun** in the following sentence: ‘Wisdom is better than strength.’",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 29-40): Identify the correct part of speech of the underlined word/words in",
+      "opts": {
+        "a": "Relative Pronoun",
+        "b": "Adverb",
+        "c": "Preposition",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is **but** a child.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 29-40): Identify the correct part of speech of the underlined word/words in",
+      "opts": {
+        "a": "He kicked the ball.",
+        "b": "She wrote a letter.",
+        "c": "The birds fly.",
+        "d": "They ate apples"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the **Intransitive Verb** in the following sentences:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 29-40): Identify the correct part of speech of the underlined word/words in",
+      "opts": {
+        "a": "Distributive Pronoun",
+        "b": "Demonstrative Pronoun",
+        "c": "Indefinite Pronoun",
+        "d": "Relative Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neither of the boys has won. The word **Neither** is a/an:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 29-40): Identify the correct part of speech of the underlined word/words in",
+      "opts": {
+        "a": "Transitive Verb",
+        "b": "Linking Verb",
+        "c": "Auxiliary Verb",
+        "d": "Modal Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The flowers **smell** sweet.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 29-40): Identify the correct part of speech of the underlined word/words in",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Either you or your brother **has** to go.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 29-40): Identify the correct part of speech of the underlined word/words in",
+      "opts": {
+        "a": "Adjective",
+        "b": "Noun",
+        "c": "Verb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **brave** deserve the fair.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 29-40): Identify the correct part of speech of the underlined word/words in",
+      "opts": {
+        "a": "Preposition",
+        "b": "Conjunction",
+        "c": "Adverb",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Wait **till** I return.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 29-40): Identify the correct part of speech of the underlined word/words in",
+      "opts": {
+        "a": "Distributive Adjective",
+        "b": "Distributive Pronoun",
+        "c": "Demonstrative Pronoun",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Each** of the students was given a book.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 41-45): Select the grammatically correct sentence:",
+      "opts": {
+        "a": "than",
+        "b": "to",
+        "c": "from",
+        "d": "over"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct form: “He is senior __________ me.”",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 41-45): Select the grammatically correct sentence:",
+      "opts": {
+        "a": "his",
+        "b": "their",
+        "c": "one’s",
+        "d": "her"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One should keep __________  promise.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 41-45): Select the grammatically correct sentence:",
+      "opts": {
+        "a": "are",
+        "b": "were",
+        "c": "is",
+        "d": "have been"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The furniture in this room __________very old.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 41-45): Select the grammatically correct sentence:",
+      "opts": {
+        "a": "leave",
+        "b": "left",
+        "c": "should leave",
+        "d": "had left"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is high time we __________.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 41-45): Select the grammatically correct sentence:",
+      "opts": {
+        "a": "was",
+        "b": "were",
+        "c": "are",
+        "d": "has been"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neither the teacher nor the students__________present.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 46-50): Choose the option that best expresses the meaning of the given word",
+      "opts": {
+        "a": "To be lazy",
+        "b": "To try every possible way",
+        "c": "To be messy",
+        "d": "To hide the truth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘To leave no stone unturned’ means:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 46-50): Choose the option that best expresses the meaning of the given word",
+      "opts": {
+        "a": "Encouraging",
+        "b": "Tiny",
+        "c": "Discouraging",
+        "d": "Heavy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Antonym of ‘Daunting’ is:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 46-50): Choose the option that best expresses the meaning of the given word",
+      "opts": {
+        "a": "A pleasant surprise",
+        "b": "A clear sky",
+        "c": "An unexpected event",
+        "d": "A thunderstorm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘A bolt from the blue’ means:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 46-50): Choose the option that best expresses the meaning of the given word",
+      "opts": {
+        "a": "Postpone",
+        "b": "Accept",
+        "c": "Refuse",
+        "d": "Hasten"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Synonym of ‘DEFER’ is:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 46-50): Choose the option that best expresses the meaning of the given word",
+      "opts": {
+        "a": "Softening",
+        "b": "Directness",
+        "c": "Insult",
+        "d": "Truth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word is the closest synonym for ‘Euphemism’:",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 51-60): Choose the option that correctly transforms the sentence (Active/Passive,",
+      "opts": {
+        "a": "He said that he is busy.",
+        "b": "He said that he was busy.",
+        "c": "He told that he was busy.",
+        "d": "He said I was busy."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Change to Indirect Speech: He said, “I am busy.”",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 51-60): Choose the option that correctly transforms the sentence (Active/Passive,",
+      "opts": {
+        "a": "He said to me, “Are you going?”",
+        "b": "He said to me, “Is you going?”",
+        "c": "He asked, “You are going?”",
+        "d": "He said, “Am I going?”"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Change to Direct Speech: He asked me if I was going.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 51-60): Choose the option that correctly transforms the sentence (Active/Passive,",
+      "opts": {
+        "a": "Iron is more useful than any other metal.",
+        "b": "Iron is usefuler than other metals.",
+        "c": "Iron is usefulest metals.",
+        "d": "No other metal is as useful as iron."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Change to Positive Degree: “Iron is the most useful metal.”",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 51-60): Choose the option that correctly transforms the sentence (Active/Passive,",
+      "opts": {
+        "a": "Being tired, he fell asleep.",
+        "b": "He was tired and fell asleep.",
+        "c": "As he was tired, he fell asleep.",
+        "d": "He fell asleep because he was tired."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the Complex Sentence:",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 51-60): Choose the option that correctly transforms the sentence (Active/Passive,",
+      "opts": {
+        "a": "He is never wise.",
+        "b": "He is not always wise.",
+        "c": "He is never foolish.",
+        "d": "He is always not wise."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Change to Negative without changing the meaning: “He is always wise.”",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 51-60): Choose the option that correctly transforms the sentence (Active/Passive,",
+      "opts": {
+        "a": "One’s word should be kept.",
+        "b": "Words should be kept.",
+        "c": "Word should be kept by one.",
+        "d": "One’s word must be kept."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Change to Passive Voice: “One should keep one’s word.”",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 51-60): Choose the option that correctly transforms the sentence (Active/Passive,",
+      "opts": {
+        "a": "He must work hard to succeed.",
+        "b": "If he works hard, he will succeed.",
+        "c": "He must work hard, or he will not succeed.",
+        "d": "He works hard so that he may succeed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the Simple Sentence:",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 51-60): Choose the option that correctly transforms the sentence (Active/Passive,",
+      "opts": {
+        "a": "He is known by me.",
+        "b": "He is being known to me.",
+        "c": "He was known to me.",
+        "d": "He is known to me."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Change to Passive Voice: “I know him.”",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 51-60): Choose the option that correctly transforms the sentence (Active/Passive,",
+      "opts": {
+        "a": "He could not come due to illness.",
+        "b": "As he was ill, he could not come.",
+        "c": "Being ill, he could not come.",
+        "d": "He was ill and could not come."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Combine into a complex sentence: “He was ill. He could not come.”",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 51-60): Choose the option that correctly transforms the sentence (Active/Passive,",
+      "opts": {
+        "a": "Shimla is as cool as Delhi.",
+        "b": "Delhi is not as cool as Shimla.",
+        "c": "Delhi is as cool as Shimla.",
+        "d": "Delhi is cooler than Shimla."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Change to Positive Degree: “Shimla is cooler than Delhi.”",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 2,
+      "text": "Write an essay on any one of the following topics in 400-500 words.(10)",
+      "subparts": {
+        "a": "The Importance of vaccination in public health",
+        "b": "Mental Health Awareness and the Role of Healthcare Workers in De-stigmatization",
+        "c": "The Role of Imagination in Shaping the Future",
+        "d": "Women Empowerment and Gender Equality: Progress, Challenges, and the Road Ahead"
+      }
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 2,
+      "text": "As a Senior Nursing Officer at the District Hospital, write a formal letter to the Superintendent of Police regarding severe traffic congestion and reckless driving outside the hospital. Detail how this impacts ambulance movement, patient and public safety, and request them to implement measures such as traffic police deployment, speed breakers, road signs, and speed limit enforcement. Sign as ‘XYZ’.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 2,
+      "text": "Read the following passage carefully and answer the questions that follow: The rapid proliferation of digital technology has fundamentally altered the fabric of modern human communication. While social media platforms and instant messaging applications have made global connectivity instantaneous and effortless, they have simultaneously introduced complex psychological and social challenges. One of the most paradoxical outcomes of this digital age is the phenomenon of growing social isolation despite hyper-connectivity. Individuals often find themselves submerged in virtual networks comprising hundreds of online acquaintances, yet they experience a profound lack of meaningful, face-to-face human interaction. This shift in communication patterns has significant implications for emotional well-being. Digital interactions, though convenient, frequently lack the non-verbal cues—such as eye contact, tone of voice, and body language—that form the bedrock of genuine empathy and deep emotional bonds. Furthermore, the constant exposure to curated, idealized portrayals of other people’s lives on social platforms often fosters harmful social comparisons. This dynamic can lead to heightened anxiety, low self-esteem, and a persistent feeling of inadequacy, particularly among younger demographics who are most active online. Addressing these drawbacks does not require abandoning digital technology altogether, which remains an indispensable tool for education, commerce, and global cooperation. Instead, the solution lies in cultivating digital literacy and conscious usage habits. Establishing clear boundaries between online engagements and offline life, prioritizing real-world relationships, and practicing digital detoxes can help restore equilibrium. Ultimately, technology should serve as a bridge to enhance human connection, rather than a substitute for the authentic, grounded relationships that sustain psychological health and community cohesion. Questions:",
+      "subparts": {
+        "a": "What is the main paradox of the digital age highlighted in the first paragraph?(2)",
+        "b": "Why do digital interactions often fall short in building deep emotional bonds compared to face-",
+        "c": "How does exposure to idealized social media content affect an individual’s psychological well-",
+        "d": "What practical measures does the passage suggest to achieve a healthy balance between digital (i)Essential (ii)Harmony"
+      }
+    },
+    {
+      "n": 4,
+      "part": "A",
+      "page": 3,
+      "text": "Write a precis of the following passage in about one-third of its original length. Supply a suitable title. (10) Time management is not merely a tool for professional efficiency; it is a fundamental life skill that dictates personal growth and mental stability. In today’s fast-paced world, individuals are constantly inundated with tasks, deadlines, and digital distractions that fragment attention and dilute focus. Many people operate under the mistaken belief that working longer hours translates directly into higher productivity. However, relentless labor without structured organization often leads to chronic fatigue, diminished creativity, and eventual burnout. True productivity stems from the conscious prioritization of tasks based on their urgency and long-term value. By distinguishing between what is truly essential and what is merely distracting, individuals can allocate their time and energy far more effectively. Developing personal discipline through structured daily routines helps eliminate the paralysis caused by decision fatigue. Setting clear boundaries, learning to delegate tasks, and saying no to trivial interruptions are essential strategies for safeguarding one’s focus. Furthermore, effective time management incorporates periods of rest and reflection, recognizing that continuous mental exertion without recovery degrades the quality of work. Resting is not a reward for completing work; it is a prerequisite for sustained performance and overall well-being. Ultimately, mastering one’s time allows individuals to achieve a harmonious balance between professional achievements and personal fulfillment, transforming chaotic busyness into purposeful progress.",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q4 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q6 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q7 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q8 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q1 (p2, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q2 (p2, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p2, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q4 (p3, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2026/08/a17a8c4897a91ef1ef9a6d12ef3ea877/staff-nurse-august-2026-paper-i-general-english-series-b.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-2185593a",
+  "exam": "Labour Officer under Labour, Employment, Skill Development & Entrepreneurship Department.",
+  "sitting": "2021",
+  "subject": "General English",
+  "source": "archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-2185593a.pdf",
+  "sourceSha256": "e1267e333174a94d45cb25111afaac490fec0aad3284150a5a505b36e4d631df",
+  "ocr": false,
+  "count": 3,
+  "questions": [
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Make a long story short",
+        "b": "At the drop of a hat",
+        "c": "Wet behind the ears",
+        "d": "Around the clock (f)Cut corners"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences with the following idiom and phrases:(7×2=14)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Why must a young man undergo military training?(3)",
+        "b": "Which, do you think, is more important- military training or general education?(3)",
+        "c": "Why does the author not talk about military training for women?(3)",
+        "d": "Should military training be made compulsory in countries like India? Why?(3) (i)Strictly regulated (ii)Deft (iii)Garrison (iv)Prerequisite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following passage and answer the questions: In most Western countries, it is required that every young man, when his education is complete, shall give three, four or five years to military service. He goes into barracks, is regimented and drilled, makes a unit in the standing army and passes out usually when his term is ended, an efficient soldier, to remain for the rest of his life ready at any moment to join in the armed defence of his country.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cheaters never prosper",
+        "b": "Good fences make good neighbours",
+        "c": "As civilization advances culture declines",
+        "d": "He who does not advance goes backwards"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expand the following to bring out the meaning:(5×3=15)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2185593a08248839b422d704807d5181/labour-officer-under-lesde-dept-general-english-i.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

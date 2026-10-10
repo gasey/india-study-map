@@ -1,0 +1,1569 @@
+{
+  "slug": "archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237",
+  "exam": "Lecturer,Govt. Hr. Secondary School – Serchhip (Contract) 2026",
+  "sitting": "2026",
+  "subject": "General English",
+  "source": "archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237.pdf",
+  "sourceSha256": "01212bc97b525a1df8a13df65c1d750e0ccfde93223e0bb06b2fd1cfb9f50d93",
+  "ocr": false,
+  "count": 66,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Noun",
+        "c": "Adverb",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She spoke **eloquently** at the conference. Identify the part of speech of the underlined word:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Interjection",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which part of speech expresses emotion?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Demonstrative adjective",
+        "b": "Relative pronoun",
+        "c": "Conjunction",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“That” in the sentence, “I believe that honesty is the best policy”, functions as",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "They caught the fast train.",
+        "b": "He runs fast.",
+        "c": "She held fast to her beliefs.",
+        "d": "Time goes fast."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the sentence where “fast” is used as an adjective.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Possessive adjective",
+        "b": "Reflexive pronoun",
+        "c": "Possessive pronoun",
+        "d": "Demonstrative pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The blue car is hers. In the sentence, “hers” is a:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "She stayed because she was tired.",
+        "b": "He is poor but honest.",
+        "c": "Although he tried, he failed.",
+        "d": "If you work hard, you will succeed."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which sentence contains a coordinating conjunction?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Noun",
+        "b": "Pronoun",
+        "c": "Adjective",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The word “he” is a:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "This bag is light.",
+        "b": "Please light the candle.",
+        "c": "The light is too bright.",
+        "d": "She wore a light dress."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the sentence where “light” is used as a noun.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Interjection",
+        "b": "Adverb",
+        "c": "Conjunction",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the part of speech of the underlined word: **Alas!** He is no more.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Conjunction",
+        "c": "Adverb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Either you apologize or you leave. In the sentence, “either” functions as a/an:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Carry",
+        "b": "Reservation",
+        "c": "Active",
+        "d": "Tasty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word is a verb?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Verb",
+        "b": "Adjective",
+        "c": "Pronoun",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which part of speech describes a noun?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Verb",
+        "c": "Pronoun",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word replaces a noun?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "India",
+        "b": "Lotus",
+        "c": "Teacher",
+        "d": "Christmas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is a common noun?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Linking verb",
+        "b": "Auxiliary verb",
+        "c": "Intransitive verb",
+        "d": "Transitive verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A verb that requires a direct object to complete its meaning is called a:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Beautiful",
+        "b": "Quickly",
+        "c": "Sad",
+        "d": "Precious"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word describes a verb?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Pepper",
+        "b": "Lipstick",
+        "c": "Helmet",
+        "d": "Knife"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word is an uncountable noun?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Participle",
+        "b": "Gerund",
+        "c": "Infinitive",
+        "d": "Auxiliary"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A non-finite verb ending in –ing that functions as a noun is called a:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "He",
+        "b": "Himself",
+        "c": "Him",
+        "d": "His"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word is a reflexive pronoun?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "He laughed loudly.",
+        "b": "She bought a car.",
+        "c": "They arrived late.",
+        "d": "The baby slept."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the transitive verb",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Transitive",
+        "b": "Intransitive",
+        "c": "Both",
+        "d": "None"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In “The glass broke,” the verb is:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Preposition",
+        "b": "Adverb",
+        "c": "Subordinating conjunction",
+        "d": "Coordinating conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In “Think before you act,” the word “before” is,",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Preposition",
+        "c": "Adverb",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A word that modifies a verb, an adjective, or another adverb is called:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Noun",
+        "c": "Adverb",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The music is very loud. In this sentence, “music” is a:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Run",
+        "b": "Jump",
+        "c": "Is",
+        "d": "Write"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word is a linking verb?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "by",
+        "b": "beside",
+        "c": "in",
+        "d": "through"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sanga grabs the snake _________ its tail.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This house is very big. “This” is:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Pronoun",
+        "c": "Noun",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The criminal was condemned by everyone. “everyone” is:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Adverb",
+        "c": "Noun",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She bought a sharp knife. “sharp” is:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 30): Choose the correct parts of speech:",
+      "opts": {
+        "a": "to",
+        "b": "above",
+        "c": "upon",
+        "d": "unto"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The lion pounced ____the hunter.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31- 46): Fill in the blanks with the most appropriate option given:",
+      "opts": {
+        "a": "cowardly",
+        "b": "calm",
+        "c": "rude",
+        "d": "selfish"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She was praised for her _________ behaviour during the crisis.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31- 46): Fill in the blanks with the most appropriate option given:",
+      "opts": {
+        "a": "expand",
+        "b": "shrink",
+        "c": "ignore",
+        "d": "counsel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The company plans to _________ its services next year given its good reputation this year.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31- 46): Fill in the blanks with the most appropriate option given:",
+      "opts": {
+        "a": "confusing",
+        "b": "thorough",
+        "c": "vague",
+        "d": "complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His explanation was so _________ that everyone understood it easily.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31- 46): Fill in the blanks with the most appropriate option given:",
+      "opts": {
+        "a": "lesser",
+        "b": "fewer",
+        "c": "few",
+        "d": "smallest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She has _________ friends than her sister.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31- 46): Fill in the blanks with the most appropriate option given:",
+      "opts": {
+        "a": "reluctant",
+        "b": "resilient",
+        "c": "prone",
+        "d": "embrace"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Soft minded individuals are __________ to fall for all kind of superstitions.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31- 46): Fill in the blanks with the most appropriate option given:",
+      "opts": {
+        "a": "tenuous",
+        "b": "cogent",
+        "c": "trivial",
+        "d": "redundant"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His arguments were so _________ that no one could refute them.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31- 46): Fill in the blanks with the most appropriate option given:",
+      "opts": {
+        "a": "was I",
+        "b": "I was",
+        "c": "am I",
+        "d": "I am"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He asked me where _________ going.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31- 46): Fill in the blanks with the most appropriate option given:",
+      "opts": {
+        "a": "is interesting",
+        "b": "were interesting",
+        "c": "have been interesting",
+        "d": "are interesting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neither of the books _________.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31- 46): Fill in the blanks with the most appropriate option given:",
+      "opts": {
+        "a": "have submitted his report",
+        "b": "has submitted their reports",
+        "c": "has submitted his report",
+        "d": "have submitted their report"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Each of the players _________.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31- 46): Fill in the blanks with the most appropriate option given:",
+      "opts": {
+        "a": "flexible",
+        "b": "stubborn",
+        "c": "hesitant",
+        "d": "innocent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the word closest in meaning to “Obdurate”.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31- 46): Fill in the blanks with the most appropriate option given:",
+      "opts": {
+        "a": "transient",
+        "b": "fleeting",
+        "c": "eternal",
+        "d": "fragile"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the word opposite in meaning to “Ephemeral”.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31- 46): Fill in the blanks with the most appropriate option given:",
+      "opts": {
+        "a": "swarm",
+        "b": "group",
+        "c": "fleet",
+        "d": "basket"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A __________ of ships were seen entering the border.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31- 46): Fill in the blanks with the most appropriate option given:",
+      "opts": {
+        "a": "group",
+        "b": "herd",
+        "c": "swarm",
+        "d": "flock"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I saw a _________ of cows in the field.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31- 46): Fill in the blanks with the most appropriate option given:",
+      "opts": {
+        "a": "Biographer",
+        "b": "Editor",
+        "c": "Lexicographer",
+        "d": "Translator"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who compiles a dictionary is called:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31- 46): Fill in the blanks with the most appropriate option given:",
+      "opts": {
+        "a": "omniscient",
+        "b": "atheist",
+        "c": "novice",
+        "d": "amateur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who knows everything is called:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 31- 46): Fill in the blanks with the most appropriate option given:",
+      "opts": {
+        "a": "Astrologer",
+        "b": "Astronomer",
+        "c": "Geologist",
+        "d": "Biologist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who studies stars and planets is called:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 47 - 51) Fill in the blanks with the appropriate form of the verbs from the",
+      "opts": {
+        "a": "cries",
+        "b": "cried",
+        "c": "is crying",
+        "d": "has cried"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Listen! The baby ________.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 47 - 51) Fill in the blanks with the appropriate form of the verbs from the",
+      "opts": {
+        "a": "have",
+        "b": "were having",
+        "c": "are having",
+        "d": "had"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We __________ dinner when the phone rang.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 47 - 51) Fill in the blanks with the appropriate form of the verbs from the",
+      "opts": {
+        "a": "finish",
+        "b": "finished",
+        "c": "have finished",
+        "d": "finishing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I _________ my homework already.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 47 - 51) Fill in the blanks with the appropriate form of the verbs from the",
+      "opts": {
+        "a": "will",
+        "b": "is going to",
+        "c": "was going to",
+        "d": "has"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Look at those clouds! It _________ rain.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 47 - 51) Fill in the blanks with the appropriate form of the verbs from the",
+      "opts": {
+        "a": "completes",
+        "b": "completed",
+        "c": "will complete",
+        "d": "will have completed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "By next year, she _________ her degree.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 52 - 54): Choose the correct word to connect the following sentences:",
+      "opts": {
+        "a": "but",
+        "b": "because",
+        "c": "although",
+        "d": "if"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was tired, _________ he continued working.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 52 - 54): Choose the correct word to connect the following sentences:",
+      "opts": {
+        "a": "unless",
+        "b": "if",
+        "c": "when",
+        "d": "because"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You cannot succeed _________ you work hard.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 52 - 54): Choose the correct word to connect the following sentences:",
+      "opts": {
+        "a": "when",
+        "b": "since",
+        "c": "nevertheless",
+        "d": "thereafter"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I will call you _________ I reach home.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 55 - 57): Choose the correct transformation for the following sentences as",
+      "opts": {
+        "a": "What a difficult task it is!",
+        "b": "How difficult is the task!",
+        "c": "What difficult the task is!",
+        "d": "How it is a difficult task!"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is a very difficult task. (Identify the exclamatory form of the sentence)",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 55 - 57): Choose the correct transformation for the following sentences as",
+      "opts": {
+        "a": "He is never late.",
+        "b": "He is not punctual always.",
+        "c": "He is not always punctual.",
+        "d": "He is rarely punctual."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is always punctual. (Choose the correct negative form of the sentence)",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 55 - 57): Choose the correct transformation for the following sentences as",
+      "opts": {
+        "a": "Will they not attend the wedding?",
+        "b": "Won’t they not attend the wedding?",
+        "c": "Will not they attend the wedding?",
+        "d": "Will they attend the wedding?"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They will attend the wedding. (Choose the correct negative interrogative form of the sentence.)",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 58 - 61): Identify the underlined part of each sentence by choosing the",
+      "opts": {
+        "a": "Noun clause",
+        "b": "Adjective clause",
+        "c": "Adverb clause",
+        "d": "Prepositional phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He ran fast **because he was late**.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 58 - 61): Identify the underlined part of each sentence by choosing the",
+      "opts": {
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "Infinitive phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The girl **who won the prize** is my sister.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 58 - 61): Identify the underlined part of each sentence by choosing the",
+      "opts": {
+        "a": "Relative clause",
+        "b": "Noun clause",
+        "c": "Adverb clause",
+        "d": "Adjective phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She believes **what you said.**",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 58 - 61): Identify the underlined part of each sentence by choosing the",
+      "opts": {
+        "a": "Adjective clause",
+        "b": "Prepositional phrase",
+        "c": "Noun clause",
+        "d": "Gerund clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I was surprised **at his behaviour.**",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "He said that he will finish the work the next day.",
+        "b": "He said that he would finish the work the next day.",
+        "c": "He said that he would finish the work tomorrow.",
+        "d": "He said that he will finish the work tomorrow."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He said, “I will finish the work tomorrow.”",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "She asked where I was going.",
+        "b": "She asked where was I going.",
+        "c": "She asked where I am going.",
+        "d": "She asked where am I going."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She said, “Where are you going?”",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The teacher said that students must complete their assignments that day.",
+        "b": "The teacher said that students might complete their assignments that day.",
+        "c": "The teacher said students must completed their assignments that day.",
+        "d": "The teacher said that students have to complete their assignments that day."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The teacher said, “Students must complete their assignments today.”",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "He told me open the door.",
+        "b": "He told me to open the door.",
+        "c": "He said me to open the door.",
+        "d": "He told me opening the door."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He said to me, “Open the door.”",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "She said that she cannot solve that problem.",
+        "b": "She said that she could not solve that problem.",
+        "c": "She said that she could not solve the problem.",
+        "d": "She said that she cannot solve this problem."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She said, “I cannot solve this problem.”",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "B",
+      "page": 6,
+      "text": "Write a precis of the following passage and provide a suitable title:(14) Approximately 80 percent of young people who possess smartphones are capable of locating a particular video on YouTube, and of this group, 90 percent know how to share it with a friend. In addition, 70 percent can navigate the internet to seek answers to inquiries, while close to two-thirds are able to set an alarm for specific times. A little more than one-third can use Google Maps to ascertain the duration of travel between two destinations. During these digital assessments, boys tended to perform better than girls in most tasks. However, the primary factor in this case appeared to be smartphone ownership. Among those who knew how to use smartphones, 43.7 percent boys and 19.8 percent girls actually owned the smartphone. When the differences in ownership disappear, so does the difference in digital skills between boys and girls. Computer ownership was found to be far lower than smartphones (less than 10 percent), but there were similar trends in digital skill patterns. Digital literacy is directly proportional to increased access to devices. The survey clearly indicated that young people look at technology as a pathway for **creative expression**. Approximately 78 percent use their smartphones for entertainment-related activities such as watching movies or listening to music, 57 percent play games regularly, and 90 percent had used some form of social media in the previous week.",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "B",
+      "page": 7,
+      "text": "You have come across an advertisement in a newspaper for the post of a lecturer in Lianbuanga Memorial Higher Secondary School. As candidate XXX living at MINECO, write a letter to the Principal applying for the job. Provide a suitable resume without revealing your identity.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "B",
+      "page": 7,
+      "text": "Read the passage below carefully and answer the questions that follow: India is an ancient land with a long and complex history. Throughout the centuries many races and cultures have come to this land, settled here, and contributed something to its life. Some came as conquerors, some as traders, and others as travelers in search of knowledge. Yet in spite of these many influences, India has preserved a certain unity which has held its people together. This unity does not come from uniformity. On the contrary, India is a land of remarkable diversity. There are many languages spoken in different regions, numerous religious beliefs practiced by its people, and a wide variety of customs and traditions that shape everyday life. Yet beneath this diversity there lies a deeper cultural bond. Over long periods of time, ideas, philosophies, and ways of life have interacted with one another and gradually formed a shared civilization. Pilgrimages, trade routes, literature, and philosophical discussions helped create connections between distant regions. In this way, people living in different parts of the country came to feel that they belonged to a larger cultural whole. India has often been described as a meeting place of cultures. Foreign influences were not always rejected; many were absorbed and transformed into something new. This ability to absorb and adapt has been one of the distinctive features of Indian civilization. Rather than destroying earlier traditions, new ideas were often woven into the existing fabric of society. Thus the history of India is not merely a record of kings and battles. It is also the story of how different peoples and traditions gradually learned to live together and create a shared cultural heritage. This process has given India its unique character and enduring strength. Answer the following questions;",
+      "subparts": {
+        "a": "How did different cultures contribute to Indian civilization?(2)",
+        "b": "Where does the unity in India come from?(2)",
+        "c": "What gradually formed a shared civilization?(2)",
+        "d": "Why is India described as a “meeting place of cultures”?(2)"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p7, part B): conventional section, 4 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "A": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2026/04/bbb95237e5cd9eb076487e49ab4a1636/lecturer-govthrhigher-secondary-school-serchhip-2026-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

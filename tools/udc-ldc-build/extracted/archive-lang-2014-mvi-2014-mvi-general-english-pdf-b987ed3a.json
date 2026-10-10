@@ -1,0 +1,229 @@
+{
+  "slug": "archive-lang-2014-mvi-2014-mvi-general-english-pdf-b987ed3a",
+  "exam": "MVI-2014",
+  "sitting": "2014",
+  "subject": "General English",
+  "source": "archive-lang-2014-mvi-2014-mvi-general-english-pdf-b987ed3a.pdf",
+  "sourceSha256": "db51b58d09d7f5e26f728254304a8df8a97149d4a474f593c3ba3bdeb8f48d8a",
+  "ocr": false,
+  "count": 9,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Patriotism",
+        "b": "Road tax system of Mizoram",
+        "c": "Electronic Voting Machines : Election 2013"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Write an essay on **any one** of the topics given below:(15)",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A dead letter",
+        "b": "To mind ones p’s and q’s",
+        "c": "To eat a humble pie",
+        "d": "In lieu of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Construct sentences with **any five** of the given idioms and phrases :(5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Knowledge is power.",
+        "b": "Too many cooks spoil the broth.",
+        "c": "A stitch in time saves nine."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expand **any one** of the following in about 100 words to complete composition :(10)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Why is punctuality necessary in a civilized society?(2)",
+        "b": "What are the dangers of leaving the bare minimum of time for appointments?(2)",
+        "c": "The overpunctual can be as much a trial to others as the unpunctual. Why?(2)",
+        "d": "Why did the family ask some guests to come half an hour later than others?(2) (i)Complete disorder of confusion (ii)Difficult to understand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the passage carefully and answer the questions given below : Punctuality is a necessary habit in all public affairs of a civilized society. Without it, nothing could ever be brought to a conclusion, everything would be in a state of chaos. Only in a sparsely populated rural community, it is possible to disregard it. In ordinary living, there can be some tolerance of unpunctuality. The intellectual, who is working on some obstruse problem, has everything coordinated and organized for the matter in hand. He is therefore forgiven, if late for the dinner party. But people are often reproached for unpunctuality when their only fault is cutting things fine. It is hard for energetic, quick-minded people to waste time, so they are often tempted to finish a job before setting out to keep an appointment. If no accidents occur on the way, like punctured tyres, diversion of traffic, sudden descent of fog, they will be on time. They are often more industrious useful citizens than those who are never late. The over-punctual can as much be a trial to others as the unpunctual. The guest who arrives half an hour too soon is the greatest nuisance. Some friends of my family had this irritating habit. The only thing to do was to ask them to come half an hour later than the other guests. Then they arrived just when we wanted them.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I have nothing to do with him.(Turn into interrogative)",
+        "b": "Be quiet.(Change the voice)",
+        "c": "We did not find her sad.(Change into affirmative)",
+        "d": "There was a moon eclipse last night.(Use correct form of word) given in brackets)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rewrite as directed : (**any ten**)(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I finished my paper. I gave it to the invigilator.",
+        "b": "God has given me something. I am contented with it.",
+        "c": "I saw a beggar. He was blind. He was singing by the road side.",
+        "d": "The traffic policeman is very polite. Everybody respect him."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rewrite the following sentences into one meaningful sentences:(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "What a kind handsome man he is!",
+        "b": "Who does not want to be happy?",
+        "c": "Her end is not very far now.",
+        "d": "The robbers were punished mercilessly."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Transform each sentence to Assertive form without changing their meaning:(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It is so cold that one cannot sleep.",
+        "b": "Mary is very pretty and polite.",
+        "c": "The good often die young.",
+        "d": "A stone that keeps on rolling gathers no moss."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify simple and complex sentences from the following:(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Correct the spellings of **omniscent** and **amunition**",
+        "b": "Give the cries of **frogs** and **hyenas**",
+        "c": "Give the young ones of **goat** and **swan**",
+        "d": "Give the dimunitives of **river** and **thumb**"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rewrite as directed :(10×1=10)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      2,
+      3
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/b987ed3af08f172cc3b6c5b558868fad/mvi-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

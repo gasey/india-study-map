@@ -1,0 +1,1099 @@
+{
+  "slug": "archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5",
+  "exam": "2",
+  "sitting": "2025",
+  "subject": "General English",
+  "source": "archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5.pdf",
+  "sourceSha256": "e506b03f45c1244c7c8dec1e6c264552e5a330cf101383af0c5ded6e3b04e514",
+  "ocr": false,
+  "count": 40,
+  "questions": [
+    {
+      "n": 1,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 5): Fill in the blanks with the appropriate forms of the verb given in",
+      "opts": {
+        "a": "rains",
+        "b": "rain",
+        "c": "is raining",
+        "d": "rained"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It _____ (rain) a lot in Mizoram during the monsoon season.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 5): Fill in the blanks with the appropriate forms of the verb given in",
+      "opts": {
+        "a": "looked",
+        "b": "looks",
+        "c": "has been looking",
+        "d": "is looking"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Your mother ______ (look) for you since this morning.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 5): Fill in the blanks with the appropriate forms of the verb given in",
+      "opts": {
+        "a": "wait",
+        "b": "have waited",
+        "c": "be waiting",
+        "d": "have been waiting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I will ______ (wait) eagerly for your answer.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 5): Fill in the blanks with the appropriate forms of the verb given in",
+      "opts": {
+        "a": "were playing",
+        "b": "have played",
+        "c": "played",
+        "d": "have been playing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The children ______ (play) outside when it started to rain.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 5): Fill in the blanks with the appropriate forms of the verb given in",
+      "opts": {
+        "a": "write",
+        "b": "wrote",
+        "c": "am writing",
+        "d": "written"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I _____ (write) to you in the hope that you will take immediate action upon receiving this letter.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 6 - 10): Fill in the blanks using the correct preposition:",
+      "opts": {
+        "a": "upon",
+        "b": "above",
+        "c": "over",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I swear by the stars ______ us that I will always love you.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 6 - 10): Fill in the blanks using the correct preposition:",
+      "opts": {
+        "a": "over",
+        "b": "from",
+        "c": "by",
+        "d": "through"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kima escaped his kidnappers by climbing out ______ the window.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 6 - 10): Fill in the blanks using the correct preposition:",
+      "opts": {
+        "a": "below",
+        "b": "in",
+        "c": "underneath",
+        "d": "down"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The scared little girl hid _______ the blankets during the thunderstorm.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 6 - 10): Fill in the blanks using the correct preposition:",
+      "opts": {
+        "a": "for",
+        "b": "at",
+        "c": "of",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My guest had to pay for lunch since I had no money ___________me.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 6 - 10): Fill in the blanks using the correct preposition:",
+      "opts": {
+        "a": "over",
+        "b": "at",
+        "c": "through",
+        "d": "to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was in a hurry and just glanced _________the letter.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 15)Choose the correct meaning of the following idioms and phrases:",
+      "opts": {
+        "a": "To get organized and do things effectively",
+        "b": "to repair something",
+        "c": "To create an elaborate lie",
+        "d": "to collect all necessary items for a task"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To get your act together",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 15)Choose the correct meaning of the following idioms and phrases:",
+      "opts": {
+        "a": "to be very busy",
+        "b": "to fail at something",
+        "c": "to fall ill",
+        "d": "to die"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To be snowed under",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 15)Choose the correct meaning of the following idioms and phrases:",
+      "opts": {
+        "a": "to be able to compromise",
+        "b": "to explain something badly",
+        "c": "to break a promise",
+        "d": "to remain firm on one’s decision"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To stick to your guns",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 15)Choose the correct meaning of the following idioms and phrases:",
+      "opts": {
+        "a": "to agree upon something as a group",
+        "b": "to achieve great success",
+        "c": "to reach the end of one’s life",
+        "d": "to legally become an adult"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To reach one’s majority",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11 - 15)Choose the correct meaning of the following idioms and phrases:",
+      "opts": {
+        "a": "To accidentally give out secret information",
+        "b": "Both parties involved in a situation are equally responsible for it",
+        "c": "To compare two things that are completely different",
+        "d": "Being too curious about other people may land one in trouble"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Takes two to tango",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 20) : Out of the four alternatives, choose the one which can be substituted",
+      "opts": {
+        "a": "Conscious",
+        "b": "Sensible",
+        "c": "Intelligent",
+        "d": "Conscientious"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Governed by a sense of duty.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 20) : Out of the four alternatives, choose the one which can be substituted",
+      "opts": {
+        "a": "Emotional",
+        "b": "Articulate",
+        "c": "Enthusiastic",
+        "d": "Confident"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fluent and clear in speech",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 20) : Out of the four alternatives, choose the one which can be substituted",
+      "opts": {
+        "a": "Espionage",
+        "b": "Epilogue",
+        "c": "Elegy",
+        "d": "Epitaph"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An inscription on a tomb",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 20) : Out of the four alternatives, choose the one which can be substituted",
+      "opts": {
+        "a": "Amnesia",
+        "b": "Insomnia",
+        "c": "Ambrosia",
+        "d": "Forget"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Loss of memory",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 20) : Out of the four alternatives, choose the one which can be substituted",
+      "opts": {
+        "a": "Ascetic",
+        "b": "Egoist",
+        "c": "Hedonist",
+        "d": "Altruist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who is concerned with the welfare of others",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 21 - 25) : For each of the following sentence four alternatives are given.",
+      "opts": {
+        "a": "at the end",
+        "b": "about to start",
+        "c": "on decline",
+        "d": "in the air."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A movement for the world unity is in the offing.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 21 - 25) : For each of the following sentence four alternatives are given.",
+      "opts": {
+        "a": "a detailed presentation",
+        "b": "a biased view",
+        "c": "a general view",
+        "d": "a personal view"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The speaker gave a bird’s eye view of the political conditions in the country",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 21 - 25) : For each of the following sentence four alternatives are given.",
+      "opts": {
+        "a": "collapsing in large numbers",
+        "b": "getting infected with many diseases",
+        "c": "taking leave in large numbers",
+        "d": "sitting down in the shade"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "People were dropping like flies in the intense heat.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 21 - 25) : For each of the following sentence four alternatives are given.",
+      "opts": {
+        "a": "to earn a decent salary",
+        "b": "to try",
+        "c": "to sharpen my wits",
+        "d": "to gain experience"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There was a job for me to cut my teeth on.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 21 - 25) : For each of the following sentence four alternatives are given.",
+      "opts": {
+        "a": "made me remember my past",
+        "b": "made my words or actions ineffective",
+        "c": "made me depressed",
+        "d": "made me think of the future"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His speech has taken the wind out of my sails.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 26 - 30) : Read each sentence to find out whether there is any grammatical",
+      "opts": {
+        "a": "Beware of a fare weather",
+        "b": "friend who is",
+        "c": "neither a friend in need",
+        "d": "No error"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Beware of a fare weather friend who is neither a friend in need or a friend in deed",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 26 - 30) : Read each sentence to find out whether there is any grammatical",
+      "opts": {
+        "a": "The property",
+        "b": "was divided",
+        "c": "among",
+        "d": "No error"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The property was divided among the two sisters.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 26 - 30) : Read each sentence to find out whether there is any grammatical",
+      "opts": {
+        "a": "Treasure Island is one",
+        "b": "of the best",
+        "c": "pirate stories",
+        "d": "No error"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Treasure Island’ is one of the best pirate stories that were ever written.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 26 - 30) : Read each sentence to find out whether there is any grammatical",
+      "opts": {
+        "a": "I told him",
+        "b": "what I thought",
+        "c": "outrightly",
+        "d": "No error"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I told him outrightly what I thought of his behavior.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 26 - 30) : Read each sentence to find out whether there is any grammatical",
+      "opts": {
+        "a": "The world today",
+        "b": "is totally different",
+        "c": "than we have seen",
+        "d": "No error"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The world today is totally different than we have seen in the last century.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 31 - 35) : Choose the right word to fill in the blanks.",
+      "opts": {
+        "a": "there",
+        "b": "their",
+        "c": "they’re",
+        "d": "theirs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I wonder if they will change ______plans.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 31 - 35) : Choose the right word to fill in the blanks.",
+      "opts": {
+        "a": "sail",
+        "b": "shale",
+        "c": "sale",
+        "d": "sales"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The online ________starts on 1st December.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 31 - 35) : Choose the right word to fill in the blanks.",
+      "opts": {
+        "a": "route",
+        "b": "rout",
+        "c": "root",
+        "d": "routes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What ______ do you take to work?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 31 - 35) : Choose the right word to fill in the blanks.",
+      "opts": {
+        "a": "sight",
+        "b": "site",
+        "c": "cite",
+        "d": "sigh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was disturbed when he saw so many casualties at the accident _____.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 31 - 35) : Choose the right word to fill in the blanks.",
+      "opts": {
+        "a": "cords",
+        "b": "cord",
+        "c": "chord",
+        "d": "chords"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Liana can play a few ______on the guitar.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 36 - 40) : Change the sentences from the given options as directed against",
+      "opts": {
+        "a": "Waking up, I realized it was late",
+        "b": "I woke up and realized it was late",
+        "c": "I woke up late this morning",
+        "d": "This morning I woke up late"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I woke up late (Change into compound sentence)",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 36 - 40) : Change the sentences from the given options as directed against",
+      "opts": {
+        "a": "The cat eats the fish",
+        "b": "The fish was being eaten by the cat",
+        "c": "The fish will be eaten by the cat",
+        "d": "The fish was eaten by the cat."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cat ate the fish (Change into passive voice)",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 36 - 40) : Change the sentences from the given options as directed against",
+      "opts": {
+        "a": "hesitant",
+        "b": "rash",
+        "c": "fearless",
+        "d": "coward"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the word which is most nearly the same in meaning of the word INTREPID.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 36 - 40) : Change the sentences from the given options as directed against",
+      "opts": {
+        "a": "suspiciously",
+        "b": "excitedly",
+        "c": "carefully",
+        "d": "carelessly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the word which is closest to the opposite in meaning of the word WARILY.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 36 - 40) : Change the sentences from the given options as directed against",
+      "opts": {
+        "a": "effect",
+        "b": "affect",
+        "c": "effected",
+        "d": "affected"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hard work is bound to _____your health. (Choose the most suitable alternative)",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on any one of the following:(20)",
+      "subparts": {
+        "a": "The role of family in creating a well-adjusted society",
+        "b": "Physical health leads to mental health",
+        "c": "Hospital acquired infection- Prevention and Control."
+      }
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Write a precis of the following passage. Supply a suitable title:(20) It is physically impossible for a well-educated, intellectual or brave man to make money the chief object of his thoughts just as it is for him to make his dinner the principal object of them. All healthy people like their dinners, but their dinner is not the main object of their lives. So all healthy minded people like making money ought to like it and enjoy the sensation of winning it; it is something better than money. A good soldier, for instance, mainly wishes to do his fighting well. He is glad of his pay very properly so, and justly grumbles when you keep him ten years without it-still his main mission of life is to win battles, not to be paid for winning them. So of clergymen. The clergyman’s object is essentially baptize and preach not to be paid for preaching. So of doctors. They like fees no doubt—ought to like them; yet if they are brave and well-educated, the entire object to their lives is not fees. They, on the whole, desire to cure the sick; and if they are good doctors and the choice were fairly to them, would rather cure their patient and lose their fee than kill him and get it. And so, with all the other brave and rightly trained men: their work is first, their fee second—very important always; but still second.",
+      "subparts": {}
+    },
+    {
+      "n": null,
+      "part": "A",
+      "page": 2,
+      "kind": "passage",
+      "direction": "Direction (Question Nos. 3 - 12) : Read the passage, and answer the questions based on the given",
+      "text": "passage. Marks are indicated against each question. A person who takes the trouble to form his own opinions and beliefs, will feel that he owes no responsibility to the majority for his conclusions. If he is a genuine lover of truth, if he is inspired by a passion for seeing things as they are and an abhorrence of holding ideas which do not conform to facts, he will be wholly independent of the assent of those around him. When he proceeds to apply his beliefs in the practical conduct of life, the position is different. There are then good reasons why his attitude should be less inflexible. The society in which he is placed is an ancient and composite growth. The people from whom he dissents have not come by their opinions, customs and by a process of mere haphazard. These opinions and customs all have their origin in a certain real supposed fitness. They have certain depth of root in the lives of a proportion of the existing generation. Their congruity with one another may have come to an end. That is only one side of the truth. The most zealous propagandism cannot penetrate to them. In common language, we speak of a generation as something possessed of a kind of exact unity, with all its parts and members homogenous. Yet, plainly it is not this. It is a whole but a whole in a state of constant flux its factors and elements are eternally shifting. It is not one but many generations. Each of the seven ages of man is neighbour to all the rest. The column of the veterans is already sinking into the last abyss, while the column of the newest recruits is forming to its tradition, its tendency and its possibilities. Only a proportion of each can have nerve enough to grasp the banner of a new truth and endurance to bear it along rugged and untrodden ways. Thus, we must remember the stuff of which life is made. We must consider what an over whelming preponderance of the most tenacious energies and most concentrated interest of a society must be absorbed between material cares and the solitude of the affections. It is obviously unreasonable to lose patience and quarrel with one’s time because it is tardy in throwing off its institution and beliefs and slow to achieve the transformation which is the problem in front of it. Men and women have to live. The task for most of us is arduous enough to make us well pleased with even such imperfect shelter as we find in daily use and won’t. To insist on whole community being made at once to submit to the reign of new practices and ideas that have just begun to commend themselves to the most advance speculative intelligence of the time, this even if it were a possible process, would do hurry on special dissolution.",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 2,
+      "text": "What is the hard task the author is referring to in the paragraph?(1)",
+      "subparts": {
+        "a": "To earn a living",
+        "b": "To live normal life",
+        "c": "To change the society",
+        "d": "To change according to times"
+      }
+    },
+    {
+      "n": 4,
+      "part": "A",
+      "page": 2,
+      "text": "According to the passage, custom and traditions originate from?(1)",
+      "subparts": {
+        "a": "Beliefs",
+        "b": "Conflicts of life",
+        "c": "Social utility",
+        "d": "Contemporary leadership"
+      }
+    },
+    {
+      "n": 5,
+      "part": "A",
+      "page": 2,
+      "text": "According to the author, the attitude of self-opinioned person in the practical social life should be- (1)",
+      "subparts": {
+        "a": "Rigid",
+        "b": "Flexible",
+        "c": "Generous",
+        "d": "Optimistic"
+      }
+    },
+    {
+      "n": 6,
+      "part": "A",
+      "page": 3,
+      "text": "According to the author, a generation is a whole, but it is always-(1)",
+      "subparts": {
+        "a": "Homogeneous",
+        "b": "Unified in values",
+        "c": "Growing",
+        "d": "Constant"
+      }
+    },
+    {
+      "n": 7,
+      "part": "A",
+      "page": 3,
+      "text": "What does the author mean by describing “Apply his beliefs in the practical conduct of life”? (1)",
+      "subparts": {
+        "a": "To practice what he believes",
+        "b": "To preach what he believes",
+        "c": "To indoctrinate what he believes",
+        "d": "To adhere to what he believes"
+      }
+    },
+    {
+      "n": 8,
+      "part": "A",
+      "page": 3,
+      "text": "According to the author, why overnight change in social setting is not desirable?(1)",
+      "subparts": {
+        "a": "It will invigorate our life",
+        "b": "It is difficult to bring about",
+        "c": "It will lead to social disintegration",
+        "d": "It will retard progress of the society"
+      }
+    },
+    {
+      "n": 9,
+      "part": "A",
+      "page": 3,
+      "text": "The author’s attitude towards the problem he discusses is-(1)",
+      "subparts": {
+        "a": "Opportunistic",
+        "b": "Realistic",
+        "c": "Pessimistic",
+        "d": "Intransient"
+      }
+    },
+    {
+      "n": 10,
+      "part": "A",
+      "page": 3,
+      "text": "Find word in the passage which has the same meaning as ‘revulsion/loathing’.(1)",
+      "subparts": {}
+    },
+    {
+      "n": 11,
+      "part": "A",
+      "page": 3,
+      "text": "Find word in the passage which is the antonym of ‘smooth’.(1)",
+      "subparts": {}
+    },
+    {
+      "n": 12,
+      "part": "A",
+      "page": 3,
+      "text": "Find word in the passage which has the same meaning as ‘majority/superiority’.(1)",
+      "subparts": {}
+    },
+    {
+      "n": 13,
+      "part": "A",
+      "page": 3,
+      "text": "Make sentences with each word in the pair to bring out their difference:(5×2=10)",
+      "subparts": {
+        "a": "Alter/ altar",
+        "b": "Descent/ dissent",
+        "c": "Duel/ dual",
+        "d": "Flair/ flare"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p2, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q4 (p2, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q5 (p2, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q6 (p3, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q7 (p3, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q8 (p3, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q9 (p3, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q10 (p3, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q11 (p3, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q12 (p3, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q13 (p3, part A): conventional section, 4 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/09/6bc2b6d5a1c19e156ea969a9895f9a01/general-english-jr-of-mhs-2025.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

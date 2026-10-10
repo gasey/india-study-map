@@ -1,0 +1,93 @@
+{
+  "slug": "archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-i-2024-29fe8b7a",
+  "exam": "Forest Ranger-2024",
+  "sitting": "2024",
+  "subject": "General English",
+  "source": "archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-i-2024-29fe8b7a.pdf",
+  "sourceSha256": "d07287576f73d6821dfa344319df3f63b79de019d8ed6e04b22373cb04679d98",
+  "ocr": true,
+  "count": 3,
+  "questions": [
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Burythehatchet",
+        "b": "Closeshave",
+        "c": "Atthespurofamoment",
+        "d": "Anuphilltask"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Makesentenceswithanysevenofthefollowingidiomsandphrases:(7*2=14)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Romewasnotbuiltinaday",
+        "b": "Beggarscannotbechoosers",
+        "c": "Astitchintimesavesnine:",
+        "d": "Necessityisthemotherofinvention"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expandtheideacontainedinanythreeofthefollowingsentences:(3x5=15)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mentionthreeproblemsthatthewriterfacedduringarainyday.(3)",
+        "b": "Whatdifficultiesdidthenewspaperreportthenextday?(3)",
+        "c": "Explain:(3x2=6) (@)Mixedfeelings @)Rhythmofnature (i)Graphicaccount",
+        "d": "Howdopeoplelivinginareaswithheavymonsoonprepareforit?(3) eRREE"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Readthepassagecarefullyandanswerthequestionsgiventhereafter: Iwenttobedwithmixedfeelingsabouttherainyday.Thoughithadinitiallystartedwellwith thecoolbreezesandthedropletsoutsidemywindow,gettingtoschoolwasanuncomfortable experience.Duringthefreeperiodswemissedthebrightsunshinewhenweusedtorunaboutinthe playground.Towardstheevening,theelectricitywentoffforafewhoursandIcouldnotdomy homework.Thenextdaythepapersreportedthatmanypeoplefacedhardshipswhiletravelling. Trainsaredelayedandtaxiswerecharginghigherratesthanusualatthestation.Buttherearedifferent seasonssowemaybeintouchwiththerhythmofnature.Italsomakesitpossibleforustoappreciate whatweotherwisetakeforgranted. Therainandrainydaysaffectpeopleindifferentwaysatdifferenttimes.AlexanderFrater’s bookChasingtheMonsoongivesagraphicaccountofthewaythemonsoonaffectspeople’slives acrossIndia.Inplaceswhichhaveaheavymonsoon,rainydaysareawayoflifeandpeopleprepare fortheseasonbystockingupprovisionsandbuyingraingear.However,inrecenttimestherainhas beenplayingtruant.Withclimatechangestaringusinthefaceglobally,itcouldwellbethatthebeauty oftherainwillbeathingofthepast. Questions:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/06/29fe8b7a0dea17427e95bfa51284a575/forest-ranger-general-english-i-2024.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

@@ -1,0 +1,161 @@
+{
+  "slug": "archive-lang-2024-jr-grade-of-mes-combined-july-2024-jr-grade-of-mes-combined-july-2024-ge-dd26ea27",
+  "exam": "Jr.Grade of MES (Combined) July-2024",
+  "sitting": "2024",
+  "subject": "General English",
+  "source": "archive-lang-2024-jr-grade-of-mes-combined-july-2024-jr-grade-of-mes-combined-july-2024-ge-dd26ea27.pdf",
+  "sourceSha256": "19efbfc7d0152bb07edda4ea61e64ebb2f5deeb53cd0073589094a1c4f00bd86",
+  "ocr": true,
+  "count": 6,
+  "questions": [
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Accordingtothepassage,inwhichdirectionistheproportionofurbanpopulationinfuture",
+        "b": "WhatisitthatSpecialEconomicZonesaredeficientin?(4)",
+        "c": "WhatistheGovernment’splanforasmartcity?(4)",
+        "d": "Whichfacilitiesneedtobemadeavailablealongwiththephysicalinfrastructuretodevelopa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Readthefollowingpassagecarefullyandanswerthequestionsthatfollow: TheGovernment’sapprovalforthe100smartcitiesprojectandanewurbanrenewalmission isanimportantfirststeptowarddealingwithanoldproblemthathasonlygotprogressivelyworse overtheyears:urbanlivability.AshadelessthanathirdofIndia’spopulationnowlivesinurban areas,overcrowdedcitiesandtownswithinfrastructureburstingattheseams.Thisproblemwillonly worsenwithlittleornointerventionhappening.Theproportionoftheurbanpopulationcanonlygoin onedirection—upward—asmoreIndiansmigratetothecitiesandtownsinsearchofjobs.Cities areenginesofgrowth,andasaresultattractalotofpeople.Thecountry’surbanpopulationcontributes over60percentofIndia’sGDP;in15yearsthiswillbe70percent.Ontheotherhand,thereislittle incentiveforpeopletomigrateoutofcities.Earlierattemptsatprovidingbetterurbaninfrastructure oratcreatingnewtownshipshavenotbeenabletodealwiththeissueoflivabilitysatisfactorily.Even successfulspecialeconomiczoneshavehadtocontendwiththeissueoflackofsocialinfrastructure, whichusuallymeansaccesstoavenuesofeducation,health,arts,sports,andsoon.Therearenumerous definitionsofasmartcitybutthecurrentgovernment’sideaofoneusefullyencompassesinstitutional infrastructure(governance),physicalinfrastructure,asalsosocialinfrastructure. a TheCabinetapprovalmarksthefirstofmanysteps,asalsotheeasiest,thatwillberequiredfor theproject.Thechallengesstartnow.Ofcoursethereisnodoubtthatthishascreatedtremendous enthusiasmamongstmanypossiblestakeholders,includingserviceproviderswhohavebeenpartof smartcityprojectselsewhereintheworld.CountriessuchasJapan,SingaporeandGermany,among manyothers,haveevincedinteresttobeapartofthis.Yet,initsscaleandcomplexitytheprojectwill besecondtonone.TheofficialestimateofpercapitainvestmentrequirementisRs.43386fora20- yearperiod,oratotalinvestmentofRs.7lakhcrore.Creatingasmartcityisn’tjustaboutcreating thephysicalinfrastructure—roads,cleanwater,power,transportandsoon,thingsIndiafindsdifficult todelivertoitscitizensnearlysevendecadesafterIndependence.Itishopedthatpublicprivate partnerships(PPP)willdeliverbutthemechanismseemstoneedalotoftweakinginorderforitto work,afactacknowledgedintherecentBudget.Thebigchallengewillbetocreateself-sustaining cities,whichcreatejobs,useresourceswiselyandalsotrainpeople.Thisalsomeansmoreautonomy forthesecities.Whetherthatcanhappenisamootquestiondependingheavilyonthematurityofthe Indianpoliticalsystem.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "alter-modify/verify/justify/edify-",
+        "b": "mitigate-deviate/elevate/alleviate/delegate",
+        "c": "elucidate-clarify/nullify/reject/subject",
+        "d": "perceive-concern/assert/deceive/discern"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethecorrectsynonymofthewordsgiven:(5x1=5)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "defective-functional/integral/positive/negative.",
+        "b": "inaccurate-precise/exercise/excise/exhort",
+        "c": "static-dynamic/ceramic/dyslectic/drastic",
+        "d": "isolated-integrated/polluted/dusted/gusted"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethecorrectantonymofthewordsgiven-(5x1=5)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thepropertywasdividedamongthetwobrothers.",
+        "b": "Theteamhavebeenpractisingforthetournamentnextweek.",
+        "c": "Meandhimwenttothestore.",
+        "d": "Thedog’swaggingit’stail. eHa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identifythegrammaticalerrorandrewritethegivensentences.(10x1=10)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aplacewheredeadbodiesarekeptforpostmortem.(Mortuary/Morgue)",
+        "b": "Onewhohaslongexperienceofanyoccupation.(Amateur/Veteran)",
+        "c": "Acriticaljudgeofanyartorcraft.(Connoisseur/Cynosure)",
+        "d": "Aleaderofpeoplewhoswayshisfollowersbyhisoratory.(Demagogue/Polyglot)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choosethecorrectone-wordsubstituteanduseitinasentence:(10x1=10)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Soul/Sole",
+        "b": "Coarse/Course",
+        "c": "Access/Excess",
+        "d": "Callous/Callus eeKKRRKE"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Makesentenceswith(anyfive)thegivenhomophonestoshowtheirdifferences:(5x2=10)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/07/dd26ea27693cac17026d05f6dc3ef4c0/jrgrade-of-mes-combined-july-2024-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

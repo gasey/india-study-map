@@ -1,0 +1,1326 @@
+{
+  "slug": "archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
+  "exam": "Assistant Director (Town Planning)",
+  "sitting": "2023",
+  "subject": "General English",
+  "source": "archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c.pdf",
+  "sourceSha256": "8399e3375e9b998f84d8c0024f6a12409856b824667d16428951b96324e8b8a4",
+  "ocr": true,
+  "count": 56,
+  "questions": [
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Whatkindofbraininjuriescanthegelmentionedinthepassagecure?(1)",
+        "b": "Why,accordingtotheauthor,braininjuriesarehardtomend?qd)",
+        "c": "Whichanimalwasusedtotestthegel?()",
+        "d": "HowdidDr.NingZhangperformherstudyontheAnimal?(2)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Readcarefullytocomprehendthepassagesgivenbelowandanswerthequestionsthatfollow.Marks areindicatedattheendofeach. Scientistshavedevelopedagelthathelpsbrainsrecoverfromtraumaticinjuries.Ithasthe potentialtotreatheadinjuriessufferedincombat,caraccidents,falls,orgunshotwounds.Developed byDr.NingZhangatClemsonUniversitiynSouthCarolina,thegelisinjectedinliquidformatthe siteofinjuryandstimulatesthegrowthofstemcellsthere. Braininjuriesareparticularlyhardtorepair,sinceinjuredtissuesswellupandcancause additionaldamagetothecells.Sofar,treatmentshavetriedtolimitthissecondarydamagebylowering ageeep sBe thetemperatureorrelievingthepressureofthesiteofinjury.However,thesetechniquesareoftennot veryeffective.Morerecentlyscientistshaveconsideredtransplantingdonorbraincellsintothewound torepairdamagedtissue.Thismethodhassofarhadlimitedresultswhentreatingbraininjuries.The donorcellsoftenfailtogroworstimulaterepairattheinjurysite,possiblybecauseoftheinflammation andscarringpresentthere.Theinjurysitealsotypicallyhasverylimitedbloodsupplyandconnective tissue,whichmightpreventdonorcellsfromgettingthenutrientstheyrequire. Dr.Zhang’sgel,howevercanbeloadedwithdifferentchemicalstostimulatevariousbiological processesatthesiteofinjury.Inpreviousresearchdoneonrats,shewasabletousethegeltohelp re-establishfullbloodsupplyatthesiteofbraininjury.Thiscouldhelpcreateabetterenvironmentof donorcells.Inafollow-upstudy,Dr.Zhangloadedthegelwithimmaturestemcells,aswellasthe hemicalstheyneededtodevelopintofull-fledgedadultbraincells.Whenratswithseverebrain injuriesweretreatedwiththismixtureforeightweeks,theyshowedsignsofsignificantrecovery.The newgelcouldtreatpatientsatvaryingstagesfollowinginjury,andisexpectedtobereadyfortesting inhumansinaboutthreeyears. Questions:",
+      "multi": false
+    },
+    {
+      "n": 1,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "opts": {
+        "a": "Preposition",
+        "b": "Adjective",
+        "c": "Noun",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Isawalongdressatthemall.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Preposition",
+        "c": "Pronoun",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatdidsheaskyoutodo?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "opts": {
+        "a": "Adjective",
+        "b": "Preposition",
+        "c": "Pronoun",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ileftmyshoesunderthekitchentable.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ifwefinishourworkquickly,wecangotothemovies.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "OnSaturdaysIworkfromninetofive,",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "opts": {
+        "a": "Noun",
+        "b": "Pronoun",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "MyneighbourwantstogotoauniversityintheUnitedStates.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "opts": {
+        "a": "Verb",
+        "b": "Adverb",
+        "c": "Noun",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TamsureI’vemetyourparentsbefore.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "opts": {
+        "a": "Preposition",
+        "b": "Interjection",
+        "c": "Pronoun",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Well,Idon’tthinkI’1lbehomebeforenoon.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "opts": {
+        "a": "Preposition",
+        "b": "Conjunction",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Andreaknockedonthedoorbutnobodyanswered.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.1-10):ChoosethecorrectPartsofSpeechforeachofthewordswrittenin",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Adverb",
+        "c": "Preposition",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Afterlunch,let’sgooutforacoffee.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "opts": {
+        "a": "Succeed",
+        "b": "Successor",
+        "c": "Success",
+        "d": "Successful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthenounformof‘successful’?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "opts": {
+        "a": "Expandable",
+        "b": "Expand",
+        "c": "Expanding",
+        "d": "Expansionist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatistheverbformof‘expansion’?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "opts": {
+        "a": "Restriction",
+        "b": "Restricted",
+        "c": "Restricting",
+        "d": "Restrictive,"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthenounformof‘restrict’?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "opts": {
+        "a": "Intent",
+        "b": "Intend",
+        "c": "Intently",
+        "d": "Intentness"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatistheverbformof‘intention’?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "opts": {
+        "a": "Protective",
+        "b": "Protectiveness",
+        "c": "Protection",
+        "d": "Protect"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthenounformof‘protect’?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "opts": {
+        "a": "Believe",
+        "b": "Believing",
+        "c": "Believable",
+        "d": "Believably"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatistheadjectiveformof‘belief’?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "opts": {
+        "a": "Acceptance;",
+        "b": "Acceptably",
+        "c": "Acceptable",
+        "d": "Accept:"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatistheadverbformof‘accept’?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "opts": {
+        "a": "Energy",
+        "b": "Energetic",
+        "c": "Energetically",
+        "d": "Enertia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthenounformof‘energize’?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "opts": {
+        "a": "Forget",
+        "b": "Forgetful",
+        "c": "Forgetfulness",
+        "d": "Forgetfully"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatistheadjectiveformof‘forgetfulness’?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.11-20):Choosetheappropriatewordfromeachoftheoptionsprovided.",
+      "opts": {
+        "a": "Accusingly",
+        "b": "Accusing",
+        "c": "Accusation",
+        "d": "Accuse"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatisthenounformof‘accusing’?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "opts": {
+        "a": "Succeed",
+        "b": "Mare",
+        "c": "Fair",
+        "d": "They"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingisanoun?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "opts": {
+        "a": "Grab",
+        "b": "Trap",
+        "c": "Wrap",
+        "d": "Make"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichamongthefollowingisnotaverb?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "opts": {
+        "a": "Gold",
+        "b": "Water",
+        "c": "Behind",
+        "d": "Might"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingisapreposition?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "opts": {
+        "a": "Shit",
+        "b": "Brown",
+        "c": "Colour",
+        "d": "Call"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingisanadjective?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "opts": {
+        "a": "Smart",
+        "b": "Short",
+        "c": "Stand",
+        "d": "Soon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingisanadverb?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "opts": {
+        "a": "Fast",
+        "b": "Very",
+        "c": "Sweet",
+        "d": "Yesterday’"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingisnotanadverb?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "opts": {
+        "a": "Me",
+        "b": "Himself",
+        "c": "Themselves",
+        "d": "_Reflexive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whichofthefollowingwordisnotapronoun?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "opts": {
+        "a": "Sheaskedaboutthedog.",
+        "b": "Thecatranveryfast.",
+        "c": "Keepworkinghard.",
+        "d": "Wewilltalklater."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identifythesentencethathasapreposition.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "opts": {
+        "a": "Hey!Lookoutforthecar,",
+        "b": "Oh!Ihaveareallybadheadache.",
+        "c": "Thatwasindeedagreatmovie!",
+        "d": "Ouch!Yousteppedonmytoes,"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IdentifythesentencethatdoesnothaveanInterjection.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.21-30):Pickouttherightanswerfromtheoptionsgiven.",
+      "opts": {
+        "a": "Canweplayvolleyball?.",
+        "b": "Shehadaredscarf.",
+        "c": "Wehadchocolatemilk.",
+        "d": "Asmalldogbarked."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identifythesentencethatdoesnothaveanadjective?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-40):Identifythewordsprovidedattheendofeachsentencethatfitthe",
+      "opts": {
+        "a": "Worth",
+        "b": "Better",
+        "c": "Adequate",
+        "d": "Quite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theschoollunchshouldbetomeetthenutritionalneedsofgrowingchildren.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-40):Identifythewordsprovidedattheendofeachsentencethatfitthe",
+      "opts": {
+        "a": "pseudo",
+        "b": "super",
+        "c": "contra",
+        "d": "poly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hewasatruemathandatthesametimeavirtuosostoryteller.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-40):Identifythewordsprovidedattheendofeachsentencethatfitthe",
+      "opts": {
+        "a": "Crystllization",
+        "b": "Controvertial",
+        "c": "Rehabilitation",
+        "d": "Interogation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Findthecorrectlyspeltwordfromthefollowing.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-40):Identifythewordsprovidedattheendofeachsentencethatfitthe",
+      "opts": {
+        "a": "Topayback",
+        "b": "Undress",
+        "c": "Sayagain",
+        "d": "Withdrew"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "PickoutthewordthatisnearestinmeaningtothewordincapitalREPEAL.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-40):Identifythewordsprovidedattheendofeachsentencethatfitthe",
+      "opts": {
+        "a": "Fecilitated",
+        "b": "Felicitated",
+        "c": "Fantasized",
+        "d": "Fecilitate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thestudentstheteacheronteacher’sdayfortwentyyearsofdedicatedteaching.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.31-40):Identifythewordsprovidedattheendofeachsentencethatfitthe",
+      "opts": {
+        "a": "tragic",
+        "b": "fragile",
+        "c": "gentle",
+        "d": "dissuasive “Te"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thesuddendeathofourunclewasforallofus.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.47-53):Identifyandchoosetheformsoftensesforthefollowingsentences:",
+      "opts": {
+        "a": "PresentIndefinitetense",
+        "b": "PastIndefinitetense",
+        "c": "PastContinuoustense",
+        "d": "PresentPerfecttense"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thetailorssewnewclothes.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.47-53):Identifyandchoosetheformsoftensesforthefollowingsentences:",
+      "opts": {
+        "a": "PresentContinuoustense",
+        "b": "PresentPerfectContinuoustense",
+        "c": "NegativeformofPresenttense",
+        "d": "NegativeformofPresentContinuoustense"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thegirlsarenotsingingamelodioussong.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.47-53):Identifyandchoosetheformsoftensesforthefollowingsentences:",
+      "opts": {
+        "a": "NegativeInterrogativeformofContinuoustense.:",
+        "b": "NegativeInterrogativeformofPastContinuoustense",
+        "c": "InterrogativeformofPasttense.",
+        "d": "NegativeInterrogativeformofPasttense."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Weretheynotwaitingforyouanxiously?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.47-53):Identifyandchoosetheformsoftensesforthefollowingsentences:",
+      "opts": {
+        "a": "PastContinuoustense",
+        "b": "PastPerfectContinuoustense",
+        "c": "NegativeformofPastPerfectContinuoustense",
+        "d": "InterrogativeformofPasttense"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shehadbeenpreparingforthetestforafortnight.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.47-53):Identifyandchoosetheformsoftensesforthefollowingsentences:",
+      "opts": {
+        "a": "FutureIndefinitetense",
+        "b": "FuturePerfecttense",
+        "c": "InterrogativeformofFutureIndefinitetense",
+        "d": "InterrogativeFuturetense (a)FutureContinuoustense(b)FuturePerfecttense (c)FutureIndefinitetense(d)FuturePerfectContinuoustense"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ShallIgotovisitthepatienttomorrow?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.47-53):Identifyandchoosetheformsoftensesforthefollowingsentences:",
+      "opts": {
+        "a": "ThePerfectContinuoustense",
+        "b": "PresentPerfectContinuoustense",
+        "c": "PastPerfectContinuoustense",
+        "d": "PastContinuoustense"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thecathasbeenchasingtheratsforanhour.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.54-60):Identifythetypesofsentencesandchoosethecorrectanswerfrom",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Interrogative",
+        "c": "Exclamatory",
+        "d": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ah!Whatabeauty.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.54-60):Identifythetypesofsentencesandchoosethecorrectanswerfrom",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Interrogative",
+        "c": "Exclamatory",
+        "d": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Wewereignorantoftherealfacts.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.54-60):Identifythetypesofsentencesandchoosethecorrectanswerfrom",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Interrogative",
+        "c": "Exclamatory",
+        "d": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Didyouseethehugebuildingonyourwaybackhome?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.54-60):Identifythetypesofsentencesandchoosethecorrectanswerfrom",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Negative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Theoldwomandoesnotwantanyonecomingtoseeheratoddhours.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.54-60):Identifythetypesofsentencesandchoosethecorrectanswerfrom",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Negative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Idifferwithyouonthismatter.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.54-60):Identifythetypesofsentencesandchoosethecorrectanswerfrom",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Negative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thelabourershavenotdugthefoundation.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.54-60):Identifythetypesofsentencesandchoosethecorrectanswerfrom",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Negative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WhenareyourfriendsgoingfortrekkingthisAutumn?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-66):Identifythetypesofphrasesandclauses,directandindirect",
+      "opts": {
+        "a": "Adjectivephrase",
+        "b": "Nounclause",
+        "c": "Nounphrase",
+        "d": "Adjectiveclause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whoevercomesupwithanideawillbeacknowledged.",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-66):Identifythetypesofphrasesandclauses,directandindirect",
+      "opts": {
+        "a": "Nounphrase",
+        "b": "Nounclause",
+        "c": "Adjectiveclause",
+        "d": "Adverbphrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thehugeelephantthatyousawyesterdayismissingfromthezoo.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-66):Identifythetypesofphrasesandclauses,directandindirect",
+      "opts": {
+        "a": "Nounclause",
+        "b": "Nounphrase",
+        "c": "Adjectivephrase.",
+        "d": "Adjectiveclause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thehorse’slarge,menacingeyessaidafightwasimminent.",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-66):Identifythetypesofphrasesandclauses,directandindirect",
+      "opts": {
+        "a": "Nounclause",
+        "b": "Nounphrase",
+        "c": "Adjectiveclause",
+        "d": "Adjectivephrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "NikkoM.,whoalwayswearsahatwillbejoiningusthisyear.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-66):Identifythetypesofphrasesandclauses,directandindirect",
+      "opts": {
+        "a": "Adverbialphrase",
+        "b": "Adverbialclause",
+        "c": "Adjectivephrase",
+        "d": "Adjectiveclause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Anandwaitedsilentlyandpatiently.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions(QuestionNos.61-66):Identifythetypesofphrasesandclauses,directandindirect",
+      "opts": {
+        "a": "Adverbialphrase",
+        "b": "Adverbialclause",
+        "c": "Adjectiveclause",
+        "d": "Adjectivephrase ORRORRROK"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Wewillmeetwhereverweprefer.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part A): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part A): only 0 option(s) [] - not emitted",
+    "Source numbering gap before Q47: expected Q37; review the printed page.",
+    "Source numbering gap before Q53: expected Q52; review the printed page."
+  ],
+  "gaps": {
+    "A": [],
+    "B": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      52
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/01/6b32cf2c193fa45b58735cd02a1c9f74/assist-director-town-planning-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

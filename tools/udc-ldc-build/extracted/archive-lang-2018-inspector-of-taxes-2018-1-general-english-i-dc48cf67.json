@@ -1,0 +1,73 @@
+{
+  "slug": "archive-lang-2018-inspector-of-taxes-2018-1-general-english-i-dc48cf67",
+  "exam": "Inspector of Taxes - 2018",
+  "sitting": "2018",
+  "subject": "General English",
+  "source": "archive-lang-2018-inspector-of-taxes-2018-1-general-english-i-dc48cf67.pdf",
+  "sourceSha256": "68c15810e170a919489e19ede0ba76cfa5dc6e2d0d282eff63c81c520eefe00e",
+  "ocr": false,
+  "count": 2,
+  "questions": [
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "flesh and blood",
+        "b": "off and on",
+        "c": "made his mark",
+        "d": "have it at my fingers’ end"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the nearest possible meaning of the **idioms and phrases** from the hints provided within the bracket and also make appropriate sentences of the idioms and phrases.(7×2=14)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Instead of making machines our servants the author says they have become our masters. In",
+        "b": "The use of machines has brought us more leisure and more energy. But the author says that this",
+        "c": "What exactly is the meaning of “civilization”? Do you agree with the author’s views?(2)",
+        "d": "What does ‘Making more beautiful things” stands for? Make a list of the beautiful things that"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Comprehend the given passages and answer the questions that follow. Marks for each question is indicated at the end of the questions. The third defect of our civilization is that it does not know what to do with its knowledge. Science has given us powers fit for the gods, yet we use them like small children. For example, we do not know how to manage our machines. Machines were made to be man’s servants; yet he has grown so dependent on them that they are in a fair way to become his masters. Already most men spend most of their lives looking after and waiting upon machines. And the machines are very stern masters. They must be fed with coal, and given petrol to drink, and oil to wash with, and they must be kept at the right temperature. And if they do not get their meals when they expect them, they grow sulky and refuse to work, or burst with rage, and blow up, and spread ruin and destruction all round them. So we have to wait upon them very attentively and do all that we can to keep them in a good temper. Already we find it difficult either to work or play without the machines, and a time may come when they will rule us altogether, just as we rule the animals. And this brings me to the point at which I asked, “What we do with all the time which the machines have saved for us, and the new energy they have given us?” On the whole, it must be admitted, we do very little. For the most part we use our time and energy to make more and better machines; but more and better machines will only give us still more time and still more energy, and what are we to do with them? The answer, I think, is that we should try to become more civilized. For the machines themselves, and the power which the machines have given us, are not civilization but aids to civilization. But you will remember that we agreed at the beginning that being civilized meant making and linking beautiful things, thinking  freely, and living rightly and maintaining justice equally between man and man. Man has a better chance today to do these things than he ever had before; he has more time, more energy, less to fear and less to fight against. If he will give his time and energy which his machines have won for him to making more beautiful things, to finding out more and more about the universe, to removing the causes of quarrels between nations, to discovering how to prevent poverty, then I think our civilization would undoubtedly be the greater, as it would be the most lasting that there has ever been.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      5
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/dc48cf67a2e73f89dc7be581cd6b8a01/general-english-i.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

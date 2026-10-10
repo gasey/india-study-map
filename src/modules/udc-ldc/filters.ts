@@ -173,6 +173,10 @@ const TOPIC_SECTION: Record<string, SectionId> = {
   pipes_cisterns: 'arithmetic',
   permutation_combination: 'arithmetic',
   mixture_alligation: 'arithmetic',
+  sequences_series: 'arithmetic',
+  trigonometry: 'arithmetic',
+  statistics: 'arithmetic',
+  sets: 'arithmetic',
   // Group B: reasoning subtopics
   'general-intelligence-&-reasoning': 'reasoning',
   coding_decoding: 'reasoning',
@@ -197,6 +201,18 @@ const TOPIC_SECTION: Record<string, SectionId> = {
   mirror_image: 'reasoning',
   // Group B: computer
   'basic-computer-knowledge': 'computer',
+  'computer-fundamentals': 'computer',
+  computer_basics: 'computer',
+  hardware_memory: 'computer',
+  operating_systems: 'computer',
+  word_processing: 'computer',
+  spreadsheets: 'computer',
+  presentations: 'computer',
+  internet_networking: 'computer',
+  security_privacy: 'computer',
+  databases: 'computer',
+  programming: 'computer',
+  digital_collaboration: 'computer',
 };
 
 /**

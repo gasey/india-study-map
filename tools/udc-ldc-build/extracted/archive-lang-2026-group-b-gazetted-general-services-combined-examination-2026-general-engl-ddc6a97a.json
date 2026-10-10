@@ -1,0 +1,1577 @@
+{
+  "slug": "archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a",
+  "exam": "Group ‘B’ (Gazetted) General Services (Combined) Examination-2026",
+  "sitting": "2026",
+  "subject": "General English",
+  "source": "archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a.pdf",
+  "sourceSha256": "768a298a6ef575d791958086c0626c7519bfecc094f850d63a05377746246336",
+  "ocr": false,
+  "count": 66,
+  "questions": [
+    {
+      "n": 1,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1- 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Adverb",
+        "b": "Verb",
+        "c": "Preposition",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What do you know **about** this situation?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1- 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Preposition",
+        "b": "Adverb",
+        "c": "Adjective",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Past** tense refers to the time gone by.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1- 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Conjunction",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Neither** of the two boys is qualified for this post.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1- 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Noun",
+        "c": "Adverb",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The surface of the lake was perfectly **still**.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1- 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Pronoun",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**One** man came in the name of love.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1- 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Preposition",
+        "c": "Adverb",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**As** I am unwell, I am unable to come.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1- 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Noun",
+        "b": "Preposition",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You must come **inside** right now.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1- 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Conjunction",
+        "c": "Interjection",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**What!** you dare to disobey your king?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1- 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Noun",
+        "b": "Preposition",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I shall never act **like** that.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1- 10): Identify the part of speech of the underlined word:",
+      "opts": {
+        "a": "Verb",
+        "b": "Adverb",
+        "c": "Noun",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We must **back** him in his proposal.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11- 14): Choose the antonym of the following:",
+      "opts": {
+        "a": "Antisocial",
+        "b": "Unclear",
+        "c": "Vivacious",
+        "d": "Parallel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Convivial",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11- 14): Choose the antonym of the following:",
+      "opts": {
+        "a": "Miserly",
+        "b": "Generous",
+        "c": "Spendthrift",
+        "d": "Cruel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Frugal",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11- 14): Choose the antonym of the following:",
+      "opts": {
+        "a": "Tangible",
+        "b": "Temporary",
+        "c": "Permanent",
+        "d": "Amorphous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ephemeral",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 11- 14): Choose the antonym of the following:",
+      "opts": {
+        "a": "Indifference",
+        "b": "Static",
+        "c": "Constant",
+        "d": "Sympathy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Apathy",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 15- 18): Choose the synonym of the following:",
+      "opts": {
+        "a": "Agreeable",
+        "b": "Opposite",
+        "c": "Friendly",
+        "d": "Enmity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Contrary",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 15- 18): Choose the synonym of the following:",
+      "opts": {
+        "a": "Undefeatable",
+        "b": "Defeatable",
+        "c": "Avoidable",
+        "d": "Unavoidable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inevitable",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 15- 18): Choose the synonym of the following:",
+      "opts": {
+        "a": "Peaceful",
+        "b": "Serious",
+        "c": "Doubtful",
+        "d": "Argumentative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Contentious",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 15- 18): Choose the synonym of the following:",
+      "opts": {
+        "a": "Curious",
+        "b": "Unintelligent",
+        "c": "Clever",
+        "d": "Careful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inquisitive",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 19 - 22): Choose the most appropriate word to fill in the blanks:",
+      "opts": {
+        "a": "fragrant",
+        "b": "flagrant",
+        "c": "flagellant",
+        "d": "fragment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The driver’s _________ disrespect towards the policeman earned him a fine.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 19 - 22): Choose the most appropriate word to fill in the blanks:",
+      "opts": {
+        "a": "hellenistic",
+        "b": "hysterical",
+        "c": "hieroglyphic",
+        "d": "hedonistic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His income was not sufficient to support his _________ lifestyle.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 19 - 22): Choose the most appropriate word to fill in the blanks:",
+      "opts": {
+        "a": "malevolent",
+        "b": "malignant",
+        "c": "malleable",
+        "d": "mellowable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gold becomes _________ when heated, and can be easily shaped.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 19 - 22): Choose the most appropriate word to fill in the blanks:",
+      "opts": {
+        "a": "perspication",
+        "b": "expiration",
+        "c": "perspiration",
+        "d": "inspiration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The runner wiped the _________ from her forehead as she ran under the hot sun.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 23- 26): Choose the correct meaning of the following idioms and phrases:",
+      "opts": {
+        "a": "To try to achieve something that is doomed to failure",
+        "b": "To begin work the moment you wake up",
+        "c": "To finish off one’s work the moment the day is done",
+        "d": "To make the most of the present moment without worrying about the future"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To seize the day",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 23- 26): Choose the correct meaning of the following idioms and phrases:",
+      "opts": {
+        "a": "A shared experience that brings great joy",
+        "b": "A cause of dispute",
+        "c": "A seemingly small event that ends up having a lot of impact",
+        "d": "An integral part"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A bone of contention",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 23- 26): Choose the correct meaning of the following idioms and phrases:",
+      "opts": {
+        "a": "A man who is prone to violence",
+        "b": "A miserly person",
+        "c": "Someone who can keep a secret",
+        "d": "A cowardly person"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A close-fisted man",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 23- 26): Choose the correct meaning of the following idioms and phrases:",
+      "opts": {
+        "a": "To discover a hidden meaning",
+        "b": "To be constantly suspicious over nothing",
+        "c": "To follow rules and instructions exactly",
+        "d": "To pick a quarrel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To read between the lines",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 27 - 36): Choose the correct form of the verb that agrees with the subject of",
+      "opts": {
+        "a": "has",
+        "b": "have",
+        "c": "belong",
+        "d": "belongs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The box of old toys _________ in the attic.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 27 - 36): Choose the correct form of the verb that agrees with the subject of",
+      "opts": {
+        "a": "has always been",
+        "b": "have always been",
+        "c": "were",
+        "d": "weren’t"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bread and butter _________ my favourite breakfast.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 27 - 36): Choose the correct form of the verb that agrees with the subject of",
+      "opts": {
+        "a": "sleeps",
+        "b": "sleep",
+        "c": "is",
+        "d": "was"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cat and the dog _________ on the rug.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 27 - 36): Choose the correct form of the verb that agrees with the subject of",
+      "opts": {
+        "a": "is birds",
+        "b": "are birds",
+        "c": "are bird",
+        "d": "was bird"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You and he _________ of the same feather.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 27 - 36): Choose the correct form of the verb that agrees with the subject of",
+      "opts": {
+        "a": "was caught",
+        "b": "has caught",
+        "c": "were caught",
+        "d": "is caught"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A number of girls _________ copying.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 27 - 36): Choose the correct form of the verb that agrees with the subject of",
+      "opts": {
+        "a": "have",
+        "b": "has",
+        "c": "was",
+        "d": "were"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Many interesting suggestions _________ been made.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 27 - 36): Choose the correct form of the verb that agrees with the subject of",
+      "opts": {
+        "a": "was",
+        "b": "were",
+        "c": "have been",
+        "d": "are"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Politics with him _________  the business of his life.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 27 - 36): Choose the correct form of the verb that agrees with the subject of",
+      "opts": {
+        "a": "is mesmerising",
+        "b": "mesmerise",
+        "c": "are mesmerising",
+        "d": "mesmerises"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A variety of pleasing objects _________ the eye.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 27 - 36): Choose the correct form of the verb that agrees with the subject of",
+      "opts": {
+        "a": "like",
+        "b": "is like",
+        "c": "likes",
+        "d": "are liked"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mani, as well as Rahul and Mohan, _________ hot chicken curry.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 27 - 36): Choose the correct form of the verb that agrees with the subject of",
+      "opts": {
+        "a": "talk",
+        "b": "talks",
+        "c": "talked",
+        "d": "talking"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neither you nor your sister should _________ to them.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 37 - 46): Choose the prepositions from the choices provided to form correct",
+      "opts": {
+        "a": "with",
+        "b": "from",
+        "c": "throughout",
+        "d": "under"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kima remained cheerful _________ his illness.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 37 - 46): Choose the prepositions from the choices provided to form correct",
+      "opts": {
+        "a": "upon",
+        "b": "against",
+        "c": "to",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "After a long discussion, I prevailed _________ him to accept the proposal.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 37 - 46): Choose the prepositions from the choices provided to form correct",
+      "opts": {
+        "a": "of",
+        "b": "from",
+        "c": "with",
+        "d": "about"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The children were freed _________ the danger.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 37 - 46): Choose the prepositions from the choices provided to form correct",
+      "opts": {
+        "a": "of",
+        "b": "for",
+        "c": "by",
+        "d": "none of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do you know the reason _________ his absence?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 37 - 46): Choose the prepositions from the choices provided to form correct",
+      "opts": {
+        "a": "for",
+        "b": "since",
+        "c": "of",
+        "d": "over"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mapuii has not read anything _________ Monday.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 37 - 46): Choose the prepositions from the choices provided to form correct",
+      "opts": {
+        "a": "for",
+        "b": "against",
+        "c": "about",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This idea is in conformity _________ the rules laid down by the Corporation.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 37 - 46): Choose the prepositions from the choices provided to form correct",
+      "opts": {
+        "a": "across",
+        "b": "over",
+        "c": "beside",
+        "d": "behind"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Indian Airlines plane flew _________ the city.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 37 - 46): Choose the prepositions from the choices provided to form correct",
+      "opts": {
+        "a": "at/for",
+        "b": "on/for",
+        "c": "with/for",
+        "d": "to/on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He applied _________ the bank _________ a loan.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 37 - 46): Choose the prepositions from the choices provided to form correct",
+      "opts": {
+        "a": "on/over",
+        "b": "from/over",
+        "c": "to/into",
+        "d": "from/into"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I am translating this book _________ English _________Turkish.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 37 - 46): Choose the prepositions from the choices provided to form correct",
+      "opts": {
+        "a": "about/of",
+        "b": "of/from",
+        "c": "of/for",
+        "d": "about/by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is thinking _________ retiring _________ his post several years before the normal age.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 47 - 52): Identify the correct form of tenses for the sentences below. Choose",
+      "opts": {
+        "a": "Simple present",
+        "b": "Present perfect",
+        "c": "Simple past",
+        "d": "Past perfect"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She has taken her medicines.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 47 - 52): Identify the correct form of tenses for the sentences below. Choose",
+      "opts": {
+        "a": "Present perfect",
+        "b": "Past perfect",
+        "c": "Present perfect continuous",
+        "d": "Past perfect continuous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have been working on the project for the past two years.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 47 - 52): Identify the correct form of tenses for the sentences below. Choose",
+      "opts": {
+        "a": "Present perfect",
+        "b": "Future continuous",
+        "c": "Simple future",
+        "d": "Simple present"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They will reap the fruit of their labour soon.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 47 - 52): Identify the correct form of tenses for the sentences below. Choose",
+      "opts": {
+        "a": "Simple past",
+        "b": "Past perfect",
+        "c": "Present perfect",
+        "d": "Present perfect continuous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Meena had all her classes in the morning today.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 47 - 52): Identify the correct form of tenses for the sentences below. Choose",
+      "opts": {
+        "a": "Simple past continuous",
+        "b": "Past perfect continuous",
+        "c": "Present perfect continuous",
+        "d": "Present continuous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The hostel girls are travelling to Ooty in November.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 47 - 52): Identify the correct form of tenses for the sentences below. Choose",
+      "opts": {
+        "a": "Present perfect continuous",
+        "b": "Past perfect continuous",
+        "c": "Future perfect continuous",
+        "d": "Future continuous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They will have finished ploughing the paddy field when I reach there.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 53 - 59): Identify the type of sentences and choose the right answer from the",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Exclamatory",
+        "d": "Interrogative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Please clean your cupboard today.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 53 - 59): Identify the type of sentences and choose the right answer from the",
+      "opts": {
+        "a": "Assertive",
+        "b": "Imperative",
+        "c": "Exclamatory",
+        "d": "Interrogative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I love reading lengthy storybooks.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 53 - 59): Identify the type of sentences and choose the right answer from the",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Such a unique and beautiful place!",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 53 - 59): Identify the type of sentences and choose the right answer from the",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Can there be more than two answers to a question?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 53 - 59): Identify the type of sentences and choose the right answer from the",
+      "opts": {
+        "a": "Declarative",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Never let jealousy overpower you.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 53 - 59): Identify the type of sentences and choose the right answer from the",
+      "opts": {
+        "a": "Assertive",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Is the Pacific Ocean the largest in the world?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 53 - 59): Identify the type of sentences and choose the right answer from the",
+      "opts": {
+        "a": "Assertive",
+        "b": "Imperative",
+        "c": "Interrogative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Well, there can be only one correct answer to the question.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 60 - 66): Identify the type of phrases or clauses marked in Italics in the",
+      "opts": {
+        "a": "Adjective clause",
+        "b": "Adverb clause",
+        "c": "Adverb phrase",
+        "d": "Adjective phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He thinks, because he is rich, he can buy justice.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 60 - 66): Identify the type of phrases or clauses marked in Italics in the",
+      "opts": {
+        "a": "Adjective clause",
+        "b": "Adverb clause",
+        "c": "Adverb phrase",
+        "d": "Adjective phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is the boy who broke the window.",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 60 - 66): Identify the type of phrases or clauses marked in Italics in the",
+      "opts": {
+        "a": "Adjective clause",
+        "b": "Adverb clause",
+        "c": "Adverb phrase",
+        "d": "Noun clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I cannot tell what has become of him.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 60 - 66): Identify the type of phrases or clauses marked in Italics in the",
+      "opts": {
+        "a": "Noun phrase",
+        "b": "Noun clause",
+        "c": "Adjective phrase",
+        "d": "Adjective clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Early to bed is a good maxim.",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 60 - 66): Identify the type of phrases or clauses marked in Italics in the",
+      "opts": {
+        "a": "Noun phrase",
+        "b": "Noun clause",
+        "c": "Adverb phrase",
+        "d": "Adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rama ran with great speed.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 60 - 66): Identify the type of phrases or clauses marked in Italics in the",
+      "opts": {
+        "a": "Adverb clause",
+        "b": "Adverb phrase",
+        "c": "Adjective phrase",
+        "d": "Adjective clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The magistrate was a man with a kindly nature.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 60 - 66): Identify the type of phrases or clauses marked in Italics in the",
+      "opts": {
+        "a": "Noun phrase",
+        "b": "Noun clause",
+        "c": "Adverb phrase",
+        "d": "Adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "That you have come pleases me.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 2,
+      "text": "Write the precis of the following passage, giving it a suitable title:(14) The FIFA World Cup is the globe’s most prestigious football tournament, held every four years by the Fédération Internationale de Football Association (FIFA). Uniting billions of fans and national teams, this monumental event transcends sports, serving as a powerful engine for global unity, cultural exchange, and international economic growth. Often referred to as the “beautiful Game,” football has a universal appeal that requires nothing more than a ball and an open space. The World Cup serves as the pinnacle of this sport, elevating the passion of local communities onto the international stage. Every four years, it captures the attention of a massive global audience, making it the most-watched sporting event on the planet. For participating nations, the tournament is a profound source of national pride, where everyday life pauses as communities gather to cheer for their country’s color. The tournament was first established in 1930 under the vision of then-FIFA President Jules Rimet. Since its inaugural competition in Uruguay, the event has grown exponentially in scale and competitive intensity. Over the decades, legendary teams and iconic players—such as Pelé, Diego Maradona, and Lionel Messi—have etched their names into sports history, creating enduring legacies. The event has also adapted to modern demands, integrating advanced technology like Video Assistant Referee (VAR) systems to ensure fairness and accuracy in high-stakes matches. Beyond the thrill of the matches, the World Cup carries profound socio-economic and cultural significance. It acts as a massive cultural melting pot, allowing diverse sets of fans from various backgrounds to share traditions, celebrate together, and foster mutual understanding. For the host nation, the World Cup is a massive undertaking that brings in billions of dollars through tourism, sponsorships, and media rights, while driving infrastructure development like modern stadiums and transport networks. The FIFA World Cup is more than just a month-long sporting competition; it is a global phenomenon that brings humanity together in a shared passion. Despite political and logistical challenges, its ability to unite people across borders, languages, and cultures remains unparalleled. The tournament leaves a lasting legacy by inspiring generations of young players, cementing national identities, and celebrating the sheer joy of the beautiful game.",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 2,
+      "text": "You are Rinhlua, living at Raven Colony, Chandmari, Aizawl. You purchased a washing machine last week from M.S. Stores, at Aizawl Bazaar, but it was not working properly when brought home. Write a complaint letter to the dealer to raise the issue regarding the same, with necessary details. (10)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 2,
+      "text": "Read the given passages carefully and answer the questions that follow. The marks for each question are indicated at the end of the question: Marketing is all about creativity and expression, so it must be an art, right? Not necessarily. While marketers once relied purely on instinct, they now rely on data-driven insights. On top of that, cutting-edge technologies and analytics have shifted the focus of marketing further toward the science side of the spectrum. Armed with so much data, marketers can now track the impact of money spent on their bottom line. In today’s world, the best approach to marketing combines both disciplines. And there’s a distinct balance to the craft—a strategic mix of interpersonal empathy and tactical analysis. Neither side of the mix can be isolated or ignored, or the results will not be encouraging. Psychologists believe the brain is separated into two distinct functions: the left-brain and the right-brain. The right side of the brain is responsible for creative thinking and artistic intuition. Series - A- 3 - As an art, marketing is all about understanding the nuances of human behaviour and determining how to make an emotional connection with the customer. More importantly, some level of art is needed to create brand standards for your company, including the logo, messaging, and overall visual identity for the brand. Right-brained marketers focus on the creative—the copy, graphics and emotions tied to the message. The science side of marketing tells us to let the data guide what strategies will be most effective. Marketers are now reporting the need for digital-first expertise, including digital proficiency, data analysis, and data science. With science, marketers adopt an outcome-centric mindset that helps them curate smarter campaigns. Over the past few years, there has been an evolving prioritisation of data-savvy talent. In 2020 and beyond, brands will need to focus on recruiting talent that can understand the complexities of AI and machine technologies. But when we reflect on earlier times, marketing was defined as the predominance of traditional advertising, like television, newspaper, and direct mail. Today, it ropes in digital channels, social media, mobile devices, and integrated, complex campaigns. And just as consumers today are more tech-savvy, employees should be able to match—and exceed—their expertise. It is important that brands continue to prioritise creative, engaging campaign messages while also focusing on key insights and performance metrics for optimal results. (i)How does the author describe the evolution of marketing?(2) (ii)Provide one textual evidence with reference to paragraph 3 to support that marketing is an art. (1) (iii)Based on the passage, assess the way data and digital platforms have transformed the field of marketing and employment.(2) (iv)What does the writer refer to when he says ‘cutting-edge technologies’?(1) (v)Complete the analogy with one word from paragraph 2: Included : incorporated : ___________: secluded.(1)",
+      "subparts": {
+        "a": "approach",
+        "b": "empathy",
+        "c": "isolated",
+        "d": "Intuition demand of the consumers?(1)"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q4 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q6 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q7 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q8 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q1 (p2, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p2, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p2, part A): conventional section, 4 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2026/09/ddc6a97a1fcbe1c9df49713c5ebdd3ee/general-english-series-a.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "archive-lang-2012-tourist-officer-2012-1-general-english-i-1634c81f",
+  "exam": "Tourist Officer-2012",
+  "sitting": "2012",
+  "subject": "General English",
+  "source": "archive-lang-2012-tourist-officer-2012-1-general-english-i-1634c81f.pdf",
+  "sourceSha256": "70f5b88f64941eeeac84989951a23340a7383c42cf610dd85c6ded6b9d833371",
+  "ocr": false,
+  "count": 3,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reality Shows and Their Impact on Children",
+        "b": "Corruption: A Social Evil",
+        "c": "Violence Against Women"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Write an essay on **any one** of the following topics in not more than 500 words:(25)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Money is a good servant but a bad master.",
+        "b": "Failures are stepping stones to success.",
+        "c": "Prosperity finds friends, adversity tries them."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following passage carefully. Edit and reproduce it making necessary corrections.(15) The word patriotism means love – motherland. It is a natural feeling every person possesses if a person has – love – for – motherland he must be as good as dead. The love for motherland more significant than all varieties of love. This love may be there because of physical beauties of one’s its landscape fertility or rich natural resources etc but really a thing to feel proud of Patriotism is untouched by selfishness. OR Expand into a paragraph the central idea contained in the following statements:  Any 1 (one)(15)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Give a suitable title of not more than four words.(2)",
+        "b": "Why does the author think that the ordinary system of mass education is rigid?(3)",
+        "c": "What happens to a child who is talented in one subject and not in another?(4)",
+        "d": "What reason does the author give for a child not developing an intellectual independence?(3)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following passage carefully and answer the questions that follow: The defects of the ordinary system of mass education are many. They may be briefly summarized as follows.  First, the system of teaching in large classes is rigid. No allowance is made for the peculiar mental constitution of the individual child, who is sacrificed to the average of the class. The class and the fixed curriculum are like the bed of Procrustes in the story: those who are too long for the bed are cut down until they fit; and those who are too short are stretched. The child who is quick and talented in one subject but not in others is compelled under the current system of mass education to sacrifice his talents to his deficiencies. Thus, a child may have a great talent for English and none for arithmetic. Second, under the present system of mass education by classes, too much stress is laid on teaching and too little on active learning. The child is not encouraged to discover things on his own account. He learns to rely on outside help, not on his own powers. Thus, he loses intellectual independence and all capacity to judge for himself. Moreover, lessons in class leave him mainly unoccupied, and therefore bored. He has to be forced into learning what does not interest him. The information acquired mechanically and reluctantly by dint of brute repetition is rapidly forgotten. Third, the child, being bored and unoccupied, is also mischievous. A strict external discipline becomes necessary, unless there is to be confusion. The child learns to obey, not to control himself. He loses moral as well as intellectual independence.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q4 (p2, part None): only 1 option(s) ['a'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      2,
+      3,
+      4
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/1634c81fc7ea39f3aab82e320f98702d/tourist-officer-2012-general-english-i.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

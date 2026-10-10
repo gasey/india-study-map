@@ -1,0 +1,744 @@
+{
+  "slug": "archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890",
+  "exam": "Instructor ITI, April-2026",
+  "sitting": "2026",
+  "subject": "General English",
+  "source": "archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890.pdf",
+  "sourceSha256": "23534dd43b1bfc4aa67cda0ffa409b3f72201ea2da6e219c42123a4a6adcb1b6",
+  "ocr": false,
+  "count": 30,
+  "questions": [
+    {
+      "n": 1,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 1 - 5) : Choose the correct parts of speech.",
+      "opts": {
+        "a": "Adverb",
+        "b": "Adjective",
+        "c": "Noun",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **very** idea shocked everyone.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 1 - 5) : Choose the correct parts of speech.",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Preposition",
+        "c": "Adverb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She has been working **since** morning.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 1 - 5) : Choose the correct parts of speech.",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Adverb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She might **refuse** the offer without explanation.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 1 - 5) : Choose the correct parts of speech.",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Noun",
+        "c": "Verb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Nobody** understood the complexity of the matter.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 1 - 5) : Choose the correct parts of speech.",
+      "opts": {
+        "a": "Verb",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His unexpected arrival caused **upheaval.**",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 6 - 10) : Rewrite the sentences by substituting the underlined word(s) with",
+      "opts": {
+        "a": "He braved the battle.",
+        "b": "He was very brave during the battle.",
+        "c": "He fought with bravery during the battle.",
+        "d": "He fought during the battle with braveness."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He fought **bravely** during the battle. (Noun)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 6 - 10) : Rewrite the sentences by substituting the underlined word(s) with",
+      "opts": {
+        "a": "We woke up to a beautifully sunrise.",
+        "b": "We woke up to the beauty of the sunrise.",
+        "c": "We woke up to a beauteous sunrise.",
+        "d": "We woke up as the sun rose beautifully."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We woke up to a **beautiful** sunrise. (Adverb)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 6 - 10) : Rewrite the sentences by substituting the underlined word(s) with",
+      "opts": {
+        "a": "If what you have told me is truly, then I must act.",
+        "b": "If what you have told me is a truism, then I must act.",
+        "c": "If what you have told me is truthful, then I must act.",
+        "d": "If what you have told me is the **truth**, then I must act."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If what you have told me is **true**, then I must act. (Noun)",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 6 - 10) : Rewrite the sentences by substituting the underlined word(s) with",
+      "opts": {
+        "a": "The breeze blew in from the east with gentleness.",
+        "b": "The breeze blew in from the east with gentility.",
+        "c": "The breeze blew in from the east genteelly.",
+        "d": "The wind blew in gently from the east."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There was a **gentle** breeze that blew in from the east. (Adverb)",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 6 - 10) : Rewrite the sentences by substituting the underlined word(s) with",
+      "opts": {
+        "a": "I am happy to serve the king.",
+        "b": "I am happy to be serviceable to the king.",
+        "c": "I am happy with my servitude to the king.",
+        "d": "I am happy to be in the king’s servitude."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I am happy to be in the king’s **service** .(Verb)",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question No. 11 - 15) : Identify the correct meaning of the following idioms and phrases.",
+      "opts": {
+        "a": "to give the wrong answer",
+        "b": "to be too late for something",
+        "c": "to misjudge someone",
+        "d": "to avoid a disastrous event"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "to miss the boat",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question No. 11 - 15) : Identify the correct meaning of the following idioms and phrases.",
+      "opts": {
+        "a": "to be sick",
+        "b": "to do something in secret",
+        "c": "to be unaffected by anything",
+        "d": "to live a completely ordinary life"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "to be under the weather",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question No. 11 - 15) : Identify the correct meaning of the following idioms and phrases.",
+      "opts": {
+        "a": "to overcome an obstacle that once seemed insurmountable",
+        "b": "to start a new venture or journey with limited resources",
+        "c": "to accidentally ruin a situation which was already delicate to start with",
+        "d": "to say or do something to make people comfortable in a social setting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To break the ice",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question No. 11 - 15) : Identify the correct meaning of the following idioms and phrases.",
+      "opts": {
+        "a": "to free someone from a debt or an obligation",
+        "b": "to accidentally reveal a secret",
+        "c": "to solve a problem easily",
+        "d": "to conclude something in a favourable manner"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "to let the cat out of the bag",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question No. 11 - 15) : Identify the correct meaning of the following idioms and phrases.",
+      "opts": {
+        "a": "to acknowledge someone’s hard work",
+        "b": "you are more fortunate than you think",
+        "c": "it is your turn to act or make a decision",
+        "d": "you are the one who is at fault"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "the ball is in your court",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 20) : Complete the sentences with the most appropriate words.",
+      "opts": {
+        "a": "indubitable",
+        "b": "indefensible",
+        "c": "indispensable",
+        "d": "indelible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ms. Smith is an _____ part of the company; we cannot survive without her.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 20) : Complete the sentences with the most appropriate words.",
+      "opts": {
+        "a": "ineligible",
+        "b": "incredible",
+        "c": "inedible",
+        "d": "indelible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The bread is full of mould and is _____.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 20) : Complete the sentences with the most appropriate words.",
+      "opts": {
+        "a": "racist",
+        "b": "polygamist",
+        "c": "zealot",
+        "d": "misogynist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is a _____, and so he believes women should be subjugated.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 20) : Complete the sentences with the most appropriate words.",
+      "opts": {
+        "a": "oligarchy",
+        "b": "patriarchy",
+        "c": "monarchy",
+        "d": "anarchy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Without laws and systems, society would fall into _____.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 16 - 20) : Complete the sentences with the most appropriate words.",
+      "opts": {
+        "a": "absolute",
+        "b": "obsolete",
+        "c": "omnific",
+        "d": "omniscient"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The floppy disk is an ______ piece of technology.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question No. 21 - 25) : Convert the following sentences as directed, while retaining the",
+      "opts": {
+        "a": "It is possible that I may not be wrong.",
+        "b": "It is impossible that I may not be wrong.",
+        "c": "It is not impossible that I may be wrong.",
+        "d": "It is not possible that I may be wrong."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is possible that I may be wrong. (to negative)",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question No. 21 - 25) : Convert the following sentences as directed, while retaining the",
+      "opts": {
+        "a": "Delhi is the biggest town in India.",
+        "b": "Delhi is bigger than most towns in India.",
+        "c": "Delhi is as big as most towns in India.",
+        "d": "Delhi is one of the biggest towns in India."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Few towns in India are as big as Delhi. (to superlative)",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question No. 21 - 25) : Convert the following sentences as directed, while retaining the",
+      "opts": {
+        "a": "May I have a cup of water?",
+        "b": "Is it possible to have a cup of water?",
+        "c": "I long for a cup of water.",
+        "d": "Give me a cup of water at once."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "O for a cup of water (to assertive)",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question No. 21 - 25) : Convert the following sentences as directed, while retaining the",
+      "opts": {
+        "a": "Jane is more beautiful than all the other girls in school.",
+        "b": "Jane is as beautiful as all the other girls in school.",
+        "c": "No other girl in school is as beautiful as Jane.",
+        "d": "Jane is not as beautiful as the other girls in school."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Jane is the most beautiful girl in school. (to Positive)",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question No. 21 - 25) : Convert the following sentences as directed, while retaining the",
+      "opts": {
+        "a": "Oh, that the door may be closed at once!",
+        "b": "Can someone close the door at once?",
+        "c": "That the door may be closed at once!",
+        "d": "Close the door at once."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I wish that the door may be closed at once (to Imperative)",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 26 – 30): Choose the correct sentence:",
+      "opts": {
+        "a": "No sooner had she finished her speech when the audience applauded.",
+        "b": "No sooner had she finished her speech than the audience applauded.",
+        "c": "No sooner she had finished her speech than the audience applauded.",
+        "d": "No sooner did she finish her speech than the audience had applauded."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 26 – 30): Choose the correct sentence:",
+      "opts": {
+        "a": "Under no circumstances should you break the rules.",
+        "b": "Under no circumstances you should break the rules.",
+        "c": "Under no circumstances should break you the rules.",
+        "d": "Under no circumstances you should be break the rules."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 26 – 30): Choose the correct sentence:",
+      "opts": {
+        "a": "So was difficult the exam that many failed.",
+        "b": "So difficult the exam was that many failed.",
+        "c": "So the exam was difficult that many failed.",
+        "d": "So difficult was the exam that many failed."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 26 – 30): Choose the correct sentence:",
+      "opts": {
+        "a": "The more harder you work, the more successful you become.",
+        "b": "The harder you work, the more successful you become.",
+        "c": "The harder you work, more successful you become.",
+        "d": "More harder you work, the more successful you become."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos 26 – 30): Choose the correct sentence:",
+      "opts": {
+        "a": "Not only did he lose the documents, but he also failed to report it.",
+        "b": "Not only he lose the documents, but he also failed to report it.",
+        "c": "Not only he lost the documents but also failed to report it.",
+        "d": "Not only did he lost the documents, but he also failed to report it."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write a precis of the following passage in about one third of the original length and suggest a suitable title.(10) Skill-based training today is no longer what it used to be. With rapid technological progress and changing industry requirements, older methods of teaching—mainly based on memorization and repetition—have become insufficient. Workers in modern industries are expected not only to possess technical knowledge but also to demonstrate adaptability, problem-solving ability, and readiness to work with new technologies. At this point, the role of instructors in Industrial Training Institutes becomes especially important. Their responsibility goes beyond delivering lessons; they are expected to connect theoretical learning with practical application. By guiding trainees to think independently and solve real-life problems, instructors help them become more confident and capable. This also means that instructors themselves must regularly upgrade their skills and remain aware of current industrial practices. The introduction of digital tools and simulation methods has improved the training process. Yet, these tools alone cannot guarantee effective learning. If not guided properly, trainees may perform tasks without understanding the basic concepts behind them. Therefore, it is necessary to maintain a balance between hands-on practice and conceptual clarity. In the end, the goal of industrial training is to develop workers who are skilled, confident, and adaptable. This goal can be achieved only when instructors take on the role of mentors who encourage continuous learning.",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Many students avoid vocational training and choose general academic courses without a proper career plan. Write a letter to the Editor of the daily newspaper Zawlkhawpui discussing this issue and suggesting ways to increase awareness of skilled jobs.Address yourself as XXX.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 2,
+      "text": "Read the following passage carefully and answer the following questions: Industrial training plays an important role in preparing young people for employment. It focuses on developing practical skills that are directly useful in the workplace. However, many trainees do not fully benefit from such training because they lack seriousness and discipline. Some attend classes irregularly, while others do not pay attention during practical sessions. Instructors try to guide trainees by demonstrating correct methods and encouraging them to practice regularly. Still, without interest and effort from the trainees, learning remains incomplete. In addition, the proper use of tools and safety measures is often ignored, which can lead to accidents. To make training effective, both instructors and trainees must work together. Trainees should take responsibility for their learning, while instructors should create an engaging and supportive environment. Only then can industrial training achieve its goal of producing skilled and confident workers. (i)What is the main purpose of industrial training?(2) (ii)Why do some trainees fail to benefit fully from training?(2) (iii)What role do instructors play in the training process?(2) (iv)How can industrial training be made more effective?(2) (v)Find a word from the passage similar in meaning to “self-control.”(1) (vi)Find a word from the passage opposite in meaning to “comprehensive.”(1)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "A",
+      "page": 2,
+      "text": "Write an essay on any one (1) of the following topics in about 250 words:(10) -The Importance of discipline in building a successful skilled career. -Intermarriage and Mizo Women’s Rights -Role of Information Technology in Skill Development.",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p2, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p2, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2026/04/192ed89058f660d6392718983d919d85/paper-i-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

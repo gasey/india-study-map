@@ -1,0 +1,184 @@
+{
+  "slug": "archive-lang-2016-mcs-main-2016-21-general-english-039e02b6",
+  "exam": "MCS Main-2016",
+  "sitting": "2016",
+  "subject": "General English",
+  "source": "archive-lang-2016-mcs-main-2016-21-general-english-039e02b6.pdf",
+  "sourceSha256": "250b4114cf2853c86f28c6178379b74159afa72b4b497f5c10cb46cb0f5da6a4",
+  "ocr": false,
+  "count": 7,
+  "questions": [
+    {
+      "n": 3,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "What are the three advantages of leading from the back?(3)",
+        "b": "How does a good leader give a lot of freedom to his team?(3)",
+        "c": "Explain in your own words : “He does not put a ton of pressure where a kilo will suffic”(3)",
+        "d": "Should a good leader be always better than his team? Give reasons.(3) (i)ability to think and judge quickly; (ii)to spend foolishly; (iii)unimportant matters."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the given passage carefully, and answer the questions given :- Should  the leader lead from the front or the back?  The best leader leads from behind when things are going on course. By doing this he not only becomes a follower but also allows the followers to lead during easier times, thereby giving ample scope for budding leaders to emerge and take initiative. This way he not only conserves his energy but allows others to vent their energy. This provides ample freedom for the group to take directions which the leader could never have thought about alone. As long as the movement is going fine, the leader takes a back seat and lets things take their own course. A leader is known for his acumen by the things he chooses to leave undone as much as for the things he chooses to do. He does not wish to control every detail and squander his energy on trivia, but conserves it for more important tasks. He remains in the background as long as he is not required. A good leader is a democratic leader. He leads by consensus. He does not impose his decisions on his subordinates but enlists their support for every decision . He does not come down too harshly on errants, but knows the exact amount of firmness and the tact required for the implementation of a task. He does not put a ton of pressure where a kilo will suffice. He is patient with his subordinates for he knows that they may come out with better solutions and may know their particular fields better than him. Decision-making is through democratic methods and consensus.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The river flows __________ the bridge.",
+        "b": "He does not go to office __________ 10 O’clock.",
+        "c": "The public are cautioned __________ pickpockets.",
+        "d": "The house was destroyed __________ fire."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks with the correct prepositions.(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Someone has broken this chair. (Change to Passive)",
+        "b": "Can you speak the truth? (Change to Passive)",
+        "c": "He said, “I have been successful in my work”. (Change to Indirect)",
+        "d": "Unfortunately, you failed in the examination. (Change to Complex) (e)He is honest, though poor. (Change to Compound) (f)Those who are poor deserve our sympathy. (Change to Simple) (g)It is sad that she is ruined. (Change to Exclamatory) (h)That is not the way to talk to your elders. (Change to Interrogative) (i)How kind of you to help me with money. (Change to Assertive) (j)Rama is more intelligent than Liana. (Change to Negative)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rewrite the following sentences as directed.(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Access/ Excess",
+        "b": "Casual/ Causal",
+        "c": "Dose/ Doze",
+        "d": "Floor/ Flour (e)Gentle/ Genteel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make a meaningful  sentence with each of the following pairs of words to bring out the difference in the meaning of each :-(5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Remi said to me, “I advise you to do your best.”",
+        "b": "“I know that, Sir,” she replied.",
+        "c": "I said, “I assure you I have never seen you before.”",
+        "d": "I proposed to him that we should go out for a walk. (e)The examiner ordered everybody to stop writing for the time was up."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Change the form of narration :-(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "__________ be the case, he will remain my friend.",
+        "b": "__________ what you say, I will go ahead.",
+        "c": "__________ he is selfish, I will help him.",
+        "d": "__________ he is poor, he is honest. (e)__________ fast he may drive, he cannot reach in time."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks using one of the following conjunctions:(5×1=5) However, Whatever, Though, No matter, Even if",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "In the seventh heaven",
+        "b": "Pin money",
+        "c": "Dog in the manger",
+        "d": "A utopian scheme"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences with the following idioms and phrases (any 5)(5×2=10)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/039e02b6ffe1d0c2241d81b9aea7b01c/mcs-main-2016-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

@@ -53,6 +53,10 @@ ARCHIVE_2023_2025 = json.loads((Path(__file__).parent / 'mpsc-archive-2023-2025.
 NG_ARCHIVE_2024_2027 = json.loads((Path(__file__).parent / 'mpsc-ng-2024-2027.json').read_text())
 SOURCE_URLS.update({row['slug']: row['url'] for row in ARCHIVE_2023_2025 + NG_ARCHIVE_2024_2027})
 ENRICHMENT_VERSIONS.update({row['slug']: 1 for row in ARCHIVE_2023_2025 + NG_ARCHIVE_2024_2027})
+LANGUAGE_ARCHIVE = json.loads((Path(__file__).parent / 'mpsc-language-archive.json').read_text())
+SOURCE_URLS.update({row['slug']: row['url'] for row in LANGUAGE_ARCHIVE})
+ENRICHMENT_VERSIONS.update({row['slug']: 1 for row in LANGUAGE_ARCHIVE})
+LANGUAGE_ARCHIVE_SLUGS = {row['slug'] for row in LANGUAGE_ARCHIVE}
 
 
 
@@ -93,6 +97,10 @@ def enrich(result, source):
     if slug not in SOURCE_URLS:
         return result
     result['sourceUrl'] = SOURCE_URLS[slug]
+    if slug in LANGUAGE_ARCHIVE_SLUGS:
+        result['enrichmentVersion'] = ENRICHMENT_VERSIONS[slug]
+        result['answerStatus'] = 'No verified key or checked solution attached; retain as unscored source material.'
+        return result
     if slug in {row['slug'] for row in ARCHIVE_2023_2025 + NG_ARCHIVE_2024_2027}:
         result['enrichmentVersion'] = ENRICHMENT_VERSIONS[slug]
         result['answerStatus'] = 'No verified key or worked solutions attached; unscored source transcription.'

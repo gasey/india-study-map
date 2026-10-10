@@ -1,0 +1,208 @@
+{
+  "slug": "archive-lang-2025-junior-grade-of-mpe-ss-december-2025-jr-grade-of-mpe-ss-general-english-ff0a2d0b",
+  "exam": "Junior Grade of MPE&SS - December-2025",
+  "sitting": "2025",
+  "subject": "General English",
+  "source": "archive-lang-2025-junior-grade-of-mpe-ss-december-2025-jr-grade-of-mpe-ss-general-english-ff0a2d0b.pdf",
+  "sourceSha256": "05ecdd81bffbdbbd8717d207dee80c03e3d26f80883b1ad53e61083594129807",
+  "ocr": false,
+  "count": 8,
+  "questions": [
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Give a suitable title for the above passage.(2)",
+        "b": "What is the main idea of the above passage?(2)",
+        "c": "From your understanding of the passage, what is the behaviour of the crowd?(2)",
+        "d": "How are the ‘intellectuals’ different from the ‘masses’?(2)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the given passage carefully and answer the questions that follow: A man or woman makes direct contact with society in two ways: as a member of some familiar, professional or religious group, or as a member of a crowd. Groups are capable of being as moral and intelligent as the individuals who form them; a crowd is capable of anything except intelligent action and realistic thinking. Assembled in a crowd, people lose their powers of reasoning and their capacity for moral choice. Their suggestibility is increased to the point where they cease to have any judgement or will of their own. They become very excitable, they lose all sense of individual or collective responsibility, they are subject to sudden excesses of rage, enthusiasm and panic. In a word, a man in a crowd behaves as though he had swallowed a large dose of some powerful intoxicant. He is a victim of what I have called ‘herd poisoning’. Like alcohol, herd-poison is an active, extravagant drug. The crowd-intoxicated individual escapes from responsibility, intelligence and morality into a kind of frantic, animal mindlessness. Unlike the masses, intellectuals have a taste for rationality and an interest in facts. Their critical habit of mind makes them resistant to the kind of propaganda that works so well on the majority. Intellectuals are the kind of people who demand evidence and are shocked by logical inconsistencies and fallacies. They regard over-simplification as the original sin of the mind and have no use for the slogans, the unqualified assertions and sweeping generalizations which are the propagandist’s stock- in-trade.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Adjective clause",
+        "b": "Adverb clause",
+        "c": "Noun clause",
+        "d": "Conditional clause (a)Adverb clause(b)Noun clause (c)Adjective clause(d)Independent clause (a)Adverb clause(b)Noun clause (c)Adjective clause(d)Relative clause (a)Adverb clause(b)Adjective clause (c)Noun clause(d)Subordinate clause of cause (a)Adverb clause(b)Adjective clause (c)Noun clause(d)Comparative clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct type of clause for the words underlined in the given sentences:(5×1=5) (i)The student **who topped the examination** was given a scholarship.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "are going",
+        "b": "is going",
+        "c": "were going",
+        "d": "have gone (a)has(b)will have (c)had(d)would (a)don’t discuss(b)didn’t discuss (c)not discuss(d)didn’t discussed (a)works(b)worked (c)has worked(d)is working (a)will complete(b)will have been completed (c)was completed(d)had completed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks by choosing the correct verbs:(5×1=5) (i)He, along with his friends,_________ to the conference tomorrow.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "He said to his assistant, “Finish this report by tonight.”",
+        "b": "She exclaimed, “How beautiful the night sky is!”",
+        "c": "He said to me, “Do it yourself if you want it done right.”",
+        "d": "She said that she was going to submit the assignment the next day."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Change the speech of the following sentences:(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Preposition",
+        "b": "Conjunction",
+        "c": "Noun",
+        "d": "Adverb (a)Preposition(b)Conjunction (c)Adjective(d)Adverb (a)Verb(b)Conjunction (c)Noun(d)Adverb (a)Personal Pronoun(b)Indefinite Pronoun (c)Interjection(d)Adverb (a)Verb(b)Conjunction (c)Noun(d)Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the Parts of Speech of the underlined words in the given sentences.(5×1=5) (i)One should be careful **about** one’s health.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "in / at",
+        "b": "at / in",
+        "c": "in / in",
+        "d": "at / at (a)at(b)in (c)into(d)over (a)from(b)since (c)within(d)in (a)at(b)since (c)till(d)in (a)from(b)on (c)within(d)in (a)from(b)by (c)within(d)with (a)at(b)in (c)from(d)on (a)in(b)since (c)for(c)from (a)at(b)by (c)within the(d)till (a)over(b)at (c)above(d)from"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose an appropriate preposition from the options provided at the end of each question. (10×1=10) (i)Zorami lives _________ Aizawl _________ India.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "teach",
+        "b": "teaches",
+        "c": "taught",
+        "d": "is teaching (a)cross(b)crosses (c)crossed(d)was crossing (a)study(b)studied (c)had studied(d)had been studying (a)find(b)have found (c)found(d)did find (a)finish(b)finished (c)will finish(d)will be finishing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks with the correct forms of the verbs given in the brackets. Select the answer from the given options:(5×1=5) (i)Miss Sarah is the teacher who _________ (teach) us English.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The family of the deceased believe that he is the killer. (Change the voice)",
+        "b": "His homework was being done by the computer. (Change the voice)",
+        "c": "He asked me if I will follow him till the end of his journey. (Change into interrogative sentence)",
+        "d": "How great is God! (Change into assertive sentence)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Change the sentence as directed:(10×1=10)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2026/01/ff0a2d0b18a4d19c02ceff1aafdb1c6c/jr-grade-of-mpe-ss-general-english.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

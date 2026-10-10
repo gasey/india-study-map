@@ -1,0 +1,1774 @@
+{
+  "slug": "archive-lang-2018-middle-school-teacher-under-school-education-deptt-2018-1-general-englis-b2c9c0dc",
+  "exam": "Middle School Teacher under School Education Deptt -2018",
+  "sitting": "2018",
+  "subject": "General English",
+  "source": "archive-lang-2018-middle-school-teacher-under-school-education-deptt-2018-1-general-englis-b2c9c0dc.pdf",
+  "sourceSha256": "17a0b453b20af2c1edc4aea6d5d8afb312e885a8582474ec89f4922087399b12",
+  "ocr": false,
+  "count": 80,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (1-16): Choose the nearest meaning of the idioms and phrases given in italics from the",
+      "opts": {
+        "a": "born in poverty",
+        "b": "born in wealth and luxury",
+        "c": "born in a religious family",
+        "d": "born in a family of good friends."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This young fellow was born with a silver spoon in his mouth.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (1-16): Choose the nearest meaning of the idioms and phrases given in italics from the",
+      "opts": {
+        "a": "have many things in my hands",
+        "b": "I am very busy",
+        "c": "my hands are weak",
+        "d": "my hands cannot hold anything"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At the moment my hands are full.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (1-16): Choose the nearest meaning of the idioms and phrases given in italics from the",
+      "opts": {
+        "a": "located at a market",
+        "b": "situated near the market",
+        "c": "has view of the market",
+        "d": "offered for sale"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mohan’s house is put on the market.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (1-16): Choose the nearest meaning of the idioms and phrases given in italics from the",
+      "opts": {
+        "a": "only",
+        "b": "without any stretch",
+        "c": "rapidly",
+        "d": "continuously"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He sometimes works nine hours at a stretch.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (1-16): Choose the nearest meaning of the idioms and phrases given in italics from the",
+      "opts": {
+        "a": "touches him deeply",
+        "b": "has heart attack",
+        "c": "his heart is weak",
+        "d": "has a strong heart"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It goes to his heart to see much misery.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (1-16): Choose the nearest meaning of the idioms and phrases given in italics from the",
+      "opts": {
+        "a": "be joyous",
+        "b": "be ruined",
+        "c": "be merry",
+        "d": "be great"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You will come to grief if you follow his advice.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (1-16): Choose the nearest meaning of the idioms and phrases given in italics from the",
+      "opts": {
+        "a": "with lots of belongings",
+        "b": "with many bags",
+        "c": "with all belongings",
+        "d": "with a bag and a baggage."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My neighbour shall be going, bag and baggage.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (1-16): Choose the nearest meaning of the idioms and phrases given in italics from the",
+      "opts": {
+        "a": "filled her with sorrow",
+        "b": "filled her with grief",
+        "c": "filled her with horror",
+        "d": "filled her with pity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The account of the murder made her blood creep.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (1-16): Choose the nearest meaning of the idioms and phrases given in italics from the",
+      "opts": {
+        "a": "not improbable",
+        "b": "a picture on the cards",
+        "c": "was good",
+        "d": "not welcome"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Another great was is on the cards.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (1-16): Choose the nearest meaning of the idioms and phrases given in italics from the",
+      "opts": {
+        "a": "used his hands",
+        "b": "made an attempt",
+        "c": "was good",
+        "d": "was not successful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He tried his hand at farming.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (1-16): Choose the nearest meaning of the idioms and phrases given in italics from the",
+      "opts": {
+        "a": "became brave",
+        "b": "put on a good show",
+        "c": "bore up courageously",
+        "d": "put a make up on the face"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He lost the elections, but put a good face on.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (1-16): Choose the nearest meaning of the idioms and phrases given in italics from the",
+      "opts": {
+        "a": "shook heaven and earth",
+        "b": "put some effort",
+        "c": "prayed",
+        "d": "made every possible effort"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tana’s adversaries moved heaven and earth to get him dismissed.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (1-16): Choose the nearest meaning of the idioms and phrases given in italics from the",
+      "opts": {
+        "a": "a man of no substance",
+        "b": "a thin man",
+        "c": "a man who is fat",
+        "d": "a cunning man"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The bank won’t accept the guarantee of a man of straw.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (1-16): Choose the nearest meaning of the idioms and phrases given in italics from the",
+      "opts": {
+        "a": "a person who keep his words",
+        "b": "a man who lies",
+        "c": "a trustworthy man",
+        "d": "a man who speaks a lot"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You can trust him; he is a man of his words.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (1-16): Choose the nearest meaning of the idioms and phrases given in italics from the",
+      "opts": {
+        "a": "hypocrite",
+        "b": "liar",
+        "c": "brute",
+        "d": "monster"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Beware of that wolf in sheep’s clothing.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (1-16): Choose the nearest meaning of the idioms and phrases given in italics from the",
+      "opts": {
+        "a": "to be mad",
+        "b": "to think deeply",
+        "c": "to be wise beyond her years",
+        "d": "to be so stupid for her years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She appears to have an old head on young shoulder.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-32): Read the given passages carefully and complete the sentences as required",
+      "opts": {
+        "a": "it is not a sin",
+        "b": "it is a very harmless weakness",
+        "c": "it is very harmful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The popular notion about “bad temper” is that ___________",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-32): Read the given passages carefully and complete the sentences as required",
+      "opts": {
+        "a": "it is often the one blot on an otherwise noble character",
+        "b": "the virtuous are bad tempered",
+        "c": "virtue and vice go hand in hand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bad temper is “the vice of the virtuous” because___________",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-32): Read the given passages carefully and complete the sentences as required",
+      "opts": {
+        "a": "vices of human nature",
+        "b": "worse sins ever",
+        "c": "most destructive elements in human nature"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Bible again and again returns to condemn bad temper as one of the___________",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-32): Read the given passages carefully and complete the sentences as required",
+      "opts": {
+        "a": "the soul",
+        "b": "disposition",
+        "c": "mankind"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "There are two great classes of sins-sins of the body, and sins of ___________",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-32): Read the given passages carefully and complete the sentences as required",
+      "opts": {
+        "a": "ill temper with high moral character",
+        "b": "temper with other vices",
+        "c": "bad temper with cool temperament."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The strangest and saddest problems of ethics is the compatibility of ___________",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-32): Read the given passages carefully and complete the sentences as required",
+      "opts": {
+        "a": "sins of disposition",
+        "b": "sins of the body",
+        "c": "sins of the mind"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Prodigal son is said to commit ___________",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-32): Read the given passages carefully and complete the sentences as required",
+      "opts": {
+        "a": "such a mood will bring about peace and tranquility",
+        "b": "such a mood could be dangerous",
+        "c": "such a mood could make heaven miserable for all people in it"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the author, there will be no place in Heaven for bad-tempered folk because __________",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-32): Read the given passages carefully and complete the sentences as required",
+      "opts": {
+        "a": "jealousy, anger, pride",
+        "b": "uncharity, cruelty, touchiness",
+        "c": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ingredients of ill temper are ___________",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-32): Read the given passages carefully and complete the sentences as required",
+      "opts": {
+        "a": "blow up",
+        "b": "wipe out",
+        "c": "destroying"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The synonym of breaking up from the passage is ___________",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-32): Read the given passages carefully and complete the sentences as required",
+      "opts": {
+        "a": "devastating",
+        "b": "desolate",
+        "c": "dark"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The nearest meaning for ruining from the passage is ___________",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-32): Read the given passages carefully and complete the sentences as required",
+      "opts": {
+        "a": "to shock or horrify by something considered immoral or improper",
+        "b": "paralyse",
+        "c": "materialize"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The nearest word meaning for scandalizing is ___________",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-32): Read the given passages carefully and complete the sentences as required",
+      "opts": {
+        "a": "spoil",
+        "b": "destroy",
+        "c": "ferment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The nearest meaning for souring is ___________",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-32): Read the given passages carefully and complete the sentences as required",
+      "opts": {
+        "a": "brooding",
+        "b": "hasty",
+        "c": "cheerful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The antonym for easily offended is ___________",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-32): Read the given passages carefully and complete the sentences as required",
+      "opts": {
+        "a": "given free of charge",
+        "b": "grateful",
+        "c": "want something free of charge"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gratuitous means ___________",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-32): Read the given passages carefully and complete the sentences as required",
+      "opts": {
+        "a": "sinner",
+        "b": "evil",
+        "c": "virtue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Antonym for sin is ___________",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-32): Read the given passages carefully and complete the sentences as required",
+      "opts": {
+        "a": "atrocious",
+        "b": "kindness",
+        "c": "brutality"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Antonym for cruelty is ___________",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33-48): Identify the Parts of Speech of the underlined words and choose the",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "verb",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Sleep** can heal many wounds.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33-48): Identify the Parts of Speech of the underlined words and choose the",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "adjective",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We enjoyed **ourselves** very much.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33-48): Identify the Parts of Speech of the underlined words and choose the",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "adverb",
+        "d": "adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Who** is knocking at the door?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33-48): Identify the Parts of Speech of the underlined words and choose the",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "verb",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Come** in.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33-48): Identify the Parts of Speech of the underlined words and choose the",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "verb",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Walk **fast**, lest you miss the train.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33-48): Identify the Parts of Speech of the underlined words and choose the",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "adjective",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She has **some** apples at home.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33-48): Identify the Parts of Speech of the underlined words and choose the",
+      "opts": {
+        "a": "adverb",
+        "b": "adjective",
+        "c": "preposition",
+        "d": "interjection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **sick** man was taken to the hospital.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33-48): Identify the Parts of Speech of the underlined words and choose the",
+      "opts": {
+        "a": "interjection",
+        "b": "preposition",
+        "c": "conjunction",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Ah!** What a show!",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33-48): Identify the Parts of Speech of the underlined words and choose the",
+      "opts": {
+        "a": "preposition",
+        "b": "conjunction",
+        "c": "interjection",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I came **but** could not meet you.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33-48): Identify the Parts of Speech of the underlined words and choose the",
+      "opts": {
+        "a": "preposition",
+        "b": "interjection",
+        "c": "conjunction",
+        "d": "noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two **and** two make four.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33-48): Identify the Parts of Speech of the underlined words and choose the",
+      "opts": {
+        "a": "conjunction",
+        "b": "interjection",
+        "c": "preposition",
+        "d": "adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Hurrah!** We are home at last!",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33-48): Identify the Parts of Speech of the underlined words and choose the",
+      "opts": {
+        "a": "adjective",
+        "b": "adverb",
+        "c": "pronoun",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Go **quickly**; you are wanted soon.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33-48): Identify the Parts of Speech of the underlined words and choose the",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "adverb",
+        "d": "adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rose is a **beautiful** flower.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33-48): Identify the Parts of Speech of the underlined words and choose the",
+      "opts": {
+        "a": "preposition",
+        "b": "interjection",
+        "c": "verb",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There are rats **in** his kitchen.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33-48): Identify the Parts of Speech of the underlined words and choose the",
+      "opts": {
+        "a": "interjection",
+        "b": "preposition",
+        "c": "verb",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The aeroplane flew **over** my vineyard.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33-48): Identify the Parts of Speech of the underlined words and choose the",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "adjective",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Childhood** is the best time in our lives.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49-64): Analyse the given sentences and choose the correct answer from the",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The children slept when the journey ended.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49-64): Analyse the given sentences and choose the correct answer from the",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Walk quickly else you will not overtake them.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49-64): Analyse the given sentences and choose the correct answer from the",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "I called him, but he gave me no answer.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49-64): Analyse the given sentences and choose the correct answer from the",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "They always talk who never think.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49-64): Analyse the given sentences and choose the correct answer from the",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Compound sentence",
+        "c": "Complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Everything comes, if a man will only work and wait.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49-64): Analyse the given sentences and choose the correct answer from the",
+      "opts": {
+        "a": "Active form",
+        "b": "Passive form",
+        "c": "Negative form"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Caesar was stabbed by Brutus.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49-64): Analyse the given sentences and choose the correct answer from the",
+      "opts": {
+        "a": "Active form",
+        "b": "Passive form",
+        "c": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who taught you grammar?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49-64): Analyse the given sentences and choose the correct answer from the",
+      "opts": {
+        "a": "Positive",
+        "b": "Comparative",
+        "c": "Superlative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Iron is the most useful of all metals.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49-64): Analyse the given sentences and choose the correct answer from the",
+      "opts": {
+        "a": "Positive",
+        "b": "Comparative",
+        "c": "Superlative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mumbai is richer than most other cities in India.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49-64): Analyse the given sentences and choose the correct answer from the",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Negative",
+        "c": "Interrogative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Every man makes mistakes sometimes.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49-64): Analyse the given sentences and choose the correct answer from the",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Negative",
+        "c": "Interrogative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "No man could have done better.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49-64): Analyse the given sentences and choose the correct answer from the",
+      "opts": {
+        "a": "Assertive",
+        "b": "Exclamatory",
+        "c": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The night is very beautiful.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49-64): Analyse the given sentences and choose the correct answer from the",
+      "opts": {
+        "a": "Assertive",
+        "b": "Exclamatory",
+        "c": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "O that I were young again!",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49-64): Analyse the given sentences and choose the correct answer from the",
+      "opts": {
+        "a": "Assertive",
+        "b": "Exclamatory",
+        "c": "Interrogative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why waste time in reading trash?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49-64): Analyse the given sentences and choose the correct answer from the",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Compound sentence",
+        "c": "Complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The boys had not finished the game by sunset.",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49-64): Analyse the given sentences and choose the correct answer from the",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Compound sentence",
+        "c": "Complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "I am as strong as you are.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided.",
+      "opts": {
+        "a": "Is",
+        "b": "Are",
+        "c": "Where"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "___________ your father and mother at home?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided.",
+      "opts": {
+        "a": "is",
+        "b": "are",
+        "c": "were"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The horse and carriage ___________ at the door.",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided.",
+      "opts": {
+        "a": "lead",
+        "b": "leads",
+        "c": "is leading"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Either of the roads ___________ to the railway station.",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided.",
+      "opts": {
+        "a": "Who",
+        "b": "Whom",
+        "c": "Where"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "___________ did you give the letter to?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided.",
+      "opts": {
+        "a": "who",
+        "b": "whom",
+        "c": "him"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "There was no doubt as to ___________ the speaker meant.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided.",
+      "opts": {
+        "a": "who",
+        "b": "whom",
+        "c": "which"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The boy ___________ I trusted proved worthy of my confidence.",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided.",
+      "opts": {
+        "a": "which",
+        "b": "who",
+        "c": "whom"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "There are some ___________ I think are clever.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided.",
+      "opts": {
+        "a": "sweet",
+        "b": "sweetly",
+        "c": "more sweet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The flowers smell ___________",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided.",
+      "opts": {
+        "a": "warmly",
+        "b": "warm",
+        "c": "warming"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "We feel ___________",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided.",
+      "opts": {
+        "a": "angry",
+        "b": "angrily",
+        "c": "more angry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "He looked ___________",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided.",
+      "opts": {
+        "a": "best",
+        "b": "better",
+        "c": "good"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the ___________ of the two?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided.",
+      "opts": {
+        "a": "elder",
+        "b": "eldest",
+        "c": "older"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Patricia is the ___________of the Vicar’s family.",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided.",
+      "opts": {
+        "a": "a",
+        "b": "an",
+        "c": "the"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The girl will be joining ___________ university soon.",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided.",
+      "opts": {
+        "a": "A",
+        "b": "The",
+        "c": "An"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "___________ book you mention is out of print.",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided.",
+      "opts": {
+        "a": "A",
+        "b": "An",
+        "c": "The"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "___________ Indian Ocean lies to the South of the Indian Subcontinent.",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided.",
+      "opts": {
+        "a": "A",
+        "b": "An",
+        "c": "The"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "___________ darkest cloud has a silver lining.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on one of the following topics in not more than 300 words.(20) -The Role of Education for the Development of the Society -Teaching as a Noble Profession -Youth and Social media in contemporary Mizo society",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/b2c9c0dc03b30b7655c6b1636c0c7379/general-english-ms.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or checked solution attached; retain as unscored source material."
+}

@@ -1,0 +1,2311 @@
+{
+  "slug": "programmer-phe-2018-english-p2",
+  "exam": "Programmer under PHE Department",
+  "sitting": "July 2018",
+  "subject": "General English Paper-II",
+  "source": "programmer-phe-2018-english-p2.pdf",
+  "sourceSha256": "2c9c172a85ae042a8109187e0d7c594402429ccca1ee9bcba8b06856838b0ca1",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:",
+      "opts": {
+        "a": "Verb",
+        "b": "Adverb",
+        "c": "Adjective",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is **always** watching a football game.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q001.webp"
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Verb",
+        "c": "Noun",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This **group** is very talented.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q002.webp"
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:",
+      "opts": {
+        "a": "Preposition",
+        "b": "Conjunction",
+        "c": "Verb",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I want to go **now**.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q003.webp"
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Preposition",
+        "c": "Noun",
+        "d": "Interjection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I helped him carry **it**.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q004.webp"
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Adverb",
+        "c": "Adjective",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We had **breakfast** at a café.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q005.webp"
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Adverb",
+        "c": "Preposition",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You must believe in **yourself**.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q006.webp"
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We **left** for the trip at 6 am.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q007.webp"
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:",
+      "opts": {
+        "a": "Preposition",
+        "b": "Interjection",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Ouch**! That was a hard fall.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q008.webp"
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:",
+      "opts": {
+        "a": "Preposition",
+        "b": "Interjection",
+        "c": "Conjunction",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She went **to** the market to buy fruits.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q009.webp"
+    },
+    {
+      "n": 10,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:",
+      "opts": {
+        "a": "Preposition",
+        "b": "Conjunction",
+        "c": "Pronoun",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I helped him **because** I liked him.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q010.webp"
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs",
+      "opts": {
+        "a": "rain",
+        "b": "rains",
+        "c": "rained",
+        "d": "raining."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It seldom _____________ in February.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs",
+      "opts": {
+        "a": "go",
+        "b": "goes",
+        "c": "going",
+        "d": "is going"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He _____________ to Shimla tomorrow.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs",
+      "opts": {
+        "a": "is",
+        "b": "are",
+        "c": "being",
+        "d": "were"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Air and water _____________ necessary for life.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs",
+      "opts": {
+        "a": "originate",
+        "b": "originates",
+        "c": "originated",
+        "d": "origination"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cricket _____________ in England.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs",
+      "opts": {
+        "a": "sought",
+        "b": "seek",
+        "c": "seeked",
+        "d": "seeks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His company is greatly _____________ after .",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs",
+      "opts": {
+        "a": "forsake",
+        "b": "forsook",
+        "c": "forsaked",
+        "d": "forsakes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His courage_____________ him.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs",
+      "opts": {
+        "a": "drives",
+        "b": "drove",
+        "c": "driven",
+        "d": "driving"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He had _____________ the whole night and was exhausted.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs",
+      "opts": {
+        "a": "gratitude",
+        "b": "grateful",
+        "c": "being grateful",
+        "d": "gratefully"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I told him that I was _____________ for his help.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs",
+      "opts": {
+        "a": "profit",
+        "b": "profitted",
+        "c": "profits",
+        "d": "profitably"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The company was running _____________",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs",
+      "opts": {
+        "a": "carried out",
+        "b": "carry out",
+        "c": "carries out",
+        "d": "carrying out."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Have you_____________ my instructions.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each",
+      "opts": {
+        "a": "at",
+        "b": "on",
+        "c": "in",
+        "d": "for"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I am not very good_____________ dancing.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each",
+      "opts": {
+        "a": "at",
+        "b": "on",
+        "c": "in",
+        "d": "for"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I don’t usually work _____________ weekends.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each",
+      "opts": {
+        "a": "at",
+        "b": "on",
+        "c": "in",
+        "d": "for"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There aren’t any prices _____________ this menu.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each",
+      "opts": {
+        "a": "from",
+        "b": "to",
+        "c": "with",
+        "d": "for"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This material is different _____________ that.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each",
+      "opts": {
+        "a": "for",
+        "b": "with",
+        "c": "in",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We should not spend all our money _____________ luxuries.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each",
+      "opts": {
+        "a": "to",
+        "b": "till",
+        "c": "until",
+        "d": "up to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I slept _____________ 9 o’clock.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each",
+      "opts": {
+        "a": "among",
+        "b": "within",
+        "c": "between",
+        "d": "in"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An old feud existed _____________ the two families.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each",
+      "opts": {
+        "a": "on",
+        "b": "at",
+        "c": "in",
+        "d": "for"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She dislikes being looked _____________",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each",
+      "opts": {
+        "a": "over",
+        "b": "above",
+        "c": "under",
+        "d": "below"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sun disappeared _____________ the horizon.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each",
+      "opts": {
+        "a": "off",
+        "b": "of",
+        "c": "within",
+        "d": "by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Always live _____________ your means.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 31-35): Choose the correct past tense form of the verb from the alternatives",
+      "opts": {
+        "a": "beared",
+        "b": "bore",
+        "c": "born",
+        "d": "borne"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "bear",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 31-35): Choose the correct past tense form of the verb from the alternatives",
+      "opts": {
+        "a": "trod",
+        "b": "treaded",
+        "c": "trodden",
+        "d": "tread"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "tread",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 31-35): Choose the correct past tense form of the verb from the alternatives",
+      "opts": {
+        "a": "slay",
+        "b": "slayed",
+        "c": "slew",
+        "d": "slain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "slay",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 31-35): Choose the correct past tense form of the verb from the alternatives",
+      "opts": {
+        "a": "springed",
+        "b": "sprung",
+        "c": "spranged",
+        "d": "sprang"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "spring",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 31-35): Choose the correct past tense form of the verb from the alternatives",
+      "opts": {
+        "a": "wear",
+        "b": "worn",
+        "c": "wore",
+        "d": "wored"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "wear",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 36-40): Choose the right article from the given alternatives to fill in the",
+      "opts": {
+        "a": "a",
+        "b": "an",
+        "c": "the",
+        "d": "none of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_____________ price of petrol keep rising.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 36-40): Choose the right article from the given alternatives to fill in the",
+      "opts": {
+        "a": "a",
+        "b": "an",
+        "c": "the",
+        "d": "none of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sarah can play _____________ guitar.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 36-40): Choose the right article from the given alternatives to fill in the",
+      "opts": {
+        "a": "a",
+        "b": "an",
+        "c": "the",
+        "d": "none of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pablo is _____________ Spanish.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 36-40): Choose the right article from the given alternatives to fill in the",
+      "opts": {
+        "a": "a",
+        "b": "an",
+        "c": "the",
+        "d": "none of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Max lives in _____________ Phillipines.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 36-40): Choose the right article from the given alternatives to fill in the",
+      "opts": {
+        "a": "a",
+        "b": "an",
+        "c": "the",
+        "d": "none of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I saw _____________ otter at the zoo.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the",
+      "opts": {
+        "a": "simple sentence",
+        "b": "compound sentence",
+        "c": "complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Government does not solve problems, it subsidizes them.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the",
+      "opts": {
+        "a": "simple sentence",
+        "b": "compound sentence",
+        "c": "complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The frog jumped and landed in the pond.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the",
+      "opts": {
+        "a": "simple sentence",
+        "b": "compound sentence",
+        "c": "complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "I am out of paper for the printer.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the",
+      "opts": {
+        "a": "simple sentence",
+        "b": "compound sentence",
+        "c": "complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Money can’t buy happiness or so they say.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the",
+      "opts": {
+        "a": "simple sentence",
+        "b": "compound sentence",
+        "c": "complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Any fool can criticize, condemn and complain - and most fools do.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the",
+      "opts": {
+        "a": "simple sentence",
+        "b": "compound sentence",
+        "c": "complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "A country can be judged by the quality of its proverbs.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the",
+      "opts": {
+        "a": "simple sentence",
+        "b": "compound sentence",
+        "c": "complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Wherever you go, you can always find beauty.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the",
+      "opts": {
+        "a": "simple sentence",
+        "b": "compound sentence",
+        "c": "complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is smart and he is articulate.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the",
+      "opts": {
+        "a": "simple sentence",
+        "b": "compound sentence",
+        "c": "complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The museum was very interesting, as I expected.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 50-55): Name the kind of phrases of the underlined words in the sentences.",
+      "opts": {
+        "a": "noun phrase",
+        "b": "adjective phrase",
+        "c": "adverb phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "She went online **for more information**.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q050.webp"
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 50-55): Name the kind of phrases of the underlined words in the sentences.",
+      "opts": {
+        "a": "noun phrase",
+        "b": "adjective phrase",
+        "c": "adverb phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cost of the car was **way too high**.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q051.webp"
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 50-55): Name the kind of phrases of the underlined words in the sentences.",
+      "opts": {
+        "a": "noun phrase",
+        "b": "adjective phrase",
+        "c": "adverb phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lisa gave **the little boy** a candy.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q052.webp"
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 50-55): Name the kind of phrases of the underlined words in the sentences.",
+      "opts": {
+        "a": "noun phrase",
+        "b": "adjective phrase",
+        "c": "adverb phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "**The glistening snow** covered the field.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q053.webp"
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 50-55): Name the kind of phrases of the underlined words in the sentences.",
+      "opts": {
+        "a": "noun phrase",
+        "b": "adjective phrase",
+        "c": "adverb phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "He decided to join a gym **to get in shape**.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q054.webp"
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 50-55): Name the kind of phrases of the underlined words in the sentences.",
+      "opts": {
+        "a": "noun phrase",
+        "b": "adjective phrase",
+        "c": "adverb phrase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "I love the taste of a **sweet juicy** peach.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q055.webp"
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 56-63): Name the kind of clauses of the underlined words in the following",
+      "opts": {
+        "a": "noun clause",
+        "b": "adjective clause",
+        "c": "adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Many people hope **that India can resolve its economic problems**.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q056.webp"
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 56-63): Name the kind of clauses of the underlined words in the following",
+      "opts": {
+        "a": "noun clause",
+        "b": "adjective clause",
+        "c": "adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "You can put the package **wherever you like**.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q057.webp"
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 56-63): Name the kind of clauses of the underlined words in the following",
+      "opts": {
+        "a": "noun clause",
+        "b": "adjective clause",
+        "c": "adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "I do not like people **who are mean to animals**.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q058.webp"
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 56-63): Name the kind of clauses of the underlined words in the following",
+      "opts": {
+        "a": "noun clause",
+        "b": "adjective clause",
+        "c": "adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Since you have apologized**, you will not be punished.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q059.webp"
+    },
+    {
+      "n": 60,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 56-63): Name the kind of clauses of the underlined words in the following",
+      "opts": {
+        "a": "noun clause",
+        "b": "adjective clause",
+        "c": "adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Something **that smells** bad may be rotten.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q060.webp"
+    },
+    {
+      "n": 61,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 56-63): Name the kind of clauses of the underlined words in the following",
+      "opts": {
+        "a": "noun clause",
+        "b": "adjective clause",
+        "c": "adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Those **who do not complain** are never pitied.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q061.webp"
+    },
+    {
+      "n": 62,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 56-63): Name the kind of clauses of the underlined words in the following",
+      "opts": {
+        "a": "noun clause",
+        "b": "adjective clause",
+        "c": "adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pay attention to **what I am going to say**.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q062.webp"
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 56-63): Name the kind of clauses of the underlined words in the following",
+      "opts": {
+        "a": "noun clause",
+        "b": "adjective clause",
+        "c": "adverb clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "No one knows **where he is**.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q063.webp"
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 64-70): Identify the following sentences by choosing one of the alternatives",
+      "opts": {
+        "a": "Assertive",
+        "b": "Interrogative",
+        "c": "Imperative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I love it!",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 64-70): Identify the following sentences by choosing one of the alternatives",
+      "opts": {
+        "a": "Assertive",
+        "b": "Interrogative",
+        "c": "Imperative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cinderella and Prince Charming lived happily ever after.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 64-70): Identify the following sentences by choosing one of the alternatives",
+      "opts": {
+        "a": "Imperative",
+        "b": "Negative",
+        "c": "Assertive",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We cannot survive without oxygen.",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 64-70): Identify the following sentences by choosing one of the alternatives",
+      "opts": {
+        "a": "Negative",
+        "b": "Imperative",
+        "c": "Exclamatory",
+        "d": "Assertive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Please be quiet in the library.",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 64-70): Identify the following sentences by choosing one of the alternatives",
+      "opts": {
+        "a": "Assertive",
+        "b": "Exclamatory",
+        "c": "Imperative",
+        "d": "Interrogative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Let’s go to the concert together.",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 64-70): Identify the following sentences by choosing one of the alternatives",
+      "opts": {
+        "a": "Assertive",
+        "b": "Exclamatory",
+        "c": "Imperative",
+        "d": "Interrogative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do you want coffee, tea or soda?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 64-70): Identify the following sentences by choosing one of the alternatives",
+      "opts": {
+        "a": "Assertive",
+        "b": "Exclamatory",
+        "c": "Imperative",
+        "d": "Interrogative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Have a good time at the picnic.",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold",
+      "opts": {
+        "a": "first speech",
+        "b": "long speech",
+        "c": "brief speech",
+        "d": "emotional speech"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He spoke well though it was his maiden speech.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold",
+      "opts": {
+        "a": "it was a mock trial",
+        "b": "no serious outcome",
+        "c": "people mocked the judgement",
+        "d": "made the system look ridiculous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The trial made a mockery of justice.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold",
+      "opts": {
+        "a": "abuse me",
+        "b": "hurt me",
+        "c": "cheat me",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You cannot throw dust into my eyes.",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold",
+      "opts": {
+        "a": "A complete change of opinion",
+        "b": "a declaration of war",
+        "c": "good announcement",
+        "d": "a bold statement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His recent statement is an about turn.",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold",
+      "opts": {
+        "a": "to bribe",
+        "b": "to cut the tree",
+        "c": "to rub oil on the hand",
+        "d": "to lubricate machine parts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To grease the palm.",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold",
+      "opts": {
+        "a": "useless talk",
+        "b": "unsatisfactory explanation",
+        "c": "ill feeling",
+        "d": "good explanation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She always comes up with a lame excuse.",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold",
+      "opts": {
+        "a": "expensive",
+        "b": "difficult problem",
+        "c": "a foolish search",
+        "d": "an easy case"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The detective found the case to be a hard nut to crack.",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold",
+      "opts": {
+        "a": "be bold",
+        "b": "be disinterested",
+        "c": "be unaffected",
+        "d": "be insensitive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One needs to have a thick skin to cope with criticism.",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold",
+      "opts": {
+        "a": "cannot be believed",
+        "b": "cannot be valued",
+        "c": "does not fulfill the requirements",
+        "d": "does not deserve appreciation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What you said does not hold water with me.",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold",
+      "opts": {
+        "a": "an unlucky person",
+        "b": "lucky person",
+        "c": "an ugly person",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Marcus is the black sheep of his family.",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 81-86): Choose the word nearest in meaning of the italicized words.",
+      "opts": {
+        "a": "delighted",
+        "b": "puzzled",
+        "c": "peeved",
+        "d": "undecided"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Zama was chagrined with the continuous disruption of the power supply.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q081.webp"
+    },
+    {
+      "n": 82,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 81-86): Choose the word nearest in meaning of the italicized words.",
+      "opts": {
+        "a": "diminish",
+        "b": "circumscribe",
+        "c": "restrain",
+        "d": "increase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All these measures will augment employment opportunities.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q082.webp"
+    },
+    {
+      "n": 83,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 81-86): Choose the word nearest in meaning of the italicized words.",
+      "opts": {
+        "a": "mercy",
+        "b": "patience",
+        "c": "politeness",
+        "d": "relaxed attitude"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The defendant was grateful for the judge’s clemency.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q083.webp"
+    },
+    {
+      "n": 84,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 81-86): Choose the word nearest in meaning of the italicized words.",
+      "opts": {
+        "a": "emphatic",
+        "b": "strong",
+        "c": "convincing",
+        "d": "clear and certain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The police need tangible proof of his guilt.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q084.webp"
+    },
+    {
+      "n": 85,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 81-86): Choose the word nearest in meaning of the italicized words.",
+      "opts": {
+        "a": "rash",
+        "b": "poised",
+        "c": "sluggish",
+        "d": "quiet and gentle"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Her impetuous behavior was attributed to her upbringing.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q085.webp"
+    },
+    {
+      "n": 86,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 81-86): Choose the word nearest in meaning of the italicized words.",
+      "opts": {
+        "a": "handsome",
+        "b": "tranquil",
+        "c": "grim",
+        "d": "unattractive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The man at the gate had a forbidding appearance.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q086.webp"
+    },
+    {
+      "n": 87,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 87-93): Select the opposite of the words underlined in the sentences from",
+      "opts": {
+        "a": "heavy",
+        "b": "strong",
+        "c": "tall",
+        "d": "thick"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In ancient days a **fragile** glass was considered more valuable than gold.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q087.webp"
+    },
+    {
+      "n": 88,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 87-93): Select the opposite of the words underlined in the sentences from",
+      "opts": {
+        "a": "opposite",
+        "b": "different",
+        "c": "similar",
+        "d": "uniform"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The two friends were **distinct** in everything, dress , manners and food habits.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q088.webp"
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 87-93): Select the opposite of the words underlined in the sentences from",
+      "opts": {
+        "a": "archaic",
+        "b": "contemporary",
+        "c": "foreign",
+        "d": "simultaneous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He has a preference for **traditional** art forms.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q089.webp"
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 87-93): Select the opposite of the words underlined in the sentences from",
+      "opts": {
+        "a": "fleeting",
+        "b": "painful",
+        "c": "permanent",
+        "d": "long lasting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Their relationship can best be described as **enduring.**",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q090.webp"
+    },
+    {
+      "n": 91,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 87-93): Select the opposite of the words underlined in the sentences from",
+      "opts": {
+        "a": "menacing",
+        "b": "lawful",
+        "c": "delusive",
+        "d": "modest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The police heard about the use of **illicit** drugs in the city.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q091.webp"
+    },
+    {
+      "n": 92,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 87-93): Select the opposite of the words underlined in the sentences from",
+      "opts": {
+        "a": "fight",
+        "b": "accept",
+        "c": "repel",
+        "d": "welcome"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Many people try to **resist** reforms in the society.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q092.webp"
+    },
+    {
+      "n": 93,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 87-93): Select the opposite of the words underlined in the sentences from",
+      "opts": {
+        "a": "pride",
+        "b": "insolence",
+        "c": "arrogance",
+        "d": "conceit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You can hardly find any trace of **humility** in the man.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q093.webp"
+    },
+    {
+      "n": 94,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 94-100): Fill in the blanks with the most suitable word from the alternatives",
+      "opts": {
+        "a": "dispatched",
+        "b": "dispirited",
+        "c": "disillusioned",
+        "d": "dispensed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She refused to be _____________ by her long illness.",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 94-100): Fill in the blanks with the most suitable word from the alternatives",
+      "opts": {
+        "a": "cordial",
+        "b": "anti social",
+        "c": "gregarious",
+        "d": "timid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was _____________ by nature and so avoided all company.",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 94-100): Fill in the blanks with the most suitable word from the alternatives",
+      "opts": {
+        "a": "regress",
+        "b": "revert",
+        "c": "reversal",
+        "d": "reverse."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Jim suffered a _____________ of fortune.",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 94-100): Fill in the blanks with the most suitable word from the alternatives",
+      "opts": {
+        "a": "by and large",
+        "b": "by far",
+        "c": "by any means",
+        "d": "by and by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian masses are _____________ law abiding.",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 94-100): Fill in the blanks with the most suitable word from the alternatives",
+      "opts": {
+        "a": "disputatious",
+        "b": "discontented",
+        "c": "disreputable",
+        "d": "disrespectful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His old clothes and uncombed hair gave him a _____________ appearance .",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 94-100): Fill in the blanks with the most suitable word from the alternatives",
+      "opts": {
+        "a": "considerate",
+        "b": "cautious",
+        "c": "considerable",
+        "d": "consider"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Be _____________ and always look to the comfort of others.",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 94-100): Fill in the blanks with the most suitable word from the alternatives",
+      "opts": {
+        "a": "disadvantaged",
+        "b": "discouraged",
+        "c": "disabled",
+        "d": "despised"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Paralympics is a competition for the _____________",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/f75417f53c31602c36769e7dd4d9ab02/general-english-paper-ii-prog.pdf",
+  "enrichmentVersion": 3,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

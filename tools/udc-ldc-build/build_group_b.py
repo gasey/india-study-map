@@ -9,6 +9,7 @@ import json
 import re
 from pathlib import Path
 from group_b_sources import build_additional
+from fix_emphasis_markers import patch as restore_emphasis
 
 ROOT = Path(__file__).resolve().parents[2]
 UPSTREAM = ROOT.parent / "mpsc-question-bank"
@@ -17,6 +18,22 @@ OUT = ROOT / "src" / "data" / "banks" / "mpsc-group-b-general.ts"
 FINAL_KEY = json.loads((Path(__file__).parent / "group-b-final-key.json").read_text())
 FINAL_KEY_HREF = "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf"
 RECOVERED = json.loads((Path(__file__).parent / "group-b-recovered.json").read_text())["questions"]
+
+
+def compact_answers_arrays(payload):
+    """Keep short response arrays inline in the generated bank."""
+    decoder = json.JSONDecoder()
+    pattern = re.compile(r'"answers":\s*\[')
+    pieces, cursor = [], 0
+    for match in pattern.finditer(payload):
+        start = payload.find('[', match.start())
+        values, end = decoder.raw_decode(payload, start)
+        pieces.extend((payload[cursor:start], json.dumps(values, ensure_ascii=False)))
+        cursor = end
+    pieces.append(payload[cursor:])
+    return ''.join(pieces)
+
+
 PAPER_TWO_REPAIRS = {
     81: {
         "question": "The school principal has received complaints from parents about bullying in the school yard during recess. Which situation should the recess aides report? i. A girl sits alone reading. ii. Four girls surround another girl and seem to have her backpack. iii. Two boys argue during basketball. iv. Three boys play a prohibited handheld video game.",
@@ -234,6 +251,7 @@ def build():
               'keyDisagreements': sum(q.get('independentAnswerIndex', -1) >= 0 and q.get('answerIndex', -1) >= 0 and q['independentAnswerIndex'] != q['answerIndex'] for q in questions),
               'compensated': sum(bool(q.get('compensated')) for q in questions)}
     (Path(__file__).parent / 'build-report.json').write_text(json.dumps(report, indent=2) + '\n')
+    payload, _ = restore_emphasis(compact_answers_arrays(payload))
     OUT.write_text(payload)
     (ROOT / 'src' / 'data' / 'banks' / 'mpsc-group-b-library.json').write_text(json.dumps(library, ensure_ascii=False, indent=2) + '\n')
     print(f"Wrote {len(questions)} questions from {len(papers)} papers to {OUT}")

@@ -1,0 +1,83 @@
+{
+  "slug": "geologist-jun-2020-english-p1",
+  "exam": "Geologist Junior under Commerce & Industries Department",
+  "sitting": "2020",
+  "subject": "General English Paper-I",
+  "source": "Geologist Junior General English Paper-I.pdf",
+  "sourceSha256": "1eb5c9e453a35f805223f88c50559b4db6a1753b64476bacd614b18aacc5e435",
+  "ocr": false,
+  "count": 0,
+  "questions": [],
+  "written": [
+    {
+      "n": 1,
+      "part": null,
+      "page": 1,
+      "text": "Write an essay in not less than 500 words on the given topic :(25) Need for Geological survey prior to constructing a large industrial building.",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": null,
+      "page": 1,
+      "text": "Write a précis of the given passage :(15) Child labour is an ugly and unfortunate manifestation of economic compulsion. Socio-cultural perceptions also give impetus to it. Elites think in a strange manner and argue that if poor children get education, it would lead to an increase in unemployment and harm social and political order. Our policy makers do not think that mass education is altogether essential for modernisation. They like to pump more money into elite institutions the poor, the elite group will suffer. Even our so-called broadminded people do not want the poor to come up and be at par with them socially and economically. Nothing substantial has been done to end child labour. Universal primary education has remained a utopian scheme. In carpet making, nine percent of the labour is children, in bidi and glass bangles it is thirty-five percent and in matches, forty five.. The government itself accepts child labour as a harsh reality and thinks it is inevitable.",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": null,
+      "page": 1,
+      "text": "As a concerned member of a community, write a letter to the chairman, Aizawl Municipal Corporation, informing him/her about the bad management of your local market wastes :(15)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": null,
+      "page": 1,
+      "text": "Read the following passage carefully and answer the questions that follow : India has come a long way in the development of educational infrastructure since independence. However, the demand for quality education based on the latest research, outstrips the supply, especially so in the fields of engineering, medicine, management, economics, applied sciences and mass communication. No wonder then, that a number of young people are looking outside the country for education. Further, there is a prestige value associated with scholarships, more so because it is a hard competition to bag one. Foreign scholarships in particular give the students an opportunity to interact with international teaching and student community. It ensures exposure not only to a different educational system but also to modern up-to-date facilities, which complement the quality of education offered. While most foreign universities normally expect overseas students to have good scores in the qualifying examinations such as the GMAT, GRE, SAT and TOEFL, in the case of certain professional courses like journalism and photography, work experience is a must for an entry to their advanced courses. Academic and research-oriented studies are naturally the focal points, but professional courses also figure in the scholarships given by the universities. Even in the academics the sky is the limit. Name the subject and scholarships are available in each one of them. Scholarships in relatively new subjects such as, Naval Architecture, Micro electronics, Geotechnical Engineering, Fibre- optics and Laser technology have become one of the most coveted ones. One thing of seminal importance is the choice of subject. It is not important whether you get umpteen degrees and file them away or you go to the choices university. There are various tests like aptitude test that some universities abroad conduct to judge your knowledge. At the end of the test , you are sure about what you want to study and whether you are suited for it. A good number of career consultants are available and they can guide one in the right directions. Apart from personal",
+      "subparts": {}
+    },
+    {
+      "n": null,
+      "part": null,
+      "page": 2,
+      "kind": "passage",
+      "direction": "directions, some of these also hold workshops. The Institute of Career Studies at Delhi is amongst",
+      "text": "the pioneers in this field. After one gets enrolled with it, it provides ample information about all universities all over the world and also keeps one updated with minute details. **QUESTIONS :** (a)Why do a number of young men go abroad for education?(2) (b)What are the most coveted scholarships and why?(2+2=4) (c)What does The institute of Career Studies at Delhi do?(2) (d)What do foreign scholarships give to the students?(2) (e)Mention the requirement of courses such as journalism and photography.(2) (f)Give a suitable title to the passage.(2) (g)Find words in the passage which convey similar meaning as the following :(1+1=2) (i)influencing later developments (ii)contribute something for improvement",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": null,
+      "page": 2,
+      "text": "Make sentences with the following idioms/phrases to show their meaning (any seven) :(7×2=14)",
+      "subparts": {
+        "a": "flesh and blood",
+        "b": "a bird of passage",
+        "c": "go bananas",
+        "d": "taken aback"
+      }
+    },
+    {
+      "n": 6,
+      "part": null,
+      "page": 2,
+      "text": "Expand the idea contained in the following : (any three)(3×5=15)",
+      "subparts": {
+        "a": "A Rolling Stone gathers no moss.",
+        "b": "A stitch in time saves nine.",
+        "c": "Make hay while the sun shines",
+        "d": "A friend in need is a friend indeed."
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p2, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q6 (p2, part None): conventional section, 4 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {}
+}

@@ -1,0 +1,2318 @@
+{
+  "slug": "udc-horti-2019-p2",
+  "exam": "UDC under Horticulture Department",
+  "sitting": "2019",
+  "subject": "Paper-II",
+  "source": "Paper-II (Horti.).pdf",
+  "sourceSha256": "738a5b3e24ea31f913ea3d4a39d6ff5c12b4859c2000ca011205839f14cbd7d4",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalchamliana",
+        "b": "Lalruatkima",
+        "c": "Dr.Lalthangliana",
+        "d": "Tawnluia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the minister in-charge of Public Health Engineering in Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Electric Veng",
+        "b": "Tlangnuam",
+        "c": "Laipuitlang",
+        "d": "Venghlui"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following localities within AMC recently celebrated its 114th anniversary with a grand feast?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jagdish Mukhil Pillai",
+        "b": "Ranjan Gogoi",
+        "c": "P.K.Krishna",
+        "d": "Sharad Arvind Bobde"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the current Chief Justice of India?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kerala",
+        "b": "Maharastra",
+        "c": "Tripura",
+        "d": "Andhra Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From next academic year, the state is going to introduce English medium from 1st- 8th standard in government schools-",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IIT Madras",
+        "b": "IIT Kolkatta",
+        "c": "IIT Kanpur",
+        "d": "IIT Bombay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Institutes has launched India’s first indigenously designed standing wheelchair named ‘Arise’?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sikkim",
+        "b": "Telangana",
+        "c": "Uttarakhand",
+        "d": "Andra Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where was the National Research Institute of Unani Medicine inaugurated?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kerala",
+        "b": "Bihar",
+        "c": "Odisha",
+        "d": "Uttarakhand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state Government is to partner with Massachusettes Institute of Technology (MIT)-based Abdul LatifJameel Poverty Action Lab (J-PAL) for transformative action?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dhadak",
+        "b": "Raazi",
+        "c": "Padmaavat",
+        "d": "Gully Boy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian movie has been nominated for the 92nd Oscar Awards?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr. R.Lalthangliana",
+        "b": "Dr. Vanlaltanpuia",
+        "c": "Dr. K Beichua",
+        "d": "Dr. L.Thangmawia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the chairman of Mizoram Youth Commission (MYC)",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "61st",
+        "b": "62nd",
+        "c": "63rd",
+        "d": "64th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the position of India in the 2019 Ease of Doing Business rankings?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kerala",
+        "b": "Maharastra",
+        "c": "Andra Pradesh",
+        "d": "Karnataka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state tops the Innovation Index 2019 launched by the NITI Aayog?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indonesia",
+        "b": "Thailand",
+        "c": "Malaysia",
+        "d": "Israel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Bilateral Exercise ‘Samudra Shakti’ 2019 was held between Indian Navy and the navy of-",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "B. B. Tandon",
+        "b": "T. S. Krishnamurthy",
+        "c": "TN Seshan",
+        "d": "M. S. Gill"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following former chief election commissioner has recently passed away?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "95th",
+        "b": "102nd",
+        "c": "115th",
+        "d": "125th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s rank in Global Hunger Index 2019-",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "B R Ambedkar",
+        "b": "Mahatma Gandhi",
+        "c": "Sardar Vallabhbhai Patel",
+        "d": "Pandit Jawaharlal Nehru"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "National unity award has been constituted on whose name?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "eHealth",
+        "b": "eDantSeva",
+        "c": "eOralHealth",
+        "d": "eOrale"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Union Minister of Health and Family Welfare launched which of the following website for oral health information?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "400 Gigawatts",
+        "b": "450 Gigawatts",
+        "c": "500 Gigawatts",
+        "d": "550 Gigawatts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India plan to add how much of renewable energy to its electricity grid by 2030?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "44th",
+        "b": "60th",
+        "c": "72nd",
+        "d": "91st"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the rank of India in the IMD World Digital Competitiveness Ranking 2019?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30th June,2020",
+        "b": "5th July, 2020",
+        "c": "2nd July,2020",
+        "d": "1st July,2020"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘One Nation One Ration Card’ scheme will be available across the country from-",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Two",
+        "b": "Three",
+        "c": "Four",
+        "d": "Six"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Russia is going to train how many Indian astronauts for India’s ambitious manned mission to space, Gaganyaan?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Washington Times",
+        "b": "The Times of India",
+        "c": "The Hindu",
+        "d": "The Guardian"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The largest selling English-language daily newspaper in the world?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1.76 Lakh crores",
+        "b": "1.96 Lakh crores",
+        "c": "2.18 Lakh crores",
+        "d": "2.85 Lakh crores"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The amount of money given by RBI to the Central government- its highest transfer ever-sparking a fierce debate in India is",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sholay",
+        "b": "Dangal",
+        "c": "Gangs of Wasseypur",
+        "d": "Sultan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the only Indian film that featured in “The Guardian” list of 100 Best Films of the 21st century?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China",
+        "b": "USA",
+        "c": "Russia",
+        "d": "France"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "DF-41 - the most powerful intercontinental-range ballistic missile on Earth, belongs to which country?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1st October",
+        "b": "2nd October",
+        "c": "3rd October",
+        "d": "4th October."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When do we observe International Day of Non-Violence?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USA",
+        "b": "China",
+        "c": "India",
+        "d": "Bangladesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is the largest contributor to greenhouse gases in the world?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China",
+        "b": "Saudi Arabia",
+        "c": "Mexico",
+        "d": "USA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The initial public offering of ARAMCO, the most profitable company in the world has been agreed by -",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China",
+        "b": "Pakistan",
+        "c": "Israel",
+        "d": "USA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A powerful spyware named “Pegasus” that was used to infect the phones of many Indian human rights activists, lawyers and journalists through whatsapp originates from",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lebanon",
+        "b": "Chile",
+        "c": "Hong Kong",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Saad Hariri stepped down from President of which country?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tuvalu",
+        "b": "Solomon Islands",
+        "c": "Nauru",
+        "d": "Namibia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A Chinese company ‘Sam Enterprise Group’ has signed a secretive deal with the Tulagi Island for up to 75 years which is under the territory of -",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "France",
+        "b": "UK",
+        "c": "USA",
+        "d": "Israel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A country that has formally notified the United Nations of its withdrawal from the Paris Climate Accord on October 2019-",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cotton production",
+        "b": "Wheat production",
+        "c": "Fish production",
+        "d": "Rice production"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India and Sierra Leone has signed MoU to achieve self-sufficiency in",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Verizon",
+        "b": "Google",
+        "c": "Wordpress",
+        "d": "Alphabet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Yahoo, an American web services company is owned by",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indonesia",
+        "b": "Malaysia",
+        "c": "Japan",
+        "d": "North Korea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Typhoon Hagibis recently caused havoc in which of the following countries?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Eminem",
+        "b": "Jay-Z",
+        "c": "ASAP Rocky",
+        "d": "Drake"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per Forbes Magazine, Sean Carter is named as the world’s 1st billionaire rapper and he is popularly known as-",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NarendraModi",
+        "b": "Maneka Gandhi",
+        "c": "PiyushGoyal",
+        "d": "PrakashJavadekar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The book “Exam Warriors” has been authored by",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "APJ Abdul Kalam",
+        "b": "Khushwant Singh",
+        "c": "Chetan Bhagat",
+        "d": "VS Naipaul"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who wrote the famous book titled, “What Young India Wants”?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rintei zunleng",
+        "b": "Kawlkil piah lamtluang",
+        "c": "Beiseina mittui",
+        "d": "Sihlipui"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "C. Lalnunchanga has written a fantasy novel called",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ratan Tata",
+        "b": "Fatima Bhutto",
+        "c": "Arundhati Roy",
+        "d": "Dominic Lapierre"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Getting India Back on Track’ is a book written by",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Suzane Collins",
+        "b": "Alexander Dumas",
+        "c": "Leo Tolstoy",
+        "d": "Sidney Sheldon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who wrote the famous book ‘Count of Monte Christo’ ?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Germany",
+        "b": "Spain",
+        "c": "France",
+        "d": "Italy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which country the 2019 World Artistic Gymnastics Championships was organised?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China",
+        "b": "USA",
+        "c": "UK",
+        "d": "France"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The country that tops the IAAF World Athletics Championships 2019-",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Venus Williams",
+        "b": "Maria Sharapova",
+        "c": "Serena Williams",
+        "d": "Naomi Osaka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Highest paid female athletes’ of 2019 according to Forbes is",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Naomi Osaka",
+        "b": "Serena Williams",
+        "c": "Maria Sharapova",
+        "d": "Bianca Andreescu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Winner of the 2019 US Open Women’s Singles in New York-",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10 players each",
+        "b": "9 players each",
+        "c": "8 players each",
+        "d": "7 players each"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In baseball, the two opposing teams consist of -",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "North Indian Electrical Line & Information Technology",
+        "b": "National Institute for Electronics and Industrial Technology",
+        "c": "National Institute for Electronics and Information Technology",
+        "d": "National Institute for Electrical and Information Technology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the full form of NIELIT?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National Electric Power Corporation",
+        "b": "North Eastern Electric Power Corporation",
+        "c": "North Eastern Electric Power Company",
+        "d": "National Electric& Electronic Power Corporation."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Full form of NEEPCO.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Light Emitting Disc",
+        "b": "Linen Embryo Dye",
+        "c": "Light Emitting Diode",
+        "d": "Light Eating Disc"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the full form of LED?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "World Wrestling Enterprise",
+        "b": "World Wide Entertainment",
+        "c": "World Wrestling Entertaining",
+        "d": "World Wrestling Entertainment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Full form of WWE",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uttar Pradesh",
+        "b": "Tamil Nadu",
+        "c": "Maharashtra",
+        "d": "Chhattisgarh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state is popularly known as the ‘sugar bowl of India’?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India",
+        "b": "Brazil",
+        "c": "China",
+        "d": "Argentina"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is popularly known as ‘Coffee pot of the world’?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kolkatta",
+        "b": "Jaipur",
+        "c": "Ahmedabad",
+        "d": "Ladakh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The city commonly known as “Manchester of India “ .",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Russia",
+        "b": "Canada",
+        "c": "Netherland",
+        "d": "Norway"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is famously known as ‘Lady of Snow’?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kolkatta",
+        "b": "Jaipur",
+        "c": "Amritsar",
+        "d": "Ladakh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The city popularly known as “City of Palaces “ is -",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "May",
+        "b": "July",
+        "c": "October",
+        "d": "December"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Pawltlak thla” is the mizo name given to the month of –",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tiger woods",
+        "b": "Pele",
+        "c": "Serena Williams",
+        "d": "Roger Federer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Recently, which sportsman has been awarded the USA’s Presidential Medal of Freedom ?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Economics",
+        "b": "Physics",
+        "c": "Literature",
+        "d": "Peace"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Abhiy Ahmed Ali is the winner of 2019’s Nobel prize for",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pakistan",
+        "b": "Bangladesh",
+        "c": "Thailand",
+        "d": "India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whose country’s Prime Minister has been conferred with prestigious ‘Vaccine Hero’ award of Global Alliance for Vaccination and Immunizations (GAVI) at the UN General Assembly (UNGA)?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oprah Winfrey",
+        "b": "Jimmy Kimmel",
+        "c": "Jimmy Fallon",
+        "d": "Ellen DeGeneres"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Winner of the Carol Burnett Award at 2020 Golden Globe awards in Los Angeles-",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RL Thanmawia",
+        "b": "A Sawihlira",
+        "c": "Capt. LZ Sailo",
+        "d": "Lalzuia Colney"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Mizo recipient of Padma Bhushan, the third highest civilian award in India is -",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Christian Bernard",
+        "b": "Alexander Fleming",
+        "c": "Mc Collum",
+        "d": "William Harvey"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Penicillin was invented by -",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hippocrates",
+        "b": "Bartholomew Manfredi",
+        "c": "Edward Jennar",
+        "d": "Louis Pasteur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inventor of Watch :-",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "George Cayley",
+        "b": "Hans Lippershey",
+        "c": "Hugh DeHaven",
+        "d": "Nils Bohlin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented 3-point seat belt?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Home J.Bhaba",
+        "b": "Salim Ali",
+        "c": "Srinavasa Ramanuja",
+        "d": "M. Visvesvaraya"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An Indian Engineer who invented ‘automatic sluice gate’ is",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PT Famsworth",
+        "b": "Hans Lippershey",
+        "c": "G Marconi",
+        "d": "WK Roentgen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "X-ray was invented by",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Blaise Pascal",
+        "b": "Charles Babbage",
+        "c": "Alan Turing",
+        "d": "Lee De Forest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented mechanical calculator called Pascaline?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GB>MB>KB>TB",
+        "b": "TB>MB>GB>KB",
+        "c": "MB>GB>TB>KB",
+        "d": "TB>GB>MB>KB"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following units of memory is arranged in ascending order?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Microsoft",
+        "b": "Google",
+        "c": "Facebook",
+        "d": "Twitter"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following has launched a service named “ Right to be forgotten” for Europeans in which they can request it to remove links related to them ?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Security commands",
+        "b": "Entry codes",
+        "c": "Codewords",
+        "d": "Mnemonics"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Coded entries which are used to gain access to a computer system are called -",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lead",
+        "b": "Silicon",
+        "c": "Chromium",
+        "d": "Gold"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IC chips used in computers are usually made of",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To transfer data to primary storage",
+        "b": "To store program instructions",
+        "c": "To perform logic functions",
+        "d": "To decode program instructions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the control unit’s function in the CPU?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Coding",
+        "b": "Error detection",
+        "c": "Controlling",
+        "d": "Indexing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a computer, the parity bit is added for the purpose of",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Memory Unit",
+        "b": "Input Unit",
+        "c": "Control Unit",
+        "d": "Central Processing Unit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the administrative section of the computer system ?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "John McCarthy",
+        "b": "Lee De Forest",
+        "c": "Charles Babbage",
+        "d": "JP Eckert"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following considered as the ‘father of artificial intelligence’?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Computer",
+        "b": "Internet",
+        "c": "Software",
+        "d": "Virus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Vint Cerf is popularly known as the fathers of the -",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30 litres",
+        "b": "60 litres",
+        "c": "90 litres",
+        "d": "120 litres"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a mixture of 90 litres, the ratio of milk and water is 2 : 1. If the ratio of the milk and water is to be 1 : 2, then the amount of water to be added is -",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20 years",
+        "b": "22 years",
+        "c": "24 years",
+        "d": "26 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Average age of A and B is 20 years, that of B and C is 22 years and the average age of C and A is 24 years. The age of A is -",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10%",
+        "b": "15%",
+        "c": "20%",
+        "d": "25%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A fruit seller buys lemons at 2 for a rupee and then sells at 5 for three rupees. His gain percent is -",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6%",
+        "b": "5%",
+        "c": "4%",
+        "d": "3%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A sum of Rs. 12,500 amounts to Rs. 15,500 in 4 years at the rate of simple interest. What is the rate of interest?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10",
+        "b": "100",
+        "c": "1000",
+        "d": "10000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A cube of side one meter length is cut into small cubes of side 10 cm each. How many such small cubes can be obtained?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5",
+        "b": "9",
+        "c": "10",
+        "d": "18"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tluanga covers a distance of 300 m  in 60 seconds. What is his speed in km per hour?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 35 78",
+        "c": "",
+        "d": " 1515 (40.25 ÷ 5) + (0.07 × 5)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A bag contains 3 red balls, 5 white balls and 7 black balls. The probability that a ball drawn from the bag at random will be neither red nor black is - 11",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4",
+        "b": "5",
+        "c": "6",
+        "d": "7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is value of ? (0.15 × 8) + (0.18 ÷ 0.2)",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 days",
+        "b": "6 days",
+        "c": "7 days",
+        "d": "8 days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sanga and Pianga can do the same piece of work in 10 days and 15 days respectively. If they work together, in how many days will the work be finished?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "910",
+        "b": "980",
+        "c": "1012",
+        "d": "1045"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of x in the equation 35% of 1500 + x = 45% of 4200 – 320 is -",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "301",
+        "b": "302",
+        "c": "303",
+        "d": "304"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sum of four consecutive integers is 1206. The greatest of them is -",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8",
+        "b": "9",
+        "c": "10",
+        "d": "12"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A student was asked to multiply a number by 12. But he multiplied by 21 and got his answer 72 more than the correct answer. The number to be multiplied was -",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5",
+        "b": "6",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many 8 are present in the following sequence of numbers which are exactly divisible by both its preceding and following numbers? 3  8  6  8  8  7  6  8  3  4  8  2  5  6  2  8  2  4  8  6  3  7  4  8  4  5  8  4",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10",
+        "b": "15",
+        "c": "20",
+        "d": "25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The discriminant of the quadratic equation x²−7x+6=0 is -",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "24",
+        "b": "25",
+        "c": "26",
+        "d": "27"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the common difference of an AP is 6, then the difference between the 6th and 10th term is -",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25 years",
+        "b": "30 years",
+        "c": "35 years",
+        "d": "40 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ratio of the present age of father to that of son is 7:2. After 10 years their ages will be in the ratio 9:4. The present age of the father is -",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2:3:4",
+        "b": "3:4:5",
+        "c": "6:8:10",
+        "d": "8:12:15"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If A:B = 2:3, B:C = 4:5, then A:B:C is -",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "7",
+        "b": "5",
+        "c": "3",
+        "d": "2 74.6−38.9−5.7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "By what least number should we multiply 180 to make it a perfect square?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3.5",
+        "b": "4.5",
+        "c": "4",
+        "d": "3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What will be value of ? 26.4−18.9",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10m",
+        "b": "25m",
+        "c": "20m",
+        "d": "16m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If in a race of 80 m, Engi covers the distance in 20 seconds and Buati in 25 seconds, then Engi beats Buati by -",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "89",
+        "b": "78",
+        "c": "13",
+        "d": "17"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What greatest number divides 17, 42 and 93 and leaves remainders 4, 3 and 15, respectively?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30and 46",
+        "b": "53and 37",
+        "c": "82and 98100",
+        "d": "and 116"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two angles are complementary to each other. One angle is 16more than another angle. Then the two angles are -",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4840",
+        "b": "5850",
+        "c": "6860",
+        "d": "7870"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The population of a city is 4,000 at present. It increases at the rate of 10% per annum. What will be its population after 2 years?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": ",,",
+        "b": ",, 1713881713 59119115",
+        "c": ",,",
+        "d": ",, 8131713178"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is in descending order? 11955119",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "150",
+        "b": "120",
+        "c": "130",
+        "d": "180"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a group of people, 100 persons know Mizo, 50 persons know English and 30 know both. If each of the person knows either Mizo or English, how many persons are there in the group?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "A": [],
+    "B": []
+  }
+}

@@ -1,5 +1,44 @@
 # Group B general-paper supplement
 
+## MIMER additions — 10 October 2026
+
+The common February 2018 English paper is listed once and searchable by Lab
+Technician, Medical Record Technician, Staff Nurse and Computer Operator.
+It has 80 MCQs, the Section A essay and the recovered Q1–12 reading passage;
+its answer review remains open. Existing IDs are preserved.
+
+Computer Operator Technical Paper I is included as Computer Knowledge through
+`mimer_sources.py`, using the recovered System Manager PDF, text extraction
+and independent solve inputs. Of 75 questions, 71 have derived solutions ready
+for practice and Q23/Q36/Q37/Q69 stay unscored. The entire paper remains out of
+Exam mode pending review. Never use the archive's generic Technical Paper-I
+filename, which belongs to a medical paper after a scraper filename collision.
+
+Current generated coverage: 95 papers, 6,774 items and 3,611 ready (3,033 under source review). See the latest import note at the top of HANDOFF-GROUP-B.md.
+MCQs. SI Excise 2014 now has all nine General English written prompts, all 75
+General Studies I MCQs, and 34 General Studies II MCQs. The available General
+Studies II PDF has only four of its eight printed pages, so 41 questions remain missing;
+all imported 2014 items are unscored pending source and answer review.
+The seven further 2018 imports cover SI (UB) English/GK/Mathematics, Senior
+Horticulture Demonstrator English, and SI FCS&CA English/GS I/GS II. Their 590
+MCQs and three essays are source-review material awaiting solutions. Reading
+passages and original images preserve context, fractions and source emphasis.
+`enrich_2018_papers.py` and the extraction inputs retain these additions.
+The Programmer PHE 2018 English Papers I/II, Sericulture Extension Officer
+English Papers I/II, and Station Officer English/GK/Mathematics add 640
+unscored MCQs and three written prompts. Their passages, emphasized text and
+the Programmer Paper-I three-choice section are preserved. SEO Paper-II Q58
+has a duplicated printed option label and stays unscored. Source URL mappings,
+hash-checked repairs and image crops are in `enrich_2018_papers.py`.
+
+Eighteen additional user-listed sources (Middle School Teacher x3, Primary
+School Teacher x3, UDC EF&CC/I&WR/Agriculture (CH)/Excise/SAD/Tourism x2 each)
+were verified against the supplied official MPSC PDFs. They are verified but
+not imported yet. UDC EF&CC Paper I is a complete 125-mark written English
+paper in two pages, with seven grouped prompts; it has no MCQ set.
+The generator retains the existing emphasis markers and two Circle Officer
+figures through durable transforms/mappings. Counts below are historical.
+
 Run `python3 tools/udc-ldc-build/build_group_b.py` from the site repository.
 For the current continuation and deployment state, read
 [`HANDOFF-GROUP-B.md`](../../HANDOFF-GROUP-B.md).

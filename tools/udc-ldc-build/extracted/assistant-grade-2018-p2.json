@@ -1,0 +1,2896 @@
+{
+  "slug": "assistant-grade-2018-p2",
+  "exam": "Assistant Grade",
+  "sitting": "April 2018",
+  "subject": "Paper-II",
+  "source": "assistant-grade-2018-p2.pdf",
+  "sourceSha256": "3fba0388c5acd8ab4b2e4187f3b565d85fc1aa79bc1469c99e581f89671b3a97",
+  "ocr": false,
+  "count": 125,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10th October",
+        "b": "10th November",
+        "c": "10th December",
+        "d": "10th January"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Human Rights Day is internationally observed on",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "South Africa",
+        "b": "Brazil",
+        "c": "Ecuador",
+        "d": "Norway"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country becomes the first to end FM radio broadcasting?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Google",
+        "b": "Yahoo",
+        "c": "MSN",
+        "d": "Twitter"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which internet web portal change its name to Altaba Inc?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "President of China",
+        "b": "President of France",
+        "c": "King of Qatar",
+        "d": "Heads of ASEAN States"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the chief guest of the Official ceremony in the Republic Day in 2018?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Novak Djokovic",
+        "b": "Rafael Nadal",
+        "c": "Roger Federer",
+        "d": "Andy Murray"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the winner of Australian Open Men’s Single 2018?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Moonlight",
+        "b": "Call me by your name",
+        "c": "The shape of water",
+        "d": "Darkest hour"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which film wins the Best Film Award in 2018 Oscars?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Himachal Pradesh",
+        "b": "Tamil Nadu",
+        "c": "Jammu and Kashmir",
+        "d": "Karnataka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s longest tunnel, the Chenani-Nashri Tunnel is located in",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bhopal",
+        "b": "Gonda",
+        "c": "Indore",
+        "d": "Surat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following city is declared as the cleanest city in India under the Swachh Sarvekshan- 2017?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dhaka",
+        "b": "Mumbai",
+        "c": "Singapore",
+        "d": "Manila"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the most crowded city in the world according to World Economic Forum?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Madhya Pradesh",
+        "b": "Uttar Pradesh",
+        "c": "Bihar",
+        "d": "Odhisa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s first private railway station, the Habibganj Railway Station’ is located in",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10th",
+        "b": "12th",
+        "c": "14th",
+        "d": "16th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ram Nath Kovind is the _____President of India",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi",
+        "b": "Ahmedabad",
+        "c": "Pune",
+        "d": "Jaipur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is declared as India’s first World Heritage City?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India",
+        "b": "Brazil",
+        "c": "China",
+        "d": "South Africa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 2017 BRICS summit was hosted by",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Syria",
+        "b": "North Korea",
+        "c": "Iran",
+        "d": "Russia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country tested hydrogen bomb in September, 2017?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Israel",
+        "b": "Nepal",
+        "c": "Kazakhstan",
+        "d": "Uzbekistan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The joint training exercise “PRABAL DOSTYK - 2017” has started between India and which country?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "105",
+        "b": "100",
+        "c": "102",
+        "d": "101"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India ranked _________ among 119 developing countries on the Global Hunger Index 2017.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam",
+        "b": "Goa",
+        "c": "Sikkim",
+        "d": "Maharashtra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state is the first organic state in India?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Andhra Pradesh",
+        "b": "Maharashtra",
+        "c": "Gujarat",
+        "d": "Karnataka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "No helmet, no petrol rule comes into force in _____________.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "France",
+        "b": "Switzerland",
+        "c": "Japan",
+        "d": "Iceland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country started the world’s first ‘negative emissions’ power plant?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "S. Korea",
+        "b": "US",
+        "c": "UAE",
+        "d": "Sweden"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country starts “sin” taxes on tobacco products, energy drinks and soft drinks?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Saudi Arabia",
+        "b": "Japan",
+        "c": "Taiwan",
+        "d": "UK"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This country became the world’s first country to grant citizenship to a robot.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Finance and Railways",
+        "b": "Ministry of Minority Affairs and Human Resource Development",
+        "c": "Ministry of Power and Science & Technology",
+        "d": "Ministry of Power and Textiles"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Union ministry launches SAATHI to help small Industries?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "#IstandforWoman",
+        "b": "#IamForWoman",
+        "c": "#IamThatWoman",
+        "d": "#IbelieveinWoman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which online campaign was recently launched by Union Ministry of Women and Child Development (WCD) to end gender bias in women against women?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rajiv Kumar committee",
+        "b": "Rajanath Singh committee",
+        "c": "Jitendra Singh committee",
+        "d": "VK Singh committee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The committee constituted by the Union government for proper management of water resources in the NE region is:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Operation Rohingya",
+        "b": "Operation Insaniyat",
+        "c": "Operation Safe Rohingya",
+        "d": "Operation Refugee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which operation has started by India to help Rohingya refugees in Bangladesh?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bharatiya Janata Party",
+        "b": "All India Trinamool Congress",
+        "c": "Janata Dal",
+        "d": "Indian National Congress"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which party won the highest number of seats in the Meghalaya Legislative Assembly Elections 2018:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Viral Acharya",
+        "b": "Urjit Patel",
+        "c": "Raghuram Rajan",
+        "d": "S S Mundra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the present governor of Reserve Bank of India (RBI)?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aizawl",
+        "b": "Lunglei",
+        "c": "Champhai",
+        "d": "Serchhip"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The First Open Defecation Free district in Mizoram is:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Google",
+        "b": "Walmart",
+        "c": "Amazon",
+        "d": "Yahoo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Jeff Bezos briefly overtook Microsoft’s Bill Gates to become the world’s richest person. He is the founder of which company?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mizoram",
+        "b": "Nagaland",
+        "c": "Manipur",
+        "d": "Meghalaya"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first state in which Parliamentary Secretaries resign after Supreme Court’s judgement is:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalhmingliana Saiawi",
+        "b": "MC Lalrinthanga",
+        "c": "Ruatfela Nu",
+        "d": "M.Lalmanzuala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the author of the book, “Mitthi Privatise”?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kulbir Singh",
+        "b": "AS Narain",
+        "c": "APJ Kalam",
+        "d": "Nehru"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the writer of a book, “Ignited Mind”?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vikram Seth",
+        "b": "Sobha De",
+        "c": "Arundhati Roy",
+        "d": "Kiran Desai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“The God of Small Things” is written by",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jack London",
+        "b": "Jules Verne",
+        "c": "George Orwell",
+        "d": "Daniel Dafoe"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The author of the book ‘Around the World in Eighty Days’ is:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aizawlah Aizawler",
+        "b": "‘Ka dai ve chin",
+        "c": "Thanpuii Thlân",
+        "d": "Thlir Ninawm loh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "MAL Book of the Year 2016 is:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Justice Dipak Misra",
+        "b": "Justice Kulbar Misra",
+        "c": "Justice Menon",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the present Chief Justice of India?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bill Gates",
+        "b": "Warren Buffett",
+        "c": "Jeff Bezos",
+        "d": "Mark Zuckerberg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who topped in the Hurun’s Global Rich List 2018?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rajnath Singh",
+        "b": "Narendra Modi",
+        "c": "Arun Jaitley",
+        "d": "Suresh Prabhu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is in-charge of Ministry of Personnel, Public Grievances and Pensions?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Christine Lagarde",
+        "b": "Dominique Strauss-Kahn",
+        "c": "Jim Yong Kim",
+        "d": "Kristalina Georgieva"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Managing director of International Monetary Fund is:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arvind Panagariya",
+        "b": "Rajiv Kumar",
+        "c": "Rajiv Mehrishi",
+        "d": "Yash Pal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Vice-Chairman of NITI Aayog is:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Karnataka",
+        "b": "Tamil Nadu",
+        "c": "Nagaland",
+        "d": "Arunachal Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Bull-Taming sport Jallikatu is typically practiced in",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Caroline Wozniacki",
+        "b": "Venus Williams",
+        "c": "Kristina Mladenovic",
+        "d": "Maria Sharapova"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who wins the 2018 Australian Open Womens Single Title?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kerala",
+        "b": "Punjab",
+        "c": "Mizoram",
+        "d": "West Bengal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which team wins the 2017 Santosh Trophy of Football?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "England",
+        "b": "Spain",
+        "c": "Brazil",
+        "d": "Mali"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Champion of 2017 FIFA U-17 is",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zarkawt BCA",
+        "b": "Khatla TBL",
+        "c": "Tuikual South",
+        "d": "Mission Veng Vikings"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Winner of MSL Season 3 is",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Association of South East Asian Nations",
+        "b": "Association of South Eastern Asian Nations",
+        "c": "Association of South East Asia Nations",
+        "d": "Association of South East Asian Nation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The full form of ASEAN is",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bangladesh, India, Myanmar, Sri Lanka, Thailand Economic Cooperation",
+        "b": "Bangladesh, India, Myanmar, Sri Lanka, Thailand Enforcement Cooperation",
+        "c": "Bangladesh, India, Myanmar, Sri Lanka, Thailand Energy Cooperation",
+        "d": "Bangladesh, India, Myanmar, Sri Lanka, Thailand Ecological Cooperation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "BIMSTEC full form is",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "International Bank for Rural Development",
+        "b": "International Bank for Re-enforcement and Development",
+        "c": "International Bank for Reconstruction and Development",
+        "d": "International Bank for Regional Development"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IBRD means",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Porcine Respiratory and Reproductive Symptom",
+        "b": "Porcine Reproductive and Respiratory Syndrome",
+        "c": "Porcine Respiratory and Reproductive Syndrome",
+        "d": "Porcine Reproductive and Respiratory Symptom"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The full form of PRRS",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ayurveda, Yoga and Naturopathy, Unani, Sunni and Homeopathy",
+        "b": "Ayurveda, Yoga and Naturopathy, Umami, Sunni and Homeopathy",
+        "c": "Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy",
+        "d": "Ayurveda, Yoga and Naturopathy, Umami, Siddha and Homeopathy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The full form of AYUSH:",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bhopal",
+        "b": "Mussorie",
+        "c": "Jamshedpur",
+        "d": "Lucknow"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Steel City refers to",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Paris",
+        "b": "Rome",
+        "c": "Singapore",
+        "d": "Tokyo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "City of Seven Hills refers to",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lhasa (Tibet)",
+        "b": "Pyongyang (North Korea)",
+        "c": "Rome (Italy)",
+        "d": "Rangoon (Burma)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the city is called Forbidden city?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Australia",
+        "b": "Greece",
+        "c": "Italy",
+        "d": "Canada"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Land of Golden Fleece",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ecuador",
+        "b": "Mexico",
+        "c": "Himalayas",
+        "d": "Andes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Human Equator of the Earth :",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hindi Medium",
+        "b": "Sultan",
+        "c": "Tumhari Sulu",
+        "d": "Secret Superstar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following film is declared as the best film in 63rd film fare Awards?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Virat Kohli",
+        "b": "MS Dhoni",
+        "c": "Rohit Sharma",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which cricket player wins the Polly Umrigar Award 2017?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Neymar",
+        "b": "Lionel Messi",
+        "c": "Christiano Ronaldo",
+        "d": "Luis Suarez"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is named as the world’s best player for 2017 by FIFA?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "George Saunders",
+        "b": "Ali Smith",
+        "c": "Mohsin Hamid",
+        "d": "Emily Fridlund"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The winner of Man Booker Prize 2017 is",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aanya Sharma",
+        "b": "Nitasha Biswas",
+        "c": "Ishita Gupta",
+        "d": "Shreya Kapoor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is crowned as the first Miss TransQueen India?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Einthoven",
+        "b": "Wilhelm Rontgen",
+        "c": "Luc Montagnier",
+        "d": "FG Hopkins"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented HIV",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Marconi",
+        "b": "Thomas Edison",
+        "c": "J.Gutenberg",
+        "d": "Alexander Graham Bell"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the inventor of Telephone?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "J. L. Baird",
+        "b": "Thomas Edition",
+        "c": "Enrico Fermi",
+        "d": "Alexandro Volta"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented Television?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "George Waterman",
+        "b": "Lazzlo Biro",
+        "c": "John J. Loud",
+        "d": "Michael Sheaffer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented Ball Point Pen?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Edward Jenner",
+        "b": "Maurice Hilleman",
+        "c": "Emile Roux",
+        "d": "Jonas Salk"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who discovered Polio Vaccine?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A peripheral device used to point to items on monitor",
+        "b": "A device used to connect one computer to another over a phone line",
+        "c": "A board inserted in a computer that provides a physical connection to a network",
+        "d": "A device that reads and or writes information on a disk"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Network Interface Card (NIC) is",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Viruses",
+        "b": "Sharewares",
+        "c": "Address of a site on WWW",
+        "d": "Graphical representation of programme activities"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "URL refers to",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Basic unit of information in computer",
+        "b": "Process of loading or initializing an operating system",
+        "c": "Addresses of sites on World Wide Web",
+        "d": "Memory Unit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Boot implies",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mobile banking",
+        "b": "Mobile business",
+        "c": "Modern business",
+        "d": "Money banking"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In IT world, m-business relates to",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "HAN",
+        "b": "LAN",
+        "c": "VPN",
+        "d": "VSN"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the odd one among the following",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "An operating system",
+        "b": "Android App",
+        "c": "Web browser",
+        "d": "Web server"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Linux is:",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "101",
+        "b": "84",
+        "c": "104",
+        "d": "109"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A standard windows keyboard has how many keys:",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Graphical User Interface",
+        "b": "Greater User Interface",
+        "c": "Graphical Universal Interface",
+        "d": "Graphical Utility Interface"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "GUI Stands for:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cookie",
+        "b": "file",
+        "c": "chip",
+        "d": "compiler"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A small piece of data sent from a website and stored on the user’s computer by the user’s web browser while browsing:",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "COBOL",
+        "b": "C#",
+        "c": "Java",
+        "d": "D++"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is not a computer/programming language?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 1111 8−8",
+        "c": "",
+        "d": " 1111"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What should be subtracted from     to get  –1 11 +3−14",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "24%",
+        "b": "0.24%",
+        "c": "2.4%",
+        "d": "0.024% 3.7 × 3.7 × 3.7−1.2 ×1 .2 ×1 .2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "0.0024   is equivalent to which of the following :",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4.9",
+        "b": "2.7",
+        "c": "1.7",
+        "d": "2.5 1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of   equals 3.7 ×3.7 +3.7×1.2+1.2 ×1.2",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "–25",
+        "b": "25 1",
+        "c": "",
+        "d": "–10 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of  −2  is 5",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1521",
+        "b": "2500",
+        "c": "3600",
+        "d": "4624"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the smallest perfect square, exactly divisible by 8, 15, and 24?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20:5",
+        "b": "1:5",
+        "c": "5:1",
+        "d": "5:20 1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following ratios is the smallest?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 37 73",
+        "c": "–",
+        "d": "– . 37 311122 1×2 of 1−13÷58−18−2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The multiplicative inverse of  –2  is 3 73",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "–2.8",
+        "b": "10.8 251",
+        "c": "",
+        "d": " 54 26"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of  () is 543453",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The LCM of and  is 315",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "9"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What should be subtracted from 48576 so that the remainder is exactly divisible by 9?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "7",
+        "c": "19",
+        "d": "247"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is the largest prime number by which 247 is exactly divisible?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 10099 4945",
+        "c": "",
+        "d": " 9090"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of  is 0.49 4945",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4",
+        "b": "– 4",
+        "c": "10",
+        "d": "–10 5^−⁷8^−⁵"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of 3−73+7 is ()()",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": "– 2525",
+        "c": "1",
+        "d": "–1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of     ÷  = ? 85 6464",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30 years",
+        "b": "31 years",
+        "c": "32 years",
+        "d": "33 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average of a class of 30 students is 21 years. When the teacher’s age is included, the average increases by 1. What is the teacher’s age?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40 minutes.",
+        "b": "1 hr.",
+        "c": "1 hr 20minutes",
+        "d": "26min. 40 sec"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A tap can fill the tank completely in 40minutes. But there is a leakage which can empty the tank in 1hr 20 minutes. If the tap is kept open without repairing the leakage, in how much time would the tank full?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "45kmph",
+        "b": "15kmph",
+        "c": "90kmph",
+        "d": "40kmph"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person travels from A to  B at a speed of 30 kmph and returns back to A at the speed of 60 kmph, what is his average speed?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "120",
+        "b": "100",
+        "c": "90",
+        "d": "99."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two thirds of a number exceeds its one-third by 33. What is the number?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "16 litre",
+        "b": "20 litre",
+        "c": "24 litre",
+        "d": "12 litre"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A mixture contains water and milk in the ratio 3:5. If the total quantity of the mixture is 64litre, how much water must be added to this mixture to make the ratio as 1:1?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30 years",
+        "b": "25 years",
+        "c": "28 years",
+        "d": "35 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A father’s present age is thrice as that of his son’s. After 5 years, it would become 2.5 times. What was the age of his father at the time of birth of his son?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.300000",
+        "b": "Rs.236196",
+        "c": "Rs.263100",
+        "d": "Rs.441000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A car is purchased by Rs.4,00,000/-. If its value depreciates by 10% p.a. What would be the value of that car 5 years hence?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40",
+        "b": "30",
+        "c": "15",
+        "d": "10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A bus conductor has the Rs.5 notes, Rs.10 notes, Rs.20 notes, Rs.50 notes and Rs.100 notes in the proportion 20:10:5:4:2. If the total amount in his bag is Rs.2100/- How many Rs.20 notes does the bag contains?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4kmph",
+        "b": "8kmph",
+        "c": "10kmph",
+        "d": "12kmph"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The speed of the current is 4kmph. A boat travels 6km upstream and returns back to the starting point in 2hrs. What is the speed of the boat in still water?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.260",
+        "b": "Rs.640",
+        "c": "Rs.280",
+        "d": "Rs.80"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cost of leveling a square field @ Rs.8/- per sq.m is Rs.392/-. What would be the cost of fencing the same field @ Rs.10 per metre?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.500",
+        "b": "Rs.450",
+        "c": "Rs.300",
+        "d": "Rs.400"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "2 tables and 4 chairs together cost Rs.800, while 4tables and 2 chairs together cost Rs.1300/-. What is the cost of 1 table and 2 chairs?",
+      "multi": false
+    },
+    {
+      "n": 101,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10.5 days",
+        "b": "12 days",
+        "c": "11 days",
+        "d": "8.5 days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A, B and C can do a piece of work in 20, 20 and 40 days respectively. They began the work together but C left 2 days before the completion of work. In how many days the work would have been completed?",
+      "multi": false
+    },
+    {
+      "n": 102,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20 %",
+        "b": "80%",
+        "c": "20.5%",
+        "d": "79.5 %"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a competitive examination, 10000 boys and 12000 girls appeared. If 26% of boys and 15 % of girls could qualify, what is the overall percentage of students who could not qualify the test?",
+      "multi": false
+    },
+    {
+      "n": 103,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "444 sq. cm.",
+        "b": "196 sq. cm.",
+        "c": "484 sq. cm.",
+        "d": "284 sq. cm."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A wire in the form of a circle of diameter 28 cm is bent to form a square. What is the area of a square?",
+      "multi": false
+    },
+    {
+      "n": 104,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "60%",
+        "b": "160%",
+        "c": "56%",
+        "d": "156%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person purchased 16 articles for Rs.10 and sold them at the rate of 10 articles for Rs.16. What is the profit percent?",
+      "multi": false
+    },
+    {
+      "n": 105,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "400",
+        "b": "600",
+        "c": "800",
+        "d": "can not be determined"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In an examination, 80% of the students passed in English, 85% in Maths and 75% in both English and Maths. If 40 students failed in both the subjects, what is the total number of students?",
+      "multi": false
+    },
+    {
+      "n": 106,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "50%",
+        "b": "6.25%",
+        "c": "56.25%",
+        "d": "12.25%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the side of the square is increased by 25%, by what percent would its area increase?",
+      "multi": false
+    },
+    {
+      "n": 107,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1216 cu.cm",
+        "b": "1000 cu.cm",
+        "c": "144 cu.cm",
+        "d": "1728 cu.cm. 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the surface area of a cube is 864 sq.cm.,  its volume is?",
+      "multi": false
+    },
+    {
+      "n": 108,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.6000",
+        "b": "Rs.8000",
+        "c": "Rs.7500",
+        "d": "Rs.4500"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A man cleared only   of his loan and he still has a balance of  Rs.1500, what is whole amount of 4 loan taken by him ?",
+      "multi": false
+    },
+    {
+      "n": 109,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12%",
+        "b": "11%",
+        "c": "6%",
+        "d": "5%."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At what rate percent per annum will Rs.1200 amount to Rs.1440 in 4 years?",
+      "multi": false
+    },
+    {
+      "n": 110,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30",
+        "b": "35",
+        "c": "20",
+        "d": "10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In how many years a sum of money treble itself at 10% per annum simple interest?",
+      "multi": false
+    },
+    {
+      "n": 111,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.2520",
+        "b": "Rs.2646",
+        "c": "Rs.15246",
+        "d": "Rs.17656."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Compound Interest on Rs.12,600 for 2 years at 10% per annum compounded annually is",
+      "multi": false
+    },
+    {
+      "n": 112,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "B  AA",
+        "b": "A  B",
+        "c": "A Ø B",
+        "d": "n(A) = n(B)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the sets A= {1,2, 4}; B = {x:x is positive integers and x  ≤15}, then",
+      "multi": false
+    },
+    {
+      "n": 113,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.2250",
+        "b": "Rs.28125",
+        "c": "Rs.1968.75",
+        "d": "Rs.2520.25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The marked price of an item is Rs.2500 and a rebate of 10% is given on it. After the rebate, GST is charged  at 12.5%. The net price of the item is",
+      "multi": false
+    },
+    {
+      "n": 114,
+      "page": 12,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10",
+        "b": "–10",
+        "c": "20",
+        "d": "–20"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If (x³–7x² + 6x + 4) is divided by (x–4), the remainder is",
+      "multi": false
+    },
+    {
+      "n": 115,
+      "page": 12,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5",
+        "b": "–5",
+        "c": "3",
+        "d": "2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The degree of polynomial (x³ + 7) (3 – x²) is",
+      "multi": false
+    },
+    {
+      "n": 116,
+      "page": 12,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "23.5",
+        "b": "24.75",
+        "c": "16",
+        "d": "29.5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the mean of 20 observations is 25 and median of the same is 24.5. Then the mode is",
+      "multi": false
+    },
+    {
+      "n": 117,
+      "page": 12,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 810 11",
+        "c": "",
+        "d": " 47"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a medical examination of students of a class, the following blood groups are recorded Blood groupAABBO No. of students914125 A student is selected at random from the class. The probability that he/she has blood group B is 13",
+      "multi": false
+    },
+    {
+      "n": 118,
+      "page": 12,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30",
+        "b": "32",
+        "c": "35",
+        "d": "45"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many term are there in the AP of  5, 12, 19, ….., 245?",
+      "multi": false
+    },
+    {
+      "n": 119,
+      "page": 12,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40",
+        "b": "30",
+        "c": "20.",
+        "d": "10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A ladder is placed against the wall such that it is at a distance of 6m from the wall and its top reaches a window 8m above the ground. Find the length of the ladder.",
+      "multi": false
+    },
+    {
+      "n": 120,
+      "page": 12,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10.35cm²",
+        "b": "6.125cm²",
+        "c": "5.23cm²",
+        "d": "9.5cm²"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the figure below, AC 7  cm, OB = 2cm, the area of the shaded region is:",
+      "multi": false
+    },
+    {
+      "n": 121,
+      "page": 13,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40",
+        "b": "30",
+        "c": "32",
+        "d": "10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A solid metal cone with radius of base 12 cm and height 24 cm is melted to form a solid sphere of diameter 6 cm each. Find the number of balls thus formed.",
+      "multi": false
+    },
+    {
+      "n": 122,
+      "page": 13,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions – (Q122 – 125) : Study the following graph carefully and answer the following and answer",
+      "opts": {
+        "a": "January",
+        "b": "April",
+        "c": "May",
+        "d": "June"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In what month, was the registration of vehicles other than two wheelers maximum?",
+      "multi": false
+    },
+    {
+      "n": 123,
+      "page": 13,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions – (Q122 – 125) : Study the following graph carefully and answer the following and answer",
+      "opts": {
+        "a": "11%",
+        "b": "114 % 7 1",
+        "c": "53 %",
+        "d": "75% 37"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The percentage increase in registration of two wheelers from march to April, 2017 is 2",
+      "multi": false
+    },
+    {
+      "n": 124,
+      "page": 13,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions – (Q122 – 125) : Study the following graph carefully and answer the following and answer",
+      "opts": {
+        "a": "3 : 4",
+        "b": "4 : 3",
+        "c": "5 : 7.",
+        "d": "7 : 5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the ratio of the total number of vehicles in March to the total number of vehicles in June, 2017?",
+      "multi": false
+    },
+    {
+      "n": 125,
+      "page": 13,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions – (Q122 – 125) : Study the following graph carefully and answer the following and answer",
+      "opts": {
+        "a": "6.5",
+        "b": "5.23",
+        "c": "7.47",
+        "d": "14"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average monthly registration of new vehicles from January to June, 2017 is",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "A": [],
+    "B": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/d607eb9ce8b9d614f7b3182105066f74/assistant-grade-paper-ii.pdf",
+  "enrichmentVersion": 5,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

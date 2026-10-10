@@ -1,0 +1,1837 @@
+{
+  "slug": "je-phe-2019-english",
+  "exam": "Junior Engineer under PHE Department",
+  "sitting": "2019",
+  "subject": "General English",
+  "source": "General English (JE).pdf",
+  "sourceSha256": "a5b36688166e354582663328439c8e1a6dfc73d8f7563ea21696b4a1f9753334",
+  "ocr": false,
+  "count": 79,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning",
+      "opts": {
+        "a": "irregularly",
+        "b": "capriciously",
+        "c": "monotonously",
+        "d": "impatiently"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who works by fits and starts can never succeed in his life.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning",
+      "opts": {
+        "a": "to talk in details",
+        "b": "to talk irrelevant",
+        "c": "to talk secretly",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Don’t beat about the bush; come to the point.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning",
+      "opts": {
+        "a": "a good hearted person",
+        "b": "a strong person",
+        "c": "an able person",
+        "d": "a confident person"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Abraham Lincoln was a man of parts.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning",
+      "opts": {
+        "a": "shrewd",
+        "b": "not an honest",
+        "c": "coward",
+        "d": "useless"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Never trust him. He is a good-for-nothing fellow.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning",
+      "opts": {
+        "a": "above",
+        "b": "about",
+        "c": "below",
+        "d": "around"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is on the right side of fifty.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning",
+      "opts": {
+        "a": "submit",
+        "b": "paved the way for",
+        "c": "retire",
+        "d": "enter"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do not give way to their unjust demands.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning",
+      "opts": {
+        "a": "apparently",
+        "b": "really",
+        "c": "deliberately",
+        "d": "doubtfully"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mawia was to all intents and purposes, an honest man.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning",
+      "opts": {
+        "a": "capital",
+        "b": "prospective partners",
+        "c": "good location",
+        "d": "resources"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You must find the ways and means of starting a business.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning",
+      "opts": {
+        "a": "partial treatment",
+        "b": "special treatment",
+        "c": "impartial treatment",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I want a fair field and no favour.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning",
+      "opts": {
+        "a": "food",
+        "b": "bread with butter",
+        "c": "money",
+        "d": "bare means of living"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bread and butter is all we want.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning",
+      "opts": {
+        "a": "set to work",
+        "b": "drive the vehicle",
+        "c": "start the engine",
+        "d": "hold the steering"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Put your shoulder to the wheel instead of looking on.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning",
+      "opts": {
+        "a": "too late",
+        "b": "just in time",
+        "c": "too early",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We reached the station in the nick of time.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning",
+      "opts": {
+        "a": "moody",
+        "b": "happy",
+        "c": "sad",
+        "d": "sick"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He looked rather off colours.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning",
+      "opts": {
+        "a": "disagreement",
+        "b": "a fight",
+        "c": "inconsistency",
+        "d": "less collaboration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There was jealousy among the staff in the office and soon there was a rift in the lute.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning",
+      "opts": {
+        "a": "be convinced",
+        "b": "be in an agreement",
+        "c": "be unconvinced",
+        "d": "be in a disagreement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whatever you say about this, I agree to differ from you.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning",
+      "opts": {
+        "a": "put extra an efforts",
+        "b": "tried every means",
+        "c": "tried nothing",
+        "d": "keep out of debt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They strained every nerve and muscle to regain their position.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "he ruled Mewar for 25 years",
+        "b": "he added a lot of grandeur to Mewar",
+        "c": "of his valour, sacrifice and patriotism",
+        "d": "both (a) & (b)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Maharan Pratap became immortal because :",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "lack of cooperation of the nobility",
+        "b": "ancient traditions of the kingdom",
+        "c": "its small area and small population",
+        "d": "the poverty of the subjects."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Difficulties in the way of Mewar were :",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "the flag of Mewar seemed to be lowered",
+        "b": "the flag of Mewar was hoisted high",
+        "c": "the people of Mewar showed gallantry",
+        "d": "the rulers heaved a sigh of relief"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "During thorny occasions :",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "all of its rulers were competent",
+        "b": "most of its people were competent",
+        "c": "most of its rulers were competent",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mewar was lucky because :",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "Maharana Pratap",
+        "b": "Bappa Rawal",
+        "c": "Rana Khumba",
+        "d": "Rana Sanga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the earliest King of Mewar mentioned in the passage?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "victories",
+        "b": "developmental works",
+        "c": "literature and art",
+        "d": "all of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was Rana Kumbha’s contribution to the glory of Mewar?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "their firm but pleasant",
+        "b": "their cheerful and liberal character",
+        "c": "their admirable physique",
+        "d": "both (a) & (b)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does the writer find worth admiration in the people of Mewar?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "they were peaceful and prosperous",
+        "b": "of their workmanship",
+        "c": "it was the land of the brave",
+        "d": "of their gallantry and brilliance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Art and literature flourished in Mewar because:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "peace and prosperity",
+        "b": "proximity between the king and the subjects of Mewar",
+        "c": "proximity between the king and the queen of Mewar",
+        "d": "amidst aggression and bloodshed, literature and art flourished"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The erection of Vijaya Stambha and Kirti Stambha in the same fort signify ?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "Maharana Pratap",
+        "b": "Rana Sanga",
+        "c": "Rana Khumba",
+        "d": "Bappa Rawal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who drove the kingdom to the pinnacle of fame ?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "acme",
+        "b": "nemesis",
+        "c": "stature",
+        "d": "grandeur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the synonymous word for ‘height’ from the passage :",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 - 34) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "proper noun",
+        "b": "common noun",
+        "c": "collective noun",
+        "d": "noun of multitude"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A **man** is known by the company he keeps.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 - 34) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "emphatic pronoun",
+        "b": "reflexive pronoun",
+        "c": "relative pronoun",
+        "d": "indefinite pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Policemen **themselves** sometimes break the traffic rules.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 - 34) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "proper adjective",
+        "b": "precision adjective",
+        "c": "adjective of quality",
+        "d": "emphasising adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In his **early** years, Babur was very timid.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 - 34) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "intransitive verb",
+        "b": "defective verb",
+        "c": "transitive verb",
+        "d": "incomplete verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I **gave** my sister a present on her birthday.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 - 34) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "adverb of time",
+        "b": "adverb of manner",
+        "c": "adverb of duration",
+        "d": "relative adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**At the stroke of midnight** on August 15, 1947, India became an independent country.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 - 34) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "quantitative determiner",
+        "b": "numerical determiner",
+        "c": "conjunction",
+        "d": "distributive determiner"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The postman has brought **some** letters for you.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35 - 40) : Fill up the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "between",
+        "b": "among",
+        "c": "with",
+        "d": "upon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The money was divided ___________ his two sons.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35 - 40) : Fill up the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "besides",
+        "b": "beside",
+        "c": "after",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "___________ money, I gave her food.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35 - 40) : Fill up the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "from",
+        "b": "by",
+        "c": "since",
+        "d": "until"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The labourer has been working ___________ 8:30 a.m.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35 - 40) : Fill up the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "to",
+        "b": "in",
+        "c": "on",
+        "d": "against"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ladder was placed ___________ the wall.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35 - 40) : Fill up the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "with",
+        "b": "of",
+        "c": "from",
+        "d": "over"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He died ___________ cancer.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35 - 40) : Fill up the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "in",
+        "b": "at",
+        "c": "by",
+        "d": "to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sri Lanka is___________ the south of India.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :",
+      "opts": {
+        "a": "get up",
+        "b": "gets up",
+        "c": "getting up",
+        "d": "got up"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Robert ___________ at five o’clock every day.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :",
+      "opts": {
+        "a": "is not being planting",
+        "b": "have not being planted",
+        "c": "were not being planted",
+        "d": "was not being planted"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "New trees ___________ by the gardener.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :",
+      "opts": {
+        "a": "will have left",
+        "b": "had left",
+        "c": "leave",
+        "d": "has left"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The train ___________ before we reach.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :",
+      "opts": {
+        "a": "do",
+        "b": "did",
+        "c": "have done",
+        "d": "had done"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She ___________ a lot of work today.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :",
+      "opts": {
+        "a": "have not been ring",
+        "b": "has not been ringing",
+        "c": "had not been ringing",
+        "d": "has not ring"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The church bells ___________ since dawn.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :",
+      "opts": {
+        "a": "see",
+        "b": "sees",
+        "c": "seen",
+        "d": "seeing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He ___________ fishes in his dreams.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :",
+      "opts": {
+        "a": "remembering",
+        "b": "remember",
+        "c": "remembered",
+        "d": "remembers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The patient has recovered consciousness and is slowly ___________ the things that happened.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :",
+      "opts": {
+        "a": "shall be visiting",
+        "b": "had been visit",
+        "c": "will have been visiting",
+        "d": "shall have been visiting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We ___________ Rashtrapati Bhavan during our stay in Delhi.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 - 53) : Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Nobody can say when he or she will die.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 - 53) : Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "These flowers are beautiful.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 - 53) : Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "I bought a ticket and went in.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 - 53) : Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sympathy is the golden key which unlocks the treasures of wisdom.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 - 53) : Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex sentence",
+        "c": "Compound sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "If I make a promise, I keep it.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 54 - 58) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "Noun Clause",
+        "b": "Adjectival Clause",
+        "c": "Adverbial Clause",
+        "d": "Co-ordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The teachers were certain **that John would pass in the first division**.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 54 - 58) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "Adverb Clause of Concession",
+        "b": "Adverb Clause of Manner",
+        "c": "Adverbial Clause of Comparison",
+        "d": "Co-ordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Though he is poor**, he is proud.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 54 - 58) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "Adverbial Clause",
+        "b": "Adjectival Clause",
+        "c": "Noun Clause",
+        "d": "Co-ordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The book **that I had borrowed from the library was lost**.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 54 - 58) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "Noun Clause",
+        "b": "Adjectival Clause",
+        "c": "Adverbial Clause",
+        "d": "Co-ordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I knew him **since he was a small boy**.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 54 - 58) : Pick the correct clause of the words underlined in the given",
+      "opts": {
+        "a": "Adverbial Clause of Purpose",
+        "b": "Adverbial clause of Result",
+        "c": "Adverbial Clause of Place",
+        "d": "Adverbial Clause of Reason"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Now that the patient has recovered**, he can go home.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 - 64) : Identify the correct notion expressed by each of the following",
+      "opts": {
+        "a": "Negative",
+        "b": "Affirmative",
+        "c": "Assertive",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "That is the way the gentleman should behave.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 - 64) : Identify the correct notion expressed by each of the following",
+      "opts": {
+        "a": "Exclamatory",
+        "b": "Affirmative",
+        "c": "Imperative",
+        "d": "Assertive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This rumour is too absurd to be true.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 - 64) : Identify the correct notion expressed by each of the following",
+      "opts": {
+        "a": "Interrogative",
+        "b": "Imperative",
+        "c": "Exclamatory",
+        "d": "Assertive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What an unhappy life he leads!",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 - 64) : Identify the correct notion expressed by each of the following",
+      "opts": {
+        "a": "Comparative",
+        "b": "Superlative",
+        "c": "Statement",
+        "d": "Positive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Some other foods are at least as healthful as milk.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 - 64) : Identify the correct notion expressed by each of the following",
+      "opts": {
+        "a": "Statement",
+        "b": "Assertive",
+        "c": "Affirmative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The passing away of a dear one is so painful.",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 - 64) : Identify the correct notion expressed by each of the following",
+      "opts": {
+        "a": "Exclamatory",
+        "b": "Negative",
+        "c": "Affirmative",
+        "d": "Assertive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "No one can deny that he was a great man.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 - 72) : Identify the correct usage of words given in the alternatives",
+      "opts": {
+        "a": "ambiguous",
+        "b": "ambidextrous",
+        "c": "amphibian",
+        "d": "linguist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "___________ is one who can use both hands equally well.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 - 72) : Identify the correct usage of words given in the alternatives",
+      "opts": {
+        "a": "synonymous",
+        "b": "posthumous",
+        "c": "anonymous",
+        "d": "biography"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "___________ is a writing whose writer is not known.",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 - 72) : Identify the correct usage of words given in the alternatives",
+      "opts": {
+        "a": "omnipresent",
+        "b": "omnipotent",
+        "c": "omniscient",
+        "d": "invincible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "___________ is the one who is all powerful.",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 - 72) : Identify the correct usage of words given in the alternatives",
+      "opts": {
+        "a": "adopt",
+        "b": "adept",
+        "c": "adapt",
+        "d": "adopting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do not ___________ unfair means in your examination.",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 - 72) : Identify the correct usage of words given in the alternatives",
+      "opts": {
+        "a": "effect",
+        "b": "effects",
+        "c": "affect",
+        "d": "affects"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The new administration hopes to ___________ a peace settlement.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 - 72) : Identify the correct usage of words given in the alternatives",
+      "opts": {
+        "a": "proceed",
+        "b": "precede",
+        "c": "proceeds",
+        "d": "precedent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It would be helpful if you were to ___________ the report with an introduction.",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 - 72) : Identify the correct usage of words given in the alternatives",
+      "opts": {
+        "a": "manuscript",
+        "b": "calligraphy",
+        "c": "epitaph",
+        "d": "graphic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A words which are inscribed on the grave or the tomb in the memory of the buried is called:",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 - 72) : Identify the correct usage of words given in the alternatives",
+      "opts": {
+        "a": "bigamy",
+        "b": "polygamy",
+        "c": "polyandry",
+        "d": "patrimony"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "___________ is a practice of having more than husbands.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised",
+      "opts": {
+        "a": "diligent",
+        "b": "punctual",
+        "c": "sensible",
+        "d": "successful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is believed to be a very industrious worker.",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised",
+      "opts": {
+        "a": "spotlessly clean",
+        "b": "filthy",
+        "c": "gorgeous",
+        "d": "unnatural"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His dress was immaculate.",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised",
+      "opts": {
+        "a": "terrestrial",
+        "b": "indigent",
+        "c": "native",
+        "d": "aboriginal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Everybody laughed at the puerility of his statement.",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised",
+      "opts": {
+        "a": "insincerity",
+        "b": "inaccuracy",
+        "c": "falsehood",
+        "d": "childishness"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The people welcomed the budget as there was judicious allocation of funds to all the sectors.",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised",
+      "opts": {
+        "a": "boring",
+        "b": "difficult",
+        "c": "ardent",
+        "d": "extraordinary"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He found it an arduous task to perform.",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised",
+      "opts": {
+        "a": "unchanging",
+        "b": "appeasable",
+        "c": "voracious",
+        "d": "satisfying"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She has an insatiable love for music.",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised",
+      "opts": {
+        "a": "initially",
+        "b": "gradually",
+        "c": "primarily",
+        "d": "ultimately"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Eventually vision is affected and the patient is able to see only if light is present.",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised",
+      "opts": {
+        "a": "politeness",
+        "b": "honesty",
+        "c": "harmony",
+        "d": "unity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Maintain absolute integrity at all times.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on **any one (1)** of the given topics in not more than 300 words.(20) -Smartphone - a boon or a curse -New Aizawl City - the need of the hour -Swachh Bharat Abhiyan",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "numbering jumped 26 -> 27 (p4); 1 question(s) missed"
+  ],
+  "gaps": {
+    "B": [
+      26
+    ]
+  }
+}

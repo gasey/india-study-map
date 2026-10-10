@@ -1,0 +1,2317 @@
+{
+  "slug": "ada-aa-ata-2019-gk",
+  "exam": "ADA, ATA & Assistant Auditor under Finance Department",
+  "sitting": "2019",
+  "subject": "General Knowledge",
+  "source": "ADA, AA & ATA General Knowledge.pdf",
+  "sourceSha256": "6963c5312a249aed1b46f49753dcbb545b5c779139015b4e97f29de91dd1acf2",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "192 candidates",
+        "b": "206 candidates",
+        "c": "209 candidates",
+        "d": "212 candidates"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many candidates are there in the recently concluded General Election to Mizoram Legislative Assembly, 2018?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kolasib",
+        "b": "Lunglei",
+        "c": "Aizawl",
+        "d": "Serchhip"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The country’s first queueless polling station was introduced in the State’s Assembly elections of Mizoram in the district of -",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "23",
+        "b": "24",
+        "c": "25",
+        "d": "26"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The number of seats won by the Mizo National Front (MNF) in the just concluded Assembly election 2018 is-",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Manipur",
+        "b": "Nagaland",
+        "c": "Tripura",
+        "d": "Assam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the first North-Eastern State in India to launch Pan-India single emergency number ‘112’ under ERSS?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "26th",
+        "b": "27th",
+        "c": "28th",
+        "d": "29th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per Census 2011, what is the rank of Mizoram in India in terms of population?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "United Bank of India",
+        "b": "Syndicate Bank",
+        "c": "State Bank of India",
+        "d": "Axis Bank"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The unified and integrated app known as ‘YONO (You Only Need One) that enables the users access to a variety of financial and other services is associated with-",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "67th",
+        "b": "75th",
+        "c": "81st",
+        "d": "95th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the India’s passport position in the Global Passport Power Rank 2018, as per the Henley Passport Index (HPI)?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi",
+        "b": "Chennai",
+        "c": "Bengaluru",
+        "d": "Mumbai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which airport is set to become the first airport in Asia to introduce face recognition based passage system technology from 2019?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thrice",
+        "b": "Fourth",
+        "c": "Fifth",
+        "d": "Sixth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many times M.C.Mary Kom wins the Women’s World Boxing Championship in 48 kgs category?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NK Singh",
+        "b": "YV Reddy",
+        "c": "Ranghuram Rajan",
+        "d": "Ramesh Chand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Chairman of the 15th Finance Commission of India-",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Five",
+        "b": "Six",
+        "c": "Seven",
+        "d": "Eight"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many religious communities are classified as Minorities by the Government of India as of December,2018?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Governor of RBI",
+        "b": "Chairman of ISRO",
+        "c": "Chief Economic Advisor",
+        "d": "Chairman of SBI"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dr Krishnamurthy Subramanian has been appointed as the new-",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hyderabad",
+        "b": "Kolkata",
+        "c": "Ahmedabad",
+        "d": "New Delhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kacheguda railway station was declared as India’s first Energy-Efficient ‘A1 Category’ Railway Station. It is situated in which city?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chennai",
+        "b": "Hyderabad",
+        "c": "Kochi",
+        "d": "Kolkata"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which city has launched India’s first Flood Forecasting and Early Warning System (FFEWS)?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Defense",
+        "b": "Ministry of Finance",
+        "c": "Ministry of External Affairs",
+        "d": "Ministry of Police"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India, the Enforcement Directorate (ED) works under which union ministry?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Christians",
+        "b": "Muslims",
+        "c": "Hindus",
+        "d": "Jains"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "George Kurien Committee has been set up by the National Commission for Minorities to study minority status for-",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chennai",
+        "b": "Mumbai",
+        "c": "Kolkatta",
+        "d": "Delhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Signature Bridge is recently inaugurated in which city of India?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "16 %",
+        "b": "14 %",
+        "c": "12 %",
+        "d": "11 %"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Central Government’s contribution in National Pension Scheme (NPS) has raised to how much percentage from the existing 10%?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Maharastra",
+        "b": "Madhya Pradesh",
+        "c": "Haryana",
+        "d": "Kerala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following State became the first Indian state to pass a bill awarding death to those found guilty of raping girls aged 12 years and below?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jharkhand",
+        "b": "Chhattisgarh",
+        "c": "Telangana",
+        "d": "Karnataka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which State received the award for Best State in Promoting Empowerment of Persons with Disabilities for the year 2018?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Japan",
+        "b": "Singapore",
+        "c": "South Korea",
+        "d": "USA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India is hosting the “Global IT Challenge for Youth with Disabilities 2018” in collaboration with which country?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Astha Segal",
+        "b": "Roopa A",
+        "c": "Sakthi Maya S",
+        "d": "Shubhangi Swaroop"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first-ever female pilot to be inducted into the Indian Navy is",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12th October",
+        "b": "11th November",
+        "c": "8th September",
+        "d": "9th December"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "National Education Day of India is celebrated on",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Maharastra",
+        "b": "Andra Pradesh",
+        "c": "Kerala",
+        "d": "Madhya Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following States has become the India’s first State to have four international airports?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Odisha",
+        "b": "Telangana",
+        "c": "Uttar Pradesh",
+        "d": "Punjab"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The State Government which is setting up the world’s first IT Campus for differently-abled persons-",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Maharastra",
+        "b": "Madhya Pradesh",
+        "c": "Uttar Pradesh",
+        "d": "Gujarat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first State to endorse Triple Talaq Draft Bill in India",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "162 meters",
+        "b": "172 meters",
+        "c": "182 meters",
+        "d": "192 meters"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the height of Statue of Unity?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Telangana",
+        "b": "Punjab",
+        "c": "Karnataka",
+        "d": "Haryana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which State has become the India’s first State to treat Hepatitis-C patients through oral medicine?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tiangong-2",
+        "b": "Chang’e-4",
+        "c": "Astrap-4",
+        "d": "Kuoming-3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of China mission launched to the far side of the Moon recently?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Qatar",
+        "b": "Japan",
+        "c": "Israel",
+        "d": "Germany"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country becomes the first to introduce hydrogen powered train?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indonesia",
+        "b": "Malaysia",
+        "c": "Mauritius",
+        "d": "Bhutan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 11th World Hindi Conference 2018 was held in -",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Switzerland",
+        "b": "Luxembourg",
+        "c": "Qatar",
+        "d": "Bhutan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is set to become the world’s first country to make all its public transport free by 2019?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Right to health",
+        "b": "Leave no one behind",
+        "c": "Universal Access",
+        "d": "Know your status"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the theme of 2018 World AIDS day (WAD)?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "France",
+        "b": "Italy",
+        "c": "New Zealand",
+        "d": "South Africa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The scientists of which country have developed the world’s first artificial intelligence politician “SAM”?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China",
+        "b": "Germany",
+        "c": "Indonesia",
+        "d": "Japan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country has successfully tested world’s largest unmanned transport drone “FH-98” October 2018?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "France",
+        "b": "Poland",
+        "c": "Germany",
+        "d": "Hungary"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The country that hosted the 2018 UN Climate Change Conference (COP24).",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China",
+        "b": "Japan",
+        "c": "South Korea",
+        "d": "Singapore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country has launched the world’s first fully electric cargo ship?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Toilet For All",
+        "b": "When Nature Calls",
+        "c": "Lets Clean It Up",
+        "d": "Stand By ME"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the theme of the 2018 World Toilet Day (WTD)?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gambia",
+        "b": "South Africa",
+        "c": "Burundi",
+        "d": "Botswana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first country to leave International Criminal Court (ICC) recently -",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "UAE",
+        "b": "Oman",
+        "c": "Saudi Arabia",
+        "d": "Qatar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country has decided to withdraw its membership from the Organization of the Petroleum Exporting Countries (OPEC) with effect from 1st January 2019?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tokyo",
+        "b": "Beijing",
+        "c": "Moscow",
+        "d": "Dubai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the recent Hurun Global Rich List 2018, which city has become the new ‘Billionaire capital of the world’?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Second highest emitter",
+        "b": "Third highest emitter",
+        "c": "Fourth highest emitter",
+        "d": "Fifth highest emitter"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the recent study conducted by the Global Carbon Project, what is the position of India in the world terms of emission of CO2?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India",
+        "b": "Indonesia",
+        "c": "Malaysia",
+        "d": "Sri Lanka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country hosts the 18th Asian Games 2018?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "United States",
+        "b": "United Kingdom",
+        "c": "South Korea",
+        "d": "Russia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The country that has recently withdrawn from United Nations’ Human Rights Council-",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2040",
+        "b": "2050",
+        "c": "2060",
+        "d": "2070"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The European Union has recently announced to become the world’s first climate neutral economy by which year?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brazil",
+        "b": "Spain",
+        "c": "Mexico",
+        "d": "Venezuela"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Andres Manuel Lopez Obrador, popularly known by his initials AMLO, has been sworn-in as the new President of -",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Donald Trump",
+        "b": "The Guardians and the War on Truth",
+        "c": "The Whistleblowers",
+        "d": "The Silence Breakers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has been named ‘Person of the Year for 2018’ by the Time magazine?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chairman of SBI",
+        "b": "Governor of RBI",
+        "c": "Chairman of ISRO",
+        "d": "Governor of J&K"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shaktikanta Das has been appointed as the new",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Narayana Murthy",
+        "b": "Kailash Satyarthi",
+        "c": "Jawahar Lal Sarin",
+        "d": "Vishal Sikka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian personality was recently bestowed with France’s highest civilian honour “Knight of the Legion of Honor”?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Donald Trump",
+        "b": "Boy Band BTS",
+        "c": "NarendraModi",
+        "d": "Despacito"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most tweeted account on twitter in the year 2018 is",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "London",
+        "b": "Budapest",
+        "c": "Venice",
+        "d": "Vienna"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which city is named as the most liveable city by 2018 Global Liveability Index?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pankaj Mishra",
+        "b": "Shashi Tharoor",
+        "c": "Nabaneeta Dev Sen",
+        "d": "VS Naipaul"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the author of the book “Age of Anger: A History of the Present”?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Maya Angelou",
+        "b": "JK Rowlings",
+        "c": "Joyce Meyers",
+        "d": "Arundhati Roy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Writer of the famous book, “I Know Why the Caged Bird Sings”",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jeffrey Archer",
+        "b": "Sidney Sheldon",
+        "c": "Suzane Collins",
+        "d": "J.K.Rawling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the Author of the book “Casual Vacancy”?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Abhinav Bindra",
+        "b": "Maria Sharapova",
+        "c": "Sania Mirza",
+        "d": "Sachin Tendulkar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Unstoppable: My Life So Far” book has been written by which famous personality?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lionel Messi",
+        "b": "Cristiano Ronaldo",
+        "c": "NeymarJr",
+        "d": "Luka Modric"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Winner of the prestigious 2018 Men’s Ballon d’Or award is",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Men’s 52 kg",
+        "b": "Men’s 58 kg",
+        "c": "Men’s 62 kg",
+        "d": "Men’s 65 kg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Weightlifter Jeremy Lalrinnunga won India’s maiden gold medal at 2018 Youth Olympic Games being held in Buenos Aires, capital of Argentina in which weight category?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gopal Dash",
+        "b": "Abhinav Bindra",
+        "c": "JituRai",
+        "d": "Vijay Kumar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has become the first Indian to won the ISSF’s highest shooting honor ‘Blue Cross’?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sri Lanka",
+        "b": "India",
+        "c": "West Indies",
+        "d": "Australia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country’s national team has won the 2018 ICC Women’s World Twenty-20 tournament?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Geet Sethi",
+        "b": "Pankaj Advani",
+        "c": "Subhash Agarwal",
+        "d": "Ashok Shandilya"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has won the 2018 IBSF World Billiards Championship?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Border Roads Institue of Comprehensive Studies",
+        "b": "Bay of Bengal Institute of Research & Communication Service",
+        "c": "Brazil, Russia, India, China & S.Africa",
+        "d": "Bengal Roads Initiative Corporations"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expand the term, “BRICS”",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "North Indian Electrical Line & Information Technology",
+        "b": "National Institute for Electronics and Information Technology",
+        "c": "National Institute for Electronics and Industrial Technology",
+        "d": "National Institute for Electrical and Information Technology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the full form of NIELIT?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Business Point Optimum",
+        "b": "Below Poverty Order",
+        "c": "Business Plan Optimum",
+        "d": "Business Process Outsourcing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expands the term BPO?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Barclays Motor Works",
+        "b": "Bayer Motorist Workshop",
+        "c": "Bayerische Motoren Warke AG",
+        "d": "Bolivian Motor Works"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Full form of BMW is -",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Software Define Radio",
+        "b": "Simple Divide Rules",
+        "c": "Sub-Divisional Registrars",
+        "d": "Special Drawing Rights"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the full form of SDRs?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Haryana",
+        "b": "Himachal Pradesh",
+        "c": "Gujarat",
+        "d": "Maharastra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The State popularly known as the ‘Apple Kingdom’ of India.",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tropic of Cancer",
+        "b": "Tropic of Capricorn",
+        "c": "Equator",
+        "d": "Pacific Ring of Fire"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is also known as the ‘Great Circle’?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uttar Pradesh",
+        "b": "Tamil Nadu",
+        "c": "Maharashtra",
+        "d": "Chhattisgarh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘sugar bowl of India’ refers to the State of-",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Millets",
+        "b": "Maize",
+        "c": "Bajra",
+        "d": "Jowar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The crop popularly known as ‘Camel Crop’-",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Russia",
+        "b": "Canada",
+        "c": "Netherland",
+        "d": "Norway"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is famously known as ‘Lady of Snow’?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India",
+        "b": "China",
+        "c": "Brazil",
+        "d": "Argentina"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Coffee pot of the world’ refers to-",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "London",
+        "b": "Belgrade",
+        "c": "Budapest",
+        "d": "Venice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Modern Babylon’ is a reference often made representing -",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Malaysia",
+        "b": "Cambodia",
+        "c": "Thailand",
+        "d": "Vietnam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A country also known as ‘Land of White Elephants’",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Geneva",
+        "b": "Oslo",
+        "c": "Brussels",
+        "d": "Stockholm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Nobel Peace Prize is awarded in which city?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Literature",
+        "b": "Physics",
+        "c": "Peace",
+        "d": "Economics"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Denis Mukwege and Nadia Murad won 2018’s Nobel Prize for-",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Donbass",
+        "b": "120 Beats Per Minute",
+        "c": "Dark Skull",
+        "d": "Angels Wear White"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which film has won the Golden Peacock award for the Best Film at the International Film Festival of India (IFFI-2017)?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Miss Asia Pacific 2018",
+        "b": "Miss Earth 2018",
+        "c": "Miss Universe 2018",
+        "d": "Miss World 2018"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Vanessa Ponce De Leon has been crowned-",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pranab Mukherjee",
+        "b": "Manmohan Singh",
+        "c": "Sonia Gandhi",
+        "d": "The Centre for Science and Environment (CSE)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Recipient of the 2018 Indira Gandhi Prize for Peace, Disarmament and Development-",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sebastian Barry",
+        "b": "George Saunders",
+        "c": "Anna Burns",
+        "d": "Colin Thubron"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has won the 2018 Man Booker Prize for Fiction?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Centre for Ecology and Rural Development",
+        "b": "National Biodiversity Authority",
+        "c": "National Tiger Conservation Authority",
+        "d": "The Wildlife Crime Control Bureau"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Indian Organizations has won the 2018 Asia Environment Enforcement Awards??",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Charles Wheatstone",
+        "b": "Roger Bacon",
+        "c": "Shepherd- Barron",
+        "d": "AH Taylor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented Microphone?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thermometer",
+        "b": "Barometer",
+        "c": "Ritcher Scale",
+        "d": "Bar Codes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In 1643, an Italian named Evangelista Torricelli invented –",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Amundsen",
+        "b": "Robert Peary",
+        "c": "Tasman",
+        "d": "Kepler"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the first person to reach South Pole?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Christian Bernard",
+        "b": "Alexander Fleming",
+        "c": "Mc Collum",
+        "d": "William Harvey"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Penicillin was invented by -",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Roger Bacon",
+        "b": "Giovani Batista",
+        "c": "AH Taylor",
+        "d": "Shepherd- Barron"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inventor of ATM machines-",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Umang",
+        "b": "BhimYug",
+        "c": "Bharat",
+        "d": "Ujala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which app has been launched by Prime Minister Narendra Modi for government services?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Control Unit",
+        "b": "Monitor",
+        "c": "CPU",
+        "d": "ALU"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The brain of any computer system is -",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MICR",
+        "b": "OMR",
+        "c": "OCR",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is mainly used for checking objective type answer papers in the examination?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1024 bytes",
+        "b": "2048 bytes",
+        "c": "1023 bytes",
+        "d": "10000 bytes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One kilobyte is equal to",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FORTRAN",
+        "b": "COBOL",
+        "c": "INDEXING",
+        "d": "PROLOG"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following computer language is used for artificial intelligence?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Internet",
+        "b": "Linux",
+        "c": "Unix",
+        "d": "Windows"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Check the odd term out",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cold booting",
+        "b": "Logging off",
+        "c": "Shut down",
+        "d": "Warm booting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Restarting of computer that is already on is referred to as -",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Coding",
+        "b": "Error detection",
+        "c": "Controlling",
+        "d": "Indexing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a computer, the parity bit is added for the purpose of",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Microprocessor",
+        "b": "Network",
+        "c": "Assembler",
+        "d": "Modem"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A device that allows computer users to communicate with one another over telephone lines is called-",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hardware",
+        "b": "Software",
+        "c": "Liveware",
+        "d": "Firmware"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Any part of the computer, which can be seen by the eyes and felt by touching, is called -",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "HTML",
+        "b": "HTTP",
+        "c": "FTP",
+        "d": "URL"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Web pages are written using",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Infosys",
+        "b": "IBM",
+        "c": "Wipro",
+        "d": "TCS"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which IT company is nickname ‘The Big Blue’",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Red Hat Linux",
+        "b": "Windows 98",
+        "c": "BSD Unix",
+        "d": "Microsoft Office XP"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not an example of Operating System?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Super computer",
+        "b": "Laptop",
+        "c": "Mini computer",
+        "d": "Desk top"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A Computer which is portable and easy to carry by travellers is -",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Optical disk",
+        "b": "Magnetic disk",
+        "c": "Fibre disk",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A CD-ROM is a kind of -",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

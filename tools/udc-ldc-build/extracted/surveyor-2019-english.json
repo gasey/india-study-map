@@ -1,0 +1,1857 @@
+{
+  "slug": "surveyor-2019-english",
+  "exam": "Surveyor-I under Land Revenue & Settlement Department",
+  "sitting": "2019",
+  "subject": "General English",
+  "source": "General English (Surveyor-I).pdf",
+  "sourceSha256": "4f4fd42e4f7403c7e5ce57cdbf04c88b91f901f9d4fc6deda48b49130392ffd2",
+  "ocr": false,
+  "count": 80,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-8) : Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "punished",
+        "b": "set free",
+        "c": "freedom",
+        "d": "unpunished"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Scot free",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-8) : Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "In-between",
+        "b": "very rare",
+        "c": "Very near",
+        "d": "Very far"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "few and far between",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-8) : Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "below zero",
+        "b": "everything",
+        "c": "above zero",
+        "d": "nothing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "next to nothing",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-8) : Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "regularly",
+        "b": "sometimes",
+        "c": "irregularly",
+        "d": "every time"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "by fits and starts",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-8) : Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "in private",
+        "b": "in every scene",
+        "c": "in public",
+        "d": "On the stage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "behind the scenes",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-8) : Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "every day",
+        "b": "rapidly",
+        "c": "lazily",
+        "d": "slowly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "by leaps and bounds",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-8) : Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "son",
+        "b": "husband",
+        "c": "daughter",
+        "d": "wife"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "better – half",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-8) : Indicate the correct meaning of the given idioms and phrases:",
+      "opts": {
+        "a": "simply",
+        "b": "quickly",
+        "c": "severely",
+        "d": "deeply"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "black and blue",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9-16) : Fill in the blanks with the idioms/phrases out of the given options",
+      "opts": {
+        "a": "tree",
+        "b": "wall",
+        "c": "joint",
+        "d": "plant"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Barking up the wrong _______.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9-16) : Fill in the blanks with the idioms/phrases out of the given options",
+      "opts": {
+        "a": "apples",
+        "b": "oranges",
+        "c": "eggs",
+        "d": "fruits"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Don’t put al your _______.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9-16) : Fill in the blanks with the idioms/phrases out of the given options",
+      "opts": {
+        "a": "donkey",
+        "b": "goat",
+        "c": "horse",
+        "d": "bush"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Don’t beat a dead _______.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9-16) : Fill in the blanks with the idioms/phrases out of the given options",
+      "opts": {
+        "a": "cap",
+        "b": "hat",
+        "c": "ball",
+        "d": "pin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do something at the drop of a _______.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9-16) : Fill in the blanks with the idioms/phrases out of the given options",
+      "opts": {
+        "a": "hay",
+        "b": "haste",
+        "c": "progress",
+        "d": "progress"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make _______ while the sun shines.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9-16) : Fill in the blanks with the idioms/phrases out of the given options",
+      "opts": {
+        "a": "pressure",
+        "b": "weather",
+        "c": "mood",
+        "d": "stress"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Feel a bit under the _______.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9-16) : Fill in the blanks with the idioms/phrases out of the given options",
+      "opts": {
+        "a": "bike",
+        "b": "horse",
+        "c": "goat",
+        "d": "chariot"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Are you still riding the _______?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 9-16) : Fill in the blanks with the idioms/phrases out of the given options",
+      "opts": {
+        "a": "bacon",
+        "b": "salami",
+        "c": "faeces",
+        "d": "meat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Live like a maggot in _______.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 22): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Continuation of racism",
+        "b": "End to racism and civil and economic rights",
+        "c": "Civil rights",
+        "d": "Civil War"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What issues does Martin Luther King’s speech address?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 22): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "He reads out the Emancipation Proclamation",
+        "b": "He is prompted by Mahalia Jackson",
+        "c": "he is overwhelmed by the crowd",
+        "d": "Lincoln had asked him to give the speech"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What pushes King to speak: “I have a dream”?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 22): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Departed",
+        "b": "Proclamation",
+        "c": "Improvised",
+        "d": "Address"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From the last paragraph, give one word for “to leave”",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 22): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "The Emancipation Proclamation",
+        "b": "The Declaration of Independence",
+        "c": "A Peroration",
+        "d": "I Have a Dream"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of martin Luther King’s famed speech?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 22): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "The civil rights supporters+",
+        "b": "His friends",
+        "c": "Lincoln",
+        "d": "The Negroes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In front of whom does King speak?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 22): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "The Declaration of Independence",
+        "b": "The Emancipation Proclamation",
+        "c": "The Declaration of Freedom",
+        "d": "The Emancipation Exclamation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does King reference in his speech?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 23– 27): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Perspective",
+        "b": "Profound",
+        "c": "Tragedy",
+        "d": "Psychology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From the first paragraph, give a synonym for ‘deep’:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 23– 27): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Their advanced weaponry",
+        "b": "Their literature",
+        "c": "Their orders",
+        "d": "Their administration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What helped the Indians to conceive of a notion of the Englishmen?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 23– 27): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "The educated Indians",
+        "b": "All the Indians",
+        "c": "Only writers such as Rabindranath Tagore",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who could read and gain from English literature?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 23– 27): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Victor",
+        "b": "Vanquished",
+        "c": "Belief",
+        "d": "Persecution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From the third paragraph, give an antonym for ‘victorious’",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 23– 27): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Shakespeare",
+        "b": "Byron",
+        "c": "John Bright",
+        "d": "Macaulay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whose speeches did Tagore listen to, as a boy?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 28 – 32): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "The choices we make and the things we desire",
+        "b": "The choices that philosophers force us to make",
+        "c": "Our perception of temptation",
+        "d": "Our ego"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What do you understand by ‘freewill’?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 28 – 32): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "When there is a struggle between the intellect and the body",
+        "b": "When our willpower helps us to overcome our base instincts",
+        "c": "When we desire that which we cannot achieve",
+        "d": "When we have no control over our ego"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Plato, when is true freedom available?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 28 – 32): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Align with",
+        "b": "disagree with",
+        "c": "Differ from",
+        "d": "In discussion with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the second paragraph, what does the expression ‘line up’ signify?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 28 – 32): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Willpower",
+        "b": "Our ego",
+        "c": "Our ability to overcome temptation",
+        "d": "The desire to give in to temptation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is meant by ‘cognitive capacity’?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 28 – 32): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Cognitive",
+        "b": "Temptation",
+        "c": "Desire",
+        "d": "Revered"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From the RC given above, find a synonym for ‘respected’",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from",
+      "opts": {
+        "a": "Matthew",
+        "b": "Solomon",
+        "c": "Mark",
+        "d": "Luke"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_______ was known for his wisdom and justice.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from",
+      "opts": {
+        "a": "Mayagyata",
+        "b": "Mahabharat",
+        "c": "Chakravartin",
+        "d": "Two States"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The _______ is a very fine epic.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from",
+      "opts": {
+        "a": "look",
+        "b": "looking",
+        "c": "looked",
+        "d": "doing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The widow _______ worried and terrified.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from",
+      "opts": {
+        "a": "striking",
+        "b": "kill",
+        "c": "family",
+        "d": "killed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lightning _______ four travellers yesterday.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from",
+      "opts": {
+        "a": "social",
+        "b": "religious",
+        "c": "family",
+        "d": "international"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Caste system is a _______ evil.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from",
+      "opts": {
+        "a": "Grey",
+        "b": "Red",
+        "c": "Green",
+        "d": "Blue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_______ hair shows wisdom and experience.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from",
+      "opts": {
+        "a": "where",
+        "b": "how",
+        "c": "why",
+        "d": "when"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_______ do you hail from?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from",
+      "opts": {
+        "a": "which",
+        "b": "there",
+        "c": "when",
+        "d": "somewhere"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She knows _______ he will come back.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 – 48): Fill in the blanks with correct prepositions:",
+      "opts": {
+        "a": "in",
+        "b": "into",
+        "c": "by",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The boy was beaten _______ the teacher.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 – 48): Fill in the blanks with correct prepositions:",
+      "opts": {
+        "a": "into",
+        "b": "between",
+        "c": "under",
+        "d": "upon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The property was divided ________ .",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 – 48): Fill in the blanks with correct prepositions:",
+      "opts": {
+        "a": "besides",
+        "b": "into",
+        "c": "with",
+        "d": "beside"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The beggar was sitting _______ the road.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 – 48): Fill in the blanks with correct prepositions:",
+      "opts": {
+        "a": "in",
+        "b": "into",
+        "c": "at",
+        "d": "by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I was born at Aizawl _______ Mizoram.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 – 48): Fill in the blanks with correct prepositions:",
+      "opts": {
+        "a": "at",
+        "b": "on",
+        "c": "by",
+        "d": "into"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pour the milk _______ the cup.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 – 48): Fill in the blanks with correct prepositions:",
+      "opts": {
+        "a": "at",
+        "b": "into",
+        "c": "on",
+        "d": "between"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The shepherd was sitting _______ a rock.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 – 48): Fill in the blanks with correct prepositions:",
+      "opts": {
+        "a": "till",
+        "b": "since",
+        "c": "over",
+        "d": "upon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I shall stay here _______ Sunday.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 – 48): Fill in the blanks with correct prepositions:",
+      "opts": {
+        "a": "upon",
+        "b": "under",
+        "c": "on",
+        "d": "above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rain water seeps _______ the ground.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 56) : Analyze the given sentences and choose the correct option:",
+      "opts": {
+        "a": "affirmative",
+        "b": "exclamatory",
+        "c": "assertive",
+        "d": "positive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The child is going to school.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 56) : Analyze the given sentences and choose the correct option:",
+      "opts": {
+        "a": "interrogative",
+        "b": "exclamatory",
+        "c": "affirmative",
+        "d": "assertive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What a marvellous sight!",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 56) : Analyze the given sentences and choose the correct option:",
+      "opts": {
+        "a": "positive",
+        "b": "negative",
+        "c": "assertive",
+        "d": "affirmative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She will not listen to me.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 56) : Analyze the given sentences and choose the correct option:",
+      "opts": {
+        "a": "affirmative",
+        "b": "negative",
+        "c": "interrogative",
+        "d": "assertive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is your name?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 56) : Analyze the given sentences and choose the correct option:",
+      "opts": {
+        "a": "assertive",
+        "b": "affirmative",
+        "c": "positive",
+        "d": "negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You should drink more water.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 56) : Analyze the given sentences and choose the correct option:",
+      "opts": {
+        "a": "assertive",
+        "b": "exclamatory",
+        "c": "positive",
+        "d": "negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You look so tired! You should get more sleep.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 56) : Analyze the given sentences and choose the correct option:",
+      "opts": {
+        "a": "imperative",
+        "b": "affirmative",
+        "c": "affirmative",
+        "d": "positive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Leave this place at once.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 56) : Analyze the given sentences and choose the correct option:",
+      "opts": {
+        "a": "assertive",
+        "b": "exclamatory",
+        "c": "positive",
+        "d": "negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hurrah! We have won.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option.",
+      "opts": {
+        "a": "comparative",
+        "b": "superlative",
+        "c": "relative",
+        "d": "positive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Everest is the highest mountain.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option.",
+      "opts": {
+        "a": "comparative",
+        "b": "superlative",
+        "c": "positive",
+        "d": "negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is not as good as her friends.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option.",
+      "opts": {
+        "a": "comparative",
+        "b": "superlative",
+        "c": "positive",
+        "d": "negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mariana Trench is the deepest point on Earth.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option.",
+      "opts": {
+        "a": "simple",
+        "b": "compound",
+        "c": "abstract",
+        "d": "complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sarah and Jessie are going swimming.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option.",
+      "opts": {
+        "a": "simple",
+        "b": "compound",
+        "c": "abstract",
+        "d": "complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My husband was working, so I went shopping.",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option.",
+      "opts": {
+        "a": "simple",
+        "b": "compound",
+        "c": "negative",
+        "d": "complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I am out of paper for the printer.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option.",
+      "opts": {
+        "a": "simple",
+        "b": "compound",
+        "c": "negative",
+        "d": "complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Will you help me out?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option.",
+      "opts": {
+        "a": "simple",
+        "b": "compound",
+        "c": "negative",
+        "d": "complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Though he was very rich, he was still unhappy",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option.",
+      "opts": {
+        "a": "simple",
+        "b": "compound",
+        "c": "positive",
+        "d": "complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He did not lie, for he was an honest man.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 66 – 70): Use the context to help you choose the right answer:",
+      "opts": {
+        "a": "cheered",
+        "b": "swept",
+        "c": "smiled"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "When he came to know what happened to his dog, he wept and cried. Q. What would be the opposite of wept?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 66 – 70): Use the context to help you choose the right answer:",
+      "opts": {
+        "a": "one-sided",
+        "b": "dominate",
+        "c": "domain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The match between United and West Ham ended in a huge upset. West Ham won 3-0 which shocked many. Q. You could say that the match was very?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 66 – 70): Use the context to help you choose the right answer:",
+      "opts": {
+        "a": "having many interpretations",
+        "b": "having many writers",
+        "c": "having a definite moral"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "This poem ‘Paradise lost’ is a famous poem known for its ambiguity. Q. Ambiguity means?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 66 – 70): Use the context to help you choose the right answer:",
+      "opts": {
+        "a": "drunk",
+        "b": "tired",
+        "c": "nearly passing out"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "She had one too many drinks and now she’s extremely inebriated. Q.Inebriated means?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 66 – 70): Use the context to help you choose the right answer:",
+      "opts": {
+        "a": "diligent",
+        "b": "unmistakeable",
+        "c": "well off and rich"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the small town of LouisVille lives a indefatigable farmer who works day and night tending to his cattle and crops. Q.Indefatigable here means?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 71-75): Choose the right alternative from the given options to fill in the gaps:",
+      "opts": {
+        "a": "talent",
+        "b": "talented",
+        "c": "talents",
+        "d": "talen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was naturally very _______ as a child.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 71-75): Choose the right alternative from the given options to fill in the gaps:",
+      "opts": {
+        "a": "interfere",
+        "b": "interdetermine",
+        "c": "intern",
+        "d": "interface"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have always thought it better not to _______ in fights.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 71-75): Choose the right alternative from the given options to fill in the gaps:",
+      "opts": {
+        "a": "eyelashes",
+        "b": "eyelids",
+        "c": "tongue",
+        "d": "lips"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She bats her _______ as he locks eyes with him.",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 71-75): Choose the right alternative from the given options to fill in the gaps:",
+      "opts": {
+        "a": "gradually",
+        "b": "gradual",
+        "c": "grade",
+        "d": "residually"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She was _______ becoming sick of him.",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 71-75): Choose the right alternative from the given options to fill in the gaps:",
+      "opts": {
+        "a": "lights",
+        "b": "buildings",
+        "c": "road",
+        "d": "footpath"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The _______ turned red and all the cars stopped.",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 76 – 80): Fill in the blanks with the appropriate form of the words given below:",
+      "opts": {
+        "a": "tradition",
+        "b": "trend",
+        "c": "style",
+        "d": "statement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is a _______ to wear skirts in our tribe.",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 76 – 80): Fill in the blanks with the appropriate form of the words given below:",
+      "opts": {
+        "a": "coverage",
+        "b": "news",
+        "c": "news",
+        "d": "show"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The other day, I was watching HBO’s live _______ of the Golden Globe Awards/",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 76 – 80): Fill in the blanks with the appropriate form of the words given below:",
+      "opts": {
+        "a": "presentation",
+        "b": "present",
+        "c": "actions",
+        "d": "presenting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The professor’s _______ the other day was very informative.",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 76 – 80): Fill in the blanks with the appropriate form of the words given below:",
+      "opts": {
+        "a": "revenge",
+        "b": "hate",
+        "c": "avenge",
+        "d": "grudges"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Don’t hold _______, it will only do more harm",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 76 – 80): Fill in the blanks with the appropriate form of the words given below:",
+      "opts": {
+        "a": "noble",
+        "b": "nobel",
+        "c": "manner",
+        "d": "manor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It was a very _______ gesture to do what you did the other day.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on **any one** of the following topics in about 300 words. -Problem of educated unemployed. -Communal Harmony. -Hazard of mobile phones.",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

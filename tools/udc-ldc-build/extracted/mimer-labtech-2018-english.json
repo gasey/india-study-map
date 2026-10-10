@@ -1,0 +1,1867 @@
+{
+  "slug": "mimer-labtech-2018-english",
+  "exam": "MIMER common recruitment",
+  "sitting": "February 2018",
+  "subject": "General English",
+  "source": "1.General English Common Paper.pdf",
+  "sourceSha256": "0a1d4899c9e5413e47157a3ac83f9b38010cf1ffb63791eff559f637a31ea92f",
+  "ocr": false,
+  "count": 80,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Wealth",
+        "b": "Cleanliness",
+        "c": "Sunlight",
+        "d": "Anxieties"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is difficult to sustain proper health devoid of",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Several diseases",
+        "b": "Malnutrition",
+        "c": "Indigestion",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consumption of water which is not clean and pure can lead to",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Cheap",
+        "b": "Easily prepared",
+        "c": "Nutritious",
+        "d": "Tasty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We should constantly attempt to consume food which are",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Loneliness",
+        "b": "Happiness",
+        "c": "Cleanliness",
+        "d": "Godliness"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is not dependent upon the wealth of a person?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Fresh Air",
+        "b": "Green Vegetables",
+        "c": "Proper Diet",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What are the things good health depends upon",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Money",
+        "b": "Property",
+        "c": "Travelling",
+        "d": "Health"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the source of all happiness",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "relationship",
+        "b": "habits",
+        "c": "friendship",
+        "d": "manners"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One must cultivate good ___________ to stay healthy.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Good health",
+        "b": "Good Physique",
+        "c": "Good meal",
+        "d": "Good sleep"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What contributes to the emotional well being of a person",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Anxieties",
+        "b": "Depression",
+        "c": "Boredom",
+        "d": "Hunger"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What should we always free ourselves from?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Damp and humid",
+        "b": "Airy and sunny",
+        "c": "Hot and dry",
+        "d": "Wet and sultry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What are the ideal conditions for a house?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Early to bed and early to rise",
+        "b": "Taking a bath everyday",
+        "c": "Eating vegetables",
+        "d": "Balanced and nutritious diet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What factors contributes to the proper growth of the body?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to",
+      "opts": {
+        "a": "Clean our hands with soap",
+        "b": "Take a bath",
+        "c": "Go for a walk",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How should we maintain cleanliness after having a meal?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+      "opts": {
+        "a": "Wonderful statement",
+        "b": "Meaningless statement",
+        "c": "Inconsistent statement",
+        "d": "Thoughtless statement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sweeping Statement",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+      "opts": {
+        "a": "Yellow Thumb",
+        "b": "Green Thumb",
+        "c": "Red Thumb",
+        "d": "White Thumb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To have a natural interest",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+      "opts": {
+        "a": "A white cat",
+        "b": "A white leopard",
+        "c": "A white elephant",
+        "d": "A white owl"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Costly or troublesome possession",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+      "opts": {
+        "a": "Took to heels",
+        "b": "Took off",
+        "c": "Took a jet",
+        "d": "Took away"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Run away in fear",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+      "opts": {
+        "a": "Green-eyed monster",
+        "b": "Brown-eyed monster",
+        "c": "Blue-eyed monster",
+        "d": "Loch Ness monster"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Used as a way of talking about jealousy",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+      "opts": {
+        "a": "Spilling the milk",
+        "b": "Spilling the beans",
+        "c": "Spilling the tea",
+        "d": "Spilling the water"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Revealing an information indiscreetly",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+      "opts": {
+        "a": "Bury the hatchet",
+        "b": "Went to the winds",
+        "c": "An axe to grind",
+        "d": "At one’s wit’s end"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A private interest to serve",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+      "opts": {
+        "a": "Fits and starts",
+        "b": "Close shave",
+        "c": "Bad Blood",
+        "d": "Shake in shoes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tremble with fear",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+      "opts": {
+        "a": "On the verge of",
+        "b": "Sowing wild oats",
+        "c": "Like a phoenix",
+        "d": "Hobson’s Choice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Irresponsible pleasure seeking in young age",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+      "opts": {
+        "a": "A red letter day",
+        "b": "Burn one’s boat",
+        "c": "A sore point",
+        "d": "A bolt from the blue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Something unexpected and unpleasant",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+      "opts": {
+        "a": "Throw down a glove",
+        "b": "Turn a deaf ear",
+        "c": "Have the last laugh",
+        "d": "To steer clear of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To be victorious at the end of an argument",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+      "opts": {
+        "a": "A damp squib",
+        "b": "In cold blood",
+        "c": "To smell a rat",
+        "d": "Give vent to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A disappointing result",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+      "opts": {
+        "a": "To lose ground",
+        "b": "Sailing in the same boat",
+        "c": "To make one’s blood boil",
+        "d": "To add fuel to the fire"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Being in the same difficult situation",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+      "opts": {
+        "a": "Hand in glove",
+        "b": "Soft option",
+        "c": "To speak one’s mind",
+        "d": "Gift of the gab"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ability to speak well",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+      "opts": {
+        "a": "Carrot and stick",
+        "b": "Ins and outs",
+        "c": "Eat everyone’s salt",
+        "d": "Hand in glove"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Reward and punishment policy",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+      "opts": {
+        "a": "Stick to guns",
+        "b": "To toe the line",
+        "c": "Null and void",
+        "d": "Leaps and bounds"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To follow the lead",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My mother and I **went** to the market today.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Adjective",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We saw a man with a **heavy** load on his back.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+      "opts": {
+        "a": "Noun",
+        "b": "Conjunction",
+        "c": "Preposition",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The customer and I **critically** evaluated information on the company’s web site.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+      "opts": {
+        "a": "Preposition",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Interjection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Brian often talked **about** Ms. Rita.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Pronoun",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "John and I attended a dinner with **his** parents.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+      "opts": {
+        "a": "Interjection",
+        "b": "Conjunction",
+        "c": "Adverb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was not handsome, **yet** he was a successful actor.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+      "opts": {
+        "a": "Abstract Noun",
+        "b": "Common Noun",
+        "c": "Concrete Noun",
+        "d": "Proper Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The role of the courts is to dispense **justice** fairly to everyone.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+      "opts": {
+        "a": "Adverb of manner",
+        "b": "Adverb of time",
+        "c": "Adverb of frequency",
+        "d": "Adverb of degree"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dr. Clancy is **seldom** wrong in his diagnosis.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+      "opts": {
+        "a": "Adverb of manner",
+        "b": "Adverb of time",
+        "c": "Adverb of frequency",
+        "d": "Adverb of degree"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "After taking the medicine my mother is feeling **much** better.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+      "opts": {
+        "a": "already ate",
+        "b": "already eaten",
+        "c": "had eaten",
+        "d": "had ate."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I’m afraid I’m not hungry. I have ____________________.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+      "opts": {
+        "a": "had became",
+        "b": "have become",
+        "c": "has become",
+        "d": "had become"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Travelling _______________ much easier in the 20th century.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+      "opts": {
+        "a": "has known",
+        "b": "have known",
+        "c": "had known",
+        "d": "has knew"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mark and I ____________each other since Kindergarten.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+      "opts": {
+        "a": "were not able",
+        "b": "was not able",
+        "c": "would not able",
+        "d": "is not able"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The police ___________ to catch the thief.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+      "opts": {
+        "a": "from",
+        "b": "to",
+        "c": "onto",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mathew has returned __________ his home town.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+      "opts": {
+        "a": "on",
+        "b": "in",
+        "c": "to",
+        "d": "into"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The children climbed ________ the monkey bars.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+      "opts": {
+        "a": "Neither",
+        "b": "Either",
+        "c": "Each",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "____________ of the two books is costly.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+      "opts": {
+        "a": "Neither",
+        "b": "Either",
+        "c": "Each",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "___________ of the two mangoes is ripe.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+      "opts": {
+        "a": "carelessly",
+        "b": "angrily",
+        "c": "happily",
+        "d": "greedily"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My son looked at the box of chocolate _______________.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+      "opts": {
+        "a": "among",
+        "b": "besides",
+        "c": "between",
+        "d": "within"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A small table was lying ___________ the two chairs.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+      "opts": {
+        "a": "until",
+        "b": "till",
+        "c": "before",
+        "d": "while"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "May hay _________ the sun shines.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+      "opts": {
+        "a": "Complex sentence",
+        "b": "Compound Sentence",
+        "c": "Simple Sentence",
+        "d": "Compound-Complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bob and Ronny ate too much and felt sick.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+      "opts": {
+        "a": "Complex sentence",
+        "b": "Compound Sentence",
+        "c": "Simple Sentence",
+        "d": "Compound-Complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I spoke to your friend in English, but he responded in Mizo.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+      "opts": {
+        "a": "Complex sentence",
+        "b": "Compound Sentence",
+        "c": "Simple Sentence",
+        "d": "Compound-Complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lucy returned the computer after she knew it was damaged.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+      "opts": {
+        "a": "Complex sentence",
+        "b": "Compound Sentence",
+        "c": "Simple Sentence",
+        "d": "Compound-Complex sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My parents usually go for a walk while the sun sets, but it was raining today.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+      "opts": {
+        "a": "Affirmative Sentence",
+        "b": "Interrogative Sentence",
+        "c": "Negative Sentence",
+        "d": "Imperative Sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Only God can help us.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+      "opts": {
+        "a": "Affirmative Sentence",
+        "b": "Interrogative Sentence",
+        "c": "Negative Sentence",
+        "d": "Assertive Sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Michael doesn’t always visit me.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+      "opts": {
+        "a": "Affirmative Sentence",
+        "b": "Interrogative Sentence",
+        "c": "Negative Sentence",
+        "d": "Assertive Sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who doesn’t wish to be happy?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+      "opts": {
+        "a": "Exclamatory Sentence",
+        "b": "Imperative Sentence",
+        "c": "Negative Sentence",
+        "d": "Assertive Sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They did not play football yesterday.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+      "opts": {
+        "a": "Exclamatory Sentence",
+        "b": "Interrogative Sentence",
+        "c": "Negative Sentence",
+        "d": "Assertive Sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hurrah! We have won the game.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+      "opts": {
+        "a": "Exclamatory Sentence",
+        "b": "Interrogative Sentence",
+        "c": "Imperative Sentence",
+        "d": "Assertive Sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Let us go out for a walk.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 – 64): Choose the correct synthesis from the sentences given in options:",
+      "opts": {
+        "a": "Raju, my landlord, is a miser",
+        "b": "Miser is my landlord Raju",
+        "c": "My landlord Raju is a miser",
+        "d": "Raju is a miser landlord"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Raju is my landlord. He is a miser.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 – 64): Choose the correct synthesis from the sentences given in options:",
+      "opts": {
+        "a": "My neighbour has a lot of money and unhappy too",
+        "b": "In spite of having a lot of money my neighbour is very unhappy",
+        "c": "My neighbour is unhappy due to his money",
+        "d": "Money is the source of my neighbour’s unhappiness"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My neighbour has a lot of money. But he is very unhappy.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 – 64): Choose the correct synthesis from the sentences given in options:",
+      "opts": {
+        "a": "Amy won a lottery and bought an expensive car",
+        "b": "Amy bought an expensive car because she won a lottery",
+        "c": "Having won a lottery Amy bought an expensive car",
+        "d": "Winning a lottery helped Amy bought an expensive car"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Amy won a lottery. She bought an expensive car.",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 – 64): Choose the correct synthesis from the sentences given in options:",
+      "opts": {
+        "a": "Will they come certainly?",
+        "b": "They will come and that is certain",
+        "c": "Certainly come they will",
+        "d": "They will certainly come"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They will come. That is certain.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 – 64): Choose the correct synthesis from the sentences given in options:",
+      "opts": {
+        "a": "Danny collects vintage cars because it is his hobby",
+        "b": "It is Danny’s hobby to collect vintage cars",
+        "c": "Vintage cars are collected by Danny as a hobby",
+        "d": "Danny’s hobby is to collect vintage cars"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Danny collects vintage cars. It is his hobby.",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 – 64): Choose the correct synthesis from the sentences given in options:",
+      "opts": {
+        "a": "In spite of having many shortcomings Rosy is a nice girl",
+        "b": "Rosy is a nice girl though she has many shortcomings",
+        "c": "Rosy is a nice girl who has many shortcomings",
+        "d": "Rosy had many shortcomings although she was a nice girl"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rosy had many shortcomings. But she was a nice girl",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 72): Choose the right one word substitution from the given options:",
+      "opts": {
+        "a": "Atheist",
+        "b": "Amateur",
+        "c": "Anarchist",
+        "d": "Arsonist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who believes in a state of lawlessness",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 72): Choose the right one word substitution from the given options:",
+      "opts": {
+        "a": "Connoisseur",
+        "b": "Cacographer",
+        "c": "Cynosure",
+        "d": "Coquette"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A critical judge of any art or craft",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 72): Choose the right one word substitution from the given options:",
+      "opts": {
+        "a": "Constellation",
+        "b": "Crusaders",
+        "c": "Congregation",
+        "d": "Curator"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A group of worshippers",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 72): Choose the right one word substitution from the given options:",
+      "opts": {
+        "a": "Crochet",
+        "b": "Cricket",
+        "c": "Croquet",
+        "d": "Creche"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Nursery for babies and young children",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 72): Choose the right one word substitution from the given options:",
+      "opts": {
+        "a": "Bathophobia",
+        "b": "Dipsophobia",
+        "c": "Geraphobia",
+        "d": "Bibliophobia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fear of books",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 72): Choose the right one word substitution from the given options:",
+      "opts": {
+        "a": "Ephemeral",
+        "b": "Eternal",
+        "c": "Everlasting",
+        "d": "Eternity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lasting a very short time",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 72): Choose the right one word substitution from the given options:",
+      "opts": {
+        "a": "Incredible",
+        "b": "Indelible",
+        "c": "Inedible",
+        "d": "Impossible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Marks that cannot be removed",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 72): Choose the right one word substitution from the given options:",
+      "opts": {
+        "a": "Cynic",
+        "b": "Misogynist",
+        "c": "Linguist",
+        "d": "Skeptic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who sneers at the aims and beliefs of his fellowmen",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:",
+      "opts": {
+        "a": "absorbed in",
+        "b": "absorbed at",
+        "c": "absorbed on",
+        "d": "absorbed to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The man was _____________ his work.",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:",
+      "opts": {
+        "a": "angry against",
+        "b": "angry to",
+        "c": "angry on",
+        "d": "angry with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The teacher was ____________ him.",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:",
+      "opts": {
+        "a": "conform with",
+        "b": "conform to",
+        "c": "conform about",
+        "d": "conform on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We must _________ the rules.",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:",
+      "opts": {
+        "a": "exception of",
+        "b": "exception in",
+        "c": "exception to",
+        "d": "exception on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This is an ____________ the rule.",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:",
+      "opts": {
+        "a": "leaving to",
+        "b": "leaving for",
+        "c": "leaving towards",
+        "d": "leaving into"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They are __________ India soon.",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:",
+      "opts": {
+        "a": "to do",
+        "b": "for doing",
+        "c": "of doing",
+        "d": "about doing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They are quite capable ____________ that.",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:",
+      "opts": {
+        "a": "went",
+        "b": "leave",
+        "c": "going",
+        "d": "go"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Did you ________ to school yesterday?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:",
+      "opts": {
+        "a": "knew",
+        "b": "know",
+        "c": "known",
+        "d": "knows"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ruth talks as if she ________ everything.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on **any one (1)** of the given topics (not more than 300 words): -Skill Development: The need of the hour -The importance of health awareness -Women Empowerment",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

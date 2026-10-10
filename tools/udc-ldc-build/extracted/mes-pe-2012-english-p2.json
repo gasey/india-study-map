@@ -1,0 +1,293 @@
+{
+  "slug": "mes-pe-2012-english-p2",
+  "exam": "Jr. Grade of Mizoram Engineering Service (AE/SDO) under Power & Electricity Department",
+  "sitting": "January 2012",
+  "subject": "General English Paper-II",
+  "source": "mes-pe-2012-english-p2.pdf",
+  "sourceSha256": "6a605a5a786a19bc6b544d87daed3f336cc1da9e8ada064f3b3a7d80e4429b2e",
+  "ocr": false,
+  "count": 12,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "He never tells lie.",
+        "b": "I am in a hurry to reach there.",
+        "c": "His father is an M.P.",
+        "d": "The man is mortal."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Denote whether the following sentence construction is grammatically true or false.(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Map",
+        "b": "Cuckoo",
+        "c": "Chairman",
+        "d": "Army"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Supply the plural form of the following singular nouns.(10×½=5)",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arise",
+        "b": "Crow",
+        "c": "Melt",
+        "d": "Drink (Contd.  2)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Give the past and past participle of the following words.(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "This book _____ me ten rupees last year (cost)",
+        "b": "If you _____ me to the college, I wouldn’t have missed my class (drive)",
+        "c": "This programme _____ tomorrow (telecast)",
+        "d": "We _______ before  he arrived (dine)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks with the correct form of verb given in brackets(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Have you lived in this house? (ever)",
+        "b": "You can trust a person who is honest. (always)",
+        "c": "I get up at six O’clock. (usually)",
+        "d": "I go to see my uncle as the journey is difficult. (rarely)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Insert the given adverbs in their proper positions in the sentences given below(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I have great pleasures _____ work.",
+        "b": "Hard work has told ____ his health.",
+        "c": "The Principal advised the students to put ____ hard work.",
+        "d": "We prayed____ his success."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks with suitable prepositions.(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "He confessed his guilt (Complex)",
+        "b": "He wished to serve his country (Complex)",
+        "c": "Good boys work hard (Complex)",
+        "d": "Work hard and you will succeed (Complex) (Contd.  3)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Change the following sentences as directed in the bracket(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Their glory can never fade (Interrogative)",
+        "b": "Man is mortal (Interrogative)",
+        "c": "It is a fine weather (exclamatory)",
+        "d": "You are very foolish (exclamatory)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Transform the following sentences as directed in the bracket(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I read the book. I returned it to the library. (participle)",
+        "b": "The farmer jumped on his horse. He rode to the market. (participle)",
+        "c": "It was a small cot. He could not sleep on it.(Absolute construction)",
+        "d": "The president took his seat on the dais. The meeting began. .(Absolute construction)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Combine the following sentences as indicated in the bracket(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Affect / effect",
+        "b": "Accessible / assessable",
+        "c": "Alter / altar",
+        "d": "Principal / principle"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Illustrate the difference between the two words by making sentences.(5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "She is a real good swimmer",
+        "b": "The new student speaks bad.",
+        "c": "After the three week vacation, she looked very well.",
+        "d": "The strawberry shortcake tastes deliciously. (Contd.  4)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Correct the following sentences:(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Immense",
+        "b": "Rare",
+        "c": "Advantage",
+        "d": "Penetrate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": ".Make sentences using the following words:(10×1=10)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

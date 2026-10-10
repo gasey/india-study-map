@@ -1,0 +1,1886 @@
+{
+  "slug": "programmer-phe-2018-english-p1",
+  "exam": "Programmer under PHE Department",
+  "sitting": "July 2018",
+  "subject": "General English Paper-I",
+  "source": "programmer-phe-2018-english-p1.pdf",
+  "sourceSha256": "d3cac5fa03c6944b09f4d5361b5b21d9b22e1e4d82f1923f8a7e08a2f4537376",
+  "ocr": false,
+  "count": 80,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 1 - 8: Read the given passage carefully and choose the correct answer",
+      "opts": {
+        "a": "juveniles",
+        "b": "teenage mothers",
+        "c": "Unwed mothers",
+        "d": "infants and toddlers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The main focus of the passage is on the plight of",
+      "multi": false,
+      "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future."
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 1 - 8: Read the given passage carefully and choose the correct answer",
+      "opts": {
+        "a": "babies deprived of immunization",
+        "b": "more children raised in substandard care",
+        "c": "new born babies with normal weight",
+        "d": "more children raised by single parents"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following does not constitute the ‘quiet crisis’ in the U.S as per the task force report?",
+      "multi": false,
+      "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future."
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 1 - 8: Read the given passage carefully and choose the correct answer",
+      "opts": {
+        "a": "the number of single parent families today is approximately three times more since 1950",
+        "b": "the number of children in the U.S entering foster care has decreased after 1991",
+        "c": "in the U.S the number of infants living in poverty is about 3 millions",
+        "d": "more than 25 per cent of all births are to unwed mothers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not true in the context of the passage?",
+      "multi": false,
+      "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future."
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 1 - 8: Read the given passage carefully and choose the correct answer",
+      "opts": {
+        "a": "protected",
+        "b": "sheltered",
+        "c": "covered",
+        "d": "susceptible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The word **Vulnerable** means",
+      "multi": false,
+      "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future."
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 1 - 8: Read the given passage carefully and choose the correct answer",
+      "opts": {
+        "a": "only A",
+        "b": "A and C",
+        "c": "B and C",
+        "d": "only B"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the factors is/ are responsible for the physical,intellectual and social underdevelopment of infants in the U.S? A. Illiteracy of parents    B. Lack of parental care   C. Poverty",
+      "multi": false,
+      "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future."
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 1 - 8: Read the given passage carefully and choose the correct answer",
+      "opts": {
+        "a": "they are less likely to receive prenatal care",
+        "b": "their parents are mostly poor",
+        "c": "parents are troubled by a sense of guilt",
+        "d": "parents are immature"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Children born out of unplanned pregnancies are highly vulnerable because",
+      "multi": false,
+      "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future."
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 1 - 8: Read the given passage carefully and choose the correct answer",
+      "opts": {
+        "a": "1987-91",
+        "b": "1950 onwards till date",
+        "c": "1987 onwards till date",
+        "d": "1950-91"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The task force report seems to be based on the data pertaining to the period",
+      "multi": false,
+      "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future."
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 1 - 8: Read the given passage carefully and choose the correct answer",
+      "opts": {
+        "a": "babies below one year",
+        "b": "below three years",
+        "c": "between two and three years",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The fastest growing category of children entering foster care are.",
+      "multi": false,
+      "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future."
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the",
+      "opts": {
+        "a": "to listen eagerly",
+        "b": "to give false alarm",
+        "c": "to turn pale",
+        "d": "to cry loudly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "to cry wolf",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the",
+      "opts": {
+        "a": "to have a good height",
+        "b": "to try to be beautiful",
+        "c": "to be honest in any business deal",
+        "d": "to have no debts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "to be above board",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the",
+      "opts": {
+        "a": "to emphasize",
+        "b": "back to original position",
+        "c": "to find one’s root",
+        "d": "to return to place to rest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "to drive home",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the",
+      "opts": {
+        "a": "to arouse interest",
+        "b": "a private end to serve",
+        "c": "to have no result",
+        "d": "to work for both sides"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "to have an axe to grind",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the",
+      "opts": {
+        "a": "to die",
+        "b": "to be angry",
+        "c": "to conclude",
+        "d": "to absolve"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "to kick the bucket",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the",
+      "opts": {
+        "a": "to interrupt one",
+        "b": "to love one",
+        "c": "to criticize one",
+        "d": "to insult one"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "to cut one short",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the",
+      "opts": {
+        "a": "struck by thunder",
+        "b": "a complete surprise",
+        "c": "a flash of lightning",
+        "d": "a piece of bad luck"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "a bolt from the blue",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the",
+      "opts": {
+        "a": "was complicated",
+        "b": "was competitive",
+        "c": "was uncomfortable",
+        "d": "smooth and easy progress"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "was plain sailing",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the",
+      "opts": {
+        "a": "bend down",
+        "b": "kicked off her shoes",
+        "c": "ran off",
+        "d": "rubbed her heels"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "took to her heels",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the",
+      "opts": {
+        "a": "mark the line",
+        "b": "cross the line",
+        "c": "follow the rules",
+        "d": "hit on the toe"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "toe the line",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the",
+      "opts": {
+        "a": "flatter someone",
+        "b": "walk on toes",
+        "c": "tread with toes",
+        "d": "to give offence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "tread on one’s toes",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the",
+      "opts": {
+        "a": "to make a noise",
+        "b": "talk about nothing",
+        "c": "to make a fuss over small matter",
+        "d": "to do nothing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "much ado about nothing",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the",
+      "opts": {
+        "a": "sour apple",
+        "b": "the cause of contention",
+        "c": "a quarrel",
+        "d": "a fight for an apple"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "an apple of discord",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the",
+      "opts": {
+        "a": "make personal quarrels public",
+        "b": "to criticise",
+        "c": "blanket wet in rain",
+        "d": "cold blanket"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "wash dirty linen in public",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the",
+      "opts": {
+        "a": "quarrel with a person",
+        "b": "come in contact with",
+        "c": "rub shoulders of someone",
+        "d": "have a cause to fight"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "rub shoulders with",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the",
+      "opts": {
+        "a": "to run for life",
+        "b": "to feel cold",
+        "c": "to freeze",
+        "d": "to be afraid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "get cold feet",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 25 - 32 : Tick the word which is opposite in meaning to the following",
+      "opts": {
+        "a": "rush",
+        "b": "loiter",
+        "c": "procrastinate",
+        "d": "delay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lags (behind)",
+      "multi": false,
+      "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future. 1. The main focus of the passage is on the plight of (a) juveniles (b) teenage mothers (c) Unwed mothers (d) infants and toddlers 2. Which of the following does not constitute the ‘quiet crisis’ in the U.S as per the task force report? (a) babies deprived of immunization (b) more children raised in substandard care (c) new born babies with normal weight (d) more children raised by single parents 3. Which of the following is not true in the context of the passage? (a) the number of single parent families today is approximately three times more since 1950 (b) the number of children in the U.S entering foster care has decreased after 1991 (c) in the U.S the number of infants living in poverty is about 3 millions (d) more than 25 per cent of all births are to unwed mothers 4. The word Vulnerable means (a) protected (b) sheltered (c) covered (d) susceptible 5. Which of the factors is/ are responsible for the physical,intellectual and social underdevelopment of infants in the U.S? A. Illiteracy of parents B. Lack of parental care C. Poverty (a) only A (b) A and C (c) B and C (d) only B 6. Children born out of unplanned pregnancies are highly vulnerable because (a) they are less likely to receive prenatal care (b) their parents are mostly poor (c) parents are troubled by a sense of guilt (d) parents are immature 7. The task force report seems to be based on the data pertaining to the period (a) 1987-91 (b) 1950 onwards till date (c) 1987 onwards till date (d) 1950-91 8. The fastest growing category of children entering foster care are. (a) babies below one year (b) below three years (c) between two and three years (d) none of these Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the idiomatic phrase given below : 9. to cry wolf (a) to listen eagerly (b) to give false alarm (c) to turn pale (d) to cry loudly 10. to be above board (a) to have a good height (b) to try to be beautiful (c) to be honest in any business deal (d) to have no debts 11. to drive home (a) to emphasize (b) back to original position (c) to find one’s root (d) to return to place to rest 12. to have an axe to grind (a) to arouse interest (b) a private end to serve (c) to have no result (d) to work for both sides 13. to kick the bucket (a) to die (b) to be angry (c) to conclude (d) to absolve 14. to cut one short (a) to interrupt one (b) to love one (c) to criticize one (d) to insult one 15. a bolt from the blue (a) struck by thunder (b) a complete surprise (c) a flash of lightning (d) a piece of bad luck 16. was plain sailing (a) was complicated (b) was competitive (c) was uncomfortable (d) smooth and easy progress 17. took to her heels (a) bend down (b) kicked off her shoes (c) ran off (d) rubbed her heels 18. toe the line (a) mark the line (b) cross the line (c) follow the rules (d) hit on the toe 19. tread on one’s toes (a) flatter someone (b) walk on toes (c) tread with toes (d) to give offence 20. much ado about nothing (a) to make a noise (b) talk about nothing (c) to make a fuss over small matter (d) to do nothing 21. an apple of discord (a) sour apple (b) the cause of contention (c) a quarrel (d) a fight for an apple 22. wash dirty linen in public (a) make personal quarrels public (b) to criticise (c) blanket wet in rain (d) cold blanket 23. rub shoulders with (a) quarrel with a person (b) come in contact with (c) rub shoulders of someone (d) have a cause to fight 24. get cold feet (a) to run for life (b) to feel cold (c) to freeze (d) to be afraid Directions for questions 25 - 32 : Tick the word which is opposite in meaning to the following words taken from the given passage:"
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 25 - 32 : Tick the word which is opposite in meaning to the following",
+      "opts": {
+        "a": "Face",
+        "b": "tolerate",
+        "c": "encounter",
+        "d": "evade"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Confront",
+      "multi": false,
+      "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future. 1. The main focus of the passage is on the plight of (a) juveniles (b) teenage mothers (c) Unwed mothers (d) infants and toddlers 2. Which of the following does not constitute the ‘quiet crisis’ in the U.S as per the task force report? (a) babies deprived of immunization (b) more children raised in substandard care (c) new born babies with normal weight (d) more children raised by single parents 3. Which of the following is not true in the context of the passage? (a) the number of single parent families today is approximately three times more since 1950 (b) the number of children in the U.S entering foster care has decreased after 1991 (c) in the U.S the number of infants living in poverty is about 3 millions (d) more than 25 per cent of all births are to unwed mothers 4. The word Vulnerable means (a) protected (b) sheltered (c) covered (d) susceptible 5. Which of the factors is/ are responsible for the physical,intellectual and social underdevelopment of infants in the U.S? A. Illiteracy of parents B. Lack of parental care C. Poverty (a) only A (b) A and C (c) B and C (d) only B 6. Children born out of unplanned pregnancies are highly vulnerable because (a) they are less likely to receive prenatal care (b) their parents are mostly poor (c) parents are troubled by a sense of guilt (d) parents are immature 7. The task force report seems to be based on the data pertaining to the period (a) 1987-91 (b) 1950 onwards till date (c) 1987 onwards till date (d) 1950-91 8. The fastest growing category of children entering foster care are. (a) babies below one year (b) below three years (c) between two and three years (d) none of these Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the idiomatic phrase given below : 9. to cry wolf (a) to listen eagerly (b) to give false alarm (c) to turn pale (d) to cry loudly 10. to be above board (a) to have a good height (b) to try to be beautiful (c) to be honest in any business deal (d) to have no debts 11. to drive home (a) to emphasize (b) back to original position (c) to find one’s root (d) to return to place to rest 12. to have an axe to grind (a) to arouse interest (b) a private end to serve (c) to have no result (d) to work for both sides 13. to kick the bucket (a) to die (b) to be angry (c) to conclude (d) to absolve 14. to cut one short (a) to interrupt one (b) to love one (c) to criticize one (d) to insult one 15. a bolt from the blue (a) struck by thunder (b) a complete surprise (c) a flash of lightning (d) a piece of bad luck 16. was plain sailing (a) was complicated (b) was competitive (c) was uncomfortable (d) smooth and easy progress 17. took to her heels (a) bend down (b) kicked off her shoes (c) ran off (d) rubbed her heels 18. toe the line (a) mark the line (b) cross the line (c) follow the rules (d) hit on the toe 19. tread on one’s toes (a) flatter someone (b) walk on toes (c) tread with toes (d) to give offence 20. much ado about nothing (a) to make a noise (b) talk about nothing (c) to make a fuss over small matter (d) to do nothing 21. an apple of discord (a) sour apple (b) the cause of contention (c) a quarrel (d) a fight for an apple 22. wash dirty linen in public (a) make personal quarrels public (b) to criticise (c) blanket wet in rain (d) cold blanket 23. rub shoulders with (a) quarrel with a person (b) come in contact with (c) rub shoulders of someone (d) have a cause to fight 24. get cold feet (a) to run for life (b) to feel cold (c) to freeze (d) to be afraid Directions for questions 25 - 32 : Tick the word which is opposite in meaning to the following words taken from the given passage:"
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 25 - 32 : Tick the word which is opposite in meaning to the following",
+      "opts": {
+        "a": "repress",
+        "b": "expand",
+        "c": "thrive",
+        "d": "embellish"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "develop",
+      "multi": false,
+      "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future. 1. The main focus of the passage is on the plight of (a) juveniles (b) teenage mothers (c) Unwed mothers (d) infants and toddlers 2. Which of the following does not constitute the ‘quiet crisis’ in the U.S as per the task force report? (a) babies deprived of immunization (b) more children raised in substandard care (c) new born babies with normal weight (d) more children raised by single parents 3. Which of the following is not true in the context of the passage? (a) the number of single parent families today is approximately three times more since 1950 (b) the number of children in the U.S entering foster care has decreased after 1991 (c) in the U.S the number of infants living in poverty is about 3 millions (d) more than 25 per cent of all births are to unwed mothers 4. The word Vulnerable means (a) protected (b) sheltered (c) covered (d) susceptible 5. Which of the factors is/ are responsible for the physical,intellectual and social underdevelopment of infants in the U.S? A. Illiteracy of parents B. Lack of parental care C. Poverty (a) only A (b) A and C (c) B and C (d) only B 6. Children born out of unplanned pregnancies are highly vulnerable because (a) they are less likely to receive prenatal care (b) their parents are mostly poor (c) parents are troubled by a sense of guilt (d) parents are immature 7. The task force report seems to be based on the data pertaining to the period (a) 1987-91 (b) 1950 onwards till date (c) 1987 onwards till date (d) 1950-91 8. The fastest growing category of children entering foster care are. (a) babies below one year (b) below three years (c) between two and three years (d) none of these Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the idiomatic phrase given below : 9. to cry wolf (a) to listen eagerly (b) to give false alarm (c) to turn pale (d) to cry loudly 10. to be above board (a) to have a good height (b) to try to be beautiful (c) to be honest in any business deal (d) to have no debts 11. to drive home (a) to emphasize (b) back to original position (c) to find one’s root (d) to return to place to rest 12. to have an axe to grind (a) to arouse interest (b) a private end to serve (c) to have no result (d) to work for both sides 13. to kick the bucket (a) to die (b) to be angry (c) to conclude (d) to absolve 14. to cut one short (a) to interrupt one (b) to love one (c) to criticize one (d) to insult one 15. a bolt from the blue (a) struck by thunder (b) a complete surprise (c) a flash of lightning (d) a piece of bad luck 16. was plain sailing (a) was complicated (b) was competitive (c) was uncomfortable (d) smooth and easy progress 17. took to her heels (a) bend down (b) kicked off her shoes (c) ran off (d) rubbed her heels 18. toe the line (a) mark the line (b) cross the line (c) follow the rules (d) hit on the toe 19. tread on one’s toes (a) flatter someone (b) walk on toes (c) tread with toes (d) to give offence 20. much ado about nothing (a) to make a noise (b) talk about nothing (c) to make a fuss over small matter (d) to do nothing 21. an apple of discord (a) sour apple (b) the cause of contention (c) a quarrel (d) a fight for an apple 22. wash dirty linen in public (a) make personal quarrels public (b) to criticise (c) blanket wet in rain (d) cold blanket 23. rub shoulders with (a) quarrel with a person (b) come in contact with (c) rub shoulders of someone (d) have a cause to fight 24. get cold feet (a) to run for life (b) to feel cold (c) to freeze (d) to be afraid Directions for questions 25 - 32 : Tick the word which is opposite in meaning to the following words taken from the given passage:"
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 25 - 32 : Tick the word which is opposite in meaning to the following",
+      "opts": {
+        "a": "oppose",
+        "b": "invert",
+        "c": "to advance",
+        "d": "setback"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "reverse",
+      "multi": false,
+      "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future. 1. The main focus of the passage is on the plight of (a) juveniles (b) teenage mothers (c) Unwed mothers (d) infants and toddlers 2. Which of the following does not constitute the ‘quiet crisis’ in the U.S as per the task force report? (a) babies deprived of immunization (b) more children raised in substandard care (c) new born babies with normal weight (d) more children raised by single parents 3. Which of the following is not true in the context of the passage? (a) the number of single parent families today is approximately three times more since 1950 (b) the number of children in the U.S entering foster care has decreased after 1991 (c) in the U.S the number of infants living in poverty is about 3 millions (d) more than 25 per cent of all births are to unwed mothers 4. The word Vulnerable means (a) protected (b) sheltered (c) covered (d) susceptible 5. Which of the factors is/ are responsible for the physical,intellectual and social underdevelopment of infants in the U.S? A. Illiteracy of parents B. Lack of parental care C. Poverty (a) only A (b) A and C (c) B and C (d) only B 6. Children born out of unplanned pregnancies are highly vulnerable because (a) they are less likely to receive prenatal care (b) their parents are mostly poor (c) parents are troubled by a sense of guilt (d) parents are immature 7. The task force report seems to be based on the data pertaining to the period (a) 1987-91 (b) 1950 onwards till date (c) 1987 onwards till date (d) 1950-91 8. The fastest growing category of children entering foster care are. (a) babies below one year (b) below three years (c) between two and three years (d) none of these Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the idiomatic phrase given below : 9. to cry wolf (a) to listen eagerly (b) to give false alarm (c) to turn pale (d) to cry loudly 10. to be above board (a) to have a good height (b) to try to be beautiful (c) to be honest in any business deal (d) to have no debts 11. to drive home (a) to emphasize (b) back to original position (c) to find one’s root (d) to return to place to rest 12. to have an axe to grind (a) to arouse interest (b) a private end to serve (c) to have no result (d) to work for both sides 13. to kick the bucket (a) to die (b) to be angry (c) to conclude (d) to absolve 14. to cut one short (a) to interrupt one (b) to love one (c) to criticize one (d) to insult one 15. a bolt from the blue (a) struck by thunder (b) a complete surprise (c) a flash of lightning (d) a piece of bad luck 16. was plain sailing (a) was complicated (b) was competitive (c) was uncomfortable (d) smooth and easy progress 17. took to her heels (a) bend down (b) kicked off her shoes (c) ran off (d) rubbed her heels 18. toe the line (a) mark the line (b) cross the line (c) follow the rules (d) hit on the toe 19. tread on one’s toes (a) flatter someone (b) walk on toes (c) tread with toes (d) to give offence 20. much ado about nothing (a) to make a noise (b) talk about nothing (c) to make a fuss over small matter (d) to do nothing 21. an apple of discord (a) sour apple (b) the cause of contention (c) a quarrel (d) a fight for an apple 22. wash dirty linen in public (a) make personal quarrels public (b) to criticise (c) blanket wet in rain (d) cold blanket 23. rub shoulders with (a) quarrel with a person (b) come in contact with (c) rub shoulders of someone (d) have a cause to fight 24. get cold feet (a) to run for life (b) to feel cold (c) to freeze (d) to be afraid Directions for questions 25 - 32 : Tick the word which is opposite in meaning to the following words taken from the given passage:"
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 25 - 32 : Tick the word which is opposite in meaning to the following",
+      "opts": {
+        "a": "changing",
+        "b": "stagnant",
+        "c": "unsteady",
+        "d": "unreliable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Unstable",
+      "multi": false,
+      "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future. 1. The main focus of the passage is on the plight of (a) juveniles (b) teenage mothers (c) Unwed mothers (d) infants and toddlers 2. Which of the following does not constitute the ‘quiet crisis’ in the U.S as per the task force report? (a) babies deprived of immunization (b) more children raised in substandard care (c) new born babies with normal weight (d) more children raised by single parents 3. Which of the following is not true in the context of the passage? (a) the number of single parent families today is approximately three times more since 1950 (b) the number of children in the U.S entering foster care has decreased after 1991 (c) in the U.S the number of infants living in poverty is about 3 millions (d) more than 25 per cent of all births are to unwed mothers 4. The word Vulnerable means (a) protected (b) sheltered (c) covered (d) susceptible 5. Which of the factors is/ are responsible for the physical,intellectual and social underdevelopment of infants in the U.S? A. Illiteracy of parents B. Lack of parental care C. Poverty (a) only A (b) A and C (c) B and C (d) only B 6. Children born out of unplanned pregnancies are highly vulnerable because (a) they are less likely to receive prenatal care (b) their parents are mostly poor (c) parents are troubled by a sense of guilt (d) parents are immature 7. The task force report seems to be based on the data pertaining to the period (a) 1987-91 (b) 1950 onwards till date (c) 1987 onwards till date (d) 1950-91 8. The fastest growing category of children entering foster care are. (a) babies below one year (b) below three years (c) between two and three years (d) none of these Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the idiomatic phrase given below : 9. to cry wolf (a) to listen eagerly (b) to give false alarm (c) to turn pale (d) to cry loudly 10. to be above board (a) to have a good height (b) to try to be beautiful (c) to be honest in any business deal (d) to have no debts 11. to drive home (a) to emphasize (b) back to original position (c) to find one’s root (d) to return to place to rest 12. to have an axe to grind (a) to arouse interest (b) a private end to serve (c) to have no result (d) to work for both sides 13. to kick the bucket (a) to die (b) to be angry (c) to conclude (d) to absolve 14. to cut one short (a) to interrupt one (b) to love one (c) to criticize one (d) to insult one 15. a bolt from the blue (a) struck by thunder (b) a complete surprise (c) a flash of lightning (d) a piece of bad luck 16. was plain sailing (a) was complicated (b) was competitive (c) was uncomfortable (d) smooth and easy progress 17. took to her heels (a) bend down (b) kicked off her shoes (c) ran off (d) rubbed her heels 18. toe the line (a) mark the line (b) cross the line (c) follow the rules (d) hit on the toe 19. tread on one’s toes (a) flatter someone (b) walk on toes (c) tread with toes (d) to give offence 20. much ado about nothing (a) to make a noise (b) talk about nothing (c) to make a fuss over small matter (d) to do nothing 21. an apple of discord (a) sour apple (b) the cause of contention (c) a quarrel (d) a fight for an apple 22. wash dirty linen in public (a) make personal quarrels public (b) to criticise (c) blanket wet in rain (d) cold blanket 23. rub shoulders with (a) quarrel with a person (b) come in contact with (c) rub shoulders of someone (d) have a cause to fight 24. get cold feet (a) to run for life (b) to feel cold (c) to freeze (d) to be afraid Directions for questions 25 - 32 : Tick the word which is opposite in meaning to the following words taken from the given passage:"
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 25 - 32 : Tick the word which is opposite in meaning to the following",
+      "opts": {
+        "a": "hitting violently",
+        "b": "ill-treating",
+        "c": "acclaiming",
+        "d": "opressing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Abusing",
+      "multi": false,
+      "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future. 1. The main focus of the passage is on the plight of (a) juveniles (b) teenage mothers (c) Unwed mothers (d) infants and toddlers 2. Which of the following does not constitute the ‘quiet crisis’ in the U.S as per the task force report? (a) babies deprived of immunization (b) more children raised in substandard care (c) new born babies with normal weight (d) more children raised by single parents 3. Which of the following is not true in the context of the passage? (a) the number of single parent families today is approximately three times more since 1950 (b) the number of children in the U.S entering foster care has decreased after 1991 (c) in the U.S the number of infants living in poverty is about 3 millions (d) more than 25 per cent of all births are to unwed mothers 4. The word Vulnerable means (a) protected (b) sheltered (c) covered (d) susceptible 5. Which of the factors is/ are responsible for the physical,intellectual and social underdevelopment of infants in the U.S? A. Illiteracy of parents B. Lack of parental care C. Poverty (a) only A (b) A and C (c) B and C (d) only B 6. Children born out of unplanned pregnancies are highly vulnerable because (a) they are less likely to receive prenatal care (b) their parents are mostly poor (c) parents are troubled by a sense of guilt (d) parents are immature 7. The task force report seems to be based on the data pertaining to the period (a) 1987-91 (b) 1950 onwards till date (c) 1987 onwards till date (d) 1950-91 8. The fastest growing category of children entering foster care are. (a) babies below one year (b) below three years (c) between two and three years (d) none of these Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the idiomatic phrase given below : 9. to cry wolf (a) to listen eagerly (b) to give false alarm (c) to turn pale (d) to cry loudly 10. to be above board (a) to have a good height (b) to try to be beautiful (c) to be honest in any business deal (d) to have no debts 11. to drive home (a) to emphasize (b) back to original position (c) to find one’s root (d) to return to place to rest 12. to have an axe to grind (a) to arouse interest (b) a private end to serve (c) to have no result (d) to work for both sides 13. to kick the bucket (a) to die (b) to be angry (c) to conclude (d) to absolve 14. to cut one short (a) to interrupt one (b) to love one (c) to criticize one (d) to insult one 15. a bolt from the blue (a) struck by thunder (b) a complete surprise (c) a flash of lightning (d) a piece of bad luck 16. was plain sailing (a) was complicated (b) was competitive (c) was uncomfortable (d) smooth and easy progress 17. took to her heels (a) bend down (b) kicked off her shoes (c) ran off (d) rubbed her heels 18. toe the line (a) mark the line (b) cross the line (c) follow the rules (d) hit on the toe 19. tread on one’s toes (a) flatter someone (b) walk on toes (c) tread with toes (d) to give offence 20. much ado about nothing (a) to make a noise (b) talk about nothing (c) to make a fuss over small matter (d) to do nothing 21. an apple of discord (a) sour apple (b) the cause of contention (c) a quarrel (d) a fight for an apple 22. wash dirty linen in public (a) make personal quarrels public (b) to criticise (c) blanket wet in rain (d) cold blanket 23. rub shoulders with (a) quarrel with a person (b) come in contact with (c) rub shoulders of someone (d) have a cause to fight 24. get cold feet (a) to run for life (b) to feel cold (c) to freeze (d) to be afraid Directions for questions 25 - 32 : Tick the word which is opposite in meaning to the following words taken from the given passage:"
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 25 - 32 : Tick the word which is opposite in meaning to the following",
+      "opts": {
+        "a": "catastrophe",
+        "b": "dilemma",
+        "c": "trial",
+        "d": "calm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Crisis",
+      "multi": false,
+      "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future. 1. The main focus of the passage is on the plight of (a) juveniles (b) teenage mothers (c) Unwed mothers (d) infants and toddlers 2. Which of the following does not constitute the ‘quiet crisis’ in the U.S as per the task force report? (a) babies deprived of immunization (b) more children raised in substandard care (c) new born babies with normal weight (d) more children raised by single parents 3. Which of the following is not true in the context of the passage? (a) the number of single parent families today is approximately three times more since 1950 (b) the number of children in the U.S entering foster care has decreased after 1991 (c) in the U.S the number of infants living in poverty is about 3 millions (d) more than 25 per cent of all births are to unwed mothers 4. The word Vulnerable means (a) protected (b) sheltered (c) covered (d) susceptible 5. Which of the factors is/ are responsible for the physical,intellectual and social underdevelopment of infants in the U.S? A. Illiteracy of parents B. Lack of parental care C. Poverty (a) only A (b) A and C (c) B and C (d) only B 6. Children born out of unplanned pregnancies are highly vulnerable because (a) they are less likely to receive prenatal care (b) their parents are mostly poor (c) parents are troubled by a sense of guilt (d) parents are immature 7. The task force report seems to be based on the data pertaining to the period (a) 1987-91 (b) 1950 onwards till date (c) 1987 onwards till date (d) 1950-91 8. The fastest growing category of children entering foster care are. (a) babies below one year (b) below three years (c) between two and three years (d) none of these Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the idiomatic phrase given below : 9. to cry wolf (a) to listen eagerly (b) to give false alarm (c) to turn pale (d) to cry loudly 10. to be above board (a) to have a good height (b) to try to be beautiful (c) to be honest in any business deal (d) to have no debts 11. to drive home (a) to emphasize (b) back to original position (c) to find one’s root (d) to return to place to rest 12. to have an axe to grind (a) to arouse interest (b) a private end to serve (c) to have no result (d) to work for both sides 13. to kick the bucket (a) to die (b) to be angry (c) to conclude (d) to absolve 14. to cut one short (a) to interrupt one (b) to love one (c) to criticize one (d) to insult one 15. a bolt from the blue (a) struck by thunder (b) a complete surprise (c) a flash of lightning (d) a piece of bad luck 16. was plain sailing (a) was complicated (b) was competitive (c) was uncomfortable (d) smooth and easy progress 17. took to her heels (a) bend down (b) kicked off her shoes (c) ran off (d) rubbed her heels 18. toe the line (a) mark the line (b) cross the line (c) follow the rules (d) hit on the toe 19. tread on one’s toes (a) flatter someone (b) walk on toes (c) tread with toes (d) to give offence 20. much ado about nothing (a) to make a noise (b) talk about nothing (c) to make a fuss over small matter (d) to do nothing 21. an apple of discord (a) sour apple (b) the cause of contention (c) a quarrel (d) a fight for an apple 22. wash dirty linen in public (a) make personal quarrels public (b) to criticise (c) blanket wet in rain (d) cold blanket 23. rub shoulders with (a) quarrel with a person (b) come in contact with (c) rub shoulders of someone (d) have a cause to fight 24. get cold feet (a) to run for life (b) to feel cold (c) to freeze (d) to be afraid Directions for questions 25 - 32 : Tick the word which is opposite in meaning to the following words taken from the given passage:"
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 25 - 32 : Tick the word which is opposite in meaning to the following",
+      "opts": {
+        "a": "drastically",
+        "b": "intensely",
+        "c": "normally",
+        "d": "slightly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Severely",
+      "multi": false,
+      "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future. 1. The main focus of the passage is on the plight of (a) juveniles (b) teenage mothers (c) Unwed mothers (d) infants and toddlers 2. Which of the following does not constitute the ‘quiet crisis’ in the U.S as per the task force report? (a) babies deprived of immunization (b) more children raised in substandard care (c) new born babies with normal weight (d) more children raised by single parents 3. Which of the following is not true in the context of the passage? (a) the number of single parent families today is approximately three times more since 1950 (b) the number of children in the U.S entering foster care has decreased after 1991 (c) in the U.S the number of infants living in poverty is about 3 millions (d) more than 25 per cent of all births are to unwed mothers 4. The word Vulnerable means (a) protected (b) sheltered (c) covered (d) susceptible 5. Which of the factors is/ are responsible for the physical,intellectual and social underdevelopment of infants in the U.S? A. Illiteracy of parents B. Lack of parental care C. Poverty (a) only A (b) A and C (c) B and C (d) only B 6. Children born out of unplanned pregnancies are highly vulnerable because (a) they are less likely to receive prenatal care (b) their parents are mostly poor (c) parents are troubled by a sense of guilt (d) parents are immature 7. The task force report seems to be based on the data pertaining to the period (a) 1987-91 (b) 1950 onwards till date (c) 1987 onwards till date (d) 1950-91 8. The fastest growing category of children entering foster care are. (a) babies below one year (b) below three years (c) between two and three years (d) none of these Direction for questions 9 - 24 : Choose the alternative that best expresses the meaning of the idiomatic phrase given below : 9. to cry wolf (a) to listen eagerly (b) to give false alarm (c) to turn pale (d) to cry loudly 10. to be above board (a) to have a good height (b) to try to be beautiful (c) to be honest in any business deal (d) to have no debts 11. to drive home (a) to emphasize (b) back to original position (c) to find one’s root (d) to return to place to rest 12. to have an axe to grind (a) to arouse interest (b) a private end to serve (c) to have no result (d) to work for both sides 13. to kick the bucket (a) to die (b) to be angry (c) to conclude (d) to absolve 14. to cut one short (a) to interrupt one (b) to love one (c) to criticize one (d) to insult one 15. a bolt from the blue (a) struck by thunder (b) a complete surprise (c) a flash of lightning (d) a piece of bad luck 16. was plain sailing (a) was complicated (b) was competitive (c) was uncomfortable (d) smooth and easy progress 17. took to her heels (a) bend down (b) kicked off her shoes (c) ran off (d) rubbed her heels 18. toe the line (a) mark the line (b) cross the line (c) follow the rules (d) hit on the toe 19. tread on one’s toes (a) flatter someone (b) walk on toes (c) tread with toes (d) to give offence 20. much ado about nothing (a) to make a noise (b) talk about nothing (c) to make a fuss over small matter (d) to do nothing 21. an apple of discord (a) sour apple (b) the cause of contention (c) a quarrel (d) a fight for an apple 22. wash dirty linen in public (a) make personal quarrels public (b) to criticise (c) blanket wet in rain (d) cold blanket 23. rub shoulders with (a) quarrel with a person (b) come in contact with (c) rub shoulders of someone (d) have a cause to fight 24. get cold feet (a) to run for life (b) to feel cold (c) to freeze (d) to be afraid Directions for questions 25 - 32 : Tick the word which is opposite in meaning to the following words taken from the given passage:"
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 33 - 40 :  Identify the part of speech of the words underlined:",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We **usually** eat our breakfast at eight.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q033.webp"
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 33 - 40 :  Identify the part of speech of the words underlined:",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I believe in his **Innocence**",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q034.webp"
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 33 - 40 :  Identify the part of speech of the words underlined:",
+      "opts": {
+        "a": "Verb",
+        "b": "Adverb",
+        "c": "Adjective",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The tiger pounced **upon** the injured deer.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q035.webp"
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 33 - 40 :  Identify the part of speech of the words underlined:",
+      "opts": {
+        "a": "Verb",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Our team has won the **match**.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q036.webp"
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 33 - 40 :  Identify the part of speech of the words underlined:",
+      "opts": {
+        "a": "Verb",
+        "b": "Adverb",
+        "c": "Preposition",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He said he was sorry **and** I believed him.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q037.webp"
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 33 - 40 :  Identify the part of speech of the words underlined:",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He spoke loud **enough** to be heard",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q038.webp"
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 33 - 40 :  Identify the part of speech of the words underlined:",
+      "opts": {
+        "a": "Verb",
+        "b": "Adverb",
+        "c": "Adjective",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He could rise to his stature because of his **invincible** courage",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q039.webp"
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 33 - 40 :  Identify the part of speech of the words underlined:",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Interjection",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Alas!** the wicked minister was overthrown.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q040.webp"
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 41 - 48 :  Fill in the blanks with the correct prepositions:",
+      "opts": {
+        "a": "for",
+        "b": "to",
+        "c": "of",
+        "d": "upon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the long run,drinking proved fatal both ________ his reputation and health.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 41 - 48 :  Fill in the blanks with the correct prepositions:",
+      "opts": {
+        "a": "for",
+        "b": "at",
+        "c": "with",
+        "d": "upon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Encouraged by the success of his ventures he has decided to embark ________ the expansion programme.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 41 - 48 :  Fill in the blanks with the correct prepositions:",
+      "opts": {
+        "a": "at",
+        "b": "to",
+        "c": "on",
+        "d": "of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was vexed ________ the belated reply from his son .",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 41 - 48 :  Fill in the blanks with the correct prepositions:",
+      "opts": {
+        "a": "for",
+        "b": "by",
+        "c": "to",
+        "d": "at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The visit of the P.M has been advanced ________ two days.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 41 - 48 :  Fill in the blanks with the correct prepositions:",
+      "opts": {
+        "a": "of",
+        "b": "on",
+        "c": "to",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rich are not inured ________ manual labour.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 41 - 48 :  Fill in the blanks with the correct prepositions:",
+      "opts": {
+        "a": "on",
+        "b": "in",
+        "c": "for",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indians have pinned their hopes ________ the emergence of some superman.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 41 - 48 :  Fill in the blanks with the correct prepositions:",
+      "opts": {
+        "a": "out",
+        "b": "up",
+        "c": "down",
+        "d": "away"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His professional ability and skill proves that he is cut ________ for this job.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 41 - 48 :  Fill in the blanks with the correct prepositions:",
+      "opts": {
+        "a": "in",
+        "b": "into",
+        "c": "of",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To my surprise even well to do persons have no scruples ________ cheating others.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 49 - 58 :  Identify whether the following are simple compound or complex",
+      "opts": {
+        "a": "Simple",
+        "b": "Compound",
+        "c": "Complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do as I tell you,or you will regret it.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 49 - 58 :  Identify whether the following are simple compound or complex",
+      "opts": {
+        "a": "Simple",
+        "b": "Compound",
+        "c": "Complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is buried near Rome and myrtles grow round his grave.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 49 - 58 :  Identify whether the following are simple compound or complex",
+      "opts": {
+        "a": "Simple",
+        "b": "Compound",
+        "c": "Complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "He must work very hard to make up for the lost time.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 49 - 58 :  Identify whether the following are simple compound or complex",
+      "opts": {
+        "a": "Simple",
+        "b": "Compound",
+        "c": "Complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "He worked hard so that he might win the prize.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 49 - 58 :  Identify whether the following are simple compound or complex",
+      "opts": {
+        "a": "Simple",
+        "b": "Compound",
+        "c": "Complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The teacher punished the boy for disobedience.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 49 - 58 :  Identify whether the following are simple compound or complex",
+      "opts": {
+        "a": "Simple",
+        "b": "Compound",
+        "c": "Complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "If you do not hurry you will miss the train.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 49 - 58 :  Identify whether the following are simple compound or complex",
+      "opts": {
+        "a": "Simple",
+        "b": "Compound",
+        "c": "Complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was a mere boy but he offered to fight the giant.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 49 - 58 :  Identify whether the following are simple compound or complex",
+      "opts": {
+        "a": "Simple",
+        "b": "Compound",
+        "c": "Complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "He bought the library which belonged to his uncle.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 49 - 58 :  Identify whether the following are simple compound or complex",
+      "opts": {
+        "a": "Simple",
+        "b": "Compound",
+        "c": "Complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ship will leave as soon as the mails arrive.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 49 - 58 :  Identify whether the following are simple compound or complex",
+      "opts": {
+        "a": "Simple",
+        "b": "Compound",
+        "c": "Complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "He owed his success to his father.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 59 - 64 :  Choose the correct sentence type.",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Negative",
+        "c": "Interrogative",
+        "d": "Assertive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There is no smoke without fire.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 59 - 64 :  Choose the correct sentence type.",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Negative",
+        "c": "Interrogative",
+        "d": "Imperative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Every rose has a thorn.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 59 - 64 :  Choose the correct sentence type.",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Exclamatory",
+        "c": "Interrogative",
+        "d": "Imperative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What a piece of work is man!",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 59 - 64 :  Choose the correct sentence type.",
+      "opts": {
+        "a": "Emphatic",
+        "b": "Exclamatory",
+        "c": "Interrogative",
+        "d": "Imperative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Open the door and leave.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 59 - 64 :  Choose the correct sentence type.",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Negative",
+        "c": "Interrogative",
+        "d": "Assertive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Can you fix this car?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 59 - 64 :  Choose the correct sentence type.",
+      "opts": {
+        "a": "Imperative",
+        "b": "Negative",
+        "c": "Interrogative",
+        "d": "Assertive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is shocking that such a man is my husband",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 65 - 72 :  Choose the most suitable alternative to fill in the blanks :",
+      "opts": {
+        "a": "officious",
+        "b": "fortuitous",
+        "c": "prosperous",
+        "d": "auspicious"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On the ________ occasion of laxmi Puja the Mathurs bought a new car.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 65 - 72 :  Choose the most suitable alternative to fill in the blanks :",
+      "opts": {
+        "a": "hindered",
+        "b": "retained",
+        "c": "blocked",
+        "d": "detained"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A trader was ________ at the city airport early on Sunday morning for carrying gold jewellery worth over 3 crores.",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 65 - 72 :  Choose the most suitable alternative to fill in the blanks :",
+      "opts": {
+        "a": "elated",
+        "b": "sullen",
+        "c": "discreet",
+        "d": "suspicious"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The child was so spoiled by her indulgent parents that she became ________ when she did not receive all of their attention",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 65 - 72 :  Choose the most suitable alternative to fill in the blanks :",
+      "opts": {
+        "a": "expletive",
+        "b": "explicit",
+        "c": "implicate",
+        "d": "implicit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His direction to the driver were ________ and helped him to reach on time.",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 65 - 72 :  Choose the most suitable alternative to fill in the blanks :",
+      "opts": {
+        "a": "redo",
+        "b": "review",
+        "c": "remake",
+        "d": "reappear"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He decided to ________ his matric examination in order to get higher score.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 65 - 72 :  Choose the most suitable alternative to fill in the blanks :",
+      "opts": {
+        "a": "jubilant",
+        "b": "troublesome",
+        "c": "noisy",
+        "d": "arrogant"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ________ crowd gave the victorious team a tumultuous welcome",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 65 - 72 :  Choose the most suitable alternative to fill in the blanks :",
+      "opts": {
+        "a": "contribute",
+        "b": "summon",
+        "c": "impart",
+        "d": "render"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We must ________ help to the people hit by the cyclone",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 65 - 72 :  Choose the most suitable alternative to fill in the blanks :",
+      "opts": {
+        "a": "put off",
+        "b": "put away",
+        "c": "put back",
+        "d": "put down"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The peasant rebellion ________ with a high hand by the Emperor",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 73 - 80 :  Choose the alternative that is nearest in meaning to the",
+      "opts": {
+        "a": "overt",
+        "b": "secret",
+        "c": "honest",
+        "d": "watchful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Furtive** glances were exchanged between the lovers at the feast.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q073.webp"
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 73 - 80 :  Choose the alternative that is nearest in meaning to the",
+      "opts": {
+        "a": "sad",
+        "b": "gloomy",
+        "c": "patient",
+        "d": "thoughtful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is not seen even smiling these days ;she is rather **pensive**",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q074.webp"
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 73 - 80 :  Choose the alternative that is nearest in meaning to the",
+      "opts": {
+        "a": "inclination",
+        "b": "art",
+        "c": "strength",
+        "d": "desire"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mary always had a **penchant** for antique furniture",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q075.webp"
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 73 - 80 :  Choose the alternative that is nearest in meaning to the",
+      "opts": {
+        "a": "abundance",
+        "b": "scarcity",
+        "c": "excess",
+        "d": "possibility"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On account of the **paucity** of the funds, work has remained suspended",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q076.webp"
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 73 - 80 :  Choose the alternative that is nearest in meaning to the",
+      "opts": {
+        "a": "exhausted",
+        "b": "hungry",
+        "c": "relaxed",
+        "d": "famous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "After he came back from his evening walk,he felt **famished**",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q077.webp"
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 73 - 80 :  Choose the alternative that is nearest in meaning to the",
+      "opts": {
+        "a": "praise",
+        "b": "commendation",
+        "c": "reward",
+        "d": "rebuke"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Such conduct deserves **reprimand.**",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q078.webp"
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 73 - 80 :  Choose the alternative that is nearest in meaning to the",
+      "opts": {
+        "a": "despite",
+        "b": "period of relief",
+        "c": "sorrow",
+        "d": "calamity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The early monsoons have brought **respite** to the people.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q079.webp"
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for questions 73 - 80 :  Choose the alternative that is nearest in meaning to the",
+      "opts": {
+        "a": "similar",
+        "b": "encouraging",
+        "c": "different",
+        "d": "strange"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The five experiments gave **disparate** results",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q080.webp"
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on **any 1 (one)** of the given topics:(20)",
+      "subparts": {
+        "a": "Freedom of the  press",
+        "b": "Skilling the youth of Mizoram",
+        "c": "Conservation of natural resources."
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 3 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/25d5405d28f4fa769cce8f7517ca108a/general-english-paper-i-prog.pdf",
+  "enrichmentVersion": 3,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

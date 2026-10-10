@@ -1,0 +1,1702 @@
+{
+  "slug": "dso-2019-gs2",
+  "exam": "Deputy Store Officer under Home Department",
+  "sitting": "2019",
+  "subject": "General Studies Paper-II",
+  "source": "General Studies Paper-II (DSO).pdf",
+  "sourceSha256": "4e670ec4fc0fa02d38a3b02d83237967eda684e729c3bd44efeadda5cc2c3ef7",
+  "ocr": false,
+  "count": 73,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Riyadh, Saudi Arabia",
+        "b": "Buenos Aires, Argentina",
+        "c": "Osaka, Japan",
+        "d": "Beijing, China"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where was the G 20 (Group of 20) Summit 2019 held?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Simona Haleb",
+        "b": "Serena Williams",
+        "c": "Anglelique Kerber",
+        "d": "Naomi Osaka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who topped in the 2019 Forbes magazine’s highest paid women in sports list?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arunachal Pradesh, Andhra Pradesh, Maharashtra, Gujarat.",
+        "b": "Telengana, Andhra Pradesh, Maharashtra, Gujarat",
+        "c": "Kerala, Andhra Pradesh, Maharashtra, Gujarat.",
+        "d": "Kerala, Andhra Pradesh, Maharashtra, Karnataka."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which four states, ‘One Nation One Ration Card’ scheme was launched in order to boost the National Food Security?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ayushmann Khurrana, Vicky Kaushal",
+        "b": "Amir Khan, Ranveer Singh",
+        "c": "Rajkumar Rao, Hrithik Rosan",
+        "d": "Salman Khan, Ranbir Kapoor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who won the Best Actor Award at the 66th National Film Awards?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Guwahati",
+        "b": "Shillong",
+        "c": "Aizawl",
+        "d": "Imphal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 3rd edition of Khelo India Youth Games (KIYG-2020) is scheduled to be held in which city?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bangkok",
+        "b": "Delhi",
+        "c": "Yangon",
+        "d": "Islamabad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 52nd ASEAN Foreign Ministers’ meeting (AMM-52) has taken place in which city?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kolkata",
+        "b": "Varanasi",
+        "c": "Guwahati",
+        "d": "Mumbai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where will the India’s first underwater train project is set to launch?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lucknow",
+        "b": "Indore",
+        "c": "Jaipur",
+        "d": "Mohali"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s First 3-D Smart Traffic signal ‘Intelights’ has launched in which city?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Girish Karnad",
+        "b": "V.Shekhara",
+        "c": "S.Jaipal Reddy",
+        "d": "A.Vasan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name the former Union minister who died in Hyderabad in July 2019?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NK Gupta",
+        "b": "GC Murmu",
+        "c": "A.Chakraborty",
+        "d": "Rajiv Kumar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has been appointed the new Finance Secretary of India?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vodafone Idea Limited",
+        "b": "BSNL",
+        "c": "Reliance Jio",
+        "d": "Bharti Airtel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which company has become India’s largest Telecom Company in terms of operating revenue?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30 decibels",
+        "b": "100 decibels",
+        "c": "85 decibels",
+        "d": "55 decibels"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Noise levels in residential areas should not exceed:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Canada",
+        "b": "Russia",
+        "c": "USA",
+        "d": "Switzerland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which European country has three official languages?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CO2",
+        "b": "CO",
+        "c": "SO2",
+        "d": "CH4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following gases is responsible for Acid rain?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Durand Line",
+        "b": "MacMohan Line",
+        "c": "Radcliff Line",
+        "d": "Maginot Line"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The line demarcating the boundary between India and Pakistan is:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tooth paste",
+        "b": "Toilet soups",
+        "c": "Tyres",
+        "d": "Booth Polishs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ceat is associated with:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Football",
+        "b": "Weightlifting",
+        "c": "Boxing",
+        "d": "Basketball"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Jacob Vanlaltluanga is associated to which sports?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Equinox",
+        "b": "Occluded",
+        "c": "Veering",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When days and nights are of equal length on sept.23, this position is known as:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gujarat",
+        "b": "Bihar",
+        "c": "Odisha",
+        "d": "Punjab"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where is the GIFT city located?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lung",
+        "b": "Spleen",
+        "c": "Liver",
+        "d": "Kidney"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The organ of the body which is mainly damaged in hepatitis is:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 31",
+        "b": "Article 32",
+        "c": "Article 33",
+        "d": "Article 34"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under which article of the constitution of India, a citizen can go to the supreme court for the enforcement of his fundamental Rights?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "35 kgs",
+        "b": "100 kgs",
+        "c": "30 kgs",
+        "d": "Zero"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A man weighting 65 kgs jumps from a 100 ft. high building with a load of 35 kgs. What will be the load experienced by him?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Input device",
+        "b": "Output device",
+        "c": "Input/Output device",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Monitor of a computer is:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It has the longest wavelength",
+        "b": "It is beautiful",
+        "c": "It is visible to people even with bad eyesight",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Red light is used in traffic signals because:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "For national Integration",
+        "b": "For popularisation of Science",
+        "c": "For contribution to Indian Cinema",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dadasaheb Phalke Award is given:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Real and erect",
+        "b": "Virtual and erect",
+        "c": "Real and inverted",
+        "d": "Virtual and inverted"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A concave lens always forms an image which is ____",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Watt",
+        "b": "REM",
+        "c": "Centigrade",
+        "d": "Decibel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Noise is measured in ____",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oxygen",
+        "b": "Hydrogen",
+        "c": "Nitrogen",
+        "d": "Methane"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following gases, present in the air near the surface of the Earth, has maximum concentrations?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SRISHTI is the main policy goal to led path for India.",
+        "b": "To translate this action into vision.",
+        "c": "A dedicated Policy Research Cell is yet to establish",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The main policy goal for The new Science, Technology and Innovation Policy (STI) is:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Human Resource Development",
+        "b": "International collaboration and orchestrating national dialogues",
+        "c": "Both (a) & (b)",
+        "d": "Neither (a) nor (b)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What are the main objectives of Nano Science and Technology:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1757",
+        "b": "1767",
+        "c": "1797",
+        "d": "1787"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the Ministry of Science and Technology, The Survey of India (SOI) was set up in ____",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Egyptians",
+        "b": "Greeks",
+        "c": "Indians",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who had invented zero?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rutherford",
+        "b": "William Harvey",
+        "c": "Priestly",
+        "d": "Galileo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who had discovered oxygen?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It aims to provide Women Scientists for pursuing research in engineering only.",
+        "b": "It aims to provide Women Scientists for pursuing research in applied sciences only.",
+        "c": "Both (a) & (b)",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is Women Scientists Scheme (WOS) in India?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1982",
+        "b": "1983",
+        "c": "1984",
+        "d": "1985"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Department of Scientific and Industrial Research (DSIR) was set up in:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SAGA",
+        "b": "PARAM 8000",
+        "c": "EKA",
+        "d": "PARAM YUVA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s first supercomputer is known as ___",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Volt",
+        "b": "Watt",
+        "c": "Ampere",
+        "d": "Ohm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the S.I. unit of electric current?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BSNL",
+        "b": "MTNL",
+        "c": "Airtel",
+        "d": "VSNL"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first publicly available internet service in India was launched by ____",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1028 GB",
+        "b": "1012 GB",
+        "c": "1000 GB",
+        "d": "1024 GB"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One Terabyte (1 TB) is equal to _____",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "EDUSAT",
+        "b": "SARAL",
+        "c": "HAMSAT",
+        "d": "RISAT-1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is India’s first satellite exclusively used for educational purpose?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kaphleia",
+        "b": "Biakliana",
+        "c": "Dr. Laltluangliana Khiangte",
+        "d": "Lalnunchanga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who wrote the novel ‘Chhingpuii’ ?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "harvest",
+        "b": "war",
+        "c": "famine",
+        "d": "new born child"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sarlamkai dance was performed to celebrate the occasion of -",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sichangneii",
+        "b": "Thasiama",
+        "c": "Chhura",
+        "d": "Lalruanga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Mizo folktales, who lives the longest ?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Congress",
+        "b": "Mizo National Front",
+        "c": "Mizo Union",
+        "d": "People’s Conference"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is the first political party in Mizoram",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "14th January 1952",
+        "b": "24th January 1952",
+        "c": "12th February 1952",
+        "d": "4th January 1952"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Lushai hills district council election was held in -",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khuma and Khara",
+        "b": "Khama and Khara",
+        "c": "Kunga and Kima",
+        "d": "Kunga and Khama"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who were the first Mizos to be baptised ?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "24th January 1972",
+        "b": "14th February 1972",
+        "c": "24th March 1972",
+        "d": "14th April 1972"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mizoram become Union Territory on -",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalsavunga",
+        "b": "Thawmpawnga",
+        "c": "Bengkhuaia",
+        "d": "Khamliana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mary Winchester was captured by the Chief -",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mauruangi thawnthu",
+        "b": "Tualvungi leh Zawlpala thawnthu",
+        "c": "Chhura thawnthu",
+        "d": "Chepahakhata thawnthu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which story do we see Mizo more clever than other Indians  -",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kaphleia",
+        "b": "Thuamluaia",
+        "c": "L.Biakliana",
+        "d": "James Dokhuma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the writer of the first Mizo novel ‘Hawilopari’",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ch.Saprawnga",
+        "b": "Lalsawia",
+        "c": "Lalbuaia",
+        "d": "R.Thanhlira"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the first Chief Executive Member in the Lushai Hills District Council -",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rimenhawihi",
+        "b": "Mauruangi",
+        "c": "Thailungi",
+        "d": "Tualvungi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who became the wife of non-Mizo king ‘Vai-lalpa’",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mitthi Khua",
+        "b": "Pialral",
+        "c": "Rih dil",
+        "d": "Hringlang tlang"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The early Mizo believed that when a person dies, his or her spirit first visit",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Seluphan",
+        "b": "Sathingzar",
+        "c": "Sahlam",
+        "d": "Khanchhuk"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A tree or a pole on which an enemy’s head is hung was called",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1890",
+        "b": "1897",
+        "c": "1899",
+        "d": "1898"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which year was North and South Lushai hills amalmagated into one district ?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9",
+        "b": "10 42 1",
+        "c": "11",
+        "d": "12 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the mean of x, x +3, x + 5,  x + 7 and x + 10 is 9, then what is the mean of the last three observations. 51",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "90⁰",
+        "b": "62⁰",
+        "c": "60⁰",
+        "d": "56⁰"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ABCD is a rhombus with ∠ABC= 56⁰, then ∠ACD is equal to AD 56° B C",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "₹ 1380",
+        "b": "₹ 1290",
+        "c": "₹ 1470",
+        "d": "₹ 1240"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "₹1200 is lent out at 5% per annum Simple Interest for 3 years. Find the amount after 3 years.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12",
+        "b": "10",
+        "c": "15",
+        "d": "8 5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If a – b =3 and a² + b² = 29 then the value of ab is",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1331 sqcm",
+        "b": "77sqcm",
+        "c": "121sqcm",
+        "d": "44 sqcm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If a wire of length 44 cm is bent in the form of a square, then the area of the square will be",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20%",
+        "b": "140%",
+        "c": "120 %",
+        "d": "100 %"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A man gains 20 % by selling a certain article for a certain price. If he sells it atdouble the price,then the profit made is",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "60km/hr",
+        "b": "7.5 km/hr",
+        "c": "15km/hr",
+        "d": "12km/hr"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A car can finish a certain journey in 10 hours at a speed of 48kmph. In order tocover the same distance in 8 hours, the speed of the car must be increased by",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": "7 22",
+        "c": "23",
+        "d": "5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the greatest among the following numbers?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "32",
+        "b": "54",
+        "c": "42",
+        "d": "34"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average age of 25 children in the class is 8 years. If the teacher’s age be included the average age becomes 9 years. What was be the teacher’s age?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40",
+        "b": "30",
+        "c": "20",
+        "d": "50"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The mean of 1², 2², 3², 4², 5², 6², 7² is",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2",
+        "b": "28",
+        "c": "65",
+        "d": "216"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find out the wrong number in the series: 2, 9, 28, 65, 126, 216",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question 68 - 70) : Read the following passage carefully and choose the best answer to",
+      "opts": {
+        "a": "Survival of the fittest",
+        "b": "The work of Charles Darwin",
+        "c": "There is constant struggle for food, water and resources",
+        "d": "Environmental conditions affect natural selection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following states the main idea of the passage?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question 68 - 70) : Read the following passage carefully and choose the best answer to",
+      "opts": {
+        "a": "animal",
+        "b": "creature",
+        "c": "genus",
+        "d": "sapiens"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Species’ has the same meaning as.....?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question 68 - 70) : Read the following passage carefully and choose the best answer to",
+      "opts": {
+        "a": "existence",
+        "b": "death",
+        "c": "health",
+        "d": "endurance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The antonym for ‘survival’ as implied in the passage is:",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question 71 & 72): Answer the following questions using the coding and decoding of the",
+      "opts": {
+        "a": "VIXLUME",
+        "b": "XLHMVNF",
+        "c": "XLMHFNV",
+        "d": "KIVNFMW"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "PRECIOUS  KIVXRLFH : : CONSUME  ?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question 71 & 72): Answer the following questions using the coding and decoding of the",
+      "opts": {
+        "a": "1-21-7-21-19-20",
+        "b": "5-25-11-25-23-24",
+        "c": "1-6-7-6-19-7",
+        "d": "1-23-7-23-20-19"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "MARCH  17-5-22-7-12 : : AUGUST   ?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question 73 - 75): In the questions below find out the correct answer out of the four",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WXYZYZWXZWXYXYZWYZWX ZWXYWXZYWXYZZWYX",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question 73 - 75): In the questions below find out the correct answer out of the four",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "OOAAAAAAOOOOAAAAOOOOOO AAOOOOOOAAOOOOOOO OOOOOOOAAOOOOOOOAA",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q60 (p6, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q74 (p8, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      60,
+      74
+    ]
+  }
+}

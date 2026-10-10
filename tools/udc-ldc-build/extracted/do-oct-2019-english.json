@@ -1,0 +1,1857 @@
+{
+  "slug": "do-oct-2019-english",
+  "exam": "District Organiser (Contract) under DM & R Department",
+  "sitting": "October 2019",
+  "subject": "General English",
+  "source": "General English (DO, Oct).pdf",
+  "sourceSha256": "638bc321bcf8b5c3d38aae4d480ab2495e4fb6c61a51a3ffb78ee6636860d3b4",
+  "ocr": false,
+  "count": 80,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer",
+      "opts": {
+        "a": "Aristotle felt the need for repetition to develop good habits in students; Socrates felt that",
+        "b": "Aristotle felt the need for rote-learning; Socrates emphasized on dialogic learning",
+        "c": "There was no difference",
+        "d": "Aristotle emphasized on the importance of paying attention to human nature; Socrates"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the difference between the approaches of Socrates and Aristotle?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer",
+      "opts": {
+        "a": "It is not practically applicable",
+        "b": "Its theoretical concepts are easily understood",
+        "c": "It is irrelevant for education",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why do educationists consider philosophy a ‘weak and woolly’ field?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer",
+      "opts": {
+        "a": "It refers to something which is of ceaseless importance",
+        "b": "It refers to something which is quite unnecessary",
+        "c": "It refers to something which is abstract and theoretical",
+        "d": "It refers to something which existed in the past and no longer exists now"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What do you understand by the term ‘Perennialism’, in the context of the given comprehension passage?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer",
+      "opts": {
+        "a": "He believed that only the rich have the right to acquire education",
+        "b": "He believed intelligence was not based on genetics",
+        "c": "He believed that only a select few are meant to attend schools",
+        "d": "He believed that all pupils are not talented"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why were Plato’s views on education considered democratic?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer",
+      "opts": {
+        "a": "Facts are not important",
+        "b": "Facts do not lead to holistic education",
+        "c": "Facts change with the changing times",
+        "d": "Facts are frozen in time"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why did Aquinas propose a model of education which did not lay much emphasis on facts?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer",
+      "opts": {
+        "a": "To produce philosophical students",
+        "b": "To produce a master race",
+        "c": "To produce good and virtuous citizens",
+        "d": "To enrich the state"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What did Aristotle believed should be the aim of education?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer",
+      "opts": {
+        "a": "It should concern itself to the study of holy subjects.",
+        "b": "It should deal with the various forms of nature.",
+        "c": "It should be given only to the most intelligent students.",
+        "d": "It should include facts, skills, physical discipline, music and art."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does Plato mean when he believes education should be holistic?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer",
+      "opts": {
+        "a": "It was originally religious in nature, but later became secular.",
+        "b": "It originally dealt with just philosophy but later incorporated literature and play.",
+        "c": "It was originally undemocratic, but later became democratic.",
+        "d": "It originally stressed on repetitious learning, but later on creative thought."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the change in the evolution of Perrenialism?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer",
+      "opts": {
+        "a": "To differentiate children suitable to the various castes.",
+        "b": "To stamp out sentimentality in their education.",
+        "c": "To eradicate non-holistic practices of teaching.",
+        "d": "To raise them as soldiers to protect the state."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why did Plato suggest removing children from their mothers’ care and to raise them as wards of the state?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer",
+      "opts": {
+        "a": "Machineries",
+        "b": "Technology",
+        "c": "Governance",
+        "d": "People"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pereniallism suggests that the first subjects that should be taught are about………",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer",
+      "opts": {
+        "a": "That uneducated farm workers cannot be taught.",
+        "b": "That university-educated philosophers were wiser than uneducated farm workers.",
+        "c": "That there could be a critical look at education.",
+        "d": "The balancing of the theoretical and practical aspects of subjects taught."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What conventional wisdom did Montaigne question?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer",
+      "opts": {
+        "a": "None",
+        "b": "Their work has helped shape the practice of education over the millennia.",
+        "c": "They have helped make education secular.",
+        "d": "They have emphasized the need for fact-based teaching."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What contribution have philosophers given to the field of education?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer",
+      "opts": {
+        "a": "deep thought",
+        "b": "a term used in philosophy to denote learning",
+        "c": "special importance, or prominence given to something",
+        "d": "to join together"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does the word “emphasis” mean?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer",
+      "opts": {
+        "a": "as a state-run institution",
+        "b": "as an essential element",
+        "c": "he did not mention it at all",
+        "d": "it is the sole subject mentioned"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How does education feature in Plato’s “The Republic”?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer",
+      "opts": {
+        "a": "to cause doubts about something",
+        "b": "to interrogate someone",
+        "c": "a system of education",
+        "d": "to cultivate an inquiring mind"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does the phrase, “calling into question” mean?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer",
+      "opts": {
+        "a": "Education and Humanities",
+        "b": "Social Science",
+        "c": "Education and Philosophy",
+        "d": "Human Psychology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under what branch of study does Philosophy of Education come?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the",
+      "opts": {
+        "a": "to reap the benefits of hard work",
+        "b": "to face the consequences of one’s actions",
+        "c": "to laugh at other’s misfortune",
+        "d": "to meddle in others’ affairs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He told me to be careful because **what goes around comes around.**",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the",
+      "opts": {
+        "a": "to be an expert at something",
+        "b": "to be a cheerful worker",
+        "c": "to be a constant source of amusement",
+        "d": "to be a helpful person"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "John is a **good hand** at carpentry",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the",
+      "opts": {
+        "a": "to diminish",
+        "b": "to be the cause",
+        "c": "to come to nothing",
+        "d": "to intensify feelings"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His remarks have only **fanned the flame** of his hatred.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the",
+      "opts": {
+        "a": "unreal tears",
+        "b": "to cry bitterly",
+        "c": "to be unable to cry",
+        "d": "a single teardrop"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She shed **crocodile tears** at her husband’s funeral.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the",
+      "opts": {
+        "a": "to encourage",
+        "b": "to discourage",
+        "c": "to make possible",
+        "d": "to laugh at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His stern face **threw cold water on** all my hopes.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the",
+      "opts": {
+        "a": "one having good handwriting",
+        "b": "one who likes writing",
+        "c": "one who loves to talk too much",
+        "d": "a learned person"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "my father was **a man of letters**.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the",
+      "opts": {
+        "a": "to avoid people’s notice",
+        "b": "to become mad",
+        "c": "to draw attention",
+        "d": "to change completely"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He went **off the radar** after he won the lottery.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the",
+      "opts": {
+        "a": "impossible",
+        "b": "permissible",
+        "c": "extravagant",
+        "d": "hopeful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expecting him to buy me a new dress was **out of the question**.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the",
+      "opts": {
+        "a": "talent for speaking",
+        "b": "a gifted person",
+        "c": "a very high IQ",
+        "d": "to have immense wealth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "the politician was born with **the gift of the gab**.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the",
+      "opts": {
+        "a": "to look after animals",
+        "b": "to be given responsibility",
+        "c": "to reveal a secret",
+        "d": "to spoil something"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Jane **let the cat out of the bag** regarding Mary’s surprise party.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the",
+      "opts": {
+        "a": "to entertain",
+        "b": "to fight with",
+        "c": "to take an unimportant part",
+        "d": "to assume responsibility"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I’m forced **to play second fiddle** to a dog for her favours.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the",
+      "opts": {
+        "a": "to meet someone",
+        "b": "to propose",
+        "c": "to beg for something",
+        "d": "to take a critical test"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have to pass through **the acid test** of her father’s approval.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the",
+      "opts": {
+        "a": "to remain neutral",
+        "b": "to be a spy",
+        "c": "to be ignorant",
+        "d": "to be too passionate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One cannot afford to **sit on the fence** regarding today’s politics.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the",
+      "opts": {
+        "a": "to cause physical injury",
+        "b": "a weak point",
+        "c": "a cause of pride",
+        "d": "a source of amusement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His remarks about my parentage have hit my **Achilles’ heels**.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the",
+      "opts": {
+        "a": "very robust and healthy",
+        "b": "older than one says",
+        "c": "coming from a lower class",
+        "d": "a snob"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I know for a fact that she is **no spring chicken**.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the",
+      "opts": {
+        "a": "at the lowest degree",
+        "b": "towards the end",
+        "c": "towards the beginning",
+        "d": "at the highest degree"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is **at the zenith** of her fame.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.no 33-39) Fill in the blanks with the correct verbs :",
+      "opts": {
+        "a": "hope",
+        "b": "except",
+        "c": "expect",
+        "d": "accept"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I __________ a message from her.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.no 33-39) Fill in the blanks with the correct verbs :",
+      "opts": {
+        "a": "lose",
+        "b": "loss",
+        "c": "Loose",
+        "d": "Lost"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We mourned the __________ of a great man.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.no 33-39) Fill in the blanks with the correct verbs :",
+      "opts": {
+        "a": "hurt",
+        "b": "hurted",
+        "c": "hurts",
+        "d": "hurtened"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He had __________ me badly with his words and action.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.no 33-39) Fill in the blanks with the correct verbs :",
+      "opts": {
+        "a": "would arrive",
+        "b": "arrived",
+        "c": "will have arrived",
+        "d": "arrives"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He __________ by this time tomorrow.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.no 33-39) Fill in the blanks with the correct verbs :",
+      "opts": {
+        "a": "Freezed",
+        "b": "freeze",
+        "c": "Froze",
+        "d": "frozen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cup of water had __________ by the time I took it out of the freezer.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.no 33-39) Fill in the blanks with the correct verbs :",
+      "opts": {
+        "a": "rains",
+        "b": "has been raining",
+        "c": "was raining",
+        "d": "will have rained"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It __________ when I left home this morning.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.no 33-39) Fill in the blanks with the correct verbs :",
+      "opts": {
+        "a": "does not complete",
+        "b": "have not completed",
+        "c": "has not completed",
+        "d": "don’t complete"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You __________ your assignment.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 40-44): Fill in the blanks with the correct prepositions:",
+      "opts": {
+        "a": "above",
+        "b": "over",
+        "c": "on",
+        "d": "atop"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They have built a bridge __________ the river.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 40-44): Fill in the blanks with the correct prepositions:",
+      "opts": {
+        "a": "aside",
+        "b": "besides",
+        "c": "outside",
+        "d": "beside"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The beggar was sitting __________ the road.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 40-44): Fill in the blanks with the correct prepositions:",
+      "opts": {
+        "a": "among",
+        "b": "between",
+        "c": "from",
+        "d": "within"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The food was distributed __________ the children.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 40-44): Fill in the blanks with the correct prepositions:",
+      "opts": {
+        "a": "in",
+        "b": "on",
+        "c": "at",
+        "d": "since"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I was born __________ Thursday, the 25th of March.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 40-44): Fill in the blanks with the correct prepositions:",
+      "opts": {
+        "a": "by",
+        "b": "till",
+        "c": "since",
+        "d": "at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I shall stay here __________ Sunday.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.no. 45-48): Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Adjective",
+        "b": "Noun",
+        "c": "Adverb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**French** women are very beautiful.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.no. 45-48): Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Noun",
+        "b": "Pronoun",
+        "c": "Adverb",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "John said he would do the task **himself**.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.no. 45-48): Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Adverb",
+        "b": "Adjective",
+        "c": "verb",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You have given me the wrong **information**.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.no. 45-48): Identify the parts of speech of the underlined words:",
+      "opts": {
+        "a": "Adverb",
+        "b": "Adjective",
+        "c": "verb",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You **ought** to obey your parents.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 49-53): Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex Sentence",
+        "c": "Compound sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "He could not come for he was down with fever.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 49-53): Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex Sentence",
+        "c": "Compound Sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is very hot. One cannot go out.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 49-53): Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex Sentence",
+        "c": "Compound sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Here comes the girl who stole my purse.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 49-53): Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex sentence",
+        "c": "Compound sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neither John nor Jacob has done their homework.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 49-53): Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex sentence",
+        "c": "Compound sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Amos, my husband, is the son of a Doctor.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.No. 54- 64) Choose the correct transformation of the following sentences as directed",
+      "opts": {
+        "a": "Mark’s team won the match in an easy manner.",
+        "b": "Mark’s team won the match easefully.",
+        "c": "Mark’s team won the match with ease.",
+        "d": "Mark’s team won the match at ease."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mark’s team won the match easily. (use ‘easily’ as a noun form)",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.No. 54- 64) Choose the correct transformation of the following sentences as directed",
+      "opts": {
+        "a": "She had narrowly escaped.",
+        "b": "She had a nearly escaped death.",
+        "c": "She had escaped death in a narrow manner.",
+        "d": "she had escaped death with narrowness."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She had a narrow escape from death. (use ‘narrow’as an adverb)",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.No. 54- 64) Choose the correct transformation of the following sentences as directed",
+      "opts": {
+        "a": "The news is not true.",
+        "b": "The news is good enough to be true.",
+        "c": "The news is so good that it cannot be true.",
+        "d": "The news is extremely good to be true."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This news is too good to be true. (remove ‘too’)",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.No. 54- 64) Choose the correct transformation of the following sentences as directed",
+      "opts": {
+        "a": "Few students are more intelligent than Sarah.",
+        "b": "Sarah is more intelligent than most students.",
+        "c": "Sarah is the most intelligent of the students.",
+        "d": "More students are as intelligent as Sarah."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Few students are as intelligent as Sarah. (use comparative degree of comparision)",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.No. 54- 64) Choose the correct transformation of the following sentences as directed",
+      "opts": {
+        "a": "Had he been careless, he would have passed.",
+        "b": "Had he been more carefress, he would have passed.",
+        "c": "Had he been careful, he would not have passed.",
+        "d": "Had he been careful, he would have passed."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Had he not been careless, he would have passed. (Change into affirmative)",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.No. 54- 64) Choose the correct transformation of the following sentences as directed",
+      "opts": {
+        "a": "It is a pity that he may choose me for his bride.",
+        "b": "I earnestly wish that he may choose me for his bride.",
+        "c": "He may choose me for his bride indeed",
+        "d": "It is shameful that I should be chosen as his bride."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "O that he may choose me for his bride. (Change into Assertive)",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.No. 54- 64) Choose the correct transformation of the following sentences as directed",
+      "opts": {
+        "a": "The bell rang as soon as we rushed out of the class.",
+        "b": "We rushed out of the class as soon as the bell rang.",
+        "c": "We rushed out of the class no sooner.",
+        "d": "No sooner did we ran out of the class than the bell rang."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "No sooner than the bell rang than we rushed out of the class. (interchange principal and subordinate clauses)",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.No. 54- 64) Choose the correct transformation of the following sentences as directed",
+      "opts": {
+        "a": "He attends church regularly in spite of his poor health.",
+        "b": "He attends church regularly owing to his poor health.",
+        "c": "His health is poor but he attends church regularly.",
+        "d": "His health is poor since he attends church regularly."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In spite of his poor health, he still attends church regularly. (change to compound)",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.No. 54- 64) Choose the correct transformation of the following sentences as directed",
+      "opts": {
+        "a": "I killed the cow which belonged to the farmer.",
+        "b": "I killed a cow and it belonged to the farmer.",
+        "c": "The farmer’s cow has been killed by me.",
+        "d": "I killed the farmer’s cow."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I killed the cow that belonged to the farmer. (change to simple)",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.No. 54- 64) Choose the correct transformation of the following sentences as directed",
+      "opts": {
+        "a": "She has cheated you and I can prove it.",
+        "b": "She has cheated you. I can prove it.",
+        "c": "That she has cheated you can be proven by me.",
+        "d": "She has cheated you with proof."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I can prove that she has cheated you. (Change to compound)",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions: (Q.No. 54- 64) Choose the correct transformation of the following sentences as directed",
+      "opts": {
+        "a": "I do not know my birth-place.",
+        "b": "The place of my birth, I do not know it.",
+        "c": "I do not know where I was born.",
+        "d": "It is not known to me where I was birthed."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I do not know the place of my birth. (Change to Complex)",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 65- 70): Choose the word nearest in meaning to the underlined words:",
+      "opts": {
+        "a": "undecided",
+        "b": "anonymous",
+        "c": "uncontested",
+        "d": "divided"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mr. Prasad won the election by an **unanimous** vote.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 65- 70): Choose the word nearest in meaning to the underlined words:",
+      "opts": {
+        "a": "repentance",
+        "b": "condition",
+        "c": "pregnancy",
+        "d": "natural beauty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She had not applied any make-up on her face to show her **contritio**n.",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 65- 70): Choose the word nearest in meaning to the underlined words:",
+      "opts": {
+        "a": "white lie",
+        "b": "hidden",
+        "c": "unspeakable",
+        "d": "obvious"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His account of being charitable is a **blatant** lie.",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 65- 70): Choose the word nearest in meaning to the underlined words:",
+      "opts": {
+        "a": "beyond belief",
+        "b": "a great joy",
+        "c": "distasteful",
+        "d": "a pleasure"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is **inconceivable** that you should live here in my locality.",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 65- 70): Choose the word nearest in meaning to the underlined words:",
+      "opts": {
+        "a": "death",
+        "b": "crime",
+        "c": "favouritism",
+        "d": "poverty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His years in office were marked by corruption and **nepotism**.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question 65- 70): Choose the word nearest in meaning to the underlined words:",
+      "opts": {
+        "a": "jewelry",
+        "b": "souvenirs",
+        "c": "love letters",
+        "d": "videos"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He left me with a collection of photographs and **mementos**.",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 71- 75): Choose the word opposite in meaning to the underlined words:",
+      "opts": {
+        "a": "enthusiastic",
+        "b": "angry",
+        "c": "indifferent",
+        "d": "honest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She was very **apathetic** towards me when I met her.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 71- 75): Choose the word opposite in meaning to the underlined words:",
+      "opts": {
+        "a": "intelligent",
+        "b": "stupid",
+        "c": "idle",
+        "d": "haughty\\"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I was very impressed by his **diligent** manner.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 71- 75): Choose the word opposite in meaning to the underlined words:",
+      "opts": {
+        "a": "talkative",
+        "b": "gentle",
+        "c": "reserved",
+        "d": "honest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My father was so **gregarious** that I was sometimes made uncomfortable by it.",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 71- 75): Choose the word opposite in meaning to the underlined words:",
+      "opts": {
+        "a": "unaccepting",
+        "b": "friendly",
+        "c": "indifferent",
+        "d": "ignorant"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mary has always been very **hostile** to the idea of change.",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 71- 75): Choose the word opposite in meaning to the underlined words:",
+      "opts": {
+        "a": "resisted",
+        "b": "obeyed",
+        "c": "surrendered",
+        "d": "marched"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bruce’s army **yielded** to the English soldiers.",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 76-80): Identify the correct usage of the words given in the alternatives below:",
+      "opts": {
+        "a": "adopt",
+        "b": "adapt",
+        "c": "adept",
+        "d": "adupt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We have to learn to __________ to different circumstances.",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 76-80): Identify the correct usage of the words given in the alternatives below:",
+      "opts": {
+        "a": "inedible",
+        "b": "ineligible",
+        "c": "intelligible",
+        "d": "indelible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This food is __________. Who has cooked it?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 76-80): Identify the correct usage of the words given in the alternatives below:",
+      "opts": {
+        "a": "weather",
+        "b": "that",
+        "c": "whether",
+        "d": "which"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I cannot tell __________ this is true or not.",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 76-80): Identify the correct usage of the words given in the alternatives below:",
+      "opts": {
+        "a": "later",
+        "b": "next",
+        "c": "latter",
+        "d": "subsequent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tom and Jones are both poor. The __________ is also blind as well.",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Q.No. 76-80): Identify the correct usage of the words given in the alternatives below:",
+      "opts": {
+        "a": "pity",
+        "b": "mercy",
+        "c": "sympathy",
+        "d": "compassion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have great __________ for your suffering.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on any one (1) of the following in not more than 300 words: -Plastic pollution in Aizawl -Prospects of non-governmental jobs in Mizoram -A healthy mind in a healthy body",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

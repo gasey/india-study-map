@@ -1,0 +1,70 @@
+{
+  "slug": "mhs-grade-v-2017-english-p1",
+  "exam": "Grade-V of Mizoram Horticulture Service",
+  "sitting": "November 2017",
+  "subject": "General English Paper-I",
+  "source": "mhs-grade-v-2017-english-p1.pdf",
+  "sourceSha256": "cfb0143ca427bbcd4d4d96b83f55f738be1d48e390ea03a972e9a296a3c8c993",
+  "ocr": false,
+  "count": 2,
+  "questions": [
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "keep a cool head",
+        "b": "in hot water",
+        "c": "a taste of one’s own medicine",
+        "d": "have the Midas touch"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences choosing **any five** of the following Idioms and Phrases bringing out its meaning. (5×3=15)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Why does the author call conversation an ‘instrument of education’?(3)",
+        "b": "What sort of conversation does the author think is bad for children?(3)",
+        "c": "Why does the author think that children may become dull and stupid?(3)",
+        "d": "What conversation helps children to think and reason?(3)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following passage carefully and answer the questions below: For children too there is no greater instrument of education than the conversation they hear at home. It is unjust to them when nothing is spoken before them but the trifles of dress, the gossip of the neighbourhood, and the cares of the household which press too heavily upon the parents, the follies and vanities of the world, which are hardly apprehended by their innocent minds. They are naturally imitative, and a great part of their character is derived from their parents. If there is no life or mirth in a house, the children of the house will be commonly dull and stupid; and if they never hear subjects rationally discussed, they will not learn to think or reason. If the world in which we live is allowed to pass unheeded by, they will be without interests, listless and unobservant. This home education which they acquire insensibly is as important as the formal work of the school, and is as much our duty to provide food for their minds as for their bodies. They do not live by bread alone, but by every word uttered out of the mouth.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q5 (p2, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      5
+    ]
+  }
+}

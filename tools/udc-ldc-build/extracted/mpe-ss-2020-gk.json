@@ -1,0 +1,2317 @@
+{
+  "slug": "mpe-ss-2020-gk",
+  "exam": "Junior Grade of MPE & SS under Planning & Programme Implementation Department",
+  "sitting": "2020",
+  "subject": "General Knowledge",
+  "source": "MPE&SS General Knowledge.pdf",
+  "sourceSha256": "8ef1cee8d7a7956aaab4fa73d1ee6837fab52d6efbb017e18cca557b8e872c62",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Riyadh, Saudi Arabia",
+        "b": "Buenos Aires, Argentina",
+        "c": "Osaka, Japan",
+        "d": "Beijing, China"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where was the G20 (Group of 20) Summit 2019 held?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2.3%",
+        "b": "2.4%",
+        "c": "2.5%",
+        "d": "2.6%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How much percent of India’s GDP is set as a target to raise health services expenditure by 2025?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "YASH Technologies",
+        "b": "ENut Technologies",
+        "c": "Quantela Inc",
+        "d": "Unify Technologies"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which entity was awarded with World Economic Forum’s (WEF) ‘Technology Pioneers’ award 2019?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "7%",
+        "b": "7.2%",
+        "c": "6.8%",
+        "d": "7.3%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the GDP growth of India for the year 2018-19?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4",
+        "b": "5",
+        "c": "6",
+        "d": "7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many rings are there on the Olympic flag?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Saina Nehwal",
+        "b": "Vinesh Phogat",
+        "c": "Mary Kom",
+        "d": "ViratKohli"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the first Indian to be nominated for Laureus World Sports Award?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India and Pakistan",
+        "b": "West Indies and Sri Lanka",
+        "c": "England and New Zealand",
+        "d": "Australia and South Africa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Cricket World Cup Final 2019 was played between",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalvenhima Khawlhring",
+        "b": "Lalchhuanawma Hauhnar",
+        "c": "Jeremy Lalrinnunga",
+        "d": "Lalchungnunga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The winner of the Youth Olympics, 2019 in the 62kg category in weightlifting is",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tennis",
+        "b": "Swimming",
+        "c": "Football",
+        "d": "Hockey"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With which sport is the term ‘breaststroke’ associated?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lionel Messi",
+        "b": "Roger Federer",
+        "c": "Cristiano Ronaldo",
+        "d": "Floyd Mayweather"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the Forbes List 2019, who is the World’s highest paid athlete?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "32",
+        "b": "42",
+        "c": "31",
+        "d": "45"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many teams will participate in 2022 FIFA World Cup in Qatar?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Producers",
+        "b": "Walt Disney",
+        "c": "Margaret Mitchell",
+        "d": "Benny Goodman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has won the most Oscars?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Supreme Court",
+        "b": "Prime Minister",
+        "c": "President",
+        "d": "Selection Committee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who appoints the Chief Election commisioner of India?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1914",
+        "b": "1915",
+        "c": "1916",
+        "d": "1917"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which year of First World War Germany declared war on Russia and France?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1967",
+        "b": "1968",
+        "c": "1958",
+        "d": "1922"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "First human heart transplant operation conducted by Dr. Christiaan Barnard on Louis Washkansky, was conducted in the year.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "U Thant, Kurt Waldheim, Dag Hammarskjoeld, Trygve Lie.",
+        "b": "Trygve Lie, Dag Hammarskjoeld, U Thant, Kurt Waldheim.",
+        "c": "Trygve Lie, U Thant , Dag Hammarskjoeld, Kurt Waldheim.",
+        "d": "U Thant, Dag Hammarskjoeld, Trygve Lie, Kurt Waldheim."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From the following, choose the set in which names of Secretary-Generals of the UNO are arranged in correct chronological order?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pune (Maharashtra)",
+        "b": "Rajkot (Gujarat)",
+        "c": "Pimpri (Maharashtra)",
+        "d": "Perambur (Tamilnadu)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Film and TV institute of India is located at",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1564 AD",
+        "b": "1798 AD",
+        "c": "1843 AD",
+        "d": "1901 AD"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "First International Peace Congress was held in London in",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "a condition in the international market where nations do not impose customs duty or other",
+        "b": "market where the price of a commodity is determined by free play of the forces of supply",
+        "c": "ports that are exempted from payment of customs duty on articles of commerce, primarily",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Free market is",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "gold",
+        "b": "copper",
+        "c": "mica",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India has the largest deposits of ____ in the world.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15 trillion",
+        "b": "20 trillion",
+        "c": "25 trillion",
+        "d": "30 trillion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a normal human body, the total number of red blood cells is",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12 Noon on Saturday",
+        "b": "12 Noon on Sunday",
+        "c": "12 Noon on Monday",
+        "d": "12 Noon on Tuesday"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If it is 4 PM on monday at longitude 150°W, what will be the time at 150°E  longitude?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "increases",
+        "b": "remains unchanged",
+        "c": "decreases",
+        "d": "may decrease or increase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If speed of rotation of the earth increases, weight of the body",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1974",
+        "b": "1984",
+        "c": "1994",
+        "d": "2004"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indira Gandhi was assassinated in the year.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "International monetary fund",
+        "b": "Reserve Bank of India",
+        "c": "World Bank",
+        "d": "Federal reserve Bank"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where is the worlds largest gold depository?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1972-73",
+        "b": "1984-85",
+        "c": "1991-92",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India has been represented as a non-permanent member of the Security Council (UNO) during",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Security Council; two-thirds",
+        "b": "Security Council; one-third",
+        "c": "International Court of Justice; two-thirds",
+        "d": "International Court of Justice; one-third"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In UNO, the new members are admitted to the General Assembly on the recommendation of ____ and ____ the members of the General Assembly should vote in favour.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Surat (Gujarat)",
+        "b": "Tarapur (Maharashtra)",
+        "c": "Trombay (Maharashtra)",
+        "d": "Solapur (Maharashtra)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India's first atomic power station was set up at",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "stimulate production of white blood cells for fighting the disease",
+        "b": "stimulate production of antibodies",
+        "c": "inhibit the growth of bacteria",
+        "d": "produce toxins against bacteria"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In certain diseases antibiotics are administered. The object is",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "John Napier",
+        "b": "John Doe",
+        "c": "John Harrison",
+        "d": "John Douglas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Logarithm tables were invented by",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "the clear sky allows radiant energy to escape readily from the earth",
+        "b": "on a cloudy night the clouds are warm and therefore retard the cooling",
+        "c": "the clear sky allows the cold of outer space to reach the earth",
+        "d": "current of air carry the heat away from the earth on a clear night"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On a night when the sky is clear, the temperature may dip considerably; on a cloudy night the temperature will usually dip much less. The reason for this difference is that",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1980",
+        "b": "1985",
+        "c": "1990",
+        "d": "1995"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "National Remote Sensing Agency (NRSA) was setup in",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "defence expenditure",
+        "b": "expenditure on economic services",
+        "c": "expenditure on social and community services",
+        "d": "grant to states"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Development expenditure of the Central government does not include",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "increase it",
+        "b": "decrease it",
+        "c": "no impact",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the cash reserve ratio is lowered by the RBI, its impact on credit creation will be to",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Planning Commission",
+        "b": "Ministry of Finance",
+        "c": "Finance Commission",
+        "d": "The Reserve Bank of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India, which one among the following formulates the fiscal policy?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Phosphorous",
+        "b": "Bromine",
+        "c": "Chlorine",
+        "d": "Helium"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a non metal that remains liquid at room temperature?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Graphite",
+        "b": "Silicon",
+        "c": "Charcoal",
+        "d": "Phosphorous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is used in pencils?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3%",
+        "b": "3.5%",
+        "c": "2.5%",
+        "d": "2%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average salinity of sea water is",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "All have same penetrating power",
+        "b": "Beta Particles",
+        "c": "Alpha particles",
+        "d": "Gamma rays"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following has the least penetrating power?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0.84",
+        "b": "0.5",
+        "c": "1.6",
+        "d": "0.62"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One kilometre is equal to how many miles?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Powder type",
+        "b": "Liquid type",
+        "c": "Soda acid type",
+        "d": "Foam type"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which type of fire extinguisher is used for petroleum fire?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "one-fourth of the total membership",
+        "b": "one-tenth of the total membership of the Houses",
+        "c": "50 percent strength of the Lok Sabha",
+        "d": "at least 100 members"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The minimum number of members that must be present to hold the meeting of the Lok Sabha is",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Supreme Court of India",
+        "b": "High Court of the state",
+        "c": "Committee appointed by the president",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The member of a State Public Service Commission can be removed on the ground of misbehavior only after an enquiry has been conducted by the",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Canada",
+        "b": "West Africa",
+        "c": "Australia",
+        "d": "North America"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The great Victoria Desert is located at",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "temperature",
+        "b": "location",
+        "c": "weather",
+        "d": "all of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The humidity of the air depends upon",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mercury",
+        "b": "Venus",
+        "c": "Earth",
+        "d": "Pluto"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following planet takes the highest time for completing a rotation?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "luminous zone",
+        "b": "dark zone",
+        "c": "blue zone",
+        "d": "non-luminous zone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The hottest part of the gas flame is known as",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2.4",
+        "b": "3.4",
+        "c": "4.4",
+        "d": "5.4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The percentage of earth surface covered by India is",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Coconut",
+        "b": "Groundnut",
+        "c": "Linseed",
+        "d": "Mustard"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The scarcity or crop failure of which of the following can cause a serious edible oil crisis in India?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China",
+        "b": "USA",
+        "c": "Australia",
+        "d": "India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country has become the largest and the fastest growing market of youtube?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6.1%",
+        "b": "6.2%",
+        "c": "6.3%",
+        "d": "6.4%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the unemployment rate in India for the year 2017-2018 as per the survey conducted by National Sample Survey Office (NSSO)?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oslo",
+        "b": "Stockholm",
+        "c": "Brussels",
+        "d": "Geneva"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Nobel peace prize is awarded in which city?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "June 2-6, 2019",
+        "b": "June 1-5, 2019",
+        "c": "June 4-8, 2019",
+        "d": "June 3-7, 2019"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Reserve Bank of India (RBI) observed Financial Literacy (FL) Week on?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "State Bank of India (SBI)",
+        "b": "Canara Bank",
+        "c": "Indian Bank",
+        "d": "Bank of Baroda"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which public sector bank has become the first bank in the country that has linked its deposit accounts and short term loans to an external benchmark?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oxigen Wallet India",
+        "b": "PayPal India",
+        "c": "PayUbiz India",
+        "d": "MobiKwik India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the online payment system, that launched One Touch experience using Google Smart Lock forging India, the first market to use Google Smart Lock.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs.90000 crore",
+        "b": "Rs.75000 crore",
+        "c": "Rs.25000 crore",
+        "d": "Rs.50000 crore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the limit of Ways and Means Advances (WMA) set up by Reserve Bank of India(RBI) for the first half of the financial year 2019-20?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gram Samridhi Yojana",
+        "b": "Pradhan Mantri Kaushal Vikas Yojna",
+        "c": "Pradhan Mantri Suraksha Bima Yojana",
+        "d": "Pradhan Mantri Jeevan Jyoti Bima Yojana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name the Scheme,funded by the World Bank and the Government of India,in order to strengthen the unorganised food processing sector concentrated in rural areas?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Japan",
+        "b": "Saudi Arabia",
+        "c": "Qatar",
+        "d": "India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country will host the G20 Summit in 2022?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3:5",
+        "b": "2:3",
+        "c": "2:4",
+        "d": "3:4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ratio of width of our National flag to its length is",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Japan",
+        "b": "Russia",
+        "c": "France",
+        "d": "Italy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following country is not a member of G-7?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2019",
+        "b": "2021",
+        "c": "2023",
+        "d": "2025"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Food and Agriculture Organisation (FAO) Council has approved India’s proposal to observe which year as International Year of Millets?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "80 percent",
+        "b": "83 percent",
+        "c": "90 percent",
+        "d": "100 percent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Foreign Direct Investment ceilings in the telecom sector have been raised from 74 percent to",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The President of India",
+        "b": "The Prime Minister of India",
+        "c": "The Planning Minister",
+        "d": "The Home Minister of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The chairman of NITI Aayog is",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Central Statistical Organisation.",
+        "b": "National Income Organisation",
+        "c": "Planning Commission",
+        "d": "NITI Aayog"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "National Income estimates in India are prepared by",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A traditional agriculture sector and modern industrial sector",
+        "b": "Industrial Sector and manufacturing sector",
+        "c": "State Ownership Sector",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The dual economy is a mixture of",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National Housing Bank",
+        "b": "NABARD",
+        "c": "SIDBI",
+        "d": "Bharatiya Reserve Bank Note MudranPvt. Ltd."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is not a subsidiary of RBI?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Corporate tax",
+        "b": "Customs Duties",
+        "c": "Income Tax",
+        "d": "Sales tax"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is the exclusive jurisdiction of the state government?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Foreign Direct Investment",
+        "b": "Non Recurring Investment",
+        "c": "Portfolio Investment",
+        "d": "Foreign Indirect Investment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The purchase of shares and bonds of Indian companies by foreign institutional investors is called",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Herrod Domar Model",
+        "b": "P.C. Mahalanobis Model",
+        "c": "Both (a) &",
+        "d": "(d)Neither (a) nor (b)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The First Five Year Plan was based on",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5th April",
+        "b": "2nd October",
+        "c": "1st December",
+        "d": "4th July"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "World Aids day is observed on",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Substance abuse",
+        "b": "Driving",
+        "c": "Gaming",
+        "d": "Littering"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following has been declared as disorder by the WHO?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agri-Food Statistics",
+        "b": "Sustainable Development Goals",
+        "c": "Connecting People to Nature",
+        "d": "Quality Assurance in Official Statistics"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the theme of the Statistics Day 2019?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bahrain",
+        "b": "Sri Lanka",
+        "c": "Australia",
+        "d": "Switzerland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Island of Pearls’ is",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Israel and Arab States",
+        "b": "Russia and Germany",
+        "c": "Great Britain and Argentina",
+        "d": "France and Italy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Falkland War was fought between which two countries?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1870",
+        "b": "1867",
+        "c": "1868",
+        "d": "1869"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When was the route of Suez Canal constructed?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thailand",
+        "b": "Russia",
+        "c": "USA",
+        "d": "China"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Joint Military exercise ‘ Hand in Hand’ is held between India and",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NursultanNazarbayev",
+        "b": "Idriss Debi",
+        "c": "Ismail Omar Guellah",
+        "d": "Abdelazziz"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kazakhstan’s first and only president who announced his resignation on 19th March after 29 years in power is",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Antonio Gutteres",
+        "b": "Syed Akbaruddin",
+        "c": "Tijjani Mohammad Bande",
+        "d": "Maria Fernanda Espinasa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has been appointed as the President of the 74th UN General Assembly?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "El Salvadore",
+        "b": "USA",
+        "c": "Bhutan",
+        "d": "Canada"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country has recognised forests as living entities?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "United Nations Human Rights Council",
+        "b": "World health Organisation",
+        "c": "United Nations International Children’s Emergency Fund",
+        "d": "United Nations Office for Disaster Risks Reduction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which organisation released the Global Influenza Strategy 2019-2030?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Petro Poroshenko",
+        "b": "Volodymyr Zelensky",
+        "c": "Victor Yushchenko",
+        "d": "Leonid Kravchuk"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has been sworn in as the new President of Ukraine?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rahul Gandhi",
+        "b": "Arun Jaitley",
+        "c": "Shashi Tharoor",
+        "d": "Arun Kumar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who wrote ‘The Paradoxical Prime Minister- Narendra Modi and His India’?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5.3",
+        "b": "7.8",
+        "c": "6.1",
+        "d": "4.7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The unemployment rate given by the NSSO for the FY18 is",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ujjain",
+        "b": "Indore",
+        "c": "Kolkata",
+        "d": "Chennai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the city awarded for the Swachh Survekshan Award as being the cleanest in India?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi",
+        "b": "Mizoram",
+        "c": "Himachal Pradesh",
+        "d": "Tripura"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which government has launched “Horn Not Ok” awareness campaign?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ghulam Nabi Azad",
+        "b": "Sunil Arora",
+        "c": "Sushil Chandra",
+        "d": "Ashok Lavasa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the current Chief Election Commissioner of India?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lord Dalhousie",
+        "b": "Lord William Bentinck",
+        "c": "Lord Ripon",
+        "d": "Lord Canning"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the first Governor General of India?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sikkim",
+        "b": "Meghalaya",
+        "c": "Nagaland",
+        "d": "Andhra Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state Chief Minister has launched One Family, One Job scheme in Rojgar Mela, 2019 to give one state government job to one family?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "303",
+        "b": "315",
+        "c": "323",
+        "d": "275"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The number of seats won by the BJP in the 2019 National Elections.",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IR E-AD",
+        "b": "IR Serv",
+        "c": "IR Madrid",
+        "d": "Rail Madad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the mobile app that the Indian Railways recently launched to help the passengers register their complaints through mobile phones?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1975",
+        "b": "1985",
+        "c": "1976",
+        "d": "1986"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which year was The Mizoram Accord signed?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "V. Lalremthanga",
+        "b": "Rev. Zosangliana Colney",
+        "c": "C. Laldina",
+        "d": "Lalramthanga Tochhawng"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the newly appointed Chairman of the Mizoram Public Service Commission?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oprah Winfrey",
+        "b": "Melinda Gates",
+        "c": "Angela Merkel",
+        "d": "Michelle Obama"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who topped the Forbe’s World’s 100 Powerful Women 2019 list?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "95th",
+        "b": "87th",
+        "c": "73rd",
+        "d": "67th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India ranks ___ out of 129 countries in the Sustainable Development Goals Gender Index 2019",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Information and Broadcasting",
+        "b": "Union Home Ministry",
+        "c": "Union Ministry of Women and Child",
+        "d": "Ministry of External Affairs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following ministry has launched the cyber dost twitter account to spread awareness about cyber crimes?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "14%",
+        "b": "15%",
+        "c": "12%",
+        "d": "13%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Central Government contribution has been raised from the existing 10% in NPS to",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shillong",
+        "b": "Kohima",
+        "c": "Aizawl",
+        "d": "Gangtok"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which city was the Cherry Blossom Festival celebrated?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "United Nations Fund for Populace Activities",
+        "b": "United Nations Fund for Population Activities",
+        "c": "United Nations Federation for People’s Activities",
+        "d": "United Nations Federation for Public Activities"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "UNFPA stands for",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khaled Hosseini",
+        "b": "Markus Zusak",
+        "c": "Yann Martel",
+        "d": "Malala Yousafzai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The author of the book ‘We are Displaced’ is",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aquaman",
+        "b": "Avengers: End Game",
+        "c": "John Wick 3",
+        "d": "Alita: Battle Angel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which movie beat Avatar to become the top Grossing Film Globally?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

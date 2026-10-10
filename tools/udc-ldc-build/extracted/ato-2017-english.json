@@ -1,0 +1,1373 @@
+{
+  "slug": "ato-2017-english",
+  "exam": "Assistant Tourist Officer under Tourism Department",
+  "sitting": "December 2017",
+  "subject": "General English",
+  "source": "ato-2017-english.pdf",
+  "sourceSha256": "83366651554541d5c8eb8223f2dbb761de9b3182d01864aefdfb7219e649c2a5",
+  "ocr": false,
+  "count": 57,
+  "questions": [
+    {
+      "n": 13,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 13 - 17) : Choose the correct form of the verb to fill in the blanks",
+      "opts": {
+        "a": "is",
+        "b": "are",
+        "c": "were",
+        "d": "was"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two and two ____ four",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 13 - 17) : Choose the correct form of the verb to fill in the blanks",
+      "opts": {
+        "a": "am having",
+        "b": "have",
+        "c": "was having",
+        "d": "had"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I ____ some rare books at home.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 13 - 17) : Choose the correct form of the verb to fill in the blanks",
+      "opts": {
+        "a": "to have given",
+        "b": "having given",
+        "c": "have given",
+        "d": "to give"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He promised ____ me a post in his department",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 13 - 17) : Choose the correct form of the verb to fill in the blanks",
+      "opts": {
+        "a": "are wanting",
+        "b": "wanted",
+        "c": "wants",
+        "d": "want"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Every man and woman ____ to live in peace",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 13 - 17) : Choose the correct form of the verb to fill in the blanks",
+      "opts": {
+        "a": "were",
+        "b": "am",
+        "c": "was",
+        "d": "have been"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I wish I ____ a preacher.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 18 - 22) : Insert appropriate prepositions from the givenalternatives :",
+      "opts": {
+        "a": "when",
+        "b": "after",
+        "c": "while",
+        "d": "by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There was a lost of commotion ____ the speaker left the hall.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 18 - 22) : Insert appropriate prepositions from the givenalternatives :",
+      "opts": {
+        "a": "from",
+        "b": "till",
+        "c": "after",
+        "d": "since"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It has been raining ____ yesterday.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 18 - 22) : Insert appropriate prepositions from the givenalternatives :",
+      "opts": {
+        "a": "to",
+        "b": "than",
+        "c": "instead of",
+        "d": "besides"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I prefer tea ____ coffee",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 18 - 22) : Insert appropriate prepositions from the givenalternatives :",
+      "opts": {
+        "a": "because of",
+        "b": "in favour of",
+        "c": "on behalf of",
+        "d": "in front of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "____ the team members, I would like to thank the club.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 18 - 22) : Insert appropriate prepositions from the givenalternatives :",
+      "opts": {
+        "a": "down",
+        "b": "along",
+        "c": "through",
+        "d": "across"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They walked ____ the lake for quite some time.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 23 - 32 ) : Name the underlined parts of speech .",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Pronoun",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This is the man **whom** you are speaking.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 23 - 32 ) : Name the underlined parts of speech .",
+      "opts": {
+        "a": "Adverb",
+        "b": "Adjective",
+        "c": "Verb",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This book is **unique.**",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 23 - 32 ) : Name the underlined parts of speech .",
+      "opts": {
+        "a": "Verb",
+        "b": "Conjunction",
+        "c": "Preposition",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Love** makes the world go round",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 23 - 32 ) : Name the underlined parts of speech .",
+      "opts": {
+        "a": "Noun",
+        "b": "Preposition",
+        "c": "Pronoun",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She walked **towards** him hurriedly.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 23 - 32 ) : Name the underlined parts of speech .",
+      "opts": {
+        "a": "Verb",
+        "b": "Adverb",
+        "c": "Adjective",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We **meet**  our friends in the park",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 23 - 32 ) : Name the underlined parts of speech .",
+      "opts": {
+        "a": "Noun",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He had **hardly** a friend.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 23 - 32 ) : Name the underlined parts of speech .",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Preposition",
+        "c": "Pronoun",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Let us catch a taxi **lest** we should be late.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 23 - 32 ) : Name the underlined parts of speech .",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Conjunction",
+        "c": "Adjective",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is as **accurate** as any other typist.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 23 - 32 ) : Name the underlined parts of speech .",
+      "opts": {
+        "a": "Preposition",
+        "b": "Verb",
+        "c": "Noun",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The woodcutter **felled** the tree",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 23 - 32 ) : Name the underlined parts of speech .",
+      "opts": {
+        "a": "Adjective",
+        "b": "Conjunction",
+        "c": "Adverb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The dog is man’s best friend. **It** is known for its loyalty.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 39 - 43) : Identify the sentences by picking out the correct answer :",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Assertive",
+        "c": "Interrogative",
+        "d": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why waste time in sleeping.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 39 - 43) : Identify the sentences by picking out the correct answer :",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Assertive",
+        "c": "Interrogative",
+        "d": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is taller than me.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 39 - 43) : Identify the sentences by picking out the correct answer :",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Assertive",
+        "c": "Interrogative",
+        "d": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was kind enough to help you.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 39 - 43) : Identify the sentences by picking out the correct answer :",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Assertive",
+        "c": "Interrogative",
+        "d": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "John is too clever to be cheated.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 39 - 43) : Identify the sentences by picking out the correct answer :",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Assertive",
+        "c": "Interrogative",
+        "d": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It never rains but pours.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 49 - 55) : Give one word substitution from the alternatives given :",
+      "opts": {
+        "a": "Panacea",
+        "b": "Pantheism",
+        "c": "Naturalism",
+        "d": "Anthropology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She belief that God pervades nature.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 49 - 55) : Give one word substitution from the alternatives given :",
+      "opts": {
+        "a": "Etymology",
+        "b": "Entomology",
+        "c": "Ethnology",
+        "d": "Ethology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The study of human behaviour.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 49 - 55) : Give one word substitution from the alternatives given :",
+      "opts": {
+        "a": "Plutocracy",
+        "b": "Neocracy",
+        "c": "Genetocracy",
+        "d": "Theocracy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Government by the rich.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 49 - 55) : Give one word substitution from the alternatives given :",
+      "opts": {
+        "a": "Scrutinizer",
+        "b": "examiner",
+        "c": "Invigilator",
+        "d": "tabulator"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who supervises in the examination hall.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 49 - 55) : Give one word substitution from the alternatives given :",
+      "opts": {
+        "a": "Hutch",
+        "b": "Hangar",
+        "c": "Drey",
+        "d": "Cache"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A place for housing aeroplanes.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 49 - 55) : Give one word substitution from the alternatives given :",
+      "opts": {
+        "a": "Cacophobia",
+        "b": "Cynophobia",
+        "c": "Cellophobia",
+        "d": "Catrophobia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fear of doctors.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 49 - 55) : Give one word substitution from the alternatives given :",
+      "opts": {
+        "a": "somniloguist",
+        "b": "soothsayer",
+        "c": "soliloguist",
+        "d": "somnambulist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who talks in sleep.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 56 - 60) : Choose the word nearest in meaning to the underlined word :",
+      "opts": {
+        "a": "belligerent",
+        "b": "explosive",
+        "c": "energetic",
+        "d": "intelligent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Our Chief Minister is young and **dynamic**",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 56 - 60) : Choose the word nearest in meaning to the underlined word :",
+      "opts": {
+        "a": "respectful",
+        "b": "gentle",
+        "c": "forceful",
+        "d": "rude"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He gave me an **insolent** answer.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 56 - 60) : Choose the word nearest in meaning to the underlined word :",
+      "opts": {
+        "a": "sagacity",
+        "b": "sanity",
+        "c": "scarcity",
+        "d": "secrecy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The judge was praised for his **wisdom**.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 56 - 60) : Choose the word nearest in meaning to the underlined word :",
+      "opts": {
+        "a": "intercede",
+        "b": "impose",
+        "c": "cross",
+        "d": "interfere"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tom asked Jerry not to **meddle** in his affairs.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 56 - 60) : Choose the word nearest in meaning to the underlined word :",
+      "opts": {
+        "a": "profitable",
+        "b": "dangerous",
+        "c": "challenging",
+        "d": "questionable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My uncle was involved in a **lucrative** business.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 61 - 65) : Pick out the phrase similar to the underlined sentence :",
+      "opts": {
+        "a": "went on a voyage",
+        "b": "became a sailor",
+        "c": "went to see the sea",
+        "d": "went on a cruise"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fela **went to sea** at an early age",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 61 - 65) : Pick out the phrase similar to the underlined sentence :",
+      "opts": {
+        "a": "almost no hope",
+        "b": "some hope",
+        "c": "no hope",
+        "d": "much hope"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There is **little hope** of his recovery.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 61 - 65) : Pick out the phrase similar to the underlined sentence :",
+      "opts": {
+        "a": "only blouse is blue",
+        "b": "only puan is blue",
+        "c": "both are almost blue",
+        "d": "both are blue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Apuii wears **a blue blouse and puan**.",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 61 - 65) : Pick out the phrase similar to the underlined sentence :",
+      "opts": {
+        "a": "traded in cards",
+        "b": "throw away the cards",
+        "c": "distributed the cards",
+        "d": "used to playing cards"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mawia **dealt the cards**.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 61 - 65) : Pick out the phrase similar to the underlined sentence :",
+      "opts": {
+        "a": "at the end of a week",
+        "b": "before the end of a week",
+        "c": "in the middle of a week",
+        "d": "at the first day of a week"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My aunt will return **in a week**.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 66 - 70) : Fill in the blanks with the correct cries of these animals :",
+      "opts": {
+        "a": "bleat",
+        "b": "laugh",
+        "c": "grunt",
+        "d": "cry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hyenas _____",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 66 - 70) : Fill in the blanks with the correct cries of these animals :",
+      "opts": {
+        "a": "hoot",
+        "b": "low",
+        "c": "scream",
+        "d": "chatter"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Owls _____",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 66 - 70) : Fill in the blanks with the correct cries of these animals :",
+      "opts": {
+        "a": "croak",
+        "b": "cackle",
+        "c": "neigh",
+        "d": "trumpet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Elephants _____",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 66 - 70) : Fill in the blanks with the correct cries of these animals :",
+      "opts": {
+        "a": "twitter",
+        "b": "cluck",
+        "c": "yell",
+        "d": "caw"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Foxes _____",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Question 66 - 70) : Fill in the blanks with the correct cries of these animals :",
+      "opts": {
+        "a": "strut",
+        "b": "chirp",
+        "c": "crow",
+        "d": "grunt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Peacocks _____",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 71 - 80) : Choose the correct meaning of the underlined idioms and phrases :",
+      "opts": {
+        "a": "with all colours",
+        "b": "without fail",
+        "c": "in writing",
+        "d": "in completion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Please give me everything **in black and white.**",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 71 - 80) : Choose the correct meaning of the underlined idioms and phrases :",
+      "opts": {
+        "a": "deliberately",
+        "b": "slowly",
+        "c": "in anger",
+        "d": "without intention"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He killed his wife **in cold blood**.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 71 - 80) : Choose the correct meaning of the underlined idioms and phrases :",
+      "opts": {
+        "a": "Cause of brotherhood",
+        "b": "Cause of love",
+        "c": "Cause of strength",
+        "d": "Cause of dispute"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Money was the **bone of contention**.",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 71 - 80) : Choose the correct meaning of the underlined idioms and phrases :",
+      "opts": {
+        "a": "not working",
+        "b": "lost control",
+        "c": "brake failed",
+        "d": "steering failed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The car has gone **out of gear**.",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 71 - 80) : Choose the correct meaning of the underlined idioms and phrases :",
+      "opts": {
+        "a": "complete silence",
+        "b": "emotion and tears",
+        "c": "a great noise",
+        "d": "whisper and tears"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The manager could not speak as there was **hue and cry** in the room.",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 71 - 80) : Choose the correct meaning of the underlined idioms and phrases :",
+      "opts": {
+        "a": "recover from illness",
+        "b": "unexpectedly",
+        "c": "as expected",
+        "d": "out from prison"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It was wonderful when my uncle turned up **out of the blue**.",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 71 - 80) : Choose the correct meaning of the underlined idioms and phrases :",
+      "opts": {
+        "a": "to stop doing something",
+        "b": "to fix another date",
+        "c": "to continue the next day",
+        "d": "to relax for sometime"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They decided **to call it a day** when they felt tired.",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 71 - 80) : Choose the correct meaning of the underlined idioms and phrases :",
+      "opts": {
+        "a": "very early",
+        "b": "on a secret purpose",
+        "c": "in a state of disorder",
+        "d": "in the evening"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arun left his room **at sixes and sevens.**",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 71 - 80) : Choose the correct meaning of the underlined idioms and phrases :",
+      "opts": {
+        "a": "away from public gaze",
+        "b": "inside the minister’s chamber",
+        "c": "away from party workers",
+        "d": "Inside the meeting room"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Many politics of the government are discussed **behind the curtain.**",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 71 - 80) : Choose the correct meaning of the underlined idioms and phrases :",
+      "opts": {
+        "a": "partially",
+        "b": "completely",
+        "c": "no more",
+        "d": "always"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is under debt **to the finger - nails**",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on **any one** of the given topics (not more than 300 words)(20) –Problems and Pleasures of City Life. –Economical importance of Tourism in India. –My Idea of Success.",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q1 (p2, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q2 (p2, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q3 (p2, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q4 (p2, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q5 (p2, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q6 (p2, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q7 (p2, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q8 (p2, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q9 (p2, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q10 (p2, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q11 (p2, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q12 (p2, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q33 (p4, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q34 (p4, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q35 (p5, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q36 (p5, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q37 (p5, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q38 (p5, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q44 (p5, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q45 (p5, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q46 (p5, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q47 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q48 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "B": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      44,
+      45,
+      46,
+      47,
+      48
+    ]
+  }
+}

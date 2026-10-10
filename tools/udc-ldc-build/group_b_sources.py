@@ -11,6 +11,8 @@ import re
 from collections import defaultdict
 import hashlib
 from pathlib import Path
+from mimer_sources import build_computer_paper
+from si_excise_2014 import build_si_excise_2014
 
 ROOT = Path(__file__).resolve().parents[2]
 ARCHIVE = ROOT.parent / 'mpsc-question-bank' / 'pdfs' / 'Old_Questions'
@@ -59,6 +61,56 @@ GENERAL_PAPERS = [
  ('je-agri-2026-p1', 'Junior Engineer, Agriculture & Farmer Welfare', 'March 2026', 'General English', 'JE under Agri&Farmer Welfare March-2026 Paper-I (Gen. English)..pdf'),
  ('si-excise-2024-p1', 'Sub-Inspector of Excise & Narcotics', 'August 2024', 'General English', 'Sub-Inspector of Excise Paper-I August-2024..pdf'),
  ('si-excise-2024-p2', 'Sub-Inspector of Excise & Narcotics', 'August 2024', 'General Knowledge', 'Sub-Inspector of Excise Paper-II August-2024..pdf'),
+ ('mimer-labtech-2018-english', 'MIMER common recruitment', 'February 2018', 'General English', '1.General English Common Paper.pdf'),
+ ('si-police-ub-2018-english', 'Sub Inspector (UB) under Home Department', 'October 2018', 'General English', 'si-police-ub-2018-english.pdf'),
+ ('si-police-ub-2018-gk', 'Sub Inspector (UB) under Home Department', 'October 2018', 'General Knowledge', 'si-police-ub-2018-gk.pdf'),
+ ('si-police-ub-2018-mathematics', 'Sub Inspector (UB) under Home Department', 'October 2018', 'Mathematics', 'si-police-ub-2018-mathematics.pdf'),
+ ('horticulture-demonstrator-2018-english', 'Sr. Horticulture Demonstrator under Horticulture Department', 'April 2018', 'General English', 'horticulture-demonstrator-2018-english.pdf'),
+ ('si-fcs-2018-english', 'Sub-Inspector under FCS&CA Department', 'November 2018', 'General English', 'si-fcs-2018-english.pdf'),
+ ('si-fcs-2018-gs1', 'Sub-Inspector under FCS&CA Department', 'November 2018', 'General Studies Paper-I', 'si-fcs-2018-gs1.pdf'),
+ ('si-fcs-2018-gs2', 'Sub-Inspector under FCS&CA Department', 'November 2018', 'General Studies Paper-II', 'si-fcs-2018-gs2.pdf'),
+ ('programmer-phe-2018-english-p1', 'Programmer under PHE Department', 'July 2018', 'General English Paper-I', 'programmer-phe-2018-english-p1.pdf'),
+ ('programmer-phe-2018-english-p2', 'Programmer under PHE Department', 'July 2018', 'General English Paper-II', 'programmer-phe-2018-english-p2.pdf'),
+ ('sericulture-seo-2018-english-p1', 'Sericulture Extension Officer under Sericulture Department', 'September 2018', 'General English Paper-I', 'sericulture-seo-2018-english-p1.pdf'),
+ ('sericulture-seo-2018-english-p2', 'Sericulture Extension Officer under Sericulture Department', 'September 2018', 'General English Paper-II', 'sericulture-seo-2018-english-p2.pdf'),
+ ('station-officer-2018-english', 'Station Officer, Fire & Emergency Services under Home Department', 'October 2018', 'General English', 'station-officer-2018-english.pdf'),
+ ('station-officer-2018-gk', 'Station Officer, Fire & Emergency Services under Home Department', 'October 2018', 'General Knowledge', 'station-officer-2018-gk.pdf'),
+ ('station-officer-2018-mathematics', 'Station Officer, Fire & Emergency Services under Home Department', 'October 2018', 'Mathematics', 'station-officer-2018-mathematics.pdf'),
+ ('mes-pwd-2018-english', 'Jr. Grade of Mizoram Engineering Service (MES) under PWD', 'August 2018', 'General English', 'mes-pwd-2018-english.pdf'),
+ ('mes-pwd-2018-gs', 'Jr. Grade of Mizoram Engineering Service (MES) under PWD', 'August 2018', 'General Studies', 'mes-pwd-2018-gs.pdf'),
+ ('mes-power-2018-english', 'Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department', 'August 2018', 'General English', 'mes-power-2018-english.pdf'),
+ ('mes-power-2018-gs', 'Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department', 'August 2018', 'General Studies', 'mes-power-2018-gs.pdf'),
+ ('veterinary-officer-2018-english-p1', 'Jr. Grade of MAH & Veterinary Science (Veterinary Officer)', 'September 2018', 'General English Paper-I', 'veterinary-officer-2018-english-p1.pdf'),
+ ('veterinary-officer-2018-english-p2', 'Jr. Grade of MAH & Veterinary Science (Veterinary Officer)', 'September 2018', 'General English Paper-II', 'veterinary-officer-2018-english-p2.pdf'),
+ ('je-iwr-2018-english', 'Junior Engineer under Irrigation & Water Resources', 'October 2018', 'General English', 'je-iwr-2018-english.pdf'),
+ ('assistant-jailor-2018-english', 'Assistant Jailor under Home (Prison) Department', 'February 2018', 'General English', 'assistant-jailor-2018-english.pdf'),
+ ('asi-home-2018-english', 'Assistant Sub-Inspector under Home Department', 'October 2018', 'General English', 'asi-home-2018-english.pdf'),
+ ('asi-home-2018-gk', 'Assistant Sub-Inspector under Home Department', 'October 2018', 'General Knowledge', 'asi-home-2018-gk.pdf'),
+ ('asi-home-2018-mathematics', 'Assistant Sub-Inspector under Home Department', 'October 2018', 'Mathematics', 'asi-home-2018-mathematics.pdf'),
+ ('assistant-grade-2018-p1', 'Assistant Grade', 'April 2018', 'Paper-I', 'assistant-grade-2018-p1.pdf'),
+ ('assistant-grade-2018-p2', 'Assistant Grade', 'April 2018', 'Paper-II', 'assistant-grade-2018-p2.pdf'),
+ ('acf-2018-english', 'Assistant Conservator of Forest', '2018', 'General English', 'acf-2018-english.pdf'),
+ ('acf-2018-gk', 'Assistant Conservator of Forest', '2018', 'General Knowledge', 'acf-2018-gk.pdf'),
+
+ ('ato-2017-english', 'Assistant Tourist Officer under Tourism Department', 'December 2017', 'General English', 'ato-2017-english.pdf'),
+ ('feo-2017-english-p1', 'Fishery Extension Officer under Fisheries Department', 'December 2017', 'General English Paper-I', 'feo-2017-english-p1.pdf'),
+ ('feo-2017-english-p2', 'Fishery Extension Officer under Fisheries Department', 'December 2017', 'General English Paper-II', 'feo-2017-english-p2.pdf'),
+ ('mhs-grade-v-2017-english-p1', 'Grade-V of Mizoram Horticulture Service', 'November 2017', 'General English Paper-I', 'mhs-grade-v-2017-english-p1.pdf'),
+ ('mhs-grade-v-2017-english-p2', 'Grade-V of Mizoram Horticulture Service', 'November 2017', 'General English Paper-II', 'mhs-grade-v-2017-english-p2.pdf'),
+ ('labtech-hfw-2017-english', 'Laboratory Technician (Contract) under Health & Family Welfare Department', 'February 2017', 'General English', 'labtech-hfw-2017-english.pdf'),
+ ('mcon-lecturer-2017-english-p1', 'Lecturer under Mizoram College of Nursing', 'January 2017', 'General English Paper-I', 'mcon-lecturer-2017-english-p1.pdf'),
+ ('assistant-prof-geography-2017-english', 'Assistant Professor Stage-I (Geography) under Higher & Technical Education Department', 'September 2017', 'General English', 'assistant-prof-geography-2017-english.pdf'),
+ ('ada-2014-english', 'Assistant Divisional Accountant under Finance Department', '2014', 'General English', 'ada-2014-english.pdf'),
+ ('ada-2014-gk', 'Assistant Divisional Accountant under Finance Department', '2014', 'General Knowledge', 'ada-2014-gk.pdf'),
+ ('ada-2014-arithmetic', 'Assistant Divisional Accountant under Finance Department', '2014', 'Arithmetic', 'ada-2014-arithmetic.pdf'),
+ ('mes-phe-2014-english', 'Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department', '2014', 'General English', 'mes-phe-2014-english.pdf'),
+ ('mes-phe-2014-gs', 'Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department', '2014', 'General Studies', 'mes-phe-2014-gs.pdf'),
+ ('mes-pe-2012-english-p1', 'Jr. Grade of Mizoram Engineering Service (AE/SDO) under Power & Electricity Department', 'January 2012', 'General English Paper-I', 'mes-pe-2012-english-p1.pdf'),
+ ('mes-pe-2012-english-p2', 'Jr. Grade of Mizoram Engineering Service (AE/SDO) under Power & Electricity Department', 'January 2012', 'General English Paper-II', 'mes-pe-2012-english-p2.pdf'),
+ ('mes-pe-2012-aptitude', 'Jr. Grade of Mizoram Engineering Service (AE/SDO) under Power & Electricity Department', 'January 2012', 'General Aptitude Test', 'mes-pe-2012-aptitude.pdf'),
+ ('si-excise-2014-p1', 'Sub-Inspector under Excise & Narcotics Department', 'March 2014', 'General English', 'si-excise-2014-p1.pdf'),
+ ('si-excise-2014-p2', 'Sub-Inspector under Excise & Narcotics Department', 'March 2014', 'General Studies Paper-I', 'si-excise-2014-p2.pdf'),
+ ('si-excise-2014-p3', 'Sub-Inspector under Excise & Narcotics Department', 'March 2014', 'General Studies Paper-II', 'si-excise-2014-p3.pdf'),
  ('si-excise-2025-p1', 'Sub-Inspector of Excise & Narcotics', 'April 2025', 'General English', 'Sub-Inspector of Excise General English Paper-I April-2025..pdf'),
  ('si-excise-2025-p2', 'Sub-Inspector of Excise & Narcotics', 'April 2025', 'General Knowledge & Reasoning', 'Sub-Inspector of Excise General Knowledge Paper-II April-2025 A..pdf'),
  ('si-fcs-2025-p1', 'Sub-Inspector FCS&CA / Receptionist H&FW', 'May 2025', 'General English', 'Paper-I General English (Series A)..pdf'),
@@ -74,13 +126,266 @@ GENERAL_PAPERS = [
  ('si-police-2026-p1', 'Sub-Inspector of Police (Un-armed Branch)', 'March 2026', 'General English', 'Sub-Inspector of Police (UB) March-2026 Paper-I.pdf'),
  ('si-police-2026-p2', 'Sub-Inspector of Police (Un-armed Branch)', 'March 2026', 'General Knowledge & Reasoning', 'Sub-Inspector of Police (UB) March-2026 Paper-II..pdf'),
 ]
+# Old Questions 2019-2020 (archive folder Direct_2019-2020). This covers the
+# clerical / UDC / Assistant Grade papers in full plus the non-technical
+# (General English, General Studies, General Knowledge and General Science)
+# papers of the technical examinations. Pure technical subject papers are
+# intentionally excluded.
+GENERAL_PAPERS_2019 = [
+ ('ada-aa-ata-2019-arithmetic', 'ADA, ATA & Assistant Auditor under Finance Department', '2019', 'Arithmetic', 'ADA, AA & ATA Arithmatic.pdf'),
+ ('ada-aa-ata-2019-english', 'ADA, ATA & Assistant Auditor under Finance Department', '2019', 'General English', 'ADA, AA & ATA General English.pdf'),
+ ('ada-aa-ata-2019-gk', 'ADA, ATA & Assistant Auditor under Finance Department', '2019', 'General Knowledge', 'ADA, AA & ATA General Knowledge.pdf'),
+ ('assistant-grade-mpsc-2019-p1', 'Assistant Grade under MPSC', '2019', 'Paper-I', 'Asst. Grade under MPSC Paper-1.pdf'),
+ ('assistant-grade-mpsc-2019-p2', 'Assistant Grade under MPSC', '2019', 'Paper-II', 'Asst. Grade under MPSC Paper-II.pdf'),
+ ('ceo-2019-english-p1', 'Circle Education Officer under School Education Department', '2019', 'General English Paper-I', 'CEO General English-I.pdf'),
+ ('ceo-2019-english-p2', 'Circle Education Officer under School Education Department', '2019', 'General English Paper-II', 'CEO General English-II.pdf'),
+ ('coach1-2019-english', 'Coach Grade-I under Sports & Youth Service Department', '2019', 'General English', 'Coach Grade-I General English.pdf'),
+ ('coach3-2019-english', 'Coach Grade-III under Sports & Youth Service Department', '2019', 'General English', 'Coach Grade-III General English.pdf'),
+ ('co-ahvety-2019-english', 'Computer Operator under Animal Husbandry & Veterinary Department', '2019', 'General English', 'General English(AH&Vety).pdf'),
+ ('co-election-2019-english', 'Computer Operator under Election Department', '2019', 'General English', 'General English(Election).pdf'),
+ ('dso-2019-english', 'Deputy Store Officer under Home Department', '2019', 'General English', 'General English (DSO).pdf'),
+ ('dso-2019-gs1', 'Deputy Store Officer under Home Department', '2019', 'General Studies Paper-I', 'General Studies Paper-I (DSO).pdf'),
+ ('dso-2019-gs2', 'Deputy Store Officer under Home Department', '2019', 'General Studies Paper-II', 'General Studies Paper-II (DSO).pdf'),
+ ('do-mar-2019-english', 'District Organiser (Contract) under DM & R Department', 'March 2019', 'General English', 'General English(DO, March).pdf'),
+ ('do-mar-2019-gs1', 'District Organiser (Contract) under DM & R Department', 'March 2019', 'General Studies Paper-I', 'General Studies Paper-I (DO, March).pdf'),
+ ('do-mar-2019-gs2', 'District Organiser (Contract) under DM & R Department', 'March 2019', 'General Studies Paper-II', 'General Studies Paper-II (DO, March).pdf'),
+ ('do-oct-2019-english', 'District Organiser (Contract) under DM & R Department', 'October 2019', 'General English', 'General English (DO, Oct).pdf'),
+ ('do-oct-2019-gs1', 'District Organiser (Contract) under DM & R Department', 'October 2019', 'General Studies Paper-I', 'General Studies Paper-I (DO, Oct).pdf'),
+ ('do-oct-2019-gs2', 'District Organiser (Contract) under DM & R Department', 'October 2019', 'General Studies Paper-II', 'General Studies Paper-II (DO, Oct).pdf'),
+ ('eo-2019-english-p1', 'Employment Officer under Labour, Employment & Industrial Training Department', '2019', 'General English Paper-I', 'General Englsih Paper-I (EO).pdf'),
+ ('eo-2019-english-p2', 'Employment Officer under Labour, Employment & Industrial Training Department', '2019', 'General English Paper-II', 'General Englsih Paper-II (EO).pdf'),
+ ('eo-2019-gs1', 'Employment Officer under Labour, Employment & Industrial Training Department', '2019', 'General Studies Paper-I', 'General Studies Paper-I (EO).pdf'),
+ ('eo-2019-gs2', 'Employment Officer under Labour, Employment & Industrial Training Department', '2019', 'General Studies Paper-II', 'General Studies Paper-II (EO).pdf'),
+ ('eo-2019-gs3', 'Employment Officer under Labour, Employment & Industrial Training Department', '2019', 'General Studies Paper-III', 'General Studies Paper-III (EO).pdf'),
+ ('fr-2019-english-1', 'Forest Ranger under Environment, Forest & Climate Change Department', '2019', 'General English Paper-I', 'General English-I (FR).pdf'),
+ ('fr-2019-english-2', 'Forest Ranger under Environment, Forest & Climate Change Department', '2019', 'General English Paper-II', 'General English-II (FR).pdf'),
+ ('fr-2019-science-1', 'Forest Ranger under Environment, Forest & Climate Change Department', '2019', 'General Science Paper-I', 'General Science-I (FR).pdf'),
+ ('fr-2019-science-2', 'Forest Ranger under Environment, Forest & Climate Change Department', '2019', 'General Science Paper-II', 'General Science-II (FR).pdf'),
+ ('fr-2019-science-3', 'Forest Ranger under Environment, Forest & Climate Change Department', '2019', 'General Science Paper-III', 'General Science-III (FR).pdf'),
+ ('aeo-2019-english', 'Grade-V of Mizoram Agriculture Service (AEO) under Agriculture Department', '2019', 'General English', 'General English(AEO).pdf'),
+ ('iof-2019-english', 'Inspector of Factories under Labour Employment Department', '2019', 'General English', 'General English (IoF).pdf'),
+ ('iof-2019-gs', 'Inspector of Factories under Labour Employment Department', '2019', 'General Studies', 'General Studies (IoF).pdf'),
+ ('inspector-excise-2019-english-p1', 'Inspector under Excise & Narcotics Department', '2019', 'General English Paper-I', 'General English Paper-I (Inspector of Excise).pdf'),
+ ('inspector-excise-2019-english-p2', 'Inspector under Excise & Narcotics Department', '2019', 'General English Paper-II', 'General English Paper-II (Inspector of Excise).pdf'),
+ ('inspector-excise-2019-gs1', 'Inspector under Excise & Narcotics Department', '2019', 'General Studies Paper-I', 'General Studies Paper-I (Inspector of Excise).pdf'),
+ ('inspector-excise-2019-gs2', 'Inspector under Excise & Narcotics Department', '2019', 'General Studies Paper-II', 'General Studies Paper-II (Inspector of Excise).pdf'),
+ ('inspector-excise-2019-gs3', 'Inspector under Excise & Narcotics Department', '2019', 'General Studies Paper-III', 'General Studies Paper-III (Inspector of Excise).pdf'),
+ ('je-phe-2019-english', 'Junior Engineer under PHE Department', '2019', 'General English', 'General English (JE).pdf'),
+ ('vo-2019-english-p1', 'Jr. Grade of Mizoram Animal Husbandry & Veterinary Service (Veterinary Officer)', '2019', 'General English Paper-I', 'General English Paper-I (V.O).pdf'),
+ ('vo-2019-english-p2', 'Jr. Grade of Mizoram Animal Husbandry & Veterinary Service (Veterinary Officer)', '2019', 'General English Paper-II', 'General English Paper-II (V.O).pdf'),
+ ('mes-phe-2019-english', 'Jr. Grade of Mizoram Engineering Service (MES) under PHE Department', '2019', 'General English', 'General English (PHE).pdf'),
+ ('mes-phe-2019-gs', 'Jr. Grade of Mizoram Engineering Service (MES) under PHE Department', '2019', 'General Studies', 'General Studies (PHE).pdf'),
+ ('jics-2019-english', 'Junior Inspector of Co-operative Societies under Co-operation Department', '2019', 'General English', 'General English (JICS).pdf'),
+ ('jics-2019-gs1', 'Junior Inspector of Co-operative Societies under Co-operation Department', '2019', 'General Studies Paper-I', 'General Studies Paper-I (JICS).pdf'),
+ ('jics-2019-gs2', 'Junior Inspector of Co-operative Societies under Co-operation Department', '2019', 'General Studies Paper-II', 'General Studies Paper-II (JICS).pdf'),
+ ('la-2019-english', 'Laboratory Assistant under Commerce & Industries Department', '2019', 'General English', 'General English (LA).pdf'),
+ ('lib-lunglei-2019-english', 'Librarian under Health & Family Welfare Department (Lunglei)', '2019', 'General English', 'General English (Lib.-Lunglei).pdf'),
+ ('scr-2019-english', 'Soil Conservation Ranger (Contract) under LRS & WC Department', '2019', 'General English', 'General English(SCR).pdf'),
+ ('staff-nurse-2019-english', 'Staff Nurse under Health & Family Welfare Department', '2019', 'General English', 'General English(Staff Nurse).pdf'),
+ ('sub-div-lib-2019-english', 'Sub-Divisional Librarian under Art & Culture Department', '2019', 'General English', 'General English (Sub-Div. Lib.).pdf'),
+ ('surveyor-2019-english', 'Surveyor-I under Land Revenue & Settlement Department', '2019', 'General English', 'General English (Surveyor-I).pdf'),
+ ('translator-2019-english', 'Translator under Art & Culture Department', '2019', 'General English', 'General English (Translator).pdf'),
+ ('translator-2019-gs1', 'Translator under Art & Culture Department', '2019', 'General Studies Paper-I', 'General Studies Paper-I (Translator).pdf'),
+ ('translator-2019-gs2', 'Translator under Art & Culture Department', '2019', 'General Studies Paper-II', 'General Studies Paper-II (Translator).pdf'),
+ ('tutor-mcon-2019-english', 'Tutor under Mizoram College of Nursing, Health & Family Welfare Department', '2019', 'General English', 'General English (Tutor, MCON).pdf'),
+ ('udc-combined-2019-p1', 'UDC (Combined) under Various Departments', '2019', 'Paper-I', 'Paper-I (Various Deptt).pdf'),
+ ('udc-combined-2019-p2', 'UDC (Combined) under Various Departments', '2019', 'Paper-II', 'Paper-II (Various Deptt).pdf'),
+ ('udc-agri-2019-p1', 'UDC under Agriculture (Research & Education) Department', '2019', 'Paper-I', 'Paper-I(Agri-R&E).pdf'),
+ ('udc-agri-2019-p2', 'UDC under Agriculture (Research & Education) Department', '2019', 'Paper-II', 'Paper-II (Agri-R&E).pdf'),
+ ('udc-dc-aizawl-2019-p1', 'UDC under DC Office, Aizawl', '2019', 'Paper-I', 'Paper-I (DC-Aizawl).pdf'),
+ ('udc-dc-aizawl-2019-p2', 'UDC under DC Office, Aizawl', '2019', 'Paper-II', 'Paper-II (DC-Aizawl).pdf'),
+ ('udc-dc-serchhip-2019-p1', 'UDC under DC Office, Serchhip', '2019', 'Paper-I', 'Paper-I (DC-Serchhip).pdf'),
+ ('udc-dc-serchhip-2019-p2', 'UDC under DC Office, Serchhip', '2019', 'Paper-II', 'Paper-II (DC-Serchhip).pdf'),
+ ('udc-forensic-2019-p1', 'UDC under Home (Forensic) Department', '2019', 'Paper-I', 'Paper-I (Home-Forensic).pdf'),
+ ('udc-forensic-2019-p2', 'UDC under Home (Forensic) Department', '2019', 'Paper-II', 'Paper-II (Home-Forensic).pdf'),
+ ('udc-horti-2019-p1', 'UDC under Horticulture Department', '2019', 'Paper-I', 'Paper-I (Horti.).pdf'),
+ ('udc-horti-2019-p2', 'UDC under Horticulture Department', '2019', 'Paper-II', 'Paper-II (Horti.).pdf'),
+ ('udc-revenue-2019-p1', 'UDC under Land Revenue & Settlement Department', '2019', 'Paper-I', 'Paper-I (Revenue).pdf'),
+ ('udc-revenue-2019-p2', 'UDC under Land Revenue & Settlement Department', '2019', 'Paper-II', 'Paper-II (Revenue).pdf'),
+ ('udc-mpsc-2019-p1', 'UDC under MPSC', '2019', 'Paper-I', 'Paper-I (MPSC).pdf'),
+ ('udc-mpsc-2019-p2', 'UDC under MPSC', '2019', 'Paper-II', 'Paper-II (MPSC).pdf'),
+ ('udc-rd-2019-p1', 'UDC under Rural Development Department', '2019', 'Paper-I', 'Paper-I (RD).pdf'),
+ ('udc-rd-2019-p2', 'UDC under Rural Development Department', '2019', 'Paper-II', 'Paper-II (RD).pdf'),
+ ('udc-transport-2019-p1', 'UDC under Transport Department', '2019', 'Paper-I', 'Paper-I (Transport).pdf'),
+ ('udc-transport-2019-p2', 'UDC under Transport Department', '2019', 'Paper-II', 'Paper-II (Transport).pdf'),
+ ('eo-leit-2019-english-p1', 'Employment Officer under Labour, Employment & Industrial Training Department (second series)', '2019', 'General English Paper-I', 'Employment Officer under LE&IT Deptt Gen English Paper-I.pdf'),
+ ('eo-leit-2019-english-p2', 'Employment Officer under Labour, Employment & Industrial Training Department (second series)', '2019', 'General English Paper-II', 'Employment Officer under LE&IT Deptt Gen English Paper-II.pdf'),
+ ('eo-leit-2019-gs1', 'Employment Officer under Labour, Employment & Industrial Training Department (second series)', '2019', 'General Studies Paper-I', 'Employment Officer under LE&IT Deptt GS Paper-I.pdf'),
+ ('eo-leit-2019-gs2', 'Employment Officer under Labour, Employment & Industrial Training Department (second series)', '2019', 'General Studies Paper-II', 'Employment Officer under LE&IT Deptt GS Paper-II.pdf'),
+ ('eo-leit-2019-gs3', 'Employment Officer under Labour, Employment & Industrial Training Department (second series)', '2019', 'General Studies Paper-III', 'Employment Officer under LE&IT Deptt GS Paper-III.pdf'),
+ ('ae-civil-tourism-2020-english', 'Assistant Engineer (Civil) under Tourism Department', '2020', 'General English', 'Asst. Engineer (Civil) Deptt. General Englsih.pdf'),
+ ('ae-civil-tourism-2020-gs', 'Assistant Engineer (Civil) under Tourism Department', '2020', 'General Studies', 'Asst. Engineer (Civil) Deptt. General Studies.pdf'),
+ ('chemist2-2020-english', 'Chemist-II (Archives) under Art & Culture Department', '2020', 'General English', 'Chemist-II General Englsih.pdf'),
+ ('museum-guide-2020-english', 'Museum Guide under Art & Culture Department', '2020', 'General English', 'Museum Guide General Englsih.pdf'),
+ ('museum-guide-2020-gs1', 'Museum Guide under Art & Culture Department', '2020', 'General Studies Paper-I', 'Museum Guide General Studies-I.pdf'),
+ ('museum-guide-2020-gs2', 'Museum Guide under Art & Culture Department', '2020', 'General Studies Paper-II', 'Museum Guide General Studies-II.pdf'),
+ ('udc-arc-2020-p1', 'UDC under ARCS Department', '2020', 'Paper-I', 'UDC ARC Paper-I.pdf'),
+ ('udc-arc-2020-p2', 'UDC under ARCS Department', '2020', 'Paper-II', 'UDC ARC Paper-II.pdf'),
+ ('aap-2020-english', 'Assistant Public Prosecutor under Lokayukta, Vigilance Department', '2020', 'General English', 'AAP General English.pdf'),
+ ('aap-2020-gs', 'Assistant Public Prosecutor under Lokayukta, Vigilance Department', '2020', 'General Studies', 'AAP General Studies.pdf'),
+ ('geologist-jun-nov-2020-english-p1', 'Geologist Junior under Commerce & Industries Department (November)', 'November 2020', 'General English Paper-I', 'Geologist Junior General Englsih Paper-I Nov.pdf'),
+ ('geologist-jun-nov-2020-english-p2', 'Geologist Junior under Commerce & Industries Department (November)', 'November 2020', 'General English Paper-II', 'Geologist Junior General Englsih Paper-II Nov.pdf'),
+ ('geologist-jun-nov-2020-english-p3', 'Geologist Junior under Commerce & Industries Department (November)', 'November 2020', 'General English Paper-III', 'Geologist Junior General Englsih Paper-III Nov.pdf'),
+ ('geologist-jun-2020-english-p1', 'Geologist Junior under Commerce & Industries Department', '2020', 'General English Paper-I', 'Geologist Junior General English Paper-I.pdf'),
+ ('geologist-jun-2020-english-p2', 'Geologist Junior under Commerce & Industries Department', '2020', 'General English Paper-II', 'Geologist Junior General English Paper-II.pdf'),
+ ('geologist-jun-2020-english-p3', 'Geologist Junior under Commerce & Industries Department', '2020', 'General English Paper-III', 'Geologist Junior General English Paper-III.pdf'),
+ ('je-agri-2020-english', 'Junior Engineer under Agriculture Department (Crop Husbandry)', '2020', 'General English', 'JE General English.pdf'),
+ ('mes-pwd-2020-english', 'Jr. Grade of Mizoram Engineering Service (MES) under PWD', '2020', 'General English', 'MES General Englsih.pdf'),
+ ('mes-pwd-2020-gs', 'Jr. Grade of Mizoram Engineering Service (MES) under PWD', '2020', 'General Studies', 'MES General Studies.pdf'),
+ ('mpe-ss-2020-english', 'Junior Grade of MPE & SS under Planning & Programme Implementation Department', '2020', 'General English', 'MPE&SS General Englsih.pdf'),
+ ('mpe-ss-2020-gk', 'Junior Grade of MPE & SS under Planning & Programme Implementation Department', '2020', 'General Knowledge', 'MPE&SS General Knowledge.pdf'),
+ ('seo-2020-english-p1', 'Sericulture Extension Officer under Sericulture Department', '2020', 'General English Paper-I', 'SEO General English.pdf'),
+ ('seo-2020-english-p2', 'Sericulture Extension Officer under Sericulture Department', '2020', 'General English Paper-II', 'SEO General English-II.pdf'),
+ ('to-2020-english-p1', 'Tourist Officer under Tourism Department', 'December 2020', 'General English Paper-I', 'T.O General English Paper-I.pdf'),
+ ('to-2020-english-p2', 'Tourist Officer under Tourism Department', 'December 2020', 'General English Paper-II', 'T.O General English Paper-II.pdf'),
+ ('inspector-fcs-2019-english-p1', 'Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector)', '2019', 'General English Paper-I', 'Inspector under F,CS & CA Dept-2019, General English Paper I.pdf'),
+ ('inspector-fcs-2019-english-p2', 'Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector)', '2019', 'General English Paper-II', 'Inspector under F,CS & CA Dept-2019, General English Paper II..pdf'),
+ ('inspector-fcs-2019-gs1', 'Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector)', '2019', 'General Studies Paper-I', 'Inspector under F,CS & CA Dept-2019, General Studies Paper I..pdf'),
+ ('inspector-fcs-2019-gs2', 'Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector)', '2019', 'General Studies Paper-II', 'Inspector under F,CS & CA Dept-2019, General Studies Paper II..pdf'),
+ ('inspector-fcs-2019-gs3', 'Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector)', '2019', 'General Studies Paper-III', 'Inspector under F,CS & CA Dept-2019, General Studies Paper III..pdf'),
+]
+ALL_GENERAL_PAPERS = GENERAL_PAPERS + GENERAL_PAPERS_2019
+DIRECT_2019_SLUGS = {row[0] for row in GENERAL_PAPERS_2019}
+
+# Marking scheme read from each 2019-2020 printed cover (marks per question and
+# time allowed). The papers are unscored (no official keys are published for
+# this batch), so this metadata only lets the library report coverage and keeps
+# Exam mode honest if a paper ever gains a verified key. Papers whose cover
+# prints 150 or 200 total marks award two marks per question; every other cover
+# awards one. `expectedMcq` is derived at build time from the highest printed
+# question number, which is the true paper total because each paper ends with a
+# printed end-of-paper marker.
+GENERAL_PAPERS_2019_META = {
+    'ada-aa-ata-2019-arithmetic': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'ada-aa-ata-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'ada-aa-ata-2019-gk': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'assistant-grade-mpsc-2019-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'assistant-grade-mpsc-2019-p2': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'ceo-2019-english-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'ceo-2019-english-p2': {'marksPerQuestion': 1, 'durationMinutes': 120},
+    'coach1-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'coach3-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'co-ahvety-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'co-election-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'dso-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'dso-2019-gs1': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'dso-2019-gs2': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'do-mar-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'do-mar-2019-gs1': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'do-mar-2019-gs2': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'do-oct-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'do-oct-2019-gs1': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'do-oct-2019-gs2': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'eo-2019-english-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'eo-2019-english-p2': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'eo-2019-gs1': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'eo-2019-gs2': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'eo-2019-gs3': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'fr-2019-english-1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'fr-2019-english-2': {'marksPerQuestion': 1, 'durationMinutes': 120},
+    'fr-2019-science-1': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'fr-2019-science-2': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'fr-2019-science-3': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'aeo-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'iof-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'iof-2019-gs': {'marksPerQuestion': 1, 'durationMinutes': 120},
+    'inspector-excise-2019-english-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'inspector-excise-2019-english-p2': {'marksPerQuestion': 1, 'durationMinutes': 120},
+    'inspector-excise-2019-gs1': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'inspector-excise-2019-gs2': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'inspector-excise-2019-gs3': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'je-phe-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'vo-2019-english-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'vo-2019-english-p2': {'marksPerQuestion': 1, 'durationMinutes': 120},
+    'mes-phe-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'mes-phe-2019-gs': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'jics-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'jics-2019-gs1': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'jics-2019-gs2': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'la-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'lib-lunglei-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'scr-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'staff-nurse-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'sub-div-lib-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'surveyor-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'translator-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'translator-2019-gs1': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'translator-2019-gs2': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'tutor-mcon-2019-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-combined-2019-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-combined-2019-p2': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-agri-2019-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-agri-2019-p2': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-dc-aizawl-2019-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-dc-aizawl-2019-p2': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-dc-serchhip-2019-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-dc-serchhip-2019-p2': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-forensic-2019-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-forensic-2019-p2': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-horti-2019-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-horti-2019-p2': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-revenue-2019-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-revenue-2019-p2': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-mpsc-2019-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-mpsc-2019-p2': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-rd-2019-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-rd-2019-p2': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-transport-2019-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-transport-2019-p2': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'eo-leit-2019-english-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'eo-leit-2019-english-p2': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'eo-leit-2019-gs1': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'eo-leit-2019-gs2': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'eo-leit-2019-gs3': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'ae-civil-tourism-2020-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'ae-civil-tourism-2020-gs': {'marksPerQuestion': 1, 'durationMinutes': 120},
+    'chemist2-2020-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'museum-guide-2020-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'museum-guide-2020-gs1': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'museum-guide-2020-gs2': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'udc-arc-2020-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'udc-arc-2020-p2': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'aap-2020-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'aap-2020-gs': {'marksPerQuestion': 1, 'durationMinutes': 120},
+    'geologist-jun-nov-2020-english-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'geologist-jun-nov-2020-english-p2': {'marksPerQuestion': 1, 'durationMinutes': 120},
+    'geologist-jun-nov-2020-english-p3': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'geologist-jun-2020-english-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'geologist-jun-2020-english-p2': {'marksPerQuestion': 1, 'durationMinutes': 120},
+    'geologist-jun-2020-english-p3': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'je-agri-2020-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'mes-pwd-2020-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'mes-pwd-2020-gs': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'mpe-ss-2020-english': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'mpe-ss-2020-gk': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'seo-2020-english-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'seo-2020-english-p2': {'marksPerQuestion': 1, 'durationMinutes': 120},
+    'to-2020-english-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'to-2020-english-p2': {'marksPerQuestion': 1, 'durationMinutes': 120},
+    'inspector-fcs-2019-english-p1': {'marksPerQuestion': 1, 'durationMinutes': 180},
+    'inspector-fcs-2019-english-p2': {'marksPerQuestion': 1, 'durationMinutes': 120},
+    'inspector-fcs-2019-gs1': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'inspector-fcs-2019-gs2': {'marksPerQuestion': 2, 'durationMinutes': 120},
+    'inspector-fcs-2019-gs3': {'marksPerQuestion': 2, 'durationMinutes': 120},
+}
+SHARED_POSTS = {
+ 'mimer-labtech-2018-english': [
+     'Lab Technician', 'Medical Record Technician', 'Staff Nurse', 'Computer Operator',
+ ],
+}
+
 GENERAL_ARCHIVE_FOLDERS = {
  'inspector-stats-2026-p1': 'Direct_2025-2027', 'inspector-stats-2026-p2': 'Direct_2025-2027',
  'inspector-stats-2017-english': 'Direct_2014-2018', 'steno2-2015-english': 'Direct_2014-2018', 'steno2-2015-gk': 'Direct_2014-2018',
+ 'mimer-labtech-2018-english': 'Direct_2014-2018',
 }
 
 
 def source_path(slug, filename):
+    if slug in DIRECT_2019_SLUGS:
+        return ARCHIVE / 'Direct_2019-2020' / filename
+    if slug.startswith(('si-excise-2014-', 'si-police-ub-2018-', 'horticulture-demonstrator-2018-', 'si-fcs-2018-', 'programmer-phe-2018-', 'sericulture-seo-2018-', 'station-officer-2018-', 'mes-pwd-2018-', 'mes-power-2018-', 'veterinary-officer-2018-', 'je-iwr-2018-', 'assistant-jailor-2018-', 'asi-home-2018-', 'assistant-grade-2018-', 'acf-2018-', 'ato-2017-', 'feo-2017-', 'mhs-grade-v-2017-', 'labtech-hfw-2017-', 'mcon-lecturer-2017-', 'assistant-prof-geography-2017-', 'ada-2014-', 'mes-phe-2014-', 'mes-pe-2012-')):
+        return PUBLIC / filename
     return ARCHIVE / GENERAL_ARCHIVE_FOLDERS.get(slug, 'Direct_NG_2024-2027') / filename
 HUB_FILES = {
  'jao-2026-p1': ('Direct_2025-2027', 'Jr. Accounts Officer Paper-I (General English) - Series-A..pdf'),
@@ -91,6 +396,13 @@ HUB_FILES = {
  'si-stats-2026-p2': ('Direct_NG_2024-2027', 'Sub-Inspector of Statistic Paper-II..pdf'),
  'ri-2026-p1': ('Direct_NG_2024-2027', 'Research Invetigator May-2026 Paper-I..pdf'),
  'ri-2026-p2': ('Direct_NG_2024-2027', 'Research Invetigator May-2026 Paper-II..pdf'),
+}
+
+# Previously attached directly to the generated bank. Keep these source
+# figures in the generator so a new paper import cannot remove them.
+HUB_FIGURES = {
+ 'mpsc-group-b-co-2026-p2-Q89': '/question-images/group-b/co-2026-p2-q089.webp',
+ 'mpsc-group-b-co-2026-p2-Q96': '/question-images/group-b/co-2026-p2-q096.webp',
 }
 
 
@@ -155,18 +467,41 @@ def build_additional():
     spec.loader.exec_module(taxonomy)
     verified = json.loads((HERE / 'verified-general-keys.json').read_text()) if (HERE / 'verified-general-keys.json').exists() else {}
     repairs = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']
-    assert set(repairs) <= {row[0] for row in GENERAL_PAPERS}, 'Orphan source-reviewed repair paper'
+    assert set(repairs) <= {row[0] for row in ALL_GENERAL_PAPERS}, 'Orphan source-reviewed repair paper'
     papers, questions, meta, library = [], [], {}, []
     legacy = legacy_answers()
-    for slug, exam, sitting, subject, file in GENERAL_PAPERS:
+    for slug, exam, sitting, subject, file in ALL_GENERAL_PAPERS:
+        # These recovered 2014 papers are imported below with their source
+        # transcriptions, not emitted as the older source-only placeholders.
+        if slug.startswith('si-excise-2014-'):
+            continue
         href = copy_pdf(source_path(slug, file), slug)
         entry = {'id': 'mpsc-group-b-' + slug, 'exam': exam, 'sitting': sitting,
                  'subject': subject, 'sourceHref': href, 'keyHref': None, 'imported': False}
+        if slug in SHARED_POSTS:
+            entry['sharedPosts'] = SHARED_POSTS[slug]
         if slug.startswith('aao-2024-'):
             entry['keyHref'] = '/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf'
             entry['correctionHref'] = '/papers/group-b/keys/corrigendum-of-final-answer-key-for-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf'
         if slug.startswith('si-excise-2025-'):
             entry['keyHref'] = '/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf'
+        if slug == 'mimer-labtech-2018-english':
+            entry['expectedMcq'] = 80
+        if slug.startswith(('si-police-ub-2018-', 'horticulture-demonstrator-2018-', 'si-fcs-2018-')):
+            entry['expectedMcq'] = 80 if 'English' in subject else 75 if slug.startswith('si-fcs-') else 100
+        if slug.startswith(('programmer-phe-2018-', 'sericulture-seo-2018-', 'station-officer-2018-')):
+            entry['expectedMcq'] = 80 if 'English' in subject and (slug.endswith('-p1') or slug.endswith('-english')) else 100
+        if slug.startswith(('mes-pwd-2018-', 'mes-power-2018-')):
+            if subject == 'General Studies':
+                entry['expectedMcq'] = 100
+        if slug == 'veterinary-officer-2018-english-p2':
+            entry['expectedMcq'] = 100
+        if slug.startswith(('je-iwr-2018-', 'assistant-jailor-2018-', 'asi-home-2018-')):
+            entry['expectedMcq'] = 80 if 'English' in subject else 100
+        if slug == 'assistant-grade-2018-p2':
+            entry['expectedMcq'] = 125
+        if slug.startswith('acf-2018-'):
+            entry['expectedMcq'] = 80 if slug.endswith('english') else 100
         if slug.startswith('si-police-2026-'):
             entry['keyHref'] = '/papers/group-b/keys/si-police-2026-final-key.pdf'
         if slug.startswith('radio-2026-'):
@@ -199,13 +534,32 @@ def build_additional():
         entry['reviewRequired'] = not complete_source_review
         if slug == 'inspector-stats-2026-p1' and repairs.get(slug, {}).get('derivedAnswers'):
             entry['expectedMcq'] = 6
-        papers.append({'id': paper_id, 'examType': 'Direct_NG', 'examName': exam, 'post': exam,
-                       'paperNumber': 'Paper-I' if slug.endswith('-p1') else 'Paper-II' if slug.endswith('-p2') else subject,
+        papers.append({'id': paper_id, 'examType': 'Direct' if slug in DIRECT_2019_SLUGS or slug in SHARED_POSTS or slug.startswith(('si-police-ub-2018-', 'horticulture-demonstrator-2018-', 'si-fcs-2018-', 'programmer-phe-2018-', 'sericulture-seo-2018-', 'station-officer-2018-', 'mes-pwd-2018-', 'mes-power-2018-', 'veterinary-officer-2018-', 'je-iwr-2018-', 'assistant-jailor-2018-', 'asi-home-2018-', 'assistant-grade-2018-', 'acf-2018-', 'ato-2017-', 'feo-2017-', 'mhs-grade-v-2017-', 'labtech-hfw-2017-', 'mcon-lecturer-2017-', 'assistant-prof-geography-2017-', 'ada-2014-', 'mes-phe-2014-', 'mes-pe-2012-')) else 'Direct_NG',
+                       'examName': exam, 'post': ' / '.join(SHARED_POSTS[slug]) + ' under MIMER' if slug in SHARED_POSTS else exam,
+                       'paperNumber': 'Paper-I' if slug.endswith('-p1') else 'Paper-II' if slug.endswith('-p2') else 'Paper-III' if slug.endswith('-p3') else subject,
                        'paperSubject': subject, 'year': int(sitting[-4:]), 'sourceFile': href})
         part_questions = [q for q in extracted['questions'] if not ('English' in subject and q.get('part') == 'A')]
+        if slug in DIRECT_2019_SLUGS:
+            # These unscored 2019-2020 papers are not keyed, but their printed
+            # covers state the marking scheme. Register it so the library can
+            # report coverage; expectedMcq is the highest printed question
+            # number (the true paper total, since each paper ends with a printed
+            # end-of-paper marker). Written-only papers get no expectedMcq.
+            meta[paper_id] = {'negativeMarking': False, 'penaltyFraction': 0,
+                              **GENERAL_PAPERS_2019_META[slug]}
+            if part_questions:
+                entry['expectedMcq'] = max(q['n'] for q in part_questions)
         # Only the native key-backed sections whose full numbering is verified
         # enter scoring. OCR and malformed options stay visible for review.
         complete_native = bool(key) and not extracted['ocr'] and {q['n'] for q in part_questions} == {int(n) for n in key['answers']}
+        if slug.startswith(('si-police-ub-2018-', 'horticulture-demonstrator-2018-', 'si-fcs-2018-')):
+            meta[paper_id] = {'marksPerQuestion': 2 if slug.endswith(('-gs1', '-gs2')) else 1,
+                             'durationMinutes': 120 if slug.endswith(('-gs1', '-gs2')) else 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug.startswith(('programmer-phe-2018-', 'sericulture-seo-2018-', 'station-officer-2018-')):
+            meta[paper_id] = {'marksPerQuestion': 1,
+                             'durationMinutes': 120 if slug.endswith(('-p2', '-gk')) else 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'aao-2024-gk' and reviewed_numbers:
             # Printed page 1: 100 marks, one per question, three hours.
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
@@ -367,7 +721,7 @@ def build_additional():
                 note = 'The official key accepts ' + ' and '.join('ABCD'[x] for x in key_choices) + '; this item is kept out of the single-answer drill.'
             if independent >= 0 and not q.get('unscored') and not (derived and text_reviewed):
                 note += ' The independent candidate came from the legacy inferred bank and still needs reasoning review.'
-            section = 'english' if 'English' in subject else 'arithmetic' if subject == 'Arithmetic' else 'gk'
+            section = 'english' if 'English' in subject else 'arithmetic' if subject in ('Arithmetic', 'Mathematics') else 'gk'
             if slug == 'inspector-stats-2026-p2' and q['n'] > 50:
                 section = 'arithmetic'
             questions.append({'id': paper_id + '-' + (q.get('part') or 'Q') + str(q['n']), 'paperId': paper_id,
@@ -387,6 +741,7 @@ def build_additional():
                               **({'paperExamExcluded': True} if has_written_section else {}),
                               **({'sourceNote': note.strip()} if note else {}),
                               **({'direction': q['direction']} if q.get('direction') else {}),
+                              **({'passage': q['passage']} if q.get('passage') else {}),
                               **({'disputeNote': f"Legacy inferred candidate gives {'ABCD'[independent]}; the final key gives {'ABCD'[key_choices[0]]}. Verify the printed item."} if independent >= 0 and len(key_choices) == 1 and independent != key_choices[0] else {})})
         written_rows = {str(q.get('n') or i+1): q for i, q in enumerate(extracted['written'])}
         for number, written_review in reviewed_written.items():
@@ -405,8 +760,8 @@ def build_additional():
                               'questionNumber': str(n), 'subject': 'english', 'studySection': 'english',
                               'topic': 'written', 'topicLabel': 'General English · written', 'difficulty': 'medium',
                               'question': prompt,
-                              'explanation': written_review.get('explanation', '') if written_review else '',
                               **({'answers': written_review['answers']} if written_review and written_review.get('answers') else {}),
+                              'explanation': written_review.get('explanation', '') if written_review else '',
                               'sourceReview': not bool(written_review), 'sourceNote': '' if written_review else 'Written response and transcription awaiting source review.',
                               'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]), 'sourceHref': href + '#page=' + str(written_review.get('page', q['page']) if written_review else q['page'])})
     for hub_id, (folder, file) in HUB_FILES.items():
@@ -450,6 +805,7 @@ def build_additional():
                 **({'gkKind': 'current', 'answerAsOf': d['sitting'], 'gkTopic': 'current-affairs'} if q.get('topic') == 'current_affairs' else {}),
                 'year': d['year'], 'source': d['exam'] + ' · ' + d['sitting'] + ' · ' + q.get('part', '') + str(q['n']),
                 'sourceHref': href,
+                **({'imagePath': HUB_FIGURES[slug + '-' + q['id']]} if slug + '-' + q['id'] in HUB_FIGURES else {}),
             })
         for q in d.get('descriptive', []):
             if q.get('kind') == 'passage':
@@ -459,4 +815,26 @@ def build_additional():
                               'difficulty': 'medium', 'question': q.get('prompt', '') + ('\n' + '\n'.join(q['choices']) if q.get('choices') else ''),
                               **({'passage': q['passage']} if q.get('passage') else {}), 'explanation': q.get('guidance') or '', 'guidance': q.get('guidance') or '',
                               **({'marks': q['marks']} if q.get('marks') else {}), 'year': d['year'], 'source': d['exam'] + ' · ' + d['sitting'], 'sourceHref': href})
+    computer_papers, computer_questions, computer_meta, computer_library = build_computer_paper()
+    papers.extend(computer_papers)
+    questions.extend(computer_questions)
+    meta.update(computer_meta)
+    library.extend(computer_library)
+    si_papers, si_questions, si_meta, si_library = build_si_excise_2014()
+    papers.extend(si_papers)
+    questions.extend(si_questions)
+    meta.update(si_meta)
+    library.extend(si_library)
+    # Append the new MIMER material after the existing bank to keep the
+    # established question chunks and saved source order stable.
+    appended_ids = {'mpsc-group-b-mimer-labtech-2018-english', computer_papers[0]['id']} | {p['id'] for p in si_papers}
+    appended_ids.update('mpsc-group-b-' + row[0] for row in GENERAL_PAPERS
+                        if row[0].startswith(('si-police-ub-2018-', 'horticulture-demonstrator-2018-', 'si-fcs-2018-')))
+    appended_ids.update('mpsc-group-b-' + row[0] for row in GENERAL_PAPERS_2019)
+    papers.sort(key=lambda paper: paper['id'] in appended_ids)
+    questions.sort(key=lambda question: question['paperId'] in appended_ids)
+    by_id = {question['id']: question for question in questions}
+    for qid, path in HUB_FIGURES.items():
+        assert qid in by_id and by_id[qid].get('imagePath') == path, f'Orphan Group B figure: {qid}'
+        assert (ROOT / 'public' / path.lstrip('/')).is_file(), f'Missing Group B figure: {path}'
     return papers, questions, meta, library

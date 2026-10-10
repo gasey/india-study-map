@@ -1,0 +1,2317 @@
+{
+  "slug": "eo-leit-2019-gs1",
+  "exam": "Employment Officer under Labour, Employment & Industrial Training Department (second series)",
+  "sitting": "2019",
+  "subject": "General Studies Paper-I",
+  "source": "Employment Officer under LE&IT Deptt GS Paper-I.pdf",
+  "sourceSha256": "2aa7260ad971d2b43ebbad1dd00b440d5095590fd62eefbdd40f9f48ed1f4913",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Qasim Bazar",
+        "b": "Chittagong",
+        "c": "Hugli",
+        "d": "Murshidabad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Before the foundation of Calcutta the biggest English settlement in Bengal was :",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The freedom to export and import their goods in Bengal without paying customs dues",
+        "b": "Permission to rent additional territory around Calcutta",
+        "c": "Exemption from payment of all customs and duties at Surat",
+        "d": "Free currency granted throughout the Mughal dominion tot the company’s coin minted at Bombay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following privileges obtained by the English under the Royal Farman of 1717 proved to be the bone of contention between them and the Nawabs of Bengal?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To protect English trade against local rebellion",
+        "b": "In expectation of a struggle with the French on the eve of Seven Years war",
+        "c": "As a measure of defiance against the weak political and military authority of the Nawab",
+        "d": "In order to strengthen their establishment in Bengal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the ostensible reason for the English to take up additional fortification of Calcutta?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The conspiracy of the men of his court",
+        "b": "The newly acquired confidence and strength of the British",
+        "c": "The superior military tactics of the English",
+        "d": "His lack of energy and decision"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the prime cause of Siraj-ud-Daulah’s ruin?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Robert Clive and Ragunath Rao",
+        "b": "Warren Hastings and Mahdji Scindia",
+        "c": "Robert Clive and Madhav Rao",
+        "d": "The English and the Baji Rao II"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The treaty of Salbai was signed between",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Balaji II",
+        "b": "Madhav Rao I",
+        "c": "Balaji Bajirao",
+        "d": "Ragunath Rao"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "After the Third Battle of Panipat, the lost fortunes of Maratha Empire were restored by Peshwa :",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Scindhia",
+        "b": "The Gaikwad",
+        "c": "The Angrias",
+        "d": "The siddis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Maratha navy in the Eighteenth Century was developed by :",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1832",
+        "b": "1835",
+        "c": "1836",
+        "d": "1839"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Chiefs of Sindh, Amirs were made to sign a subsidiary treaty in :",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Treacherous behavior of the army commander",
+        "b": "The defection of Shah Alam II",
+        "c": "Inherent defects of Indian army and state organization",
+        "d": "Lack of adequate preparation for the confrontation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the main reason for the defeat of the Allied forces by the English in the Battle of Buxar (1764)?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Maintenance of law and order was nobody’s responsibility",
+        "b": "The English began to enjoy rights without respobnsibilities",
+        "c": "The poor peasantry of Bengal was auctioned to the revenue bidder",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The worst feature of the Dual Government in Bengal was that :",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Robert Clive",
+        "b": "Warren Hastings",
+        "c": "Lord Cornwallis",
+        "d": "Lord Hastings"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following was the first Governor General of the Government of Bengal?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1798",
+        "b": "1800",
+        "c": "1801",
+        "d": "1802"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Nawab of Awadh signed a subsidiary treaty in :",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lord Dalhousie",
+        "b": "Lord Auckland",
+        "c": "Lord Ellenborough",
+        "d": "Lord Hardinge"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Doctrine of Lapse’ was introduced by:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The terms of the treaty of 1769 were not fulfilled by the Madras Government",
+        "b": "When the Marathas invaded Hyder’s territories in 1771, the English did not help",
+        "c": "The English tried to play one South Indian power against another in order to prevent them from",
+        "d": "The English captured Mahe, the source of Hyder’s military supplies"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The immediate provocation for the quadruple alliance formed by Hyder Ali leading to the Second Anglo – Mysore war (1780-84) was:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rajputana",
+        "b": "Kashmir",
+        "c": "The Hills of the Punjab",
+        "d": "Kabul"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The death of Banda Bahadur gave a setback to the territorial ambitions of the Sikhs and their power declined. Where did the Sikhs take shelter during this period?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Safdarjung",
+        "b": "Saadat Khan",
+        "c": "Shuja-Ud-Daula",
+        "d": "Asaj-Ud-Daula"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the founder of the autonomous kingdom of Awadh or Oudh?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The treaty with Mir Jafar after the Battle of Plassey (1757)",
+        "b": "The treaty with Mir Jafar after the Battle of Buxar (1764)",
+        "c": "The treaty of February 1765 with Nizam-ud-Daula",
+        "d": "The imperial grant of the Diwani of Bengal, Bihar and Orissa by Shah Alam II"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following legalized the company’s control over Bengal?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Zamindars",
+        "b": "The Peasant cultivators",
+        "c": "The Village communities",
+        "d": "The Muqadams"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Permanent Settlement was made with :",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The introduction of commercial crops attracted the peasantry to agriculture",
+        "b": "The ruin of handicrafts and village industries drove the population to agriculture",
+        "c": "The fall of the native governments had to reduced the avenues of employment",
+        "d": "The urban population began to migrate to the rural areas for security reasons"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the nineteenth century there was a phenomenal increase of pressure of population on land because:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "British Imperialism",
+        "b": "Lack of technological progress",
+        "c": "Heavy assessment of land revenue",
+        "d": "Fundamental changes in the structure of rural society"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the cause of the impoverishment of the peasantry in the 19th Century?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The theory of surplus value",
+        "b": "The Agio theory of interest",
+        "c": "Keyne’s Theory of Income and Employment",
+        "d": "The Ricardian theory of Income and Employment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The theory of the early British rulers that the company, as the owner of agricultural was entitled to the whole of the ‘economic rent’ derived its support from:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "False accounting",
+        "b": "Forge Signature",
+        "c": "Making the debtor sign for larger accounts than he had borrowed",
+        "d": "High rate of interest on loans"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The main reason for the permanent indebtedness of the peasantry was:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Duty was imposed on the looms",
+        "b": "Weavers were forced to sell their goods at dictated prices",
+        "c": "Due to export of raw cotton there was acute scarcity of cotton",
+        "d": "Cash crops like indigo and opium"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first serious blow which the British inflicted on India’s prosperous handloom industry was that",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Decline in Birth rate",
+        "b": "Increase in Death rate",
+        "c": "Ill – Health of the people",
+        "d": "Increase in the incidence of famines"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On account of the various factors of economic exploitation, the impoverishment of the peasantry was accompanied by:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aristocracy",
+        "b": "Capitalism",
+        "c": "Sub-Infeudation",
+        "d": "Cultivation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A remarkable feature of the spread of Landlordism was the growth of :",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Absence of institutional finance",
+        "b": "Chronic poverty",
+        "c": "High rate of Taxation",
+        "d": "Absence of technological breakthrough"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The single most important cause for the absence of cultivators with the cultivators to improve agriculture during the British rule was :",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rise in prices",
+        "b": "Growth in population",
+        "c": "Building of Railways",
+        "d": "Pressure on agriculture"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The factor which precipitated the decline of Indian industries particularly rural artisan industries was:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Freight traders",
+        "b": "Sugar manufacturers",
+        "c": "Bankers",
+        "d": "Brokers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An Indian mercantile class, which almost completely vanished on account of the British economic policies and commercial practices of the Europeans in India was:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Import trade",
+        "b": "Textile export",
+        "c": "Export trade in agricultural produce",
+        "d": "Manufacture and sale of salt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The trade which was virtually monopolized by the European merchants in India was :",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To create a local market for British manufacturers",
+        "b": "To destroy the Indian Handicrafts",
+        "c": "To help establish the monopoly of the company and its servants over inland trade",
+        "d": "To realize the maximum possible revenues from regulation and control of Indian trade"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the basic objective of the various measures, taken by the British Government at Calcutta, in the field of internal trade from time to time?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To earn profit for the company and its shareholders",
+        "b": "To secure a favorable balance of trade for the mother country",
+        "c": "To buy cheaply raw materials for the home industries and to sell dearly its manufactured goods",
+        "d": "To secure the monopoly of Indian exports for the home country and its subjects."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The essence or the main purpose of the British policies of moulding the Indian economy into colonial pattern was :",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1813",
+        "b": "1833",
+        "c": "1853",
+        "d": "1793"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When did the company lose its monopoly of Indian trade which was thrown open to all?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Export of Opium and Indigo",
+        "b": "British capital investment in India",
+        "c": "Import of mill-made textiles and woolens",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "After 1833, the single biggest source of drain of India’s wealth to Britain was :",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The tea, coffee and indigo plantation",
+        "b": "The railways, banking, insurance and shipping",
+        "c": "The cotton textile industry",
+        "d": "The jute mills"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The biggest British capital investment in India was made in:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "All economic resources of India were at the mercy of the British",
+        "b": "Indian economy had been bound to the colonial interests",
+        "c": "Agriculture remained almost the sole occupation of the masses",
+        "d": "Foreign capital flowed into all branches of India’s economic life"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The root of poverty of the people of India during the British rule was that:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cotton Textile",
+        "b": "Jute",
+        "c": "Coal Mining",
+        "d": "Sugar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which of the following industries did Indians have a large share from the beginning?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Withdrawal of British capital",
+        "b": "Insurrection and peasant uprising against oppression",
+        "c": "Invention of a synthetic dye",
+        "d": "A slump in the world market on account of general"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following gave a big blow to the Indigo industry as a result of which it gradually declined?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dadabhai Naaroji",
+        "b": "R.C Dutt",
+        "c": "R.P Dutt",
+        "d": "Karl Marx"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the first to formulate the theory of three successive phases of British colonialism in India- namely mercantilist, Free Trade Mercantile capitalism and Finance Imperialism?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rigidities of the caste system",
+        "b": "Women becoming Sati",
+        "c": "Kulinism",
+        "d": "Degrading position of women"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Against which of the following evil customs/ practices, did Raja Ram Mohan Roy organise a historic agitation?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Keshab Chandra Sen",
+        "b": "Lokahitawadi",
+        "c": "Sibnath Sastri",
+        "d": "Debendranath Tagore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under whose guidance did Prarthana Samj came into existence in Maharashtra?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rashik Krishna Mallik",
+        "b": "Ramtanu Lahiri",
+        "c": "Henry Vivian Derozio",
+        "d": "Peary Chand Mitra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the leader and inspirer of the Young Bengal Movement of the late 1820’s and 1830’s?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Constitutional Agitation",
+        "b": "Civil Rebellion",
+        "c": "Tribal Uprisings",
+        "d": "Peasant movements and agrarian uprisings"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The resistance to British rule during the early phase upto 1857 took three broad forms. Which of the following was not one of them?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The artisans",
+        "b": "The handloom weavers",
+        "c": "The common man",
+        "d": "The Indigo planters"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The play Nil Darpan (1860) of the famous Bengali writer Dinbandhu Mitra portrays the oppression of",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Revenue officials of the British government",
+        "b": "Money lenders",
+        "c": "Landlords",
+        "d": "Foreign planters"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rebellion of the Moplah peasants of Malabar (north Kerala) during 1836 to 1854 were directed against the oppression of:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Ilbert Bill Controversy",
+        "b": "The reduction of age for entry to the Civil Service",
+        "c": "The Arms Act of 1878",
+        "d": "The Vernacular Press Act"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following factors caused the greatest social cleavage in India before the foundation of INC?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Muslim League",
+        "b": "Ahmadiya Movement",
+        "c": "Ehrar League",
+        "d": "Deoband Movement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A Muslim organization, which proposed during the first world war that muslims should participate and try to reach an accord with the congress was :",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rasbehari Bose",
+        "b": "Bhai Parmanand",
+        "c": "Sachindranath Sanyal",
+        "d": "Sohan Lal Pathak"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The brain behind the bomb attack on Viceroy Lord Hardinge at Chandhi Chowk, Delhi in December was:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Satyagraha",
+        "b": "Civil Disobedience",
+        "c": "Non-Cooperation",
+        "d": "Swadeshi and Boycott"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the main political weapon used by the moderate nationalist to exert pressure upon the government against the partition of Bengal.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khudiram Bose",
+        "b": "Prafulla Chaki",
+        "c": "A.D Savarkar",
+        "d": "Pulin Bihari Das"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who organized Abhinava Bharat, a secret society of revolutionaries?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Champaran ( Bihar)",
+        "b": "Kaira (Gujarat)",
+        "c": "Ahmadabad Mill Strike",
+        "d": "Anti- Rowlatt Act Agitation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mahatma Gandhi first experimented with his techinique of Satyagraha in :",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kachin state",
+        "b": "Chin state",
+        "c": "Rakhine state",
+        "d": "Shan state"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rohingya Muslims are mostly domicile of which of the following state of Myanmar?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mukesh Ambani",
+        "b": "Narendra Modi",
+        "c": "Jack Ma",
+        "d": "Jeff Bezos"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following leaders has featured in the top ‘Global Thinkers 2019’ ranking of the prestigious Foreign Policy publication?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "East Bengal",
+        "b": "Jamshedpur FC",
+        "c": "Chennaiyin FC",
+        "d": "FC Goa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which club do the Indian football super star, Jeje Lalpekhlua is playing now?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Karnataka",
+        "b": "Kerala",
+        "c": "Andra Pradesh",
+        "d": "Maharashtra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following states introduced Fat Tax?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Priyanka Chopra",
+        "b": "Aishwaria Rai",
+        "c": "Deepika Padukone",
+        "d": "Katrina Kaif"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the Indian actress is appointed as UNICEF Global Goodwill Ambassador?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "UNESCO",
+        "b": "UNDP",
+        "c": "UNICEF",
+        "d": "WHO"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following International Organizations released the State of Children’s Report?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mussoorie",
+        "b": "Mysore",
+        "c": "Delhi",
+        "d": "Hyderabad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Defence Research and Development Organization (DRDO) has its headquarters in",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kerala Blasters",
+        "b": "FC Goa",
+        "c": "Delhi Dynmos",
+        "d": "Chennayin City FC"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following football club win the Indian Super Cup in 2019?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "UK",
+        "b": "USA",
+        "c": "Australia",
+        "d": "China"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The World’s first cloned goat bearing superfine Cashmere wool was born in",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cricket",
+        "b": "Football",
+        "c": "Hockey",
+        "d": "Wrestling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mission XI Million is related to",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bangladesh,",
+        "b": "Thailand",
+        "c": "Bhutan",
+        "d": "India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following country is not member of BIMSTEC?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "January 24",
+        "b": "February 4",
+        "c": "March 14",
+        "d": "April 4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "World Cancer Day is observes on",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ranjan Gogoi",
+        "b": "HL Dattu",
+        "c": "TS Thakur",
+        "d": "Dipak Misra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the present incumbent of the Office of Chief Justice of India?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "France",
+        "b": "Italy",
+        "c": "Portugal",
+        "d": "Argentina"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Antonio Guterres, the present Secretary General of UN belongs to",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sikkim",
+        "b": "Assam",
+        "c": "Tripura",
+        "d": "Arunachal Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state government during January 2018 came up with a unique way of preserving trees by allowing people to forge fraternal ties with trees?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Manohar Parrikar",
+        "b": "Nirmala Sitharaman",
+        "c": "Arun Jaitley",
+        "d": "Sushma Swaraj"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the present defence minister of India?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Norway",
+        "b": "Portugal",
+        "c": "Uruguay",
+        "d": "Mexico"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country will become the world’s first country to allow legalized production, sale and consumption of marijuana?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "France",
+        "b": "Italy",
+        "c": "Canada",
+        "d": "India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The G-7 Foreign Ministers meeting 2018 was held in which country?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10th April",
+        "b": "11th April",
+        "c": "12th April",
+        "d": "13th April"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“World Homeopathy Day” is celebrated on which date every year, to commemorate the birth anniversary of Dr. Christian Friedrich Samuel Hahnemann – the founder of Homoeopathy?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pakistan",
+        "b": "Iran",
+        "c": "China",
+        "d": "Vietnam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country has executed most people in 2018, as per Amnesty International Global Report “Death Sentences & Executions 2018?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SBI",
+        "b": "Canara Bank",
+        "c": "Indian Bank",
+        "d": "Bank of Baroda"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Union Ministry of Home Affairs has launched web portal and mobile application named “Bharat ke Veer” to enable people to contribute towards family of martyrs from central paramilitary forces. This app is technically supported by National Informatics Centre (NIC) and powered by ________",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Punjab",
+        "b": "Uttar Pradesh",
+        "c": "Haryana",
+        "d": "Gujarat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state government has launched “Operation Durga” to ensure women safety?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Manushi Chhillar",
+        "b": "Vanessa Ponce",
+        "c": "Priyanka Chopra",
+        "d": "Catriona Gray"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was crowned Miss World 2018?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Visakhapatnam, Andhra Pradesh",
+        "b": "Panaji, Goa",
+        "c": "Kochi, Kerala",
+        "d": "Imphal, Manipur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On April 7, 2017, Union Minister for Information and Broadcasting M. Venkaiah Naidu inaugurated the three-day National Children’s Film Festival (NCFF) in:",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gautami Tadimalla",
+        "b": "Prynka Chopra",
+        "c": "Sridevi",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was awarded the Best Actress Award at the 65th National Film Awards, 2018?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hisham Matar",
+        "b": "Colson Whitehead",
+        "c": "Matthew Desmond",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has won the 2017 Pulitzer Prize in fiction for his novel “The Underground Railroad”?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indian Prime Minister Narendra Modi",
+        "b": "Russia President Vladimir Putin",
+        "c": "US President Donald Trump",
+        "d": "Aung Shan Shu Kyi of Myanmar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following has become the “Most Followed” world leader on Instagram?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "March 4",
+        "b": "March 6",
+        "c": "March 8",
+        "d": "March 10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On which day International Women’s Day is observed?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "31st May",
+        "b": "12th April",
+        "c": "5th March",
+        "d": "6th June"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "World No Tobacco day is observed on",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Madison keys",
+        "b": "Sloane Stephens",
+        "c": "Simona Halep",
+        "d": "Naomi Osaka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which player wins the US Open 2018 Women’s Single title?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fuzhou",
+        "b": "Shenzhen",
+        "c": "Shanghai",
+        "d": "Xiamen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Chinese city hosted the 2017 BRICS Summit?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Taiwan",
+        "b": "Iran",
+        "c": "North Korea",
+        "d": "South Korea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country in the month of September 2017 conducted hydrogen bomb test?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dangal",
+        "b": "Bahubali 2",
+        "c": "Newton",
+        "d": "Jolly LLB 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian movie is nominated for Oscar 2018 foreign language category?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "95th",
+        "b": "103th",
+        "c": "104th",
+        "d": "110th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Global Hunger Index 2018 India is ranked on",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "24",
+        "b": "25",
+        "c": "26",
+        "d": "28"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many seats are won by Mizo National Front Party won in the Legislative Assembly Election, 2018?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25th September",
+        "b": "28th September",
+        "c": "4th October",
+        "d": "11th October"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "International day of the Girl Child is observed on",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Austria",
+        "b": "Macedonia",
+        "c": "Iceland",
+        "d": "Kosovo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one became the smallest country to qualifies for the 2018 FIFA World Cup?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rajasthan",
+        "b": "Maharashtra",
+        "c": "Madhya Pradesh",
+        "d": "Gujarat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state became the first India to incorporate skill development programme in Higher Education?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Manmohan Singh",
+        "b": "Pranab Mukherjee",
+        "c": "Hamid Ansari",
+        "d": "Venkaiah Naidu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which politician wrote the book ‘The Coalition Years: 1996-2012’?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20th October",
+        "b": "24th October",
+        "c": "26th October",
+        "d": "30th October"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The United Nation Day is celebrated on",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Karen Russell",
+        "b": "Anna Burns",
+        "c": "David Foster Wallace",
+        "d": "Colson Whitehead"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the winner of the 2018 Man Booker Prize?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "K.Lalrinliana",
+        "b": "Lalruatkima",
+        "c": "Tawnluia",
+        "d": "Lalchhandama Ralte"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the present Minister of Labour, Employment, Skill Development & Entrepreneurship in Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Singapore",
+        "b": "Malaysia",
+        "c": "Indonesia",
+        "d": "Vietnam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 2018 ASEAN Summit was held in",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Malaysia",
+        "b": "Pakistan",
+        "c": "India",
+        "d": "Japan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 2017 Asia Cup Hockey Women’s Title won by",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "UK",
+        "b": "USA",
+        "c": "Brazil",
+        "d": "Australia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country recently pulled out from UNESCO in support of Israel?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sustainable Tourism for development",
+        "b": "Millets",
+        "c": "Environment",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The United Nations has declared 2018 as the International Year of-",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "South America",
+        "b": "Brazil",
+        "c": "China",
+        "d": "Norway"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country becomes the first to ban FM Radio broadcasting?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mumbai",
+        "b": "New Delhi",
+        "c": "Kolkata",
+        "d": "Chennai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is the first city in India to have WiFi connectivity in public places?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rafael Nadal",
+        "b": "Marin Èiliæ",
+        "c": "Roger Federer",
+        "d": "Grigor Dimitrov"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who wins the 2018 Australian Open Men’s Single Title?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2017",
+        "b": "2018",
+        "c": "2019",
+        "d": "2016"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which year did the US President Donald Trump formally announced recognition of Jerusalem as the capital of Israel?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

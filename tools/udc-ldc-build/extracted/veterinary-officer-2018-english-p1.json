@@ -1,0 +1,25 @@
+{
+  "slug": "veterinary-officer-2018-english-p1",
+  "exam": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer)",
+  "sitting": "September 2018",
+  "subject": "General English Paper-I",
+  "source": "veterinary-officer-2018-english-p1.pdf",
+  "sourceSha256": "0d343efdee3e4567c48bcbe2ac1dcb9005525fa704f45e060e1737888552f9fa",
+  "ocr": false,
+  "count": 0,
+  "questions": [],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p2, part None): only 0 option(s) [] - not emitted",
+    "Q6 (p2, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      3
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/c6b3ab1fe0ba8ffc11990fe7e0594eda/ahvetygeneral-english-paper-i.pdf",
+  "enrichmentVersion": 5,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

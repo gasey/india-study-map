@@ -1,0 +1,1742 @@
+{
+  "slug": "jics-2019-gs1",
+  "exam": "Junior Inspector of Co-operative Societies under Co-operation Department",
+  "sitting": "2019",
+  "subject": "General Studies Paper-I",
+  "source": "General Studies Paper-I (JICS).pdf",
+  "sourceSha256": "6b05dfd1a337aca1e385959fbe8b7ed7ba9133e3cece7e335d745ffb9083606f",
+  "ocr": false,
+  "count": 75,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RC Dutta",
+        "b": "Dadabhai Naoroji",
+        "c": "JL Nehru",
+        "d": "Mahatma Gandhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The book titled, ‘Economic History of India’ was written by",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lord Wellesley",
+        "b": "Lord Dalhousie",
+        "c": "Warren Hastings",
+        "d": "Lord Cornwallis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Permanent Settlement of Bengal and Bihar was introduced during the Governor-Generalship of",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Northern districts of Madras and Varanasi",
+        "b": "Parts of Central India and Avadh",
+        "c": "Parts of Madras and Bombay Presidencies",
+        "d": "The Gangetic valley, North-west Provinces, parts of central India and Punjab"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mahalwari System was introduced first in",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cotton, silk and indigo",
+        "b": "Cotton, wollen and oilseeds",
+        "c": "Cotton, wheat, jute and tea",
+        "d": "Cotton, oilseeds, hides and skins"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The principal commodities of trade in the mid-19th Century were",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Colonialism and Industrial Revolution",
+        "b": "Colonialism and Land Revenue policies",
+        "c": "Commercialisation of Agriculture",
+        "d": "Finance capitalism"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The main factors for Rural Indebtedness were",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1851",
+        "b": "1852",
+        "c": "1853",
+        "d": "1854"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Railways was introduced in",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Patna",
+        "b": "Bombay",
+        "c": "Calcutta",
+        "d": "Jamshedpur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tata Iron and Steel Plant was established at",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It grew with an independent capital base and not as junior partners of foreign capital",
+        "b": "It grew being largely dependent on foreign capital",
+        "c": "It was tied up with pro-imperialist feudal interest",
+        "d": "It was dependent on compradors"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The growth of the Capitalist Class was different in India because",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Charter Act 1793",
+        "b": "Charter Act 1813",
+        "c": "Charter Act 1833",
+        "d": "Charter Act 1853"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Act directed the Company to set aside one lakh rupees annually for education?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The medium of instruction",
+        "b": "The infrastructure",
+        "c": "The fee structure",
+        "d": "The number of student enrolment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The greatest difference between the Government and the Missionary education was",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "William Carey",
+        "b": "Joshua Marshman",
+        "c": "William Ward",
+        "d": "All three of them"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who founded the Serampore College?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1855",
+        "b": "1856",
+        "c": "1857",
+        "d": "1858"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which year were the Universities in Calcutta, Bombay and Madras founded?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bankim Chandra Chatterjee",
+        "b": "Raja Ram Mohan Roy",
+        "c": "Henry Vivian Derozio",
+        "d": "Subhas Chandra Bose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The central figure in the Social Awakening of the first half of the 19th Century was",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To purify Hinduism and to preach theism",
+        "b": "To drive the missionaires out of India",
+        "c": "To bring about the industrialisation of India",
+        "d": "To promote the growth of journalism"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The purpose of the Brahmo Samaj was",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Revive Sanskrit as a medium of instruction",
+        "b": "Uplift India’s down-trodden womanhood",
+        "c": "Protect the ryots from oppressivee zamindars",
+        "d": "Promote Freedom of Speech"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ishwar Chandra Vidyasagar is remembered for his contribution to",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jotiba and Savitribai Phule",
+        "b": "Jagannath Seth and Bhau Daji",
+        "c": "Vishnu Shastri Pundit and Gopal Deshmukh",
+        "d": "Dadabhai Naoroji and Karsondas Mulji"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Western India, the first girls’ school was started in Poona in 1851 by",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Southern and South-east India",
+        "b": "Northern and Central India",
+        "c": "Western and Central India",
+        "d": "Eastern and North-east India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Revolt of 1857 broke out in",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Annexation of Avadh",
+        "b": "The sepoys were not given foreign service allowance",
+        "c": "The use of greased cartridges in the new Enfield rifles",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The immediate cause of the revolt of 1857 was",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The power to govern India was transferred from the East India Company to the British Crown",
+        "b": "The Governor-General was given the title of Viceroy",
+        "c": "Authority of the Directors and Board of the Company was transferred to the Secretary of State for India",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "By an Act of Parliament in 1858",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "January 1857",
+        "b": "February 1859",
+        "c": "March 1859",
+        "d": "April1860"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Indigo Revolt began in Bengal in",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Krishna and Vishnu Kant",
+        "b": "Sidhu and Kanhu Murmu",
+        "c": "Vivekananda and Dayananda",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who were the two leaders to lead the Santal Rebellion in June 1855?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1883",
+        "b": "1884",
+        "c": "1885",
+        "d": "1886"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When was the Indian National Congress founded?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dadabhai Naoroji",
+        "b": "Justice Ranade",
+        "c": "Sayyid Ahmed Khan",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was kown as the ‘Grand Old Man of India’?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Annie Besant",
+        "b": "Ashwini Kumar Dutt",
+        "c": "Vishnu Chiplunkar",
+        "d": "Bal Gangadhar Tilak"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most outstanding representative of the Militant Nationalist School of Thought was",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1905",
+        "b": "1906",
+        "c": "1907",
+        "d": "1908"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which year did the  Anti-Partition or Swadeshi Movement began?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nawab Salimullah",
+        "b": "Syed Amir Ali",
+        "c": "Syed Nabiullah",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Muslim League was founded on 30th December 1906 by",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Constitutional Reforms were introduced",
+        "b": "The Governor retained complete control over finances",
+        "c": "The Government was authorised to imprison any person without trial and conviction in court",
+        "d": "A Legislative Assembly with a total strength of 144 was created"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the Rowlatt Act 1919",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Champaran, Bihar",
+        "b": "Porbander, Gujarat",
+        "c": "South Africa",
+        "d": "Khaira, Gujarat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gandhi’s first great experiment in Satyagraha came in 1917 in",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Netaji Subhas Chandra Bose",
+        "b": "Captain Mohan Singh",
+        "c": "Rash Behari Bose",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In September 1942, the Indian National Army was founded in Singapore by",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2nd March 1947",
+        "b": "1st April 1947",
+        "c": "14th May 1947",
+        "d": "3rd June 1947"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On which date was the announcement made that India and Pakistan would be free?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jawaharlal Nehru",
+        "b": "Dr. BR Ambedkar",
+        "c": "Dr. Rajendra Prasad",
+        "d": "BN Rau"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Objective Resolution’ adopted by the Constituent Assembly on Jan. 22, 1947 was drafted by-",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Head of the Government is elected by the people",
+        "b": "The Government is responsible to the Parliament",
+        "c": "The Constitution of India is supreme and made by a Constituent Assembly",
+        "d": "The Head of the State is elected directly or indirectly by the people"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India is a republic because-",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "External aggression",
+        "b": "Armed rebellion",
+        "c": "Government instability",
+        "d": "Financial crises"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following circumstances is not the ground suitable for declaration of Emergency by the President?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Politico-ethnic",
+        "b": "Politico-religious",
+        "c": "Socio-economic",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The reason for insurgency in the Northwest region of India is-",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fundamental Right",
+        "b": "Natural Right",
+        "c": "Human Right",
+        "d": "Legal Right"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To which of the following categories of Rights does the Right to Property belong?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prime Minister of India",
+        "b": "President of India",
+        "c": "Dy. Speaker of the Lok Sabha",
+        "d": "Chairman of the Rajya Sabha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Speaker of Lok Sabha has to address his letter of resignation to-",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Inter – State rivers",
+        "b": "Trade Unions",
+        "c": "Citizenship",
+        "d": "Local government"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following items comes under the Concurrent List of the Indian Constitution?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Habeas Corpus",
+        "b": "Mandamus",
+        "c": "Prohibition",
+        "d": "Quo-Warranto"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following writs is issued by an appropriate judicial body in order to free a person who has been illegally detained?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam, Nagaland and Manipur",
+        "b": "Himachal Pradesh, Haryana, Rajasthan",
+        "c": "Jharkhand, Chhattisgarh, Madhya Pradesh, Odisha",
+        "d": "Manipur, Tripura, Meghalaya"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There is a Constitutional requirement to have a minister in the charge of Tribal welfare for the States of-",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Questioning the Ministers",
+        "b": "Call Attention Motion",
+        "c": "Vote of Censure",
+        "d": "No – Confidence Motion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of one of the following is not the means of enforcing responsibility upon the Cabinet?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Can take away any Fundamental right",
+        "b": "Violates the basic structure of the Constitution",
+        "c": "Replaces the parliamentary system with the presidential one",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An amendment to the Constitution of India can be declared Unconstitutional by the Supreme Court if it-",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ten years initially and extended after every ten year period",
+        "b": "Fifty years since the commencement of the Constitution",
+        "c": "Forty years since the commencement of the Constitution",
+        "d": "Unlimited period"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The reservation in favour of Scheduled Castes and Scheduled Tribes in government services was made for-",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1,2,3 and 4",
+        "b": "2,4,3 and 1",
+        "c": "1,2,4 and 3",
+        "d": "4,2,3 and 1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrange the formation of the following Political parties in a chronological order- 1.National Conference 2.Jan Sangh 3.AIADMK 4.CPI (M) Select the code from the code given below-",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gram Sabha",
+        "b": "Village Panchayat",
+        "c": "Nagar Panchayat",
+        "d": "District Panchayat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is an example of direct Democracy?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It is always headed by a retired Chief Justice of the Supreme Court",
+        "b": "It was established in 1993 by an Act of the Parliament",
+        "c": "It has the power to inquire into a matter but it does not have the powers of a Civil Court",
+        "d": "It has to obey the orders of the Supreme Court"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not true about the National Human Rights Commission (NHRC)?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indian economy is a planned and a mixed economy",
+        "b": "Indian economy is a capitalist and market-driven economy",
+        "c": "Indian economy is characterised by federal system of finance",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is correct?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2005",
+        "b": "2004",
+        "c": "2006",
+        "d": "2010"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "National Rural Employment Guarantee Programme (NERGP) was launched in",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9 November, 1947",
+        "b": "8 April, 1948",
+        "c": "28 February, 1951",
+        "d": "15 August, 1956"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first India’s Industrial Policy Resolution was announced on",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Commerce",
+        "b": "Manufacturing",
+        "c": "Forestry",
+        "d": "Medium scale industry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a tertiary sector?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cash Reserve Ratio",
+        "b": "Statutory Liquidity Ratio",
+        "c": "Repo Rate",
+        "d": "The bank rate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rate of interest charged by the RBI for providing long-term loans or funds to the banking system is known as",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cooperative Banks",
+        "b": "RRBs",
+        "c": "SBI",
+        "d": "Commercial banks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The largest public sector bank in the country is",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 foreign banks",
+        "b": "20 private banks",
+        "c": "14 private and commercial banks",
+        "d": "12 private and cooperative banks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consequent to the Banking Nationalisation Act,1969, the government nationalised a total number of",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Interconnected Stock Exchange of India Ltd",
+        "b": "The National Stock Exchange of India Ltd.",
+        "c": "The Over the Counter Exchange of India Ltd.",
+        "d": "The Bombay Stock Exchange Ltd.."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The biggest stock exchange in India is?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bear",
+        "b": "Bull",
+        "c": "Broker",
+        "d": "Angel Investor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the Stock Market, a person who speculates share prices to fall in future and so sells his/her shares and earns profit is called",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Foreign currency assets and gold reserves only",
+        "b": "Foreign currency assets, gold reserves, special drawing rights and reserve tranche position",
+        "c": "Foreign currency and special drawing rights in the IMF",
+        "d": "Foreign currency assets held in the RBI"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s Foreign Exchange Reserves (Forex reserves) comprise",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Devaluation",
+        "b": "Depreciation",
+        "c": "Revaluation",
+        "d": "Appreciation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the foreign exchange market, when exchange rate of a domestic currency is cut down by its government against any foreign currency, it is called",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Russia, Cuba and Brazil",
+        "b": "USA, China and Russia",
+        "c": "USA, UAE and Hongkong",
+        "d": "Japan, USA and CIS"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The  top three export destinations of India are",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Wheat",
+        "b": "Rice",
+        "c": "Cereals",
+        "d": "Pulses"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most important food grain crop in India is",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Income method",
+        "b": "Expenditure method",
+        "c": "Mixed and combined method",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India the method followed for the estimation of national income is",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "First Plan",
+        "b": "Second Plan",
+        "c": "Third Plan",
+        "d": "Fourth Plan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Self-reliant’, ‘self-generating’ economy as well as ‘development of agriculture’ are the objectives of",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agro-Based Industry",
+        "b": "Iron and Steel industry",
+        "c": "Petroleum Industry",
+        "d": "Cotton textile Industry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following industry is called basic industry?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cotton Textile",
+        "b": "Engineering Goods",
+        "c": "Leather",
+        "d": "Petrochemicals"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mumbai-Pune Industrial region is famous for production of",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi-Mumbai",
+        "b": "Chennai-Bengaluru",
+        "c": "Amritsar-Kolkata",
+        "d": "Ahmedabad-Pune"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not related to industrial corridor?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Intensive Farming",
+        "b": "Subsistence farming",
+        "c": "Commercial Farming",
+        "d": "Mixed Farming"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shifting cultivation is fall under which category?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rearing of Silk Worms",
+        "b": "Cultivation of Vegetables",
+        "c": "Cultivation of Grapes",
+        "d": "None of the Above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Viticulture is",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Integrated Agriculture Programme",
+        "b": "Package Programme",
+        "c": "Agro-Climatic Planning",
+        "d": "New Agriculture Policy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Intensive Agriculture Development Programme (IADP) is also known as",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lack of Irrigation",
+        "b": "Land reforms",
+        "c": "Consolidation of Land Holdings",
+        "d": "High Yielding Varieties of Seeds"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is related to the features of Dry Farming in India",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nagaland",
+        "b": "Meghalaya",
+        "c": "Uttaranchal",
+        "d": "Mizoram"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Census of India 2011, which state has the highest percentage of tribal population?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dravida Family",
+        "b": "Aryan family",
+        "c": "Nishada Family",
+        "d": "Kirata Family"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the largest language family of India",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Serchhip",
+        "b": "Champhai",
+        "c": "Mamit",
+        "d": "Aizawl"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Based on Census 2011, which of the following district has the highest sex ratio in Mizoram",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Himadri",
+        "b": "Pir Panjal Range",
+        "c": "Shiwalik Range",
+        "d": "Zaskar Range"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The lowest range of Himalayan Mountain is also called",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Suitable for extensive cultivation",
+        "b": "Re-emergence of streams and forming marshy area or swampy area",
+        "c": "Fertile alluvial soils",
+        "d": "Older alluvial soils"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Terai area is characterize by",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Odisha Coast",
+        "b": "Karnataka Coast",
+        "c": "Maharashtra Coast",
+        "d": "Tamil Nadu Coast"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In 1st June of the year,  onset of south-west monsoons expected to strikes",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Damodar",
+        "b": "Tista",
+        "c": "Kosi",
+        "d": "Ganga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following river is named ‘Sorrow of Bihar’",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sialkal Range",
+        "b": "Chalfilh Range",
+        "c": "Hmuifang Range",
+        "d": "Phawngpui Range"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lengteng, Sur and Nauzuar peaks are located in",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

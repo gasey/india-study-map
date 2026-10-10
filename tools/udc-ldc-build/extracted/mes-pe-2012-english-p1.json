@@ -1,0 +1,70 @@
+{
+  "slug": "mes-pe-2012-english-p1",
+  "exam": "Jr. Grade of Mizoram Engineering Service (AE/SDO) under Power & Electricity Department",
+  "sitting": "January 2012",
+  "subject": "General English Paper-I",
+  "source": "mes-pe-2012-english-p1.pdf",
+  "sourceSha256": "8d0e99cb4547691f83f79b56116d3e76eb0d8fa75f3f85e09b22bca42ffcb208",
+  "ocr": false,
+  "count": 2,
+  "questions": [
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "to be all up",
+        "b": "to be in a fix",
+        "c": "to be down with",
+        "d": "to bear away"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Use the following idioms and phrases to make appropriate sentences to highlight their meaning. (15×1=15)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Give the meaning of the following words as used in the given passage.(5x1=5) (i)cosmopolitan(ii)peril (iii)obscure(iv)havoc (v)fraternity",
+        "b": "Why is English language so important for Indians according to the writer?(2)",
+        "c": "What is necessary in order to have an international civilization and cosmopolitan culture?(2)",
+        "d": "How is the English language a constructive force in the modern world?(2) (2)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following passage carefully and answer the questions that follow. The great and inspiring language which is to play the most vital role in changing the present aggressive and militant outlook of humanity, has an extremely bright and optimistic future. It is to be crowned as the “Language of Humanity”, “The Voice of Human Civilization” and the only beacon guiding the frustrated and dejected vessel of our civilization amid the perilous ocean of mass destruction, violence and bloodshed. It is a wrong and narrow-minded assumption among some of the Indians that the spread of Hindi, as lingua franca of our country, English Language would wane down. I am confident that, with the growth of our National Language, we should cultivate the International Language. If Hindi is our National Language, English will be our International Language. We must love both the languages as one is the language of our Motherland the other is the language of our Fatherland which is “as wide as the blue sky”. English language will be the only medium of instruction in the future International University of the World State where the people of the world would receive training in the art of universal citizenship. It would serve as the guiding light in the realm of peace. If English language taught the scientists to invent deadliest weapons of destruction in this age of Peace and Love, it would teach the philosophers and thinkers to invent method of spreading international peace. (Contd.  3) English language is, no doubt, the most creative and constructive force in the modern world of ideas and thoughts. In the words of our late Prime Minister, Mr. Nehru, “the very message of modern humanity, is today, given through this great Global Language, which has a unique tendency of adaptation and reconciliation…If we totally ignore this International Language of Modern Civilization, we shall be pushed back to a state of dark and primitive semi-barbarism.” The modern world is drifting towards the final and ultimate goal of human civilization – Internationalism and cosmopolitanism. For an international civilization and cosmopolitan culture men must have an international and cosmopolitan culture, men must have an international and cosmopolitan language – the language of the entire humanity – the language that can be spoken and understood by the entire group of human creatures, expressing the ideas of Eternal Peace and Perpetual Bliss. In the present world, the people of the world have realized the fact that aggressive nationalism is the main cause of human decay and frustration of civilization. They have seen how, in the name of “Racial Superiority” and “Purity of Blood” certain nation of the world created untold and unimaginable havoc on others, making mass-murders, shedding pools of blood and devastating destructions of cities and towns. The war-torn humanity has a hatred for the world ‘Nationalism’ and today, they want to embrace Internationalism, based upon the principles of Equality, Liberty and Fraternity. For the establishment and consolidation of such a state, we need above else, a common universal language, as in the words of Bertrand Russell, “It is a common language that unites men.” There are about three hundred and fifty major languages spoken all over the globe, dominant of these being (other than English) Russian, German, French and Japanese. It is English and only English which claims to embrace more than half of the total population of the world. It is estimated that this language is spoken and understood by more than 500 million people, inhabiting various parts of the world. English language thus, is the only language that can serve as the International Language. By becoming International it would serve mankind in the most vital way. No doubt, the British Empire has tumbled down and the British political-craftsmanship is losing importance day by day. But English language, like old Johnny Walker is getting stronger and steadier with every movement and its importance is felt more vitally as the world advances towards Internationalism and cosmopolitanism.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p2, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p2, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      5
+    ]
+  }
+}

@@ -1,0 +1,2320 @@
+{
+  "slug": "si-police-ub-2018-gk",
+  "exam": "Sub Inspector (UB) under Home Department",
+  "sitting": "October 2018",
+  "subject": "General Knowledge",
+  "source": "si-police-ub-2018-gk.pdf",
+  "sourceSha256": "a6afa833d43059c4e5d9ff63d41bc11bfc65627ab221bb947afc8af06458a35b",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Harivansh Narayan Singh",
+        "b": "B K Hariprasad",
+        "c": "Ananth Kumar",
+        "d": "Ram Gopal Yadav"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has been elected as the Deputy Chairman of the Rajya Sabha?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "South Africa",
+        "b": "Brazil",
+        "c": "Russia",
+        "d": "China"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country hosted the 10th edition of BRICS Summit 2018?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Apple",
+        "b": "Samsung",
+        "c": "Xiaomi",
+        "d": "Oppo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which company has set up the world’s largest mobile phone factory in Noida, India?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "cVigil",
+        "b": "pVigil",
+        "c": "eVigil",
+        "d": "mVigil"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which unique app has been launched by the Election Commission of India (ECI) for people to report model code violations?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Germany",
+        "b": "Japan",
+        "c": "Italy",
+        "d": "India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The world’s first all-digital art museum has opened in which country?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jim Corbett National Park",
+        "b": "Bhitarkanika National Park",
+        "c": "Ranthambore National Park",
+        "d": "Nagarhole National Park"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following National Parks has become the largest habitat of the endangered estuarine crocodiles in India?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Panchami Majhi",
+        "b": "Rashmirekha Hansdah",
+        "c": "Tulasi Munda",
+        "d": "Pallavi Durua"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has been crowned as India’s First Tribal Queen?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bishangarh",
+        "b": "Nimriwali",
+        "c": "Godikan",
+        "d": "IshapurKheri"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which village panchayat of Haryana has passed a resolution ‘No Toilet, No Bride’?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kolkata",
+        "b": "Mysuru",
+        "c": "Kota",
+        "d": "New Delhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which city has set a Guinness World Record (GWR) for largest number of people performing yoga at one place at the same time on 2018 International Yoga Day (IYD)?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Home",
+        "b": "Ministry of Corporate Affairs",
+        "c": "Ministry of Defence",
+        "d": "Ministry of Law and Justice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Union Cabinet has approved the nomination of which Union Ministry as the ex-officio Chairman of North Eastern Council (NEC)?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mexico",
+        "b": "Egypt",
+        "c": "Taiwan",
+        "d": "Guatemala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Fuego volcano has recently erupted in which country?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Skype",
+        "b": "Facebook",
+        "c": "Twitter",
+        "d": "LinkedIn"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which social networking giant has partnered with National Commission for Women (NCW) to offer digital literacy programme for women?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "One time",
+        "b": "Two times",
+        "c": "Three times",
+        "d": "Four times"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Atal Bihari Vajpayee who recently passed away was Prime-Minister of India for how many times?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lal Thanzara",
+        "b": "Dr. L Fimate",
+        "c": "Dr. Lalbiakkima",
+        "d": "Dr. Rohmingthanga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Director of Mizoram Institute of Medical Education and Research (MIMER) is -",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IDBI Bank",
+        "b": "State Bank of India",
+        "c": "ICICI Bank",
+        "d": "Union Bank of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The National Highways Authority of India (NHAI) recently signed MoU with which Bank for long term Unsecured Loan?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nigeria",
+        "b": "Libya",
+        "c": "Zimbabwe",
+        "d": "Serbia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Emmerson Mnangagwa won the Presidential election in which country?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ujjwala Yogana",
+        "b": "Saubhagya Scheme",
+        "c": "UDAY Yojana",
+        "d": "LaQshya Scheme"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Union Government recently achieved its target of providing 5 crore free LPG connections to poor families under which scheme?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chawngtlai",
+        "b": "Riangtlei",
+        "c": "Rabung",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Villages of Mizoram with no record BPL family according to the BPL baseline survey 2016 released on June 2018.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mumbai",
+        "b": "Jharkhand",
+        "c": "Aizawl",
+        "d": "Indore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the cleanest city in India as declared by Swachh Survekshan 2018?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MatteoSalvini",
+        "b": "Sergio Mattarella",
+        "c": "Giuseppe Conte",
+        "d": "Luigi Di Maio"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the new Prime Minister of Italy?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A. P. J. Abdul Kalam",
+        "b": "HomiBhabha",
+        "c": "VK Sarabhai",
+        "d": "Atal Behari Vajpayee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the Indian known as ‘Missile man of India’?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Harsh Vardhan",
+        "b": "Nirmala Sitharaman",
+        "c": "Kiren Rijiju",
+        "d": "Krishan Pal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the present Defence Minister of India?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nawaz Sharif",
+        "b": "Asif Ali Zardari",
+        "c": "Pervez Musharraf",
+        "d": "Imran Khan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the new Prime Minister of Pakistan?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ShreyaRao",
+        "b": "Anukreethy Vas",
+        "c": "MeenakshiChaudhary",
+        "d": "NeelamKhurrana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has been crowned Femina Miss India World 2018?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tlangrokhuma",
+        "b": "Bipuljyoti Saikia",
+        "c": "Chinmay Ray",
+        "d": "HK Jerry Ramliana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the winner of Pranab Baruah Art Award 2017 on the 25th February 2018?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Taoism",
+        "b": "Judaism",
+        "c": "Zoroastrianism",
+        "d": "Shintoism"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fire temple is the place of worship of which of the following religion?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tripura",
+        "b": "Sikkim",
+        "c": "Rajasthan",
+        "d": "Nagaland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Meena is the tribe of:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nile",
+        "b": "Amazon",
+        "c": "Yamuna",
+        "d": "Hwang-Ho"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the longest River in the World?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lake Baikal",
+        "b": "Caspian Sea",
+        "c": "Lake Lucerne",
+        "d": "Lake Superior"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The world’s largest freshwater lake by volume is:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Succulent",
+        "b": "Viviparous",
+        "c": "Herbaceous",
+        "d": "Heterophyllous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Desert plants are generally:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Stock Exchange",
+        "b": "Sale Tax Department",
+        "c": "Planning Commission",
+        "d": "Income Tax Department"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The terms ‘bull’ and ‘bear’ are used in:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Finance",
+        "b": "NitiAyog",
+        "c": "Govt. of India",
+        "d": "Indian Statistical Institute"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Economic Survey of India is published by:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Geneva",
+        "b": "The Hague",
+        "c": "Rome",
+        "d": "Vienna"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The headquarters of the International Court of Justice (ICJ) is at:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bangladesh",
+        "b": "Malaysia",
+        "c": "Pakistan",
+        "d": "Nepal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following countries is not a member of SAARC?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arctic",
+        "b": "Pacific",
+        "c": "Atlantic",
+        "d": "Antarctic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mariana Trench is in the __________ Ocean.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Santhanam committee",
+        "b": "Ranganathan committee",
+        "c": "Ashok Mehta committee",
+        "d": "Sarkaria Committee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The enquiry of Centre State relation is conducted by:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CRPF",
+        "b": "BSF",
+        "c": "Assam Rifles",
+        "d": "NCC"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The oldest paramilitary force in India which was established in 1835 is:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr. Rajendra Prasad",
+        "b": "Mahatma Gandhi",
+        "c": "Indira Gandhi",
+        "d": "IK Gujral"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Raj Ghat is the crematorium of:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dead sea",
+        "b": "The Great Plains",
+        "c": "Pangong Tso Lake",
+        "d": "Jiuzhaigou Valley"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The lowest place in Asia is:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "N. Sikki Reddy",
+        "b": "Ashwini Ponnappa",
+        "c": "Ankita Raina",
+        "d": "Karman Kaur Thandi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian female tennis player has won bronze in women’s singles at the 18th Asian Games 2018?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Caroline Wozniacki",
+        "b": "Simone Halep",
+        "c": "Kristina Mladenovic",
+        "d": "Gabriela Dabrowski"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the winner of Australian Open 2018 (female)?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalthansiami",
+        "b": "Lalremsiami",
+        "c": "Lalsiammawii",
+        "d": "Lalnunmawii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the Mizo girl who represented India in Hockey in the Asian Games 2018?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3",
+        "b": "6",
+        "c": "4",
+        "d": "7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many goal was scored by Harry Kane, the top scorer in FIFA World Cup 2018?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rafael Nadal",
+        "b": "Kevin Anderson",
+        "c": "Novak Djokovic",
+        "d": "Andy Murray"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the winner of Men’s Singles in 2018 Wimbledon Championships?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Qatar",
+        "b": "Australia",
+        "c": "Kuwait",
+        "d": "Bahrain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who will host 2022 FIFA World Cup?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arjuna Award",
+        "b": "Rajiv Gandhi Khel Ratna Award",
+        "c": "Dronacharya Award",
+        "d": "Puraskar Award"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India, the highest honour given for achievement in sports is:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Automated Tallying Machine",
+        "b": "Automatic Teller Machine",
+        "c": "Automated Totalling Machine",
+        "d": "Automated Transaction of Money"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the full form of ‘ATM’?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Radio Device and Ranging",
+        "b": "Region Device and Ranging",
+        "c": "Radio Detecting and Ranging",
+        "d": "Radio Detect and Range"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the full form of ‘RADAR’?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Read Access Memory",
+        "b": "Random Access Memory",
+        "c": "Random Access Machine",
+        "d": "Range Access Machine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the full form of ‘RAM’?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Romila Thapar",
+        "b": "M G S Narayanan",
+        "c": "Sanjay Subrahmanyam",
+        "d": "Ramachandra Guha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which renowned historian authored the book ‘Gandhi: The Years That Changed The World (1914- 1948)’?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "V.S. Naipaul",
+        "b": "Salman Rushdie",
+        "c": "Vikram Seth",
+        "d": "Anita Desai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the Trinidad-born Indian origin Nobel prize winning author who passed away recently?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sonia Gandhi",
+        "b": "Margaret Thatcher",
+        "c": "Nelson Mandela",
+        "d": "Benazir Bhutto"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Long Walk to Freedom’ is a book written by:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aretha Franklin",
+        "b": "Etta James",
+        "c": "Norah Jones",
+        "d": "Gladys Knight"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is known as ‘Queen of Soul Music’ who recently passed away?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Geoffrey Chaucer",
+        "b": "John Milton",
+        "c": "John Keats",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is known as the Father of English poetry?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Harry Potter and the Goblet of Fire",
+        "b": "Harry Potter and the Philosopher’s Stone",
+        "c": "Harry Potter and the Chamber of Secrets",
+        "d": "Harry Potter and the God of small things"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the first Harry Potter book?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Savun Kawrfual",
+        "b": "Aizawlah Aizawler",
+        "c": "Kawlkil piah Lamtluang",
+        "d": "Thinglubul"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "MAL Book of the year 2017 written by Lalhmingchhuanga Zongte is -",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "George Saunders",
+        "b": "Jacqueline Rose",
+        "c": "Arundhati Roy",
+        "d": "Olga Tokarczuk"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The author of 2018 Man Booker Prize winner ‘Flights’ is:",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bhasha Samman",
+        "b": "Vyas Samman",
+        "c": "Konark Samman",
+        "d": "Saraswati Samman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The award given for outstanding prose or poetry literary works in any Indian language listed in Schedule - VIII of the Constitution of India is called:",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Canary Islands",
+        "b": "Island Cocos",
+        "c": "Christmas Islands",
+        "d": "Cook Islands"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which island is known as the ‘Fortunate Islands’?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Venice",
+        "b": "Strait of Gibraltar",
+        "c": "Natal",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Pillars of Hercules’ is the nickname of:",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Simla",
+        "b": "Rome",
+        "c": "Venice",
+        "d": "Ooty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which city is known as the City of Seven Hills?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Haryana",
+        "b": "Kerala",
+        "c": "Punjab",
+        "d": "Bihar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state is known as ‘Granary of India’?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Concave Lens",
+        "b": "Convex Lens",
+        "c": "Bipolar Lens",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which glasses or lens are used to correct the short sighted eye defect?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kinetic Energy",
+        "b": "Potential Energy",
+        "c": "Mechanical Energy",
+        "d": "Electrical Energy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The energy possessed by a body due to its position is called:",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Genes",
+        "b": "Mutation",
+        "c": "Variation",
+        "d": "Genetics"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The process of transfer of hereditary character from one generation to another is known as:",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sulphuric Acid",
+        "b": "Hydrochloric Acid",
+        "c": "Carbonic Acid",
+        "d": "Nitric Acid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which acid is secreted in the stomach?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "vitamins",
+        "b": "proteins",
+        "c": "minerals",
+        "d": "carbohydrates"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Our bodies cannot produce:",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Blindness",
+        "b": "Osteoporosis",
+        "c": "Impaired blood clotting",
+        "d": "Impaired taste perception"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of these is a symptom of vitamin A deficiency?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cell",
+        "b": "Tissue",
+        "c": "Muscle",
+        "d": "Organs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The basic structural and functional unit of life is:",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "b - cells",
+        "b": "a - cells",
+        "c": "Leydig cells",
+        "d": "Interstitial cells"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which cells of pancreas produce insulin that lowers the blood sugar level?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "39",
+        "b": "23",
+        "c": "21",
+        "d": "22"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The number of paired chromosomes in human is:",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Turner’s syndrome",
+        "b": "Klinefelter’s syndrome",
+        "c": "Patau syndrome",
+        "d": "Down’s syndrome"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘Mongolism’ is a disorder that refers to:",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Volt",
+        "b": "Kilowatt-minute",
+        "c": "Kilowatt-hour",
+        "d": "Kilowatt-second"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which unit is the electrical energy consumed by us recorded?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pneumatic rubber tire",
+        "b": "Automobile wheel rim",
+        "c": "Rubber boot",
+        "d": "Model airplanes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "J. B. Dunlop invented the:",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "John Wilkinson",
+        "b": "Alessandro Volta",
+        "c": "James Hargreaves",
+        "d": "Thomas Edison"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented the battery?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Atomic clocks",
+        "b": "Carbon dating",
+        "c": "Uranium dating",
+        "d": "Biological clocks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The age of the earth can be estimated by:",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Altimeter",
+        "b": "Ammeter",
+        "c": "Audiometer",
+        "d": "Anemometer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which instrument is used to measure altitudes in aircrafts?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1200 - 1400 years",
+        "b": "2000 - 2500 years",
+        "c": "1400 - 1500 years",
+        "d": "1250 - 1400 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Archaeological Survey of India (ASI), Mizoram is believed to be how many years?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Watt",
+        "b": "Coulomb",
+        "c": "Volt",
+        "d": "Ampere"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the SI Unit of Electric current?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Threatened plant and animal species",
+        "b": "Endemic plant and animal species present in the biodiversity hotsposts",
+        "c": "Protected sites for conservation of nature and natural resources in various countries",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Red Data Books published by the International Union for Conservation of Nature and Natural Resources (IUCN) contains list of:",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Graphic program",
+        "b": "Operating system",
+        "c": "Database program",
+        "d": "Word Processing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A Microsoft Windows is a(n):",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bill Gates",
+        "b": "Bob Kahn",
+        "c": "Steve Jobs",
+        "d": "Tim Berners-Lee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The World Wide Web was invented by:",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Monoculture Plantation",
+        "b": "Felling of trees",
+        "c": "Habitat destruction",
+        "d": "Paucity of drinking water"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the major cause of diminishing wild life?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "198",
+        "b": "1972",
+        "c": "1970",
+        "d": "1980"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which year was ‘The Tiger Project’ launched in India?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arunachal pradesh",
+        "b": "Madhya Pradesh",
+        "c": "Mizoram",
+        "d": "Andhra Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state in India has the largest areas under forests cover?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Graphite",
+        "b": "Silicon",
+        "c": "Alluminium",
+        "d": "Phosphorous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is used in pencils?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sodium carbonate",
+        "b": "Calcium bicarbonate",
+        "c": "Sodium bicarbonate",
+        "d": "Calcium carbonate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Washing soda is the common name for:",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Teflon",
+        "b": "PVC",
+        "c": "black paint",
+        "d": "polystyrene"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Non stick cooking utensils are coated with:",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbon dioxide concentration",
+        "b": "Intensity of Light",
+        "c": "Duration of Light",
+        "d": "Temperature"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rate of photosynthesis does not depend upon:",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kaleidoscope",
+        "b": "Periscope",
+        "c": "Spectroscope",
+        "d": "Telescope"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For seeing objects at the surface of water from a submarine under water, the instrument used is:",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aryabhatta",
+        "b": "Bhaskara II",
+        "c": "Bhaskara I",
+        "d": "Albert Einstein"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s first satellite is named after:",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "the clear sky allows radiant energy to escape readily from the earth",
+        "b": "on a cloudy night the clouds are warm and therefore retard the cooling",
+        "c": "the clear sky allows the cold of outer space to reach the earth",
+        "d": "current of air carry the heat away from the earth on a clear night"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On a night when the sky is clear, the temperature may dip considerably; on a cloudy night the temperature will usually dip much less. The reason for this difference is that:",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4 hours and 30 minutes",
+        "b": "5 hours and 30 minutes",
+        "c": "6 hours and 30 minutes",
+        "d": "7 hours and 30 minutes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the time difference between Indian Standard Time and Greenwich Meridian?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agni - IV",
+        "b": "Prithvi - III",
+        "c": "Brahmos",
+        "d": "Agni - VI"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A stealth supersonic cruise missile that can be launched from submarines, ships, aircraft or land is:",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "infinite",
+        "b": "same as at other place",
+        "c": "zero",
+        "d": "more than at other places"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The weight of a body at the centre of the earth is:",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Isotopes",
+        "b": "Isobars",
+        "c": "Isotones",
+        "d": "Polymers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The elements with same mass number but different atomic numbers are called:",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "electrons",
+        "b": "protons",
+        "c": "neutrons",
+        "d": "atomic nucleus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The negatively charged fundamental particles of an atom is:",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "white",
+        "b": "magenta",
+        "c": "cyan",
+        "d": "yellow"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mixing of red and green colour gives:",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "carbon dioxide",
+        "b": "carbon monoxide",
+        "c": "sulphur dioxide",
+        "d": "nitrogen dioxide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is dangerous to have charcoal fire burning in a closed room because it produces:",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CFCs",
+        "b": "Methane",
+        "c": "Carbon dioxide",
+        "d": "Sulphur dioxide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is the major cause of depletion of ozone layer?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/7477588fff161f74676d7b3d9a5f085f/general-knowledge-siub.pdf",
+  "enrichmentVersion": 3,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

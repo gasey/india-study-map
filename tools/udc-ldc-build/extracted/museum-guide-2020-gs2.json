@@ -1,0 +1,1721 @@
+{
+  "slug": "museum-guide-2020-gs2",
+  "exam": "Museum Guide under Art & Culture Department",
+  "sitting": "2020",
+  "subject": "General Studies Paper-II",
+  "source": "Museum Guide General Studies-II.pdf",
+  "sourceSha256": "a9e4ceaf7ad1f6fd1709fc236d12f14c52d8e4c87b297181462a075918699d05",
+  "ocr": false,
+  "count": 74,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prof. Jagdish Mukhi",
+        "b": "P.S. Sreedharan Pillai",
+        "c": "Kummanam Rajasekharan",
+        "d": "Lt. Gen. Nirbhay Sharma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "25th Governor of Mizoram is",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "March, 1978",
+        "b": "February, 1977",
+        "c": "March, 1977",
+        "d": "April, 1977"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizoram State Museum was established in",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vinicius de Moraes",
+        "b": "The Hare, the Polar Bear and the Leopard",
+        "c": "Miraitowa",
+        "d": "Soohorang"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The official mascot Tokyo 2020 Olympic Games is",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National Gallery of Art",
+        "b": "National Gallery",
+        "c": "Natural History Museum",
+        "d": "Tate Modern"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pick the odd ones from the following:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Alissandra Cummins",
+        "b": "Hans- Martin Hinz",
+        "c": "Saroj Ghose",
+        "d": "Suay Aksoy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following person is the current president of ICOM?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "B. Lalthangliana",
+        "b": "Prof. Laltluangliana Khiangte",
+        "c": "Lalhruaitluanga Ralte",
+        "d": "M. Lalmanzuala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the author of ‘Zoram Vartian’?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Old currency",
+        "b": "Sports persons",
+        "c": "Mahatma Gandhi",
+        "d": "Freedom fighters"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A museum called ‘Biplobi Bharat’ that to be established is related to",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indian Museum",
+        "b": "Government Museum",
+        "c": "Napier Museum",
+        "d": "Watson Museum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first museum in India is",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15th May",
+        "b": "16th May",
+        "c": "17th May",
+        "d": "18th May"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Museum Day is celebrated every year on which date?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aberdeen",
+        "b": "Belgrade",
+        "c": "Jaipur",
+        "d": "Johannesburg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Granite City’ is the name given for the city of",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Amit Sharma",
+        "b": "Bipin Singh Rawat",
+        "c": "Karambir Singh",
+        "d": "RKS Bhadauria"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the India’s first Chief of Defence Staff (CDS)?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Citizenship (Amendment) Act 2019 passed by Lok Sabha on 11 December 2019",
+        "b": "Citizenship (Amendment) Act 2019 passed by Rajya Sabha on 11 December 2019",
+        "c": "Citizenship (Amendment) Act 2019 introduced by Amit Shah on 8 December 2019",
+        "d": "Citizenship (Amendment) Act 2019 effective on 10 January 2020"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statement is ‘correct’?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Director",
+        "b": "Museum Director",
+        "c": "Museum Curator",
+        "d": "The Chairman of the Board of Trustees"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizoram State Museum is headed by",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "D. Subbarao",
+        "b": "Raghuram Rajan",
+        "c": "Shaktikanta Das",
+        "d": "Urjit Patel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the current Governor of the RBI?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Africa",
+        "b": "Brazil",
+        "c": "India",
+        "d": "Russia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 11th BRICS Summit was held on November 13-14, 2019 in",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2 January 2020",
+        "b": "3 January 2020",
+        "c": "4 January 2020",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An Iranian Major General Qasem Soleimani was killed in a U.S. drone strike on",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9 November 2019",
+        "b": "10 November 2019",
+        "c": "11 November 2019",
+        "d": "12 November 2019"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Supreme Court resolved the Ayodhya case verdict on",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Florence L.R. Ralte",
+        "b": "Mafaa Hauhnar",
+        "c": "Zochhumpuii Pa",
+        "d": "Zoremi Hmar Zote"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A book ‘Chumchi leng’ was written by",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "West Bengal & Odisha",
+        "b": "West Bengal & Gujarat",
+        "c": "Gujarat & Odisha",
+        "d": "Assam & Gujarat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian States were hit by the Cyclone Bulbul?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Department of Economic Affairs",
+        "b": "Finance Commission",
+        "c": "National Advisory Commission",
+        "d": "NITI Aayog"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The NDA government replace Planning Commission and established",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "David Attenborough",
+        "b": "Divina Maloum",
+        "c": "Tony Joseph",
+        "d": "Greta Thunberg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the awardee of Indira Gandhi National Peace Prize 2019?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Abiy Ahmed Ali",
+        "b": "Abhijit Banerjee",
+        "c": "Esther Duflo",
+        "d": "Olga Tokarczuk"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Nobel Peace Prize 2019 was awarded to",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Lost Victory",
+        "b": "Turning Points",
+        "c": "The Freethinker’s prayer book",
+        "d": "Train to Pakistan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following book is not written by Khushwant Singh?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ben Stokes",
+        "b": "Deepak Chahar",
+        "c": "Pat Cummins",
+        "d": "Virat Kohli"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the ICC player of the year 2019?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1917",
+        "b": "Joker",
+        "c": "The Irishman",
+        "d": "Once upon a time in Hollywood"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the winner of maximum nominated for 42nd Academy Awards?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi",
+        "b": "Bangalore",
+        "c": "Kolkatta",
+        "d": "Hyderabad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first science museum in India was set up in",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr. C.V. Raman",
+        "b": "Dr. Venkatraman Radhakrishnan",
+        "c": "Dr. A.P.J. Abdul Kalam",
+        "d": "Dr. Vekatesh Prasad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is popularly known as ‘Missile Man of India’?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Visakhapatnam",
+        "b": "Kochi",
+        "c": "Mumbai",
+        "d": "Chennai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s first Naval museum was commissioned at this major sea port",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Diod",
+        "b": "Integrated Circuit",
+        "c": "Capacitor",
+        "d": "Transistor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which device can be used to store electric charge?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "100MB",
+        "b": "1000MB",
+        "c": "100KB",
+        "d": "1000KB"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a computing system, 1GB equals",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chandrayaan-1",
+        "b": "INSAT-1B",
+        "c": "AstroSat",
+        "d": "YOUTHSAT"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Of the following satellites, which one is intended for transmitting TV programmes?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Integrated of Transistors",
+        "b": "Intranet of Things",
+        "c": "Internet of Things",
+        "d": "Internals of Transistors"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IoT stands for",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Amartya Sen",
+        "b": "APJ Abdul Kalam",
+        "c": "CV Raman",
+        "d": "Rabindranath Tagore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s first Nobel Prize for Physics was awarded to",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi",
+        "b": "Mumbai",
+        "c": "Lucknow",
+        "d": "Bangalore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The headquarter of ISRO is situated in",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Phonephobia",
+        "b": "Nomophobia",
+        "c": "Cellessphobia",
+        "d": "Telesphobia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The fear of being without a mobile device, or beyond mobile phone contact is known as",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2000",
+        "b": "1995",
+        "c": "1990",
+        "d": "1985"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which year did IT Act came into force in India?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chandra",
+        "b": "Pragyan",
+        "c": "Vikram",
+        "d": "Dharma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Lander of Chandrayaan-2 is called",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Methane and Butane",
+        "b": "Propane and Butane",
+        "c": "Ethane and Propane",
+        "d": "Ethane and Butane"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "L.P.G. is a hydrocarbon consisting of a mixture of",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Appointed by the President of India from time to time",
+        "b": "Union Minister of Science and Technology",
+        "c": "President of India (b)Prime Minister of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Who is the President of the Council of Science and Industrial Research?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalveng",
+        "b": "Venghlun",
+        "c": "Mualveng",
+        "d": "Vengpui"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The part of the traditional Mizo village where the chief resided was called:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tukluh Bawi",
+        "b": "Chemsen Bawi",
+        "c": "Inpuichhung Bawi",
+        "d": "Sal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Criminal, who took refuge in the chief’s house to escape punishment became:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The bride’s elder sister",
+        "b": "The bride’s mother’s sister",
+        "c": "The groom’s younger sister",
+        "d": "the bride’s grandmother"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Of the marriage prices “Naupuakpuan” is given to:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The eldest son",
+        "b": "The youngest son",
+        "c": "Wife",
+        "d": "The eldest brother"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The formal heir to the father’s property in traditional Mizo society was:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chapchar Kut",
+        "b": "Mim Kut",
+        "c": "Pawl Kut",
+        "d": "Thalfavang Kut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following was considered as the Children’s festival?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pawi (Lai)",
+        "b": "Lusei",
+        "c": "Lakher (Mara)",
+        "d": "Chin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following did not have priests of any sort, and every man was his own priest?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The people",
+        "b": "The cultivator",
+        "c": "The jhum expert",
+        "d": "The chief"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In pre-colonial Mizoram, the land belonged to:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1835",
+        "b": "1844",
+        "c": "1871",
+        "d": "1890"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first British military expedition against the Lushais (Blackwood’s Expedition) took place in:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "North Vanlaiphai",
+        "b": "Lunglei (Lungleh)",
+        "c": "Biate",
+        "d": "Darzo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Fort Tregear” was located at:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "John Shakespear",
+        "b": "T.H. Lewin",
+        "c": "C.S. Murray",
+        "d": "Herbert Brown"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following issued “Ramri Lehkha”?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Matthew, Mark and Luke",
+        "b": "Luke, John and Acts",
+        "c": "Mark, Luke and John",
+        "d": "Genesis, Exodus and Leviticus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which books of the Bible were first translated into Mizo language?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr. Peter Fraser",
+        "b": "Dr. John Williams",
+        "c": "Dr. G.P. Roberts",
+        "d": "Dr. C.C Chesterton"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first medical missionary to Mizoram was:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1000",
+        "b": "2000",
+        "c": "2100",
+        "d": "Only 30"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many Mizo young men were enrolled in the ‘Labour Corps’ during the First World War?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A Dumpawl",
+        "b": "Pawllo Pawl",
+        "c": "Hnamchawm Pawl",
+        "d": "Zalen Pawl"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "United Mizo Freedom Organization (UMFO) was also known as:",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Detention Camp",
+        "b": "Progressive and Protective Villages",
+        "c": "Khaw Khawm",
+        "d": "The Vietcong Model"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Villages were grouped together in Mizoram for the Indian military conveniences during the MNF movement in Mizoram. The grouping of village scheme was known as:",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "35",
+        "b": "48",
+        "c": "51",
+        "d": "60"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average age of 36 students in a group is 14 years. When teacher’s age is included to it, the average increases by one. What is the teacher’s age in years?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "150%",
+        "b": "200%",
+        "c": "300%",
+        "d": "350%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the cost price is 25% of selling price. Then what is the profit percent.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3.6",
+        "b": "7.2",
+        "c": "8.4",
+        "d": "10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person crosses a 600 m long street in 5 minutes, What is his speed in km per hour?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2 : 1",
+        "b": "4 : 1",
+        "c": "3 : 1",
+        "d": "3 : 1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the ratio between the volumes of a cylinder and cone of the same height and of the same diameter?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30%",
+        "b": "25%",
+        "c": "22%",
+        "d": "18% 1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A sum of money triples itself in 8 years simple interest. Find the rate of percent per annum?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 1317 1317",
+        "c": "",
+        "d": " 1712 21 +"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If2=k+, then the value of k is 1 1+ 1 3+ 4 1721",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": " 3 3",
+        "c": "",
+        "d": "2 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If (a + 2b) =6 and ab = 4, then is ab 2",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "70°",
+        "b": "50°",
+        "c": "45°",
+        "d": "35°"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An angle is 20° less than its complement. Find the angle",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12",
+        "b": "14",
+        "c": "18",
+        "d": "16"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If 2432 ÷ k = 23104, then the value of k is",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "52",
+        "b": "54",
+        "c": "63",
+        "d": "62"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The following observations are arranged in ascending order: 25, 28, 42, 53, x, x+2, 70, 75, 82 ,95. If the median is 64, then the value of x is",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 66 – 67): Look carefully for the pattern, and then choose which numbers comes",
+      "opts": {
+        "a": "31",
+        "b": "32",
+        "c": "33",
+        "d": "34"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "11   15   18   22   25   29  ?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 66 – 67): Look carefully for the pattern, and then choose which numbers comes",
+      "opts": {
+        "a": "8",
+        "b": "10",
+        "c": "12",
+        "d": "14"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "6   30   8   24   10   18   ?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question 68): Choose the correct alternative from the given answers.",
+      "opts": {
+        "a": "Impossible",
+        "b": "Practical",
+        "c": "Negative",
+        "d": "Rudimentary"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the word having opposite meaning to viable?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question 68): Choose the correct alternative from the given answers.",
+      "opts": {
+        "a": "F",
+        "b": "G",
+        "c": "S",
+        "d": "T"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which letter is of 14th to the right of 6th letter from the left in the English alphabet?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question 68): Choose the correct alternative from the given answers.",
+      "opts": {
+        "a": "L",
+        "b": "V",
+        "c": "R",
+        "d": "F"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Each consonant in the word ‘MUSEUM’ is replaced by the previous letter, and each vowel is replaced by the next letter in the English alphabet, and the new letters are rearranged alphabetically. Which of the following will be the third from the right end?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question 68): Choose the correct alternative from the given answers.",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which figure is the odd one out?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question 68): Choose the correct alternative from the given answers.",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which figure complete the series?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question 68): Choose the correct alternative from the given answers.",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which figure is next in the series?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question 68): Choose the correct alternative from the given answers.",
+      "opts": {
+        "a": "2:30",
+        "b": "3:30",
+        "c": "4:30",
+        "d": "5:30"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Looking into a mirror, the clock shows 9:30 as the time. The actual time is",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question 68): Choose the correct alternative from the given answers.",
+      "opts": {
+        "a": "Friday",
+        "b": "Saturday",
+        "c": "Wednesday",
+        "d": "Monday"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If today is Thursday, then what will be the day on 363rd day?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q35 (p3, part None): only 1 option(s) ['a'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      35
+    ]
+  }
+}

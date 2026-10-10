@@ -1,0 +1,2317 @@
+{
+  "slug": "ceo-2019-english-p2",
+  "exam": "Circle Education Officer under School Education Department",
+  "sitting": "2019",
+  "subject": "General English Paper-II",
+  "source": "CEO General English-II.pdf",
+  "sourceSha256": "905ccb750d4a98236faea42938a452d5d7a261beda7f261938f7d52b3dffd36f",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The pillow is full of **down.**",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **up** train is late.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is a **near** relative of mine.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Adverb",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He told us all **about** the battle.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We were sitting **face** to face.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+      "opts": {
+        "a": "Adjective",
+        "b": "Verb",
+        "c": "Conjunction",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Never **while** away your time.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Adverb",
+        "c": "Adjective",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Such** was not my intention.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+      "opts": {
+        "a": "Adverb",
+        "b": "Noun",
+        "c": "Conjunction",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Once** he hesitates we have him.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+      "opts": {
+        "a": "Adjective",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "That is a fault that will **right** itself.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+      "opts": {
+        "a": "Adjective",
+        "b": "Noun",
+        "c": "Adverb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The little **ones** cried for joy.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+      "opts": {
+        "a": "Proper noun",
+        "b": "Material noun",
+        "c": "Common noun",
+        "d": "Collective noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **farmer** is looking for his oxen.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+      "opts": {
+        "a": "Proper noun",
+        "b": "Abstract noun",
+        "c": "Common noun",
+        "d": "Collective noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Our **team** must win the shield.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+      "opts": {
+        "a": "Proper noun",
+        "b": "Abstract noun",
+        "c": "Common noun",
+        "d": "Collective noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The king burst into a loud **laughter**.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+      "opts": {
+        "a": "Proper noun",
+        "b": "Material noun",
+        "c": "Common noun",
+        "d": "Collective noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **Red Fort** is a structure of red stone.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+      "opts": {
+        "a": "Proper noun",
+        "b": "Material noun",
+        "c": "Common noun",
+        "d": "Collective noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Stainless **steel** utensils are commonly used nowadays.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+      "opts": {
+        "a": "Proper noun",
+        "b": "Material noun",
+        "c": "Common noun",
+        "d": "Collective noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Our **army** beat the enemy back.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+      "opts": {
+        "a": "Proper noun",
+        "b": "Abstract noun",
+        "c": "Common noun",
+        "d": "Collective noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Misfortune** is also a gift of God.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+      "opts": {
+        "a": "Proper noun",
+        "b": "Abstract noun",
+        "c": "Common noun",
+        "d": "Collective noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The train stopped at the **station**.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+      "opts": {
+        "a": "Proper noun",
+        "b": "Material noun",
+        "c": "Common noun",
+        "d": "Collective noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is wearing a red **silk** dress.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+      "opts": {
+        "a": "Proper noun",
+        "b": "Abstract noun",
+        "c": "Common noun",
+        "d": "Collective noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A hare and a tortoise had a **race**.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21 - 30) : Fill in the blanks with the appropriate prepositions.",
+      "opts": {
+        "a": "since",
+        "b": "to",
+        "c": "for",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I got your parcel ___________ Tuesday.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21 - 30) : Fill in the blanks with the appropriate prepositions.",
+      "opts": {
+        "a": "to",
+        "b": "by",
+        "c": "of",
+        "d": "for"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was fined ___________ driving negligently.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21 - 30) : Fill in the blanks with the appropriate prepositions.",
+      "opts": {
+        "a": "for",
+        "b": "to",
+        "c": "at",
+        "d": "in"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is often late ___________ his dinner.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21 - 30) : Fill in the blanks with the appropriate prepositions.",
+      "opts": {
+        "a": "before",
+        "b": "from",
+        "c": "by",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Try to reach the village ___________ sunset.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21 - 30) : Fill in the blanks with the appropriate prepositions.",
+      "opts": {
+        "a": "abide in",
+        "b": "abide by",
+        "c": "abide at",
+        "d": "abide with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I will ___________ the railway station till the train arrives.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21 - 30) : Fill in the blanks with the appropriate prepositions.",
+      "opts": {
+        "a": "made from",
+        "b": "made in",
+        "c": "made with",
+        "d": "made of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A notebook is ___________ papers.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21 - 30) : Fill in the blanks with the appropriate prepositions.",
+      "opts": {
+        "a": "instead of",
+        "b": "by dint of",
+        "c": "in spite of",
+        "d": "in case of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He persevered ___________ difficulties.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21 - 30) : Fill in the blanks with the appropriate prepositions.",
+      "opts": {
+        "a": "in case of",
+        "b": "owing to",
+        "c": "by reason of",
+        "d": "in addition to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He retired from business ___________ his ill health.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21 - 30) : Fill in the blanks with the appropriate prepositions.",
+      "opts": {
+        "a": "reason with",
+        "b": "reason in",
+        "c": "reason about",
+        "d": "reason at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You cannot ___________ the importance of self-respect.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 21 - 30) : Fill in the blanks with the appropriate prepositions.",
+      "opts": {
+        "a": "zealous in",
+        "b": "zealous with",
+        "c": "zealous for",
+        "d": "zealous by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We must be ___________ the cause of humanity.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 31 - 40) : Indicate the kind of the adjectives.",
+      "opts": {
+        "a": "Quality",
+        "b": "Indefinite Numeral",
+        "c": "Quantity",
+        "d": "Demonstrative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is a man of **few** words.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 31 - 40) : Indicate the kind of the adjectives.",
+      "opts": {
+        "a": "Quality",
+        "b": "Number",
+        "c": "Quantity",
+        "d": "Demonstrative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I like the little peddler who has a **crooked** nose.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 31 - 40) : Indicate the kind of the adjectives.",
+      "opts": {
+        "a": "Quality",
+        "b": "Number",
+        "c": "Quantity",
+        "d": "Demonstrative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Say the **same** thing twice over.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 31 - 40) : Indicate the kind of the adjectives.",
+      "opts": {
+        "a": "Descriptive",
+        "b": "Definite Numeral",
+        "c": "Quantity",
+        "d": "Demonstrative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I hate **such** things.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 31 - 40) : Indicate the kind of the adjectives.",
+      "opts": {
+        "a": "Descriptive",
+        "b": "Indefinite Numeral",
+        "c": "Quantity",
+        "d": "Demonstrative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have not seen him for **several** days.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 31 - 40) : Indicate the kind of the adjectives.",
+      "opts": {
+        "a": "Quality",
+        "b": "Definite Numeral",
+        "c": "Quantity",
+        "d": "Demonstrative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You have **no** sense.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 31 - 40) : Indicate the kind of the adjectives.",
+      "opts": {
+        "a": "Descriptive",
+        "b": "Number",
+        "c": "Quantity",
+        "d": "Demonstrative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He died a **glorious** death.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 31 - 40) : Indicate the kind of the adjectives.",
+      "opts": {
+        "a": "Descriptive",
+        "b": "Numeral",
+        "c": "Quantity",
+        "d": "Demonstrative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A **cross** child is not liked.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 31 - 40) : Indicate the kind of the adjectives.",
+      "opts": {
+        "a": "Quality",
+        "b": "Number",
+        "c": "Quantity",
+        "d": "Demonstrative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He did not eat **any** rice.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 31 - 40) : Indicate the kind of the adjectives.",
+      "opts": {
+        "a": "Descriptive",
+        "b": "Definite Numeral",
+        "c": "Quantity",
+        "d": "Demonstrative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He won the **second** prize.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 50) : Analyze the sentences and choose the correct option.",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex sentence",
+        "c": "Compound sentence",
+        "d": "Mixed sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Call your father as soon as you arrive in Delhi.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 50) : Analyze the sentences and choose the correct option.",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex sentence",
+        "c": "Compound sentence",
+        "d": "Mixed sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I am very tired for I have been walking all the morning.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 50) : Analyze the sentences and choose the correct option.",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex sentence",
+        "c": "Compound sentence",
+        "d": "Mixed sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I do not own a car.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 50) : Analyze the sentences and choose the correct option.",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex sentence",
+        "c": "Compound sentence",
+        "d": "Mixed sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mary wanted to be here, but she cannot come because her car is in the shop.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 50) : Analyze the sentences and choose the correct option.",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex sentence",
+        "c": "Compound sentence",
+        "d": "Mixed sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She wrote a letter and posted it through her brother.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 50) : Analyze the sentences and choose the correct option.",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex sentence",
+        "c": "Compound sentence",
+        "d": "Mixed sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He acted according to my advice.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 50) : Analyze the sentences and choose the correct option.",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex sentence",
+        "c": "Compound sentence",
+        "d": "Mixed sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I met a girl, who informed me that my purse had been stolen by a thief.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 50) : Analyze the sentences and choose the correct option.",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex sentence",
+        "c": "Compound sentence",
+        "d": "Mixed sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I looked for John and Mary at the bus station.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 50) : Analyze the sentences and choose the correct option.",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex sentence",
+        "c": "Compound sentence",
+        "d": "Mixed sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Write as fast as you can.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 50) : Analyze the sentences and choose the correct option.",
+      "opts": {
+        "a": "Simple sentence",
+        "b": "Complex sentence",
+        "c": "Compound sentence",
+        "d": "Mixed sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Take whatever you like.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 51 - 60) : Pick out the correct clause of the underlined words.",
+      "opts": {
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**In my old home** we had many fruit trees.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 51 - 60) : Pick out the correct clause of the underlined words.",
+      "opts": {
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I cannot tell you **the date of my return**.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 51 - 60) : Pick out the correct clause of the underlined words.",
+      "opts": {
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He speaks **like a born orator**.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 51 - 60) : Pick out the correct clause of the underlined words.",
+      "opts": {
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This is **my home**.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 51 - 60) : Pick out the correct clause of the underlined words.",
+      "opts": {
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The girl **with long hair** is my cousin.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 51 - 60) : Pick out the correct clause of the underlined words.",
+      "opts": {
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He cannot find a place **to sleep in**.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 51 - 60) : Pick out the correct clause of the underlined words.",
+      "opts": {
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**The duration of the war** is uncertain.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 51 - 60) : Pick out the correct clause of the underlined words.",
+      "opts": {
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I know the man **who is here**.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 51 - 60) : Pick out the correct clause of the underlined words.",
+      "opts": {
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**In spite of his efforts he** failed.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 51 - 60) : Pick out the correct clause of the underlined words.",
+      "opts": {
+        "a": "Noun clause",
+        "b": "Adverb clause",
+        "c": "Adjective clause",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He walked slowly **to avoid slipping**.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 61 - 70) : Analyze the sentences and choose the correct degree of comparison.",
+      "opts": {
+        "a": "Positive",
+        "b": "Superlative",
+        "c": "Comparative",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is my best friend.",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 61 - 70) : Analyze the sentences and choose the correct degree of comparison.",
+      "opts": {
+        "a": "Positive",
+        "b": "Superlative",
+        "c": "Comparative",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lead is heavier than any metal.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 61 - 70) : Analyze the sentences and choose the correct degree of comparison.",
+      "opts": {
+        "a": "Positive",
+        "b": "Superlative",
+        "c": "Comparative",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He gave the boys much wholesome advice.",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 61 - 70) : Analyze the sentences and choose the correct degree of comparison.",
+      "opts": {
+        "a": "Positive",
+        "b": "Superlative",
+        "c": "Comparative",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make less noise.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 61 - 70) : Analyze the sentences and choose the correct degree of comparison.",
+      "opts": {
+        "a": "Positive",
+        "b": "Superlative",
+        "c": "Comparative",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the story do you like most",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 61 - 70) : Analyze the sentences and choose the correct degree of comparison.",
+      "opts": {
+        "a": "Positive",
+        "b": "Superlative",
+        "c": "Comparative",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The child has a slight cold.",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 61 - 70) : Analyze the sentences and choose the correct degree of comparison.",
+      "opts": {
+        "a": "Positive",
+        "b": "Superlative",
+        "c": "Comparative",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His simple word is as good as an oath.",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 61 - 70) : Analyze the sentences and choose the correct degree of comparison.",
+      "opts": {
+        "a": "Positive",
+        "b": "Superlative",
+        "c": "Comparative",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This is his best dress.",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 61 - 70) : Analyze the sentences and choose the correct degree of comparison.",
+      "opts": {
+        "a": "Positive",
+        "b": "Superlative",
+        "c": "Comparative",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My shoes are better than yours.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 61 - 70) : Analyze the sentences and choose the correct degree of comparison.",
+      "opts": {
+        "a": "Positive",
+        "b": "Superlative",
+        "c": "Comparative",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There was not the slightest excuse for it.",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71 - 80) : Choose the correct pair of words to fill in the blanks.",
+      "opts": {
+        "a": "happy, selected",
+        "b": "dejected, splendidly",
+        "c": "distraught, awry",
+        "d": "frustrated, magnificently"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She was ___________ because all her plans had gone ___________.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71 - 80) : Choose the correct pair of words to fill in the blanks.",
+      "opts": {
+        "a": "impressed, negating",
+        "b": "shocked, advocating",
+        "c": "suspicious, trusting",
+        "d": "thrilled, propagating"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was initially ___________ at the suggestion but was soon ___________ it himself.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71 - 80) : Choose the correct pair of words to fill in the blanks.",
+      "opts": {
+        "a": "Fixed, exert",
+        "b": "Majority, rightly",
+        "c": "Oral, legitimately",
+        "d": "Dominant, unduly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "___________ members of a group often _________ influence the outcome of a consensus forecast.",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71 - 80) : Choose the correct pair of words to fill in the blanks.",
+      "opts": {
+        "a": "finishes, stirring",
+        "b": "finances, looking",
+        "c": "covers, aimed",
+        "d": "excludes, arriving"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Our latest battle plan _________ some projects _________ at saving the earth’s biological diversity",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71 - 80) : Choose the correct pair of words to fill in the blanks.",
+      "opts": {
+        "a": "whole-heartedly, successful",
+        "b": "finally, obsolete",
+        "c": "fully, defunct",
+        "d": "legitimately, noteworthy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Unless the authorities adopt the principle __________ the strategies cannot become __________.",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71 - 80) : Choose the correct pair of words to fill in the blanks.",
+      "opts": {
+        "a": "annoyed, before",
+        "b": "grumbled, when",
+        "c": "angered, since",
+        "d": "surprised, about"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "John ___________ a bit ___________ he was not invited by his friend to attend the party.",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71 - 80) : Choose the correct pair of words to fill in the blanks.",
+      "opts": {
+        "a": "fond, perform",
+        "b": "determined, undertake",
+        "c": "reluctant, entrust",
+        "d": "eager, avoid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is ___________ to ___________ any kind of work with due sincerity.",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71 - 80) : Choose the correct pair of words to fill in the blanks.",
+      "opts": {
+        "a": "Loss, draught",
+        "b": "Ruin, draft",
+        "c": "Failure, drought",
+        "d": "Depreciation, drift"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "___________ of crops was due to continuous ___________.",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71 - 80) : Choose the correct pair of words to fill in the blanks.",
+      "opts": {
+        "a": "penalty, low",
+        "b": "toll, simple",
+        "c": "fine, severe",
+        "d": "punishment, harsh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ___________ imposed for non-payment was too ___________ for it to bring in improvement in collection.",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 71 - 80) : Choose the correct pair of words to fill in the blanks.",
+      "opts": {
+        "a": "happy, have",
+        "b": "sure, come",
+        "c": "unhappy, arrive",
+        "d": "pleased, over"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We are ___________ to have him ___________ here to make this function a great success.",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 81 - 90) : Fill in the blanks choosing the appropriate word from the options.",
+      "opts": {
+        "a": "scorched",
+        "b": "wounded",
+        "c": "burned",
+        "d": "scalded"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My mother upset the kettle of boiling water and ___________ her right hand badly.",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 81 - 90) : Fill in the blanks choosing the appropriate word from the options.",
+      "opts": {
+        "a": "refuse",
+        "b": "refrain",
+        "c": "deny",
+        "d": "refuge"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Please do not ___________ an offer made by the Chairman.",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 81 - 90) : Fill in the blanks choosing the appropriate word from the options.",
+      "opts": {
+        "a": "rise",
+        "b": "flourish",
+        "c": "lift",
+        "d": "revive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The government is confident that the standard of living will begin to ___________ again soon.",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 81 - 90) : Fill in the blanks choosing the appropriate word from the options.",
+      "opts": {
+        "a": "attribute",
+        "b": "symptomatic",
+        "c": "significance",
+        "d": "evocative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On second reading, his poems strike us as singularly ___________ of sublime emotions.",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 81 - 90) : Fill in the blanks choosing the appropriate word from the options.",
+      "opts": {
+        "a": "crude",
+        "b": "critical",
+        "c": "cursory",
+        "d": "curious"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Even a ___________ glance will reveal the mystery.",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 81 - 90) : Fill in the blanks choosing the appropriate word from the options.",
+      "opts": {
+        "a": "provide",
+        "b": "contain",
+        "c": "declare",
+        "d": "specify"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An employment advertisement should ___________ the number of vacancies.",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 81 - 90) : Fill in the blanks choosing the appropriate word from the options.",
+      "opts": {
+        "a": "within",
+        "b": "for",
+        "c": "since",
+        "d": "from"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have not seen you ___________ a week.",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 81 - 90) : Fill in the blanks choosing the appropriate word from the options.",
+      "opts": {
+        "a": "tie up",
+        "b": "tie on",
+        "c": "tie down",
+        "d": "tie with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The battalion operating from the mountain was able to ___________ three enemy divisions.",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 81 - 90) : Fill in the blanks choosing the appropriate word from the options.",
+      "opts": {
+        "a": "Restoration",
+        "b": "Retrieval",
+        "c": "Resurrection",
+        "d": "Resumption"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "___________ of old paintings is a job for the experts.",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 81 - 90) : Fill in the blanks choosing the appropriate word from the options.",
+      "opts": {
+        "a": "bring out",
+        "b": "bring round",
+        "c": "bring forward",
+        "d": "bring forth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Finance Minister may ___________ new proposals in his budget speech.",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 91 - 100) : Give one word for the following expressions.",
+      "opts": {
+        "a": "Verbose",
+        "b": "Epigraph",
+        "c": "Ambivalent",
+        "d": "Ambiguous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A statement that can have a double meaning.",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 91 - 100) : Give one word for the following expressions.",
+      "opts": {
+        "a": "Minutes",
+        "b": "Excerpts",
+        "c": "Agenda",
+        "d": "Proceedings"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "List of headings of the business to be transacted at a meeting.",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 91 - 100) : Give one word for the following expressions.",
+      "opts": {
+        "a": "Altruism",
+        "b": "Nepotism",
+        "c": "Philanthropy",
+        "d": "Cynicism"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regard for others as a principle of action.",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 91 - 100) : Give one word for the following expressions.",
+      "opts": {
+        "a": "Honorary",
+        "b": "Ex-officio",
+        "c": "Sinecure",
+        "d": "Reticent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An office with no work but high pay.",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 91 - 100) : Give one word for the following expressions.",
+      "opts": {
+        "a": "Deserter",
+        "b": "Opportunist",
+        "c": "Apostate",
+        "d": "Turncoat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who deserts his religion.",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 91 - 100) : Give one word for the following expressions.",
+      "opts": {
+        "a": "Introspection",
+        "b": "Retrospection",
+        "c": "Extrospection",
+        "d": "Circumspection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The act of looking back upon past events.",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 91 - 100) : Give one word for the following expressions.",
+      "opts": {
+        "a": "Emeritus",
+        "b": "Relieved",
+        "c": "Retired",
+        "d": "Emancipated"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who is honorably discharged from service.",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 91 - 100) : Give one word for the following expressions.",
+      "opts": {
+        "a": "Patience",
+        "b": "Enthusiasm",
+        "c": "Vigor",
+        "d": "Perseverance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Constant effort to achieve something.",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 91 - 100) : Give one word for the following expressions.",
+      "opts": {
+        "a": "Corrigendum",
+        "b": "Postscript",
+        "c": "Manuscript",
+        "d": "Posterity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Anything written in a letter after it is signed.",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 91 - 100) : Give one word for the following expressions.",
+      "opts": {
+        "a": "Philology",
+        "b": "Bibliography",
+        "c": "Paleontology",
+        "d": "Entomology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The science of language and words is known as:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "fr-2019-english-1",
+  "exam": "Forest Ranger under Environment, Forest & Climate Change Department",
+  "sitting": "2019",
+  "subject": "General English Paper-I",
+  "source": "General English-I (FR).pdf",
+  "sourceSha256": "ae3dbe9873adaec9cd8445cc5884584313aee2608cd91cf7107fbb93e3d58570",
+  "ocr": false,
+  "count": 0,
+  "questions": [],
+  "written": [
+    {
+      "n": 1,
+      "part": null,
+      "page": 1,
+      "text": "Write an essay on any one of the given topics:(25) -Healthy environment. -Climate change and its consequences. -The problem of deforestation in Mizoram.",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": null,
+      "page": 1,
+      "text": "Write a précis of the given passage. Supply a suitable title.(15) The conditions under which democracy can flourish are difficult to define; but one thing is clear that democracy is always a slow growth, whereas dictators may rise to power and inaugurate a new regime with dramatic suddenness and success, under suitable conditions. One great new force has appeared in the world since the Great War, the art of modern propaganda. It is invaluable to the dictator who can inculcate his creed day by day through the press, the cinema, the radio, the whole body of the people and can suppress all counter propaganda. It is a terrible danger to democracy, since it tends to destroy the sound and common sense judgment of the people which depends on constant access to facts and on honest public discussion based on those facts. Then again the kindly and co-operative outlook which alone can make democracy a success depends on material conditions, on the economic security and welfare of the whole of the people; a starving man or a man in constant fear of unemployment cannot be expected to be a good citizen of democracy. And lastly, war is utterly hostile to democracy. The horrors and passion of war inevitably produce a war mentally under which the method of democracy becomes impossible.",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": null,
+      "page": 1,
+      "text": "Write a letter to the DFO (District Forest Officer) Forest Department enquiring about the availability of different saplings and also request him to plant shade trees in and around your area.(15)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": null,
+      "page": 1,
+      "text": "Make sentences with the following idioms:(7×2=14)",
+      "subparts": {
+        "a": "high time",
+        "b": "bag and baggage",
+        "c": "a bolt from the blue",
+        "d": "to paint the town red"
+      }
+    },
+    {
+      "n": 5,
+      "part": null,
+      "page": 2,
+      "text": "Read the following passage carefully and answer the questions: How amusing is this spirit of man : Inspite of innumerable failings, man throughout the ages, has sacrified his life and all he held dear for an ideal, for truth, for faith, for country and honour. That ideal may change but the capacity of self-sacrifice continues, and because of that, much may be forgiven to man, and it is impossible to lose hope for him. In the midst of disaster he has not lost his dignity or his faith in the values of cherished. Just a playing of Nature’s mighty forces, less than the speck of dust in this vast universe, he has hurled defiance at the elemental powers, an with his mind, cradle of revolution, sought to master them. Whatever gods there be, there is something godlike in man, just as there is also something of the devil in him. Questions:",
+      "subparts": {
+        "a": "Why has the spirit of man been described as amusing and amazing?(3)",
+        "b": "How does man behave in everyday life when he has to face disasters?(3)",
+        "c": "What has been described as man’s defiance of elementary power of Nature?(3)",
+        "d": "Why has man been compared to a god and to devil simultaneously?(3) (i)adore(ii)disobedience (iii)entertaining(iv)countless"
+      }
+    },
+    {
+      "n": 6,
+      "part": null,
+      "page": 2,
+      "text": "Expand the following to bring out the meaning.(5×3=15)",
+      "subparts": {
+        "a": "there is a silver lining in every cloud.",
+        "b": "a stitch in time saves nine.",
+        "c": "once a maid, always a maid.",
+        "d": "fortune favours the brave."
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p1, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q5 (p2, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q6 (p2, part None): conventional section, 4 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {}
+}

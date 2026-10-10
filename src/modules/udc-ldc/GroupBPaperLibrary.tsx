@@ -6,6 +6,7 @@ import { isAnswerable } from './filters';
 interface LibraryPaper {
   id: string; exam: string; sitting: string; subject: string; sourceHref: string;
   keyHref: string | null; correctionHref?: string; expectedMcq?: number; imported: boolean;
+  sharedPosts?: string[];
 }
 const library: LibraryPaper[] = archive;
 
@@ -26,7 +27,7 @@ export function GroupBPaperLibrary({ questions, onBrowse }: { questions: BankQue
     };
   }, [questions]);
   const groups = useMemo(() => {
-    const filtered = library.filter((p) => `${p.exam} ${p.sitting} ${p.subject}`.toLowerCase().includes(search.toLowerCase()));
+    const filtered = library.filter((p) => `${p.exam} ${p.sitting} ${p.subject} ${(p.sharedPosts ?? []).join(' ')}`.toLowerCase().includes(search.toLowerCase()));
     const result = new Map<string, typeof library>();
     for (const p of filtered) {
       const key = `${p.exam} · ${p.sitting}`;
@@ -35,8 +36,8 @@ export function GroupBPaperLibrary({ questions, onBrowse }: { questions: BankQue
     return [...result.entries()].sort((a, b) => Number(b[1][0].sitting.slice(-4)) - Number(a[1][0].sitting.slice(-4)));
   }, [search]);
   return <section className="udc-paper-library">
-    <h2>Group B general papers</h2>
-    <p>{library.length} general papers from the local archive. Each exam is listed once per paper; technical subjects and gazetted exams are excluded.</p>
+    <h2>Group B general &amp; computer papers</h2>
+    <p>{library.length} papers from the local archive, including computer knowledge papers. Shared papers are listed once for all participating posts.</p>
     <p className="udc-library-progress" role="status">
       {progress.mcq.toLocaleString()} MCQs · {progress.written.toLocaleString()} written prompts ·{' '}
       {progress.ready.toLocaleString()} ready to practise ({progress.official.toLocaleString()} with official answers) ·{' '}
@@ -47,6 +48,7 @@ export function GroupBPaperLibrary({ questions, onBrowse }: { questions: BankQue
     <label>Find an exam, subject or year<input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="e.g. JAO, English, 2026" /></label>
     {groups.map(([title, papers]) => <article className="udc-library-sitting" key={title}>
       <h3>{title}</h3>
+      {papers[0].sharedPosts && <p>Shared by: {papers[0].sharedPosts.join(' · ')}</p>}
       {papers.map((p) => {
         const qs = questions.filter((q) => q.paperId === p.id);
         const ready = qs.filter(isAnswerable).length;

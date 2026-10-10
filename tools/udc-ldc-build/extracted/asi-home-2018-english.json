@@ -1,0 +1,1451 @@
+{
+  "slug": "asi-home-2018-english",
+  "exam": "Assistant Sub-Inspector under Home Department",
+  "sitting": "October 2018",
+  "subject": "General English",
+  "source": "asi-home-2018-english.pdf",
+  "sourceSha256": "a0a85dbfbf0a937a034e8020e22443cfa076412b8fbfccf4fb0c345985e8bb9a",
+  "ocr": false,
+  "count": 60,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:",
+      "opts": {
+        "a": "human nature",
+        "b": "now and then",
+        "c": "of the same opinion",
+        "d": "on intimate terms"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "flesh and blood",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:",
+      "opts": {
+        "a": "says one thing and does another",
+        "b": "disregarded",
+        "c": "by any means",
+        "d": "in dispute"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "turned a deaf ear",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:",
+      "opts": {
+        "a": "something which is very easy",
+        "b": "something which is very difficult",
+        "c": "to dislike something",
+        "d": "to end successfully"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "a piece of cake",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:",
+      "opts": {
+        "a": "stripes",
+        "b": "confused",
+        "c": "written proof",
+        "d": "to be very angry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "in black and white",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:",
+      "opts": {
+        "a": "favour",
+        "b": "to be very pleased",
+        "c": "to be jealous",
+        "d": "with distinction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "green with envy",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:",
+      "opts": {
+        "a": "dazed",
+        "b": "to be busy",
+        "c": "to stay calm",
+        "d": "very scared"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "in a fog",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:",
+      "opts": {
+        "a": "wearing one’s finest clothes",
+        "b": "dress poorly",
+        "c": "to be annoying",
+        "d": "to be in charge"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "dressed",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:",
+      "opts": {
+        "a": "perplexed",
+        "b": "cheerful",
+        "c": "remained firm",
+        "d": "gloomy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "at sea",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:",
+      "opts": {
+        "a": "came to nothing",
+        "b": "become useful",
+        "c": "to suspect something",
+        "d": "puzzled"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ended in smoke",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:",
+      "opts": {
+        "a": "utmost speed",
+        "b": "without steady application",
+        "c": "on the verge on ruin",
+        "d": "uncomfortable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "like a fish out of water",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:",
+      "opts": {
+        "a": "deep attachment",
+        "b": "under someone’s control",
+        "c": "make peace",
+        "d": "concerned"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "beck and call",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:",
+      "opts": {
+        "a": "to be out of debt",
+        "b": "to do something remarkable",
+        "c": "deeply attentive",
+        "d": "to be involved"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "keep hand above water",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:",
+      "opts": {
+        "a": "very near",
+        "b": "produced no effect",
+        "c": "a long journey",
+        "d": "in suspense"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "a far cry",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:",
+      "opts": {
+        "a": "make an important decision",
+        "b": "to feel sad",
+        "c": "to be different",
+        "d": "to calm down"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "hold your horses",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:",
+      "opts": {
+        "a": "to be very nervous",
+        "b": "to be busy",
+        "c": "to be unwell",
+        "d": "feeling at ease"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "butterflies in the stomach",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:",
+      "opts": {
+        "a": "something that is annoying",
+        "b": "to be in charge",
+        "c": "to be very comfortable",
+        "d": "something that is compulsory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "bee in one’s bonnet",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given",
+      "opts": {
+        "a": "because he had to retrieve his equipments",
+        "b": "because his aeroplane crashed into the ocean",
+        "c": "because the current was too stong",
+        "d": "because Mrs. Bloom was unable to swim"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why was the Florida man compelled to swim twenty five miles?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given",
+      "opts": {
+        "a": "5",
+        "b": "6",
+        "c": "4",
+        "d": "7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many passengers were on board?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given",
+      "opts": {
+        "a": "two survived and two died",
+        "b": "two survived and one died",
+        "c": "no one died",
+        "d": "four survived"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many passengers survived and how many died?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given",
+      "opts": {
+        "a": "piper seneca",
+        "b": "wetsuit, flippers and face mask",
+        "c": "their dog, a spaneil",
+        "d": "Mr and Mrs Bloom"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What did Mr. Tuckfield retrieve from the plane?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given",
+      "opts": {
+        "a": "because she was unable to swim",
+        "b": "because the current was too strong",
+        "c": "because she hurt her leg",
+        "d": "because she was too old to swim"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why did Mr. Tuckfield carry Mrs. Bloom on his back?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given",
+      "opts": {
+        "a": "Ira",
+        "b": "Brad Youngberg",
+        "c": "Delabo Hicks",
+        "d": "Mr. Tuckfield"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Blooms were friends of",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given",
+      "opts": {
+        "a": "to enjoy his vacation",
+        "b": "to help repair his friends boat",
+        "c": "to buy aeroplane",
+        "d": "to learn swimming"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mr. Tuckfield had gone to the Bahamas",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given",
+      "opts": {
+        "a": "he was trying to swim by himself",
+        "b": "he allowed himself to drown",
+        "c": "he tried to change course",
+        "d": "he shouted words of encouragement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘He let himself go under’ means",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given",
+      "opts": {
+        "a": "stamina",
+        "b": "towing",
+        "c": "salt water",
+        "d": "parched lips"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which words in the passage indicate that they were thirsty",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given",
+      "opts": {
+        "a": "presence of mind",
+        "b": "stamina",
+        "c": "attachment",
+        "d": "sense of humour"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mr. Tuckfield swimming 25 miles shows that he has",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given",
+      "opts": {
+        "a": "awkward",
+        "b": "energetic",
+        "c": "frenzy",
+        "d": "weak"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The synonym for the word ‘delicious’ is",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given",
+      "opts": {
+        "a": "waved his flippers",
+        "b": "waved at his flippers",
+        "c": "shouted",
+        "d": "build a fire"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In order to attract attention, he",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "verb",
+        "b": "abstract noun",
+        "c": "collective noun",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The class is studying **grammar**",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "noun",
+        "b": "verb",
+        "c": "adjective",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have called **several** times",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "adverb",
+        "b": "verb",
+        "c": "noun",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Put** away your books",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "noun",
+        "b": "adnectives",
+        "c": "adverb",
+        "d": "interjection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was **ill** pleased",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "adjective",
+        "b": "preposition",
+        "c": "noun",
+        "d": "pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Don’t loiter **about** the street",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "adverb",
+        "b": "prepostion",
+        "c": "adjective",
+        "d": "noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The man turned **round**",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "noun",
+        "b": "conjunction",
+        "c": "adverb",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We sailed **down** the river",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "interjection",
+        "b": "conjunction",
+        "c": "preposition",
+        "d": "adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I do not care **whether** you go or stay",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "interjection",
+        "b": "preposition",
+        "c": "verb",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Hush**! Don’t make a noise",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "noun",
+        "b": "adjective",
+        "c": "pronoun",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He claimed his **half** share of the booty",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "verb",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "These are the boys **who** work hard",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "verb",
+        "b": "adjective",
+        "c": "pronoun",
+        "d": "noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The pen **that** you gave me is very good one",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "pronoun",
+        "b": "verb",
+        "c": "adverb",
+        "d": "adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I **know** a funny little man",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "adjective",
+        "b": "adverb",
+        "c": "noun",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I wonder you **never** told me",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "adjective",
+        "b": "verb",
+        "c": "noun",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This is the **very** book I want",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "adverb",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How **long** have you lived here?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "pronoun",
+        "b": "adverb",
+        "c": "preposition",
+        "d": "conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An umbrella will protect you **from** the rain",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "preposition",
+        "b": "conjunction",
+        "c": "pronoun",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I hear **that** your brother is in London",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "verb",
+        "b": "pronoun",
+        "c": "adverb",
+        "d": "noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**wisdom** is better than strength",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words.",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "adjective",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He gave a **bunch** of grapes",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 80) : Choose the correct answer",
+      "opts": {
+        "a": "affects",
+        "b": "effects",
+        "c": "alter",
+        "d": "access"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Weather ___________ life a great deal",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 80) : Choose the correct answer",
+      "opts": {
+        "a": "fool",
+        "b": "fowl",
+        "c": "foul",
+        "d": "flour"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Never speak ___________ language",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 80) : Choose the correct answer",
+      "opts": {
+        "a": "rays",
+        "b": "razed",
+        "c": "raised",
+        "d": "route"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The fort was ___________ to the ground",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 80) : Choose the correct answer",
+      "opts": {
+        "a": "vain",
+        "b": "vane",
+        "c": "vine",
+        "d": "wane"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The moon is on the ___________ these days",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 80) : Choose the correct answer",
+      "opts": {
+        "a": "suit",
+        "b": "suite",
+        "c": "sheaf",
+        "d": "board"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A ___________ of rooms",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 80) : Choose the correct answer",
+      "opts": {
+        "a": "pencil",
+        "b": "heap",
+        "c": "pair",
+        "d": "pile"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A ___________ of rays",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 80) : Choose the correct answer",
+      "opts": {
+        "a": "hive",
+        "b": "cluster",
+        "c": "shoal",
+        "d": "litter"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A ___________ of fish",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 80) : Choose the correct answer",
+      "opts": {
+        "a": "clump",
+        "b": "band",
+        "c": "choir",
+        "d": "caravan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A ___________ of travellers",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 80) : Choose the correct answer",
+      "opts": {
+        "a": "amnesty",
+        "b": "amateur",
+        "c": "biped",
+        "d": "colleague"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who plays a game for pleasure and not as a profession",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 80) : Choose the correct answer",
+      "opts": {
+        "a": "delible",
+        "b": "creadible",
+        "c": "laxative",
+        "d": "parasite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "That which can be rubbed off",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 80) : Choose the correct answer",
+      "opts": {
+        "a": "pesimist",
+        "b": "plagiarist",
+        "c": "sinecure",
+        "d": "spokesman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who thieves the writings of others",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 80) : Choose the correct answer",
+      "opts": {
+        "a": "yolk",
+        "b": "brooklet",
+        "c": "lullaby",
+        "d": "verse"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A song to put babies to sleep",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an Essay on any one of the given topics in not more than 300 words. -The importance of Education -Social Media: Its impact and individual responsibilities -The ideal citizen",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q49 (p5, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q50 (p5, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q51 (p5, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q52 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q53 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q54 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q55 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q56 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q57 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q58 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q59 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q60 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q61 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q62 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q63 (p7, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q64 (p7, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q65 (p7, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q66 (p7, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q67 (p7, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q68 (p7, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "B": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/252c2bc337497471874e3577dea22ca9/gen-english.pdf",
+  "enrichmentVersion": 5,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

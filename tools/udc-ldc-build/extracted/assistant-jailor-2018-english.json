@@ -1,0 +1,1640 @@
+{
+  "slug": "assistant-jailor-2018-english",
+  "exam": "Assistant Jailor under Home (Prison) Department",
+  "sitting": "February 2018",
+  "subject": "General English",
+  "source": "assistant-jailor-2018-english.pdf",
+  "sourceSha256": "2a6ef7a3e0812df6a6b73696f4c851603c479acaeb5a6508c1c37d659bb52fb0",
+  "ocr": false,
+  "count": 69,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "England is nearer to the equator",
+        "b": "Italy is nearer to the equator",
+        "c": "United Kingdom is an Island",
+        "d": "Italy is located in a lower altitude"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "England is Cooler than Italy because",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The region between the Arctic Circle and North Pole",
+        "b": "The North Pole",
+        "c": "The tundra Region",
+        "d": "Iceland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Coldest places of the World are situated in",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The water is too Cold",
+        "b": "There is not enough sunlight",
+        "c": "Of the frozen solid ground",
+        "d": "There is no birds living there"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Large tress Cannot grow in the Arctic because",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It provide them food",
+        "b": "It provide them clothing",
+        "c": "Their bones are used for making instruments",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The seal is important to Eskimos because",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Horses",
+        "b": "Sledge",
+        "c": "Seal",
+        "d": "Cart"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For transportation the Eskimos use",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "These plants need only moisture",
+        "b": "They have no roots",
+        "c": "They can grow even on frozen surface",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lichens are common in the arctic region because",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Seal",
+        "b": "Seal, Whale and Walrus",
+        "c": "Whale",
+        "d": "Walrus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Eskimos used Harpoon to hunt",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Seal",
+        "b": "Polar bear",
+        "c": "Walrus",
+        "d": "Hairy caribou"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All their supply comes mainly from",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Men",
+        "b": "Men and women",
+        "c": "Women",
+        "d": "The elders"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All articles of clothing are made by",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dried grapes",
+        "b": "Berries",
+        "c": "A kind of orange",
+        "d": "Vegetables"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Currants is a",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bland",
+        "b": "Encouraging",
+        "c": "Barren and desolate",
+        "d": "Monotonous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘ The Tundra is a cold bleak region’. The word ‘bleak’ here means",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tender",
+        "b": "Tough",
+        "c": "Cheerful",
+        "d": "Hard Working"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘The Eskimos are a hardy race’. The word ‘hardy’ here means",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters",
+      "opts": {
+        "a": "Examining something carefully to not miss out any details",
+        "b": "Examining something with a comb",
+        "c": "Submitting the report with a comb",
+        "d": "Combing hair while examining something"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The boss examined my report with a fine tooth Comb before submitting it to the senior management.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters",
+      "opts": {
+        "a": "Lining the duckling in a row",
+        "b": "Getting your things organized",
+        "c": "To help a duck while crossing a road",
+        "d": "Getting ducks to launch the product"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To ensure a successful product launch, we must get your ducks in a row",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters",
+      "opts": {
+        "a": "to turned blind suddenly",
+        "b": "to see with one eye",
+        "c": "to pretend not to have noticed it",
+        "d": "turning blind from eating cookies"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She took one of the cookies but I turned a blind eye.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters",
+      "opts": {
+        "a": "the moon turned blue once",
+        "b": "something that happens very infrequently",
+        "c": "something that happened when the moon is blue",
+        "d": "something that happens once a week"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I only see him once in a blue moon",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters",
+      "opts": {
+        "a": "causing extreme exasperation and annoyance",
+        "b": "to climb up the wall",
+        "c": "causing loud noise",
+        "d": "to drive a car up the wall"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "That constant drilling is driving me up the wall",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters",
+      "opts": {
+        "a": "to stop for a short period",
+        "b": "to stop doing something for the day",
+        "c": "to call up one’s friend",
+        "d": "to concentrate very hard"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I can’t concentrate, Let’s call it a day",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters",
+      "opts": {
+        "a": "to know where something is hidden",
+        "b": "to excel in tying a knot",
+        "c": "be informed about the details of a task",
+        "d": "showing a rope to someone."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ask John, he knows the ropes around here",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters",
+      "opts": {
+        "a": "to be extremely impressed",
+        "b": "to blew away like a balloon",
+        "c": "to be extremely shocked",
+        "d": "to feel exhausted"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The painting just blew me away",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters",
+      "opts": {
+        "a": "extremely handsome",
+        "b": "be someone worth having",
+        "c": "to try hard to catch a man",
+        "d": "stealing a man from someone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "John is taking me out, he is such a catch",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters",
+      "opts": {
+        "a": "to get something for free",
+        "b": "cost nothing",
+        "c": "that covers One’s arm and leg",
+        "d": "very expensive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The car he is driving cost an arm and a leg",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters",
+      "opts": {
+        "a": "to hit someone on the head",
+        "b": "precisely correct",
+        "c": "making false diagnosis",
+        "d": "doubtful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The doctor hit the nail on the head about my illness",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters",
+      "opts": {
+        "a": "sleeping lazily like a dog",
+        "b": "to worked with their hands and feet",
+        "c": "work very hard",
+        "d": "to work for a few hours."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My brother worked like a dog as a young man",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters",
+      "opts": {
+        "a": "eleven",
+        "b": "twelve",
+        "c": "ten",
+        "d": "thirteen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Check out our baker’s dozen language learning tips",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters",
+      "opts": {
+        "a": "very near",
+        "b": "near enough",
+        "c": "full of stone",
+        "d": "throwing stone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The hotel was a stone’s throw from the beach.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters",
+      "opts": {
+        "a": "approval",
+        "b": "acknowledgement",
+        "c": "an attitude of rejection",
+        "d": "excitement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The manager has given the Cold shoulder to our proposal to buy a new Company Car.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters",
+      "opts": {
+        "a": "to feel nauseous",
+        "b": "desire to leave",
+        "c": "strong desire to scratch one’s feet",
+        "d": "to feel sick"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Seeing a boat always gives me itchy feet.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Noun",
+        "b": "Pronoun",
+        "c": "Adverb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You don’t look quite **yourself** today.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Adverb",
+        "c": "Adjective",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is a wearing a **gold** ring.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Adverb",
+        "b": "Adjective",
+        "c": "Verb",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I **seldom** go out these days",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Adverb",
+        "c": "Preposition",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is careless **about** his health",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Preposition",
+        "b": "Adverb",
+        "c": "Adjective",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She will eat **either** rice or bread",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Preposition",
+        "c": "Noun",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is not dumb **on the Contrary** he is very smart",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have **tutored** him for a month",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Noun",
+        "b": "Pronoun",
+        "c": "Verb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **eye** of a needle is small",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Noun",
+        "b": "Pronoun",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This prize is **matchless**",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Preposition",
+        "c": "Adverb",
+        "d": "Determiner"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He has hardly **any** money.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Adverb",
+        "b": "Noun",
+        "c": "Adjective",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He show such a great **showmanship**",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Noun",
+        "b": "Adverb",
+        "c": "Pronoun",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Children can help **each other** in doing the homework.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Adjective",
+        "b": "Verb",
+        "c": "Adverb",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The government will set the prisoners **free.**",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Noun",
+        "b": "Verb",
+        "c": "Determiner",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He has **plenty of** leisure.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Verb",
+        "b": "Noun",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I had **never** told a lie.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Noun",
+        "b": "Preposition",
+        "c": "Conjunction",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Put these books on the shelf **above.**",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Verb",
+        "b": "Conjunction",
+        "c": "Preposition",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This policy is **against** the poor people.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Verb",
+        "c": "Preposition",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Neither** the government nor the army knows what’s going on.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Adjective",
+        "b": "Verb",
+        "c": "Adverb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mary has **borne** him two sons.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :",
+      "opts": {
+        "a": "Adverb",
+        "b": "Adjective",
+        "c": "Verb",
+        "d": "Preposition."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The accused stood **before** the judge.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 55 - 59) Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "imperative",
+        "b": "Assertive",
+        "c": "Interrogative",
+        "d": "exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He didn’t like my idea, but he agree to help me.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 55 - 59) Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "Emphatic",
+        "b": "Negative",
+        "c": "Assertive",
+        "d": "Interrogative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do come in.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 55 - 59) Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "Negative",
+        "b": "Interrogative",
+        "c": "Assertive",
+        "d": "imperative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why are you always so difficult ?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 55 - 59) Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "exclamatory",
+        "b": "Affirmative",
+        "c": "imperative",
+        "d": "negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Please, give me a glass of water.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 55 - 59) Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "interrogative",
+        "b": "affirmative",
+        "c": "imperative",
+        "d": "exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is better than a peace of mind?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 65 - 69) Choose the word nearest in meaning to the underlined words.",
+      "opts": {
+        "a": "Solve",
+        "b": "Face",
+        "c": "Bear",
+        "d": "Overcome"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He has to **encounter** many hardships in life",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 65 - 69) Choose the word nearest in meaning to the underlined words.",
+      "opts": {
+        "a": "Suggest",
+        "b": "Draw",
+        "c": "Evade",
+        "d": "Allow"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We will **allude** briefly to the main points.",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 65 - 69) Choose the word nearest in meaning to the underlined words.",
+      "opts": {
+        "a": "Sympathize",
+        "b": "Depressed",
+        "c": "Relish",
+        "d": "Dismay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She **gloated** over his recent humiliation",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 65 - 69) Choose the word nearest in meaning to the underlined words.",
+      "opts": {
+        "a": "Taboo",
+        "b": "Tyrannical",
+        "c": "Lawful",
+        "d": "Sadistic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She was involved in **illicit** love affair",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 65 - 69) Choose the word nearest in meaning to the underlined words.",
+      "opts": {
+        "a": "Beautiful",
+        "b": "Glittering",
+        "c": "Huge",
+        "d": "Fake"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He gave her a **scintillating** diamond necklace",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 70 - 74) Select the most suitable alternative to fill in the blanks in the sentence",
+      "opts": {
+        "a": "Instigated",
+        "b": "Forced",
+        "c": "Pursued",
+        "d": "Allowed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He _______ the workers to refused allegiance",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 70 - 74) Select the most suitable alternative to fill in the blanks in the sentence",
+      "opts": {
+        "a": "Expire",
+        "b": "Excel",
+        "c": "Exploit",
+        "d": "Excuse"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We should ________ this new technology.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 70 - 74) Select the most suitable alternative to fill in the blanks in the sentence",
+      "opts": {
+        "a": "Indispensable",
+        "b": "Indisposition",
+        "c": "Inevitable",
+        "d": "Ineffective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Education is _______ for the prevention of democracy.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 70 - 74) Select the most suitable alternative to fill in the blanks in the sentence",
+      "opts": {
+        "a": "Disadvantageous",
+        "b": "Discomposure",
+        "c": "Disagree",
+        "d": "Disagreement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There was some ______ over the new Contract.",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 70 - 74) Select the most suitable alternative to fill in the blanks in the sentence",
+      "opts": {
+        "a": "Altar",
+        "b": "Alter",
+        "c": "Allocate",
+        "d": "Alternation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was persuaded to _______ his plan of action.",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 75 - 80)  Select the words which is opposite in meaning to the underlined",
+      "opts": {
+        "a": "Scornful",
+        "b": "respectful",
+        "c": "Disgusted",
+        "d": "Puzzled"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She gave him a **disdainful** look",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 75 - 80)  Select the words which is opposite in meaning to the underlined",
+      "opts": {
+        "a": "Inarticulate",
+        "b": "Forceful",
+        "c": "Powerful",
+        "d": "Impetuous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was such an **eloquent** speaker",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 75 - 80)  Select the words which is opposite in meaning to the underlined",
+      "opts": {
+        "a": "Ignorant",
+        "b": "Obsessed",
+        "c": "Conscious",
+        "d": "Unheeding"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She was totally **oblivious** to her surroundings.",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 75 - 80)  Select the words which is opposite in meaning to the underlined",
+      "opts": {
+        "a": "Firm",
+        "b": "Air tight",
+        "c": "Brittle",
+        "d": "Flexible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sandwiches are best kept in a **rigid** container",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 75 - 80)  Select the words which is opposite in meaning to the underlined",
+      "opts": {
+        "a": "Famous",
+        "b": "Unknown",
+        "c": "Unheard",
+        "d": "Distinguished"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A **renowned** film maker is visiting our town next week",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions : (Questions 75 - 80)  Select the words which is opposite in meaning to the underlined",
+      "opts": {
+        "a": "Fertile",
+        "b": "Unfruitful",
+        "c": "Barren",
+        "d": "Virgin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Her husband has never known that she was **sterile**",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on **any one (1)** of the given topics in not more than 300 words. –The advantages and disadvantages of using mobile Phone. –Landslide in Mizoram. –Positive and Negative impact of MLPC Act.",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q49 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q50 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q51 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q52 (p7, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q53 (p7, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q54 (p7, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q60 (p7, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q61 (p7, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q62 (p7, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q63 (p8, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q64 (p8, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "B": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      60,
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/987e035775f13ece0636d5f3576877da/general-english-1.pdf",
+  "enrichmentVersion": 5,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

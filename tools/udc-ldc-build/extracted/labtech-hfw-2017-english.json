@@ -1,0 +1,180 @@
+{
+  "slug": "labtech-hfw-2017-english",
+  "exam": "Laboratory Technician (Contract) under Health & Family Welfare Department",
+  "sitting": "February 2017",
+  "subject": "General English",
+  "source": "labtech-hfw-2017-english.pdf",
+  "sourceSha256": "23ee0f540a5a8480802d6a3ea9d406c04e21dca876ca1ee1fba41ed4806d0322",
+  "ocr": false,
+  "count": 7,
+  "questions": [
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "According to the writer, the bay could not be reached by boat because : (i)it had numerous layers of rock (ii)there were too many eddies (iii) it was facing the open sea (iv)there were seams of rocks and treacherously swirling currents",
+        "b": "One could visit the bay : (i)at any time one chooses(ii)on certain specified occasions (iii)when there was a low tide(iv)during an evening walk",
+        "c": "It was not possible to ‘linger on the expedition’ because : (i)the water rose rapidly (ii)the tide turned sprightly (iii)the water rushed in with a great force (iv)the tide came in rapidly",
+        "d": "He found the bay fresh and unlettered because : (i)the high tide had just washed the litter away (ii)the sea water had receded (iii)it was not frequented by people who would pollute it (iv)he was the first visitor there (i)big crack through which light came in (ii)cool and secluded corner (iii)large opening (iv)chimney – shaped rock"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following passage carefully and answer the questions that follow it: At low tide he walked over the sands to the headland and round the corner to the little bay facing the open sea. It was inaccessible by boat, because seams of rock jutted out and currents swirled round them treacherously. But you could walk there if you chose one of the lowest ebb tides that receded a very long way. You could not linger on the expedition, for once the tide was on the turn, it came in rapidly. For this reason, very few people cared to explore the little bay and the cave at the back of it. But the unknown always drew this man like a magnet. He found the bay fresh and unlittered, as it was completely covered by the sea at high tide. The cave looked mysteriously dark, cool and inviting, and he penetrated to the farthest corner where he discovered a wide crack, rather like a chimney. He peered up and thought he could see a patch of daylight. QUESTIONS :(5×3+1=16)",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To meet one’s waterloo : (i)To meet a strong adversary(ii)To die fighting (iii)To meet one’s final defeat(iv)To die an ignoble death",
+        "b": "To smell a rat : (i)To see hidden meaning(ii)To smell bad odour (iii)To misunderstand(iv)To suspect a trick or deceit",
+        "c": "Through thick and thin : (i)Under all conditions(ii)Big and small (iii)Thin and fat(iv)Tall and short",
+        "d": "To fly off the handle : (i)To dislocate(ii)To be indifferent (iii)To lose one’s temper(iv)To be airborne (i)Irrelevant(ii)Out of assumptions (iii)Beyond imagination(iv)Beyond reach (i)Insult someone(ii)Interrupt someone (iii)Criticize someone(iv)Disturb someone (g)Sitting on the fence : (i)Unbalanced(ii)Uncomfortable (iii)Between two opinions(iv)Coward (h)An axe to grind : (i)Difficult job(ii)Hard labour (iii)Punishment(iv)Private ends to serve"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct meaning of the following idioms/phrases from the given alternatives : (8×2=16)",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "None but the **brave** deserves the fair (noun/verb/adjective/adverb)",
+        "b": "The girl wears a **green** dress (adverb/adjective/a/verb/conjunction)",
+        "c": "**Alas!** I am undone. (preposition/adjective/conjunction/interjection)",
+        "d": "The old man works **diligently** (adjective/adverb/verb/conjunction) (e)The little boy **is** blind (noun/adverb/adjective/verb) (f)Do not interrupt me **while** I am speaking (pronoun/verb/preposition/adverb) (g)He lost the job **because** he was always late (adjective/adverb/conjunction/interjection) (h)They have **booked** the hall for the meeting (verb/adjective/noun/preposition) (i)**After** the storm comes the rain (preposition/adverb/conjunction/adjective) (j)Let us take a **walk** (verb/noun/adverb/preposition)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct parts of speech of the underlined words from those given in brackets: (10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The thief entered the house _____ a window (from/by/through/into)",
+        "b": "The horse jumped _____ the fence (above/over/into/upto)",
+        "c": "He came to school _____ foot (on/by/with/in)",
+        "d": "I have not seen her ______ the last three days (from/for/upto/since) (e)I am proud _____ my heritage (of/about/by/to) (f)She has a great passion _____ natural beauty (to/for/about/among) (g)The people have no trust _____ him (on/to/in/for) (h)His path is beset _____ many difficulties (by/on/from/with)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks by choosing the appropriate preposition from the given alternatives: (8×1=8)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "He waited for the train, but the train was late : (simple/compound/complex)",
+        "b": "I do not own a car (simple/compound/complex)",
+        "c": "The football game was cancelled because of the rain (simple /compound/complex)",
+        "d": "Take whatever you like (simple/compound/complex) (e)God made the country and man made the town (simple/compound/complex)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "State whether the following sentences are Simple. Compound or Complex sentences by choosing the answer from the given alternatives :(5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Technology must use to feed the forces of change : (i)must have been used to feed(ii)must be used to feed (iii)must use having fed(iv)must be using to feed",
+        "b": "My friend would have missed the train if he had not hurried (i)had missed(ii)will have missed (iii)shall miss(iv)no correction needed",
+        "c": "The performance of our player was rather worst than I had expected (i)bad as I had expected(ii)worse than I had expected (iii)worst than was expected(iv)no correction needed",
+        "d": "The crops are dying, it must not had rained (i)must not be rained(ii)must not have been rained (iii)must not rained(iv)must not have rained (i)touch upon(ii)touch on (iii)touch of(iv)touch in"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Replace the phrase printed in italics to make the sentences grammatically correct by choosing the answer from the given alternatives : (5×2=10)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "He is slow. He is sincere ( into Compound):(5×2=10) (i)He is slow and sincere(ii)He is slow but he is sincere (iii)He is sincere but slow",
+        "b": "He is a gangster. Everybody knows it. (into Complex) : (i)Everybody knows that he is a gangster (ii)He is a gangster and everybody knows it (iii)It is known by everybody that he is a gangster",
+        "c": "She heard a noise. She woke up (Into one Simple sentence) (i)She heard a noise and woke up(ii)The noise woke her up (iii)Hearing a noise, she woke up",
+        "d": "I met a girl. She was very beautiful (into Complex) : (i)I met a very beautiful girl(ii)The girl I met was very beautiful (iii)I met a girl who was very beautiful (i)Sitting on a chair Rina wrote a letter (ii)Rina sat on a chair and wrote a letter (iii)Rina wrote a letter while sitting on a chair"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Transform the following sentences as directed by choosing the answers from the given alternatives",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  }
+}

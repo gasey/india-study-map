@@ -305,7 +305,62 @@ class ReviewedRepairTests(unittest.TestCase):
         for match in re.finditer(r'const groupBQuestionsPart\d+: BankQuestion\[\] = ', source):
             rows.extend(decoder.raw_decode(source, match.end())[0])
         library = json.loads((root / 'src/data/banks/mpsc-group-b-library.json').read_text())
-        self.assertEqual({p['id'] for p in library}, {q['paperId'] for q in rows})
+        self.assertEqual({p['id'] for p in library if p['imported']}, {q['paperId'] for q in rows})
+        for paper in library:
+            if not paper['imported']:
+                self.assertTrue((root / 'public' / paper['sourceHref'].lstrip('/')).is_file())
+                self.assertFalse(any(q['paperId'] == paper['id'] for q in rows))
+        si_english = [q for q in rows if q['paperId'] == 'mpsc-group-b-si-excise-2014-p1']
+        si_gs1 = [q for q in rows if q['paperId'] == 'mpsc-group-b-si-excise-2014-p2']
+        si_gs2 = [q for q in rows if q['paperId'] == 'mpsc-group-b-si-excise-2014-p3']
+        self.assertEqual(len(si_english), 9)
+        self.assertTrue(all(q.get('type') == 'descriptive' and q.get('sourceReview') for q in si_english))
+        self.assertEqual(len(si_gs1), 75)
+        self.assertEqual(len(si_gs2), 34)
+        self.assertTrue(all(q.get('sourceReview') and q['answerIndex'] == -1
+                            for q in si_gs1 + si_gs2))
+        self.assertEqual({p['expectedMcq'] for p in library if p['id'] == 'mpsc-group-b-si-excise-2014-p3'}, {75})
+        recovered_2018 = {
+            'si-police-ub-2018-english': (80, 1),
+            'si-police-ub-2018-gk': (100, 0),
+            'si-police-ub-2018-mathematics': (100, 0),
+            'horticulture-demonstrator-2018-english': (80, 1),
+            'si-fcs-2018-english': (80, 1),
+            'si-fcs-2018-gs1': (75, 0),
+            'si-fcs-2018-gs2': (75, 0),
+            'programmer-phe-2018-english-p1': (80, 1),
+            'programmer-phe-2018-english-p2': (100, 0),
+            'sericulture-seo-2018-english-p1': (80, 1),
+            'sericulture-seo-2018-english-p2': (100, 0),
+            'station-officer-2018-english': (80, 1),
+            'station-officer-2018-gk': (100, 0),
+            'station-officer-2018-mathematics': (100, 0),
+        }
+        for slug, (mcq_count, written_count) in recovered_2018.items():
+            part = [q for q in rows if q['paperId'] == 'mpsc-group-b-' + slug]
+            mcq = [q for q in part if q.get('type') != 'descriptive']
+            self.assertEqual(len(mcq), mcq_count)
+            self.assertEqual(len(part) - len(mcq), written_count)
+            self.assertEqual({int(q['questionNumber'].lstrip('B')) for q in mcq}, set(range(1, mcq_count + 1)))
+            self.assertTrue(all(q.get('sourceReview') and q['answerIndex'] == -1 for q in mcq))
+            self.assertTrue(all((root / 'public' / q['imagePath'].lstrip('/')).is_file()
+                                for q in part if q.get('imagePath')))
+            if slug == 'programmer-phe-2018-english-p1':
+                self.assertTrue(all(q.get('passage') for q in mcq if 1 <= int(q['questionNumber'].lstrip('B')) <= 8 or 25 <= int(q['questionNumber'].lstrip('B')) <= 32))
+                self.assertEqual(len(next(q for q in mcq if q['questionNumber'] == 'B49')['options']), 3)
+            if slug == 'sericulture-seo-2018-english-p1':
+                self.assertTrue(all(q.get('passage') for q in mcq if 17 <= int(q['questionNumber'].lstrip('B')) <= 32))
+            if slug == 'sericulture-seo-2018-english-p2':
+                self.assertTrue(next(q for q in mcq if q['questionNumber'] == '58').get('sourceReview'))
+                self.assertEqual(next(q for q in mcq if q['questionNumber'] == '58')['answerIndex'], -1)
+            if slug == 'station-officer-2018-english':
+                self.assertTrue(all(q.get('passage') for q in mcq if 1 <= int(q['questionNumber'].lstrip('B')) <= 12))
+            if slug.endswith('-english'):
+                if slug in ('si-police-ub-2018-english', 'horticulture-demonstrator-2018-english', 'si-fcs-2018-english'):
+                    self.assertTrue(all(q.get('passage') for q in mcq
+                                        if 17 <= int(q['questionNumber'].lstrip('B')) <= 26))
+        ub = [q for q in rows if q['paperId'] == 'mpsc-group-b-si-police-ub-2018-english']
+        self.assertEqual(len(next(q for q in ub if q['questionNumber'] == 'B49')['options']), 3)
         for slug, count in [('inspector-stats-2017-english', 10), ('technical-2024-p1', 10),
                             ('asi-2024-p1', 12), ('mvi-2025-p1', 13)]:
             part = [q for q in rows if q['paperId'] == 'mpsc-group-b-' + slug]

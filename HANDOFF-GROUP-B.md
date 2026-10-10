@@ -1,8 +1,156 @@
-# Group B continuation handoff — 9 October 2026
+## MPSC paper import — 10 October 2026 (latest)
+
+The Group B/general-paper catalog now contains **95 papers and 6,774 question records** (6,624 MCQ, 150 written). Of these, 3,611 are ready, including 1,618 with official keys; 3,033 remain source-review items. The latest PDFs are in `public/papers/group-b/`, registered in `tools/udc-ldc-build/group_b_sources.py`, and extracted into the generated bank. The 2018 addition covers MES PWD and Power & Electricity English/General Studies, Veterinary Officer English I/II, JE I&WR English, Assistant Jailor English, ASI Home (three papers), Assistant Grade (two), and ACF English/GK. The 2017/2014/2012 addition covers ATO English, Fishery Extension Officer English I/II, Grade-V MHS English I/II, HFW Lab Technician English, MCON Lecturer English I, Assistant Professor Geography English, ADA (three), MES PHE 2014 (two), and MES Power & Electricity 2012 (three).
+
+All new practice records remain unscored unless a verified answer key exists. Text extraction is incomplete for some PDFs; source counts and question gaps must be checked before treating a paper as complete. Four written-only 2018 English papers have source PDFs registered but still need their descriptive prompts transcribed to become question records.
+
+Production deployment completed: `https://map.hawayu.in` (`dpl_Aqmf3pBtRHoHeWLShVnd2ARqGbR9`, READY). The `/udc-ldc` route and sample PDFs return HTTP 200.
+
+Several archive links were mismatched and were not imported under the requested title: Assistant Jailor GS-I/II resolve to Inspector of Taxes; the PWD JE English link resolves to a 2020 Agriculture JE; Legal Metrology English I is unavailable and English II resolves to FEO 2017; the shared 2017 English URL supplied for MES PHE, Lecturer Civil, High School Teacher, and Staff Nurse opens a GDMO paper; the MES PHE 2017 GS URL returns 404; and the Assistant Librarian links are broken/mismatched. ACF GK was corrected to the official ACF file. Do not add the incorrect files under requested exam names.
+
+# Group B continuation handoff — 10 October 2026
 
 Repository: `/home/hruaia/workspace/projects/personal/india-study-map`
 
 ## Where things stand
+
+### New paper added — MIMER General English Common Paper (February 2018)
+
+The library now includes **MIMER common recruitment**, the
+official common General English paper used for recruitment to various posts
+under MIMER: **Lab Technician, Medical Record Technician, Staff Nurse and
+Computer Operator**. MPSC's four archive listings link to the same official
+PDF URL. `SHARED_POSTS` in `group_b_sources.py` records the four associations;
+the library search and paper post filter expose all of them with one question
+set. The existing `mimer-labtech-2018-english` IDs are preserved for saved progress.
+Source: `../mpsc-question-bank/pdfs/Old_Questions/Direct_2014-2018/1.General English Common Paper.pdf`.
+Its extracted questions are in `tools/udc-ldc-build/extracted/mimer-labtech-2018-english.json`;
+the durable source-list entry and archive folder mapping are in
+`tools/udc-ldc-build/group_b_sources.py`. The builder copied the source to
+`public/papers/group-b/mimer-labtech-2018-english.pdf`.
+
+The import contains **80 MCQs plus the Section A essay prompt**. It is marked
+review-required: the sibling MPSC bank has 79 inferred answers and one
+unanswered/defective idiom item (Q13, “Sweeping Statement”), but no official
+answer key. The imported items remain unscored until their text and answers
+are reviewed against the PDF; do not promote inferred answers to official or
+practice-ready status. The 20-mark essay is present as a descriptive prompt
+awaiting response guidance. Rebuild with
+`python3 tools/udc-ldc-build/build_group_b.py`.
+
+The common reading passage for Q1–12 is restored in the extracted input and
+rendered with each question. English answer review remains open.
+
+### Computer Operator under MIMER — Technical Paper I
+
+The user explicitly includes this paper under **Computer Knowledge**. Its 75
+questions are imported by `tools/udc-ldc-build/mimer_sources.py`, reusing the
+existing System Manager text extraction and independent solutions. The source
+is `tools/system-manager-build/sources/mimer-2018-computer-operator-technical-paper-i.pdf`,
+SHA-256 `77c20d338d31decfcf18545c5507f9c66b113e3905547123dfe56e979b714477`.
+Do not use the archive's ambiguous `2.Technical Paper-I.pdf`: that file is the
+Laboratory Technician paper after a filename collision.
+
+71 questions have derived answers/explanations ready for practice. Q23, Q36,
+Q37 and Q69 remain unscored with candidate answers; the last also has conflicting
+blind solves. The full paper stays excluded from Exam mode while any are held.
+Its cover specifies 150 marks, 75 two-mark MCQs and two hours; no penalty is stated.
+Solutions come from `tools/system-manager-build/staged/solved.json`, with relevant
+`audit_corrections.json` applied afterwards. Future models should resolve the
+four uncertain answers there, then regenerate both consumers. All answers stay
+derived unless a verified official key is attached.
+
+### Sub-Inspector under Excise & Narcotics — March 2014
+
+The three official papers now have imported module records. Paper I (General
+English) has nine descriptive prompts. General Studies Paper I has 75 MCQs.
+General Studies Paper II has 34 of an expected 75 MCQs. Its available PDF has
+only four pages and contains printed pages 2, 4, 6 and 8; 41 MCQs from the
+missing printed pages are not recoverable from this scan. This is the General
+Studies Paper II listing, not a Paper III. The source data is
+`tools/udc-ldc-build/extracted/si-excise-2014.json` and the adapter is
+`tools/udc-ldc-build/si_excise_2014.py`. All imported 2014 MCQs remain
+unscored and source-review-gated; 32 General Studies II legacy answer candidates are
+shown only as unverified candidates. Its cover is missing, so duration and
+marks metadata are not inferred. Obtain the missing pages and review all
+transcriptions before enabling full-paper exam mode.
+
+### Additional 2018 source imports
+
+The module now imports the complete available question sequences from seven
+additional official PDFs: Sub Inspector (UB), Home Department, October 2018
+(English 80 MCQs plus one essay; GK 100 MCQs; Mathematics 100 MCQs); Senior
+Horticulture Demonstrator, April 2018 (English 80 MCQs plus one essay); and
+Sub-Inspector FCS&CA, November 2018 (English 80 MCQs plus one essay; General
+Studies I 75 MCQs; General Studies II 75 MCQs).
+
+All 590 new MCQs remain unscored pending text and answer review. Three essays
+await guidance. The English reading passages are attached to their question
+groups. Three-choice alternatives are preserved where printed. SHD English
+Q24 duplicates the label (d), so its four alternatives are stored by their
+printed visual order and kept unscored. UB Mathematics Q46's spaced `(d )`
+marker was recovered from the scan. Mathematics and FCS&CA GS II retain original
+question crops for fractions/diagrams; English items that depend on source
+emphasis also have crops. Mathematical text still needs source review.
+
+Inputs are `tools/udc-ldc-build/extracted/{slug}.json`. The source registrations
+live in `group_b_sources.py`; `enrich_2018_papers.py` retains official source
+URLs, restores passages, applies source-hash-pinned text repairs and generates
+crops. `extract_general_papers.py` calls it after extraction. Re-extract only
+these seven registered rows with `extract_one(row)` when their inputs change;
+the broader practice-hub parser retains its default four-option behavior.
+The separate `extract_si_police_ub_2018.py` and aggregate
+`extracted/si-police-ub-2018.json` are earlier extraction drafts; the module
+consumes the individual registered `{slug}.json` inputs described above.
+Verification for these seven imports: all 24 review tests and the production
+build passed. Comparison by question ID confirms all 3,709 committed earlier
+records are unchanged; every new source image referenced by the module exists.
+
+### Programmer, Sericulture and Station Officer — 10 October 2026
+
+Seven more official 2018 papers are imported: Programmer under PHE (English
+Papers I and II), Sericulture Extension Officer (English Papers I and II), and
+Station Officer, Fire & Emergency Services (English, GK and Mathematics).
+They add **640 unscored MCQs and three descriptive prompts**. Covers confirm
+80 MCQs plus one 20-mark essay in Programmer Paper I, Sericulture Paper I and
+Station Officer English; 100 MCQs in each Paper II; and 100 one-mark MCQs in
+the Station Officer GK and Mathematics papers. All new MCQs remain source-review gated with no scored
+answers. Programmer Paper I's three-choice block is preserved; the shared
+passages are attached to Programmer Paper I Q1–8/Q25–32, SEO Paper I Q17–32,
+and Station Officer English Q1–12. Crops preserve underlined/italicized words.
+SEO Paper II Q58 duplicates the printed (b) label; its options are displayed
+in visual order and the item stays unscored.
+
+Source URLs and source-hash-aware enrichment are in
+`tools/udc-ldc-build/enrich_2018_papers.py`; registrations and individual
+extraction inputs are in `group_b_sources.py` and
+`tools/udc-ldc-build/extracted/{slug}.json`. Rebuild with
+`python3 tools/udc-ldc-build/extract_general_papers.py` when regenerating source
+inputs, then run the Group B builder. The image crop boundary retains both
+rows of answer choices and avoids including the next question number.
+
+The user also asked to verify Middle School Teacher (3 papers), Primary School
+Teacher (3 papers), and six UDC sets (EF&CC, Irrigation & Water Resources,
+Agriculture (Crop Husbandry), Excise, SAD and Tourism; 2 papers each). All 18
+supplied MPSC URLs returned readable PDFs whose titles match the requested
+posts and papers. These were verified as sources only and are not yet imported
+in the Group B library. The EF&CC UDC Paper I PDF is a complete two-page,
+125-mark descriptive English paper with seven grouped prompts, not an MCQ
+paper or a truncated scan; Paper II is the separate GK paper.
+
+The Group B module now has **68 papers** and **5,219 question records**. The
+generated source and library are the
+authority for exact review counters; the table below records the state before
+the October 2026 additions.
+
+Validation for the MIMER additions: type checking, the 24 Group B review tests,
+the production build and repeat-build byte equality passed. The SI Excise
+addition and fourteen further 2018 imports pass all 24 review tests and the
+production build. 5,219 records are present; 1,510 have been appended since
+the 49-paper baseline. GPT-6 Luna handled
+the bounded source inventory and adapter implementation; the parent reviewed
+the schema, integration, provenance and scoring gates. Changes are local to
+the checkout; that earlier update was deployed; the latest additions are also live at `https://map.hawayu.in`.
 
 The user asked to finish every remaining **"source checked · not scored"** item
 and every incomplete paper in the Group B question bank, then deploy the result.

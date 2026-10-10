@@ -1,0 +1,22 @@
+{
+  "slug": "mes-power-2018-english",
+  "exam": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department",
+  "sitting": "August 2018",
+  "subject": "General English",
+  "source": "mes-power-2018-english.pdf",
+  "sourceSha256": "8343763a2f2f16e973db26b20b5e11e0bf9a90ec2b80e085174260eaa6abb91d",
+  "ocr": false,
+  "count": 0,
+  "questions": [],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/9fc635f1f2065b5f9a9244c94de4e2c4/general-english-pe.pdf",
+  "enrichmentVersion": 5,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

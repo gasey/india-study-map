@@ -1,0 +1,2893 @@
+{
+  "slug": "assistant-grade-mpsc-2019-p2",
+  "exam": "Assistant Grade under MPSC",
+  "sitting": "2019",
+  "subject": "Paper-II",
+  "source": "Asst. Grade under MPSC Paper-II.pdf",
+  "sourceSha256": "727eec8cea0710744e5e88f9878eaa634e873d01fc560a80706818f04a2b15e6",
+  "ocr": false,
+  "count": 125,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Eight",
+        "b": "Seven",
+        "c": "Six",
+        "d": "Nine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In how many phase will the ensuing General Election to the Lok Sabha be conducted?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rio de Janeiro",
+        "b": "Brasilia",
+        "c": "Santiago",
+        "d": "Bogota"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which City in South America is named the World Capital of Architecture for 2020 by UNESCO?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MiG-27",
+        "b": "MiG-21",
+        "c": "MiG-25",
+        "d": "Mirage-2000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Russian made jet fighter of IAF was recently shot down in a recent clash with Pakistan?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Crown Prince of Saudi Arabia",
+        "b": "President of South Africa",
+        "c": "President of Argentina",
+        "d": "Prime Minister of Malaysia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the Chief Guest of the Official Ceremony in the Republic Day 2019?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Caroline Wozniacki",
+        "b": "Petra Kvitova",
+        "c": "Naomi Osaka",
+        "d": "Venus Williams"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the winner of Australian Open Women’s Single, 2019?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bohemian Rhapsody",
+        "b": "Green Book",
+        "c": "Roma",
+        "d": "Free Solo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which film won Most Awards in 91st Academy Awards?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Leh",
+        "b": "Ladakh",
+        "c": "Chenad",
+        "d": "Pir Panjal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following has been declared as the third administrative division of Jammu and Kashmir?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bangkok",
+        "b": "Singapore",
+        "c": "Hanoi",
+        "d": "Kuala Lumpur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which City hosted the second-summit of US President Donald Trump and North Korean leader Kim Jong un?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Captain",
+        "b": "Major",
+        "c": "Lieutenant Colonel",
+        "d": "Colonel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the equivalent rank of Wing Commander of IAF in the Indian Army?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Allahabad",
+        "b": "Guwahati",
+        "c": "Madras",
+        "d": "Delhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which High Court rules against Negative Marking in Competitive Exam?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Piyush Goyal",
+        "b": "Arun Jaitley",
+        "c": "Sushma Swaraj",
+        "d": "Nirmala Sitharaman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Union Minister presented the Interim Budget 2019?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sunil Gavaskar",
+        "b": "Shashank Manohar",
+        "c": "Manu Sawhney",
+        "d": "David Richardson"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has been elected as the new CEO of the International Cricket Council?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "M. Nageshwar Rao",
+        "b": "Alok Verma",
+        "c": "Rishi Kumar Shukla",
+        "d": "Rakesh Asthana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has been selected as the new Director of CBI?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Childish Gambino",
+        "b": "Kacey Musgraves",
+        "c": "Alicia Keys",
+        "d": "Dolly Parton"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who hosted the 61st Annual Grammy Awards, 2019?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arthur Ashkin",
+        "b": "Nadia Murad",
+        "c": "Paul Romer",
+        "d": "George P. Smith"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following won the Nobel Peace Prize for 2018?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "S-400 Missile",
+        "b": "S-250 Missile",
+        "c": "S-200 Missile",
+        "d": "S-410 Missile"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the Air Defence System to be procured from Russia?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bhupen Hazarika",
+        "b": "Pranab Mukherjee",
+        "c": "Teejan Bai",
+        "d": "Nanaji Deshmukh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who amongst the following did not win Bharat Ratna 2019?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pradeep Singh Kharola",
+        "b": "Naresh Kumar",
+        "c": "Suresh Rajan",
+        "d": "Dinesh Gupta"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has been appointed Civil Aviation Secretary of Air India?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Martin Indyk",
+        "b": "Daniel Kammen",
+        "c": "Lee Do-Hoon",
+        "d": "Stephen Biegun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the US Special Representative on North Korea?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mumbai",
+        "b": "Lucknow",
+        "c": "New Delhi",
+        "d": "Chennai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which city did the Prime Minister inaugurated the National War Memorial?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Russia",
+        "b": "U.S.A.",
+        "c": "Poland",
+        "d": "Czech Republic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With which country did the Ministry of Coal signed MOU on cooperation in the field of coal mining?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PARAM Shivay",
+        "b": "PARAM Yuva 2",
+        "c": "Sahasra T",
+        "d": "Aaditya"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of Super Computer built at the cost of Rs. 32.5 crore at Banaras Hindu University?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3.4 %",
+        "b": "3.2 %",
+        "c": "3.1 %",
+        "d": "3.9 %"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At what percent, fiscal deficit for the budget of 2019-2020 has been pegged?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam Regiment",
+        "b": "Border Security Force (BSF)",
+        "c": "Central Reserve Police Force (CRPF)",
+        "d": "Assam Rifles"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Central Armed Police Force (CAPF) has been granted power to arrest anyone in the North East?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Albania",
+        "b": "Greece",
+        "c": "Macedonia",
+        "d": "Lithuania"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country signed an accord to join as new member of NATO?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GSAT-31",
+        "b": "GSAT-40",
+        "c": "GSAT-7A",
+        "d": "GSAT-15"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the 40th communication satellite of India launched by ISRO from French Guiana recently?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "United Kingdom",
+        "b": "South Africa",
+        "c": "Brazil",
+        "d": "India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which country will the first-ever solutions-focused event “Global Cooling Innovation Summit” be held?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Samudra Shakti",
+        "b": "Samudra Diwas",
+        "c": "Samudra",
+        "d": "Vijay Shakti"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the first bilateral joint naval exercise between India and Indonesia?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hyderabad",
+        "b": "Amaravati",
+        "c": "Visakhapatnam",
+        "d": "Kurnool"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the capital of Andhra Pradesh?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chennai",
+        "b": "Kolkata",
+        "c": "Pune",
+        "d": "Patna"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which city was India’s first fulldome 3D Digital Theatre opened?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Swati Chaturvedi",
+        "b": "Prannoy Roy",
+        "c": "Arnab Goswami",
+        "d": "Dhruv Rathee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian journalist has won the 2018 London Press Freedom Award for courage?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "#PowerOf18",
+        "b": "#PowerOfVoters",
+        "c": "#PowerOf19",
+        "d": "#PowerOfElection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which social initiative has been launched by Twitter India to boost youth engagement for 2019 General Election?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Guwahati",
+        "b": "Mathura",
+        "c": "Kochi",
+        "d": "Chennai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which city was India’s first specialised hospital for elephants opened?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GSLV MkIII",
+        "b": "PSLV MkIII",
+        "c": "GSLV MkII",
+        "d": "PSLV MkII"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From which launch vehicle was GSAT-29 launch into space by ISRO?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "7.7 %",
+        "b": "7.6 %",
+        "c": "7.8 %",
+        "d": "7.5 %"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the India’s GDP growth rate forecast for the year 2018, as per latest report by Moody’s Investors Service?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khushwant Singh",
+        "b": "Raghuram G. Rajan",
+        "c": "Shaktikanta Das",
+        "d": "Urjit Patel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the writer of a book “I do what I do”?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Philip Yancey",
+        "b": "Rick Warren",
+        "c": "Brian D. Mclaren",
+        "d": "Jack London"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“What so amazing about Grace” is written by",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "L.Keivom",
+        "b": "M.Lalmanzuala",
+        "c": "K.Sapdanga",
+        "d": "K.Remruatfela"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The author of the book “Zoram Kalsiam” is",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "C. S. Lewis",
+        "b": "Dorothy L. Sayers",
+        "c": "Frank W. Braham",
+        "d": "George MCDonald"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The author of the book Mere Christianity is",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anaya Chauhan",
+        "b": "Krishna Trilok",
+        "c": "Mridula Behari",
+        "d": "Devapriya Roy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the author of the book “Notes of a Dream - The Authorised Biography of AR Rahman”?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Saina Nehwal",
+        "b": "Mary kom",
+        "c": "P.V. Sindhu",
+        "d": "Manika Batra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which female Asian Athlete figures in top 10 of Forbes highest Earning female athlete in 2018?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4th",
+        "b": "3rd",
+        "c": "5th",
+        "d": "8th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which position India managed at Commonwealth Games, 2018 in Australia?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Roger Federer",
+        "b": "Rafael Nadal",
+        "c": "Novak Djokovic",
+        "d": "Alexander Zverev"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who won the 2019 Australian Open Mens Single title?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mizoram",
+        "b": "Railways",
+        "c": "West Bengal",
+        "d": "Kerela"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which team won the 2018 Santosh Trophy of Football?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Laxman Rawat",
+        "b": "Aditya Mehta",
+        "c": "Geet Sethi",
+        "d": "Pankaj Advani"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has won the 86th Senior Snooker National Championship?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National Registration of Citizenship",
+        "b": "National Register of Citizens",
+        "c": "Nationality Register of Citizenship",
+        "d": "Nationality Registration of Citizens"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The full form of NRC is",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National Health Resource Repository",
+        "b": "National Health Reserve Resources",
+        "c": "National Health Resource Reserves",
+        "d": "National Health Repository Resource"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The full form of NHRR is",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Emergency Reserve System Support",
+        "b": "Emergency Response Support System",
+        "c": "Emerging Responsive Support System",
+        "d": "Encounter Response Support System"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The full form of ERSS is",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brazil, Russia, India, China and South Africa",
+        "b": "Bangladesh, Romania, Indonesia, Cambodia and Sudan",
+        "c": "Belgium, Romania, Italy, Canada and Saudi Arabia",
+        "d": "Belize, Rwanda, Iran, Cameroon and Senegal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "BRICS stands for",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Central Board of Direct Taxes",
+        "b": "Centre Board of Direct Taxation",
+        "c": "Central Board of Direct Taxation",
+        "d": "Centre Board of Direct Taxes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "CBDT stands for",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nilgiri Hills",
+        "b": "Aravalli Hills",
+        "c": "Western Ghat",
+        "d": "Naga Hills"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Blue Mountains",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Australia",
+        "b": "New Zealand",
+        "c": "New Guinea",
+        "d": "Tasmania"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Britain of the South",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dublin",
+        "b": "London",
+        "c": "Paris",
+        "d": "Oxford"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "City of Dreaming Spires",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Seattle",
+        "b": "Chicago",
+        "c": "Florida",
+        "d": "San Francisco"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "City of Golden Gate",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Norway",
+        "b": "Belgium",
+        "c": "Denmark",
+        "d": "Ireland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cockpit of Europe",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Narendra Modi",
+        "b": "Ram Nath Kovind",
+        "c": "Arun Jaitley",
+        "d": "Sushma Swaraj"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who won the Seoul Peace Prize for 2018?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalitha J. Rao",
+        "b": "Rajendra Prasanna",
+        "c": "Yogesh Sansi",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which noted flute player received Sangeet Natak Akademi award?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The favourite",
+        "b": "Black Panther",
+        "c": "Green Book",
+        "d": "Free Solo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which film won the Oscar for Best Picture Award in 2019?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rachel Kushner",
+        "b": "Robin Robertson",
+        "c": "Anna Burns",
+        "d": "Daisy Johnson"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The winner of man Booker Prize 2018",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Catriona Gray",
+        "b": "Stephany Gutierrez",
+        "c": "Tamaryn Green",
+        "d": "Kiara Ortega"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is crowned as the Miss Universe 2018?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Joel S. Engel",
+        "b": "Bell Scientists",
+        "c": "Martin Cooper",
+        "d": "Alexander Graham Bell"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented mobile phone?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thomas Edison",
+        "b": "Graham Bell",
+        "c": "Michael Faraday",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented light bulb?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Charles Babbage",
+        "b": "Alan Twing",
+        "c": "John Von Neumann",
+        "d": "Donald Knuth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented computer?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Graham Bell",
+        "b": "T.A.Edison",
+        "c": "Emile Berliner",
+        "d": "Ray Kurzweil"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented microphone?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "George de Mestral",
+        "b": "Percy Spencer",
+        "c": "Arthur Fry",
+        "d": "Spencer Silver"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented Velcro?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fraudulent use of credit cards",
+        "b": "Sending credit card details over internet",
+        "c": "Remote storage of credit card details",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following are the Risk factors which are associated with Electronic Payment System?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Data Management",
+        "b": "Data base",
+        "c": "Data Mining",
+        "d": "Meta Data"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the process for extracting previously useful and actionable information from large data to make crucial business and strategic decisions?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Windows 95",
+        "b": "Windows 98",
+        "c": "Windows 2000",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following operating system (OS) is better for implementing client server network?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CPU",
+        "b": "ROM",
+        "c": "RAM",
+        "d": "DIMM"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following retains the information when the power to the system is shut down?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Local Area Network",
+        "b": "Wide Area Network",
+        "c": "Global Network",
+        "d": "Intranet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A network of computers and other peripherals that is confined to a relatively small space is call",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IP Address",
+        "b": "Domain name",
+        "c": "Host Address",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Every computer connected to the internet is identified by a unique four-part strings known as",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Unlimited Service Band",
+        "b": "Unlimited Serial Bus",
+        "c": "Universal Serial Bus",
+        "d": "Unlimited Storage Bus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the full form of USB?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "VoIP",
+        "b": "GSM",
+        "c": "Modem",
+        "d": "CDMA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of a technology that allows telephone calls to be made over computer networks like the internet?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pop-ups",
+        "b": "Adware",
+        "c": "Grayware",
+        "d": "Spyware"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the programme that runs in the background on your computer, sending information about your browsing habits to the company that installed it on your computer?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1024 bytes",
+        "b": "1024 KB",
+        "c": "1024 MB",
+        "d": "1024 TB"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "1 Gigabyte (GB) is equal to",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "always irrational",
+        "b": "always rational",
+        "c": "always an integer",
+        "d": "sometimes rational, sometimes irrational"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The product of two irrational numbers is:",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs. 382",
+        "b": "Rs. 525",
+        "c": "Rs. 832",
+        "d": "Rs. 238"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The compound interest on Rs. 5000 for 2 years at 8% per annum compounded annually is",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs. 19,950",
+        "b": "Rs. 18,850",
+        "c": "Rs. 19,000",
+        "d": "Rs. 21,950"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A machine was bought at a price of Rs. 21,000. The value of the machine was depreciated by 5%, then the value of the machine after 1 year is:",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "doubled",
+        "b": "halved",
+        "c": "one-fourth",
+        "d": "same"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In compound interest, if the rate is compounded half-yearly, then the time period becomes twice and rate is:",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "55",
+        "b": "66",
+        "c": "74",
+        "d": "84"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a ratio 11: 14, if the antecedent is 66, the consequent is:",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "120 litres",
+        "b": "80 litres",
+        "c": "40 litres",
+        "d": "100 litres"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a mixture of 120 litres, the ratio of milk and water is 2 : 1. What amount of water must be added to make the ratio 1 : 2?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs. 1352",
+        "b": "Rs. 1250",
+        "c": "Rs. 1300",
+        "d": "Rs. 1532"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How much will Rs. 1250 in 2 years at 4% per annum on compound interest? The sum is-",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9 : 5",
+        "b": "5 : 9",
+        "c": "6 : 9",
+        "d": "9 : 6"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average age of a man and his son is 36 years. The ratio of their age is 24:12 respectively. What will be the ratio of their ages after 6 years?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12",
+        "b": "10",
+        "c": "8.2",
+        "d": "7.2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Michael crosses a path 600 m long in 5 minutes. His speed, in km/h is:",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 1213 11",
+        "c": "",
+        "d": " 2425"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "÷?=8 6 11",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "205 km/h",
+        "b": "9.5 km/h",
+        "c": "123 km/h",
+        "d": "120 km/h"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Maria in a train notices that she can count 41 telephone posts in one minute. If they are known to be 50 metres apart, then at what speed (in km/h) is the train travelling?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2 km",
+        "b": "12 km",
+        "c": "42 km",
+        "d": "20 km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two boys starting from the same place walk at a rate of 5 km/h and 5.5 km/h respectively. How far apart will they be in 4 hours, if they walk in the same direction?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 63 23",
+        "c": "",
+        "d": " 42"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "?+=+ 643 12",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2 units",
+        "b": "p units",
+        "c": "4 units",
+        "d": "7 units"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the perimeter and area of a circle are equal, then the radius of the circle is:",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "36p cm²",
+        "b": "18p cm²",
+        "c": "9p cm²",
+        "d": "12p cm²"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The area of a circle that can be inscribed in a square of side 6 cm is:",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 180360 2πrθ2πrθ",
+        "c": "",
+        "d": " 180360"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If u is the angle (in degrees) of a sector of a circle of radius r, then area of the sector is: πr²θπr²θ",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "mean",
+        "b": "mode",
+        "c": "median",
+        "d": "all the above three measures"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Construction of a cumulative frequency distribution table is useful in determining the:",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4 pr²",
+        "b": "3 pr²",
+        "c": "6 pr²",
+        "d": "2 pr²"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If two solid hemispheres of same base radius r are joined together along their bases, then curved surface area of this new solid is:",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "r cm",
+        "b": "h cm",
+        "c": "2h cm",
+        "d": "2r cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A right circular cylinder of radius r cm and height h cm (h > 2r) just encloses a sphere of diameter:",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 : 4",
+        "b": "2 : 1",
+        "c": "1 : 2",
+        "d": "4 : 1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the radius of the base of a right circular cylinder is halved, keeping the height same, then the ratio of the volume of the cylinder thus obtained to the volume of the original cylinder is:",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "74 and 55",
+        "b": "87 and 42",
+        "c": "82 and 47",
+        "d": "75 and 54"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sum of two numbers is 129 and their difference is 45. Then the numbers are:",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "32 and 40",
+        "b": "24 and 30",
+        "c": "28 and 35",
+        "d": "4 and 5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two numbers are in the ratio 4 : 5. If 16 is added to each of these numbers, the ratio becomes 6 : 7. The numbers are:",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "26 and 15",
+        "b": "34 and 29",
+        "c": "41 and 28",
+        "d": "55 and 42"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two numbers are such that the sum of twice the first and thrice the second is 97 and four times the first exceeds six times the second by 14. What are the numbers?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4 %",
+        "b": "5 %",
+        "c": "6 %",
+        "d": "8 %"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The marked price of a house in Aizawl is Rs. 40,00,000. A buyer pays Rs. 42,40,000 for the house. The rate of sales tax charged is:",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs. 500",
+        "b": "Rs. 600",
+        "c": "Rs. 750",
+        "d": "Rs. 800"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An item was sold for Rs. 900 including 12.5% VAT. What was the price before VAT was added?",
+      "multi": false
+    },
+    {
+      "n": 101,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4",
+        "b": "9",
+        "c": "12",
+        "d": "18"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If 2 : 3 : : 6 : x, then x will be:",
+      "multi": false
+    },
+    {
+      "n": 102,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs. 420",
+        "b": "Rs. 630",
+        "c": "Rs. 546",
+        "d": "Rs. 800"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cost of 5 m of a particular type of cloth is Rs. 210. The cost of 13m of cloth of the same type is",
+      "multi": false
+    },
+    {
+      "n": 103,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "100",
+        "b": "750",
+        "c": "830",
+        "d": "480"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The weight of 12 sheets of thick paper is 40g. How many sheets of the same paper would weigh 2.5kg?",
+      "multi": false
+    },
+    {
+      "n": 104,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15 : 20 : 16",
+        "b": "16 : 20 : 18",
+        "c": "15 : 25 : 30",
+        "d": "20 : 15 : 12"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If 3a = 4b = 5c, then a : b : c is",
+      "multi": false
+    },
+    {
+      "n": 105,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40 years",
+        "b": "45 years",
+        "c": "50 years",
+        "d": "55 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A man’s age is three times the sum of the ages of his two sons. After 5 years, his age will be twice the sum of the ages of his two sons. How old is the man now?",
+      "multi": false
+    },
+    {
+      "n": 106,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "80^o and 50^o",
+        "b": "50^o and 80^o",
+        "c": "85^o and 55^o",
+        "d": "55^o and 85^o"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The angles of a triangle are x, y and 40^o. The difference between the angles x and y is 30^o. The measure of x and y are:",
+      "multi": false
+    },
+    {
+      "n": 107,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25, 30",
+        "b": "9, 10",
+        "c": "30, 36",
+        "d": "50, 60"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ratio between two numbers is 5 : 6. If 5 is subtracted from each number, the ratio becomes 4 : 5. The numbers are:",
+      "multi": false
+    },
+    {
+      "n": 108,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "180",
+        "b": "184",
+        "c": "190",
+        "d": "192"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The number of planks of dimensions (4 m × 5 m × 2 m) that can be stored in a pit which is 40m long, 12 m wide and 16 m deep is:",
+      "multi": false
+    },
+    {
+      "n": 109,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "same",
+        "b": "halved",
+        "c": "doubled",
+        "d": "four times"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a cylinder, if radius is halved and height is doubled, the volume will be:",
+      "multi": false
+    },
+    {
+      "n": 110,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "πr",
+        "b": "πr 33 323",
+        "c": "4πr³",
+        "d": "πr 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The radius of a sphere is 2r, then its volume will be: 4383",
+      "multi": false
+    },
+    {
+      "n": 111,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10 m",
+        "b": "12 m",
+        "c": "15 m",
+        "d": "16 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The length of the longest pole that can be put in a room of dimension (10 m × 10 m × 5 m) is:",
+      "multi": false
+    },
+    {
+      "n": 112,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "36",
+        "b": "64",
+        "c": "54",
+        "d": "100"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The marks obtained by 20 students in a Mathematics test (out of 100) are given below: 99, 36, 91, 82, 100, 96, 100, 65, 76, 82, 90, 46, 72, 64, 66, 68, 49, 48, 79, 55. The range of the data is:",
+      "multi": false
+    },
+    {
+      "n": 113,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "56",
+        "b": "65",
+        "c": "25",
+        "d": "103"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "10×15 is equal to:",
+      "multi": false
+    },
+    {
+      "n": 114,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2+5",
+        "b": " 2−5",
+        "c": "",
+        "d": "5−2 2+5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rationalizing factor of 2+5 is: ()",
+      "multi": false
+    },
+    {
+      "n": 115,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "R₁ + R₂ < R",
+        "b": "R₁² + R₂² < R²",
+        "c": "R₁ + R₂ = R",
+        "d": "R₁² + R₂² = R²"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the sum of the areas of two circles with radii R₁ and R₂ is equal to the area of a circle with radius R, then",
+      "multi": false
+    },
+    {
+      "n": 116,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "142296",
+        "b": "145596",
+        "c": "145496",
+        "d": "143496"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A hollow cube of internal edge 22 cm is filled with spherical marbles of diameter 0.5 cm and it is 1 assumed that  space of the cube remains unfilled. Then the number of marbles that the cube can 8 accommodate is:",
+      "multi": false
+    },
+    {
+      "n": 117,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 cm",
+        "b": "6 cm",
+        "c": "8 cm",
+        "d": "4 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At one end A of a diameter AB of a circle of radius 5 cm, tangent XAY is drawn to the circle. The length of the chord CD parallel to XY and at a distance 8 cm from A is:",
+      "multi": false
+    },
+    {
+      "n": 118,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "23",
+        "b": "32",
+        "c": "33",
+        "d": "42"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of 121+144",
+      "multi": false
+    },
+    {
+      "n": 119,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "p² = – 2q",
+        "b": "p² = 2q",
+        "c": "p² = 4q",
+        "d": "p² = – 4q"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The roots of the equation x² + px + q = 0 are equal if",
+      "multi": false
+    },
+    {
+      "n": 120,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8",
+        "b": "64 1 −",
+        "c": "−3",
+        "d": " 33 x+3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The discriminant of the quadratic equation 33x²+10x+3=0is",
+      "multi": false
+    },
+    {
+      "n": 121,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " x−7x+3 x+3−(x+3)",
+        "c": "",
+        "d": " x+7x−7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The additive inverse of  is x−7 x+3x−7",
+      "multi": false
+    },
+    {
+      "n": 122,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "115",
+        "b": "112 183 21",
+        "c": "116",
+        "d": "118 34 p"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "6×5+17×4=? 6332 171",
+      "multi": false
+    },
+    {
+      "n": 123,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": "2 9 191999",
+        "c": "",
+        "d": " 101000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of 1.999… in the form , where p and q are integers and q0, is q 1",
+      "multi": false
+    },
+    {
+      "n": 124,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs. 800",
+        "b": "Rs. 820",
+        "c": "Rs. 882",
+        "d": "Rs. 8400"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The compound interest on Rs. 8000 for 1 year at 10% per annum compounded half-yearly is",
+      "multi": false
+    },
+    {
+      "n": 125,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs. 7450",
+        "b": "Rs. 7000",
+        "c": "Rs. 7200",
+        "d": "Rs. 7300"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A machinery worth Rs. 7500 is depreciated by 4%. Its value after 1 year will be",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "A": [],
+    "B": []
+  }
+}

@@ -1,0 +1,1857 @@
+{
+  "slug": "dso-2019-english",
+  "exam": "Deputy Store Officer under Home Department",
+  "sitting": "2019",
+  "subject": "General English",
+  "source": "General English (DSO).pdf",
+  "sourceSha256": "acea57eec5dc79b9f393f1ed1968881056a92f94d6c6a1ae3c8d2795ea39582d",
+  "ocr": false,
+  "count": 80,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "to put aside differences",
+        "b": "to put away a weapon",
+        "c": "to bury a weapon",
+        "d": "to hide something"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To bury the hatchet.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "to give up on something",
+        "b": "to pass away",
+        "c": "to give something away",
+        "d": "to be unhappy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To kick the bucket.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "by stealing",
+        "b": "in complete secrecy",
+        "c": "by any means",
+        "d": "by force"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "By hook or by crook.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "very common",
+        "b": "very expensive",
+        "c": "very many",
+        "d": "very cheap"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A dime a dozen.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "unexperienced",
+        "b": "beautiful",
+        "c": "needing to be rescued",
+        "d": "pretty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Babe in the woods.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "very expensive",
+        "b": "very cheap",
+        "c": "illegally bought",
+        "d": "bought by trade"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Jack’s new car costs an arm and a leg.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "done badly",
+        "b": "done quickly",
+        "c": "done diligently",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They cut corners while building their house and it eventually collapsed.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "to hit something",
+        "b": "to go to sleep",
+        "c": "to commit adultery",
+        "d": "to hit a sack"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hit the sack.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "very common",
+        "b": "very rarely",
+        "c": "never happens",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Michael being diligent only happens once in a blue moon.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "not to be taken seriously",
+        "b": "to be considered",
+        "c": "to be taken seriously",
+        "d": "to be forgotten"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Take it with a grain of salt.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "in his imagination",
+        "b": "in a losing position",
+        "c": "under his control",
+        "d": "under his possession"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thomas had the entire game under his thumb.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "In-between",
+        "b": "Very rare",
+        "c": "Very near",
+        "d": "Very far"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "few and far between",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "to be hypocritical",
+        "b": "to lie",
+        "c": "to snitch",
+        "d": "to be frank"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Call a spade a spade.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "life full of bliss",
+        "b": "life full of sorrow",
+        "c": "life full of quarrels",
+        "d": "life without quarrels"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Their marriage is basically a cat and dog life.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "spread slowly",
+        "b": "spread quickly",
+        "c": "spread dangerously",
+        "d": "spread like fire"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rumor spread like wildfire.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "die while in service",
+        "b": "die while in safety",
+        "c": "die in a hospital bed",
+        "d": "die peacefully"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Die in harness.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-22) : Read the following passages carefully and choose the appropriate",
+      "opts": {
+        "a": "joy and happiness",
+        "b": "extreme talent and tragedy",
+        "c": "skill and depression",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Van Gogh’s life was a mix of :",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-22) : Read the following passages carefully and choose the appropriate",
+      "opts": {
+        "a": "his brother",
+        "b": "his friends",
+        "c": "his father",
+        "d": "his determination"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Van Gogh was able to pursue his passion because of :",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-22) : Read the following passages carefully and choose the appropriate",
+      "opts": {
+        "a": "being a minister",
+        "b": "making money",
+        "c": "painting",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was he most passionate in?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-22) : Read the following passages carefully and choose the appropriate",
+      "opts": {
+        "a": "arrogant",
+        "b": "compassionate",
+        "c": "stubborn",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What type of person was Van Gogh?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-22) : Read the following passages carefully and choose the appropriate",
+      "opts": {
+        "a": "rich and wealthy",
+        "b": "humble and impoverished",
+        "c": "both (a) & (b)",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What type of people did he associate with?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17-22) : Read the following passages carefully and choose the appropriate",
+      "opts": {
+        "a": "contrast",
+        "b": "compassionate",
+        "c": "passion",
+        "d": "intertwine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the synonymous word for ‘twirl’ in the passage.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 23-28) : Read the following passages carefully and choose the appropriate",
+      "opts": {
+        "a": "great marine and terrestrial exploration",
+        "b": "great space exploration",
+        "c": "great sea exploration",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 16th century was an age of :",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 23-28) : Read the following passages carefully and choose the appropriate",
+      "opts": {
+        "a": "Emperor Charles IV",
+        "b": "Emperor Charles V",
+        "c": "Emperor Henry III",
+        "d": "Emperor Charlie V"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whom did Magellan serve later on after he was dismissed by his king.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 23-28) : Read the following passages carefully and choose the appropriate",
+      "opts": {
+        "a": "of natural causes",
+        "b": "killed in a battle",
+        "c": "assassinated",
+        "d": "drowned"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How did Magellan die?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 23-28) : Read the following passages carefully and choose the appropriate",
+      "opts": {
+        "a": "Magellan",
+        "b": "Ferdinand",
+        "c": "Charles",
+        "d": "Encano"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the navigator that led his crew successfully to Spain?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 23-28) : Read the following passages carefully and choose the appropriate",
+      "opts": {
+        "a": "quagmire",
+        "b": "intrigue",
+        "c": "topography",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the word synonymous with ‘mess’ in the passage.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 23-28) : Read the following passages carefully and choose the appropriate",
+      "opts": {
+        "a": "Portugal",
+        "b": "Spain",
+        "c": "France",
+        "d": "England"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where was Magellan originally from?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29-34) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "proper noun",
+        "b": "common noun",
+        "c": "collective noun",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Henry** is not a smart person.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29-34) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "adjective of quantity",
+        "b": "adjective of quality",
+        "c": "proper adjective",
+        "d": "emphasizing adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The tomatoes were **rotten**.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29-34) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "transitive verb",
+        "b": "intransitive verb",
+        "c": "defective verb",
+        "d": "incomplete verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lila **conveyed** the message.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29-34) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "emphatic pronoun",
+        "b": "indefinite pronoun",
+        "c": "relative pronoun",
+        "d": "reflexive pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They **themselves** broke the vase.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29-34) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "adverb of time",
+        "b": "adverb of duration",
+        "c": "adverb of manner",
+        "d": "relative adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This is the place **where** I got stabbed.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29-34) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "adverb",
+        "b": "quantitative determiner",
+        "c": "conjunction",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She brought a shirt **and** a book.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35-40) : Fill in the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "with",
+        "b": "on",
+        "c": "among",
+        "d": "by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There was conflict  ________ the men.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35-40) : Fill in the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "in",
+        "b": "over",
+        "c": "among",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He jumped ________ the bridge.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35-40) : Fill in the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "among",
+        "b": "in",
+        "c": "opposite",
+        "d": "opposite to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The table was placed ________ the chair.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35-40) : Fill in the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "after",
+        "b": "before",
+        "c": "in",
+        "d": "of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My grandfather died ________ cancer.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35-40) : Fill in the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "against",
+        "b": "in",
+        "c": "with",
+        "d": "under"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Don’t lean ________ the wall.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35-40) : Fill in the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "between",
+        "b": "among",
+        "c": "in",
+        "d": "into"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An elk stood ________ the trees.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-48) : Identify the appropriate verb-form to kill in the blanks :",
+      "opts": {
+        "a": "woke up",
+        "b": "woke",
+        "c": "wake",
+        "d": "awoke"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You ________ early just to be lazy the whole day?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-48) : Identify the appropriate verb-form to kill in the blanks :",
+      "opts": {
+        "a": "have not",
+        "b": "has not",
+        "c": "have",
+        "d": "has"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I ________ done any work today.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-48) : Identify the appropriate verb-form to kill in the blanks :",
+      "opts": {
+        "a": "discoveries",
+        "b": "discovery",
+        "c": "discovered",
+        "d": "discovers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ________ of electricity paved way for many great inventions.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-48) : Identify the appropriate verb-form to kill in the blanks :",
+      "opts": {
+        "a": "jog",
+        "b": "jogs",
+        "c": "jogged",
+        "d": "jogging"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I was ________ down the street before I was mugged.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-48) : Identify the appropriate verb-form to kill in the blanks :",
+      "opts": {
+        "a": "see",
+        "b": "seen",
+        "c": "saw",
+        "d": "seeing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I swear on my life that I ________ a ghost.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-48) : Identify the appropriate verb-form to kill in the blanks :",
+      "opts": {
+        "a": "eat",
+        "b": "ate",
+        "c": "eaten",
+        "d": "eats"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I ________ a croissant before I came over.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-48) : Identify the appropriate verb-form to kill in the blanks :",
+      "opts": {
+        "a": "was be staying",
+        "b": "will be staying",
+        "c": "was stay",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I ________ in the Ritz for a week or so.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-48) : Identify the appropriate verb-form to kill in the blanks :",
+      "opts": {
+        "a": "gets up",
+        "b": "got up",
+        "c": "get up",
+        "d": "getting up"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I always ________ at six in the morning.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 53) : Analyze the given sentences and choose the correct option :",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "We met rather many people who spoke Spanish.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 53) : Analyze the given sentences and choose the correct option :",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "We drove to Austria in a few days.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 53) : Analyze the given sentences and choose the correct option :",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "I don’t care how cheap it is.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 53) : Analyze the given sentences and choose the correct option :",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "You are not tall enough to be a policeman.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 – 53) : Analyze the given sentences and choose the correct option :",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "I guess she just doesn’t love you.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 54 – 58) : Pick the correct clause of the words underlined in the given sentences:",
+      "opts": {
+        "a": "Noun Clause",
+        "b": "Adjective Clause",
+        "c": "Adverb Clause",
+        "d": "Co-Ordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ronald is my father-in-law **who died a while back**.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 54 – 58) : Pick the correct clause of the words underlined in the given sentences:",
+      "opts": {
+        "a": "Noun Clause",
+        "b": "Adjective Clause",
+        "c": "Adverb Clause",
+        "d": "Co-Ordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A nurse can find a job **wherever she goes**.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 54 – 58) : Pick the correct clause of the words underlined in the given sentences:",
+      "opts": {
+        "a": "Noun Clause",
+        "b": "Adjective Clause",
+        "c": "Adverb Clause",
+        "d": "Co-Ordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Now I understand **why you didn’t want to leave**.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 54 – 58) : Pick the correct clause of the words underlined in the given sentences:",
+      "opts": {
+        "a": "Noun Clause",
+        "b": "Adjective Clause",
+        "c": "Adverb Clause",
+        "d": "Co-Ordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This is the town where **Lakeview Resort is located**.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 54 – 58) : Pick the correct clause of the words underlined in the given sentences:",
+      "opts": {
+        "a": "Noun Clause",
+        "b": "Adjective Clause",
+        "c": "Adverb Clause",
+        "d": "Co-Ordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Whoever thought of this** is an idiot.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 – 64) : Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "Exclamatory",
+        "b": "Assertive",
+        "c": "Affirmative",
+        "d": "Imperative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The zookeeper shot the lion with a tranquilizer.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 – 64) : Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Assertive",
+        "c": "Negative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There is no doubt that Duke is a good person.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 – 64) : Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Assertive",
+        "c": "Negative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She danced with me.",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 – 64) : Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "Exclamatory",
+        "b": "Assertive",
+        "c": "Affirmative",
+        "d": "Imperative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Goodness gracious, what a large Deer!",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 – 64) : Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "Negative",
+        "b": "Imperative",
+        "c": "Affirmative",
+        "d": "Assertive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She threw the ball into the pit.",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 – 64) : Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "Negative",
+        "b": "Exclamatory",
+        "c": "Imperative",
+        "d": "Assertive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Stop fooling around and get to work.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 72) : Identify the correct meaning of each sentence given below :",
+      "opts": {
+        "a": "uncanny",
+        "b": "original",
+        "c": "canny",
+        "d": "suave"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Something out of the ordinary.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 72) : Identify the correct meaning of each sentence given below :",
+      "opts": {
+        "a": "promiscuous",
+        "b": "polygamy",
+        "c": "fertile",
+        "d": "concubine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Having many wives or husbands.",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 72) : Identify the correct meaning of each sentence given below :",
+      "opts": {
+        "a": "avatar",
+        "b": "memento",
+        "c": "alias",
+        "d": "incognito"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A name that is assumed temporarily",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 72) : Identify the correct meaning of each sentence given below :",
+      "opts": {
+        "a": "mythical",
+        "b": "arcane",
+        "c": "apocryphal",
+        "d": "voodoo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Requiring secret or mysterious knowledge.",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 72) : Identify the correct meaning of each sentence given below :",
+      "opts": {
+        "a": "waterfall",
+        "b": "clarion",
+        "c": "stream",
+        "d": "maelstrom"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A powerful circular current of water.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 72) : Identify the correct meaning of each sentence given below :",
+      "opts": {
+        "a": "delinquent",
+        "b": "pariah",
+        "c": "degenerate",
+        "d": "bandit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who is rejected from home or society.",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 72) : Identify the correct meaning of each sentence given below :",
+      "opts": {
+        "a": "plethora",
+        "b": "portent",
+        "c": "presage",
+        "d": "potent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In excess quantity.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 – 72) : Identify the correct meaning of each sentence given below :",
+      "opts": {
+        "a": "etiquette",
+        "b": "quaint",
+        "c": "handsome",
+        "d": "majestic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Attractively old-fashioned.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 – 80) : Choose the synonym for each of the words written in italic in the",
+      "opts": {
+        "a": "adequate",
+        "b": "improper",
+        "c": "barely",
+        "d": "wonderful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The paper you presented is acceptable but not up to my expectations.",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 – 80) : Choose the synonym for each of the words written in italic in the",
+      "opts": {
+        "a": "ugly",
+        "b": "beautiful",
+        "c": "lust",
+        "d": "clean"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She gazed at me with her alluring eyes.",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 – 80) : Choose the synonym for each of the words written in italic in the",
+      "opts": {
+        "a": "impressive",
+        "b": "wonderful",
+        "c": "awful",
+        "d": "weird"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The thing you did is just simply atrocious.",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 – 80) : Choose the synonym for each of the words written in italic in the",
+      "opts": {
+        "a": "minimal",
+        "b": "smidgen",
+        "c": "shred",
+        "d": "plenty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have an ample amount of cash.",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 – 80) : Choose the synonym for each of the words written in italic in the",
+      "opts": {
+        "a": "astute",
+        "b": "arduous",
+        "c": "wonderful",
+        "d": "integral"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You are a brilliant student.",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 – 80) : Choose the synonym for each of the words written in italic in the",
+      "opts": {
+        "a": "euphony",
+        "b": "epiphany",
+        "c": "eulogy",
+        "d": "melody"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Like ebony and ivory, they live in complete harmony.",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 – 80) : Choose the synonym for each of the words written in italic in the",
+      "opts": {
+        "a": "delirium",
+        "b": "confusion",
+        "c": "jubilation",
+        "d": "dysphoria"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It was a moment of exhilaration.",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 – 80) : Choose the synonym for each of the words written in italic in the",
+      "opts": {
+        "a": "exasperated",
+        "b": "wonderful",
+        "c": "euphoria",
+        "d": "utopia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Just the memory of her made him feel vexed.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on **any one** of the following topics in not more than 300 words.(20) -Secularism in India. -Importance of Empathy. -Impact of Religion in Mizoram.",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

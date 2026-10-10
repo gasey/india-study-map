@@ -1,0 +1,2620 @@
+{
+  "slug": "si-police-ub-2018-mathematics",
+  "exam": "Sub Inspector (UB) under Home Department",
+  "sitting": "October 2018",
+  "subject": "Mathematics",
+  "source": "si-police-ub-2018-mathematics.pdf",
+  "sourceSha256": "7b2e6c54c18657b2b22b82ecfc19659343a921b3aae30c0bda7ec3ee22b5af87",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "180",
+        "b": "175",
+        "c": "170",
+        "d": "167 33"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "After reading  of a book, 40 pages are left. The number of pages in the book is – 9",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q001.webp"
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6 m",
+        "b": "5 m 22 11",
+        "c": "5 m",
+        "d": "4 m 103"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From a rope 11 m long, two pieces of lengths 2m and 3m are cut off. The length of the remaining 510 rope is – 11",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q002.webp"
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15",
+        "b": "25",
+        "c": "30",
+        "d": "35"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What least number must be subtracted from 7250 to get a perfect square?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q003.webp"
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20 %",
+        "b": "22 %",
+        "c": "23 %",
+        "d": "25 %"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A woolen coat marked at Rs 2700 is offered at Rs 2025 due to sale of the stock. The rate of discount offered is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q004.webp"
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 11690",
+        "b": "Rs 11685",
+        "c": "Rs 11664",
+        "d": "Rs 11650"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The amount on Rs 10,000 for 2 years at 8 % per annum compounded annually is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q005.webp"
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "55",
+        "b": "59",
+        "c": "64",
+        "d": "67"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If  x−y=7 and xy=9, then the value of x²+y² is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q006.webp"
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "45",
+        "b": "48",
+        "c": "50",
+        "d": "53"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Given A+B−C+100=350.If A=2B and B=2C,then C equals-",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q007.webp"
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 20",
+        "b": "Rs 18",
+        "c": "Rs 16",
+        "d": "Rs 15"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cost of 5 pens and 2 pencils is Rs 85, and the cost of 3 pens and 2 pencils is Rs 55. The cost of 1 pen is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q008.webp"
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "60^o",
+        "b": "63^o",
+        "c": "65^o",
+        "d": "67^o"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The measure of an angle which is 36^o more than its complement is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q009.webp"
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40^o",
+        "b": "35^o",
+        "c": "30^o",
+        "d": "28^o"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The angles of a triangle are in the ratio 2 : 3 : 7.The measure of the smallest angle is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q010.webp"
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "14 cm",
+        "b": "11 cm",
+        "c": "10.5 cm",
+        "d": "8.5 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the circumference of a circle is 66 cm, then its radius is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q011.webp"
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15 m",
+        "b": "16 m",
+        "c": "17 m",
+        "d": "18 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The length of the longest pole that can be put in a room of dimensions 10 m by 10 m by 5m is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q012.webp"
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2 years",
+        "b": "2.5 years",
+        "c": "3 years",
+        "d": "3.5 years p"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In what time will Rs 1250 amount to Rs 1400 at 6 % per annum simple interest?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q013.webp"
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 1125 55",
+        "c": "",
+        "d": " 119"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of 0.3636........... in the form of , where p and q are integers and q0, is – q 44",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q014.webp"
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 70000",
+        "b": "Rs 69800",
+        "c": "Rs 69632",
+        "d": "Rs 69542"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of a machine depreciates at the rate of 20 % per annum. If its present value is Rs 136000, then its value after 3 years is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q015.webp"
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 1186",
+        "b": "Rs 1192",
+        "c": "Rs 1210",
+        "d": "Rs 1215"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rs 3645 is divided among A, B, C in the ratio 2 : 3 : 4.The share of B is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q016.webp"
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12 cm",
+        "b": "14 cm",
+        "c": "15 cm",
+        "d": "17 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the area of an equilateral triangle is49√3 cm², then the length of each side is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q017.webp"
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "273",
+        "b": "278",
+        "c": "288",
+        "d": "290"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many persons can be accommodated in a dinning hall of dimensions (20m X 16m X 4.5m), assuming that each person require 5 cubic metres of air?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q018.webp"
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6200",
+        "b": "6265",
+        "c": "6300",
+        "d": "6400"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many bricks will be required to construct a wall 8 m long, 6 m high and 22 cm thick if each brick measures (25cm X 11cm X 6cm)?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q019.webp"
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2310 m³",
+        "b": "2320 m³",
+        "c": "2342 m³",
+        "d": "2350 m³"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A well of inner radius 7 m is dug to a depth of 15 m. The volume the earth dug out is-",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q020.webp"
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "47 kg",
+        "b": "49 kg",
+        "c": "50 kg",
+        "d": "53 kg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The mean(average) weight of 6 boys is 48 kg. If the individual weights of five of them are 51 kg, 45 kg, 49 kg, 46 kg and 44 kg, then the weight of the sixth boy is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q021.webp"
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "31000",
+        "b": "31250",
+        "c": "32000",
+        "d": "32134"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The present population of a town is 35280.If it increases at the rate of 5 % per annum ,what was its population 2 years ago?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q022.webp"
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "34 km",
+        "b": "30 km",
+        "c": "8.5 km",
+        "d": "2 km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two men starting from the same point walk at the rate of 4 km per hour and 4.5 km per hour respectively. If they walk in opposite directions, then the distance between them at the end of 4 hours is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q023.webp"
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "14 seconds",
+        "b": "12 seconds",
+        "c": "9 seconds",
+        "d": "8 seconds"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How long does a train 200 metres long running at the speed of 80 km per hour take to cross an electric pole?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q024.webp"
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "330 m/s",
+        "b": "332 m/s",
+        "c": "334 m/s",
+        "d": "335 m/s"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A gun is fired at a distance of 1.32 km from Rova. He hears the sound 4 seconds later. The speed of the sound is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q025.webp"
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6days",
+        "b": "7days 22 11",
+        "c": "7days",
+        "d": "6days 33"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A man can do a piece of work in 5 days, but with the help of his son, he can do it in 3 days. In what time can the son do it alone? 11",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q026.webp"
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 1511 88",
+        "c": "",
+        "d": " 1511"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "’A’ can do a work in 15 days and ‘B’ in 20 days. If they work on it together for 4 days, then the fraction of the work that is left, is – 74",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q027.webp"
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "48 hrs",
+        "b": "45 hrs",
+        "c": "42 hrs",
+        "d": "40 hrs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A pipe can fill a tank in 16 hours. Due to leak in the bottom, it is filled in 24 hours. If the tank is full, how much time will the leak take to empty it?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q028.webp"
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "18",
+        "b": "16",
+        "c": "13",
+        "d": "10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The difference between two numbers is 26 and one number is three times the other. The smaller number is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q029.webp"
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "532",
+        "b": "512",
+        "c": "522",
+        "d": "517"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 105 th term of the AP 12, 17, 22,........ is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q030.webp"
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "174",
+        "b": "179",
+        "c": "184",
+        "d": "214"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 15th term from the end of the AP 4, 9, 14,..., 254 is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q031.webp"
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8",
+        "b": "12",
+        "c": "13",
+        "d": "14"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a school, there are 18 teachers who teach English or Mathematics. Of these,10 teach English and 6 teach both English and Mathematics. How many teach Mathematics?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q032.webp"
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8 m",
+        "b": "10 m",
+        "c": "11 m",
+        "d": "13 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two vertical poles of height 9 m and 14 m stand on a ground. If the distance between their feet is 12 m, then the distance between their tops is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q033.webp"
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "880 cm",
+        "b": "870 cm",
+        "c": "860 cm",
+        "d": "850 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The radius of the wheel of a bus is 70 cm, The distance covered by the wheel in two revolution is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q034.webp"
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "325 cm²",
+        "b": "330 cm²",
+        "c": "335 cm²",
+        "d": "340 cm²"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The area of a ring whose outer and inner radii are 19 cm and 16 cm respectively is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q035.webp"
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "7 cm",
+        "b": "12 cm",
+        "c": "14 cm",
+        "d": "15 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the area of a circle is 616 cm²,then its radius is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q036.webp"
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "27",
+        "b": "36",
+        "c": "12",
+        "d": "32"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A cube of side 6 cm is cut into a number of cubes each of side 2 cm. The number of cubes formed is–",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q037.webp"
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 97 42",
+        "c": "",
+        "d": " 75"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A bag contains 20 balls bearing numbers 1, 2, 3, ....., 20 respectively. A ball is drawn at random from the box. The probability of getting a ball bearing a prime number is – 23",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q038.webp"
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 : 24 pm",
+        "b": "1 : 30 pm",
+        "c": "1 : 35 pm",
+        "d": "1 : 40 pm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Four bells ring at intervals of 3, 7, 12 and 14 minutes respectively. All four rang together at 12 noon. When will they ring together again?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q039.webp"
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "530",
+        "b": "535",
+        "c": "540",
+        "d": "550"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The number of boys in a school is 120 more than the number of girls. If there are 980 students in the school, then the number of boys in the school is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q040.webp"
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 460",
+        "b": "Rs 480",
+        "c": "Rs 485",
+        "d": "Rs 490"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The electricity bill and the telephone bill of a family for the month June were in the ratio 3 : 8. If Rs 800 more was paid for the telephone than for the electricity, then the bill paid for the electricity was–",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q041.webp"
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40",
+        "b": "44",
+        "c": "48",
+        "d": "50"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To fix fence wires in a garden 70 m long and 50 m wide, Rova bought metal pipes for posts. If he fixed a post every 5 metres apart, then the number of pipes he bought was –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q042.webp"
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 5500",
+        "b": "Rs 5650",
+        "c": "Rs 5700",
+        "d": "Rs 5760"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The length and breadth of a room are 6 m and 4 m respectively. If the cost of a carpet is Rs 240 a square metre, how much will it cost to carpet the entire room?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q043.webp"
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "45 years",
+        "b": "48 years",
+        "c": "50 years",
+        "d": "53 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average age of 7 members of a family is 18 years. If the head of the family is excluded, the average age of the rest of the members would be 5 years less. The age of the head of the family is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q044.webp"
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "99 cm",
+        "b": "120 cm",
+        "c": "154 cm",
+        "d": "162 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If diameter of a semicircular window is 63 cm, then its perimeter is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q045.webp"
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "50 m",
+        "b": "60 m",
+        "c": "70 m",
+        "d": "80 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The length and breadth of a rectangular hall are 40 m and 30 m respectively. The distance between the two opposite corners of the hall is —",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q046.webp"
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 2000",
+        "b": "Rs 2500",
+        "c": "Rs 2600",
+        "d": "Rs 2650"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A man saves Rs 500 on the purchase of a blanket on which a discount of 20% is allowed. How much did the man pay for the blanket?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q047.webp"
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0",
+        "b": "6",
+        "c": "10",
+        "d": "20"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If +means−,−means×,×means÷and÷means+,thenthe value of 24×8÷25+6−3 is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q048.webp"
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "50",
+        "b": "78",
+        "c": "87",
+        "d": "94"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IfAstands for +, B stands for −, C stands for ×, the value of (10C4)A(4C4)B6 is",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q049.webp"
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5%",
+        "b": "8%",
+        "c": "15%",
+        "d": "10%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The selling price of 20 articles is the same as the cost price of 21 articles. The gain percent is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q050.webp"
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10",
+        "b": "9",
+        "c": "12",
+        "d": "15"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "6 men can finish a work in 20 days. 8 men will complete the same work in :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q051.webp"
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "16m/s",
+        "b": "16m/s 73 41",
+        "c": "16m/s",
+        "d": "16m/s 73"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "60Km/h can be expressed in m/s as : 42",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q052.webp"
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1080Km",
+        "b": "2080Km",
+        "c": "1800Km",
+        "d": "2100Km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person travels at a speed of 15m/s. How much distance will he cover in 20 hours?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q053.webp"
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "41.85cm²",
+        "b": "14.58cm²",
+        "c": "14.85cm²",
+        "d": "15.48cm²"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The diagonal of a square is 5.4cm. Its area is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q054.webp"
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12:20 Pm",
+        "b": "2:30 Am",
+        "c": "2:20 Pm",
+        "d": "1:40 Am"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A car travelled 6 hours 40 minutes. It reached the destination at 9:00 Pm. When did the car start its journey?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q055.webp"
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2 years",
+        "b": "4 years",
+        "c": "6 years",
+        "d": "8 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The present age of the father and the son are respectively 50 years and 5 years. After how many years will the age of the father becomes 6 times that of his son?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q056.webp"
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "21",
+        "b": "84",
+        "c": "63",
+        "d": "42"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A number consists of two digits. The digit in the ten’s place is double the digit in the unit’s place. When digits are inter-changed the number decreases by 18. The number is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q057.webp"
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10 : 3",
+        "b": "3 : 10",
+        "c": "27 : 5",
+        "d": "5 : 27"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A result of a survey of 1000 persons with respect to their knowledge of Hindi(H), English(E) and Sanskrit(S) is given below : EH 200 120220 100 80110 170 S What is the ratio of those who know all the three languages to those who do not know Sanskrit?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q058.webp"
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "84",
+        "b": "169",
+        "c": "72",
+        "d": "196"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If ab=(a+5)²(b−7), the value of(98) is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q059.webp"
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1225",
+        "b": "2025",
+        "c": "3125",
+        "d": "1025"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of5^−¹×3^−²^−² is : ()",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q060.webp"
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": ".0081",
+        "b": ".0082",
+        "c": ".0091",
+        "d": ".0019"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The square root of 0.00008281 is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q061.webp"
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "99",
+        "b": "77",
+        "c": "55",
+        "d": "33"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "1089 students are sitting in an auditorium in such a manner that there are as many students in a row as there are rows in the auditorium. How many rows are there in the auditorium?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q062.webp"
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "110",
+        "b": "60",
+        "c": "50",
+        "d": "30 141"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If a−b=5 and a²+b²=85 , then the value of ab is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q063.webp"
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "121",
+        "b": "119",
+        "c": "110",
+        "d": "97"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If x−=3 , the value of x+₄ is : xx",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q064.webp"
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "146",
+        "b": "196",
+        "c": "246",
+        "d": "116 765×765×765−563×563×563"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If a+b+c=14 and ab+bc+ac=25, the value of a²+b²+c² is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q065.webp"
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1000",
+        "b": "1328",
+        "c": "302",
+        "d": "202"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of  is : 765×765+563×563+765×563",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q066.webp"
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40%",
+        "b": "34%",
+        "c": "27%",
+        "d": "23%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In an examination 42% students failed in English and 52% students failed in Mathematics. If 17% failed in both the subjects, the percentage of those who passed in both the subjects is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q067.webp"
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "90",
+        "b": "60",
+        "c": "45",
+        "d": "30"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "of a number is 20 less than the original, then the number is : 3",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q068.webp"
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "27 days",
+        "b": "30 days",
+        "c": "36 days",
+        "d": "42 days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "1 man or 2 women or 3 boys can do a piece of work in 55 days. In how many days can 1man, 1 woman and 1 boy do the same work?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q069.webp"
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "257.7cm²",
+        "b": "286cm²",
+        "c": "292cm²",
+        "d": "302cm²"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The external and internal diameter of a hemispherical bowl are 10cm and 8cm respectively. What is the total surface area of the bowl?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q070.webp"
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10%",
+        "b": "12%",
+        "c": "15%",
+        "d": "25%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In an election a total of 5,00,000 voters participated. A candidate got 2,55,000 votes which was 60% of the total valid votes. What was the percentage of invalid votes?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q071.webp"
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "24π cm",
+        "b": "12π cm",
+        "c": "24π cm",
+        "d": "26πcm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A sphere of radii 13cm is cut by a plane whose distance from the center of the sphere is 5cm. What is the circumference of the plane circular section?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q072.webp"
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20%",
+        "b": "19.04%",
+        "c": "20.96%",
+        "d": "22%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two successive discounts of 8% and 12% are equal to a single discount of :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q073.webp"
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2070",
+        "b": "1035",
+        "c": "1280",
+        "d": "2140"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sum of first 45 natural number is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q074.webp"
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20%",
+        "b": "25%",
+        "c": "30%",
+        "d": "11%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An alloy contains 10g copper, 20g tin and 20g silver. What is the percentage of coppeer in the alloy?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q075.webp"
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "300g",
+        "b": "450g",
+        "c": "400g",
+        "d": "500g"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A mixture contains sand and gravel in the ratio 1 : 4. The sand has 20% impurity. If total mixture weights 10Kg, how much impurity is there? (Consider that gravel has no impurity)",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q076.webp"
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 18.75",
+        "b": "Rs 14.50",
+        "c": "Rs 15.20",
+        "d": "Rs 17.20"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A man buys 25 chairs for Rs 375 and sells them at a profit equal to the selling price of 5 chairs. What is the selling price of one chair?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q077.webp"
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "24h",
+        "b": "16h",
+        "c": "20h",
+        "d": "28h"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A tap A can fill a cistern in 8 hours and another tap B can empty the full cistern in 12 hours. If both the pipes are opened together when the cistern is empty, the time taken to fill the cistern is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q078.webp"
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3",
+        "b": "4",
+        "c": "7",
+        "d": "11"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In seven given numbers, the average of first four numbers is 4 and that of last four numbers is 4.  If the average of these seven numbers is 3, the fourth number is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q079.webp"
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "39",
+        "b": "39.7",
+        "c": "40.3",
+        "d": "42.7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average of 100 observations was calculated as 40. It was found later on that one of the observations was misread as 83 instead of 53. The correct average is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q080.webp"
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6",
+        "b": "7",
+        "c": "5",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ratio of two numbers is 2 : 3. If each number is decreased by 3 the ratio becomes 3 : 5. Then the difference of the two numbers is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q081.webp"
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3 : 9 : 2",
+        "b": "6 : 10 : 15",
+        "c": "5 : 3 : 2",
+        "d": "6 : 2 : 3 sin50⁰cosec40⁰00"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A, B, C start a business. A invests 3 times as much as B invests and B invests two-third of what C invests. Then, the ratio of capitals of A, B and C is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q082.webp"
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2",
+        "b": "-2",
+        "c": "6",
+        "d": "-6"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of ₀+₀−4cos50.cosec40 is cos40sec50",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q083.webp"
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "45s",
+        "b": "40s",
+        "c": "30s",
+        "d": "25s"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A car is running at 42km/h. What time will it take to cover 350 meters?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q084.webp"
+    },
+    {
+      "n": 85,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "7",
+        "b": "9",
+        "c": "11",
+        "d": "13"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If median = 10, Mode = 8, calculate the value of Mean:",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q085.webp"
+    },
+    {
+      "n": 86,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "27",
+        "b": "37",
+        "c": "43",
+        "d": "53"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many terms are there in the AP : 3, 6, 9, 12, .... 111?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q086.webp"
+    },
+    {
+      "n": 87,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 16,000",
+        "b": "Rs 19,000",
+        "c": "Rs 17,000",
+        "d": "Rs 18,000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A contract employee plans his monthly budget according to his monthly income as shown in the given pie-chart. If he spends Rs 3500 on house rent, his monthly income is : Food e s u ot Hn e r 70° 105° 65°40° n o _ti80° aMisc. c u d E Saving",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q087.webp"
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "620",
+        "b": "540",
+        "c": "480",
+        "d": "390"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many planks each measuring 5m×20cm×8cm can be stored in a place 18m long, 4m wide and 60cm deep?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q088.webp"
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "462cm²",
+        "b": "616cm²",
+        "c": "308cm²",
+        "d": "256cm²"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The diameter of a hemisphere is 14cm. Its total surface area is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q089.webp"
+    },
+    {
+      "n": 90,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6cm",
+        "b": "8cm",
+        "c": "12cm",
+        "d": "14cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Three solid metallic sphere of radii 3cm, 4cm, and 5cm respectively are melted to form a single solid sphere. Then the diameter of the resulting sphere is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q090.webp"
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "560cm²",
+        "b": "462cm²",
+        "c": "420cm²",
+        "d": "398cm²"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The minute hand of a wall clock is 21cm . What is the area swept by the minute hand in 20 minutes time?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q091.webp"
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "16cm²",
+        "b": "163cm²",
+        "c": "32cm²",
+        "d": "163cm²"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The area of an equilateral triangle each of whose side is 8cm long is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q092.webp"
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8 cm",
+        "b": "6 cm",
+        "c": "4 cm",
+        "d": "12 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The volume of a cylinder is 448πcm³ and its height is 7cm. The radius of the cylinder is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q093.webp"
+    },
+    {
+      "n": 94,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2 times",
+        "b": "4 times",
+        "c": "6 times",
+        "d": "8 times"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the radius of a sphere is doubled, the volume of the sphere will be increased by :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q094.webp"
+    },
+    {
+      "n": 95,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "7",
+        "b": "19",
+        "c": "18",
+        "d": "9"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If8×8²+9²=x³+8−340, the value of x is : ()11",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q095.webp"
+    },
+    {
+      "n": 96,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "38cm²",
+        "b": "42cm²",
+        "c": "56cm²",
+        "d": "48cm²"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The base of an isosceles triangle is 12cm and its perimeter is 32cm. The area of the triangle is:",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q096.webp"
+    },
+    {
+      "n": 97,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 1313 1",
+        "c": "",
+        "d": "none of these 26"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A card is drawn at random from a well shuffled pack of playing card. The probability of getting a red Queen is : 24",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q097.webp"
+    },
+    {
+      "n": 98,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "14.5%",
+        "b": "13.7%",
+        "c": "12.5%",
+        "d": "10.7%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At what rate percent per annum will a sum of money double in 8 years?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q098.webp"
+    },
+    {
+      "n": 99,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6",
+        "b": "5",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A number when divided by 221 leaves 18 as remainder. If the same number is divided by 13, the remainder is :",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q099.webp"
+    },
+    {
+      "n": 100,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "270",
+        "b": "280",
+        "c": "285",
+        "d": "295"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "thof the passengers of a train were children. If there were 40 children travelling in the train, then 8 the number of adults in the train was –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q100.webp"
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/0a2b9b65d7cb64ad4d52df271c457d94/mathematics-siub.pdf",
+  "enrichmentVersion": 3,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

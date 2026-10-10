@@ -1,0 +1,2317 @@
+{
+  "slug": "ada-2014-gk",
+  "exam": "Assistant Divisional Accountant under Finance Department",
+  "sitting": "2014",
+  "subject": "General Knowledge",
+  "source": "ada-2014-gk.pdf",
+  "sourceSha256": "1315843362b762c1a657dcc763b2a5dd6d673996242aa2ac2d39d7a8d8b9f70e",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Water pollution",
+        "b": "Air pollution",
+        "c": "Deforestation",
+        "d": "Shifting cultivation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the recent report published by WHO (April 2014), which of the following has emerged as the world’s single largest environmental health risk, having caused seven million deaths in 2012?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Turkey",
+        "b": "China",
+        "c": "Cuba",
+        "d": "Ukraine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The country which recently blocked access to Twitter for its citizens",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Google Net",
+        "b": "Google Fiber",
+        "c": "Google Demo",
+        "d": "Google Connect"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of Google’s new project which intends to provide high speed broadband internet connection in selected cities?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "International Court of Justice",
+        "b": "International Human Rights Commission",
+        "c": "International Monetary Fund",
+        "d": "United Nations General Assembly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mr John Ashe visited India during 19th to 22nd March to look into the issue of two Italian marines facing trial in India for killing two Indian fishermen. He is currently the president of",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gujarat",
+        "b": "West Bengal",
+        "c": "Karnataka",
+        "d": "Mizoram"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following states has been ranked top in creation of new jobs in the manufacturing sector as per the data of National Sample Survey?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "England",
+        "b": "Israel",
+        "c": "China",
+        "d": "India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "StoreDot on 8 April 2014 developed a new smart phone battery called ‘Nanodots’ that recharges in 30 seconds. StoreDot is a startup that operates in which country?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Create Awareness, Curb Malaria",
+        "b": "Invest in the future. Defeat Malaria",
+        "c": "No Mosquitoes No Malaria",
+        "d": "Say Good Bye to Malaria"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The theme of “World Malaria Day-2014” is",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USA",
+        "b": "Russia",
+        "c": "Switzerland",
+        "d": "Netherland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With which one of the following countries has India recently concluded an agreement under Foreign Account Tax Compliance Act (FATCA) to combat tax evasion?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "March 8",
+        "b": "March 22",
+        "c": "May 8",
+        "d": "May 22"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which day is celebrated as ‘International Women’s Day’?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mikhail Kalashnikov",
+        "b": "Viktor Yanukovych",
+        "c": "Oleksandr Turchynov",
+        "d": "Mykola Azarov"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ousted Ukrainian president currently given Political Asylum by Russia on the backdrop of mass protest over his action of having closer ties with Russia against EU is",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "45 days",
+        "b": "47 days",
+        "c": "48 days",
+        "d": "49 days thndth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Before his resignation on 14th February 2014, for how many days did Arvind Kejriwal act as Chief Minister of Delhi?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pretoria, S.Africa",
+        "b": "Warsaw, Poland",
+        "c": "Davos, Switzerland",
+        "d": "Bali, Indonesia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The venue of the 44 annual meeting of World Economic Forum held from 22 – 25 January, 2014 is",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1st January 2015",
+        "b": "1st April 2015",
+        "c": "1st January 2016",
+        "d": "1st April 2016"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The recommendations of the 7th Pay Commission established by the Government of India would be implemented with effect from",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nokia",
+        "b": "Samsung",
+        "c": "LG",
+        "d": "IBM"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lee Kun-hee, who is facing an arrest warrant in a 1.4 million dollar cheating case is the Chairman of",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "When the price of essential commodities outstrips income",
+        "b": "When money supply grows at a higher rate than GDP in real terms",
+        "c": "When the exchange rate of a currency falls",
+        "d": "When fiscal deficit exceeds balance of payment deficit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inflation, in theory, occurs",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "120 and 17",
+        "b": "119 and 17",
+        "c": "134 and 20",
+        "d": "125 and 23"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The newly created Telangana state has how many Assembly and Parliamentary seats?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "INS Chakra",
+        "b": "INS Ashwini",
+        "c": "INS Sindhuratna",
+        "d": "INS Sidhurakshak"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the Submarine whose accident on February 2014 resulted in the resignation of the then Chief of the Naval Staff Admiral DK Joshi?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bhutan",
+        "b": "Nepal",
+        "c": "Pakistan",
+        "d": "Sri Lanka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country has become the third in South Asia after India and Bangladesh to have their voters the right to cast negative votes during Parliamentary or Assembly elections?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ASEAN",
+        "b": "SAARC",
+        "c": "Asian Development Bank",
+        "d": "BRICS"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Fighting Poverty in Asia and the Pacific” is the motto of",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Astra",
+        "b": "Astro",
+        "c": "Astria",
+        "d": "Astrya"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India has recently tested its first indigenous air-to-air missile successfully. What is the name of this missile?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pu Lal Thanhawla",
+        "b": "Pu Lalsawta",
+        "c": "Pu H.Liansailova",
+        "d": "Pu P.C.Lalthanliana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the present Finance Minister of Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National Highway No. 1",
+        "b": "National Highway No. 2",
+        "c": "National Highway No. 3",
+        "d": "National Highway No. 7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The national highway that connects the city of Delhi with that of Amritsar is",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Axis Bank",
+        "b": "HDFC Bank",
+        "c": "ICICI",
+        "d": "City Bank"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following has become the first new generation private sector bank to launch an electronic Kisan Card on the RuPay platform?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China",
+        "b": "USA",
+        "c": "India",
+        "d": "South Korea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country produces the largest number of films every year?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Google",
+        "b": "IBM",
+        "c": "Microsoft",
+        "d": "Dell"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Watson” is an artificially intelligent computer system capable of answering questions posed in natural language, developed by",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The New York times",
+        "b": "The Washington Post",
+        "c": "The Times of India",
+        "d": "The Shanghai Express"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Currently, which English newspaper has the highest circulation in the world?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China Construction Bank",
+        "b": "Industrial & Commercial Bank of China",
+        "c": "Wells Fargo & Co",
+        "d": "Bank of America"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the largest bank in the world in terms of market capitalization?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Russia",
+        "b": "Ukraine",
+        "c": "Afghanistan",
+        "d": "Syria"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per the United Nation Refugee Agency, which among the following countries has the biggest source for asylum seekers?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Goa",
+        "b": "Punjab",
+        "c": "Nagaland",
+        "d": "Mizoram"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Census of India 2011, which state has the lowest percentage of Scheduled Castes population in India?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SJSRY",
+        "b": "SGRY",
+        "c": "PMRY",
+        "d": "IRDP"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What Government scheme aims at providing self-employment to educated unemployed youth in India?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "542",
+        "b": "545",
+        "c": "548",
+        "d": "552"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At present, the maximum strength of the Lok Sabha as envisaged by the Constitution is",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mizoram",
+        "b": "Tripura",
+        "c": "Punjab",
+        "d": "Kerala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state in India has been providing the highest average employment consecutively for the past five years under MGNREGS?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Minority Women",
+        "b": "Minority Students",
+        "c": "Minority Senior Citizens",
+        "d": "Minority Disabled Persons"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Union government has recently launched the “Maulana Azad Sehat Scheme” a health scheme for",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Madhya Pradesh",
+        "b": "Kerala",
+        "c": "Gujarat",
+        "d": "Bihar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the latest data released by Central Statistics Office (CSO), which among the following states has emerged as fastest growing state during 2012-13?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Italy",
+        "b": "Japan",
+        "c": "Cuba",
+        "d": "Argentina"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The world’s oldest man Mr. Arturo Licata, aged 111, who died recently belongs to which country?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tripura",
+        "b": "Sikkim",
+        "c": "Assam",
+        "d": "Meghalaya"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Recently, which among the following states has become first Indian state to observe “Child Protection Day”?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pranab Mukherjee",
+        "b": "Manmohan Singh",
+        "c": "Narendra Modi",
+        "d": "Arvin Kejriwal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the present de-jure head of India?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Crimea",
+        "b": "East Timor",
+        "c": "South Sudan",
+        "d": "Republic of Ireland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is the latest independent country in the world?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sahara Group",
+        "b": "Jindal Group",
+        "c": "TATA Group",
+        "d": "Reliance Communications"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On February 2014, the Supreme Court of India ordered the arrest of Mr. Subrata Roy. At that time, he was the chief of which Indian company?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Irina Bokova",
+        "b": "Peter Tomka",
+        "c": "Roberto Azevedo",
+        "d": "Jim Yong Kim"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Presently, who is the President of the World Bank?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nelson Mandela",
+        "b": "Jawaharlal Nehru",
+        "c": "Kushwant Singh",
+        "d": "Amartya Sen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who wrote the book ‘Conversations with Myself’?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sanjaya Baru",
+        "b": "Vikram Seth",
+        "c": "Jaswant Singh",
+        "d": "C.Rangarajan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name the person who recently published a book/memoir “The Accidental Prime Minister : The Making and Unmaking of Manmohan Singh”",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vikram Seth",
+        "b": "Chetan Bhagat",
+        "c": "VS Naipaul",
+        "d": "APJ Abdul Kalam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the Author of the famous book “Revolution 2020”?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rosa Park",
+        "b": "Martin Luther King Jr.",
+        "c": "Nelson Mandela",
+        "d": "Mahatma Gandhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name the great personality whose Autobiography is titled ‘A long Walk to Freedom’?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "William Shakespeare",
+        "b": "Adam Smith",
+        "c": "Lewis Wallace",
+        "d": "Louis Fisher"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the author of a famous book ‘Wealth of Nations’?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Trinidad & Tobago",
+        "b": "Maldives",
+        "c": "Malta",
+        "d": "Ethiopia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On 4th April, 2014, Ms. Marie Louise Coleiro Preca became the 9th president of",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr. Duvvuri Subbarao",
+        "b": "Dr. Y.V.Reddy",
+        "c": "Dr. Vijay L.Kelkar",
+        "d": "Dr. Raghuram Rajan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the current Governor of Reserve Bank of India?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rathin Roy",
+        "b": "Vivek Rae",
+        "c": "Meena Agarwal",
+        "d": "Ashok Kumar Mathur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following is the Chairman of the 7th Pay Commission of India?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "James Kerry",
+        "b": "John Kelly",
+        "c": "John Kerry",
+        "d": "John Knightly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the current Secretary of States of the USA?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Presbyterian Church",
+        "b": "Baptist Church of Mizoram",
+        "c": "The Salvation Army",
+        "d": "United Pentecostal Church"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Mizo woman Pastor Prof. R.L.Hnuni, who was officially ordained in accordance with the law of the Church belongs to which denomination?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "English Premiere League",
+        "b": "Italian Serie A",
+        "c": "German Bundesliga",
+        "d": "Spanish La Liga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The TSG 1899 Hoffenheim football club belongs to",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Yuvraj Singh",
+        "b": "Dinesh Karthik",
+        "c": "Virat Kohli",
+        "d": "Suresh Raina"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who amongst the following commands the highest bid in the two-day IPL players’ auction held in Bengaluru in February 2014?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Eden Hazard",
+        "b": "Luis Suarez",
+        "c": "Steven Gerrard",
+        "d": "Daniel Sturridge"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following has been named as Professional Footballers Association player of the year 2013?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Australia",
+        "b": "Fiji",
+        "c": "Sri Lanka",
+        "d": "Cuba"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Volley Ball’ is the National Sports of",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "M.S.Dawngliana",
+        "b": "Zothanpuia",
+        "c": "Reuben Zosangpuia",
+        "d": "R.Malsawmtluanga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the Best Player of the Mahindra Two Wheelers Mizoram Premiere League - Two (MPL-2)?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bengaluru FC",
+        "b": "Dempo Sports Club",
+        "c": "Salgaocar Football Club",
+        "d": "East Bengal FC"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Clubs won the I-League Football title, 2014?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India",
+        "b": "England",
+        "c": "Pakistan and Bangladesh",
+        "d": "Australia and New Zealand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country will host Cricket World Cup 2015?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Netherland",
+        "b": "Japan",
+        "c": "Singapore",
+        "d": "South Korea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following countries will host 2018 Winter Olympics?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Time of Our Lives",
+        "b": "We Are One",
+        "c": "Boom",
+        "d": "The Cup of Life"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the Official Song for FIFA World Cup, 2014?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Stanislas Wawrinka",
+        "b": "Novak Djokovic",
+        "c": "Rafael Nadal",
+        "d": "Andy Murray"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Winner of Australian Open 2014 Men’s Single",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Comprehensive Tax Benefit Treaty",
+        "b": "Comprehensive Test Ban Treaty",
+        "c": "Counter Terrorists Ban Treaty",
+        "d": "Comprehensive Treaty on Tax Benefits"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expand the term CTBT",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Government Internal Resource Order",
+        "b": "Government Internet Related Order",
+        "c": "Government Internal Revenue Order",
+        "d": "Government Internal Record Order"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A new economic term GIRO is being reported in newspapers recently, what does GIRO stand for?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "International Atomic Energy Authority",
+        "b": "International Atomic Energy Agency",
+        "c": "International Authority of Energical Atomic",
+        "d": "International Atomic Engineering Agency"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does ‘IAEA’ stand for?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Light Emitting Disc",
+        "b": "Linen Embryo Dye",
+        "c": "Light Emitting Diode",
+        "d": "Light Eating Disc"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Full form of LED is -",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Providing Urban Amenities in Rural Areas",
+        "b": "Providing Unemployed Rural Agriculturists",
+        "c": "Providing Urban & Rural Equal Amenities",
+        "d": "Providing Unemployed Rural with Amenities"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the full form of PURA?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uttar Pradesh",
+        "b": "Haryana",
+        "c": "Punjab",
+        "d": "Maharastra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Indian state popularly known as ‘Land of Five Rivers’ is",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Norway",
+        "b": "Switzerland",
+        "c": "Romania",
+        "d": "Sweden"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Playground of Europe” refers to",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mercury",
+        "b": "Mars",
+        "c": "Venus",
+        "d": "Saturn"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The planet also known as ‘The Earth’s Twin’ is",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Washington",
+        "b": "Rome",
+        "c": "Shillong",
+        "d": "Vancouver"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A city popularly known as “City of Seven Hills” refers to",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chicago",
+        "b": "Seol",
+        "c": "Mumbai",
+        "d": "Tokyo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which city is popularly known as “Slaughter House of the World”?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aberdeen : Granite City",
+        "b": "Egypt : Gift of Nile",
+        "c": "Korea : Hermit Kingdom",
+        "d": "Venice : City of Merchants"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following combinations is wrong?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nigeria",
+        "b": "Ethiopia",
+        "c": "Sahara",
+        "d": "S.Africa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Garden in the desert’ refers to",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Franc",
+        "b": "Italy",
+        "c": "Belgium",
+        "d": "Switzerland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is called ‘Cockpit of Europe’?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "West Indies",
+        "b": "Japan",
+        "c": "Solomon's Island",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following countries is known as ‘Islands of Sunshine’?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "City of Skyscrapers",
+        "b": "City of Dreaming Spires",
+        "c": "City of Palaces",
+        "d": "City of Magnificent Distances"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Oxford (England) is also known as",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Environmental Protection",
+        "b": "Journalism",
+        "c": "Olympic Games",
+        "d": "Civil Aviation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Pulitzer Prize is associated with which one of the following?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Hunger Games: Catching Fire",
+        "b": "The Wolf of Wall Street",
+        "c": "The Hobbit: The Desolation of Smaug",
+        "d": "12 Years a Slave"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following movies won the MTV Movie of the Year, 2014?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I Hming Ropui by Lawma & Judith",
+        "b": "Ka Hluin Ka Mawi A Ni by Michael VL.Rema",
+        "c": "Aw Ropui Ber by Andrew Laltlankima",
+        "d": "Kan Fak Zel Ang by Hmingtea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following won the 23rd Lelte Award of ‘Album of the Year (Gospel)’?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sihlipui",
+        "b": "Zodinpuii",
+        "c": "Thinglubul",
+        "d": "Beiseina Mittui"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mizo Academy of Letters (MAL ) “Book of the Year 2013” is",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lallungmuani",
+        "b": "C.Lalnundiki",
+        "c": "Lalsangzuali",
+        "d": "Lalmuanpuii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Recipient of “National Florence Nightingale Award 2014”",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Charles Babbage (1791-1871)",
+        "b": "Wilhelm Conrad Röntgen (1845-1923)",
+        "c": "Thomas Edison (1847-1931)",
+        "d": "Emile Berliner (1851-1929)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first mechanical computer was invented by",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Wilhelm Conrad Röntgen",
+        "b": "Evangelista Torricelli",
+        "c": "Charles Babbage",
+        "d": "Emile Berliner"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following German physicists discovered X-rays?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chester Carlson",
+        "b": "Irving Langmuir",
+        "c": "John L.Baird",
+        "d": "David Bushnell"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented Xerography (or electrophotography)?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gottlieb Daimler",
+        "b": "Sir Frank Whittle",
+        "c": "Roger Bacon",
+        "d": "Lewis E.Waterman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented Jet Engine?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Alfred B.Nobel",
+        "b": "Thomas Jefferson",
+        "c": "Abraham Lincoln",
+        "d": "Benjamin Franklin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The inventor of Bifocal Lens was",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "P.T.Famsworth",
+        "b": "Hans Lippershey",
+        "c": "G.Marconi",
+        "d": "W.K.Roentgen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented Telescope?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Johannes Guttenberg",
+        "b": "Christian Bernard",
+        "c": "John Carbutt",
+        "d": "Zacharis Janssen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inventor of Printing Press",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kepler",
+        "b": "Nicolaus Copernicus",
+        "c": "Magellan",
+        "d": "Gobot Sebastian"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Solar system was discovered by",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gobot Sebastian",
+        "b": "A.H.Taylor",
+        "c": "G.Marconi",
+        "d": "P.T.Famsworth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Radio was invented by",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shepherd-Barron",
+        "b": "Giovani Batista",
+        "c": "A.H.Taylor",
+        "d": "Roger Bacon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Inventor of ATM",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Firmware",
+        "b": "Firewall",
+        "c": "Cache",
+        "d": "Execute"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fixed programs and data that internally control various electronic devices is called-",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Operating System",
+        "b": "Windows",
+        "c": "CD ROM",
+        "d": "Programming"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A program that acts as an interface between the software and the computer hardware is known as",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Google+",
+        "b": "Pinterest",
+        "c": "LAN",
+        "d": "Twitter"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is NOT Social networking service?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Monitor, keyboard, mouse, modem",
+        "b": "Telephone line, PDA, modem and computer",
+        "c": "Telephone line, modem, computer, and an ISP",
+        "d": "Modem, computer, PDA and ISP"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What are the four things needed to connect to the Internet?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "configuration",
+        "b": "accessibility",
+        "c": "authentication",
+        "d": "logging in"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Verification of a login name and password is known as",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "mpsc@website@info",
+        "b": "mpsc@website.info",
+        "c": "mpscwebsite.info",
+        "d": "mpsc.website.info"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a correct format of Email address?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Compaq Presario",
+        "b": "Param",
+        "c": "CRAY YMP",
+        "d": "Super 301"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which supercomputer is developed by the Indian Scientists?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1000,000 bytes",
+        "b": "1000,000,000 bytes",
+        "c": "1000,000,000,000 bytes",
+        "d": "1000,000,000,000,000 bytes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One Gigabyte is Approximately equal to -",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Internet",
+        "b": "Linux",
+        "c": "Unix",
+        "d": "Windows"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Check the odd term out",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Coding",
+        "b": "Error detection",
+        "c": "Controlling",
+        "d": "Indexing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The parity bit is added for the purpose of",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

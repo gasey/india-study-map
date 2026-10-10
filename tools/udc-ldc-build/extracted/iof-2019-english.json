@@ -1,0 +1,110 @@
+{
+  "slug": "iof-2019-english",
+  "exam": "Inspector of Factories under Labour Employment Department",
+  "sitting": "2019",
+  "subject": "General English",
+  "source": "General English (IoF).pdf",
+  "sourceSha256": "79e16ea2e0904dbe738faa5438f956f3a1809faa208bba87bda165f7d0240a00",
+  "ocr": false,
+  "count": 0,
+  "questions": [],
+  "written": [
+    {
+      "n": 1,
+      "part": null,
+      "page": 1,
+      "text": "Write an essay on **any one** of the following topics:(20) -Private Entrepreneurship : Prospects and Challenges in Mizoram -Your Idea of How to Succeed in a Business -Importance of Skill Development",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": null,
+      "page": 1,
+      "text": "Write a précis of the following passage and give it a suitable title:(20) Force has been employed since time immemorial as a means to settle disputes, but hardly any dispute has been resolved, on the contrary more problems have been created. Blood for blood is the old formula but has it put a stop to murders and slaughters? Who has not heard of vendettas in primitive societies where the chain is endless? Even on national planes, one war leads to another. The Second World War was only a corollary or even a continuation of the First. The vanquished were itching to avenge the ignomity and degradation to which they had been subjected. There is now, an increasing realisation that force as a remedy has utterly failed. In the field of education, the rod was freely wielded in the past but with what results? For every child who might have been straightened there were nine who went astray. Soul-force is more powerful than brute force; affection is higher than hatred.",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": null,
+      "page": 1,
+      "text": "Choose the correct form of verbs from the brackets to fill in the blanks :(1×5=5)",
+      "subparts": {
+        "a": "You, not I, _________ trained to do that. (was/were)",
+        "b": "Either he or I _________ to present a paper in the seminar. (is/are/am)",
+        "c": "The wages of sin _________ death. (are/is)",
+        "d": "The chief, with his elders _________ a large amount of money. (receives/receive)"
+      }
+    },
+    {
+      "n": 4,
+      "part": null,
+      "page": 1,
+      "text": "Change the following as directed :(1×5=5)",
+      "subparts": {
+        "a": "The criminal was arrested by the policemen. (to past perfect tense)",
+        "b": "Thangtea’s father suffered from fever. (to present perfect continuous tense)",
+        "c": "By whom are you taught grammar? (to active voice)",
+        "d": "The cup was broken by the maid. (to active voice)"
+      }
+    },
+    {
+      "n": 5,
+      "part": null,
+      "page": 2,
+      "text": "Make sentences with **any five** of the following idioms/phrases :(2×5=10)",
+      "subparts": {
+        "a": "bag and baggage",
+        "b": "burn the midnight oil",
+        "c": "kith and kin",
+        "d": "a bird’s-eye view"
+      }
+    },
+    {
+      "n": 6,
+      "part": null,
+      "page": 2,
+      "text": "Choose the appropriate prepositions to fill in the blanks :(1×10=10)",
+      "subparts": {
+        "a": "The man has a great passion _________ football. (to/for/on)",
+        "b": "_________ the storm comes the rain. (with/besides/after)",
+        "c": "We met our neighbours _________ the supermarket. (in/on/at)",
+        "d": "The thief entered the house _________ the backdoor. (by/from/through)"
+      }
+    },
+    {
+      "n": 7,
+      "part": null,
+      "page": 2,
+      "text": "Name the parts of speech of the underlined words :(1×10=10)",
+      "subparts": {
+        "a": "I saw a **one-eyed** dog yesterday.",
+        "b": "**Alas!** I am done for.",
+        "c": "That place **is** worth visiting.",
+        "d": "The man worked hard **but** did not succeed."
+      }
+    },
+    {
+      "n": 8,
+      "part": null,
+      "page": 2,
+      "text": "Read the passage carefully and answer the questions that follow : It is common knowledge that there has been wide deforestation in recent years. According to conservative estimates, five million acres have been denuded of forests. This has brought about widespread climatic change all over the country – leading to recurring drought and other natural calamities. Erosion of topsoil in the catchment areas has resulted in the tragedy of yearly flooding of our major rivers. And flood control measures have not been effective because those have been limited to superficial remedies like building embankments rather than rectifying the root cause by starting a vigorous afforestation drive. Deforestation of our hills, in particular, has led to soil erosion and landslides on unprecedented scale, threatening the survival of some of our popular hill stations. The population increase has not spared the hills. In the towns more and more areas are being cleared to make room for houses and roads are being built in the fond hope of carrying the fruits of development to the hinterland. This is inevitable, of course, but it need not have been indiscriminately, without a thought to the negative consequences. As things are, the natural drainage of these areas has been upset and water seeping into bare earth has led to slipping and sinking of land. Piped water which is being introduced in hills townships without developing adequate drainage facilities has also added to the threat of rapid erosion. QUESTIONS :",
+      "subparts": {
+        "a": "Describe the extent of deforestation in India.(3)",
+        "b": "What has been the result of deforestation?(3)",
+        "c": "Why has the flood control measures failed in our country?(3)",
+        "d": "How does population increase affect the hills?(3) (i)to make bare(ii)happen again and again (iii)serious misfortunes(iv)inner part of a country (v)set right"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q4 (p1, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q5 (p2, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q6 (p2, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q7 (p2, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q8 (p2, part None): conventional section, 4 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {}
+}

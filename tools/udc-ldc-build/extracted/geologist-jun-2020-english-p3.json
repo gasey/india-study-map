@@ -1,0 +1,2317 @@
+{
+  "slug": "geologist-jun-2020-english-p3",
+  "exam": "Geologist Junior under Commerce & Industries Department",
+  "sitting": "2020",
+  "subject": "General English Paper-III",
+  "source": "Geologist Junior General English Paper-III.pdf",
+  "sourceSha256": "d87634ba32902938de012acdca4f39c4ac572c37b9be6110dbcad9b73780395f",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "prospect",
+        "b": "beneficiation",
+        "c": "feasible",
+        "d": "foreseeable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If a mineral deposits is found by initial exploration efforts it is called a",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Actual mining",
+        "b": "Regional exploration",
+        "c": "Detailed exploration",
+        "d": "Commercial production"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is odd in Mining stage operation",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "tailing",
+        "b": "flotation",
+        "c": "smelting",
+        "d": "crushability"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ore to separate and concentrate valuable minerals by the processed of milling and",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Coal",
+        "b": "Iron ore",
+        "c": "Bauxite ore",
+        "d": "Mica block"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India, 80 percent of mining is in",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Central Government",
+        "b": "State Government",
+        "c": "Both Central and State Government",
+        "d": "Autonomous council"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Minor minerals are come under the purview of",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam",
+        "b": "Rajasthan",
+        "c": "Maharashtra",
+        "d": "Gujarat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state is the largest producer of Petroleum in India",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Odisha",
+        "b": "Rajasthan",
+        "c": "Jharkhand",
+        "d": "Karnataka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following states is India’s largest Bauxite producers?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tamil Nadu",
+        "b": "Kerela",
+        "c": "Andhra Pradesh",
+        "d": "Maharashtra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following states is India’s has the highest deposits of Monazite sands?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Telangana",
+        "b": "Andhra Pradesh",
+        "c": "Madhya Pradesh",
+        "d": "Karnataka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian state is the largest producer of Diamond?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Exploration assesment",
+        "b": "Proccessing assesment",
+        "c": "Mineral viability",
+        "d": "Economic viability"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "UNFC consist of three dimensional system with the following axes : Geological assessment, Feasibility assessment and",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Syngenetic deposits",
+        "b": "Epigenetic deposits",
+        "c": "Epithermal deposits",
+        "d": "Sedimentary deposits"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ore deposits which have formed at the same time as the rock in which they occur is called",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20 to 300°C",
+        "b": "50 to 500°C",
+        "c": "70 to 700°C",
+        "d": "90 to 900°C"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The hydrothermal deposits are formed within a temperature range of",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Exoskarns",
+        "b": "Endoskarns",
+        "c": "Calcic skarn",
+        "d": "Forsterite-diopside skarn"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Skarns developed in the sedimentary rocks surrounding the thermal source (pluton) is called",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Collison boundaries",
+        "b": "Divergent plate margin",
+        "c": "Convergent plate margin",
+        "d": "Cratonic basins"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Porphyry copper deposits form by magmatic concentration with hydrothermal alteration and replacement in magma intrusions into continental crust is related to",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Metallogenic Epoch",
+        "b": "Metallogenic Province",
+        "c": "Metallogenic Affiliation",
+        "d": "Metallogenic Association"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A period of time in the geological past during which notable ore formation took place is called",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Decrease sharply",
+        "b": "Increase sharply",
+        "c": "Constant",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At depths of a few tens of kilometres under continents and less than ten kilometres beneath the oceans seismic velocities",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Seismic study",
+        "b": "Gravity study",
+        "c": "Electrical study",
+        "d": "Magnetic study"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sea floor spreading is verify with the help of",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "densities",
+        "b": "magnetic field",
+        "c": "electric charges",
+        "d": "elevations"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The goal of gravity surveying is to locate and describe subsurface structures from the gravity effects caused by their anomalous",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "seismicity",
+        "b": "magnetic field",
+        "c": "latitude",
+        "d": "longtitude"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The magnitude of gravity depends on five factors: Topography, elevation, density, Earth tides and",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Neel Temperature",
+        "b": "Curie Temperature",
+        "c": "Absolute temperature",
+        "d": "Magnetic temperature"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The temperature above which ferromagnetic materials lose their permanent magnetic field is called",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "high",
+        "b": "not high",
+        "c": "occur",
+        "d": "not occur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In seismic study, from a low velocity layer overlain by a high velocity layer - Refraction will",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "seismic angle",
+        "b": "higher angle",
+        "c": "critical angle",
+        "d": "adverse angle"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When the velocity is higher in the underlying layer there is a particular angle of incidence, known as",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "pulses",
+        "b": "retrograde",
+        "c": "Rayleigh waves",
+        "d": "Love waves"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sources suitable for seismic surveying usually generate short-lived wave trains, known as",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "hydrophones",
+        "b": "geophones",
+        "c": "chirps",
+        "d": "pingers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Devices used on land to detect seismic ground motions are known as",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "horizontal interfaces",
+        "b": "vertical interfaces",
+        "c": "water interfaces",
+        "d": "soil interface"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Vertical electrical sounding (VES), also known as ‘electrical drilling’ or ‘expanding probe’ is used mainly in the study of",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "metal electrodes",
+        "b": "nonmetal electrodes",
+        "c": "polarising electrodes",
+        "d": "nonpolarising electrodes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Natural electrical potential is measured with the help of",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "geophones",
+        "b": "receivers",
+        "c": "wenner",
+        "d": "magnetometer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The instruments that measure voltage in DC and IP surveys are known as",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "increases",
+        "b": "decreases",
+        "c": "gain",
+        "d": "enlarge"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Porosity is the major control of the resistivity of rocks, and that resistivity generally increases as porosity",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Terrain correction",
+        "b": "Airborne correction",
+        "c": "Bouguer correction",
+        "d": "enlarge"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A correction made to gravity anomaly for the attraction of the rock between the station and the datum elevation is called",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "possible outcome",
+        "b": "possible sources",
+        "c": "correction",
+        "d": "none of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Interpretation of gravity anomalies an ambiguity arises because any given anomaly could be caused by an infinite number of",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Resources",
+        "b": "Reserves",
+        "c": "Deposits",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Material that has been identified and can be extracted at a profit at the time of determination is called",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "exploration, development, prospecting, exploitation and reclamation.",
+        "b": "prospecting, exploitation, exploration, development and reclamation.",
+        "c": "prospecting, exploration, development, exploitation and reclamation.",
+        "d": "exploration, exploitation, development, prospecting and reclamation."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct order of Stages in the life of a mine",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "small scale ratio",
+        "b": "large scale ratio",
+        "c": "small area ratio",
+        "d": "large area ratio"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There are different kinds of geological map, by convention, large-scale refers to maps with a",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "open mining",
+        "b": "digging mining",
+        "c": "strip mining",
+        "d": "flitch mining"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Open-cut strip mining requires removing a series of horizontal slices through an ore body and adjacent waste rock – a process known as",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brownfield exploration",
+        "b": "Greenfield exploration",
+        "c": "Redfield exploration",
+        "d": "Yellowfield exploration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In mining exploration programmes where there are no pre-existing mines or prospects is called",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10°C",
+        "b": "20°C",
+        "c": "30°C",
+        "d": "40°C"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The normal geothermal gradient is about ________ per 1km.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "open pit mining",
+        "b": "underground mining",
+        "c": "strip mining",
+        "d": "none of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the ore body is more disseminated (e.g., porphyry copper deposits) the most economical option for suitable mining is",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Smelting",
+        "b": "Waste",
+        "c": "Ore",
+        "d": "Gangue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The valueless mineral particles within an ore deposit that must be discarded is called",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oriented Core",
+        "b": "Core Axis",
+        "c": "Down Hole Survey",
+        "d": "Drill Hole"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The imaginary line running along the centre of the cylindrical drill core is called",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rotary Air Blast (RAB)",
+        "b": "Reverse Circulation Drilling (RC)",
+        "c": "Post-Hole Digger",
+        "d": "Hand Auger"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Small rotary percussion drills using standard recovery of broken rock to the surface are usually known as",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "700 - 1000 m",
+        "b": "400 - 700 m",
+        "c": "200 - 400 m",
+        "d": "0 - 200 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Electromagnetic surveys systems work best for ore bodies within ________ of the surface.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kaolinite",
+        "b": "Bentonite",
+        "c": "Illite",
+        "d": "Chlorite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "________ is often mixed with water to drill through less competent rock and fault zones, this prevents loss of water pressure and lost core.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "35%",
+        "b": "45%",
+        "c": "55%",
+        "d": "65%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Most of the hematite iron ore of the country (India) is on the basis of arbitrary cut off grade of ________ Fe.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "prospective and prognostic categories",
+        "b": "proved, probable and possible categories",
+        "c": "prospective, probable and possible categories",
+        "d": "prognostic, proved and probable categories"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The identified or discovered mineral resources were categorised into",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kriging",
+        "b": "Cholesky",
+        "c": "Markov",
+        "d": "Gaussian"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The generic geostatistical method of spatial interpolation is termed",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Silurian Period",
+        "b": "Carboniferous Period.",
+        "c": "Permian Period",
+        "d": "Tertiary Period"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most favorable conditions for the formation of coal occurred in the world during",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "60%",
+        "b": "70%",
+        "c": "80%",
+        "d": "90%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The carbon content of anthracite coal is",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "rank of coal",
+        "b": "grade of coal",
+        "c": "types of coal",
+        "d": "maceral"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The geochemical process that transforms plant material into coal is called",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "vitrinite",
+        "b": "liptinite",
+        "c": "inertinite",
+        "d": "exinite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The maceral which shows shiny, glass like material that is considered to be composed of cellular plant is",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "calorific value",
+        "b": "moisture content",
+        "c": "ash content",
+        "d": "grade"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India, the gradation of coking coal is based on",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Macrinite",
+        "b": "Micrinite",
+        "c": "Huminite",
+        "d": "Sclerotinite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "________ is recognized as fungal remains.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "vitrinic macerals",
+        "b": "liptinic macerals",
+        "c": "huminitic macerals",
+        "d": "exinitic macerals"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the petrographic analysis of coals, florescent light microscopy was used to identify and quantify",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tamil Nadu",
+        "b": "Gujarat",
+        "c": "Rajasthan",
+        "d": "West Bengal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state is the largest producer of Lignite Coal in India",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Odisha",
+        "b": "Chhattisgarh",
+        "c": "Jharkhand",
+        "d": "Madhya Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state is the largest producer of Coal in India",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0.5 -1.0",
+        "b": "1.0 - 2.0",
+        "c": "2.0 - 4.0",
+        "d": "more than 4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Source rock quality of Good in Total Organic Carbon (TOC) Weight percent is",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "organic matter",
+        "b": "phosphatic",
+        "c": "bitumen",
+        "d": "kerogen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is intermediate product formed during diagenesis and is the principal source of hydrocarbon generation is",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "primary migration",
+        "b": "secondary migration",
+        "c": "oil phase migraion",
+        "d": "migration in solution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The process in which hydrocarbons move along a porous and permeable layer to its final accumulation is called",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "22",
+        "b": "24",
+        "c": "26",
+        "d": "28"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many major sedimentary basins are there in India?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "scintillation counter",
+        "b": "spectromet",
+        "c": "geiger counter",
+        "d": "radon emanometer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An Instruments used for measuring beta particles is",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "shale and non shale",
+        "b": "carbonate and non carbonate",
+        "c": "dolomite and limestone",
+        "d": "gypsum and salt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Natural Gamma ray logging is used to distinguish between",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "50mm",
+        "b": "750mm",
+        "c": "100mm",
+        "d": "125mm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Rock Quality Designation (RQD) sound core having a minimum length of",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "280-560 kg/sqcm",
+        "b": "560-1120 kg/sqcm",
+        "c": "1120-2240 kg/sqcm",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Engineering classification of rocks (UCS) medium strength is",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "less than 4.5 mm",
+        "b": "4.5 to 10.5 mm",
+        "c": "10.5 to 16.5 mm",
+        "d": "bigger than 16.5 mm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A size of Fine aggregates is",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Spill way",
+        "b": "Diversion tunnel",
+        "c": "Abutment",
+        "d": "Sluice way"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Opening in the dam near the base, provided to clear the silt accumulation in the reservoir is called",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Deere",
+        "b": "Bieniawski",
+        "c": "Barton et al.",
+        "d": "Hoek & Brown"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Engineering Properties of Rock study Rock Mass Rating (RMR) is proposed by",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "weak-beam",
+        "b": "strong-beam",
+        "c": "resistivity-beam",
+        "d": "moderate-beam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Earthquake-Resistant Buildings Design method is called the strong-column and",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "shrinkage",
+        "b": "attenberg limit",
+        "c": "liquid limit",
+        "d": "flow limit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Plasticity Index (PI) of soil is the difference between the plastic limit and",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "aquifer",
+        "b": "aquitard",
+        "c": "aquifuge",
+        "d": "aquiclude"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An impermeable rock with static water held in poorly connected voids is called",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0.5 km",
+        "b": "1 km",
+        "c": "3 km",
+        "d": "5 km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tunnel boring machine is now increasingly used, though often uneconomic in tunnels less than",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "bottom-up and top-down",
+        "b": "bottom-down and top-up",
+        "c": "side-first and bottom-next",
+        "d": "bottom-first and side-next"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name two types of construction are employed to build cut and cover tunnels",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "gravity drainage",
+        "b": "more diversion channel",
+        "c": "reduce water level",
+        "d": "controlling seepage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Poor geological conditions of dam foundation can be improved in 2 ways-improving load bearing properties and",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dead Storage level",
+        "b": "Free board",
+        "c": "Gallery",
+        "d": "parapet wall"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The space between the highest level of water in the reservoir and the top of the dam.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20 - 100 km",
+        "b": "50 - 200 km",
+        "c": "70 - 300 km",
+        "d": "90 - 400 km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is considered as intermediate earthquake focal depth",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "slope will fail",
+        "b": "slope will suddenly fail",
+        "c": "slope is quite stable",
+        "d": "slope is extremely stable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the Factor of safety of a slope is greater than 2 means",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sagaing Fault",
+        "b": "Churachandpur–Mao Fault",
+        "c": "Chittagong -Coastal Fault",
+        "d": "Kabaw Fault"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which fault is considered as a plate boundary fault between India and Burma plates?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 76 - 79) : Find the missing number from the given series:",
+      "opts": {
+        "a": "225",
+        "b": "360",
+        "c": "480",
+        "d": "556"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "4, 8, 24, 96, ....?...., 2880",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 76 - 79) : Find the missing number from the given series:",
+      "opts": {
+        "a": "2.5",
+        "b": "4.5",
+        "c": "8.5",
+        "d": "12.5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "0.5, 1.5, ....?...., 13.5, 40.5",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 76 - 79) : Find the missing number from the given series:",
+      "opts": {
+        "a": "48",
+        "b": "52",
+        "c": "56",
+        "d": "65"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "5, 9, 17, 29, 45, ....?......",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 76 - 79) : Find the missing number from the given series:",
+      "opts": {
+        "a": "16",
+        "b": "18",
+        "c": "20",
+        "d": "24"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "2, 5, 9, 14, .....?....., 27",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 80 - 83) : Find the wrong term out of the given series:",
+      "opts": {
+        "a": "24",
+        "b": "31",
+        "c": "33",
+        "d": "39"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "24, 27, 31, 33, 36, 39",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 80 - 83) : Find the wrong term out of the given series:",
+      "opts": {
+        "a": "80",
+        "b": "121",
+        "c": "169",
+        "d": "196"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "196, 169, 144, 121, 80",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 80 - 83) : Find the wrong term out of the given series:",
+      "opts": {
+        "a": "3",
+        "b": "4",
+        "c": "10",
+        "d": "27"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "3, 10, 27, 4, 16, 64, 5, 25, 125",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 80 - 83) : Find the wrong term out of the given series:",
+      "opts": {
+        "a": "83",
+        "b": "78",
+        "c": "82",
+        "d": "86"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "89, 78, 86, 80, 85, 82, 83",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 84 - 87) : Each sentence below has a blank, indicating that something has",
+      "opts": {
+        "a": "selfless",
+        "b": "altruistic",
+        "c": "intrinsic",
+        "d": "ulterior"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was so convinced that people were driven ________ motives that he could not believe that anyone could be unselfish.",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 84 - 87) : Each sentence below has a blank, indicating that something has",
+      "opts": {
+        "a": "nebulous",
+        "b": "logical",
+        "c": "scholarly",
+        "d": "erudite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His theories were so ________ that few could see what he was trying to establish",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 84 - 87) : Each sentence below has a blank, indicating that something has",
+      "opts": {
+        "a": "difficult",
+        "b": "excellent",
+        "c": "abortive",
+        "d": "experimental"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "After several ________ attempts to send the missile into space, the spacecraft was finally launched successfully",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 84 - 87) : Each sentence below has a blank, indicating that something has",
+      "opts": {
+        "a": "sadistic",
+        "b": "ingenuous",
+        "c": "sarcastic",
+        "d": "urbane"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His ________ remarks are often embarrassing because of their frankness",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 88 - 90) : Read the following passage carefully and choose the best",
+      "opts": {
+        "a": "real",
+        "b": "fake",
+        "c": "artificial",
+        "d": "imitate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The antonym for “synthetic” is",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 88 - 90) : Read the following passage carefully and choose the best",
+      "opts": {
+        "a": "advantage",
+        "b": "design",
+        "c": "importance",
+        "d": "snag"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The synonym for “drawback” is",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 88 - 90) : Read the following passage carefully and choose the best",
+      "opts": {
+        "a": "morphine is a legal drug",
+        "b": "methadone cures heroin dependence",
+        "c": "Heroin is derived from a plant",
+        "d": "the life of an addict revolves around the drug"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The following are true of the passage, except",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 96 - 100) : The following questions involve letter coding, number",
+      "opts": {
+        "a": "JUBMJBO",
+        "b": "HSZKHZM",
+        "c": "HATLIBM",
+        "d": "HATILNA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ROMAN  QMONA : : ITALIAN  ? →→",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 96 - 100) : The following questions involve letter coding, number",
+      "opts": {
+        "a": "EHNJRG",
+        "b": "EHOJSG",
+        "c": "EHMJTI",
+        "d": "EHMHRG"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "SECOND  RDBNMC : : FINISH  ? →→",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 96 - 100) : The following questions involve letter coding, number",
+      "opts": {
+        "a": "76",
+        "b": "40",
+        "c": "46",
+        "d": "60"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "BANDRA  40 : : DUMDUM  ? →→",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 96 - 100) : The following questions involve letter coding, number",
+      "opts": {
+        "a": "1191223624229",
+        "b": "1618154213518",
+        "c": "18165910117",
+        "d": "79643359"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "CONSUMER  365103459 : : PRODUCER  ? →→",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 96 - 100) : The following questions involve letter coding, number",
+      "opts": {
+        "a": "191539112",
+        "b": "191639113",
+        "c": "191539120",
+        "d": "191431912"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "SCIENCE  193951435 : : SOCIAL  ? →→",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

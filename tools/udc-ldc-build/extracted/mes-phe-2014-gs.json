@@ -1,0 +1,2235 @@
+{
+  "slug": "mes-phe-2014-gs",
+  "exam": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department",
+  "sitting": "2014",
+  "subject": "General Studies",
+  "source": "mes-phe-2014-gs.pdf",
+  "sourceSha256": "57594ae52a69753e30dfce9163744e980bebffc13ce7e659b0c422b5119dd1c9",
+  "ocr": false,
+  "count": 96,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Established as a purely new Department",
+        "b": "Separated from PWD",
+        "c": "A part of Health Department",
+        "d": "Under UD&PA before"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Public Health Engineering Department of Mizoram was:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Durra Chawngthu",
+        "b": "Lalrengpuia Sailo",
+        "c": "K.Thangzualla",
+        "d": "Robula"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first among Mizos to have passed Engineering Degree:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "friction between tyres and road surface decreases",
+        "b": "inertia of the two wheeler tyres increases",
+        "c": "friction between tyres and road surface increases",
+        "d": "inertia of two wheeler tyre decreases"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A two wheeler often slips on an oily road because:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Manish Sisodia",
+        "b": "Somnath Barti",
+        "c": "Rakhi Birla",
+        "d": "Prashan Bhushan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name of a controversial Minister of Delhi Gov’t. who allegedly barged into a house where some African women were living in January 2014 is:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Election Commission",
+        "b": "Finance Commission",
+        "c": "Comptroller & Auditor General",
+        "d": "Union Public Service Commission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A constitutional body of India headed by an Engineer is:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Manik Sarkar of Tripura",
+        "b": "Gegong Apang of Arunachal",
+        "c": "Jyoti Basu of West Bengal",
+        "d": "Narendra Modi of Gujarat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The only Chief Minister in India who continuously ruled for more than five terms:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Service sector",
+        "b": "Highway sector",
+        "c": "Agriculture sector",
+        "d": "Manufacturing sector"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is the fastest growing sector in India?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Atal Bihari Vajpayee",
+        "b": "Chandra Sekhar",
+        "c": "Morarji Desai",
+        "d": "Viswanath Pratap Singh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among these leaders was at one time Prime Minister for 13 days?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arthur Wynne",
+        "b": "Charles Strite",
+        "c": "Tim Berners-Lee",
+        "d": "Ray Tomlinson"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Email was invented by:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Plan expenditure is higher than non-plan expenditure",
+        "b": "Non-plan expenditure is normally higher than plan expenditure",
+        "c": "Plan expenditure is always equal to plan expenditure",
+        "d": "Most salaries of employees are paid from plan fund"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select the correct statement in respect of central budget:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "President of India",
+        "b": "Union Council of Ministers",
+        "c": "National Development Council",
+        "d": "Planning Commission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Five year Plans are finally approved by the:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "President",
+        "b": "Finance Minister",
+        "c": "Prime Minister",
+        "d": "Speaker of Lok Sabha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is Chairman of Planning Commission?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NH-150",
+        "b": "NH-154",
+        "c": "NH-54",
+        "d": "NH-36"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Mizoram, National Highway connecting Aizawl and Lunglei is:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sikh",
+        "b": "Muslim",
+        "c": "Budhist",
+        "d": "Christianity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following  groups constitutes the largest minority group in India?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lord Canning",
+        "b": "Lord Lytton",
+        "c": "Lord Dalhousie",
+        "d": "Lord Hastings"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Governor General of India during Sepoy Mutiny was:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National Liability Clearance Permanent Remittance",
+        "b": "Non-Lapsable Central Payment of Resources",
+        "c": "Non-Lapsable Central Pool of Resources",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does NLCPR stand for?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr. Amartya Sen",
+        "b": "Aryabhatta",
+        "c": "Chandra Gupta",
+        "d": "Gautam Roy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Indian scholar who treated Mathematics as a distinct subject was:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1951",
+        "b": "1950",
+        "c": "1947",
+        "d": "1954"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first 5-Year Plan in India was launched in the year:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Saiha District",
+        "b": "Serchhip District",
+        "c": "Kolasib District",
+        "d": "Mamit District"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The smallest District (area-wise) of Mizoram is:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Udaya Kumar Dharmalingam",
+        "b": "Subramaniam Mehta",
+        "c": "Vijaya Reddy",
+        "d": "Srikant Bandhyopadhyay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who designed the new symbol of Indian Rupee?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Manmohan Singh",
+        "b": "Atal Bihari Vajpayee",
+        "c": "Rajiv Gandhi",
+        "d": "Subash Chandra Bose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "PMGSY was launched on December 25, 2000, which is the birthday of:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr. Christian Bernard",
+        "b": "Alexander Flemming",
+        "c": "Alfred Nobel",
+        "d": "Dr. George Hume"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Penicillin was invented by:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "100 days of employment to one family",
+        "b": "100 days of employment to any able working person",
+        "c": "100 days of employment to all working members of a family",
+        "d": "100 days of employment to all unemployed members"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The National Rural Employment Guarantee Scheme aims at providing:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kalol in Gujarat",
+        "b": "Duliajan in Assam",
+        "c": "Bankura in West Bengal",
+        "d": "Digboi in Assam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Oil was first discovered in India in the year 1867 at:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Introduction of English in the Army",
+        "b": "Adoption of General Service Enlistment Act",
+        "c": "Use of greased cartridge",
+        "d": "Stoppage of soldiers’ privilege of postage free letters"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The primary and immediate cause of Sepoy Mutiny 1857  was:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "South Africa",
+        "b": "India",
+        "c": "England",
+        "d": "U.S.A"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gandhiji evolved ‘non-cooperation and ‘satyagraha’ in:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prof. G.G.Swel",
+        "b": "Purno Agitok Sangma",
+        "c": "Williamson Sangma",
+        "d": "Hiteshwar Saikia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first and the only politician from north-east elected as Speaker of Lok Sabha:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A.Thanglura",
+        "b": "Dr. C.Silvera",
+        "c": "H.T.Sangliana",
+        "d": "Lalbuaia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the first and the only  Central Minister from Mizoram:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40",
+        "b": "70",
+        "c": "60",
+        "d": "90"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The number of seats in the Legislative Assembly of NCT of Delhi is:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Long-sightedness",
+        "b": "Short-sightedness",
+        "c": "Blindness",
+        "d": "Presbyopia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Another name for Myopia is:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30m",
+        "b": "35m",
+        "c": "32m",
+        "d": "37m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The length of the side of a square field whose area is equal to the sum of the area of two rectangular fields with dimensions 40m×20m and 25m×17m is:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "729",
+        "b": "162",
+        "c": "90",
+        "d": "60"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of x in the series 9, 81, x, 6561 is:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Xenon",
+        "b": "Helium",
+        "c": "Hydrogen",
+        "d": "Radon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The lightest gas is:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dan Brown",
+        "b": "Victor Hugo",
+        "c": "D.B.C. Pierre",
+        "d": "Aldour Huxley"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the author of the famous novel ‘The DaVinci Code’?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "J.C. Maxell",
+        "b": "G. Marconi",
+        "c": "Rutherford",
+        "d": "Heinrich Hertz"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who first detected the radio waves?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "U.S.A.",
+        "b": "U.K.",
+        "c": "Canada",
+        "d": "India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country has the lengthiest Constitution?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pythagoras",
+        "b": "Plato",
+        "c": "Aryabhatta",
+        "d": "Brahmagupta"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name the person who treated zero as a number and showed its mathematical operation:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Yamuna",
+        "b": "Godavari",
+        "c": "Brahmaputra",
+        "d": "Ganges"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the longest river of India?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Emma",
+        "b": "Good Earth",
+        "c": "Das Kapital",
+        "d": "Divine Comedy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Karl Marx wrote:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aarti Gupta",
+        "b": "Avinash Sarang",
+        "c": "Mihir Sen",
+        "d": "Nisha Miller"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who became the first Indian to swim across the English Channel?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bay of Bengal",
+        "b": "The Arabian Sea",
+        "c": "The Indian Ocean",
+        "d": "Palk Strait and the Gulf of Mannar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sri Lanka is separated from India by:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "28",
+        "b": "26",
+        "c": "25",
+        "d": "27"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many states are there in India at present?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Neptune",
+        "b": "Mars",
+        "c": "Venus",
+        "d": "Jupiter"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which planet has the highest number of satellites?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Films",
+        "b": "Science",
+        "c": "Sports",
+        "d": "Literature"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Oscar awards are associated with:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1.6 km",
+        "b": "2 km",
+        "c": "4.1 km",
+        "d": "12 km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One nautical mile is equal to:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Karl Marx",
+        "b": "David Ricardo",
+        "c": "J.K. Galbraith",
+        "d": "Adam Smith"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is called the Father of Economics?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 47–50):  Each of the following sentences has a blank space and four words are",
+      "opts": {
+        "a": "off",
+        "b": "up",
+        "c": "on",
+        "d": "over"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The completion of the building has been held ________ owing to the workers’ strike.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 47–50):  Each of the following sentences has a blank space and four words are",
+      "opts": {
+        "a": "clear",
+        "b": "bright",
+        "c": "broad",
+        "d": "illuminated"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Anand was the sort of person who always looked on the _________ side of life",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 47–50):  Each of the following sentences has a blank space and four words are",
+      "opts": {
+        "a": "intense",
+        "b": "erratic",
+        "c": "meager",
+        "d": "undesirable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rainfall in the desert is not only low but extremely______",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 47–50):  Each of the following sentences has a blank space and four words are",
+      "opts": {
+        "a": "fallible",
+        "b": "gullible",
+        "c": "sensible",
+        "d": "credible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is very _________; he believes anything.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 51–53): Each item in this section consists of a word in capital letters followed",
+      "opts": {
+        "a": "Adversity",
+        "b": "Sickness",
+        "c": "Hardship",
+        "d": "Failure"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "PROSPERITY",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 51–53): Each item in this section consists of a word in capital letters followed",
+      "opts": {
+        "a": "Humility",
+        "b": "Pride",
+        "c": "Determination",
+        "d": "Arrogance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "CONCEIT",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 51–53): Each item in this section consists of a word in capital letters followed",
+      "opts": {
+        "a": "Hostile",
+        "b": "Biased",
+        "c": "Dislike",
+        "d": "Worried"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IMPARTIAL",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 54–57): Each item in this section consists of a word in capital letters followed",
+      "opts": {
+        "a": "Eager",
+        "b": "Devoted",
+        "c": "Zealous",
+        "d": "Sincere"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ARDENT",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 54–57): Each item in this section consists of a word in capital letters followed",
+      "opts": {
+        "a": "Automatic",
+        "b": "Distant",
+        "c": "Savage",
+        "d": "Mean"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "REMOTE",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 54–57): Each item in this section consists of a word in capital letters followed",
+      "opts": {
+        "a": "Pretty",
+        "b": "Clever",
+        "c": "Pleasant",
+        "d": "Present"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "GRACIOUS",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 54–57): Each item in this section consists of a word in capital letters followed",
+      "opts": {
+        "a": "Exult",
+        "b": "Twist",
+        "c": "Friend",
+        "d": "Relative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "KIN",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "hell bent on getting",
+        "b": "hell bent for getting",
+        "c": "hell bent upon getting",
+        "d": "no improvement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The workers are **hell bent at getting** what is due to them.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "If the room was brighter",
+        "b": "If the room are brighter",
+        "c": "Had the room been brighter",
+        "d": "No improvement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**If the room had been brighter,** I would have been able to read for a while before bed time.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "His intense desire",
+        "b": "His desire for power",
+        "c": "His fatal desire",
+        "d": "No improvement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**His powerful desire** brought about his downfall.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "sent word",
+        "b": "had sent a word",
+        "c": "sent words",
+        "d": "no improvement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He **sent a word** to me that he would be coming late.",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "would have",
+        "b": "would have had",
+        "c": "has",
+        "d": "no improvement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If he **had** time he will call you.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "lend me any rupees",
+        "b": "borrow me a few rupees",
+        "c": "lend me a few rupees",
+        "d": "no improvement The first murder ever committed in the United States occurred in September 1630, shortly In the end, Billington’s rebellious and angry nature caught up with him. He was found guilty of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Will you **lend me few rupees** in this hour of need?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "quiet and shy",
+        "b": "angry and rebellious",
+        "c": "clever and amusing",
+        "d": "bold and patriotic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Based on the information in the passage, which of the following best describes John Billington?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "He had two sons",
+        "b": "He served in the military under Miles Standish",
+        "c": "He tried to lead a mutiny",
+        "d": "He attempted to overthrow the government"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is NOT true of John Billington, according to the passage?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "He was not guilty",
+        "b": "Billington was Miles Standish’s nephew",
+        "c": "He had two sons who needed him",
+        "d": "They didn’t have enough evidence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why didn’t the leaders of Plymouth Colony punish Billington for rebelling against their authority?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "A History of Plymouth Colony",
+        "b": "The Injustices of Miles Standish",
+        "c": "America’s First Murderer",
+        "d": "Early American Legal Battles"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A good title for this passage would be",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "Artists are frustrated",
+        "b": "Some drug addicts are whimsical",
+        "c": "All frustrated people are drug addicts",
+        "d": "Whimsical people are generally frustrated"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: 1. All artists are whimsical. 2.Some artists are drug addicts. 3. Frustrated people are prone to become drug addicts. From the above three statements it may be concluded that",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "30 km",
+        "b": "40 km",
+        "c": "45 km",
+        "d": "48 km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mr. Kumar drives to work at an average speed of 48 km per hour. The time taken to cover the first 60% of the distance is 10 minutes more than the time taken to cover the remaining distance. How far is his office?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "Sita is not as pretty as Gita",
+        "b": "Sita is prettier than Rita.",
+        "c": "Rita is not as pretty as Gita",
+        "d": "Gita is prettier than Rita."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gita is prettier than Sita but not as pretty as Rita. Then,",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Four political parties W, X, Y and Z decided to set up a joint candidate for the coming parliamentary elections. The formula agreed by them was the acceptance of a candidate by most of the parties. Four aspiring candidates A, B, C and D approached the parties for their tickets. Awas acceptable to W but not to Z. Bwas acceptable to Y but not to X. Cwas acceptable to W and Y Dwas acceptable to W and X When candidate B was preferred by W and Z, candidate C was preferred by X and Z, and candidate A was acceptable to X but not to Y, who got the ticket?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "6",
+        "b": "7",
+        "c": "8",
+        "d": "9"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the below figure, circle P represents hardworking people, circle Q represents intelligent people, circle R represents truthful people and circle S represents honest people. P       Q 10      11              1 9              7              2 8          6 4       5      3 R        S Which region represents the people who are intelligent, honest and truthful but not hardworking ?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "R",
+        "b": "G",
+        "c": "B",
+        "d": "O"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Six squares are coloured, front and back, red (R), blue (B), yellow (Y), green (G), white (W) and orange (O) and are hinged together as shown in the figure given below. If they are folded to form a cube, what would be the face opposite the white face? RB GYO W",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "H",
+        "b": "P",
+        "c": "B",
+        "d": "M"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Three views of a cube following a particular motion are given below: K              H            B B      K                  H A        M          P What is the letter opposite to A?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "1 : 3",
+        "b": "2 : 3",
+        "c": "3 : 2",
+        "d": "5 : 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two glasses of equal volume are respectively half and three-fourths filled with milk. They are then filled to the brim by adding water. Their contents are then poured into another vessel. What will be the ratio of milk to water in this vessel?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "All rich persons travel by air",
+        "b": "Those who travel by air become sick",
+        "c": "All the rich persons become sick",
+        "d": "All those who travel by air are rich"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Examine the following statements: 1.None but the rich can afford air travel. 2.Some of those who travel by air become sick. 3.Some of those who become sick require treatment. Which one of the following conclusions can be drawn from the above statements?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "Arunachal PradeshNeiphiu Rio",
+        "b": "AssamNabam Tuki",
+        "c": "TripuraManik Sarkar",
+        "d": "NagalandIbobi Singh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match List-I with List-II and select the correct pair: **List-I (State)List-II (CM)**",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "Cellulose",
+        "b": "Glucose",
+        "c": "Glycogen",
+        "d": "Sucrose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The primary product of photosynthesis is",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following can help in reducing the carbon footprint? 1.Using fly-ash based cement in building construction 2.Using LED-based electric lamps instead of incandescent lamps Select the correct answer using the code given below",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "Carbohydrate",
+        "b": "Folic acid",
+        "c": "Iron",
+        "d": "Protein"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In recent times, Spirulina, an alga is being popularized because it is a rich source of",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "Cultivation of both cash crops and food crops",
+        "b": "Cultivation of two or more crops in the same field",
+        "c": "Rearing of animals and cultivation of crops together",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the chief characteristic of mixed farming?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "–7",
+        "b": "–5/2",
+        "c": "–1",
+        "d": "1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If  –7x + (2x – 5) = 0, then x =",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "1 only",
+        "b": "2 and 3 only",
+        "c": "1  and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Despite having large reserves of coal, why does India import millions of tonnes of coal? 1.It is the policy of India to save its own coal reserves for future, and import it from other countries for the present use. 2.Most of the power plants in India are coal-based and they are not able to get sufficient supplies of coal from within the country. 3.Steel companies need large quantity of coking coal which has to be imported. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: 1.The duration of the monsoon decreases from Southern India to Northern India 2.The amount of annual rainfall in northern plains of India decreases from East to West. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "10, 91,014",
+        "b": "10, 19,014",
+        "c": "10, 88,014",
+        "d": "10, 88,573 The Stone Age was a period of history which began in approximately 2 million B.C. and lasted During the Mesolithic Age (8000 to 6000 B.C.), people made crude pottery and the first fish The Neolithic Age (6000 to 3000 B.C) saw human kind domesticating sheep, goats, pigs and"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In 2011 census, Mizoram has population of",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "Originated",
+        "b": "Destroyed",
+        "c": "Hallucinated",
+        "d": "Discussed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In line 2, the word “derived” is closest in meaning to",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "It was very durable like stone",
+        "b": "The tools and weapons were made of stone",
+        "c": "There was little vegetation",
+        "d": "The people lived in stone caves"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The author states that the Stone Age was so named because",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "Sedentary",
+        "b": "Wandering",
+        "c": "Primitive",
+        "d": "Inquisitive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In line 11, “nomadic” is closest in meaning to",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "The Neolithic Age",
+        "b": "The Paleolithic Age",
+        "c": "The Stone Age",
+        "d": "The Ice Age"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With what subject is the passage mainly concerned?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "families",
+        "b": "periods",
+        "c": "herds",
+        "d": "tools"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In line 11, the word “eras” is closest in meaning to",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "2",
+        "b": "4",
+        "c": "6",
+        "d": "8"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the volume of cube of side of length 6 is equal to the volume of a rectangle solid with length 12 and width 9, then the height of the rectangular solid is",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "1, 2 and 3 only",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following kinds of organisms: 1.Dragonfly 2.Bee 3.Bird Which of the above is/are pollinating agent?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "8/15",
+        "b": "3/4",
+        "c": "5/6",
+        "d": "6/5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If  r = 4s/5, what is the value of 2s/3r",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,",
+      "opts": {
+        "a": "P.V.Narashimharao",
+        "b": "Dr.Manmohan Singh",
+        "c": "A.B.Vajpayee",
+        "d": "Rajiv Gandhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Economic liberalization was initiated during the Prime Ministership of:",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question 95–98): Select the word that completes the meaning correctly in each sentence.",
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Answer the following on the basis of the passage. Four men are waiting in Delhi airport for a Mumbai flight. Two are doctors and the other two are businessmen. Two speak Gujarati and two speak Tamil. No two of the same profession speak the same language. Two are Muslim and two are Christians. No two of the same religion are of the same profession nor do they speak the same language. The Tamil speaking doctor is a Christian. 1.The Christian-businessman speaks Gujarati. 2.The Gujarati-speaking doctor is a Muslim. Which of the above statements is/are correct conclusion/conclusions?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question 95–98): Select the word that completes the meaning correctly in each sentence.",
+      "opts": {
+        "a": "Pascal",
+        "b": "Charles Babage",
+        "c": "Napier",
+        "d": "Henry Greathead"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who devised the first calculating machine?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q95 (p12, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q96 (p12, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q97 (p12, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q98 (p12, part None): only 2 option(s) ['a', 'b'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      95,
+      96,
+      97,
+      98
+    ]
+  }
+}

@@ -1,0 +1,1515 @@
+{
+  "slug": "acf-2018-english",
+  "exam": "Assistant Conservator of Forest",
+  "sitting": "2018",
+  "subject": "General English",
+  "source": "acf-2018-english.pdf",
+  "sourceSha256": "6278bf717fc236593186c94b183d4bfd5759a98adc8fd62ed50497e04ba6d710",
+  "ocr": false,
+  "count": 65,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given.",
+      "opts": {
+        "a": "catch",
+        "b": "caught",
+        "c": "is caught",
+        "d": "catching"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The policeman ___________ the thief red-handed.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given.",
+      "opts": {
+        "a": "will",
+        "b": "may",
+        "c": "would",
+        "d": "shall"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I do not think I ___________ be able to go.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given.",
+      "opts": {
+        "a": "listen",
+        "b": "will listen",
+        "c": "has listened",
+        "d": "listened"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The whole day yesterday, the boys ___________ to the cricket commentary.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given.",
+      "opts": {
+        "a": "would",
+        "b": "could",
+        "c": "shall",
+        "d": "will"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I wish you ___________ tell me earlier.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given.",
+      "opts": {
+        "a": "got",
+        "b": "get",
+        "c": "getting",
+        "d": "had got"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "After ___________ into the bus we discovered that we had boarded the wrong one.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given.",
+      "opts": {
+        "a": "must",
+        "b": "should",
+        "c": "ought",
+        "d": "will"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You ___________ to pay your debts.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given.",
+      "opts": {
+        "a": "smuggled",
+        "b": "smuggle",
+        "c": "have smuggled",
+        "d": "are smuggling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Last week some wicked people ___________ brown sugar into the town but they were arrested.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given.",
+      "opts": {
+        "a": "must",
+        "b": "shall",
+        "c": "should",
+        "d": "would"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Students ___________ get up early.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given.",
+      "opts": {
+        "a": "is put on",
+        "b": "had put on",
+        "c": "has put on",
+        "d": "was put on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the morning, he ___________ a torn shirt but in the evening he changed it.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given.",
+      "opts": {
+        "a": "will",
+        "b": "shall",
+        "c": "might",
+        "d": "would"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I thought he ___________ at home.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence.",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "conjunction",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Let us move **on**.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence.",
+      "opts": {
+        "a": "noun",
+        "b": "adjective",
+        "c": "adverb",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The man wears a **green** coat.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence.",
+      "opts": {
+        "a": "noun",
+        "b": "verb",
+        "c": "pronoun",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**They** did a fine work.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence.",
+      "opts": {
+        "a": "conjunction",
+        "b": "preposition",
+        "c": "adverb",
+        "d": "pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I ran fast **but** missed the bus.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence.",
+      "opts": {
+        "a": "preposition",
+        "b": "verb",
+        "c": "adjective",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The patient has not eaten **since** yesterday.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence.",
+      "opts": {
+        "a": "adjective",
+        "b": "preposition",
+        "c": "noun",
+        "d": "pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rachel want to go to a **university** in the United States.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence.",
+      "opts": {
+        "a": "preposition",
+        "b": "interjection",
+        "c": "pronoun",
+        "d": "conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Ah!** What a sight.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence.",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "interjection",
+        "d": "pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I’m sure I’ve **met** your parents before.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence.",
+      "opts": {
+        "a": "adverb",
+        "b": "adjective",
+        "c": "conjunction",
+        "d": "interjection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Andy knocked on the door **but** nobody answered.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence.",
+      "opts": {
+        "a": "pronoun",
+        "b": "preposition",
+        "c": "verb",
+        "d": "adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**After** lunch let’s go out for a coffee.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition.",
+      "opts": {
+        "a": "by",
+        "b": "on",
+        "c": "through",
+        "d": "into"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The thief entered the house __________ the window.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition.",
+      "opts": {
+        "a": "to",
+        "b": "by",
+        "c": "with",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You must abide __________ the rules of the organisation.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition.",
+      "opts": {
+        "a": "with",
+        "b": "between",
+        "c": "towards",
+        "d": "among"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There is no unity __________ the players.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition.",
+      "opts": {
+        "a": "for",
+        "b": "to",
+        "c": "of",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His illness has taken a turn __________ the worst.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition.",
+      "opts": {
+        "a": "through",
+        "b": "over",
+        "c": "across",
+        "d": "above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The tiger jumped __________ the fence.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition.",
+      "opts": {
+        "a": "round",
+        "b": "over",
+        "c": "besides",
+        "d": "through"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They sat __________ campfires and sang all night.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition.",
+      "opts": {
+        "a": "under",
+        "b": "underneath",
+        "c": "below",
+        "d": "by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Are you wearing anything __________ your cardigan?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition.",
+      "opts": {
+        "a": "to",
+        "b": "by",
+        "c": "in",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is arriving __________ the 3:30 bus.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition.",
+      "opts": {
+        "a": "to",
+        "b": "with",
+        "c": "for",
+        "d": "in"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He succumbed __________ his injuries.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition.",
+      "opts": {
+        "a": "to",
+        "b": "for",
+        "c": "in",
+        "d": "at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is not interested __________ buying new clothes now.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the",
+      "opts": {
+        "a": "work seriously",
+        "b": "take it easy",
+        "c": "drop a subject",
+        "d": "go for a vacation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I told the students to buckle down this semester.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the",
+      "opts": {
+        "a": "expensive thing",
+        "b": "a difficult problem",
+        "c": "a foolish search",
+        "d": "an easy question"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This is a hard nut to crack.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the",
+      "opts": {
+        "a": "welcomes all members",
+        "b": "welcomes a select group",
+        "c": "keeps the door of the house open",
+        "d": "keeps the gates open for a few people."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mrs. Roy keeps an open house on Saturday evening parties, you’ll find all kinds of people there.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the",
+      "opts": {
+        "a": "goes around",
+        "b": "moves around",
+        "c": "adjust well",
+        "d": "tries to know more about"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The young servant goes about with the old master.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the",
+      "opts": {
+        "a": "to conspire against",
+        "b": "to agitate against",
+        "c": "to upset the balance",
+        "d": "to create difficulties."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The master loves to rock the boat.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the",
+      "opts": {
+        "a": "often",
+        "b": "infrequently",
+        "c": "daily",
+        "d": "always"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I go to the theatre once in a blue moon.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the",
+      "opts": {
+        "a": "hard",
+        "b": "easy",
+        "c": "problematic",
+        "d": "difficult"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Maths test was a piece of cake.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the",
+      "opts": {
+        "a": "your decision",
+        "b": "accomplish",
+        "c": "miss the chance you have to",
+        "d": "congenial"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ball is in your court, its up to you.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the",
+      "opts": {
+        "a": "low spirits",
+        "b": "hilarious",
+        "c": "high spirited",
+        "d": "dedicated"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was in the doldrums after being insulted in.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the",
+      "opts": {
+        "a": "agreed",
+        "b": "disagreed",
+        "c": "watched",
+        "d": "differed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sisters finally saw eye to eye on the matter.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences.",
+      "opts": {
+        "a": "habitual",
+        "b": "purpose",
+        "c": "possibility",
+        "d": "ability"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It may be sunny today.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences.",
+      "opts": {
+        "a": "habitual",
+        "b": "obligation",
+        "c": "possibility",
+        "d": "purpose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One must always respect and treat the elders well.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences.",
+      "opts": {
+        "a": "order",
+        "b": "request",
+        "c": "prohibition",
+        "d": "duty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Keep quiet.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences.",
+      "opts": {
+        "a": "order",
+        "b": "request",
+        "c": "duty",
+        "d": "purpose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Would you kindly come along with us.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences.",
+      "opts": {
+        "a": "condition",
+        "b": "habitual",
+        "c": "purpose",
+        "d": "obligation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The family usually travel by air.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences.",
+      "opts": {
+        "a": "request",
+        "b": "command",
+        "c": "advice",
+        "d": "duty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Don’t smoke please.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences.",
+      "opts": {
+        "a": "duty",
+        "b": "command",
+        "c": "request",
+        "d": "purpose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Get out.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences.",
+      "opts": {
+        "a": "wish",
+        "b": "duty",
+        "c": "possibility",
+        "d": "threat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Have fun at the fair.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences.",
+      "opts": {
+        "a": "instruction",
+        "b": "obligation",
+        "c": "purpose",
+        "d": "habitual"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Feed the fish once a day.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences.",
+      "opts": {
+        "a": "invitation",
+        "b": "duty",
+        "c": "purpose",
+        "d": "order"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do have tea with me.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks.",
+      "opts": {
+        "a": "but",
+        "b": "though",
+        "c": "for",
+        "d": "because"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He finished first __________ he began late.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks.",
+      "opts": {
+        "a": "before",
+        "b": "since",
+        "c": "because",
+        "d": "or"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My grandfather died __________ I was born.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks.",
+      "opts": {
+        "a": "and",
+        "b": "or",
+        "c": "but",
+        "d": "however"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Come in __________ go out.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks.",
+      "opts": {
+        "a": "consequently",
+        "b": "however",
+        "c": "otherwise",
+        "d": "or"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The war was lost; __________ the country was occupied.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks.",
+      "opts": {
+        "a": "and",
+        "b": "or",
+        "c": "but",
+        "d": "otherwise"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I started on time __________ was late.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks.",
+      "opts": {
+        "a": "but",
+        "b": "and",
+        "c": "however",
+        "d": "or"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She was late, __________ the game had not started.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks.",
+      "opts": {
+        "a": "because",
+        "b": "therefore",
+        "c": "since",
+        "d": "still"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I was sick; __________ ,I did not go to work.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks.",
+      "opts": {
+        "a": "for",
+        "b": "so",
+        "c": "and",
+        "d": "however"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He can’t go home __________ for he has no place to go.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks.",
+      "opts": {
+        "a": "therefore",
+        "b": "yet",
+        "c": "consequently",
+        "d": "because"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He has car, __________ he can’t drive it.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks.",
+      "opts": {
+        "a": "so",
+        "b": "or",
+        "c": "and",
+        "d": "yet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have graduated, __________ I will go on training.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 61-65): Choose the appropriate one-word substitute for the given phrases.",
+      "opts": {
+        "a": "atheist",
+        "b": "ascetic",
+        "c": "anarchist",
+        "d": "agnostic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who is not sure about God’s existence:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 61-65): Choose the appropriate one-word substitute for the given phrases.",
+      "opts": {
+        "a": "polyglot",
+        "b": "numismatist",
+        "c": "narcissist",
+        "d": "hedonist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A lover of oneself:",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 61-65): Choose the appropriate one-word substitute for the given phrases.",
+      "opts": {
+        "a": "stoic",
+        "b": "pacifist",
+        "c": "philistine",
+        "d": "misogamist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who does not care for art and literature:",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 61-65): Choose the appropriate one-word substitute for the given phrases.",
+      "opts": {
+        "a": "bohemian",
+        "b": "heretic",
+        "c": "effeminate",
+        "d": "pyromania"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An unconventional style of living:",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 61-65): Choose the appropriate one-word substitute for the given phrases.",
+      "opts": {
+        "a": "iconoclast",
+        "b": "cynosure",
+        "c": "henpeck",
+        "d": "agoraphobe"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who is a centre of attraction:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "B": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2022/11/5346b34df48ea93827fdc570f36227ae/acf-general-english.pdf",
+  "enrichmentVersion": 5,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

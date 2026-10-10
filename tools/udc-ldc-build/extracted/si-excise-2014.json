@@ -1,0 +1,1404 @@
+{
+  "papers": [
+    {
+      "id": "si-excise-2014-p1",
+      "pdf": "si-excise-2014-p1.pdf",
+      "paperNumber": "Paper-I",
+      "subject": "General English",
+      "section": "english",
+      "expectedMcq": 0,
+      "marksPerQuestion": 1,
+      "durationMinutes": 180,
+      "questions": [
+        {
+          "n": 1,
+          "q": "Write an essay of about 900 words on any one topic: Role of the Media in Good Governance; The importance of communication; The Youth Culture today; The dignity of Labour.",
+          "page": 1,
+          "type": "descriptive"
+        },
+        {
+          "n": 2,
+          "q": "Write a précis of the passage on the benefits of science and whether science has made life happier. Full passage is in the linked source paper.",
+          "page": 1,
+          "type": "descriptive"
+        },
+        {
+          "n": 3,
+          "q": "Write either a letter to a friend in Delhi about the Mizoram General Election 2013, or a letter to the Sub-Divisional Officer, BSNL, requesting a telephone connection for your office.",
+          "page": 2,
+          "type": "descriptive"
+        },
+        {
+          "n": 4,
+          "q": "Use any eight of these idioms and phrases in original sentences: hold one’s own; give oneself airs; turn over a new leaf; pull together; stand in good stead; be taken aback; at daggers drawn; play the second fiddle; kith and kin; catch a tartar.",
+          "page": 2,
+          "type": "descriptive"
+        },
+        {
+          "n": 5,
+          "q": "Expand one idea: “The crown and glory of life is character”; “Great talkers are never great doers”; “Perseverance is the very hinge of all virtues.”",
+          "page": 2,
+          "type": "descriptive"
+        },
+        {
+          "n": 6,
+          "q": "Read the passage on Mahatma Gandhi’s “Voice” and answer (a) why people had to listen to it; (b) why they should take interest in politics; (c) how it changed politics’ objectives; (d) what improvements it sought for common people; and (e) the meaning of sins of omission and commission in administration. Full passage is in the linked source paper.",
+          "page": 3,
+          "type": "descriptive"
+        },
+        {
+          "n": 7,
+          "q": "Choose the correct form: (a) I need to buy ___; (b) All the guests were dancing. ___ having a good time; (c) The young man seems very ___; (d) This car is ___, if you are interested in buying it; (e) I prefer dogs ___ cats; (f) This detailed map is ___ the atlas; (g) I cannot keep ___ you.",
+          "page": 4,
+          "type": "descriptive"
+        },
+        {
+          "n": 8,
+          "q": "Fill the blanks: (a) Do not avail ___ your leave during peak hour; (b) I congratulate you ___ your graduation; (c) Trespassers are prohibited ___ entering this land; (d) You must go ___ the post office tomorrow; (e) The President is ___ of her power; (f) She loves quarreling; she is ___; (g) The scenery is ___.",
+          "page": 4,
+          "type": "descriptive"
+        },
+        {
+          "n": 9,
+          "q": "Correct the errors in the ten sentences printed in the linked source paper (including “His confidence will be build up by this” and “She had complete her work long before you arrived”).",
+          "page": 4,
+          "type": "descriptive"
+        }
+      ],
+      "sourceSha256": "9b37c01c908295bf27a90ce36137fcdefb566683379c5ecaac35fc068bfbaaf1"
+    },
+    {
+      "id": "si-excise-2014-p2",
+      "pdf": "si-excise-2014-p2.pdf",
+      "paperNumber": "Paper-II",
+      "subject": "General Studies Paper-I",
+      "section": "gk",
+      "expectedMcq": 75,
+      "marksPerQuestion": 2,
+      "durationMinutes": 120,
+      "questions": [
+        {
+          "n": 1,
+          "q": "The East India Company secured the legal right to collect revenue from Bengal, Bihar and Orissa after the",
+          "options": [
+            "Battle of Plassey",
+            "The acquisition of Diwani from the Mughal emperor",
+            "Battle of Buxar",
+            "Battle of Arcot"
+          ],
+          "page": 1,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 2,
+          "q": "One important result of the British economic policy in India was the",
+          "options": [
+            "Development of Indian agriculture and industries",
+            "Protestation of interests of Indian peasants and artisans",
+            "Drain of wealth and poverty",
+            "Better utilization of natural resources"
+          ],
+          "page": 1,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 3,
+          "q": "Which among the following was not the result of the battle of Plassey?",
+          "options": [
+            "Siraj-Ud-Daulah was killed",
+            "MirJafar became the Nawab of Bengal",
+            "East India Company lost its privilege of revenue collection",
+            "24 Pargana area was given to the British"
+          ],
+          "page": 1,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 4,
+          "q": "During the 19th Century, the English invested most of their money in India through",
+          "options": [
+            "Plantation",
+            "Iron and steel",
+            "Textiles",
+            "None of these"
+          ],
+          "page": 1,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 5,
+          "q": "The trade monopoly of the East India Company was ended and India was thrown open to a system of free trade by the",
+          "options": [
+            "Charter Act of 1813",
+            "Regulating Act of 1772",
+            "Pitt's India Act of 1884",
+            "Government of India Act of 1858"
+          ],
+          "page": 1,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 6,
+          "q": "Rural indebtedness in India was the outcome of",
+          "options": [
+            "Mercantilism",
+            "Laissez faire",
+            "High revenue demands",
+            "Industrialisation"
+          ],
+          "page": 1,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 7,
+          "q": "Which among the Indian working group were affected most by the industrial Revolution of Europe?",
+          "options": [
+            "Kishan",
+            "Artisan",
+            "Peasants",
+            "None of these"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 8,
+          "q": "Which Act allowed the Christian Missionaries to proselytise their religion?",
+          "options": [
+            "Charter Act of 1813",
+            "The Rowlatt Act of 1919",
+            "Charter Act of 1793",
+            "Government of India Act 1833"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 9,
+          "q": "What does Downward Filtration Theory mean?",
+          "options": [
+            "Grass root level reforms",
+            "Caste filtration education",
+            "Modern education",
+            "Knowledge from a few educated upper classes would filter down to the masses"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 10,
+          "q": "Who propounded the theory of Orientalism?",
+          "options": [
+            "Warren Hasting and William Jones",
+            "Jeremy Bentham",
+            "David Ricardo",
+            "Lord Dalhousie"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 11,
+          "q": "Who was the founder of Brahmo Samaj?",
+          "options": [
+            "Swami Dayananda Saraswati",
+            "Devedranath Tagore",
+            "Mahatma Gandhi",
+            "Raja Rammohan Roy"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 12,
+          "q": "What is the correct Chronological sequence of the following? 1) Wood's Education Despatch 2) Macaulay's Minute of Education 3) The Sargent Education Report 4) Hunter Education Commission",
+          "options": [
+            "2, 1, 4, 3",
+            "2, 1, 3, 4",
+            "1, 2, 4, 3",
+            "4, 3, 1, 2"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 13,
+          "q": "What was the work of the Shudhi movement started by the Arya Samaj?",
+          "options": [
+            "To protect Hindus from Islam and Christianity",
+            "To convert non-Hindus to Hinduism",
+            "To promote patriotism",
+            "To spread the practice of Yoga"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 14,
+          "q": "Who established the first 'Vedanta Society'?",
+          "options": [
+            "Keshav Chandra Sen",
+            "Devendra Nath Tagore",
+            "Swami Vivekananda",
+            "Raja Rammohan Roy"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 15,
+          "q": "Which among the following report was regarded as \"Magna Carta of English Education in India\"?",
+          "options": [
+            "Hunter Education Commission",
+            "Macaulay's minute",
+            "Thomson's policy",
+            "Wood's despatch"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 16,
+          "q": "Above and beyond any other social evils of Indian society Iswar Chandra Vidhya sagar laid stress on",
+          "options": [
+            "Women education and widow remarriage",
+            "Caste hatred",
+            "Female infanticides",
+            "Slavery"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 17,
+          "q": "Which among the following is not the result of de-industrialisation in India?",
+          "options": [
+            "India became the exporter of raw-materials",
+            "Destruction of traditional industries",
+            "Over crowding in the agrarian sector",
+            "Self-sufficient village economy"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 18,
+          "q": "The famous Asiatic Society of India was founded by",
+          "options": [
+            "William Jones",
+            "Lord Cornwallis",
+            "Lord Wellesley",
+            "Lord Dalhousie"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 19,
+          "q": "The East India Company's rule in India came to end with",
+          "options": [
+            "Charter Act of 1813",
+            "The Revolt of 1857",
+            "The Indian Councils Act 1861",
+            "Government of India Act 1858"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 20,
+          "q": "What was the main feature of the Montague-Chemsford reform?",
+          "options": [
+            "Self Government",
+            "System of dyarchy",
+            "Communal electorate",
+            "None of these"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 21,
+          "q": "The tribal leader who was regarded as an incarnation of God and father of the world was—",
+          "options": [
+            "Nanak Bhil",
+            "Jagia Bhagat",
+            "Birsa Munda",
+            "Siddhu Santha"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 22,
+          "q": "The Moplah Rebellion which took place in Malabar during 1921, was",
+          "options": [
+            "Hindu movement",
+            "Dalit movement",
+            "Fundamental Islamic movement",
+            "Christian movement"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 23,
+          "q": "The Indian national movement upto 1905 was dominated by leaders who are often described as",
+          "options": [
+            "Militants",
+            "Extremists",
+            "Conservative groups",
+            "Moderates"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 24,
+          "q": "The Khilafat movement was organised chiefly by",
+          "options": [
+            "Muhammad Ali and Shaukat Ali",
+            "Maulana Azad and Ajmal Khan",
+            "Muhammad Ali Jinnah and Fazlul Hug",
+            "B.G.Tilak and Surendranath Bannerjee"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 25,
+          "q": "Which of the following prominent leaders was not involved with the emergence of trade union movements?",
+          "options": [
+            "Lala Lajpat Rai",
+            "B.P.Wadia",
+            "Mohammed Ali Jinnah",
+            "N.M.Joshi"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 26,
+          "q": "What was the name of the movement started by M.A.Jinnah?",
+          "options": [
+            "Muslim League",
+            "Red Shirt Movement",
+            "Khilafat Movement",
+            "Aligarh Movement"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 27,
+          "q": "Which of the following peasant struggles gained prominence in the pre-independence period?",
+          "options": [
+            "Bakasht Movement",
+            "Telangana Movement",
+            "Ghadhar Movement",
+            "Wahabi Movement"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 28,
+          "q": "When was the Second Round Table Conference held?",
+          "options": [
+            "November 16, 1931",
+            "April 6, 1930",
+            "September 1, 1931",
+            "November 17, 1930"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 29,
+          "q": "What was the resolution passed in the Lahore Session, which gave a new objective to Congress in 1929?",
+          "options": [
+            "Second Civil Disobedience Movement",
+            "Red Shirt Movement",
+            "Poorna Swaraj",
+            "Formation of separate electorate"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 30,
+          "q": "Who was the founder of Forward Block?",
+          "options": [
+            "Mahatma Gandhi",
+            "P.C.Joshi",
+            "Subhash Chandra Bose",
+            "Jayprakash Narayan"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 31,
+          "q": "The source of all political power in India lies with",
+          "options": [
+            "the Parliament",
+            "the Lok Sabha",
+            "the People",
+            "the Constitution"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 32,
+          "q": "Judicial Review in the Indian Constitution is based on",
+          "options": [
+            "Procedure established by law",
+            "Due process of law",
+            "Rule of law",
+            "Precedents and Conventions"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 33,
+          "q": "Consider the following statements with regard to the powers enjoyed by the Governor of a state of India: 1. He addresses the Legislative Assembly of the State at the commencement of the first session of each year 2. He can send message to the Legislative Assembly at that time 3. He can summon, prorogue and dissolve the Legislative Assembly of the State 4. He can give Assent to Bill to curtail the power of the State High Court Which of these are correct?",
+          "options": [
+            "1 and 4",
+            "3 and 4",
+            "1 and 2",
+            "1, 2 and 3"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 34,
+          "q": "The Chief Election Commissioner of India can be removed from office during his tenure by",
+          "options": [
+            "the Chief Justice of India if some charges are proved against him",
+            "the President on the basis of a resolution of the Union Cabinet",
+            "a committee consisting of Chief Justice of India, Law Minister of India and the Vice President of India",
+            "the President on the basis of resolution passed by the Parliament by two-thirds majority"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 35,
+          "q": "Prohibition of discrimination on ground of religion etc. (Article 15 of the Constitution of India) is a Fundamental Right classifiable under",
+          "options": [
+            "the Right to Freedom of Religion",
+            "the Right against Exploitation",
+            "the Cultural and Educational Rights",
+            "the Right to Equality"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 36,
+          "q": "The President of India is elected by the 'Electoral College' consisting of",
+          "options": [
+            "all members of Parliament",
+            "elected members of Parliament and State Legislative Assemblies",
+            "members of Parliament, State Legislative Assemblies and Legislative Councils",
+            "all the members of Parliament and State Legislative Assemblies"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 37,
+          "q": "What is the system of governance in the Panchayati Raj set-up?",
+          "options": [
+            "Single tier structure of local self-government at the village level",
+            "Two tier system of local self-government at the village and block levels",
+            "Three tier structure of local self-government, at the village, block and district levels",
+            "Four tier system of local self-government at the village, block and state district levels"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 38,
+          "q": "The Supreme Court of India tenders advice to the President on a matter of law or fact",
+          "options": [
+            "on its own initiative",
+            "only if he seeks such advice",
+            "only if the matter relates to the Fundamental Rights of citizens",
+            "only if the issue poses a threat to the unity and integrity of the country"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 39,
+          "q": "'Sons of the soil' theory is one of the popular manifestations of",
+          "options": [
+            "Regionalism",
+            "Populism",
+            "Parochialism",
+            "Nationalism"
+          ],
+          "page": 5,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 40,
+          "q": "Under the provisions of the Indian Constitution a community can be declared a minority on the basis of",
+          "options": [
+            "Religion only",
+            "Either religion or language",
+            "Either language or caste",
+            "Either religion or race"
+          ],
+          "page": 5,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 41,
+          "q": "Who among the following is not considered the member of the National Human Rights Commission (NHRC)?",
+          "options": [
+            "chairman of the National Commission for Minorities",
+            "chairman of the National Commission for the Scheduled Tribes and Scheduled Castes",
+            "chairman of the National Commission for Women",
+            "chairman of the Union Public Service Commission (UPSC)"
+          ],
+          "page": 5,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 42,
+          "q": "Communalism in Indian context means:",
+          "options": [
+            "serving the communal identity for political gains",
+            "using communal identity for political gains",
+            "a group of people bound by ethic feelings",
+            "creating friendly relations with other communities"
+          ],
+          "page": 5,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 43,
+          "q": "Who presides over the meeting of the Cabinet in the State?",
+          "options": [
+            "the Governor",
+            "the Chief Minister",
+            "the Speaker",
+            "the Deputy Speaker"
+          ],
+          "page": 5,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 44,
+          "q": "Consider the following statements regarding the political parties in India: 1. The Representation of the People Act, 1951 provides for the registration of political parties. 2. Registration of political parties is carried out by the Election Commision. 3. A national level political party is one which is recognised in four or more states. 4. During the 1999 general elections, there were six national and 48 state level parties recognised by the Election commission. Which of these statements are correct?",
+          "options": [
+            "1, 2 and 4",
+            "1 and 3",
+            "2 and 4",
+            "1, 2, 3 and 4"
+          ],
+          "page": 5,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 45,
+          "q": "Originally the 'State List' had",
+          "options": [
+            "61 subjects",
+            "67 subjects",
+            "54 subjects",
+            "66 subjects"
+          ],
+          "page": 5,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 46,
+          "q": "Indian economy is most appropriately described as a",
+          "options": [
+            "capitalist economy",
+            "mixed economy",
+            "socialist economy",
+            "None of these"
+          ],
+          "page": 5,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 47,
+          "q": "Indian economy is regarded as underdeveloped due to",
+          "options": [
+            "high proportion of people below poverty line",
+            "imbalance between heavy industry and wage goods",
+            "instability of agricultural output and its related sectors",
+            "all of these"
+          ],
+          "page": 5,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 48,
+          "q": "Which sector constitutes the maximum share in National Income of India?",
+          "options": [
+            "Primary",
+            "Secondary",
+            "Tertiary",
+            "All of these have equal share"
+          ],
+          "page": 6,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 49,
+          "q": "In 2011-2012, the contribution to the Indian GDP was highest in",
+          "options": [
+            "agriculture sector",
+            "industrial sector",
+            "services sector",
+            "I.T. sector"
+          ],
+          "page": 6,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 50,
+          "q": "The main problem faced by slum-dwellers in urban areas may be identified in",
+          "options": [
+            "sanitation",
+            "drainage",
+            "air pollution",
+            "all of these"
+          ],
+          "page": 6,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 51,
+          "q": "Which of the following is not part of poverty alleviation programme?",
+          "options": [
+            "The Mahatma Gandhi National Rural Employment Guarantee Scheme",
+            "Swarna Jayanti Gram Swarozgar Yojana",
+            "Swarna Jayanti Shahari Rozgar Yojana",
+            "Ashray Bima Yojana"
+          ],
+          "page": 6,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 52,
+          "q": "Fiscal policy in India is formulated by",
+          "options": [
+            "the Reserve Bank of India",
+            "the Planning Commission",
+            "the Finance Ministry",
+            "the Securities and Exchange Board of India"
+          ],
+          "page": 6,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 53,
+          "q": "The RBI was nationalised on",
+          "options": [
+            "1st January,1949",
+            "1st March, 1949",
+            "1st January, 1950",
+            "1st March 1950"
+          ],
+          "page": 6,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 54,
+          "q": "India has the maximum foreign trade with",
+          "options": [
+            "Japan",
+            "Germany",
+            "USA",
+            "UK"
+          ],
+          "page": 6,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 55,
+          "q": "Indian planning is",
+          "options": [
+            "totalitarian in nature",
+            "democratic in nature",
+            "totally centralized",
+            "none of these"
+          ],
+          "page": 6,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 56,
+          "q": "The objective of setting up of public enterprises in India reflects",
+          "options": [
+            "to create employment opportunities",
+            "to promote balanced regional growth",
+            "neither (a) nor (b)",
+            "both (a) and (b)"
+          ],
+          "page": 6,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 57,
+          "q": "In broad sense the objective of Indian planning is",
+          "options": [
+            "to accelerate industrial production",
+            "to increase national income",
+            "to create and increase employment opportunities",
+            "to ensure growth with justice"
+          ],
+          "page": 6,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 58,
+          "q": "In the strategy of development adopted, the responsibility for the development of heavy capital goods industries was placed largely on",
+          "options": [
+            "private sector",
+            "public sector",
+            "joint sector",
+            "cooperative sector"
+          ],
+          "page": 6,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 59,
+          "q": "When was the Indian Planning Commission set up?",
+          "options": [
+            "1948",
+            "1949",
+            "1950",
+            "1951"
+          ],
+          "page": 7,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 60,
+          "q": "According to Foreign Trade Statistics (2010-11), the top trading partners of India are",
+          "options": [
+            "Japan, S. Korea and China",
+            "Japan, UAE and USA",
+            "China, Kuwait and S. Korea",
+            "China, UAE and USA"
+          ],
+          "page": 7,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 61,
+          "q": "Which belt has a concentration of heavy engineering industry?",
+          "options": [
+            "Kolkata–Asansol",
+            "Jamshedpur–Asansol",
+            "Kanpur–Lucknow",
+            "Mumbai–Pune"
+          ],
+          "page": 7,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 62,
+          "q": "The alluvium filled valleys between Silwalik range and Lesser Himalayas is known as",
+          "options": [
+            "Sagarmatha",
+            "Doon",
+            "Nubra",
+            "Kanker"
+          ],
+          "page": 7,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 63,
+          "q": "The area covered by Peninsular India is about",
+          "options": [
+            "18 lakh sq km",
+            "16 lakh sq km",
+            "14 lakh sq km",
+            "12 lakh sq km"
+          ],
+          "page": 7,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 64,
+          "q": "The wind blowing from Indian Ocean to Indian sub-continent during the month of June to September is known as",
+          "options": [
+            "South-West Monsoon",
+            "North-East Monsoon",
+            "Westerly Depression",
+            "Shower"
+          ],
+          "page": 7,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 65,
+          "q": "Guha classified India into",
+          "options": [
+            "Nine races",
+            "Eight races",
+            "Seven races",
+            "Six races"
+          ],
+          "page": 7,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 66,
+          "q": "Which of the following is the mongoloid Stock?",
+          "options": [
+            "Santhal",
+            "Kadar",
+            "Lepcha",
+            "Munda"
+          ],
+          "page": 7,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 67,
+          "q": "According to 1991, the proportion of Scheduled Tribes (ST) in total population was highest in",
+          "options": [
+            "Meghalaya",
+            "Mizoram",
+            "Nagaland",
+            "Arunachal Pradesh"
+          ],
+          "page": 7,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 68,
+          "q": "Which state has the highest population as in 2011 census?",
+          "options": [
+            "Bihar",
+            "West Bengal",
+            "Uttar Pradesh",
+            "Maharastra"
+          ],
+          "page": 7,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 69,
+          "q": "In Assam, Shifting cultivation is known as",
+          "options": [
+            "Onam",
+            "Jhoom",
+            "Bewar",
+            "Penda"
+          ],
+          "page": 7,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 70,
+          "q": "Crops planted just before winter season and harvested before the beginning of summer season in India are called",
+          "options": [
+            "WRC crops",
+            "Kharif crops",
+            "Rabi crops",
+            "Plantation crops"
+          ],
+          "page": 7,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 71,
+          "q": "Which of the following is in private sector?",
+          "options": [
+            "HSL Rourkela",
+            "HSL Durgapur",
+            "TISCO Jamshedpur",
+            "BSL Bokaro"
+          ],
+          "page": 7,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 72,
+          "q": "What percentage is shared by agriculture in the national output?",
+          "options": [
+            "About 15%",
+            "About 20%",
+            "About 25%",
+            "About 18%"
+          ],
+          "page": 8,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 73,
+          "q": "The modern industrial development in India started in the year __________ by the British",
+          "options": [
+            "1800",
+            "1854",
+            "1865",
+            "1874"
+          ],
+          "page": 8,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 74,
+          "q": "The first Industrial policy of the country was announced in India in",
+          "options": [
+            "1945",
+            "1946",
+            "1947",
+            "1948"
+          ],
+          "page": 8,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 75,
+          "q": "India is the world's highest producer of",
+          "options": [
+            "Synthetic fibre",
+            "Sugar",
+            "Jute",
+            "Papers"
+          ],
+          "page": 8,
+          "candidateAnswerIndex": -1
+        }
+      ],
+      "sourceSha256": "21ad2157741ba4af513be363df5bb9ff2af0886f250eb41db728eabdc87a4d34"
+    },
+    {
+      "id": "si-excise-2014-p3",
+      "pdf": "si-excise-2014-p3.pdf",
+      "paperNumber": "General Studies Paper-II",
+      "subject": "General Studies Paper-II",
+      "section": "gk",
+      "expectedMcq": 75,
+      "questions": [
+        {
+          "n": 10,
+          "q": "Miss Universe 2013 Ms. Gabriela Isler belongs to",
+          "options": [
+            "Spain",
+            "Philippines",
+            "Ecuador",
+            "Venezuela"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": 3
+        },
+        {
+          "n": 11,
+          "q": "Who is the Australian Open Women's Tennis Champion of 2014?",
+          "options": [
+            "Maria Sharapova",
+            "Li Na",
+            "Sarena Williams",
+            "Victoria Azarenka"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": 3
+        },
+        {
+          "n": 12,
+          "q": "Who is the new CEO of Microsoft?",
+          "options": [
+            "Satya Nadella",
+            "John Thompson",
+            "Mc. Yanykovych",
+            "Bill Gates"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": 0
+        },
+        {
+          "n": 13,
+          "q": "Under one of the categories, Mizoram recently received the award 'Best Performing state' under JNNURM from Central government. The category includes –",
+          "options": [
+            "NE States only",
+            "Special category states, NE states and UTs only",
+            "Special category states only",
+            "All states and UTs"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 14,
+          "q": "As per the final figure of 2011 census, the literacy percentage of Mizoram is",
+          "options": [
+            "92.33%",
+            "91.33%",
+            "92.23%",
+            "None of these"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": 0
+        },
+        {
+          "n": 15,
+          "q": "Who was the chief guest of Republic Day Parade 2014 of India in New Delhi?",
+          "options": [
+            "President of the European Council",
+            "President of African Union Commission",
+            "French President",
+            "Japanese Prime Minister"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": 2
+        },
+        {
+          "n": 16,
+          "q": "Who is the newly elected Prime Minister of Bangladesh?",
+          "options": [
+            "Begum Khaleda Zia",
+            "Sheik Hasina",
+            "Abdul Hamid",
+            "Fakhrudin Ahmed"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": 1
+        },
+        {
+          "n": 17,
+          "q": "The Rs.3600 crore VVIP Chopper deal between India and AgustaWestland was cancelled in wake of",
+          "options": [
+            "The allegation of corruption",
+            "Delaying in its manufacturing",
+            "The allegation of mechanical irregularities",
+            "All of these"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": 0
+        },
+        {
+          "n": 18,
+          "q": "Who won the FIFA Ballon d'or award for the year 2013?",
+          "options": [
+            "Sir Alex Ferguson",
+            "Nemanja Matic",
+            "Cristiano Ronaldo",
+            "Alan Shearer"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": 2
+        },
+        {
+          "n": 19,
+          "q": "Union Government raised the quota of subsidised LPG cylinders per household in a year to",
+          "options": [
+            "9 cylinders",
+            "10 cylinders",
+            "12 cylinders",
+            "15 cylinders"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": 2
+        },
+        {
+          "n": 20,
+          "q": "The full form of EPABX is",
+          "options": [
+            "Electronic Private Automatic Branch Exchange",
+            "Electrical Private Automatic Branch Exchange",
+            "Electrical Private Automated Branch Exchange",
+            "Electrical Private Automatic Branch Exchanged"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": 1
+        },
+        {
+          "n": 21,
+          "q": "The currency (monetary unit) of Indonesia is",
+          "options": [
+            "Yen",
+            "Rupiah",
+            "Kyat",
+            "Ringgit"
+          ],
+          "page": 4,
+          "candidateAnswerIndex": 1
+        },
+        {
+          "n": 33,
+          "q": "Which one is not correct?",
+          "options": [
+            "Bhabha Atomic Research Centre (BARC)",
+            "Indian Space Research Organization (ISRO)",
+            "Centre for Scientific and Industrial Research (CSIR)",
+            "National Centre for Antarctic & Ocean Research (NCAOR)"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": -1
+        },
+        {
+          "n": 34,
+          "q": "_____________________ received Nobel prize in physiology or medicine in 1968.",
+          "options": [
+            "Anil Kakodkar",
+            "K.S.Krishnan",
+            "Har Gobind Khorana",
+            "M.Battacherjee"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": 2
+        },
+        {
+          "n": 35,
+          "q": "Study of birds is called:",
+          "options": [
+            "Chiropterology",
+            "Aerology",
+            "Ornithology",
+            "Aerobiology"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": 2
+        },
+        {
+          "n": 36,
+          "q": "O.M.R. stands for:",
+          "options": [
+            "Optical Mark Reader",
+            "Optical Machine Reader",
+            "Octal Machine Reader",
+            "Octal Mark Reader"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": 0
+        },
+        {
+          "n": 37,
+          "q": "Who is known for his pioneering work on the evaluation of stars?",
+          "options": [
+            "C.V.Raman",
+            "J.C.Bose",
+            "S.Chandrasekhar",
+            "M.N.Saha"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": 2
+        },
+        {
+          "n": 38,
+          "q": "Pharmacology is the science that deals with",
+          "options": [
+            "The knowledge of treatment of diseases",
+            "The knowledge of drugs and preparation of medicines",
+            "The knowledge of physical operation to diseases",
+            "The knowledge of blood typing, DNA technique and identification of narcotic etc."
+          ],
+          "page": 3,
+          "candidateAnswerIndex": 1
+        },
+        {
+          "n": 39,
+          "q": "The blood bank of our body is:",
+          "options": [
+            "Spleen",
+            "Liver",
+            "Heart",
+            "Lungs"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": 0
+        },
+        {
+          "n": 40,
+          "q": "Atom bomb is based on the principle of",
+          "options": [
+            "fusion",
+            "fission",
+            "neither (a) nor (b)",
+            "both (a) and (b)"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": 1
+        },
+        {
+          "n": 41,
+          "q": "Historians believed that the Mizos settled down in this place before entering Mizoram –",
+          "options": [
+            "Yunnan Province",
+            "Shan State",
+            "Mongolia",
+            "Mekong Valley"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": 0
+        },
+        {
+          "n": 42,
+          "q": "From the linguistic point of view, the Mizo language belongs to the –",
+          "options": [
+            "Tibeto-Burman family",
+            "The Mongoloid family",
+            "Dravidians family",
+            "Aryan family"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": 0
+        },
+        {
+          "n": 43,
+          "q": "The First Lushai Expedition (1871) was led by –",
+          "options": [
+            "Captain Roberts",
+            "Brig. General Tregear",
+            "Lt. Col. Thomas Herbert Lewin",
+            "Colonel Skinner"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": 2
+        },
+        {
+          "n": 44,
+          "q": "The book entitled 'A Grammar and Dictionary of the Lushai Language' published in 1898 was written by –",
+          "options": [
+            "Peri Sap (N.E.Parry)",
+            "Tarmita (Col. J.Shakespear)",
+            "Zosapthara (Rev. Edwin Rowlands)",
+            "Pu Buanga (J.H.Lorrain)"
+          ],
+          "page": 3,
+          "candidateAnswerIndex": 0
+        },
+        {
+          "n": 58,
+          "q": "If the cost price of 6 mangoes is equal to the selling price of 5 mangoes, then the profit percent is",
+          "options": [
+            "20%",
+            "16%",
+            "10%",
+            "30%"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": 0
+        },
+        {
+          "n": 59,
+          "q": "In what time a sum of money will double itself at a rate of simple interest of 8% per annum?",
+          "options": [
+            "11 1/2 years",
+            "12 years",
+            "13 1/2 years",
+            "12 1/2 years"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": 0
+        },
+        {
+          "n": 60,
+          "q": "The difference between a number and 1/5 th of it is equal to 20, then the number is",
+          "options": [
+            "20",
+            "100",
+            "40",
+            "25"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": 3
+        },
+        {
+          "n": 61,
+          "q": "If a motor car covers a distance of 250 metres in 25 seconds, then its speed in kilometer per hour is",
+          "options": [
+            "32",
+            "34",
+            "36",
+            "38"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": 2
+        },
+        {
+          "n": 62,
+          "q": "Average of 5 numbers is 20. If 8 is added to each of these numbers, then the average of the new numbers is",
+          "options": [
+            "28",
+            "20",
+            "16",
+            "24"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": 0
+        },
+        {
+          "n": 63,
+          "q": "The median of 10, 13, 22, 25, 8, 11, 19, 18, 31 and 16 is",
+          "options": [
+            "16.5",
+            "17",
+            "16",
+            "19.5"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": 0
+        },
+        {
+          "n": 64,
+          "q": "If 0.09/x = 0.01, then x =",
+          "options": [
+            "0.009",
+            "0.9",
+            "0.09",
+            "9"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": 3
+        },
+        {
+          "n": 65,
+          "q": "The greatest four-digit perfect square number is",
+          "options": [
+            "9000",
+            "9900",
+            "9801",
+            "9981"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": 2
+        },
+        {
+          "n": 66,
+          "q": "What will come in place of the question mark (?) in the following series of numbers? 1024, 256, 64, 16, ?",
+          "options": [
+            "8",
+            "4",
+            "9",
+            "6"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": 1
+        },
+        {
+          "n": 67,
+          "q": "What will come in place of the question mark (?) in the following series of numbers? 21, 25, 33, 49, 81, ?",
+          "options": [
+            "174",
+            "136",
+            "204",
+            "145"
+          ],
+          "page": 2,
+          "candidateAnswerIndex": 3
+        }
+      ],
+      "sourceSha256": "d2df56547519bd2b0cfde87a63233dee76e7d5fc87b13ea52cf6de069d8e70b7"
+    }
+  ],
+  "provenance": "Question text and options for General Studies were imported from the matching 2014 paper records in mpsc_bank_v2.json and remain unscored pending source review. The official Paper-III PDF available in this workspace has only four of its eight printed pages; 41 MCQs are absent from the source scan. General English written prompts are transcribed/condensed from the official PDF and require source review."
+}

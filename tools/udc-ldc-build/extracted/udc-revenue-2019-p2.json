@@ -1,0 +1,2318 @@
+{
+  "slug": "udc-revenue-2019-p2",
+  "exam": "UDC under Land Revenue & Settlement Department",
+  "sitting": "2019",
+  "subject": "Paper-II",
+  "source": "Paper-II (Revenue).pdf",
+  "sourceSha256": "848c6c723a5c0b26697f4704f52724e5c0074487ca62380b60b0b4e0193dda5c",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USA and India",
+        "b": "UAE and Germany",
+        "c": "Japan and South Korea",
+        "d": "India and Pakistan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which two nations reaffirmed a joint commitment to fight against terrorism on June 12, 2019?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rajnath Singh",
+        "b": "Amit Shah",
+        "c": "Smriti Irani",
+        "d": "Nirmala Sitharaman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the new Defence Minister of India?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Los Angeles",
+        "b": "New York",
+        "c": "Mumbai",
+        "d": "Michigan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which city is known as city of Skyscrapers?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Germany",
+        "b": "Japan",
+        "c": "England",
+        "d": "Qatar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "FIFA World Cup 2022 is to be played in which country?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Marie Currie",
+        "b": "Archimedes",
+        "c": "Eli Whitney",
+        "d": "Rosa Parks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cotton Gin was invented by",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nexus",
+        "b": "Mosaic",
+        "c": "Internet Explorer",
+        "d": "Mozilla Firefox"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is the first web browsers invented in 1990?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr. R. Lalthangliana",
+        "b": "Lalrinliana",
+        "c": "Lalchamliana",
+        "d": "Lalchhandama"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The present Home Minister of Mizoram is",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rajeshwar Acharya",
+        "b": "Bhupen Hazarika",
+        "c": "Mary Kom",
+        "d": "Jyoti Bhatt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The recipient of the Bharat Ratna Award 2019 who hailed from North-East India was",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rabindranath Tagore",
+        "b": "Bal Gangadhar Tilak",
+        "c": "Jawaharlal Nehru",
+        "d": "Vasco Da Gama"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Discovery of India” was written by",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalhriatrenga Chhangte",
+        "b": "Lalnghinglova Hmar",
+        "c": "TBC Lalvenchhunga",
+        "d": "Zothantluanga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who, among the following, was not a candidate in the recent General Election to the Lok Sabha 2019?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Environment, Forest and Climate Change",
+        "b": "Ministry of Agriculture",
+        "c": "Ministry of Health",
+        "d": "Ministry of Finance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Ministry has constituted a Committee to implement the National Clean Air Programme (NCAP) recently?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TAB Tribal Web Portal",
+        "b": "DBT Tribal Web Portal",
+        "c": "TAB Schedule Tribe Portal",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What portal is recently launched by Union Ministry of Tribal Affairs to streamline and expedite the process of releasing scholarship grants directly into bank accounts of beneficiary students?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25th April",
+        "b": "28th April",
+        "c": "16th May",
+        "d": "20th May"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On which day is the National Dengue Day observed every year in India?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indian Institute of Technology",
+        "b": "Indian Institute of Techniques",
+        "c": "Institute of Indian Technology",
+        "d": "Institution of Indian Technicians"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The full form of IIT is",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Notepad",
+        "b": "Wordpad",
+        "c": "Notebook",
+        "d": "Excel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is a “text editor” for Microsoft Windows?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalhriatrenga",
+        "b": "Ngurthanzauva",
+        "c": "Abraham Lalthakima",
+        "d": "P. Lalchamliana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Winner of the Mizoram Pachak ber Competition 2019 was",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Denmark",
+        "b": "Germany",
+        "c": "Turkey",
+        "d": "France"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is known as the Sick Man of Europe?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalsangzuali Sailo",
+        "b": "James Dokhuma",
+        "c": "Rev. Dr. H.S. Luaia",
+        "d": "A. Sawihlira"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Padma Shree Awardee was",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2012",
+        "b": "2013",
+        "c": "2014",
+        "d": "2015"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ministry of Ayush, Government of India was set up in the year",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Marc Zuckerberg",
+        "b": "Evan Spiegel",
+        "c": "Simon Cowell",
+        "d": "Bill Gates"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the owner of snapchat?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China",
+        "b": "USA",
+        "c": "France",
+        "d": "Japan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is set to host the 45th G7 Summit in August 2019?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zoram Medical Center",
+        "b": "Zoram Medical College",
+        "c": "Zoram Medical University",
+        "d": "Zoram Medical Institute"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Medical Institute of Medical & Research (MIMER) was recently renamed as",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Favorite",
+        "b": "Green Book",
+        "c": "Bohemian Rhapsody",
+        "d": "Roma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The movie which bagged the largest number of Academy Awards in 2019 was",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "George Bernard Shaw",
+        "b": "Abul Fazl",
+        "c": "Charles Dickens",
+        "d": "William Shakespeare"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The play “Hamlet” was written by",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "video file",
+        "b": "audio file",
+        "c": "image file",
+        "d": "word file"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "gif is an extension of",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dinesh Karthik",
+        "b": "Virat Kohli",
+        "c": "Hardik Pandya",
+        "d": "Ishant Sharma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The present captain of India Cricket Team is",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "River Ganga, India",
+        "b": "River Nile, Egypt",
+        "c": "River Hwang Ho, China",
+        "d": "River Mississippi, USA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which river is known as the Yellow River?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1024 GB",
+        "b": "1028 GB",
+        "c": "1062 GB",
+        "d": "1012 GB"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One terabyte (1 TB) is equal to",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Love out of love",
+        "b": "Love ok laugh",
+        "c": "Laugh out of love",
+        "d": "Laugh out loud"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The frequently used abbreviation LOL means",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "South Korea",
+        "b": "Japan",
+        "c": "Taiwan",
+        "d": "Sri Lanka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country has become the first country in Asia to legalise same sex marriage?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Adidas",
+        "b": "Nike",
+        "c": "Puma",
+        "d": "Reebok"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Just Do it” is a slogan of which Brand?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sanglianthanga",
+        "b": "Lalnuntluanga",
+        "c": "Sangthankima",
+        "d": "Sangliankima"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The founder of Thutak Nunpuitute (TNT) of Zuangtui is",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2021",
+        "b": "2022",
+        "c": "2023",
+        "d": "2024"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Central Government of India has set a target of providing clean drinking water to all by the year",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Steve Jobs",
+        "b": "German Konrad Zuse",
+        "c": "John Mauchly",
+        "d": "Charles Babbage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is known as the Father of Computer?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bono",
+        "b": "Antonio Guterres",
+        "c": "Denis Mukwege and Nadia Murad",
+        "d": "Malala Yusufzai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "2018 Nobel Peace Prize was awarded to",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Second Agricultural Revolution",
+        "b": "Anti-Red Revolution",
+        "c": "Third Agricultural Revolution",
+        "d": "Agricultural and Healthy Revolution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Green Revolution is also known as",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "State Bank of India",
+        "b": "Axis bank",
+        "c": "ICICI",
+        "d": "HDFC"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which public sector bank has become the first bank in the country that has linked its deposit accounts and short term loans to an external benchmark?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Amit Shah",
+        "b": "Shashi Tharoor",
+        "c": "Thawarchand Gehlot",
+        "d": "Sitaram Dewan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following is appointed as leader of the Rajya Sabha?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi, India",
+        "b": "New York, USA",
+        "c": "Buenos Aires, Argentina",
+        "d": "Tokyo, Japan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where was the second Global Disability Summit held?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Stephen Hawking",
+        "b": "Jules Verne",
+        "c": "JK Rowling",
+        "d": "Arun Shourie"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Author of the book titled, “Around the World in Eighty Days” is",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Federation of Bureaucratic Investigation",
+        "b": "Federal Bureau of Invigilation",
+        "c": "Federal Bureau of Investigation",
+        "d": "Federal Bureau of Investments"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The full form of FBI is",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Christopher Columbus",
+        "b": "Vasco da Gama",
+        "c": "Michelangelo",
+        "d": "Leonardo Da Vinci"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The discoverer of the sea route to India in 1498 was",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MS Word",
+        "b": "MS Office",
+        "c": "Wordstar",
+        "d": "Google"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is the first word processor application?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cell",
+        "b": "Room",
+        "c": "Table",
+        "d": "Margin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The basic units of an excel spreadsheet where we enter data is called:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Novak Djokovich",
+        "b": "Rafael Nadal",
+        "c": "Roger Federer",
+        "d": "Dominic Thiem"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Winner of the Men’s single French Open 2019 in Tennis is:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "July 2020",
+        "b": "July 2019",
+        "c": "May 2020",
+        "d": "August 2021"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "2020 Summer Olympics will begin in:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Creeper virus",
+        "b": "Rabbies virus",
+        "c": "Datalog virus",
+        "d": "Elk cloner"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "First computer virus is known as:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "James Watt",
+        "b": "Galileo",
+        "c": "Thomas Edison",
+        "d": "Isaac Newton"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Steam engine was invented by:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arundhati Roy",
+        "b": "Malala Yousafzai",
+        "c": "Chetan Bhagat",
+        "d": "M.K. Gandhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Five Point Someone was authored by:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Saratchandra Chattopadhyay",
+        "b": "Kalidasa",
+        "c": "Mukunda Das",
+        "d": "Aurobindo Ghosh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The author of Devdas is:",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam State Army Personnel",
+        "b": "American School of Advance Psychology",
+        "c": "As soon as possible",
+        "d": "Amsterdam Science and Arts Programme"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The full form of an internet language ASAP is:",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Apple",
+        "b": "Dell",
+        "c": "Micromax",
+        "d": "Samsung"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mac Operating System is developed by which company?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Golden Hour – Kacey Musgraves",
+        "b": "Scorpion – Drake",
+        "c": "By the way, I forgive you – Brandi Carlile",
+        "d": "Invasion of Privacy – Cardi B"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Grammy Award for Best Album went to",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "United Nations Education, Scientific and Cultural Organisation",
+        "b": "United Nations Education, Scientific and Culture Organisation",
+        "c": "United Nations Educational, Scientific and Cultural Organisation",
+        "d": "United Nations Educational, Scientific and Culture Organisation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "UNESCO stands for",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Before midday",
+        "b": "Before midnight",
+        "c": "At midday",
+        "d": "At midnight"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ante meridiem (AM) means",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mizoram State Aid Control Society",
+        "b": "Mizoram State Aids Control Society",
+        "c": "Mizoram State Aids Counter System",
+        "d": "Mizoram State Aids Control System"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The full form of MSACS is",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "32 bit",
+        "b": "64 bit",
+        "c": "128 bit",
+        "d": "256 bit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Number of bit used by IPv6 address",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lucknow",
+        "b": "Indore",
+        "c": "Chennai",
+        "d": "Jaipur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which city is known as the pink city?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hnahthial, Tlabung, Saitual",
+        "b": "Hnahthial, Saitual, Khawzawl",
+        "c": "Khawzawl, Saitual, Mamit",
+        "d": "Saitual, Champhai, Khawzawl"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The three districts which were created in 2008 Mizoram were",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mukul Tripari",
+        "b": "Acharya Dev",
+        "c": "Dinesh Pangtey",
+        "d": "Shital Mukesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was appointed as the CEO of Life Insurance Corporation (LIC) Mutual Fund recently?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Robot Functioning",
+        "b": "Robotic Intelligence",
+        "c": "Artificial Intelligence",
+        "d": "Artificial Functioning"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Machine Intelligence, an intelligence demonstrated by machines, in contrast to      the natural intelligence displayed by humans is known as",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "South Africa",
+        "b": "Saudi Arabia",
+        "c": "Pakistan",
+        "d": "Philippines"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country’s Indian Embassy organized the ‘Gandhi Cycle Rally for Peace’ to march the 150th birth anniversary of Mahatma Gandhi?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rev. Zosangliana Colney",
+        "b": "C. Laldina",
+        "c": "V. Lalremtluanga",
+        "d": "Andrew Lalherliana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Chairman of the Mizoram Public Service Commission in 2019 is",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kummanam Rajasekharan",
+        "b": "Jagdish Mukhi",
+        "c": "Nibhay Sharma",
+        "d": "M.M.Lakhera"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The present governor of Mizoram is",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mat Lui",
+        "b": "Ser Lui",
+        "c": "Tlawng Lui",
+        "d": "Tuirini"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The longest river of Mizoram is",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Surf Excel",
+        "b": "Tide",
+        "c": "Rin",
+        "d": "Ariel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Company has launched the “Share the Load” Campaign and achieved Guinness World Records Certificate for ‘Largest Laundry Lesson’?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ALMA-K",
+        "b": "ALTO-I",
+        "c": "ALFA-X",
+        "d": "ALGO-R"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the world’s fastest bullet train that is tested by Japan recently?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "26",
+        "b": "25",
+        "c": "24",
+        "d": "23"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many seats did the MNF win in the 2018 MLA Election in Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India",
+        "b": "North Korea",
+        "c": "Egypt",
+        "d": "Norway"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is known as Land of Midnight Sun?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Worm",
+        "b": "Virus",
+        "c": "Malware",
+        "d": "Default"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In computer world, Trojan refers to",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mukseh Ambani",
+        "b": "Mark Zuckerberg",
+        "c": "Daniel Springteen",
+        "d": "Bill Gates"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the creator and owner of facebook?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "525",
+        "b": "535",
+        "c": "545",
+        "d": "555"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The number of seats in the Lok Sabha is",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sharad Kumar",
+        "b": "Sanjeeb Hussain",
+        "c": "Vinod Sundesha",
+        "d": "Minakshi Veet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was appointed as the Interim Central Vigilance Comissioner (CVC) for a term of four years?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Meenakshi Choudhuri",
+        "b": "Suman Rao",
+        "c": "Anukreeti Vas",
+        "d": "Manushi Chillar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The name of Femina Miss India World 2019 is",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15th August",
+        "b": "15th May",
+        "c": "15th June",
+        "d": "15th July"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "YMA Day is",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30",
+        "b": "35",
+        "c": "42",
+        "d": "48"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sum of three numbers is 98.If the ratio between the first and the second numbers be 2 : 3 and between the second and the third numbers be 5 : 8, then the second number is-",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "130",
+        "b": "145",
+        "c": "147",
+        "d": "152"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sum of five numbers is 555. The average of the first two numbers is 75 and the third number is 115. The average of the last two numbers is –",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10 km",
+        "b": "9 km",
+        "c": "7 km",
+        "d": "6 km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A boy goes to school with a speed of 3 km per hour and returns with a speed of 2 km per hour. If he takes 5 hours in all, the distance between his village and the school is –",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9 days",
+        "b": "10 days",
+        "c": "11 days",
+        "d": "12 days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘A’ can do a piece of work in 25 days and ‘B’ can finish it in 20 days. They work together for 5 days and then ‘A’ leaves. In how many days will ‘B’ finish the remaining work?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "48 hours",
+        "b": "45 hours",
+        "c": "42 hours",
+        "d": "38 hours"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A cistern can be filled by two taps A and B in 12 hours and 16 hours respectively. The full cistern can be emptied by a third tap C in 8 hours. If all the taps are turned on at the same time, in how much time will the empty cistern be filled up completely?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15 years",
+        "b": "16 years",
+        "c": "20 years",
+        "d": "24 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A certain sum of money doubles itself at simple interest in 8 years. In how many years will it be three times at the same rate?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 15000",
+        "b": "Rs 13500",
+        "c": "Rs 12500",
+        "d": "Rs 12350"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The present worth of Rs 14045 due on 1 year hence at 12 % per annum, compounded half - yearly is –",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "96",
+        "b": "98",
+        "c": "104",
+        "d": "108"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When 81 is added to 63 % of a number we get 72 % of the same number. What is 12 % of that number?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "90",
+        "b": "250",
+        "c": "510",
+        "d": "300"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a group of 850 persons, 600 can speak Hindi, 340 can speak Tamil and some persons can speak both Hindi and Tamil. The number of persons who can speak Hindi only is –",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "127",
+        "b": "128",
+        "c": "129",
+        "d": "130"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many three digit numbers are divisible by 7?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "70 cm",
+        "b": "75 cm",
+        "c": "80 cm",
+        "d": "90 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If a bicycle wheel makes 5000 revolutions in moving 11 km, then diameter of the wheel is",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "624 m²",
+        "b": "576 m²",
+        "c": "240 m²",
+        "d": "220 m²"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The longer side of a rectangular hall is 24 m and the length of its diagonal is 26 m. The area of the hall is –",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "24 m",
+        "b": "28 m",
+        "c": "30 m",
+        "d": "32 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A cylindrical water tank has a capacity of 5632 m³. If the diameter of its base is 16m, then its depth is –",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 78 22",
+        "c": "",
+        "d": " 75"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A box contains 20 balls bearing numbers 1, 2, 3, ...., 20 respectively. A ball is drawn at random from the box. What is the probability that the number on the ball is a prime number ? 33",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2475",
+        "b": "2540",
+        "c": "2590",
+        "d": "3100"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sum of all two digit odd positive numbers is –",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 20",
+        "b": "Rs 24",
+        "c": "Rs 28",
+        "d": "Rs 32"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A vendor sells lemon at the rate of 5 for Rs 14 gaining 40 %. For how much did he buy a dozen lemons?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3",
+        "b": "6",
+        "c": "4",
+        "d": "5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A shopkeeper allows a discount of 10 % on a dozen pairs of shoes marked at Rs 8000. How many pairs of shoes can be bought with Rs 2400?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 1300",
+        "b": "Rs 1200",
+        "c": "Rs 1150",
+        "d": "Rs 1125"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A dealer purchased a shirt for Rs 900. He allows a discount of 12 % on its marked price and still gains 10 %. The marked price of the shirt is-",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5m",
+        "b": "6m",
+        "c": "7m",
+        "d": "8m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Three plots having an area of 165m², 195m² and 285m² are to be subdivided into equal sized flower beds. If the breadth of a bed is 3m, then the maximum length that a bed can have is –",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8 years",
+        "b": "10 years",
+        "c": "12 years",
+        "d": "14 years −3−2 −24"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lala is six years younger than Mawia.Five years ago, Mawia was thrice as old as Lala. The age of Mawia is –",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 2127 −35",
+        "c": "",
+        "d": " 1716"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "By what number should be divided so that the quotient may be ? 327 4−2",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10",
+        "b": "12",
+        "c": "28",
+        "d": "48"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The median of the following data : 17, 2, 7, 27, 25, 5, 14, 18, 10, 24, 48, 10, 8, 7, 10, 28 is",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 2640",
+        "b": "Rs 2400",
+        "c": "Rs 2340",
+        "d": "Rs 2250"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The marked price of an item is Rs 2500 and a rebate of 10 % is given on it. After the rebate, sales tax is charged at 4 %. The net price of the item is –",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of 845−820+245−3125 is –",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5  m/s",
+        "b": "15  m/s",
+        "c": "35  m/s",
+        "d": "25  m/s"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Convert 90 km/h into m/s",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "A": [],
+    "B": []
+  }
+}

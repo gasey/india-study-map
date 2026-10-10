@@ -1,0 +1,22 @@
+{
+  "slug": "mes-pwd-2018-english",
+  "exam": "Jr. Grade of Mizoram Engineering Service (MES) under PWD",
+  "sitting": "August 2018",
+  "subject": "General English",
+  "source": "mes-pwd-2018-english.pdf",
+  "sourceSha256": "15e034ad75ca2f6b26e8d661745287cbb588e237d2865e908694ca04152f60f6",
+  "ocr": false,
+  "count": 0,
+  "questions": [],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/31020d8a6d006e036db94568c7f7c844/general-english-pwd.pdf",
+  "enrichmentVersion": 5,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

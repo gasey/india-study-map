@@ -1,0 +1,1723 @@
+{
+  "slug": "do-mar-2019-gs1",
+  "exam": "District Organiser (Contract) under DM & R Department",
+  "sitting": "March 2019",
+  "subject": "General Studies Paper-I",
+  "source": "General Studies Paper-I (DO, March).pdf",
+  "sourceSha256": "273bfeec6cc4721d8b62d6426423335578ad8df6fb796a468a07af9747bf1860",
+  "ocr": false,
+  "count": 74,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "December 4, 1826",
+        "b": "November 4, 1827",
+        "c": "November 4, 1828",
+        "d": "December 4, 1829"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The practice of Sati was abolished by Lord William Bentinck on:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Charles Grant",
+        "b": "Alexander Duff",
+        "c": "E. Storrow",
+        "d": "James Mill"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“History of British India” is written by:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mahatma Gandhi",
+        "b": "Dr. B. R Ambedkar",
+        "c": "Bal Gangadhar Tilak",
+        "d": "Jawaharlal Nehru"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the founder of ‘The Independent Labour Party’ in India?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tarabai Shinde",
+        "b": "Sarojini Naidu",
+        "c": "Tryambakayajvans",
+        "d": "Rashsundari Devi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the author of Stri-purusha-tulana (A comparison between men and women)?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pandit Ishwar Chandra Vidyasagar championed female education and led the campaign to legalize widow remarriage.",
+        "b": "M.G Ranade condemned the practice of Devadasi and worked for marriage reform in Madras.",
+        "c": "Swami Dayanand Saraswati encouraged female education and condemned the practices of dowry, polygyny and marriage between unequal ages.",
+        "d": "Raja Ram Mohan Roy is well known for his effort in abolishing the practices of Sati and child marriage."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which amongst the following is/are incorrect?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "the British",
+        "b": "the Mughals",
+        "c": "the Hindus",
+        "d": "Indian Women"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ram Mohan Roy was conferred with the title “Raja” by:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pandita Ramabai",
+        "b": "Swami Dayanand Saraswati",
+        "c": "Savitribai Phule",
+        "d": "Jyotiba Phule"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following established the Mukti Mission in Pune?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1883",
+        "b": "1885",
+        "c": "1886",
+        "d": "1889"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Ilbert Bill was a bill introduced during the Viceroyship of the Marquess of Ripon in:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "seven to nine years",
+        "b": "eight to ten years",
+        "c": "ten to twelve years",
+        "d": "twelve to eighteen years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Age of Consent Act, 1891 was a legislation enacted in British India on 19 March 1891 which raised the age of consent for sexual intercourse for all girls, married or unmarried, from:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1878",
+        "b": "1879",
+        "c": "1876",
+        "d": "1880"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Vernacular Press Act was passed in",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dandi",
+        "b": "Non-cooperation",
+        "c": "Khalifat",
+        "d": "Quit India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Do or Die’ is associated with the following movement.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1918",
+        "b": "1920",
+        "c": "1928",
+        "d": "1930"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Non-Cooperation was started in",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "the Indian Independence Act 1946",
+        "b": "the Indian Council Act 1909",
+        "c": "the Government of India Act 1919",
+        "d": "the Government of India Act 1935"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Montagu-Chelmford Report formed the basis of",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Wavell Plan",
+        "b": "Simon Commission Report",
+        "c": "Cripps Proposals",
+        "d": "Cabinet Mission Plan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Quit India Movement was launched in response to:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bal Gangadhar Tilak",
+        "b": "Subhash Chandra Bose",
+        "c": "Rajendra Prasad",
+        "d": "Vallabhai Patel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following leaders joined Mahatma Gandhi in the Champaran Satyagraha?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "compulsory economic support to war efforts",
+        "b": "imprisonment without trial and summary procedures for trial",
+        "c": "suppression of the Khilafat Movement",
+        "d": "imposition of restrictions on freedom of the press"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Rowlatt Act aimed at:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1901",
+        "b": "1902",
+        "c": "1906",
+        "d": "1908"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Muslim League established in December",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rowlatt Act",
+        "b": "Public Safety Bill",
+        "c": "Wood’s Bill",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bhagat Singh and B.K. Dutt threw a bomb in the Central Legislative Assembly on 8th April 1929 as a protest to which of the following Bill/Act?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1929",
+        "b": "1930",
+        "c": "1932",
+        "d": "1934"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Third Round Table Conference was held in:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sarojini Naidu",
+        "b": "Lakshmibai, the Rani of Jhansi",
+        "c": "Annie Besant",
+        "d": "Madam Cama"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following is considered as the ‘Grandmother of Indian Revolutionary Movement’?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1848 A.D",
+        "b": "1858 A.D",
+        "c": "1862 A.D",
+        "d": "1856 A.D"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The title of ‘Viceroy’ was added to the centre of the Governor-General of India for the first time in",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hind Keasari",
+        "b": "Kaiser-e-Hind",
+        "c": "Rai Bahadur",
+        "d": "Rt Honorable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The title given by the British government to Mahatma Gandhi which he surrendered during the Non- coopreation movement was:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "July 8, 1931",
+        "b": "June 8, 1931",
+        "c": "March 8, 1931",
+        "d": "January 8, 1931"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Gandhi Irwin Pact was signed on:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gandhiji and Jawaharlal Nehru",
+        "b": "Gandhiji and B.R Ambedkar",
+        "c": "B.R. Ambedkar and Jawaharlal Nehru",
+        "d": "Gandhiji and Muhammad Ali Jinnah"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In 1932, Poona Pact was signed between :",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gunda Dhur and Sidhu",
+        "b": "Birsa Munda and Kanhu Murmu",
+        "c": "Gunda Dhur and Birsa Munda",
+        "d": "Sidhu and Kanhu Murmu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On 30 June 1855, thousands of Santhals declared a rebellion against British colonists under the leadership of :",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Badruddin tyabji",
+        "b": "Womesh Chandra Bonnerji",
+        "c": "Dadabhai Naoroji",
+        "d": "N.G. Chandavarkar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first economic thinker of India who showed through his writings that the basic cause of India’s poverty lay in the British economic exploitation and drain of wealth was:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dispatch Charles Wood Secretary of state 1854",
+        "b": "Slavery Bill for Education",
+        "c": "Wonder of Education Reforms",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is called the Magna Carta of Western Education system in India?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1878",
+        "b": "1877",
+        "c": "1876",
+        "d": "1875"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Deccan Riots Commission was set up which presented a report to the British Parliament in",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2 are incorrect",
+        "b": "2 and 3 are correct",
+        "c": "1 and 3 are correct",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statement/s is/are correct? 1.In 1926 the Royal Commission on Agriculture was appointed to look into the condition of agriculture and urban economy in India. 2.The commission was expected to make recommendations regarding sub-division and fragmentation of holdings, improvement of livestock, irrigation, marketing, co-operation etc. 3.The Royal Commission on Agriculture recommended the establishment of the Imperial Council of Agricultural Research with a view to “promote, guide and co-ordinate agricultural research throughout Indian and link it up with agricultural research in other parts of the British empire and in foreign countries”.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Indian Factories (Amendment) Act, 1891",
+        "b": "The Indian Factories Act, 1911",
+        "c": "The Indian Factories Act, 1922",
+        "d": "The Indian Factories Act, 1948"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The minimum age of employment in industries/factories was fixed at 12 years by:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prime Minister",
+        "b": "President",
+        "c": "Supreme Court",
+        "d": "Parliament"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Fundamental Rights of Indian citizens can be suspended by",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USA",
+        "b": "Russia",
+        "c": "Ireland",
+        "d": "Germany"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The framers of Indian Constitution borrowed the Directive Principles form the constitution of",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USSR",
+        "b": "Canada",
+        "c": "Australia",
+        "d": "USA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of Fundamental Rights in Indian constitution is borrowed from the constitution of",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr. Sarvepalli Radhakrishnan",
+        "b": "Dr. Rajendra Prashad",
+        "c": "Dr. Shankar Dayal Sharma",
+        "d": "Dr. A.P.J. Abdul Kalam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first President of India was",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Confidence of Lok Sabha",
+        "b": "Support of President",
+        "c": "Support of the People",
+        "d": "Support of armed forces"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Prime Minister of India reminds in office so long as he enjoys the",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prime Minister",
+        "b": "President",
+        "c": "Union Council of Minister",
+        "d": "State Governor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Chief Justice of India is appointed by",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Review the Acts of the legislature and executive in case of come before it",
+        "b": "Determine the constitutional validity of the Acts",
+        "c": "Rejects the Act or any of its part which is against the constitution",
+        "d": "Rejects any kinds of resolution passed by the NGOs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regarding Judicial Review which one is not the purview of Indian courts",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Separation of powers",
+        "b": "Division of powers",
+        "c": "Equal Distribution of powers",
+        "d": "Concentration of powers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian Federalism means",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Role of Governor as a representative of Union Government",
+        "b": "Power of President to proclaims constitutional emergency in the state under article 356",
+        "c": "States demand for greater participation in the planning process.",
+        "d": "Jurisdiction of High Courts and the Supreme Court."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is not fall in the tension areas of Indian polity",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Multi party system",
+        "b": "One party system",
+        "c": "Two Party system",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian party system is a",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "In the national capital",
+        "b": "Two or more state",
+        "c": "Four or more state",
+        "d": "At least one Union Territory and two state"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A national political party is one which receives 4 % of the total votes polled in",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "One Election Commissioner and seven Election Commissioners",
+        "b": "One Election Commissioner and two members",
+        "c": "One Election Commissioners and four Election Commissioners",
+        "d": "One Election Commissioner and ten Election Commissioners"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Present Election Commission of India is a body of",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Love for one’s area of living region",
+        "b": "Maintenance of National Integration",
+        "c": "Nation and state building",
+        "d": "Centralization of power"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regionalism in a positive sense means",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1990",
+        "b": "1992",
+        "c": "1993",
+        "d": "1994"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "National Human Rights bill was passed by the Indian Parliament in",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Panchayati Raj",
+        "b": "Municipality",
+        "c": "Panchayati Samiti",
+        "d": "Zilla Parishad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Twelve Schedule of the constitution of India is concerned with",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2100 calories in rural areas & 2400 calories in urban areas",
+        "b": "2400 calories in rural areas & 2100 calories in urban areas",
+        "c": "2500 calories in rural areas & 2500 calories in urban areas",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The definition of Poverty Line in India is based on minimum daily requirement of",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SEPUP",
+        "b": "IRDP",
+        "c": "NREP",
+        "d": "TRYSEM"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Steps introduced by the government to eradicate urban poverty include",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40% of the population",
+        "b": "50% of the population",
+        "c": "60% of the population",
+        "d": "80% of the population"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Agriculture in India provides livelihood to about",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Monsoon Revolution",
+        "b": "New Economic Policy",
+        "c": "New Agricultural Production Policy",
+        "d": "New Agricultural Strategy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘Green Revolution’ is also known as",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "LDB",
+        "b": "IDBI",
+        "c": "NABARD",
+        "d": "ICICI"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not an Industrial Finance Institution?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1990",
+        "b": "1991",
+        "c": "1992",
+        "d": "1993"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "New Industrial Policy of India was introduced in the year",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "159",
+        "b": "249",
+        "c": "250",
+        "d": "301"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Economic Survey – 2010, the total number of Central Public Sector Enterprises is",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Single Sector",
+        "b": "Family Sector",
+        "c": "Local Sector",
+        "d": "Citizen Sector"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Private Sector as part of the economy is sometimes referred to as",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Same",
+        "b": "Increasing",
+        "c": "Decreasing",
+        "d": "Fluctuating"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Since the First Plan, the share of Agriculture and Allied Services in the GDP is",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "June 1949",
+        "b": "July 1949",
+        "c": "June 1969",
+        "d": "July 1969"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fourteen (14) major commercial banks were nationalized in",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Issue of currency",
+        "b": "Credit creation",
+        "c": "Moral suasion",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the followings is among the credit control methods used by the RBI?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Private and government",
+        "b": "Foreign and domestic",
+        "c": "Goods and services",
+        "d": "Balance of trade and balance of payment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two types of transactions in the capital account of balance of payment are",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Import and export restrictions",
+        "b": "Too much Indians working abroad",
+        "c": "Constantly widening gap between imports and exports and mounting deficit in the balance of trade",
+        "d": "Constant flow of foreign aid in the form of loans, assistance and grants from various governments"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The basic cause of the persistent deficit in India’s balance of payment is",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To correct the disequilibrium of the economy",
+        "b": "To promote industrial production",
+        "c": "To increase agricultural production",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The basic objective of the First Five-Year Plan was",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Emphasis on import-substitution-led industrialization",
+        "b": "Emphasis on heavy goods industries",
+        "c": "Emphasis on the growth of public sector",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The important component of the strategy adopted since the beginning of the Second Five-Year Plan is",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It lies in the rain shadow area",
+        "b": "There are no Mountains in this area",
+        "c": "The temperature is too high to let the winds cool down",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tamil Nadu receives very low amount of rainfall from south west monsoon. This is because?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Punjab- Haryana plains",
+        "b": "Rajasthan plains",
+        "c": "Uttar Pradesh, Bihar and Bengal plains",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Great Plains of India consists",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vindhyan range",
+        "b": "Aravali range",
+        "c": "Satpura range",
+        "d": "The Western Ghats of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A series of seven mountains in India",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tribes in Assam",
+        "b": "Tribes in Ladakh",
+        "c": "Tribes in Andhra Pradesh",
+        "d": "Tribes in Jharkhand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bihors are",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1901-1921",
+        "b": "1921- 1951",
+        "c": "1951-1981",
+        "d": "1981-2001"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which period is referred to as the period of population explosion?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Telegu",
+        "b": "Hindi",
+        "c": "Tamil",
+        "d": "Punjabi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The oldest Indian language is:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bihar",
+        "b": "West Bengal",
+        "c": "Kerela",
+        "d": "Uttar Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state in India has the highest density of population in 2011 census?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cereals",
+        "b": "Pulses",
+        "c": "Fruits",
+        "d": "Vegetables"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The main impact of the Green Revolution has been on",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "West Bengal",
+        "b": "Gujarat",
+        "c": "Punjab",
+        "d": "Assam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following states ranks first in terms of the maximum number of agro-based industries",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TISCO at Burnpur",
+        "b": "Durgapur Iron and steel plant",
+        "c": "TISCO at Jamshedpur",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the India’s oldest iron and steel plant?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1889",
+        "b": "1832",
+        "c": "1847",
+        "d": "1856"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When was the first modern paper mill of the country set up?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Raw materials",
+        "b": "Population",
+        "c": "Capital",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the most important for location of industries?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hyderabad",
+        "b": "Wardha",
+        "c": "Kolkotta",
+        "d": "Porbandar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In order to promote village industrialisation, Government of India has set up the Mahatma Gandhi Institute for Rural industrialisation in.",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam",
+        "b": "Goa",
+        "c": "Sikkim",
+        "d": "Kerela"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state in India has the smallest farm holding ?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q68 (p7, part None): only 2 option(s) ['a', 'b'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      68
+    ]
+  }
+}

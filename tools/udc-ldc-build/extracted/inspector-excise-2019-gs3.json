@@ -1,0 +1,2296 @@
+{
+  "slug": "inspector-excise-2019-gs3",
+  "exam": "Inspector under Excise & Narcotics Department",
+  "sitting": "2019",
+  "subject": "General Studies Paper-III",
+  "source": "General Studies Paper-III (Inspector of Excise).pdf",
+  "sourceSha256": "48edc94c7bbe3bac8ca58c1632d514a9f23f27174be77c981bf3d070cf1b07dd",
+  "ocr": false,
+  "count": 99,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1965",
+        "b": "1971",
+        "c": "1975",
+        "d": "1980"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Department of Science & Technology (DST) was established in",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "the scattering of light",
+        "b": "developing cryoelectron microscopy",
+        "c": "development of wireless telegraphy",
+        "d": "theoretical discoveries of topological phase transitions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "CV Raman was awarded Nobel Prize for his work on",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IndNuc",
+        "b": "GiantWeapon",
+        "c": "Smiling Buddha",
+        "d": "Smiling Krishna"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The assigned code name of India’s first successful nuclear bomb test was",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Asima Chatterjee",
+        "b": "Indira Gandhi",
+        "c": "Kiran Bedi",
+        "d": "Tessy Thomas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is known as The Missile Woman of India?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pragyan",
+        "b": "Vikram",
+        "c": "The Prag",
+        "d": "The Chandra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rover of Chandrayaan 2 is called",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Varâhamihira",
+        "b": "Bhaskara II",
+        "c": "Aryabhata",
+        "d": "Brahmagupta"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name an Indian Mathematician who was the first to give rules to compute with zero",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "promoting economically backward Indian researchers for carrying outresearch in the field of science & technology domains",
+        "b": "attracting the talent pool of the country to doctoral (PhD) Programsin top Indian institutes(such as IITs/IISERs/IISc/) for carrying out research in Cutting Edge Science & Technology domains",
+        "c": "promoting Indian women researchers for carrying out research in the field of science and technology",
+        "d": "promoting eligible Indian researchers for carrying out research abroad(outside India)in the field of science and technology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Prime Minister’s Research Fellowship (PMRF) scheme is aimed at",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IIT-Kanpur",
+        "b": "IISc Bangalore",
+        "c": "IIT-Roorkela",
+        "d": "CSIR-IIIM"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first national state-of-the-art cGMP facility for production of herbal preparations was established in",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "to promote scientific research on different electronic waste management system",
+        "b": "to promote the awareness on global warming and related issues",
+        "c": "to improve farm productivity and ensure better utilization of the resources in the country.",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pradhan Mantri Krishi Sinchai Yojana is a national mission",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "the development of cruise missile and its launch vehicle",
+        "b": "the development of ballistic missile and launch vehicle technology",
+        "c": "the development of nuclear reactors",
+        "d": "the development of Brahmos and Nirbhay missiles"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dr  APJ Abdul Kalam was known as the Missile Man of India for his work on",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Trombay",
+        "b": "Pokhran",
+        "c": "Jaipur",
+        "d": "Dholpur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Bhabha Atomic Research Centre (BARC) is India’s premier nuclear research facility, headquartered in",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CV Raman",
+        "b": "Vikram Sarabhai",
+        "c": "APJ Kalam",
+        "d": "Satish Dhawan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is known as Father of Indian Space Program?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "July 2014",
+        "b": "July 2015",
+        "c": "July 2016",
+        "d": "July 2017"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Government of India has launched the Digital India programme on",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DD Kisaanon TV",
+        "b": "DD Shram TV",
+        "c": "DD Kisan",
+        "d": "DD-Agri"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of an Indian agriculture 24-hour television channel, which is owned by Doordarshan which has been dedicated to agriculture and related sectors",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To map the lunar surface and help to prepare 3D maps of it.",
+        "b": "To study signature of water-ice on the lunar surface.",
+        "c": "To demonstrate the ability to soft-land on the lunar surface.",
+        "d": "All these."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What are the objectives of launching Chandrayaan-2 moon mission?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uddhab Bharali",
+        "b": "Prabhu Deva",
+        "c": "Vinod Kumar(b)Illias Ali"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is an Indian inventor from Assam, who received Padma Shri Award 2019",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "June 30th , 2008",
+        "b": "June 30th , 2018",
+        "c": "June 30th 2000",
+        "d": "June 30th , 2010"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The National Action Plan on Climate change was formally launched on",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Shanti Swarup Bhatnagar Prize for Science and Technology",
+        "b": "The Indian Science Award",
+        "c": "The Exellency Award for Science and Technology",
+        "d": "Sahitya Akademi Award for Science and Technology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of a science award in India given annually by the Council of Scientific and Industrial Research (CSIR) for notable and outstanding research in Science and Technology.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1959",
+        "b": "1970",
+        "c": "1980",
+        "d": "1969"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Television came to India in the year",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "to make all government services available to the citizens of India via electronic media.",
+        "b": "to provide cheap and fast Internet facilities to all Indian citizens",
+        "c": "to upgrade the infrastructures of Internet facilities in India",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The National e-Governance Plan (NeGP) is an initiative of the Government of India",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vijay P. Bhatkar",
+        "b": "CV Raman",
+        "c": "Azim Hashim Premji",
+        "d": "Shantanu Narayen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who developed the first Indian supercomputer, the PARAM 8000",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Subhash Mukhopadhyay",
+        "b": "Subhsis Deb",
+        "c": "Deepak Chopra",
+        "d": "A.G.K Gokhale"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who created the India’s first child using in-vitro fertilization",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "electronic delivery of identified high volume citizen centric services at such district  and sub-district level",
+        "b": "providing small financial loan through electronics channels for BPL family in the district",
+        "c": "computerization of all offices in the district main head quarters",
+        "d": "to facilitate disbursements of Government entitlements like NREGA, Social Security pension, Handicapped Old Age Pension etc under such districts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "e-District under NeGP  projects aims at",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1970",
+        "b": "1975",
+        "c": "1978",
+        "d": "1980"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Regional News Unit at AIR, Aizawl started functioning in",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chandrayan 1",
+        "b": "Bhaskara-II",
+        "c": "Aryabhata",
+        "d": "1-SATIND"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the India’s first satellite launched in 1975",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Star Tv Group",
+        "b": "Zee Tv",
+        "c": "Doordarshan",
+        "d": "TV-India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Television broadcasting began in India in 1959 by",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "VSNL",
+        "b": "BSNL",
+        "c": "NetOne",
+        "d": "Airtel India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first publicly available internet service in India was launched by",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Celkon",
+        "b": "Intex Technologies",
+        "c": "Karbonn Mobiles",
+        "d": "VK Munoth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the India’s first mobile brand?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Modi Telstra’s MobileNet service",
+        "b": "Bharti Airtel’s GSM MobileNet service",
+        "c": "Tata Docomo’s GSM Nerserve",
+        "d": "Hutch’s MobileNet service"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first cellular call was made in India over",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "June 15, 2019",
+        "b": "July 1, 2019",
+        "c": "July 22, 2019",
+        "d": "Augus 15, 2019"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Chandrayaan-2 was launched on",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BSNL",
+        "b": "Bharti Airtel",
+        "c": "Reliance Jio",
+        "d": "Tata DOCOMO"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which company is the first to provide 4G (fourth-generation) telecommunications service in India",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cenral Registar for Indian Citizens",
+        "b": "Unique Identity Description Authority of India",
+        "c": "Unique Identification Authority of India",
+        "d": "Unique Identity Access of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name of the government agency which serves as the issuing authority for Aadhaar unique identification numbers",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Phosphorus",
+        "b": "Bauxite",
+        "c": "Graphite",
+        "d": "Phosphorus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The following is used as a lubricant in heavy machines?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbon",
+        "b": "Silicon",
+        "c": "Beryllium",
+        "d": "Tantalum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the element required for solar energy conservation?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Study of cancer",
+        "b": "Study of ecosystem",
+        "c": "Study of Colon anatomy",
+        "d": "Study of reproductivity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is oncology?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A. Premji",
+        "b": "Larry Page",
+        "c": "Rajeev Motwani",
+        "d": "Sundar Pichai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the Google’s first India-born CEO?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "interference",
+        "b": "dispersion",
+        "c": "defraction",
+        "d": "total internal reflection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Optical fibres are based on the phenomenon of",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sial",
+        "b": "Silai",
+        "c": "Hmui",
+        "d": "Dar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the followings was not used to determine the traditional Mizo wealth?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bawhbel",
+        "b": "Awkpaka",
+        "c": "Fasuar",
+        "d": "Bahzar or Dawvan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The portion used as sleeping place in Zawlbuk was called",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Length of place",
+        "b": "Duration of time",
+        "c": "Size of body",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tangphel refers to",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bawrhkeu",
+        "b": "Khal",
+        "c": "Hnuaipui",
+        "d": "Arte hring ban"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A sacrifice performed after three days of the birth of a child was called:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pasaltha",
+        "b": "Thangchhuah",
+        "c": "Chief/Lal",
+        "d": "Bawlpu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Khuangur was a method of decomposing the dead body of:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sumfang",
+        "b": "Manpui",
+        "c": "Pusum",
+        "d": "Palal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Mizo custom the principal bride price is known as:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Parents of the bride do not marry or are divorced",
+        "b": "Father of the bride died",
+        "c": "Mother of the bride has more than one sister",
+        "d": "Mother of the bride was remarried"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Mizo marriage system, Nu man is application only when-",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Men",
+        "b": "Women",
+        "c": "Children",
+        "d": "Men and women"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hnawkhal was the dress worn by:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hunting",
+        "b": "Marriage",
+        "c": "War",
+        "d": "Religion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Solakia originally performed by the Lakhers  (Mara) was associated with",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chemsen Bawi",
+        "b": "Tukluh Bawi",
+        "c": "Inpui chhung Bawi",
+        "d": "Inhrang Bawi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A man who took refuge in the chief’s house due to poverty was known as",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fano Dawi",
+        "b": "Kawngpui siam",
+        "c": "Daibawl",
+        "d": "Chungpui"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A Mizo ceremony in order to have successful hunting is known as:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "On the first day",
+        "b": "On the Second Day",
+        "c": "On the third day",
+        "d": "On the fourth day"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On which day of the chapchar kut did the children perform the Chhawnghnawt?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Selesih",
+        "b": "Sialsuk",
+        "c": "Champhai",
+        "d": "Tachhip"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The famous Mizo Chief ‘Sibuta lung’ was erected at:",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chhawrtui",
+        "b": "Vaphai",
+        "c": "Chawngtui East",
+        "d": "Champhai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Thasiama Seno neihna is located in:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kawngpui siam",
+        "b": "Sathingzar",
+        "c": "Mitthirawp lam",
+        "d": "Khuallam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The feast performed to honour the spirit of ancestors was known as:",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chhim leh Hmar Indo",
+        "b": "Chhak leh Tlang Indo",
+        "c": "Thlanrawn rawt",
+        "d": "Vailen vawikhatna"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Khawnglung Run occurred during",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "23rd January 1870",
+        "b": "23rd January 1871",
+        "c": "23rd February 1870",
+        "d": "23rd February 1871"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bengkhuaia and his party raided the tea garden of Alexandrapore on",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "T. H Lewin",
+        "b": "Mc Cabe",
+        "c": "J. Shakespear",
+        "d": "N.E Parry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following was known as Tarmita?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Charles Stewart Murray",
+        "b": "J. Shakespear",
+        "c": "Vincent Tregear",
+        "d": "R.B.Mc Cabe"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Superintendent of South Lushai hills was",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bengkhuaia",
+        "b": "Hausata",
+        "c": "Zathawma",
+        "d": "Ngura"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizo chief who killed Capt Browne was",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Capt. Browne",
+        "b": "J. Shakespear",
+        "c": "Col. F.V.G Tregear",
+        "d": "Generals Brownlow and Bourchier"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was /were the commander /commanders of the Lushai Expedition of 1889?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kalkhama",
+        "b": "Ropuiliani",
+        "c": "Suakpuilal",
+        "d": "Kairuma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The last Mizo chief who put up resistance against the British was",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "N.E Parry",
+        "b": "J.Shakespear",
+        "c": "T.H. Lewin",
+        "d": "A.G. Mc Call"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the author of the ‘Lakhers’?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15th March 1891",
+        "b": "11th January 1894",
+        "c": "20th March 1891",
+        "d": "20th January 1894"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rev. William Williams arrived Mizoram on:",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr. John Williams",
+        "b": "Miss Winfred Margareth Jones",
+        "c": "Dr. Peter Fraser",
+        "d": "Dr. Gyneth Parul Roberts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first medical missionary in Mizoram was",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2100",
+        "b": "1200",
+        "c": "2500",
+        "d": "3100"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many Mizos participated in the First World War?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thirdeng",
+        "b": "Tlangau",
+        "c": "Khawchhiar",
+        "d": "Upa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name the village official created by the British after they occupied Mizoram.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1903",
+        "b": "1906",
+        "c": "1909",
+        "d": "1913"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The First Wave of Revival in Mizoram occurred in the year",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The First Wave",
+        "b": "The Second Wave",
+        "c": "The Third Wave",
+        "d": "The Fourth Wave"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which was considered the “greatest and most powerful” revival in Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lushai Students’ Association",
+        "b": "Young Mizo Association",
+        "c": "Lungleh Association",
+        "d": "Mizo Hmeichhe Tangrual Pawl"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first organization formed by the Mizos was",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zosapthar",
+        "b": "R. Dala",
+        "c": "Liangkhaia",
+        "d": "Thangphunga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first editor of Kristian Tlangau was",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1861-1862",
+        "b": "1868-1869",
+        "c": "1871-1872",
+        "d": "1889-1890"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When did the first documented Mautam famine occur in Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1942",
+        "b": "1945",
+        "c": "1946",
+        "d": "1947"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mizo Union, the first political party in Mizoram was formed in",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 2",
+        "c": "3 only",
+        "d": "3 and 4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Mizo political leader/leaders was/were associated with the UMFO or Zalen Pawl Party? 1)Pachhunga2)Lalhema 3)Lalmawia4)Rev. Zairema",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25th February 1952",
+        "b": "25th July, 1952",
+        "c": "25th July 1962",
+        "d": "6th May 1962."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizo District Council was inaugurated on:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mizo Union",
+        "b": "UMFO",
+        "c": "EITU",
+        "d": "None of the Above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Mizo political party had an objective of joining Burma",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 2",
+        "c": "1 and 3",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is / are correct about the MNF party? 1.The party chose ‘Self-determination’ as its aim. 2.The party declared independence for Mizoram against Indian Union on 5th March 1966. 3.It was declared an unlawful association under the Defense of India Rule on 6th March 1966.",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76 & 77): Find the odd man out in the following series",
+      "opts": {
+        "a": "49",
+        "b": "20",
+        "c": "1",
+        "d": "9"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "1, 4, 9, 16, 20, 36, 49",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76 & 77): Find the odd man out in the following series",
+      "opts": {
+        "a": "196",
+        "b": "25",
+        "c": "225",
+        "d": "72"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "16, 25, 36, 72, 144, 196, 225",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 78 & 79): Find the one which does not belong to the group",
+      "opts": {
+        "a": "35",
+        "b": "84",
+        "c": "57",
+        "d": "75"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "35, 48, 75, 84, 57",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 78 & 79): Find the one which does not belong to the group",
+      "opts": {
+        "a": "81",
+        "b": "45",
+        "c": "30",
+        "d": "54"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "30, 27, 81, 54, 72, 45",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 80 & 81): Find the missing number in the following series",
+      "opts": {
+        "a": "40",
+        "b": "21",
+        "c": "22",
+        "d": "10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "10, 5, 13, 10, 16, 20, 19, (…)",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 80 & 81): Find the missing number in the following series",
+      "opts": {
+        "a": "24",
+        "b": "27",
+        "c": "20",
+        "d": "22"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "8, 7, 11, 12, 14, 17, 17, 22,(…)",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 82 & 83): In each series, look for the degree and direction of change",
+      "opts": {
+        "a": "28",
+        "b": "32",
+        "c": "30",
+        "d": "26"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Look at this series: 58, 52, 46, 40, 34, …. what number should come next?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 82 & 83): In each series, look for the degree and direction of change",
+      "opts": {
+        "a": "1000",
+        "b": "900",
+        "c": "800",
+        "d": "400"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Look at this series: 12, 20, 100 , ? , 8900, 88900, 8, 88, 900, What number should come in between?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 82 & 83): In each series, look for the degree and direction of change",
+      "opts": {
+        "a": "CMN",
+        "b": "UJI",
+        "c": "VIJ",
+        "d": "IJT"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the missing letters in the following series. SCD,TEF,UGH,_____,WKL",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 82 & 83): In each series, look for the degree and direction of change",
+      "opts": {
+        "a": "R F U O J S P",
+        "b": "P F U O J S R",
+        "c": "P S J O U F P",
+        "d": "R S J O U F P"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a certain code, ‘COMPUTER’ is written as ‘RFUVQNPC’. How is  ‘PRINTER’ written in the same code?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 82 & 83): In each series, look for the degree and direction of change",
+      "opts": {
+        "a": "Moon",
+        "b": "Sun",
+        "c": "Universe",
+        "d": "Planets"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the word that is least like the other words in a group Moon, Sun, Universe, Planets",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 82 & 83): In each series, look for the degree and direction of change",
+      "opts": {
+        "a": "Hardship",
+        "b": "Rest",
+        "c": "Poverty",
+        "d": "Difficulty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Easiness’ is related to ‘Difficulty’ in the same way as ‘Comfort’ is related to",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 82 & 83): In each series, look for the degree and direction of change",
+      "opts": {
+        "a": "Brother",
+        "b": "Uncle",
+        "c": "Cousin",
+        "d": "Father"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pointing to a picture of a boy, Somesh said, ‘He is the son of the only son of my mother’. How is Somesh related to that boy?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 89 - 90): Find out how will the key figure (X) look like after rotation.",
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(x)(1)(2)3)(4)",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 89 - 90): Find out how will the key figure (X) look like after rotation.",
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(x)(1)(2)3)(4)",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 91 - 92): Find out which of the figures (1), (2), (3) and (4) can be formed",
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(x)(1)(2)(3)(4)",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 91 - 92): Find out which of the figures (1), (2), (3) and (4) can be formed",
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "(3)(4) (x)(1)(2)",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 91 - 92): Find out which of the figures (1), (2), (3) and (4) can be formed",
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Look carefully at the sequence of symbols to find the pattern, find the correct pattern. (1)(2)(3)(4)",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 94 & 95): Some proverbs/idioms are given below together with their",
+      "opts": {
+        "a": "To find one’s root",
+        "b": "Back to original position",
+        "c": "To emphasise",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To drive home",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 94 & 95): Some proverbs/idioms are given below together with their",
+      "opts": {
+        "a": "To listen eagerly",
+        "b": "To keep off starvation",
+        "c": "To give false alarm",
+        "d": ")None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To cry wolf",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 96 & 97):  In questions given below out of four alternatives, choose the",
+      "opts": {
+        "a": "Dotage",
+        "b": "Superannuation",
+        "c": "Senility",
+        "d": "Imbecility"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Extreme old age when a man behaves like a fool",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 96 & 97):  In questions given below out of four alternatives, choose the",
+      "opts": {
+        "a": "Anthropology",
+        "b": "History",
+        "c": "Ethnology",
+        "d": "Archaeology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The study of ancient societies",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 98 & 99):  Pick out the most effective word(s) from the given words to fill",
+      "opts": {
+        "a": "Luck",
+        "b": "Possibility",
+        "c": "Occasion",
+        "d": "Chance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Catching the earlier train will give us the …………. to do some shopping",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 98 & 99):  Pick out the most effective word(s) from the given words to fill",
+      "opts": {
+        "a": "Herd",
+        "b": "Group",
+        "c": "Flock",
+        "d": "Swarm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I saw a…………… of cows in the field",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question 100): In the following question, choose the word which is the exact opposite",
+      "opts": {
+        "a": "Started",
+        "b": "Closed",
+        "c": "Terminated",
+        "d": "Finished"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "COMMISSIONED",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q10 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      10
+    ]
+  }
+}

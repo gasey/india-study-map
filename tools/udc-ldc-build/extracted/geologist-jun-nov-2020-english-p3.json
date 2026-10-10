@@ -1,0 +1,2317 @@
+{
+  "slug": "geologist-jun-nov-2020-english-p3",
+  "exam": "Geologist Junior under Commerce & Industries Department (November)",
+  "sitting": "November 2020",
+  "subject": "General English Paper-III",
+  "source": "Geologist Junior General Englsih Paper-III Nov.pdf",
+  "sourceSha256": "a187e7638226fb839b18930b8a96b3a5779d504f232e7a13128b545664d5bf35",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Origin of magmatic cycle, chromite Supergroup and stratiform in nature",
+        "b": "Origin of magmatic cycle, Iron- ore Supergroup and stratiform in nature",
+        "c": "Origin of magmatic cycle, Iron-ore Supergroup and podiform in nature",
+        "d": "Skarn deposits, Iron- ore Supergroup and podiform in nature"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "97% of total chromite deposits in India occurred at Sukinda valley. Which of the following nature is related to this mineral deposit?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mica Belt of Andhra Pradesh",
+        "b": "Mica Belt of Bihar",
+        "c": "Mica Belt of Rajasthan",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Green color mica is related to which of the following belt (s)?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Contact Metasomatic Deposits",
+        "b": "Magmatic Deposits",
+        "c": "Replacement Deposits",
+        "d": "Residual Deposits"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following type of iron-ores deposits is important for India economy?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Apatite",
+        "b": "Asbestos",
+        "c": "Barytes",
+        "d": "Beryl"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Ghattihosahalli schist belt in India comprising an important deposit of which mineral?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Edeowie glass",
+        "b": "Fulgurite",
+        "c": "Moldavite",
+        "d": "Obsidian"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following natural glass has structurally similar to Lichtenberg figures?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Compound fertilizer",
+        "b": "Nitrogen fertilizer",
+        "c": "Phosphate fertilizer",
+        "d": "Potassium fertilizer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two minerals fluorapatite and hydroxyapatite is related with which of the following fertilizer?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CaO> SiO> AlO> FeO> MgO> SO",
+        "b": "CaO> SiO> FeO> AlO> SO> MgO 223233223233",
+        "c": "SiO> CaO> AlO> FeO> MgO> SO",
+        "d": "SiO> CaO> AlO> FeO> SO> MgO 22323 322323 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Portland cement made from the following properties with content (%) in ascending order of:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hydrothermal",
+        "b": "Lateral secretion",
+        "c": "Magmatic crystallization",
+        "d": "Magmatic segregation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A theory of nature of mineral deposit process that separation of ore minerals by frictional crystallization and related processes during magmatic differentiation is:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "a-ii; b- i; c- iv; d- iii",
+        "b": "a-iii; b- i; c- v; d- i",
+        "c": "a-ii; b- v; c- iv; d- iii",
+        "d": "a-i; b- iii; c- ii; d- v"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match the following and choose the correct answer regarding India’s status in mineral production in the world:- a)Coali)1st b)Copperii)3rd c)Manganeseiii)4th d)Zinciv)5th v)10th",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "UNFC is a three digit code based system- Economic viability axis, feasibility axis and",
+        "b": "Geological axis represented by four codes- Detailed exploration, general exploration,",
+        "c": "Feasibility axis have three codes- Feasibility study, Pre- feasibility study and geochemical",
+        "d": "Economic axis have three codes- Economic, potentially economic and intrinsically"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statement is **false** about UNFC classification?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NMP 2019 seeks to develop a sustainable framework for optimum utilisation of the",
+        "b": "NMP 2019 introduce Right of First Refusal for reconnaissance permit and prospecting",
+        "c": "NMP 2019 encouraging the private sector to take up exploration.",
+        "d": "Transfer of mining leases and creation of dedicated mineral corridors to boost private"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statement is **false** about National Mineral Policy 2019 (NMP 2019)?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Primary fluid inclusions",
+        "b": "Secondary fluid inclusions",
+        "c": "Pseudosecondary fluid inclusions",
+        "d": "Tertiary fluid inclusions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fluid inclusions which are trapped during formation of the host minerals are:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Copper skarn deposit",
+        "b": "Iron skarn deposit",
+        "c": "Tungsten skarn deposit",
+        "d": "Tulc and graphite skarn deposit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following skarn tectonic setting is related with oceanic island arcs?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ultramafic, MgO >12% and generally >15%",
+        "b": "Ultrapotassic, molar K₂O/Al₂O₃ <3",
+        "c": "Near-primitive Ni (>400 ppm), Cr (>1000 ppm), Co (>150 ppm)",
+        "d": "High H₂O and CO₂"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following geochemical parameter **is not** defined kimberlites?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chota Nagpur plateau",
+        "b": "North- Western Belt",
+        "c": "Sukinda valley",
+        "d": "Southern Belt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is known as ‘The mineral heart land of India’?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Electrical resistivity",
+        "b": "Gravity",
+        "c": "Magnetic",
+        "d": "Seismic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Geometry of the array is the basic principle of:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Electrical resistivity",
+        "b": "Gravity",
+        "c": "Ground Penetrating Radar",
+        "d": "Seismic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following **is not** active geophysical method?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Electrical resistivity",
+        "b": "Gravity",
+        "c": "Self Potential",
+        "d": "Seismic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which method apply for base metal exploration to detect massive ore bodies?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Clay",
+        "b": "Gravel",
+        "c": "Limestone",
+        "d": "Sandstone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following material is lowest metal factor?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Acoustic log",
+        "b": "Density log",
+        "c": "Gamma ray log",
+        "d": "Spontaneous potential log"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is possible to log works only in water based mud?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The small inter- electrode distances provide a very detailed image of near- surface inhomogeneities.",
+        "b": "An apparent resistivity map for a given electrode spacing indicates the general lateral variation in electrical properties in the area.",
+        "c": "If the data of Wenner sounding, the measured resistivity is plotted on the x-axis and the electrode separation on the y- axis.",
+        "d": "The data of Schlumberger sounding are plotted with electrode separation along the x-axis. This data should be drawn on a double logarithmic paper."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statement is **false** about resistivity method?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GSI’s Twin Otter Airborne Survey System",
+        "b": "GSI’s Heliborne Geophysical Survey System",
+        "c": "GSI’s Samudra Ratnakar",
+        "d": "GSI’s Samudra Manthan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "P-THEM Time Domain EM system, high sensitivity cesium magnetometer, GT-1A Gravimeter, hyper radio- spectrometer and multi-channel gramma ray spectrometer are the composition of:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Permissible error is 3m for station location and 1cm in station elevation as per GSI Standard Operating Procedure",
+        "b": "Permissible error is 5m for station location and 2cm in station elevation as per GSI Standard Operating Procedure",
+        "c": "Permissible error is 5m for station location and 3cm in station elevation as per GSI Standard Operating Procedure",
+        "d": "Permissible error is 10m for station location and 5cm in station elevation as per GSI Standard Operating Procedure"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statement is **correct** in Gravity survey?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gravity",
+        "b": "Magnetic",
+        "c": "Electrical Resistivity",
+        "d": "Seismic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Field data is corrected for diurnal variation, but no corrections for location, elevation and topography in which survey?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "‘High pass’ and ‘Upward continuation’ filtering techniques are used to enhance local",
+        "b": "‘Low pass’ and ‘Upward continuation’ filtering techniques are used for enhancement due",
+        "c": "‘Horizontal derivative’ and ‘Analytical Signal’ are used to sharpen the effects of contacts",
+        "d": "‘Reduction to pole’ filter is applied to magnetic anomalies to precisely locate the anomalous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the statement is **false** in preparation of basic anomaly map?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Active sonar system",
+        "b": "Acoustic positioning system",
+        "c": "Passive sonar system",
+        "d": "Side scan sonar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A sonar technique that uses the backscattering principle of incident acoustic beam to detect the shape of the object is:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Electrical Resistivity",
+        "b": "Gravity",
+        "c": "Magnetic",
+        "d": "Self Potential"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following geophysical method is best suited for sedimentary basin mapping?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Electrical Resistivity",
+        "b": "Gravity",
+        "c": "Magnetic",
+        "d": "Seismic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A method used to map the subsurface distribution of stratigraphy and its structure in hydrocarbon exploration is-",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Electrical Resistivity",
+        "b": "Gravity",
+        "c": "Magnetic",
+        "d": "Seismic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which geophysical survey is used to detect dense bodies of rocks within host formations of less dense wall rocks?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Density log",
+        "b": "Gamma Ray log",
+        "c": "Neutron log",
+        "d": "Self Potential log"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following log tool is only for water based borehole environment?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Research: conceptual studies- Target generation- Target drilling- Resource Evaluation-",
+        "b": "Research: conceptual studies- Target generation- Target drilling- Resource definition-",
+        "c": "Research: conceptual studies- Target generation- Resource Evaluation- Target drilling-",
+        "d": "Research: conceptual studies- Target generation- Resource definition-Target drilling-"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the correct sequence in prospect exploration stages?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Air core",
+        "b": "Diamond",
+        "c": "Reverse circulation (RC)",
+        "d": "Rotary air blast (RAB)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following exploration drill type is used for ore targeting and proving to 1000m and geological/ structural understanding?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "By drilling a hole to along strike from the discovery hole to intersect the target at the same depth.",
+        "b": "By drilling a hole to the same depth as the discovery hole and along strike from it.",
+        "c": "By drilling a deeper hole on the same cross-section.",
+        "d": "By drilling a hole along the dip direction from the discovery hole."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How to drill a hole the epigenetic mineralization, which is associated with normal fault, to predict the likely attitude of high grade ore shoots within or adjacent to it after initial discovery of ore?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chromite ores",
+        "b": "Porphyry copper",
+        "c": "Skarn- magnetite",
+        "d": "Vein gold"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following **is not** associated with hydrothermal deposits?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AAS",
+        "b": "ICP-ES",
+        "c": "ICP-MS",
+        "d": "XRF"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following method is used for refractory elements in exploration geochemistry?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Channel sampling",
+        "b": "Chip sampling",
+        "c": "Grab sampling",
+        "d": "Stratified sampling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A type of sampling obtained by collecting already broken of mineralized rock is:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aditting",
+        "b": "Augering",
+        "c": "Pitting",
+        "d": "Trenching"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A process of digging completed at right angles to the general strike to test and sample over long lengths across a mineralized zone is:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Auger drilling",
+        "b": "Percussion drilling",
+        "c": "Rotary drilling",
+        "d": "Reverse circulation drilling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A type of drilling method to collect rock chippings and is little contamination is:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Average Grade",
+        "b": "Minable Grade",
+        "c": "Run of Mine Grade",
+        "d": "Mill Feed and Tailing Grade"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The final quality of ore coming out of the mine or mine head is:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hypothetical",
+        "b": "Paramarginal",
+        "c": "Speculative",
+        "d": "Submarginal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In USGS/ USBM reserve classification scheme, a resources which are undiscovered theoretical mineral bodies in nature that may logically be expected to exist in known mining district or region under favorable geological conditions is:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Estimates made on the basis of measurements from widely spaced sampling points and exploratory openings with reasonable extrapolation on geological grounds.",
+        "b": "The shape, thickness variation, likely persistence, geological structure are broadly known. Some information on mineralogy, petrography of the host rock and wall rocks, ore dressing characteristics.",
+        "c": "The error of estimation of tonnage should be in the range of 30 to 50%.",
+        "d": "This category implies a clearly lower status to the ore reserve in terms of degree of assurance, in spite of being still within the direction of economic considerations."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following **is not** the characteristic of probable reserve based on BIS 1989?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aerial Photograph",
+        "b": "Remote Sensing",
+        "c": "Geographic Information System",
+        "d": "Global Positioning System"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Integration of data like hydrology, elevation, gossan zone, geology and geochemistry into digital single and unified mineral deposit database can be processed in:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lead- zinc- silver",
+        "b": "Nickel",
+        "c": "Uranium",
+        "d": "Zinc"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bryophyte moss has been a good indicator of which mineralization in Himachal Pradesh, India?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Barium- Silver deposits",
+        "b": "Platinum- Palladium in mafic- ultramafic rocks",
+        "c": "Sulfide deposits",
+        "d": "Wolframite- tin deposits"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Molybdenum (Mo) is a pathfinder element for the deposit of:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Isograde",
+        "b": "Polygona",
+        "c": "Square and Rectangle",
+        "d": "Triangular"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following reserve estimation method is suitable for flat and low-dipping disseminated deposits with variable thickness and grade?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Grade 1 (G-1)",
+        "b": "Grade 2 (G-2)",
+        "c": "Grade 3 (G-3)",
+        "d": "Grade 4 (G-4)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gross Caloric Value (GVC) of non- coking coal exceeding 6700 K. Cal/Kg and not exceeding 7000 K. Cal/Kg is:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bokaro coalfield",
+        "b": "Jharia coalfield",
+        "c": "Girdih coalfield",
+        "d": "Talcher coalfield"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following coalfield is the finest coking coal in India?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Birampur coalfield",
+        "b": "Chirmiri coalfield",
+        "c": "Sonhat coalfield",
+        "d": "Talcher coalfield"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pick the odd one from the coalfield in India:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fusinite",
+        "b": "Funginite",
+        "c": "Micrinite",
+        "d": "Secretinite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A type of maceral having very fine- grained material, fine particles of small size (2 microns and high reflectance is:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lithotypes",
+        "b": "Microlithotypes",
+        "c": "Macerals",
+        "d": "Kerogen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The macroscopically recognizable bands in humic coals and are the result of plant growth having band thickness between 3mm and 10mm are:",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "By heating an accurately weighed sample of the coal in an adequately ventilated muffle",
+        "b": "By heating an 1g of coal in ventilated muffle furnace at temperatures in the range 500 to",
+        "c": "By heating an 1g of coal in a platinum crucible at 500 to 600^oC for 7 minutes.",
+        "d": "By heating 1g of coal weighed in a platinum crucible with a close- fitting cover at 950±20^oC"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following test method is correct for the determination of mineral ash in coal?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bokaro",
+        "b": "Cambay",
+        "c": "Jharia",
+        "d": "Karanpura"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following block is not related with ONGC Coal-bed methane (CBM) gas blocks?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lower Bhuban Formation, 3318-3325m, maximum flame height 10ft.",
+        "b": "Middle Bhuban Formation, 3318-3325m, maximum flame height 8ft.",
+        "c": "Upper Bhuban Formation, 3318-3325m, maximum flame height 10ft.",
+        "d": "Ranighanj Formation, 3318-3325m, maximum flame height 10ft."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A natural gas discovered by ONGC at Meidum exploring site in 2011. Which of the following statement is correct regarding this achievement?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "80- 90^oC",
+        "b": "80- 150^oC",
+        "c": "100- 150^oC",
+        "d": "150- 180^oC"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An ideal temperature range for transformation of kerogen to hydrocarbon at a depth of 3-4km with a normal geothermal gradient is:",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Geochemical analysis",
+        "b": "Hydro- chemical survey",
+        "c": "Rock- Aval",
+        "d": "Sniffer survey"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following analysis is a standard routine analysis of source rocks to establish how much of the kerogen transformed intro petroleum and how much can be transformed at a higher temperature?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The flow of petroleum from source rock to reservoir rocks.",
+        "b": "Expulsion of petroleum from fine- grained source rock.",
+        "c": "Petroleum moves through a coarse carrier bed.",
+        "d": "Petroleum moves from one trap to another or to a seep."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the characteristic of primary migration of petroleum?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Coring",
+        "b": "Exploration well",
+        "c": "Well logging",
+        "d": "Well testing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following (drilling) well is aimed to confirm the presence of the petroleum accumulation?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The age of Mumbai offshore basin ranges from late Cretaceous to Holocene with thick sedimentary fill ranging from 1100-5000m.",
+        "b": "Mumbai offshore is a peri-cratonic rift basin situated on western continental margin of India, Paleocene- Lower Eocene source rocks, seals are Middle to Upper Miocene shales.",
+        "c": "Mumbai offshore is an intra-cratonic, structural and stratigraphic traps, Paleocene- Eocene source rocks, cap rocks are Middle to Upper Miocene shales",
+        "d": "Structural trap, source rocks are clastic sediments of Paleocene- Eocene (Panna Formation), reservoir rocks are Sandstone, Limestone and Siltstone and cap rocks are Middle to Upper Miocene shales."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following **is not** the characteristic of Mumbai offshore Basin?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hydrothermal (Vein and Disseminated) type",
+        "b": "Sandstone type",
+        "c": "Stratabound, Carbonate- hosted type",
+        "d": "Unconformity- proximal type"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What type of uranium mineralisation occur in the Domiasiat- Wahkyn area, Meghalaya?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Radioactive wastes has very little space requirement for its storage and reduction of intensity of",
+        "b": "Low and intermediate level radioactive wastes are usually disposed of by shallow land burial",
+        "c": "The long- lived radioactive wastes in a monitored place for ~10 years.",
+        "d": "Storage of radioactive wastes in a geological formation is the best mode of disposal available,"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statement is false about nuclear (radioactive) waste disposal?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bearing capacity",
+        "b": "Cone penetration",
+        "c": "Factor of safety",
+        "d": "Point load"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following parameter is important for construction of residential building?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1.71%",
+        "b": "12.28%",
+        "c": "17.1%",
+        "d": "18.23%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A sample of wet soil has a volume of 0.0192m³ and a mass of 32kg. When the sample is dried out in an oven, its mass reduces to 28.5kg. The water content of soil is:",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "C_c=",
+        "b": "C_c= D10D60 (D30)²(D10)²",
+        "c": "C_c=",
+        "d": "C_c= D60 x D10D60 x D30"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The coefficient of curvature (C_c) after particle size distribution curve is given by the formula of: D60D10",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8.25kN/m² & 1.0kN/m²",
+        "b": "16.5kN/m² & 8.25kN/m²",
+        "c": "33.0kN/m² & 1.0kN/m²",
+        "d": "33.0kN/m² & 16.5kN/m²"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The unit weight of the soil in a uniform deposit of loose sand (K_o= 0.50) is 16.5kN/m³. The geostatic stresses at a depth of 2m is:",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "s = c ± stanw",
+        "b": "s = c + stanw",
+        "c": "s = s + ctanw",
+        "d": "s = cs + tanw"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The fundament formula for civil engineering projects, a shear strength (s) given by Mohr- Colomb is:",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Auger boring",
+        "b": "Core boring",
+        "c": "Percussion drilling",
+        "d": "Rotary drilling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which type of boring is extensively used for subsurface investigations of highways, railways and air fields?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Denison sampler",
+        "b": "Hand- carved samples",
+        "c": "Piston sampler",
+        "d": "Shelby tubes and thin- walled sampler"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following sampler is used for getting undisturbed soil samples from soft and sensitive clays?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Braced cut",
+        "b": "Bulkhead",
+        "c": "Coffer dam",
+        "d": "Conduit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is a temporary structure built to enclose an area for excavation of foundation?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Isolated footing on clay",
+        "b": "Isolated footing on sand",
+        "c": "Raft on clay",
+        "d": "Raft on sand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The permissible settlement is the maximum in the case of:",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dip and dip direction",
+        "b": "Joint spacing",
+        "c": "Rock quality designation",
+        "d": "Strength of rock"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following parameter is not important for Rock Mass Rating (RMR) classification?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Debris spead",
+        "b": "Mud flow",
+        "c": "Rotational slide",
+        "d": "Translational slide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A type of landslide, slip surface is circular for homogeneous soil conditions and non- circular in non- homogeneous condition, main scarp nearly vertical and material bulge upward is:",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0.8",
+        "b": "0.12",
+        "c": "0.18",
+        "d": "0.24"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to IS: 1893- 2002, the value of the horizontal seismic coefficient for any structure with natural period of vibration in second (T)≤0.1 cannot be less than Z/2 (Z= Zone factor of the seismic zone). The horizon seismic coefficient for seismic zone V is:",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pile foundation",
+        "b": "Raft foundation",
+        "c": "Spread footing",
+        "d": "Well foundation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The type of foundation generally suitable for buildings on liquefiable soils deposit is:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Churachandpur- Mao fault",
+        "b": "Kaladan fault",
+        "c": "Gumti fault",
+        "d": "Sagaing fault"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following geological structure is not much influence seismicity of Tripura- Mizoram region?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1:3:6 (Cement-lime- sand)",
+        "b": "1:2:9 (Cement-lime- sand)",
+        "c": "1:1:6 (Cement-lime- sand)",
+        "d": "1:1:4 (Cement-lime- sand)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Based on earthquake resistant provisions in masonry buildings, the mortar mix is:",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "15",
+        "b": "16",
+        "c": "17",
+        "d": "18"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "2, 4, 7, 9, 12, 14, ...",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "42",
+        "b": "41",
+        "c": "40",
+        "d": "39"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "5, 11, 17, 23, 29, 35, …",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "4.9",
+        "b": "5.1",
+        "c": "5.3",
+        "d": "5.5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "1.3, 2.1, 2.9, 3.7, 4.5, ...",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "115",
+        "b": "114",
+        "c": "113",
+        "d": "112"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "131, 129, 124, 122, 117, ...",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "12",
+        "b": "13",
+        "c": "14",
+        "d": "15"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "6, 27, 10, 23, 14, 19, 18, …",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "7",
+        "b": "3",
+        "c": "5",
+        "d": "8"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "429, 87, 23, 9, 6, ...",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "324",
+        "b": "664",
+        "c": "996",
+        "d": "348"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "89, 178, 170, 340, 332, …",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "57",
+        "b": "58",
+        "c": "59",
+        "d": "60"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "42 44 46 49 51 53 56, …",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "3, 1, 4, 5, 2",
+        "b": "3, 1, 2, 4, 5",
+        "c": "1, 2, 4, 3, 5",
+        "d": "5, 4, 3, 2, 1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrange the words given below in a meaningful sequence. 1.Police2.Punishment 3.Crime4.Judge 5.Judgement",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "3, 4, 5, 1, 2",
+        "b": "4, 1, 3, 5, 2",
+        "c": "4, 3, 1, 5, 2",
+        "d": "4, 3, 1, 2, 5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrange the words given below in a meaningful sequence. 1.Leaf2.Fruit 3.Stem4.Root 5.Flower",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "wheel",
+        "b": "steering bar",
+        "c": "pedal",
+        "d": "bycicle"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word does NOT belong with the others?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "guitar",
+        "b": "flute",
+        "c": "violin",
+        "d": "cello"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word does NOT belong with the others?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "Only (1) conclusion follows",
+        "b": "Only (2) conclusion follows",
+        "c": "Both (1) and (2) follow",
+        "d": "Neither (1) nor (2) follows"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the conclusions which logically follow from the given statements. Statements:Some dogs are bats. Some bats are cats. Conclusions:1. Some dogs are cats.2. Some cats are dogs.",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "Only (3)",
+        "b": "Only (1) and (3)",
+        "c": "Only (3) and (4)",
+        "d": "Only (2) and (4)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the conclusions which logically follow from the given statements. Statements:No door is dog. All the dogs are cats. Conclusions:1. No door is cat.2. No cat is door.3. Some cats are dogs. 4. All the cats are dogs.",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "Only (1) and (4)",
+        "b": "Only (3) and (4)",
+        "c": "Only (2) and (4)",
+        "d": "Only (1) and (2)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the conclusions which logically follow from the given statements. Statements:All the phones are scales. All the scales are calculators. Conclusions:1. All the calculators are scales.2. All the phones are calculators 3. All the scales are phones.4. Some calculators are phones.",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "32 triangles",
+        "b": "34 triangles",
+        "c": "36 triangles",
+        "d": "38 triangles"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the number of triangles in the given figure.",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the minimum number of different colours required to paint the given figure such that no two adjacent regions have the same colour?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select a suitable figure from the four alternatives that would complete the figure matrix. (1)(2)(3)(4) (X)",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "4",
+        "b": "3",
+        "c": "2",
+        "d": "1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the figure that completes the pattern. (1)(2)(3)(4) (X)",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select a figure from amongst the Answer Figures which will continue the same series as established by the five Problem Figures. Problem Figures:Answer Figures: (1)(2)(3)(4) (X)",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "D",
+        "b": "B",
+        "c": "C",
+        "d": "Data is inadequate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If P $ Q means P is the brother of Q; P # Q means P is the mother of Q; P * Q means P is the daughter of Q in A # B $ C * D, who is the father?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "North-East",
+        "b": "North-West",
+        "c": "South-East",
+        "d": "South-West"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If North-East becomes West, South-East becomes North, and so on. What will West become?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "1, 2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "1, 2, 3 and 4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the box that is similar to the box formed from the given sheet of paper (X). (X)(1)(2)(3)(4)",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "Only I follows",
+        "b": "Only II follows",
+        "c": "Both I and II follow",
+        "d": "Neither I nor II follows"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Assuming the statement to be true and on the basis of the information given in the statement, decide which of the suggested courses of action logically follow(s): Statement: A large number of people in Ward X of the city are found to be Covid-19 positive. Courses of Action: I.The city municipal authority should take immediate steps to carry out extensive contact tracing in Ward X. II.The people in the area should be advised to take necessary precautions.",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 76-83): What number should come next in the following series?",
+      "opts": {
+        "a": "Only I follows",
+        "b": "Only II follows",
+        "c": "Either I or II follows",
+        "d": "Neither I nor II follows"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Assuming the statement to be true and on the basis of the information given in the statement, decide which of the suggested courses of action logically follow(s): Statement: Severe earthquake is reported to have set in several parts of the state. Courses of Action: I.Government should immediately make arrangement for providing financial assistance to those affected. II.Proper psychological interventions are necessary to restore the mental health of the people in the affected area.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

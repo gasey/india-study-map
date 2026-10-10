@@ -1,0 +1,181 @@
+{
+  "slug": "mes-phe-2014-english",
+  "exam": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department",
+  "sitting": "2014",
+  "subject": "General English",
+  "source": "mes-phe-2014-english.pdf",
+  "sourceSha256": "09b9a0476c8ec4ca7c0afed6fb59da7c94383476a0737532c0f4d709088f2881",
+  "ocr": false,
+  "count": 7,
+  "questions": [
+    {
+      "n": 3,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Why is it not  easy to forecast the weather?(4)",
+        "b": "What is drought and what are its consequences?(4)",
+        "c": "Does the author endorse popular sayings about the weather?(4)",
+        "d": "How would the moon help the people in forecasting weather?(4)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following passage carefully and answer the questions that follow: Forecasting the weather or trying to find out what it will be like in several days’ time, has always been a difficult business. Many different things affect the weather and each one has to be carefully studied before we can make even a fairly accurate forecast. The ancient Egyptians, of course, had no need of this because the weather in the Nile Valley hardly ever changes but people living farther north had to protect themselves and their crops. During a period of drought, when no rain fell for weeks on end, streams and rivers dried up, cattle died from thirst and crops were ruined. A storm could wreck ships and houses and heavy falls of rain caused river to flood a whole countryside. Actions in the sky stirred man into action, and in this respect farmers became just as men of  actions as were  sailors on the high seas. Both had to reckon with the weather –it often upset their plans, sometimes with disastrous results. In early times, when there were no instruments such as thermometer or barometer, man looked for tell-tale signs in the sky. He made his forecasts by watching the flights of birds or the way smoke rose from a fire. He thought that the moon controlled the weather, that it held a lot of water, especially when as a crescent or sickle shaped moon it lay on its back. Even today there are people who think that the sight of the moon on its back means that the rain is on its way. Many of the weather sayings are still heard today. A red sky at night is the shepherd’s delight. A red sky in the morning is the shepherd’s warning. Do you believe this? It’s sometimes right but more often wrong. If this and hundreds of other sayings like it were true, there would be no need for weather science or meteorology.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Great many people attended the meeting.",
+        "b": "The whole India mourned the death of Nehru.",
+        "c": "From when have you been here?",
+        "d": "He picks up a quarrel with everybody."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Correct  the following sentences:(10×1=10)",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I **deposited** all the money at the bank.",
+        "b": "The gems are **priceless**.",
+        "c": "The crowd **assembled** at the park.",
+        "d": "The old man was very **generous**."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Give words opposite in  meaning to the underlined words in each sentence:(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The (remove) of poverty is no easy task.",
+        "b": "(Punctual) is essential in this job.",
+        "c": "Have you no (curious) in you?",
+        "d": "He was punished for his (atrocity) crime."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Write out  the following sentences using an appropriate form of the words within brackets(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "At the spur of the moment",
+        "b": "Bear the brunt of",
+        "c": "Beside the mark",
+        "d": "Cut a sorry figure"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Use any five (5) of the following Idioms and Phrases in  meaningful sentences:(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To be charitable is (virtual, virtuous)",
+        "b": "Judges have (judicial, judicious) power to decide cases.",
+        "c": "The tourist walked over to the (brink, brim) of the cliff to take a picture.",
+        "d": "I can (deduct, deduce) from his appearance that James is going to a party."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct word from each pair in the bracket  and rewrite the sentences:(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Beneficial; Beneficient",
+        "b": "Cite; Site",
+        "c": "Course; Coarse",
+        "d": "Disease; Decease"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences to show the difference between the following pairs of words:(5×2=10)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  }
+}

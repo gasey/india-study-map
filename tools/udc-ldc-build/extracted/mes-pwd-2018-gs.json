@@ -1,0 +1,2320 @@
+{
+  "slug": "mes-pwd-2018-gs",
+  "exam": "Jr. Grade of Mizoram Engineering Service (MES) under PWD",
+  "sitting": "August 2018",
+  "subject": "General Studies",
+  "source": "mes-pwd-2018-gs.pdf",
+  "sourceSha256": "fc3021a8ac858d60e56000d4cb206f2e74fff7a2b6b1f8a9efc5da68ea2256db",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mesosphere",
+        "b": "Stratosphere",
+        "c": "Troposphere",
+        "d": "Ionosphere"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Appleton Layer is a layer of air in the",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3412",
+        "b": "3142",
+        "c": "2413",
+        "d": "1234"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match the following statements: 12 A.Force1.mv 2 B.Kinetic Energy2.F × t C.Potential Energy3.m × a D.Impulse4.Mgh Codes ABCD",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Electrolysis of acidulated water",
+        "b": "Burning of phosphorus in air",
+        "c": "Dissolving sulphur in carbon disulphide",
+        "d": "Passing carbon dioxide into lime water"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a physical change?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Flame Cells",
+        "b": "Nerve Cells",
+        "c": "Leucocytes",
+        "d": "Erythrocytes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following acts as soldiers in the body?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DNA only",
+        "b": "RNA only",
+        "c": "DNA or RNA",
+        "d": "Both DNA and RNA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Viruses have:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aleurone layer",
+        "b": "Endosperm",
+        "c": "Pericarp",
+        "d": "Embryo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The part of the grain in cereals where much of the protein lies is the:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Do not radiate heat",
+        "b": "Radiate heat",
+        "c": "Radiate heat only for particular materials",
+        "d": "May radiate heat or may not"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bodies at 0°C:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Conduction",
+        "b": "Suction",
+        "c": "Convection",
+        "d": "Radiation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Heat and smoke in a kitchen are transferred through the chimney by:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0°C",
+        "b": "-12°C",
+        "c": "4°C",
+        "d": "15°C"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Water has a maximum density at:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Convection",
+        "b": "Radiation",
+        "c": "Conduction",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The inside of both the walls of a thermos flask are silvered in order to reduce the heat loss by:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "400m",
+        "b": "400km",
+        "c": "750m",
+        "d": "Data is insufficient"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Frequency of a radiowave is 750 Hz and its wavelength is:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thiokol",
+        "b": "Drikold",
+        "c": "Perhydrol",
+        "d": "Mannitol"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Solid carbon dioxide is known as:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lactose",
+        "b": "Fructose",
+        "c": "Sucrose",
+        "d": "Galactose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Honey produced from honey bees is used as food and medicine and the major compound in honey is:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Antibiotics",
+        "b": "Humulin",
+        "c": "Alcoholic drinks",
+        "d": "Citric acid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The oldest product of biotechnology known to man is:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Autotrophs",
+        "b": "Heterotrophs",
+        "c": "Saprotrophs",
+        "d": "Auxotrophs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Organisms which synthesize their own food are called:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Xerophthalmia",
+        "b": "Haemopoiesis",
+        "c": "Haemophilia",
+        "d": "Haemoerythrin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The disease in which blood clotting does not take place is known as:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A chain reaction",
+        "b": "Reversible reaction",
+        "c": "Reflex action",
+        "d": "No reaction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Clotting of blood is:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "An auricular diastole and a systole",
+        "b": "A ventricular systole and diastole",
+        "c": "An auricular systole and ventricular systole",
+        "d": "An auricular systole, a ventricular systole and a pause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A single heartbeat is equal to:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Landsteiner",
+        "b": "Lister",
+        "c": "William Harvey",
+        "d": "Pasteur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The scientist who discovered the blood group is:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "White blood corpuscles",
+        "b": "Red blood corpuscles",
+        "c": "Blood platelets",
+        "d": "plasma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Oxygen transport is a function of:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bone marrow",
+        "b": "Spleen",
+        "c": "Liver",
+        "d": "Lymph nodes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lymphocytes are manufactured by:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Maltose",
+        "b": "Casein",
+        "c": "Peptides",
+        "d": "Fatty acids and glycerol"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lipase converts fats into:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pituitary",
+        "b": "Thyroid",
+        "c": "Pancreas",
+        "d": "Thymus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following glands receives messages from hypothalamus and communicates with other endocrine glands?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ganga",
+        "b": "Narmada",
+        "c": "Yamuna",
+        "d": "Sindhu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The river par excellence of the Aryans is called:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2341",
+        "b": "3214",
+        "c": "1234",
+        "d": "3142"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match List I with List II. List IList II (Names of presidents of the National Congress)(Sessions presided by them) A.William Wedderburn1.Calcutta Session B.George Yule2.Bombay Session C.Badruddin Tyabji3.Allahabad Session D.Pheroze Shah Mehta4.Madras Session Choose the correct alternatives: Codes ABCD",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Buddhism",
+        "b": "Jainism",
+        "c": "Brahmanism",
+        "d": "The moral values of all Indian religions of that period"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The principles of Asoka’s Dharma (Dhamma) were taken from:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Hindu",
+        "b": "Indian Express",
+        "c": "Times of India",
+        "d": "New India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following was the newspaper of Annie Besant?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Govinda III",
+        "b": "Dantidurga",
+        "c": "Amogavarsha",
+        "d": "Krishna I"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has built the famous Kailasa Temple at Ellora?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Music",
+        "b": "Dancing",
+        "c": "Painting",
+        "d": "Architecture"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Pahari School,’ ‘Rajput School,’ Mughal School’ and ‘Kangra School’ represent different style of Indian:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Magadhi",
+        "b": "Prakrit",
+        "c": "Mythili",
+        "d": "Sanskrit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The official language of the Mauryan Court was:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Epidemics",
+        "b": "Temple architecture",
+        "c": "Inscriptions",
+        "d": "Rocks and mountains"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Epigraphy is the study of:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Syria",
+        "b": "Saudi Arabia",
+        "c": "Iran",
+        "d": "Turkey"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Khilafat Movement was organised to protest against the injustice done to:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Porbandar",
+        "b": "Ahmedabad",
+        "c": "Bombay",
+        "d": "Poona"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where was Mahatma Gandhi started the Satyagraha Sabha?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Winston Churchill",
+        "b": "Ramsay MacDonald",
+        "c": "Chamberlain",
+        "d": "Disraeli"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the British Prime Minister who convened the First Round Table Conference in London?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Priority to be given to communal question",
+        "b": "Suspension of Civil Disobedience Movement",
+        "c": "Grant of Dominion Status",
+        "d": "Date of transfer of power"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Second Round Table Conference failed over the question of:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "82°30´E near Allahabad",
+        "b": "80°15´E near Chennai",
+        "c": "74°30´E near Mumbai",
+        "d": "87°15´E near Kolkata"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian Standard Time is based on longitude:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "he loses 12 hours",
+        "b": "he loses 24 hours",
+        "c": "he gains 24 hours",
+        "d": "he neither gains nor lose any hours"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When a person crosses the International Dateline from west to east:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The outer core and the inner mantle",
+        "b": "The outer mantle and Sima layer",
+        "c": "The inner mantle and the outer mantle",
+        "d": "The inner core and the outer core"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Gutenberg Discontinuity is located in the interior of the earth between:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "60 and 40",
+        "b": "71 and 29",
+        "c": "50 and 50",
+        "d": "65 and 35"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The percentage of the area of ocean and continent on the earth is:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Contiguous zone",
+        "b": "Doldrum zone",
+        "c": "Rain shadow zone",
+        "d": "Roaring forties zone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The area of low precipitation on the leeward side of the hills/mountain ranges is called:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Points of equal depth in an ocean, a sea or lake",
+        "b": "Lines of equal value of magnetic variation",
+        "c": "Lines of equal value of the salinity of waters",
+        "d": "Lines of equal value of rainfall"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Isobaths is a:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2341",
+        "b": "3214",
+        "c": "1234",
+        "d": "3142"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match List I with List II. List IList II (Canal)(Connected) A.Kiel Canal1.Great Lakes and Atlantic Ocean B.Suez Canal2.North Sea and Baltic Sea C.Panama Canal3.Red Sea and Mediterranean Sea D.St. Lawrence Waterway4.Caribbean Sea and Pacific Ocean Choose the correct alternatives: Codes ABCD",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Durand Line",
+        "b": "Radcliffe Line",
+        "c": "Mc Mahon Line",
+        "d": "Maginot Line"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The boundary line between India and China is defined by:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Education",
+        "b": "Space Science",
+        "c": "Literature",
+        "d": "Agriculture"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Borlaugh Award is given for excellence in the field of:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Copper",
+        "b": "Iron",
+        "c": "Aluminium",
+        "d": "Gold"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first metal used by man was:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Equator",
+        "b": "Greenwich Line",
+        "c": "Poles",
+        "d": "Tropics"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The duration of day and night is always equal at the:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1234",
+        "b": "2341",
+        "c": "4213",
+        "d": "3142"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match List I with List II. List IList II (Tribes)(Connected) A.Eskimos1.North West Africa B.Berbers2.Tanzania C.Bindibus3.Northern Canada D.Masai4.Australia Choose the correct alternatives: Codes ABCD",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Caucasoids",
+        "b": "Mongoloids",
+        "c": "Negroids",
+        "d": "Australoids"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following racial groups is numerically the largest in the world?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mortality factor",
+        "b": "Fertility factor",
+        "c": "Migration factor",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The main determinant of population growth amongst the following is:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bartolomeu Dias",
+        "b": "Captain Cook",
+        "c": "Christopher Columbus",
+        "d": "Ferdinand Magellan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the first explorer to circumnavigate the world?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uncultivable",
+        "b": "Degraded beyond repair",
+        "c": "Degraded but cultivable",
+        "d": "Alkaline soil"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Wasteland is that land which is:",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jupiter",
+        "b": "Colorado",
+        "c": "Amazon",
+        "d": "Moon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Schrodinger’s Basin is situated in:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Athens",
+        "b": "Damascus",
+        "c": "Delhi",
+        "d": "London"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is the oldest known city?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Andhra Pradesh",
+        "b": "Tamil Nadu",
+        "c": "Orissa",
+        "d": "Madhya Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Toda tribals are found in large numbers in:",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kashmir Valley",
+        "b": "Damodar Valley",
+        "c": "Narmada Valley",
+        "d": "Chambal Valley"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a rift valley?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Robert Peary",
+        "b": "Edward White",
+        "c": "Magellan",
+        "d": "Amundsen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first to reach the North Pole by overland journey was:",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Straight line",
+        "b": "Zigzag line",
+        "c": "Elliptical line",
+        "d": "Curved line"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "International Date Line is a/an:",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sind",
+        "b": "NWFP",
+        "c": "Punjab",
+        "d": "Baluchistan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which province is Hyderabad located in Pakistan?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "17th parallel",
+        "b": "23rd parallel",
+        "c": "38th parallel",
+        "d": "Order-Neisse Line"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The line dividing North Korea and South Korea is the:",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Darjeeling Hills",
+        "b": "Kodaikanal Hills",
+        "c": "Kumaon Hills",
+        "d": "Nilgiri Hills"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kurinji flower blossoms once in twelve years in the:",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "11",
+        "b": "12",
+        "c": "13",
+        "d": "14"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘Baker Dozen’ denotes:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pleasing to the eye",
+        "b": "A traditional colour",
+        "c": "Easily distinguishable",
+        "d": "Most sensitive to the eye"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Red Light is used as a danger signal because it is/has:",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30%",
+        "b": "59%",
+        "c": "75%",
+        "d": "14%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "14-carat gold has a purity of approximately:",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 143",
+        "b": "Article 243",
+        "c": "Article 343",
+        "d": "Article 443"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under which article of the constitution was Hindi declared as the official language of the Union?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Public Sector Enterprise",
+        "b": "Inter-State Relations",
+        "c": "Centre-State Relations",
+        "d": "River Disputes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sarkaria Commission was set up to examine:",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cabinet",
+        "b": "Vice-President",
+        "c": "President",
+        "d": "Council of Ministers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The three constituents of the Indian Parliament are the Lok Sabha, Rajya Sabha and the:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "All India Radio",
+        "b": "Doordarshan",
+        "c": "NDTV",
+        "d": "Times Now"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Bahujana Hitaya, Bahujana Sukhaya’ is the motto of:",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "by the General Assembly",
+        "b": "from amongst the officers of the permanent secretariat of the United Nations",
+        "c": "by the General Assembly on the recommendations of the Security Council",
+        "d": "by the Security Council"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Secretary-General of the United Nations is appointed:",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jawaharlal Nehru",
+        "b": "Mahatma Gandhi",
+        "c": "Winston Churchill",
+        "d": "Manmohan Singh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“We have enough to satisfy our need but not our greed” is a quote by:",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2341",
+        "b": "3214",
+        "c": "1234",
+        "d": "3142"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match List I with List II. List IList II (Writs)(Meaning) A.Habeas Corpus1.To have a body B.Mandamus2.We order C.Certiorari3.Prevent abuse of jurisdiction D.Quo Warranto4.Where is your warrant of appointment? Choose the correct alternatives: Codes ABCD",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Parliament",
+        "b": "Prime Minister",
+        "c": "President",
+        "d": "Supreme Court"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The protector of the fundamental right guaranteed under the constitution is:",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "President",
+        "b": "Vice-President",
+        "c": "Judges of the Supreme Court",
+        "d": "Comptroller and Auditor General of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following dignitaries cannot be impeached?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fundamental Rights and Duties",
+        "b": "Consideration of Money Bills",
+        "c": "Consideration of Ordinary Bills",
+        "d": "Foreign Pilgrimage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following does not fall within the jurisdiction of the Indian Parliament?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Comptroller and Auditor General of India",
+        "b": "Speaker of the Lok Sabha",
+        "c": "Attorney General of India",
+        "d": "Chief Election Commissioner"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following is not appointed by the President of India?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "There can be common high court for two or more states",
+        "b": "High courts have original as well as appellate jurisdiction",
+        "c": "A judge of a High Court can be transferred from one High Court",
+        "d": "Salaries and allowances of the judges of the high court are determined by the Supreme Court"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following statements is not correct?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Federal government",
+        "b": "Parliamentary government",
+        "c": "Presidential government",
+        "d": "Independent of the Judiciary"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is not a feature of the Indian Constitution?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Union Council of Ministers",
+        "b": "Union Law Minister",
+        "c": "Supreme Court of India",
+        "d": "Attorney-General of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The President issues ordinances on the advice of the:",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "43rd Amendment",
+        "b": "44th Amendment",
+        "c": "45th Amendment",
+        "d": "46th Amendment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "By which amendment of the constitution was the tenure of the Lok Sabha reduced to five years which was fixed as six years under the 42nd Amendment?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "42nd Amendment",
+        "b": "43rd Amendment",
+        "c": "44th Amendment",
+        "d": "45th Amendment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Right to Property was abolished as one of the Fundamental Rights under the:",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rajiv Gandhi",
+        "b": "Indira Gandhi",
+        "c": "V.P. Singh",
+        "d": "Atal Bihari Vajpeee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "7 RCR became the official residence of the Prime Minister of India during the tenure of:",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The absolute minimum number of times that Union Parliament must meet every year is:",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mizoram, Meghalaya and Madhya Pradesh",
+        "b": "Assam, Mizoram and Meghalaya",
+        "c": "Assam, Orissa and Madhya Pradesh",
+        "d": "Bihar, Madhya Pradesh and Orissa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Article 164 provides there shall be a Minister in charge of tribal welfare in three specified states:",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "President",
+        "b": "Prime Minister",
+        "c": "Union Parliament",
+        "d": "Lok Sabha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The residuary powers under the Constitution vest with the:",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To safeguard public property and to abjure violence",
+        "b": "To uphold and protect the sovereignty, unity and integrity of the country",
+        "c": "To uphold secularism",
+        "d": "To abide by the constitution and respect its ideals"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not included in the list of Fundamental Duties in the constitution?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "UNESCOParis",
+        "b": "ILOGeneva",
+        "c": "FAOBrussels",
+        "d": "ICJThe Hague"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following locations is not correct: NameLocation",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arunachal Pradesh",
+        "b": "Mizoram",
+        "c": "Jammu and Kashmir",
+        "d": "Haryana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following states is covered by Article 370 of the Constitution?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IMF",
+        "b": "OAE",
+        "c": "ECAFE",
+        "d": "World Bank"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘The Third Window’ is a term associated with:",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "K. Kamaraj",
+        "b": "C. Rajagopalachari",
+        "c": "Morarji Desai",
+        "d": "Sir R.K. Shanmukham Chetty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of ‘Sales Tax’ as a source of revenue for states was the innovation of:",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Demarcation line between the rich and the poor",
+        "b": "Lowest level in the ladder of economic prosperity",
+        "c": "Stage at which there is a levelling down between the rich and the poor",
+        "d": "Minimum level of per capita consumer expenditure"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Poverty Line means:",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Third Plan",
+        "b": "Fourth Plan",
+        "c": "Fifth Plan",
+        "d": "Sixth Plan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of ‘Rolling Plan’ in India started with the:",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gross National Product (GNP)",
+        "b": "Gross Domestic Product (GDP)",
+        "c": "Net National Product (NNP)",
+        "d": "Net Domestic Product (NDP)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "National Income of a country is also known as:",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indira Gandhi",
+        "b": "Narendra Modi",
+        "c": "Jawaharlal Nehru",
+        "d": "Atal Bihari Vajpayee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has called the multipurpose river valley projects ‘the temples of modern India’?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Amartya Sen",
+        "b": "Milton Friedman",
+        "c": "Mahbub-Ul-Haq",
+        "d": "Paul Krugman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The UN Annual Human Development Report is the brainchild of:",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Traditional economy",
+        "b": "Black money economy",
+        "c": "Agriculture based economy",
+        "d": "Socialist economy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Parallel economy refers to:",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr. John Matthai",
+        "b": "Dr. C. Deshmukh",
+        "c": "R.K. Shanmukham Chetty",
+        "d": "T.T. Krishnamachari"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who presented the first budget of independent India?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bangladesh",
+        "b": "Bhutan",
+        "c": "Pakistan",
+        "d": "Myanmar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian Currency is a legal tender in:",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IDBI",
+        "b": "UTI Bank",
+        "c": "ICICI",
+        "d": "Corporation Bank"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following banks has become the first Indian bank to list on the New York Stock Exchange?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gregory Peck",
+        "b": "Lord Mountbatten",
+        "c": "Sir George Williams",
+        "d": "Ramsay Macdonald"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The founder of YMCA was:",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oxford University",
+        "b": "Columbia University",
+        "c": "Cambridge University",
+        "d": "Yale University"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which university annually presented the Pulitzer prizes?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Protection of Whales",
+        "b": "Protection of Wildlife",
+        "c": "Protection of Ozone Layer",
+        "d": "Nuclear Weapons"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Montreal Protocol relates to:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/8026b2bc276ed79e522a02ba24a47cf4/general-studies-pwd.pdf",
+  "enrichmentVersion": 5,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

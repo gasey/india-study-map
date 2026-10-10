@@ -1,0 +1,1835 @@
+{
+  "slug": "coach3-2019-english",
+  "exam": "Coach Grade-III under Sports & Youth Service Department",
+  "sitting": "2019",
+  "subject": "General English",
+  "source": "Coach Grade-III General English.pdf",
+  "sourceSha256": "5eac0bfe7cce11a92490ce4ec9e132412531288410f5ef8fa39b9ef279e145ca",
+  "ocr": false,
+  "count": 80,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 1 - 16 : Which of the given alternatives expresses the best meaning of the",
+      "opts": {
+        "a": "Length of one arm",
+        "b": "at a distance",
+        "c": "very close",
+        "d": "waiting for long"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He keeps the fellow at arm’s length.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 1 - 16 : Which of the given alternatives expresses the best meaning of the",
+      "opts": {
+        "a": "Someone changing clothes often",
+        "b": "cunning",
+        "c": "has many warm clothes",
+        "d": "hypocrite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Beware of this lady. She is a wolf in sheep’s clothing.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 1 - 16 : Which of the given alternatives expresses the best meaning of the",
+      "opts": {
+        "a": "good at the job",
+        "b": "famous",
+        "c": "at the head of his profession",
+        "d": "sitting on a tree"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Only ten years ago he was a junior barrister, but he is now at the top of the tree.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 1 - 16 : Which of the given alternatives expresses the best meaning of the",
+      "opts": {
+        "a": "made a fortune",
+        "b": "made a barrier",
+        "c": "made a heap of stones",
+        "d": "made pillow"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The family had made a pile during the month long economic blockade.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 1 - 16 : Which of the given alternatives expresses the best meaning of the",
+      "opts": {
+        "a": "under his protection",
+        "b": "to another place",
+        "c": "under his dictates",
+        "d": "as his daughter"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Her uncle has taken her under his wing.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 1 - 16 : Which of the given alternatives expresses the best meaning of the",
+      "opts": {
+        "a": "keeps tables neat",
+        "b": "provides luxurious food",
+        "c": "keeps good things on the table",
+        "d": "welcomes everyone."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have a friend who keeps a good table.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 1 - 16 : Which of the given alternatives expresses the best meaning of the",
+      "opts": {
+        "a": "has a heart attack",
+        "b": "goes directly to the heart",
+        "c": "has a weak heart",
+        "d": "touches him deeply"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It goes to his heart to see so much suffering around.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 1 - 16 : Which of the given alternatives expresses the best meaning of the",
+      "opts": {
+        "a": "offered for sale",
+        "b": "located in a market place",
+        "c": "large",
+        "d": "not for sale"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "That house is put on the market.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 1 - 16 : Which of the given alternatives expresses the best meaning of the",
+      "opts": {
+        "a": "were burnt",
+        "b": "were missing",
+        "c": "came to nothing",
+        "d": "ended fruitfully"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All his schemes ended in smoke.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 1 - 16 : Which of the given alternatives expresses the best meaning of the",
+      "opts": {
+        "a": "with all our power",
+        "b": "with long sharp nails",
+        "c": "with tooth bite",
+        "d": "and never stop"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We shall fight tooth and nail for our rights.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 1 - 16 : Which of the given alternatives expresses the best meaning of the",
+      "opts": {
+        "a": "in order",
+        "b": "in disorder",
+        "c": "in an arrangement",
+        "d": "placed in numbers."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Everything was at sixes and sevens when I entered the house.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 1 - 16 : Which of the given alternatives expresses the best meaning of the",
+      "opts": {
+        "a": "in a state of disappointment",
+        "b": "waiting",
+        "c": "exhausted",
+        "d": "in a state of suspense"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Don’t keep me on tenderhooks. Try to settle the matter immediately.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 1 - 16 : Which of the given alternatives expresses the best meaning of the",
+      "opts": {
+        "a": "under all conditions",
+        "b": "in the rain",
+        "c": "as he is healthy",
+        "d": "throughout his ill health."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She stood by him through thick and thin.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 1 - 16 : Which of the given alternatives expresses the best meaning of the",
+      "opts": {
+        "a": "to be intelligent",
+        "b": "to have grey hair",
+        "c": "to be responsible",
+        "d": "to be wise beyond his years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He appears to have an old head on young shoulder.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 1 - 16 : Which of the given alternatives expresses the best meaning of the",
+      "opts": {
+        "a": "good",
+        "b": "happy",
+        "c": "in excellent health",
+        "d": "in best spirit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You don’t look quite up to the mark this evening.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 1 - 16 : Which of the given alternatives expresses the best meaning of the",
+      "opts": {
+        "a": "I am very busy",
+        "b": "I have some things in my hands",
+        "c": "I cannot come",
+        "d": "I am too tired"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Just now my hands are full.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 17 - 28 : Read the passages carefully and choose the most probable answer",
+      "opts": {
+        "a": "if we have not understood him",
+        "b": "if we have not understood his lessons on the way to live and die",
+        "c": "if we have not understood anything",
+        "d": "if we have done our duty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why does the author of the passage say that it would be better to raise no memorial of him?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 17 - 28 : Read the passages carefully and choose the most probable answer",
+      "opts": {
+        "a": "to make statues of bronze or marble",
+        "b": "to make him their role model",
+        "c": "to be true to him",
+        "d": "to follow the path he showed us and to do our duty in life and in death."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The best fit memorial is _____________",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 17 - 28 : Read the passages carefully and choose the most probable answer",
+      "opts": {
+        "a": "Motilal Nehru",
+        "b": "Jawaharlal Nehru",
+        "c": "Mahatma Gandhi",
+        "d": "Dr. Ambedkar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“He was a Hindu and an Indian”. The ‘He’ in the sentence is _____________",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 17 - 28 : Read the passages carefully and choose the most probable answer",
+      "opts": {
+        "a": "it represented some undeniable truth",
+        "b": "it represented some kind of truth",
+        "c": "it represented diversity",
+        "d": "it represented certain kind of democracy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India is dear to him because  _____________",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 17 - 28 : Read the passages carefully and choose the most probable answer",
+      "opts": {
+        "a": "Pandit Jawaharlal Nehru",
+        "b": "M.K. Gandhi",
+        "c": "Dr. B.R. Ambedkar",
+        "d": "Mohammad Ali Jinna"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Father of the Nation is  _____________",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 17 - 28 : Read the passages carefully and choose the most probable answer",
+      "opts": {
+        "a": "was intensely religious",
+        "b": "believes in the essential unity of man",
+        "c": "believes in the underlying unity of all religions",
+        "d": "all of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He became the great internationalist, as he",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 17 - 28 : Read the passages carefully and choose the most probable answer",
+      "opts": {
+        "a": "to the service of the poor",
+        "b": "to the service of the oppressed",
+        "c": "only (a)",
+        "d": "both (a) & (b)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gandhiji devoted his life  _____________",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 17 - 28 : Read the passages carefully and choose the most probable answer",
+      "opts": {
+        "a": "the rich tributes paid to him",
+        "b": "the huge turnout of Indians in his honour",
+        "c": "the tributes that came from the people of Pakistan",
+        "d": "the love and adoration shown to his departed soul"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What happened after Gandhiji’s death that would have pleased him?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 17 - 28 : Read the passages carefully and choose the most probable answer",
+      "opts": {
+        "a": "the division of one country into two",
+        "b": "the war between India and Pakistan",
+        "c": "Gandhiji’s death",
+        "d": "the suffering of millions of poor Indians"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘On the morrow of the tragedy _____’ What was the tragedy?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 17 - 28 : Read the passages carefully and choose the most probable answer",
+      "opts": {
+        "a": "the partition of one country into two",
+        "b": "the war between India and Pakistan",
+        "c": "Gandhiji’s death",
+        "d": "the suffering of millions of poor Indians"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why was there conflict and bitterness in the past months?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 17 - 28 : Read the passages carefully and choose the most probable answer",
+      "opts": {
+        "a": "his love for the downtrodden",
+        "b": "his passion for the unity of the country",
+        "c": "his undying passion for non-violence",
+        "d": "his passion for truth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the great power Gandhiji had over the mind and heart of man?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 17 - 28 : Read the passages carefully and choose the most probable answer",
+      "opts": {
+        "a": "bad",
+        "b": "Himalayan errors",
+        "c": "giant mistakes",
+        "d": "unforgivable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gandhiji called some of his mistakes as  _____________",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 29 - 38 : Identify the parts of speech of the underlined words in the following",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "adjective",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **king** was all powerful.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 29 - 38 : Identify the parts of speech of the underlined words in the following",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "adjective",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **two** birds flew away.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 29 - 38 : Identify the parts of speech of the underlined words in the following",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "adjective",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This river **turns** around the corner.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 29 - 38 : Identify the parts of speech of the underlined words in the following",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "preposition",
+        "d": "conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is a very old picture **yet** so beautiful.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 29 - 38 : Identify the parts of speech of the underlined words in the following",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "preposition",
+        "d": "conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You need to run **fast** in order to catch the thief.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 29 - 38 : Identify the parts of speech of the underlined words in the following",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "preposition",
+        "d": "conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Try to hold the string high **above** the ground.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 29 - 38 : Identify the parts of speech of the underlined words in the following",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "preposition",
+        "d": "conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A little pat **and** a little smile makes the day for the old man.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 29 - 38 : Identify the parts of speech of the underlined words in the following",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "preposition",
+        "d": "conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Let us try to cross over the mountain **before** the floods come.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 29 - 38 : Identify the parts of speech of the underlined words in the following",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "interjection",
+        "d": "conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Oh!** What a shame for the entire team.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 29 - 38 : Identify the parts of speech of the underlined words in the following",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "adjective",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He wanted to see all the children married before **his** retirement.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 39 - 48 : Identify the form of the tense of the underlined words in the following",
+      "opts": {
+        "a": "present tense",
+        "b": "past tense",
+        "c": "future tense",
+        "d": "past indefinite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I **am reminded** of my duties seeing other’s failure.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 39 - 48 : Identify the form of the tense of the underlined words in the following",
+      "opts": {
+        "a": "present tense",
+        "b": "past tense",
+        "c": "future tense",
+        "d": "past indefinite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The river with its strong current **flows** under the bridge.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 39 - 48 : Identify the form of the tense of the underlined words in the following",
+      "opts": {
+        "a": "present tense",
+        "b": "past tense",
+        "c": "future tense",
+        "d": "past indefinite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She **was tired of waiting** for hours.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 39 - 48 : Identify the form of the tense of the underlined words in the following",
+      "opts": {
+        "a": "present indefinite",
+        "b": "present perfect",
+        "c": "past indefinite",
+        "d": "past perfect"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I **have had** enough of your tricks.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 39 - 48 : Identify the form of the tense of the underlined words in the following",
+      "opts": {
+        "a": "present perfect",
+        "b": "present continuous",
+        "c": "past perfect continuous",
+        "d": "past continuous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It **had been raining** heavily for the last three days.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 39 - 48 : Identify the form of the tense of the underlined words in the following",
+      "opts": {
+        "a": "future perfect",
+        "b": "future continuous",
+        "c": "past perfect",
+        "d": "past continuous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I **shall have done** my homework by then.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 39 - 48 : Identify the form of the tense of the underlined words in the following",
+      "opts": {
+        "a": "future indefinite",
+        "b": "past continuous",
+        "c": "future continuous",
+        "d": "present perfect"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They **will be meeting** us next Monday.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 39 - 48 : Identify the form of the tense of the underlined words in the following",
+      "opts": {
+        "a": "past perfect",
+        "b": "past perfect continuous",
+        "c": "present perfect continuous",
+        "d": "future tense"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mr. Mukherji **had been teaching** in this school for the last ten years.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 39 - 48 : Identify the form of the tense of the underlined words in the following",
+      "opts": {
+        "a": "Simple present",
+        "b": "simple past",
+        "c": "simple future",
+        "d": "past perfect"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tomorrow **will be** a bright and sunny day.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 39 - 48 : Identify the form of the tense of the underlined words in the following",
+      "opts": {
+        "a": "simple present",
+        "b": "present perfect",
+        "c": "past perfect",
+        "d": "simple past"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She **has built** a huge mansion in the plains of Punjab.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind.",
+      "opts": {
+        "a": "Simple",
+        "b": "compound",
+        "c": "complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Every man is the architect of his own fortune.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind.",
+      "opts": {
+        "a": "simple",
+        "b": "compound",
+        "c": "complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The day dawned and the sun shown bright and we all went out.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind.",
+      "opts": {
+        "a": "simple",
+        "b": "compound",
+        "c": "complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "He neither obtains success nor deserves it.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind.",
+      "opts": {
+        "a": "simple",
+        "b": "compound",
+        "c": "complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "They serve God well who serve His creatures.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind.",
+      "opts": {
+        "a": "simple",
+        "b": "compound",
+        "c": "complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where ignorance is bliss, ‘tis folly to be wise.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind.",
+      "opts": {
+        "a": "simple",
+        "b": "compound",
+        "c": "complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Commons passed the bill, but the Lords threw it out.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind.",
+      "opts": {
+        "a": "simple",
+        "b": "compound",
+        "c": "complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "I cannot tell you the date of my return.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind.",
+      "opts": {
+        "a": "simple",
+        "b": "compound",
+        "c": "complex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "A guest is unwelcome when he stays too long.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind.",
+      "opts": {
+        "a": "positive",
+        "b": "comparative",
+        "c": "superlative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The aeroplane flies faster than birds.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind.",
+      "opts": {
+        "a": "positive",
+        "b": "comparative",
+        "c": "superlative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Some beans are at least as nutritious as meat.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind.",
+      "opts": {
+        "a": "positive",
+        "b": "comparative",
+        "c": "superlative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is better to starve than beg.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind.",
+      "opts": {
+        "a": "assertive",
+        "b": "exclamatory",
+        "c": "interrogative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "O that I were young again!",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind.",
+      "opts": {
+        "a": "assertive",
+        "b": "negative",
+        "c": "exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "There’s no fool like an old fool.",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind.",
+      "opts": {
+        "a": "assertive",
+        "b": "exclamatory",
+        "c": "interrogative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Was he not a villain to do such a deed?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind.",
+      "opts": {
+        "a": "positive",
+        "b": "comparative",
+        "c": "superlative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Australia is the largest island in the world.",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind.",
+      "opts": {
+        "a": "assertive",
+        "b": "negative",
+        "c": "exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "I was not sure that it was you.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 65 - 80 : Choose the correct form of the words provided for each of the",
+      "opts": {
+        "a": "who",
+        "b": "whom",
+        "c": "that",
+        "d": "which"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There’s Mr. Dutt  _____________they say is the best portrait painter in the town.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 65 - 80 : Choose the correct form of the words provided for each of the",
+      "opts": {
+        "a": "I",
+        "b": "they",
+        "c": "you",
+        "d": "he"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I am not one of those who believe everything  _____________hear.",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 65 - 80 : Choose the correct form of the words provided for each of the",
+      "opts": {
+        "a": "are",
+        "b": "were",
+        "c": "is",
+        "d": "seem"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neither of the accusations  _____________true.",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 65 - 80 : Choose the correct form of the words provided for each of the",
+      "opts": {
+        "a": "sweet",
+        "b": "sweetly",
+        "c": "sweeter",
+        "d": "sweetest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The flowers smell  _____________",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 65 - 80 : Choose the correct form of the words provided for each of the",
+      "opts": {
+        "a": "than",
+        "b": "to",
+        "c": "of",
+        "d": "by"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As a novelist Jane Austen is superior  _____________Mrs. Henry Wood.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 65 - 80 : Choose the correct form of the words provided for each of the",
+      "opts": {
+        "a": "A",
+        "b": "The",
+        "c": "That",
+        "d": "This"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_____________book you mention is out of print.",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 65 - 80 : Choose the correct form of the words provided for each of the",
+      "opts": {
+        "a": "verbal",
+        "b": "oral",
+        "c": "other",
+        "d": "given"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His written statement differs in several important respects from his  _____________statement.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 65 - 80 : Choose the correct form of the words provided for each of the",
+      "opts": {
+        "a": "are",
+        "b": "were",
+        "c": "is",
+        "d": "have"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Three parts of the business  _____________left for me to do.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 65 - 80 : Choose the correct form of the words provided for each of the",
+      "opts": {
+        "a": "is",
+        "b": "are",
+        "c": "was",
+        "d": "had"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neither I nor you  _____________to blame.",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 65 - 80 : Choose the correct form of the words provided for each of the",
+      "opts": {
+        "a": "was",
+        "b": "are",
+        "c": "were",
+        "d": "have"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ship, with its crew,  _____________lost.",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 65 - 80 : Choose the correct form of the words provided for each of the",
+      "opts": {
+        "a": "Is",
+        "b": "Was",
+        "c": "Does",
+        "d": "Are"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_____________your father and mother at home?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 65 - 80 : Choose the correct form of the words provided for each of the",
+      "opts": {
+        "a": "is",
+        "b": "are",
+        "c": "were",
+        "d": "have been"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Honour and glory  _____________his reward.",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 65 - 80 : Choose the correct form of the words provided for each of the",
+      "opts": {
+        "a": "is",
+        "b": "are",
+        "c": "was",
+        "d": "has been"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gold and silver  _____________precious metals.",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 65 - 80 : Choose the correct form of the words provided for each of the",
+      "opts": {
+        "a": "have",
+        "b": "has",
+        "c": "are",
+        "d": "is"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My friend and benefactor  _____________come.",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 65 - 80 : Choose the correct form of the words provided for each of the",
+      "opts": {
+        "a": "me",
+        "b": "mine",
+        "c": "of",
+        "d": "my"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Please excuse  _____________being late.",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions for Questions 65 - 80 : Choose the correct form of the words provided for each of the",
+      "opts": {
+        "a": "quicker",
+        "b": "quickly",
+        "c": "more quicker",
+        "d": "more quickly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He returned  _____________than I expected.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay in about 300 words on one of the following topics. Each question carry equal value. -Importance of Games and Sports in the curriculum of every institution. -Strength and weaknesses of the North Eastern States of India in representing National or International level Competition. -My favorite Game/ Sport. -The uniqueness of my State-MIZORAM.",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

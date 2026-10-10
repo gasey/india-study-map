@@ -1,0 +1,70 @@
+{
+  "slug": "feo-2017-english-p1",
+  "exam": "Fishery Extension Officer under Fisheries Department",
+  "sitting": "December 2017",
+  "subject": "General English Paper-I",
+  "source": "feo-2017-english-p1.pdf",
+  "sourceSha256": "66a78c66d26000946c12b9613d0d6848d43c66dab5a3218110336c66b2ac743d",
+  "ocr": false,
+  "count": 2,
+  "questions": [
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "What did the report compiled by the Dutch insurance company suggest? (2)",
+        "b": "Why are there fewer accidents on Fridays that fall on the 13th?(2)",
+        "c": "Why is Friday the 13th considered to be unlucky?(3)",
+        "d": "How might a friggatriskaidekaphobic use associational links to justify his fear of Friday the 13th?(2) means?(2) (i)evidence(ii)Contrary(iii)superstitions (v)significant(v)inauspicious"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following passage and answer the questions that follow: Despite the beliefs of over 17-21 million people worldwide, there is no evidence that accidents are more likely to happen on Friday the 13th. On the contrary, some studies have shown there are actually fewer accidents on Friday the 13th. A recent report completed by a Dutch insurance company showed that there were fewer incidents of fires and theft on Fridays that fell on the 13th than on any other Fridays in the same year. It is highly probable that this reduction in accidents owes itself to the fear of Friday the 13th itself. If people are more cautious on Friday the 13th, then there are likely to be fewer accidents. If, then, there is no significant evidence that Friday the 13th is any more dangerous than any other day of the year, why do friggatriskaidekaphobics remain convinced of its unluckiness? Historically, the date is associated with the Last Supper of Christ, in which there were thirteen people, and the thirteenth guest, Judas, caused Jesus’ crucifixion on Good Friday. Norse mythology also contains a story in which twelve gods were interrupted by a thirteenth uninvited guest, Loki, who caused the death of another god. While these historical or folk traditions may have something to do with this belief, people may also use associational links to justify their superstitions. If a friggatriskaidekaphobic loses his wallet on Tuesday the 21st, for example, he would probably not assign any meaning to the date on which this event occurred. If the same individual lost his wallet on Friday the 13th, however, he might be likely to conclude that the inauspicious nature of Friday the 13th was at fault.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To eat one’s own words",
+        "b": "To be dressed to the nines",
+        "c": "Apple of one’s eyes",
+        "d": "To turn a deaf ear"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Use **any eight (8)** of the following idioms and phrases in sentences to highlight their meaning:(8×2=16)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q4 (p2, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q5 (p2, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q6 (p3, part None): only 0 option(s) [] - not emitted",
+    "Q7 (p3, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q8 (p3, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  }
+}

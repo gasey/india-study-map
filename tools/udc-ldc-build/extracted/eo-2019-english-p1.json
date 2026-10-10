@@ -1,0 +1,72 @@
+{
+  "slug": "eo-2019-english-p1",
+  "exam": "Employment Officer under Labour, Employment & Industrial Training Department",
+  "sitting": "2019",
+  "subject": "General English Paper-I",
+  "source": "General Englsih Paper-I (EO).pdf",
+  "sourceSha256": "47ec217ca99b444686cff377631b40e17cba1495e111cec383384fc943cdafe7",
+  "ocr": false,
+  "count": 0,
+  "questions": [],
+  "written": [
+    {
+      "n": 1,
+      "part": null,
+      "page": 1,
+      "text": "Write an essay on any one of the Topics in about 600 words(25) -Work Culture in Mizoram -What Mizoram Needs",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": null,
+      "page": 1,
+      "text": "Read the Passage Below and make a précis of it. Give a suitable title.(15) On November 8, Indian Prime Minister Narendra Modi took a historic decision by announcing that the high-denomination notes (Rs 500 and Rs 1,000) then in circulation would cease to be legal tender. With demonetization effort 86% of India’s currency was nullified that aimed to wash the stock of ‘black market’s cash supply’ and counterfeit notes out of the economy and convert it into the licit, banked and taxable, part of the economy. To reduce the impact of sudden commercial collapse, a 50 day period ensued where the population could (ideally) exchange their cancelled cash for newly designed 500 and 2,000 rupee notes or deposit them into bank accounts. Irrespective of the widespread anguish and household disturbances, an optimistic sentiment shown in favour of the decision. Cash is the preferred mode of transaction in India and only less than half the population uses banking system for monetary transactions. An immediate public anger appeared against the mismanaged and unprepared banking system. The banks didn’t have enough of the newly designed banknotes (Rs 500 and Rs 2000) to distribute in exchange for the cancelled notes. The move has also led to a shortage of lower denomination notes such as Rs 100 and Rs 50 that are still legal tender, as people have taken to conserving whatever cash they have in hand. The demonization initiative has caused a sudden breakdown in India’s commerce and the unbanked and informal economy is hard hit. Trade across all aspects of the economy has interrupted, and sectors like agriculture, fishing, and the huge informal market were almost shut down during the initial days of announcement. The informal sector in India employs more than a majority of the workers and most transactions are in cash. Disruption to this system could endanger the employment and livelihood of weaker sections of society. The change disturbed the lives of ordinary people, led to widespread need and major job losses for the poor. Even though demonetization move created adverse short-term policy impact the real impact of must be assessed in the medium/long term. The reduction in overall investments, both in the formal and informal sectors, would certainly reduce economic growth potential. However, the move needs to be followed up with ensuing actions to remain effective. These actions relate primarily to structural changes to make the system more lawful, reducing too much bureaucracy, make the tax system simple and transparent. In addition, a greater effort is required to include the informal sector and ensure effectiveness and the illegal activities such as generation of black money and corruption should not be channelled back into the economy.",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": null,
+      "page": 1,
+      "text": "Write an application in response to an Advertisement for the post of Employment Officer. Apply to the Director, Labour, Employment and Industrial Training Department, Government of Mizoram. Provide Resume.(15)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": null,
+      "page": 2,
+      "text": "Following has an idiomatic expression followed by three options. Choose the one closest to its meaning.(2×7=14) (i)Hard-pressed",
+      "subparts": {
+        "a": "Bewildered",
+        "b": "Insulted",
+        "c": "In difficulties (a)In a state of shock(b)In danger (c)Completely confused (a)To be at enmity or strife(b)To exert hidden influence (c)To put up high demands (a)To give a challenge(b)To accept immediately (c)To be hopeless (a)Shoot at sight(b)Bolt the door (c)To use up one’s resources (a)To explain one’s opinion to others(b)To exercise authority with crushing force (c)To have one’s aim always in mind (a)Back to original position(b)To find one’s roots (c)To emphasise"
+      }
+    },
+    {
+      "n": 5,
+      "part": null,
+      "page": 2,
+      "text": "Expand the Following passage in about 100 words.(15) “A great deal of talent is lost in the world for the want of a little courage”",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": null,
+      "page": 2,
+      "text": "Read the Passage given below and answer the questions that follow: If you are like many people, you enjoy sports in your leisure time. Many of us watch sports on TV, go to games and meets, and play tennis or golf in the time left after school or work. We may even chat about sports on the Internet. Many observers note that sports reinforce norms and values important to society, like competition and teamwork. Sports metaphors, such as “There is no I in TEAM,” teach us that success is achieved by putting the group above individual glory. Slogans like “Winners never quit and quitters never win” reinforce values of competition and working hard to get ahead. Nevertheless, organized sports have been criticized for several things. One is that they encourage potentially harmful male aggression. Another is that they direct minority students, particularly African American males, toward athletics-instead of academics-as a road to success. However, only a very small minority of high school athletes are able to support themselves through athletics. In fact, according to one estimate, only one of 12,000 high school athletes will earn money as a professional athlete; among those who make it, the average professional career lasts only three years. Nevertheless, the importance of sports in teaching and reinforcing norms and values, along with the role of sports in symbolizing and integrating communities, are important reasons why nearly every nation has encouraged athletics.",
+      "subparts": {
+        "a": "Pick out from the passage the words which have the same meaning as the expressions given below:(2×5=10) (i)Free time (ii)Expected standard of behaviour (iii)Calculate (iv)Give up (v)Make stronger",
+        "b": "How have Organised Sports been criticized?(3)",
+        "c": "What are the reasons why every nation has encouraged athletics?(3)"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p2, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q5 (p2, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q6 (p2, part None): conventional section, 3 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {}
+}

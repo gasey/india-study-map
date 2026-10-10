@@ -1,0 +1,1334 @@
+{
+  "slug": "assistant-prof-geography-2017-english",
+  "exam": "Assistant Professor Stage-I (Geography) under Higher & Technical Education Department",
+  "sitting": "September 2017",
+  "subject": "General English",
+  "source": "assistant-prof-geography-2017-english.pdf",
+  "sourceSha256": "febe39fedda32bfd87ec43e2fdfb2c5bd88353d88b6ec8a4281160e07108f8bf",
+  "ocr": false,
+  "count": 55,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 1–10: Choose the correct phrasal verb:(10×2=20)",
+      "opts": {
+        "a": "called out",
+        "b": "called for",
+        "c": "called in",
+        "d": "called at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Principal _____________ an explanation of his conduct.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 1–10: Choose the correct phrasal verb:(10×2=20)",
+      "opts": {
+        "a": "brought into",
+        "b": "brought about",
+        "c": "brought upon",
+        "d": "brought around"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His arrogance _____________ his ruin.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 1–10: Choose the correct phrasal verb:(10×2=20)",
+      "opts": {
+        "a": "bring out",
+        "b": "bring forth",
+        "c": "bring about",
+        "d": "bring into"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The publishers are planning to ______ a cheap edition of their new dictionary.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 1–10: Choose the correct phrasal verb:(10×2=20)",
+      "opts": {
+        "a": "come around",
+        "b": "come about",
+        "c": "come into",
+        "d": "come before"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How did these things _____________?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 1–10: Choose the correct phrasal verb:(10×2=20)",
+      "opts": {
+        "a": "came in",
+        "b": "came up",
+        "c": "came out",
+        "d": "came down"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The question ________ before the municipal corporation last week.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 1–10: Choose the correct phrasal verb:(10×2=20)",
+      "opts": {
+        "a": "well out",
+        "b": "well off",
+        "c": "well in",
+        "d": "well at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He seems to be ____________.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 1–10: Choose the correct phrasal verb:(10×2=20)",
+      "opts": {
+        "a": "call at",
+        "b": "call in",
+        "c": "call on",
+        "d": "call for"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "__________ the Police immediately.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 1–10: Choose the correct phrasal verb:(10×2=20)",
+      "opts": {
+        "a": "cried in",
+        "b": "cried out",
+        "c": "cried at",
+        "d": "cried on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They _________ against the gross injustice meted out to them.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 1–10: Choose the correct phrasal verb:(10×2=20)",
+      "opts": {
+        "a": "gave up",
+        "b": "gave way",
+        "c": "gave in",
+        "d": "gave out"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rope ________ while they were hauling up the pillar.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 1–10: Choose the correct phrasal verb:(10×2=20)",
+      "opts": {
+        "a": "call back",
+        "b": "call up",
+        "c": "call unto",
+        "d": "call again"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My grandfather cannot _________ past events.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 11–20: Choose the correct one word substitution:(10×2=20)",
+      "opts": {
+        "a": "polygot",
+        "b": "polycot",
+        "c": "polypot",
+        "d": "polyglot"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who knows many language",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 11–20: Choose the correct one word substitution:(10×2=20)",
+      "opts": {
+        "a": "vindictive",
+        "b": "hypocrite",
+        "c": "arrogant",
+        "d": "manipulative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who pretends to be what he is not",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 11–20: Choose the correct one word substitution:(10×2=20)",
+      "opts": {
+        "a": "commune",
+        "b": "assume",
+        "c": "immune",
+        "d": "presume"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Free from infection",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 11–20: Choose the correct one word substitution:(10×2=20)",
+      "opts": {
+        "a": "ordination",
+        "b": "coronation",
+        "c": "intonation",
+        "d": "elocution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A ceremony at which a man becomes a priest",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 11–20: Choose the correct one word substitution:(10×2=20)",
+      "opts": {
+        "a": "confident",
+        "b": "complacent",
+        "c": "consistent",
+        "d": "conversant"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who is completely satisfied",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 11–20: Choose the correct one word substitution:(10×2=20)",
+      "opts": {
+        "a": "diffident",
+        "b": "dividend",
+        "c": "different",
+        "d": "defiant"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Unwilling to face a situation",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 11–20: Choose the correct one word substitution:(10×2=20)",
+      "opts": {
+        "a": "faux paw",
+        "b": "foie gras",
+        "c": "faux lawn",
+        "d": "faux pas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An embarrassing mistake",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 11–20: Choose the correct one word substitution:(10×2=20)",
+      "opts": {
+        "a": "immigrant",
+        "b": "integrate",
+        "c": "emigrant",
+        "d": "ingrate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person leaving his native country to settle in another",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 11–20: Choose the correct one word substitution:(10×2=20)",
+      "opts": {
+        "a": "veer",
+        "b": "peer",
+        "c": "jeer",
+        "d": "seer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Equal in rank",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 11–20: Choose the correct one word substitution:(10×2=20)",
+      "opts": {
+        "a": "timid",
+        "b": "coward",
+        "c": "deserter",
+        "d": "castaway"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who lacks courage or confidence",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 21–30: Fill in the blanks using the  correct form of the verb:(10×2=20)",
+      "opts": {
+        "a": "had been working",
+        "b": "has been working",
+        "c": "have been working",
+        "d": "have has been working"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mary _____________ for Khaia and Sons before she came to work for us.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 21–30: Fill in the blanks using the  correct form of the verb:(10×2=20)",
+      "opts": {
+        "a": "See",
+        "b": "Saw",
+        "c": "has seen",
+        "d": "had seen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tanpuia said he __________________ four movies so far this month.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 21–30: Fill in the blanks using the  correct form of the verb:(10×2=20)",
+      "opts": {
+        "a": "have you waited",
+        "b": "have you been waiting",
+        "c": "have you wait",
+        "d": "none"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How long _____________________ for Rinawmi?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 21–30: Fill in the blanks using the  correct form of the verb:(10×2=20)",
+      "opts": {
+        "a": "already eat",
+        "b": "already ate",
+        "c": "have eaten",
+        "d": "have already eaten"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I’m afraid I’m not hungry. I _____________________.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 21–30: Fill in the blanks using the  correct form of the verb:(10×2=20)",
+      "opts": {
+        "a": "play",
+        "b": "played",
+        "c": "was playing",
+        "d": "will play"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Amir _______________ cricket in the afternoon when he got the call.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 21–30: Fill in the blanks using the  correct form of the verb:(10×2=20)",
+      "opts": {
+        "a": "did you do",
+        "b": "were you doing",
+        "c": "do you do",
+        "d": "did you doing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“What _________________ between 3 and 7 yesterday evening”, the Police said.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 21–30: Fill in the blanks using the  correct form of the verb:(10×2=20)",
+      "opts": {
+        "a": "see",
+        "b": "saw",
+        "c": "has seen",
+        "d": "had seen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Liana kept looking at Siami, wondering where he _______________ her before.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 21–30: Fill in the blanks using the  correct form of the verb:(10×2=20)",
+      "opts": {
+        "a": "become",
+        "b": "became",
+        "c": "has become",
+        "d": "has became"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Typing ______ much easier and more comfortable in the past fifty years.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 21–30: Fill in the blanks using the  correct form of the verb:(10×2=20)",
+      "opts": {
+        "a": "has never forgotten",
+        "b": "never forgets",
+        "c": "never forgot",
+        "d": "will never forget"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Liana’s father _________________ his son’s birthday",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 21–30: Fill in the blanks using the  correct form of the verb:(10×2=20)",
+      "opts": {
+        "a": "Did anyone see",
+        "b": "Has anyone seen",
+        "c": "Has someone seen",
+        "d": "Did anybody saw"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_______________ Amelia? – No, she probably went to her mother’s place.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 31–40: Identify the part of speech of the words underlined:(10×2=20)",
+      "opts": {
+        "a": "Adjective",
+        "b": "Noun",
+        "c": "Adverb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My brother is a very **successful** businessman.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 31–40: Identify the part of speech of the words underlined:(10×2=20)",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Enid and Lily do everything **together**.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 31–40: Identify the part of speech of the words underlined:(10×2=20)",
+      "opts": {
+        "a": "Preposition",
+        "b": "Adjective",
+        "c": "Verb",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ice caps are **melting** in South Pole.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 31–40: Identify the part of speech of the words underlined:(10×2=20)",
+      "opts": {
+        "a": "Preposition",
+        "b": "Adverb",
+        "c": "Noun",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The prisoners managed to escape **while** the guards were having dinner.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 31–40: Identify the part of speech of the words underlined:(10×2=20)",
+      "opts": {
+        "a": "Preposition",
+        "b": "Verb",
+        "c": "Conjunction",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hurricane Irma barrelled ever closer **to** the U.S. mainland",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 31–40: Identify the part of speech of the words underlined:(10×2=20)",
+      "opts": {
+        "a": "Adverb",
+        "b": "Noun",
+        "c": "Pronoun",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "North Korea tested a nuclear **bomb** yet again.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 31–40: Identify the part of speech of the words underlined:(10×2=20)",
+      "opts": {
+        "a": "Verb",
+        "b": "Pronoun",
+        "c": "Adjective",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "John was slightly apprehensive over Michael’s **sudden** appearance.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 31–40: Identify the part of speech of the words underlined:(10×2=20)",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Noun",
+        "c": "Verb",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I went home immediately **after** the match.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 31–40: Identify the part of speech of the words underlined:(10×2=20)",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Adverb",
+        "c": "Noun",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The pizza was cold **but** very delicious.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 31–40: Identify the part of speech of the words underlined:(10×2=20)",
+      "opts": {
+        "a": "Verb",
+        "b": "Adverb",
+        "c": "Adjective",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My mother **treats** my sister better than us.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 51–60:Fill in the blanks choosing the  correct prepositions:(10×2=20)",
+      "opts": {
+        "a": "in",
+        "b": "up",
+        "c": "on",
+        "d": "at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Don’t forget to turn _________the light.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 51–60:Fill in the blanks choosing the  correct prepositions:(10×2=20)",
+      "opts": {
+        "a": "after",
+        "b": "for",
+        "c": "into",
+        "d": "unto"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The dog was running ____________the thief.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 51–60:Fill in the blanks choosing the  correct prepositions:(10×2=20)",
+      "opts": {
+        "a": "out",
+        "b": "in",
+        "c": "all",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Don’t give ________ to temptations.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 51–60:Fill in the blanks choosing the  correct prepositions:(10×2=20)",
+      "opts": {
+        "a": "all",
+        "b": "in",
+        "c": "for",
+        "d": "out"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The teacher handed ____________ our test papers.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 51–60:Fill in the blanks choosing the  correct prepositions:(10×2=20)",
+      "opts": {
+        "a": "into",
+        "b": "after",
+        "c": "upon",
+        "d": "over"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Can you please go __________ there and turn off the fan?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 51–60:Fill in the blanks choosing the  correct prepositions:(10×2=20)",
+      "opts": {
+        "a": "beyond",
+        "b": "around",
+        "c": "into",
+        "d": "after"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Our house is ____________that River.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 51–60:Fill in the blanks choosing the  correct prepositions:(10×2=20)",
+      "opts": {
+        "a": "accept",
+        "b": "except",
+        "c": "unlike",
+        "d": "until"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Everyone _______________ Sam were chosen to represent the school.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 51–60:Fill in the blanks choosing the  correct prepositions:(10×2=20)",
+      "opts": {
+        "a": "directing",
+        "b": "considering",
+        "c": "regarding",
+        "d": "reforming"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Principal called a meeting to discuss urgent matters _______________ the school discipline.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 51–60:Fill in the blanks choosing the  correct prepositions:(10×2=20)",
+      "opts": {
+        "a": "dislike",
+        "b": "except",
+        "c": "before",
+        "d": "unlike"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is quite calm ______________ his brother.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 51–60:Fill in the blanks choosing the  correct prepositions:(10×2=20)",
+      "opts": {
+        "a": "since",
+        "b": "till",
+        "c": "while",
+        "d": "during"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I haven’t seen him ______________ last year.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 61–65: Choose the correct sentence type:(5×2=10)",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Assertive",
+        "c": "Exclamatory",
+        "d": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I will marry only Virat Kohli",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 61–65: Choose the correct sentence type:(5×2=10)",
+      "opts": {
+        "a": "Imperative",
+        "b": "Assertive",
+        "c": "Exclamatory",
+        "d": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is a very beautiful car.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 61–65: Choose the correct sentence type:(5×2=10)",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Assertive",
+        "c": "Exclamatory",
+        "d": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If only I had practised!",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 61–65: Choose the correct sentence type:(5×2=10)",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Assertive",
+        "c": "Imperative",
+        "d": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He does not fear the snake.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction for Questions 61–65: Choose the correct sentence type:(5×2=10)",
+      "opts": {
+        "a": "Imperative",
+        "b": "Assertive",
+        "c": "Exclamatory",
+        "d": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Avoid eating oily food.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay choosing **one** of the topic given below:(30) -Landslide and its prevention -Effects of Demonetization: Pros and Cons. -Importance of transnational highway.",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Write a précis of the given passage:(20) Communities are obligated to clarify local normative standards, expressing to the offender in particular what is and is not acceptable behaviour. Certainly, there is room here for both moral education and democratic discourse about the legitimacy of a given standard. Most important, however, is the collective process that reminds all of the meaning and importance of the standards in the face of a concrete manifestation of harm wrought by transgression. A community therefore has a responsibility to the victim. This responsibility involves recognition of the importance of losses resulting from victimization and a commitment to provide supports necessary for the victim to achieve the optimal recovery. This responsibility may include a willingness on the part of the community to accept as normal the anger, frustration, withdrawal, and alienation that often accompany victimization experiences, not just to provide financial supports that help restore the victim. So, communities have two responsibilities to an offender, allowing the offender to perform reparative tasks for the victim and the community and enabling the offender to obtain the assistance, supervision, and supports (including treatment intervention programs) necessary to live in the community crime free. The first responsibility sets the stage for the offender to make amends for the offense; the second allows both the offender and the community to have confidence in the future of offender risk control.",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 1,
+      "text": "Read the given passage carefully and answer the questions given below: A life filled with anxieties detracts from finding individual fulfilment through loving other people and worshipping God in the everyday events. Life in the 21st century is stressful enough for most people trying to cope with its everyday hassles. We morally reject any attempts to make life unnecessarily more complicated for people than it already is. However, people without sufficient food to eat, who do not have enough water for household use, do not have an adequate income, are at risk of disease and violence, and who do difficult work for low wages experience considerably more stress than other people without such problems. Lack of economic resources thus exacerbates stress in human beings. Sometimes the uncertainties of whether they will have an income and how much of it will be gnawing at their peace of mind. Peter Townsend notes that for poor people there may be “major changes in the possession of resources both in the long term, over their entire life- cycle, but also in the short term, from month to month and even from week to week”. He furthermore says that many people “have lived or are living under the constant threat of poverty and regard some of the resources flowing to them or available to them, as undependable”. Researchers consistently find high levels of stress and feelings of frustration and anxiety among poor people. Worries about income, food, school fees, violence, keeping warm during winter, and the well-being of family members can negatively affect the mental state of poor people. Research suggests that poor people often dread the future, “knowing that a crisis may descend at any time, not knowing whether one will cope”. Human relationships of all kinds are crucial to develop the strong social aspects of our nature as human beings. We morally require human beings to engage in mutually beneficial relationships of different kinds. In Christianity strong family relationships and reciprocal care between neighbours are judged important. Within the Christian marriage mutual respect and compassionate caring are required from partners. Christians are furthermore enjoined to live at peace with all people. Poverty can have a devastating impact on interpersonal and family relationships. The dangerous mix of stress about inadequate resources for the satisfaction of needs and the negative self-image formed from feelings of personal powerlessness can wreak havoc on interpersonal and social relationships. Patriarchal gender relations can become particularly strained when families suffer from poverty. In patriarchal marriages women take full responsibility for managing and executing household duties, while men make decisions concerning household income.",
+      "subparts": {
+        "a": "Which sections of the community are prone to violence? Why?(5)",
+        "b": "What aggravates stress in human beings?(5)",
+        "c": "Briefly explain how anxiety affects the poor?(5)",
+        "d": "What factors are credited to wreaking havoc on relationships?(5)"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part A): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q41 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q42 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q43 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q44 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q45 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q46 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q47 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q48 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q49 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q50 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "B": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  }
+}

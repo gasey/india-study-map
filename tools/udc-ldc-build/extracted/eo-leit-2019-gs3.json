@@ -1,0 +1,2317 @@
+{
+  "slug": "eo-leit-2019-gs3",
+  "exam": "Employment Officer under Labour, Employment & Industrial Training Department (second series)",
+  "sitting": "2019",
+  "subject": "General Studies Paper-III",
+  "source": "Employment Officer under LE&IT Deptt GS Paper-III.pdf",
+  "sourceSha256": "27cf4845015c0d9a0c74e8cbdabfd5f1b845cb0fd50c11a7915531188350333c",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SAGA",
+        "b": "PARAM 8000",
+        "c": "EKA",
+        "d": "PARAM YUVA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of India’s first supercomputer?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IIT Kharagpur",
+        "b": "IIT Mumbai",
+        "c": "IIT Chennai",
+        "d": "IIT Kanpur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is the first IIT established in India?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "C.V. Raman",
+        "b": "Vikram  Sarabhai",
+        "c": "APJ Abdul Kalam",
+        "d": "Satish Dhawan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is known as the Father of Indian Space program?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Soviet Union",
+        "b": "America",
+        "c": "India",
+        "d": "Israel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s first satellite Aryabhata was launched from ____",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15th August, 1992",
+        "b": "15th August, 2000",
+        "c": "15th August, 1995",
+        "d": "26th August, 1997"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Internet in India was started by VSNL in the year ____",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sound waves",
+        "b": "Radio waves",
+        "c": "Electric waves",
+        "d": "Ultrasonic waves"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A radar that detects the presence of an enemy aircraft uses ____",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jyoti Basu and Sukhram",
+        "b": "Narasimha Rao and Sukhram",
+        "c": "Ambika Soni and Narasimha Rao",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first mobile phone conversation take place in India between ____",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Devi Prasad Shetty",
+        "b": "Subhash Mukhopadhyay",
+        "c": "Pratap Reddy",
+        "d": "Naresh Trehan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the creator of World’s second and India’s first test tube baby Durga?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mumbai",
+        "b": "Vishakhapatnam",
+        "c": "Cochin",
+        "d": "Chennai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where is the National Institute of Ocean Technology located?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Krishna River",
+        "b": "Bhagirathi River",
+        "c": "Sutlej River",
+        "d": "Brahmaputra River"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On which river is Bhakra Dam built?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sir A.G. Bourne",
+        "b": "C.V. Raman",
+        "c": "Vikram Sarabhai",
+        "d": "Jamsetji Tata"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the founder of Indian Institute of Science, Bangalore?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "17 January",
+        "b": "22 December",
+        "c": "13 March",
+        "d": "30 August"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which day is celebrated as National Mathematics Day in India as a respect to S. Ramanujan?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Physics",
+        "b": "Chemistry",
+        "c": "Genetics",
+        "d": "Mathematics"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian-American scientist Har Gobind Khorana won the Nobel Prize for his contribution in",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "President of India",
+        "b": "Vice-President of India",
+        "c": "Prime Minister of India",
+        "d": "Union Minister of Science and Technology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the Chairman of the Council of Scientific and Industrial Research?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SARAL",
+        "b": "RISAT-1",
+        "c": "HAMSAT",
+        "d": "EDUSAT"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is India’s first satellite exclusively used for educational purpose?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi",
+        "b": "Chennai",
+        "c": "Mumbai",
+        "d": "Bangalore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where is Indian Space Research Organization (ISRO) headquarter located?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1973",
+        "b": "1974",
+        "c": "1988",
+        "d": "1996"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When was the first nuclear test conducted in India under the code-name of Smiling Buddha?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "APJ Abdul Kalam",
+        "b": "Raja Ramanna",
+        "c": "Homi J Bhabha",
+        "d": "Vikram  Sarabhai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is known as the Father of Indian Nuclear Programme?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "landline phone to mobile phone communication",
+        "b": "signal transmission on mobile phones only",
+        "c": "satellite television communication",
+        "d": "wireless communication between equipment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The basic function of technology ‘Blue Tooth’ is to allow ___",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hydrometer",
+        "b": "Hygrometer",
+        "c": "Pyrometer",
+        "d": "Lactometer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Humidity can be measured by ____",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BrahMos",
+        "b": "Astra",
+        "c": "Prithvi-4",
+        "d": "K-15"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Defence Research and Development Organization of India has developed a missile which can be launched from a submarine. What is it named?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indian Institute of Technology, Delhi",
+        "b": "Indian Statistical Institute, Calcutta",
+        "c": "Indian Institute of Science, Bangalore",
+        "d": "Indian Iron and Steel Co. Ltd., Burnpur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where was India’s first computer installed?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kurien Varghese",
+        "b": "C. Rangarajan",
+        "c": "M.S. Swaminathan",
+        "d": "J.V. Narlikar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The name of the white revolution is associated with ___",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Theory of electron transfer",
+        "b": "Studies of the structure and function of the ribosome",
+        "c": "Palladium catalysed cross couplings in organic synthesis",
+        "d": "Work in the area of olefin metathesis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Venkataraman Ramakrishnan was jointly awarded Nobel Prize in Chemistry in the year 2009 for the ___",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indian Ocean",
+        "b": "Himalayas",
+        "c": "Antarctica",
+        "d": "Arabian Sea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s permanent Research Station ‘Dakshin Gangotri’ is located at ___",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1947",
+        "b": "1957",
+        "c": "1967",
+        "d": "1977"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Television broadcast for rural development programmes in India started in ____",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Solar energy",
+        "b": "Wind energy",
+        "c": "Tidal wave energy",
+        "d": "Nuclear energy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Non-conventional source of energy best suited for India is ____",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Straight Telephone Dial",
+        "b": "Switch Telephone Dial",
+        "c": "Subscriber Telephone Dialing",
+        "d": "Save Telephone Dialing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The acronym STD written on Telephone booth stands for ___",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agni",
+        "b": "Trishul",
+        "c": "Prithvi",
+        "d": "Arjun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a missile tested in Indian Missile Programme?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Albert, a monkey",
+        "b": "Laika, a dog",
+        "c": "Ham, a chimpanzee",
+        "d": "Felix, a cat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is the first living creature sent to earth orbit?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Baikonour",
+        "b": "Cape Kennedy",
+        "c": "French Guiana",
+        "d": "Sri Harikota"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s first remote sensing satellite (IRS 1A) was launched from ___",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Atlantis",
+        "b": "Endeavour",
+        "c": "Columbia",
+        "d": "Discovery"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the name of the first space shuttle on which Kalpana Chawla flew to space in 1997?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Venturimeter",
+        "b": "Orifice plate",
+        "c": "Rotameter",
+        "d": "Pilot tube"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following instruments can be used for measuring the speed of an aeroplane ?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Enrico Fermi",
+        "b": "George Gamow",
+        "c": "Edward Teller",
+        "d": "Hans Bethe"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is known as the inventor of Hydrogen bomb?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nitrogen",
+        "b": "Nitrous Oxide",
+        "c": "Chlorine",
+        "d": "Methane"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which gas is also known as laughing gas?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AB group",
+        "b": "A group",
+        "c": "B group",
+        "d": "O group"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which blood group is known as ‘Universal recipients’ group?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "atmosphere",
+        "b": "soil",
+        "c": "pollutants",
+        "d": "seeds"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pedology is the science related to the study of  ____",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbon monoxide and carbon dioxide",
+        "b": "Methane and ethylene",
+        "c": "Butane and propane",
+        "d": "Carbon dioxide and oxygen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cooking gas is a mixture of ____",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fano dawi",
+        "b": "Kawngpui siam",
+        "c": "Khaw kheng thawi",
+        "d": "Vawkte khal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A Mizo ceremony in order to yield productive jhuming cultivation is called",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chemsen bawi",
+        "b": "Inpui chhung bawi",
+        "c": "Tukluh bawi",
+        "d": "Lal sutpui vuan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who defeated in a battle or who individually surrendered himself to his enemy is called",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Phung",
+        "b": "Chawm",
+        "c": "Khawmu",
+        "d": "Tulum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": ".....is a large female demon having big breasts that was seen walking along the river downwards in the lonely jungle.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khampat",
+        "b": "Chindwin",
+        "c": "Chin Hills",
+        "d": "Kawlphai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizo ancestors were moved westward to the Kabaw Valley which is called as",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1740 - 1750 AD",
+        "b": "1840 - 1850 AD",
+        "c": "1850 - 1860 AD",
+        "d": "1730 - 1750 AD"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The period of ‘Selesih sangsarih’ to be around",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tlangau",
+        "b": "Khawnbawl Upa",
+        "c": "Zalen",
+        "d": "Thirdeng"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": ".... is a chief’s kin, who can choose land for jhumming purpose after Ramhual had done.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "September, 1826",
+        "b": "November, 1827",
+        "c": "April, 1844",
+        "d": "January, 1871"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first recorded raid on the British territory by the Lushais occured in",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Suakpuilala",
+        "b": "Lallula",
+        "c": "Rothangpuia",
+        "d": "Lalburha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A Mizo chief who claimed to have imprinted his image in the coin was",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Darzo",
+        "b": "Lunglei",
+        "c": "Haka",
+        "d": "Demagiri"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "During the Chin Lushai Expedition, the Chittagong Column advanced base called ‘Fort Tregear’ is located at",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Biate Sipai",
+        "b": "Regular Army",
+        "c": "Burma Army",
+        "d": "Lushai Army"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Lushai Scout Corps recruited in 1944 was also known as",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25 September 1899",
+        "b": "25 August 1899",
+        "c": "25 June 1899",
+        "d": "25 July 1899"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Mizo converts to recieve baptism Khuma and Khara, who were baptised on",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2000",
+        "b": "2100",
+        "c": "2029",
+        "d": "2900"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many ‘Lushai Labour Corps’ (also known as 27 Labour Vorps) went to France in 1917",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mizo National Volunteer (MNV)",
+        "b": "Mizo Army Volunteer (MAV)",
+        "c": "Mizo National Brigade (MNB)",
+        "d": "Mizo National Army (MNA)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The fighting force of the MNF was known as",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bawhbel",
+        "b": "Dawvan",
+        "c": "Awkpaka",
+        "d": "Awlrawt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A big log horizontally fastened at the main entry in the early Mizo Zawlbuk is called",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Falkawn",
+        "b": "Tualte",
+        "c": "Biate",
+        "d": "Tachhip"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A famous Mizo chief Kairuma’s memorial stone was erected at",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "New Grouping Centre",
+        "b": "Protected and Progressive Villages",
+        "c": "Extended Loop Area",
+        "d": "Voluntery Grouping Centre"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Th first phase of ‘Gouping of Villages’ (Khawkhawm) during Mizoram insurgency period is called",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gen. KV Krishna Rao",
+        "b": "P.R. Kyndiah",
+        "c": "Anandam Padmanaban",
+        "d": "Hiteshwar Saikia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the first Mizoram Governor after Statehood",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "K. Lalrinliana",
+        "b": "Dr. K. Beichhua",
+        "c": "Lalchhandama Ralte",
+        "d": "Lalruatkima"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the present Minister for Labour, Employment, Skill Development & Entrepreneurship Department",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "13th Lok Sabha",
+        "b": "12th Lok Sabha",
+        "c": "15th Lok Sabha",
+        "d": "16th Lok Sabha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which Lok Sabha term did an independent candidate, Dr. H.Lallungmuana became the member of Parliament?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bengbung",
+        "b": "Rawchhem",
+        "c": "Lemlawi",
+        "d": "Fenthlir"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is not a Mizo musical instrument",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lt. Col. T.H.Lewin",
+        "b": "G.A.Gierson",
+        "c": "C.A. Soppit",
+        "d": "Capt. J.Shakespeare"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘The Hill Tracks of Chittagong and the Dwellers Therein : With Comparative Vocabulary of the Hill Dialects’ published in 1869 was written by",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hlamzuih",
+        "b": "Raicheh",
+        "c": "Za chham lak",
+        "d": "Sarthi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Mizo customs, a person dies without any ailment is called",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chawngvungi and Sawngkhara",
+        "b": "Duhmanga and Tlingi",
+        "c": "Raldawna and Tumchhingi",
+        "d": "Chhawrtuineihlala and Tuanpuii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pick out the odd one of the following couples in Mizo folktales",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tlang hriat",
+        "b": "Hmingchhia",
+        "c": "Thang lian",
+        "d": "Puang zar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizo poetical word (simile) ‘Lawi ang thang’ literally means",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hla kungpui mual - Khawbung",
+        "b": "Kawtchhuah ropui - Vangchhia",
+        "c": "Chhura farep - Zotlang, Champhai",
+        "d": "Lungvando - Biate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A place where hundreds of mehirs have stood in Mizoram and Archeological Survey of India declared site of ‘National Importance’ is",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "11 May, 2010",
+        "b": "11 May, 2012",
+        "c": "11 May, 2011",
+        "d": "11 May, 2009"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The connectivity between Aizawl to Lunglei World Bank funded road completed a cost of Rs. 538.401 crores was inaugurated by Mizoram Chief Minister, Lal Thanhawla on",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rev. Chuauthuama",
+        "b": "Rev. Z. T. Sangkhuma",
+        "c": "Rev. Dr. Zairema",
+        "d": "Rev. Liangkhaia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the Author of the book ‘God’s Miracles in Mizoram’?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs. 95317",
+        "b": "Rs. 85659",
+        "c": "Rs. 93293",
+        "d": "Rs. 85317"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the Mizoram Economic Survey 2016-2017, State Per Capita income of Mizoram in 2015-2016 is",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mizo Chanchin Laisuih",
+        "b": "Mizo leh Vai Chanchin Lehkhabu",
+        "c": "Krista Tlangau",
+        "d": "Kohhran Beng"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Mizo newspaper published in 1898 was",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2141 metres",
+        "b": "2256 metres",
+        "c": "2157 metres",
+        "d": "2156 metres"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The actual height of the highest mountain peak of Mizoram ‘Phawngpui’ (Blue Mountain) is",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prof. A.N Rai",
+        "b": "Prof. R.P. Tiwari",
+        "c": "Prof. A.K. Sharma",
+        "d": "Prof. K.R.S. Sambasiva Rao"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The present Vice Chancellor of Mizoram University is",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pawl Kut",
+        "b": "Chapchar Kut",
+        "c": "Mim Kut",
+        "d": "Thal Favang Kut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following Mizo Kut is associated with ‘Chai Dance’",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1886",
+        "b": "1877",
+        "c": "1876",
+        "d": "1896"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The famous ‘Thli chhe tleh kum’, which became an important remarkable date among the Mizo traditional counting of years was happened in",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chemtatrawta, Chhura & Kungawrhi",
+        "b": "Kungawrhi, Lalruanga & Chhura",
+        "c": "Lalruanga, Kungawrhi & Chemtatrawta",
+        "d": "Chemtatrawta, Lalruanga & Chhura"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The three Mizo folktales published by T.H. Lewin in his book ‘Colloquial Exercise in the Lushai Dialect’ were?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "D.E.Jones",
+        "b": "Edwin Rowlands",
+        "c": "Dr. Peter Frazer",
+        "d": "Edith Chapman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the Wales Missionary was given court case for his persistent effort toward emancipation of slaves",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sadawt",
+        "b": "Puar-ak",
+        "c": "Palai",
+        "d": "Lawichal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the Mizo marriage ceremony, a man appointed to protect a bride on her way to her husband’s house was",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mouth",
+        "b": "Tip of the head",
+        "c": "Nose",
+        "d": "Ears"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizo believed that when a person dies, his/her spirit exits through the",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15",
+        "b": "16",
+        "c": "17",
+        "d": "18"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Look at this series: 36, 31, 29, 24, 22, … What number should come next?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5.3",
+        "b": "5.5",
+        "c": "5.7",
+        "d": "5.9"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Look at this series: 2.3, 3.1, 3.9, 4.7, ... What number should come next?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "128",
+        "b": "226",
+        "c": "324",
+        "d": "429"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Look at this series: 8, 6, 9, 23, 87, ... What number should come next?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "89",
+        "b": "97",
+        "c": "109",
+        "d": "178"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Look at this series: 664, 332, 340, 170, 178, ... What number should come next?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9",
+        "b": "10",
+        "c": "11",
+        "d": "12"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one will replace the question mark? 3 7 2 = 6 5 4 7 = 8 6 9 5 = ?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9",
+        "b": "19",
+        "c": "15",
+        "d": "22"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one will replace the question mark? 2 2 1 = 3 5 4 5 = 15 5 5 3 = ?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "68",
+        "b": "69",
+        "c": "70",
+        "d": "71"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one will replace the question mark? 1   3   1 3 51 5 2 65 4 0 ? 2 4   6   8",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20",
+        "b": "21",
+        "c": "22",
+        "d": "23"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one will replace the question mark? 1   8   9 2 10 4 1 17 5 1 ? 6 3   3   4",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "dam : lake",
+        "b": "armour : helmet",
+        "c": "helmet : injury",
+        "d": "water : tide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "levee : flood",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "purify : strain",
+        "b": "steal : borrow",
+        "c": "explode : ignite",
+        "d": "pilfer : steal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "extort : obtain",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "stern : boat",
+        "b": "hand : palm",
+        "c": "beam : ship",
+        "d": "cruiser : vessel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "heel : foot",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "criticize",
+        "b": "disparage",
+        "c": "censure",
+        "d": "critique"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word does not have a similar meaning to - condemn",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "abjure",
+        "b": "assess",
+        "c": "amass",
+        "d": "deliberate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word means - to accumulate; to gather",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "indistinct",
+        "b": "perpetual",
+        "c": "vigilant",
+        "d": "imperturbable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word means - continuous; eternal; never ceasing",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Beckon",
+        "b": "exterminate",
+        "c": "facilitate",
+        "d": "disrespect"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the word most similar in meaning to - expedite",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select a suitable figure from the four alternatives (Answer Figures) that would complete the figure matrix (Problem Figure). Problem Figure Answer Figure (1)     (2)      (3)     (4)",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select a suitable figure from the four alternatives (Answer Figures) that would complete the figure matrix (Problem Figure). Problem Figure Answer Figure (1)     (2)      (3)     (4)",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select a suitable figure from the four alternatives (Answer Figures) that would complete the figure matrix (Problem Figure). Problem Figure Answer Figure (1)     (2)      (3)     (4)",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select a suitable figure from the four alternatives (Answer Figures) that would complete the figure matrix (Problem Figure). Problem Figure Answer Figure (1)     (2)      (3)     (4)",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select a suitable figure from the four alternatives (Answer Figures) that would complete the figure matrix (Problem Figure). Problem Figure Answer Figure (1)     (2)      (3)     (4)",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Q - N + M x P",
+        "b": "P + S x N – Q",
+        "c": "P - M + N x Q",
+        "d": "Q - S % P"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If A + B means A is the mother of B; A - B means A is the brother B; A % B means A is the father of B and A x B means A is the sister of B, which of the following shows that P is the maternal uncle of Q?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brother",
+        "b": "Nephew",
+        "c": "Uncle",
+        "d": "Son-in-law"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Introducing a boy, a girl said, “He is the son of the daughter of the father of my uncle.” How is the boy related to the girl?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Between B and D",
+        "b": "Between B and C",
+        "c": "Between E and D",
+        "d": "Between C and E"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A, B, C, D and E are sitting on a bench. A is sitting next to B, C is sitting next to D, D is not sitting with E who is on the left end of the bench. C is on the second position from the right. A is to the right of B and E. A and C are sitting together. In which position A is sitting?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RV",
+        "b": "UV",
+        "c": "RP",
+        "d": "QW"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "P, Q, R, S, T, U, V and W are sitting round the circle and are facing the centre: 1.P is second to the right of T who is the neighbour of R and V. 2.S is not the neighbour of P. 3.V is the neighbour of U. 4.Q is not between S and W. W is not between U and S. Which two of the following are not neighbours?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "28 triangles, 3 squares",
+        "b": "24 triangles, 5 squares",
+        "c": "28 triangles, 5 squares",
+        "d": "24 triangles, 3 squares"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Count the number of triangles and squares in the given figure.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

@@ -1,0 +1,1385 @@
+{
+  "slug": "translator-2019-english",
+  "exam": "Translator under Art & Culture Department",
+  "sitting": "2019",
+  "subject": "General English",
+  "source": "General English (Translator).pdf",
+  "sourceSha256": "b8baa826a22723eada9d00d7bf9b502f26ad5600a33b023bede58baf2634e86f",
+  "ocr": false,
+  "count": 58,
+  "questions": [
+    {
+      "n": 1,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 1 - 8) : Choose the correct alternative closest in meaning to the underlined",
+      "opts": {
+        "a": "started",
+        "b": "found",
+        "c": "forgone",
+        "d": "given up"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have **hit upon** a good plan to get rid of him.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 1 - 8) : Choose the correct alternative closest in meaning to the underlined",
+      "opts": {
+        "a": "gave up",
+        "b": "opposed",
+        "c": "swindled",
+        "d": "supported"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He **backed up** his friend’s claim.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 1 - 8) : Choose the correct alternative closest in meaning to the underlined",
+      "opts": {
+        "a": "take place",
+        "b": "complete",
+        "c": "begin",
+        "d": "end"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When does the Convocation **come off**?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 1 - 8) : Choose the correct alternative closest in meaning to the underlined",
+      "opts": {
+        "a": "becoming less acceptable",
+        "b": "becoming stronger",
+        "c": "unlawful",
+        "d": "gaining popularity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The belief in witchcraft is **losing ground**.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 1 - 8) : Choose the correct alternative closest in meaning to the underlined",
+      "opts": {
+        "a": "a great difference",
+        "b": "a long way off",
+        "c": "a painful journey",
+        "d": "a popular city"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is **a far cry** from Delhi to New York.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 1 - 8) : Choose the correct alternative closest in meaning to the underlined",
+      "opts": {
+        "a": "failed",
+        "b": "made people sad",
+        "c": "succeeded",
+        "d": "was popular"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The scheme **came to grief** owing to want of foresight.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 1 - 8) : Choose the correct alternative closest in meaning to the underlined",
+      "opts": {
+        "a": "is unhealthy",
+        "b": "lives carelessly",
+        "c": "lives in pleasures",
+        "d": "drives very fast"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who **lives a fast life** often dies an early death.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 1 - 8) : Choose the correct alternative closest in meaning to the underlined",
+      "opts": {
+        "a": "a subject of content",
+        "b": "a subject of dispute",
+        "c": "not regarded important",
+        "d": "a very crucial area"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "That territory is **a bone of contention**.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 9 - 16) : Choose the most appropriate idioms & phrases from the given options to",
+      "opts": {
+        "a": "beggars description",
+        "b": "is few and far between",
+        "c": "wins laurels",
+        "d": "is a turning point"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The beautiful landscape of Mizoram _____________.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 9 - 16) : Choose the most appropriate idioms & phrases from the given options to",
+      "opts": {
+        "a": "ride rough-shod",
+        "b": "harp on the same string.",
+        "c": "take the bull by the horns",
+        "d": "carry the day"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If you are not successful, do not _____________. Try out something new.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 9 - 16) : Choose the most appropriate idioms & phrases from the given options to",
+      "opts": {
+        "a": "followed suit",
+        "b": "were up and doing",
+        "c": "beat about the bush",
+        "d": "played fast and loose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The teacher left the classroom and the students_____________.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 9 - 16) : Choose the most appropriate idioms & phrases from the given options to",
+      "opts": {
+        "a": "blew his own trumpet",
+        "b": "cut a fine figure",
+        "c": "moved heaven and earth",
+        "d": "kicked up a row"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "John _____________ to achieve his dream.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 9 - 16) : Choose the most appropriate idioms & phrases from the given options to",
+      "opts": {
+        "a": "free and easy",
+        "b": "hard and fast",
+        "c": "at sixes and sevens",
+        "d": "null and void"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a hurry to reach my office, I left everything lying _____________.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 9 - 16) : Choose the most appropriate idioms & phrases from the given options to",
+      "opts": {
+        "a": "fell flat on",
+        "b": "at daggers drawn",
+        "c": "few and far between",
+        "d": "threw cold water on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The father’s criticism _____________ his child’s hope of success.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 9 - 16) : Choose the most appropriate idioms & phrases from the given options to",
+      "opts": {
+        "a": "on the wrong side of",
+        "b": "over and above",
+        "c": "through and through",
+        "d": "on the brink of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is _____________ sixty.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 9 - 16) : Choose the most appropriate idioms & phrases from the given options to",
+      "opts": {
+        "a": "right and left",
+        "b": "sum and substance",
+        "c": "rank and file",
+        "d": "better-half"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Can you tell me the _____________ of his long speech?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 17 - 26) : Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "Preposition",
+        "b": "Adverb",
+        "c": "Adjective",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He takes **after** his father.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 17 - 26) : Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "Adverb",
+        "b": "Verb",
+        "c": "Pronoun",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I think yours is a **better** plan.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 17 - 26) : Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Preposition",
+        "c": "Adverb",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Give thanks unto the Lord**; for** He is good.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 17 - 26) : Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "Adverb",
+        "b": "Verb",
+        "c": "Adjective",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "That is a fault that will **right** itself.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 17 - 26) : Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Well** begun is half done.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 17 - 26) : Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have had **enough** of this.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 17 - 26) : Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "Noun",
+        "b": "Adverb",
+        "c": "Adjective",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I met a little **cottage** girl.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 17 - 26) : Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "Adverb",
+        "b": "Verb",
+        "c": "Preposition",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Down** with the tyrant!",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 17 - 26) : Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "Adverb",
+        "b": "Pronoun",
+        "c": "Preposition",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**As** he was poor I helped him.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 17 - 26) : Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "Adverb",
+        "b": "Adjective",
+        "c": "Noun",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **rich** know not how the poor live.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 27 - 32) : Choose the correct clause of the words underlined in the given sentences.",
+      "opts": {
+        "a": "Adjective clause",
+        "b": "Adverb Clause",
+        "c": "Noun Clause",
+        "d": "Coordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**When the righteous rule**, the people rejoice.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 27 - 32) : Choose the correct clause of the words underlined in the given sentences.",
+      "opts": {
+        "a": "Adjective clause",
+        "b": "Adverb Clause",
+        "c": "Noun Clause",
+        "d": "Coordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I took him **because you recommended him.**",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 27 - 32) : Choose the correct clause of the words underlined in the given sentences.",
+      "opts": {
+        "a": "Adjective clause",
+        "b": "Adverb Clause",
+        "c": "Noun Clause",
+        "d": "Coordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "People **who eat too much** die early.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 27 - 32) : Choose the correct clause of the words underlined in the given sentences.",
+      "opts": {
+        "a": "Adjective clause",
+        "b": "Adverb Clause",
+        "c": "Noun Clause",
+        "d": "Coordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do you deny **that you stole the watch**?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 27 - 32) : Choose the correct clause of the words underlined in the given sentences.",
+      "opts": {
+        "a": "Adjective clause",
+        "b": "Adverb Clause",
+        "c": "Noun Clause",
+        "d": "Coordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I often wonder **how you are getting on**.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 27 - 32) : Choose the correct clause of the words underlined in the given sentences.",
+      "opts": {
+        "a": "Adjective clause",
+        "b": "Adverb Clause",
+        "c": "Noun Clause",
+        "d": "Coordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "That was the reason **why he came late**.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 33 - 37) : Analyse the given sentences and choose the correct option.",
+      "opts": {
+        "a": "Simple Sentence",
+        "b": "Compound Sentence",
+        "c": "Complex Sentence",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I congratulated him because he had passed .",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 33 - 37) : Analyse the given sentences and choose the correct option.",
+      "opts": {
+        "a": "Simple Sentence",
+        "b": "Compound Sentence",
+        "c": "Complex Sentence",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do this or you will be punished.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 33 - 37) : Analyse the given sentences and choose the correct option.",
+      "opts": {
+        "a": "Simple Sentence",
+        "b": "Compound Sentence",
+        "c": "Complex Sentence",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I will meet you at any place convenient for you.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 33 - 37) : Analyse the given sentences and choose the correct option.",
+      "opts": {
+        "a": "Simple Sentence",
+        "b": "Compound Sentence",
+        "c": "Complex Sentence",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They rejoice that they are going.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 33 - 37) : Analyse the given sentences and choose the correct option.",
+      "opts": {
+        "a": "Simple Sentence",
+        "b": "Compound Sentence",
+        "c": "Complex Sentence",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He saved the child at the risk of his life.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 38 - 42) : Choose the correct passive form of the following sentences from the",
+      "opts": {
+        "a": "The brave are admired.",
+        "b": "The brave are to be admired.",
+        "c": "People admire the brave.",
+        "d": "The brave is to be admired."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We admire the brave.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 38 - 42) : Choose the correct passive form of the following sentences from the",
+      "opts": {
+        "a": "Those happy days will not be forgotten.",
+        "b": "Will those happy days be ever forgotten?",
+        "c": "Shall the happy days be forgotten by me?",
+        "d": "Should those happy days be ever forgotten?"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shall I ever forget those happy days?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 38 - 42) : Choose the correct passive form of the following sentences from the",
+      "opts": {
+        "a": "I was being taken to prison by my captors.",
+        "b": "I was taken to prison by my captors.",
+        "c": "My captors took me to prison.",
+        "d": "They were taking me to prison."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My captors were taking me to prison.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 38 - 42) : Choose the correct passive form of the following sentences from the",
+      "opts": {
+        "a": "One’s promises are to be kept.",
+        "b": "Promises are to be kept by one.",
+        "c": "Promises should be kept.",
+        "d": "Keep your promises."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One should keep one’s promises.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 38 - 42) : Choose the correct passive form of the following sentences from the",
+      "opts": {
+        "a": "I was shown respect greatly.",
+        "b": "Great respect was shown to me.",
+        "c": "He was showing me the greatest respect.",
+        "d": "I was shown the greatest respect."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He showed me the greatest respect.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 43 - 58) : Choose the most suitable word from the given options.",
+      "opts": {
+        "a": "has",
+        "b": "is",
+        "c": "must",
+        "d": "have"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My friend and mentor _____________ arrived.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 43 - 58) : Choose the most suitable word from the given options.",
+      "opts": {
+        "a": "smells sweetly",
+        "b": "is sweet",
+        "c": "smells sweet",
+        "d": "sweetly smells"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The flower _____________.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 43 - 58) : Choose the most suitable word from the given options.",
+      "opts": {
+        "a": "wisest of all",
+        "b": "wiser",
+        "c": "wise",
+        "d": "wiser of all"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Solomon was the _____________ men.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 43 - 58) : Choose the most suitable word from the given options.",
+      "opts": {
+        "a": "lay",
+        "b": "lied",
+        "c": "lain",
+        "d": "laid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I _____________ the book on the table.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 43 - 58) : Choose the most suitable word from the given options.",
+      "opts": {
+        "a": "very",
+        "b": "too",
+        "c": "so",
+        "d": "extremely"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The news is _____________ good to be true.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 43 - 58) : Choose the most suitable word from the given options.",
+      "opts": {
+        "a": "unless",
+        "b": "before",
+        "c": "since",
+        "d": "lest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I shall not come _____________ you need me.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 43 - 58) : Choose the most suitable word from the given options.",
+      "opts": {
+        "a": "in honour of",
+        "b": "for the sake of",
+        "c": "on behalf of",
+        "d": "in lieu of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I thanked the guests _____________ the staff.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 43 - 58) : Choose the most suitable word from the given options.",
+      "opts": {
+        "a": "adhere",
+        "b": "adapt",
+        "c": "accede",
+        "d": "cling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We must _____________ ourselves to the new environment.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 43 - 58) : Choose the most suitable word from the given options.",
+      "opts": {
+        "a": "has prescribed",
+        "b": "has proscribed",
+        "c": "has prescripted",
+        "d": "have prescribed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The doctor _____________ the medicine for his sickness.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 43 - 58) : Choose the most suitable word from the given options.",
+      "opts": {
+        "a": "admission",
+        "b": "admittance",
+        "c": "attendance",
+        "d": "entrance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The _____________ to this office is prohibited.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 43 - 58) : Choose the most suitable word from the given options.",
+      "opts": {
+        "a": "request",
+        "b": "application",
+        "c": "petition",
+        "d": "pardon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The court rejected his _____________ for mercy.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 43 - 58) : Choose the most suitable word from the given options.",
+      "opts": {
+        "a": "Bidexterous",
+        "b": "Ambidexterous",
+        "c": "Biped",
+        "d": "Ambiguous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One who can use both hands equally well is called_____________.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 43 - 58) : Choose the most suitable word from the given options.",
+      "opts": {
+        "a": "regiment",
+        "b": "company",
+        "c": "consignment",
+        "d": "train"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A _____________ of goods was delivered by the transport agency.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 43 - 58) : Choose the most suitable word from the given options.",
+      "opts": {
+        "a": "list",
+        "b": "library",
+        "c": "table",
+        "d": "catalogue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Please prepare a _____________ of books.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 43 - 58) : Choose the most suitable word from the given options.",
+      "opts": {
+        "a": "colleague",
+        "b": "collegiate",
+        "c": "matinee",
+        "d": "coach"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is my _____________. We work in the same office.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Questions 43 - 58) : Choose the most suitable word from the given options.",
+      "opts": {
+        "a": "Anthropology",
+        "b": "Ethnology",
+        "c": "Hematology",
+        "d": "Etymology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_____________ is the study of various races of mankind.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "‘Strong cultural values keep one rooted in modern times.’ Express your view on this statement in about 400 – 500 words.(20)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Read the following excerpt from a letter sent by Jawaharlal Nehru to his daughter Indira on her 13th birthday and write the summary.(10) Central Prison, Nainital October 26, 1930 On your birthday you have been in the habit of receiving presents and good wishes. Good wishes you will still have in full measure, but what present can I send you from Naini Prison? My presents cannot be very material or solid. They can be of the mind and spirit, such as a good fairy might have bestowed on you - things that even the high walls of prison cannot stop. You know sweetheart, how I dislike sermonising and doling out good advice. When I am tempted to do this, I always think of a ‘very wise man’ I once read. Perhaps one day you will yourself read the book which contains this story. I have always thought that the best way to find out what is right and what is not right, what should be done and what should not be done, is not by giving a sermon, but by talking and discussing, and out of discussion sometimes a little bit of truth comes out. I have liked my talks with you and we have discussed many things, but the world is wide and beyond our world lie other wonderful and mysterious worlds; so none of us need ever be bored or imagine that we have learned everything worth learning and become very wise. A letter can hardly take the place of a talk; at best it is a one-sided affair. So, if I say anything that sounds like good advice do not take it as if it were a bad pill to swallow. Imagine that I have made a suggestion to you for you to think over, as if we really were having a talk. In history we read of great periods in the life of nations, of great men and women and great deeds performed, and sometimes in our dreams and reveries we imagine ourselves back in those times and doing brave deeds like the heroes of old. Do you remember how fascinated you were when you first read the story of Jeanne d’Arc, and how your ambition was to be something like her? Ordinary men and women are not usually heroic. They think of their bread and butter, of their children, of their household worries and the like. But a time comes when a whole people become full of faith for a great cause and then even simple, ordinary men and women become heroes, and history becomes stirring and epoch-making. Great leaders have something in them which inspire a whole people and make them do great deeds… In India a great leader, full of love for all who suffer and eager to help them, has inspired our people to great actions and noble sacrifice. He has helped to make the starving, the poor and the oppressed free and happy. If we are to be India’s soldiers we have to respect India’s honour, and that honour is a sacred trust. Often we may be in doubt as to what to do. It is no easy matter to decide what is right and what is not. One little test I shall ask you to apply whenever you are in doubt. Never do anything in secret or anything that you would wish to hide. For the desire to hide anything means that you are afraid, and fear is a bad thing and unworthy of you. Be brave, and all the rest follows. If you are brave, you will not fear and will not do anything of which you are ashamed. You know that in our great Freedom Movement, under Bapuji’s leadership, there is no room for secrecy or hiding. We have nothing to hide. We are not afraid of what we do or what we say. We work in the sun and in the light. Even so in our private lives let us make friends with the sun and work in the light and do nothing secretly or furtively. Privacy, of course, we may have and should have, but that is a very different thing from secrecy. And if you do so, my dear you will grow up a child of the light, unafraid and serene and unruffled, whatever may happen. I have written a very long letter to you. And yet there is so much I would like to tell you. How can a letter contain it? Good-bye, little one, and may you grow up into a brave soldier in India’s service. With all my love and good wishes.",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 2,
+      "text": "Write a paraphrase of the following verse :(6) The glories of our blood and state Are shadows, not substantial things: There is no armour against fate; Death lays his icy hands on kings; Sceptre and Crown Must tumble down. And in the dust be equal made With the poor crooked scythe and spade.",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "A",
+      "page": 2,
+      "text": "Translate the following paragraph from Mizo to English.(6) Mi chungchanga ngaih dân kan siam hian hmuh hmaih kan nei châwk. Chu chu ‘tumna a awm chuan kawng a awm,’ tih hi a ni. Ka hmêl hriat, pa pakhat chuan tumah hneh a nei lo va; mahse, insuala nguiban thei an awm miah lo thung. He pa hi a luhlul a, a huai a, a chhel êm êm a, engahmah hian tlawm a tum ngai lo. A tâwpa tâwpah chuan a aia chakte pawhin an ngam peih tawh lo mai \\hin. Rilru chhungrila tumruhna inphûm te, rualawhna te, taihmâkna te, chhelna te, hlawhchham tum lohna awm te hi kan inhmuhpui zo vek sêng ngai lo. Khaw khat nula hmêl\\ha leh fel neitu chu mi hmêl\\ha ber leh hausa ber an ni chuang lo. ‘Saw pa nupui atan saw chuan ka va ui e,’ i tih chuan, saw pa saw i hre chiang lo a ni. A nupuiin amaha thil hlu inphûm a hmuh i hmu ve lo tlat alawm!",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p2, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p2, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

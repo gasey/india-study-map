@@ -1,0 +1,3189 @@
+{
+  "papers": [
+    {
+      "id": "si-police-ub-2018-english",
+      "pdf": "si-police-ub-2018-english.pdf",
+      "subject": "General English",
+      "expectedMcq": 80,
+      "durationMinutes": 180,
+      "marksPerQuestion": 1,
+      "sourceSha256": "1e762098e8bfdfa65d9ebe6a984f33719ee3530e976dac5193d18e4f0dafd7be",
+      "questions": [
+        {
+          "n": 1,
+          "q": "To move heaven and earth :",
+          "options": [
+            "to travel in space",
+            "to pray fervently",
+            "to try every possible means",
+            "to cause an earthquake"
+          ],
+          "page": 1,
+          "direction": "Choose the correct alternative for the idiom or phrase."
+        },
+        {
+          "n": 2,
+          "q": "Chip of the old block :",
+          "options": [
+            "take after one’s parents in habit",
+            "to cut off a piece",
+            "make blocks out of a big rock",
+            "to start cutting wood"
+          ],
+          "page": 1,
+          "direction": "Choose the correct alternative for the idiom or phrase."
+        },
+        {
+          "n": 3,
+          "q": "At sixes and sevens :",
+          "options": [
+            "counting numbers",
+            "in disorder",
+            "place uniformly",
+            "undecided"
+          ],
+          "page": 1,
+          "direction": "Choose the correct alternative for the idiom or phrase."
+        },
+        {
+          "n": 4,
+          "q": "By hook or by crook :",
+          "options": [
+            "by unfair means",
+            "intentionally",
+            "by any means",
+            "no other way"
+          ],
+          "page": 1,
+          "direction": "Choose the correct alternative for the idiom or phrase."
+        },
+        {
+          "n": 5,
+          "q": "Eye to eye :",
+          "options": [
+            "to look straight in the eye",
+            "to give the same answer",
+            "to give correct decision",
+            "to have the same opinion"
+          ],
+          "page": 1,
+          "direction": "Choose the correct alternative for the idiom or phrase."
+        },
+        {
+          "n": 6,
+          "q": "Blow one’s trumpet :",
+          "options": [
+            "to have one’s own instrument",
+            "to praise oneself",
+            "to look for praise",
+            "to praise one’s friend"
+          ],
+          "page": 1,
+          "direction": "Choose the correct alternative for the idiom or phrase."
+        },
+        {
+          "n": 7,
+          "q": "Eat humble pie :",
+          "options": [
+            "to enjoy a meal",
+            "have a pie for lunch",
+            "to prepare a pie",
+            "to apologise"
+          ],
+          "page": 1,
+          "direction": "Choose the correct alternative for the idiom or phrase."
+        },
+        {
+          "n": 8,
+          "q": "Spick and span :",
+          "options": [
+            "very shiny",
+            "in order",
+            "keep very clean",
+            "slippery"
+          ],
+          "page": 2,
+          "direction": "Choose the correct alternative for the idiom or phrase."
+        },
+        {
+          "n": 9,
+          "q": "Take to heels :",
+          "options": [
+            "wears high-heeled shoes",
+            "liking for shoes with high heels",
+            "fashion statement",
+            "to run away"
+          ],
+          "page": 2,
+          "direction": "Choose the correct alternative for the idiom or phrase."
+        },
+        {
+          "n": 10,
+          "q": "Wild-goose chase :",
+          "options": [
+            "to go hunting",
+            "to run after someone",
+            "unprofitable",
+            "unproper"
+          ],
+          "page": 2,
+          "direction": "Choose the correct alternative for the idiom or phrase."
+        },
+        {
+          "n": 11,
+          "q": "A queer fish :",
+          "options": [
+            "funny person",
+            "sensitive person",
+            "quarrelsome person",
+            "strange person"
+          ],
+          "page": 2,
+          "direction": "Choose the correct alternative for the idiom or phrase."
+        },
+        {
+          "n": 12,
+          "q": "To lose face :",
+          "options": [
+            "to look angry",
+            "to be humiliated",
+            "to be helpless",
+            "to look vacant"
+          ],
+          "page": 2,
+          "direction": "Choose the correct alternative for the idiom or phrase."
+        },
+        {
+          "n": 13,
+          "q": "Get cold feet :",
+          "options": [
+            "to be afraid",
+            "to get cold",
+            "to run for life",
+            "to feel sick"
+          ],
+          "page": 2,
+          "direction": "Choose the correct alternative for the idiom or phrase."
+        },
+        {
+          "n": 14,
+          "q": "Small talk :",
+          "options": [
+            "back biting",
+            "gossip",
+            "whispering",
+            "light conversation"
+          ],
+          "page": 2,
+          "direction": "Choose the correct alternative for the idiom or phrase."
+        },
+        {
+          "n": 15,
+          "q": "Talk shop :",
+          "options": [
+            "talk about shop",
+            "talk in a shop",
+            "talk to the point",
+            "talk business"
+          ],
+          "page": 2,
+          "direction": "Choose the correct alternative for the idiom or phrase."
+        },
+        {
+          "n": 16,
+          "q": "A bolt from the blue :",
+          "options": [
+            "struck by thunder",
+            "a complete surprise",
+            "a flash of lightning",
+            "a piece of bad luck"
+          ],
+          "page": 2,
+          "direction": "Choose the correct alternative for the idiom or phrase."
+        },
+        {
+          "n": 17,
+          "q": "In the future, domination of modern technology will be –",
+          "options": [
+            "increasing",
+            "more obvious",
+            "decreasing",
+            "less pronounced"
+          ],
+          "page": 3,
+          "direction": "Read the passage below, then answer.\n\nDirection (Question No. 17- 26) : Read the passage carefully and choose the correct answers from the options given. Modern technology is increasingly dominating the world and the domination is likely to become more pronounced in future because of the fast developments tending to subdue, creating human thinking and expression. But the belief that literature would have no place in future life of man is equally erroneous. Technology has created robots, artificial intelligence in the shape of “thinking computers” which can read, translate, interpret and give decisions with amazing speed and compositions – poetry, prose, drama, novels and stories. As such, our actions are governed more and more by computer culture and electronic calculators of all types will destroy the talent of writers, authors, poets, biographers and artists. Rather it can generally promote the climate for expressions of talent in various channels by providing firstly enough leisure, as the technology is creating leisure by introducing labour saving and devices. The leisure thus created can be fruitfully put to literary pursuits. Literature, in reality is the product of thought of very sane and gifted people, who live in all ages and they need an environment of peace and tranquility and naturally the advancement of present day accompanied with the comforts of life provided by the modern technology can promote better literature and masterpieces in the arts. Scientists and technologists do not encroach upon the field of literature as it is the source of great peace and inspiration for materialistic related distractions of the mind. Literature is an essential part of culture and its values cherished by people since time immemorial and technological progress cannot afford to cause decay and neglect of nature and her processes. The machine must not enslave man completely as it is the human spirit which must be decisive especially regarding the right uses of technology. The latest drift to technology has to be adjusted and regulated so as not to let the latent aspects of culture fade away and make human being a machine. There are people who are of the opinion that science demolishes faith and tradition, it produces skepticism, anxiety and even tension as it doubts everything, even some of the cherished values. Technology has helped science to produce weapons of destruction and it has further deteriorated the areas of peace. Here the literature gets suppressed. The artists and poets who prepare the literary pieces get suppressed and the art suffers. Technology, as such, is not averse to literature, nor should it be. It is only when technology is not used in a worthwhile direction, when it is used to produce military hardware and things to terrorize mankind, that literature goes in the background. The pieces of art and literature, poetry, prose, drama, etc, are the source of sustenance of the soul of man. In todays ever-increasing tensions of day to day, good literature makes a lasting impact on the mind, it entertains, instructs and enobles the spirit of human beings. There is a strong reason for such impact of literary pieces on human spirit. The poets and artists have been souls gifted exclusively for the works created by them. No ordinary men could venture into the field of literature, so the pieces of literature produced by these genius of men and women had a strange power of giving solace to depressed souls."
+        },
+        {
+          "n": 18,
+          "q": "In order to produce refined works in literature, writer’s need",
+          "options": [
+            "serene environment",
+            "‘thinking computers’",
+            "both (a) & (b)",
+            "neither (a) nor (b)"
+          ],
+          "page": 3,
+          "direction": "Read the passage below, then answer.\n\nDirection (Question No. 17- 26) : Read the passage carefully and choose the correct answers from the options given. Modern technology is increasingly dominating the world and the domination is likely to become more pronounced in future because of the fast developments tending to subdue, creating human thinking and expression. But the belief that literature would have no place in future life of man is equally erroneous. Technology has created robots, artificial intelligence in the shape of “thinking computers” which can read, translate, interpret and give decisions with amazing speed and compositions – poetry, prose, drama, novels and stories. As such, our actions are governed more and more by computer culture and electronic calculators of all types will destroy the talent of writers, authors, poets, biographers and artists. Rather it can generally promote the climate for expressions of talent in various channels by providing firstly enough leisure, as the technology is creating leisure by introducing labour saving and devices. The leisure thus created can be fruitfully put to literary pursuits. Literature, in reality is the product of thought of very sane and gifted people, who live in all ages and they need an environment of peace and tranquility and naturally the advancement of present day accompanied with the comforts of life provided by the modern technology can promote better literature and masterpieces in the arts. Scientists and technologists do not encroach upon the field of literature as it is the source of great peace and inspiration for materialistic related distractions of the mind. Literature is an essential part of culture and its values cherished by people since time immemorial and technological progress cannot afford to cause decay and neglect of nature and her processes. The machine must not enslave man completely as it is the human spirit which must be decisive especially regarding the right uses of technology. The latest drift to technology has to be adjusted and regulated so as not to let the latent aspects of culture fade away and make human being a machine. There are people who are of the opinion that science demolishes faith and tradition, it produces skepticism, anxiety and even tension as it doubts everything, even some of the cherished values. Technology has helped science to produce weapons of destruction and it has further deteriorated the areas of peace. Here the literature gets suppressed. The artists and poets who prepare the literary pieces get suppressed and the art suffers. Technology, as such, is not averse to literature, nor should it be. It is only when technology is not used in a worthwhile direction, when it is used to produce military hardware and things to terrorize mankind, that literature goes in the background. The pieces of art and literature, poetry, prose, drama, etc, are the source of sustenance of the soul of man. In todays ever-increasing tensions of day to day, good literature makes a lasting impact on the mind, it entertains, instructs and enobles the spirit of human beings. There is a strong reason for such impact of literary pieces on human spirit. The poets and artists have been souls gifted exclusively for the works created by them. No ordinary men could venture into the field of literature, so the pieces of literature produced by these genius of men and women had a strange power of giving solace to depressed souls."
+        },
+        {
+          "n": 19,
+          "q": "Literature helps us",
+          "options": [
+            "to understand the value of leisure time",
+            "utilize modern technology",
+            "to divert our minds from materialism",
+            "all of these"
+          ],
+          "page": 3,
+          "direction": "Read the passage below, then answer.\n\nDirection (Question No. 17- 26) : Read the passage carefully and choose the correct answers from the options given. Modern technology is increasingly dominating the world and the domination is likely to become more pronounced in future because of the fast developments tending to subdue, creating human thinking and expression. But the belief that literature would have no place in future life of man is equally erroneous. Technology has created robots, artificial intelligence in the shape of “thinking computers” which can read, translate, interpret and give decisions with amazing speed and compositions – poetry, prose, drama, novels and stories. As such, our actions are governed more and more by computer culture and electronic calculators of all types will destroy the talent of writers, authors, poets, biographers and artists. Rather it can generally promote the climate for expressions of talent in various channels by providing firstly enough leisure, as the technology is creating leisure by introducing labour saving and devices. The leisure thus created can be fruitfully put to literary pursuits. Literature, in reality is the product of thought of very sane and gifted people, who live in all ages and they need an environment of peace and tranquility and naturally the advancement of present day accompanied with the comforts of life provided by the modern technology can promote better literature and masterpieces in the arts. Scientists and technologists do not encroach upon the field of literature as it is the source of great peace and inspiration for materialistic related distractions of the mind. Literature is an essential part of culture and its values cherished by people since time immemorial and technological progress cannot afford to cause decay and neglect of nature and her processes. The machine must not enslave man completely as it is the human spirit which must be decisive especially regarding the right uses of technology. The latest drift to technology has to be adjusted and regulated so as not to let the latent aspects of culture fade away and make human being a machine. There are people who are of the opinion that science demolishes faith and tradition, it produces skepticism, anxiety and even tension as it doubts everything, even some of the cherished values. Technology has helped science to produce weapons of destruction and it has further deteriorated the areas of peace. Here the literature gets suppressed. The artists and poets who prepare the literary pieces get suppressed and the art suffers. Technology, as such, is not averse to literature, nor should it be. It is only when technology is not used in a worthwhile direction, when it is used to produce military hardware and things to terrorize mankind, that literature goes in the background. The pieces of art and literature, poetry, prose, drama, etc, are the source of sustenance of the soul of man. In todays ever-increasing tensions of day to day, good literature makes a lasting impact on the mind, it entertains, instructs and enobles the spirit of human beings. There is a strong reason for such impact of literary pieces on human spirit. The poets and artists have been souls gifted exclusively for the works created by them. No ordinary men could venture into the field of literature, so the pieces of literature produced by these genius of men and women had a strange power of giving solace to depressed souls."
+        },
+        {
+          "n": 20,
+          "q": "Literature ‘enobles the spirit of human beings’ because –",
+          "options": [
+            "writers are endowed with exclusive gifts for their works",
+            "writers take so much pain to feed the hungry soul",
+            "modern technology makes great contribution in the realms of literature",
+            "none of these"
+          ],
+          "page": 3,
+          "direction": "Read the passage below, then answer.\n\nDirection (Question No. 17- 26) : Read the passage carefully and choose the correct answers from the options given. Modern technology is increasingly dominating the world and the domination is likely to become more pronounced in future because of the fast developments tending to subdue, creating human thinking and expression. But the belief that literature would have no place in future life of man is equally erroneous. Technology has created robots, artificial intelligence in the shape of “thinking computers” which can read, translate, interpret and give decisions with amazing speed and compositions – poetry, prose, drama, novels and stories. As such, our actions are governed more and more by computer culture and electronic calculators of all types will destroy the talent of writers, authors, poets, biographers and artists. Rather it can generally promote the climate for expressions of talent in various channels by providing firstly enough leisure, as the technology is creating leisure by introducing labour saving and devices. The leisure thus created can be fruitfully put to literary pursuits. Literature, in reality is the product of thought of very sane and gifted people, who live in all ages and they need an environment of peace and tranquility and naturally the advancement of present day accompanied with the comforts of life provided by the modern technology can promote better literature and masterpieces in the arts. Scientists and technologists do not encroach upon the field of literature as it is the source of great peace and inspiration for materialistic related distractions of the mind. Literature is an essential part of culture and its values cherished by people since time immemorial and technological progress cannot afford to cause decay and neglect of nature and her processes. The machine must not enslave man completely as it is the human spirit which must be decisive especially regarding the right uses of technology. The latest drift to technology has to be adjusted and regulated so as not to let the latent aspects of culture fade away and make human being a machine. There are people who are of the opinion that science demolishes faith and tradition, it produces skepticism, anxiety and even tension as it doubts everything, even some of the cherished values. Technology has helped science to produce weapons of destruction and it has further deteriorated the areas of peace. Here the literature gets suppressed. The artists and poets who prepare the literary pieces get suppressed and the art suffers. Technology, as such, is not averse to literature, nor should it be. It is only when technology is not used in a worthwhile direction, when it is used to produce military hardware and things to terrorize mankind, that literature goes in the background. The pieces of art and literature, poetry, prose, drama, etc, are the source of sustenance of the soul of man. In todays ever-increasing tensions of day to day, good literature makes a lasting impact on the mind, it entertains, instructs and enobles the spirit of human beings. There is a strong reason for such impact of literary pieces on human spirit. The poets and artists have been souls gifted exclusively for the works created by them. No ordinary men could venture into the field of literature, so the pieces of literature produced by these genius of men and women had a strange power of giving solace to depressed souls."
+        },
+        {
+          "n": 21,
+          "q": "accuracy",
+          "options": [
+            "precision",
+            "awesome",
+            "doubtful",
+            "invalid"
+          ],
+          "page": 3,
+          "direction": "Choose the synonym of a word from the passage.\n\nDirection (Question No. 17- 26) : Read the passage carefully and choose the correct answers from the options given. Modern technology is increasingly dominating the world and the domination is likely to become more pronounced in future because of the fast developments tending to subdue, creating human thinking and expression. But the belief that literature would have no place in future life of man is equally erroneous. Technology has created robots, artificial intelligence in the shape of “thinking computers” which can read, translate, interpret and give decisions with amazing speed and compositions – poetry, prose, drama, novels and stories. As such, our actions are governed more and more by computer culture and electronic calculators of all types will destroy the talent of writers, authors, poets, biographers and artists. Rather it can generally promote the climate for expressions of talent in various channels by providing firstly enough leisure, as the technology is creating leisure by introducing labour saving and devices. The leisure thus created can be fruitfully put to literary pursuits. Literature, in reality is the product of thought of very sane and gifted people, who live in all ages and they need an environment of peace and tranquility and naturally the advancement of present day accompanied with the comforts of life provided by the modern technology can promote better literature and masterpieces in the arts. Scientists and technologists do not encroach upon the field of literature as it is the source of great peace and inspiration for materialistic related distractions of the mind. Literature is an essential part of culture and its values cherished by people since time immemorial and technological progress cannot afford to cause decay and neglect of nature and her processes. The machine must not enslave man completely as it is the human spirit which must be decisive especially regarding the right uses of technology. The latest drift to technology has to be adjusted and regulated so as not to let the latent aspects of culture fade away and make human being a machine. There are people who are of the opinion that science demolishes faith and tradition, it produces skepticism, anxiety and even tension as it doubts everything, even some of the cherished values. Technology has helped science to produce weapons of destruction and it has further deteriorated the areas of peace. Here the literature gets suppressed. The artists and poets who prepare the literary pieces get suppressed and the art suffers. Technology, as such, is not averse to literature, nor should it be. It is only when technology is not used in a worthwhile direction, when it is used to produce military hardware and things to terrorize mankind, that literature goes in the background. The pieces of art and literature, poetry, prose, drama, etc, are the source of sustenance of the soul of man. In todays ever-increasing tensions of day to day, good literature makes a lasting impact on the mind, it entertains, instructs and enobles the spirit of human beings. There is a strong reason for such impact of literary pieces on human spirit. The poets and artists have been souls gifted exclusively for the works created by them. No ordinary men could venture into the field of literature, so the pieces of literature produced by these genius of men and women had a strange power of giving solace to depressed souls."
+        },
+        {
+          "n": 22,
+          "q": "scepticism",
+          "options": [
+            "unrest",
+            "suspicion",
+            "trust",
+            "discontentment"
+          ],
+          "page": 3,
+          "direction": "Choose the synonym of a word from the passage.\n\nDirection (Question No. 17- 26) : Read the passage carefully and choose the correct answers from the options given. Modern technology is increasingly dominating the world and the domination is likely to become more pronounced in future because of the fast developments tending to subdue, creating human thinking and expression. But the belief that literature would have no place in future life of man is equally erroneous. Technology has created robots, artificial intelligence in the shape of “thinking computers” which can read, translate, interpret and give decisions with amazing speed and compositions – poetry, prose, drama, novels and stories. As such, our actions are governed more and more by computer culture and electronic calculators of all types will destroy the talent of writers, authors, poets, biographers and artists. Rather it can generally promote the climate for expressions of talent in various channels by providing firstly enough leisure, as the technology is creating leisure by introducing labour saving and devices. The leisure thus created can be fruitfully put to literary pursuits. Literature, in reality is the product of thought of very sane and gifted people, who live in all ages and they need an environment of peace and tranquility and naturally the advancement of present day accompanied with the comforts of life provided by the modern technology can promote better literature and masterpieces in the arts. Scientists and technologists do not encroach upon the field of literature as it is the source of great peace and inspiration for materialistic related distractions of the mind. Literature is an essential part of culture and its values cherished by people since time immemorial and technological progress cannot afford to cause decay and neglect of nature and her processes. The machine must not enslave man completely as it is the human spirit which must be decisive especially regarding the right uses of technology. The latest drift to technology has to be adjusted and regulated so as not to let the latent aspects of culture fade away and make human being a machine. There are people who are of the opinion that science demolishes faith and tradition, it produces skepticism, anxiety and even tension as it doubts everything, even some of the cherished values. Technology has helped science to produce weapons of destruction and it has further deteriorated the areas of peace. Here the literature gets suppressed. The artists and poets who prepare the literary pieces get suppressed and the art suffers. Technology, as such, is not averse to literature, nor should it be. It is only when technology is not used in a worthwhile direction, when it is used to produce military hardware and things to terrorize mankind, that literature goes in the background. The pieces of art and literature, poetry, prose, drama, etc, are the source of sustenance of the soul of man. In todays ever-increasing tensions of day to day, good literature makes a lasting impact on the mind, it entertains, instructs and enobles the spirit of human beings. There is a strong reason for such impact of literary pieces on human spirit. The poets and artists have been souls gifted exclusively for the works created by them. No ordinary men could venture into the field of literature, so the pieces of literature produced by these genius of men and women had a strange power of giving solace to depressed souls."
+        },
+        {
+          "n": 23,
+          "q": "sustenance",
+          "options": [
+            "abundance",
+            "essential",
+            "confusion",
+            "nourishment"
+          ],
+          "page": 3,
+          "direction": "Choose the synonym of a word from the passage.\n\nDirection (Question No. 17- 26) : Read the passage carefully and choose the correct answers from the options given. Modern technology is increasingly dominating the world and the domination is likely to become more pronounced in future because of the fast developments tending to subdue, creating human thinking and expression. But the belief that literature would have no place in future life of man is equally erroneous. Technology has created robots, artificial intelligence in the shape of “thinking computers” which can read, translate, interpret and give decisions with amazing speed and compositions – poetry, prose, drama, novels and stories. As such, our actions are governed more and more by computer culture and electronic calculators of all types will destroy the talent of writers, authors, poets, biographers and artists. Rather it can generally promote the climate for expressions of talent in various channels by providing firstly enough leisure, as the technology is creating leisure by introducing labour saving and devices. The leisure thus created can be fruitfully put to literary pursuits. Literature, in reality is the product of thought of very sane and gifted people, who live in all ages and they need an environment of peace and tranquility and naturally the advancement of present day accompanied with the comforts of life provided by the modern technology can promote better literature and masterpieces in the arts. Scientists and technologists do not encroach upon the field of literature as it is the source of great peace and inspiration for materialistic related distractions of the mind. Literature is an essential part of culture and its values cherished by people since time immemorial and technological progress cannot afford to cause decay and neglect of nature and her processes. The machine must not enslave man completely as it is the human spirit which must be decisive especially regarding the right uses of technology. The latest drift to technology has to be adjusted and regulated so as not to let the latent aspects of culture fade away and make human being a machine. There are people who are of the opinion that science demolishes faith and tradition, it produces skepticism, anxiety and even tension as it doubts everything, even some of the cherished values. Technology has helped science to produce weapons of destruction and it has further deteriorated the areas of peace. Here the literature gets suppressed. The artists and poets who prepare the literary pieces get suppressed and the art suffers. Technology, as such, is not averse to literature, nor should it be. It is only when technology is not used in a worthwhile direction, when it is used to produce military hardware and things to terrorize mankind, that literature goes in the background. The pieces of art and literature, poetry, prose, drama, etc, are the source of sustenance of the soul of man. In todays ever-increasing tensions of day to day, good literature makes a lasting impact on the mind, it entertains, instructs and enobles the spirit of human beings. There is a strong reason for such impact of literary pieces on human spirit. The poets and artists have been souls gifted exclusively for the works created by them. No ordinary men could venture into the field of literature, so the pieces of literature produced by these genius of men and women had a strange power of giving solace to depressed souls."
+        },
+        {
+          "n": 24,
+          "q": "latent",
+          "options": [
+            "manifest",
+            "conceal",
+            "worthless",
+            "prominent"
+          ],
+          "page": 4,
+          "direction": "Choose the antonym of a word from the passage.\n\nDirection (Question No. 17- 26) : Read the passage carefully and choose the correct answers from the options given. Modern technology is increasingly dominating the world and the domination is likely to become more pronounced in future because of the fast developments tending to subdue, creating human thinking and expression. But the belief that literature would have no place in future life of man is equally erroneous. Technology has created robots, artificial intelligence in the shape of “thinking computers” which can read, translate, interpret and give decisions with amazing speed and compositions – poetry, prose, drama, novels and stories. As such, our actions are governed more and more by computer culture and electronic calculators of all types will destroy the talent of writers, authors, poets, biographers and artists. Rather it can generally promote the climate for expressions of talent in various channels by providing firstly enough leisure, as the technology is creating leisure by introducing labour saving and devices. The leisure thus created can be fruitfully put to literary pursuits. Literature, in reality is the product of thought of very sane and gifted people, who live in all ages and they need an environment of peace and tranquility and naturally the advancement of present day accompanied with the comforts of life provided by the modern technology can promote better literature and masterpieces in the arts. Scientists and technologists do not encroach upon the field of literature as it is the source of great peace and inspiration for materialistic related distractions of the mind. Literature is an essential part of culture and its values cherished by people since time immemorial and technological progress cannot afford to cause decay and neglect of nature and her processes. The machine must not enslave man completely as it is the human spirit which must be decisive especially regarding the right uses of technology. The latest drift to technology has to be adjusted and regulated so as not to let the latent aspects of culture fade away and make human being a machine. There are people who are of the opinion that science demolishes faith and tradition, it produces skepticism, anxiety and even tension as it doubts everything, even some of the cherished values. Technology has helped science to produce weapons of destruction and it has further deteriorated the areas of peace. Here the literature gets suppressed. The artists and poets who prepare the literary pieces get suppressed and the art suffers. Technology, as such, is not averse to literature, nor should it be. It is only when technology is not used in a worthwhile direction, when it is used to produce military hardware and things to terrorize mankind, that literature goes in the background. The pieces of art and literature, poetry, prose, drama, etc, are the source of sustenance of the soul of man. In todays ever-increasing tensions of day to day, good literature makes a lasting impact on the mind, it entertains, instructs and enobles the spirit of human beings. There is a strong reason for such impact of literary pieces on human spirit. The poets and artists have been souls gifted exclusively for the works created by them. No ordinary men could venture into the field of literature, so the pieces of literature produced by these genius of men and women had a strange power of giving solace to depressed souls."
+        },
+        {
+          "n": 25,
+          "q": "deteriorate",
+          "options": [
+            "certain",
+            "disturb",
+            "regulate",
+            "improve"
+          ],
+          "page": 4,
+          "direction": "Choose the antonym of a word from the passage.\n\nDirection (Question No. 17- 26) : Read the passage carefully and choose the correct answers from the options given. Modern technology is increasingly dominating the world and the domination is likely to become more pronounced in future because of the fast developments tending to subdue, creating human thinking and expression. But the belief that literature would have no place in future life of man is equally erroneous. Technology has created robots, artificial intelligence in the shape of “thinking computers” which can read, translate, interpret and give decisions with amazing speed and compositions – poetry, prose, drama, novels and stories. As such, our actions are governed more and more by computer culture and electronic calculators of all types will destroy the talent of writers, authors, poets, biographers and artists. Rather it can generally promote the climate for expressions of talent in various channels by providing firstly enough leisure, as the technology is creating leisure by introducing labour saving and devices. The leisure thus created can be fruitfully put to literary pursuits. Literature, in reality is the product of thought of very sane and gifted people, who live in all ages and they need an environment of peace and tranquility and naturally the advancement of present day accompanied with the comforts of life provided by the modern technology can promote better literature and masterpieces in the arts. Scientists and technologists do not encroach upon the field of literature as it is the source of great peace and inspiration for materialistic related distractions of the mind. Literature is an essential part of culture and its values cherished by people since time immemorial and technological progress cannot afford to cause decay and neglect of nature and her processes. The machine must not enslave man completely as it is the human spirit which must be decisive especially regarding the right uses of technology. The latest drift to technology has to be adjusted and regulated so as not to let the latent aspects of culture fade away and make human being a machine. There are people who are of the opinion that science demolishes faith and tradition, it produces skepticism, anxiety and even tension as it doubts everything, even some of the cherished values. Technology has helped science to produce weapons of destruction and it has further deteriorated the areas of peace. Here the literature gets suppressed. The artists and poets who prepare the literary pieces get suppressed and the art suffers. Technology, as such, is not averse to literature, nor should it be. It is only when technology is not used in a worthwhile direction, when it is used to produce military hardware and things to terrorize mankind, that literature goes in the background. The pieces of art and literature, poetry, prose, drama, etc, are the source of sustenance of the soul of man. In todays ever-increasing tensions of day to day, good literature makes a lasting impact on the mind, it entertains, instructs and enobles the spirit of human beings. There is a strong reason for such impact of literary pieces on human spirit. The poets and artists have been souls gifted exclusively for the works created by them. No ordinary men could venture into the field of literature, so the pieces of literature produced by these genius of men and women had a strange power of giving solace to depressed souls."
+        },
+        {
+          "n": 26,
+          "q": "demolish",
+          "options": [
+            "acknowledge",
+            "displace",
+            "strengthen",
+            "promote"
+          ],
+          "page": 4,
+          "direction": "Choose the antonym of a word from the passage.\n\nDirection (Question No. 17- 26) : Read the passage carefully and choose the correct answers from the options given. Modern technology is increasingly dominating the world and the domination is likely to become more pronounced in future because of the fast developments tending to subdue, creating human thinking and expression. But the belief that literature would have no place in future life of man is equally erroneous. Technology has created robots, artificial intelligence in the shape of “thinking computers” which can read, translate, interpret and give decisions with amazing speed and compositions – poetry, prose, drama, novels and stories. As such, our actions are governed more and more by computer culture and electronic calculators of all types will destroy the talent of writers, authors, poets, biographers and artists. Rather it can generally promote the climate for expressions of talent in various channels by providing firstly enough leisure, as the technology is creating leisure by introducing labour saving and devices. The leisure thus created can be fruitfully put to literary pursuits. Literature, in reality is the product of thought of very sane and gifted people, who live in all ages and they need an environment of peace and tranquility and naturally the advancement of present day accompanied with the comforts of life provided by the modern technology can promote better literature and masterpieces in the arts. Scientists and technologists do not encroach upon the field of literature as it is the source of great peace and inspiration for materialistic related distractions of the mind. Literature is an essential part of culture and its values cherished by people since time immemorial and technological progress cannot afford to cause decay and neglect of nature and her processes. The machine must not enslave man completely as it is the human spirit which must be decisive especially regarding the right uses of technology. The latest drift to technology has to be adjusted and regulated so as not to let the latent aspects of culture fade away and make human being a machine. There are people who are of the opinion that science demolishes faith and tradition, it produces skepticism, anxiety and even tension as it doubts everything, even some of the cherished values. Technology has helped science to produce weapons of destruction and it has further deteriorated the areas of peace. Here the literature gets suppressed. The artists and poets who prepare the literary pieces get suppressed and the art suffers. Technology, as such, is not averse to literature, nor should it be. It is only when technology is not used in a worthwhile direction, when it is used to produce military hardware and things to terrorize mankind, that literature goes in the background. The pieces of art and literature, poetry, prose, drama, etc, are the source of sustenance of the soul of man. In todays ever-increasing tensions of day to day, good literature makes a lasting impact on the mind, it entertains, instructs and enobles the spirit of human beings. There is a strong reason for such impact of literary pieces on human spirit. The poets and artists have been souls gifted exclusively for the works created by them. No ordinary men could venture into the field of literature, so the pieces of literature produced by these genius of men and women had a strange power of giving solace to depressed souls."
+        },
+        {
+          "n": 27,
+          "q": "What is the author’s main concern in this passage?",
+          "options": [
+            "Problems of industrialisation",
+            "The Bengal tiger",
+            "Endangered species",
+            "Callousness of man"
+          ],
+          "page": 4,
+          "direction": "Read the passage below, then answer.\n\nSince the world has become industrialised, there has been an increase in the number of animal species that have either become extinct or near extinction. Bengal tiger, for insyance, which roamed the jungle in vasy numbers, now numbers only 2300 and by the year 2025, their population is estimated to be down to zero. What is alarming about the case of Bengal tiger is that this extinction will have been caused almost entirely by poachers who according to some sources, are not interested in material gain but in personal gratification. This is an example of the callousness that is part of what is causing the problem of extinction. Animals like the Bengal tiger, as well as those endangered species, are a valuable part of the world’s ecosystem. International laws protecting these animals must be enacted to ensure their survival, and the survival of our planet. Countries around the world have begun to deal with the problem in various ways. Some countries, in order to circumvent the problem, have allocated large amount of land to animal reserves. They then charge admission to help defray the cost of maintaining the parks, and they often must also depend on world organisations for support. With the money get, they can invest in equipment and patrols to protect the animals. Another solution that is an attempt to stem the tide of animal extinction is an international boycott of products made from endangered species. This seems fairly effective, but it will not, by itself, prevent animals from being hunted and killed."
+        },
+        {
+          "n": 28,
+          "q": "According to some sources, as quoted in the passage, poachers kill for :",
+          "options": [
+            "Material gain",
+            "Personal satisfaction",
+            "Both (a) & (b)",
+            "None of these"
+          ],
+          "page": 4,
+          "direction": "Read the passage below, then answer.\n\nSince the world has become industrialised, there has been an increase in the number of animal species that have either become extinct or near extinction. Bengal tiger, for insyance, which roamed the jungle in vasy numbers, now numbers only 2300 and by the year 2025, their population is estimated to be down to zero. What is alarming about the case of Bengal tiger is that this extinction will have been caused almost entirely by poachers who according to some sources, are not interested in material gain but in personal gratification. This is an example of the callousness that is part of what is causing the problem of extinction. Animals like the Bengal tiger, as well as those endangered species, are a valuable part of the world’s ecosystem. International laws protecting these animals must be enacted to ensure their survival, and the survival of our planet. Countries around the world have begun to deal with the problem in various ways. Some countries, in order to circumvent the problem, have allocated large amount of land to animal reserves. They then charge admission to help defray the cost of maintaining the parks, and they often must also depend on world organisations for support. With the money get, they can invest in equipment and patrols to protect the animals. Another solution that is an attempt to stem the tide of animal extinction is an international boycott of products made from endangered species. This seems fairly effective, but it will not, by itself, prevent animals from being hunted and killed."
+        },
+        {
+          "n": 29,
+          "q": "Which of the following words is closest in meaning to the word alarming?",
+          "options": [
+            "Serious",
+            "Dangerous",
+            "Distressing",
+            "Frightening"
+          ],
+          "page": 4,
+          "direction": "Read the passage below, then answer.\n\nSince the world has become industrialised, there has been an increase in the number of animal species that have either become extinct or near extinction. Bengal tiger, for insyance, which roamed the jungle in vasy numbers, now numbers only 2300 and by the year 2025, their population is estimated to be down to zero. What is alarming about the case of Bengal tiger is that this extinction will have been caused almost entirely by poachers who according to some sources, are not interested in material gain but in personal gratification. This is an example of the callousness that is part of what is causing the problem of extinction. Animals like the Bengal tiger, as well as those endangered species, are a valuable part of the world’s ecosystem. International laws protecting these animals must be enacted to ensure their survival, and the survival of our planet. Countries around the world have begun to deal with the problem in various ways. Some countries, in order to circumvent the problem, have allocated large amount of land to animal reserves. They then charge admission to help defray the cost of maintaining the parks, and they often must also depend on world organisations for support. With the money get, they can invest in equipment and patrols to protect the animals. Another solution that is an attempt to stem the tide of animal extinction is an international boycott of products made from endangered species. This seems fairly effective, but it will not, by itself, prevent animals from being hunted and killed."
+        },
+        {
+          "n": 30,
+          "q": "Certain species are becoming extinct because of :",
+          "options": [
+            "Industrialisation",
+            "Poaching",
+            "Love of products made from them",
+            "All of these"
+          ],
+          "page": 4,
+          "direction": "Read the passage below, then answer.\n\nSince the world has become industrialised, there has been an increase in the number of animal species that have either become extinct or near extinction. Bengal tiger, for insyance, which roamed the jungle in vasy numbers, now numbers only 2300 and by the year 2025, their population is estimated to be down to zero. What is alarming about the case of Bengal tiger is that this extinction will have been caused almost entirely by poachers who according to some sources, are not interested in material gain but in personal gratification. This is an example of the callousness that is part of what is causing the problem of extinction. Animals like the Bengal tiger, as well as those endangered species, are a valuable part of the world’s ecosystem. International laws protecting these animals must be enacted to ensure their survival, and the survival of our planet. Countries around the world have begun to deal with the problem in various ways. Some countries, in order to circumvent the problem, have allocated large amount of land to animal reserves. They then charge admission to help defray the cost of maintaining the parks, and they often must also depend on world organisations for support. With the money get, they can invest in equipment and patrols to protect the animals. Another solution that is an attempt to stem the tide of animal extinction is an international boycott of products made from endangered species. This seems fairly effective, but it will not, by itself, prevent animals from being hunted and killed."
+        },
+        {
+          "n": 31,
+          "q": "The phrase stem the tide means :",
+          "options": [
+            "Save",
+            "Stop",
+            "Touch",
+            "Spare"
+          ],
+          "page": 4,
+          "direction": "Read the passage below, then answer.\n\nSince the world has become industrialised, there has been an increase in the number of animal species that have either become extinct or near extinction. Bengal tiger, for insyance, which roamed the jungle in vasy numbers, now numbers only 2300 and by the year 2025, their population is estimated to be down to zero. What is alarming about the case of Bengal tiger is that this extinction will have been caused almost entirely by poachers who according to some sources, are not interested in material gain but in personal gratification. This is an example of the callousness that is part of what is causing the problem of extinction. Animals like the Bengal tiger, as well as those endangered species, are a valuable part of the world’s ecosystem. International laws protecting these animals must be enacted to ensure their survival, and the survival of our planet. Countries around the world have begun to deal with the problem in various ways. Some countries, in order to circumvent the problem, have allocated large amount of land to animal reserves. They then charge admission to help defray the cost of maintaining the parks, and they often must also depend on world organisations for support. With the money get, they can invest in equipment and patrols to protect the animals. Another solution that is an attempt to stem the tide of animal extinction is an international boycott of products made from endangered species. This seems fairly effective, but it will not, by itself, prevent animals from being hunted and killed."
+        },
+        {
+          "n": 32,
+          "q": "Which of the following best describes the author’s attitude?",
+          "options": [
+            "Concerned",
+            "Vindictive",
+            "Surprised",
+            "Generous"
+          ],
+          "page": 4,
+          "direction": "Read the passage below, then answer.\n\nSince the world has become industrialised, there has been an increase in the number of animal species that have either become extinct or near extinction. Bengal tiger, for insyance, which roamed the jungle in vasy numbers, now numbers only 2300 and by the year 2025, their population is estimated to be down to zero. What is alarming about the case of Bengal tiger is that this extinction will have been caused almost entirely by poachers who according to some sources, are not interested in material gain but in personal gratification. This is an example of the callousness that is part of what is causing the problem of extinction. Animals like the Bengal tiger, as well as those endangered species, are a valuable part of the world’s ecosystem. International laws protecting these animals must be enacted to ensure their survival, and the survival of our planet. Countries around the world have begun to deal with the problem in various ways. Some countries, in order to circumvent the problem, have allocated large amount of land to animal reserves. They then charge admission to help defray the cost of maintaining the parks, and they often must also depend on world organisations for support. With the money get, they can invest in equipment and patrols to protect the animals. Another solution that is an attempt to stem the tide of animal extinction is an international boycott of products made from endangered species. This seems fairly effective, but it will not, by itself, prevent animals from being hunted and killed."
+        },
+        {
+          "n": 33,
+          "q": "What are you talking about?",
+          "options": [
+            "adjective",
+            "noun",
+            "preposition",
+            "conjunction"
+          ],
+          "page": 5,
+          "direction": "Identify the part of speech of the underlined word. The underline is visible in the linked source PDF."
+        },
+        {
+          "n": 34,
+          "q": "He seldom visits his parents.",
+          "options": [
+            "adverb",
+            "conjunction",
+            "adjective",
+            "pronoun"
+          ],
+          "page": 5,
+          "direction": "Identify the part of speech of the underlined word. The underline is visible in the linked source PDF."
+        },
+        {
+          "n": 35,
+          "q": "The book that I bought is very costly.",
+          "options": [
+            "noun",
+            "verb",
+            "adverb",
+            "pronoun"
+          ],
+          "page": 5,
+          "direction": "Identify the part of speech of the underlined word. The underline is visible in the linked source PDF."
+        },
+        {
+          "n": 36,
+          "q": "I met a one-eyed man.",
+          "options": [
+            "adverb",
+            "adjective",
+            "pronoun",
+            "preposition"
+          ],
+          "page": 5,
+          "direction": "Identify the part of speech of the underlined word. The underline is visible in the linked source PDF."
+        },
+        {
+          "n": 37,
+          "q": "Fortune favours the brave.",
+          "options": [
+            "noun",
+            "verb",
+            "pronoun",
+            "adverb"
+          ],
+          "page": 5,
+          "direction": "Identify the part of speech of the underlined word. The underline is visible in the linked source PDF."
+        },
+        {
+          "n": 38,
+          "q": "He worked hard but failed.",
+          "options": [
+            "preposition",
+            "adjective",
+            "conjunction",
+            "verb"
+          ],
+          "page": 5,
+          "direction": "Identify the part of speech of the underlined word. The underline is visible in the linked source PDF."
+        },
+        {
+          "n": 39,
+          "q": "The forest is abound with tigers.",
+          "options": [
+            "noun",
+            "verb",
+            "adjective",
+            "adverb"
+          ],
+          "page": 5,
+          "direction": "Identify the part of speech of the underlined word. The underline is visible in the linked source PDF."
+        },
+        {
+          "n": 40,
+          "q": "Alas! He is no more.",
+          "options": [
+            "conjunction",
+            "adjective",
+            "interjection",
+            "preposition"
+          ],
+          "page": 5,
+          "direction": "Identify the part of speech of the underlined word. The underline is visible in the linked source PDF."
+        },
+        {
+          "n": 41,
+          "q": "We could not cope ________ the demand.",
+          "options": [
+            "with",
+            "up",
+            "at",
+            "on"
+          ],
+          "page": 5,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 42,
+          "q": "The teacher endeared himself ___________ all his pupils.",
+          "options": [
+            "from",
+            "around",
+            "to",
+            "with"
+          ],
+          "page": 5,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 43,
+          "q": "She came to my house _______ foot.",
+          "options": [
+            "by",
+            "on",
+            "in",
+            "with"
+          ],
+          "page": 5,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 44,
+          "q": "I was not apprised __________ your failure.",
+          "options": [
+            "at",
+            "by",
+            "with",
+            "of"
+          ],
+          "page": 5,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 45,
+          "q": "My father instilled his idea ___________ our minds.",
+          "options": [
+            "from",
+            "into",
+            "on",
+            "within"
+          ],
+          "page": 5,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 46,
+          "q": "There is a bridge _____ the river.",
+          "options": [
+            "above",
+            "upon",
+            "across",
+            "from"
+          ],
+          "page": 6,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 47,
+          "q": "I met Zami ____ the supermarket.",
+          "options": [
+            "in",
+            "by",
+            "on",
+            "at"
+          ],
+          "page": 6,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 48,
+          "q": "They are going _____ a journey.",
+          "options": [
+            "to",
+            "on",
+            "for",
+            "in"
+          ],
+          "page": 6,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 49,
+          "q": "Walking by the riverside, I came upon a man who had just come.",
+          "options": [
+            "Simple Sentence",
+            "Complex Sentence",
+            "Compound Sentence"
+          ],
+          "page": 6,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 50,
+          "q": "I could not do the work, but I hope you will not mind this.",
+          "options": [
+            "Simple Sentence",
+            "Complex Sentence",
+            "Compound Sentence"
+          ],
+          "page": 6,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 51,
+          "q": "Give me the fruit and I will eat it.",
+          "options": [
+            "Simple Sentence",
+            "Complex Sentence",
+            "Compound Sentence"
+          ],
+          "page": 6,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 52,
+          "q": "Can you tell me the name of the person who broke the windowpane?",
+          "options": [
+            "Simple Sentence",
+            "Complex Sentence",
+            "Compound Sentence"
+          ],
+          "page": 6,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 53,
+          "q": "Being stabbed fatally he died.",
+          "options": [
+            "Simple Sentence",
+            "Complex Sentence",
+            "Compound Sentence"
+          ],
+          "page": 6,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 54,
+          "q": "If you turn to the left you will soon reach the main market.",
+          "options": [
+            "Simple Sentence",
+            "Complex Sentence",
+            "Compound Sentence"
+          ],
+          "page": 6,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 55,
+          "q": "I finished my paper. I gave it to the teacher (using participle)",
+          "options": [
+            "Having finished my paper, I gave it to the teacher.",
+            "I gave my finished paper to the teacher.",
+            "Finishing my paper, I gave it to the teacher.",
+            "I finished my paper and gave it to the teacher."
+          ],
+          "page": 6,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 56,
+          "q": "Muani passed the examination. It was very fortunate. (using adverb)",
+          "options": [
+            "It was fortunate that Muani passed the examination.",
+            "Muani fortunately passed the examination.",
+            "Muani was fortunate to pass the examination.",
+            "Fortunately, Muani passed the examination."
+          ],
+          "page": 6,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 57,
+          "q": "Biaka bought new books. He also bought old books. (using conjunction)",
+          "options": [
+            "Biaka bought new and old books",
+            "Biaka bought new books and old books also.",
+            "Biaka bought both new and ol books.",
+            "Biaka bought new books as well as old books."
+          ],
+          "page": 6,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 58,
+          "q": "I came across a girl in the garden. She was beautiful. (using adjective)",
+          "options": [
+            "I came to the garden and saw a beautiful girl.",
+            "The girl I came across in the garden was beautiful.",
+            "I came across a beautiful girl in the garden.",
+            "Beautiful was the girl whom i came across in the garden."
+          ],
+          "page": 7,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 59,
+          "q": "He completed his work. He went home. (using participle)",
+          "options": [
+            "He completed his work and went home.",
+            "After completing his work, he went home.",
+            "Having completed his work, he went home.",
+            "Completing his work, he went home."
+          ],
+          "page": 7,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 60,
+          "q": "The teacher is ill. It is known to all. (Complex Sentence)",
+          "options": [
+            "That the teacher is ill is known to all.",
+            "As known by all the teacher is ill.",
+            "All of them know that the teacher is ill."
+          ],
+          "page": 7,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 61,
+          "q": "I speak the truth in the presence of my friends. I am not afraid of it (use infinitives)",
+          "options": [
+            "Since I am not afraid I speak the truth in the presence of my friends.",
+            "I speak the truth in the presence of my friends as I am not afraid.",
+            "I am not afraid to speak the truth in the presence of my friends."
+          ],
+          "page": 7,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 62,
+          "q": "You may be wrong. Marcus may be wrong. You cannot both be right. (Compound Sentence)",
+          "options": [
+            "Neither you nor Marcus is right.",
+            "Either you or Marcus is wrong and you cannot both be right.",
+            "Both Marcus and you cannot be right."
+          ],
+          "page": 7,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 63,
+          "q": "She finished her work and drove home (use a participle)",
+          "options": [
+            "After she had finished her work, she drove home.",
+            "She drove home after finishing her work.",
+            "Having finished her work, she drove home."
+          ],
+          "page": 7,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 64,
+          "q": "I called her, but she gave me no answer. (Simple Sentence)",
+          "options": [
+            "In spite of my calling her, she gave me no answer.",
+            "Having called her, she gave me no answer.",
+            "She gave me no answer, yet I called her."
+          ],
+          "page": 7,
+          "direction": "Identify the sentence type or follow the transformation instruction in the source PDF."
+        },
+        {
+          "n": 65,
+          "q": "One who hates knowledge",
+          "options": [
+            "misogamist",
+            "misanthrope",
+            "misologist",
+            "sadist"
+          ],
+          "page": 7,
+          "direction": "Choose the one-word substitution."
+        },
+        {
+          "n": 66,
+          "q": "One who believes in fate",
+          "options": [
+            "fastidious",
+            "cynic",
+            "egoist",
+            "fatalist"
+          ],
+          "page": 7,
+          "direction": "Choose the one-word substitution."
+        },
+        {
+          "n": 67,
+          "q": "A remedy for all ills",
+          "options": [
+            "Antibiotic",
+            "panacea",
+            "almanac",
+            "soporific"
+          ],
+          "page": 7,
+          "direction": "Choose the one-word substitution."
+        },
+        {
+          "n": 68,
+          "q": "One who acts against religion",
+          "options": [
+            "heretic",
+            "iconoclast",
+            "agnostic",
+            "stoic"
+          ],
+          "page": 8,
+          "direction": "Choose the one-word substitution."
+        },
+        {
+          "n": 69,
+          "q": "A mark that cannot be erased",
+          "options": [
+            "illegible",
+            "inaudible",
+            "indelible",
+            "insolvent"
+          ],
+          "page": 8,
+          "direction": "Choose the one-word substitution."
+        },
+        {
+          "n": 70,
+          "q": "Examination of living tissue",
+          "options": [
+            "biopsy",
+            "x-ray",
+            "transplant",
+            "endoscopy"
+          ],
+          "page": 8,
+          "direction": "Choose the one-word substitution."
+        },
+        {
+          "n": 71,
+          "q": "Few actors are as versatile as he is; he writes scripts, directs and produces.",
+          "options": [
+            "multi-purpose",
+            "greedy",
+            "having no specific interest",
+            "ambitious"
+          ],
+          "page": 8,
+          "direction": "Choose the correct word or the requested meaning as stated in the source PDF."
+        },
+        {
+          "n": 72,
+          "q": "She makes an impulsive decision and later deeply regrets her choices.",
+          "options": [
+            "uncertain",
+            "hasty",
+            "totally wrong",
+            "foolish"
+          ],
+          "page": 8,
+          "direction": "Choose the correct word or the requested meaning as stated in the source PDF."
+        },
+        {
+          "n": 73,
+          "q": "Unless the two leaders ratify the treaty place and harmony will not prevail in these counties.",
+          "options": [
+            "stopped intermediately",
+            "having a brief pause",
+            "reconsider",
+            "accept by formal consent"
+          ],
+          "page": 8,
+          "direction": "Choose the correct word or the requested meaning as stated in the source PDF."
+        },
+        {
+          "n": 74,
+          "q": "The hilarious song which was composed by my best friend was bagged 1st prize in the competition.",
+          "options": [
+            "sad and serious",
+            "in perfect quality",
+            "extremely funny",
+            "short but deeply impressive"
+          ],
+          "page": 8,
+          "direction": "Choose the correct word or the requested meaning as stated in the source PDF."
+        },
+        {
+          "n": 75,
+          "q": "We must keep an eye on him because I was told that he was a knave.",
+          "options": [
+            "violent person",
+            "lunatic",
+            "extremely greedy",
+            "scoundrel"
+          ],
+          "page": 8,
+          "direction": "Choose the correct word or the requested meaning as stated in the source PDF."
+        },
+        {
+          "n": 76,
+          "q": "The Government took measures to eradicate corruption.",
+          "options": [
+            "eliminate",
+            "preserve",
+            "suppress",
+            "obliterate"
+          ],
+          "page": 8,
+          "direction": "Choose the correct word or the requested meaning as stated in the source PDF."
+        },
+        {
+          "n": 77,
+          "q": "The business alliance between India and China began to dwindle since 2015.",
+          "options": [
+            "diminish",
+            "complicated",
+            "collapse",
+            "increase"
+          ],
+          "page": 8,
+          "direction": "Choose the correct word or the requested meaning as stated in the source PDF."
+        },
+        {
+          "n": 78,
+          "q": "The recent political upheaval brings chaos all over the country.",
+          "options": [
+            "disruption",
+            "stability",
+            "progress",
+            "treaty"
+          ],
+          "page": 8,
+          "direction": "Choose the correct word or the requested meaning as stated in the source PDF."
+        },
+        {
+          "n": 79,
+          "q": "Unlike her sisters, Christy was always defiant in her behaviour.",
+          "options": [
+            "obedient",
+            "confident",
+            "antagonistic",
+            "selfish"
+          ],
+          "page": 8,
+          "direction": "Choose the correct word or the requested meaning as stated in the source PDF."
+        },
+        {
+          "n": 80,
+          "q": "Sometimes he becomes crestfallen, even at a remark in jest.",
+          "options": [
+            "prank",
+            "disagreeable",
+            "whimsical",
+            "serious *******"
+          ],
+          "page": 8,
+          "direction": "Choose the correct word or the requested meaning as stated in the source PDF."
+        }
+      ],
+      "essay": "Write an essay of no more than 300 words on one of: Corruption in everyday life; The Role of Politics in Socio-Economic development of a country; Science and Religion."
+    },
+    {
+      "id": "si-police-ub-2018-gk",
+      "pdf": "si-police-ub-2018-gk.pdf",
+      "subject": "General Knowledge",
+      "expectedMcq": 100,
+      "durationMinutes": 180,
+      "marksPerQuestion": 1,
+      "sourceSha256": "a6afa833d43059c4e5d9ff63d41bc11bfc65627ab221bb947afc8af06458a35b",
+      "questions": [
+        {
+          "n": 1,
+          "q": "Who has been elected as the Deputy Chairman of the Rajya Sabha?",
+          "options": [
+            "Harivansh Narayan Singh",
+            "B K Hariprasad",
+            "Ananth Kumar",
+            "Ram Gopal Yadav"
+          ],
+          "page": 1
+        },
+        {
+          "n": 2,
+          "q": "Which country hosted the 10th edition of BRICS Summit 2018?",
+          "options": [
+            "South Africa",
+            "Brazil",
+            "Russia",
+            "China"
+          ],
+          "page": 1
+        },
+        {
+          "n": 3,
+          "q": "Which company has set up the world’s largest mobile phone factory in Noida, India?",
+          "options": [
+            "Apple",
+            "Samsung",
+            "Xiaomi",
+            "Oppo"
+          ],
+          "page": 1
+        },
+        {
+          "n": 4,
+          "q": "Which unique app has been launched by the Election Commission of India (ECI) for people to report model code violations?",
+          "options": [
+            "cVigil",
+            "pVigil",
+            "eVigil",
+            "mVigil"
+          ],
+          "page": 1
+        },
+        {
+          "n": 5,
+          "q": "The world’s first all-digital art museum has opened in which country?",
+          "options": [
+            "Germany",
+            "Japan",
+            "Italy",
+            "India"
+          ],
+          "page": 1
+        },
+        {
+          "n": 6,
+          "q": "Which of the following National Parks has become the largest habitat of the endangered estuarine crocodiles in India?",
+          "options": [
+            "Jim Corbett National Park",
+            "Bhitarkanika National Park",
+            "Ranthambore National Park",
+            "Nagarhole National Park"
+          ],
+          "page": 1
+        },
+        {
+          "n": 7,
+          "q": "Who has been crowned as India’s First Tribal Queen?",
+          "options": [
+            "Panchami Majhi",
+            "Rashmirekha Hansdah",
+            "Tulasi Munda",
+            "Pallavi Durua"
+          ],
+          "page": 1
+        },
+        {
+          "n": 8,
+          "q": "Which village panchayat of Haryana has passed a resolution ‘No Toilet, No Bride’?",
+          "options": [
+            "Bishangarh",
+            "Nimriwali",
+            "Godikan",
+            "IshapurKheri"
+          ],
+          "page": 1
+        },
+        {
+          "n": 9,
+          "q": "Which city has set a Guinness World Record (GWR) for largest number of people performing yoga at one place at the same time on 2018 International Yoga Day (IYD)?",
+          "options": [
+            "Kolkata",
+            "Mysuru",
+            "Kota",
+            "New Delhi"
+          ],
+          "page": 1
+        },
+        {
+          "n": 10,
+          "q": "The Union Cabinet has approved the nomination of which Union Ministry as the ex-officio Chairman of North Eastern Council (NEC)?",
+          "options": [
+            "Ministry of Home",
+            "Ministry of Corporate Affairs",
+            "Ministry of Defence",
+            "Ministry of Law and Justice"
+          ],
+          "page": 1
+        },
+        {
+          "n": 11,
+          "q": "The Fuego volcano has recently erupted in which country?",
+          "options": [
+            "Mexico",
+            "Egypt",
+            "Taiwan",
+            "Guatemala"
+          ],
+          "page": 2
+        },
+        {
+          "n": 12,
+          "q": "Which social networking giant has partnered with National Commission for Women (NCW) to offer digital literacy programme for women?",
+          "options": [
+            "Skype",
+            "Facebook",
+            "Twitter",
+            "LinkedIn"
+          ],
+          "page": 2
+        },
+        {
+          "n": 13,
+          "q": "Atal Bihari Vajpayee who recently passed away was Prime-Minister of India for how many times?",
+          "options": [
+            "One time",
+            "Two times",
+            "Three times",
+            "Four times"
+          ],
+          "page": 2
+        },
+        {
+          "n": 14,
+          "q": "The Director of Mizoram Institute of Medical Education and Research (MIMER) is",
+          "options": [
+            "Lal Thanzara",
+            "Dr. L Fimate",
+            "Dr. Lalbiakkima",
+            "Dr. Rohmingthanga"
+          ],
+          "page": 2
+        },
+        {
+          "n": 15,
+          "q": "The National Highways Authority of India (NHAI) recently signed MoU with which Bank for long term Unsecured Loan?",
+          "options": [
+            "IDBI Bank",
+            "State Bank of India",
+            "ICICI Bank",
+            "Union Bank of India"
+          ],
+          "page": 2
+        },
+        {
+          "n": 16,
+          "q": "Emmerson Mnangagwa won the Presidential election in which country?",
+          "options": [
+            "Nigeria",
+            "Libya",
+            "Zimbabwe",
+            "Serbia"
+          ],
+          "page": 2
+        },
+        {
+          "n": 17,
+          "q": "The Union Government recently achieved its target of providing 5 crore free LPG connections to poor families under which scheme?",
+          "options": [
+            "Ujjwala Yogana",
+            "Saubhagya Scheme",
+            "UDAY Yojana",
+            "LaQshya Scheme"
+          ],
+          "page": 2
+        },
+        {
+          "n": 18,
+          "q": "Villages of Mizoram with no record BPL family according to the BPL baseline survey 2016 released on June 2018.",
+          "options": [
+            "Chawngtlai",
+            "Riangtlei",
+            "Rabung",
+            "All of these"
+          ],
+          "page": 2
+        },
+        {
+          "n": 19,
+          "q": "What is the cleanest city in India as declared by Swachh Survekshan 2018?",
+          "options": [
+            "Mumbai",
+            "Jharkhand",
+            "Aizawl",
+            "Indore"
+          ],
+          "page": 2
+        },
+        {
+          "n": 20,
+          "q": "Who is the new Prime Minister of Italy?",
+          "options": [
+            "MatteoSalvini",
+            "Sergio Mattarella",
+            "Giuseppe Conte",
+            "Luigi Di Maio"
+          ],
+          "page": 2
+        },
+        {
+          "n": 21,
+          "q": "Who is the Indian known as ‘Missile man of India’?",
+          "options": [
+            "A. P. J. Abdul Kalam",
+            "HomiBhabha",
+            "VK Sarabhai",
+            "Atal Behari Vajpayee"
+          ],
+          "page": 2
+        },
+        {
+          "n": 22,
+          "q": "Who is the present Defence Minister of India?",
+          "options": [
+            "Harsh Vardhan",
+            "Nirmala Sitharaman",
+            "Kiren Rijiju",
+            "Krishan Pal"
+          ],
+          "page": 2
+        },
+        {
+          "n": 23,
+          "q": "Who is the new Prime Minister of Pakistan?",
+          "options": [
+            "Nawaz Sharif",
+            "Asif Ali Zardari",
+            "Pervez Musharraf",
+            "Imran Khan"
+          ],
+          "page": 2
+        },
+        {
+          "n": 24,
+          "q": "Who has been crowned Femina Miss India World 2018?",
+          "options": [
+            "ShreyaRao",
+            "Anukreethy Vas",
+            "MeenakshiChaudhary",
+            "NeelamKhurrana"
+          ],
+          "page": 3
+        },
+        {
+          "n": 25,
+          "q": "Who is the winner of Pranab Baruah Art Award 2017 on the 25th February 2018?",
+          "options": [
+            "Tlangrokhuma",
+            "Bipuljyoti Saikia",
+            "Chinmay Ray",
+            "HK Jerry Ramliana"
+          ],
+          "page": 3
+        },
+        {
+          "n": 26,
+          "q": "Fire temple is the place of worship of which of the following religion?",
+          "options": [
+            "Taoism",
+            "Judaism",
+            "Zoroastrianism",
+            "Shintoism"
+          ],
+          "page": 3
+        },
+        {
+          "n": 27,
+          "q": "Meena is the tribe of:",
+          "options": [
+            "Tripura",
+            "Sikkim",
+            "Rajasthan",
+            "Nagaland"
+          ],
+          "page": 3
+        },
+        {
+          "n": 28,
+          "q": "Which is the longest River in the World?",
+          "options": [
+            "Nile",
+            "Amazon",
+            "Yamuna",
+            "Hwang-Ho"
+          ],
+          "page": 3
+        },
+        {
+          "n": 29,
+          "q": "The world’s largest freshwater lake by volume is:",
+          "options": [
+            "Lake Baikal",
+            "Caspian Sea",
+            "Lake Lucerne",
+            "Lake Superior"
+          ],
+          "page": 3
+        },
+        {
+          "n": 30,
+          "q": "Desert plants are generally:",
+          "options": [
+            "Succulent",
+            "Viviparous",
+            "Herbaceous",
+            "Heterophyllous"
+          ],
+          "page": 3
+        },
+        {
+          "n": 31,
+          "q": "The terms ‘bull’ and ‘bear’ are used in:",
+          "options": [
+            "Stock Exchange",
+            "Sale Tax Department",
+            "Planning Commission",
+            "Income Tax Department"
+          ],
+          "page": 3
+        },
+        {
+          "n": 32,
+          "q": "Economic Survey of India is published by:",
+          "options": [
+            "Ministry of Finance",
+            "NitiAyog",
+            "Govt. of India",
+            "Indian Statistical Institute"
+          ],
+          "page": 3
+        },
+        {
+          "n": 33,
+          "q": "The headquarters of the International Court of Justice (ICJ) is at:",
+          "options": [
+            "Geneva",
+            "The Hague",
+            "Rome",
+            "Vienna"
+          ],
+          "page": 3
+        },
+        {
+          "n": 34,
+          "q": "Which of the following countries is not a member of SAARC?",
+          "options": [
+            "Bangladesh",
+            "Malaysia",
+            "Pakistan",
+            "Nepal"
+          ],
+          "page": 3
+        },
+        {
+          "n": 35,
+          "q": "The Mariana Trench is in the __________ Ocean.",
+          "options": [
+            "Arctic",
+            "Pacific",
+            "Atlantic",
+            "Antarctic"
+          ],
+          "page": 3
+        },
+        {
+          "n": 36,
+          "q": "The enquiry of Centre State relation is conducted by:",
+          "options": [
+            "Santhanam committee",
+            "Ranganathan committee",
+            "Ashok Mehta committee",
+            "Sarkaria Committee"
+          ],
+          "page": 3
+        },
+        {
+          "n": 37,
+          "q": "The oldest paramilitary force in India which was established in 1835 is:",
+          "options": [
+            "CRPF",
+            "BSF",
+            "Assam Rifles",
+            "NCC"
+          ],
+          "page": 3
+        },
+        {
+          "n": 38,
+          "q": "Raj Ghat is the crematorium of:",
+          "options": [
+            "Dr. Rajendra Prasad",
+            "Mahatma Gandhi",
+            "Indira Gandhi",
+            "IK Gujral"
+          ],
+          "page": 4
+        },
+        {
+          "n": 39,
+          "q": "The lowest place in Asia is:",
+          "options": [
+            "Dead sea",
+            "The Great Plains",
+            "Pangong Tso Lake",
+            "Jiuzhaigou Valley"
+          ],
+          "page": 4
+        },
+        {
+          "n": 40,
+          "q": "Which Indian female tennis player has won bronze in women’s singles at the 18th Asian Games 2018?",
+          "options": [
+            "N. Sikki Reddy",
+            "Ashwini Ponnappa",
+            "Ankita Raina",
+            "Karman Kaur Thandi"
+          ],
+          "page": 4
+        },
+        {
+          "n": 41,
+          "q": "Who is the winner of Australian Open 2018 (female)?",
+          "options": [
+            "Caroline Wozniacki",
+            "Simone Halep",
+            "Kristina Mladenovic",
+            "Gabriela Dabrowski"
+          ],
+          "page": 4
+        },
+        {
+          "n": 42,
+          "q": "Who is the Mizo girl who represented India in Hockey in the Asian Games 2018?",
+          "options": [
+            "Lalthansiami",
+            "Lalremsiami",
+            "Lalsiammawii",
+            "Lalnunmawii"
+          ],
+          "page": 4
+        },
+        {
+          "n": 43,
+          "q": "How many goal was scored by Harry Kane, the top scorer in FIFA World Cup 2018?",
+          "options": [
+            "3",
+            "6",
+            "4",
+            "7"
+          ],
+          "page": 4
+        },
+        {
+          "n": 44,
+          "q": "Who is the winner of Men’s Singles in 2018 Wimbledon Championships?",
+          "options": [
+            "Rafael Nadal",
+            "Kevin Anderson",
+            "Novak Djokovic",
+            "Andy Murray"
+          ],
+          "page": 4
+        },
+        {
+          "n": 45,
+          "q": "Who will host 2022 FIFA World Cup?",
+          "options": [
+            "Qatar",
+            "Australia",
+            "Kuwait",
+            "Bahrain"
+          ],
+          "page": 4
+        },
+        {
+          "n": 46,
+          "q": "In India, the highest honour given for achievement in sports is:",
+          "options": [
+            "Arjuna Award",
+            "Rajiv Gandhi Khel Ratna Award",
+            "Dronacharya Award",
+            "Puraskar Award"
+          ],
+          "page": 4
+        },
+        {
+          "n": 47,
+          "q": "What is the full form of ‘ATM’?",
+          "options": [
+            "Automated Tallying Machine",
+            "Automatic Teller Machine",
+            "Automated Totalling Machine",
+            "Automated Transaction of Money"
+          ],
+          "page": 4
+        },
+        {
+          "n": 48,
+          "q": "What is the full form of ‘RADAR’?",
+          "options": [
+            "Radio Device and Ranging",
+            "Region Device and Ranging",
+            "Radio Detecting and Ranging",
+            "Radio Detect and Range"
+          ],
+          "page": 4
+        },
+        {
+          "n": 49,
+          "q": "What is the full form of ‘RAM’?",
+          "options": [
+            "Read Access Memory",
+            "Random Access Memory",
+            "Random Access Machine",
+            "Range Access Machine"
+          ],
+          "page": 4
+        },
+        {
+          "n": 50,
+          "q": "Which renowned historian authored the book ‘Gandhi: The Years That Changed The World (1914- 1948)’?",
+          "options": [
+            "Romila Thapar",
+            "M G S Narayanan",
+            "Sanjay Subrahmanyam",
+            "Ramachandra Guha"
+          ],
+          "page": 4
+        },
+        {
+          "n": 51,
+          "q": "Which of the following is the Trinidad-born Indian origin Nobel prize winning author who passed away recently?",
+          "options": [
+            "V.S. Naipaul",
+            "Salman Rushdie",
+            "Vikram Seth",
+            "Anita Desai"
+          ],
+          "page": 5
+        },
+        {
+          "n": 52,
+          "q": "‘Long Walk to Freedom’ is a book written by:",
+          "options": [
+            "Sonia Gandhi",
+            "Margaret Thatcher",
+            "Nelson Mandela",
+            "Benazir Bhutto"
+          ],
+          "page": 5
+        },
+        {
+          "n": 53,
+          "q": "Who is known as ‘Queen of Soul Music’ who recently passed away?",
+          "options": [
+            "Aretha Franklin",
+            "Etta James",
+            "Norah Jones",
+            "Gladys Knight"
+          ],
+          "page": 5
+        },
+        {
+          "n": 54,
+          "q": "Who is known as the Father of English poetry?",
+          "options": [
+            "Geoffrey Chaucer",
+            "John Milton",
+            "John Keats",
+            "None of these"
+          ],
+          "page": 5
+        },
+        {
+          "n": 55,
+          "q": "Which is the first Harry Potter book?",
+          "options": [
+            "Harry Potter and the Goblet of Fire",
+            "Harry Potter and the Philosopher’s Stone",
+            "Harry Potter and the Chamber of Secrets",
+            "Harry Potter and the God of small things"
+          ],
+          "page": 5
+        },
+        {
+          "n": 56,
+          "q": "MAL Book of the year 2017 written by Lalhmingchhuanga Zongte is",
+          "options": [
+            "Savun Kawrfual",
+            "Aizawlah Aizawler",
+            "Kawlkil piah Lamtluang",
+            "Thinglubul"
+          ],
+          "page": 5
+        },
+        {
+          "n": 57,
+          "q": "The author of 2018 Man Booker Prize winner ‘Flights’ is:",
+          "options": [
+            "George Saunders",
+            "Jacqueline Rose",
+            "Arundhati Roy",
+            "Olga Tokarczuk"
+          ],
+          "page": 5
+        },
+        {
+          "n": 58,
+          "q": "The award given for outstanding prose or poetry literary works in any Indian language listed in Schedule - VIII of the Constitution of India is called:",
+          "options": [
+            "Bhasha Samman",
+            "Vyas Samman",
+            "Konark Samman",
+            "Saraswati Samman"
+          ],
+          "page": 5
+        },
+        {
+          "n": 59,
+          "q": "Which island is known as the ‘Fortunate Islands’?",
+          "options": [
+            "Canary Islands",
+            "Island Cocos",
+            "Christmas Islands",
+            "Cook Islands"
+          ],
+          "page": 5
+        },
+        {
+          "n": 60,
+          "q": "‘Pillars of Hercules’ is the nickname of:",
+          "options": [
+            "Venice",
+            "Strait of Gibraltar",
+            "Natal",
+            "None of these"
+          ],
+          "page": 5
+        },
+        {
+          "n": 61,
+          "q": "Which city is known as the City of Seven Hills?",
+          "options": [
+            "Simla",
+            "Rome",
+            "Venice",
+            "Ooty"
+          ],
+          "page": 5
+        },
+        {
+          "n": 62,
+          "q": "Which state is known as ‘Granary of India’?",
+          "options": [
+            "Haryana",
+            "Kerala",
+            "Punjab",
+            "Bihar"
+          ],
+          "page": 5
+        },
+        {
+          "n": 63,
+          "q": "Which glasses or lens are used to correct the short sighted eye defect?",
+          "options": [
+            "Concave Lens",
+            "Convex Lens",
+            "Bipolar Lens",
+            "None of these"
+          ],
+          "page": 5
+        },
+        {
+          "n": 64,
+          "q": "The energy possessed by a body due to its position is called:",
+          "options": [
+            "Kinetic Energy",
+            "Potential Energy",
+            "Mechanical Energy",
+            "Electrical Energy"
+          ],
+          "page": 6
+        },
+        {
+          "n": 65,
+          "q": "The process of transfer of hereditary character from one generation to another is known as:",
+          "options": [
+            "Genes",
+            "Mutation",
+            "Variation",
+            "Genetics"
+          ],
+          "page": 6
+        },
+        {
+          "n": 66,
+          "q": "Which acid is secreted in the stomach?",
+          "options": [
+            "Sulphuric Acid",
+            "Hydrochloric Acid",
+            "Carbonic Acid",
+            "Nitric Acid"
+          ],
+          "page": 6
+        },
+        {
+          "n": 67,
+          "q": "Our bodies cannot produce:",
+          "options": [
+            "vitamins",
+            "proteins",
+            "minerals",
+            "carbohydrates"
+          ],
+          "page": 6
+        },
+        {
+          "n": 68,
+          "q": "Which of these is a symptom of vitamin A deficiency?",
+          "options": [
+            "Blindness",
+            "Osteoporosis",
+            "Impaired blood clotting",
+            "Impaired taste perception"
+          ],
+          "page": 6
+        },
+        {
+          "n": 69,
+          "q": "The basic structural and functional unit of life is:",
+          "options": [
+            "Cell",
+            "Tissue",
+            "Muscle",
+            "Organs"
+          ],
+          "page": 6
+        },
+        {
+          "n": 70,
+          "q": "Which cells of pancreas produce insulin that lowers the blood sugar level?",
+          "options": [
+            "b - cells",
+            "a - cells",
+            "Leydig cells",
+            "Interstitial cells"
+          ],
+          "page": 6
+        },
+        {
+          "n": 71,
+          "q": "The number of paired chromosomes in human is:",
+          "options": [
+            "39",
+            "23",
+            "21",
+            "22"
+          ],
+          "page": 6
+        },
+        {
+          "n": 72,
+          "q": "The term ‘Mongolism’ is a disorder that refers to:",
+          "options": [
+            "Turner’s syndrome",
+            "Klinefelter’s syndrome",
+            "Patau syndrome",
+            "Down’s syndrome"
+          ],
+          "page": 6
+        },
+        {
+          "n": 73,
+          "q": "In which unit is the electrical energy consumed by us recorded?",
+          "options": [
+            "Volt",
+            "Kilowatt-minute",
+            "Kilowatt-hour",
+            "Kilowatt-second"
+          ],
+          "page": 6
+        },
+        {
+          "n": 74,
+          "q": "J. B. Dunlop invented the:",
+          "options": [
+            "Pneumatic rubber tire",
+            "Automobile wheel rim",
+            "Rubber boot",
+            "Model airplanes"
+          ],
+          "page": 6
+        },
+        {
+          "n": 75,
+          "q": "Who invented the battery?",
+          "options": [
+            "John Wilkinson",
+            "Alessandro Volta",
+            "James Hargreaves",
+            "Thomas Edison"
+          ],
+          "page": 6
+        },
+        {
+          "n": 76,
+          "q": "The age of the earth can be estimated by:",
+          "options": [
+            "Atomic clocks",
+            "Carbon dating",
+            "Uranium dating",
+            "Biological clocks"
+          ],
+          "page": 6
+        },
+        {
+          "n": 77,
+          "q": "Which instrument is used to measure altitudes in aircrafts?",
+          "options": [
+            "Altimeter",
+            "Ammeter",
+            "Audiometer",
+            "Anemometer"
+          ],
+          "page": 6
+        },
+        {
+          "n": 78,
+          "q": "According to Archaeological Survey of India (ASI), Mizoram is believed to be how many years?",
+          "options": [
+            "1200 - 1400 years",
+            "2000 - 2500 years",
+            "1400 - 1500 years",
+            "1250 - 1400 years"
+          ],
+          "page": 7
+        },
+        {
+          "n": 79,
+          "q": "What is the SI Unit of Electric current?",
+          "options": [
+            "Watt",
+            "Coulomb",
+            "Volt",
+            "Ampere"
+          ],
+          "page": 7
+        },
+        {
+          "n": 80,
+          "q": "The Red Data Books published by the International Union for Conservation of Nature and Natural Resources (IUCN) contains list of:",
+          "options": [
+            "Threatened plant and animal species",
+            "Endemic plant and animal species present in the biodiversity hotsposts",
+            "Protected sites for conservation of nature and natural resources in various countries",
+            "None of these"
+          ],
+          "page": 7
+        },
+        {
+          "n": 81,
+          "q": "A Microsoft Windows is a(n):",
+          "options": [
+            "Graphic program",
+            "Operating system",
+            "Database program",
+            "Word Processing"
+          ],
+          "page": 7
+        },
+        {
+          "n": 82,
+          "q": "The World Wide Web was invented by:",
+          "options": [
+            "Bill Gates",
+            "Bob Kahn",
+            "Steve Jobs",
+            "Tim Berners-Lee"
+          ],
+          "page": 7
+        },
+        {
+          "n": 83,
+          "q": "What is the major cause of diminishing wild life?",
+          "options": [
+            "Monoculture Plantation",
+            "Felling of trees",
+            "Habitat destruction",
+            "Paucity of drinking water"
+          ],
+          "page": 7
+        },
+        {
+          "n": 84,
+          "q": "In which year was ‘The Tiger Project’ launched in India?",
+          "options": [
+            "198",
+            "1972",
+            "1970",
+            "1980"
+          ],
+          "page": 7
+        },
+        {
+          "n": 85,
+          "q": "Which state in India has the largest areas under forests cover?",
+          "options": [
+            "Arunachal pradesh",
+            "Madhya Pradesh",
+            "Mizoram",
+            "Andhra Pradesh"
+          ],
+          "page": 7
+        },
+        {
+          "n": 86,
+          "q": "Which of the following is used in pencils?",
+          "options": [
+            "Graphite",
+            "Silicon",
+            "Alluminium",
+            "Phosphorous"
+          ],
+          "page": 7
+        },
+        {
+          "n": 87,
+          "q": "Washing soda is the common name for:",
+          "options": [
+            "Sodium carbonate",
+            "Calcium bicarbonate",
+            "Sodium bicarbonate",
+            "Calcium carbonate"
+          ],
+          "page": 7
+        },
+        {
+          "n": 88,
+          "q": "Non stick cooking utensils are coated with:",
+          "options": [
+            "Teflon",
+            "PVC",
+            "black paint",
+            "polystyrene"
+          ],
+          "page": 7
+        },
+        {
+          "n": 89,
+          "q": "Rate of photosynthesis does not depend upon:",
+          "options": [
+            "Carbon dioxide concentration",
+            "Intensity of Light",
+            "Duration of Light",
+            "Temperature"
+          ],
+          "page": 7
+        },
+        {
+          "n": 90,
+          "q": "For seeing objects at the surface of water from a submarine under water, the instrument used is:",
+          "options": [
+            "Kaleidoscope",
+            "Periscope",
+            "Spectroscope",
+            "Telescope"
+          ],
+          "page": 7
+        },
+        {
+          "n": 91,
+          "q": "India’s first satellite is named after:",
+          "options": [
+            "Aryabhatta",
+            "Bhaskara II",
+            "Bhaskara I",
+            "Albert Einstein"
+          ],
+          "page": 8
+        },
+        {
+          "n": 92,
+          "q": "On a night when the sky is clear, the temperature may dip considerably; on a cloudy night the temperature will usually dip much less. The reason for this difference is that:",
+          "options": [
+            "the clear sky allows radiant energy to escape readily from the earth",
+            "on a cloudy night the clouds are warm and therefore retard the cooling",
+            "the clear sky allows the cold of outer space to reach the earth",
+            "current of air carry the heat away from the earth on a clear night"
+          ],
+          "page": 8
+        },
+        {
+          "n": 93,
+          "q": "What is the time difference between Indian Standard Time and Greenwich Meridian?",
+          "options": [
+            "4 hours and 30 minutes",
+            "5 hours and 30 minutes",
+            "6 hours and 30 minutes",
+            "7 hours and 30 minutes"
+          ],
+          "page": 8
+        },
+        {
+          "n": 94,
+          "q": "A stealth supersonic cruise missile that can be launched from submarines, ships, aircraft or land is:",
+          "options": [
+            "Agni - IV",
+            "Prithvi - III",
+            "Brahmos",
+            "Agni - VI"
+          ],
+          "page": 8
+        },
+        {
+          "n": 95,
+          "q": "The weight of a body at the centre of the earth is:",
+          "options": [
+            "infinite",
+            "same as at other place",
+            "zero",
+            "more than at other places"
+          ],
+          "page": 8
+        },
+        {
+          "n": 96,
+          "q": "The elements with same mass number but different atomic numbers are called:",
+          "options": [
+            "Isotopes",
+            "Isobars",
+            "Isotones",
+            "Polymers"
+          ],
+          "page": 8
+        },
+        {
+          "n": 97,
+          "q": "The negatively charged fundamental particles of an atom is:",
+          "options": [
+            "electrons",
+            "protons",
+            "neutrons",
+            "atomic nucleus"
+          ],
+          "page": 8
+        },
+        {
+          "n": 98,
+          "q": "Mixing of red and green colour gives:",
+          "options": [
+            "white",
+            "magenta",
+            "cyan",
+            "yellow"
+          ],
+          "page": 8
+        },
+        {
+          "n": 99,
+          "q": "It is dangerous to have charcoal fire burning in a closed room because it produces:",
+          "options": [
+            "carbon dioxide",
+            "carbon monoxide",
+            "sulphur dioxide",
+            "nitrogen dioxide"
+          ],
+          "page": 8
+        },
+        {
+          "n": 100,
+          "q": "Which one of the following is the major cause of depletion of ozone layer?",
+          "options": [
+            "CFCs",
+            "Methane",
+            "Carbon dioxide",
+            "Sulphur dioxide *******"
+          ],
+          "page": 8
+        }
+      ],
+      "essay": null
+    },
+    {
+      "id": "si-police-ub-2018-mathematics",
+      "pdf": "si-police-ub-2018-mathematics.pdf",
+      "subject": "Mathematics",
+      "expectedMcq": 100,
+      "durationMinutes": 180,
+      "marksPerQuestion": 1,
+      "sourceSha256": "7b2e6c54c18657b2b22b82ecfc19659343a921b3aae30c0bda7ec3ee22b5af87",
+      "questions": [
+        {
+          "n": 1,
+          "q": "After reading of a book, 40 pages are left. The number of pages in the book is – 9",
+          "options": [
+            "180",
+            "175",
+            "170",
+            "167 3 3"
+          ],
+          "page": 1
+        },
+        {
+          "n": 2,
+          "q": "From a rope 11 m long, two pieces of lengths 2 m and 3 m are cut off. The length of the remaining 5 10 rope is – 1 1",
+          "options": [
+            "6 m",
+            "5 m 2 2 1 1",
+            "5 m",
+            "4 m 10 3"
+          ],
+          "page": 1
+        },
+        {
+          "n": 3,
+          "q": "What least number must be subtracted from 7250 to get a perfect square?",
+          "options": [
+            "15",
+            "25",
+            "30",
+            "35"
+          ],
+          "page": 1
+        },
+        {
+          "n": 4,
+          "q": "A woolen coat marked at Rs 2700 is offered at Rs 2025 due to sale of the stock. The rate of discount offered is –",
+          "options": [
+            "20 %",
+            "22 %",
+            "23 %",
+            "25 %"
+          ],
+          "page": 1
+        },
+        {
+          "n": 5,
+          "q": "The amount on Rs 10,000 for 2 years at 8 % per annum compounded annually is –",
+          "options": [
+            "Rs 11690",
+            "Rs 11685",
+            "Rs 11664",
+            "Rs 11650"
+          ],
+          "page": 1
+        },
+        {
+          "n": 6,
+          "q": "If x  y  7 and xy  9, thenthe value of x 2  y 2 is –",
+          "options": [
+            "55",
+            "59",
+            "64",
+            "67"
+          ],
+          "page": 1
+        },
+        {
+          "n": 7,
+          "q": "Given A  B  C  100  350.If A  2 B and B  2C , thenC equals",
+          "options": [
+            "45",
+            "48",
+            "50",
+            "53"
+          ],
+          "page": 1
+        },
+        {
+          "n": 8,
+          "q": "The cost of 5 pens and 2 pencils is Rs 85, and the cost of 3 pens and 2 pencils is Rs 55. The cost of 1 pen is –",
+          "options": [
+            "Rs 20",
+            "Rs 18",
+            "Rs 16",
+            "Rs 15"
+          ],
+          "page": 1
+        },
+        {
+          "n": 9,
+          "q": "The measure of an angle which is 36o more than its complement is –",
+          "options": [
+            "60o",
+            "63o",
+            "65o",
+            "67o"
+          ],
+          "page": 2
+        },
+        {
+          "n": 10,
+          "q": "The angles of a triangle are in the ratio 2 : 3 : 7.The measure of the smallest angle is –",
+          "options": [
+            "40o",
+            "35o",
+            "30o",
+            "28o"
+          ],
+          "page": 2
+        },
+        {
+          "n": 11,
+          "q": "If the circumference of a circle is 66 cm, then its radius is –",
+          "options": [
+            "14 cm",
+            "11 cm",
+            "10.5 cm",
+            "8.5 cm"
+          ],
+          "page": 2
+        },
+        {
+          "n": 12,
+          "q": "The length of the longest pole that can be put in a room of dimensions 10 m by 10 m by 5m is –",
+          "options": [
+            "15 m",
+            "16 m",
+            "17 m",
+            "18 m"
+          ],
+          "page": 2
+        },
+        {
+          "n": 13,
+          "q": "In what time will Rs 1250 amount to Rs 1400 at 6 % per annum simple interest?",
+          "options": [
+            "2 years",
+            "2.5 years",
+            "3 years",
+            "3.5 years p"
+          ],
+          "page": 2
+        },
+        {
+          "n": 14,
+          "q": "The value of 0.3636........... in the form of , where p and q are integers and q  0, is – q 4 4",
+          "options": [
+            "4/11",
+            "4/25",
+            "5/11",
+            "5/9"
+          ],
+          "page": 2
+        },
+        {
+          "n": 15,
+          "q": "The value of a machine depreciates at the rate of 20 % per annum. If its present value is Rs 136000, then its value after 3 years is –",
+          "options": [
+            "Rs 70000",
+            "Rs 69800",
+            "Rs 69632",
+            "Rs 69542"
+          ],
+          "page": 2
+        },
+        {
+          "n": 16,
+          "q": "Rs 3645 is divided among A, B, C in the ratio 2 : 3 : 4.The share of B is –",
+          "options": [
+            "Rs 1186",
+            "Rs 1192",
+            "Rs 1210",
+            "Rs 1215"
+          ],
+          "page": 2
+        },
+        {
+          "n": 17,
+          "q": "If the area of an equilateral triangle is 49  3 cm2, then the length of each side is –",
+          "options": [
+            "12 cm",
+            "14 cm",
+            "15 cm",
+            "17 cm"
+          ],
+          "page": 2
+        },
+        {
+          "n": 18,
+          "q": "How many persons can be accommodated in a dinning hall of dimensions (20m X 16m X 4.5m), assuming that each person require 5 cubic metres of air?",
+          "options": [
+            "273",
+            "278",
+            "288",
+            "290"
+          ],
+          "page": 2
+        },
+        {
+          "n": 19,
+          "q": "How many bricks will be required to construct a wall 8 m long, 6 m high and 22 cm thick if each brick measures (25cm X 11cm X 6cm)?",
+          "options": [
+            "6200",
+            "6265",
+            "6300",
+            "6400"
+          ],
+          "page": 2
+        },
+        {
+          "n": 20,
+          "q": "A well of inner radius 7 m is dug to a depth of 15 m. The volume the earth dug out is",
+          "options": [
+            "2310 m3",
+            "2320 m3",
+            "2342 m3",
+            "2350 m3"
+          ],
+          "page": 3
+        },
+        {
+          "n": 21,
+          "q": "The mean(average) weight of 6 boys is 48 kg. If the individual weights of five of them are 51 kg, 45 kg, 49 kg, 46 kg and 44 kg, then the weight of the sixth boy is –",
+          "options": [
+            "47 kg",
+            "49 kg",
+            "50 kg",
+            "53 kg"
+          ],
+          "page": 3
+        },
+        {
+          "n": 22,
+          "q": "The present population of a town is 35280.If it increases at the rate of 5 % per annum ,what was its population 2 years ago?",
+          "options": [
+            "31000",
+            "31250",
+            "32000",
+            "32134"
+          ],
+          "page": 3
+        },
+        {
+          "n": 23,
+          "q": "Two men starting from the same point walk at the rate of 4 km per hour and 4.5 km per hour respectively. If they walk in opposite directions, then the distance between them at the end of 4 hours is –",
+          "options": [
+            "34 km",
+            "30 km",
+            "8.5 km",
+            "2 km"
+          ],
+          "page": 3
+        },
+        {
+          "n": 24,
+          "q": "How long does a train 200 metres long running at the speed of 80 km per hour take to cross an electric pole?",
+          "options": [
+            "14 seconds",
+            "12 seconds",
+            "9 seconds",
+            "8 seconds"
+          ],
+          "page": 3
+        },
+        {
+          "n": 25,
+          "q": "A gun is fired at a distance of 1.32 km from Rova. He hears the sound 4 seconds later. The speed of the sound is –",
+          "options": [
+            "330 m/s",
+            "332 m/s",
+            "334 m/s",
+            "335 m/s"
+          ],
+          "page": 3
+        },
+        {
+          "n": 26,
+          "q": "A man can do a piece of work in 5 days, but with the help of his son, he can do it in 3 days. In what time can the son do it alone? 1 1",
+          "options": [
+            "6 days",
+            "7 days 2 2 1 1",
+            "7 days",
+            "6 days 3 3"
+          ],
+          "page": 3
+        },
+        {
+          "n": 27,
+          "q": "’A’ can do a work in 15 days and ‘B’ in 20 days. If they work on it together for 4 days, then the fraction of the work that is left, is – 7 4",
+          "options": [
+            "7/15",
+            "4/11",
+            "8/15",
+            "3/11"
+          ],
+          "page": 3
+        },
+        {
+          "n": 28,
+          "q": "A pipe can fill a tank in 16 hours. Due to leak in the bottom, it is filled in 24 hours. If the tank is full, how much time will the leak take to empty it?",
+          "options": [
+            "48 hrs",
+            "45 hrs",
+            "42 hrs",
+            "40 hrs"
+          ],
+          "page": 3
+        },
+        {
+          "n": 29,
+          "q": "The difference between two numbers is 26 and one number is three times the other. The smaller number is –",
+          "options": [
+            "18",
+            "16",
+            "13",
+            "10"
+          ],
+          "page": 3
+        },
+        {
+          "n": 30,
+          "q": "The 105 th term of the AP 12, 17, 22,........ is –",
+          "options": [
+            "532",
+            "512",
+            "522",
+            "517"
+          ],
+          "page": 4
+        },
+        {
+          "n": 31,
+          "q": "The 15th term from the end of the AP 4, 9, 14,..., 254 is –",
+          "options": [
+            "174",
+            "179",
+            "184",
+            "214"
+          ],
+          "page": 4
+        },
+        {
+          "n": 32,
+          "q": "In a school, there are 18 teachers who teach English or Mathematics. Of these,10 teach English and 6 teach both English and Mathematics. How many teach Mathematics?",
+          "options": [
+            "8",
+            "12",
+            "13",
+            "14"
+          ],
+          "page": 4
+        },
+        {
+          "n": 33,
+          "q": "Two vertical poles of height 9 m and 14 m stand on a ground. If the distance between their feet is 12 m, then the distance between their tops is –",
+          "options": [
+            "8 m",
+            "10 m",
+            "11 m",
+            "13 m"
+          ],
+          "page": 4
+        },
+        {
+          "n": 34,
+          "q": "The radius of the wheel of a bus is 70 cm, The distance covered by the wheel in two revolution is –",
+          "options": [
+            "880 cm",
+            "870 cm",
+            "860 cm",
+            "850 cm"
+          ],
+          "page": 4
+        },
+        {
+          "n": 35,
+          "q": "The area of a ring whose outer and inner radii are 19 cm and 16 cm respectively is –",
+          "options": [
+            "325 cm2",
+            "330 cm2",
+            "335 cm2",
+            "340 cm2"
+          ],
+          "page": 4
+        },
+        {
+          "n": 36,
+          "q": "If the area of a circle is 616 cm2,then its radius is –",
+          "options": [
+            "7 cm",
+            "12 cm",
+            "14 cm",
+            "15 cm"
+          ],
+          "page": 4
+        },
+        {
+          "n": 37,
+          "q": "A cube of side 6 cm is cut into a number of cubes each of side 2 cm. The number of cubes formed is–",
+          "options": [
+            "27",
+            "36",
+            "12",
+            "32"
+          ],
+          "page": 4
+        },
+        {
+          "n": 38,
+          "q": "A bag contains 20 balls bearing numbers 1, 2, 3, ....., 20 respectively. A ball is drawn at random from the box. The probability of getting a ball bearing a prime number is – 2 3",
+          "options": [
+            "2/9",
+            "3/7",
+            "4/7",
+            "2/5"
+          ],
+          "page": 4
+        },
+        {
+          "n": 39,
+          "q": "Four bells ring at intervals of 3, 7, 12 and 14 minutes respectively. All four rang together at 12 noon. When will they ring together again?",
+          "options": [
+            "1 : 24 pm",
+            "1 : 30 pm",
+            "1 : 35 pm",
+            "1 : 40 pm"
+          ],
+          "page": 4
+        },
+        {
+          "n": 40,
+          "q": "The number of boys in a school is 120 more than the number of girls. If there are 980 students in the school, then the number of boys in the school is –",
+          "options": [
+            "530",
+            "535",
+            "540",
+            "550"
+          ],
+          "page": 4
+        },
+        {
+          "n": 41,
+          "q": "The electricity bill and the telephone bill of a family for the month June were in the ratio 3 : 8. If Rs 800 more was paid for the telephone than for the electricity, then the bill paid for the electricity was–",
+          "options": [
+            "Rs 460",
+            "Rs 480",
+            "Rs 485",
+            "Rs 490"
+          ],
+          "page": 4
+        },
+        {
+          "n": 42,
+          "q": "To fix fence wires in a garden 70 m long and 50 m wide, Rova bought metal pipes for posts. If he fixed a post every 5 metres apart, then the number of pipes he bought was –",
+          "options": [
+            "40",
+            "44",
+            "48",
+            "50"
+          ],
+          "page": 5
+        },
+        {
+          "n": 43,
+          "q": "The length and breadth of a room are 6 m and 4 m respectively. If the cost of a carpet is Rs 240 a square metre, how much will it cost to carpet the entire room?",
+          "options": [
+            "Rs 5500",
+            "Rs 5650",
+            "Rs 5700",
+            "Rs 5760"
+          ],
+          "page": 5
+        },
+        {
+          "n": 44,
+          "q": "The average age of 7 members of a family is 18 years. If the head of the family is excluded, the average age of the rest of the members would be 5 years less. The age of the head of the family is –",
+          "options": [
+            "45 years",
+            "48 years",
+            "50 years",
+            "53 years"
+          ],
+          "page": 5
+        },
+        {
+          "n": 45,
+          "q": "If diameter of a semicircular window is 63 cm, then its perimeter is –",
+          "options": [
+            "99 cm",
+            "120 cm",
+            "154 cm",
+            "162 cm"
+          ],
+          "page": 5
+        },
+        {
+          "n": 46,
+          "q": "The length and breadth of a rectangular hall are 40 m and 30 m respectively. The distance between the two opposite corners of the hall is –",
+          "options": [
+            "50 m",
+            "60 m",
+            "70 m",
+            "80 m"
+          ],
+          "page": 5
+        },
+        {
+          "n": 47,
+          "q": "A man saves Rs 500 on the purchase of a blanket on which a discount of 20% is allowed. How much did the man pay for the blanket?",
+          "options": [
+            "Rs 2000",
+            "Rs 2500",
+            "Rs 2600",
+            "Rs 2650"
+          ],
+          "page": 5
+        },
+        {
+          "n": 48,
+          "q": "If  means ,  means ,  means  and  means , then the value of 24  8  25  6  3 is :",
+          "options": [
+            "0",
+            "6",
+            "10",
+            "20"
+          ],
+          "page": 5
+        },
+        {
+          "n": 49,
+          "q": "If A stands for +, B stands for , C stands for , the value of 10C 4  A  4C 4  B6 is",
+          "options": [
+            "50",
+            "78",
+            "87",
+            "94"
+          ],
+          "page": 5
+        },
+        {
+          "n": 50,
+          "q": "The selling price of 20 articles is the same as the cost price of 21 articles. The gain percent is :",
+          "options": [
+            "5%",
+            "8%",
+            "15%",
+            "10%"
+          ],
+          "page": 5
+        },
+        {
+          "n": 51,
+          "q": "6 men can finish a work in 20 days. 8 men will complete the same work in :",
+          "options": [
+            "10",
+            "9",
+            "12",
+            "15"
+          ],
+          "page": 5
+        },
+        {
+          "n": 52,
+          "q": "60Km/h can be expressed in m/s as : 4 2",
+          "options": [
+            "16 m / s",
+            "16 m / s 7 3 4 1",
+            "16 m / s",
+            "16 m / s 7 3"
+          ],
+          "page": 5
+        },
+        {
+          "n": 53,
+          "q": "A person travels at a speed of 15m/s. How much distance will he cover in 20 hours?",
+          "options": [
+            "1080Km",
+            "2080Km",
+            "1800Km",
+            "2100Km"
+          ],
+          "page": 5
+        },
+        {
+          "n": 54,
+          "q": "The diagonal of a square is 5.4cm. Its area is :",
+          "options": [
+            "41.85cm2",
+            "14.58cm2",
+            "14.85cm2",
+            "15.48cm2"
+          ],
+          "page": 6
+        },
+        {
+          "n": 55,
+          "q": "A car travelled 6 hours 40 minutes. It reached the destination at 9:00 Pm. When did the car start its journey?",
+          "options": [
+            "12:20 Pm",
+            "2:30 Am",
+            "2:20 Pm",
+            "1:40 Am"
+          ],
+          "page": 6
+        },
+        {
+          "n": 56,
+          "q": "The present age of the father and the son are respectively 50 years and 5 years. After how many years will the age of the father becomes 6 times that of his son?",
+          "options": [
+            "2 years",
+            "4 years",
+            "6 years",
+            "8 years"
+          ],
+          "page": 6
+        },
+        {
+          "n": 57,
+          "q": "A number consists of two digits. The digit in the ten’s place is double the digit in the unit’s place. When digits are inter-changed the number decreases by 18. The number is :",
+          "options": [
+            "21",
+            "84",
+            "63",
+            "42"
+          ],
+          "page": 6
+        },
+        {
+          "n": 58,
+          "q": "A result of a survey of 1000 persons with respect to their knowledge of Hindi(H), English(E) and Sanskrit(S) is given below : E H 200 120 220 100 80 110 170 S What is the ratio of those who know all the three languages to those who do not know Sanskrit?",
+          "options": [
+            "10 : 3",
+            "3 : 10",
+            "27 : 5",
+            "5 : 27"
+          ],
+          "page": 6
+        },
+        {
+          "n": 59,
+          "q": "If a  b   a  5   b  7  , the value of  9  8  is : 2",
+          "options": [
+            "84",
+            "169",
+            "72",
+            "196"
+          ],
+          "page": 6
+        },
+        {
+          "n": 60,
+          "q": "The value of  51  32  is : 2",
+          "options": [
+            "1225",
+            "2025",
+            "3125",
+            "1025"
+          ],
+          "page": 6
+        },
+        {
+          "n": 61,
+          "q": "The square root of 0.00008281 is :",
+          "options": [
+            ".0081",
+            ".0082",
+            ".0091",
+            ".0019"
+          ],
+          "page": 6
+        },
+        {
+          "n": 62,
+          "q": "1089 students are sitting in an auditorium in such a manner that there are as many students in a row as there are rows in the auditorium. How many rows are there in the auditorium?",
+          "options": [
+            "99",
+            "77",
+            "55",
+            "33"
+          ],
+          "page": 6
+        },
+        {
+          "n": 63,
+          "q": "If a  b  5 and a 2  b 2  85 , then the value of ab is :",
+          "options": [
+            "110",
+            "60",
+            "50",
+            "30 1 1"
+          ],
+          "page": 7
+        },
+        {
+          "n": 64,
+          "q": "If x   3 , the value of x 4  4 is : x x",
+          "options": [
+            "121",
+            "119",
+            "110",
+            "97"
+          ],
+          "page": 7
+        },
+        {
+          "n": 65,
+          "q": "If a  b  c  14 and ab  bc  ac  25, the value of a 2  b 2  c 2 is :",
+          "options": [
+            "146",
+            "196",
+            "246",
+            "116 765  765  765  563  563  563"
+          ],
+          "page": 7
+        },
+        {
+          "n": 66,
+          "q": "The value of is : 765  765  563  563  765  563",
+          "options": [
+            "1000",
+            "1328",
+            "302",
+            "202"
+          ],
+          "page": 7
+        },
+        {
+          "n": 67,
+          "q": "In an examination 42% students failed in English and 52% students failed in Mathematics. If 17% failed in both the subjects, the percentage of those who passed in both the subjects is :",
+          "options": [
+            "40%",
+            "34%",
+            "27%",
+            "23% 2"
+          ],
+          "page": 7
+        },
+        {
+          "n": 68,
+          "q": "of a number is 20 less than the original, then the number is : 3",
+          "options": [
+            "90",
+            "60",
+            "45",
+            "30"
+          ],
+          "page": 7
+        },
+        {
+          "n": 69,
+          "q": "1 man or 2 women or 3 boys can do a piece of work in 55 days. In how many days can 1man, 1 woman and 1 boy do the same work?",
+          "options": [
+            "27 days",
+            "30 days",
+            "36 days",
+            "42 days"
+          ],
+          "page": 7
+        },
+        {
+          "n": 70,
+          "q": "The external and internal diameter of a hemispherical bowl are 10cm and 8cm respectively. What is the total surface area of the bowl?",
+          "options": [
+            "257.7cm2",
+            "286cm2",
+            "292cm2",
+            "302cm2"
+          ],
+          "page": 7
+        },
+        {
+          "n": 71,
+          "q": "In an election a total of 5,00,000 voters participated. A candidate got 2,55,000 votes which was 60% of the total valid votes. What was the percentage of invalid votes?",
+          "options": [
+            "10%",
+            "12%",
+            "15%",
+            "25%"
+          ],
+          "page": 7
+        },
+        {
+          "n": 72,
+          "q": "A sphere of radii 13cm is cut by a plane whose distance from the center of the sphere is 5cm. What is the circumference of the plane circular section?",
+          "options": [
+            "24 cm",
+            "12 cm",
+            "24 cm",
+            "26 cm"
+          ],
+          "page": 7
+        },
+        {
+          "n": 73,
+          "q": "Two successive discounts of 8% and 12% are equal to a single discount of :",
+          "options": [
+            "20%",
+            "19.04%",
+            "20.96%",
+            "22%"
+          ],
+          "page": 7
+        },
+        {
+          "n": 74,
+          "q": "The sum of first 45 natural number is :",
+          "options": [
+            "2070",
+            "1035",
+            "1280",
+            "2140"
+          ],
+          "page": 8
+        },
+        {
+          "n": 75,
+          "q": "An alloy contains 10g copper, 20g tin and 20g silver. What is the percentage of coppeer in the alloy?",
+          "options": [
+            "20%",
+            "25%",
+            "30%",
+            "11%"
+          ],
+          "page": 8
+        },
+        {
+          "n": 76,
+          "q": "A mixture contains sand and gravel in the ratio 1 : 4. The sand has 20% impurity. If total mixture weights 10Kg, how much impurity is there? (Consider that gravel has no impurity)",
+          "options": [
+            "300g",
+            "450g",
+            "400g",
+            "500g"
+          ],
+          "page": 8
+        },
+        {
+          "n": 77,
+          "q": "A man buys 25 chairs for Rs 375 and sells them at a profit equal to the selling price of 5 chairs. What is the selling price of one chair?",
+          "options": [
+            "Rs 18.75",
+            "Rs 14.50",
+            "Rs 15.20",
+            "Rs 17.20"
+          ],
+          "page": 8
+        },
+        {
+          "n": 78,
+          "q": "A tap A can fill a cistern in 8 hours and another tap B can empty the full cistern in 12 hours. If both the pipes are opened together when the cistern is empty, the time taken to fill the cistern is :",
+          "options": [
+            "24h",
+            "16h",
+            "20h",
+            "28h"
+          ],
+          "page": 8
+        },
+        {
+          "n": 79,
+          "q": "In seven given numbers, the average of first four numbers is 4 and that of last four numbers is 4. If the average of these seven numbers is 3, the fourth number is :",
+          "options": [
+            "3",
+            "4",
+            "7",
+            "11"
+          ],
+          "page": 8
+        },
+        {
+          "n": 80,
+          "q": "The average of 100 observations was calculated as 40. It was found later on that one of the observations was misread as 83 instead of 53. The correct average is :",
+          "options": [
+            "39",
+            "39.7",
+            "40.3",
+            "42.7"
+          ],
+          "page": 8
+        },
+        {
+          "n": 81,
+          "q": "The ratio of two numbers is 2 : 3. If each number is decreased by 3 the ratio becomes 3 : 5. Then the difference of the two numbers is :",
+          "options": [
+            "6",
+            "7",
+            "5",
+            "4"
+          ],
+          "page": 8
+        },
+        {
+          "n": 82,
+          "q": "A, B, C start a business. A invests 3 times as much as B invests and B invests two-third of what C invests. Then, the ratio of capitals of A, B and C is :",
+          "options": [
+            "3 : 9 : 2",
+            "6 : 10 : 15",
+            "5 : 3 : 2",
+            "6 : 2 : 3 sin 500 cosec 400"
+          ],
+          "page": 8
+        },
+        {
+          "n": 83,
+          "q": "The value of 0  0  4 cos 500.cos ec 400 is cos 40 sec50",
+          "options": [
+            "2",
+            "2",
+            "6",
+            "6"
+          ],
+          "page": 8
+        },
+        {
+          "n": 84,
+          "q": "A car is running at 42km/h. What time will it take to cover 350 meters?",
+          "options": [
+            "45s",
+            "40s",
+            "30s",
+            "25s"
+          ],
+          "page": 8
+        },
+        {
+          "n": 85,
+          "q": "If median = 10, Mode = 8, calculate the value of Mean:",
+          "options": [
+            "7",
+            "9",
+            "11",
+            "13"
+          ],
+          "page": 9
+        },
+        {
+          "n": 86,
+          "q": "How many terms are there in the AP : 3, 6, 9, 12, .... 111?",
+          "options": [
+            "27",
+            "37",
+            "43",
+            "53"
+          ],
+          "page": 9
+        },
+        {
+          "n": 87,
+          "q": "A contract employee plans his monthly budget according to his monthly income as shown in the given pie-chart. If he spends Rs 3500 on house rent, his monthly income is : Food nt e re ous H 70° 105° 65° 40° on 80° Misc. ati uc Ed Saving",
+          "options": [
+            "Rs 16,000",
+            "Rs 19,000",
+            "Rs 17,000",
+            "Rs 18,000"
+          ],
+          "page": 9
+        },
+        {
+          "n": 88,
+          "q": "How many planks each measuring 5m  20cm  8cm can be stored in a place 18m long, 4m wide and 60cm deep?",
+          "options": [
+            "620",
+            "540",
+            "480",
+            "390"
+          ],
+          "page": 9
+        },
+        {
+          "n": 89,
+          "q": "The diameter of a hemisphere is 14cm. Its total surface area is :",
+          "options": [
+            "462cm2",
+            "616cm2",
+            "308cm2",
+            "256cm2"
+          ],
+          "page": 9
+        },
+        {
+          "n": 90,
+          "q": "Three solid metallic sphere of radii 3cm, 4cm, and 5cm respectively are melted to form a single solid sphere. Then the diameter of the resulting sphere is :",
+          "options": [
+            "6cm",
+            "8cm",
+            "12cm",
+            "14cm"
+          ],
+          "page": 9
+        },
+        {
+          "n": 91,
+          "q": "The minute hand of a wall clock is 21cm . What is the area swept by the minute hand in 20 minutes time?",
+          "options": [
+            "560cm2",
+            "462cm2",
+            "420cm2",
+            "398cm2"
+          ],
+          "page": 9
+        },
+        {
+          "n": 92,
+          "q": "The area of an equilateral triangle each of whose side is 8cm long is :",
+          "options": [
+            "16cm2",
+            "16 3cm 2",
+            "32cm2",
+            "16 3cm 2"
+          ],
+          "page": 9
+        },
+        {
+          "n": 93,
+          "q": "The volume of a cylinder is 448 cm 3 and its height is 7cm. The radius of the cylinder is :",
+          "options": [
+            "8 cm",
+            "6 cm",
+            "4 cm",
+            "12 cm"
+          ],
+          "page": 9
+        },
+        {
+          "n": 94,
+          "q": "If the radius of a sphere is doubled, the volume of the sphere will be increased by :",
+          "options": [
+            "2 times",
+            "4 times",
+            "6 times",
+            "8 times 1 1"
+          ],
+          "page": 10
+        },
+        {
+          "n": 95,
+          "q": "If  8  8   9  x  8  340, the value of x is : 2 2 3",
+          "options": [
+            "7",
+            "19",
+            "18",
+            "9"
+          ],
+          "page": 10
+        },
+        {
+          "n": 96,
+          "q": "The base of an isosceles triangle is 12cm and its perimeter is 32cm. The area of the triangle is:",
+          "options": [
+            "38cm2",
+            "42cm2",
+            "56cm2",
+            "48cm2"
+          ],
+          "page": 10
+        },
+        {
+          "n": 97,
+          "q": "A card is drawn at random from a well shuffled pack of playing card. The probability of getting a red Queen is : 2 4",
+          "options": [
+            "2/13",
+            "4/13",
+            "1/26",
+            "None of these"
+          ],
+          "page": 10
+        },
+        {
+          "n": 98,
+          "q": "At what rate percent per annum will a sum of money double in 8 years?",
+          "options": [
+            "14.5%",
+            "13.7%",
+            "12.5%",
+            "10.7%"
+          ],
+          "page": 10
+        },
+        {
+          "n": 99,
+          "q": "A number when divided by 221 leaves 18 as remainder. If the same number is divided by 13, the remainder is :",
+          "options": [
+            "6",
+            "5",
+            "3",
+            "4 1"
+          ],
+          "page": 10
+        },
+        {
+          "n": 100,
+          "q": "th of the passengers of a train were children. If there were 40 children travelling in the train, then 8 the number of adults in the train was –",
+          "options": [
+            "270",
+            "280",
+            "285",
+            "295 *******"
+          ],
+          "page": 10
+        }
+      ],
+      "essay": null
+    }
+  ]
+}

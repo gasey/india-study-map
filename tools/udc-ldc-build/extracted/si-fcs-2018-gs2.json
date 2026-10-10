@@ -1,0 +1,1970 @@
+{
+  "slug": "si-fcs-2018-gs2",
+  "exam": "Sub-Inspector under FCS&CA Department",
+  "sitting": "November 2018",
+  "subject": "General Studies Paper-II",
+  "source": "si-fcs-2018-gs2.pdf",
+  "sourceSha256": "f5d9668eba8ebdc34e566a31c7e352797ca0c0f61faffd90f86aab2912502736",
+  "ocr": false,
+  "count": 75,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nepal",
+        "b": "Bangladesh",
+        "c": "Myanmar",
+        "d": "Afghanistan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian Railways handed over 18 locomotives to which country",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q001.webp"
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1500",
+        "b": "2000",
+        "c": "2500",
+        "d": "3000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s first sign language dictionary was launched recently containing how many words?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q002.webp"
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Robert P. Langlands",
+        "b": "Michael W. Young",
+        "c": "Richard Henderson",
+        "d": "Kip S. Thorne"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The name of Canadian Mathematician who win Abel Prize 2018.",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q003.webp"
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam",
+        "b": "Meghalaya",
+        "c": "Odisha",
+        "d": "Tamil Nadu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Krem Puri, world longest sandstone cave was recently discovered in which state",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q004.webp"
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bat museum",
+        "b": "Insect Museum",
+        "c": "Rice Museum",
+        "d": "Water Museum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first of its kind museum was recently opened at Agricultural University Campus in Coimbatore, Tamil Nadu",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q005.webp"
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CISF (Central Industrial Security Force)",
+        "b": "CRPF (Central Reserve Police Force)",
+        "c": "NTA (National Testing Agency)",
+        "d": "RAW (Research and Analysis Wing)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Government of India appoints Vineet Joshi as Director General of",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q006.webp"
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Abu Dhabi, UAE",
+        "b": "Cairo, Egypt",
+        "c": "Dhaka, Bangladesh",
+        "d": "Tehran, Iran"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Prime Minister laid the foundation stone of first Hindu temple in",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q007.webp"
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jamaica, Cuba",
+        "b": "Myanmar, Afghanistan",
+        "c": "Venezuela, Libya",
+        "d": "Vietnam, Sudan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two members lose UN General Assembly vote for the third time due to unpaid dues, they are",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q008.webp"
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Military Drill with Bhutan Royal Army",
+        "b": "National Population Policy",
+        "c": "Republic Day Parade theme",
+        "d": "Youth Exchange Programme"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Watan Ko Jano is",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q009.webp"
+    },
+    {
+      "n": 10,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "All Women Matunga Train Station",
+        "b": "Military Women staff College",
+        "c": "Parliament House",
+        "d": "SBI Offices in Delhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Crèche facility to come up at",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q010.webp"
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Haulawng and Mualthuam N",
+        "b": "Haulawng and Zobawk",
+        "c": "West Phaileng and Lallen",
+        "d": "Zanlawn and Lungdai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "N.E. first regional centre for agriculture with Israeli collaboration come up in an area between",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q011.webp"
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Airtel, Huawei",
+        "b": "BSNL, Redmi",
+        "c": "Jio, HTC",
+        "d": "Vodafone, Samsung"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name of the two telecom company that successfully conducted India’s first 5G network",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q012.webp"
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fathers Aadhar",
+        "b": "Mothers Aadhar",
+        "c": "One of parents Aadhar",
+        "d": "Both parents Aadhar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "UIDAI launches blue colour ‘Bal Aadhar’ meant for kids under 5 years of age. It will be linked with",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q013.webp"
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China",
+        "b": "Germany",
+        "c": "India",
+        "d": "USA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country was recently elected as Vice Chair of FATF (Financial Action Task Force), a global body mandated to combat terror financing and money laundering.",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q014.webp"
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Argentina",
+        "b": "Brazil",
+        "c": "Paraguay",
+        "d": "Uruguay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first country to win FIFA World Cup (Jules Rimet Trophy)",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q015.webp"
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Badruddin Tyaabji",
+        "b": "Bipin Chandra Pal",
+        "c": "Lala Lajpat Rai",
+        "d": "W C Bannerjee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first President of Indian National Congress",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q016.webp"
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "John Milton",
+        "b": "John Keats",
+        "c": "George Bernard Shaw",
+        "d": "William Shakespeare"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Bard of Avon",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q017.webp"
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Muppavarappu",
+        "b": "Murugan",
+        "c": "Mundaliar",
+        "d": "Mandal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Vice President of India is M. Venkaiah Naidu. M stands for",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q018.webp"
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Public Satellite Launching Vehicle",
+        "b": "Private Satellite Launch Vehicle",
+        "c": "Polar Satellite Launch Vehicle",
+        "d": "Polar Satellite Launching Vehicle"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Full form of PSLV",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q019.webp"
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Baku",
+        "b": "Chisinau",
+        "c": "Tirana",
+        "d": "Yerevan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The capital of Albania is",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q020.webp"
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Very Important Resource Under Siege",
+        "b": "Vital Import Records Under Siege",
+        "c": "Vital Information Resources Under Siege",
+        "d": "Vital Inputs Resources Under Siege"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Computer systems are often attacked by VIRUS. What is the full form of VIRUS?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q021.webp"
+    },
+    {
+      "n": 22,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kolkata",
+        "b": "Pune",
+        "c": "Mumbai",
+        "d": "Chennai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Film and Television Institute of India (FTII) is located in",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q022.webp"
+    },
+    {
+      "n": 23,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Minister of Water Resources",
+        "b": "Minister of Environment Forest",
+        "c": "Prime Minister",
+        "d": "Minister of Science and Technogy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India, who is the chairman of the National Water Resource Council?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q023.webp"
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indonesia",
+        "b": "Malaysia",
+        "c": "Singapore",
+        "d": "Sri Lanka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is not a member of The Commonwealth",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q024.webp"
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Buddha is smiling",
+        "b": "Operation Blue Star",
+        "c": "Operation Shakti",
+        "d": "Smiling Buddha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The code used to convey the success of India’s first nuclear test to the then Prime Minister Indira Gandhi was",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q025.webp"
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Boron",
+        "b": "Neutron",
+        "c": "Electron",
+        "d": "Proton"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The particle utilized in Boron Neutron Capture Therapy for treatment of tumour cells is",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q026.webp"
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "total internal reflection",
+        "b": "refraction",
+        "c": "scattering",
+        "d": "interference"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The optical fiber technology that transforms our modern communication technology works on the principle of",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q027.webp"
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "100",
+        "b": "106",
+        "c": "104",
+        "d": "109"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ISRO holds the world record for launching the highest number of satellites by a single launch vehicle in 2017. The number of satellites launch was",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q028.webp"
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "communication",
+        "b": "weather forecasting",
+        "c": "planetary science",
+        "d": "Navigation/Global Positioning"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "INSAT-3D satellite is used for",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q029.webp"
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "World Bank",
+        "b": "South Asia Development Bank",
+        "c": "HDFC Bank",
+        "d": "Reliance Pvt ltd."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the Sustainable Rooftop Implementation for Solar Transfiguration of India(SRISTI) program, the Government of India is planning to generate 100 GW of solar power by 2022. Which of the following agencies has partnership with the government to implement this objective",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q030.webp"
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ubuntu",
+        "b": "Windows 10",
+        "c": "OS X",
+        "d": "Microsoft Office 2017"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not an operating system?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q031.webp"
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CT Scan",
+        "b": "MRI",
+        "c": "Ultrasound",
+        "d": "PET"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "X-ray is utilized in",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q032.webp"
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chandrayaan-1",
+        "b": "Mangalyaan",
+        "c": "Chandrayaan",
+        "d": "Mangalyaan-1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India is the first Asian nation, and the first nation to send successfully in its first attemp to reach Mars Orbit. The Mars Orbiter launch by ISRO was named",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q033.webp"
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Homi J. Bhabha",
+        "b": "S. Chandrasekhar",
+        "c": "C.V. Raman",
+        "d": "S.N. Bose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Indian who received Nobel Prize in physics is",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q034.webp"
+    },
+    {
+      "n": 35,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GM Maize",
+        "b": "GM Canola",
+        "c": "GM Soybean",
+        "d": "Bt Cotton"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first genetically engineered crop in India is",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q035.webp"
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PayTM",
+        "b": "Google",
+        "c": "MobiKwik",
+        "d": "CCAvenue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not an online payment gateway?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q036.webp"
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nuclear power plants",
+        "b": "Hydro Power",
+        "c": "Thermal Power Plants",
+        "d": "Solar Power"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The largest electric power generator in India is",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q037.webp"
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Medical Imaging",
+        "b": "Food Processing",
+        "c": "Radiation Therapy",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Nuclear Technology is utilized in",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q038.webp"
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agriculture",
+        "b": "Transport",
+        "c": "Deforrestation",
+        "d": "Energy generation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following activities contributes the most to carbon emissions in India?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q039.webp"
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Integral Core",
+        "b": "Integrated Circuit",
+        "c": "Internet Command",
+        "d": "Intelligence Command"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IC in electronic device stands for",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q040.webp"
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khawlkungi",
+        "b": "Nuchhungi",
+        "c": "Lalsangzuali Sailo",
+        "d": "Chhingpuii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Mizo folktale compilation book ‘Serkawn Graded Reader’ was prepared by",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q041.webp"
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Phungpuinu",
+        "b": "Kelchawngi",
+        "c": "Hmuichukchuriduni",
+        "d": "Tumchhingi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Mizo folktale ‘Nuchhimi’ was associated with",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q042.webp"
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1926",
+        "b": "1938",
+        "c": "1936",
+        "d": "1928"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which year the Superintendent of Lushai Hills, NE Parry make an order to reinstall Zawlbuk in Mizoram?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q043.webp"
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pawl Kut",
+        "b": "Chapchar Kut",
+        "c": "Mim Kut",
+        "d": "Thal Favang Kut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following Mizo Kut is associated with ‘Chai Dance’?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q044.webp"
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ralte Ni",
+        "b": "Zupui Ni",
+        "c": "Lusei vawk talh Ni",
+        "d": "Ei puar awm ni"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first day of Chapchar Kut is also known as",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q045.webp"
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1914",
+        "b": "1917",
+        "c": "1915",
+        "d": "1945"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Lushai Labour Corp, consisting of 2100 Mizos went to the France in the year",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q046.webp"
+    },
+    {
+      "n": 47,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The right front leg of the animal",
+        "b": "The right rear leg of the animal",
+        "c": "The left front leg of the animal",
+        "d": "The left rear leg of the animal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The chief’s share (tax) of every animal shot or trapped by anyone in the Mizo village was",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q047.webp"
+    },
+    {
+      "n": 48,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Barkakati",
+        "b": "LL Peters",
+        "c": "J.Shakespeare",
+        "d": "HWG Cole"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who abolished the institution of Ramhual and Zalen in Mizo society in September 25, 1951",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q048.webp"
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1929",
+        "b": "1930",
+        "c": "1933",
+        "d": "1928"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Durtlang Hospital (now known as the Synod Hospital) started under the leadership of Dr. John Williams in which year",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q049.webp"
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mizo National Force",
+        "b": "Mizo National Army",
+        "c": "Mizo Volunteer Wing",
+        "d": "Mizo Volunteer Army"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The fighting force of MNF during the independent movement was known as",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q050.webp"
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rev. David Edwards",
+        "b": "Miss Katie Hughes",
+        "c": "Ch. Pasena",
+        "d": "Rev. Lewis Evans"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first president of Young Lushai Association (YLA) now known as Young Mizo Association was",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q051.webp"
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brig. Gen. Brochier",
+        "b": "Capt. T.H.Lewin",
+        "c": "Gen. Brownlow",
+        "d": "Capt. R.B Mc Cabe"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "During The Lushai Expedition 1871-72, The political Officer of the Right Column (Chhim Vai Lian) was",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q052.webp"
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brojo Nath saha",
+        "b": "HR Browne",
+        "c": "CA Soppit",
+        "d": "AS Reid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Rangkhol Kuki Lushai Grammar’ was written in 1885 by",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q053.webp"
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "March 2, 1966",
+        "b": "March 1, 1966",
+        "c": "March 5, 1966",
+        "d": "March 3, 1966"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Government of Assam declared the Mizo District as a disturbed area both under the Assam Disturbed Areas Act, 1958 and the Armed Forces Special Powers Act, 1958 on",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q054.webp"
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mualkil Upa",
+        "b": "Lal Upa",
+        "c": "Khawnbawl Upa",
+        "d": "Upa Min"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most senior among the Mizo elders, the leagl adviser to the chief was called as",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q055.webp"
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10 km",
+        "b": "12 km",
+        "c": "14 km",
+        "d": "15 km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lala cycles to his office at the rate of 12.5 km per hour and is late by 14 minutes. However, if he travels at 15 km per hour, he is late by 6 minutes only. The distance between his house and the office is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q056.webp"
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20",
+        "b": "22",
+        "c": "25",
+        "d": "26"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What least number must be subtracted from 7250 to get a perfect square?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q057.webp"
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "52^o",
+        "b": "50^o",
+        "c": "48^o",
+        "d": "45^o"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The angles of a quadrilateral are in the ratio 3 : 5 : 7 : 9. The measure of the smallest angle is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q058.webp"
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30 kg",
+        "b": "40 kg",
+        "c": "42 kg",
+        "d": "46 kg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The weight of 12 students ( in kilograms) are: 36, 45 , 31, 52, 35, 40, 55, 69, 38, 44, 30, 60.The median weight is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q059.webp"
+    },
+    {
+      "n": 60,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "380 m²",
+        "b": "384 m²",
+        "c": "387 m²",
+        "d": "390 m²"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The perimeter of a rectangular plot of land is 80 m and its breadth is 16 m. The area of the plot is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q060.webp"
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "56.8 kg",
+        "b": "55.6 kg",
+        "c": "54.8 kg",
+        "d": "54 kg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average weight of 33 students of a class is 52 kg. If the average weight of 18 of them is 48 kg, then the average weight of the remaining students is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q061.webp"
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 1100",
+        "b": "Rs 1200",
+        "c": "Rs 1250",
+        "d": "Rs 1380"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The simple interest on a sum of money for 5 years at 6 % is Rs 120 more than the simple interest on the same sum at 5 % for 4 years. The sum invested is –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q062.webp"
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 600",
+        "b": "Rs 400",
+        "c": "Rs 300",
+        "d": "Rs 280 25−52+32−25−3+5−10÷4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An article was sold at a profit of 10 %. Had it been sold at a loss of 20 % the selling price would have been Rs 90 less. The cost price of the article was –",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q063.webp"
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "23",
+        "b": "23 54 33",
+        "c": "24",
+        "d": "25 45 23"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of () is- 43",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q064.webp"
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 982.50",
+        "b": "Rs 897.80",
+        "c": "Rs 892.80",
+        "d": "Rs 798.60 (2.39)²−(1.61)²"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A fruit seller buys 297 fruits, of which are apples. Of all the apples that he bought, were found 311 1 to be rotten. If he sold all the good apples at Rs6 each, how much money did he receive on selling 5 all the good apples?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q065.webp"
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2",
+        "b": "4",
+        "c": "6",
+        "d": "8"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Evaluate : 2.39−1.61",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q066.webp"
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "212",
+        "b": "156",
+        "c": "200",
+        "d": "202"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "16   22   34   58   106   ?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q067.webp"
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Some employees are no elderly",
+        "b": "Some bosses are elderly",
+        "c": "Some bosses are no elderly",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What conclusion can be drawn on the basis of these two statements? (i)Some bosses are employees. (ii)All employees are elderly.",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q068.webp"
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Devious",
+        "b": "Nefarious",
+        "c": "Surreptitious",
+        "d": "Villainous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One Word Substitution: Stealthily done",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q069.webp"
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To give credit to even a notorious person",
+        "b": "To give credit to an undeserving person",
+        "c": "To encourage the devil",
+        "d": "To help someone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the meaning of the highlighted phrase: Sometimes, it happens that we have to “give the devil his due”",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q070.webp"
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the correct figure in the sequence given below",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q071.webp"
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following diagrams indicates the best relation between Women, Mothers and Engineers?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q072.webp"
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Statement I is the cause and statement II is its effect.",
+        "b": "Statement II is the cause and statement I is its effect.",
+        "c": "Both the statements I and II are effects of independent causes.",
+        "d": "Both the statements I and II are effects of some common cause."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Below in each of the questions are given two statements I and II. These statements may be either independent causes or may be effects of independent causes or a common cause. One of these statements may be the effect of the other statements. Read both the statements and decide which of the following answer choice correctly depicts the relationship between these two statements. I.The staff of Airport Authorities called off the strike they were observing in protest against privatization. II.The staff of Airport Authorities went on strike anticipating a threat to their jobs.",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q073.webp"
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AB",
+        "b": "AD",
+        "c": "BA",
+        "d": "DA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the following sentences the main statement is followed by four sentences each. Select a pair of sentences that relate logically with the given statement. Either Marini is sick or she is careless. A.Marini is not sick. B.Marini is not careless. C.Marini is sick. D.Marini is careless.",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q074.webp"
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The tariff on a car imported from India to Pakistan is less than 120 percent of the price of a car",
+        "b": "It takes 120 percent less time to transport a car in India than it does in Pakistan.",
+        "c": "Importing cars from India to Pakistan will eliminate 120 percent of the sales of cars in Pakistan.",
+        "d": "Petrol prices in India are 120 percent below those in Pakistan."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The price of purchasing a car in India is 120 percent less than the price of purchasing a car in Pakistan. Even after transportation fees and tariff charges are added, it is still cheaper for a buyer to import a car from India to Pakistan than to buy a car in Pakistan. The statements above, if true, best support which of the following assertions?",
+      "multi": false,
+      "unscored": true,
+      "reviewNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored.",
+      "imagePath": "/question-images/group-b/recovered-2018/si-fcs-2018-gs2-q075.webp"
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/b2f6ad6d0e4aac657e0b20723f01ceac/general-studies-ii-si.pdf",
+  "enrichmentVersion": 3,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

@@ -1,0 +1,2298 @@
+{
+  "slug": "inspector-excise-2019-gs2",
+  "exam": "Inspector under Excise & Narcotics Department",
+  "sitting": "2019",
+  "subject": "General Studies Paper-II",
+  "source": "General Studies Paper-II (Inspector of Excise).pdf",
+  "sourceSha256": "593f3d59160499f597d80849f16d91e874d7886d06f13da8346c1c3d867f094e",
+  "ocr": false,
+  "count": 99,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The grand old thinker of India",
+        "b": "The grand old philosopher of India",
+        "c": "The grand old man of India",
+        "d": "The grand old social reformer of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the popular title given to Dadabhai Naoroji",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arya Samaj",
+        "b": "Brahmo Samaj",
+        "c": "Asiatic Society",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following was established by Raja Rammohan Roy",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gopal Krishna Gokhale",
+        "b": "Bal Gangadhar Tilak",
+        "c": "M.N. Roy",
+        "d": "Swami Dayananda Saraswati"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Servant of India Society was established by which of the following Indian political thinkers",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "They wanted to remake India totally on the image of the west",
+        "b": "They rejected Hindu view of life",
+        "c": "They did not fight for independence of India",
+        "d": "They promoted liberal ideology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bal Gangadhar Tilak raised strong objection to the social reformism of Justice Ranade, Gopal Krishna Gokhale and their associate because",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gita and Bible",
+        "b": "Upanishad and Christian theology",
+        "c": "Western liberalism and Indian extremism",
+        "d": "The ancient Vedanta and modern European political philosophy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sri Aurobindo Ghosh attempted to construct a synthesis of",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "M.N. Roy",
+        "b": "Dr B.R. Ambedkar",
+        "c": "Sri Aurobindo Ghosh",
+        "d": "Gopal Krishna Gokhale"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who said that distortion of religion and misinterpretation of history and culture did more harm to Indian social life than foreign invasions and domination for centuries",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mahatma Gandhi",
+        "b": "Gopal Krishna Gokhale",
+        "c": "Mahatma Jyotiba Phooley",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "B.R. Ambedkar was greatly influenced in his concept of equality by",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Raja Rammohan Roy",
+        "b": "Swami Vivekananda",
+        "c": "Prof. Bhandarkar",
+        "d": "Bal Gangadhar Tilak"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘The Artic Home of the Vedas’ is a book written by",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "M.G. Ranade",
+        "b": "Bal Gangadhar Tilak",
+        "c": "Gopal Krishna Gokhale",
+        "d": "G.G. Agarkar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was Secretary of the Deccan Education Society",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Peace force",
+        "b": "Non-violence force",
+        "c": "Non-cooperation force",
+        "d": "Truth force"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The literal meaning of Satyagraha as stated by Mahatma Gandhi is",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "he transformed the freedom movement into a mass movement",
+        "b": "he introduced non-cooperation movement",
+        "c": "he opposed the Rowlatt Act",
+        "d": "he attended Round Table Conferences at London"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The significant contribution of Mahatma Gandhi in the Indian freedom movement was that",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Liberal, communist, democrat and utilitarian",
+        "b": "Liberal, democrat, socialist and individualist",
+        "c": "Liberal, democrat, idealist and communist",
+        "d": "Liberal, democrat, utopian and visionary"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ideological standpoint of Pandit Jawaharlal Nehru can be described as",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "U.K.",
+        "b": "Irish Republic",
+        "c": "Switzerland",
+        "d": "USA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of Fundamental Rights in the Constitution of India is borrowed from the Constitution of",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Part II of the Constitution of India",
+        "b": "Part III of the Constitution of India",
+        "c": "Part IV of the Constitution of India",
+        "d": "Part V of the Constitution of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Directive Principles of State Policy are incorporated in",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chief of the Army Staff",
+        "b": "Defence Minister of India",
+        "c": "President of India",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the Supreme Commander of the Armed Forces in India",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The President legally possesses no powers, but in practice he exercises all the powers of",
+        "b": "The President legally possesses no powers.",
+        "c": "The President legally possesses all the powers, but in practice he exercises none of them.",
+        "d": "None of these."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statement is correct with regard to Indian Political system?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many nominated members are there in the Lok Sabha?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "assigned to State Government",
+        "b": "assigned to both Union Government and State Government",
+        "c": "assigned to Union Government",
+        "d": "not assigned to both Union Government and State Government"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Residuary powers are subjects which are not clearly enumerated in the three list of the Seventh Schedule of the Constitution of India but are",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Socialist Principle",
+        "b": "Liberal principle",
+        "c": "General Principle",
+        "d": "Gandhian Principle"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of Village Panchayat been incorporated in Article 40 of the Constitution of India is based upon which ideological principle of the Directive Principle of State Policy",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nagaland, Meghalaya, Mizoram and Hill Areas in the State of Manipur",
+        "b": "Nagaland, Meghalaya, Mizoram and Tribal Areas of Tripura",
+        "c": "Nagaland, Meghalaya, Mizoram and Arunachal Pradesh",
+        "d": "Nagaland, Meghalaya, Mizoram and Darjeeling District of West Bengal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Panchayati Raj Act as amended by the Seventy Third Amendment Act of 1992 shall not apply in the states of",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "All bills for consideration of the President of India",
+        "b": "Certain types of bills of serious nature passed by the State Legislature for the assent of the President",
+        "c": "No bills passed by the State Legislature for the approval of the President of India",
+        "d": "Only financial bills for the approval of the President of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Governor of a state can reserve",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Original Jurisdiction",
+        "b": "Advisory Jurisdiction",
+        "c": "Appellate Jurisdiction",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All cases regarding interpretation of the constitution can be brought to the Supreme Court under the",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Union List",
+        "b": "State List",
+        "c": "Concurrent List",
+        "d": "Residuary powers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The subject of Defence in Seventh Schedule in Article 246 is contained in the",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam",
+        "b": "Andhra Pradesh",
+        "c": "West Bengal",
+        "d": "Tamil Nadu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Politics of regionalism was manifested even to the extent of secessionism by regional party in which of the following state",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "North",
+        "b": "East",
+        "c": "South",
+        "d": "West"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The issue of linguism has been the deep-rooted political issue in which region of India?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Separation of religion from state",
+        "b": "Anti-religious sense",
+        "c": "Equal treatment of all religions",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of secularism in the context of the Constitution of India stands for",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A political party should have branches and units in all the states of India",
+        "b": "A political party should form government at least in three states",
+        "c": "A political party should have at least one member each in the Lok Sabha and Rajya Sabha",
+        "d": "A political party should get at least six percent of the valid votes polled in four or more states at the general election to Lok Sabha or to the State Legislative Assembly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the main criteria for recognition of political party as national party in India",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USA",
+        "b": "Erstwhile USSR",
+        "c": "UK",
+        "d": "France"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The idea of five years plan in India has been borrowed from",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rapid Action Force (RAF)",
+        "b": "Central Reserve Police Force (CRPF)",
+        "c": "Central Industrial Security Force (CISF)",
+        "d": "Indo-Tibetan Border Police (ITBP)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Para-Military Force which has been established to deal with communal riots is",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Caste plays no role at all in Indian politics",
+        "b": "The issue of casteism in Indian politics is exaggerated by the critics",
+        "c": "State politics in India has been particularly the hot bed of political casteism.",
+        "d": "Casteism is prevalent in tribal dominated states of North East India."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statement is correct with regard to involvement of caste in Indian political System?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bureaucracy",
+        "b": "Politicians",
+        "c": "Civil societies",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Developmental administration which focuses upon socio-economic development for the people is the administrative responsibility of the",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Constitution 40th Amendment Act, 1976",
+        "b": "Constitution 41st Amendment Act, 1976",
+        "c": "Constitution 42nd Amendment Act, 1976",
+        "d": "Constitution 43rd Amendment Act, 1977"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which amendment of the Constitution of India is regarded as Mini-Constitution?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 11 – Article 33",
+        "b": "Article 11- Article 34",
+        "c": "Article 12- Article 36",
+        "d": "Article 12- Article 35"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fundamental Rights are incorporated between which of the following articles of the Constitution of India",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fundamental Rights are positive while Directive Principles of State Policy are negative",
+        "b": "Fundamental Rights are justiciable while Directive Principles of State Policy are not",
+        "c": "Directive Principles of State Policy are given precedence over Fundamental Rights by",
+        "d": "Directive Principles of State Policy are non-justiciable but not positive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The main difference between the Fundamental Rights and the Directive Principles of State Policy is",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Habeas Corpus",
+        "b": "Certiorari",
+        "c": "Quo Warranto",
+        "d": "Prohibition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following writs literally means to produce the body of a person",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DMK",
+        "b": "AIADMK",
+        "c": "UDP",
+        "d": "NPP"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following political parties is not a regional party",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Speaker and the two houses to be known respectively as the Council of States and the",
+        "b": "The President and the two houses to be known respectively as the Council of States and",
+        "c": "The Vice President and the two houses to be known respectively as the Council of States",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Parliament of India consists of",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Single Election Commission",
+        "b": "Appointment of Judges of the High Court by the President",
+        "c": "Distribution of powers between Union Government and State Government by the constitution",
+        "d": "Appointment of Governor of the State by the President of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is a federal feature of the Indian Constitution?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Open Market Operations",
+        "b": "Deficit Financing",
+        "c": "Moral Suasion",
+        "d": "Margin Requirement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is included under fiscal policy in India?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Goods and Services Tax",
+        "b": "Corporation Tax",
+        "c": "Borrowing and other liabilities",
+        "d": "Both (a) & (b)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the biggest item of income of the central government in 2019-20 budget?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Production of tomatoes, onion and potatoes",
+        "b": "Production of tomato, chilli and potatoes",
+        "c": "Production of pulses, onion and potatoes",
+        "d": "Production of tomato, onion and cabbage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is related to the “Operation Green” mission?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bullion market",
+        "b": "Market of government securities",
+        "c": "Market of gold exchanges",
+        "d": "Foreign exchange market"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gilt-edged market means-",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "M1",
+        "b": "M2",
+        "c": "M3",
+        "d": "M4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is most liquid measure of money supply in India?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RBI",
+        "b": "Central Government",
+        "c": "State governments",
+        "d": "SEBI"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following agency is responsible for management of Chit funds?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Union Bank of India",
+        "b": "Allahabad Bank",
+        "c": "United Bank of India",
+        "d": "Canara Bank"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the mega merger of public sector banks announced by Central Government, Oriental Bank of Commerce and Punjab National banks are merged with..... and became the 2nd largest public sector banks in India.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cotton, Bajra",
+        "b": "Maize, Rice",
+        "c": "Bajra, Wheat",
+        "d": "Wheat, Rice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following crops are related to Green Revolution?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cotton",
+        "b": "Maize",
+        "c": "Barley",
+        "d": "Rice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is Rabi crop?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Agriculture",
+        "b": "Niti Aayog",
+        "c": "Commission for Agriculture Costs and Prices",
+        "d": "NABARD"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who recommends Minimum Support Price and issue prices in India?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Buffer Stock",
+        "b": "Import Price",
+        "c": "Support Price",
+        "d": "Licensing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify which one is not related to agricultural price policy:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "US",
+        "b": "China",
+        "c": "Japan",
+        "d": "UK"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "During 2018, India replaces ......... in the production of Crude steel and became the world’s 2nd largest producer of crude steel.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fiat money",
+        "b": "Special drawing rights",
+        "c": "Currencies still on gold",
+        "d": "Special accommodation facility of the World Bank"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘paper gold’ means",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The external value of currency would tend to fall",
+        "b": "The external value of currency would tend to rise",
+        "c": "The injections from trade are greater than the withdrawal",
+        "d": "Aggregate demand is increasing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If there were a balance of payments deficit then in a floating exchange rate system:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "i and ii",
+        "b": "ii and iii",
+        "c": "iii only",
+        "d": "i and iii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following actions which the government can take: (i)Devaluing the domestic currency (ii)Reduction in export subsidy (iii)Adopting suitable policies which attract greater FDI and more funds from FIIs. Which of the above action/ actions can help in reducing the current account deficit?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3rd Five Year Plan",
+        "b": "4th Five Year Plan",
+        "c": "5th Five Year Plan",
+        "d": "6th Five Year Plan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which plan was associated with the slogan ‘Garibi Hatao’?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "i, ii and ii",
+        "b": "i, ii, iii and iv",
+        "c": "i, ii, iii, iv and v",
+        "d": "all of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Niti Aayog is based on which of the following pillars of effective governance? (i)Pro-people agenda(ii)Pro-active (iii)Participative(iv)Transparency (v)Accountability(vi)Quality of service",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Coal",
+        "b": "Fertilizer",
+        "c": "Cement",
+        "d": "Jute"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not among the core sector industries?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Steel",
+        "b": "Electricity",
+        "c": "Refinery Products",
+        "d": "Coal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following sector weighted the most in the Index of Industrial Production?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Central Statistical Office",
+        "b": "Directorate of Census Operations",
+        "c": "National Sample Survey Office",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who publishes the Index of Industrial Production (IIP) data?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assets",
+        "b": "Liabilities",
+        "c": "Both assets and liabilities",
+        "d": "Neither of them"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Balance sheet shows-",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "White Revolution",
+        "b": "Green Revolution",
+        "c": "Yellow Revolution",
+        "d": "Brown Revolution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sudden increase in the production of edible oils due to plantation of hybrid oil seeds was known as-",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Planning for 3 years",
+        "b": "Planning for 5 years",
+        "c": "Planning for 5-10 years",
+        "d": "Planning for 15-25 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Perspective planning means:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5th Five Year Plan",
+        "b": "6th Five Year Plan",
+        "c": "7th Five Year Plan",
+        "d": "8th Five Year Plan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rao-Manmohan Singh model was launched in:",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rangarajan Committee",
+        "b": "Sivaraman Committee",
+        "c": "Narashimhan Committee",
+        "d": "Tendulkar Committee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "NABARD was established in 1982 on the recommendation of:",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1948",
+        "b": "1949",
+        "c": "1951",
+        "d": "1952"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The First Industrial Policy was announced on:",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Finance",
+        "b": "Niti Aayog",
+        "c": "Indian Statistical Institute",
+        "d": "Central Statistical Organization"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Economic Surveys are published by:",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Co-operative Marketing",
+        "b": "Regulated agriculture markets",
+        "c": "Farmers Union",
+        "d": "Quality Certification of agriculture products"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AGMARK is:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Income Tax",
+        "b": "National Insurance",
+        "c": "Interest Rates",
+        "d": "GST"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is not part of fiscal policy?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Balance of trade",
+        "b": "Capital receipts and payments",
+        "c": "Both (a) & (b)",
+        "d": "Saving and investment accounts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Balance of payments of a country includes:",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "i only",
+        "b": "ii only",
+        "c": "both i & ii",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements and identify the right ones. i.A double entry system of record of all economic transactions between the residents of a country and rest of the world is called balance of trade ii.All transactions related to goods, services or income are classified as capital account.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Harrod Domar Model",
+        "b": "Mahalanobis Model",
+        "c": "Gadgil Model",
+        "d": "Nehruvian Model"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "First Five Year Plan was based on:",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Face value",
+        "b": "Surrender value",
+        "c": "Paid up value",
+        "d": "Age of the policy holder"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The advance value of LIC policy is linked with :",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "State Bank of India",
+        "b": "Reserve Bank of India",
+        "c": "Government of India",
+        "d": "Indian Banking Association"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Real Time Gross Settlement (RTGS) is management by:",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "101st",
+        "b": "102nd",
+        "c": "103rd",
+        "d": "104th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India ranks....in Global Hunger Index in 2018:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "11%",
+        "b": "15%",
+        "c": "21%",
+        "d": "25%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the interim budget of 2019, fund allocation for infrastructure development in north eastern region was increased to Rs.58,116 crore, which was a rise over last year’s budget by:",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mini Budget",
+        "b": "Vote on Account",
+        "c": "Both (a) & (b)",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Interim budget is also known as:",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Continental landmass",
+        "b": "Direction of Monsoon",
+        "c": "Distance from the sea",
+        "d": "Aravali Range blocking south west monsoon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is responsible for the formation of Great Indian Desert?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Northern Plain is formed before Peninsular India",
+        "b": "The Northern Plain came into existence during and after the Pleistocene Period",
+        "c": "Siwalik range represents the oldest landform in Himalayas",
+        "d": "Siwalik range is the eastern extension of Zaskar range"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct statement from following",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Intrusive Igneous Rocks",
+        "b": "Extrusive Igneous Rocks",
+        "c": "Metamorphic Rock",
+        "d": "Sedimentary Rocks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following rocks is associated with formations Black soil in Deccan plateau?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Karakoram – Ladakh",
+        "b": "Zaskar – Himadri",
+        "c": "Namcha Barwa – Nanga Parbat",
+        "d": "Himachal – Purvanchal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following pair is a part of Trans-Himalaya?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Both 1 and 2 are correct",
+        "b": "Only 2 is correct",
+        "c": "1 and 3 are correct, 3 is the correct explanation of 1",
+        "d": "Only one is correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following statements 1.Lakshadweep Islands are generally coral origin 2.Andaman & Nicobar group of Islands are coral origin 3.Lakshadweep Islands are coral origin and developed around volcanic peak Choose the correct option",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Amarkantak Plateau",
+        "b": "Ratanpur Plateau",
+        "c": "Malwa Plateau",
+        "d": "Cardamom hills"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following represented the eastern most part of Satpura range?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "III – I – II – VI",
+        "b": "III – II – I – VI",
+        "c": "II – I – III – VI",
+        "d": "VI – III – II –II"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrange the following alluvial landforms from north to south direction – (I)Terai,(II)Bhangar, (III)Bhabar,(VI)Khadar",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tapi River",
+        "b": "Yamuna River",
+        "c": "Narmada River",
+        "d": "Sabarmati River"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which river system, Sardar Sarovar dam is build?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ephemeral River",
+        "b": "Antecedent rivers",
+        "c": "Non-Perennial rivers",
+        "d": "Both Ephemeral and Antecedent river"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indus, Sutlej, Ghaghara and Brahmaputra rivers are an example of ______",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pindar - Gomit",
+        "b": "Alakananda – Pindar",
+        "c": "Bharirati – Gomit",
+        "d": "Bhagirati – Alakananda"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ganga proper is formed by the confluence of two rivers at Deva Prayag. Choose the correct pair in repose to this statement.",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Northern Part of India",
+        "b": "Southern Part of India",
+        "c": "Deccan Plateau",
+        "d": "None of the Above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which part of India is lying under the influence of sub-tropical and temperate climates?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Moist Deciduous Forest",
+        "b": "Mangroves Forest",
+        "c": "Tropical Thorn Forest",
+        "d": "Tropical Evergreen Forest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following forest that represents Littoral forest?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Austric Family",
+        "b": "Indo-Aryan Family",
+        "c": "Dravidian Family",
+        "d": "Sino-Tibetan Family"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most important and largest of all the families of language in India is",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rice",
+        "b": "Jowar",
+        "c": "Wheat",
+        "d": "Bajra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Green revolution in India is associated with increased of food grain production and, which of the following food crop benefited the most?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Very high crop yield",
+        "b": "Uncertainty of Monsoon",
+        "c": "Undulation soil surface",
+        "d": "Occurrence of frequent climatic hazards like drought, flood etc."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From the following statements, which is not associated with Dry Land farming in India?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Star like pattern",
+        "b": "Disperse settlement pattern",
+        "c": "Linear settlement pattern",
+        "d": "Nuclear settlement pattern"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The settlements that occurs near rivers, coastal and railway line are classified as",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Both 1 and 2 are correct",
+        "b": "Only 2 is correct",
+        "c": "Only 1",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Considering the following statement. Choose the correct ones. 1.The ITCZ is a zone of low pressure which attracts inflow of winds from different directions. 2.ITCZ is plays an important role in the Indian Monsoon Choose the correct option",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hot, dry and oppressing winds blowing in Northern plains",
+        "b": "Pre-Monsoon showers which help in blossoming of coffee flowers",
+        "c": "Pre-Monsoon shower in Bengal and Assam",
+        "d": "Pre-Monsoon showers which help in the ripening of mangoes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is related with Blossom Shower?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A minimum population of 15,000",
+        "b": "A density of population of at least 300 persons per sq. km",
+        "c": "A minimum population of 10,000",
+        "d": "A density of population of at least 400 persons per sq. km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is characteristic of census town in India?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi-Ahmedabad-Chennai - Kolkata",
+        "b": "Mumbai-Chennai-Kolkata - Kanpur",
+        "c": "Delhi-Mumbai-Chennai-Kolkata",
+        "d": "Agra-Nagpur-Chennai-Kolkata"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following cities are connected by Golden Quadrilateral?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chennai",
+        "b": "Bangalore",
+        "c": "Hyderabad",
+        "d": "New Delhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following city is recently emerged as electronic capital of India?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "direction because of",
+      "opts": {
+        "a": "Western",
+        "b": "Middle",
+        "c": "Eastern",
+        "d": "Northern"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which section of Indian-China border is called ‘Line of Actual Control’?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "direction because of",
+      "opts": {
+        "a": "Chhimtuipui River",
+        "b": "Tuirial River",
+        "c": "Tlawng River",
+        "d": "Tuivai River"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In terms of area, which river system represented the largest drainage system in Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "direction because of",
+      "opts": {
+        "a": "Mountain Sub Tropical Forest",
+        "b": "Tropical Semi-Evergreen Forest",
+        "c": "Tropical Wet-Evergreen Forest",
+        "d": "Tropical Deciduous Forest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What type of forest is found in eastern fringe of Mizoram?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q97 (p10, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      97
+    ]
+  }
+}

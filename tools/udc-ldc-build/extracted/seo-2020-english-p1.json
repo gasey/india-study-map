@@ -1,0 +1,79 @@
+{
+  "slug": "seo-2020-english-p1",
+  "exam": "Sericulture Extension Officer under Sericulture Department",
+  "sitting": "2020",
+  "subject": "General English Paper-I",
+  "source": "SEO General English.pdf",
+  "sourceSha256": "424ab9b46e63a70f06123caa5e9ea150913569f368699c5d9673821d2ae9e4fb",
+  "ocr": false,
+  "count": 0,
+  "questions": [],
+  "written": [
+    {
+      "n": 1,
+      "part": null,
+      "page": 1,
+      "text": "Write an essay on any one of the following topics :(25) -Management of Environmental Pollution in Mizoram -My vision of Mizoram in 2029 -Importance of preserving natural resources -Spreading greenery for a healthy living",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": null,
+      "page": 1,
+      "text": "Write a précis of the given passage :(15) Courage is not only the basis of all virtue; it is like its expression. True you may be bad and brave, you cannot be good without being brave. Courage is a mental state – an affair of spirit – and so it gets its strength from spiritual and intellectual sources. The way in which these spiritual and intellectual elements are blended, I think, produces roughly the two types of courage. The first, an emotional state which urges man to risk injury or death – physical courage. The second, a more reasoning attitude which enables him coolly to stake career, happiness, his whole future, on his judgement of what he thinks either right or worthwhile – moral courage. Now these two types of courage, physical and moral, are very distinct. I have known many men who had marked physical courage but lacked moral courage. Some of them were in high places but they failed to be great in themselves because they lacked it. On the other hand, I have seen men who undoubtedly possessed moral courage very cautious about taking physical risks, but I have never met a man with moral courage who would not, when it was really necessary, face bodily danger. Moral courage is a higher and rarer virtue than physical courage. To be really great, a man – or for that matter, a nation must possess both kinds of courage.",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": null,
+      "page": 1,
+      "text": "Read the given passage carefully and answer the questions given below : We do not realise adequately to what extent our minds are moulded by books we read especially in youth. We have several means by which we acquire knowledge today i.e. radio, cinema, newspaper and television etc. But reading of books is the most ancient and effective of them all. Reading a book is different from merchandised instruction. We are never alone when we have books as our companions. A great writer has said that religion is what man does with his solitariness. It is not merely religion but art and literature, scientific discovery and technological invention that are the outcome of what a man does with his solitariness. In the modern world we tend to be gregarious beings. When we have a little leisure we run to parties, clubs or other social activities. We are afraid to be alone with ourselves, afraid to stand and stare, much less to sit and think. We are happy with others not with ourselves. Pascals tells us that the evis of the world arise from the fact that men are unable to sit still in a room. Reading a book gives us the habit of solitary reflection and true enjoyment. **QUESTIONS :**",
+      "subparts": {
+        "a": "What is the best means of acquiring knowledge?(3)",
+        "b": "How has man produced great art, literature, scientific discoveries or technological",
+        "c": "According to the writer, what is the cause of evils in the world?(3)",
+        "d": "What is man by nature and how does he use his leisure?(3)"
+      }
+    },
+    {
+      "n": 4,
+      "part": null,
+      "page": 2,
+      "text": "As a concerned citizen, write a letter to the Chairman of your Local Council regarding the bad condition of the roads and drainage system in your locality.(15)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": null,
+      "page": 2,
+      "text": "Expand the idea contained in any three of the following :(3×5=15)",
+      "subparts": {
+        "a": "A rolling stone gathers no moss",
+        "b": "Make hay while the sun shines",
+        "c": "All that glitters is not gold",
+        "d": "Fortune favours the brave"
+      }
+    },
+    {
+      "n": 6,
+      "part": null,
+      "page": 2,
+      "text": "Make sentences with any five of the following idioms/phrases to show their meaning:(5×3=15)",
+      "subparts": {
+        "a": "to burn the midnight oil",
+        "b": "sitting on the fence",
+        "c": "an axe to grind",
+        "d": "through thick and thin"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q4 (p2, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p2, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q6 (p2, part None): conventional section, 4 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {}
+}

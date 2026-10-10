@@ -1,0 +1,582 @@
+{
+  "slug": "tutor-mcon-2019-english",
+  "exam": "Tutor under Mizoram College of Nursing, Health & Family Welfare Department",
+  "sitting": "2019",
+  "subject": "General English",
+  "source": "General English (Tutor, MCON).pdf",
+  "sourceSha256": "e2c0f0f9090b5f02a5a1ec430f57324c266c0368ff2eacf266af42a113cffa38",
+  "ocr": false,
+  "count": 0,
+  "questions": [],
+  "written": [
+    {
+      "n": 1,
+      "part": null,
+      "page": 1,
+      "text": "Write an essay on any one of the given topics not less than 300 words:(20) -Health is Wealth -Impact of personal habits on health of a person -The responsibility of man on saving the environment -Environmental pollution and its ill-effect on man",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": null,
+      "page": 1,
+      "text": "Read the following passage carefully and write a précis in about 1/3rd of the original giving suitable title for the same.(10) The effect produced on the mind by travelling depends entirely on the mind of the traveller and on the way in which he conducts himself. The chief idea of one very common type of traveler is to see as many objects of interest as he possibly can. If he can only after his return home say that he has seen such and such a temple, castle, picture gallery, or museum, he is perfectly satisfied. Therefore, when he arrives at a famous city, he rushes through it, so that he may get over as quickly as possible the task of seeing its principal sights, enter them by name in his note book as visited and then hurry on to another city which he treats in the same unceremonious way. Another kind of traveler in all he sees finds entertainment for his foolish spirit of ridicule. The more hallowed any object is from historical and religious associations or artistic beauty, the more he delights to degrade it by applying to it familiar terms of vulgar slang that he mistakes for wit. Such a one brings disgrace upon his nation by the rude insolence with which he laughs at foreigners and their ways, and everything else that attracts the notice of his feeble understanding. Far different is the effect of travels upon who leave their native country with minds prepared by culture to feel intelligent admiration for all the beauties of nature and art to be found in foreign lands. Their object is not to see much, but to see well. When they visit Paris or Athens or Rome, instead of hurrying from temple to museum, and from museum to picture gallery, they allow the spirit of the place to sink into their minds, and only visit such monuments as the time they have at their disposal allows them to contemplate without irreverent haste. They settle down for a week or so at centres of great historical and artistic interest or of remarkable natural beauty. In thia way they gain by their travels refreshment and rest for their minds, satisfaction to their intellectual curiosity or artistic tastes, and increased knowledge of the world and its inhabitants. Such people return to their native land with a greater knowledge of its glories and defects than the stay-at-home can ever have.",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": null,
+      "page": 1,
+      "text": "Write a letter to the Director of Education, applying for appointment as a teacher in the Education Department of the state.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": null,
+      "page": 2,
+      "text": "Expand the idea contained in the following line into one full paragraph.(10) “Where there’s a will there’s a way.”",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": null,
+      "page": 2,
+      "text": "Read carefully to comprehend the given passages and answer the questions that follow. Marks are indicated at the end of each question.(10) Football is a popular sport in India. Football has enjoyed popularity in Kerala, West Bengal, Goa and North-eastern India which consists of Assam, Manipur, Meghalaya, Mizoram, Nagaland, Tripura, Arunachal Pradesh and Sikkim. India’s current top domestic league, I-League, was formed in 2007 in an attempt to professionalize domestic football. In 2013 the Indian Super League was formed as an unrecognized professional league with 8 teams to promote Indian football in the country and world. After three seasons, the Indian Super League was recognized as a top tier league, running in parallel with the I-League, thus leaving India as one of the few countries with two fully recognized top tier leagues. Also contested is Santosh Trophy, a knock-out competition between States and government institutions. The current captain of the Indian National team is Sunil Chhetri. India is currently ranked 103 among the FIFA World Rankings. The 2017 FIFA U-17 World cup was hosted by India in the month of October in 2017 and the first time the country had hosted a FIFA event. The tournament was touted as the most successful FIFA U-17 World Cup ever, with attendance being a record 1,347,133 surpassing China’s 1985 edition where it was 1,230,976. India is also going to host the 2019 FIFA U-20 World Cup and is considering a bid for the 2023 FIFA Women’s World Cup. Questions:",
+      "subparts": {
+        "a": "What are the Indian states that enjoy popularity in football?(2)",
+        "b": "Why and when was India’s domestic I-League formed?(2)",
+        "c": "How did India become one of the few countries with two fully recognized top tier leagues? (2)",
+        "d": "Who is the captain of the Indian National team and what is India’s FIFA ranking?(2)"
+      }
+    },
+    {
+      "n": null,
+      "part": null,
+      "page": 2,
+      "kind": "passage",
+      "direction": "Direction Questions No. 6 - 19 : Identify the parts of Speech of the underlined words and pick out",
+      "text": "the correct answers from the given choices:(14×1=14)",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": null,
+      "page": 2,
+      "text": "Your **kindness** is highly appreciated.",
+      "subparts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Verb",
+        "d": "Adverb"
+      }
+    },
+    {
+      "n": 7,
+      "part": null,
+      "page": 2,
+      "text": "Off **she** goes to school.",
+      "subparts": {
+        "a": "Pronoun",
+        "b": "Preposition",
+        "c": "Adjective",
+        "d": "Verb"
+      }
+    },
+    {
+      "n": 8,
+      "part": null,
+      "page": 2,
+      "text": "Try to come **before** it rains.",
+      "subparts": {
+        "a": "Adverb",
+        "b": "Preposition",
+        "c": "Verb",
+        "d": "Noun"
+      }
+    },
+    {
+      "n": 9,
+      "part": null,
+      "page": 2,
+      "text": "**Hand** it to the one next to you.",
+      "subparts": {
+        "a": "Verb",
+        "b": "Adverb",
+        "c": "Noun",
+        "d": "Adjective"
+      }
+    },
+    {
+      "n": 10,
+      "part": null,
+      "page": 2,
+      "text": "Minto is a **lovely** child.",
+      "subparts": {
+        "a": "Verb",
+        "b": "Adverb",
+        "c": "Noun",
+        "d": "Adjective"
+      }
+    },
+    {
+      "n": 11,
+      "part": null,
+      "page": 3,
+      "text": "Come **fast**.",
+      "subparts": {
+        "a": "Verb",
+        "b": "Adverb",
+        "c": "Noun",
+        "d": "Pronoun"
+      }
+    },
+    {
+      "n": 12,
+      "part": null,
+      "page": 3,
+      "text": "**What!** That cannot be.",
+      "subparts": {
+        "a": "Preposition",
+        "b": "Interjection",
+        "c": "Conjunction",
+        "d": "Interrogative"
+      }
+    },
+    {
+      "n": 13,
+      "part": null,
+      "page": 3,
+      "text": "Hers **as well as** mine will be counted.",
+      "subparts": {
+        "a": "Conjunction",
+        "b": "Preposition",
+        "c": "Adjective",
+        "d": "Adverb"
+      }
+    },
+    {
+      "n": 14,
+      "part": null,
+      "page": 3,
+      "text": "You are busy **but** you must see it for yourself.",
+      "subparts": {
+        "a": "Adjective",
+        "b": "Preposition",
+        "c": "Conjunction",
+        "d": "Pronoun"
+      }
+    },
+    {
+      "n": 15,
+      "part": null,
+      "page": 3,
+      "text": "The situation is **highly** sensitive.",
+      "subparts": {
+        "a": "Verb",
+        "b": "Adverb",
+        "c": "Adjective",
+        "d": "Pronoun"
+      }
+    },
+    {
+      "n": 16,
+      "part": null,
+      "page": 3,
+      "text": "One must learn to look **beyond** borders.",
+      "subparts": {
+        "a": "Interjection",
+        "b": "Conjunction",
+        "c": "Pronoun",
+        "d": "Preposition"
+      }
+    },
+    {
+      "n": 17,
+      "part": null,
+      "page": 3,
+      "text": "Give me **some** apples.",
+      "subparts": {
+        "a": "Noun",
+        "b": "Pronoun",
+        "c": "Verb",
+        "d": "Adjective"
+      }
+    },
+    {
+      "n": 18,
+      "part": null,
+      "page": 3,
+      "text": "**Rainy** days are lily days.",
+      "subparts": {
+        "a": "Adjective",
+        "b": "Adverb",
+        "c": "Verb",
+        "d": "Noun"
+      }
+    },
+    {
+      "n": 19,
+      "part": null,
+      "page": 3,
+      "text": "He **walked** across the wide and rough terrain.",
+      "subparts": {
+        "a": "Noun",
+        "b": "Pronoun",
+        "c": "Verb",
+        "d": "Adverb"
+      }
+    },
+    {
+      "n": null,
+      "part": null,
+      "page": 3,
+      "kind": "passage",
+      "direction": "Direction Questions No. 20 - 29 : Choose the correct verbs or verb forms in agreement with the",
+      "text": "subject from the options provided:(10×1=10)",
+      "subparts": {}
+    },
+    {
+      "n": 20,
+      "part": null,
+      "page": 3,
+      "text": "The quality of melons __________ not good.",
+      "subparts": {
+        "a": "was",
+        "b": "are",
+        "c": "were"
+      }
+    },
+    {
+      "n": 21,
+      "part": null,
+      "page": 3,
+      "text": "Fire and water __________ not agree.",
+      "subparts": {
+        "a": "does",
+        "b": "do",
+        "c": "have"
+      }
+    },
+    {
+      "n": 22,
+      "part": null,
+      "page": 3,
+      "text": "The horse and carriage __________ at the door.",
+      "subparts": {
+        "a": "is",
+        "b": "are",
+        "c": "were"
+      }
+    },
+    {
+      "n": 23,
+      "part": null,
+      "page": 4,
+      "text": "My friend and benefactor __________ come.",
+      "subparts": {
+        "a": "have",
+        "b": "is",
+        "c": "has"
+      }
+    },
+    {
+      "n": 24,
+      "part": null,
+      "page": 4,
+      "text": "The house, with its contents, __________ insured.",
+      "subparts": {
+        "a": "were",
+        "b": "was",
+        "c": "have been"
+      }
+    },
+    {
+      "n": 25,
+      "part": null,
+      "page": 4,
+      "text": "Sanskrit, as well as English, __________ taught here.",
+      "subparts": {
+        "a": "is",
+        "b": "are",
+        "c": "have been"
+      }
+    },
+    {
+      "n": 26,
+      "part": null,
+      "page": 4,
+      "text": "Neither praise nor blame __________ to affect him.",
+      "subparts": {
+        "a": "seem",
+        "b": "seems",
+        "c": "will be"
+      }
+    },
+    {
+      "n": 27,
+      "part": null,
+      "page": 4,
+      "text": "Either he or I __________ mistaken.",
+      "subparts": {
+        "a": "is",
+        "b": "are",
+        "c": "am"
+      }
+    },
+    {
+      "n": 28,
+      "part": null,
+      "page": 4,
+      "text": "Each of these substances __________ found in India.",
+      "subparts": {
+        "a": "are",
+        "b": "is",
+        "c": "were"
+      }
+    },
+    {
+      "n": 29,
+      "part": null,
+      "page": 4,
+      "text": "The wages of sin __________ death.",
+      "subparts": {
+        "a": "are",
+        "b": "is",
+        "c": "were"
+      }
+    },
+    {
+      "n": null,
+      "part": null,
+      "page": 4,
+      "kind": "passage",
+      "direction": "Direction Questions Nos. 30 - 45 : Pick out the nearest in meaning of the words in Italics from",
+      "text": "the choices provided.(16×1=16)",
+      "subparts": {}
+    },
+    {
+      "n": 30,
+      "part": null,
+      "page": 4,
+      "text": "Recently my expences have run up considerably.",
+      "subparts": {
+        "a": "decreased",
+        "b": "increased",
+        "c": "squandered away"
+      }
+    },
+    {
+      "n": 31,
+      "part": null,
+      "page": 4,
+      "text": "He saw through the trick.",
+      "subparts": {
+        "a": "detected",
+        "b": "observed",
+        "c": "chanced through"
+      }
+    },
+    {
+      "n": 32,
+      "part": null,
+      "page": 4,
+      "text": "Betty takes after her father.",
+      "subparts": {
+        "a": "followed",
+        "b": "enthuses",
+        "c": "resembles"
+      }
+    },
+    {
+      "n": 33,
+      "part": null,
+      "page": 4,
+      "text": "The NGOs worked upon the stubborn and ignorant villages.",
+      "subparts": {
+        "a": "influenced",
+        "b": "pacified",
+        "c": "worked for"
+      }
+    },
+    {
+      "n": 34,
+      "part": null,
+      "page": 4,
+      "text": "The piano takes up too much room.",
+      "subparts": {
+        "a": "overshadows",
+        "b": "occupies",
+        "c": "lightens"
+      }
+    },
+    {
+      "n": 35,
+      "part": null,
+      "page": 5,
+      "text": "You cannot always go by appearances.",
+      "subparts": {
+        "a": "Look at",
+        "b": "judge from",
+        "c": "distinguish from"
+      }
+    },
+    {
+      "n": 36,
+      "part": null,
+      "page": 5,
+      "text": "He looks down upon his poor cousins.",
+      "subparts": {
+        "a": "takes care",
+        "b": "despises",
+        "c": "loves all"
+      }
+    },
+    {
+      "n": 37,
+      "part": null,
+      "page": 5,
+      "text": "Please hear me out.",
+      "subparts": {
+        "a": "hear me to the end",
+        "b": "listen to me now",
+        "c": "listen attentively"
+      }
+    },
+    {
+      "n": 38,
+      "part": null,
+      "page": 5,
+      "text": "I am told that you have got into hot water.",
+      "subparts": {
+        "a": "into a heated argument",
+        "b": "into a warm environment",
+        "c": "into trouble"
+      }
+    },
+    {
+      "n": 39,
+      "part": null,
+      "page": 5,
+      "text": "I smell a rat.",
+      "subparts": {
+        "a": "have reason to suspect something",
+        "b": "have an uneasy feeling",
+        "c": "have every reason to kill a rat"
+      }
+    },
+    {
+      "n": 40,
+      "part": null,
+      "page": 5,
+      "text": "He stands well with his master.",
+      "subparts": {
+        "a": "stands in front of",
+        "b": "is on an equal footing with",
+        "c": "is well thought of by"
+      }
+    },
+    {
+      "n": 41,
+      "part": null,
+      "page": 5,
+      "text": "She sometimes reads 6 hours at a stretch.",
+      "subparts": {
+        "a": "without any stretch",
+        "b": "rapidly",
+        "c": "continuously"
+      }
+    },
+    {
+      "n": 42,
+      "part": null,
+      "page": 5,
+      "text": "It goes to his heart to see much misery.",
+      "subparts": {
+        "a": "Touches him deeply",
+        "b": "has heart attack",
+        "c": "heart is weak"
+      }
+    },
+    {
+      "n": 43,
+      "part": null,
+      "page": 5,
+      "text": "They will surely come to grief if they follow his advice.",
+      "subparts": {
+        "a": "be joyous",
+        "b": "be ruined",
+        "c": "be merry"
+      }
+    },
+    {
+      "n": 44,
+      "part": null,
+      "page": 5,
+      "text": "She’ll tidy up her room when pigs fly.",
+      "subparts": {
+        "a": "soon",
+        "b": "something that will never happen",
+        "c": "when encouraged"
+      }
+    },
+    {
+      "n": 45,
+      "part": null,
+      "page": 5,
+      "text": "I know my friend keeps a good table.",
+      "subparts": {
+        "a": "Keeps neat and tidy",
+        "b": "entertains guests sumptuously",
+        "c": "keep food on table"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p2, part None): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p2, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q6 (p2, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q7 (p2, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q8 (p2, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q9 (p2, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q10 (p2, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q11 (p3, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q12 (p3, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q13 (p3, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q14 (p3, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q15 (p3, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q16 (p3, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q17 (p3, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q18 (p3, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q19 (p3, part None): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q20 (p3, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q21 (p3, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q22 (p3, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q23 (p4, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q24 (p4, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q25 (p4, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q26 (p4, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q27 (p4, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q28 (p4, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q29 (p4, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q30 (p4, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q31 (p4, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q32 (p4, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q33 (p4, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q34 (p4, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q35 (p5, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q36 (p5, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q37 (p5, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q38 (p5, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q39 (p5, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q40 (p5, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q41 (p5, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q42 (p5, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q43 (p5, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q44 (p5, part None): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q45 (p5, part None): conventional section, 3 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {}
+}

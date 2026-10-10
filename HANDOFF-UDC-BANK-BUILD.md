@@ -1,8 +1,75 @@
+## Latest paper batch — 10 October 2026
+
+The generated Group B/general-paper catalog now has 95 papers and 6,774 records (6,624 MCQ, 150 written). Added the verified 2018 MES, Veterinary Officer, JE I&WR, Assistant Jailor English, ASI Home, Assistant Grade, and ACF papers plus verified 2017/2014/2012 ATO, FEO, MHS, Lab Technician, MCON English I, Assistant Professor Geography, ADA, MES PHE 2014, and MES Power & Electricity 2012 papers. Source PDFs are stored under `india-study-map/public/papers/group-b/`; import metadata and extraction caches are under `tools/udc-ldc-build/`.
+
+Extraction is unscored and source-review gated. Some text layers have gaps, and four written-only English papers have no question records yet. Wrong archive links are documented in `HANDOFF-GROUP-B.md`; do not mislabel those files. Validation: 24 Python tests passed, TypeScript/Vite production build passed (large-chunk warning only), and `git diff --check` passed. Production deployed to `https://map.hawayu.in` as Vercel deployment `dpl_Aqmf3pBtRHoHeWLShVnd2ARqGbR9` (READY); `/udc-ldc` and sample paper PDFs returned HTTP 200.
+
 # Handoff — building the UDC / LDC bank
 
 Written 2026-10-03. Read this before editing anything under `src/data/banks/`
 or re-running `tools/udc-ldc-build/build_bank.py`. `DEVLOG.md`'s three
 2026-10-03 entries have the narrative; this file is the operational part.
+
+## Continuation update — 10 October 2026
+
+The latest import adds seven official 2018 papers: Programmer PHE English
+Papers I/II, Sericulture Extension Officer English Papers I/II, and Station
+Officer English/GK/Mathematics. The source covers confirm 640 MCQs and three
+written prompts. All 640 MCQs remain unscored for source/answer review;
+passages and crops for underlined words are retained, and Programmer Paper I's
+three-choice block is not padded with a fourth choice. SEO Paper II Q58 has a
+duplicate printed (b) option label and is held unscored. Inputs and durable
+enrichment are documented in `HANDOFF-GROUP-B.md`.
+
+I also verified the 18 supplied official PDFs for Middle School Teacher,
+Primary School Teacher and six two-paper UDC recruitments. All links resolve
+and titles match. They are source-verified but not imported. EF&CC UDC Paper I
+is a complete two-page, 125-mark descriptive English paper; its two pages are
+not a scan gap.
+
+Current module total: 68 papers and 5,219 records. The latest local changes
+passed the 24 Group B review tests and `npm run build`; deployment status is
+recorded in the root handoff.
+
+Seven further 2018 papers are now imported in the Group B module: SI (UB)
+Home Department English/GK/Mathematics, Senior Horticulture Demonstrator
+English, and SI FCS&CA English/General Studies I/General Studies II. These
+add 590 unscored MCQs and three essays awaiting guidance. Full question
+numbering, reading passages, three-choice items and source images are retained.
+The durable registrations and extraction enrichment live in
+`group_b_sources.py`, `extract_general_papers.py` and `enrich_2018_papers.py`.
+Review their text and answers using the original PDFs/crops before scoring.
+The earlier seven-paper import took the module to 61 papers and 4,576 records;
+the latest continuation above supersedes that count. These additions are local.
+
+The user wants a one-pass review/import of MPSC's missing general-paper
+sources, coordinated with work in `../mpsc-question-bank`, with clean handoffs
+for a later model. The Group B half imports the 2014 SI Excise English prompts,
+all 75 General Studies I MCQs and the 34 General Studies II MCQs present in the
+partial official scan. That General Studies II PDF is missing four of its eight printed pages
+(41 MCQs), so all 2014 MCQs remain unscored pending text and answer review. The
+MIMER 2018 General English common paper also belongs to
+the **Group B supplemental library**, not the generated clerical bank
+`mpsc-udc-ldc.ts`. Do not hand-edit that generated bank to add general papers.
+
+For Group B changes, follow `HANDOFF-GROUP-B.md` and use
+`tools/udc-ldc-build/build_group_b.py` plus its durable inputs. The MIMER import
+has 80 MCQs and one essay prompt; it is review-required because the sibling
+MPSC bank has 79 inferred answers, one unanswered Q13, no official key, and no
+essay response guidance. The next review should audit the source text and
+answers without converting inferred answers into official evidence. The
+remaining cross-repo continuation details are in
+`../mpsc-question-bank/HANDOFF.md`.
+
+The shared MIMER English source now names Lab Technician, Medical Record
+Technician, Staff Nurse and Computer Operator, with one question set and stable
+IDs. Computer Operator Technical Paper I is also included under Computer
+Knowledge through `mimer_sources.py`: 75 MCQs, 71 ready derived solutions and
+four held candidates (Q23, Q36, Q37, Q69). Reuse the recovered System Manager
+PDF and solved inputs; the archive's generic Technical Paper-I filenames have
+a known collision with medical papers. The Group B builder now applies
+`fix_emphasis_markers.patch()` before writing the generated bank so a rebuild
+retains the existing quoted-word and clause underlines.
 
 ---
 

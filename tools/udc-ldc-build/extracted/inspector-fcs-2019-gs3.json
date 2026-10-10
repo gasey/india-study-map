@@ -1,0 +1,2317 @@
+{
+  "slug": "inspector-fcs-2019-gs3",
+  "exam": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector)",
+  "sitting": "2019",
+  "subject": "General Studies Paper-III",
+  "source": "Inspector under F,CS & CA Dept-2019, General Studies Paper III..pdf",
+  "sourceSha256": "2891ef813f68495d9ea71bddd35f35122ad3c2d7ce2247593d8c3092ad606652",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr C.V. Raman",
+        "b": "Dr S. Chandrasekhar",
+        "c": "Dr Hargobind Khurana",
+        "d": "Dr A.P.J. Abdul Kalam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is popularly known as ‘Missile Man of India’?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aryabhatta",
+        "b": "Bhaskar",
+        "c": "Rohini",
+        "d": "INSAT I-A"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following was the first satellite launched by Indian Space Research Organisation?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Trishul",
+        "b": "Agni",
+        "c": "Akash",
+        "d": "Prithvi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the first missile which has been developed in India?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Neil Armstrong",
+        "b": "Dave Scott",
+        "c": "Yuri Gagarin",
+        "d": "Aleksel Leonov"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first astronaut to walk in outer space is",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A comet",
+        "b": "An asteroid",
+        "c": "A dying star",
+        "d": "A Black hole"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is supernova?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kalpana-II",
+        "b": "Vikram-I",
+        "c": "Chandrayan-I",
+        "d": "Insat-5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name given to India’s lunar mission?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sputnik 1",
+        "b": "GSAT-12",
+        "c": "RISAT-1",
+        "d": "Rohini"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the first artificial Earth Satellite.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Russia",
+        "b": "France",
+        "c": "Germany",
+        "d": "Canada"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country assisted India to establish the Koodan-Kulam Nuclear Power Station in Tamil Nadu?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mumbai",
+        "b": "Sriharikota",
+        "c": "Kalpakkam",
+        "d": "Triruvananthapuram"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indira Gandhi Centre for Atomic Research is situated in",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rajasthan",
+        "b": "Nagaland",
+        "c": "Manipur",
+        "d": "Jammu and Kashmir"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first explosion of an atomic device in India was carried out in the State of",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CV Raman",
+        "b": "Vikrama Sarabhai",
+        "c": "APJ Kalam",
+        "d": "Satish Dhawan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is known as the father of Indian space program",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Locate submerged submarines",
+        "b": "Receive signal from radio receivers",
+        "c": "Detect and locate distant objects",
+        "d": "Locate geostationary satellites"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Radar is used to",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SAGA",
+        "b": "PARAM 8000",
+        "c": "EKA",
+        "d": "PARAM YUVA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s first supercomputer is known as",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr C.V. Raman",
+        "b": "Dr S. Chandrasekhar",
+        "c": "Dr Hargobind Khurana",
+        "d": "Dr A.P.J. Abdul Kalam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One of the NASA’s most advanced X-ray Observatory is named after an Indian Scientist",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bill Gates",
+        "b": "Amar G. Bose",
+        "c": "Sundar Pichai",
+        "d": "M.Ambani"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the Chief Executive Officer of Google",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Romans",
+        "b": "Greeks",
+        "c": "Persians",
+        "d": "Indians"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented zero",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shimsha",
+        "b": "Karnataka",
+        "c": "Darjeeling",
+        "d": "Satluj"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "First Hydro Electric power plant in India is at",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2",
+        "b": "2 and 3",
+        "c": "1 and 3",
+        "d": "None"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Cloud Computing is based on: 1.Software as a service mode. 2.Common objective of all the users. 3.Users should pay scheme. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Network Client",
+        "b": "Network Server",
+        "c": "Network Switch",
+        "d": "Network Station"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_________ is the most important/powerful system in a typical network.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Luna 22",
+        "b": "Rover",
+        "c": "Eagle",
+        "d": "Challenge"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The code name of the first vehicle driven by man on the moon’s surface was",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Robert Koch",
+        "b": "Jonas Salk",
+        "c": "Maurice Hilleman",
+        "d": "Emma Goodman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The inactivated polio vaccine was discovered by which scientist?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Albert Einstein",
+        "b": "Samuel Cohen",
+        "c": "Edward Taylor",
+        "d": "J. Robert Oppenheimer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented the hydrogen bomb?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "earthquakes",
+        "b": "metals",
+        "c": "meteors",
+        "d": "weather"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Meteorology is the science of ____________________.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Samuel Cohen",
+        "b": "Narinder Kapany",
+        "c": "Percy L. Spencer",
+        "d": "T.H. Maimah"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented optical Fibre?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Linus Torvalds",
+        "b": "Fred Morrison",
+        "c": "Martin Cooper",
+        "d": "Percy Lebaron Spencer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the father of Cellular Phone?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "conductance",
+        "b": "magnetic field strength",
+        "c": "magnetic flux",
+        "d": "electrical current"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Tesla and the Gauss are units of measure of:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "red",
+        "b": "blue",
+        "c": "violet",
+        "d": "green"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A color with a wavelength longer than that of yellow is:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "neutrons",
+        "b": "electrons",
+        "c": "photons",
+        "d": "muons"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following particles travels at the speed of light?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "pH of Hard water is High.",
+        "b": "pH of Hard water is less.",
+        "c": "Hard water contains sulphate and chloride ions which form precipitate with soap.",
+        "d": "Hard water contains calcium and magnesium ions which form precipitate with soap."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why hard water does not give lather with soap?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Composition of the oil",
+        "b": "Octane Number",
+        "c": "Cetane Number",
+        "d": "Amount of additives added"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The quality of diesel oil for use in diesel engines is determined by the",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Polyvinyl chloride",
+        "b": "Polyethylene",
+        "c": "Polystyrene",
+        "d": "Polyamide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one among the following polymers is used for making bullet –proof materials",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "a nitrate compound",
+        "b": "a sulphur compound",
+        "c": "a phosphate compound",
+        "d": "a chlorine compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The pungent smell of garlic is due to",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Acetylene",
+        "b": "Ethane",
+        "c": "Methane",
+        "d": "Carbon dioxide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one among the following nontoxic gases helps in formations of enzymes which ripen fruits?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Blood group B and receive from AB",
+        "b": "Blood group B and AB and receive from B",
+        "c": "Blood group B and AB and receive from A",
+        "d": "Blood group O and receive from B"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one among the following statements about blood transfusion is correct?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "exercise physiologist",
+        "b": "orthopedist",
+        "c": "physiatrist",
+        "d": "rheumatologist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A/An______________ is a physician who specializes in physical medicine and rehabilitation with the focus on restoring function.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "claustrophobia",
+        "b": "acrophobia",
+        "c": "agoraphobia",
+        "d": "arachnophobia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An abnormal fear of being in narrow or enclosed spaces is known as___________________ .",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "grasses",
+        "b": "trees",
+        "c": "herbs",
+        "d": "flowers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A banana plant fits into which of these groups?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "promoting silviculture",
+        "b": "hill slope management",
+        "c": "arid land management",
+        "d": "soil conservation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The main aim of watershed management strategy of India is",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zalen",
+        "b": "Thangchhuahpa",
+        "c": "Puithiam",
+        "d": "Ramhual"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who can choose the paddy fields first among the Mizo community is",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tumphit",
+        "b": "Lemlawi",
+        "c": "Sekhuang",
+        "d": "Bengbung"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is not a Mizo musical instrument",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chai",
+        "b": "Cheraw",
+        "c": "Chheih",
+        "d": "Chawnglaizawn"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A dance performed during Chapchar Kut is",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1740 - 1750 AD",
+        "b": "1730 - 1740 AD",
+        "c": "1760 - 1770 AD",
+        "d": "1780 - 1790 AD"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Selesih was established during",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1956",
+        "b": "1962",
+        "c": "1947",
+        "d": "1936"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The second Mizo political party United Mizo Freedom Organisation (UMFO) was established on",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1881-1882",
+        "b": "1888-1889",
+        "c": "1870-1872",
+        "d": "1871-1872"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘The Lushai Expedition’ conducted  Lushai Hills on",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pawltlak thla",
+        "b": "Khuangchawi thla",
+        "c": "Vau thla",
+        "d": "Sahmulphah thla"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizo name given to the month of December is",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ngawidawh",
+        "b": "Sakuh uilut",
+        "c": "Tlamem",
+        "d": "Fawng"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "......... is one of the Mizo children games",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1894",
+        "b": "1895",
+        "c": "1896",
+        "d": "1899"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Christian Hymn Book (Kristian Hlabu) was published in the year",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "C.A. Soppit",
+        "b": "Brojo Nath Saha",
+        "c": "T.H.Lewin",
+        "d": "A.O.Chamber"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who wrote A Grammar of Lushai Language in 1884",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Compilation of Lushai Customary laws",
+        "b": "Establishment of Durtlang Hospital",
+        "c": "Abolition of slavery",
+        "d": "Education of Children"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The remarkable contribution made by N.E Parry was",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sanu",
+        "b": "Khuanu",
+        "c": "Chawngtinleri",
+        "d": "Khuazingnu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A queen of fairy, who is regarded as the guardian and maker of wild animals",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 January 1938",
+        "b": "1 January 1939",
+        "c": "2 January 1938",
+        "d": "3 January 1939"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Zawlbuk was officially ended on",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thlam",
+        "b": "Zawlbuk",
+        "c": "Pum",
+        "d": "Lal in"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bawhbel in Mizo traditional society relates with",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khawbung",
+        "b": "Vaphai",
+        "c": "Farkawn",
+        "d": "Samthang"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lamsial puk is located at",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1919",
+        "b": "1920",
+        "c": "1918",
+        "d": "1921"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mizo Hills was declared a ‘Backward Tract’ under the Government of India Act of",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1872",
+        "b": "1871",
+        "c": "1873",
+        "d": "1874"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bengkhuaia raids Sylhet in the year",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dawvan",
+        "b": "Bahzar",
+        "c": "Zaudawh",
+        "d": "Vanlung"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A small house besides the Zawhzawzopa’s residence is known as",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chemsen bawi",
+        "b": "Tukluh bawi",
+        "c": "Vanlung ur",
+        "d": "Inpuichhung bawi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who became bawi (slave) for the sake of poverty is",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kabaw Valley",
+        "b": "Between Run and Tiau",
+        "c": "Thantlang",
+        "d": "Chenduin Valley"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The old Mizo traditional song Chawngchen zai was originated by the time our forefathers lived in",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "J. Shakespeare",
+        "b": "H.R. Browne",
+        "c": "T.H. Lewin",
+        "d": "N.E. Parry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first man who introduced Mizo literature in written form was.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dungtlang",
+        "b": "Ruallung",
+        "c": "S.Hlimen",
+        "d": "Farkawn"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The historical place of the Mizos Lianchhiari Lunglen Tlang is situated at the out-skirt of",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Suakpuilala",
+        "b": "Rothangpuia",
+        "c": "Khawvelthanga",
+        "d": "Vanhnuaithanga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizo Chief who first liberated his slaves was",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rev. J.H. Lorrain",
+        "b": "Rev. William Williams",
+        "c": "Rev D.E. Jones",
+        "d": "Rev F.J. Raper"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Missionary who set his foot on the soil of Mizoram was",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hrangchhuana",
+        "b": "R. Vanlawma",
+        "c": "R. Thanhlira",
+        "d": "A. Thanglura"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first President of Indian National Congress (INC) in Mizoram was",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ch. Chhunga",
+        "b": "Brig. T. Sailo",
+        "c": "Lalthanhawla",
+        "d": "Laldenga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Chief Minister of Mizoram Union Territory was",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kawllianthanga",
+        "b": "C. Lalremsanga",
+        "c": "Zothangliana",
+        "d": "Zomuantluanga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Mizo to represent India in the Olympic Games was",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "James Dokhuma",
+        "b": "Capt. L.Z. Sailo",
+        "c": "C. Rokhuma",
+        "d": "Lalthangfala Sailo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Mizo awarded Padma Bhusan was",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rual pawl, mi fel leh bengvar",
+        "b": "Inti bengvar, inti fel",
+        "c": "Inthlau, inlahlei zung",
+        "d": "Lak tlak loh, nikhua lo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the literal meaning of the Mizo phrase Vawkreka fate ang from the following",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalbuta",
+        "b": "Lalhrima",
+        "c": "Lasavunga",
+        "d": "Lalhuapa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Laltheri, a Sailo girl was the daughter of one of the most powerful chiefs named",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pawl Kut",
+        "b": "Mim Kut",
+        "c": "Chapchar Kut",
+        "d": "Favang Kut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The festival performed by the Mizos in the early days usually for children at the end of harvest was",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thawmvung",
+        "b": "Lalphunga",
+        "c": "Vanhnuailiana",
+        "d": "Suakpuilala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The name of powerful Chief who ruled at Tualte Vanglai (1700 houses) was",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1861",
+        "b": "1880",
+        "c": "1896",
+        "d": "1897"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first famine occurred due to Thingtam in Mizoram in the year",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "R. Dala",
+        "b": "Makthanga",
+        "c": "Rosema",
+        "d": "Darchhinga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first editor of Kristian Tlangau published in the year 1911 was",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Palai",
+        "b": "Zawlpuan phah",
+        "c": "Lawichal",
+        "d": "Palal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most important functionary for the marriage ceremony in the Mizo Society is",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Senhri",
+        "b": "Ainawn",
+        "c": "Chhawkhlei",
+        "d": "Chawnpui"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The name of the State Flower of Mizoram is",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalbiakliana",
+        "b": "Lalzuithanga",
+        "c": "Lalhuapa",
+        "d": "Kaphleia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The author of the first Mizo Short Story Chhingpuii  was",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 76 & 77): Look at the following series of numbers and choose the number that",
+      "opts": {
+        "a": "(1/3)",
+        "b": "(1/16)",
+        "c": "(2/8)",
+        "d": "(1/8)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "2, 1, (1/2), (1/4), ...",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 76 & 77): Look at the following series of numbers and choose the number that",
+      "opts": {
+        "a": "15",
+        "b": "14",
+        "c": "10",
+        "d": "7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "3, 4, 7, 8, 11, 12, ...",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 78 & 79): Find the missing number.",
+      "opts": {
+        "a": "144",
+        "b": "216",
+        "c": "288",
+        "d": "360"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "3, 6, 18, 72, ...............................",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 78 & 79): Find the missing number.",
+      "opts": {
+        "a": "9",
+        "b": "11",
+        "c": "13",
+        "d": "15"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "1, 2, 3, 5, 8, ..............................",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 80 & 81): Choose the correct alternative that will continue the same pattern",
+      "opts": {
+        "a": "35",
+        "b": "38",
+        "c": "39",
+        "d": "40"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "120, 99, 80, 63, 48, ?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 80 & 81): Choose the correct alternative that will continue the same pattern",
+      "opts": {
+        "a": "110",
+        "b": "115",
+        "c": "120",
+        "d": "125"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "5, 20, 45, 80, ?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 80 & 81): Choose the correct alternative that will continue the same pattern",
+      "opts": {
+        "a": "11",
+        "b": "13",
+        "c": "15",
+        "d": "17"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the odd one out",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 80 & 81): Choose the correct alternative that will continue the same pattern",
+      "opts": {
+        "a": "144",
+        "b": "168",
+        "c": "196",
+        "d": "256"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the odd one out",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 84 & 85): Three of the words will be in the same classification, one will not be.",
+      "opts": {
+        "a": "parsley",
+        "b": "basil",
+        "c": "dill",
+        "d": "mayonnaise"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the word that does NOT belong in the same classification.",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 84 & 85): Three of the words will be in the same classification, one will not be.",
+      "opts": {
+        "a": "punctuation",
+        "b": "preposition",
+        "c": "noun",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word does NOT belong with the others?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 86 & 87): Choose the word that best fits the meaning of the sentence as a whole",
+      "opts": {
+        "a": "clemency",
+        "b": "culpability",
+        "c": "sincerity",
+        "d": "consideration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We ask for ____________ from others, yet we ourselves are never merciful",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 86 & 87): Choose the word that best fits the meaning of the sentence as a whole",
+      "opts": {
+        "a": "benign",
+        "b": "tawdry",
+        "c": "toxic",
+        "d": "heinous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To prevent a repetition of this dreadful occurrence, we must discover the _________ element in the food that was served.",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question 88): Read the paragraph carefully and choose the best statement reflected in the",
+      "opts": {
+        "a": "relationship between job satisfaction and performance is moderated by growth need.",
+        "b": "job satisfaction and performance are directly and closely related.",
+        "c": "satisfaction is an inevitable organisational variable.",
+        "d": "every organisation has few employees having weak growth need."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Satisfaction with co-workers, promotion opportunities, the nature of work, and pay goes with high performance among those with strong growth needs. Among those with weak growth needs, no such relationship is present - and, in fact, satisfaction with promotion opportunities goes with low performance. This passage best supports the statement that:",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 89 & 90):Choose the word which is most nearly similar in meaning to the word",
+      "opts": {
+        "a": "idea",
+        "b": "praise",
+        "c": "cure-all",
+        "d": "talk"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "PANACEA",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 89 & 90):Choose the word which is most nearly similar in meaning to the word",
+      "opts": {
+        "a": "proxy",
+        "b": "dummy",
+        "c": "profane",
+        "d": "trickery"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "EFFIGY",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 91 & 92): Each of the following questions consists of five figures marked A, B,",
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Problem Figures: Answer Figures ?=?^X=X_X == ?X =?? XX??= ==         XX?X? = ( A)( B)  ( C)( D)( E) (1)(2)(3)(4)",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 91 & 92): Each of the following questions consists of five figures marked A, B,",
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Problem Figures: Answer Figures ( A)( B)  ( C)( D)( E) (1)(2)(3)(4)",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 91 & 92): Each of the following questions consists of five figures marked A, B,",
+      "opts": {
+        "a": "45",
+        "b": "50",
+        "c": "60",
+        "d": "63"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the missing character 07 ?26",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 94 & 95) : Answer the following based on the different cubes shown below:",
+      "opts": {
+        "a": "W",
+        "b": "G",
+        "c": "B",
+        "d": "P 144"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "₹      ₹     ₹ RYB Which letter is on the opposite face of letter Y?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 94 & 95) : Answer the following based on the different cubes shown below:",
+      "opts": {
+        "a": "1",
+        "b": "4",
+        "c": "6",
+        "d": "5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "₹     ₹      ₹ 236 Which letter is on the opposite face of letter 3?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 96 & 97) : In the questions given below are two statements followed by two",
+      "opts": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If neither I nor II follows",
+        "d": "If both I and II follows"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "StatementsI. Some scooters are trucks II. All trucks are trains ConclusionsI. Some scooters are trains II. No truck is a scooter Give answer as",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 96 & 97) : In the questions given below are two statements followed by two",
+      "opts": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If neither I nor II follows",
+        "d": "If both I and II follows"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "StatementsI. All tigers are ships II. Some ships are cupboards ConclusionsI. Some ships are tigers II. Some cupboards are not ships Give answer as",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 96 & 97) : In the questions given below are two statements followed by two",
+      "opts": {
+        "a": "8",
+        "b": "12",
+        "c": "16",
+        "d": "24"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A number of friends decided to go on a picnic and planned to spend Rs. 96 on eatables. Four of them, however, did not turn up. As a consequence, the remaining ones had to contribute Rs. 4 each extra. How many attended the picnic?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 96 & 97) : In the questions given below are two statements followed by two",
+      "opts": {
+        "a": "20 years",
+        "b": "23 years",
+        "c": "25 years",
+        "d": "30 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mawia was born two years after his father’s marriage. His mother is five years younger than his father but 20 years older than Ayush who is 10 years old. At what age did the father get married?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 96 & 97) : In the questions given below are two statements followed by two",
+      "opts": {
+        "a": "Thanga is not at the left end.",
+        "b": "Thanga is in between Tluanga and Rema.",
+        "c": "Rema is in between Mawia and Kima.",
+        "d": "There are three persons to the right of Mawia."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There are 8 houses in a line and in each house only one boy lives with the conditions as given below: 1.Kima is not the neighbor of Tluanga. 2.Siama is just next to the left of Muana. 3.There is at least one to the left of Muana. 4.Mawia lives in one of the two houses in the middle. 5.Liana lives in between Mawia and Muana. If at least one lives to the right of Thanga and Siama is not between Rema and Muana, then which one of the following statement is not correct?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

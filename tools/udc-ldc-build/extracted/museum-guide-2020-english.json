@@ -1,0 +1,1167 @@
+{
+  "slug": "museum-guide-2020-english",
+  "exam": "Museum Guide under Art & Culture Department",
+  "sitting": "2020",
+  "subject": "General English",
+  "source": "Museum Guide General Englsih.pdf",
+  "sourceSha256": "79c73f14b611dc652b7f4faa980d0fd195195ec1444dc99c14cf9382fc129c62",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 10): Choose the correct alternative, which expresses the  meaning of",
+      "opts": {
+        "a": "an old place",
+        "b": "a valid negotiation",
+        "c": "to provide shelter",
+        "d": "secret"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hole and corner",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 10): Choose the correct alternative, which expresses the  meaning of",
+      "opts": {
+        "a": "work diligently",
+        "b": "ploughing the fields",
+        "c": "futile labour",
+        "d": "to become exhausted"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Plough the sands",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 10): Choose the correct alternative, which expresses the  meaning of",
+      "opts": {
+        "a": "suspicious deal",
+        "b": "extravagance",
+        "c": "fit and strong",
+        "d": "unfair treatment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Raw deal",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 10): Choose the correct alternative, which expresses the  meaning of",
+      "opts": {
+        "a": "without receiving any punishment",
+        "b": "smooth sailing",
+        "c": "to be free from worries",
+        "d": "bear hardships cheerfully"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Scot-free",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 10): Choose the correct alternative, which expresses the  meaning of",
+      "opts": {
+        "a": "doubtfully",
+        "b": "adding taste to a dish",
+        "c": "embellishing a story",
+        "d": "future provisions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With a grain of salt",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 10): Choose the correct alternative, which expresses the  meaning of",
+      "opts": {
+        "a": "hunting in the wild",
+        "b": "an easy victory",
+        "c": "foolish and impossible enterprise",
+        "d": "a clever strategy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Wild-goose chase",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 10): Choose the correct alternative, which expresses the  meaning of",
+      "opts": {
+        "a": "in a plain manner",
+        "b": "firmly fixed in place",
+        "c": "underhandedly",
+        "d": "honest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fair and square",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 10): Choose the correct alternative, which expresses the  meaning of",
+      "opts": {
+        "a": "eat heartily",
+        "b": "celebrate victory",
+        "c": "suffer humiliation",
+        "d": "deny oneself"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Eat humble pie",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 10): Choose the correct alternative, which expresses the  meaning of",
+      "opts": {
+        "a": "recall past memories",
+        "b": "suffer the consequences",
+        "c": "masticate fully",
+        "d": "scold severely"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Chew the cud",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1 – 10): Choose the correct alternative, which expresses the  meaning of",
+      "opts": {
+        "a": "to pick a fight",
+        "b": "light up a fire",
+        "c": "to vacillate",
+        "d": "change of weather"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Blow hot and cold",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11 – 20) : Read the given passage and answer the questions by Choosing",
+      "opts": {
+        "a": "to spread literacy",
+        "b": "to inform the readers of current events",
+        "c": "to advertise new products",
+        "d": "to prevent infiltration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The main objective of a newspaper is",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11 – 20) : Read the given passage and answer the questions by Choosing",
+      "opts": {
+        "a": "uplift the status of women",
+        "b": "attack democracy",
+        "c": "provide comments and critical discussions",
+        "d": "increase riots and tensions in rural areas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The true function of a newspaper is not only to provide news but also to",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11 – 20) : Read the given passage and answer the questions by Choosing",
+      "opts": {
+        "a": "he can form opinionated ideas about democracy",
+        "b": "it is a helpful agent in solving his problems",
+        "c": "he can boast about current events",
+        "d": "he depends on the press for both news and views"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ordinary man is always eager for news because",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11 – 20) : Read the given passage and answer the questions by Choosing",
+      "opts": {
+        "a": "it helps in measuring the general wishes of the people",
+        "b": "it is a reliable source to know on whose side the majority of the people are",
+        "c": "it is an agent to curb discrepancies",
+        "d": "it helps in solving the Government’s financial status"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Governments respect the press because",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11 – 20) : Read the given passage and answer the questions by Choosing",
+      "opts": {
+        "a": "an enemy",
+        "b": "a source of income",
+        "c": "a friend and ally",
+        "d": "an accomplice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Politicians look upon the press as",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11 – 20) : Read the given passage and answer the questions by Choosing",
+      "opts": {
+        "a": "it can voice partial opinions",
+        "b": "it can grant loans to backward societies",
+        "c": "it can offer jobs to young journalists",
+        "d": "it can fight for the rights of the people"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The press is powerful in the sense that",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11 – 20) : Read the given passage and answer the questions by Choosing",
+      "opts": {
+        "a": "to guide public opinion on right lines",
+        "b": "to exercise enormous power over the people",
+        "c": "to be partial in supporting political parties",
+        "d": "to put the Government under its control"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What duties and responsibilities are entrusted with the press?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11 – 20) : Read the given passage and answer the questions by Choosing",
+      "opts": {
+        "a": "freedom to immigrate to other countries",
+        "b": "freedom of speech and popular opinion",
+        "c": "freedom of speech and moral responsibility",
+        "d": "freedom in supporting under-privileged classes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Democracy stands for",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11 – 20) : Read the given passage and answer the questions by Choosing",
+      "opts": {
+        "a": "it publishes updated news",
+        "b": "it indulges in indecencies and sensationalism",
+        "c": "it publishes articles from different parties",
+        "d": "it adheres to the likes and dislikes of the people"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The press can also be a harmful agent if",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 11 – 20) : Read the given passage and answer the questions by Choosing",
+      "opts": {
+        "a": "publishing false and outdated reports",
+        "b": "publishing more articles on amusements",
+        "c": "catering to low tastes",
+        "d": "providing correct and impartial reports"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The press is expected to enforce impartiality to the rights and liberties of the people by",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21 – 30): Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "adjective",
+        "b": "preposition",
+        "c": "conjunction",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There is more evidence **yet** to be offered.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21 – 30): Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "noun",
+        "b": "adverb",
+        "c": "verb",
+        "d": "adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "They **while** away their evenings with books and games.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21 – 30): Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "preposition",
+        "b": "adverb",
+        "c": "adjective",
+        "d": "conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Never put off **till** tomorrow what you can do today.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21 – 30): Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "adjective",
+        "b": "adverb",
+        "c": "preposition",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There is **much** sense in what he says.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21 – 30): Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "conjunction",
+        "b": "adverb",
+        "c": "adjective",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At thirty a change came **over** him.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21 – 30): Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "adverb",
+        "b": "preposition",
+        "c": "conjunction",
+        "d": "adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He must **either** work or starve.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21 – 30): Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "noun",
+        "b": "adverb",
+        "c": "adjective",
+        "d": "noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We shall not see his **like** again.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21 – 30): Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "adjective",
+        "b": "preposition",
+        "c": "adverb",
+        "d": "conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You are paying **less** attention to your studies than you used to do.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21 – 30): Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "conjunction",
+        "b": "adjective",
+        "c": "preposition",
+        "d": "noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We went away **after** they had left.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 21 – 30): Identify the Parts of Speech of the underlined words.",
+      "opts": {
+        "a": "noun",
+        "b": "preposition",
+        "c": "verb",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There is something pleasing **about** him.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 31 – 35): Analyze the following sentences and choose the correct alternative.",
+      "opts": {
+        "a": "compound sentence",
+        "b": "simple sentence",
+        "c": "complex sentence",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He not only robbed the poor child but also murdered her.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 31 – 35): Analyze the following sentences and choose the correct alternative.",
+      "opts": {
+        "a": "compound sentence",
+        "b": "simple sentence",
+        "c": "complex sentence",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To avoid punishment he ran away.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 31 – 35): Analyze the following sentences and choose the correct alternative.",
+      "opts": {
+        "a": "compound sentence",
+        "b": "simple sentence",
+        "c": "complex sentence",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We came upon a hut where a peasant lived.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 31 – 35): Analyze the following sentences and choose the correct alternative.",
+      "opts": {
+        "a": "compound sentence",
+        "b": "simple sentence",
+        "c": "complex sentence",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have given him my advice, yet he has done this foolish thing.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 31 – 35): Analyze the following sentences and choose the correct alternative.",
+      "opts": {
+        "a": "compound sentence",
+        "b": "simple sentence",
+        "c": "complex sentence",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Due to ignorance he has committed this mistake.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 36 – 40): Choose the correct answer from the given alternatives.",
+      "opts": {
+        "a": "positive",
+        "b": "negative",
+        "c": "affirmative",
+        "d": "comparative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Borrowing is not as good as lending.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 36 – 40): Choose the correct answer from the given alternatives.",
+      "opts": {
+        "a": "affirmative",
+        "b": "positive",
+        "c": "negative",
+        "d": "assertive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The fort was not surrendered until it was burnt.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 36 – 40): Choose the correct answer from the given alternatives.",
+      "opts": {
+        "a": "assertive",
+        "b": "comparative",
+        "c": "exclamatory",
+        "d": "positive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How foolish of me to ask for money!",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 36 – 40): Choose the correct answer from the given alternatives.",
+      "opts": {
+        "a": "assertive",
+        "b": "positive",
+        "c": "affirmative",
+        "d": "negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is sad that a friend should be false.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 36 – 40): Choose the correct answer from the given alternatives.",
+      "opts": {
+        "a": "positive",
+        "b": "affirmative",
+        "c": "comparative",
+        "d": "assertive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is foolish to waste money on luxuries.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 – 45): Fill in the blanks with the correct form of words.",
+      "opts": {
+        "a": "each",
+        "b": "neither",
+        "c": "either",
+        "d": "some"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He asked me whether __________________ of the applicants was suitable.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 – 45): Fill in the blanks with the correct form of words.",
+      "opts": {
+        "a": "is",
+        "b": "was",
+        "c": "are",
+        "d": "does"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The means employed by you ___________________ sufficient.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 – 45): Fill in the blanks with the correct form of words.",
+      "opts": {
+        "a": "have",
+        "b": "has",
+        "c": "was",
+        "d": "having"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Either the cat or the dog ___________________ been here.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 – 45): Fill in the blanks with the correct form of words.",
+      "opts": {
+        "a": "whom",
+        "b": "what",
+        "c": "who",
+        "d": "how"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_______________ they were I really cannot specify.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 – 45): Fill in the blanks with the correct form of words.",
+      "opts": {
+        "a": "now",
+        "b": "to",
+        "c": "against",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "These orders should be complied _________________ by all.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 46 – 50): Choose from the alternatives provided the nearest in meaning to",
+      "opts": {
+        "a": "free from blame",
+        "b": "to become larger",
+        "c": "compliment excessively",
+        "d": "destroy utterly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The police report **exonerated** them from all charges of corruption.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 46 – 50): Choose from the alternatives provided the nearest in meaning to",
+      "opts": {
+        "a": "prearranged",
+        "b": "hurried",
+        "c": "secret",
+        "d": "important"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The traitor had a **clandestine** meeting with a spy.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 46 – 50): Choose from the alternatives provided the nearest in meaning to",
+      "opts": {
+        "a": "invent",
+        "b": "advocate",
+        "c": "force upon",
+        "d": "proclaim publicly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Will the government **promulgate** new legislation to curb drugs?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 46 – 50): Choose from the alternatives provided the nearest in meaning to",
+      "opts": {
+        "a": "keeping seperate",
+        "b": "encroachment",
+        "c": "irritation",
+        "d": "reimpose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In some religions there is **segregation** of men and women during services.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 46 – 50): Choose from the alternatives provided the nearest in meaning to",
+      "opts": {
+        "a": "pleasant",
+        "b": "serville",
+        "c": "antique",
+        "d": "present everywhere"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We kept swatting the **ubiquitous** flies.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "B": []
+  }
+}

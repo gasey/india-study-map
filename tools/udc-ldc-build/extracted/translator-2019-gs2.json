@@ -1,0 +1,1740 @@
+{
+  "slug": "translator-2019-gs2",
+  "exam": "Translator under Art & Culture Department",
+  "sitting": "2019",
+  "subject": "General Studies Paper-II",
+  "source": "General Studies Paper-II (Translator).pdf",
+  "sourceSha256": "c837c86a3e451d905d24ebf50538ac3f7c4f8ffdcf215b8ba75934e3a651f464",
+  "ocr": false,
+  "count": 75,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jhumpa Lahiri",
+        "b": "Vikram Seth",
+        "c": "Rana Dasgupta",
+        "d": "Kiran Desai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Rabindranath Tagore Literary Prize – 2019 was awarded to:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Services",
+        "b": "Railways",
+        "c": "Goa",
+        "d": "Manipur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which team has won the Santosh Trophy Football – 2019?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Irag",
+        "b": "Saudia Arabia",
+        "c": "UAE",
+        "d": "Iran"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Due to the US sanctions India is going to stop crude oil import from:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Malaysia",
+        "b": "Indonesia",
+        "c": "Cambodia",
+        "d": "Fiji"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country has recently released Ramayana themed stamped?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China, India, Japan, Sri Lanka, Indonesia",
+        "b": "China, Uzbekistan, Sri Lanka, Malaysia, India",
+        "c": "Bangladesh, Brunei, Myanmar, Thailand, Taiwan",
+        "d": "South Korea, India, Kazakhstan, Kyrgyzstan, Laos"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A recently formed ‘Asian Tea Alliance’ comprised of:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20",
+        "b": "21",
+        "c": "22",
+        "d": "23"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many languages are there in the Eight Schedule of the Indian Constitution?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hindi",
+        "b": "Bengali",
+        "c": "Telugu",
+        "d": "Marathi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An Indian origin language with the second highest numbers of speakers in India is:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bawm",
+        "b": "Gangte",
+        "c": "Mara",
+        "d": "Mizo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following languages is declared as ‘Vulnerable’ by the United Nations Educational Scientific and Cultural Organization (UNESCO)?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arunachal Pradesh, Meghalaya, Mizoram Nagaland, Sikkim",
+        "b": "Arunachal Pradesh, Assam, Meghalaya, Mizoram, Manipur",
+        "c": "Manipur, Meghalaya, Mizoram Nagaland, Tripura",
+        "d": "Meghalaya, Mizoram Nagaland, Sikkim, Tripura"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which North-East states have recognised English as their official language?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chhabra Port",
+        "b": "Chabahar Port",
+        "c": "Gwadar Port",
+        "d": "Bandar-e-Jask Port"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Port Project undertaken by India in Iran is known as:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Navdeep Suri",
+        "b": "Preeti Shenoy",
+        "c": "Ravinder Singh",
+        "d": "Amish Tripathi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Wake Up Life is Calling’ is a book by:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Deepak Unnikrishnan",
+        "b": "Ashwin Sanghi",
+        "c": "Devdutt Pattanaik",
+        "d": "Vikram Chandra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘To Remember I Invented People’ is a book written by:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3412",
+        "b": "3142",
+        "c": "2413",
+        "d": "1234"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match the following with regard to the United Nations Language Day: **LanguageDate** A.English Language Day1.March 20 B.Chinese Language Day2.June 6 C.French Language Day3.April 23 D.Russian Language Day4.April 20 Choose the correct answer from below- Codes:ABCD",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "San Francisco",
+        "b": "Mumbai",
+        "c": "Singapore",
+        "d": "New York"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which city is known as the ‘City of Seven Islands’?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Australia",
+        "b": "South Africa",
+        "c": "New Zealand",
+        "d": "Madagascar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is known as ‘Britain of the South’?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "121st Constitutional Amendment Act",
+        "b": "122nd Constitutional Amendment Act",
+        "c": "123rd Constitutional Amendment Act",
+        "d": "124th Constitutional Amendment Act"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "By which constitutional amendment act is the financial and executive powers of the Autonomous District Councils enhanced?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam",
+        "b": "Mizoram",
+        "c": "Jammu & Kashmir",
+        "d": "Manipur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the Climate Vulnerability Index for India the most vulnerable state with a score of 0.72 is:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zokhawthar",
+        "b": "Zochachhuah",
+        "c": "Zorinpui",
+        "d": "Vaphai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first immigration check post in Myanmar-Mizoram international border is:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rashid Medal",
+        "b": "Sultan Medal",
+        "c": "Mansour Medal",
+        "d": "Zayed Medal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s Prime Minister Narendra Modi was conferred on April, 2019 with United Arab Emirates (UAE) highest civil decoration namely:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Guided Missile Destroyer",
+        "b": "Frigate",
+        "c": "Submarine",
+        "d": "Aircraft Carrier"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The recently launched INS Imphal is a:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Malaria Elimination Research Alliance India",
+        "b": "Malaria Eradication Research Augmentation India",
+        "c": "Malaria Extermination Research Alliance India",
+        "d": "Malaria Erase Research Augmentation India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India tries to eliminate Malaria by the year 2030 through ‘MERA India’, the full form of MERA is:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12 kms on either side",
+        "b": "14 kms on either side",
+        "c": "16 kms on either side",
+        "d": "30 kms on either side"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India and Myanmar citizens along the border have the visa-free movement regime upto:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kyrgyzstan",
+        "b": "Uzbekistan",
+        "c": "Azerbaijan",
+        "d": "Kazakhstan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country recently changed the name of its capital from Astana to Nursultan?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India",
+        "b": "Saudi Arabia",
+        "c": "China",
+        "d": "Irag"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The largest importer of weapons in the world during 2014-2018 is:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bulgaria",
+        "b": "Hungary",
+        "c": "Portugal",
+        "d": "Romania"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country has promised to give a life time income tax exemption to women with four children as a measure to reverse its population decline?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sarvepalli Radhakrishnan",
+        "b": "Shankar Dayal Sharma",
+        "c": "Varahagiri Venkata Giri",
+        "d": "A.P.J. Abdul Kalam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An aerospace scientist who became the 11th President of India was",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "face",
+        "b": "DNA fingerprint",
+        "c": "hand geometry",
+        "d": "iris"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Aadhaar, the most reliable biometric identification is scanning of the",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chandrashekhara Venkata Raman",
+        "b": "Rabindranath Tagore",
+        "c": "Amartya Sen",
+        "d": "A.P.J. Abdul Kalam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "National Science Day in India is observed on 28 February in honour of the Nobel laureate",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "a",
+        "b": "1",
+        "c": "0",
+        "d": "±"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This mathematical symbol was first used in India",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "an intercontinental ballistic missile",
+        "b": "a medium-range ballistic missile",
+        "c": "an intermediate-range ballistic missile(a)a short-range ballistic missile"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Agni-V is",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "causes of cancer",
+        "b": "etiology of diabetes mellitus",
+        "c": "transmission of malaria",
+        "d": "first drug for tuberculosis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ronald Ross received the 1902 Nobel Prize in Physiology or Medicine for his work in India, which is the discovery of the",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Satyendra Nath Bose",
+        "b": "Subhas Chandra Bose",
+        "c": "Jagadish Chandra Bose",
+        "d": "Amar Bose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bosons, subatomic particles, are named after",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "rate of expansion of the galaxy",
+        "b": "size of white dwarf star",
+        "c": "number of protons in an element",
+        "d": "speed of light in vacuum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Chandrashekhar limit is about the",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Raja Ramanna",
+        "b": "Rajagopala Chidambaram",
+        "c": "Homi Jehangir Bhabha",
+        "d": "Piara Singh Gill"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The title “father of the Indian nuclear programme” is given to",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bhaskara",
+        "b": "Aryabhata",
+        "c": "Rohini",
+        "d": "INSAT"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first satellite made by India is",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "the estimated size of the universe",
+        "b": "the number of stars in Milky Way",
+        "c": "a supermassive blackhole",
+        "d": "a supercluster of galaxies"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In astronomy, Saraswati refers to",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "sandflies",
+        "b": "mosquitos",
+        "c": "rats",
+        "d": "fleas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India is home to a deadly infection called kala azar or visceral leishmaniasis which is transmitted by",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indian Science Research Organisation",
+        "b": "Indian Space Research Organisation",
+        "c": "International Space Research Operation",
+        "d": "International Science Research Organisation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ISRO stands for",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "diphtheria",
+        "b": "dracunculiasis",
+        "c": "smallpox",
+        "d": "polio"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An infectious disease that is completely eradicated in India is",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "magenta",
+        "b": "indigo",
+        "c": "red oxide",
+        "d": "saffron"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A dye that was originally developed in India was",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tlahpawi",
+        "b": "Upa",
+        "c": "Puithiam",
+        "d": "Sadawt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Among the Mizos a chief’s private priest was called:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bawhbel",
+        "b": "Awkpaka",
+        "c": "Bahzar",
+        "d": "Laizawl"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A big log of wood inside the Zawlbuk is known as:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Makpa nihman",
+        "b": "Khumpui kaiman",
+        "c": "Chhut kil kaiman",
+        "d": "Thingman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A due payable to man’s father-in-law or brother in law when Khuangchawi ceremony is performed:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sairang",
+        "b": "Tlabung",
+        "c": "Aizawl",
+        "d": "Sialsuk"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Post office in Mizoram was located at:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khuma and Khama",
+        "b": "Khara and Phunga",
+        "c": "Khama and Siama",
+        "d": "Khuma and Khara"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Mizos converts to receive baptism were:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr. Peter Fraser",
+        "b": "Chapman and Clark",
+        "c": "Dr. William",
+        "d": "R.B. McCabe"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bawi system officially came to an end in the year 1927. This was possible with the undying effort of:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1906",
+        "b": "1905",
+        "c": "1904",
+        "d": "1903"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Christian Revival Movement in Mizoram began in the year",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Their family member will be given government Job",
+        "b": "They will be paid a sum of Rs. 50 per month",
+        "c": "They will be honour with highest civil honour",
+        "d": "Their family will be exempted from Kuli"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizos who are reluctant to participate in the First World War were wooed by the government by promising them:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rev. FW Savidge",
+        "b": "Rev. David Edward",
+        "c": "Rev. Dawkson",
+        "d": "Rev. Lewis Evans"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The name “Young Lushai Association” (YLA) was coined by:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khawzing",
+        "b": "Thimzing",
+        "c": "Thlazing",
+        "d": "Khawthim"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The great darkness that caused the earth in one Mizo legend was called",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sachhiah",
+        "b": "Khuaichhiah",
+        "c": "Fathang",
+        "d": "Silaichhiah"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The paddy tax payable to the chief by all the villagers was known as:",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Tai language",
+        "b": "The Karen dialect",
+        "c": "The Lolo Burmese",
+        "d": "The Tibeto Burman language"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the division of languages, Mizo language was categorized as:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CS Murray",
+        "b": "Capt. HR Brown",
+        "c": "Major J. Shakespeare",
+        "d": "David Edward"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Land settlement was introduced in the Lushai Hills by:",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RA Lorrain",
+        "b": "JH Lorrain",
+        "c": "AW Davies",
+        "d": "William Williams"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The foundation of Christianity in Mara land was laid by:",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chhuatkil kaiman",
+        "b": "Sehrui Satchat",
+        "c": "Khualkai man",
+        "d": "Numan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the mother of a girl who is getting married, has separated from the girl’s father, she is entitled to a price known as:",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25",
+        "b": "35",
+        "c": "20",
+        "d": "40"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The mean of five numbers is 27. If one number is excluded, the mean becomes 25. The excluded number is:",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8844 sq cm",
+        "b": "4444 sq cm",
+        "c": "7744 sq cm",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A wire can be bent in the form of a circle of radius 56 cm. If it is bent in the form of a square, then its area will be:",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8",
+        "b": "6",
+        "c": "4",
+        "d": "2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The digit in the unit’s place in the square root of 15876 is:",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "24 km",
+        "b": "48 km",
+        "c": "50 km",
+        "d": "96 km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A man goes to his office at the speed of 8 km/h and returns at the speed of 12 km/h. If he takes 10 hours in all. Find total distance covered by him?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 35 1235",
+        "c": "",
+        "d": " 3512"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sum and product of two numbers are 12 and 35 respectively. What will be the sum of their reciprocal? 11",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20 %",
+        "b": "25 %",
+        "c": "40 %",
+        "d": "50 %"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ratio of cost price and selling price is 5 : 4, then the loss percent is:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5",
+        "b": "7",
+        "c": "9",
+        "d": "11"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If 3x + 7 = x² + p = 4x + 5 , then the value of p is:",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "60°",
+        "b": "50°",
+        "c": "40°",
+        "d": "30°"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If 5x be the supplementary angle of x, then the value of x is:",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 72",
+        "b": "Rs 67",
+        "c": "Rs 74",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find simple interest on Rs 7300 for 37 days at 10% per annum:",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If 16a + 16b = 96, then the average of a and b is:",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 66 & 67) : What number comes next in the series?",
+      "opts": {
+        "a": "93",
+        "b": "103",
+        "c": "125",
+        "d": "129"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "3, 5, 9, 17, 33 , 65, ...?....",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 66 & 67) : What number comes next in the series?",
+      "opts": {
+        "a": "125",
+        "b": "215",
+        "c": "135",
+        "d": "20"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "25 : ....?..... : : 64 : 512",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 68 - 70) : Read the following passage carefully and choose the best answer to",
+      "opts": {
+        "a": "attentiveness",
+        "b": "insomnia",
+        "c": "depression",
+        "d": "talkativeness"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a reaction to drinking coffee?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 68 - 70) : Read the following passage carefully and choose the best answer to",
+      "opts": {
+        "a": "imitating",
+        "b": "developing",
+        "c": "strengthening",
+        "d": "faking"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Mimicking” has the same meaning as .....",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 68 - 70) : Read the following passage carefully and choose the best answer to",
+      "opts": {
+        "a": "caffeine makes you happy",
+        "b": "caffeine helps you sleep",
+        "c": "caffeine is a drug",
+        "d": "caffeine is addictive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not true as implied in the passage?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question 71 & 72) : Choose the best alternative:",
+      "opts": {
+        "a": "W",
+        "b": "G",
+        "c": "P",
+        "d": "B"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which letter is on the opposite face of letter Y? WGG YPR RYB",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question 71 & 72) : Choose the best alternative:",
+      "opts": {
+        "a": "1",
+        "b": "9",
+        "c": "15",
+        "d": "21"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A large cube, painted red on all six sides, is cut into 27 smaller identical cubes. How many of the smaller cubes have no sides painted at all?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 73 - 75) : Which comes next in the sequence?",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "+−−+−?−?+? 4?4?4++4−4 +4?+ ?+4− −??4−−−?+",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 73 - 75) : Which comes next in the sequence?",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "#(#)= O( $++@+x +@x x",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions 73 - 75) : Which comes next in the sequence?",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AB CDCD ABDA BCBC DACD AB DA BCAB CDAB DCDA CB",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

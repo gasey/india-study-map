@@ -1,0 +1,2317 @@
+{
+  "slug": "to-2020-english-p2",
+  "exam": "Tourist Officer under Tourism Department",
+  "sitting": "December 2020",
+  "subject": "General English Paper-II",
+  "source": "T.O General English Paper-II.pdf",
+  "sourceSha256": "4f8b865c093b1c831caa7cdfb303e6c46de8db7b07f58d4ea8337a739d13fd4a",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Name the Part of Speech of the Underlined Words in the following",
+      "opts": {
+        "a": "Adverb",
+        "b": "Adjective",
+        "c": "Pronoun",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Which** pen is yours?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Name the Part of Speech of the Underlined Words in the following",
+      "opts": {
+        "a": "Adverb",
+        "b": "Preposition",
+        "c": "Verb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The dog **became** mad.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Name the Part of Speech of the Underlined Words in the following",
+      "opts": {
+        "a": "Verb",
+        "b": "Adverb",
+        "c": "Adjective",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He rejected my offer of **friendship**.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Name the Part of Speech of the Underlined Words in the following",
+      "opts": {
+        "a": "Adverb",
+        "b": "adjective",
+        "c": "Verb",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The story is **very** interesting.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Name the Part of Speech of the Underlined Words in the following",
+      "opts": {
+        "a": "Preposition",
+        "b": "Conjunction",
+        "c": "Noun",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The mother is sleeping **while** the baby is sleeping.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Name the Part of Speech of the Underlined Words in the following",
+      "opts": {
+        "a": "Adverb",
+        "b": "Adjective",
+        "c": "Noun",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have only **two** fingers on my right hand.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Name the Part of Speech of the Underlined Words in the following",
+      "opts": {
+        "a": "Adverb",
+        "b": "Verb",
+        "c": "Adjective",
+        "d": "Conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The postman comes **twice** a week.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Name the Part of Speech of the Underlined Words in the following",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Place your chair **next** to mine.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Name the Part of Speech of the Underlined Words in the following",
+      "opts": {
+        "a": "Verb",
+        "b": "Adverb",
+        "c": "Noun",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He  has to learn to **face** his problems.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 10) : Name the Part of Speech of the Underlined Words in the following",
+      "opts": {
+        "a": "Pronoun",
+        "b": "Adjective",
+        "c": "Noun",
+        "d": "Verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This book is better than **that**.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20): Fill in the blanks with the correct form of the verb given in",
+      "opts": {
+        "a": "went",
+        "b": "is going",
+        "c": "go",
+        "d": "goes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rama _________ for a walk every morning. (go)",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20): Fill in the blanks with the correct form of the verb given in",
+      "opts": {
+        "a": "has been ill",
+        "b": "have been ill",
+        "c": "was ill",
+        "d": "will be ill"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Jane  _________ with fever since Monday. (ill)",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20): Fill in the blanks with the correct form of the verb given in",
+      "opts": {
+        "a": "had left",
+        "b": "left",
+        "c": "were leaving",
+        "d": "will have been leaving"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We _________ Gujarat a week before the earthquake. (leave)",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20): Fill in the blanks with the correct form of the verb given in",
+      "opts": {
+        "a": "wrote",
+        "b": "written",
+        "c": "been writing",
+        "d": "write"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many pages have you _________ today? (write)",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20): Fill in the blanks with the correct form of the verb given in",
+      "opts": {
+        "a": "have",
+        "b": "has",
+        "c": "was",
+        "d": "is"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kima _________ gone to the market. (be)",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20): Fill in the blanks with the correct form of the verb given in",
+      "opts": {
+        "a": "will reach",
+        "b": "will be reaching",
+        "c": "will have reached",
+        "d": "will have been reaching"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The train _________ the station by the time we arrive there. (reach)",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20): Fill in the blanks with the correct form of the verb given in",
+      "opts": {
+        "a": "was",
+        "b": "have",
+        "c": "is",
+        "d": "has"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "By whom _________ this mess been made? (be)",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20): Fill in the blanks with the correct form of the verb given in",
+      "opts": {
+        "a": "is singing",
+        "b": "has sung",
+        "c": "sang",
+        "d": "sings"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He _________ a song about his beloved. (sing)",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20): Fill in the blanks with the correct form of the verb given in",
+      "opts": {
+        "a": "has constructed",
+        "b": "has been constructed",
+        "c": "was constructing",
+        "d": "had constructing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A market building _________ by the Municipal Committee. (construct)",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 11 - 20): Fill in the blanks with the correct form of the verb given in",
+      "opts": {
+        "a": "is wanting",
+        "b": "has wanted",
+        "c": "wants",
+        "d": "want"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The teacher _________ to see you. (want)",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 21 - 30) : Choose the correct prepositions/ conjunctions to fill in the blanks:",
+      "opts": {
+        "a": "besides",
+        "b": "beside",
+        "c": "aside",
+        "d": "asides"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "John was waiting for me _________ the road.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 21 - 30) : Choose the correct prepositions/ conjunctions to fill in the blanks:",
+      "opts": {
+        "a": "above",
+        "b": "atop",
+        "c": "unto",
+        "d": "over"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The gymnast jumped _________ the parallel bars.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 21 - 30) : Choose the correct prepositions/ conjunctions to fill in the blanks:",
+      "opts": {
+        "a": "by",
+        "b": "for",
+        "c": "with",
+        "d": "to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You must abide _________ your promises.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 21 - 30) : Choose the correct prepositions/ conjunctions to fill in the blanks:",
+      "opts": {
+        "a": "or",
+        "b": "but",
+        "c": "hence",
+        "d": "therefore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Some men are rich _________ miserly.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 21 - 30) : Choose the correct prepositions/ conjunctions to fill in the blanks:",
+      "opts": {
+        "a": "if",
+        "b": "and",
+        "c": "unless",
+        "d": "as soon as"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I shall not forgive you _________ you confess to your guilt.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 21 - 30) : Choose the correct prepositions/ conjunctions to fill in the blanks:",
+      "opts": {
+        "a": "from",
+        "b": "to",
+        "c": "against",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I differ _________ you with regard to this policy.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 21 - 30) : Choose the correct prepositions/ conjunctions to fill in the blanks:",
+      "opts": {
+        "a": "into",
+        "b": "against",
+        "c": "around",
+        "d": "upon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I ran _________ an old friend yesterday on my way to work.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 21 - 30) : Choose the correct prepositions/ conjunctions to fill in the blanks:",
+      "opts": {
+        "a": "or",
+        "b": "lest",
+        "c": "if",
+        "d": "else"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Work hard _________ you should fail.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 21 - 30) : Choose the correct prepositions/ conjunctions to fill in the blanks:",
+      "opts": {
+        "a": "between",
+        "b": "among",
+        "c": "within",
+        "d": "across"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The money was divided _________ the three thieves.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 21 - 30) : Choose the correct prepositions/ conjunctions to fill in the blanks:",
+      "opts": {
+        "a": "as if",
+        "b": "eventhough",
+        "c": "provided that",
+        "d": "so that"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He worked hard _________ he might succeed.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks using the correct adverbs/ adjectives:",
+      "opts": {
+        "a": "whole",
+        "b": "overall",
+        "c": "all",
+        "d": "total"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The _________ story that he has just told you is false.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks using the correct adverbs/ adjectives:",
+      "opts": {
+        "a": "happiness",
+        "b": "happyly",
+        "c": "happily",
+        "d": "happy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He accepted my offer of help _________.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks using the correct adverbs/ adjectives:",
+      "opts": {
+        "a": "taller",
+        "b": "longer",
+        "c": "longest",
+        "d": "tallest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "John is the _________ boy in class.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks using the correct adverbs/ adjectives:",
+      "opts": {
+        "a": "all",
+        "b": "every",
+        "c": "whole",
+        "d": "each"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have spoken to nearly _________ one of the boys in the class regarding the theft.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks using the correct adverbs/ adjectives:",
+      "opts": {
+        "a": "next",
+        "b": "nearby",
+        "c": "nearest",
+        "d": "nearly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This is the _________ church to my home.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks using the correct adverbs/ adjectives:",
+      "opts": {
+        "a": "nearly",
+        "b": "nearest",
+        "c": "near",
+        "d": "nearby"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have _________ completed the job.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks using the correct adverbs/ adjectives:",
+      "opts": {
+        "a": "so",
+        "b": "that",
+        "c": "much",
+        "d": "too"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is _________ hot to go out.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks using the correct adverbs/ adjectives:",
+      "opts": {
+        "a": "Despite",
+        "b": "Aside",
+        "c": "Except",
+        "d": "Besides"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_________ from his voice, there is nothing attractive about him.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks using the correct adverbs/ adjectives:",
+      "opts": {
+        "a": "worst",
+        "b": "worse",
+        "c": "worser",
+        "d": "worstest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Liana’s handwriting is much _________ than Thana’s.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks using the correct adverbs/ adjectives:",
+      "opts": {
+        "a": "little",
+        "b": "a few",
+        "c": "few",
+        "d": "a little"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There is _________ milk in the jug.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 41 - 50) : Transform the following sentences as directed:",
+      "opts": {
+        "a": "Will he have been finishing the job by then?",
+        "b": "Will he has finished the job by then?",
+        "c": "Will he finish the job by then?",
+        "d": "Will he have finished the job by then?"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He will have finished the job by then. (interrogative)",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 41 - 50) : Transform the following sentences as directed:",
+      "opts": {
+        "a": "Her voice is lovely for words",
+        "b": "Her voice is so lovely that words cannot express it",
+        "c": "Her voice is as lovely as words",
+        "d": "Her voice is lovelier than words."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Her voice is too lovely for words. (remove ‘too’)",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 41 - 50) : Transform the following sentences as directed:",
+      "opts": {
+        "a": "Bill Gates is wealthier than most men",
+        "b": "Bill Gates is wealthier than any other men",
+        "c": "Bill Gates is wealthier than few men",
+        "d": "Bill Gates is more wealthier than most men."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Few men are as wealthy as Bill Gates. (change to comparative degree)",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 41 - 50) : Transform the following sentences as directed:",
+      "opts": {
+        "a": "Sangi is the most singer in the school",
+        "b": "Sangi sings better than any other student in the school",
+        "c": "Sangi is the best singer among the students in the school",
+        "d": "Sangi is the best student of all the singers in the school."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sangi is a better singer than any other student in the school. (change to Superlative degree)",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 41 - 50) : Transform the following sentences as directed:",
+      "opts": {
+        "a": "It was quite uncertain that he will be found innocent",
+        "b": "It was not certain that he will be found innocent.",
+        "c": "It was not certain that he will be found guilty.",
+        "d": "It was not at all uncertain that he will be found innocent."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It was quite certain that he will be found innocent. (Change to negative)",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 41 - 50) : Transform the following sentences as directed:",
+      "opts": {
+        "a": "He treats all his daughters differently.",
+        "b": "He treats one of his daughters differently.",
+        "c": "He treats any one of his daughters equally.",
+        "d": "He treats all his daughters equally."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He does not treat any one of his daughters differently. (Change to affirmative)",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 41 - 50) : Transform the following sentences as directed:",
+      "opts": {
+        "a": "I wish that a Mizo man would refuse to honour ‘tlawmngaihna’.",
+        "b": "It is shameful that a Mizo man would refuse to honour ‘tlawmngaihna’.",
+        "c": "It is a Mizo man who refuses to honour ‘tlawmngaihna’ indeed.",
+        "d": "It is lovely that a Mizo man would refuse to honour ‘tlawmngaihna’."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "That a Mizo man would refuse to honour ‘tlawmngaihna’! (Change to assertive)",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 41 - 50) : Transform the following sentences as directed:",
+      "opts": {
+        "a": "He completed the taskfully.",
+        "b": "He completed the task greatly.",
+        "c": "He completed the task in a careful manner.",
+        "d": "He completed the task carefully."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He completed the task with great care. (change into adverb)",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 41 - 50) : Transform the following sentences as directed:",
+      "opts": {
+        "a": "Everyone will admit that he was a great man.",
+        "b": "He will be admitted greatly.",
+        "c": "Everyone will not deny that he was a great man.",
+        "d": "All will not deny that he was a great man."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "No one will deny that he was a great man. (change to Affirmative)",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 41 - 50) : Transform the following sentences as directed:",
+      "opts": {
+        "a": "Dawrpui is as big as all the localities in Aizawl",
+        "b": "Few towns in Aizawl are as big as Dawrpui",
+        "c": "Dawrpui is a big locality in Aizawl",
+        "d": "Dawrpui is not as big as one of the localities in Aizawl."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dawrpui is one of the biggest localities in Aizawl. (change to positive degree)",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets.",
+      "opts": {
+        "a": "The boy did not succeed inspite of hard work",
+        "b": "The boy worked hard but he didn’t succeed",
+        "c": "The boy worked hard and did not succeed",
+        "d": "The boy didn’t succeed though he worked hard"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In spite of his hard work, the boy didn’t succeed. (to compound)",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets.",
+      "opts": {
+        "a": "Besides being beautiful, she is also intelligent",
+        "b": "She is beautiful and intelligent",
+        "c": "She is beautiful as well as being intelligent",
+        "d": "She is beautiful and also intelligent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is not only beautiful, but also intelligent. (to Simple)",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets.",
+      "opts": {
+        "a": "Alex could not go to school because of his mothers illness.",
+        "b": "Alex’s mother was ill, so he did not go to school",
+        "c": "Alex could not go to school due to the illness of his mother",
+        "d": "Alex could not go to school because his mother was ill"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Alex could not go to school due to his mother’s illness. (to complex)",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets.",
+      "opts": {
+        "a": "Buy two shirts to get one free",
+        "b": "If you buy two shirts, you get one free",
+        "c": "You get one shirt free if you buy two shirts",
+        "d": "Buy a shirt and get one free as well"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Buy two shirts and get one free. (to complex)",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets.",
+      "opts": {
+        "a": "That leprosy is curable is known by everyone",
+        "b": "Leprosy is curable and everybody knows this",
+        "c": "Everybody is aware that leprosy is curable",
+        "d": "Everybody knows that leprosy can be cured"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Everybody knows that leprosy is curable. (to compound)",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets.",
+      "opts": {
+        "a": "Working hard, he passed the test",
+        "b": "He worked hard so that he might pass the test",
+        "c": "He worked hard to pass the test",
+        "d": "If you work hard, you might pass the test"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He worked hard that he might pass the test. (to simple)",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets.",
+      "opts": {
+        "a": "The boy was praised by the teacher for his diligence.",
+        "b": "Diligently, the teacher praised the boy.",
+        "c": "If the boy is diligent, he will be praised by the teacher.",
+        "d": "The boy was diligent, so he was praised by the teacher."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The teacher praised the boy for his diligence. (to compound)",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets.",
+      "opts": {
+        "a": "He stole the horses of the king",
+        "b": "He stole the horses that belonged to the king",
+        "c": "The king’s horses were stolen by him",
+        "d": "He stole the horses which was the king’s"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He stole the King’s horses. (to complex)",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets.",
+      "opts": {
+        "a": "One is a citizen and can vote in the election",
+        "b": "Being a citizen, one can vote in the election",
+        "c": "A citizen is one who can vote in the election",
+        "d": "So long as one is a citizen, one can vote in the election."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If one is a citizen, one can vote in the election. (to simple)",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets.",
+      "opts": {
+        "a": "He admitted that he was guilty",
+        "b": "He admitted and was found guilty",
+        "c": "If you admit, you will be found guilty",
+        "d": "He admitted to the fact of his guilt."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He admitted to his guilt. (to complex)",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed.",
+      "opts": {
+        "a": "I have a big family to need money to support it.",
+        "b": "I need a lot of money to support my family",
+        "c": "My family is too big, so I need a lot of money to support it",
+        "d": "I have a big family to support it"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have a big family. I need a lot of money to support it. (use infinitive)",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed.",
+      "opts": {
+        "a": "If you walk fast, you may be late for school",
+        "b": "Walk fast if you may be late for school",
+        "c": "You may be late for school if you walk fast.",
+        "d": "If you do not walk fast, you may be late for school"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Walk fast. You may be late for school. (use ‘if’)",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed.",
+      "opts": {
+        "a": "The lesson was completed, so the teacher left the class",
+        "b": "The lesson being completed, the teacher left the class",
+        "c": "Completing the lesson, the teacher left the class",
+        "d": "The teacher left the class as the lesson was completed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The lesson was completed. The teacher left the class. (use a Participial Phrase)",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed.",
+      "opts": {
+        "a": "Shakespeare, the most famous English playwright. He wrote many fine plays.",
+        "b": "Shakespeare, writing many fine plays, was the most famous English playwright.",
+        "c": "Shakespeare was the most famous English playwright who wrote many fine plays.",
+        "d": "Shakespeare, the most famous English playwright, wrote many fine plays."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shakespeare was the most famous English playwright. He wrote many fine plays. (Use noun phrase in apposition)",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed.",
+      "opts": {
+        "a": "John does his work honestly",
+        "b": "John does his work with honesty",
+        "c": "John is honest in his work",
+        "d": "John does his work in an honest manner"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "John does his work. He is very honest in his work. (use an adverb)",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed.",
+      "opts": {
+        "a": "The ambulance arrived and the patient died",
+        "b": "The patient had died before the doctor arrived",
+        "c": "The ambulance arrived before the patient had died",
+        "d": "The ambulance arrived but the patient had died"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ambulance arrived. The patient had died before it arrived. (use Adverb clause)",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed.",
+      "opts": {
+        "a": "My common sense led me to believe that he was deceiving me.",
+        "b": "He was deceiving me and my common sense led me to believe it",
+        "c": "Having deceived me, my common sense led me to believe it",
+        "d": "My common sense led me to believe he was deceiving me."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My common sense led me to believe it. He was deceiving me. (use Noun Clause)",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed.",
+      "opts": {
+        "a": "He was stupid, yet he was mean",
+        "b": "He was stupid, hence he was mean",
+        "c": "He was stupid as well as mean",
+        "d": "Either he was mean or he was stupid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was stupid. He was mean. (Use Cumulative Conjunction)",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed.",
+      "opts": {
+        "a": "Have you seen my red, stolen pen?",
+        "b": "Have you seen my red and stolen pen?",
+        "c": "Have you seen my pen which was red in colour, and which was stolen?",
+        "d": "Have you seen my pen? It is red and stolen."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Have you seen my pen? It is red in colour. It was stolen. (Use Adjective clause)",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed.",
+      "opts": {
+        "a": "It is too hot. We cannot play outside",
+        "b": "We cannot play outside too since it is hot",
+        "c": "It is too hot to play outside",
+        "d": "It is so hot that we cannot play outside too."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is so hot. We cannot play outside. (Use ‘too’)",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the correct meaning of the following  underlined idioms",
+      "opts": {
+        "a": "to refuse to do something",
+        "b": "to die",
+        "c": "to stop working on something",
+        "d": "to wake up early"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I decided to go home and **call it a day**",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the correct meaning of the following  underlined idioms",
+      "opts": {
+        "a": "to be upset",
+        "b": "to become fat",
+        "c": "to destroy something",
+        "d": "to exercise"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My mother advised me not **to get bent out of shape**",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the correct meaning of the following  underlined idioms",
+      "opts": {
+        "a": "to destroy something",
+        "b": "to inaugurate something",
+        "c": "to reveal a secret",
+        "d": "to make someone feel comfortable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The chairman made a joke **to break the ice**",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the correct meaning of the following  underlined idioms",
+      "opts": {
+        "a": "to keep silent",
+        "b": "to talk too much",
+        "c": "to keep a secret",
+        "d": "to hide one’s face"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I told my foolish brother to **hold his tongue** in front of the guests.",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the correct meaning of the following  underlined idioms",
+      "opts": {
+        "a": "to be inconsiderate of others",
+        "b": "without any hesitation",
+        "c": "slowly",
+        "d": "at the last possible moment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I cannot just simply go out **at the drop of a hat**",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the correct meaning of the following  underlined idioms",
+      "opts": {
+        "a": "very difficult",
+        "b": "easy",
+        "c": "a pleasant feeling",
+        "d": "meaningless"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The examination was **a piece of cake**",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the correct meaning of the following  underlined idioms",
+      "opts": {
+        "a": "to be careful",
+        "b": "to walk rapidly",
+        "c": "to take a risk",
+        "d": "to be careless"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He decided to **throw caution to the wind** and just agree to whatever his beloved said",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the correct meaning of the following  underlined idioms",
+      "opts": {
+        "a": "to be rich",
+        "b": "to forgive someone",
+        "c": "to be poor",
+        "d": "to forget someone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You must not mistake us **to be well-off** despite our appearance",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the correct meaning of the following  underlined idioms",
+      "opts": {
+        "a": "to talk about",
+        "b": "to repeat",
+        "c": "to imitate",
+        "d": "to overlook"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have decided **to pass over** your behaviour last week.",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 71 - 80) : Choose the correct meaning of the following  underlined idioms",
+      "opts": {
+        "a": "to put on shoes",
+        "b": "to remove shoes",
+        "c": "to hide",
+        "d": "to run away"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Seeing the police, the thief decided **to take to heels**",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 81 - 85) : Choose the correct synonyms of the following words.",
+      "opts": {
+        "a": "joy",
+        "b": "grief",
+        "c": "ignorance",
+        "d": "indifference"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sorrow",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 81 - 85) : Choose the correct synonyms of the following words.",
+      "opts": {
+        "a": "ill-mannered",
+        "b": "drunk",
+        "c": "poor",
+        "d": "polite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Insolent",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 81 - 85) : Choose the correct synonyms of the following words.",
+      "opts": {
+        "a": "definite",
+        "b": "entertaining",
+        "c": "temporary",
+        "d": "permanent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Perpetual",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 81 - 85) : Choose the correct synonyms of the following words.",
+      "opts": {
+        "a": "desire",
+        "b": "hate",
+        "c": "disgust",
+        "d": "cheerful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Yearn",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 81 - 85) : Choose the correct synonyms of the following words.",
+      "opts": {
+        "a": "opposite",
+        "b": "similar",
+        "c": "conclusion",
+        "d": "together"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Contrary",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 86 - 90) : Choose the correct antonym of the following words.",
+      "opts": {
+        "a": "succeed",
+        "b": "before",
+        "c": "preside",
+        "d": "against"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Precede",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 86 - 90) : Choose the correct antonym of the following words.",
+      "opts": {
+        "a": "enlarge",
+        "b": "magnetize",
+        "c": "reduce",
+        "d": "increase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Magnify",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 86 - 90) : Choose the correct antonym of the following words.",
+      "opts": {
+        "a": "communicate",
+        "b": "profess",
+        "c": "ignore",
+        "d": "deny"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Confess",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 86 - 90) : Choose the correct antonym of the following words.",
+      "opts": {
+        "a": "strict",
+        "b": "relaxed",
+        "c": "amused",
+        "d": "furious"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lenient",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions No. 86 - 90) : Choose the correct antonym of the following words.",
+      "opts": {
+        "a": "forward",
+        "b": "retreat",
+        "c": "pull",
+        "d": "refuse"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Advance",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question No. 91 - 100) : Choose the correct word-substitute of the underlined words from",
+      "opts": {
+        "a": "Ruled by the king",
+        "b": "Ruled by the people",
+        "c": "No law and order",
+        "d": "Having no ruler"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His government is an **anarchy**.",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question No. 91 - 100) : Choose the correct word-substitute of the underlined words from",
+      "opts": {
+        "a": "Fit to be eaten",
+        "b": "Not fit to be eaten",
+        "c": "Overcooked",
+        "d": "Undercooked"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The dinner that was served was barely **edible**",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question No. 91 - 100) : Choose the correct word-substitute of the underlined words from",
+      "opts": {
+        "a": "Dancer",
+        "b": "One who does not drink alcohol",
+        "c": "One who eats all meats",
+        "d": "Thief"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My uncle was a **teetotaller**",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question No. 91 - 100) : Choose the correct word-substitute of the underlined words from",
+      "opts": {
+        "a": "A large number",
+        "b": "Cannot be satisfied",
+        "c": "Basic",
+        "d": "Mysterious"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Human needs are **insatiable**",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question No. 91 - 100) : Choose the correct word-substitute of the underlined words from",
+      "opts": {
+        "a": "Unpleasant",
+        "b": "Noble",
+        "c": "Talkative",
+        "d": "Reserved"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is a very **obnoxious** man.",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question No. 91 - 100) : Choose the correct word-substitute of the underlined words from",
+      "opts": {
+        "a": "Cruel",
+        "b": "Untiring",
+        "c": "Fat",
+        "d": "Not corruptible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Our principal is an **indefatigable** man.",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question No. 91 - 100) : Choose the correct word-substitute of the underlined words from",
+      "opts": {
+        "a": "Quietly",
+        "b": "With great fanfare",
+        "c": "Anonymously",
+        "d": "After his death"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My father’s book was published **posthumously**.",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question No. 91 - 100) : Choose the correct word-substitute of the underlined words from",
+      "opts": {
+        "a": "Expert",
+        "b": "Beginner",
+        "c": "Completely unskilled",
+        "d": "To like something"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mark is a **virtuoso** in piano playing.",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question No. 91 - 100) : Choose the correct word-substitute of the underlined words from",
+      "opts": {
+        "a": "Not well-fortified",
+        "b": "Unguarded",
+        "c": "Old and rotten",
+        "d": "Cannot be destroyed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The castle walls are **impregnable**.",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question No. 91 - 100) : Choose the correct word-substitute of the underlined words from",
+      "opts": {
+        "a": "Murder",
+        "b": "Favouring one’s relatives",
+        "c": "Taking bribes",
+        "d": "Indecency"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Bollywood Film Industry has been accused of **nepotism**.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

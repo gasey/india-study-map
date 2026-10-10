@@ -1,0 +1,43 @@
+{
+  "slug": "ada-2014-arithmetic",
+  "exam": "Assistant Divisional Accountant under Finance Department",
+  "sitting": "2014",
+  "subject": "Arithmetic",
+  "source": "ada-2014-arithmetic.pdf",
+  "sourceSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+  "ocr": false,
+  "count": 1,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "88",
+        "b": "888",
+        "c": "800",
+        "d": "808 (ii)In a school, 5/8 of the students are boys. If there are 240 girls, then the number of  boys in the school is- (a)300(b)400 (c)450(d)350 (iii)What will be the HCF  of  (3×4×9×11),(3×4×11×13),(3×4×5×11)and (3×4×5×9)? (a)3×4×5(b)3×4×5×11 (c)3×4(d)3×11 (iv)The vulgar fraction of 0.36 is 92 (a)(b) 255 111 (c)(d) 3015 (v)783÷9÷0.75=? (a)116(b)118 (c)124(d)134 (vi) 15⁴=? (a)235(b)225 (c)265(d)285 (vii)The average of first 5 odd numbers is (a)25(b)10 (c)15(d)5 (a)10(b)200 (c)100(d)20 capacity of the auditorium is 2025, then the number of chairs in each row is (a)35(b)40 (c)45(d)55 3 2 22 (a)(b) 33 22 (c)(d) 33 −33−11 82 −33 (a)(b) 44 8−8 (c)(d) 1111 (a)Rs.315(b)Rs.525 (c)Rs.252(d)Rs.540 11 (a)(b) 26 11 (c)(d) 43 (a)200 km/h(b)144 km/h (c)240 km/h(d)360 km/h fraction of the work that is left is 18 (a)(b) 415 71 (c)(d) 1510 (a)15cm(b)16cm (c)16.5cm(d)17cm speed of the sound is- (a)330 m/sec(b)332 m/sec (c)334 m/sec(d)335 m/sec (a)87.5%(b)8.75% (c)85.7%(d)8.57% (xix)The digit at the ten’s place in  the square root of 15876 is equal to (a)6(b)4 (c)3(d)2 (xx)A cube of side 6cm is cut into a number of cubes each of side 2cm. The number of cubes formed is (a)6(b)9 (c)12(d)27"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Answer  the following:(20×1=20) (i)The sum of place and face values of 8 in 46891 is",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q2 (p3, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p4, part None): only 2 option(s) ['a', 'b'] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  }
+}

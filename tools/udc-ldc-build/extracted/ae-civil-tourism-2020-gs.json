@@ -1,0 +1,2277 @@
+{
+  "slug": "ae-civil-tourism-2020-gs",
+  "exam": "Assistant Engineer (Civil) under Tourism Department",
+  "sitting": "2020",
+  "subject": "General Studies",
+  "source": "Asst. Engineer (Civil) Deptt. General Studies.pdf",
+  "sourceSha256": "3bc7eaaf6b91fd17047a703cfb7f4ebf4425037ed650c01e0a40210e7ea92786",
+  "ocr": false,
+  "count": 98,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A survey where the government can improve only its economy.",
+        "b": "Selected sectors for improving economy.",
+        "c": "Survey in agriculture and industrial sector which are most economic sectors.",
+        "d": "A report card of different sectors for the current year."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Economic Survey is a Report of the Government, regarding:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "At least 80%",
+        "b": "Not specified",
+        "c": "At least 60%",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Is it mandatory to fulfill proposals in the Economic Survey:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Before Budget Session",
+        "b": "Only at the end of Financial Year",
+        "c": "Just after Budget Session",
+        "d": "In the beginning of Financial Year"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When Economic Survey is laid in the Assembly/Parliament:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Policy of Receipts and Expenditure",
+        "b": "Fund segregated for priority sector",
+        "c": "Proposal of annual Receipts and Expenditure.",
+        "d": "Target to be achieved in Government Receipts."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Budget of the State/Union mainly refers to:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (iv)",
+        "b": "(i) and (iii)",
+        "c": "(ii) and (iii)",
+        "d": "(ii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pertaining to Union Budget discussion: (i)Budget discuss in both the houses. (ii)Budget to be passed by both houses on vote. (iii)Budget is voted only in Lok Sabha. (iv)Budget to be tabled in both house simultaneously at the same time. Select the correct statement:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "i and ii",
+        "b": "i only",
+        "c": "ii only",
+        "d": "all are correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Prominent Mizo Personalities & Identities (i)C.L. Rema-IAS (ii)Capt. L.Z. Sailo-Padma ViBushan (iii)Dr. Zairema-Medical (iv)B.Lalthangliana-Religion Choose the best/correct match on above:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "i only",
+        "b": "i and ii",
+        "c": "i and iii",
+        "d": "All the four"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Traditional Mizo measurements: (i)Hlam-Sei zawng (ii)Banpuam tiat-Ngil leh ngil loh (iii)Beng thleng-San zawng (iv)|hum khat-A dip leh dip loh Choose the best/correct matches:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "i, ii and iii",
+        "b": "ii, iii and iv",
+        "c": "i,ii, and iv",
+        "d": "All the four"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Traditional Mizo terminology: (i)Nauril\\am-Hunbi (ii)Ramtangrual-Upat lam (iii)Chhul khat kual-Lai na zawng zawng (iv)Hmelchhiat lai-Hunbi Choose the best/correct matches:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "KV Krishna Rao",
+        "b": "Mukund Naravane",
+        "c": "Bipin Rawat",
+        "d": "RKS Bhadauria"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following is the first Chief of Defense Staff of the Indian Armed Forces?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Climate Change",
+        "b": "Climate Denial",
+        "c": "Climate Anxiety",
+        "d": "Climate Emergency"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Oxford Dictionaries has named which word as its 2019 Word of the Year?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Madhya Pradesh",
+        "b": "Gujarat",
+        "c": "Maharashtra",
+        "d": "Uttar Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Justice Sharad Arvind Bobde, who has been sworn-in as the new Chief Justice of India (CJI), is a former Chief Justice of which High Court?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Iraq",
+        "b": "Iran",
+        "c": "Syria",
+        "d": "Turkey"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Qassim Soleimani, who was killed in the US Air Strike was the Military Commander of which Country?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BRICS",
+        "b": "SCO",
+        "c": "UNESCO",
+        "d": "SAARC"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Statue of Unity is recently included in 8 Wonders of ______ list.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cat",
+        "b": "Lizard",
+        "c": "Frog",
+        "d": "Fish"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Schistura syngkai, recently discovered in Meghalaya is the scientific name of which type of species?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Japan",
+        "b": "London",
+        "c": "Beijing",
+        "d": "New Delhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first-ever International Conference on “Landslides Risk Reduction and Resilience” was held in which city?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China",
+        "b": "Japan",
+        "c": "India",
+        "d": "Australia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Asian country to be the ‘Guest of Honour Country’ at the International Book fair in Mexico is",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kolkata",
+        "b": "Indore",
+        "c": "Guwahati",
+        "d": "Chennai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which city organized the 3rd edition of Khelo India Youth Games?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ICSE",
+        "b": "MBOS",
+        "c": "CBSE",
+        "d": "HBSE"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which education board in India is to introduce AI in schools from the session 2019-20?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bodo",
+        "b": "Dogri",
+        "c": "Maithili",
+        "d": "Santhali"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following language has recently been used for the first time in Rajya Sabha?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tamil Nadu",
+        "b": "Karnataka",
+        "c": "Punjab",
+        "d": "Maharastra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state has recently partnered with WEF to promote electric mobility?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "7",
+        "b": "9",
+        "c": "11",
+        "d": "13"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which rank has been achieved by India in the Climate Change Performance Index, 2019?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Russia",
+        "b": "Greece",
+        "c": "USA",
+        "d": "Poland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country has recently left 2050 Climate Neutrality Agreement of European Union?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi",
+        "b": "Bangalore",
+        "c": "Kolkata",
+        "d": "Chandigarh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state/UT had recently approved the Electric Vehicle Policy, 2019?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Karnataka",
+        "b": "Odisha",
+        "c": "Maharastra",
+        "d": "West Bengal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state government has launched a new initiative “Meal in exchange for plastic waste”?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Science for Humanity",
+        "b": "Science for New India",
+        "c": "RISEN India",
+        "d": "Boost New India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the theme of the 5th India International Science Festival (IISF) held on 5th November 2019?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IIT Madras",
+        "b": "IIT Bombay",
+        "c": "IIT Kharagpur",
+        "d": "IIT Kanpur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which IIT has launched ‘Arise-A Standing Wheelchair’ for disabled?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ebay",
+        "b": "Amazon",
+        "c": "Flipkart",
+        "d": "Alibaba"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which company has introduced ‘Project Zero’ in India to remove counterfeit products?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anthony Taylor",
+        "b": "Arsene Wenger",
+        "c": "Pele",
+        "d": "Igor Stimac"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has been named FIFA’s Chief of global football development?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ricky Gervais",
+        "b": "Donald Trump",
+        "c": "Greta Thunberg",
+        "d": "LeBron James"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has been named as the 2019 Person of the Year by TIME magazine?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Marriage Story",
+        "b": "1917",
+        "c": "Once Upon a time in Hollywood",
+        "d": "Joker"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which film won the “Best motion Picture – Drama’ Award in the Golden Globe Awards, 2020?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Biological Clock",
+        "b": "Cryo-electron microscopy",
+        "c": "Lithium-ion batteries",
+        "d": "Phage display of peptides"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 2019 Nobel prize in Chemistry has been awarded for discovery in which field?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Abhijit Banerjee",
+        "b": "Arvind Subramanian",
+        "c": "Pranab Bardhan",
+        "d": "Srijit Mukherji"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian economist has won the 2019 Nobel Economics Prize for study on poverty?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Physiology or Medicine",
+        "b": "Literature",
+        "c": "Peace prize",
+        "d": "Economic Science"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Peter Handke received the Nobel Prize of 2019 in which field?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dante",
+        "b": "Dostoevsky",
+        "c": "Tolstoy",
+        "d": "Dickens"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the author of the book “Divine Comedy”?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Satya Nadella",
+        "b": "Sundar Pichai",
+        "c": "Bill Gates",
+        "d": "Mark Zuckerberg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the author of the book “How to Avoid a Climate Disaster”?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Albert Einstein",
+        "b": "Kobe Bryant",
+        "c": "Mother Teresa",
+        "d": "Karl Marx"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Switzerland recently minted World’s smallest Gold Coin featuring the image of ______.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "December 10",
+        "b": "December 12",
+        "c": "December 14",
+        "d": "December 16"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The National Energy Conservation Day is observed on which date?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "December 25",
+        "b": "January 25",
+        "c": "February 25",
+        "d": "March 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On which day National Voters day is celebrated.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bharat Ratna",
+        "b": "Padma Shri",
+        "c": "Padma Vibhusan",
+        "d": "Padma Bhusan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is posthumously awarded to Arun Jaitley?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Billie Eilish",
+        "b": "Ariana Grande",
+        "c": "Post Malone & Swae Lee",
+        "d": "Lizzo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Grammy 2020 Record of the year is awarded to?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "March 30",
+        "b": "April 30",
+        "c": "May 30",
+        "d": "June 30"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizoram Peace Accord, 1986 was signed on ?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "22nd",
+        "b": "23rd",
+        "c": "24th",
+        "d": "25th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mizoram is the ______ State of the Indian Union?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TH Lewin",
+        "b": "William Williams",
+        "c": "JH Lorrain",
+        "d": "DE Jones"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following is the first to come to Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "71",
+        "b": "72",
+        "c": "73",
+        "d": "74"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Union Territory of Mizoram came into being on 21st January, 19__",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25th November, 2019",
+        "b": "26th November, 2019",
+        "c": "27th November, 2019",
+        "d": "28th November, 2019"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 70th Constitution Day of India has celebrated on which date?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 360",
+        "b": "Article 365",
+        "c": "Article 356",
+        "d": "Article 350"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under which of the following Articles of the Indian Constitution of India, the President can impose Presidential Rule in a State?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mizoram",
+        "b": "Meghalaya",
+        "c": "Tripura",
+        "d": "Manipur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is not listed in the Sixth Schedule of the Constitution of India?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Parsi",
+        "b": "Christian",
+        "c": "Jain",
+        "d": "Sufi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the Citizenship Amendment Act 2019, which of the following religion is not mentioned?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dignity",
+        "b": "Justice",
+        "c": "Liberty",
+        "d": "Equality"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following words is not included in the Preamble of the Indian Constitution?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Medicine",
+        "b": "Astronomy",
+        "c": "Philosophy",
+        "d": "Biology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Aryabhata was renowned for?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lord Mountbatten",
+        "b": "Lord Curzon",
+        "c": "Lord Canning",
+        "d": "Lord Irwin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the last Viceroy of British India?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reginald Dyer",
+        "b": "John Saunders",
+        "c": "Michael O’Dwyer",
+        "d": "James Bouley"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who gave the order of Jallianwalla Bagh Massacre?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Inner Core",
+        "b": "Outer Core",
+        "c": "Lithosphere",
+        "d": "Asthenosphere"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Tectonic Plates of the Earth lies in?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Venus",
+        "b": "Mars",
+        "c": "Jupiter",
+        "d": "Uranus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following planet has No Moon?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Haryana",
+        "b": "Punjab",
+        "c": "Gujarat",
+        "d": "West Bengal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the largest Rice producing state in India?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6",
+        "b": "7",
+        "c": "8",
+        "d": "9"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many Union Territories are there in India currently?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sateek",
+        "b": "Thiak",
+        "c": "Maubuang",
+        "d": "Keitum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tropic of Cancer passes through which of the following Village?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Canada",
+        "b": "Greenland",
+        "c": "Russia",
+        "d": "Poland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The largest Freshwater lake “Lake Baikal” is located in?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Orology",
+        "b": "Lithology",
+        "c": "Acrology",
+        "d": "Geology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The study of Mountains is known as",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Marie Curie",
+        "b": "Henri Becquerel",
+        "c": "Max Plank",
+        "d": "Rutherford"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Radioactivity was discovered by",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dinar",
+        "b": "Rial",
+        "c": "Riyal",
+        "d": "Dirham"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the currency of United Arab Emirates?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Andhra Pradesh",
+        "b": "Kerela",
+        "c": "Karnataka",
+        "d": "Tamil Nadu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Master Control Facility of ISRO is located in",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "United Kingdom",
+        "b": "France",
+        "c": "Spain",
+        "d": "Italy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The statue of Liberty was given to the People of the United States from the People of",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tartaric Acid",
+        "b": "Malic Acid",
+        "c": "Citric Acid",
+        "d": "Acetic Acid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the chemical name of Vinegar?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nerve Cell",
+        "b": "Muscle Cell",
+        "c": "Blood Cell",
+        "d": "Skin Cell"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Longest Cell in human body is",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mild Echophraxia",
+        "b": "Middle Edema",
+        "c": "Middle East",
+        "d": "Middle Echophraxia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A type of Coronavirus known as MERS is a term for ______ Resiratory Syndrome",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Potash Alum",
+        "b": "Aluminium Chloride",
+        "c": "Nitrous Alum",
+        "d": "Sulphur Alum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Aluminium Salt used to Stop Bleeding is",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thomson",
+        "b": "Rutherford",
+        "c": "Chadwick",
+        "d": "Bohr"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following discovered Neutron?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rickets",
+        "b": "Beri beri",
+        "c": "Scurvy",
+        "d": "Night blindness"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is caused by deficiency of Vitamin A?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "18",
+        "b": "20",
+        "c": "22",
+        "d": "24"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following three-dimensional figure : How many triangles does the above figure have?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4",
+        "b": "5",
+        "c": "6",
+        "d": "8"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following sum: u+ 1u + 2u + u3 + u1 = 21u In the above sum,u Stands for",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "17",
+        "b": "19",
+        "c": "21",
+        "d": "23"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following pattern of numbers : 8101513 6574 4688 61116? What number at ‘?’ in the above pattern?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12",
+        "b": "15",
+        "c": "16",
+        "d": "18"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A train 200 metres long is moving at the rate of 40 kmph. In how many seconds will it cross a man standing near the railway line?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "45,555",
+        "b": "50,555",
+        "c": "55,550",
+        "d": "65,750"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The following three items are based on the graph given below which shows imports of three different types of steel over a period of six months of a year. Study the graph and answer the three items that follow. The figures in the brackets indicate the average cost per ton over six months period. What was the approximate total value (in $) of sheet steel imported over the six months period?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "Four dots",
+        "b": "Three dots",
+        "c": "Two dots",
+        "d": "Cross"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the symbol on the face opposite to that containing a single dot?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "Single dot",
+        "b": "Three dots",
+        "c": "Four dots",
+        "d": "Line"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the symbol on the face opposite to that containing two dots?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "Single dot",
+        "b": "Two dots",
+        "c": "Line",
+        "d": "Four dots"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the symbol on the face opposite to that containing the cross?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "RYFDV",
+        "b": "TBJIB",
+        "c": "RZHGZ",
+        "d": "RBHIB"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If LYJEO is the code for MAMIT, the code for SAIHA is",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "92233",
+        "b": "92323",
+        "c": "93322",
+        "d": "93232"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If RAMON is written as 12345 and DINESH as 675849, then HAMAM will be written as",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "XY",
+        "b": "X | Y",
+        "c": "Y | X",
+        "d": "(X+Y) | XY"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "X and Y are natural numbers other than 1, and Y is greater than X. Which of the following represents the largest number?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A number consists of three digits of which the middle one is zero and their sum is 4. If the number formed by interchanging the first and last digits is greater than the number itself by 198, then the difference between the first and last digits is",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "12",
+        "b": "8",
+        "c": "6",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A solid cube is 3 cm side, painted on all its faces, is cut up into small cubes of 1 cm side. How many of the small cubes will have exactly two painted faces?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "Pen > Cap",
+        "b": "Pen < Book",
+        "c": "Pencil = Cap",
+        "d": "Pencil > Cap"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If Pen < Pencil, Pencil < Book and Book > Cap, then which one of the following is always true?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "",
+        "b": " 27 512",
+        "c": "",
+        "d": " 913"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A bag contains 15 red balls and 20 black balls. Each ball is numbered either 1 or 2 or 3. 20% of the red balls are numbered 1 and 40% of them are numbered 3. Similarly, among the black balls, 45% are numbered 2 and 30% are numbered 3. A boy picks a ball at random. He wins if the ball is red and numbered 3 or if it is black and numbered 1 or 2. What are the chances of his winning? 14",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "100",
+        "b": "120",
+        "c": "150",
+        "d": "300"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A student has to get 40% marks to pass in an examination. Suppose he gets 30 marks and fails by 30 marks, then what are the maximum marks in the examination?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "₹10",
+        "b": "₹20",
+        "c": "₹30",
+        "d": "₹40"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A shopkeeper sells an article at ₹40 and gets X% profit. However, when he sells it at ₹20, he faces same percentage of 0 loss. What is the original cost of the article?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "4",
+        "b": "6",
+        "c": "8",
+        "d": "12"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There are 24 equally spaced points lying on the circumference of a circle. What is the maximum number of equilateral triangles that can be drawn by taking sets of three points as the vertices?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "24/3/96",
+        "b": "25/3/96",
+        "c": "26/3/96",
+        "d": "27/3/96"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the sequence given below : 4/12/95, 1/1/96, 29/1/96, 26/2/96, .... What is the next term of the series?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "On 1st June, the actual progress of work was less than expected.",
+        "b": "The actual rate of progress of work was the greatest during the month of August.",
+        "c": "The work was actually completed before the expected time.",
+        "d": "During the period from 1st April to 1st September, at no time was the actual progress more"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following graph : Which one of the following statements is not correct with reference to the graph given above?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the figures given below : ? To fit the question mark, the correct answer is",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following figures : In the figures (I) to (IV) above, some parts are shown to change their positions in regular directions. Following the same sequence, which of the figures given below will appear at (VII) stage?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 94 & 95): Read the following information and answer the following questions.",
+      "opts": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If E sits in his office and faces the corridor, whose office is to his left?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 94 & 95): Read the following information and answer the following questions.",
+      "opts": {
+        "a": "A only",
+        "b": "A and D",
+        "c": "C only",
+        "d": "B and C"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is/are F’s immediate neighbour/neighbours?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 94 & 95): Read the following information and answer the following questions.",
+      "opts": {
+        "a": "Her brother",
+        "b": "Her daughter",
+        "c": "Her son",
+        "d": "Lakshmi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lakshmi, her brother, her daughter and her son are badminton players. A game of doubles is about to begin: (i)Lakshmi’s brother is directly across the net from her daughter. (ii)Her son is diagonally across the net from the worst player’s sibling. (iii)The best player and the worst player are on the same side of the net. Who is the best player?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 94 & 95): Read the following information and answer the following questions.",
+      "opts": {
+        "a": "Sunday",
+        "b": "Saturday",
+        "c": "Friday",
+        "d": "Thursday"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "101. If day before yesterday was Friday then what will be the third day after the day-after-tomorrow?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 94 & 95): Read the following information and answer the following questions.",
+      "opts": {
+        "a": "2",
+        "b": "22",
+        "c": "1",
+        "d": "24"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many times the hands of a clock coincide?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 94 & 95): Read the following information and answer the following questions.",
+      "opts": {
+        "a": "6 mins",
+        "b": "6 hours",
+        "c": "12 mins",
+        "d": "12 hours"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A,B and C started out together at 10km/h, 15km/h and 20km/h respectively from the same point on a circular track of length 1km. At what time do they first meet again?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 94 & 95): Read the following information and answer the following questions.",
+      "opts": {
+        "a": "i and ii",
+        "b": "i, ii and iii",
+        "c": "ii only",
+        "d": "i, ii, iii and iv"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the Roman numerals with its value: (i)XL = 40(ii)L = 50 (iii)LX = 60(iv)XLX = 70 Select the correct answer.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q9 (p2, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q30 (p4, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      9,
+      30
+    ]
+  }
+}

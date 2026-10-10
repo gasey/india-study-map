@@ -1,0 +1,1742 @@
+{
+  "slug": "translator-2019-gs1",
+  "exam": "Translator under Art & Culture Department",
+  "sitting": "2019",
+  "subject": "General Studies Paper-I",
+  "source": "General Studies Paper-I (Translator).pdf",
+  "sourceSha256": "2f08e3aa58889c08b3ade3a63d5812072fed13b3ef3179884274ef8f5509a034",
+  "ocr": false,
+  "count": 75,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The British East India Company and the Mughal Emperor",
+        "b": "The British East India Company and the Nawab of Bengal",
+        "c": "The French East India Company and the Nawab of Awadh",
+        "d": "The French East India Company and the ruler of Bengal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Battle of Plassey, 1757 was fought between-",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1846",
+        "b": "1849",
+        "c": "1852",
+        "d": "1856"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Punjab was annexed by the British East India Company in the year-",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hyderabad",
+        "b": "Kashmir",
+        "c": "Awadh",
+        "d": "Kanpur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The kingdom annexed by the British on account of mal-administration in 1856 was-",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bangalore",
+        "b": "Cochin",
+        "c": "Chennai",
+        "d": "Seringapatam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tipu Sultan died during the Fourth Anglo-Mysore War defending the city of-",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Maratha Peshwaship",
+        "b": "Maratha Alliance",
+        "c": "Maratha Confederacy",
+        "d": "Maratha Brotherhood"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An alliance of the Maratha Chieftains formed under the nominal leadership of the Peshwa was known as-",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lord Mayo",
+        "b": "William Bentinck",
+        "c": "John Shore",
+        "d": "Lord Cornwallis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Permanent Settlement 1793 was introduced by-",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tea industry",
+        "b": "Cotton Textile industry",
+        "c": "Rubber industry",
+        "d": "Coal industry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pre- British India was famous for its-",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Raja Rammohan Roy and William Bentinck",
+        "b": "Ishwar Chandra Vidyasagar and William Bentinck",
+        "c": "Raja Rammohan Roy and Lord Cornwallis",
+        "d": "Raja Ramoham Roy and Lord Dalhousie"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The credit of abolishing Sati in 1829 goes to-",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi",
+        "b": "Bombay",
+        "c": "Kanpur",
+        "d": "Meerut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The revolt of 1857 started at-",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Annexation",
+        "b": "Taxation",
+        "c": "Divide and Rule",
+        "d": "Humanitarian Works"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "After the Revolt of 1857, the British gave up the policy of-",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "University of Bombay",
+        "b": "University of Madras",
+        "c": "University of Lucknow",
+        "d": "University of Calcutta"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "First Indian University established on 24th January 1857 was the-",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indira Gandhi",
+        "b": "Kasturba Gandhi",
+        "c": "Annie Besant",
+        "d": "Sarojini Naidu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first female President of the Indian National Congress was-",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vasudev Balwan Phadke",
+        "b": "Bankim Chandra Chattopadhyay",
+        "c": "Rabindranath Tagore",
+        "d": "Mukunda Das"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A Bengali fiction, Anandamath was written by-",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lucknow Pact",
+        "b": "Poona Pact",
+        "c": "Surat Pact",
+        "d": "Lahore Pact"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An agreement reached between the Muslim League and the Indian National Congress in 1916 became known as the-",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bal Gangadhar Tilak",
+        "b": "Mohammed Ali Jinnah",
+        "c": "Ali brothers",
+        "d": "Sayed Ahmed Khan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Khilafat movement of the Muslims in India was led by-",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hindu landlords",
+        "b": "Muslim landlords",
+        "c": "Sikh merchants",
+        "d": "Muslim moneylenders"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Moplah Rebellion of 1921 was a series of riots by the Muslims of Malabar against the British and the",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Satyagraha",
+        "b": "Sabarmati Ashram",
+        "c": "Harijan",
+        "d": "Samvaad Kaumudi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The form of non-violent resistance deployed by Gandhi in South Africa and India which insisted on holding on to truth was known as-",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tax law",
+        "b": "Salt law",
+        "c": "Racial law",
+        "d": "Land law"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "After the long Dandi March in 1930, Gandhi and his followers broke the-",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gandhi-Irwin Pact",
+        "b": "Communal Pact",
+        "c": "Poona Pact",
+        "d": "Mumbai Pact"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The political agreement which temporarily suspended the Civil Disobedience Movement on 5th March 1931 was the-",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "B. R. Ambedkar",
+        "b": "Winston Churchill",
+        "c": "Ramsay MacDonald",
+        "d": "Sir Stafford Cripps"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Communal Award” was announced by-",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indian Councils Act of 1892",
+        "b": "Indian Councils Act of 1909",
+        "c": "Government of India Act 1919",
+        "d": "Government of India Act 1935"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dyarchy was introduced in the provinces by-",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "De-industrialisation",
+        "b": "Mahalwari System",
+        "c": "Rural indebtedness",
+        "d": "Commercialisation of Agriculture"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The process of growing specialised crops for sale in market rather than consumption which began during the British was known as-",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1906",
+        "b": "1907",
+        "c": "1908",
+        "d": "1909"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The All India Muslim League was established in the year-",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brahmo Samaj",
+        "b": "Arya Samaj",
+        "c": "Prarthana Samaj",
+        "d": "Rama Krishna Mission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Go back to the Vedas” was a slogan of the-",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Batukeshwar Dutt and Sukhdev",
+        "b": "Batukeshwar Dutt and Rajguru",
+        "c": "Bhagat Singh and Batukeshwar Dutt",
+        "d": "Bhagat Singh and Rajguru"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Revolutionaries who threw a bomb in the Legislative Assembly in 1929 were-",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cabinet Mission",
+        "b": "Nehru Report",
+        "c": "Simla Conference",
+        "d": "Quit India Movement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indians challenged the provisions of the Simon Commission in the form of a draft called the-",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1937",
+        "b": "1938",
+        "c": "1939",
+        "d": "1940"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "After winning a massive victory in 1937 Election, the Congress later resigned in-",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jadunath Sarkar",
+        "b": "Muhammed Iqbal",
+        "c": "Shaukat Ali",
+        "d": "Choudhry Rahmat Ali"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The word “Pakistan” was first coined by-",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "August 1946",
+        "b": "September 1946",
+        "c": "July 1947",
+        "d": "August 1947"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Interim Government of India was formed in-",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Communal Day of Horror",
+        "b": "Direct Action Day",
+        "c": "Pakistan Resolution Day",
+        "d": "Aligarh Day"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "16th August 1946 was proclaimed by the Muslims as-",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr Rajendra Prasad",
+        "b": "Dr BR Ambedkar",
+        "c": "Sachchidananda Sinha",
+        "d": "Dr Radha Krishna"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the Pro-Tem President of the Constituent Assembly?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The British Parliament",
+        "b": "The Indian Parliament",
+        "c": "The Constituent Assembly",
+        "d": "The Cabinet Mission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who made the Constitution of India?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Five months",
+        "b": "Six months",
+        "c": "Two months",
+        "d": "Three Months"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Parliament sitting must held every after-",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Under Article 359",
+        "b": "Under Article 371",
+        "c": "Under Article 350",
+        "d": "Under Article 370"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under which Article that the Fundamental Rights can be amend?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bharatia Janata Party by AB Vajpayee",
+        "b": "Indian National Congress by AO Hume",
+        "c": "Trinamul Congress by Mamata Banerji",
+        "d": "Communist Party of India by Joyti Basu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the first political party and who found it?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Part lll, Article 12 to 36",
+        "b": "Part lll, Article 35 to 54",
+        "c": "Part IV, Article 36 to 51",
+        "d": "Part IV, Article 12 to 35"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which Parts and Article can we find Directive Principle of State Policy?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Under Article 360",
+        "b": "Under Article 352",
+        "c": "Under Article 356",
+        "d": "Under Article 370"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under which Article that the President of India can proclaim financial emergency?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The President",
+        "b": "The Prime Minister",
+        "c": "Chief Justice of Supreme Court",
+        "d": "Chief Election Commissioner"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the head of Government of India?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lok Sabha",
+        "b": "Independent Judiciary",
+        "c": "Parliament",
+        "d": "Cabinet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of Union Legislature?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Prime Minister",
+        "b": "The President",
+        "c": "Speaker of Lok Sabha",
+        "d": "Chairman of Rajia Sabha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who preside over joint sitting of the two Houses of Parliament?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "By 40th Amendment",
+        "b": "By 44th Amendment",
+        "c": "By 41th Amendment",
+        "d": "By 42nd Amendment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "By which constitutional amendment that the Court cannot determine the adequacy of compensation given by the state for acquisition of private propertry?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Defense, Foreign Affairs, Currency, Union Duties etc.",
+        "b": "Finance, Inter-state Dispute, Taxes, defense etc.",
+        "c": "Defense, Taxes, Communication, Agriculture etc.",
+        "d": "Education, Culture, Defense, Health etc."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Union Lists consists of-",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "62",
+        "b": "65",
+        "c": "60",
+        "d": "70"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "High Court Judge retired at the age of-",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "UP, Karnataka, Bihar, Maharastra, Jammu & Kashmir",
+        "b": "Bihar, Assam, Nagaland, Kerela",
+        "c": "Karnataka, West Bengal, Punjab, Assam",
+        "d": "Punjab, Andaman, West Bengal,UP"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which States in India have Legislative Councils?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Appellate, Original, Advisory",
+        "b": "Advisory, Quo Warranto, Appellate",
+        "c": "Mandamus, Appellate, Certiorari, Advisory",
+        "d": "Habeas Corpus, Mandamus, Prohibition, Quo Warranto, Certiorari"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The power of High Court consists of-",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1931",
+        "b": "1941",
+        "c": "1951",
+        "d": "1961"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s first Five Year Plan was launched in-",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RBI",
+        "b": "SBI",
+        "c": "Rural Banks",
+        "d": "ICICI"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The largest public sector bank in the country is-",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Primary sector",
+        "b": "Secondary sector",
+        "c": "Tertiary sector",
+        "d": "Railway industry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following sectors is the largest employer in India?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Food security",
+        "b": "Rapid industrialisation",
+        "c": "Self-sufficiency",
+        "d": "Removal of poverty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One of the main aims of second Five Year Plan was-",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Net National Product",
+        "b": "Disposable Personal Income",
+        "c": "Gross National Product",
+        "d": "Gross Domestic Product"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The money value of total output or production of final goods and services produced by nationals of a country during a given period of time, (generally a year) is known as-",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Service sector",
+        "b": "Agriculture sector",
+        "c": "Industrial sector",
+        "d": "Trade sector"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The largest source of National Income in India is-",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "the chief Rabbi Crops",
+        "b": "the main Cash Crops",
+        "c": "the chief Kharif Crops",
+        "d": "the Plantation Crops"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rice, maize, millets, cotton, sugarcane are-",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12",
+        "b": "14",
+        "c": "16",
+        "d": "18"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the year 1969 how many banks were nationalised?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China",
+        "b": "UAE",
+        "c": "Germany",
+        "d": "USA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s top trading partner is-",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Balance of payment",
+        "b": "Balance of trade",
+        "c": "Capital account",
+        "d": "Revenue account"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A systematic record of all transactions of a country in a year is known as-",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1989",
+        "b": "1991",
+        "c": "1990",
+        "d": "1992"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which year was the new liberalized industrial policy announced in India?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increasing",
+        "b": "Replaced by foreign investments",
+        "c": "Declining",
+        "d": "improving"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "During the period of liberalisation, the role of public sector has been-",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indian economy is a mixed economy",
+        "b": "Indian economy is a capitalist and market-driven economy",
+        "c": "Indian economy is characterised by federal system of finance",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is correct?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Current and Capital Accounts",
+        "b": "Capital and Revenue Accounts",
+        "c": "Internal and External Accounts",
+        "d": "Income and Expenditure Accounts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Balance of Payment account consists of two parts, namely,",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Interconnected Stock Exchange of India Ltd.",
+        "b": "The National Stock Exchange of India Ltd.",
+        "c": "The Over the Counter Exchange of India Ltd.",
+        "d": "The Bombay Stock exchange Ltd."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The biggest stock exchange in India is?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aravallis",
+        "b": "Himalaya",
+        "c": "Satpura",
+        "d": "Vindhya"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The oldest fold mountain of India is:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The northern mountain",
+        "b": "The great plain",
+        "c": "The coastal plains",
+        "d": "The peninsular plateau"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following comprises the largest physiographic unit of India?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uttar Pradesh",
+        "b": "Bihar",
+        "c": "West Bengal",
+        "d": "Punjab"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most flood prone state in India is?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tropical cyclone",
+        "b": "Western disturbances",
+        "c": "Easterly jet stream",
+        "d": "Strom track"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A low pressure systems originating in west Asia and the regions near the Mediterranean sea which travel eastwards across Iran and Pakistan and reach India during the winter seasons is known as:",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "a cold current off the coasts of Peru and Ecuador",
+        "b": "a warm current off the coasts of Ecuador and Chile",
+        "c": "a cold current off the coasts of Chile and Peru",
+        "d": "a warm current off the coasts of Peru and Ecuador"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘El Nino’ is a:",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Equal temperature",
+        "b": "Equal Rainfall",
+        "c": "Equal Pressure",
+        "d": "Equal Sunshine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term isohyet refers to:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Semi-arid regions",
+        "b": "Arid regions",
+        "c": "Humid regions",
+        "d": "Semi-dry regions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One of the main sources of moisture for crops in India is rainfall, areas having 30-75 cm of annual rainfall are known as:",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uttar Pradesh",
+        "b": "Tamil Nadu",
+        "c": "Maharashtra",
+        "d": "Chhattisgarh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state is known as the ‘Sugar Bowl of India’?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Private Sector",
+        "b": "Joint Sector",
+        "c": "Public Sector",
+        "d": "Cooperative Sector"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Industries owned by the state and its agencies like Bharat Heavy Electricals Ltd., Bhilai Steel Plant or Durgapur Steel Plant, this sector of industries are known as :",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "West Bengal",
+        "b": "Bihar",
+        "c": "Uttar Pradesh",
+        "d": "Tamil Nadu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Among the following states, which state has the highest density of population according to 2011 census?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chemical Industries",
+        "b": "Non-Ferrous Industries",
+        "c": "Ferrous Industries",
+        "d": "Non-Metallic Industries"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On the basis of nature of raw materials industries can be classified into different types. Industries based on metals having iron content are known as:",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cotton textile industry at Mumbai in 1854",
+        "b": "Jute mill at Rishra in 1855",
+        "c": "Paper industry at Serampore in 1812",
+        "d": "Establishment of TISCO in 1907"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The real beginning of modern large scale industry in India can be recognized with the establishment of:",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Malayalam",
+        "b": "Kannada",
+        "c": "Tamil",
+        "d": "Telegu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Dravidian languages are a language family spoken mainly in southern India and parts of eastern and central India, the largest speakers of Dravidian language is:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gochani",
+        "b": "Gojai",
+        "c": "Beljar",
+        "d": "None of the Above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mixed Cropping is the practice of sowing two to three crops together in the same field in one crop season, the mixture of different crops is called by different names, when wheat is mixed with gram it is known as:",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Package technology",
+        "b": "Green revolution",
+        "c": "Modern technology",
+        "d": "Intensive technology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Adoption of irrigation, bio-chemical fertilizers and HYV seeds as basic inputs in agricultural production refers to:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

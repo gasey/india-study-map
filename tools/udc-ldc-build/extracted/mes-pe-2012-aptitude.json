@@ -1,0 +1,1167 @@
+{
+  "slug": "mes-pe-2012-aptitude",
+  "exam": "Jr. Grade of Mizoram Engineering Service (AE/SDO) under Power & Electricity Department",
+  "sitting": "January 2012",
+  "subject": "General Aptitude Test",
+  "source": "mes-pe-2012-aptitude.pdf",
+  "sourceSha256": "8acc79a97e3bcdbb7012096dfc16686eaa97dda1ef05eac7cb93a976a8ba5976",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "60",
+        "b": "57",
+        "c": "54",
+        "d": "50"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the missing number from the series: 87, 81, 75, 69, 63, ___, 51.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20",
+        "b": "22",
+        "c": "25",
+        "d": "27"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The number 729 is the square of which of the following numbers?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "90",
+        "b": "162",
+        "c": "729",
+        "d": "6561"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Complete the series  3, 9, 81, ___",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25, 35",
+        "b": "20, 25",
+        "c": "35, 40",
+        "d": "24, 30"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the series 5, 7, 10, 14, 15, 21, 20, 28, X, Y, what do X and Y stand for?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One-fourth of the sum of the prime numbers, greater than 4 but less than 16, is the square of",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25",
+        "b": "27",
+        "c": "29",
+        "d": "cannot be estimated"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the mean or average of 5 numbers is 5.4.  What is the total sum of these numbers?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Communication",
+        "b": "Conversation",
+        "c": "Interaction",
+        "d": "Irritation (Contd.  2)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which reaction does not go with the rest?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "100%",
+        "b": "50%",
+        "c": "25%",
+        "d": "0%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A coin is flipped four times with one of the following results in terms of occurence of head (H) or tail (T) A.   H T T HB.   T T T T C.   H H H HD.   H H T H Based on the given information, what would be the probability of a head (H) occuring in the fifth flip?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 2652 13",
+        "c": "",
+        "d": " 1352"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the probability that a card drawn at random from a deck of cards will be an ace? 11",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "105",
+        "b": "91",
+        "c": "85",
+        "d": "78"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a tournament, 14 teams play league matches.  If each team plays against every other team once only, then how many matches are played?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "hrs",
+        "b": "hrs 23 315",
+        "c": "hrs",
+        "d": "hrs 42"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two trains leave New Delhi at the same time.  One travels North at 60 kmph and the other travels south at 40 kmph.  After how many hours will the trains be 150 km apart? 34",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8%",
+        "b": "9%",
+        "c": "10%",
+        "d": "12%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two numbers X and Y are respectively 20% and 28% less than a third number Z.  By what percentage is the number Y less than the number X ?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10",
+        "b": "20",
+        "c": "30",
+        "d": "40"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person travelled a distance of 50 km in 8 hours.  He covered a part of the distance on foot at the rate of 4 km per hour and a part on a bicycle at the rate of 10 km per hour.  How much distance did he travel on foot?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "66",
+        "b": "55",
+        "c": "54",
+        "d": "45 (Contd.  3)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Each person’s performance compared with all other persons is to be done to rank them subjectively. How many comparisions are needed in total, if there are 11 persons?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20",
+        "b": "25",
+        "c": "40",
+        "d": "45"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When ten persons shake hands with one another, in how many ways is it possible?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0.25%",
+        "b": "0.5%",
+        "c": "1%",
+        "d": "2.5%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The difference between the simple interest received from two banks on Rs.500/- for two years is Rs.2.50.  What is the difference between their rates?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: 1.Hepatitis ‘B’ is several times more infectious than HIV/AIDS 2.Hepatitis ‘B’ can cause liver cancer. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "2 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: 1.Every individual in the population is equally susceptible host for swine flu. 2.Antibiotics have no role in the primary treatment of swine flu. 3.To prevent tht future spread of swine flu in the epidemic area, the swine (pigs) must all be culled. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "2 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What are the possible limitations of India in mitigating the global warming at present and in the immediate future? 1.Appropriate alternative technologies are not sufficiently available. 2.India cannot invest huge funds in research and development. 3.Many developed countries have already set up their polluting industries in India. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "East",
+        "b": "West",
+        "c": "North",
+        "d": "South (Contd.  4)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rinpuia wants to go to office.  He started from his home in the east and came to a junction.  The road to his left ends in a cinema hall, straight ahead is the hospital.  In which direction is the office?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "92",
+        "b": "35",
+        "c": "26",
+        "d": "19"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If ‘+’ means ‘multiplied by, ‘–’ means ‘divided by’, ‘×’ means ‘plus’, ‘÷’ means ‘minus’ then (18+10×20)−8÷6=?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NEGRO",
+        "b": "GREEN",
+        "c": "RAIN",
+        "d": "AGREE"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A word given below is followed by four answer words.  Out of these only one can be formed by using the letters of the given word.  Find out that word. REMEMBERING",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "REDEEM",
+        "b": "DREAM",
+        "c": "NEAR",
+        "d": "BORE"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word in the responses cannot be formed by using the alphabets given in the blocks? BEANSEEMDEANREEM",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the word PHOTOGRAPH, how many letters occur twice in the word?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "stagnation",
+        "b": "safeguard",
+        "c": "grandson",
+        "d": "pseudo-grade"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word can be formed from the following letters? a a d e f g r s u",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RHEUMATIC",
+        "b": "CRITICAL",
+        "c": "PRACTICE",
+        "d": "METRIC"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word cannot be formed using the letters in the word PHARMACEUTICAL only once?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Saturday",
+        "b": "Friday",
+        "c": "Monday",
+        "d": "Tuesday"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the first day of a non-leap year falls on a Friday, what would be the last day of the year?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "110",
+        "b": "111",
+        "c": "112",
+        "d": "109"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many days will there be from 26th January, 1988 to 15th May 1988 (both days included)?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "B",
+        "b": "C",
+        "c": "A",
+        "d": "D (Contd.  5)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A is shorter than B but taller than C.  D is shorter than A but taller than C, and E is shorter than B but taller than A.  The shortest person is",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12",
+        "b": "13",
+        "c": "14",
+        "d": "20"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If Pu Ngura finds that he is 12th from the right in a line of men and 4th from the left, how many men should be added to the line so that there are 28 men in the line?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "once",
+        "b": "twice",
+        "c": "thrice",
+        "d": "none"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the following series of numbers, how many times have the digits 9, 1 and 8 appear together, 1 being in the middle and 9 and 8 being either side of 1. 2 1 9 8 1 9 8 3 7 1 9 7 8 1 2 9 1 9 8 1 8 2 1 2",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "13km",
+        "b": "12km",
+        "c": "11km",
+        "d": "14km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Enga told Muana that Sangi’s home was more than 10km but less than 15km from where they are standing.  Muana knew that it was more than 12km but less than 14km from there.  If both Enga and Muana were correct, what will be the distance of Sangi’s house from where they are standing?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "19",
+        "b": "31",
+        "c": "33",
+        "d": "cannot be determined"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a row of ladies, Apuii is 7th from the left and Dampuii is 12th from the right.  If they interchange their positions, Apuii becomes 22nd from the left.  How many ladies are there in the row?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brother and brother-in-law",
+        "b": "Brother-in-law and brother",
+        "c": "Subordinate and brother-in-law",
+        "d": "Friend and brother"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mr. J is a police officer, P’s sister is X, whose husband’s younger brother is L.  X is the wife of J, who is the boss of X’s brother.  How are P and L related to J?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "His own portrait",
+        "b": "His father’s portrait",
+        "c": "His son’s portrait",
+        "d": "His uncle’s portrait"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Looking at a portrait, a man says, “This man’s father is my father’s son and I do not have any brother or sister.”  At whose portrait is he looking?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "7kms",
+        "b": "6kms",
+        "c": "10kms",
+        "d": "5kms"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A man walks 3kms to the West and then 4kms to the North.  How far is he from his starting point?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2, 4, 15",
+        "b": "3, 18, 36",
+        "c": "7, 15, 21",
+        "d": "9, 36, 47 (Contd.  6)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find out the set which is most similar to the given set. Given set : (5, 15, 40)",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "23, 40, 57",
+        "b": "19, 36, 55",
+        "c": "35, 62, 79",
+        "d": "47, 64, 80"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the alternative concerned by the groups of numerals given below: Given :  21, 38, 55",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I, II, IV, III",
+        "b": "I, IV, II, III",
+        "c": "II, I, IV, III",
+        "d": "IV, I, II, III"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrange the words given below in an order following argumentative way: I Cotton       II Cloth       III Suit       IV Thread",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FCHGS",
+        "b": "FCHHS",
+        "c": "FCHHV",
+        "d": "HCIHT"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a certain code, SEAT is written as TGBW and DAY is written as ECZ.  How is EAGER written in that code?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "213310",
+        "b": "213301",
+        "c": "123301",
+        "d": "012334"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If BAT is coded as 283 and CAT is coded as 383,  ARE is coded as 801, the code for BETTER is",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BCD",
+        "b": "QRS",
+        "c": "KMN",
+        "d": "WXY"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select the one which is different from the other three repsonses.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "245",
+        "b": "625",
+        "c": "346",
+        "d": "343"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Complete the series:   5, 7, 25, 49, 125, ?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "possibility",
+        "b": "density",
+        "c": "scarcity",
+        "d": "fancy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select the related word from the given alternatives: spacious  :  capacity  : :  scanty  :  ?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "16",
+        "b": "15",
+        "c": "14",
+        "d": "13 (Contd.  7)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many triangles are there in the figure given below?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3",
+        "b": "1",
+        "c": "2",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two positions of a dice are shown below.  Which number will be in front of 5?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select the related figure from the given alternatives. :: ::?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " AF",
+        "c": "",
+        "d": " KD (Contd.  8)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select the one which is different from the other three.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "16",
+        "b": "12",
+        "c": "8",
+        "d": "6"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select the missing number from the given alternatives. 9 7? 328 36",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Four problem figures are given below: Problem figures ? (1)(2)(3)(4) Which of the following figures should come after the fourth figure? Answer figures",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

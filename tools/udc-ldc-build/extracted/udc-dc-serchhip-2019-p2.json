@@ -1,0 +1,2318 @@
+{
+  "slug": "udc-dc-serchhip-2019-p2",
+  "exam": "UDC under DC Office, Serchhip",
+  "sitting": "2019",
+  "subject": "Paper-II",
+  "source": "Paper-II (DC-Serchhip).pdf",
+  "sourceSha256": "83bec08a7713bed8800a90c6520b32483c2b1e2c17006703997f0ea45f05ebe9",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bangladesh",
+        "b": "Sri Lanka",
+        "c": "Nepal",
+        "d": "Bhutan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the Citizenship (Amendment) Bill, 2016 is passed, illegal migrants from Afghanistan, Pakistan and ________ will then be eligible for Indian citizenship.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China",
+        "b": "Pakistan",
+        "c": "Nepal",
+        "d": "Bangladesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country's import to India is declined by 92% in March, 2019 to $2.84 million?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "bat-like",
+        "b": "snake-like",
+        "c": "cat-like",
+        "d": "bird-like"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Researchers in Germany found a new ________ Dinosaur named ‘Alcmonavis Poeschli’.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Samba",
+        "b": "Pulwama",
+        "c": "Kathua",
+        "d": "Kargil"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India had recently revoked the MFN (Most Favoured Nation) status which was given to Pakistan in 1996 due to ________ terror attack.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalhmingthanga",
+        "b": "C. Lalsawta",
+        "c": "K. Lalthawmmawia",
+        "d": "H. Lalengmawia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is sworn in as the first Lokayukta Chairman of Mizoram in March, 2019?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vienna",
+        "b": "New York",
+        "c": "Geneva",
+        "d": "Paris"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where is the Headquarter of UNICEF?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2025",
+        "b": "2035",
+        "c": "2028",
+        "d": "2030"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per announced by ISRO chief K. Sivan, in which year India is planning to launch its own Space Station?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Narendra Modi",
+        "b": "Vladimir Putin",
+        "c": "Sheikh Hasina",
+        "d": "Justin Trudeau"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which world leader became the first to visit Sri Lanka after the Easter serial bombings (April 21, 2019) that left over 250 dead?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arun Jaitley",
+        "b": "Amit Shah",
+        "c": "Thawarchand Gehlot",
+        "d": "Rajnath Singh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has been appointed as the new leader of Rajya Sabha recently?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Blood for all required",
+        "b": "Safe blood for all",
+        "c": "Be a blessing",
+        "d": "Blood connect us all"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the slogan of World Blood Donor Day 2019?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Scheduled Tribes",
+        "b": "Dalits",
+        "c": "Scheduled Castes",
+        "d": "OBC"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Union Government has decided to develop Eklavya Model Residential Schools for which community?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Norway",
+        "b": "Argentina",
+        "c": "France",
+        "d": "UK"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the first country to declare an environment and climate emergency?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Abdelaziz Bouteflika",
+        "b": "David Malpass",
+        "c": "Mats Malm",
+        "d": "Paul Morland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was selected as the 13th president of the World Bank on April 5, 2019?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "HDFC Bank",
+        "b": "ICICI Bank",
+        "c": "Kotak Mahindra Bank",
+        "d": "SBI"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name the most valued Indian bank with a market cap of Rs 6.45 trillion.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tehran",
+        "b": "Baghdad",
+        "c": "Damascus",
+        "d": "Beirut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the capital of Lebanon?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "South Africa",
+        "b": "Peru",
+        "c": "India",
+        "d": "Turkey"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "7 of the top 10 most polluted cities in the World are in ________.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sun",
+        "b": "Venus",
+        "c": "Mars",
+        "d": "Uranus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ISRO is planning to launch Aditya-L1 mission to study the ________ early in 2020.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Metapedia",
+        "b": "Rationalwiki",
+        "c": "Wikipedia",
+        "d": "Interpedia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following online encyclopedia (All editions) had China blocked in May, 2019?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "17th",
+        "b": "18th",
+        "c": "16th",
+        "d": "15th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Narendra Modi took oath as the ________ Prime Minister of India at the Rashtrapati Bhavan.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8488 m",
+        "b": "8848 m",
+        "c": "8874 m",
+        "d": "8884 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the elevation of Mount Everest?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bull Strike",
+        "b": "Hit the Nail",
+        "c": "Tiger Claw",
+        "d": "Bull Hit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian Armed Forces hold a joint exercise ________ in May, 2019 in Andaman and Nicobar.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Switzerland",
+        "b": "Norway",
+        "c": "Finland",
+        "d": "New Zealand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is set to become the world's first country to measure its success based on the well-being of citizens?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam",
+        "b": "Nagaland",
+        "c": "Manipur",
+        "d": "Arunachal Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Geological Survey of India has recently revealed that 35% of India's Graphite deposits are in:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hong Kong",
+        "b": "Indonesia",
+        "c": "Malaysia",
+        "d": "Taiwan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "By legalising same-sex marriage on May 17, 2019, ________ has became the first Asian country to legalise same-sex marriage.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "16th",
+        "b": "17th",
+        "c": "18th",
+        "d": "19th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 2019 Indian general election was held in seven phases from April 11 to May 19 to constitute the ________ Lok Sabha.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "650",
+        "b": "750",
+        "c": "600",
+        "d": "700"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How much crore of rupees has been allocated in the Mizoram Budget 2019-2020 for the implementation of the state's flagship scheme ‘SEDP’?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "117th",
+        "b": "116th",
+        "c": "119th",
+        "d": "118th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India was ranked ________ out of 181 countries in Kids Right Index 2019.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2",
+        "b": "5",
+        "c": "4",
+        "d": "3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the United Nations World Economic Situation and Prospects (WESP) 2019, the global economy is expected to grow at a steady pace of around ________ per cent in 2019.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chandrani Murmu",
+        "b": "Priya Dutt",
+        "c": "Dimple Yadav",
+        "d": "Maneka Gandhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A 25-year-old engineering graduate from Odhisa has recently become the youngest MP. Who is she?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Apollo",
+        "b": "Artemis",
+        "c": "Ares",
+        "d": "Hermes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "NASA has named its 2024 mission to moon as ________.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Li Keqiang",
+        "b": "Xi Jinping",
+        "c": "Deng Xiaoping",
+        "d": "Wang Yang"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the President of the People's Republic of China? (June, 2019)",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tripura",
+        "b": "Meghalaya",
+        "c": "Mizoram",
+        "d": "Nagaland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which state researchers have recently discovered the so-called rain-loving snake?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Canada",
+        "b": "Mexico",
+        "c": "Russia",
+        "d": "India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "US President Donald Trump has announced tariffs on all goods importing from ________.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chandrayaan-1",
+        "b": "Chandrayaan-2",
+        "c": "Shukrayaan",
+        "d": "Aditya-L1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India's second mission to the moon is named as",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Yen",
+        "b": "Yuan",
+        "c": "Won",
+        "d": "Dong"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the national currency of South Korea?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Glimpses of World history",
+        "b": "The Story of My Experiments With Truth",
+        "c": "The Struggle in My Life",
+        "d": "The Indian Struggle"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mahatma Gandhi was the author of",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Laltluangliana Khiangte",
+        "b": "Joy Lalkrawspari Pachuau",
+        "c": "L. Keivom",
+        "d": "CV. Lalmalsawmi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the author of the book ‘Being Mizo : Identity and Belonging in Northeast India’?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "We Are Displaced",
+        "b": "The Silent Cry",
+        "c": "Freedom in Exile",
+        "d": "The Girl in Blue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is written by Malala Yousafzai?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "an Irishman",
+        "b": "a Scotsman",
+        "c": "an Englishman",
+        "d": "a Welsh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "George Bernard Shaw, the author of ‘Pygmalion’, was",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Luminaries",
+        "b": "Milkman",
+        "c": "Sacred Hunger",
+        "d": "Saville"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Anna Burns wins Man Booker Prize 2018 for her novel ________.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chen Jin",
+        "b": "Lee Chong Wei",
+        "c": "Chen Long",
+        "d": "Lee Yong-dae"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name the Malaysian badminton legend, who announced his retirement in June, 2019 after battle with cancer.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gerd Müller",
+        "b": "Miroslav Klose",
+        "c": "Pelé",
+        "d": "Ronaldo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In FIFA World Cup, ________ is the top goalscorer with a record of 16 goals across four World Cups.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Inarpasual",
+        "b": "Inkawibah",
+        "c": "Insuknawr",
+        "d": "Insaihruipawh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘chhûngphûm’ is related to which of the following Mizo games?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "11 feet",
+        "b": "9 feet",
+        "c": "12 feet",
+        "d": "10 feet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How high is a basketball hoop?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tamil Nadu",
+        "b": "Goa",
+        "c": "Karnataka",
+        "d": "Kerala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Boat race is a famous festival game of:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "French",
+        "b": "Spanish",
+        "c": "English",
+        "d": "German"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the language of the words that stand for RSVP?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oct, Nov, Dec",
+        "b": "oct., nov., dec.,",
+        "c": "oct, nov, dec",
+        "d": "Oct., Nov., Dec."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct abbreviations for October, November, December.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National Aeronotics and Space Administration",
+        "b": "National Aeronotic and Space Administration",
+        "c": "National Aeronotics and Space Administrations",
+        "d": "National Aeronotic and Spaces Administration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is NASA stand for?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "She is Dr Olivia",
+        "b": "She is dr Olivia",
+        "c": "She is Dr. Olivia",
+        "d": "She is dr. Olivia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the sentence that uses the abbreviation correctly.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "People's Right to Information and Development Society of Mizoram",
+        "b": "People's Right to Investigation and Development Implementation Society of Mizoram",
+        "c": "People's Right to Information and Development Implementation Society of Mizoram",
+        "d": "People's Right to Information Society of Mizoram"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expand PRISM, which was officially converted into a political party of Mizoram.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indonesia",
+        "b": "Finland",
+        "c": "Gibraltar",
+        "d": "Tunisia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is called ‘Key to the Mediterranean’?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Spain",
+        "b": "Belgium",
+        "c": "Egypt",
+        "d": "France"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is called ‘Crossroads of Western Europe’?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A-4, B-3, C-1, D-2",
+        "b": "A-2, B-3, C-4, D-1",
+        "c": "A-2, B-4, C-3, D-1",
+        "d": "A-3, B-1, C-4, D-2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match the following: **E**p**ithetsCountr**y A.Sugar Bowl of the World1.New Zealand B.Land of Lilies2.Cuba C.Land of Thunderbolt3.Canada D.Britain of the South4.Bhutan",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "City of festival",
+        "b": "Silicon Valley of India",
+        "c": "Heaven of India",
+        "d": "City of Joy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "________ is the surname of Bangalore.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "City of Palaces - Venice",
+        "b": "Pink City - Jaipur",
+        "c": "City of Seven Hills - Rome",
+        "d": "Gift of Nile - Egypt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following pairs is NOT correctly matched?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Geneva",
+        "b": "Paris",
+        "c": "Stockholm",
+        "d": "Manila"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Nobel Prizes are distributed annually at",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2011",
+        "b": "2014",
+        "c": "2010",
+        "d": "2012"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Mizo Award’ has been awarded since",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zakir Hussain",
+        "b": "VV. Giri",
+        "c": "Rajendra Prasad",
+        "d": "R. Venkataraman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following got the Bharat Ratna award (1963) before becoming the President of India?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Literature",
+        "b": "Chemistry",
+        "c": "Economics",
+        "d": "Physiology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "William D. Nordhaus and Paul M. Romer clinched the 2018 Nobel Prize in ________.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Magsaysay Awards",
+        "b": "Jnanpith Award",
+        "c": "Tansen Awards",
+        "d": "Vyas Samman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which award is considered ‘Asia's Nobel Prize’?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Parachute",
+        "b": "Race cars",
+        "c": "Dynamite",
+        "d": "Ladders"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What invention caused many deaths while testing it?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1850s",
+        "b": "1860s",
+        "c": "1870s",
+        "d": "1880s"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which decade was the telephone invented?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Piano",
+        "b": "Windmill",
+        "c": "Printing Press",
+        "d": "Electric Lamp"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Johannes Gutenberg is associated with the invention or discovery of what?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Alfred Nobel",
+        "b": "Alexander Graham Bell",
+        "c": "Thomas Alva Edition",
+        "d": "Isaac Newton"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented Dynamite?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Harmonium",
+        "b": "Banjo",
+        "c": "Clarinet",
+        "d": "Oboe"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Benjamin Franklin, one of the Founding Fathers of the United States, was a prolific inventor. What musical instrument did he invent?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Trackball",
+        "b": "Mouse",
+        "c": "Joystick",
+        "d": "Printer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a computer system, which device is functionally opposite of a Keyboard?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Page Browser",
+        "b": "Opera Browser",
+        "c": "Internet Browser",
+        "d": "Web Browser"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following software is used to view web pages?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I/O Unit",
+        "b": "Registers",
+        "c": "Arithmetic Logic Unit",
+        "d": "Control Unit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following performs arithmetic and logical operations in a computer?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Binary Digit",
+        "b": "Binary Data",
+        "c": "Binary Deci",
+        "d": "Binary Code"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A bit, the smallest unit of data in a computer, stands for",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Internet",
+        "b": "Network",
+        "c": "E-mail",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A/An ________ is a group of independent computers attached to one another through communication media.",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hard Disk",
+        "b": "USB Disk",
+        "c": "Floppy Disk",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose from the followings a storage device in a computer.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cartridge",
+        "b": "DVD",
+        "c": "Hard Disk",
+        "d": "Keyboard"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a term related with printer?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10000 bytes",
+        "b": "10000 bits",
+        "c": "1 million bits",
+        "d": "1 million bytes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One megabyte equals approximately",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MAN",
+        "b": "LAN",
+        "c": "WAN",
+        "d": "RAN"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is used to communicate from one city to another?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Relational",
+        "b": "Binary",
+        "c": "Processing",
+        "d": "Megabyte"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Computers use the ________ language to process data.",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs. 600",
+        "b": "Rs. 625",
+        "c": "Rs. 645",
+        "d": "Rs. 676"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The present worth of Rs. 676 due 1 year hence at 8% per annum compounded half yearly is -",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs. 1700",
+        "b": "Rs. 1500",
+        "c": "Rs. 1000",
+        "d": "Rs. 2500"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A smart phone is available for Rs. 25000 cash or Rs. 10000 cash down payment along with two equal annual instalments of Rs. 8000 each, then the total interest charged is -",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10 m",
+        "b": "20 m",
+        "c": "30 m",
+        "d": "36 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A bus runs at a speed of 72 km/hr. Distance covered in 1 second is -",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15.4 km/hr",
+        "b": "16.5 km/hr",
+        "c": "21.6 km/hr",
+        "d": "22.5 km/hr"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A speed of 6 m/sec is equal to -",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 m/sec",
+        "b": "10 m/sec",
+        "c": "18 m/sec",
+        "d": "20 m/sec"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A speed of 36 km/hr is the same as -",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 km",
+        "b": "2 km",
+        "c": "3 km",
+        "d": "4 km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two men start from the same point at the rate of 4 km/hr and 4.5 km/hr respectively. The distance between them after 4 hours, when they walk in the same direction will be -",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "110 m/sec",
+        "b": "220 m/sec",
+        "c": "330 m/sec",
+        "d": "350 m/sec"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A thunder-cloud is at a distance of 3.3 km. If the sound of the thunder-cloud follows the flash after 10 seconds, the speed at which sound travels is -",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "36 hours",
+        "b": "42 hours",
+        "c": "45 hours",
+        "d": "48 hours"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A pipe can fill a tank in 16 hours. Due to leakage in the bottom, it is filled in 24 hours. If the tank is full, time taken by the leak to empty the tank is -",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12 days",
+        "b": "24 days",
+        "c": "6 days",
+        "d": "4 days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A man can do a piece of work in 6 days which he can complete in 4 days when his friend helps him. His friend can complete the work alone in -",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30 hours",
+        "b": "40 hours",
+        "c": "50 hours",
+        "d": "60 hours"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pipe A can fill an empty tank in 10 hours and pipe B can empty the full tank in 12 hours. If both the pipes are opened together in an empty tank, time taken to fill the empty tank is -",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "66",
+        "b": "77",
+        "c": "88",
+        "d": "99"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 20th term of the A.P. 4, 9, 14, .......... is",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0",
+        "b": "144",
+        "c": "- 144",
+        "d": "- 441"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sum of the first 10 terms of the AP: 9, 7, 5, 3 ........ is -",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "11 m",
+        "b": "10 m",
+        "c": "5 m",
+        "d": "4 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A 13 m long ladder reaches a window of a building 12 m above the ground, then the distance of the foot of the ladder from the building is -",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9",
+        "b": "10",
+        "c": "18",
+        "d": "19"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a group of 70 people, 37 like coffee, 52 like tea and each person likes at least one of the two drinks. How many people like both coffee and tea?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10",
+        "b": "20",
+        "c": "50",
+        "d": "60"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a committee, 50 people speak English, 20 speak Hindi and 10 speak both English and Hindi. How many people speak at least one of these languages?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20",
+        "b": "21",
+        "c": "23",
+        "d": "25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a group of people, 50 like tea, 55 like coffee and 30 like both. How many people like tea only?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3.5 cm",
+        "b": "7 cm",
+        "c": "14 cm",
+        "d": "15 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the circumference of a circle is 22 cm, then the diameter of the circle is -",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "14 cm",
+        "b": "10 cm",
+        "c": "7 cm",
+        "d": "6 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The area of a circle is 154 cm², then its radius is",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4 cm",
+        "b": "8 cm",
+        "c": "12 cm",
+        "d": "16 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "3 cubes each of volume 64 cm³ are joined end to end. The length of the resulting cuboid is -",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30",
+        "b": "40",
+        "c": "45",
+        "d": "55"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many solid cubes of lead whose edge measures 3 cm can be made out of a cuboid whose dimensions are 6 cm × 12 cm × 15 cm?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "35 cm",
+        "b": "30 cm",
+        "c": "25 cm",
+        "d": "20 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The radius of a circle with area 3850 cm² is",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1800",
+        "b": "1840",
+        "c": "1900",
+        "d": "1920"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The number of planks of dimensions (4 m × 5 m × 2 m) that can be stored in a pit which is 40 m long, 12 m wide and 160 m deep is",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 53 87",
+        "c": "",
+        "d": " 1515"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A bag contains 3 red balls, 5 white balls and 7 black balls. The probability that a ball drawn from the bag at random will be neither red nor black is - 11",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 66 21",
+        "c": "",
+        "d": " 32"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A die is thrown once. The probability of getting a number other than 5 is - 15",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 78 35",
+        "c": "",
+        "d": " 58"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A bag contains 35 balls of which x are red, 2x are white and 4x are blue. A ball is selected at random. What is the probality that it is red? 11",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "A": [],
+    "B": []
+  }
+}

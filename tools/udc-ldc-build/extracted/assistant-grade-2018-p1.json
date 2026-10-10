@@ -1,0 +1,22 @@
+{
+  "slug": "assistant-grade-2018-p1",
+  "exam": "Assistant Grade",
+  "sitting": "April 2018",
+  "subject": "Paper-I",
+  "source": "assistant-grade-2018-p1.pdf",
+  "sourceSha256": "56f689605c1fbb56c68092811da96902d6297f68f84cf28fca72d1f8c3050a6c",
+  "ocr": false,
+  "count": 0,
+  "questions": [],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/f48ddda4e8c5443eb9ad87d30e85b035/assistant-grade-paper-i.pdf",
+  "enrichmentVersion": 5,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

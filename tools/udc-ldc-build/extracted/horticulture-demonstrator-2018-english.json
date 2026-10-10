@@ -1,0 +1,1884 @@
+{
+  "slug": "horticulture-demonstrator-2018-english",
+  "exam": "Sr. Horticulture Demonstrator under Horticulture Department",
+  "sitting": "April 2018",
+  "subject": "General English",
+  "source": "horticulture-demonstrator-2018-english.pdf",
+  "sourceSha256": "cd686973b1e79f802c33c1838962828c46709f1a4ffc53bdfe03d005c646f998",
+  "ocr": false,
+  "count": 80,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "absolve yourself of guilt",
+        "b": "enjoy forever",
+        "c": "have it both ways",
+        "d": "run away from responsibility"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You cannot have your cake and eat it too.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "with black ink on the white paper",
+        "b": "make it in writing",
+        "c": "agreement between the black and the English",
+        "d": "a peaceful agreement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Let us have this agreement in black and white.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "earn enough",
+        "b": "work hard",
+        "c": "control private as well as company’s affairs.",
+        "d": "manage business"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He cannot make both ends meet.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "up hills and down hills",
+        "b": "grievances",
+        "c": "happiness",
+        "d": "joys and hardships"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have seen many ups and downs in my life.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "inaudible",
+        "b": "disinterested",
+        "c": "deaf",
+        "d": "not emotional"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Catherine is a little hard of hearing.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "as objectively as possible",
+        "b": "in simple and brief manner",
+        "c": "an actual experience described vividly",
+        "d": "with confidence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To tell you in a nutshell, lust for power and money has almost spoiled him.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "retreating point",
+        "b": "memorable event",
+        "c": "an event that changes the fate or views",
+        "d": "a point of no return"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The War of Kalinga proved to be a turning point  in the life of Ashoka, the Great.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "makes me sad",
+        "b": "irritates me",
+        "c": "pierces my eardrums",
+        "d": "makes me ill"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His voice gets on my nerves.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "like numbers",
+        "b": "not in order",
+        "c": "in order",
+        "d": "uncountable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Everything in the room was lying at sixes and sevens.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "to give information",
+        "b": "to blurt out the truth",
+        "c": "to scatter the truth",
+        "d": "to scatter the beans"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Continuous interrogation finally made the man spill the beans and the disaster was averted.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "happy",
+        "b": "on holiday",
+        "c": "free of troubles",
+        "d": "with nothing to do"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "After having finished the last project, I find myself at loose end.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "a man who wrote many articles",
+        "b": "who received so many letters",
+        "c": "a learned man",
+        "d": "a man of many degrees"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dr. Radha Krishnan was a man of letters.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "below",
+        "b": "above",
+        "c": "under",
+        "d": "over"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is on the wrong side of sixty.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "grovelling person",
+        "b": "joyous person",
+        "c": "angry person",
+        "d": "shrewd person"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "No one admires an earth-worm.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "by strong determination",
+        "b": "by many means",
+        "c": "by all means",
+        "d": "by several means"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I must get this job by hook or by crook.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 1-16) : From the four alternatives given below, choose the correct meaning of",
+      "opts": {
+        "a": "without fear",
+        "b": "with courage",
+        "c": "with patriotic feeling",
+        "d": "with great violence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Every army has to fight tooth-and -nail in war.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "All people are of the opinion that women should be given special status.",
+        "b": "Some people hold the opinion that women should not be given special status.",
+        "c": "No one feels that women should be given special status.",
+        "d": "There is no controversy regarding women being given special status."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is correct in the context of the passage in regard to development schemes?",
+      "multi": false,
+      "passage": "A recent report titled ‘Women and Children in India’ and a nearly simultaneous report on ‘Indian Women - their health and economic productivity’ highlight the international importance being given to the problems of the progress of Indian women. Unfortunately, both the reports fail to either convey a fresh understanding of the issue or to suggest innovative and workable approaches for women’s development. The former is because the reports restrict themselves to old statistics. We are told, for example, that the ratio of women to men remains below its natural level and that it is related to other parameters, such as the level of literacy and the availability of primary health care. The failure to suggest a fresh approach is less understandable given that a variety of approaches to women’s development has been tried out over the world. In India, the state has made a strong political and economic commitment to women. In 1990, the National Commission on Women was established. In 1989, two major policy documents were released. Ever since, the Sixth Five Year Plan, there has been a special section on socio-economic programmes for women. Poverty alleviation programmes have a 30 per cent target for women. Special programmes like Development of Women and Children in Rural Areas have also been started. These governmental and other approaches have had mixed results. For example, SEWA’s (Self Employed Women’s Association) and WWF’s (Working Women’s Forum) approach of using bank credit to organize self-employed women has worked well. So also women’s literacy programmes in Kerala. On the other hand, some of the legislated reforms like dowry prohibition have not work well. The issue of whether women should be identified as separate participants in the development process is also controversial. In this context, it is disappointing to read in one of the reports that one of the government’s targets for 1991-95 ought to be foster ‘An ethos of caring in the community, not to let a child ‘go to bed hungry,’ be subjected to a preventable disease or remain without learning opportunity - this could mark the beginning of a social process towards a more humane order’ is the report saying then the Indians don’t love their children as a matter of policy makers. It is very unfortunate that these reports have become superficial and don’t delve sufficiently deep into the problems."
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "Natural causes",
+        "b": "Economic development",
+        "c": "Literacy level",
+        "d": "Socio-economic programmes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is specifically put forward as a reason for the unequal sex ratio in population?",
+      "multi": false,
+      "passage": "A recent report titled ‘Women and Children in India’ and a nearly simultaneous report on ‘Indian Women - their health and economic productivity’ highlight the international importance being given to the problems of the progress of Indian women. Unfortunately, both the reports fail to either convey a fresh understanding of the issue or to suggest innovative and workable approaches for women’s development. The former is because the reports restrict themselves to old statistics. We are told, for example, that the ratio of women to men remains below its natural level and that it is related to other parameters, such as the level of literacy and the availability of primary health care. The failure to suggest a fresh approach is less understandable given that a variety of approaches to women’s development has been tried out over the world. In India, the state has made a strong political and economic commitment to women. In 1990, the National Commission on Women was established. In 1989, two major policy documents were released. Ever since, the Sixth Five Year Plan, there has been a special section on socio-economic programmes for women. Poverty alleviation programmes have a 30 per cent target for women. Special programmes like Development of Women and Children in Rural Areas have also been started. These governmental and other approaches have had mixed results. For example, SEWA’s (Self Employed Women’s Association) and WWF’s (Working Women’s Forum) approach of using bank credit to organize self-employed women has worked well. So also women’s literacy programmes in Kerala. On the other hand, some of the legislated reforms like dowry prohibition have not work well. The issue of whether women should be identified as separate participants in the development process is also controversial. In this context, it is disappointing to read in one of the reports that one of the government’s targets for 1991-95 ought to be foster ‘An ethos of caring in the community, not to let a child ‘go to bed hungry,’ be subjected to a preventable disease or remain without learning opportunity - this could mark the beginning of a social process towards a more humane order’ is the report saying then the Indians don’t love their children as a matter of policy makers. It is very unfortunate that these reports have become superficial and don’t delve sufficiently deep into the problems."
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "They highlight the problems of Indian women",
+        "b": "They contain outdated statistical data",
+        "c": "The reports have not suggested many new measures",
+        "d": "Some of them suggested many new measures"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not put forward by the author of the passage as a defect of the reports?",
+      "multi": false,
+      "passage": "A recent report titled ‘Women and Children in India’ and a nearly simultaneous report on ‘Indian Women - their health and economic productivity’ highlight the international importance being given to the problems of the progress of Indian women. Unfortunately, both the reports fail to either convey a fresh understanding of the issue or to suggest innovative and workable approaches for women’s development. The former is because the reports restrict themselves to old statistics. We are told, for example, that the ratio of women to men remains below its natural level and that it is related to other parameters, such as the level of literacy and the availability of primary health care. The failure to suggest a fresh approach is less understandable given that a variety of approaches to women’s development has been tried out over the world. In India, the state has made a strong political and economic commitment to women. In 1990, the National Commission on Women was established. In 1989, two major policy documents were released. Ever since, the Sixth Five Year Plan, there has been a special section on socio-economic programmes for women. Poverty alleviation programmes have a 30 per cent target for women. Special programmes like Development of Women and Children in Rural Areas have also been started. These governmental and other approaches have had mixed results. For example, SEWA’s (Self Employed Women’s Association) and WWF’s (Working Women’s Forum) approach of using bank credit to organize self-employed women has worked well. So also women’s literacy programmes in Kerala. On the other hand, some of the legislated reforms like dowry prohibition have not work well. The issue of whether women should be identified as separate participants in the development process is also controversial. In this context, it is disappointing to read in one of the reports that one of the government’s targets for 1991-95 ought to be foster ‘An ethos of caring in the community, not to let a child ‘go to bed hungry,’ be subjected to a preventable disease or remain without learning opportunity - this could mark the beginning of a social process towards a more humane order’ is the report saying then the Indians don’t love their children as a matter of policy makers. It is very unfortunate that these reports have become superficial and don’t delve sufficiently deep into the problems."
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "Culturally, Indians don’t love their children",
+        "b": "All developmental programmes and schemes are generally a success",
+        "c": "Indian women don’t manage their  finances well",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is true in the context of the passage?",
+      "multi": false,
+      "passage": "A recent report titled ‘Women and Children in India’ and a nearly simultaneous report on ‘Indian Women - their health and economic productivity’ highlight the international importance being given to the problems of the progress of Indian women. Unfortunately, both the reports fail to either convey a fresh understanding of the issue or to suggest innovative and workable approaches for women’s development. The former is because the reports restrict themselves to old statistics. We are told, for example, that the ratio of women to men remains below its natural level and that it is related to other parameters, such as the level of literacy and the availability of primary health care. The failure to suggest a fresh approach is less understandable given that a variety of approaches to women’s development has been tried out over the world. In India, the state has made a strong political and economic commitment to women. In 1990, the National Commission on Women was established. In 1989, two major policy documents were released. Ever since, the Sixth Five Year Plan, there has been a special section on socio-economic programmes for women. Poverty alleviation programmes have a 30 per cent target for women. Special programmes like Development of Women and Children in Rural Areas have also been started. These governmental and other approaches have had mixed results. For example, SEWA’s (Self Employed Women’s Association) and WWF’s (Working Women’s Forum) approach of using bank credit to organize self-employed women has worked well. So also women’s literacy programmes in Kerala. On the other hand, some of the legislated reforms like dowry prohibition have not work well. The issue of whether women should be identified as separate participants in the development process is also controversial. In this context, it is disappointing to read in one of the reports that one of the government’s targets for 1991-95 ought to be foster ‘An ethos of caring in the community, not to let a child ‘go to bed hungry,’ be subjected to a preventable disease or remain without learning opportunity - this could mark the beginning of a social process towards a more humane order’ is the report saying then the Indians don’t love their children as a matter of policy makers. It is very unfortunate that these reports have become superficial and don’t delve sufficiently deep into the problems."
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "Prevent hunger of children",
+        "b": "Prevent disease in children",
+        "c": "Increase educational opportunities",
+        "d": "Community care of children"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following has not been mentioned as necessary, in one of the reports, to start new social order?",
+      "multi": false,
+      "passage": "A recent report titled ‘Women and Children in India’ and a nearly simultaneous report on ‘Indian Women - their health and economic productivity’ highlight the international importance being given to the problems of the progress of Indian women. Unfortunately, both the reports fail to either convey a fresh understanding of the issue or to suggest innovative and workable approaches for women’s development. The former is because the reports restrict themselves to old statistics. We are told, for example, that the ratio of women to men remains below its natural level and that it is related to other parameters, such as the level of literacy and the availability of primary health care. The failure to suggest a fresh approach is less understandable given that a variety of approaches to women’s development has been tried out over the world. In India, the state has made a strong political and economic commitment to women. In 1990, the National Commission on Women was established. In 1989, two major policy documents were released. Ever since, the Sixth Five Year Plan, there has been a special section on socio-economic programmes for women. Poverty alleviation programmes have a 30 per cent target for women. Special programmes like Development of Women and Children in Rural Areas have also been started. These governmental and other approaches have had mixed results. For example, SEWA’s (Self Employed Women’s Association) and WWF’s (Working Women’s Forum) approach of using bank credit to organize self-employed women has worked well. So also women’s literacy programmes in Kerala. On the other hand, some of the legislated reforms like dowry prohibition have not work well. The issue of whether women should be identified as separate participants in the development process is also controversial. In this context, it is disappointing to read in one of the reports that one of the government’s targets for 1991-95 ought to be foster ‘An ethos of caring in the community, not to let a child ‘go to bed hungry,’ be subjected to a preventable disease or remain without learning opportunity - this could mark the beginning of a social process towards a more humane order’ is the report saying then the Indians don’t love their children as a matter of policy makers. It is very unfortunate that these reports have become superficial and don’t delve sufficiently deep into the problems."
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "The problems are dealt with superficially",
+        "b": "Old data are used in the reports",
+        "c": "Some of the development schemes are not dealt with",
+        "d": "Indian problems cannot be understood by foreigners"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why does the author say that the reports are unable to convey a ‘fresh understanding of the issues’?",
+      "multi": false,
+      "passage": "A recent report titled ‘Women and Children in India’ and a nearly simultaneous report on ‘Indian Women - their health and economic productivity’ highlight the international importance being given to the problems of the progress of Indian women. Unfortunately, both the reports fail to either convey a fresh understanding of the issue or to suggest innovative and workable approaches for women’s development. The former is because the reports restrict themselves to old statistics. We are told, for example, that the ratio of women to men remains below its natural level and that it is related to other parameters, such as the level of literacy and the availability of primary health care. The failure to suggest a fresh approach is less understandable given that a variety of approaches to women’s development has been tried out over the world. In India, the state has made a strong political and economic commitment to women. In 1990, the National Commission on Women was established. In 1989, two major policy documents were released. Ever since, the Sixth Five Year Plan, there has been a special section on socio-economic programmes for women. Poverty alleviation programmes have a 30 per cent target for women. Special programmes like Development of Women and Children in Rural Areas have also been started. These governmental and other approaches have had mixed results. For example, SEWA’s (Self Employed Women’s Association) and WWF’s (Working Women’s Forum) approach of using bank credit to organize self-employed women has worked well. So also women’s literacy programmes in Kerala. On the other hand, some of the legislated reforms like dowry prohibition have not work well. The issue of whether women should be identified as separate participants in the development process is also controversial. In this context, it is disappointing to read in one of the reports that one of the government’s targets for 1991-95 ought to be foster ‘An ethos of caring in the community, not to let a child ‘go to bed hungry,’ be subjected to a preventable disease or remain without learning opportunity - this could mark the beginning of a social process towards a more humane order’ is the report saying then the Indians don’t love their children as a matter of policy makers. It is very unfortunate that these reports have become superficial and don’t delve sufficiently deep into the problems."
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "Aim",
+        "b": "Margin",
+        "c": "Attempt",
+        "d": "Quota"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is conveying the same meaning as the word ‘target’ is used in the passage?",
+      "multi": false,
+      "passage": "A recent report titled ‘Women and Children in India’ and a nearly simultaneous report on ‘Indian Women - their health and economic productivity’ highlight the international importance being given to the problems of the progress of Indian women. Unfortunately, both the reports fail to either convey a fresh understanding of the issue or to suggest innovative and workable approaches for women’s development. The former is because the reports restrict themselves to old statistics. We are told, for example, that the ratio of women to men remains below its natural level and that it is related to other parameters, such as the level of literacy and the availability of primary health care. The failure to suggest a fresh approach is less understandable given that a variety of approaches to women’s development has been tried out over the world. In India, the state has made a strong political and economic commitment to women. In 1990, the National Commission on Women was established. In 1989, two major policy documents were released. Ever since, the Sixth Five Year Plan, there has been a special section on socio-economic programmes for women. Poverty alleviation programmes have a 30 per cent target for women. Special programmes like Development of Women and Children in Rural Areas have also been started. These governmental and other approaches have had mixed results. For example, SEWA’s (Self Employed Women’s Association) and WWF’s (Working Women’s Forum) approach of using bank credit to organize self-employed women has worked well. So also women’s literacy programmes in Kerala. On the other hand, some of the legislated reforms like dowry prohibition have not work well. The issue of whether women should be identified as separate participants in the development process is also controversial. In this context, it is disappointing to read in one of the reports that one of the government’s targets for 1991-95 ought to be foster ‘An ethos of caring in the community, not to let a child ‘go to bed hungry,’ be subjected to a preventable disease or remain without learning opportunity - this could mark the beginning of a social process towards a more humane order’ is the report saying then the Indians don’t love their children as a matter of policy makers. It is very unfortunate that these reports have become superficial and don’t delve sufficiently deep into the problems."
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "q": "Which of the following conveys the same meaning as the word “mark” as used in the passage?",
+      "opts": {
+        "a": "Symbol",
+        "b": "Sign",
+        "c": "Distinguish",
+        "d": "Notice"
+      },
+      "unscored": true,
+      "reviewNote": "The source labels both lower options (d). Alternatives are displayed in their printed visual order; no answer is scored.",
+      "passage": "A recent report titled ‘Women and Children in India’ and a nearly simultaneous report on ‘Indian Women - their health and economic productivity’ highlight the international importance being given to the problems of the progress of Indian women. Unfortunately, both the reports fail to either convey a fresh understanding of the issue or to suggest innovative and workable approaches for women’s development. The former is because the reports restrict themselves to old statistics. We are told, for example, that the ratio of women to men remains below its natural level and that it is related to other parameters, such as the level of literacy and the availability of primary health care. The failure to suggest a fresh approach is less understandable given that a variety of approaches to women’s development has been tried out over the world. In India, the state has made a strong political and economic commitment to women. In 1990, the National Commission on Women was established. In 1989, two major policy documents were released. Ever since, the Sixth Five Year Plan, there has been a special section on socio-economic programmes for women. Poverty alleviation programmes have a 30 per cent target for women. Special programmes like Development of Women and Children in Rural Areas have also been started. These governmental and other approaches have had mixed results. For example, SEWA’s (Self Employed Women’s Association) and WWF’s (Working Women’s Forum) approach of using bank credit to organize self-employed women has worked well. So also women’s literacy programmes in Kerala. On the other hand, some of the legislated reforms like dowry prohibition have not work well. The issue of whether women should be identified as separate participants in the development process is also controversial. In this context, it is disappointing to read in one of the reports that one of the government’s targets for 1991-95 ought to be foster ‘An ethos of caring in the community, not to let a child ‘go to bed hungry,’ be subjected to a preventable disease or remain without learning opportunity - this could mark the beginning of a social process towards a more humane order’ is the report saying then the Indians don’t love their children as a matter of policy makers. It is very unfortunate that these reports have become superficial and don’t delve sufficiently deep into the problems.",
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q024.webp"
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "The problem of the women in general is in attention the world over",
+        "b": "National Commission of Women is an attempt for women’s development",
+        "c": "Indian people love their children and try to take care of them",
+        "d": "Right from independence, women have been receiving special attention for develoment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is false according to the passage?",
+      "multi": false,
+      "passage": "A recent report titled ‘Women and Children in India’ and a nearly simultaneous report on ‘Indian Women - their health and economic productivity’ highlight the international importance being given to the problems of the progress of Indian women. Unfortunately, both the reports fail to either convey a fresh understanding of the issue or to suggest innovative and workable approaches for women’s development. The former is because the reports restrict themselves to old statistics. We are told, for example, that the ratio of women to men remains below its natural level and that it is related to other parameters, such as the level of literacy and the availability of primary health care. The failure to suggest a fresh approach is less understandable given that a variety of approaches to women’s development has been tried out over the world. In India, the state has made a strong political and economic commitment to women. In 1990, the National Commission on Women was established. In 1989, two major policy documents were released. Ever since, the Sixth Five Year Plan, there has been a special section on socio-economic programmes for women. Poverty alleviation programmes have a 30 per cent target for women. Special programmes like Development of Women and Children in Rural Areas have also been started. These governmental and other approaches have had mixed results. For example, SEWA’s (Self Employed Women’s Association) and WWF’s (Working Women’s Forum) approach of using bank credit to organize self-employed women has worked well. So also women’s literacy programmes in Kerala. On the other hand, some of the legislated reforms like dowry prohibition have not work well. The issue of whether women should be identified as separate participants in the development process is also controversial. In this context, it is disappointing to read in one of the reports that one of the government’s targets for 1991-95 ought to be foster ‘An ethos of caring in the community, not to let a child ‘go to bed hungry,’ be subjected to a preventable disease or remain without learning opportunity - this could mark the beginning of a social process towards a more humane order’ is the report saying then the Indians don’t love their children as a matter of policy makers. It is very unfortunate that these reports have become superficial and don’t delve sufficiently deep into the problems."
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "Due to the cultural ethos in the country",
+        "b": "Because of the fact that it was passed as law",
+        "c": "No social organizations were involved in this",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why has, according to the passage, the legislation prohibiting dowry failed in India?",
+      "multi": false,
+      "passage": "A recent report titled ‘Women and Children in India’ and a nearly simultaneous report on ‘Indian Women - their health and economic productivity’ highlight the international importance being given to the problems of the progress of Indian women. Unfortunately, both the reports fail to either convey a fresh understanding of the issue or to suggest innovative and workable approaches for women’s development. The former is because the reports restrict themselves to old statistics. We are told, for example, that the ratio of women to men remains below its natural level and that it is related to other parameters, such as the level of literacy and the availability of primary health care. The failure to suggest a fresh approach is less understandable given that a variety of approaches to women’s development has been tried out over the world. In India, the state has made a strong political and economic commitment to women. In 1990, the National Commission on Women was established. In 1989, two major policy documents were released. Ever since, the Sixth Five Year Plan, there has been a special section on socio-economic programmes for women. Poverty alleviation programmes have a 30 per cent target for women. Special programmes like Development of Women and Children in Rural Areas have also been started. These governmental and other approaches have had mixed results. For example, SEWA’s (Self Employed Women’s Association) and WWF’s (Working Women’s Forum) approach of using bank credit to organize self-employed women has worked well. So also women’s literacy programmes in Kerala. On the other hand, some of the legislated reforms like dowry prohibition have not work well. The issue of whether women should be identified as separate participants in the development process is also controversial. In this context, it is disappointing to read in one of the reports that one of the government’s targets for 1991-95 ought to be foster ‘An ethos of caring in the community, not to let a child ‘go to bed hungry,’ be subjected to a preventable disease or remain without learning opportunity - this could mark the beginning of a social process towards a more humane order’ is the report saying then the Indians don’t love their children as a matter of policy makers. It is very unfortunate that these reports have become superficial and don’t delve sufficiently deep into the problems."
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "Malnutrition",
+        "b": "Insomnia",
+        "c": "Famine",
+        "d": "Undernourishment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following would indicate the same meaning as the phrase ‘go to bed hungry’ as it has been used in the passage?",
+      "multi": false,
+      "passage": "A recent report titled ‘Women and Children in India’ and a nearly simultaneous report on ‘Indian Women - their health and economic productivity’ highlight the international importance being given to the problems of the progress of Indian women. Unfortunately, both the reports fail to either convey a fresh understanding of the issue or to suggest innovative and workable approaches for women’s development. The former is because the reports restrict themselves to old statistics. We are told, for example, that the ratio of women to men remains below its natural level and that it is related to other parameters, such as the level of literacy and the availability of primary health care. The failure to suggest a fresh approach is less understandable given that a variety of approaches to women’s development has been tried out over the world. In India, the state has made a strong political and economic commitment to women. In 1990, the National Commission on Women was established. In 1989, two major policy documents were released. Ever since, the Sixth Five Year Plan, there has been a special section on socio-economic programmes for women. Poverty alleviation programmes have a 30 per cent target for women. Special programmes like Development of Women and Children in Rural Areas have also been started. These governmental and other approaches have had mixed results. For example, SEWA’s (Self Employed Women’s Association) and WWF’s (Working Women’s Forum) approach of using bank credit to organize self-employed women has worked well. So also women’s literacy programmes in Kerala. On the other hand, some of the legislated reforms like dowry prohibition have not work well. The issue of whether women should be identified as separate participants in the development process is also controversial. In this context, it is disappointing to read in one of the reports that one of the government’s targets for 1991-95 ought to be foster ‘An ethos of caring in the community, not to let a child ‘go to bed hungry,’ be subjected to a preventable disease or remain without learning opportunity - this could mark the beginning of a social process towards a more humane order’ is the report saying then the Indians don’t love their children as a matter of policy makers. It is very unfortunate that these reports have become superficial and don’t delve sufficiently deep into the problems."
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
+      "opts": {
+        "a": "Evaluative",
+        "b": "Critical",
+        "c": "Neutral",
+        "d": "Praiseful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following would correctly reflect the position of the author of the passage to the two reports mentioned in the first paragraph?",
+      "multi": false,
+      "passage": "A recent report titled ‘Women and Children in India’ and a nearly simultaneous report on ‘Indian Women - their health and economic productivity’ highlight the international importance being given to the problems of the progress of Indian women. Unfortunately, both the reports fail to either convey a fresh understanding of the issue or to suggest innovative and workable approaches for women’s development. The former is because the reports restrict themselves to old statistics. We are told, for example, that the ratio of women to men remains below its natural level and that it is related to other parameters, such as the level of literacy and the availability of primary health care. The failure to suggest a fresh approach is less understandable given that a variety of approaches to women’s development has been tried out over the world. In India, the state has made a strong political and economic commitment to women. In 1990, the National Commission on Women was established. In 1989, two major policy documents were released. Ever since, the Sixth Five Year Plan, there has been a special section on socio-economic programmes for women. Poverty alleviation programmes have a 30 per cent target for women. Special programmes like Development of Women and Children in Rural Areas have also been started. These governmental and other approaches have had mixed results. For example, SEWA’s (Self Employed Women’s Association) and WWF’s (Working Women’s Forum) approach of using bank credit to organize self-employed women has worked well. So also women’s literacy programmes in Kerala. On the other hand, some of the legislated reforms like dowry prohibition have not work well. The issue of whether women should be identified as separate participants in the development process is also controversial. In this context, it is disappointing to read in one of the reports that one of the government’s targets for 1991-95 ought to be foster ‘An ethos of caring in the community, not to let a child ‘go to bed hungry,’ be subjected to a preventable disease or remain without learning opportunity - this could mark the beginning of a social process towards a more humane order’ is the report saying then the Indians don’t love their children as a matter of policy makers. It is very unfortunate that these reports have become superficial and don’t delve sufficiently deep into the problems."
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 - 34) : Fill up the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "in",
+        "b": "on",
+        "c": "at",
+        "d": "of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Are you ___________ the committee?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 - 34) : Fill up the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "for",
+        "b": "with",
+        "c": "to",
+        "d": "against"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rule is applicable ___________ everyone.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 - 34) : Fill up the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "since",
+        "b": "from",
+        "c": "by",
+        "d": "until"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He has been ill ___________ Monday.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 - 34) : Fill up the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "on",
+        "b": "upon",
+        "c": "above",
+        "d": "over"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A sword was hanging ___________ my head.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 - 34) : Fill up the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "with",
+        "b": "on",
+        "c": "of",
+        "d": "about"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This is a book ___________ poems.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 29 - 34) : Fill up the blanks with suitable prepositions from the alternatives",
+      "opts": {
+        "a": "with",
+        "b": "for",
+        "c": "by",
+        "d": "at"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The car was running ___________ full speed.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35 - 40) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "adjective",
+        "d": "abstract noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This book is **unique.**",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q035.webp"
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35 - 40) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "noun",
+        "b": "adjective",
+        "c": "adverb",
+        "d": "determiner"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Health is real **happiness** indeed.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q036.webp"
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35 - 40) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "preposition",
+        "d": "conjunction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We must **serve** our motherland",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q037.webp"
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35 - 40) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "noun",
+        "b": "adjective",
+        "c": "verb",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The weather is **delightfully** cool.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q038.webp"
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35 - 40) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "adverb",
+        "b": "determiner",
+        "c": "adjective",
+        "d": "pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He congratulated me on **my** brilliant success.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q039.webp"
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 35 - 40) : Identify the parts of speech of each underlined words :",
+      "opts": {
+        "a": "determiner",
+        "b": "adjective",
+        "c": "conjunction",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We never saw such **a** terrible accident.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q040.webp"
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :",
+      "opts": {
+        "a": "have cried",
+        "b": "have been crying",
+        "c": "has been crying",
+        "d": "had been cried"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The baby ___________ for milk",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :",
+      "opts": {
+        "a": "did",
+        "b": "have done",
+        "c": "have been done",
+        "d": "had done"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She ___________ a lot of work today.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :",
+      "opts": {
+        "a": "had not succeeds",
+        "b": "had not succeeded",
+        "c": "have not succeeded",
+        "d": "has not succeeded"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Robert’s career would have been ruined if he ___________ in the examination last year.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :",
+      "opts": {
+        "a": "finish",
+        "b": "finished",
+        "c": "have finished",
+        "d": "had finished"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He arrived after I ___________ my last letter to you.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :",
+      "opts": {
+        "a": "knows",
+        "b": "is known",
+        "c": "has been known",
+        "d": "had known"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He ___________ her for a long time before he finally got married to her.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :",
+      "opts": {
+        "a": "rings",
+        "b": "had been ringing",
+        "c": "have been ringing",
+        "d": "has been ringing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He ___________ the bell for five minutes. But on one opened the door.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :",
+      "opts": {
+        "a": "had been slain",
+        "b": "have been slain",
+        "c": "has been slain",
+        "d": "having being slain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "After the soldiers ___________ they were buried.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :",
+      "opts": {
+        "a": "gone back",
+        "b": "have gone back",
+        "c": "will have gone back",
+        "d": "going back"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At the end of the year my father will have retired and ___________ to our village.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 - 53) : Analyse the given sentences and choose the correct option :",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "That the earth is round and that it can thus be circumnavigated was once a surprising fact.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 - 53) : Analyse the given sentences and choose the correct option :",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Those stout, healthy boys play very well.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 - 53) : Analyse the given sentences and choose the correct option :",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Day dawned and birds began to chirp in the trees.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 - 53) : Analyse the given sentences and choose the correct option :",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "The team that wins the toss usually chooses to bat.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 49 - 53) : Analyse the given sentences and choose the correct option :",
+      "opts": {
+        "a": "Compound sentence",
+        "b": "Complex sentence",
+        "c": "Simple sentence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "I went in but I missed you and so I left.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 54 -58) : Pick the correct clause of the words underlined in the given sentences:",
+      "opts": {
+        "a": "Noun Clause",
+        "b": "Adjective Clause",
+        "c": "Adverb Clause",
+        "d": "Co-ordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**What he told me** was perfectly true",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q054.webp"
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 54 -58) : Pick the correct clause of the words underlined in the given sentences:",
+      "opts": {
+        "a": "Noun Clause",
+        "b": "Adjective Clause",
+        "c": "Adverb Clause",
+        "d": "Co-ordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Everything depends on **What the Director is going to say.**",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q055.webp"
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 54 -58) : Pick the correct clause of the words underlined in the given sentences:",
+      "opts": {
+        "a": "Noun Clause",
+        "b": "Adjective Clause",
+        "c": "Adverb Clause",
+        "d": "Co-ordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His eyes caught a heap of letters **which lay on the table.**",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q056.webp"
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 54 -58) : Pick the correct clause of the words underlined in the given sentences:",
+      "opts": {
+        "a": "Noun Clause",
+        "b": "Adjective Clause",
+        "c": "Adverb Clause",
+        "d": "Co-ordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**As the clown entered the circus ring,** the children began to laugh.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q057.webp"
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 54 -58) : Pick the correct clause of the words underlined in the given sentences:",
+      "opts": {
+        "a": "Noun Clause",
+        "b": "Adjective Clause",
+        "c": "Adverb Clause",
+        "d": "Co-ordinate Clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I have known him **since he was a small boy.**",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q058.webp"
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 - 64) : Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "Assertive",
+        "b": "Affirmative",
+        "c": "Negative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I shall never forget those happy days.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 - 64) : Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "Exclamatory",
+        "b": "Interrogative",
+        "c": "Affirmative",
+        "d": "Assertive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where in the world will you find a mountain peak higher than Everest?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 - 64) : Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Imperative",
+        "c": "Exclamatory",
+        "d": "Assertive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Oh ! how desirous I am to meet you once more.",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 - 64) : Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "Imperative",
+        "b": "Assertive",
+        "c": "Interrogative",
+        "d": "Affirmative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whenever there is smoke, there is fire.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 - 64) : Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "Negative",
+        "b": "Assertive",
+        "c": "Affirmative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I was not elected Prime Minister to harm my country.",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 59 - 64) : Identify the correct notion expressed by each of the following sentences",
+      "opts": {
+        "a": "Negative",
+        "b": "Assertive",
+        "c": "Affirmative",
+        "d": "Exclamatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was a man of no great intelligence.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 - 72) : Identify the correct usage of words given in the alternatives below :",
+      "opts": {
+        "a": "Sympathy",
+        "b": "Compassion",
+        "c": "Pity",
+        "d": "Mercy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "___________ is a quality that moves to action without effort.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 - 72) : Identify the correct usage of words given in the alternatives below :",
+      "opts": {
+        "a": "decent",
+        "b": "descent",
+        "c": "dissent",
+        "d": "descend"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The chairman expressed his ___________ to this plan.",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 - 72) : Identify the correct usage of words given in the alternatives below :",
+      "opts": {
+        "a": "imminent",
+        "b": "eminent",
+        "c": "imminence",
+        "d": "eminently"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mr. William is an___________ lawyer.",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 - 72) : Identify the correct usage of words given in the alternatives below :",
+      "opts": {
+        "a": "adopt",
+        "b": "adept",
+        "c": "adapt",
+        "d": "adopting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We must ___________ ourselves to our surroundings.",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 - 72) : Identify the correct usage of words given in the alternatives below :",
+      "opts": {
+        "a": "effect",
+        "b": "effects",
+        "c": "affect",
+        "d": "affects"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The new administration hopes to ___________ a peace settlement.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 - 72) : Identify the correct usage of words given in the alternatives below :",
+      "opts": {
+        "a": "proceed",
+        "b": "precede",
+        "c": "proceeds",
+        "d": "precedent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It would be helpful if you were to ___________ the report with an introduction.",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 - 72) : Identify the correct usage of words given in the alternatives below :",
+      "opts": {
+        "a": "cite",
+        "b": "sight",
+        "c": "site",
+        "d": "view"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Being centrally located in the city, this is an ideal ___________ for the hospital.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 65 - 72) : Identify the correct usage of words given in the alternatives below :",
+      "opts": {
+        "a": "weather",
+        "b": "whether",
+        "c": "climate",
+        "d": "stormy weather"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ___________ of hill stations is not suitable for asthmatic people",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised",
+      "opts": {
+        "a": "postal",
+        "b": "after death",
+        "c": "creditable",
+        "d": "literary"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A posthumous award was given to the poet.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q073.webp"
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised",
+      "opts": {
+        "a": "pilots",
+        "b": "sadists",
+        "c": "flatterers",
+        "d": "servants"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rich people often have sycophants around them.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q074.webp"
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised",
+      "opts": {
+        "a": "combined",
+        "b": "transplanted",
+        "c": "complex",
+        "d": "mixed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hybrid variety of plants generally yield better crops.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q075.webp"
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised",
+      "opts": {
+        "a": "a partnership bond",
+        "b": "a compensation bond",
+        "c": "a security bond",
+        "d": "a reparation bond"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Before finalising this transaction, I had to sign an indemnity bond.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q076.webp"
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised",
+      "opts": {
+        "a": "soothed",
+        "b": "rescued",
+        "c": "revived",
+        "d": "cured"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Timely first aid resuscitated the patient.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q077.webp"
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised",
+      "opts": {
+        "a": "corruption",
+        "b": "inefficiency",
+        "c": "favouritism",
+        "d": "negligence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He was accused of graft.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q078.webp"
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised",
+      "opts": {
+        "a": "important",
+        "b": "impressive",
+        "c": "inspiring",
+        "d": "offhand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The President of India delivered an impromptu speech to the students.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q079.webp"
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised",
+      "opts": {
+        "a": "quarrelsome",
+        "b": "talkative",
+        "c": "domineering",
+        "d": "foolish"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is so garrulous that all sober persons avoid his company.",
+      "multi": false,
+      "imagePath": "/question-images/group-b/recovered-2018/horticulture-demonstrator-2018-english-q080.webp"
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on **any one (1)** of the given topics in not more than 300 words. -The value of sports and athletics -Environmental Pollution -Cleanliness is next to Godliness",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q24 (p4, part B): only 2 option(s) ['a', 'b'] - not emitted"
+  ],
+  "gaps": {
+    "B": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/4c71d1bb57e66f289453d1fb9329a071/general-english-shd.pdf",
+  "enrichmentVersion": 3,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

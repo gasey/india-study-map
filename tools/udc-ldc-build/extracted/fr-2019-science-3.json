@@ -1,0 +1,2277 @@
+{
+  "slug": "fr-2019-science-3",
+  "exam": "Forest Ranger under Environment, Forest & Climate Change Department",
+  "sitting": "2019",
+  "subject": "General Science Paper-III",
+  "source": "General Science-III (FR).pdf",
+  "sourceSha256": "009340f45f9e538d7dc04bf8896af02b77329c6b42bef4ba5bf6d8fec9d3a1ae",
+  "ocr": false,
+  "count": 98,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vishnu",
+        "b": "Shakti",
+        "c": "In-intel",
+        "d": "In-Qualcomm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The is the first Microprocessor of India which is designed and developed by the students of IIT (Indian Institute of Technology) Chennai is called:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pesticide resistant variety crops",
+        "b": "Drought resistant variety crops",
+        "c": "Insecticide resistant variety crop",
+        "d": "High Yielding variety crops"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "During green revolution in India the crops introduced are:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "INSAT",
+        "b": "Rohini",
+        "c": "Aryabhata",
+        "d": "Bhaskara"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first satellite launched by India in 19 April 1975 is called:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Disaster Management and Earth observation",
+        "b": "Communication 5G technology",
+        "c": "Communication 4G technology",
+        "d": "Experimental"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Satellite launched by India in 22nd May 2019 known as RISAT-2B is to be utilised for:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indian Scholar Research Organization",
+        "b": "Indian Space Research Organization",
+        "c": "Indian Station Research Organization",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the full form of ISRO?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1930",
+        "b": "1931",
+        "c": "1932",
+        "d": "1933"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sir CV Raman received Nobel prize in physics in the year:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "tRNA",
+        "b": "m RNA",
+        "c": "Genetic Code",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hargobind Khorana, a biologist, won his Nobel prize for his work in:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CV Raman",
+        "b": "APJ Abdul Kalam",
+        "c": "SN Bose",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A famous Indian Physicist who later became the President of India is:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India’s policy on Tibet",
+        "b": "India’s trade policy with china",
+        "c": "India’s first nuclear test",
+        "d": "India’s first solar power plant"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Code name “Smiling buddha” was assign to:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5%",
+        "b": "6%",
+        "c": "7%",
+        "d": "8%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To reduce the environmental impact the Government of India reduce tax for electric vehicle. The new GST for electric vehicle in 2019 stands:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BS IV",
+        "b": "BS V",
+        "c": "BS VI",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The new emission norms revised by Bureau of Indian Standards (BIS) From 1 April 2020 is called as",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Crown gall",
+        "b": "Black root rot",
+        "c": "Powdery mildew",
+        "d": "Ball worm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In 2002 Genetically modified cotton was introduced in India to combat which cotton disease:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kaziranga national park",
+        "b": "Gir national park",
+        "c": "Jim Corbett national park",
+        "d": "Madhav national park"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first National Park in India to conserver nature is:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bacillus. thermosphaericus",
+        "b": "Bacillus thiaminolyticus",
+        "c": "Bacillus thioparans",
+        "d": "Bacillus thuringiensis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In BtCotton, the term Bt Stands for:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indian Council of Agriculture Research",
+        "b": "Indian Council of Agricultural Research",
+        "c": "Indian Council of Allied Research",
+        "d": "Indian Council of Agronomy Research"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ICAR stands for:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Industrial products",
+        "b": "Processed food",
+        "c": "Non polluting vehicles",
+        "d": "Agricultural products"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India If ISI mark is mentioned on the products, it is related to",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bureau of Indian Standard",
+        "b": "Ministry of Agriculture",
+        "c": "Ministry of Environment and protection",
+        "d": "Food Safety and Standard Authority of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For safety of the public which body issues FPO mark?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kolkata",
+        "b": "Delhi",
+        "c": "Mumbai",
+        "d": "Hyderabad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian Institute of Chemical Biology (IICB) is a biomedical research centre set up by CSIR in the year of 1956. It is located in the city of:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Its colour is black",
+        "b": "It can retain moisture",
+        "c": "It is made up of lava",
+        "d": "It is found on plateau regions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Black soils is ideal for cultivation of cotton as –",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Intensive cultivation of green vegetable",
+        "b": "Intensive agriculture district programme",
+        "c": "High-yielding varieties programme",
+        "d": "Seed-Fertilizer-Water technology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following most appropriately describes the nature of Green Revolution of late sixties of 20th century?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Quantum mechanics",
+        "b": "Astrophysics",
+        "c": "Einstein theory of relativity",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Subramanian Chandrashekhar (1910-1995) an Indian scientist awarded a Nobel prize in 1983 work in the field of:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25th February",
+        "b": "26th February",
+        "c": "27th February",
+        "d": "28th February"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "National Science Day is celebrated every year on February to commemorate discovery of the ‘Raman Effect’, by CV Raman winning the Noble Prize in Physics in 1930. The day is:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi",
+        "b": "Kharagpur",
+        "c": "Mumbai",
+        "d": "Kolkata"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Jawaharlal Nehru initiated reforms to promote higher education and science and technology in India and led to the establlishment of the Indian Institute of Technology (IIT). The first IIT was established at:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Research",
+        "b": "Translation of research to product",
+        "c": "Entrepreneurship development",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India Biotech parks and incubators were established for:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Motorola",
+        "b": "Nokia",
+        "c": "Apple",
+        "d": "At&T"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which company launched the first mobile phone?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Council for Scientific & Industrial Research (CSIR)",
+        "b": "Council of Scientific & Industrial Research (CSIR)",
+        "c": "Council of Science & Industrial Research (CSIR)",
+        "d": "Council for Science & Industrial Research (CSIR)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The full form of CSIR is:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi",
+        "b": "Kolkata",
+        "c": "Dehradun",
+        "d": "Shimla"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Wildlife Institute of India (WII) is located at:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Solan, Himachal Pradesh",
+        "b": "Mussoorie, Uttarakhand",
+        "c": "Shimla, Himachal Pradesh",
+        "d": "Ooty, Tamil Nadu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ICAR-Directorate of Mushroom research is located at the hillstation:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Department of Science and Technology",
+        "b": "Ministry of Human Resource Development",
+        "c": "Indian Science Congress Association",
+        "d": "Indian Association For The Cultivation Of Science"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian Science Congress is an annual event organized by:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Insects",
+        "b": "Ornithology",
+        "c": "Ocean",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sálim Ali Centre is a dedicated centre for the study of:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mammals",
+        "b": "Aves",
+        "c": "Amhibians",
+        "d": "Reptiles"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Herpetology” is a branch of science which deals with the study of:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Archimedes",
+        "b": "Alexander Fleming",
+        "c": "Louis Pasteur",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Penicillin is an antibiotics discovered by:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "JD Watson and FHC Crick",
+        "b": "JD Watson",
+        "c": "FHC Crick",
+        "d": "Linus Pauling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The structure of DNA was discovered by:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bacteria",
+        "b": "Fungus",
+        "c": "Virus",
+        "d": "Prions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Influenza is a disease caused by:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Paris",
+        "b": "Stockholm",
+        "c": "Kyoto",
+        "d": "Rio de Janeiro"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "United Nations Conference on Environment and Development (1992) al known as Earth Summit was held in the city of:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thermometer",
+        "b": "Barometer",
+        "c": "Pendulum clock",
+        "d": "Microscope"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Galileo invented which of the following isntrument?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "E.A. Johnson",
+        "b": "George Samuel Hurst",
+        "c": "George Samuel Hurst and E.A. Johnson",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A resistive touchscreen was developed by inventor:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Methane and Butane",
+        "b": "Propane and Butane",
+        "c": "Ethane and Propane",
+        "d": "Ethane and Butane"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "L.P.G. is a hydrocarbon consisting of a mixture of:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nitrogen",
+        "b": "Nitrogen Oxide",
+        "c": "Nitrous Oxide",
+        "d": "Nitrogen dioxide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Laughing gas used as anaesthesia is a chemical made of:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "European Organization for Nuclear Research",
+        "b": "National Aeronautics and Space Administration",
+        "c": "Roscosmos State Corporation for Space Activities",
+        "d": "Indian Space Research Organisation."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Large Hadron Collider (LHC) ,the world’s largest and most powerful particle collider and the largest machine in the world is developed by:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Copper Sulphate",
+        "b": "Iron Sulfide",
+        "c": "Brass",
+        "d": "Silver Bromide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is “Fool’s Gold”?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Easy growth",
+        "b": "Low nutrition requirements",
+        "c": "Immortality",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cell line used in scientific research HeLa cells is the oldest and most commonly used human cell line because of their-",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "the Earth",
+        "b": "rocks",
+        "c": "planets",
+        "d": "the human skull"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lithology is the study of:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Singlet",
+        "b": "Duplet",
+        "c": "Triplet",
+        "d": "Quadruplet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the Genetic Code the codon is a:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gram positive bacteria",
+        "b": "Gram negative bacteria",
+        "c": "Both Gram positive and Gram negative bacteria",
+        "d": "Arch bacteria"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Certain bacteria are Nitrosomonas, i.e Fix Nitrogen by oxidizing ammonia into nitrite. Such type of bacteria are?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sir Ronald Ross",
+        "b": "Alexander Fleming",
+        "c": "Giovanni Battista Grassi",
+        "d": "Charles Louis Alphonse Laveran"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Malaria parasite was discovered by",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nikolaus Otto",
+        "b": "Thomas Alva Edison",
+        "c": "Etienne Lenoir",
+        "d": "John Barber"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Modern internal combustion engine was patented by",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "JD Watson and FHC Crick",
+        "b": "Craig Venter",
+        "c": "Kary Mullis",
+        "d": "Maxam and Gilbert"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Polymerase Chain Reaction technique is used for amplification and study of DNA and RNA . This technology is patented by",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Coronavirus",
+        "b": "Picornavirus",
+        "c": "Paramyxoviruses",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The virus responsible for Foot-and-mouth disease virus (FMDV) affects acute vesicular disease of cloven-hoofed animals is",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Syrmaticus humiae",
+        "b": "Syrmaticus mikado",
+        "c": "Syrmaticus reevesii",
+        "d": "Syrmaticus soemmerringii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The scientific name of State bird of Mizoram, Vavu is",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "JH Lorraine",
+        "b": "FW Savidge",
+        "c": "F.J Rapper",
+        "d": "William Williams"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Baptist Missionary at Serkawn who made an effort to retain Zawlbuk was",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lusei",
+        "b": "Lakher",
+        "c": "Pawi",
+        "d": "Paite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following do not have Zawlbuk",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Selection of a place for establishment of village",
+        "b": "Selection of agricultural land",
+        "c": "Selection of a place for establishment of Zawlbuk",
+        "d": "Selection of a place where people meet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ramtuk rel- refers to-",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "General Cole",
+        "b": "TH Lewin",
+        "c": "David Jones",
+        "d": "Capt Browne"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Potato was introduced only in the Colonial Era (1907-1908) by",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sei- who lived in the house of the ruler",
+        "b": "Saiza-who lived in a separate house",
+        "c": "Both (a) and (b)",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a slave that belonged to the Mara (Lakher)?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1894",
+        "b": "1895",
+        "c": "1885",
+        "d": "1886"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "F.W. Savidge and J.H Lorrain were missionaries sent by Aborigines Mission known as Arthington Mission in the year",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Forced Taxation",
+        "b": "The Kuli System",
+        "c": "Removal of their chief",
+        "d": "Harsh treatment of Captain Browne"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The killing of Captain Browne in 1890 was considered as a result of Mizo’s Objection to",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Book of Psalm",
+        "b": "Esop’s Fable",
+        "c": "A Child’s Primer",
+        "d": "Book of Stories"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first book printed and published in Mizo language was:",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chhuahkhama",
+        "b": "Liangkhaia",
+        "c": "Chalthanga",
+        "d": "Ngura"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the first pastor in 1914?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1910",
+        "b": "1911",
+        "c": "1912",
+        "d": "1913"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kristian Tlangau was first published in-",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vanawia Pawl",
+        "b": "Mangthanga Pawl",
+        "c": "Tlira Pawl",
+        "d": "Zualliana Pawl"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Revival Movement resulted in the emergence of many indigenous sects, the first of which was",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Govt. of India Act, 1930",
+        "b": "Govt. of India Act, 1931",
+        "c": "Govt. of India Act, 1934",
+        "d": "Govt. of India Act, 1935"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Act excluded the Lushai Hills from India Union which alienated the Mizo people from the mainstream of India?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1912",
+        "b": "1913",
+        "c": "1905",
+        "d": "1906"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When was the Lakher Dictionary published?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tau thla",
+        "b": "Tomir thla",
+        "c": "Nikir thla",
+        "d": "Vawkhniakzawn thla"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the month of July in Mizo?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "On 23rd January 1871",
+        "b": "On 24th March 1872",
+        "c": "On 15th June 1880",
+        "d": "On 16th June 1880"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Alexandrapore tea garden was attacked by the Mizo:",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "JH Lorraine",
+        "b": "FW Savidge",
+        "c": "Rev L. Evans",
+        "d": "NE Parry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first President of Young Lushai Association was:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "22nd October 1961",
+        "b": "2nd October 1961",
+        "c": "4th May 1963",
+        "d": "8th March 1965"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mizo National Famine Front was converted into a political party called Mizo National Front on:",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1860",
+        "b": "1861",
+        "c": "1870",
+        "d": "1871"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first known massive famine in Mizoram called Mautam occurred in the year:",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Puanchei",
+        "b": "Hmar-am",
+        "c": "Zawlpuan",
+        "d": "Puanzeh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A Mizo bride should not enter into the bridegroom’s house without bringing this special cloth:",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lo man",
+        "b": "Fano chhiah",
+        "c": "Buh chhun",
+        "d": "Fathang"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The traditional Mizo tax, paid to the chief in the form of paddy at the end of the year is:",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sawi",
+        "b": "Hnawhchhuah",
+        "c": "Ram",
+        "d": "Zawn"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizo Chief may be punished by his rebellious citizens in the case of the former’s misbehavior towards his people. This punishment was known as:",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ram",
+        "b": "Salam",
+        "c": "Pumhlawh",
+        "d": "Rawk"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Due/Extra fine imposed on the loser of the case in the Mizo chief’s court equivalent to Rs. 5/- or a pig is called:",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kawtchhuah ropui",
+        "b": "Lamthuam thum",
+        "c": "Lamsial Puk",
+        "d": "Chhura Puk"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A cluster of megaliths found near Vangchhia village declared as National importance of heritage of India is:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tibeto-Burman",
+        "b": "Mongoloid group",
+        "c": "Burmese- Chin Group",
+        "d": "Indo-Aryan group"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizo language belongs to this language group:",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vankhama",
+        "b": "Liangkhaia",
+        "c": "Vanchhunga",
+        "d": "VL Siama"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Mizo Chanchin” was written by:",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 76 - 79) : Find the wrong term in the given series:",
+      "opts": {
+        "a": "7",
+        "b": "15",
+        "c": "27",
+        "d": "63"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "3, 7, 15, 27, 63, 127, 225",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 76 - 79) : Find the wrong term in the given series:",
+      "opts": {
+        "a": "71",
+        "b": "80",
+        "c": "104",
+        "d": "135"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "64, 71, 80, 91, 104, 119, 135",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 76 - 79) : Find the wrong term in the given series:",
+      "opts": {
+        "a": "80",
+        "b": "320",
+        "c": "550",
+        "d": "2560"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "5, 10, 40, 80, 320, 550, 2560",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 76 - 79) : Find the wrong term in the given series:",
+      "opts": {
+        "a": "83",
+        "b": "82",
+        "c": "86",
+        "d": "78"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "89, 78, 86, 80, 85, 82, 83",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 80 - 83) : Find the missing number from the given series:",
+      "opts": {
+        "a": "385",
+        "b": "441",
+        "c": "485",
+        "d": "529"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "121, 225, 361, .....?......",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 80 - 83) : Find the missing number from the given series:",
+      "opts": {
+        "a": "44",
+        "b": "45",
+        "c": "46",
+        "d": "47"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "1, 6, 13, 22, 33, ...?...",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 80 - 83) : Find the missing number from the given series:",
+      "opts": {
+        "a": "35",
+        "b": "36",
+        "c": "48",
+        "d": "49"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "1, 4, 9, 16, 25, ...?...",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 80 - 83) : Find the missing number from the given series:",
+      "opts": {
+        "a": "14",
+        "b": "16",
+        "c": "18",
+        "d": "24"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "2, 5, 9, ..?..., 20, 27",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 84 - 90) : Read the following passages carefully and choose the best answer",
+      "opts": {
+        "a": "women are more caring than men",
+        "b": "men are less nurturing than women",
+        "c": "men are more aggressive than women",
+        "d": "men are built differently from women"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a stereotype?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 84 - 90) : Read the following passages carefully and choose the best answer",
+      "opts": {
+        "a": "prescribed",
+        "b": "attributed",
+        "c": "clubbed",
+        "d": "written"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Ascribed’ has the same meaning as .....",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 84 - 90) : Read the following passages carefully and choose the best answer",
+      "opts": {
+        "a": "They reflect features between categories",
+        "b": "They reflect differences between categories",
+        "c": "They simplify information in the social world",
+        "d": "They allow us to have sets of beliefs In the 1970s, Ted Bundy broke into the apartment of a young female student at the University"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why do perceivers maintain stereotypes?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 84 - 90) : Read the following passages carefully and choose the best answer",
+      "opts": {
+        "a": "He was a serial killer",
+        "b": "He was a rapist",
+        "c": "He was the star of a TV show",
+        "d": "He was the producer of a play"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was Ted Bundy?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 84 - 90) : Read the following passages carefully and choose the best answer",
+      "opts": {
+        "a": "He was not motivated by a need to help himself",
+        "b": "He needed to be the star of the show",
+        "c": "He didn’t understand the charges against him",
+        "d": "He was cheerful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to his psychiatrist, which of the following is not true of Ted Bundy?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 84 - 90) : Read the following passages carefully and choose the best answer",
+      "opts": {
+        "a": "active",
+        "b": "happy",
+        "c": "guilty",
+        "d": "remorse"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Jovial’ has the same meaning as ....",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "₹₹₹₹₹₹₹₹₹₹ ₹₹O₹₹₹₹OO₹₹OOO₹₹ ₹₹₹₹₹₹₹₹ ₹₹O₹₹OOOO₹₹OOOO₹₹O",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "@(@)= C( A  B  C$+#  +  X BBBB +#*X X",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "@ # $ *$ * @ #* @ # $# $ * @$ * @ # * @ # $@ # * $@ # $ ** # @ $",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative",
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ABA BBA ABBA BAABABBA",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 96 - 100) : Choose the best answer to each of the questions:",
+      "opts": {
+        "a": "North",
+        "b": "East",
+        "c": "West",
+        "d": "South"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A man was going towards west, and then he turned left, then turned 90° in anti clockwise direction. In which direction is he going now?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 96 - 100) : Choose the best answer to each of the questions:",
+      "opts": {
+        "a": "North",
+        "b": "South",
+        "c": "West",
+        "d": "East"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Simon starts from his house and walks westward. He then takes a left turn and then a right, before each turn he walks 5 km. In which direction is he walking now?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 96 - 100) : Choose the best answer to each of the questions:",
+      "opts": {
+        "a": "Rumbustious",
+        "b": "Rumour",
+        "c": "Ruminate",
+        "d": "Rumple"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the following words are arranged in alphabetical order, which word will come third?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 96 - 100) : Choose the best answer to each of the questions:",
+      "opts": {
+        "a": "3",
+        "b": "4",
+        "c": "5",
+        "d": "6"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "P, Q, R, S, T, U, V and W are friends. They are sitting around a round table. P is sitting between U and V, Q is sitting between W and T, R is sitting to the third left of T and, W is sitting to the third right of S. How many persons are sitting between R and S?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions No. 96 - 100) : Choose the best answer to each of the questions:",
+      "opts": {
+        "a": "8",
+        "b": "10",
+        "c": "12",
+        "d": "14"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the missing number? 647 125 76?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q90 (p9, part None): only 2 option(s) ['a', 'b'] - not emitted",
+    "Q92 (p9, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      90,
+      92
+    ]
+  }
+}

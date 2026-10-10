@@ -1,0 +1,2893 @@
+{
+  "slug": "udc-agri-2019-p2",
+  "exam": "UDC under Agriculture (Research & Education) Department",
+  "sitting": "2019",
+  "subject": "Paper-II",
+  "source": "Paper-II (Agri-R&E).pdf",
+  "sourceSha256": "ed3f20187047ec518fd703387574aa1e7d7db6781f7a82783f981c2c6f67aa8f",
+  "ocr": false,
+  "count": 125,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalchamliana",
+        "b": "Lalruatkima",
+        "c": "Dr.Lalthangliana",
+        "d": "TJ Lalnuntluanga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the minister in-charge of law and judicial in Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Citizenship Amendment Bill, 2015",
+        "b": "Citizenship Amendment Bill,2016",
+        "c": "Citizenship Amendment Bill, 2017",
+        "d": "Citizenship Amendment Bill, 2018"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following will help the migrants to settle and also pave way to grant citizenship to religious minorities?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "17 wards",
+        "b": "19 wards",
+        "c": "18 wards",
+        "d": "21 wards"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many municipal wards are there under the Aizawl Municipal Corporation?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kerala",
+        "b": "Punjab",
+        "c": "Sikkim",
+        "d": "Haryana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following states is set to become the first Indian state to roll out Universal Basic Income (UBI)?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalhmingthanga",
+        "b": "M. Zohmingthangi",
+        "c": "Rosiamngheta",
+        "d": "C. Lalsawivunga"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The present Mayor of Aizawl Municipal Corporation is",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8 %",
+        "b": "10 %",
+        "c": "12 %",
+        "d": "15 %"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Union Cabinet has recently approved a reservation at what percentage for ‘economically backward’ upper castes in government jobs?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sachin Pilot",
+        "b": "Ashok Gehlot",
+        "c": "Jai Ram Thakur",
+        "d": "Naveen Patnaik"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Chief Minister of Rajasthan",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Swaraj Kaushal",
+        "b": "Kummanam Rajasekharan",
+        "c": "Lt. Gen. Nirbhaya Sharma",
+        "d": "Hiteshwar Saikia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The present governor of Mizoram is",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tornado",
+        "b": "Undersea earthquake",
+        "c": "Volcano",
+        "d": "Thunderstorm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tsunami is mainly caused by",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "United States",
+        "b": "UK",
+        "c": "Russia",
+        "d": "Spain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "George H.W. Bush passed away on 1st December 2018. He was the former president of which country?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2023",
+        "b": "2012",
+        "c": "2019",
+        "d": "2025"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Food and Agriculture Organisation (FAO) Council has approved India’s proposal to observe which year as International year of millets?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ravi Handa",
+        "b": "Shaktikanta Das",
+        "c": "S. Krishna Moorthy",
+        "d": "Arjun Rishab"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was appointed as the 25th Governor of the Reserve Bank of India on 11th December 2018?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "England",
+        "b": "Japan",
+        "c": "Singapore",
+        "d": "United States"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country retained its top position in the Henley Passport Index of most powerful passports on 10th January 2019?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "State Bank of India (SBI)",
+        "b": "Punjab National Bank (PNB)",
+        "c": "Union Bank of India (UBI)",
+        "d": "Indian Overseas Bank (IOB)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian Army signed a Memorandum of Understanding (MoU) on the Defence Salary Package with which bank on 8th January 2019?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Poornima Ra",
+        "b": "Sudipta Sengupta",
+        "c": "Archana Sarthak",
+        "d": "Arunima Sinha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name the Indian who became the world’s first female amputee to climb Mount Vinson, the highest peak of Antarctica?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shaheed Dweep",
+        "b": "Netaji Subhas Chandra Bose Dweep",
+        "c": "Swaraj Dweep",
+        "d": "Mahatma Gandhi Dweep"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ross Island of Andaman and Nicobar was renamed as ____________, on 30th December 2018?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rajasthan",
+        "b": "West Bengal",
+        "c": "Punjab",
+        "d": "Himachal Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name the state government that announced that if a farmer aged between 18 to 60 years dies, his family will be paid Rs 2 lakh, as part of ‘Krishi Krishak Bandhu’ scheme, on 31st December 2018?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15 per cent",
+        "b": "12 per cent",
+        "c": "8 per cent",
+        "d": "5 per cent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per the revised GST norms, the GST on Haj has been reduced from 18 per cent to",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Natural gas",
+        "b": "Biofuel",
+        "c": "Shale gas",
+        "d": "POL"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Centre for Military Airworthiness and Certification (CEMILAC) has recently cleared the use of which product in the military aircraft?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ratnagiri",
+        "b": "Gaya",
+        "c": "Birasal",
+        "d": "Dhalbhumgarh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following abandoned airstrips will be developed into a modern airport by the Government of India?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ravneet Singh Gill",
+        "b": "Rana Kapoor",
+        "c": "Chanda Kochar",
+        "d": "Indu Bhushan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was appointed as MD and CEO of YES Bank?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aadhaar",
+        "b": "Nari Shakti",
+        "c": "Bahubali",
+        "d": "Vikaas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which word was declared as the ‘Hindi Word of the Year 2018’ by the Oxford Dictionary?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Andhra Pradesh",
+        "b": "Assam",
+        "c": "Odisha",
+        "d": "Kerala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per latest survey conducted by Transparency International (TI), which state has occupied the top slot in the ranking of best budgetary practices?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mizoram Board of School Education",
+        "b": "Central Board of Secondary Education",
+        "c": "National Council of Education, Research & Training",
+        "d": "State Council of Education, Research and Training (SCERT)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Teacher’s Eligibility Test is conducted in Mizoram by",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Punjab",
+        "b": "Sikkim",
+        "c": "Kerela",
+        "d": "Mizoram"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Open Defecation Free state in India is",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indore District Court",
+        "b": "Mangaluru District Court",
+        "c": "Pune District Court",
+        "d": "Vishakapatnam District Court"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which district court has become the first court in India to allow e-payments of court fee, judicial deposits, fines and penalties?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dipali Borthakur",
+        "b": "Gitali Kakoti",
+        "c": "Rishita Palkar",
+        "d": "Neelam Kapoor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name the Assamese Singer Popularly known as ‘Nightingale of Assam’ who died on 21st Dec. 2018?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gujarat",
+        "b": "Uttar Pradesh",
+        "c": "Rajasthan",
+        "d": "Kerala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state government became the first to implement 10% quota for economically weaker sections of general category in educational, institutions and government jobs with effect from January 14, 2019?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ISRO",
+        "b": "UNHCR",
+        "c": "UNESCO",
+        "d": "CSE"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Organisations has won the 2018 Indira Gandhi Peace Prize?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam",
+        "b": "Manipur",
+        "c": "Tripura",
+        "d": "Nagaland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state’s entire area has been declared disturbed area for six more months, till June 2019 under AFSPA?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vijaya Bank, Syndicate Bank and Dena Bank",
+        "b": "Dena Bank, Vijaya Bank and Bank of Baroda",
+        "c": "Bank of Baroda, Vijaya Bank and Syndicate Bank",
+        "d": "Syndicate Bank, Canara Bank and Dena Bank"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Central Government on January 2, 2019 approved the merger of which three banks together?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Motera, Ahmedabad",
+        "b": "Cachar, Guwahati",
+        "c": "New Town, Kolkata",
+        "d": "Koramangala, Bengaluru"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where is the world’s largest cricket stadium, which will have a seating capacity of over 1 lakh, being constructed?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bangladesh",
+        "b": "Pakistan",
+        "c": "Sri Lanka",
+        "d": "China"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India and which country exchanged lists of nuclear installations under Prohibition of Attack against Nuclear installations Act, 1988, and list of prisoners for the 27th time, on 1st January 2019?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Afghanistan",
+        "b": "Myanmar",
+        "c": "Bangladesh",
+        "d": "Pakistan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The country that recently declared sugarcane juice as its ‘national drink’.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mohammed Abdul Hamid",
+        "b": "Sheikh Hasina",
+        "c": "Abu Thahir Bhutto",
+        "d": "Abdul Salam Khan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "New Prime Minister of Bangladesh.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nepal",
+        "b": "Pakistan",
+        "c": "Sri Lanka",
+        "d": "Bangladesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Suman Kumari recently became the first Hindu woman to be appointed as a civil judge of which neighboring country?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "New Delhi",
+        "b": "Visakhapatnam",
+        "c": "Chennai",
+        "d": "Bengaluru"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which city is hosting the first-ever national conference on ‘Prison Design’?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India",
+        "b": "China",
+        "c": "USA",
+        "d": "Germany"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the latest report of World Steel Association (WSA), which country is the largest producer of crude steel in the world?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Japan",
+        "b": "India",
+        "c": "China",
+        "d": "Qatar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country will host the G-20 summit in 2022?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mali",
+        "b": "Rwanda",
+        "c": "Somalia",
+        "d": "Yemen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which country 37 Civilians were killed and many were injured when armed men believed to be traditional ‘Dagon hunters’ attacked a village of ‘Fulani herders’ on January 1, 2019?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kim Jong Il",
+        "b": "Moon Jae-in",
+        "c": "Kim Jon Un",
+        "d": "Kim Il-sung"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The present Supreme Leader of North Korea is",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "New Secretariat Complex",
+        "b": "Dawrpui Veng",
+        "c": "Zarkawt",
+        "d": "Treasury square"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Reserve Bank of India Aizawl Office is located at",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "High",
+        "b": "Low",
+        "c": "Medium",
+        "d": "Very low"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the UN Human development Report 2018, India is placed in the _____________ human development category",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mark Twain",
+        "b": "John Green",
+        "c": "Emily Bronte",
+        "d": "Ruskin Bond"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Wuthering Heights is a fiction written by",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mahatma Gandhi",
+        "b": "Phoolan Devi",
+        "c": "Nelson Mandela",
+        "d": "APJ Abdul Kalam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Wings of Fire’ is an Autobiography of",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Max Weber",
+        "b": "Plato",
+        "c": "Robert Burton",
+        "d": "Anne Frank"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Symposium is a very important non-fiction book written by",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "K.M.Munshi",
+        "b": "HG Swell",
+        "c": "Arundhati Roy",
+        "d": "P.Ramamoorthy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘The God of small things’ has been written by:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Leo Tolstoy",
+        "b": "Mahatma Ghandhi",
+        "c": "Charles Darwin",
+        "d": "Kipling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who wrote ‘War and Peace’?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Savun Kawrfual",
+        "b": "Ka Tawnhriatte",
+        "c": "Duhaisam Hringnun",
+        "d": "Parawl Run"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizoram Academy of Letters’ Book of the Year 2017 is",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mark Twain",
+        "b": "Charles Dicken",
+        "c": "William Shakespeare",
+        "d": "Thomas Hardy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The adventures of Tom Sawyer was written by",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Japan",
+        "b": "UAE",
+        "c": "Qatar",
+        "d": "Egypt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Winner of the 2019 Asian Cup Football tournament.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carlos Solis",
+        "b": "Stephen Constantine",
+        "c": "Orson Hodge",
+        "d": "Michael Rex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who resigned as Indian Football team’s Head Coach, on 14th January 2019?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Badminton",
+        "b": "Football",
+        "c": "Hockey",
+        "d": "Basketball"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Santosh Trophy is associated with:",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5",
+        "b": "6",
+        "c": "7",
+        "d": "8"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many players are there on each side in the game of basketball?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "South America",
+        "b": "North America",
+        "c": "Africa",
+        "d": "Asia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which continent will host 2026 FIFA World Cup Football Tournament?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chanmari Football Club",
+        "b": "Aizawl Football Club",
+        "c": "Mizoram Police Academy",
+        "d": "Bethlehem Football Club"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Mizoram Football club in Mizoram which won the I-Leaque is",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Morocco",
+        "b": "Nigeria",
+        "c": "Kenya",
+        "d": "Senegal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following will host the 2022 Summer Youth Olympic Games?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "American Institute for Innovation and Material Science.",
+        "b": "All India Institute of Medical Science.",
+        "c": "All Indian Institute for Medical Science.",
+        "d": "Asian Institute for Information and Medical Science."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the full form of AIIMS?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Send important Mails.",
+        "b": "Subscriber Information Method.",
+        "c": "System Information Management.",
+        "d": "Subsciber Information Module."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the full form of SIM?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mizoram Institute of Medical Research",
+        "b": "Mizoram Institute of Medical Education and Research",
+        "c": "Institute of Mizoram Medical and Research",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "MIMER stands for:",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kaladan Multipurpose Transit Transport Project",
+        "b": "Kaladan Multipurpose Transport Transit Project",
+        "c": "Karnaphuli Multimodal Transit Transport Project",
+        "d": "Karnaphuli Multipurpose Transport transit Project"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "KMTTP stands for",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Doctor of Philosophy",
+        "b": "Physical Document",
+        "c": "Phonetic Division",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ph. D. stands for",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Persistent Axis Nemography",
+        "b": "Permanent Account Number",
+        "c": "Personal Ability Notation",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "PAN (Card) stands for",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USA",
+        "b": "UK",
+        "c": "Australia",
+        "d": "Germany"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is called ‘Land of Golden Fleece’?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Japan",
+        "b": "Nepal",
+        "c": "Bhutan",
+        "d": "Thailand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Land of White Elephant’ is the surname assigned to:",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Egypt",
+        "b": "Iraq",
+        "c": "Iran",
+        "d": "India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following country is called ‘Site of ancient civilization’?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Goa",
+        "b": "Chennai",
+        "c": "Kolkata",
+        "d": "Imphal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which place in India is known as ‘The mecca of Indian Football’?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anatolia, Turkey",
+        "b": "The Pamirs, Tibet",
+        "c": "The Atlas Mountain, Algiers",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The roof of the world is-",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Switzerland",
+        "b": "Italy",
+        "c": "Hungary",
+        "d": "Great Britain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Playground of Europe is",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "New York, USA",
+        "b": "Shanghai, China",
+        "c": "Kuala Lumpur, Malaysia",
+        "d": "Paris, France"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "City of sky scrapers is",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "58",
+        "b": "48",
+        "c": "68",
+        "d": "78"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many people were honoured with the Sarvottam Jeevan Raksha Padak for their meritorious act of saving the life of a person in 2018?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Catriona Elisa Gray",
+        "b": "Angela Ponce",
+        "c": "Tamaryn Green",
+        "d": "Nehal Chudasama"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who won the Miss Universe 2018 tittle at the Miss Universe 2018 event, held in Thailand on 16th December 2018?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National Award",
+        "b": "Padma Bhusan",
+        "c": "Patma Vibushan",
+        "d": "Bharat Ratna"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is India’s highest civilian Award?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vanneihtluanga",
+        "b": "James Dokhuma",
+        "c": "A.Sawihlira",
+        "d": "C.Chhuanvawra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following is not a recipient of Padma Shree Award?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Leander Peas",
+        "b": "Kapil Dev",
+        "c": "Vishwanathan Anand",
+        "d": "PT Usha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first recipient of Rajiv Gandhi’s Khel Ratna award is:",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "G.S. Zaithantluanga",
+        "b": "C. Lalhmingliani",
+        "c": "Lalhmingmawia",
+        "d": "JH Biakmawia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "National Award for Teachers 2017 was given on 5th September, 2018 to",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ram Nath Govind",
+        "b": "Narendra Modi",
+        "c": "Venkaiah Naidu",
+        "d": "Raj Kumar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The United Nation’s highest environmental honour “The Champions of the Earth Award” was received by ________on 30th October 2018.",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rev. Chuauthuama",
+        "b": "Brig. T. Sailo",
+        "c": "R. Zaikunga",
+        "d": "Prof. Joy Lalkrawspari Pachuau"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The latest Vanglaini Mizo Award was received by",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Elisha Otis",
+        "b": "Adam Osborne",
+        "c": "Philo Farnsworth",
+        "d": "Alessandro Volta"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Battery was invented by",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Paul Villard",
+        "b": "Charles Martin Hall",
+        "c": "Henry Ford",
+        "d": "Guglielmo Marconi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Aluminium was invented by",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Adam Osborne",
+        "b": "Wilhelm Rontgen",
+        "c": "Casimir funk",
+        "d": "Karl Landstein"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented X-Ray?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Otis",
+        "b": "Cockrell",
+        "c": "Newton",
+        "d": "Graham Bell"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented Microphone?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bifocal spectacles",
+        "b": "Radio",
+        "c": "Hygrometer",
+        "d": "Barometer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What Benjamin Franklin invented?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ronald Ross",
+        "b": "Edward Jenner",
+        "c": "F.Banting",
+        "d": "S.A.Wakesman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Insulin is invented by",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "William Cullen",
+        "b": "Jacob Perkins",
+        "c": "Oliver Evans",
+        "d": "Michael Faraday"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Refrigerator is invented by",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chester Carlson",
+        "b": "David Gestetner",
+        "c": "Haloid",
+        "d": "Robert W. Gundlach"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Photocopying / Photocopier is invented by",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Willem Janszoon",
+        "b": "Dirk Hartog",
+        "c": "Luis Vaez de Torres",
+        "d": "James Cook"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Australia is discovered first by",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Digital Corp.",
+        "b": "Alexander Parks",
+        "c": "Christian Huygens",
+        "d": "Sinclair"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented computer (laptop)?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Data Transmission",
+        "b": "Authentication",
+        "c": "Security",
+        "d": "Monitoring"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Firewall in computer is used for:",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Memory",
+        "b": "CPU",
+        "c": "Input Unit",
+        "d": "Output Unit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The heart and nerve centre of a computer is",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Expansion Board",
+        "b": "External Drive",
+        "c": "Mother Board",
+        "d": "All of above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where is RAM located?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Decimal",
+        "b": "Binary",
+        "c": "Hexa Decimal",
+        "d": "Octal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which of the following form, data is stored in a Computer?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hacker file",
+        "b": "Customary file",
+        "c": "Internet Information file",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is a Cookie?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 9,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "LAN",
+        "b": "RAM",
+        "c": "BIOS",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When your computer speed begins to drop, which element of memory is likely overtaxed?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 9,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A set of Instructions",
+        "b": "Set of programs",
+        "c": "Set of Information",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is software?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 9,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Linux",
+        "b": "Java",
+        "c": "Android",
+        "d": "Windows"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most popular Computer Operating System in Mizoram is",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 9,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "F2 key",
+        "b": "Control key + Alt key + S",
+        "c": "Alt key + Shift key + S",
+        "d": "Control key + S"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A keyboard shortcut to save a document is press",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 9,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Control key + J in PageMaker and Control key+ Shift key + J in Microsoft Word",
+        "b": "Control key + Shift Key + J in PageMaker and Control + J in Microsoft Word",
+        "c": "Alt. key + Control key + J in Page Maker and Alt key + J in Microsoft Word",
+        "d": "Alt key + Shift Key + J in PageMaker and Alt key + Control Key + J in Microsoft Word"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To Justify the texts document on both sides of the margin, you have to press",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 9,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "F4 key",
+        "b": "Alt Key + O",
+        "c": "Control key + O",
+        "d": "Shift key + O"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A dialog box to the location of existing file will appear if you press a key or a combination of the following keys",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 9,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Modem",
+        "b": "Graphic User Interface (GUI)",
+        "c": "Universal Serial Bus (USB)",
+        "d": "Hard Disk with RAM"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To get Internet access, there must be a __________ between the Internet Service Provider (ISP) and the user’s computer.",
+      "multi": false
+    },
+    {
+      "n": 101,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9.67",
+        "b": "12.42",
+        "c": "6.38",
+        "d": "8.24"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The square root of 67.8976 is",
+      "multi": false
+    },
+    {
+      "n": 102,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30 %",
+        "b": "32 %",
+        "c": "40 %",
+        "d": "43 %"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What percent of 50 is 16?",
+      "multi": false
+    },
+    {
+      "n": 103,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "= a, then the number of subset of A is",
+        "b": "2",
+        "c": "2a",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If A is a set with n(A) = a, then the number of subset of A is",
+      "multi": false
+    },
+    {
+      "n": 104,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4 days",
+        "b": "6 days",
+        "c": "8 days",
+        "d": "10 days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A can complete a piece of work in 6 days while B can complete in 12 days. If both of  them work together, then the work will be completed in",
+      "multi": false
+    },
+    {
+      "n": 105,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8",
+        "b": "9",
+        "c": "13",
+        "d": "14"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the mean of 6, 8, 9, x, 13 is 10, then the value of x is",
+      "multi": false
+    },
+    {
+      "n": 106,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3:5",
+        "b": "4:6",
+        "c": "4:5",
+        "d": "15:24"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If A:B = 3:4 and B:C = 5:6, then A:C is",
+      "multi": false
+    },
+    {
+      "n": 107,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40 cm",
+        "b": "44 cm",
+        "c": "45 cm",
+        "d": "50 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A wire is looped in the form of a circle of radius 28 cm. If it is rebent into a square, then  the length of the side of the square is",
+      "multi": false
+    },
+    {
+      "n": 108,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 56,120",
+        "b": "Rs 56,160",
+        "c": "Rs 57,200",
+        "d": "Rs 57,820"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The marked price of a scooty is Rs 54,000 and GST of 4 % is charged on it. The total  amount to be paid for the scooty is",
+      "multi": false
+    },
+    {
+      "n": 109,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 35 78",
+        "c": "",
+        "d": " 1515"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A bag contains 3 red balls, 5 white balls and 7 black balls. The probability that a ball  drawn from the bag at random will be neither red nor black is 11",
+      "multi": false
+    },
+    {
+      "n": 110,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "72 km",
+        "b": "75 km",
+        "c": "129.6 km",
+        "d": "216 km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kima covers a distance of 43.2 km on his bicycle in 3 hours. The distance covered by  him in 5 hours is",
+      "multi": false
+    },
+    {
+      "n": 111,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " x+3x−2 x−3x−1",
+        "c": "",
+        "d": " x+2x+2 x−5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "2 in its lowest term is x−4x+4 x−2x+3",
+      "multi": false
+    },
+    {
+      "n": 112,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " x−7x+7 x−7−(x−5)",
+        "c": "",
+        "d": " x+5x+7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The additive inverse of   is x+7 x+5−(x+5)",
+      "multi": false
+    },
+    {
+      "n": 113,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "284",
+        "b": "286",
+        "c": "290",
+        "d": "292"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sum of 34 + 32 + 30 ........... + 10 is",
+      "multi": false
+    },
+    {
+      "n": 114,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 800",
+        "b": "Rs 820",
+        "c": "Rs 882",
+        "d": "Rs 840"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The compound interest on Rs 8,000 for 1 year at 10 % per annum compounded half  yearly is",
+      "multi": false
+    },
+    {
+      "n": 115,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9",
+        "b": "10",
+        "c": "18",
+        "d": "19"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a group of 70 people, 37 like coffee, 52 like tea and each person likes at least one of  the two drinks. How many people like both tea and coffee?",
+      "multi": false
+    },
+    {
+      "n": 116,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "−6",
+        "b": "−2",
+        "c": "2",
+        "d": "6"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sum of the root of the equation x²−6x+2=0 is",
+      "multi": false
+    },
+    {
+      "n": 117,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3",
+        "b": "7",
+        "c": "11",
+        "d": "21"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The smallest number by which 1,100 must be multiplied so that the product becomes a perfect square is",
+      "multi": false
+    },
+    {
+      "n": 118,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "14",
+        "b": "16",
+        "c": "24",
+        "d": "32"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the sum of two numbers is 28 and their difference is 4, then the larger number is",
+      "multi": false
+    },
+    {
+      "n": 119,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 : 6",
+        "b": "6 : 5",
+        "c": "4 : 6",
+        "d": "5 : 4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The number of boys and girls in a school are 480 and 576. In ratio it can be expressed as",
+      "multi": false
+    },
+    {
+      "n": 120,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "27",
+        "b": "77",
+        "c": "0",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The simplified value of  63+28−175 is",
+      "multi": false
+    },
+    {
+      "n": 121,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 20,000",
+        "b": "Rs 21,000",
+        "c": "Rs 23,000",
+        "d": "Rs 24,000 2.7×2.7×2.7−1.5×1.5×1.5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cost of fencing a square park of side 300m at the rate of Rs 20 per metre is",
+      "multi": false
+    },
+    {
+      "n": 122,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2.7",
+        "b": "1.2",
+        "c": "1.5",
+        "d": "2.5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of    is 2.7×2.7+2.7×1.5+1.5×1.5",
+      "multi": false
+    },
+    {
+      "n": 123,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "7",
+        "b": "8",
+        "c": "9",
+        "d": "10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The median of 3, 7, 5, 2, 13, 9, 11, 16 is",
+      "multi": false
+    },
+    {
+      "n": 124,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15m",
+        "b": "12m",
+        "c": "18m",
+        "d": "10m 137"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A ladder is placed against a wall which is at a distance of 6m from the base of the wall and its top reaches a window 8m above the ground. Then the length of the ladder is",
+      "multi": false
+    },
+    {
+      "n": 125,
+      "page": 11,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": ",,",
+        "b": ",, 10757510 371137",
+        "c": ",,",
+        "d": ",, 71055710"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrange ,, in descending order.. 5710 731317",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "A": [],
+    "B": []
+  }
+}

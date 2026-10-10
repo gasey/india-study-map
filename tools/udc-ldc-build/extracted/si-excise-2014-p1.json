@@ -1,0 +1,163 @@
+{
+  "slug": "si-excise-2014-p1",
+  "exam": "Sub-Inspector under Excise & Narcotics Department",
+  "sitting": "March 2014",
+  "subject": "General English",
+  "source": "si-excise-2014-p1.pdf",
+  "sourceSha256": "9b37c01c908295bf27a90ce36137fcdefb566683379c5ecaac35fc068bfbaaf1",
+  "ocr": false,
+  "count": 6,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Role of the Media in Good Governance",
+        "b": "The importance of communication",
+        "c": "The Youth Culture today",
+        "d": "The dignity of Labour"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Write an essay on **any one** of the topics given below in about 900 words :(20)",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To hold one’s own",
+        "b": "To give oneself airs",
+        "c": "To turn over a new leaf",
+        "d": "To pull together"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Use  **any eight (8)** of the following idioms and phrases in sentences of your own :(8×2=16)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Why had people to listen to “The Voice” of Mahatma Gandhi?(2)",
+        "b": "Why had people to take an interest in politics?(2)",
+        "c": "What was the change brought about in the objects of politics?(2)",
+        "d": "What improvements were made for the common man?    (2)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the following passage carefully and answer the questions given at the end: The voice had to be listened to, not only on account of its form but for the matter which it delivered. It gave a message to the country that it needed greatly. It brought to the common people a realization of their duty to concern themselves with their affairs. The common people were made to take interest in the manner in which they were goverened, in the taxes they paid, in the return they got from those taxes. This interest in public affairs – politics as you may call it – was to be the concern no longer of the highly educated few but of the many – the poor, the propertyless, the working men in town and country. Politics was not to be the concern of a small aristocracy of intellect or property of the masses. And with the change in the subjects of politics that voice brought about also a change in the objects of politics. Till then politics had busied itself mainly with the machinery of Government towards making its personnel more and more native, with proposals for a better distribution of political power, with protests against the sins of omission and of commission of the administration. The voice switched politics on to concern for the needs of the common people. The improvement of the lot of the poor was to be the main concern of politics and the politician. The improvement, especially of the lives of the people of the neglected villages, was to be placed before Governments and political organizations as the goal of all political endeavor. The rising of the standard of living of the people of the villages, the finding of subsidiary occupations which would give the agricultural poor work for their enforced leisure during the off season and an addition to their exiguous income, the improvement of the housing of the poor, the sanitation of the villages- these were to be the objectives to be kept in view. In the towns, the slums and cherries were to receive especial attention. There was especially a class of the poor for which that compassionate voice pleaded and protested. This was for the so- called depressed class, the outcastes of Hindu society. The denial of elementary human rights to this class of people is considered the greatest blot on Hindu society and history. It raised itself in passionate protest against the age-old wrongs of this class and forced those that listened to it to endeavor to remove the most outrageous of them like untouchability. It caused a revolution in Hindu religious practice by having Hindu temples thrown open to these people. It made the care of them a religious duty of the Hindus by re-naming them Harijans. -Mr. Ruthnasami",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I need to buy __________",
+        "b": "All the guests were dancing. __________ having a good time.",
+        "c": "The young man seems very __________",
+        "d": "This car is __________, if you’re interested in buying it ."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct form of nouns verbs, adjectives, prepositions from the alternatives given : (7×1=7)",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "–(d)] and adjectives [(e)–(g)]:          (7×1=7) (a)Do not avail __________ your leave during the peak hour.",
+        "b": "I congratulate you __________ your graduation.",
+        "c": "Trespassers are prohibited __________ entering this land.",
+        "d": "You must go __________ the post office tomorrow."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks with suitable prepositions [(a)–(d)] and adjectives [(e)–(g)]:          (7×1=7)",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "His confidence will be build up by this.",
+        "b": "The road outside my house is being digged up.",
+        "c": "The essays have be handed in on Monday.",
+        "d": "Unemployment must dealt with by the government."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Correct the mistakes in the given sentences:     (10)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p2, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p2, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      2,
+      3,
+      5
+    ]
+  }
+}

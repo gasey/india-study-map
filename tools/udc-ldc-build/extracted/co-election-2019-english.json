@@ -1,0 +1,1867 @@
+{
+  "slug": "co-election-2019-english",
+  "exam": "Computer Operator under Election Department",
+  "sitting": "2019",
+  "subject": "General English",
+  "source": "General English(Election).pdf",
+  "sourceSha256": "d4b1b3ff73d273084d3f4829c796986f78d6d2c7964db0e43694f933c1354921",
+  "ocr": false,
+  "count": 80,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings.",
+      "opts": {
+        "a": "to prepare to give a musical performance",
+        "b": "to suffer hardship",
+        "c": "to suffer evil consequences",
+        "d": "to change the things"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To face the music",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings.",
+      "opts": {
+        "a": "something repeated often",
+        "b": "to survive without saving",
+        "c": "consuming food",
+        "d": "hitting someone by hand on the mouth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From hand to mouth",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings.",
+      "opts": {
+        "a": "unbalanced",
+        "b": "between two opinions",
+        "c": "coward",
+        "d": "uncomfortable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sitting on the fence",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings.",
+      "opts": {
+        "a": "big and small",
+        "b": "large object",
+        "c": "thin and fat",
+        "d": "under all conditions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Through thick and thin",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings.",
+      "opts": {
+        "a": "different",
+        "b": "object to",
+        "c": "difficult",
+        "d": "to take with difficulty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Take exception to",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings.",
+      "opts": {
+        "a": "to do things to please others",
+        "b": "to prepare a box to catch the fish",
+        "c": "to catch fish by providing suitable food",
+        "d": "to look at things from other person’s point of view"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To bait the hook to suit the fish",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings.",
+      "opts": {
+        "a": "an elephant with white skin",
+        "b": "a costly thing",
+        "c": "a costly and useful thing",
+        "d": "a costly but useless thing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A white elephant",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings.",
+      "opts": {
+        "a": "to enjoy a game of cricket",
+        "b": "to be carefree",
+        "c": "to dance and sing",
+        "d": "to be good at sport"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Merry as a cricket",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings.",
+      "opts": {
+        "a": "open to blame",
+        "b": "in accordance with the prevailingstyle",
+        "c": "at once or without any kind of deliberation",
+        "d": "on the side of something undesirable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On the spur of the moment",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings.",
+      "opts": {
+        "a": "out of assumptions",
+        "b": "irrelevantly",
+        "c": "beyond the reach",
+        "d": "beyond the imagination"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Beside the mark",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings.",
+      "opts": {
+        "a": "a long way off",
+        "b": "an unfounded claim",
+        "c": "a disadvantageous thing",
+        "d": "a thing which is neglected by all"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A far cry",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings.",
+      "opts": {
+        "a": "an iron cauldron",
+        "b": "a witch’s brewing pot",
+        "c": "an earthen vessel",
+        "d": "circumstances in which things may change greatly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Melting pot",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings.",
+      "opts": {
+        "a": "to win a prize",
+        "b": "talent for speaking",
+        "c": "to distribute gifts",
+        "d": "talent for dancing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gift of the cab",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings.",
+      "opts": {
+        "a": "excellent choice",
+        "b": "choice to live or die",
+        "c": "no choice at all since there is no option",
+        "d": "first choice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hobson’s choice",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings.",
+      "opts": {
+        "a": "to consider",
+        "b": "to discuss",
+        "c": "to understand",
+        "d": "to think over"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To talk over",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings.",
+      "opts": {
+        "a": "a hidden enemy",
+        "b": "unrecognizable danger",
+        "c": "very ferocious enemy",
+        "d": "unforeseen happening"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A snake in the grass",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 17 - 22) : Read the following passage and answer the questions that",
+      "opts": {
+        "a": "Problems of industrialisation",
+        "b": "The Bengal tiger",
+        "c": "Endangered species",
+        "d": "Callousness of man"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the author’s main concern in the passage?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 17 - 22) : Read the following passage and answer the questions that",
+      "opts": {
+        "a": "material gain",
+        "b": "personal satisfaction",
+        "c": "both",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the passage, poachers kill for",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 17 - 22) : Read the following passage and answer the questions that",
+      "opts": {
+        "a": "serious",
+        "b": "dangerous",
+        "c": "distressing",
+        "d": "frightening"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following words is closest in meaning to the word ‘alarming’?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 17 - 22) : Read the following passage and answer the questions that",
+      "opts": {
+        "a": "industrialisation",
+        "b": "poaching",
+        "c": "love of products made from them",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Certain species are becoming extinct because of",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 17 - 22) : Read the following passage and answer the questions that",
+      "opts": {
+        "a": "save",
+        "b": "stop",
+        "c": "touch",
+        "d": "spare"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The phrase ‘Stem the tide’ means",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 17 - 22) : Read the following passage and answer the questions that",
+      "opts": {
+        "a": "concerned",
+        "b": "vindictive",
+        "c": "surprised",
+        "d": "generous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following best describes the author’s attitude?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 23 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "by freeing slaves, we are honouring the concept of freedom",
+        "b": "by freeing slaves, we are safeguarding our own interests",
+        "c": "if we give freedom to the slaves, they will serve us better",
+        "d": "if we do not give freedom to the slaves, they will free themselves"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sentence : ‘In giving freedom ………. to the free’ (last sentence of para 2) means",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 23 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "The haste of the South to break away from the Union with the North",
+        "b": "The inadequate compensation given to slave-owners",
+        "c": "His own over-enthusiasm to complete the process fast",
+        "d": "His proposition to give grant for the rehabilitation of slaves"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What came in Lincoln’s way of carrying out emancipation as a gradual process?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 23 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "His hesitation in striving for emancipation of American blacks",
+        "b": "His indifference in conducting the American Civil War",
+        "c": "His efforts to force the American blacks from slavery",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following makes Abraham Lincoln a compassionate statesman?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 23 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "rehabilitation arrangements made for slave-owners",
+        "b": "efforts made by American blacks to free themselves",
+        "c": "handing over slaves to slave-owners",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘colonisation’ as used in the passage means",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 23 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "afraid of the majority of slaves",
+        "b": "unduly concerned for the safety of the rebels",
+        "c": "sympathetic and kind-hearted statesman",
+        "d": "unreasonably in favour of slaves"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The incidents in the passage prove that Lincoln was",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 23 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "a staunch and biased critic of Abraham Lincoln",
+        "b": "impressed with Lincoln’s good qualities",
+        "c": "an advocate of the system of slavery",
+        "d": "indifferent to Lincoln’s remarkable achievements"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The author of the passage seems to be",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 23 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "the slave-owners alone",
+        "b": "both the slaves and the slave-owners",
+        "c": "all the people in the country",
+        "d": "none of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Lincoln, the culprits of the system of slavery were",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 23 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "Lincoln turned down the demand of the prosecution of rebels",
+        "b": "Lincoln hated the demand of hanging Jefferson Davies",
+        "c": "Lincoln wondered how mere compassion could lead to harmony",
+        "d": "The Civil War was fought by the Northerners and Southerners against the enemies"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is TRUE in the context of the passage?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 23 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "they all belonged to the upper caste",
+        "b": "they were not guilty at all",
+        "c": "they were in a vast majority",
+        "d": "none of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lincoln didn’t have any hatred for the slave-owners because",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 23 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "the Southerners were wicked in their dealings",
+        "b": "Lincoln did not like the Southerners’ act of breaking away with the Union with the North",
+        "c": "Lincoln did not have revengeful attitude towards the Southerners",
+        "d": "Lincoln could control his anguish against the Southerners while expressing himself"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lincoln’s reply to the Northerner’s question regarding the treatment to Southerners proves that",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :",
+      "opts": {
+        "a": "conjunction",
+        "b": "adjective",
+        "c": "preposition",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Are there **any** witnesses present?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :",
+      "opts": {
+        "a": "preposition",
+        "b": "pronoun",
+        "c": "adjective",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He came **before** the appointed time.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :",
+      "opts": {
+        "a": "preposition",
+        "b": "noun",
+        "c": "article",
+        "d": "adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**The** dog loves his master.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :",
+      "opts": {
+        "a": "verb",
+        "b": "adverb",
+        "c": "adjective",
+        "d": "noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The **after** effects of the drug are bad.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :",
+      "opts": {
+        "a": "preposition",
+        "b": "conjunction",
+        "c": "adjective",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is willing, **yet** unfit to take up the responsibility.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :",
+      "opts": {
+        "a": "adjective",
+        "b": "adverb",
+        "c": "noun",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I would not **like** to see him again.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :",
+      "opts": {
+        "a": "pronoun",
+        "b": "noun",
+        "c": "preposition",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**That** is what I want.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :",
+      "opts": {
+        "a": "preposition",
+        "b": "pronoun",
+        "c": "adverb",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**What** does he want?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :",
+      "opts": {
+        "a": "adjective",
+        "b": "adverb",
+        "c": "noun",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There is time **enough** and to spare.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :",
+      "opts": {
+        "a": "noun",
+        "b": "pronoun",
+        "c": "verb",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Give place to your **seniors**.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :",
+      "opts": {
+        "a": "adjective",
+        "b": "pronoun",
+        "c": "verb",
+        "d": "adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The population of China is **more** than that of India.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :",
+      "opts": {
+        "a": "preposition",
+        "b": "adjective",
+        "c": "adverb",
+        "d": "verb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The earth revolves **round** the sun.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :",
+      "opts": {
+        "a": "adverb",
+        "b": "adjective",
+        "c": "noun",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Our blessings come from **above**.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :",
+      "opts": {
+        "a": "preposition",
+        "b": "conjunction",
+        "c": "adjective",
+        "d": "pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do not start the race **till** I blow the whistle.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :",
+      "opts": {
+        "a": "verb",
+        "b": "preposition",
+        "c": "adverb",
+        "d": "adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We shall **round** the cape in safety.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :",
+      "opts": {
+        "a": "noun",
+        "b": "adverb",
+        "c": "adjective",
+        "d": "preposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "We shall move **on**.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 49 - 56) : Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "simple sentence",
+        "b": "complex sentence",
+        "c": "compound sentence",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Do whatever you like.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 49 - 56) : Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "simple sentence",
+        "b": "complex sentence",
+        "c": "compound sentence",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "His courage won him honour.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 49 - 56) : Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "simple sentence",
+        "b": "complex sentence",
+        "c": "compound sentence",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The moon was bright and we could see our way.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 49 - 56) : Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "simple sentence",
+        "b": "complex sentence",
+        "c": "compound sentence",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He must work very hard, or he will not win the first prize.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 49 - 56) : Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "simple sentence",
+        "b": "complex sentence",
+        "c": "compound sentence",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He confessed that he was guilty.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 49 - 56) : Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "simple sentence",
+        "b": "complex sentence",
+        "c": "compound sentence",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He owed his success to his father.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 49 - 56) : Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "simple sentence",
+        "b": "complex sentence",
+        "c": "compound sentence",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The steamer went down, yet the crew were saved.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 49 - 56) : Analyse the given sentences and choose the correct option:",
+      "opts": {
+        "a": "simple sentence",
+        "b": "complex sentence",
+        "c": "compound sentence",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I do not know when I shall return.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 57 - 64) : Pick out the correct clause of the words underlined in the",
+      "opts": {
+        "a": "noun clause",
+        "b": "adverb clause",
+        "c": "adjective clause",
+        "d": "co-ordinate clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**That you have come** pleases me.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 57 - 64) : Pick out the correct clause of the words underlined in the",
+      "opts": {
+        "a": "noun clause",
+        "b": "adverb clause",
+        "c": "adjective clause",
+        "d": "co-ordinate clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Just as he entered the room** the clock struck .",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 57 - 64) : Pick out the correct clause of the words underlined in the",
+      "opts": {
+        "a": "noun clause",
+        "b": "adverb clause",
+        "c": "adjective clause",
+        "d": "co-ordinate clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The house **where the accident occurred** is nearby.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 57 - 64) : Pick out the correct clause of the words underlined in the",
+      "opts": {
+        "a": "noun clause",
+        "b": "adverb clause",
+        "c": "adjective clause",
+        "d": "co-ordinate clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He **that climbs too high** is sure to fall.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 57 - 64) : Pick out the correct clause of the words underlined in the",
+      "opts": {
+        "a": "noun clause",
+        "b": "adverb clause",
+        "c": "adjective clause",
+        "d": "co-ordinate clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**If it rains** we shall stay at home.",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 57 - 64) : Pick out the correct clause of the words underlined in the",
+      "opts": {
+        "a": "noun clause",
+        "b": "adverb clause",
+        "c": "adjective clause",
+        "d": "co-ordinate clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pay careful attention to **what I am going to say**.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 57 - 64) : Pick out the correct clause of the words underlined in the",
+      "opts": {
+        "a": "noun clause",
+        "b": "adverb clause",
+        "c": "adjective clause",
+        "d": "co-ordinate clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The explanation **he gave** was not satisfactory.",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 57 - 64) : Pick out the correct clause of the words underlined in the",
+      "opts": {
+        "a": "noun clause",
+        "b": "adverb clause",
+        "c": "adjective clause",
+        "d": "co-ordinate clause"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He arrived **as we were setting out**.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 65 - 72) : Fill in the blanks with the appropriate word from the given",
+      "opts": {
+        "a": "any",
+        "b": "plenty",
+        "c": "much",
+        "d": "some"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I gave him __________ advice.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 65 - 72) : Fill in the blanks with the appropriate word from the given",
+      "opts": {
+        "a": "of playing",
+        "b": "to play",
+        "c": "in playing",
+        "d": "about playing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is very fond __________ basketball.",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 65 - 72) : Fill in the blanks with the appropriate word from the given",
+      "opts": {
+        "a": "have",
+        "b": "has",
+        "c": "is",
+        "d": "are"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cost of all these articles __________ risen.",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 65 - 72) : Fill in the blanks with the appropriate word from the given",
+      "opts": {
+        "a": "have",
+        "b": "has",
+        "c": "was",
+        "d": "were"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neither food nor water __________ to be found there.",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 65 - 72) : Fill in the blanks with the appropriate word from the given",
+      "opts": {
+        "a": "older",
+        "b": "eldest",
+        "c": "elder",
+        "d": "oldest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "My grandmother is the __________ member our family.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 65 - 72) : Fill in the blanks with the appropriate word from the given",
+      "opts": {
+        "a": "is sweet",
+        "b": "sweet",
+        "c": "has sweet",
+        "d": "sweetly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The flowers smell __________ .",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 65 - 72) : Fill in the blanks with the appropriate word from the given",
+      "opts": {
+        "a": "good",
+        "b": "too good",
+        "c": "not good",
+        "d": "very good"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The news is __________ to be true.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 65 - 72) : Fill in the blanks with the appropriate word from the given",
+      "opts": {
+        "a": "unless",
+        "b": "except",
+        "c": "inspite",
+        "d": "despite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I shall not come __________ you need me.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 73 - 80) : Choose the word which is opposite in meaning from the",
+      "opts": {
+        "a": "open",
+        "b": "languid",
+        "c": "strong",
+        "d": "bright"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "vivacious",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 73 - 80) : Choose the word which is opposite in meaning from the",
+      "opts": {
+        "a": "rare",
+        "b": "ugly",
+        "c": "light",
+        "d": "easy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "common",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 73 - 80) : Choose the word which is opposite in meaning from the",
+      "opts": {
+        "a": "prudent",
+        "b": "careless",
+        "c": "alert",
+        "d": "promising"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "lethargic",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 73 - 80) : Choose the word which is opposite in meaning from the",
+      "opts": {
+        "a": "friendship",
+        "b": "cooperation",
+        "c": "agreement",
+        "d": "amity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "enmity",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 73 - 80) : Choose the word which is opposite in meaning from the",
+      "opts": {
+        "a": "charitable",
+        "b": "extravagant",
+        "c": "gaudy",
+        "d": "generous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "frugal",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 73 - 80) : Choose the word which is opposite in meaning from the",
+      "opts": {
+        "a": "deny",
+        "b": "possess",
+        "c": "renounce",
+        "d": "abdicate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "relinquish",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 73 - 80) : Choose the word which is opposite in meaning from the",
+      "opts": {
+        "a": "occupied",
+        "b": "engrossed",
+        "c": "relaxed",
+        "d": "engaged"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "busy",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Questions No. 73 - 80) : Choose the word which is opposite in meaning from the",
+      "opts": {
+        "a": "healthy",
+        "b": "innocuous",
+        "c": "safe",
+        "d": "fine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "perilous",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "“Democracy allows people to have different views and democracy makes us also responsible for negotiating an answer for those views.”- Aung San SuuKyi Write an essay in about 400 words expressing your ideas and opinion on the above statement.(20)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

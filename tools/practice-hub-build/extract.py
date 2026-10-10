@@ -312,18 +312,38 @@ def build_lines(chars, ytol=2.5):
 
 
 def find_option_markers(line):
-    """Every '(a)'..'(d)' in a line, as (letter, bbox, start_idx, end_idx)."""
+    """Every '(a)'..'(d)' in a line, as (letter, bbox, start_idx, end_idx).
+
+    The printed booklets are not perfectly uniform about the marker itself. A
+    few set the closing parenthesis a space away from the letter ('(c )'), add
+    a full stop ('(b.)'), or capitalise the letter ('(A)'). Each is still an
+    option marker, but the strict three-character form missed them and the
+    whole question was then dropped for having fewer than four choices.
+    Whitespace, a trailing '.', ',' or ':', and case are therefore tolerated;
+    everything after the marker (the option text) is read as before.
+    """
     cs = line["chars"]
     out = []
-    for i in range(len(cs) - 2):
-        a, b, d = cs[i], cs[i + 1], cs[i + 2]
-        if a.get_text() == "(" and d.get_text() == ")" and b.get_text() in "abcd":
-            out.append({
-                "letter": b.get_text(),
-                "bbox": (a.x0, min(a.y0, b.y0, d.y0), d.x1, max(a.y1, b.y1, d.y1)),
-                "i0": i,
-                "i1": i + 2,
-            })
+    i = 0
+    count = len(cs)
+    while i < count - 2:
+        a = cs[i]
+        if a.get_text() == "(":
+            letter = cs[i + 1].get_text()
+            if len(letter) == 1 and letter.lower() in "abcd":
+                k = i + 2
+                while k < count and (cs[k].get_text().strip() == "" or cs[k].get_text() in ".,:"):
+                    k += 1
+                if k < count and cs[k].get_text() == ")":
+                    d = cs[k]
+                    out.append({
+                        "letter": letter.lower(),
+                        "bbox": (a.x0, min(a.y0, cs[i + 1].y0, d.y0), d.x1,
+                                 max(a.y1, cs[i + 1].y1, d.y1)),
+                        "i0": i,
+                        "i1": k,
+                    })
+        i += 1
     return out
 
 
@@ -373,7 +393,7 @@ def derive_threshold(questions):
 
 # -------------------------------------------------------------------- parsing
 
-def extract(pdf, colour, allow_number_gaps=False):
+def extract(pdf, colour, allow_number_gaps=False, option_counts=(4,)):
     target = PALETTE[colour]
     tmp = tempfile.mkdtemp()
     subprocess.run(["pdftoppm", "-r", str(DPI), "-png", pdf,
@@ -433,7 +453,7 @@ def extract(pdf, colour, allow_number_gaps=False):
             notes.append(
                 f"Q{cur['n']} (p{cur['page']}, part {cur['part']}): conventional "
                 f"section, {len(cur['opts'])} sub-part(s) - not an MCQ")
-        elif cur and len(cur["opts"]) == 4:
+        elif cur and len(cur["opts"]) in option_counts:
             questions.append(cur)
         elif cur:
             notes.append(
@@ -481,7 +501,7 @@ def extract(pdf, colour, allow_number_gaps=False):
                     starts, expect = True, n + 1
                 elif allow_restart and n == 1:
                     starts, expect, allow_restart = True, 2, False
-                elif expect < n <= expect + 3 and cur and len(cur["opts"]) == 4:
+                elif expect < n <= expect + 3 and cur and len(cur["opts"]) in option_counts:
                     # tolerate a question the parser failed to open, but say so
                     notes.append(f"numbering jumped {expect} -> {n} (p{p['n']}); "
                                  f"{n - expect} question(s) missed")

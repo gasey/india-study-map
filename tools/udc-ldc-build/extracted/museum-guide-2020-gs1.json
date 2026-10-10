@@ -1,0 +1,1740 @@
+{
+  "slug": "museum-guide-2020-gs1",
+  "exam": "Museum Guide under Art & Culture Department",
+  "sitting": "2020",
+  "subject": "General Studies Paper-I",
+  "source": "Museum Guide General Studies-I.pdf",
+  "sourceSha256": "2f61dc76333bb213889cead7511f4497b867ada651e11c18d3a92289724868af",
+  "ocr": false,
+  "count": 75,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bombay",
+        "b": "Calcutta",
+        "c": "Delhi",
+        "d": "Madras"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first textile mill in India was started in which of the following cities?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gopal Krishna Gokhale",
+        "b": "Dadabhai Naoroji",
+        "c": "Mahatma Gandhi",
+        "d": "Jai Prakash Narayan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who put forward the ‘Drain of wealth’ theory during the British rule in India?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Calcutta, West Bengal",
+        "b": "Midnapore, West Bengal",
+        "c": "Serampore, West Bengal",
+        "d": "Chennai, Tamil Nadu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first modern paper mill was set up in 1832 at",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1850",
+        "b": "1851",
+        "c": "1852",
+        "d": "1853"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first railway line connecting Bombay with Thane was laid down in the year",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dinabandhu Mitra",
+        "b": "Bharatendu Harishchandra",
+        "c": "Makhanlal Chaturvedi",
+        "d": "Rabindranath Tagore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The author of the play Nil Darpan (The Mirror of Indigo) was:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thomas Munro",
+        "b": "William Bentinck",
+        "c": "Warren Hastings",
+        "d": "Wallesley"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mahalwari system was introduced during the period of",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lord Wellesley",
+        "b": "Lord Cornwallis",
+        "c": "Lord Dalhousie",
+        "d": "Lord Ripon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following British officials initiated the ‘Doctrine of Lapse’?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Macaulay’s Minutes on Education",
+        "b": "Wardha Scheme of Education",
+        "c": "Woods Despatch",
+        "d": "Hartog Committee Report"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following was regarded as Magna Carta of English Education in India?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1848",
+        "b": "1849",
+        "c": "1850",
+        "d": "1851"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "J.E Drinkwater Bethune founded Hindu Balika Vidyalaya (Bethune School) in the year",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "to present the state of elementary education throughout the Indian Empire",
+        "b": "the setting up of primary schools (vernacular languages) at the lowest level, high school in Anglo vernacular and colleges (English Medium) at district level.",
+        "c": "‘Learning through Activity’",
+        "d": "All of the Above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The principal objective of the Hunter Education Commission 1882-83 was/were",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Charter act of 1813",
+        "b": "Charter Act of 1833",
+        "c": "Charter act of 1853",
+        "d": "Charter act of 1858"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following acts of the British Government in India gave permission to grant the Christian missionaries to go to India to propagate English and teach their religion?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "General John Nicholson",
+        "b": "General Neil",
+        "c": "Major General Havelock",
+        "d": "Sir Collin Campbell"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following British officials recaptured Banaras and Allahabad in June 1857?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1857",
+        "b": "1858",
+        "c": "1862",
+        "d": "1892"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When was Queen Victoria’s Proclamation?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gwalior",
+        "b": "Agra",
+        "c": "Patna",
+        "d": "Meerut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Along with Tatya Tope, Rani Laxmi seized the city of_______",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bengal",
+        "b": "Bihar",
+        "c": "Malabar region",
+        "d": "Hyderabad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Moplah revolt occurred in:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1823",
+        "b": "1825",
+        "c": "1826",
+        "d": "1829"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The custom of Sati was abolished by Lord William Bentinck in the year:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Swami Vivekananda",
+        "b": "Henry Louis Vivian Derozio",
+        "c": "Swami Dayanand Saraswati",
+        "d": "Swami Shraddhanand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Young Bengal Movement was started in 1820’s by",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1234",
+        "b": "4321",
+        "c": "4231",
+        "d": "3412"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match list I and list II and select the correct using the codes given below the list. III A.Tarabai Shinde1.Ardhangi (The Female Half) B.Tryambakayajvan2.Stri Dharma Neeti (Morals for Women) C.Pandita Ramabai3.Stridharmapaddhati (Guide to the Religious Status and Duties of Women) D.Begum Rokeya4.Stri-purusha-Tulana (The comparison between women and men) Codes: ABCD",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pandita Ramabai",
+        "b": "Sarojini Naidu",
+        "c": "Ishwar Chandra Vidyasagar",
+        "d": "Raja Ram Mohan Roy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sharada Sadan (Home of Learning), a school for widows was established in Bombay ad Poona in 1889 by:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Female Education",
+        "b": "Abolition of Sati",
+        "c": "Widow Remarriage",
+        "d": "Untouchability"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The19th Century Social Reformer Ishwar Chandra Vidyasagar was famous for his struggle for:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Warren Hastings",
+        "b": "Lord Cornwallis",
+        "c": "Lord Dalhousie",
+        "d": "William Bentinck"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian Civil Service was established by:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brahmo Samaj",
+        "b": "Prathana SamaJ",
+        "c": "Ramakrishna Mission",
+        "d": "Mukti Mission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Swami Vivekananda was famous for the establishment of:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Annie Beasant",
+        "b": "Bal Gangadhar Tilak",
+        "c": "Lala Lajpat Rai",
+        "d": "Bipinchandra Pal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who introduced the safety-valve theory for the India National Congress?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mahatma Gandhi",
+        "b": "Lala Lajpat Rai",
+        "c": "A.O Hume",
+        "d": "Bal Gangadhar Tilak"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Indian National Congress(INC) which was established in 1885 by",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mahatma Gandhi",
+        "b": "Bipin Chandra Pal",
+        "c": "Gopal Krishna Gokhale",
+        "d": "Bal Gangadhar Tilak"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who said,”Swaraj is my birthright and I shall have it”?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bal Gangadhar Tilak",
+        "b": "Lala Lajpat Rai",
+        "c": "W.C Bonnerjee",
+        "d": "Bipin Chandrea Pal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following leaders was not extremist?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SarojiniNaidu",
+        "b": "Vijayalakshmi Pandit",
+        "c": "Annie Besant",
+        "d": "Aruna Asaf Ali"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the First Woman President of the Indian National Congress?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nalin Gupta",
+        "b": "M.N. Roy",
+        "c": "S.A. Dange",
+        "d": "M.A. Jinnah"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The pioneer of Communism in India was:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nawab Khwaja Salimullah",
+        "b": "Shaukat Ali",
+        "c": "Muhammad Ali Jinnah",
+        "d": "Aga Khan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the founder of the Muslim League in 1906 ?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1904",
+        "b": "1905",
+        "c": "1906",
+        "d": "1907"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Bengal Province was partitioned in the year:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Swadeshi Movement",
+        "b": "Non-Cooperation Movement",
+        "c": "Civil Disobedience Movement",
+        "d": "Quit India Movement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With which one of the following movements is the slogan “Do or Die” associated?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "May, 1947",
+        "b": "June, 1947",
+        "c": "July 1947",
+        "d": "August 1947"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The British Government passed the Indian Independence Act of 1947 in",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15th August, 1947",
+        "b": "26th November, 1949",
+        "c": "26th January, 1950",
+        "d": "24th January, 1950"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Constitution of India was adopted by the Constituent Assembly of India on",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8",
+        "b": "6",
+        "c": "7",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many Fundamental Rights were there in the original Constitution of India?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 35 —Article 50",
+        "b": "Articles 34- Article 51",
+        "c": "Article 36 -Article 52",
+        "d": "Article 36 – Article 51"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Directive Principles of State Policy is incorporated in which article numbers of the Constitution of India?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 352",
+        "b": "Article 356",
+        "c": "Article 358",
+        "d": "Article 360"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Financial Emergency is incorporated in which article number of the Constitution of India?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Vice President and the two Houses of Parliament respectively known as the Council of States and the House of the People.",
+        "b": "The two Houses of Parliament respectively known as the Council of States and the House of the People.",
+        "c": "The President and the two Houses of Parliament respectively known as the Council of States and the House of the People",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Parliament of India consists of",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The President of India",
+        "b": "The Prime Minister",
+        "c": "Speaker of the Lok Sabha",
+        "d": "Speaker of the Lok Sabha and the Chairman of the Rajya Sabha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first session of the Parliament after general election and the first session each year starts with a speech by the",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "One year",
+        "b": "Three months",
+        "c": "Three years",
+        "d": "Six months"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who is not a member of Parliament can be appointed as a member of the Council of Ministers but he must acquire membership of either House of Parliament within a period of",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Advisory Jurisdiction",
+        "b": "Original Jurisdiction",
+        "c": "Appellate Jurisdiction",
+        "d": "Exclusive Jurisdiction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All cases regarding interpretation of the constitution can be brought to the Supreme Court under the",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The National Development Council",
+        "b": "The NITI Aayog",
+        "c": "Inter-State Council",
+        "d": "The Finance Commission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Financial distribution between the Union and the states takes place on the basis of the recommendation of",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Parliament, offices of the President and Vice President of India, Municipal Corporation and District Council",
+        "b": "Parliament, Legislature of every state, offices of the President and Vice President of India and Panchayats.",
+        "c": "Offices of the President and Vice President of India , Parliament, Municipal Council, Municipal Corporation and District Council.",
+        "d": "Parliament, Legislature of every state, offices of the President and Vice President of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Election Commission of India is vested with the responsibilities of superintendence, direction and control of the preparation of the electoral rolls as well as conduct of all elections to",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Samajwadi party",
+        "b": "National People Party (NPP)",
+        "c": "Trinamool Congress",
+        "d": "Biju Janata Dal (BJD)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a national party?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Religion and language",
+        "b": "Religion and tribe",
+        "c": "Language and Caste",
+        "d": "Religion, language and tribe."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Minorities in the Constitution of India is interpreted on the basis of",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "All bills passed by the state legislature for the assent of the President",
+        "b": "Certain types of bills passed by the state legislature for the approval of the President",
+        "c": "No bills passed by the state legislature for approval of the President",
+        "d": "Only financial bills for the approval of the President."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Governor can reserve",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "One-tier",
+        "b": "Two-tiers",
+        "c": "Three-tiers",
+        "d": "No tier system"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Constitution Seventy Third Amendment Act, 1992 incorporated how many tiers of Panchayats?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "the Prime Minister, Speaker of the Lok Sabha, Minister of Home Affairs, Leader of opposition in both houses of Parliament and Deputy Chairman of Rajya Sabha",
+        "b": "the Prime Minister, Speaker of the Lok Sabha, Minister of Home Affairs, Chief Justice of India, Minister of Laws and Leader of Opposition in Lok Sabha",
+        "c": "the Prime Minister, Speaker of the Lok Sabha, Minister of Home Affairs, Leader of opposition in both houses of Parliament, Two Chief Justice of High Courts and Chief Justice of India",
+        "d": "the Prime Minister, Speaker of the Lok Sabha, Minister of Home Affairs, Leader of opposition in both houses of Parliament and Attorney General of India."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Appointment of the Chairperson and Members of the National Human Rights Commission shall be approved by a committee consisting of",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Socialistic Economy",
+        "b": "Gandhian Economy",
+        "c": "Mixed Economy",
+        "d": "Market Economy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s economy is characterised as __",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1961-1966",
+        "b": "1966-1971",
+        "c": "1969-1974",
+        "d": "1970-1975"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the period of the Fourth Five Year Plan in India?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Integrated Regional Development Programme",
+        "b": "International Rural Development Programme",
+        "c": "Inter-Regional Development Programme",
+        "d": "Integrated Rural Development Programme"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IRDP stands for __",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Regulation of credit",
+        "b": "Lender of the last resort",
+        "c": "Banker to the government",
+        "d": "Control of exports and imports"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not the function of the Reserved Bank of India?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NDP_F_C + NFIA",
+        "b": "NDP_F_C - NFIA",
+        "c": "NDP_F_C + Net Indirect Tax",
+        "d": "NDP_F_C - Net Indirect Tax"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the formula for calculating Net National Product at Factor Cost?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 January to 31 December",
+        "b": "31 January to 1 December stststth",
+        "c": "1 April to 31 March",
+        "d": "1 March to 28 February"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the accounting year in India? stststst",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Wheat and Potato",
+        "b": "Jowar and Oil seeds",
+        "c": "Wheat and Rice",
+        "d": "Tea and Coffee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian Green Revolution is the most successful in",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Transaction in the flow of capital",
+        "b": "Transaction relating to receipts and payment of invisibles",
+        "c": "Transactions relating only exports and imports",
+        "d": "Systematic record of all its economic transaction with the rest of the world"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Balance of Payment of a country refers to",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2100 calories",
+        "b": "2400 calories",
+        "c": "1800 calories",
+        "d": "2200 calories"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rural poverty line in India is determined by daily calorie intake of",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PMJDY",
+        "b": "PMKSY",
+        "c": "NSAP",
+        "d": "APY"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is relative to the government’s initiative for financial inclusion in India?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1947",
+        "b": "1948",
+        "c": "1949",
+        "d": "1956"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s first Industrial Policy Resolution was made in",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1979",
+        "b": "1980",
+        "c": "1981",
+        "d": "1982"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "National Bank for Agriculture and Rural Development was set up in July ___",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Solar Energy",
+        "b": "Milk Production",
+        "c": "Fish Production",
+        "d": "Tea Production"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Blue Revolution’ is related to",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Minimum margin for lending against specific securities",
+        "b": "Bank rate",
+        "c": "Cash reserve ratio",
+        "d": "Statutory liquidity ratio"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not the quantitative credit control instrument of RBI?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It is the scheme to save the girl child",
+        "b": "It is the Law that prohibit infanticide",
+        "c": "It is the saving scheme for girl child",
+        "d": "It is the scheme which for compulsory education for girl child"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which the correct statement about ‘Beti Bachao, Beti Padhao’ in India.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 hours 50 minutes of Greenwich Mean Time (GMT)",
+        "b": "6 hours 30 minutes of Greenwich Mean Time (GMT)",
+        "c": "4 hours 30 minutes of Greenwich Mean Time (GMT)",
+        "d": "5 hours 30 minutes of Greenwich Mean Time (GMT)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian Standard Time (IST) is ahead of:",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "7th Rank",
+        "b": "8th Rank",
+        "c": "2nd Rank",
+        "d": "5th Rank"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the rank of India based on the size of Geographical area?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jammu & Kashmir, Himachal Pradesh, Punjab, Sikkim, Arunachal Pradesh",
+        "b": "Punjab, Himachal Pradesh, Uttarakhand, Sikkim, Arunachal Pradesh",
+        "c": "Jammu & Kashmir, Himachal Pradesh, Uttarakhand, Sikkim, Arunachal Pradesh",
+        "d": "Jammu & Kashmir, Himachal Pradesh, Gujarat, Sikkim, Arunachal Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which states in India are bordering China?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 hour",
+        "b": "2 and half hours",
+        "c": "1 and half hours",
+        "d": "2 hours"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The time differences between tips of Arunachal Pradesh & Kutch in Gujarat is:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30",
+        "b": "27",
+        "c": "28",
+        "d": "29"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many States are there in India (2019) ?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Barren Island",
+        "b": "Lakshadweep Island",
+        "c": "Daman and Diu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is the only active volcano island among India’s Island?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "K2 Godwin Austen",
+        "b": "Mt.Everest",
+        "c": "Mt.Kanchenjunga",
+        "d": "Mt.Nanda Devi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Highest mountain peak in India is:",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Animudi",
+        "b": "Mahendragiri",
+        "c": "Doddabetta",
+        "d": "Nilgiri Hill"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Highest peak in South India is:",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Devanagiri word",
+        "b": "Hind word",
+        "c": "Arabic word",
+        "d": "Urdu word"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The word ‘Monsoon comes’ from the:",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Eastern part of India",
+        "b": "Southern part of India",
+        "c": "Northern part of India",
+        "d": "Central part of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Indian local wind ‘Loo’ is found in:",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Summer crop",
+        "b": "Monsoon crop",
+        "c": "Spring crop",
+        "d": "Winter crop"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rabi crop is a:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rajasthan",
+        "b": "Punjab",
+        "c": "Himachal Pradesh",
+        "d": "Gujarat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where is Indira Gandhi Canal located?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uttar Pradesh",
+        "b": "Andhra Pradesh",
+        "c": "Punjab",
+        "d": "West Bengal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Largest producer of Rice in India:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

@@ -1,0 +1,2317 @@
+{
+  "slug": "fr-2019-science-2",
+  "exam": "Forest Ranger under Environment, Forest & Climate Change Department",
+  "sitting": "2019",
+  "subject": "General Science Paper-II",
+  "source": "General Science-II (FR).pdf",
+  "sourceSha256": "c02417d310bad61daaa3c0768119d960c4745e22dbc74ad8b76a98582794047b",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Primary minerals",
+        "b": "Secondary minerals",
+        "c": "Accesories minerlas",
+        "d": "Tectosilicates minerals"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Clay minerals are called:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kaolinite",
+        "b": "Illite",
+        "c": "Vermiculite",
+        "d": "Montmorillonite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "1 silicon tetrahedron + 1 aluminium octahedron (1:1) of clay minerals structure is called:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Eolian Soils",
+        "b": "Loamy soils",
+        "c": "Lateritic soils",
+        "d": "Loess"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Residual soils that are cemented with iron oxides and are found in tropical regions is:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "75mm",
+        "b": "7.5mm",
+        "c": "0.75mm",
+        "d": "0.075mm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fine-grained soils grain size is less than:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hydrolysis",
+        "b": "Hydration",
+        "c": "Reduction",
+        "d": "Oxidation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In chemical weathering process, the water molecules dissociate into cation and anion is called:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Alluvium",
+        "b": "Collivium",
+        "c": "Eolian",
+        "d": "Lacustrine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The parent material of soil transported from their place of origin by the gravity is called:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vertisols",
+        "b": "Entisols",
+        "c": "Inceptisols",
+        "d": "Alfisols"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Acid igneous rocks (like granite, rhyolite) produce light-textured soils is called:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Horizon A",
+        "b": "Horizon B",
+        "c": "Horizon C",
+        "d": "Horizon O"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Soil profile, the parent material from which the soil is formed is known as:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Clay particles",
+        "b": "Sandy",
+        "c": "Silty",
+        "d": "Loamy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "________ play a very important role in soil fertility.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Potassium deficiency",
+        "b": "Nitrogen deficiency",
+        "c": "Phosphorus deficiency",
+        "d": "Sulphur deficiency"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When a plant becoming an overall yellowing of leaves and stunted growth is due to:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Eight",
+        "b": "Seven",
+        "c": "Six",
+        "d": "Five"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An acidic soil is the pH value less than:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pedon",
+        "b": "Solum",
+        "c": "Eluviation",
+        "d": "Illuviation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The smallest element of landscape that can be called ‘soil’ is:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chlorosis",
+        "b": "Macronutrient",
+        "c": "Micronutrient",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A mineral, vitamin, or other substance that is essential, even in very small quantities, for plant growth or metabolism is called:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sheet",
+        "b": "Gully",
+        "c": "Rills",
+        "d": "splash"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Soil erosion: as water concentrates, it first forms small channels called:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Deposition",
+        "b": "Solifluction",
+        "c": "Channel",
+        "d": "Sedimentation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Soil erosion is a three-step process: detachment followed by transport and:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RKLSCP",
+        "b": "RKLMNO",
+        "c": "RKPRST",
+        "d": "RKCBHP"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Universal Soil Loss Equation (USLE) for estimating average annual soil erosion is: A =",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vandana Shiva",
+        "b": "M. S. Swaminathan",
+        "c": "M.V. Rao",
+        "d": "Norman Borlaug"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the Father of Green Revolution in India?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uttar Pradesh",
+        "b": "Gujarat",
+        "c": "Rajasthan",
+        "d": "Madhya Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state has the largest waste-land in India?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30 to 40 percent",
+        "b": "50 to 60 percent",
+        "c": "60 to 70 percent",
+        "d": "70 to 80 percent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The general rules of windbreak, inside the barrier wind speed reduce to:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sliding",
+        "b": "Saltation",
+        "c": "Diversion",
+        "d": "Flying"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Soil particles move in three ways during wind erosion: surface creep, suspension, and:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gabian",
+        "b": "Rock bolt",
+        "c": "Retaining wall",
+        "d": "Rip rap"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A range of rocky material placed along shorelines, bridge foundations and steep slopes to protect from scour and erosion is called:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Terresterial",
+        "b": "Marine",
+        "c": "Aeolian",
+        "d": "Lacustrine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "C:N higher ratios are likely to come from a source of:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bacteria",
+        "b": "Actinomycetes",
+        "c": "Nematodes",
+        "d": "Algae"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is not belongs to the classification of Soil microorganisms?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ammonia",
+        "b": "Nitric Acid",
+        "c": "Nitrogen dioxide",
+        "d": "Sodium nitrate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Nitrogen fixation is a process by which molecular nitrogen in the air is converted into:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nitrogen (N)",
+        "b": "Phosphorus (P)",
+        "c": "Potassium (K)",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In NPK fertilizers, which improves fruit and/or flower production as well as root growth?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Six",
+        "b": "Fourty nine",
+        "c": "Eight",
+        "d": "Sixteen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Champion and Seth (1968), the forests in India are classified into ________ type groups.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tropical Semi-evergreen forest",
+        "b": "Tropical dry deciduous forest",
+        "c": "Tropical Moist deciduous forest",
+        "d": "Tropical dry evergreen forest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the forest type groups in India covers maximum area?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25% of the country’s geographical area",
+        "b": "33% of the country’s geographical area",
+        "c": "45% of the country’s geographical area",
+        "d": "50% of the country’s geographical area"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s goal to increase the forest cover and tree cover is:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Greek",
+        "b": "Sanskrit",
+        "c": "Latin",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The word ‘Forest’ is derived from the ________ word ‘Foris’.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mizoram",
+        "b": "Arunachal Pradesh",
+        "c": "Nagaland",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The maximum diversity of bamboo is found in the ________ state of North East India.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "More than 10% to equal to 40%",
+        "b": "10% to less than 40%",
+        "c": "More than 10% to less than 40%",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A forest can be called as open forest if canopy cover is:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Easter part",
+        "b": "Western Part",
+        "c": "North Eastern Part",
+        "d": "South Eastern Part"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Mizoram Dipterocarps are mostly distributed in ________ of the state.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6",
+        "b": "8",
+        "c": "10",
+        "d": "12"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The number of wildlife sanctuaries in Mizoram are:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "57.23%",
+        "b": "88.48%",
+        "c": "92.37%",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per SFR, 2017, total forest cover including tree cover of Mizoram of its total geographical areas is:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4",
+        "b": "6",
+        "c": "8",
+        "d": "10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per Champion and Seth (1968) the number of forest type groups in Mizoram is:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "In-situ conservation",
+        "b": "Ex-situ conservation",
+        "c": "Both (a) & (b)",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tree arboretum is an example of:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Meliaceae",
+        "b": "Gesneraceae",
+        "c": "Lauraceae",
+        "d": "Combretaceae"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The state tree of Mizoram belongs to plant family:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mesua ferrea",
+        "b": "Globba wengeri",
+        "c": "Renanthera imschootiana",
+        "d": "Vanda coerulea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following plant species produces State flower of Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hardening out",
+        "b": "Transplanting out",
+        "c": "Seedling establishment",
+        "d": "Hardening off"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Preparation of seedlings in a nursery for planting out by gradually reducing water, shade and/or shelter is called:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hyblaea puera",
+        "b": "Plecoptera reflexa",
+        "c": "Eutectona macheralis",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The scientific name of teak defoliator is:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Replanting",
+        "b": "Beating up",
+        "c": "Healing",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Casuality replacement in a forest plantation is also called:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pure forest",
+        "b": "High forest",
+        "c": "Natural forest",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When regeneration is obtained from seed, the forest is termed as:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12,500",
+        "b": "15,000",
+        "c": "10,000",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Number of plants required for 10 ha of plantation in which plants are 2m apart in rows which are 4m apart:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Plantation record",
+        "b": "Plantation notes",
+        "c": "Plantation document",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Plantation register is also called as:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dalbergia",
+        "b": "Albizzia",
+        "c": "Cedrus",
+        "d": "Salix"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of these is a non coppice?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In crown thinning there are________ numbers of grades.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Felling series",
+        "b": "Felling cycle",
+        "c": "Age gradation",
+        "d": "Cutting section"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The time that elapses between successive main felling on the same area is called as:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Weeding",
+        "b": "Thinning",
+        "c": "Cleaning",
+        "d": "Pruning"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A tending operation done in a sapling crop is called:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "System of Concentrated regeneration",
+        "b": "System of diffused regeneration",
+        "c": "Coppice system",
+        "d": "Accessory system"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Improvement felling is an example of:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pinus roxburghii",
+        "b": "Pinus kesiya",
+        "c": "Cedrus deodara",
+        "d": "Shorea robusta"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The species in which Alternate clear strip system is followed is:",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "60%",
+        "b": "20%",
+        "c": "33%",
+        "d": "80%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to forest policy of India, 1952, the minimum forest area for hilly region should be:",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National forest policy, 1988",
+        "b": "National forest policy 1952",
+        "c": "National forest policy 1894",
+        "d": "Forest Conservation Act, 1980"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ban on deforestation for the purpose of Non-forestry use is as per:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IV",
+        "b": "V",
+        "c": "II",
+        "d": "VI"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which chapter of Wildlife Protection Act, 1972 deals with trade or commerce in wildlife?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chipko movement",
+        "b": "Salient valley movement",
+        "c": "Apiko movement",
+        "d": "Narmada Bachao Andolan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pandurang Hegde is associated with:",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Farm Forestry",
+        "b": "Extension forestry",
+        "c": "Recreational Forestry",
+        "d": "Protection forestry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Forestry practice is not included in the scope of social forestry?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Short rotation",
+        "b": "Medium rotation",
+        "c": "Both (a) & (b)",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which type of species should be selected for farm forestry?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Production of Fuel wood",
+        "b": "Production of fodder",
+        "c": "Production of timber",
+        "d": "Both (a) & (b)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Main aim of community forestry is:",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NCA report",
+        "b": "Forest Conservation Report",
+        "c": "National Forest Policy",
+        "d": "Indian Forest Act"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A major thrust to “social forestry concept” was given by:",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uttar Pradesh",
+        "b": "Bihar",
+        "c": "Tamil Nadu",
+        "d": "West Bengal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "JFM was first initiated in India in the state of:",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "18%",
+        "b": "40%",
+        "c": "25%",
+        "d": "15%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The minimum sale proceeds that must be realized by VFC under JFM is:",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lagerostroemia speciosa",
+        "b": "Tectona grandis",
+        "c": "Delonix regia",
+        "d": "Jacaranda mimosifolia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not appropriate for urban forestry:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1990",
+        "b": "1988",
+        "c": "1999",
+        "d": "2000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "First Green Mizoram Day was observed in the year:",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Soil profile characteristics",
+        "b": "External feature of the land",
+        "c": "Climate factor",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Factors influencing land capability classification includes:",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30 - 45cm",
+        "b": "45 - 90 cm",
+        "c": "> 90 cm",
+        "d": "< 7.5cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the land capability classes, class 1 will have soil depth of:",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Subclass w",
+        "b": "Subclass s",
+        "c": "Subclass c",
+        "d": "Subclass e"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Land capability subclass ________ is made up of soils for which the susceptibility to erosion is the dominant problem or hazard affecting their use.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Three months after harvest of the standing crops",
+        "b": "Immediately after harvest of the standing crops",
+        "c": "Before harvesting of the standing crops",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In relay cropping, sowing of the next crop is done at:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Insurance against crop failure",
+        "b": "Higher productivity per unit area",
+        "c": "Sufficient utilization of resources",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The objective of inter cropping is:",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Secondary crops",
+        "b": "food crop",
+        "c": "filler plants",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India, ________ is basic to the cropping system followed by the farmers in sequence cropping.",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "mono cropping",
+        "b": "relay cropping",
+        "c": "sequence cropping",
+        "d": "inter cropping"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Farmers usually practice ________ in conditions such as lands situated in river basins which often remain flooded during rainy season.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "higher dose of nitrogen",
+        "b": "higher dose of phosphorus",
+        "c": "higher dose of potassium",
+        "d": "none of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Application of ________ to cereal + legume intercropping system not only reduce the nitrogen fixation capacity of legumes, but also growth of the legume is suppressed by aggressive fast growth of cereals.",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "More",
+        "b": "Less",
+        "c": "Same",
+        "d": "Zero"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Weed problems is ________ in multiple cropping system because of intensive cropping as compared to the mono cropping system.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Not affected",
+        "b": "Increased",
+        "c": "Reduced",
+        "d": "Highly increased"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pest and diseases occurrence is believed to be ________ in intercropping system due to crop diversity than sole crops.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "farm resources",
+        "b": "farm enterprises",
+        "c": "farm technology",
+        "d": "all of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Efficient cropping systems for a particular farm depend on:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It is possible to practice zero tillage in all sequence cropping systems",
+        "b": "Management practices can be similar with that of inter cropping",
+        "c": "Soil fertility management is very simple",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not true for a sequence cropping:",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20 - 30 years",
+        "b": "10 - 20 years",
+        "c": "5 - 10 years",
+        "d": "less than 5 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The length of fallow period for shifting cultivation in Mizoram in recent years is estimated to be:",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "burning, slashing, sowing, ploughing and harvesting",
+        "b": "slashing, burning, sowing, weeding and harvesting",
+        "c": "ploughing, burning, weeding, sowing and harvesting",
+        "d": "slashing, burning, ploughing, sowing, and harvesting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sequence of activities in shifting cultivation is:",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It is labour intensive and economical in production",
+        "b": "It is often built around the concepts of community ownership, participation and responsibility",
+        "c": "Shifting cultivators practice mixed cropping, and traditionally food grains and vegetables",
+        "d": "Recent years problem is short cycle due to land use pressure"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is not a case for shifting cultivation?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Make an A-frame; Locate the contour lines; Prepare the contour lines; Plant seeds of nitrogen fixing trees and shrubs; Cultivate horticulture crops; Plant permanent crops; Plant short and medium term crops; Trim regularly nitrogen fixing trees/shrubs; Practice crop rotation; Build green terraces.",
+        "b": "Make an A-frame; Livestock rearing; Prepare the contour lines; Plant seeds of nitrogen fixing trees and shrubs; Cultivate alternate strips; Plant permanent crops; Plant short and medium term crops; Trim regularly nitrogen fixing trees/shrubs; Practice crop rotation; Build green terraces.",
+        "c": "Make an A-frame; Locate the contour lines; Prepare the contour lines; Plant seeds of nitrogen fixing trees and shrubs; Cultivate alternate strips; Plant permanent crops; Plant short and medium term crops; Trim regularly nitrogen fixing trees/shrubs; Practice crop rotation; Build green terraces.",
+        "d": "Make an A-frame; Locate the contour lines; Prepare the contour lines; Plant seeds of nitrogen fixing trees and shrubs; Cultivate alternate strips; Bee keeping; Plant short and medium term crops; Trim regularly nitrogen fixing trees/shrubs; Practice crop rotation; Build green terraces."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ten steps of Sloping Agricultural Land Technology (SALT 1) includes:",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It protects soil from erosion",
+        "b": "It helps restore soil fertility and structure",
+        "c": "It is ecologically sound",
+        "d": "Fruit trees, forest and other crops are the first priority"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is not included in the advantage of Sloping Agricultural Land Technology (SALT)?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "low-altitude zone of 100 meter to 500 m;",
+        "b": "mid-altitude zone of 500 meter to 1,500 m;",
+        "c": "high -altitude zone of 1,500 meter to 3,500 m;",
+        "d": "none of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Slopping Watershed Engineering Technology (SWEET) has proved most effective in the:",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Multiple uses such as food, feed, firewood, construction materials, etc.",
+        "b": "Ability to fix atmospheric nitrogen",
+        "c": "Easy to propagate and prolific seed producer",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Some of the characteristics of Multipurpose tree species (MPTs) includes:",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "a herbaceous layer near the ground,",
+        "b": "a tree layer at the upper levels",
+        "c": "an intermediate layer",
+        "d": "all of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A homestead garden generally consist of",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agrisilvicultural sytem",
+        "b": "Silvopastoral system",
+        "c": "Agrisilvopastural system",
+        "d": "Aquaforestry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The production of woody perennials combined with annuals and pastures is referred to as",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increase of pressure on natural forest",
+        "b": "Reduction of surface runoff, nutrient leaching and soil erosion",
+        "c": "Improvement of soil structure through constant addition of organic matter",
+        "d": "Better protection of ecological system"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not included in the environmental impact of agroforestry system?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Genetic resources such as varieties and breed",
+        "b": "Farm inputs such as manures, fertilizers and pesticides",
+        "c": "Non harvested species such as soil microorganisms, predators and pollinators",
+        "d": "Agricultural, pastoral, forest and aquatic ecosystems"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Agrobiodiversity does not include:",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sloping Agricultural Land Technology (SALT)",
+        "b": "Slopping Watershed Engineering Technology (SWEET)",
+        "c": "ICAR 3-tier system",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The technology evolved in the G.B Pant Institute of Himalayan Environment and Development, that checks soil erosion, maintains fertility, increases crop productivity, promotes cash fruit and fodder crops and stores rainwater, is the",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increase productivity, food security, and economic returns",
+        "b": "Make farming systems more stable, robust, and sustainable",
+        "c": "Contribute to increased pest and disease problems",
+        "d": "Conserve soil and increase natural soil fertility and health"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a result of the practice of agrobiodiversity?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Water",
+        "b": "Nitrogen",
+        "c": "Carbon dioxide",
+        "d": "Oxygen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "During dry season, pollution of river can be controlled by providing extra:",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Domestic waste and Sewage",
+        "b": "Industrial effluents",
+        "c": "Thermal pollution",
+        "d": "Agricultural effluents"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is the biggest source of surface and ground water pollution in India?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "5.6",
+        "c": "8",
+        "d": "7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the PH value of normal rain?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India has implemented 5 emission standards for four-wheeled and heavy-duty vehicles.",
+        "b": "India has decided to implement BS VI by 2021.",
+        "c": "The BS VI standards will be implemented in all vehicles manufactured on or after April 1, 2020.",
+        "d": "The new emission standard has low sulfur content as compared to the present one."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is incorrect?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Environmental (Protection) Act 1986",
+        "b": "The Forest (Conservation) Act, 1980",
+        "c": "Water (Prevention and Control of Pollution) Act, 1974",
+        "d": "Air (Prevention and Control of Pollution) Act, 1981"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which act makes EIA clearance mandatory for new projects?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hazardous Wastes",
+        "b": "Radioactive waste",
+        "c": "Air pollution",
+        "d": "Water pollution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Basel Convention is related to",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1990",
+        "b": "1991",
+        "c": "1992",
+        "d": "1993"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When did Convention on Biological Diversity established?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ecomark is an eco-labelling scheme launched by Central Pollution Control Board",
+        "b": "Ecomark was launched in 2000 for easy identification of environment-friendly products",
+        "c": "The logo of Indian Ecomark Scheme is earthen pot",
+        "d": "Ecomark labelled products are not necessarily more expensive than conventional products"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is incorrect?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "International Organisation for Standardization",
+        "b": "International Standards Organisation",
+        "c": "International Systems Organisation",
+        "d": "Integrated Systems Operation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does ISO stand for?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6.5 and 8.5",
+        "b": "6 and 8",
+        "c": "7.5 and 9.5",
+        "d": "7 and 9"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The normal range for pH in packaged drinking water as per Indian Standard is between",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brundtland World Commission on Environment and Sustainable Development",
+        "b": "Brundtland World on Committee Environment and Sustainable Development",
+        "c": "Brutland World Committee on Environment and Development",
+        "d": "Brundtland World Commission on Environment and Development"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most commonly cited definition for sustainable development is given by:",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Topographic maps",
+        "b": "Demographic maps",
+        "c": "Land-use maps",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Maps that form an important part of a disaster manager’s resources include:",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "80 mg/m³",
+        "b": "75 mg/m³",
+        "c": "85 mg/m³",
+        "d": "90 mg/m³"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ambient air quality standard (24 hours average) for Sulphur Dioxide (SO₂) in industrial/residential area is:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

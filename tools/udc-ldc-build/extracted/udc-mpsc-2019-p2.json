@@ -1,0 +1,2318 @@
+{
+  "slug": "udc-mpsc-2019-p2",
+  "exam": "UDC under MPSC",
+  "sitting": "2019",
+  "subject": "Paper-II",
+  "source": "Paper-II (MPSC).pdf",
+  "sourceSha256": "da5053b3c04942e39aea343b90993835f3bba736debf4db38342b5dc8a9f9602",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Asia",
+        "b": "Africa",
+        "c": "Europe",
+        "d": "South America"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "East Timor, which became the 191st member of the UN, is in the continent of",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gorkha National Liberation Front",
+        "b": "Gross National Liberation Form",
+        "c": "Both (a) & (b)",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "GNLF stands for",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Darjeeling",
+        "b": "Dehradun",
+        "c": "Marmago",
+        "d": "Dispur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Himalayan Mountaineering Institute is at",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Behavior of human beings",
+        "b": "Insects",
+        "c": "The origin and history of technical and scientific terms",
+        "d": "The formation of rocks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Entomology is the science that studies",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pakistan",
+        "b": "Afghanistan",
+        "c": "Bangladesh",
+        "d": "Nepal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hamid Karzai was chosen president of _________ in 2002.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Junagarh, Gujarat",
+        "b": "Diphu, Assam",
+        "c": "Kohima, Nagaland",
+        "d": "Gangtok, Sikkim"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Garampani sanctuary is located at",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "New York, USA",
+        "b": "Hague (Netherlands)",
+        "c": "Geneva",
+        "d": "Paris"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Headquarters of UNO are situated at",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Boys’ 60 Kg category",
+        "b": "Boys’ 62 Kg category",
+        "c": "Boys’ 65 Kg category",
+        "d": "Boys’ 70 Kg category"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Jeremy Lalrinnunga claimed Gold in the weightlifting event in the Summer Youth Olympic Games held in Buenos Aires during 6-18 October 2018. In which category he participated in the Games?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Physics and Chemistry",
+        "b": "Physiology or Medicine",
+        "c": "Literature, Peace and Economics",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For which of the following disciplines is Nobel Prize awarded?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cricket",
+        "b": "Football",
+        "c": "Hockey",
+        "d": "Volleyball"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Durand Cup is associated with the game of",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Labour Party",
+        "b": "Nazi Party",
+        "c": "Ku-Klux-Klan",
+        "d": "Democratic Party"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hitler party which came into power in 1933 is known as",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Foreign Finance Corporation",
+        "b": "Film Finance Corporation",
+        "c": "Federation of Football Council",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "FFC stands for",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "states that no one was to be imprisoned without a writ or warrant stating the charge against him",
+        "b": "provided facilities to a prisoner to obtain either speedy trial or release in bail",
+        "c": "safeguarded the personal liberties of the people against arbitrary imprisonment by the king’s",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Habeas Corpus Act 1679",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "the infrared light kills bacteria in the body",
+        "b": "resistance power increases",
+        "c": "the pigment cells in the skin get stimulated and produce a healthy tan",
+        "d": "the ultraviolet rays convert skin oil into Vitamin D"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Exposure to sunlight helps a person improve his health because",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USA",
+        "b": "Fiji",
+        "c": "India",
+        "d": "UK"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Golf player Vijay Singh belongs to which country?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "increased height",
+        "b": "retarded growth",
+        "c": "weakening of bones",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Excessive secretion from the pituitary gland in the children results in",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "the first Buddhist pilgrim of China to visit India during the reign of Chandragupta Vikramaditya",
+        "b": "the discoverer of Puerto Rico and Jamaica",
+        "c": "the first Buddhist pilgrim of India to visit China",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fa Hien was",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "a condition in the international market where nations do not impose customs duty or other taxes on import of goods",
+        "b": "market where the price of a commodity is determined by free play of the forces of supply and demand",
+        "c": "ports that are exempted from payment of customs duty on articles of commerce, primarily to encourage tourism",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Free market is",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aluminium",
+        "b": "Copper",
+        "c": "Lead",
+        "d": "Zinc"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For galvanizing iron which of the following metals is used?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "All commodities that are limited in quantity as compared to their demand",
+        "b": "Commodities that is available according to their demand",
+        "c": "Commodities that is available more as compared to demand",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Economic goods are",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "for coagulation of mud particles",
+        "b": "to kill bacteria",
+        "c": "to remove salts",
+        "d": "to remove gases"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For purifying drinking water alum is used",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Economic and Social Commission for Asia and Pacific",
+        "b": "European Society Council for Africa and Pacific",
+        "c": "Economic and Social Commission for Africa and Pacific",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ESCAP stands for",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "the first Muslim president of India",
+        "b": "first vice president of India",
+        "c": "first president of Indian National Congress",
+        "d": "first speaker of Lok Sabha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dr.Zakir Hussain was",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "First World Nations",
+        "b": "Second World Nations",
+        "c": "Third World Nations",
+        "d": "Fourth World Nations"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "G-15 is an economic grouping of",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Earthquakes",
+        "b": "Rainfall",
+        "c": "Ocean depth",
+        "d": "Sound intensity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fathometer is used to measure",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "low melting point",
+        "b": "high resistance",
+        "c": "high melting point",
+        "d": "low specific heat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For safety, the fuse wire used in the mains for household supply of electricity must be made of metal having",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Air Pistol event",
+        "b": "Wrestling",
+        "c": "Weightlifting",
+        "d": "Boxing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian sportsperson Manu Bhaker won Gold Medal in Summer Youth Olympic Games held in Buenos Aires during 6-18 October 2018. In which discipline she participated in the Games?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Maria Sharapova",
+        "b": "Garbine Muguruza",
+        "c": "Simona Haleb",
+        "d": "Sloane Stephans"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has won the women’s Singles title of 2018 French Open?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Laterite soil",
+        "b": "Red soil",
+        "c": "Alluvium soil",
+        "d": "Black soil"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following soil is most ideal for paddy cultivation?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Norway",
+        "b": "Sweden",
+        "c": "Finland",
+        "d": "Estonia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following European countries is known as the ‘Land of a thousand lakes’?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3rd April",
+        "b": "4th April",
+        "c": "5th April",
+        "d": "7th April"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "World Health day is observed on?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 31",
+        "b": "Article 32",
+        "c": "Article 33",
+        "d": "Article 34"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The right to constitutional remedies allows Indian citizens to stand up for their rights against anybody even the government of India. Which article says this?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Russia",
+        "b": "China",
+        "c": "France",
+        "d": "USA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which major world power quit the UNHRC ?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "New Delhi",
+        "b": "Hangzhou",
+        "c": "Kuala Lumpur",
+        "d": "Tokyo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following city going to host Asian Games 2022?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I, II and III",
+        "b": "II and III",
+        "c": "I and II",
+        "d": "I and III"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following are true regarding Jhum cultivation in India? I.It is largely practiced in Assam and Mizoram II.It is referred to as ‘slash and burn’ technique III.In it, the fertility is exhausted in a few years",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "William Shakespeare",
+        "b": "Richard",
+        "c": "U.S.Naipaul",
+        "d": "Jules Verne"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Author of Around the World in Eighty Days is",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "John Keats",
+        "b": "Robert Browing",
+        "c": "P.B.Shelley",
+        "d": "William Wordsworth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who wrote the line: ‘A thing of beauty is a joy forever’?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thomas Hardy",
+        "b": "Emile Zola",
+        "c": "George Orwell",
+        "d": "Walter Scott"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the author of the book ‘Nineteen Eighty Four’?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Salman RushDie",
+        "b": "Abu Nuwas",
+        "c": "Ms. Taslima Nasrin",
+        "d": "D.H. Lawrence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the author of the book ‘Forbidden Verses’?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "My God Died Young",
+        "b": "Islamic Bomb",
+        "c": "Look Back in Anger",
+        "d": "A Suitable Boy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following books has been written by Vikram Seth?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Badminton",
+        "b": "Cricket",
+        "c": "Hockey",
+        "d": "Basketball"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pawan Shah, who is in news recently, is associated with which sports?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MS Dhoni",
+        "b": "Virat Kohli",
+        "c": "Rohit Sarma",
+        "d": "Ravichandran Ashwin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has become the 3rd Indian Cricketer to reach the coveted milestone of playing 500 international matches?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pooja Mishra",
+        "b": "Anju Koshla",
+        "c": "Anjali Jain",
+        "d": "Priya Mukherjee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has become the oldest Indian woman to complete an Ironman Triathlon?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chennaiyin FC",
+        "b": "Athletico de Kolkatta",
+        "c": "Pune FC",
+        "d": "Bengaluru FC"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which team is the champion of Indian Super league 2018-19?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Darban, South Africa",
+        "b": "London, UK",
+        "c": "Toronto, Canada",
+        "d": "Gold Coast, Australia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following city is hosting the Commonwealth Game 2018?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Amateur Athletics Federation of India",
+        "b": "Afro Asian Federation of Industry",
+        "c": "All Assam Farmers Institute",
+        "d": "Amateur Armwrestling Federation of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AAFI stands for",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "World Anti Drug Agency",
+        "b": "World Anti Drug Analysis",
+        "c": "World Anti-Doping Agency",
+        "d": "World Anti-Doping Analysis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WADA",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bharat Automobile Research Centre",
+        "b": "Bhabha Automobile Research Centre",
+        "c": "Bhabha Atomic Research Centre",
+        "d": "Bharat Atomic Research Centre"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "BARC stands for",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Regional Cooperation in Latin America",
+        "b": "Regional Cooperation in European Union",
+        "c": "Regional Cooperation in Middle East",
+        "d": "Regional Co-operation in south East Asia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "SAARC refers to",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Satellite Launch Vehicle",
+        "b": "Satellite Landing Vehicle",
+        "c": "Satellite Latest Version",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "SLV implies",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Damodar River in India",
+        "b": "Hoogly river",
+        "c": "Ganges river",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bengal’s Sorrow refers to",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oxford in London",
+        "b": "Baghdad in Iraq",
+        "c": "Paris in France",
+        "d": "Washington DC US"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "City of Arabian Nights is located in",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Emerald Island",
+        "b": "Cockpit of Europe",
+        "c": "Empire City",
+        "d": "Gate of Tears"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Belgium is called",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mumbai",
+        "b": "Chennai",
+        "c": "Rajpat, Delhi",
+        "d": "Chandigarh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gateway of India located in",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Norway",
+        "b": "Australia",
+        "c": "Canada",
+        "d": "Scotland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Land of Cake implies",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Secret Super Star",
+        "b": "Tumhari Sulu",
+        "c": "Mom",
+        "d": "Hindi Medium"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which film was adjudged the ‘Best Film’ in the 19th IIFA awards-2018?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Meenakshi Chaudhary",
+        "b": "Shreya Rao Kamavarapu",
+        "c": "Anukreethy Vas",
+        "d": "Manushi Chhillar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has been crowned Femina Miss India World 2018?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "In a free State",
+        "b": "The English patient",
+        "c": "Wolf Hall",
+        "d": "Moon Tiger"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which novel has won the 2018 Golden Man Booker Prize?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Milan Shankar Tare",
+        "b": "Rutv Thakur",
+        "c": "Radhika Sharma",
+        "d": "Milind Kumar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has been selected for the 2018 National Maritime Search and Rescue Award?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Catherine Lallawmsangi",
+        "b": "Rody H.Vanlalhriatpuii",
+        "c": "T.Ramthanmawii",
+        "d": "Lily Darnei"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was crowned as the Miss Mizoram 2018",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Biro Brothers",
+        "b": "Waterman Brothers",
+        "c": "Bicc Brothers",
+        "d": "Write Brothers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who invented the BALLPOINT PEN?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Robert Koch",
+        "b": "Edward Jenner",
+        "c": "Robert Hooke",
+        "d": "Louis Pasteur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following invented the small pox vaccine?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Barometer",
+        "b": "Pendulum clock",
+        "c": "Microscope",
+        "d": "Thermometer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What Galileo invented?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "John Christopher Ballantyne",
+        "b": "Joseph Cyril Bamford",
+        "c": "John Christopher Baxter",
+        "d": "Jack Croxford Baker"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The initials JCB on earth-moving equipment are those of the founder of the company that makes it. What is his name?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zoot suit",
+        "b": "Mini-skirt",
+        "c": "Bikini",
+        "d": "Tank top"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What piece of clothing was invented by French fashion designer Louis Reard in 1946?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Volatile storage",
+        "b": "Non-volatile storage",
+        "c": "Sequential storage",
+        "d": "Direct storage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Storage which stores or retains data after power off is called-",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Secondary",
+        "b": "Auxiliary",
+        "c": "Tertiary",
+        "d": "Primary"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "USB-type storage device is -",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Floppy Disk",
+        "b": "Tape",
+        "c": "Network Drive",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which device is used to back up the data?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Internal",
+        "b": "External",
+        "c": "Both (a) & (b)",
+        "d": "Auxiliary"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Main memory of computer is -",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RAM",
+        "b": "ROM",
+        "c": "CPU",
+        "d": "CD-ROM"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the permanent memory built into your computer called?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "is a computer language",
+        "b": "is a unit of computer",
+        "c": "is a computer operating system",
+        "d": "is a type of computer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pascal -",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Global Positioning System",
+        "b": "Global Partnership System",
+        "c": "Global Partnership Scheme",
+        "d": "Global Positioning status"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "GPS stands for",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chhattisgarh",
+        "b": "Telangana",
+        "c": "Kerala",
+        "d": "Maharashtra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Indian State which has recently launched its official ‘T-wallet’ offering anything anywhere platform for digital payment with an additional charge for the citizens is",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Maharashtra",
+        "b": "Madhya Pradesh",
+        "c": "Andhra Pradesh",
+        "d": "Himachal Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Asian Infrastructure Investment Bank (AIIB) has recently approved a loan of USD 160 million for a power project in the Indian State of -",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Firefox",
+        "b": "MS Word",
+        "c": "Safari",
+        "d": "Internet Explorer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the odd one:",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30 days",
+        "b": "25 days",
+        "c": "15 days",
+        "d": "16 days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A and B can do a piece of work in 6 days. A alone can do it in 10 days. What time will B require to do it alone?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10 days",
+        "b": "11 days",
+        "c": "15 days",
+        "d": "8 days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A and B can do a piece of work in 10 days, B and C in 15 days, C and A in 30 days. In how many days can they do it all working together?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15 hours",
+        "b": "5 hours",
+        "c": "75 hours",
+        "d": "60 hours 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A tank which has a leak in the bottom is filled in 20 hours. Had there been no leak in the bottom, it would have been filled in 15 hours. The leak can empty the tank in",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 hour",
+        "b": "2 hours",
+        "c": "3 hours",
+        "d": "4 hours"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Walking at  of his usual pace, Thanga reaches his office 20 minutes late. His usual time of reach is 4",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 m/s",
+        "b": "10 m/s",
+        "c": "20 m/s",
+        "d": "25 m/s"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A speed of 72 km/h is equal to",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 cm",
+        "b": "10 cm",
+        "c": "15 cm",
+        "d": "25 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A 50 cm line segment is divided into 3 parts whose lengths have the ratio 2 : 3 : 5. The difference between the longest and the smallest part is",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30",
+        "b": "25",
+        "c": "17",
+        "d": "10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sum of three numbers is 98. If the ratio of the first to the second is 2 : 3 and that of the second to the third is 5 : 8, then the second number is",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 420",
+        "b": "Rs 630",
+        "c": "Rs 800",
+        "d": "Rs 546"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cost of 5 metres of a particular type of cloth is Rs 210. The cost of 13 metres of the same type of cloth is",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 58320",
+        "b": "Rs 69120",
+        "c": "Rs 70200",
+        "d": "Rs 92880"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The price of a scooter is Rs 54,000 and GST of 28% is charged on it. The total amount to be paid for the scooter is",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 2250",
+        "b": "Rs 2300",
+        "c": "Rs 2340",
+        "d": "Rs 2640"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The marked price of an item is Rs 2500 and a rebate of 10% is given on it. After rebate, sales tax is charged at 4%. The net price of the item is",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 4725",
+        "b": "Rs 4825",
+        "c": "Rs 4900",
+        "d": "Rs 5250"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cost of a printer at a shop was Rs 4500. The sales tax charged was 5%. The bill amount was",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4%",
+        "b": "5%",
+        "c": "6%",
+        "d": "8%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Biaka paid Rs 424 for a pair of shoes worth Rs 400. The rate of sales tax is",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9",
+        "b": "10",
+        "c": "18",
+        "d": "19"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a group of 70 people, 37 like coffee, 52 like tea and each person likes at least one of the two drinks. How many people like both coffee and tea?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10",
+        "b": "20",
+        "c": "50",
+        "d": "60"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a committee, 50 people speak English, 20 speak Hindi and 10 speak both English and Hindi. How many people speak at least one of these languages?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "7 cm",
+        "b": "14 cm",
+        "c": "15 cm",
+        "d": "16 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the area of a circle is 616 sq.cm, then its radius is",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "28",
+        "b": "30",
+        "c": "37",
+        "d": "38"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The mean of five numbers is 30. If one number is excluded, their mean becomes 28. The excluded number is",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4 cm",
+        "b": "6 cm",
+        "c": "8 cm",
+        "d": "36 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The length of each side of an equilateral triangle having an area of 93cm² is",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "235",
+        "b": "240",
+        "c": "245",
+        "d": "250"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sum of 2 + 7 + 12 + ........... + 47 is",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6",
+        "b": "10",
+        "c": "15",
+        "d": "30"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If +1=+3, then the value of x is 315",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2.5 seconds",
+        "b": "5 seconds",
+        "c": "8 seconds",
+        "d": "9 seconds"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To cross an electricity pole, a train 200 metres long running at the rate of 80 km/h will take",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 1000",
+        "b": "Rs 1331",
+        "c": "Rs 8275",
+        "d": "Rs 33725"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The compound interest on Rs 25,000 at 10% per annum for 3 years is",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "33",
+        "b": "36",
+        "c": "39",
+        "d": "186"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 10th term of the AP: 6, 9, 12, 15, ..... is",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4650",
+        "b": "4750",
+        "c": "5000",
+        "d": "5050"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sum of the first 100 natural numbers is",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30",
+        "b": "35",
+        "c": "40",
+        "d": "45"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a competitive examination, 42% of the candidates passed English and 63% passed in Arithmetic. If 40% passed in both English and Arithmetic. The percentage of those who failed in both the subjects is",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 10,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1800",
+        "b": "1840",
+        "c": "1900",
+        "d": "1920"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The number of planks of dimensions (4m × 5m × 2m) that can be stored in a pit which is 40 m long, 12 m wide and 160 m deep is",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "A": [],
+    "B": []
+  }
+}

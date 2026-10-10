@@ -44731,6 +44731,22 @@
         }
       },
       "written": {}
+    },
+    "museum-guide-2020-english": {
+      "sourceSha256": "79c73f14b611dc652b7f4faa980d0fd195195ec1444dc99c14cf9382fc129c62",
+      "expectedMcq": 50,
+      "reviewedOn": "2026-10-10",
+      "evidence": "Section A (20 marks) prints one conventional question under the Roman numeral I, which the Arabic-number splitter never sees, so it was not emitted by extraction. The essay task and its three topics were transcribed from printed page 1. The 50 multiple-choice questions of Section B were not re-reviewed and stay source-reviewed only.",
+      "questions": {},
+      "partialReview": true,
+      "derivedAnswers": {},
+      "written": {
+        "1": {
+          "page": 1,
+          "q": "Write an essay on any one of the given topics in not less than 300 words.\n- Country Life versus Town Life\n- Choice of Professions\n- Youth and Social Media",
+          "explanation": "Section A conventional essay (20 marks). No model answer is printed; write on any one of the three topics in not less than 300 words."
+        }
+      }
     }
   }
 }

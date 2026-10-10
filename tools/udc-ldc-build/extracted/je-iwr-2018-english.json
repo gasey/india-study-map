@@ -1,0 +1,1640 @@
+{
+  "slug": "je-iwr-2018-english",
+  "exam": "Junior Engineer under Irrigation & Water Resources",
+  "sitting": "October 2018",
+  "subject": "General English",
+  "source": "je-iwr-2018-english.pdf",
+  "sourceSha256": "7303908cec5c24b54e62687078c2d7fbef03b06ef7153e2993aa52f5679d9eba",
+  "ocr": false,
+  "count": 69,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 8) : Choose the correct meaning of Idioms and Phrases written in bold",
+      "opts": {
+        "a": "at the end",
+        "b": "about to start",
+        "c": "on the decline",
+        "d": "in the air"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A movement for world unity is in the offing.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 8) : Choose the correct meaning of Idioms and Phrases written in bold",
+      "opts": {
+        "a": "to be in a dilemma",
+        "b": "to have no other choice",
+        "c": "to choose correctly",
+        "d": "to be unsure"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Caught between the devil and the deep sea, John started playing a double game.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 8) : Choose the correct meaning of Idioms and Phrases written in bold",
+      "opts": {
+        "a": "to do a thing in vain",
+        "b": "to act foolishly",
+        "c": "to see a hidden meaning",
+        "d": "try to revive interests"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He keeps trying to get his manuscripts published, but I think he is flogging a dead horse.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 8) : Choose the correct meaning of Idioms and Phrases written in bold",
+      "opts": {
+        "a": "frustrate",
+        "b": "failed",
+        "c": "bring great happiness",
+        "d": "feel good"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The result of the examination dashed my hopes.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 8) : Choose the correct meaning of Idioms and Phrases written in bold",
+      "opts": {
+        "a": "to find fault",
+        "b": "not to speak plainly",
+        "c": "to leave in difficulties",
+        "d": "making fun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I can never understand him because he has a bad habit of mincing matters.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 8) : Choose the correct meaning of Idioms and Phrases written in bold",
+      "opts": {
+        "a": "profess the same policies",
+        "b": "have the same merits",
+        "c": "treated equally",
+        "d": "possess the same defects"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All the political parties are tarred with the same brush.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 8) : Choose the correct meaning of Idioms and Phrases written in bold",
+      "opts": {
+        "a": "gives little importance to",
+        "b": "pays no attention to",
+        "c": "overestimates",
+        "d": "pays too much attention to"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She makes too much of her irresponsible son.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 1 - 8) : Choose the correct meaning of Idioms and Phrases written in bold",
+      "opts": {
+        "a": "too many damages",
+        "b": "too many engagements",
+        "c": "too much idle time",
+        "d": "too many enemies"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Having too many irons in the fire has resulted in chronic stress for her niece.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 9 - 16) : Choose the exact meaning of idiomatic expressions / phrases.",
+      "opts": {
+        "a": "keep away from",
+        "b": "publicly condemn",
+        "c": "give publicly to",
+        "d": "not sympathise with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Give a wide berth",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 9 - 16) : Choose the exact meaning of idiomatic expressions / phrases.",
+      "opts": {
+        "a": "to act in a foolish way",
+        "b": "anything which eludes or deceives",
+        "c": "to act in a childish way",
+        "d": "to have desires unbacked by efforts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Will o’ the wisp",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 9 - 16) : Choose the exact meaning of idiomatic expressions / phrases.",
+      "opts": {
+        "a": "to dig a well",
+        "b": "to annoy others",
+        "c": "to stop talking and start",
+        "d": "to act in a friendly way"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To cut the crackle",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 9 - 16) : Choose the exact meaning of idiomatic expressions / phrases.",
+      "opts": {
+        "a": "be in love",
+        "b": "be uneasy",
+        "c": "be in difficulties",
+        "d": "be under debt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Be in the mire",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 9 - 16) : Choose the exact meaning of idiomatic expressions / phrases.",
+      "opts": {
+        "a": "to take seriously",
+        "b": "to take wholeheartedly",
+        "c": "to take with total disbelief",
+        "d": "to take with some reservation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To take with a grain of salt",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 9 - 16) : Choose the exact meaning of idiomatic expressions / phrases.",
+      "opts": {
+        "a": "to face a humiliating situation",
+        "b": "to fail in one’s plans",
+        "c": "to show one’s talents before an audience which is incapable of appreciating them",
+        "d": "to bring one’s commodities to a market where there is no demand for them."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To bring one’s eggs to a bad market",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 9 - 16) : Choose the exact meaning of idiomatic expressions / phrases.",
+      "opts": {
+        "a": "to get the awaited",
+        "b": "to send away",
+        "c": "to have good luck",
+        "d": "to get the impossible"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To give / get the bird",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 9 - 16) : Choose the exact meaning of idiomatic expressions / phrases.",
+      "opts": {
+        "a": "close companions",
+        "b": "strangers",
+        "c": "contemporaries",
+        "d": "bitter enemies"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Like hand and glove",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 17 - 24) : Read the following passage and answer the following questions",
+      "opts": {
+        "a": "Adapting the body to muscle force",
+        "b": "Adapting muscles to force implied on them",
+        "c": "Disposing extra-workload",
+        "d": "Mechanised response to external conditions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the principal training of weight lifting?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 17 - 24) : Read the following passage and answer the following questions",
+      "opts": {
+        "a": "Intensity of workload",
+        "b": "Alimentary system",
+        "c": "Nutrition",
+        "d": "Stress imposed on them"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What affects the nature of muscle fibres?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 17 - 24) : Read the following passage and answer the following questions",
+      "opts": {
+        "a": "Thorough acclimatisation",
+        "b": "Naturalisation",
+        "c": "Adapting to excessive workload",
+        "d": "By accelerating the circulation of blood"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How does the heart become stronger owing to physical exercise?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 17 - 24) : Read the following passage and answer the following questions",
+      "opts": {
+        "a": "Same quantity",
+        "b": "Less than before",
+        "c": "More than normal",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How much blood does the heart pump at the same number of heartbeats, when exposed to excessive stress?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 17 - 24) : Read the following passage and answer the following questions",
+      "opts": {
+        "a": "Healthy",
+        "b": "Efficient",
+        "c": "Massaged",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does the term ‘well-oiled’ in the passage denote?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 17 - 24) : Read the following passage and answer the following questions",
+      "opts": {
+        "a": "Increased",
+        "b": "Decreased",
+        "c": "Remained at the same level",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the present world, the importance of physical exercise has",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 17 - 24) : Read the following passage and answer the following questions",
+      "opts": {
+        "a": "Oxygenation of blood",
+        "b": "Pumping the blood to the muscles",
+        "c": "Pumping the blood to capillaries",
+        "d": "Accelerating the circulation of blood"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What, according to the passage, is the function of the heart?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 17 - 24) : Read the following passage and answer the following questions",
+      "opts": {
+        "a": "We should carry out physical exercise as a routine",
+        "b": "Physical exercise is necessary occasionally",
+        "c": "We should ignore physical exercise",
+        "d": "We should subject our body to as much exercise as it can withstand."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does the above passage suggest?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 25 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "Science merely invents the weapons with which war is fought",
+        "b": "Science during wars becomes destructive",
+        "c": "The weapons that science invents necessarily lead to war",
+        "d": "The weapons invented by science do not cause war, though these make it more destructive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the writer, the real enemy of mankind is not science but war, because",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 25 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "Science is not allowed to lead us to utter destruction",
+        "b": "We replace force and lawlessness by law and international government",
+        "c": "Science is restricted to be utilized only during war time",
+        "d": "Weapons invented by science are not used to launch a war"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "War can be stopped if",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 25 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "Stop science from reflecting social forces",
+        "b": "Stop scientific activities everywhere",
+        "c": "Abolish war",
+        "d": "Prevent scientists from participating in destructive activities"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the writer, the main problem we are faced with is to",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 25 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "Encouraging social forces",
+        "b": "Education and broad-mindedness",
+        "c": "Insight and constructive thinking",
+        "d": "Both (b) and (c)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Our mounting sagacity to destroy can be kept under control by",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 25 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "Carry close to death and destruction",
+        "b": "Lead to the threshold of a new destiny",
+        "c": "Indulge in a ruinous activity",
+        "d": "Introduces to an unpredictable destiny"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The expression ‘bring to the doorstep of doom’ mean",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 25 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "People needlessly blame science for war",
+        "b": "Science is misused for destructive purposes",
+        "c": "Neither science nor the weapons it invents add to the horror of war",
+        "d": "The role of science in ensuring world peace is subsidiary to that of man"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following statements is not implied in the passage?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 25 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "Has not yet begun",
+        "b": "Has only just begun",
+        "c": "Has been half-way through",
+        "d": "Has begun, but not yet completed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The phrase ‘our work has scarcely begun’ implies that our work",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 25 - 32) : Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "Science and social force",
+        "b": "Science and the horrors of war",
+        "c": "Science and world peace",
+        "d": "Science and the new generation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following would be the most suitable title for the passage:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 33 - 38) : Identify the parts of speech of each underlined words.",
+      "opts": {
+        "a": "Adjective",
+        "b": "Noun",
+        "c": "Adverb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sleep is a **blessed** thing.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 33 - 38) : Identify the parts of speech of each underlined words.",
+      "opts": {
+        "a": "Adverb",
+        "b": "Noun",
+        "c": "Verb",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Certainly**, Martha was right.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 33 - 38) : Identify the parts of speech of each underlined words.",
+      "opts": {
+        "a": "Adverb",
+        "b": "Noun",
+        "c": "Pronoun",
+        "d": "Adjective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Don’t be in **such** a hurry.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 33 - 38) : Identify the parts of speech of each underlined words.",
+      "opts": {
+        "a": "Adverb",
+        "b": "Adjective",
+        "c": "Pronoun",
+        "d": "Noun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Whom** should I give this gift to?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 33 - 38) : Identify the parts of speech of each underlined words.",
+      "opts": {
+        "a": "Conjunction",
+        "b": "Interjection",
+        "c": "Adjective",
+        "d": "Adverb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I did not hope to qualify, **and see**, I was among the top ten.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 33 - 38) : Identify the parts of speech of each underlined words.",
+      "opts": {
+        "a": "Noun",
+        "b": "Adjective",
+        "c": "Adverb",
+        "d": "Pronoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Few** are interested.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 39 – 43 ) : Fill in the blanks with appropriate preposition given below each",
+      "opts": {
+        "a": "on",
+        "b": "upon",
+        "c": "to",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I prevailed __________ him to vote for you.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 39 – 43 ) : Fill in the blanks with appropriate preposition given below each",
+      "opts": {
+        "a": "from",
+        "b": "with",
+        "c": "to",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This car differs __________ that in many ways.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 39 – 43 ) : Fill in the blanks with appropriate preposition given below each",
+      "opts": {
+        "a": "through",
+        "b": "into",
+        "c": "in",
+        "d": "on"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is dangerous to intrude __________ the enemy’s camp.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 39 – 43 ) : Fill in the blanks with appropriate preposition given below each",
+      "opts": {
+        "a": "for",
+        "b": "with",
+        "c": "to",
+        "d": "upon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Early rising is beneficial __________ health.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 39 – 43 ) : Fill in the blanks with appropriate preposition given below each",
+      "opts": {
+        "a": "in",
+        "b": "of",
+        "c": "to",
+        "d": "with"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He is negligent __________ whatever he does.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 44 – 48): Fill in the blanks with the most appropriate form of the verb given.",
+      "opts": {
+        "a": "have spoken",
+        "b": "speak",
+        "c": "spoke",
+        "d": "were speaking"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I did not know it until you __________.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 44 – 48): Fill in the blanks with the most appropriate form of the verb given.",
+      "opts": {
+        "a": "did not see",
+        "b": "will not see",
+        "c": "have not seen",
+        "d": "had not seen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I __________ him for ten years.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 44 – 48): Fill in the blanks with the most appropriate form of the verb given.",
+      "opts": {
+        "a": "had pushed",
+        "b": "are pushing",
+        "c": "push",
+        "d": "pushes."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the latest news of the conflict in Libya, the rebels __________ deeper into thegovernment held territory.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 44 – 48): Fill in the blanks with the most appropriate form of the verb given.",
+      "opts": {
+        "a": "have clean",
+        "b": "had just cleaned",
+        "c": "have just cleaned",
+        "d": "have been cleaning"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Here are your shoes ; I __________ them.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 44 – 48): Fill in the blanks with the most appropriate form of the verb given.",
+      "opts": {
+        "a": "will finish",
+        "b": "am finishing",
+        "c": "will be finishing",
+        "d": "will have finished"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I __________ this book by tomorrow evening.",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 60 – 64) : Identify the following by choosing one of the alternatives given.",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Assertive",
+        "c": "Negative",
+        "d": "Comparative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "No one can touch pitch without being defiled.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 60 – 64) : Identify the following by choosing one of the alternatives given.",
+      "opts": {
+        "a": "Affirmative",
+        "b": "Assertive",
+        "c": "Negative",
+        "d": "Comparative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "No man could have done better.",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 60 – 64) : Identify the following by choosing one of the alternatives given.",
+      "opts": {
+        "a": "Superlative",
+        "b": "Comparative",
+        "c": "Positive",
+        "d": "Negative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Meat is not more nutritious than some beans.",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 60 – 64) : Identify the following by choosing one of the alternatives given.",
+      "opts": {
+        "a": "Imperative",
+        "b": "Affirmative",
+        "c": "Assertive",
+        "d": "Interrogative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Leave the package at the door.",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 60 – 64) : Identify the following by choosing one of the alternatives given.",
+      "opts": {
+        "a": "Imperative",
+        "b": "Affirmative",
+        "c": "Assertive",
+        "d": "Comparative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The water is too cold for me to drink.",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 65 – 70): Choose the word which best fills the blanks from the given options.",
+      "opts": {
+        "a": "happiness",
+        "b": "misery",
+        "c": "prosperity",
+        "d": "cowardice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Beauty is to ugliness as adversity is to __________.",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 65 – 70): Choose the word which best fills the blanks from the given options.",
+      "opts": {
+        "a": "palatable",
+        "b": "palpable",
+        "c": "palliative",
+        "d": "platonic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As he entered, he couldn’t miss the __________ tension in the room.",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 65 – 70): Choose the word which best fills the blanks from the given options.",
+      "opts": {
+        "a": "overwhelming",
+        "b": "overstrung",
+        "c": "overwrought",
+        "d": "overweening"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He knew everything better than anybody else, and it was an affront to his __________ vanity that you should disagree with him.",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 65 – 70): Choose the word which best fills the blanks from the given options.",
+      "opts": {
+        "a": "tenious",
+        "b": "tentative",
+        "c": "twisted",
+        "d": "tenacious"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ties that bind a family together are __________ that they can hardly withstand angy strain.",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 65 – 70): Choose the word which best fills the blanks from the given options.",
+      "opts": {
+        "a": "observed",
+        "b": "obligated",
+        "c": "obliterated",
+        "d": "obviated"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If an inedible ink is used, this will not be __________.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 65 – 70): Choose the word which best fills the blanks from the given options.",
+      "opts": {
+        "a": "Intelligence",
+        "b": "fortitude",
+        "c": "fortification",
+        "d": "determination"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The true test of __________ lies not in the number of people who fear you, but in thenumber who revere you.",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 71 – 75) : Select the opposite of the given word from the choices below.",
+      "opts": {
+        "a": "barbaric",
+        "b": "famished",
+        "c": "counterfeit",
+        "d": "moderate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Exorbitant",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 71 – 75) : Select the opposite of the given word from the choices below.",
+      "opts": {
+        "a": "scarcity",
+        "b": "shortage",
+        "c": "abundance",
+        "d": "debility"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dearth",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 71 – 75) : Select the opposite of the given word from the choices below.",
+      "opts": {
+        "a": "accepted",
+        "b": "confirmed",
+        "c": "denied",
+        "d": "repeated"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Corroborated",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 71 – 75) : Select the opposite of the given word from the choices below.",
+      "opts": {
+        "a": "desolate",
+        "b": "renovated",
+        "c": "heated",
+        "d": "automatic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Obsolete",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 71 – 75) : Select the opposite of the given word from the choices below.",
+      "opts": {
+        "a": "changeable",
+        "b": "predictable",
+        "c": "reasonable",
+        "d": "captive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Capricious",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 76 – 80 )  : Fill in the blanks with the most appropriate alternative.",
+      "opts": {
+        "a": "Inspite of",
+        "b": "Because of",
+        "c": "But for",
+        "d": "Despite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "__________ the timely help the patient would have died.",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 76 – 80 )  : Fill in the blanks with the most appropriate alternative.",
+      "opts": {
+        "a": "wasn’t it",
+        "b": "isn’t it",
+        "c": "was it",
+        "d": "hasn’t it been"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The topic that we were discussing now was first raised by our boss, __________?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 76 – 80 )  : Fill in the blanks with the most appropriate alternative.",
+      "opts": {
+        "a": "may",
+        "b": "can",
+        "c": "would",
+        "d": "might"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He went to London in order that he __________ become a barrister.",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 76 – 80 )  : Fill in the blanks with the most appropriate alternative.",
+      "opts": {
+        "a": "was",
+        "b": "were",
+        "c": "has",
+        "d": "is"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He walked as though he __________ slightly lame.",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Directions (Question Nos. 76 – 80 )  : Fill in the blanks with the most appropriate alternative.",
+      "opts": {
+        "a": "who",
+        "b": "which",
+        "c": "whom",
+        "d": "whose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This is the girl about __________ I was speaking.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Write an essay on any one (1) in about 300 words of the given topics: -Sustainable Development – Reduce, Reuse and Recycle -Violence Against Women in India -Computer Literacy in Today’s World",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q49 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q50 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q51 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q52 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q53 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q54 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q55 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q56 (p6, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q57 (p7, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q58 (p7, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q59 (p7, part B): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "B": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/31248550a2747b5ec1865d910cd70335/general-english-.pdf",
+  "enrichmentVersion": 5,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

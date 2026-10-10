@@ -1,0 +1,70 @@
+{
+  "slug": "mcon-lecturer-2017-english-p1",
+  "exam": "Lecturer under Mizoram College of Nursing",
+  "sitting": "January 2017",
+  "subject": "General English Paper-I",
+  "source": "mcon-lecturer-2017-english-p1.pdf",
+  "sourceSha256": "e6fb5c605a142700494224d1e58ff6eb018776e83d7f638513a6885ca7ed83fd",
+  "ocr": false,
+  "count": 2,
+  "questions": [
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "foot the bill",
+        "b": "sharp practice",
+        "c": "in hot water",
+        "d": "in the dark"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make meaningful sentences with **any seven** of the given idioms/phrases:      (7×2=14)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Why does the author say that the universe is like a piece of music?(2)",
+        "b": "What is the practical effect of Indian philosophy?(2)",
+        "c": "What does the author mean by unanimity?(2)",
+        "d": "Why does the author say that Indian philosophy has continuity?(2) (i)leimotif(ii)concurred (iii)heterogeneous(iv)last resort (v)inevitably(vi)prescribes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the given passage carefully and answer the questions that follow: Indian philosophy is quite unlike that of any other people; it is distinguished by three characteristics. The first is continuity. Indian thinkers have been enquiring into the nature and meaning of the universe more or less continuously for a period of some three thousand years. Only the Chinese can show a similar record. The second is unanimity. Broadly speaking, all Indian thinkers have concurred in holding that the universe in its real nature is in an important sense a unity, and that this unity is spiritual. Now the universe, it appears, is certainly not a unity but a heterogeneous diversity. It contains, that is to say, it apparently is a collection of an enormous number of people and things. Hence, there must be a distinction between the universe as it really is and the universe as it appears, a distinction which may be expressed by saying that the universe is a reality which manifests itself in diversity, just as the leitmotif or underlying theme of as piece of music manifests itself in the diversity of individual notes which all express the same musical idea. Now, it is broadly true that all Indian thinkers have concurred in making this distinction. Thirdly – and here we come to the link between philosophy and religion – Indian philosophy has never been confined to the activity of the intellect. Formally, no doubt, it is a search of truth; but philosophy in India does more than search for truth; it also seeks and prescribes a way of life. In fact, as a last resort, it is a way of life, a way of life as well as a way of believing. This practical effect of Indian philosophy follows inevitably from the doctrines of Indian philosophers.",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q1 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p1, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q5 (p2, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      5
+    ]
+  }
+}

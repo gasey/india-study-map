@@ -1,0 +1,188 @@
+{
+  "slug": "ada-2014-english",
+  "exam": "Assistant Divisional Accountant under Finance Department",
+  "sitting": "2014",
+  "subject": "General English",
+  "source": "ada-2014-english.pdf",
+  "sourceSha256": "f8c64d8fed51f14a55606d2d509191818b1d8332eb69f30c7241f5be683287e9",
+  "ocr": false,
+  "count": 7,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Pleasures of Reading.",
+        "b": "Economic growth in Mizoram.",
+        "c": "Political parties in Mizoram.",
+        "d": "The role and future prospects of women in the churches of Mizoram."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Write an essay on **any one** of the following :(20)",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "bag and baggage",
+        "b": "at stone’s throw",
+        "c": "in smooth waters",
+        "d": "to cry for the moon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make sentences with  the following idioms :     (8×2=16)",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Why do friends play a more significant role today than ever before?(3)",
+        "b": "Why is friendship considered an essential human need?(3)",
+        "c": "How can we grow and continue friendship?(2)",
+        "d": "Pick out from the passage words which means the same as:    (2×1=2) (i)basic (ii)a condition in which a person feels sad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Read the passage carefully and answer the questions  : The role friends play in our lives has become significantly greater than at any other time in our history. Today, many of us live and work great distances from where we were born or grew up and are separated from our original families. The pain we feel when we are away from our families can be terrible. The happiness of the individual relies on friendships which form a necessary human connection. It is perfectly normal to need and want friends and depression is more prevalent amongst those who lack friends. They lack the intimacy and richness friends can bring into our lives. Frequently, friends reflect similar values to us. Yet these values are often different from the ones we grew up with; they are the values we created for ourselves in our adult lives. Communication skills are fundamental in all friendships. The more friend and acquaintances one has, the greater are one’s communication skills. Some call these ‘people skills’. Like watering a plant, we grow our friendships (and all our relationships) by nurturing them. Friendships need the same attention as other relationships if they are to continue. These relationships can be delightfully non-judgemental, supportive, conductive, understanding and fun. Questions :",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "sadness",
+        "b": "ownership",
+        "c": "cowardice",
+        "d": "childhood"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Give the common nouns for the following :(4×1=4)",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "You are senior than me in service.",
+        "b": "I brought my furnitures by goods train.",
+        "c": "She neither objected nor approved of it.",
+        "d": "The meeting was held for three and a quarter hours."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Correct the errors and rewrite the following :(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A ____ of hair",
+        "b": "A ____ of cards",
+        "c": "A ____ of stones",
+        "d": "A ____ of singers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Complete each phrase with a suitable word :(5×1=5)",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Our charming hostess was very _______ to all her guests.( graceful, gracious, grateful).",
+        "b": "There was nothing unusual about the man _______ he smiled, but that happened only when he talked. (except, except for, except that)",
+        "c": "The doctor _______ the woman that her son would recover. (ensured, assured, insured).",
+        "d": "Many companies see technology as a _______ for a whole host of business problems. (consideration, preference, linking, panacea)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fill in the blanks with the most appropriate words from among those given in brackets:(5×1=5)",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q2 (p1, part None): only 0 option(s) [] - not emitted",
+    "Q3 (p2, part None): only 0 option(s) [] - not emitted",
+    "Q5 (p2, part None): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q7 (p2, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      2,
+      3,
+      5,
+      7
+    ]
+  }
+}

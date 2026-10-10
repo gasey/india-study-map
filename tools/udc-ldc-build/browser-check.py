@@ -80,7 +80,7 @@ evaluate('location.reload()')
 wait_for("document.querySelector('.udc-hero h1')?.textContent.includes('Group B')")
 wait_for("document.querySelectorAll('.udc-tabs button').length === 5")
 click_tab('Group B papers')
-assert evaluate("document.querySelectorAll('.udc-library-paper').length") == 49
+assert evaluate("document.querySelectorAll('.udc-library-paper').length") == 210
 assert evaluate("document.body.scrollWidth <= innerWidth")
 assert evaluate("document.querySelector('.udc-ldc-page').scrollHeight > document.querySelector('.udc-ldc-page').clientHeight")
 assert evaluate("[...document.querySelectorAll('.udc-library-paper')].some(p=>p.innerText.includes('held unscored'))")
@@ -136,7 +136,7 @@ assert evaluate("document.body.innerText.includes('Arithmetic')&&document.body.i
 command('Emulation.setDeviceMetricsOverride', {'width': 1280, 'height': 900, 'deviceScaleFactor': 1, 'mobile': False})
 click_tab('Group B papers')
 assert evaluate("document.body.scrollWidth <= innerWidth")
-assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('3,540 ready to practise')")
+assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('3,611 ready to practise')")
 assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,618 with official answers')")
 browse('Junior Engineer, PHE & PWD', 'General English')
 assert evaluate("document.querySelectorAll('.udc-question-card').length === 81")
@@ -482,9 +482,9 @@ evaluate("document.querySelectorAll('.udc-question-card')[37].querySelectorAll('
 wait_for("!!document.querySelectorAll('.udc-question-card')[37].querySelector('.udc-answer-sources')")
 assert evaluate("document.querySelectorAll('.udc-question-card')[37].innerText.includes('train travels 12.5 m/s')&&document.querySelectorAll('.udc-question-card')[37].innerText.includes('245 m')")
 click_tab('Group B papers')
-assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('0 items need source review')")
+assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('11,308 items need source review')")
 assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('36 checked items held unscored')")
-assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('13 questions not recovered from source')")
+assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('154 questions not recovered from source')")
 for exam, count, needle in (
     ('Inspector of Statistics · February 2017', 10, 'classical realist'),
     ('Group B technical common exam · November 2024', 10, 'Sir Leon'),
@@ -569,5 +569,5 @@ assert evaluate("[...document.querySelectorAll('button')].some(b=>b.textContent.
 assert evaluate("![...document.querySelectorAll('button')].some(b=>b.textContent.includes('Assistant Audit & Accounts Officer / Assistant Accounts Officer · Arithmetic'))")
 assert evaluate("[...document.querySelectorAll('button')].some(b=>b.textContent.includes('Stenographer Grade III'))")
 assert not exceptions, exceptions
-print('Browser passed: all 49 paper sources; completed review and held/missing totals; written-only recovery; JE/stenographer/ASI full numbering, emphasis, figures and worked answers; JAO recovery; official comparison and corrigendum; held scoring gates; rail chip counts agree with filtered lists; Exam eligibility; source links; mobile and desktop layout; no runtime exceptions.')
+print('Browser passed: all 210 paper sources; completed review and held/missing totals; written-only recovery; JE/stenographer/ASI full numbering, emphasis, figures and worked answers; JAO recovery; official comparison and corrigendum; held scoring gates; rail chip counts agree with filtered lists; Exam eligibility; source links; mobile and desktop layout; no runtime exceptions.')
 s.close()

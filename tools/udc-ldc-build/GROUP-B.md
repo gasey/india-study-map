@@ -1,6 +1,80 @@
 # Group B general-paper supplement
 
-## MIMER additions — 10 October 2026
+## MPSC 2019-2020 old-questions import — 10 October 2026 (latest)
+
+Source page: `https://mpsc.mizoram.gov.in/page/2019`, archive folder
+`Direct_2019-2020` under `../mpsc-question-bank/pdfs/Old_Questions/`. The catalog
+now contains **206 papers and 15,089 question records** (14,670 MCQ, 419 written):
+3,611 ready (1,618 with official keys), 11,347 source-review items and 154 MCQs
+missing from their sources.
+
+This batch added all **111 papers** on the 2019 page — every UDC / Assistant Grade
+/ combined-clerical paper in full, plus the **non-technical sections of the
+technical examinations** (each exam's General English, General Studies, General
+Knowledge and General Science). Pure technical subject papers (Engineering,
+Geology, Nursing, Law, …) were excluded on purpose. That is **8,315 new records**
+(8,046 MCQ, 269 written). No 2019 paper has a published key, so 8,314 of the
+8,315 items stay `sourceReview`-gated and unscored, and none enters Exam mode.
+
+Registration lives in `group_b_sources.py`:
+
+- `GENERAL_PAPERS_2019` — 111 rows `(slug, exam, sitting, subject, filename)`.
+- `GENERAL_PAPERS_2019_META` — cover-derived `marksPerQuestion` / `durationMinutes`.
+  Covers printing 150 or 200 total marks award two marks per question; every other
+  cover awards one. Every entry is `negativeMarking: False`, `penaltyFraction: 0`
+  (no 2019 cover states a penalty).
+- `ALL_GENERAL_PAPERS = GENERAL_PAPERS + GENERAL_PAPERS_2019`; `DIRECT_2019_SLUGS`
+  gates the archive path, `examType: 'Direct'` and the 2019 meta block.
+
+`expectedMcq` is derived at build time from the highest printed question number
+(the true paper total, because each paper ends with a printed end-of-paper
+marker). The 20 written-only English Paper-I papers get no `expectedMcq`; 91 of
+the 111 papers do.
+
+Extraction runs through `extract_general_papers.py`:
+
+- `WRITTEN_ONLY_2019` (20 English Paper-I papers) is forced through the
+  conventional parser (`option_counts=(4,)` plus a monkeypatched `ANSWER_SHEET_RE`
+  matching “attempt all questions”), so their essays, précis and letters survive
+  as descriptive prompts. All other 2019 papers use `option_counts=(3, 4)`.
+- Sources are cached per `sourceSha256` under `extracted/{slug}.json`; `--force`
+  re-extracts **all** registered papers, not only 2019.
+
+The shared parser `tools/practice-hub-build/extract.py` gained one verified
+improvement: `find_option_markers` now tolerates whitespace before `)`, a trailing
+`.`/`,`/`:`, and an uppercase letter, so `(c )`, `(A)` and `(b.)` are recognised.
+This recovered `udc-dc-serchhip-2019-p1` 74→75, `udc-rd-2019-p2` 98→100 and
+`inspector-fcs-2019-gs2` 99→100; a full `--force` re-extraction produced no
+further diffs. `group-b-text-repairs.json` gained `museum-guide-2020-english`
+(`partialReview: true`, `expectedMcq: 50`), recovering a Section A essay printed
+with a Roman `I.` marker the Arabic-number parser cannot see (file now 38 papers,
+24 tests).
+
+### Known unresolved 2019 gaps (15 items, 11 papers)
+
+Each was checked against its printed scan and is genuinely unrecoverable:
+
+- **Option-label collisions** (parser sees only the first labels): `dso-2019-gs2`
+  Q60, `do-mar-2019-gs1` Q68, `fr-2019-science-3` Q90, `inspector-excise-2019-gs3`
+  Q10, `jics-2019-gs2` Q60, `udc-forensic-2019-p1` Q62, `ae-civil-tourism-2020-gs`
+  Q9, `museum-guide-2020-gs2` Q35.
+- **Figure / matrix items** with no extractable option text: `dso-2019-gs2` Q74,
+  `do-mar-2019-gs2` Q71/Q72, `fr-2019-science-3` Q92, `ae-civil-tourism-2020-gs`
+  Q30, `inspector-excise-2019-gs2` Q97.
+- **Print numbering skip**: `je-phe-2019-english` Q26 (paper jumps 25→27; the text
+  is not missing from the scan).
+
+Both UDC Paper-II covers (`udc-agri-2019-p2`, `udc-forensic-2019-p2`) print
+“Full Marks 100 · GK 75 + Arithmetic 25”, but the paper actually runs GK 1–100 and
+Arithmetic 101–125. Content is authoritative, so both get `expectedMcq: 125` at one
+mark per question.
+
+Validation: `build_group_b.py` wrote **15,089 questions from 206 papers**; two
+consecutive builds are byte-identical; all 24 review tests pass; `npm run build`
+passes. `browser-check.py` counts now expect **210 library papers** and
+**3,611 ready / 1,618 official / 11,308 review / 36 held / 154 missing**.
+
+## MIMER additions — 10 October 2026 (pre-2019-2020 batch)
 
 The common February 2018 English paper is listed once and searchable by Lab
 Technician, Medical Record Technician, Staff Nurse and Computer Operator.
@@ -14,7 +88,7 @@ for practice and Q23/Q36/Q37/Q69 stay unscored. The entire paper remains out of
 Exam mode pending review. Never use the archive's generic Technical Paper-I
 filename, which belongs to a medical paper after a scraper filename collision.
 
-Current generated coverage: 95 papers, 6,774 items and 3,611 ready (3,033 under source review). See the latest import note at the top of HANDOFF-GROUP-B.md.
+Current generated coverage: 206 papers, 15,089 items and 3,611 ready (11,347 under source review). See the latest import note at the top of HANDOFF-GROUP-B.md.
 MCQs. SI Excise 2014 now has all nine General English written prompts, all 75
 General Studies I MCQs, and 34 General Studies II MCQs. The available General
 Studies II PDF has only four of its eight printed pages, so 41 questions remain missing;

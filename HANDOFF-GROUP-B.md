@@ -1,6 +1,88 @@
-## MPSC paper import — 10 October 2026 (latest)
+## MPSC 2019-2020 old-questions import — 10 October 2026 (latest)
 
-The Group B/general-paper catalog now contains **95 papers and 6,774 question records** (6,624 MCQ, 150 written). Of these, 3,611 are ready, including 1,618 with official keys; 3,033 remain source-review items. The latest PDFs are in `public/papers/group-b/`, registered in `tools/udc-ldc-build/group_b_sources.py`, and extracted into the generated bank. The 2018 addition covers MES PWD and Power & Electricity English/General Studies, Veterinary Officer English I/II, JE I&WR English, Assistant Jailor English, ASI Home (three papers), Assistant Grade (two), and ACF English/GK. The 2017/2014/2012 addition covers ATO English, Fishery Extension Officer English I/II, Grade-V MHS English I/II, HFW Lab Technician English, MCON Lecturer English I, Assistant Professor Geography English, ADA (three), MES PHE 2014 (two), and MES Power & Electricity 2012 (three).
+Source page: `https://mpsc.mizoram.gov.in/page/2019`, archive folder
+`Direct_2019-2020` under `../mpsc-question-bank/pdfs/Old_Questions/`. The catalog
+now contains **206 papers and 15,089 question records** (14,670 MCQ, 419 written).
+3,611 are ready, including 1,618 with official keys; 11,347 remain source-review
+items and 154 MCQs are missing from their sources.
+
+This batch added all **111 papers** on the 2019 page: every UDC / Assistant Grade /
+combined-clerical paper in full (Paper-I and Paper-II, all departments), plus the
+**non-technical sections of the technical examinations** — each exam's General
+English, General Studies, General Knowledge and General Science papers. Pure
+technical subject papers (Engineering, Geology, Nursing, Law, etc.) were
+intentionally excluded, per the request to take only the non-technical sections.
+That is **8,315 new records** (8,046 MCQ, 269 written prompts). None of the 2019
+papers has a published answer key, so every item stays `sourceReview`-gated and
+unscored and never enters Exam mode (`UdcLdcPage` only offers papers with
+answerable questions).
+
+Registration lives in `tools/udc-ldc-build/group_b_sources.py`:
+
+- `GENERAL_PAPERS_2019` — 111 rows `(slug, exam, sitting, subject, filename)`.
+- `GENERAL_PAPERS_2019_META` — cover-derived `marksPerQuestion` / `durationMinutes`
+  for each paper. Covers printing 150 or 200 total marks award two marks per
+  question; every other cover awards one. `negativeMarking: False` (no 2019 cover
+  states a penalty).
+- `ALL_GENERAL_PAPERS = GENERAL_PAPERS + GENERAL_PAPERS_2019`; `DIRECT_2019_SLUGS`
+  gates the 2019 archive path and `examType: 'Direct'`.
+
+`expectedMcq` for the 2019 papers is derived at build time from the highest
+printed question number, which is the true paper total because every paper ends
+with a printed end-of-paper marker. The 20 written-only English Paper-I papers get
+no `expectedMcq`.
+
+Extraction runs through `tools/udc-ldc-build/extract_general_papers.py`:
+
+- `WRITTEN_ONLY_2019` (20 English Paper-I papers) is forced through the
+  conventional parser (`option_counts=(4,)` plus a monkeypatched `ANSWER_SHEET_RE`
+  matching “attempt all questions”) so their essays, précis and letters survive as
+  descriptive prompts. All other 2019 papers use `option_counts=(3, 4)`.
+- Source PDFs are cached per `sourceSha256` under `extracted/{slug}.json`; use
+  `--force` to re-extract (that re-extracts **all** registered papers, not only
+  2019). The builder copies each source to `public/papers/group-b/{slug}.pdf`.
+
+The shared parser `tools/practice-hub-build/extract.py` gained one deliberate,
+verified improvement: `find_option_markers` now tolerates whitespace before the
+closing `)`, a trailing `.`/`,`/`:`, and an uppercase letter, so `(c )`, `(A)` and
+`(b.)` are recognised. This recovered `udc-dc-serchhip-2019-p1` 74→75,
+`udc-rd-2019-p2` 98→100 and `inspector-fcs-2019-gs2` 99→100. Re-extracting the
+whole 2019 batch with `--force` produced no further diffs.
+
+`group-b-text-repairs.json` gained one 2019 entry, `museum-guide-2020-english`
+(`partialReview: true`, `expectedMcq: 50`), recovering the Section A essay that is
+printed with a Roman `I.` marker the Arabic-number parser cannot see. The file now
+holds 38 papers; the repair test suite is 24 tests.
+
+### Known unresolved 2019 gaps (15 items, 11 papers)
+
+Each was checked against its printed scan and is genuinely unrecoverable, not
+skipped:
+
+- **Printed option-label collisions** (the parser sees only the first one or two
+  labels): `dso-2019-gs2` Q60, `do-mar-2019-gs1` Q68, `fr-2019-science-3` Q90,
+  `inspector-excise-2019-gs3` Q10, `jics-2019-gs2` Q60, `udc-forensic-2019-p1`
+  Q62, `ae-civil-tourism-2020-gs` Q9, `museum-guide-2020-gs2` Q35.
+- **Figure / matrix items** with no extractable text options: `dso-2019-gs2` Q74,
+  `do-mar-2019-gs2` Q71/Q72, `fr-2019-science-3` Q92, `ae-civil-tourism-2020-gs`
+  Q30, `inspector-excise-2019-gs2` Q97.
+- **Print numbering skip**: `je-phe-2019-english` Q26 (the paper jumps 25→27; the
+  text is not missing from the scan).
+
+Note the two UDC Paper-II covers (`udc-agri-2019-p2`, `udc-forensic-2019-p2`) print
+“Full Marks: 100 · Section A GK 75 + Section B Arithmetic 25”, but the printed
+paper actually runs GK 1–100 and Arithmetic 101–125. The content is authoritative,
+so both get `expectedMcq: 125`, consistent with “each question carries one mark”.
+
+Validation: `build_group_b.py` wrote **15,089 questions from 206 papers**; two
+consecutive builds are byte-identical; `git diff --check` is clean; all 24 review
+tests pass; `npm run build` (`tsc` + `vite build`) passes. `browser-check.py`
+counts were updated to **210 library papers** and **3,611 ready / 1,618 official /
+11,308 review / 36 held / 154 missing**.
+
+## MPSC paper import — 10 October 2026 (pre-2019-2020 batch)
+
+The catalog contained **95 papers and 6,774 question records** (6,624 MCQ, 150 written) before the 2019-2020 batch above. Of these, 3,611 are ready, including 1,618 with official keys; 3,033 remain source-review items. The latest PDFs are in `public/papers/group-b/`, registered in `tools/udc-ldc-build/group_b_sources.py`, and extracted into the generated bank. The 2018 addition covers MES PWD and Power & Electricity English/General Studies, Veterinary Officer English I/II, JE I&WR English, Assistant Jailor English, ASI Home (three papers), Assistant Grade (two), and ACF English/GK. The 2017/2014/2012 addition covers ATO English, Fishery Extension Officer English I/II, Grade-V MHS English I/II, HFW Lab Technician English, MCON Lecturer English I, Assistant Professor Geography English, ADA (three), MES PHE 2014 (two), and MES Power & Electricity 2012 (three).
 
 All new practice records remain unscored unless a verified answer key exists. Text extraction is incomplete for some PDFs; source counts and question gaps must be checked before treating a paper as complete. Four written-only 2018 English papers have source PDFs registered but still need their descriptive prompts transcribed to become question records.
 

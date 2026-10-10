@@ -136,5 +136,6 @@ classification gap, separate from a missing/held answer.
 
 Archive import and OCR/source exceptions are tracked in
 [HANDOFF-ARCHIVE-AUDIT.md](HANDOFF-ARCHIVE-AUDIT.md). Latest import: 109 new G
-General English PDFs and one distinct JAO Series B booklet. All new items remain
+General English PDFs, one distinct JAO Series B booklet, and NG Assistant LESO
+2026 General English with its final key. All new items remain
 review-gated until the source/punctuation/key quality pass is done.

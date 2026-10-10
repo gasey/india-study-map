@@ -1,7 +1,6 @@
 # MPSC archive audit and continuation plan
 
-Updated 10 October 2026. This handoff records the source-page audit, completed
-Gazetted English/Arithmetic import, and current scan-verified solving progress.
+Updated 10 October 2026. This handoff records the source-page audit, English/Arithmetic imports, answer-key coverage, and current scan-review backlog.
 
 ## User request
 
@@ -45,7 +44,7 @@ new papers. Cross-page duplicates exist. `2019–20 G` is already covered by the
 | [2022–2023 G](https://mpsc.mizoram.gov.in/page/old-question-2022-2023) | 7 | 0 | Imported eligible new English links. Mathematics in MCS Main remains excluded as optional specialist subject, not arithmetic. |
 | [2023–2025 G](https://mpsc.mizoram.gov.in/page/old-question-2023-2024) | 33 | 0 | Imported eligible new General English PDFs; existing 40 GS/Knowledge/Math/Arithmetic PDFs were reused. |
 | [2025–2027 G](https://mpsc.mizoram.gov.in/page/old-question-g-2025-2027) | 26 | 2 | Imported eligible new English PDFs and the distinct JAO 2026 Series B GK/Arithmetic/Reasoning booklet. Its 15 arithmetic questions are separated from GK and Reasoning. |
-| [2024–2027 NG](https://mpsc.mizoram.gov.in/page/old-question-ng) | 19 | 1 | Earlier import covered three missing GS/GK sources only; English and Arithmetic were out of scope. Review new candidates. The Arithmetic link is Assistant Audit & Account Officer 2024. |
+| [2024–2027 NG](https://mpsc.mizoram.gov.in/page/old-question-ng) | 19 | 1 | Imported the distinct Assistant LESO April 2026 General English paper (66 MCQs, official final key); AAO 2024 Arithmetic is an exact duplicate. AAO/SI alternate English series B–D are duplicate question sets. |
 
 ## Continuation steps
 
@@ -71,7 +70,7 @@ August 2026 Assistant Controller of Mines General English paper:
   source slug. Generation logic and the exam marking metadata are in
   `tools/udc-ldc-build/group_b_sources.py`.
 
-Current bank: 351 papers / 22,607 records; 3,763 practice-ready (1,618
+Current bank: 352 papers / 22,676 records; 3,829 practice-ready (1,684
 official-key-backed). The latest build report is authoritative. The English
 archive backlog still needs page-by-page transcription and worked solutions;
 legacy inferred answers are candidates only and must not be scored without
@@ -101,6 +100,10 @@ reasoning and scan checks.
 
 ## Progress
 
+- [x] Import NG Assistant LESO April 2026 General English, its 66-item
+      extraction and the official final key. Three written prompts are retained
+      separately. The key was visually checked from the official key PDF page 1.
+
 - [x] Fetch all eight supplied archive pages and count relevant unique PDF URLs.
 - [x] Check all 214 title-matched English/Arithmetic attachment URLs; 212
       responded with PDF/HTTP 200 and the two 404s are listed above.
@@ -121,20 +124,28 @@ reasoning and scan checks.
       Matched answers are independent solutions with medium confidence, not an
       official key. Five exceptions remain held: Q7 has no exact choice; Q40's
       figure answer is unverified; Q41/Q44 have image options; Q43 wording is
-      ambiguous. The bank now has 351 papers / 22,607 records and 3,706 ready
-      questions (1,618 official-key-backed).
+      ambiguous. At that build the bank had 351 papers / 22,607 records and 3,706 ready
+      questions (1,618 official-key-backed); see the latest snapshot below.
 - [x] Scan source questions/options Q46–Q100. Their exact Series A matches have
       worked guides, with medium confidence and no claim of official-key status.
 - [ ] Review English punctuation, typography, blanks, shared directions, OCR
       and solving guides across the 109 imported English PDFs before granting
       further questions practice-ready status.
-- [ ] Review 2024–2027 NG English and Arithmetic candidates if they fit the
-      user's requested scope; do not duplicate the recent GS/GK import.
-- [ ] Reconcile the two inaccessible PDFs with MPSC or mark them unavailable;
-      do not substitute lookalike PDFs without confirming exam identity.
-- [ ] Complete the production build and local visual verification when preview
-      access is available. Deployment and push status must be reported
-      accurately.
+- [x] Reconcile the NG English/Arithmetic candidates: Assistant LESO English
+      is distinct and imported with its final key; 4 alternate booklet URLs were
+      byte-distinct but their question sets match existing series, and the AAO
+      arithmetic PDF is a byte-identical duplicate.
+- [x] Recheck the two inaccessible PDFs. The CoTerminus 2015 AE/Civil English
+      URL still returns 404. The generic English Paper-I URL also returns 404 and
+      is reused under Assistant Librarian 2013 and Inspector of Legal Metrology
+      2018; the 2017 MHS row also contains this stray link, alongside its valid
+      MHS-specific Paper-I URL. No matching cached source was found for the two
+      affected exam papers, so leave both unavailable.
+- [ ] Complete the production build. The in-app browser denied access to the
+      active map tab; per its security instruction, do not retry through another
+      browser/CDP route. Push to main after build; GitHub/Vercel integration is
+      the deployment path, and verify deployment status from available non-browser
+      metadata if possible.
 
 ## Notes for the next model
 
@@ -166,10 +177,11 @@ reasoning and scan checks.
 
 ### Import snapshot and exceptions
 
-- The G-only addition consists of 109 new English source PDFs and one JAO 2026
-  Series B booklet with a distinct question set; exact duplicate sources were
-  reused. The generated bank has 351 papers / 22,607 records; 3,706 are
-  practice-ready (1,618 official-key-backed).
+- The Gazetted addition consists of 109 new English source PDFs and one JAO 2026
+  Series B booklet with a distinct question set. NG added Assistant LESO General
+  English as the only distinct English source in the audited page. The generated
+  bank now has 352 papers / 22,676 records; 3,829 are practice-ready
+  (1,684 official-key-backed).
 - The JAO Series B set has 60 GK, 17 Reasoning and 15 Arithmetic questions.
   After page 2–12 scan review, 14 were manually solved and 82 exact Series A
   stem/options matches supplied independent solutions; Q40 remains held among
@@ -190,8 +202,8 @@ reasoning and scan checks.
   leaves visual/ambiguous items held. Q46–Q100 are source-checked and matched
   to Series A stems/options; copied independent solutions remain medium
   confidence and are not labeled as official key answers.
-- The two HTTP 404 links above remain unresolved. The NG English/Arithmetic
-  entries were audited but have not been imported in this G-only continuation;
+- The two HTTP 404 sources above remain unavailable, with their affected exam rows
+  identified. NG English/Arithmetic candidates were audited and reconciled;
   review them separately if that scope is requested.
 
 The counts above are from live archive pages as checked on 10 October 2026 and

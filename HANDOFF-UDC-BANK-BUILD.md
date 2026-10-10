@@ -10,7 +10,7 @@ image ambiguity; the new English papers still require review. See
 
 ## Dedicated subject practice — 10 October 2026
 
-Maths/Arithmetic, English only and Computer Knowledge now have separate local study tabs. Maths and Computer use topic cards; English separates MCQs from written work. Future import and answer-derivation work must follow [HANDOFF-SUBJECT-PRACTICE.md](HANDOFF-SUBJECT-PRACTICE.md), including canonical tags, durable classification inputs, and unchanged scoring gates. This UI update is not yet published; local browser verification was declined.
+Maths/Arithmetic, English only and Computer Knowledge now have separate local study tabs. Maths and Computer use topic cards; English separates MCQs from written work. Future import and answer-derivation work must follow [HANDOFF-SUBJECT-PRACTICE.md](HANDOFF-SUBJECT-PRACTICE.md), including canonical tags, durable classification inputs, and unchanged scoring gates. The in-app browser denied access to the active map tab, so its security policy forbids retrying with alternate browser/CDP routes.
 
 ## MPSC NG archive additions — 10 October 2026
 

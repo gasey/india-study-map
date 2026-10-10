@@ -549,6 +549,11 @@ def build_additional():
             entry['keyHref'] = '/papers/group-b/keys/si-police-2026-final-key.pdf'
         if slug.startswith('radio-2026-'):
             entry['keyHref'] = '/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf'
+        if slug == 'ng-april-2026-assistant-leso-general-english':
+            # Cover: 3 hours, 100 marks; Part B has 66 one-mark MCQs.
+            # No negative-marking rule is printed on the paper.
+            meta[entry['id']] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                                 'negativeMarking': False, 'penaltyFraction': 0}
         library.append(entry)
         extraction_path = HERE / 'extracted' / (slug + '.json')
         if not extraction_path.exists():

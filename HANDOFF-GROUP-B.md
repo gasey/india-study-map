@@ -1,10 +1,14 @@
 ## Archive audit and continuation — 10 October 2026
 
 Final audit of the eight supplied MPSC archives, including English/Arithmetic
-scope, accessible links, broken URLs, duplicate checks and remaining Gazetted
-work: [HANDOFF-ARCHIVE-AUDIT.md](HANDOFF-ARCHIVE-AUDIT.md). The next model
+scope, accessible links, broken URLs, duplicate checks and remaining quality
+review: [HANDOFF-ARCHIVE-AUDIT.md](HANDOFF-ARCHIVE-AUDIT.md). The next model
 should continue from its Progress checklist and preserve the subject-practice
 rules in [HANDOFF-SUBJECT-PRACTICE.md](HANDOFF-SUBJECT-PRACTICE.md).
+
+## Latest bank snapshot — 10 October 2026
+
+The bank has 352 question-bearing papers and 22,676 records (21,896 MCQs, 780 written); 3,829 are practice-ready, including 1,684 official-key-backed. NG Assistant LESO April 2026 English adds 66 official-key-backed MCQs plus three preserved written prompts. Its written section remains review-gated and excluded from full Exam mode. The broader English archive still needs scan-level typography/punctuation review and worked guides. See [HANDOFF-ARCHIVE-AUDIT.md](HANDOFF-ARCHIVE-AUDIT.md).
 
 ## Dedicated subject practice — 10 October 2026
 

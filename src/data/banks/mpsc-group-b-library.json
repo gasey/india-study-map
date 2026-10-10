@@ -2593,6 +2593,17 @@
     "reviewRequired": true
   },
   {
+    "id": "mpsc-group-b-ng-april-2026-assistant-leso-general-english",
+    "exam": "Assistant LESO under Labour, Employment, Skill Development & Entrepreneurship Department",
+    "sitting": "April 2026",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/ng-april-2026-assistant-leso-general-english.pdf",
+    "keyHref": "/papers/group-b/keys/final-answer-key-assistant-leso-april-2026.pdf#page=1",
+    "imported": true,
+    "expectedMcq": 66,
+    "reviewRequired": true
+  },
+  {
     "id": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad",
     "exam": "MCS Combined - 2014",
     "sitting": "2014",

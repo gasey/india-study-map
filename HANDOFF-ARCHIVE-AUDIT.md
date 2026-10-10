@@ -55,12 +55,16 @@ The English archive import is complete, but its questions are not fully
 source-reviewed or solved. A first scan-verified batch is complete for the
 August 2026 Assistant Controller of Mines General English paper:
 
-- Part B MCQs 1–10 and 16–25 have exact stems/options checked against printed
-  pages 3–6, derived answers and short grammar explanations. These 20 are
-  practice-ready; the paper remains excluded from full Exam mode because it
-  includes a separate, not-yet-reviewed written section and other MCQs remain.
+- Part B MCQs 1–10, 16–25, 27–28, 30–43, 45–63, and 65–66 have exact
+  stems/options checked against printed pages 3–12, with derived answers and
+  explanations. These 57 are practice-ready; the paper remains excluded from
+  full Exam mode because other MCQs and its separate written section remain.
 - MCQs 11–15 remain held. The extraction cuts off the end of each sentence;
   recover the complete text and options from printed page 5 before scoring.
+- Q26 and Q29 each have multiple grammatically acceptable rewrites; Q44 has
+  two potentially defensible meanings; Q64 has formal “whom” and widely
+  accepted “who” object usage. Keep all four held unless an official key or
+  stronger source evidence resolves the choice.
 - Part A contains written prompts with numbering that overlaps Part B. Keep
   the written section distinct; do not merge its numbering into the MCQ set.
 - Repairs: `tools/udc-ldc-build/group-b-text-repairs.json`, keyed by the archive

@@ -1,3 +1,9 @@
+## MPSC NG archive additions — 10 October 2026
+
+Source: [MPSC Old Question NG archive](https://mpsc.mizoram.gov.in/page/old-question-ng). The other explicitly titled General Knowledge papers found on the page already exist in the bank. Added the three missing eligible sources: Assistant LESO General Studies (April 2026), Group B (NG) Technical General Studies (January 2026), and Group B (NG) Technical General Knowledge (November 2024). Their 294 extracted MCQs remain unscored and review-gated.
+
+The bank now contains **241 question-bearing papers and 18,013 records** (17,594 MCQ, 419 written); the paper library lists **257 sources**. 3,611 items are practice-ready (1,618 with official keys); 14,271 need source review. English, technical specialty papers, and duplicate booklet series were excluded.
+
 ## MPSC 2023–2025 archive: General Studies/Knowledge and Maths — 10 October 2026
 
 Source: [MPSC old-question archive](https://mpsc.mizoram.gov.in/page/old-question-2023-2024). Registered the 40 PDFs on that page whose listed subject is General Studies, General Knowledge, Mathematics, or Arithmetic. English and technical papers were omitted. This includes the ACF Mathematics paper and Group B Combined General Studies I–III. MCS Main optional Mathematics was excluded as a specialist subject.

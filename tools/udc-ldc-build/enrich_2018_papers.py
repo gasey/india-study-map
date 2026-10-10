@@ -50,8 +50,9 @@ SOURCE_URLS = {
 }
 ENRICHMENT_VERSIONS = {slug: (2 if slug.startswith(('asce-2021-', 'vety-mah-2021-')) else 5 if slug in ('mes-pwd-2018-english', 'mes-pwd-2018-gs', 'mes-power-2018-english', 'mes-power-2018-gs', 'veterinary-officer-2018-english-p1', 'veterinary-officer-2018-english-p2', 'je-iwr-2018-english', 'assistant-jailor-2018-english', 'asi-home-2018-english', 'asi-home-2018-gk', 'asi-home-2018-mathematics', 'assistant-grade-2018-p1', 'assistant-grade-2018-p2', 'acf-2018-english', 'acf-2018-gk') else 3) for slug in SOURCE_URLS}
 ARCHIVE_2023_2025 = json.loads((Path(__file__).parent / 'mpsc-archive-2023-2025.json').read_text())
-SOURCE_URLS.update({row['slug']: row['url'] for row in ARCHIVE_2023_2025})
-ENRICHMENT_VERSIONS.update({row['slug']: 1 for row in ARCHIVE_2023_2025})
+NG_ARCHIVE_2024_2027 = json.loads((Path(__file__).parent / 'mpsc-ng-2024-2027.json').read_text())
+SOURCE_URLS.update({row['slug']: row['url'] for row in ARCHIVE_2023_2025 + NG_ARCHIVE_2024_2027})
+ENRICHMENT_VERSIONS.update({row['slug']: 1 for row in ARCHIVE_2023_2025 + NG_ARCHIVE_2024_2027})
 
 
 
@@ -92,7 +93,7 @@ def enrich(result, source):
     if slug not in SOURCE_URLS:
         return result
     result['sourceUrl'] = SOURCE_URLS[slug]
-    if slug in {row['slug'] for row in ARCHIVE_2023_2025}:
+    if slug in {row['slug'] for row in ARCHIVE_2023_2025 + NG_ARCHIVE_2024_2027}:
         result['enrichmentVersion'] = ENRICHMENT_VERSIONS[slug]
         result['answerStatus'] = 'No verified key or worked solutions attached; unscored source transcription.'
         return result

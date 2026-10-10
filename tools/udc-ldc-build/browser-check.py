@@ -80,7 +80,7 @@ evaluate('location.reload()')
 wait_for("document.querySelector('.udc-hero h1')?.textContent.includes('Group B')")
 wait_for("document.querySelectorAll('.udc-tabs button').length === 5")
 click_tab('Group B papers')
-assert evaluate("document.querySelectorAll('.udc-library-paper').length") == 254
+assert evaluate("document.querySelectorAll('.udc-library-paper').length") == 257
 assert evaluate("document.body.scrollWidth <= innerWidth")
 assert evaluate("document.querySelector('.udc-ldc-page').scrollHeight > document.querySelector('.udc-ldc-page').clientHeight")
 assert evaluate("[...document.querySelectorAll('.udc-library-paper')].some(p=>p.innerText.includes('held unscored'))")
@@ -572,5 +572,5 @@ assert evaluate("[...document.querySelectorAll('button')].some(b=>b.textContent.
 assert evaluate("![...document.querySelectorAll('button')].some(b=>b.textContent.includes('Assistant Audit & Accounts Officer / Assistant Accounts Officer · Arithmetic'))")
 assert evaluate("[...document.querySelectorAll('button')].some(b=>b.textContent.includes('Stenographer Grade III'))")
 assert not exceptions, exceptions
-print('Browser passed: all 254 paper sources; completed review and held/missing totals; written-only recovery; JE/stenographer/ASI full numbering, emphasis, figures and worked answers; JAO recovery; official comparison and corrigendum; held scoring gates; rail chip counts agree with filtered lists; Exam eligibility; source links; mobile and desktop layout; no runtime exceptions.')
+print('Browser passed: all 257 paper sources; completed review and held/missing totals; written-only recovery; JE/stenographer/ASI full numbering, emphasis, figures and worked answers; JAO recovery; official comparison and corrigendum; held scoring gates; rail chip counts agree with filtered lists; Exam eligibility; source links; mobile and desktop layout; no runtime exceptions.')
 s.close()

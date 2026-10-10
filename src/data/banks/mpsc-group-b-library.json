@@ -2563,6 +2563,36 @@
     "reviewRequired": true
   },
   {
+    "id": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
+    "exam": "Assistant LESO under Labour, Employment, Skill Development & Entrepreneurship Department",
+    "sitting": "April 2026",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies",
+    "exam": "Group B (Non-Gazetted) technical common examination",
+    "sitting": "January 2026",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge",
+    "exam": "Group B (Non-Gazetted) technical common examination",
+    "sitting": "November 2024",
+    "subject": "General Knowledge",
+    "sourceHref": "/papers/group-b/ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge.pdf",
+    "keyHref": null,
+    "imported": true,
+    "reviewRequired": true
+  },
+  {
     "id": "mpsc-group-b-jao-2026-p1",
     "exam": "Junior Accounts Officer (JAO)",
     "sitting": "July 2026",

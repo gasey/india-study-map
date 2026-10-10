@@ -1,0 +1,2320 @@
+{
+  "slug": "ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
+  "exam": "Assistant LESO under Labour, Employment, Skill Development & Entrepreneurship Department",
+  "sitting": "April 2026",
+  "subject": "General Studies",
+  "source": "ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies.pdf",
+  "sourceSha256": "0a8af864b9182e4be29ac9fedce5884d672c39a67acf55b3023e0b5eb2e65b89",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam, Kerala, Puducherry, West Bengal",
+        "b": "Assam, Tamil Nadu, Puducherry, West Bengal",
+        "c": "Assam, Kerala, West Bengal, Tamil Nadu",
+        "d": "Kerala, Puducherry, Tamil Nadu, West Bengal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following States will go to the polls in April, 2026?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "New Zealand",
+        "b": "England",
+        "c": "Australia",
+        "d": "South Africa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian cricket team won the ICC Men’s T20 World Cup, 2026 by defeating:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zo Nun Ze Mawi: Tlawmngaihna",
+        "b": "Zo Nun Ze Mawi: Inngaihsakna",
+        "c": "Zo Nun Ze Mawi: Inlungrualna",
+        "d": "Zo Nun Ze Mawi: Inremna"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The theme of Chapchar Kut, 2026 is",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4",
+        "b": "5",
+        "c": "6",
+        "d": "7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many seats are reserved for women in General Election to the Aizawl Municipal Corporation, 2026?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Joy Pachuau",
+        "b": "Sangthankima",
+        "c": "R. Lalrawna",
+        "d": "B. Lalthangliana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Vanglaini Mizo Award 2025 was given to:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cyclones and droughts",
+        "b": "Heatwaves and lightning strikes",
+        "c": "Floods and earthquakes",
+        "d": "Landslides and cloudbursts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which two disasters has the 16th Finance Commission recommended for inclusion as nationally notified disasters?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Russia",
+        "b": "India",
+        "c": "China",
+        "d": "USA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is the largest buyer of Iranian crude oil?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pataliputra",
+        "b": "Ujjain",
+        "c": "Taxila",
+        "d": "Vaishali"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The capital of Mauryan Empire under Ashoka was:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hinduism",
+        "b": "Jainism",
+        "c": "Zoroastrianism",
+        "d": "Buddhism"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Ajanta Caves are primarily associated with which religious tradition?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fa-Hien",
+        "b": "Hiuen Tsang",
+        "c": "I-Tsing",
+        "d": "Sung Yun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Chinese traveler visited India during the reign of Harshavardhana?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thanjavur",
+        "b": "Deccan",
+        "c": "Badami",
+        "d": "Kalyani"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Chalukya Dynasties were in power of Indian medieval history from the reign of 600 to 1200 AD in the state of:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shivaji",
+        "b": "Babur",
+        "c": "Ramaraja",
+        "d": "Shahu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is known as the “father of the Maratha nation’?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "G.K. Gokhale",
+        "b": "W.C. Banerjee.",
+        "c": "Dadabhai Naoroji.",
+        "d": "Badruddin Tyabji"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the first president of Indian National Congress?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pongal",
+        "b": "Bakrid",
+        "c": "Holi",
+        "d": "Baisakhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Jallianwala Bagh massacre took place on the day of:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tlawng",
+        "b": "Chhimtuipui",
+        "c": "Kolodyne",
+        "d": "Tuirial"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which major river in Mizoram flows northwards and eventually joins the Barak River in Assam?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Panama Canal",
+        "b": "Suez Canal",
+        "c": "Beijing-Hangzhou Grand Canal",
+        "d": "Grand Canal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the canal that significantly shortened the maritime route from India to Europe?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "43521",
+        "b": "21453",
+        "c": "52341",
+        "d": "53421"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match the following places with the things known for: A.Blue revolution1.Meat production B.Grey revolution2.Milk production C.Round revolution3.Fertilizers D.White revolution4.Potato E.Red revolution5.Fish production ABCDE",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bhakra Nangal Dam",
+        "b": "Hirakud Dam",
+        "c": "Mettur Dam",
+        "d": "Nagarjuna Sagar Dam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_________ dam is the highest gravity dam in India.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Mangrove Forests",
+        "b": "The Tropical Thorn Forests and Scrubs",
+        "c": "The Tropical Deciduous Forests",
+        "d": "The Tropical Evergreen Forests"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which type of vegetation is found only in the northwestern part of India?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mercury and Venus",
+        "b": "Earth and Mars",
+        "c": "Jupiter and Saturn",
+        "d": "Uranus and Neptune"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Planets that have no natural satellites are:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Legal right available to citizens only",
+        "b": "Legal right available to any person",
+        "c": "Fundamental Right available to citizens only",
+        "d": "Neither Fundamental Right nor legal right"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the position of the Right to Property in India?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam, Meghalaya, Mizoram, Tripura",
+        "b": "Assam, Manipur, Meghalaya, Mizoram",
+        "c": "Assam, Arunachal Pradesh, Mizoram, Nagaland",
+        "d": "Arunachal Pradesh, Meghalaya, Mizoram, Tripura"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sixth Schedule of the Indian Constitution provides administration of tribal areas in the following states:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gram Panchayat",
+        "b": "Nagar Panchayat",
+        "c": "Municipal Council",
+        "d": "Municipal Corporation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Article 243Q provides for establishment of 3 kinds of Municipalities of every state. Which one of the following is not among them?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Planning Commission",
+        "b": "NITI Aayog",
+        "c": "Finance Commission",
+        "d": "Inter State Council"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which body recommends the principles of distribution of tax proceeds between Union and States?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 352",
+        "b": "Article 356",
+        "c": "Article 360",
+        "d": "Article 123"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under which Article can the President promulgate an Ordinance when Parliament is not in session?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15 August 1947",
+        "b": "26 November 1949",
+        "c": "26 January 1950",
+        "d": "01 January 1950"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When was the Constitution of India adopted by the Constituent Assembly?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Enforceable in a court of law",
+        "b": "Non enforceable but a key to the minds of the framers",
+        "c": "A separate statute",
+        "d": "Only a political speech"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Preamble of the Indian Constitution is:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Autonomous District Council",
+        "b": "Union Territory",
+        "c": "State",
+        "d": "District within the state of Assam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the administrative status of Mizoram immediately after Indian independence in 1947?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Income only",
+        "b": "Education only",
+        "c": "Health, education and income",
+        "d": "Population"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Human Development Index measures:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15",
+        "b": "16",
+        "c": "17",
+        "d": "18"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The United Nations has established Sustainable Development Goals (SDGs).",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Income level",
+        "b": "Consumption expenditure",
+        "c": "Population",
+        "d": "Employment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Poverty line is determined based on:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "April, 2026",
+        "b": "May, 2026",
+        "c": "June, 2026",
+        "d": "July, 2026"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India will begin next census in:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Banking",
+        "b": "Insurance",
+        "c": "Transport",
+        "d": "Car manufacturing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The service sector does not include :",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It has good climatic condition",
+        "b": "It has a huge number of educated population",
+        "c": "It has adequate provision of basic health and educational facilities",
+        "d": "It has adequate infrastructure"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kerala has low Infant Mortality Rate because:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rising sea levels",
+        "b": "Increased biodiversity",
+        "c": "More frequent heatwaves",
+        "d": "Melting polar ice caps"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is NOT a consequence of climate change?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1.5 degrees Celsius",
+        "b": "2 degrees Celsius",
+        "c": "3 degrees Celsius",
+        "d": "4 degrees Celsius"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the projected temperature increase limit set by the Paris Agreement to avoid the most severe impacts of climate change?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "United Nations",
+        "b": "World Health Organization (WHO)",
+        "c": "Intergovernmental Panel on Climate Change (IPCC)",
+        "d": "Greenpeace"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which international organization monitors and assesses climate change data, impacts, and adaptation strategies?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Phawngpui and Murlen",
+        "b": "Phawngpui and Lengteng",
+        "c": "Murlen and Tokalo",
+        "d": "Murlen and Lengteng"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "National Parks in Mizoram are:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Montreal Protocol – Global Warming",
+        "b": "Project Tiger - Lion",
+        "c": "Kyoto Protocol – Climate Change",
+        "d": "Project Hangul - Deer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the correctly matched pair:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Forests",
+        "b": "Oceans",
+        "c": "Soils",
+        "d": "Rivers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the largest ‘carbon sink’ on earth?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Structure of animals and plants",
+        "b": "Functioning of body organs",
+        "c": "Animal behaviour",
+        "d": "Cells and tissues"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Anatomy is a branch of Science which deals with:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Charles Babbage",
+        "b": "Lee De Forest",
+        "c": "John McCarthy",
+        "d": "JP Eckert"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following is considered as the ‘Father of artificial intelligence’?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Solids have higher density than gases",
+        "b": "Solids have more closely packed particles with stronger intermolecular forces",
+        "c": "Solids have lower temperature than gases",
+        "d": "Solids have more free electrons than gases"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following best explains why the speed of sound is faster in solids than in gases?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Possum",
+        "b": "Night heron",
+        "c": "Snake",
+        "d": "Bat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The animal which uses ‘sounds’ as its eyes is:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "be shorter",
+        "b": "be longer",
+        "c": "depend on the height of the girl",
+        "d": "not change"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A girl is swinging on a swing in sitting position. When the girl stands up, the period of the swing will:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Light Emitting Device",
+        "b": "Light Enhancing Device",
+        "c": "Light Enhancing Diode",
+        "d": "Light Emitting Diode"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The full form of LED is:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lali",
+        "b": "Hawilopari",
+        "c": "Chhingpuii",
+        "d": "Rimenhawihi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Mizo novel, which was published in 1936:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1935",
+        "b": "1937",
+        "c": "1945",
+        "d": "1947"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Young Lushai Association (YLA) was renamed Young Mizo Association (YMA) in:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Establishment of Durtlang Hospital",
+        "b": "Welfare of orphans",
+        "c": "Abolition of slavery (bawi/sal)",
+        "d": "Education of children"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most remarkable contribution made by Welsh missionary, Dr Peter Fraser towards the Mizo society was:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chawngtinleri",
+        "b": "Lasi",
+        "c": "Tumchhingi",
+        "d": "Chawngmawii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A queen of fairy, who is regarded as the guardian and maker of wild animals is:",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Lushai Expedition 1871-1872",
+        "b": "The Lushai Expedition 1873-1874",
+        "c": "The Lushai Expedition 1888-1889",
+        "d": "The Chin Lushai Expedition 1890-1891"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A military campaign to rescue Mary Winchester was called:",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aizawl District",
+        "b": "Khawzawl District",
+        "c": "Lawngtlai District",
+        "d": "Champhai District"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The famous ‘Kawtchhuahropui’ is located in:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sahmulphah Thla",
+        "b": "Pawltlak Thla",
+        "c": "Pawlkut Thla",
+        "d": "Khuangchawi Thla"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizo name given to the month of November is:",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Captain L.Z. Sailo",
+        "b": "Laltluangliana Khiangte",
+        "c": "Brigadier Thenphunga Sailo",
+        "d": "P.S. Chawngthu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The only Padma Bhushan Awardee from Mizoram is:",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mongoloid group",
+        "b": "Indo-Aryan group",
+        "c": "Tibeto-Burman group",
+        "d": "Burmese-Chin group"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mizo language belongs to:",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China",
+        "b": "Malaysia",
+        "c": "Singapore",
+        "d": "Germany"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "BIOFACH 2026, the world’s largest trade fair for organic products, was held in which country?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Keralam",
+        "b": "Keraladesh",
+        "c": "Travancore",
+        "d": "Malabar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the new name approved by the Union Cabinet for Kerala?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Paytm",
+        "b": "PhonePe",
+        "c": "Razorpay",
+        "d": "GPay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which payment company partnered with Gnani.ai to launch an agentic AI platform enabling in-call UPI payments during live customer conversations?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Masoud Pezeshkian",
+        "b": "Ali Larijani",
+        "c": "Mojtaba Khamenei",
+        "d": "Ebrahim Raisi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was named the new Supreme Leader of Iran by the Assembly of Experts following the assassination of Ayatollah Ali Khamenei?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tarique Rahman",
+        "b": "Khaleda Zia",
+        "c": "Muhammad Yunus",
+        "d": "Mohammed Shahabuddin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was sworn in as the new Prime Minister of Bangladesh after the 13th Parliamentary Election?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bahadur Shah I",
+        "b": "Bahadur Shah II",
+        "c": "Shah Alam II",
+        "d": "Aurangzeb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the Mughal Emperor was proclaimed the Emperor of India during the Revolt of 1857?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1908",
+        "b": "1919",
+        "c": "1905",
+        "d": "1910"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Partition of Bengal was announced in which year?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Government of India Act 1909",
+        "b": "Government of India Act 1935",
+        "c": "Government of India Act 1936",
+        "d": "Charter Act of 1853"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Before 26 November 1949, which among the following was the governing law of India?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rasbehari Bose",
+        "b": "Jadugopal Mukhopadhyay",
+        "c": "Hemchandra Ghosh",
+        "d": "Subhas Chandra Bose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who founded the Forward Block?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1899",
+        "b": "1896",
+        "c": "1898",
+        "d": "1897"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which session of the Indian National Congress was Vande Mataram sang for the first time?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India and China",
+        "b": "India and Pakistan",
+        "c": "North and South Korea",
+        "d": "USA and Canada"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "38th Parallel demarcates:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Palk Strait",
+        "b": "Gulf of Kutch",
+        "c": "Sundarbans",
+        "d": "Gulf of Cambay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following has been identified for maximum potential of Tidal Power in India?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam",
+        "b": "Chhattisgarh",
+        "c": "Maharashtra",
+        "d": "Uttar Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian state has maximum neighbouring states?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USA & Canada",
+        "b": "Mongolia & Russia",
+        "c": "France & Germany",
+        "d": "Algeria & Libya"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Maginot Line exists between which countries?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Majuli Island",
+        "b": "Malibu Island",
+        "c": "Bhavani Island",
+        "d": "Agatti Island"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The largest river island in the world is:",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Stratosphere",
+        "b": "Mesosphere",
+        "c": "Thermosphere",
+        "d": "Troposphere"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which atmospheric layer contains Ions and helps in wireless communication?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Either house of the Parliament",
+        "b": "Only Council of States (Rajya Sabha)",
+        "c": "Only House of the People (Lok Sabha)",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A money bill can be introduced in:",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Eight Schedule originally contains 14 languages",
+        "b": "Languages in the Eight Schedule receive Constitutional support for development and promotion",
+        "c": "It lists the languages recognized by the Constitution for Official purposes",
+        "d": "English was added to the Eight Schedule after liberalization of economy in 1991"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which the following is incorrect regarding Eight Schedule of the Indian Constitution:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 19",
+        "b": "Articles 20 and 21",
+        "c": "Articles 22 and 23",
+        "d": "Articles 24 and 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Article(s) cannot be suspended even during National Emergency?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Advisory Jurisdiction",
+        "b": "Appellate Jurisdiction",
+        "c": "Original Jurisdiction",
+        "d": "Writ Jurisdiction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under which of the following jurisdiction can any individual whose Fundamental Rights has been violated, directly move the Supreme Court for remedy?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "China",
+        "b": "Saudi Arabia",
+        "c": "USA",
+        "d": "Russia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is the largest producer of liquefied petroleum gas in the world?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Canada",
+        "b": "Australia",
+        "c": "United Kingdom",
+        "d": "Germany"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country announced a Strategic Energy Partnership with India and agreed on a CAD 2.6 billion uranium supply deal in March 2026?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ONGC",
+        "b": "Indian Oil Corporation",
+        "c": "Bharat Petroleum Corporation Limited",
+        "d": "Reliance Industries Limited"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which company has secured a U.S. license allowing it to import crude oil from Venezuela, enhancing India’s energy security and refining flexibility?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6.5%",
+        "b": "7.2%",
+        "c": "7.8%",
+        "d": "8.2%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What GDP growth rate has ICRA projected for India in Q3 FY 2025-2026?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bharatiya Janaushadhi Pariyojana",
+        "b": "Pradhan Mantri Awaas Yojana-Gramin",
+        "c": "Ayushman Bharat (PMJAY)",
+        "d": "Jal Jeevan Mission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the world’s largest Government-funded healthcare program providing coverage to over 10 crore poor families in India?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "7 to 10",
+        "b": "7 to 15",
+        "c": "7 to 21",
+        "d": "7 to 23"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Rights of Persons with Disabilities (RPWD) Act 2016 increased the types of disabilities from:",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Global warming",
+        "b": "Climate change",
+        "c": "Protection of the Ozone layer",
+        "d": "Bio-diversity Conservation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the main aim of the Montreal Protocol?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A, B, C",
+        "b": "A, B, D",
+        "c": "A, C, D",
+        "d": "A, B, C, D"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following are the biodiversity hotspots present in India? A.The Himalayas B.The Western Ghats C.The Sunderland D.The Indo-Burma Select the correct option below.",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 49",
+        "b": "Article 50",
+        "c": "Article 51",
+        "d": "Article 51A"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Article of the Indian Constitution states that “It shall be the duty of every citizen of India to protect and improve the natural environment including forests, lakes, rivers and wildlife and have compassion for living creatures.”?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Herbivores",
+        "b": "Carnivores",
+        "c": "Decomposers",
+        "d": "Omnivores"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The primary consumers in a food chain are:",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Punjab & Haryana",
+        "b": "Uttar Pradesh & Tamil Nadu",
+        "c": "Karnataka & Tamil Nadu",
+        "d": "Tamil Nadu & Maharashtra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Kaveri water dispute is a dispute between which States?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "C value",
+        "b": "K value",
+        "c": "Biotic potential",
+        "d": "Carrying capacity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The inherent ability of organism to reproduce and multiply is called:",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Harry Hess",
+        "b": "Darwin",
+        "c": "McKenzie and Parker",
+        "d": "Alfred Wegner"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who proposed the idea of Continental Drift Theory?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Stratosphere",
+        "b": "Mesosphere",
+        "c": "Thermosphere",
+        "d": "Exosphere"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Commercial planes fly in which layer of the Earth’s atmosphere?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Alizarin",
+        "b": "Melanin",
+        "c": "Phthalocyanine",
+        "d": "Quinacridone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The pigment that gives human eyes, skin and hair their colour is called:",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ammonia",
+        "b": "Hydrogen sulphide",
+        "c": "Thioacetone",
+        "d": "Ethyl mercaptan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which chemical is added to the otherwise odourless LPG cooking gas for imparting a detectable smell to the gas?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Saliva, hydrochloric acid",
+        "b": "Saliva, Pancreatic juice",
+        "c": "Bile juice, Pancreatic juice",
+        "d": "Saliva, Bile juice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which juice secreted by the organs in the alimentary canal plays an important role in the digestion of fats?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Riboflavin",
+        "b": "Folic Acid",
+        "c": "Thiamine",
+        "d": "Ascorbic Acid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a member of the vitamin B complex?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lenkawl",
+        "b": "Lushai News",
+        "c": "KristianTlangau",
+        "d": "Mizo leh Vai Chanchinbu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the first regularly published monthly newspaper in Mizo language with early content focusing on “Hmasang Chanchin”?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tlangtlir",
+        "b": "Sa-aih",
+        "c": "Khuangchawi",
+        "d": "Sechhun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the traditional ritual associated with a person reaching a high status (Thangchhuah)?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Samuel Lalrintluanga",
+        "b": "David Zohmangaiha",
+        "c": "JohnyLaltlanmawia",
+        "d": "Vanlalliana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the first Mizo male to successfully scale the Mt. Everest?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "549 km",
+        "b": "654 km",
+        "c": "510 km",
+        "d": "459 km"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For how many kilometers does Mizoram shares its international border with Myanmar?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fanghmano ei-Eating cucumber that is not fully ripe",
+        "b": "Lalruangasehnawt-A kind of bird",
+        "c": "Sadawt-A priest",
+        "d": "Bawlpu-A shaman or medicine man"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a correct pair?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Leilunglan",
+        "b": "Thingchangvar",
+        "c": "Khuantevik",
+        "d": "Vartian"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name given to the short dawn of light which fades away again just before ‘Khawfingchah’?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prof. Darchhawna",
+        "b": "James Dokhuma",
+        "c": "Kaphleia",
+        "d": "J. Malsawma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the author of the Mizo Essay ‘ Thlirtu’?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  },
+  "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2026/04/cc247490e51d739093536dc6caa92070/assistant-leso-2026-general-studies.pdf",
+  "enrichmentVersion": 1,
+  "answerStatus": "No verified key or worked solutions attached; unscored source transcription."
+}

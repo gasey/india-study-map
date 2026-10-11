@@ -4,17 +4,16 @@ Tier 1 is not a bulk/automated win. Only assignments that validate (>=25 upstrea
 
 ## Summary
 
-- Candidate one-to-one assignments: **9 papers (647 held questions)**
+- Candidate one-to-one assignments: **8 papers (611 held questions)**
 - `validated` (safe to register): **0**
 - `contradicted` (wrong paper — reject): **5**
-- `unverifiable` (needs printed-key confirmation): **4**
+- `unverifiable` (needs printed-key confirmation): **3**
 
 Validation compares the proposed key against the upstream solved corpus by chosen option text. A correct key scores near the corpus baseline (~86%); a wrong one scores near chance (~25%).
 
 | verdict | paper | subject | held | key file | src | upstream n | agreement |
 |---|---|---|---|---|---|---|---|
 | unverifiable | mpsc-group-b-geologist-jun-nov-2020-english-p3 | General English Paper-III | 100 | Provisional Answer Key of Geologist under Commerce & Industries Dept.-2024..pdf | ocr | 1 | 0% |
-| unverifiable | mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a | General English | 36 | Inspector under Excise & Narcotics Department Final Answer Key....pdf | ocr | 0 | — |
 | unverifiable | mpsc-group-b-archive2325-acf-2023-mathematics | Mathematics | 9 | Jr. Gr. of Mizoram Forest Service (ACF) Provisional Answer Key..pdf | pdf | 0 | — |
 | unverifiable | mpsc-group-b-si-fcs-2025-p2 | General Knowledge, Arithmetic & Reasoning | 2 | Final Answer Key of Sr. Grade of MHS (Specialist Sub-cadre) under H&FW Deptt..pdf | pdf | 0 | — |
 | contradicted | mpsc-group-b-inspector-fcs-2019-gs3 | General Studies Paper-III | 100 | Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Services (Inspector of Supplies) Final Answer Key..pdf | pdf | 75 | 36% |
@@ -33,6 +32,7 @@ Validation compares the proposed key against the upstream solved corpus by chose
 | archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440 | 100 | /papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf |
 | archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde | 66 | /papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf |
 | archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208 | 66 | /papers/group-b/keys/acm-2026-final-key.pdf |
+| archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a | 36 | /papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1 |
 | archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a | 59 | /papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2 |
 | archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29 | 99 | /papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4 |
 | archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1 | 66 | /papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=2 |
@@ -70,6 +70,9 @@ Validation compares the proposed key against the upstream solved corpus by chose
 | archive2325-technical-officer-scert-general-studies-april-2025 | 100 | /papers/group-b/keys/scert-gs-final-key.pdf |
 | co-2026-p1 | 60 | /papers/group-b/keys/co-2026-final-key.pdf#page=1 |
 | co-2026-p2 | 100 | /papers/group-b/keys/co-2026-final-key.pdf#page=3 |
+| inspector-excise-2025-gs1 | 50 | /papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2 |
+| inspector-excise-2025-gs2 | 50 | /papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3 |
+| inspector-excise-2025-gs3 | 50 | /papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4 |
 | jao-2026-p1 | 60 | /papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1 |
 | jao-2026-p2 | 100 | /papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3 |
 | ng-april-2026-assistant-leso-general-english | 66 | /papers/group-b/keys/final-answer-key-assistant-leso-april-2026.pdf#page=1 |

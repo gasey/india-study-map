@@ -1,0 +1,1167 @@
+{
+  "slug": "inspector-excise-2025-gs1",
+  "exam": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+  "sitting": "August 2025",
+  "subject": "General Studies Paper-I",
+  "source": "General Studies Paper-I - Inspector of Excise-2025..pdf",
+  "sourceSha256": "2a450be4605f8f12f870ece312e424d1556df2452e641ccf32cb6d764523469a",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Charter Act, 1833",
+        "b": "Pitt’s India Act, 1784",
+        "c": "The Regulating Act, 1733",
+        "d": "The Gov’t of India Act, 1858"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Acts provided that Indians should not be barred from holding jobs with the East India Company?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 4 only",
+        "b": "1, 3 and 4 only",
+        "c": "1, 2 and 3 only",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Raja Ram Mohan Roy’s reform of Hinduism was along the lines of: 1)Condemnation of idolatry 2)Irrelevance of Brahmanical priest craft 3)Propagation of Monotheism 4)Projecting the Vedas as the repository of all scientific truth Select the codes for the correct statements",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Upendranath Brahmachari",
+        "b": "Ramakrishna Paramahamsa",
+        "c": "Sri Arubindo",
+        "d": "Swami Prabhupad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The spiritual guru Gadadhar Chattopadhyay is best known with which among the following names?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kheda Satyagraha",
+        "b": "Champaran Satyagraha",
+        "c": "Bardoli Satyagraha",
+        "d": "Moplah Rebellion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tinkathia System is associated to:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Muhammadan Aligarh College",
+        "b": "Aligarh Islamic University",
+        "c": "Muhammadan Anglo-Oriental College",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the former name of Aligarh Muslim University?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Martin Luther King, Jr",
+        "b": "Henry David Thoreau",
+        "c": "Leo Tolstoy",
+        "d": "Abraham Lincoln"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who influenced Gandhiji by his philosophy of civil disobedience?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Surendranath Banerjee",
+        "b": "Gopal Krishna Gokhale",
+        "c": "Bal Gangadhar Tilak",
+        "d": "Dadabhai Naoroji"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is known as the ‘Grand Old Man of India’?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lord Pethick-Lawrence",
+        "b": "Sir Stafford Cripps",
+        "c": "A V Alexander",
+        "d": "Campbell Johnson"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following was not a member of the British Cabinet Mission which came to India in March 1946?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Madras",
+        "b": "Punjab",
+        "c": "Gujarat",
+        "d": "Bengal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Indigo Revolt by farmers against the British planters took place primarily in-",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Civil Disobedience Movement",
+        "b": "Quit India Movement",
+        "c": "Khilafat Movement",
+        "d": "Swadeshi Movement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following movements was combined with the Non-Cooperation Movement under Gandhiji’s leadership?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Champaran",
+        "b": "Sabarmati  Ashram",
+        "c": "Bardoli",
+        "d": "Dandi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gandhi started the Dandi March from which place?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Japan",
+        "b": "Burma",
+        "c": "Bangladesh",
+        "d": "Singapore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where was Azad Hind Fauj established in 1943?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vivekananda",
+        "b": "Raja Ram Mohan Roy",
+        "c": "Rabindranath Tagore",
+        "d": "Dayanand Saraswati"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is widely known as the ‘Father of Indian Renaissance’?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lord Hastings",
+        "b": "Lord Ripon",
+        "c": "Lord Curzon",
+        "d": "Lord Dufferin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A new policy of ‘paramountcy’ was initiated under the reign of which of the following Governor Generals in 1813?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only 1",
+        "b": "1 and 2",
+        "c": "2 and 3",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements with reference to the Subsidiary Alliance. 1.The first ruler to accept the Subsidiary Alliance was the Nizam of Hyderabad. 2.Under this policy, Indian rulers were forced to have a British official called the resident at his court. 3.Under this policy, Indian rulers made to keep a large British force within their territory and pay for its maintenance. Which of the statement(s) given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "First Anglo-Maratha War1775-1782 AD",
+        "b": "Second Anglo-Maratha War1803-1805 AD",
+        "c": "Third Anglo-Maratha War1817-1819 AD",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following pair is incorrectly matched? **Pair 1 (Anglo-Maratha War)Pair II (Years)**",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only 1",
+        "b": "Only 2",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the main motive of British to promote modern education in India? 1.For the welfare of Indians. 2.To train Indians so that they could help the Company’s British officials in administration. Which of the statement(s) given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indian handicrafts were ruined.",
+        "b": "Machines were introduced in the Indian textile industry in large numbers.",
+        "c": "Railway lines were laid in many parts of the country.",
+        "d": "Heavy duties were imposed on the imports of British manufacturers."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements correctly explains the impact of Industrial Revolution in India during the first half of the 19th century?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Faraizis rebellion",
+        "b": "Revolt of 1857",
+        "c": "Sanyasi rebellion",
+        "d": "Munda rebellion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first major revolt that broke out soon after the British conquest of Bengal was",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Barrackpore",
+        "b": "Meerut",
+        "c": "Delhi",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With which uprising is Mangal Pandey associated?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Abul Kalam Azad",
+        "b": "Rafi Ahmad Kidwal",
+        "c": "MA Ansari",
+        "d": "Badruddin Tyabji"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "First Muslim President of Indian National Congress was-",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2",
+        "b": "2 and 3",
+        "c": "1 and 3",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following actively participated in the Swadeshi Movement? 1.Landlords2.Students 3.Lawyers4.Women Codes",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Non-Cooperation Movement",
+        "b": "Enactment of Rowlatt Act",
+        "c": "Communal Award",
+        "d": "Arrival of Simon Commission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which important event immediately preceded Jallianwala Bagh massacre?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Maulana Muhammad Ali and Shaukat Ali",
+        "b": "Mohammad Ali Jinnah and Shaukat Ali",
+        "c": "Maulana Abul Kalam Azad and Rafi Ahmed Kidwai",
+        "d": "Rafi Ahmed Kidwai and Shaukat Ali"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following were prominent leaders of the ‘Khilafat Movement’?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Most of the leaders were arrested and they were in prison.",
+        "b": "Britishers were ready to accept the demands partly.",
+        "c": "Because of the violence in Chauri Chaura.",
+        "d": "There were not any chances of success in the movement."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why did Mahatma Gandhi withdraw the Non-Cooperation Movement in 1922?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prosperity through cooperation.",
+        "b": "Cooperation among cooperatives.",
+        "c": "Cooperatives Build a Better World.",
+        "d": "Autonomy and independence."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "2025 has been declared as International Year of Cooperatives by United Nations. Choose the correct theme.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20th April 2025",
+        "b": "22nd April 2025",
+        "c": "25th April 2025",
+        "d": "26th April 2025"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When did Pahalgam terror attack took place?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Piyush Goel",
+        "b": "Rajnath Singh",
+        "c": "Amit Shah",
+        "d": "Kiran Rijiju"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the Union Cooperation Minister?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lee Jae Myung",
+        "b": "Kim Moon-Soo",
+        "c": "Lee Jun-Sook",
+        "d": "Yoon Suk Yeol"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was recently elected as President of South Korea?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rome",
+        "b": "San Francisco",
+        "c": "Kananaskis",
+        "d": "London"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which city hosted G-7 summit 2025?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "49.3 kms",
+        "b": "52.55 kms",
+        "c": "51.38 kms",
+        "d": "53.41 kms"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How long is railway lines from Bairabi to Sairang?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Subhanshu Shukla",
+        "b": "Sunita Williams",
+        "c": "Ajit Krishnan",
+        "d": "Angad Pratap"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following travelled in the Axiom 4 mission to International Space Station (ISS) during July 2025 mission?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bahrain",
+        "b": "Qatar",
+        "c": "United Arab Emirates",
+        "d": "Oman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country gifted Boeing 747 jet to President Donald Trump?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rio de Janeiro",
+        "b": "Caracas",
+        "c": "Shanghai",
+        "d": "Buenos Aires"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which city hosted the BRICS Summit held in 2025?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jannick Sinner",
+        "b": "Carlos Alcaraz",
+        "c": "Novak Djokovic",
+        "d": "Alexander Averev"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who won the French Open 2025 (Men’s Singles)?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Literature and Education",
+        "b": "Art",
+        "c": "Social work",
+        "d": "Journalism"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "R. Lalrawna was awarded Padma Shri 2025 in which field?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anora",
+        "b": "The Brutalist",
+        "c": "A Complete Unknown",
+        "d": "Conclave"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which movie won a leading five Awards at the Oscar, 2025?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Democratic Council of Myanmar",
+        "b": "State Administration Council",
+        "c": "Administrative Government of Burma",
+        "d": "People’s Democratic Council"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The official name of the military junta governing Myanmar after the 2021 coup d’état is",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Romania and Bulgaria",
+        "b": "Ukraine and Serbia",
+        "c": "Turkey and Hungary",
+        "d": "Finland and Denmark"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The two newest members of the Schengen Area, who became full members in January 2025 are",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pakistan – Shehbaz Sharif",
+        "b": "Australia – Anthony Albanese",
+        "c": "United Kingdom – Rishi Sunak",
+        "d": "Prime Minister of Canada – Mark Carney"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following countries is not correctly matched to its Prime Minister as on July 2025?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prayagraj",
+        "b": "Patna",
+        "c": "Lucknow",
+        "d": "Ahmedabad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where was the Kumbh Mela held in 2025?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Boing 747-8",
+        "b": "Boeing 777-8",
+        "c": "Boeing 787-8",
+        "d": "Airbus A380-8"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Air India Flight 171 which crashed in Ahmedabad on 12th June 2025 was which kind of aircraft?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "UNNATI",
+        "b": "PM Svanidhi",
+        "c": "PMEGP",
+        "d": "PMJJBY"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Scheme revamped in the Union Budget 2025-26 with enhancements such as increased loan limits, UPI-linked Credit Cards and capacity building for street vendors is-",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Operation Black Forest",
+        "b": "Operation Sindh Ul’Haq",
+        "c": "Operation Bunyan al-Marsoos",
+        "d": "Operation Hill Response"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Operation launched by Pakistan in response to Operation Sindoor on May 2025 was called-",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Guided missile frigate",
+        "b": "Nuclear powered submarine",
+        "c": "Aircraft carrier",
+        "d": "Research vessel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What type of naval vessel is INS Brahmaputra that was recently seen in news?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "James Webb Space Telescope",
+        "b": "Hubble Space Telescope",
+        "c": "Giant Metrewave Radio Telescope",
+        "d": "Spitzer Space Telescope"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Bullseye Galaxy (LEDA 1313424) was recently discovered using which telescope?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prime Minister Narendra Modi",
+        "b": "President Droupadi Murmu",
+        "c": "Defence Minister Rajnath Singh",
+        "d": "Home Minister Amit Shah"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian leader was conferred with Mauritius’ highest civilian honour, The Grand Commander of the Order of the Star?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reserve Bank of India (RBI)",
+        "b": "State Bank of India (SBI)",
+        "c": "National Payments Corporation of India (NPCI)",
+        "d": "Securities and Exchange Board of India (SEBI)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Unified Payments Interface (UPI) is developed by which institution?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Myanmar",
+        "b": "Bangladesh",
+        "c": "Bhutan",
+        "d": "Sri Lanka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "LIBA has been launched to promote economic relations between India and which country?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pakistan",
+        "b": "Iran",
+        "c": "Myanmar",
+        "d": "Democratic Republic of Congo **Section - II  (100 Marks)** Marks for each question is indicated against it. **UNIT-A** **UNIT-B**"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘M23 rebels’, recently highlighted in the news, are associated with which country?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

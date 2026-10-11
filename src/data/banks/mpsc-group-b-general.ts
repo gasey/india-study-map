@@ -655,6 +655,36 @@ export const groupBGeneralPapers: ExamPaper[] = [
     "sourceFile": "/papers/group-b/si-excise-2025-p2.pdf"
   },
   {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1",
+    "examType": "Direct_NG",
+    "examName": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+    "post": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+    "paperNumber": "General Studies Paper-I",
+    "paperSubject": "General Studies Paper-I",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/inspector-excise-2025-gs1.pdf"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2",
+    "examType": "Direct_NG",
+    "examName": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+    "post": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+    "paperNumber": "General Studies Paper-II",
+    "paperSubject": "General Studies Paper-II",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/inspector-excise-2025-gs2.pdf"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3",
+    "examType": "Direct_NG",
+    "examName": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+    "post": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+    "paperNumber": "General Studies Paper-III",
+    "paperSubject": "General Studies Paper-III",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/inspector-excise-2025-gs3.pdf"
+  },
+  {
     "id": "mpsc-group-b-si-fcs-2025-p1",
     "examType": "Direct_NG",
     "examName": "Sub-Inspector FCS&CA / Receptionist H&FW",
@@ -124737,6 +124767,4613 @@ const groupBQuestionsPart15: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q1",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following Acts provided that Indians should not be barred from holding jobs with the East India Company?",
+    "options": [
+      "The Charter Act, 1833",
+      "Pitt’s India Act, 1784",
+      "The Regulating Act, 1733",
+      "The Gov’t of India Act, 1858"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The Charter Act, 1833”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  }
+];
+const groupBQuestionsPart16: BankQuestion[] = [
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q2",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Raja Ram Mohan Roy’s reform of Hinduism was along the lines of: 1)Condemnation of idolatry 2)Irrelevance of Brahmanical priest craft 3)Propagation of Monotheism 4)Projecting the Vedas as the repository of all scientific truth Select the codes for the correct statements",
+    "options": [
+      "1 and 4 only",
+      "1, 3 and 4 only",
+      "1, 2 and 3 only",
+      "All of the above"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1, 2 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q3",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The spiritual guru Gadadhar Chattopadhyay is best known with which among the following names?",
+    "options": [
+      "Upendranath Brahmachari",
+      "Ramakrishna Paramahamsa",
+      "Sri Arubindo",
+      "Swami Prabhupad"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Ramakrishna Paramahamsa”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q4",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Tinkathia System is associated to:",
+    "options": [
+      "Kheda Satyagraha",
+      "Champaran Satyagraha",
+      "Bardoli Satyagraha",
+      "Moplah Rebellion"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Champaran Satyagraha”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q5",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "What was the former name of Aligarh Muslim University?",
+    "options": [
+      "Muhammadan Aligarh College",
+      "Aligarh Islamic University",
+      "Muhammadan Anglo-Oriental College",
+      "None of the above"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Muhammadan Anglo-Oriental College”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q6",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Who influenced Gandhiji by his philosophy of civil disobedience?",
+    "options": [
+      "Martin Luther King, Jr",
+      "Henry David Thoreau",
+      "Leo Tolstoy",
+      "Abraham Lincoln"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Henry David Thoreau”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q7",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Who is known as the ‘Grand Old Man of India’?",
+    "options": [
+      "Surendranath Banerjee",
+      "Gopal Krishna Gokhale",
+      "Bal Gangadhar Tilak",
+      "Dadabhai Naoroji"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Dadabhai Naoroji”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q8",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following was not a member of the British Cabinet Mission which came to India in March 1946?",
+    "options": [
+      "Lord Pethick-Lawrence",
+      "Sir Stafford Cripps",
+      "A V Alexander",
+      "Campbell Johnson"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Campbell Johnson”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q9",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The Indigo Revolt by farmers against the British planters took place primarily in-",
+    "options": [
+      "Madras",
+      "Punjab",
+      "Gujarat",
+      "Bengal"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Bengal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q10",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following movements was combined with the Non-Cooperation Movement under Gandhiji’s leadership?",
+    "options": [
+      "Civil Disobedience Movement",
+      "Quit India Movement",
+      "Khilafat Movement",
+      "Swadeshi Movement"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Khilafat Movement”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q11",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Gandhi started the Dandi March from which place?",
+    "options": [
+      "Champaran",
+      "Sabarmati  Ashram",
+      "Bardoli",
+      "Dandi"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sabarmati  Ashram”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q12",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Where was Azad Hind Fauj established in 1943?",
+    "options": [
+      "Japan",
+      "Burma",
+      "Bangladesh",
+      "Singapore"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Singapore”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q13",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Who is widely known as the ‘Father of Indian Renaissance’?",
+    "options": [
+      "Vivekananda",
+      "Raja Ram Mohan Roy",
+      "Rabindranath Tagore",
+      "Dayanand Saraswati"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Raja Ram Mohan Roy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q14",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "A new policy of ‘paramountcy’ was initiated under the reign of which of the following Governor Generals in 1813?",
+    "options": [
+      "Lord Hastings",
+      "Lord Ripon",
+      "Lord Curzon",
+      "Lord Dufferin"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Lord Hastings”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q15",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Consider the following statements with reference to the Subsidiary Alliance. 1.The first ruler to accept the Subsidiary Alliance was the Nizam of Hyderabad. 2.Under this policy, Indian rulers were forced to have a British official called the resident at his court. 3.Under this policy, Indian rulers made to keep a large British force within their territory and pay for its maintenance. Which of the statement(s) given above is/are correct?",
+    "options": [
+      "Only 1",
+      "1 and 2",
+      "2 and 3",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1, 2 and 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q16",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following pair is incorrectly matched? **Pair 1 (Anglo-Maratha War)Pair II (Years)**",
+    "options": [
+      "First Anglo-Maratha War1775-1782 AD",
+      "Second Anglo-Maratha War1803-1805 AD",
+      "Third Anglo-Maratha War1817-1819 AD",
+      "None of the above"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “None of the above”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q17",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "What was the main motive of British to promote modern education in India? 1.For the welfare of Indians. 2.To train Indians so that they could help the Company’s British officials in administration. Which of the statement(s) given above is/are correct?",
+    "options": [
+      "Only 1",
+      "Only 2",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Only 2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q18",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following statements correctly explains the impact of Industrial Revolution in India during the first half of the 19th century?",
+    "options": [
+      "Indian handicrafts were ruined.",
+      "Machines were introduced in the Indian textile industry in large numbers.",
+      "Railway lines were laid in many parts of the country.",
+      "Heavy duties were imposed on the imports of British manufacturers."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Indian handicrafts were ruined.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q19",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The first major revolt that broke out soon after the British conquest of Bengal was",
+    "options": [
+      "Faraizis rebellion",
+      "Revolt of 1857",
+      "Sanyasi rebellion",
+      "Munda rebellion"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Sanyasi rebellion”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q20",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "With which uprising is Mangal Pandey associated?",
+    "options": [
+      "Barrackpore",
+      "Meerut",
+      "Delhi",
+      "None of these"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Barrackpore”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q21",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "First Muslim President of Indian National Congress was-",
+    "options": [
+      "Abul Kalam Azad",
+      "Rafi Ahmad Kidwal",
+      "MA Ansari",
+      "Badruddin Tyabji"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Badruddin Tyabji”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q22",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Who among the following actively participated in the Swadeshi Movement? 1.Landlords2.Students 3.Lawyers4.Women Codes",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "1 and 3",
+      "All of these"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “All of these”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q23",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which important event immediately preceded Jallianwala Bagh massacre?",
+    "options": [
+      "Non-Cooperation Movement",
+      "Enactment of Rowlatt Act",
+      "Communal Award",
+      "Arrival of Simon Commission"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Enactment of Rowlatt Act”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q24",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Who among the following were prominent leaders of the ‘Khilafat Movement’?",
+    "options": [
+      "Maulana Muhammad Ali and Shaukat Ali",
+      "Mohammad Ali Jinnah and Shaukat Ali",
+      "Maulana Abul Kalam Azad and Rafi Ahmed Kidwai",
+      "Rafi Ahmed Kidwai and Shaukat Ali"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Maulana Muhammad Ali and Shaukat Ali”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q25",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Why did Mahatma Gandhi withdraw the Non-Cooperation Movement in 1922?",
+    "options": [
+      "Most of the leaders were arrested and they were in prison.",
+      "Britishers were ready to accept the demands partly.",
+      "Because of the violence in Chauri Chaura.",
+      "There were not any chances of success in the movement."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Because of the violence in Chauri Chaura.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q26",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "2025 has been declared as International Year of Cooperatives by United Nations. Choose the correct theme.",
+    "options": [
+      "Prosperity through cooperation.",
+      "Cooperation among cooperatives.",
+      "Cooperatives Build a Better World.",
+      "Autonomy and independence."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Cooperatives Build a Better World.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q27",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "When did Pahalgam terror attack took place?",
+    "options": [
+      "20th April 2025",
+      "22nd April 2025",
+      "25th April 2025",
+      "26th April 2025"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “22nd April 2025”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q28",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Who is the Union Cooperation Minister?",
+    "options": [
+      "Piyush Goel",
+      "Rajnath Singh",
+      "Amit Shah",
+      "Kiran Rijiju"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Amit Shah”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q29",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Who was recently elected as President of South Korea?",
+    "options": [
+      "Lee Jae Myung",
+      "Kim Moon-Soo",
+      "Lee Jun-Sook",
+      "Yoon Suk Yeol"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Lee Jae Myung”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q30",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which city hosted G-7 summit 2025?",
+    "options": [
+      "Rome",
+      "San Francisco",
+      "Kananaskis",
+      "London"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Kananaskis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q31",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "How long is railway lines from Bairabi to Sairang?",
+    "options": [
+      "49.3 kms",
+      "52.55 kms",
+      "51.38 kms",
+      "53.41 kms"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “51.38 kms”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q32",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Who among the following travelled in the Axiom 4 mission to International Space Station (ISS) during July 2025 mission?",
+    "options": [
+      "Subhanshu Shukla",
+      "Sunita Williams",
+      "Ajit Krishnan",
+      "Angad Pratap"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Subhanshu Shukla”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q33",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which country gifted Boeing 747 jet to President Donald Trump?",
+    "options": [
+      "Bahrain",
+      "Qatar",
+      "United Arab Emirates",
+      "Oman"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Qatar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q34",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which city hosted the BRICS Summit held in 2025?",
+    "options": [
+      "Rio de Janeiro",
+      "Caracas",
+      "Shanghai",
+      "Buenos Aires"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Rio de Janeiro”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q35",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Who won the French Open 2025 (Men’s Singles)?",
+    "options": [
+      "Jannick Sinner",
+      "Carlos Alcaraz",
+      "Novak Djokovic",
+      "Alexander Averev"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Carlos Alcaraz”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q36",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "R. Lalrawna was awarded Padma Shri 2025 in which field?",
+    "options": [
+      "Literature and Education",
+      "Art",
+      "Social work",
+      "Journalism"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Literature and Education”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q37",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which movie won a leading five Awards at the Oscar, 2025?",
+    "options": [
+      "Anora",
+      "The Brutalist",
+      "A Complete Unknown",
+      "Conclave"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Anora”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q38",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The official name of the military junta governing Myanmar after the 2021 coup d’état is",
+    "options": [
+      "Democratic Council of Myanmar",
+      "State Administration Council",
+      "Administrative Government of Burma",
+      "People’s Democratic Council"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “State Administration Council”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q39",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The two newest members of the Schengen Area, who became full members in January 2025 are",
+    "options": [
+      "Romania and Bulgaria",
+      "Ukraine and Serbia",
+      "Turkey and Hungary",
+      "Finland and Denmark"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Romania and Bulgaria”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q40",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following countries is not correctly matched to its Prime Minister as on July 2025?",
+    "options": [
+      "Pakistan – Shehbaz Sharif",
+      "Australia – Anthony Albanese",
+      "United Kingdom – Rishi Sunak",
+      "Prime Minister of Canada – Mark Carney"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “United Kingdom – Rishi Sunak”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q41",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Where was the Kumbh Mela held in 2025?",
+    "options": [
+      "Prayagraj",
+      "Patna",
+      "Lucknow",
+      "Ahmedabad"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Prayagraj”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q42",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Air India Flight 171 which crashed in Ahmedabad on 12th June 2025 was which kind of aircraft?",
+    "options": [
+      "Boing 747-8",
+      "Boeing 777-8",
+      "Boeing 787-8",
+      "Airbus A380-8"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Boeing 787-8”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q43",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The Scheme revamped in the Union Budget 2025-26 with enhancements such as increased loan limits, UPI-linked Credit Cards and capacity building for street vendors is-",
+    "options": [
+      "UNNATI",
+      "PM Svanidhi",
+      "PMEGP",
+      "PMJJBY"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “PM Svanidhi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q44",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The Operation launched by Pakistan in response to Operation Sindoor on May 2025 was called-",
+    "options": [
+      "Operation Black Forest",
+      "Operation Sindh Ul’Haq",
+      "Operation Bunyan al-Marsoos",
+      "Operation Hill Response"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Operation Bunyan al-Marsoos”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q45",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "What type of naval vessel is INS Brahmaputra that was recently seen in news?",
+    "options": [
+      "Guided missile frigate",
+      "Nuclear powered submarine",
+      "Aircraft carrier",
+      "Research vessel"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Guided missile frigate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q46",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The Bullseye Galaxy (LEDA 1313424) was recently discovered using which telescope?",
+    "options": [
+      "James Webb Space Telescope",
+      "Hubble Space Telescope",
+      "Giant Metrewave Radio Telescope",
+      "Spitzer Space Telescope"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Hubble Space Telescope”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q47",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which Indian leader was conferred with Mauritius’ highest civilian honour, The Grand Commander of the Order of the Star?",
+    "options": [
+      "Prime Minister Narendra Modi",
+      "President Droupadi Murmu",
+      "Defence Minister Rajnath Singh",
+      "Home Minister Amit Shah"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Prime Minister Narendra Modi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q48",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Unified Payments Interface (UPI) is developed by which institution?",
+    "options": [
+      "Reserve Bank of India (RBI)",
+      "State Bank of India (SBI)",
+      "National Payments Corporation of India (NPCI)",
+      "Securities and Exchange Board of India (SEBI)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “National Payments Corporation of India (NPCI)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q49",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "LIBA has been launched to promote economic relations between India and which country?",
+    "options": [
+      "Myanmar",
+      "Bangladesh",
+      "Bhutan",
+      "Sri Lanka"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sri Lanka”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=6",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1-Q50",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs1",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "‘M23 rebels’, recently highlighted in the news, are associated with which country?",
+    "options": [
+      "Pakistan",
+      "Iran",
+      "Myanmar",
+      "Democratic Republic of Congo **Section - II  (100 Marks)** Marks for each question is indicated against it. **UNIT-A** **UNIT-B**"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Democratic Republic of Congo **Section - II  (100 Marks)** Marks for each question is indicated against it. **UNIT-A** **UNIT-B**”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf#page=6",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q1",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Consider who coined the following slogans: (i)I am a Hindu, a Muslim, a Parsi, but above all an Indian first – Dadabhai Naoroji (ii)Do or Die – Mahatma Gandhi (iii)Swaraj is my birth right, and I shall have it. – Bal Gangadhar Tilak (iv)Satyameva Jayate – MN Roy Select the correct slogans with persons using the codes given below:",
+    "options": [
+      "(i) and (ii) only",
+      "(i), (ii) and (iii) only",
+      "(ii), (iii) and (iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “(i), (ii) and (iii) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q2",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Who had opposed the Champaran Satyagraha of Mahatma Gandhi?",
+    "options": [
+      "Rabindranath Tagore",
+      "N.G. Ranga",
+      "Rajkumar Shukla",
+      "Rajendra Prasad"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “N.G. Ranga”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=1",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q3",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following social issues did Raja Ram Mohan Roy address through his reform movement?",
+    "options": [
+      "Economic inequality",
+      "Untouchability",
+      "Apartheid",
+      "Political corruption"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Untouchability”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q4",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Who resigned from the membership of Viceroy’s Executive Council as a protest against Jallianwala Bagh Massacre?",
+    "options": [
+      "Mahatma Gandhi",
+      "Rabindranath Tagore",
+      "Shankaran Nair",
+      "Jamnalal Bajaj"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Shankaran Nair”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q5",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "What was the main objective of Nehru’s ‘Socialist pattern of Society’?",
+    "options": [
+      "Privatization of Industries",
+      "Establishment of a welfare state",
+      "Liberalization of Foreign Trade",
+      "Expansion of heavy industries"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Establishment of a welfare state”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q6",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The idea of Gram Swaraj proposed by Mahatma Gandhi advocates for",
+    "options": [
+      "Centralization of power",
+      "Self governance at the village level",
+      "A capitalist economy",
+      "Heavy industrialization"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Self governance at the village level”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q7",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The constitution of India came into force on:",
+    "options": [
+      "January 15, 1950",
+      "January 18, 1950",
+      "January 26, 1950",
+      "January 30, 1950"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “January 26, 1950”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q8",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following Fundamental Rights under the Constitution is guaranteed only to Indian citizens and not to foreigners living in India?",
+    "options": [
+      "Equality before law",
+      "Freedom of speech and expression",
+      "Protection of life and personal liberty",
+      "Free practice of religion"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Freedom of speech and expression”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q9",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "A person to be eligible for election as President of India should fulfill the following qualifications: (i)He should be a citizen of India. (ii)He should have completed 35 years of age. (iii)He should be qualified for election as a member of the Rajya Sabha. (iv)He should not hold any office of profit under the Union or any state government or any local authority or any other public authority. Select the correct answer using the codes given below:",
+    "options": [
+      "(i) and (ii) only",
+      "(i), (ii) and (iii) only",
+      "(i), (ii) and (iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “(i), (ii) and (iv) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q10",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Who amongst the following elects the Vice-President of India? Select the correct answer from the codes given below: (i)Members of Lok Sabha (ii)Members of Rajya Sabha (iii)Members of Legislative Assemblies (iv)Members of Legislative Councils Codes:",
+    "options": [
+      "(i) and (ii)",
+      "(i) and (iii)",
+      "(i), (ii) and (iii)",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “(i) and (ii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q11",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Article 3 of the Indian constitution authorizes the Parliament to: (i)Alter the name of any state (ii)Increase the area of any state (iii)Diminish the area of any state (iv)Alter the boundaries of any state Select the correct answer using the codes given below:",
+    "options": [
+      "1, 2, and 3 only",
+      "1, 3 and 4 only",
+      "1 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1, 2, 3 and 4”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q12",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which one of the following is not a level in the three-tier Panchayati Raj recommended by Balwant Rai Mehta Committee?",
+    "options": [
+      "Panchayat Samiti",
+      "Gram Panchayat",
+      "Zilla Panchayat",
+      "Nyaya Panchayat"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Nyaya Panchayat”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q13",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is the main feature of caste politics in India?",
+    "options": [
+      "Political parties forming alliances based on idealogy",
+      "Political parties appealing to voters based on caste identities",
+      "Political parties focusing on economic issues",
+      "Political parties promoting particular religion"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Political parties appealing to voters based on caste identities”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q14",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is Not a feature of the class system?",
+    "options": [
+      "Social mobility",
+      "Inheritance of status",
+      "Achievement- based status",
+      "Economic inequality"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Inheritance of status”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q15",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "A party is recognized as a state party in a state if: (i)It secures 6% of the valid votes polled in the state at a general election to the legislative Assembly of the state concerned (ii)It secures 4% of the valid votes polled in the state at a general election of the Lok Sabha from the state concerned (iii)It wins 3% of seats in the legislative assembly at a general election to the legislative Assembly of the state concerned (iv)It wins 1 seat in the Lok Sabha for every 25 seats or any fraction thereof allotted to the state at a general election to the Lok Sabha from the state concerned Select the correct answer using the codes given below:",
+    "options": [
+      "(i), (ii) and (iii) only",
+      "(i), (iii) and (iv) only",
+      "(ii), (iii) and (iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “(i), (iii) and (iv) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q16",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following movements aimed to secure temple entry for Dalits?",
+    "options": [
+      "The Kali Mandir Temple Entry Movement",
+      "The Non-Cooperation Movement",
+      "The Kalaram Temple Entry Movement",
+      "The Janmabhoomi Temple Entry Movement"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The Kalaram Temple Entry Movement”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q17",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which state is the first state to establish the democratic decentralization came to be known as Panchayati Raj?",
+    "options": [
+      "Andhra Pradesh",
+      "Rajasthan",
+      "Gujarat",
+      "Madhya Pradesh"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rajasthan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q18",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is not a feature of Indian democracy?",
+    "options": [
+      "It is the government of the people, by the people and for the people",
+      "It guarantees rights",
+      "It accommodates social distinction and diversities",
+      "It provides reservation of women up to 33% at various levels"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “It provides reservation of women up to 33% at various levels”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q19",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The Governor in the State possesses the following powers and functions (i)Financial (ii)Military (iii)Judicial (iv)Emergency Select the correct answer using the codes given below:",
+    "options": [
+      "(i), (ii) and (iii) only",
+      "(i) and (iii) only",
+      "(ii) and (iv) only",
+      "(iii) and (iv) only"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “(i) and (iii) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q20",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The Mountbatten Plan became the basis for:",
+    "options": [
+      "Continuity of British rule.",
+      "Transfer of power.",
+      "Partition of the country.",
+      "Solution of communal problems."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Partition of the country.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q21",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Consider the following statements: (i)Harrod – Domar model was adopted in 1st Five Year Plan. (ii)Nehru – Mahalanobis model was adopted in 2nd Five Year Plan. (iii)Gadgil model was adopted in 5th Five Year Plan. (iv)Rao-Manmohan Singh model was adopted in 8th Five Year Plan. Which of the statements given above are correct?",
+    "options": [
+      "(i), (ii) and (iii) only",
+      "(ii), (iii) and (iv) only",
+      "(i), (ii) and (iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “(i), (ii) and (iv) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q22",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "With reference to India, consider the following events : (i)Nationalisation of Banks, 1969. (ii)Formation of Regional Rural Banks. 1975. (iii)Adoption of villages by Bank Branches. (iv)Liberalization of the economy. Which of the above events can be considered as steps taken to achieve ‘financial inclusion in India’?",
+    "options": [
+      "Only (ii) and (iii)",
+      "(i), (ii) and (iii)",
+      "Only (i) and (ii)",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “(i), (ii) and (iii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q23",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Consider the following agricultural related revolutions in India: (i)Green revolution – Agriculture (HYV) production (ii)Yellow revolution – Oilseeds production (iii)Round revolution – Potato production (iv)Protein revolution – High agricultural production Which of the revolutions given above are correct?",
+    "options": [
+      "(i), (ii) and (iii) only",
+      "(ii), (iii) and (iv) only",
+      "(i), (iii) and (iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “(i), (ii), (iii) and (iv)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q24",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "What fiscal policy response did the Government of India undertake in recent times in response to the aggravated global supply disruptions? (i)Decreasing food and fertilizers subsidies. (ii)Increasing taxes on fuel and imported products. (iii)Reducing taxes on fuel and certain imported products. Select the correct answer from the codes given below:",
+    "options": [
+      "Only (iii)",
+      "Only (i)",
+      "Only (ii)",
+      "None of the above."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Only (iii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q25",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "A condition which occurs due to deprivation from basic human needs like food, shelter based on minimum costs without considering social norms is called:",
+    "options": [
+      "Relative poverty",
+      "Absolute poverty",
+      "Situational poverty",
+      "Generational poverty"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Absolute poverty”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q26",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "What is the primary objective of Public Sector in India?",
+    "options": [
+      "Global expansion",
+      "Social welfare",
+      "Maximization of profit",
+      "Competitive market"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Social welfare”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q27",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "With reference to the sectoral distribution of the Indian economy, consider the following statements: (i)Animal husbandry is the primary sector. (ii)Transportation is the secondary sector. (iii)Construction is the secondary sector. (iv)Financial service is the tertiary sector. Which of the statements given above are correct?",
+    "options": [
+      "(i), (ii) and (iii) only",
+      "(ii), (iii) and (iv) only",
+      "(i), (iii) and (iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “(i), (iii) and (iv) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q28",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).",
+    "options": [
+      "and the other as Reason (R). Assertion (A) : There is a positive relationship between Human Development Index (HDI) and the (a)Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is false but (R) is true.",
+      "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+      "(A) is true but (R) is false."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Both (A) and (R) are true and (R) is the correct explanation of (A).”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q29",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Major portion of working population in India is in?",
+    "options": [
+      "Tertiary sector",
+      "Primary sector",
+      "Public sector",
+      "Secondary sector"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Primary sector”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q30",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Digital India Land Records Modernization Programme for land reforms in India is a scheme where the Central Government provides",
+    "options": [
+      "50% funding",
+      "75% funding",
+      "90% funding",
+      "100% funding"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “100% funding”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q31",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following Industrial Policies is considered as the ‘Economic Constitution of India’ or the ‘Bible of State Capitalism’?",
+    "options": [
+      "Industrial Policy Resolution of 1948",
+      "Industrial Policy Resolution of 1956",
+      "Industrial Policy Statement of 1969",
+      "Industrial Policy Statement of 1973"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Industrial Policy Resolution of 1956”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q32",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The Stock Market deals in which of the following?",
+    "options": [
+      "Short term securities",
+      "Long term securities",
+      "Both long term and short term securities",
+      "Only secured bonds"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Long term securities”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q33",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).",
+    "options": [
+      "and the other as Reason (R). Assertion (A) : During 2023-24, Singapore emerged as the largest source of FDI to India. (a)Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+      "(A) is false but (R) is true.",
+      "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+      "(A) is true but (R) is false."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Both (A) and (R) are true and (R) is the correct explanation of (A).”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=6",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q34",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Fiscal policy in India comprises of the following components: (i)Government receipts (ii)Government expenditure (iii)Public debt Select the correct answer using the codes given below:",
+    "options": [
+      "(i) only",
+      "(ii) only",
+      "(i) and (ii) only",
+      "(i), (ii) and (iii)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “(i), (ii) and (iii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q35",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which among the following is core method of stabilizing the markets under the Market Stabilisation Scheme (MSS)?",
+    "options": [
+      "Issuing Treasury Bills and/or dated securities",
+      "Purchasing Treasury Bills and/or dated securities",
+      "Conducting Open Market Operations",
+      "All the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Purchasing Treasury Bills and/or dated securities”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q36",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The growth of India’s real GDP during the year 2024 – 2025 is estimated at",
+    "options": [
+      "6.2%",
+      "6.5%",
+      "6.7%",
+      "6.9%"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “6.5%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q37",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Consider the following phases of India’s Foreign Trade Policy: (i)Phase I – Import restriction and import substitution (ii)Phase II – Export promotion and import liberalization (iii)Phase III – Outward oriented Select the correct answer using the codes given below:",
+    "options": [
+      "(i) and (ii) only",
+      "(i) and (iii) only",
+      "(ii) and (iii) only",
+      "(i), (ii) and (iii)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “(i), (ii) and (iii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q38",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Who was the first Chairman of Planning Commission of India?",
+    "options": [
+      "Jawaharlal Nehru",
+      "M. Visvesvaraya",
+      "P.C. Mahalanobis",
+      "John Mathai"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Jawaharlal Nehru”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q39",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The main objectives of NITI Aayog are: (i)Cooperative federalism. (ii)Formulation of plans at village level. (iii)Economic policy that incorporates national security interests (iv)Innovation and entrepreneurial support. Select the correct answer using the codes given below:",
+    "options": [
+      "(i), (ii) and (iii) only",
+      "(i), (ii) and (iv) only",
+      "(ii), (iii) and (iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “(i), (ii), (iii) and (iv)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q40",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Public Distribution System was first introduced in India in:",
+    "options": [
+      "1945",
+      "1955",
+      "1965",
+      "1975"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1945”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=7",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q41",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "From the geological history, two main structural divisions of India are:",
+    "options": [
+      "Arabian Sea and Bay of Bengal",
+      "Himalayan mountain chain and Peninsular india",
+      "Andes and Rockies",
+      "Alpine and Himalayan"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Himalayan mountain chain and Peninsular india”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q42",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The urban centre with population more than one lakh is called",
+    "options": [
+      "Semi Town",
+      "Town",
+      "City",
+      "Metropolitan City"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “City”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q43",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Match List -I with List-II and select the correct answer from the code given below the lists: List-I (Revolution)List-II (Related with) A. Golden Revolution1. Oil seed production B. Grey Revolution2. Horticulture and Honey C. Yellow Revolution3. Petroleum production D. Black Revolution4. Fertilizers Code : A B C D",
+    "options": [
+      "4 2 1 3",
+      "2 3 4 1",
+      "1 2 3 4",
+      "2 4 1 3"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q44",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is/are the characteristic/s of Indian coal? (i)High ash content. (ii)Low sulphur content. (iii)Low ash fusion content. Select the correct answer from the codes given below :",
+    "options": [
+      "(i) and (ii)",
+      "(ii) only",
+      "(i) and (iii)",
+      "(i), (ii) and (iii)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “(i) and (ii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q45",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The current National Highway 06 (NH-06) passes through the following states: (i)Arunachal Pradesh (ii)Assam (iii)Meghalaya (iv)Mizoram Select the correct answer using the codes given below:",
+    "options": [
+      "(i), (ii) and (iii) only",
+      "(ii) and (iii) only",
+      "(iii) and (iv) only",
+      "(ii), (iii) and (iv) only"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “(ii), (iii) and (iv) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q46",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following was introduced to tackle regional imbalances in India during the Five Year Plans?",
+    "options": [
+      "Minimum Support Price",
+      "Backward Regions Grant Fund",
+      "National Food Security Act",
+      "Make in India Initiative"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Backward Regions Grant Fund”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q47",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which Chinese strategy has raised concerns for India in the Indian Ocean Region?",
+    "options": [
+      "Green Belt Movement",
+      "String of Pearls",
+      "Jasmine Revolution",
+      "Operation Ocean Ridge"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “String of Pearls”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q48",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "In the context of Indian cities, what is a major difference between planned and unplanned settlements?",
+    "options": [
+      "Planned settlements lack any residential zones",
+      "Unplanned settlements have strictly segregated land uses",
+      "Planned settlements exhibit organized street layouts and zoning",
+      "Unplanned settlements are exclusively found in rural areas"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Planned settlements exhibit organized street layouts and zoning”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q49",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The demarcation of which river’s source has led to boundary tensions between India and Nepal?",
+    "options": [
+      "Ganga",
+      "Brahmaputra",
+      "Mahakali (Kali)",
+      "Yamuna"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Mahakali (Kali)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2-Q50",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs2",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Study the statements given below in terms of rural and urban settlements: (i)The size of the settlement is small. (ii)The settlement generally provides manufactured goods and services. (iii)The density of the population is high. (iv)People are less mobile and therefore, social relations among dwellers are intimate. Choose the correct statements from the obove statements for rural settlements:",
+    "options": [
+      "(i) and (iii)",
+      "(ii) and (iv)",
+      "(i) and (iv)",
+      "(ii) and (iii) **SECTION - II** (**Conventional Essay Type)** **(100 Marks)** All questions carry equal marks of 20 each. **UNIT-A** Attempt any 2 (two) questions. **UNIT-B** Attempt any 2 (two) questions. **UNIT-C** Attempt only 1 (one) question."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “(i) and (iv)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf#page=8",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q1",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Bt Cotton is a genetically modified Cotton plant which:",
+    "options": [
+      "is resistant to bollworm.",
+      "has not been released for commercial cultivation yet.",
+      "developed a resistance to the herbicides.",
+      "negates effect of Barnase protein."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q2",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "This is a flagship programme of MeitY for startups acceleration under National Policy on Software Products – 2019.",
+    "options": [
+      "Digital India BHASHINI",
+      "SAMRIDH",
+      "DigiLocker",
+      "YUVAi"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q3",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is an example of thermonuclear fusion reaction?",
+    "options": [
+      "Hydrogen bomb",
+      "Nuclear bomb",
+      "Release of nuclear energy in the sun",
+      "Both (a) and (c)"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=1",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q4",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "India’s first AI teacher robot is:",
+    "options": [
+      "Iris",
+      "Manav",
+      "Mitra",
+      "RADA"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q5",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The maximum mass a white dwarf star can have while remaining stable (beyond which it will collapse under its own gravity, potentially forming a neutron star or a black hole) is known as:",
+    "options": [
+      "Chandrasekhar limit",
+      "Saha Ionisation equation",
+      "Bose-Einstein condensate",
+      "Wien’s Displacement"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q6",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Dr MS Swaminathan is often referred to as:",
+    "options": [
+      "Father of Green Revolution in India",
+      "Father of White Revolution in India",
+      "Father of Indian Nuclear Program",
+      "Father of Indian Space Program"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q7",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The Indian ‘Kavach’ system for train safety relies on the principle of ultra-high frequency radio communication between stationary track-side equipment and the locomotive. This technology is most accurately classified as:",
+    "options": [
+      "Optical Fibre Communication (OFC) based signaling.",
+      "Long-range (LoRa) wide area network.",
+      "RFID (Radio Frequency Identification) tag interrogation.",
+      "Satellite-based augmentation via GAGAN."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q8",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The National Supercomputing Mission (NSM) is implementing a multi-pronged approach to build India’s supercomputing infrastructure. The ‘PARAM Siddhi-AI’, one of India’s most powerful supercomputers under this mission, is specifically architected to excel in:",
+    "options": [
+      "Climate modeling and monsoon simulation.",
+      "Deep learning, visual computing, and big data analytics.",
+      "Computational fluid dynamics for aerospace engineering.",
+      "Genomic sequencing and bioinformatics research."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q9",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "While DigiLocker provides a platform for digital documents, the underlying framework that enables seamless, paperless, and consent-based verification of these documents by service providers is known as:",
+    "options": [
+      "Aadhaar e-Sign Framework.",
+      "Digital Saksharta Abhiyan (DISHA).",
+      "National e-Authentication Framework.",
+      "Digital Document Execution (DDE) Platform."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q10",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The FELUDA test for COVID-19, developed by the Council of Scientific and Industrial Research (CSIR), is based on the same gene-editing technology as CRISPR-Cas9 but specifically utilizes which protein for detecting the virus’s genetic material?",
+    "options": [
+      "Cas12",
+      "Cpf1",
+      "Cas13a",
+      "Cas9"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q11",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "India’s Deep Ocean Mission involves the development of technologies for mining Polymetallic Nodules from the seabed. These nodules are of significant economic interest primarily due to their high concentration of:",
+    "options": [
+      "Gold and Silver.",
+      "Iron and Aluminum.",
+      "Nickel, Copper, Cobalt, and Manganese.",
+      "Thorium and Uranium."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q12",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The Unified Payments Interface (UPI) has revolutionized digital payments in India. A key technical feature that enables its high volume of real-time transactions is its:",
+    "options": [
+      "Dependence on a centralized server managed by the Reserve Bank of India.",
+      "Use of a distributed ledger system similar to blockchain.",
+      "Operation as a single-bank, closed-loop system for security.",
+      "Three-tier architecture that decouples the payment service provider from the bank’s core banking"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q13",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The ‘Astra’ missile, a key asset of the Indian Air Force, represents a significant indigenous achievement in missile technology. Its defining characteristic is that it is a/an:",
+    "options": [
+      "Anti-tank guided missile with ‘fire-and-forget’ capability.",
+      "Supersonic cruise missile launched from multiple platforms.",
+      "Beyond-Visual-Range (BVR) Air-to-Air Missile.",
+      "Submarine-launched ballistic missile."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q14",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "‘Oilzapper’, developed by TERI (The Energy and Resources Institute), is a notable Indian innovation for bioremediation. It specifically consists of a consortium of bacteria highly effective in degrading:",
+    "options": [
+      "E-waste and heavy metals.",
+      "Crude oil and oily sludge (hydrocarbon waste).",
+      "Plastic and polymer waste.",
+      "Agricultural and municipal solid waste."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q15",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The ‘5G High Level Forum’ appointed by the Government of India outlined the vision for 5G in the country. A key recommendation, distinguishing its vision from a purely commercial rollout, was to primarily leverage 5G for:",
+    "options": [
+      "Enhancing urban mobile broadband speeds to compete with global standards.",
+      "Societal benefits by focusing on applications in healthcare, agriculture, and smart cities.",
+      "Reducing the operational cost for telecom operators.",
+      "Replacing all existing 4G infrastructures with indigenous 5G equipment."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q16",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The ‘SAMARTH Udyog Bharat 4.0’ is an initiative by the Department of Heavy Industry to promote Industry 4.0 in India. It focuses on the development of interconnected systems where manufacturing efficiency is enhanced by bridging the gap between:",
+    "options": [
+      "Traditional craftsmanship and modern design.",
+      "Large-scale industries and Micro, Small & Medium Enterprises (MSMEs).",
+      "The physical world of industrial machinery and the digital world of data and analytics.",
+      "Public sector manufacturing units and private sector technology providers."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q17",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "In the context of India’s strategic materials development, ‘Mishra Dhatu Nigam Limited’ (MIDHANI), a DPSU, plays a critical role. It is specialized in the manufacturing of:",
+    "options": [
+      "Semiconductor wafers and integrated circuits.",
+      "High-purity optical fibres for telecommunications.",
+      "Superalloys, titanium, and special-purpose steels for defence, space, and atomic energy sectors.",
+      "Composite materials for the light combat aircraft."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q18",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Among the following organisms, which one does not belong to the class of the other three?",
+    "options": [
+      "Beetle",
+      "Mosquito",
+      "Ants",
+      "Spider"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q19",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Water passes from soil to plant roots by a physical process called?",
+    "options": [
+      "Osmosis",
+      "Diffusion",
+      "Absorption",
+      "Transpiration"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q20",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "ISRO’s successful development of high-thrust cryogenic engine technology, crucial for its GSLV Mk-III (LVM3) launch vehicle, involved overcoming the extreme challenge of handling:",
+    "options": [
+      "Liquid hydrogen at -253°C and liquid oxygen at -183°C.",
+      "Refined kerosene (RP-1) and solid aluminum propellants.",
+      "Unsymmetrical dimethylhydrazine (UDMH) and nitrogen tetroxide.",
+      "Monomethylhydrazine (MMH) under hypergolic conditions."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q21",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Another name for ‘Dingdi puan tah’ is:",
+    "options": [
+      "Hrangkhupa se dar",
+      "Sikeisen",
+      "Khiangte zawng zim",
+      "Vanpui saihrua"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q22",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "A kind of engagement for marriage in Mizo tradition is:",
+    "options": [
+      "Lungvar",
+      "Ran ngo zawng",
+      "Khawnthiang",
+      "Zawlpuan phah"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q23",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Khawnglung Run was during which of the following wars?",
+    "options": [
+      "Chhim leh Hmar indo.",
+      "Chhak leh Thlang indo.",
+      "Thlanrawn rawt.",
+      "Halkha indo."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q24",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which one of the following is a tax paid to the Mizo chief?",
+    "options": [
+      "Salam",
+      "Fathang",
+      "Vanlung",
+      "Khal"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q25",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The Mizo alphabet ‘a, aw, b’ was made following the:",
+    "options": [
+      "Hunterian system",
+      "Syllabic system",
+      "Logographic system",
+      "Morphemic system"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q26",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is not related to Puma Zai?",
+    "options": [
+      "Hrangchhawni zai",
+      "Mutelen zai",
+      "Darpawngi zai",
+      "Chalmar zai"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q27",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The Inner Line Regulation of Mizoram is enforced following which of the following?",
+    "options": [
+      "The Assam Reorganisation Act, 1973",
+      "The Eastern Bengal Frontier Regulation, 1873",
+      "The Mizoram Inner Line Regulation Act, 1951",
+      "The North Eastern Region Reorganisation Regulation, 1971"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q28",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The accepted official establishment of Aizawl was in?",
+    "options": [
+      "1st March, 1888",
+      "1st Feb, 1890",
+      "25th April, 1894",
+      "25th Feb, 1890."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q29",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which traditional dress is not correctly paired?",
+    "options": [
+      "Lai – Hnika",
+      "Mara – Dua",
+      "Paite – Hnawkhal",
+      "Lusei – Puanchei"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q30",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Who amongst the following was the first MP (Rajya Sabha) from Mizoram?",
+    "options": [
+      "Dr. C. Silvera",
+      "Pu Lalbuaia",
+      "Pu Hiphei",
+      "Pu C.L. Ruala"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q31",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The implementation of the Peace Accord between the Government of India and the Mizo National Front resulted in:",
+    "options": [
+      "The first coalition government in Mizoram with Janata Dal.",
+      "The resignation of Pu Lal Thanhawla to accommodate Pu Laldenga as Chief Minister.",
+      "The dissolution of the first State Assembly within a year.",
+      "The elevation of Mizoram to Union Territory status."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q32",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following statements best distinguishes the Chief’s house (Lal In) from that of the commoner’s house in a traditional Mizo village?",
+    "options": [
+      "The commoner’s house alone had a verandah called “Bahzar” reserved for feasts.",
+      "Only the Chief’s house had a passage with rooms for retainers and a private verandah.",
+      "The hearth was absent in the Chief’s house due to its symbolic status.",
+      "Windows were a universal feature in both houses to allow fresh air inside."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q33",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Siaha District, though now a distinct administrative unit, has a historical connection to another district in Mizoram. In 1998, a division occurred that led to Siaha District’s current form. What was the brief interim name given to the half that eventually became Siaha District immediately after this split?",
+    "options": [
+      "Mara Autonomous District",
+      "Saiha District",
+      "Chhimtuipui District",
+      "Lunglei District"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q34",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Identify the correct differentiation between “Bawi(s)” and “Sal(s)” in traditional Mizo society based on the provided below:",
+    "options": [
+      "“Bawi(s)” were captives during wars or feuds and were considered the property of their captors, while “Sal(s)” were individuals who surrendered to the chief due to distress.",
+      "“Sal(s)” could be kept by any household and were bought and sold, whereas “Bawi(s)” could only be possessed by a chief.",
+      "Both “Bawi(s)” and “Sal(s)” were treated as members of the chief’s household and had the freedom to acquire private properties and marry.",
+      "“Inpuichhung bawi” were criminals seeking refuge, “Chemsen bawi” surrendered due to poverty, and “Tukluh Bawi” were war captives."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q35",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The policy shift in British approach towards the Lushai Hills, moving from punitive expeditions to establishing permanent military presence, was significantly influenced by which major geopolitical event?",
+    "options": [
+      "The raids in 1849 leading to an expedition.",
+      "The attack on Lieutenant John Stewart’s Survey Party in March 1888.",
+      "The annexation of Upper Burma.",
+      "The Chin-Lushai Expedition of 1889-90."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q36",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The first known organization formed by the Mizos, the ‘Lushai Students’ Association’ (Mizo Zirho Pawl), was established in 1924 by Mizo students in which of the following cities?",
+    "options": [
+      "Aizawl, Lunglei, and Shillong",
+      "Calcutta, Gauhati, and Shillong",
+      "Aizawl, Calcutta, and Gauhati",
+      "Lunglei, Gauhati, and Shillong"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q37",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "What were the primary factors leading to the evolution and incorporation of the Sixth Schedule provision in the Constitution of India, which subsequently enabled the emergence of Autonomous District Councils like those in Mizoram?",
+    "options": [
+      "The British colonial administration’s desire to maintain control over tribal areas and exploit",
+      "The tribal desire for political autonomy and their quest for economic development.",
+      "The need to integrate tribal communities fully into the mainstream administrative structure of",
+      "The recommendations of the Cabinet Mission to establish direct central rule over all tribal"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q38",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following statements regarding the Mizo District Council’s administrative structure and key personnel in its first term is INCORRECT?",
+    "options": [
+      "Lalsawia was the Chief Executive Member (CEM).",
+      "Dr. Rosiama served as the Chairman.",
+      "The first budget of the Lushai Hills Autonomous District Council was Rs. 15,377/-.",
+      "R.B. Chawnga was appointed as the President of the District Council Court at Aizawl."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=6",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q39",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Considering the administrative divisions of Mizoram, which of the following statements accurately reflects the relationship between its districts, sadar sub-divisions, civil sub-divisions, and blocks?",
+    "options": [
+      "The number of civil sub-divisions is equal to the total number of districts and sadar sub-divisions",
+      "Each district in Mizoram contains at least one sadar sub-division and one civil sub-division,",
+      "The number of Blocks is exactly double the combined total of districts and civil sub-divisions.",
+      "Mizoram has more civil sub-divisions than sadar sub-divisions, while the number of blocks"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=6",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q40",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Regarding the division of property upon dissolution of a marriage, under what specific circumstance will a woman who leaves her husband on ‘sumchhuah’ still retain rights over the acquired property?",
+    "options": [
+      "If her husband initiates the ‘sumchhuah’ by returning the marriage price.",
+      "If she was compelled to leave due to her husband’s domestic violence or cruelty.",
+      "If the separation is by mutual consent.",
+      "If she has been deserted by her husband for at least two years."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q41",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "What should come in place of ‘a’ in the equation 38a4 + 98 = 3942?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q42",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Choose the correct word for ‘mother:child::cloud: ___________’.",
+    "options": [
+      "Weather",
+      "Vapour",
+      "Rain",
+      "River"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q43",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Pointing to Mrs. D, Mr. R said, “She is the sister of my sister’s father”. How is Mrs. D related to Mr. R?",
+    "options": [
+      "Aunt",
+      "Mother -in-law",
+      "Grandmother",
+      "Mother"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q44",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which is the odd word out?",
+    "options": [
+      "Murmur",
+      "Whisper",
+      "Hearken",
+      "Burble"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q45",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "16, 22, 34, 58, 106, ? , 394",
+    "options": [
+      "178",
+      "175",
+      "288",
+      "202"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "direction": "Direction for Questions No.45 - 47: Find the Missing number in the series given below."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q46",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "2, 3, 4, 7, 6, 11, 8, 15, 10, ?",
+    "options": [
+      "12",
+      "13",
+      "17",
+      "19"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "direction": "Direction for Questions No.45 - 47: Find the Missing number in the series given below."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q47",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "2,5,10,17,28,41, –, –, –",
+    "options": [
+      "58,77,100",
+      "64,81,100",
+      "43,47,53",
+      "55, 89,113"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=7",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "direction": "Direction for Questions No.45 - 47: Find the Missing number in the series given below."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-Q50",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Figures (1) and (2), and figures (3) and (4) form two pairs of problem figures. Select the figure from",
+    "options": [
+      ",",
+      ",",
+      ", and",
+      "which will replace figure (4) such that the relationship between **Section - II  (100 Marks)** Marks are indicated against each question. **UNIT-A** Attempt any 2 (two) questions. **UNIT-B** Attempt any 2 (two) questions. “Buanhmun pai ang pawm tawh hnu, Chengteah lam ang let e, Lalpuithang lema” **UNIT-C** Attempt all questions. (a)18(b)24 (c)28(d)32 (a)One(b)Two (c)Three(d)Four"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "direction": "Direction for Questions No.45 - 47: Find the Missing number in the series given below."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3-written-1",
+    "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "the answer figures which will continue the same pattern followed in the problem figures. 11.Problem figures:(2) Answer figures: (a)5(b)4 (c)3(d)2 12.Choose the correct water - image of the main figure from the given four figures.(2) Main Figure: Answer Figures: (1)(2)(3)(4) (a)1(b)2 (c)3(d)4 answer figures which will continue the same pattern followed in the problem figures. 13.Problem figures:(2) Answer figures: (a)5(b)1 (c)3(d)2 14.In a certain code, ‘DESIRABILITY’ is written as ‘ARISEDYTILIB’. In the same code, ‘PREREQUISITE’ will be written as(2) (a)QEREPRETISIU(b)QERERPETISIU (c)QEREPRTEISIU(d)QERERPETIISU these five products (in lakh number of packs) during 1995 and 2000 are shown in the following bar graph. Sales (in lakh number of packs) of Five Different Products of Cosmetic Company During 1995 and 2000 15.The sales of lipsticks in 2000 was by what per cent more than the sales of nail enamels in 2000? (rounded off to nearest integer)(2) (a)33%(b)31% (c)30%(d)22% 16.During the period 1995-2000, the minimum rate of increase in sales is in the case of(2) (a)shampoos(b)nail enamels (c)talcum powders(d)lipsticks 17.What is the approximate ratio of the sales of nail enamels in 2000 to the sales of talcum powders in 1995?(2) (a)7:2(b)5:2 (c)4:3(d)2:1 18.The sales have increased by nearly 55% from 1995 to 2000 in the case of:(2) (a)lipsticks(b)nail enamels (c)talcum powders(d)shampoos",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=12"
+  },
+  {
     "id": "mpsc-group-b-si-fcs-2025-p1-B1",
     "paperId": "mpsc-group-b-si-fcs-2025-p1",
     "questionNumber": "B1",
@@ -124763,9 +129400,7 @@ const groupBQuestionsPart15: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 1-5) : Identify the Parts of Speech of the underline words."
-  }
-];
-const groupBQuestionsPart16: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2025-p1-B2",
     "paperId": "mpsc-group-b-si-fcs-2025-p1",
@@ -128881,7 +133516,9 @@ const groupBQuestionsPart16: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 89-91) : There is certain relation between two given words on one side"
-  },
+  }
+];
+const groupBQuestionsPart17: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q90",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -132918,9 +137555,7 @@ const groupBQuestionsPart16: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart17: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q75",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -136916,7 +141551,9 @@ const groupBQuestionsPart17: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 11 - 15): Choose the correct Preposition to fill in the blanks:"
-  },
+  }
+];
+const groupBQuestionsPart18: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p1-A13",
     "paperId": "mpsc-group-b-hfw-2026-p1",
@@ -140972,9 +145609,7 @@ const groupBQuestionsPart17: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words:"
-  }
-];
-const groupBQuestionsPart18: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-radio-2026-p1-B7",
     "paperId": "mpsc-group-b-radio-2026-p1",
@@ -145629,7 +150264,9 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
-  },
+  }
+];
+const groupBQuestionsPart19: BankQuestion[] = [
   {
     "id": "mpsc-group-b-radio-2026-p2-Q94",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -150298,9 +154935,7 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Held out: under simple interest, ₹2,400=P(1+0.08×3), so P≈₹1,935.48. No listed option matches, and the final key supplies no answer."
-  }
-];
-const groupBQuestionsPart19: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q79",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -154594,7 +159229,9 @@ const groupBQuestionsPart19: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 33-38): Identify the correct form of prepositions from the alternatives given"
-  },
+  }
+];
+const groupBQuestionsPart20: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-B35",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca",
@@ -158770,9 +163407,7 @@ const groupBQuestionsPart19: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question 95-100): Select the most suitable alternative to fill in the blanks in the sentence"
-  }
-];
-const groupBQuestionsPart20: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-cdpo-under-social-welfare-deptt-2-cdpo-under-social-welfare-department-2-9dcf334d-Q100",
     "paperId": "mpsc-group-b-archive-lang-2016-cdpo-under-social-welfare-deptt-2-cdpo-under-social-welfare-department-2-9dcf334d",
@@ -162715,7 +167350,9 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 91 – 100): Choose the correct word-substitute from the given choices"
-  },
+  }
+];
+const groupBQuestionsPart21: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5-Q92",
     "paperId": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
@@ -166582,9 +171219,7 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 65-70) Choose the word which has a similar meaning to the one given:"
-  }
-];
-const groupBQuestionsPart21: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-B66",
     "paperId": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994",
@@ -170593,7 +175228,9 @@ const groupBQuestionsPart21: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 39-44) : Identify the parts of speech of each underlined words:"
-  },
+  }
+];
+const groupBQuestionsPart22: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32-B40",
     "paperId": "mpsc-group-b-archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32",
@@ -174716,9 +179353,7 @@ const groupBQuestionsPart21: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
-  }
-];
-const groupBQuestionsPart22: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B21",
     "paperId": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9",
@@ -178772,7 +183407,9 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 21 – 30):  Choose the correct preposition to complete the sentences:"
-  },
+  }
+];
+const groupBQuestionsPart23: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709-Q29",
     "paperId": "mpsc-group-b-archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709",
@@ -182574,9 +187211,7 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided."
-  }
-];
-const groupBQuestionsPart23: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2018-middle-school-teacher-under-school-education-deptt-2018-1-general-englis-b2c9c0dc-B70",
     "paperId": "mpsc-group-b-archive-lang-2018-middle-school-teacher-under-school-education-deptt-2018-1-general-englis-b2c9c0dc",
@@ -186453,7 +191088,9 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 41 - 50) : Analyze the sentences and choose the correct option."
-  },
+  }
+];
+const groupBQuestionsPart24: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0-Q47",
     "paperId": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0",
@@ -190431,9 +195068,7 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 1 - 10) : Fill in the blanks with the correct option"
-  }
-];
-const groupBQuestionsPart24: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-554361d1-Q94",
     "paperId": "mpsc-group-b-archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-554361d1",
@@ -194703,7 +199338,9 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 31 – 40) : Choose the correct prepositions from the given options :"
-  },
+  }
+];
+const groupBQuestionsPart25: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q33",
     "paperId": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045",
@@ -198953,9 +203590,7 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 75-80) : Choose the word nearest in meaning of the underlined word :"
-  }
-];
-const groupBQuestionsPart25: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2021-programme-co-ordinator-under-art-culture-department-programme-co-ordinat-0e81565e-Q80",
     "paperId": "mpsc-group-b-archive-lang-2021-programme-co-ordinator-under-art-culture-department-programme-co-ordinat-0e81565e",
@@ -203081,7 +207716,9 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart26: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-i-cao-pdf-80d325dd-Q19",
     "paperId": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-i-cao-pdf-80d325dd",
@@ -207008,9 +211645,7 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question No. I - 20) Choose the correct answer from the options given below:"
-  }
-];
-const groupBQuestionsPart26: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-technical-officer-scert-under-school-education-deptt-technical-officer-s-f6c1513d-B19",
     "paperId": "mpsc-group-b-archive-lang-2025-technical-officer-scert-under-school-education-deptt-technical-officer-s-f6c1513d",
@@ -211467,7 +216102,9 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart27: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-95d9a281-B26",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-95d9a281",
@@ -215640,9 +220277,7 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 31 - 40) : Choose the correctf orm of the verb that agrees with the subject of"
-  }
-];
-const groupBQuestionsPart27: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-informatics-officer-informatics-officer-general-english-paper-ii-2024-ab2030dc-Q40",
     "paperId": "mpsc-group-b-archive-lang-2024-informatics-officer-informatics-officer-general-english-paper-ii-2024-ab2030dc",
@@ -219492,7 +224127,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 91 - 100) : Choose the correct one-word substitute from the choices"
-  },
+  }
+];
+const groupBQuestionsPart28: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59-Q92",
     "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59",
@@ -223346,9 +227983,7 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart28: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q22",
     "paperId": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440",
@@ -227560,7 +232195,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 16 - 22) : Choose the correctf orm of the verb as provided at the end of each."
-  },
+  }
+];
+const groupBQuestionsPart29: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-ii-ef2ae924-Q19",
     "paperId": "mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-ii-ef2ae924",
@@ -231434,9 +236071,7 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart29: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-supplies-2023-inpector-of-supplies-2023-general-english-5516e734-written-1",
     "paperId": "mpsc-group-b-archive-lang-2023-inspector-of-supplies-2023-inpector-of-supplies-2023-general-english-5516e734",
@@ -235335,7 +239970,9 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 21 - 35) : Change the following sentences as directed."
-  },
+  }
+];
+const groupBQuestionsPart30: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-psychologist-case-worker-january-2024-psychologist-case-worker-2024-gene-6749607f-B32",
     "paperId": "mpsc-group-b-archive-lang-2024-psychologist-case-worker-january-2024-psychologist-case-worker-2024-gene-6749607f",
@@ -239117,9 +243754,7 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 53 - 59): Identify the type of sentences and choose the right answer from the"
-  }
-];
-const groupBQuestionsPart30: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a-B54",
     "paperId": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a",
@@ -242970,7 +247605,9 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions Nos. 1-12): Identify the correct part of speech of the underlined word/words in"
-  },
+  }
+];
+const groupBQuestionsPart31: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495-B3",
     "paperId": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495",
@@ -247256,9 +251893,7 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 16 – 20): Out of the four alternatives, choose the one which can be substituted"
-  }
-];
-const groupBQuestionsPart31: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976-B18",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976",
@@ -250627,7 +255262,9 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 46 - 50): Choose the correct meaning of the idioms underlined:"
-  },
+  }
+];
+const groupBQuestionsPart32: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d-B47",
     "paperId": "mpsc-group-b-archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d",
@@ -255105,9 +259742,7 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
-  }
-];
-const groupBQuestionsPart32: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q48",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29",
@@ -259966,7 +264601,9 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart33: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237-Q65",
     "paperId": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237",
@@ -264695,9 +269332,7 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart33: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4-Q7",
     "paperId": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4",
@@ -269234,7 +273869,9 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20): Correct usage & Vocabularies:"
-  },
+  }
+];
+const groupBQuestionsPart34: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487-B12",
     "paperId": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487",
@@ -273440,9 +278077,7 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
     "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms"
-  }
-];
-const groupBQuestionsPart34: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B66",
     "paperId": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde",
@@ -277420,7 +282055,9 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B22",
     "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart35: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p1-B23",
     "questionNumber": "B23",
@@ -281303,9 +285940,7 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B4",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart35: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p1-B5",
     "questionNumber": "B5",
@@ -285256,7 +289891,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B88",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart36: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p2-Q89",
     "questionNumber": "B89",
@@ -289165,9 +293802,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B80",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart36: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-B81",
     "questionNumber": "B81",
@@ -293112,7 +297747,9 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B63",
     "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart37: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p2-B64",
     "questionNumber": "B64",
@@ -297215,9 +301852,7 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 27 - 32): Read the passage carefully and answer the questions that follow it:",
     "passage": "Since the world has become industrialised, there has been an increase in the number of animal species that have either become extinct or near extinction. Bengal tiger, for insyance, which roamed the jungle in vasy numbers, now numbers only 2300 and by the year 2025, their population is estimated to be down to zero. What is alarming about the case of Bengal tiger is that this extinction will have been caused almost entirely by poachers who according to some sources, are not interested in material gain but in personal gratification. This is an example of the callousness that is part of what is causing the problem of extinction. Animals like the Bengal tiger, as well as those endangered species, are a valuable part of the world’s ecosystem. International laws protecting these animals must be enacted to ensure their survival, and the survival of our planet. Countries around the world have begun to deal with the problem in various ways. Some countries, in order to circumvent the problem, have allocated large amount of land to animal reserves. They then charge admission to help defray the cost of maintaining the parks, and they often must also depend on world organisations for support. With the money get, they can invest in equipment and patrols to protect the animals. Another solution that is an attempt to stem the tide of animal extinction is an international boycott of products made from endangered species. This seems fairly effective, but it will not, by itself, prevent animals from being hunted and killed."
-  }
-];
-const groupBQuestionsPart37: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-ub-2018-english-B32",
     "paperId": "mpsc-group-b-si-police-ub-2018-english",
@@ -301068,7 +305703,9 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
-  },
+  }
+];
+const groupBQuestionsPart38: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q2",
     "paperId": "mpsc-group-b-si-police-ub-2018-mathematics",
@@ -305330,9 +309967,7 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 49 - 53) : Analyse the given sentences and choose the correct option :"
-  }
-];
-const groupBQuestionsPart38: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-horticulture-demonstrator-2018-english-B51",
     "paperId": "mpsc-group-b-horticulture-demonstrator-2018-english",
@@ -309610,7 +314245,9 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart39: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2018-gs1-Q40",
     "paperId": "mpsc-group-b-si-fcs-2018-gs1",
@@ -313734,9 +318371,7 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart39: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B39",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
@@ -317502,7 +322137,9 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart40: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q65",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-gk",
@@ -321357,9 +325994,7 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart40: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p2-A37",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p2",
@@ -325335,7 +329970,9 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 41 - 50) : Analyze the sentences and choose the correct option."
-  },
+  }
+];
+const groupBQuestionsPart41: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ceo-2019-english-p2-Q50",
     "paperId": "mpsc-group-b-ceo-2019-english-p2",
@@ -329604,9 +334241,7 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for Questions 17 - 28 : Read the passages carefully and choose the most probable answer"
-  }
-];
-const groupBQuestionsPart41: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-coach3-2019-english-B18",
     "paperId": "mpsc-group-b-coach3-2019-english",
@@ -333857,7 +338492,9 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings."
-  },
+  }
+];
+const groupBQuestionsPart42: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-election-2019-english-B7",
     "paperId": "mpsc-group-b-co-election-2019-english",
@@ -338084,9 +342721,7 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 73 – 80) : Choose the synonym for each of the words written in italic in the"
-  }
-];
-const groupBQuestionsPart42: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-dso-2019-english-B75",
     "paperId": "mpsc-group-b-dso-2019-english",
@@ -342241,7 +346876,9 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question 68 - 70) : Read the following passage carefully and choose the best answer to"
-  },
+  }
+];
+const groupBQuestionsPart43: BankQuestion[] = [
   {
     "id": "mpsc-group-b-dso-2019-gs2-Q71",
     "paperId": "mpsc-group-b-dso-2019-gs2",
@@ -346157,9 +350794,7 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart43: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-mar-2019-gs1-Q65",
     "paperId": "mpsc-group-b-do-mar-2019-gs1",
@@ -350188,7 +354823,9 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question 65- 70): Choose the word nearest in meaning to the underlined words:"
-  },
+  }
+];
+const groupBQuestionsPart44: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-oct-2019-english-B69",
     "paperId": "mpsc-group-b-do-oct-2019-english",
@@ -354257,9 +358894,7 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart44: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-oct-2019-gs2-Q62",
     "paperId": "mpsc-group-b-do-oct-2019-gs2",
@@ -358220,7 +362855,9 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart45: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q32",
     "paperId": "mpsc-group-b-eo-2019-gs1",
@@ -362167,9 +366804,7 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart45: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q81",
     "paperId": "mpsc-group-b-eo-2019-gs2",
@@ -366253,7 +370888,9 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 21 - 30) : Choose the most suitable determiner to fill the blanks"
-  },
+  }
+];
+const groupBQuestionsPart46: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-english-2-Q26",
     "paperId": "mpsc-group-b-fr-2019-english-2",
@@ -370319,9 +374956,7 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart46: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q75",
     "paperId": "mpsc-group-b-fr-2019-science-1",
@@ -374516,7 +379151,9 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart47: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q26",
     "paperId": "mpsc-group-b-fr-2019-science-3",
@@ -378391,9 +383028,7 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart47: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q60",
     "paperId": "mpsc-group-b-iof-2019-gs",
@@ -382345,7 +386980,9 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 91 – 100): Choose the correct word-substitute from the given choices:"
-  },
+  }
+];
+const groupBQuestionsPart48: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-english-p2-Q92",
     "paperId": "mpsc-group-b-inspector-excise-2019-english-p2",
@@ -386445,9 +391082,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart48: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q41",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs2",
@@ -390420,7 +395055,9 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 91 - 92): Find out which of the figures (1), (2), (3) and (4) can be formed"
-  },
+  }
+];
+const groupBQuestionsPart49: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q94",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs3",
@@ -394482,9 +399119,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 41-50): Analyze the sentences and choose the correct option."
-  }
-];
-const groupBQuestionsPart49: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q49",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -398647,7 +403282,9 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart50: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mes-phe-2019-gs-Q93",
     "paperId": "mpsc-group-b-mes-phe-2019-gs",
@@ -402863,9 +407500,7 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart50: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jics-2019-gs1-Q61",
     "paperId": "mpsc-group-b-jics-2019-gs1",
@@ -406894,7 +411529,9 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 58 - 66) : Analyse the following sentences and pick out the correct answer from"
-  },
+  }
+];
+const groupBQuestionsPart51: BankQuestion[] = [
   {
     "id": "mpsc-group-b-la-2019-english-B63",
     "paperId": "mpsc-group-b-la-2019-english",
@@ -411101,9 +415738,7 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions for Questions 49 - 58 : Identify whether the following are simple, compound or complex"
-  }
-];
-const groupBQuestionsPart51: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-scr-2019-english-B50",
     "paperId": "mpsc-group-b-scr-2019-english",
@@ -415237,7 +419872,9 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from"
-  },
+  }
+];
+const groupBQuestionsPart52: BankQuestion[] = [
   {
     "id": "mpsc-group-b-surveyor-2019-english-B37",
     "paperId": "mpsc-group-b-surveyor-2019-english",
@@ -419372,9 +424009,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart52: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-translator-2019-gs1-Q43",
     "paperId": "mpsc-group-b-translator-2019-gs1",
@@ -423094,7 +427729,9 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "source": "Tutor under Mizoram College of Nursing, Health & Family Welfare Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/tutor-mcon-2019-english.pdf#page=5"
-  },
+  }
+];
+const groupBQuestionsPart53: BankQuestion[] = [
   {
     "id": "mpsc-group-b-tutor-mcon-2019-english-written-44",
     "paperId": "mpsc-group-b-tutor-mcon-2019-english",
@@ -427251,9 +431888,7 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart53: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-combined-2019-p2-A71",
     "paperId": "mpsc-group-b-udc-combined-2019-p2",
@@ -431444,7 +436079,9 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart54: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-agri-2019-p2-A45",
     "paperId": "mpsc-group-b-udc-agri-2019-p2",
@@ -435580,9 +440217,7 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 68 – 75): Identify the most suitable meaning of the underline words in the"
-  }
-];
-const groupBQuestionsPart54: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p1-B69",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p1",
@@ -439784,7 +444419,9 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 41 - 48) : Choose the word or phrase which is closest to the opposite in"
-  },
+  }
+];
+const groupBQuestionsPart55: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-serchhip-2019-p1-B43",
     "paperId": "mpsc-group-b-udc-dc-serchhip-2019-p1",
@@ -443914,9 +448551,7 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 9-16): Pick out the correct clause of the words underlined in the given"
-  }
-];
-const groupBQuestionsPart55: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-forensic-2019-p1-B15",
     "paperId": "mpsc-group-b-udc-forensic-2019-p1",
@@ -448118,7 +452753,9 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart56: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-forensic-2019-p2-A90",
     "paperId": "mpsc-group-b-udc-forensic-2019-p2",
@@ -452201,9 +456838,7 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart56: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-horti-2019-p2-A37",
     "paperId": "mpsc-group-b-udc-horti-2019-p2",
@@ -456256,7 +460891,9 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart57: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-revenue-2019-p2-A11",
     "paperId": "mpsc-group-b-udc-revenue-2019-p2",
@@ -460370,9 +465007,7 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "**Directions (Questions 55 - 64):** Choose the correct alternative which is closest in meaning to the"
-  }
-];
-const groupBQuestionsPart57: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p1-B60",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p1",
@@ -464551,7 +469186,9 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 33 - 41) : Fill in the blanks with the appropriate prepositions."
-  },
+  }
+];
+const groupBQuestionsPart58: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-rd-2019-p1-B34",
     "paperId": "mpsc-group-b-udc-rd-2019-p1",
@@ -468383,9 +473020,7 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1 - 8) : Identify the parts of speech of the underlined words."
-  }
-];
-const groupBQuestionsPart58: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-transport-2019-p1-B6",
     "paperId": "mpsc-group-b-udc-transport-2019-p1",
@@ -472455,7 +477090,9 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart59: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-transport-2019-p2-B80",
     "paperId": "mpsc-group-b-udc-transport-2019-p2",
@@ -476327,9 +480964,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart59: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-gs1-Q23",
     "paperId": "mpsc-group-b-eo-leit-2019-gs1",
@@ -480308,7 +484943,9 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart60: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-gs2-Q74",
     "paperId": "mpsc-group-b-eo-leit-2019-gs2",
@@ -484289,9 +488926,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart60: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q16",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -488523,7 +493158,9 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 65 - 72): Choose the correct answer from the four alternatives given in"
-  },
+  }
+];
+const groupBQuestionsPart61: BankQuestion[] = [
   {
     "id": "mpsc-group-b-chemist2-2020-english-B68",
     "paperId": "mpsc-group-b-chemist2-2020-english",
@@ -492666,9 +497303,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart61: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-museum-guide-2020-gs2-Q10",
     "paperId": "mpsc-group-b-museum-guide-2020-gs2",
@@ -496882,7 +501517,9 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart62: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-arc-2020-p2-A10",
     "paperId": "mpsc-group-b-udc-arc-2020-p2",
@@ -500843,9 +505480,7 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart62: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aap-2020-gs-Q49",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -505073,7 +509708,9 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions No. 91 - 100) : Read the following passage carefully and choose the best"
-  },
+  }
+];
+const groupBQuestionsPart63: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p2-Q94",
     "paperId": "mpsc-group-b-geologist-jun-nov-2020-english-p2",
@@ -508938,9 +513575,7 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 36 - 45) : Fill in the blanks with correct form of the verb from the"
-  }
-];
-const groupBQuestionsPart63: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q37",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -513148,7 +517783,9 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 84 - 87) : Each sentence below has a blank, indicating that something has"
-  },
+  }
+];
+const groupBQuestionsPart64: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q88",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
@@ -517228,9 +521865,7 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart64: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q49",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -521334,7 +525969,9 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart65: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mpe-ss-2020-gk-Q93",
     "paperId": "mpsc-group-b-mpe-ss-2020-gk",
@@ -525212,9 +529849,7 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 21 - 30) : Choose the correct prepositions/ conjunctions to fill in the blanks:"
-  }
-];
-const groupBQuestionsPart65: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q30",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -529352,7 +533987,9 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 71 - 80) : Choose the correct meaning of the following idioms and phrases."
-  },
+  }
+];
+const groupBQuestionsPart66: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-english-p2-Q75",
     "paperId": "mpsc-group-b-inspector-fcs-2019-english-p2",
@@ -533413,9 +538050,7 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart66: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q24",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -537571,7 +542206,9 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart67: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs3-Q75",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs3",
@@ -541989,9 +546626,7 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart67: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q35",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -546527,7 +551162,9 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart68: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025-Q15",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025",
@@ -551005,9 +555642,7 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart68: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025-Q80",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025",
@@ -555541,7 +560176,9 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart69: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q52",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025",
@@ -560011,9 +564648,7 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart69: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q24",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -564540,7 +569175,9 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart70: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025-Q31",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025",
@@ -569013,9 +573650,7 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart70: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q14",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
@@ -573565,7 +578200,9 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart71: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q85",
     "paperId": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024",
@@ -577562,9 +582199,7 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart71: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q48",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -581880,7 +586515,9 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question No. 96 – 100) : Find out the correct answer out of the four answer figures, if the"
-  },
+  }
+];
+const groupBQuestionsPart72: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q99",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge",
@@ -586352,9 +590989,7 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart72: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q40",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -590956,7 +595591,9 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart73: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q3",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii",
@@ -595441,9 +600078,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart73: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q68",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
@@ -599386,7 +604021,9 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-case-worker-2024-general-studies-Q45",
     "paperId": "mpsc-group-b-archive2325-case-worker-2024-general-studies",
@@ -603129,9 +607766,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart74: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q13",
     "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -607253,7 +611888,9 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024-Q19",
     "paperId": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024",
@@ -611895,9 +616532,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart75: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q73",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
@@ -616082,7 +620717,9 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge-Q25",
     "paperId": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge",
@@ -620331,9 +624968,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceHref": "/papers/group-b/mimer-computer-operator-2018-p1.pdf#page=1",
     "sourceNote": "Text-layer transcription of the source paper; solution reused from the System Manager independent solve passes. No verified official key is attached. The printed cover does not state a negative-marking rule.",
     "paperExamExcluded": true
-  }
-];
-const groupBQuestionsPart76: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mimer-computer-operator-2018-p1-q10",
     "questionNumber": "10",
@@ -624127,7 +628762,9 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low"
-  },
+  }
+];
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q011",
     "paperId": "mpsc-group-b-si-excise-2014-p3",
@@ -625047,7 +629684,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "answerConfidence": "low"
   }
 ];
-export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76];
+export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77];
 export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
   "mpsc-group-b-inspector-stats-2026-p1": {
     "marksPerQuestion": 1,
@@ -625280,6 +629917,24 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
   "mpsc-group-b-si-excise-2025-p2": {
     "marksPerQuestion": 2,
     "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-inspector-excise-2025-gs1": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-inspector-excise-2025-gs2": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-inspector-excise-2025-gs3": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
     "negativeMarking": false,
     "penaltyFraction": 0
   },
@@ -626411,6 +631066,9 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-vety-mah-2021-english-p2": 100,
   "mpsc-group-b-si-excise-2025-p1": 30,
   "mpsc-group-b-si-excise-2025-p2": 100,
+  "mpsc-group-b-inspector-excise-2025-gs1": 50,
+  "mpsc-group-b-inspector-excise-2025-gs2": 50,
+  "mpsc-group-b-inspector-excise-2025-gs3": 50,
   "mpsc-group-b-si-fcs-2025-p1": 60,
   "mpsc-group-b-si-fcs-2025-p2": 100,
   "mpsc-group-b-aao-2025-p1": 60,

@@ -1,16 +1,16 @@
 # Coverage report — held backlog
 
-Evidence scanned: 120 official key PDFs on disk (58 registered), upstream `mpsc_bank_v2.json` (53,668 answered stems), 35 solved-json labels (9 mapped).
+Evidence scanned: 120 official key PDFs on disk (62 registered), upstream `mpsc_bank_v2.json` (53,668 answered stems), 35 solved-json labels (9 mapped).
 
 ## Totals
 
-- Held MCQs: **15,373**
-- Tier 1 — official key available (scorable mechanically): **603**
+- Held MCQs: **15,386**
+- Tier 1 — official key available (scorable mechanically): **652**
 
   > **Tier 1 is not a safe bulk win.** The count above is a filename-similarity upper bound; validating the candidate key→paper assignments against the upstream corpus mostly *rejects* them. See `KEY-ATTRIBUTION-AUDIT.md` (`key_attribution_audit.py`) before registering any key.
 - Tier 2a — upstream answer solid, import then score: **62**
-- Tier 2b — upstream *inferred* candidate, **must be verified** before scoring: **7,997**
-- Tier 3 — needs fresh derivation: **6,711**
+- Tier 2b — upstream *inferred* candidate, **must be verified** before scoring: **7,971**
+- Tier 3 — needs fresh derivation: **6,701**
 
 ## Validation — how trustworthy is the upstream corpus?
 
@@ -19,19 +19,19 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 | upstream source | n | agree | disagree | accuracy |
 |---|---|---|---|---|
 | derived | 3 | 2 | 1 | 66.7% |
-| inferred | 1745 | 1524 | 221 | 87.3% |
+| inferred | 1850 | 1612 | 238 | 87.1% |
 | key | 71 | 67 | 4 | 94.4% |
 
 ### Tier 2 sources
 
-- bank_v2:inferred: 7,997
+- bank_v2:inferred: 7,971
 - bank_v2:derived: 60
 - bank_v2:key: 2
 
 ## Key attribution
 
-- 120 key PDFs on disk; 58 already registered.
-- High-confidence auto-attributions: **31** (~603 held questions). Confirm each by eye before registering.
+- 120 key PDFs on disk; 62 already registered.
+- High-confidence auto-attributions: **31** (~652 held questions). Confirm each by eye before registering.
 - Single-token candidates to inspect: **27**
 - Unattributed key files: **5**
 
@@ -69,7 +69,7 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 
 Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key..pdf, Final Answer key - DSWO, 2026..pdf, General Knowledge Final.pdf, Provisional Answer Key for DSWO under SW,W&CD Department..pdf
 
-## Papers with evidence (top 40 of 219)
+## Papers with evidence (top 40 of 220)
 
 | paper | subject | key | held | T1 | T2solid | T2cand | T3 |
 |---|---|---|---|---|---|---|---|
@@ -171,6 +171,7 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-do-oct-2019-gs2 | General Studies Paper-II | none | 75 | 0 | 0 | 48 | 27 |
 | mpsc-group-b-translator-2019-gs2 | General Studies Paper-II | none | 75 | 0 | 0 | 48 | 27 |
 | mpsc-group-b-dso-2019-gs2 | General Studies Paper-II | none | 73 | 0 | 0 | 48 | 25 |
+| mpsc-group-b-inspector-excise-2025-gs3 | General Studies Paper-III | registered | 48 | 48 | 0 | 0 | 0 |
 | mpsc-group-b-jics-2019-gs2 | General Studies Paper-II | none | 74 | 0 | 0 | 46 | 28 |
 | mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994 | General English | none | 69 | 0 | 0 | 44 | 25 |
 | mpsc-group-b-archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-554361d1 | General English | none | 100 | 0 | 0 | 43 | 57 |
@@ -193,7 +194,6 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-programmer-phe-2018-english-p1 | General English Paper-I | none | 80 | 0 | 0 | 29 | 51 |
 | mpsc-group-b-ada-aa-ata-2019-arithmetic | Arithmetic | none | 50 | 0 | 0 | 27 | 23 |
 | mpsc-group-b-ada-aa-ata-2019-gk | General Knowledge | none | 100 | 0 | 0 | 26 | 74 |
-| mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a | General English | none | 36 | 0 | 0 | 26 | 10 |
 | mpsc-group-b-inspector-fcs-2019-english-p2 | General English Paper-II | none | 100 | 0 | 1 | 20 | 79 |
 | mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848 | General English | none | 100 | 0 | 0 | 21 | 79 |
 | mpsc-group-b-archive-lang-2024-jr-grade-of-mes-2024-ae-sdo-under-phe-jr-grade-of-mes-phe-general-englis-c6a0cdfd | General English | on_disk | 21 | 21 | 0 | 0 | 0 |
@@ -282,6 +282,7 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-aao-2024-arithmetic | Arithmetic | registered | 1 | 1 | 0 | 0 | 0 |
 | mpsc-group-b-je-agri-2026-p1 | General English | none | 1 | 0 | 0 | 1 | 0 |
 | mpsc-group-b-si-excise-2025-p2 | General Knowledge & Reasoning | registered | 1 | 1 | 0 | 0 | 0 |
+| mpsc-group-b-inspector-excise-2025-gs2 | General Studies Paper-II | registered | 1 | 1 | 0 | 0 | 0 |
 | mpsc-group-b-si-police-2026-p1 | General English | registered | 1 | 1 | 0 | 0 | 0 |
 | mpsc-group-b-si-police-2026-p2 | General Knowledge & Reasoning | registered | 1 | 1 | 0 | 0 | 0 |
 | mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024 | General Studies | registered | 1 | 1 | 0 | 0 | 0 |

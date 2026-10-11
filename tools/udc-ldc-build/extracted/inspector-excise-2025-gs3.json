@@ -1,0 +1,1137 @@
+{
+  "slug": "inspector-excise-2025-gs3",
+  "exam": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+  "sitting": "August 2025",
+  "subject": "General Studies Paper-III",
+  "source": "General Studies Paper-III - Inspector of Excise-2025..pdf",
+  "sourceSha256": "942747986221f41e43043a23136b820447fbdcc02c46636926062f8257d748b1",
+  "ocr": false,
+  "count": 48,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "is resistant to bollworm.",
+        "b": "has not been released for commercial cultivation yet.",
+        "c": "developed a resistance to the herbicides.",
+        "d": "negates effect of Barnase protein."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bt Cotton is a genetically modified Cotton plant which:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Digital India BHASHINI",
+        "b": "SAMRIDH",
+        "c": "DigiLocker",
+        "d": "YUVAi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This is a flagship programme of MeitY for startups acceleration under National Policy on Software Products – 2019.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hydrogen bomb",
+        "b": "Nuclear bomb",
+        "c": "Release of nuclear energy in the sun",
+        "d": "Both (a) and (c)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is an example of thermonuclear fusion reaction?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Iris",
+        "b": "Manav",
+        "c": "Mitra",
+        "d": "RADA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s first AI teacher robot is:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chandrasekhar limit",
+        "b": "Saha Ionisation equation",
+        "c": "Bose-Einstein condensate",
+        "d": "Wien’s Displacement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The maximum mass a white dwarf star can have while remaining stable (beyond which it will collapse under its own gravity, potentially forming a neutron star or a black hole) is known as:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Father of Green Revolution in India",
+        "b": "Father of White Revolution in India",
+        "c": "Father of Indian Nuclear Program",
+        "d": "Father of Indian Space Program"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dr MS Swaminathan is often referred to as:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Optical Fibre Communication (OFC) based signaling.",
+        "b": "Long-range (LoRa) wide area network.",
+        "c": "RFID (Radio Frequency Identification) tag interrogation.",
+        "d": "Satellite-based augmentation via GAGAN."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Indian ‘Kavach’ system for train safety relies on the principle of ultra-high frequency radio communication between stationary track-side equipment and the locomotive. This technology is most accurately classified as:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Climate modeling and monsoon simulation.",
+        "b": "Deep learning, visual computing, and big data analytics.",
+        "c": "Computational fluid dynamics for aerospace engineering.",
+        "d": "Genomic sequencing and bioinformatics research."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The National Supercomputing Mission (NSM) is implementing a multi-pronged approach to build India’s supercomputing infrastructure. The ‘PARAM Siddhi-AI’, one of India’s most powerful supercomputers under this mission, is specifically architected to excel in:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aadhaar e-Sign Framework.",
+        "b": "Digital Saksharta Abhiyan (DISHA).",
+        "c": "National e-Authentication Framework.",
+        "d": "Digital Document Execution (DDE) Platform."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "While DigiLocker provides a platform for digital documents, the underlying framework that enables seamless, paperless, and consent-based verification of these documents by service providers is known as:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cas12",
+        "b": "Cpf1",
+        "c": "Cas13a",
+        "d": "Cas9"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The FELUDA test for COVID-19, developed by the Council of Scientific and Industrial Research (CSIR), is based on the same gene-editing technology as CRISPR-Cas9 but specifically utilizes which protein for detecting the virus’s genetic material?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gold and Silver.",
+        "b": "Iron and Aluminum.",
+        "c": "Nickel, Copper, Cobalt, and Manganese.",
+        "d": "Thorium and Uranium."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s Deep Ocean Mission involves the development of technologies for mining Polymetallic Nodules from the seabed. These nodules are of significant economic interest primarily due to their high concentration of:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dependence on a centralized server managed by the Reserve Bank of India.",
+        "b": "Use of a distributed ledger system similar to blockchain.",
+        "c": "Operation as a single-bank, closed-loop system for security.",
+        "d": "Three-tier architecture that decouples the payment service provider from the bank’s core banking"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Unified Payments Interface (UPI) has revolutionized digital payments in India. A key technical feature that enables its high volume of real-time transactions is its:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anti-tank guided missile with ‘fire-and-forget’ capability.",
+        "b": "Supersonic cruise missile launched from multiple platforms.",
+        "c": "Beyond-Visual-Range (BVR) Air-to-Air Missile.",
+        "d": "Submarine-launched ballistic missile."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Astra’ missile, a key asset of the Indian Air Force, represents a significant indigenous achievement in missile technology. Its defining characteristic is that it is a/an:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "E-waste and heavy metals.",
+        "b": "Crude oil and oily sludge (hydrocarbon waste).",
+        "c": "Plastic and polymer waste.",
+        "d": "Agricultural and municipal solid waste."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Oilzapper’, developed by TERI (The Energy and Resources Institute), is a notable Indian innovation for bioremediation. It specifically consists of a consortium of bacteria highly effective in degrading:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Enhancing urban mobile broadband speeds to compete with global standards.",
+        "b": "Societal benefits by focusing on applications in healthcare, agriculture, and smart cities.",
+        "c": "Reducing the operational cost for telecom operators.",
+        "d": "Replacing all existing 4G infrastructures with indigenous 5G equipment."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘5G High Level Forum’ appointed by the Government of India outlined the vision for 5G in the country. A key recommendation, distinguishing its vision from a purely commercial rollout, was to primarily leverage 5G for:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Traditional craftsmanship and modern design.",
+        "b": "Large-scale industries and Micro, Small & Medium Enterprises (MSMEs).",
+        "c": "The physical world of industrial machinery and the digital world of data and analytics.",
+        "d": "Public sector manufacturing units and private sector technology providers."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘SAMARTH Udyog Bharat 4.0’ is an initiative by the Department of Heavy Industry to promote Industry 4.0 in India. It focuses on the development of interconnected systems where manufacturing efficiency is enhanced by bridging the gap between:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Semiconductor wafers and integrated circuits.",
+        "b": "High-purity optical fibres for telecommunications.",
+        "c": "Superalloys, titanium, and special-purpose steels for defence, space, and atomic energy sectors.",
+        "d": "Composite materials for the light combat aircraft."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of India’s strategic materials development, ‘Mishra Dhatu Nigam Limited’ (MIDHANI), a DPSU, plays a critical role. It is specialized in the manufacturing of:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Beetle",
+        "b": "Mosquito",
+        "c": "Ants",
+        "d": "Spider"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Among the following organisms, which one does not belong to the class of the other three?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Osmosis",
+        "b": "Diffusion",
+        "c": "Absorption",
+        "d": "Transpiration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Water passes from soil to plant roots by a physical process called?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Liquid hydrogen at -253°C and liquid oxygen at -183°C.",
+        "b": "Refined kerosene (RP-1) and solid aluminum propellants.",
+        "c": "Unsymmetrical dimethylhydrazine (UDMH) and nitrogen tetroxide.",
+        "d": "Monomethylhydrazine (MMH) under hypergolic conditions."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ISRO’s successful development of high-thrust cryogenic engine technology, crucial for its GSLV Mk-III (LVM3) launch vehicle, involved overcoming the extreme challenge of handling:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hrangkhupa se dar",
+        "b": "Sikeisen",
+        "c": "Khiangte zawng zim",
+        "d": "Vanpui saihrua"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Another name for ‘Dingdi puan tah’ is:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lungvar",
+        "b": "Ran ngo zawng",
+        "c": "Khawnthiang",
+        "d": "Zawlpuan phah"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A kind of engagement for marriage in Mizo tradition is:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chhim leh Hmar indo.",
+        "b": "Chhak leh Thlang indo.",
+        "c": "Thlanrawn rawt.",
+        "d": "Halkha indo."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Khawnglung Run was during which of the following wars?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Salam",
+        "b": "Fathang",
+        "c": "Vanlung",
+        "d": "Khal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is a tax paid to the Mizo chief?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hunterian system",
+        "b": "Syllabic system",
+        "c": "Logographic system",
+        "d": "Morphemic system"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizo alphabet ‘a, aw, b’ was made following the:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hrangchhawni zai",
+        "b": "Mutelen zai",
+        "c": "Darpawngi zai",
+        "d": "Chalmar zai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not related to Puma Zai?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Assam Reorganisation Act, 1973",
+        "b": "The Eastern Bengal Frontier Regulation, 1873",
+        "c": "The Mizoram Inner Line Regulation Act, 1951",
+        "d": "The North Eastern Region Reorganisation Regulation, 1971"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Inner Line Regulation of Mizoram is enforced following which of the following?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1st March, 1888",
+        "b": "1st Feb, 1890",
+        "c": "25th April, 1894",
+        "d": "25th Feb, 1890."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The accepted official establishment of Aizawl was in?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lai – Hnika",
+        "b": "Mara – Dua",
+        "c": "Paite – Hnawkhal",
+        "d": "Lusei – Puanchei"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which traditional dress is not correctly paired?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr. C. Silvera",
+        "b": "Pu Lalbuaia",
+        "c": "Pu Hiphei",
+        "d": "Pu C.L. Ruala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who amongst the following was the first MP (Rajya Sabha) from Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The first coalition government in Mizoram with Janata Dal.",
+        "b": "The resignation of Pu Lal Thanhawla to accommodate Pu Laldenga as Chief Minister.",
+        "c": "The dissolution of the first State Assembly within a year.",
+        "d": "The elevation of Mizoram to Union Territory status."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The implementation of the Peace Accord between the Government of India and the Mizo National Front resulted in:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The commoner’s house alone had a verandah called “Bahzar” reserved for feasts.",
+        "b": "Only the Chief’s house had a passage with rooms for retainers and a private verandah.",
+        "c": "The hearth was absent in the Chief’s house due to its symbolic status.",
+        "d": "Windows were a universal feature in both houses to allow fresh air inside."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements best distinguishes the Chief’s house (Lal In) from that of the commoner’s house in a traditional Mizo village?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mara Autonomous District",
+        "b": "Saiha District",
+        "c": "Chhimtuipui District",
+        "d": "Lunglei District"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Siaha District, though now a distinct administrative unit, has a historical connection to another district in Mizoram. In 1998, a division occurred that led to Siaha District’s current form. What was the brief interim name given to the half that eventually became Siaha District immediately after this split?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "“Bawi(s)” were captives during wars or feuds and were considered the property of their captors, while “Sal(s)” were individuals who surrendered to the chief due to distress.",
+        "b": "“Sal(s)” could be kept by any household and were bought and sold, whereas “Bawi(s)” could only be possessed by a chief.",
+        "c": "Both “Bawi(s)” and “Sal(s)” were treated as members of the chief’s household and had the freedom to acquire private properties and marry.",
+        "d": "“Inpuichhung bawi” were criminals seeking refuge, “Chemsen bawi” surrendered due to poverty, and “Tukluh Bawi” were war captives."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the correct differentiation between “Bawi(s)” and “Sal(s)” in traditional Mizo society based on the provided below:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The raids in 1849 leading to an expedition.",
+        "b": "The attack on Lieutenant John Stewart’s Survey Party in March 1888.",
+        "c": "The annexation of Upper Burma.",
+        "d": "The Chin-Lushai Expedition of 1889-90."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The policy shift in British approach towards the Lushai Hills, moving from punitive expeditions to establishing permanent military presence, was significantly influenced by which major geopolitical event?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aizawl, Lunglei, and Shillong",
+        "b": "Calcutta, Gauhati, and Shillong",
+        "c": "Aizawl, Calcutta, and Gauhati",
+        "d": "Lunglei, Gauhati, and Shillong"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first known organization formed by the Mizos, the ‘Lushai Students’ Association’ (Mizo Zirho Pawl), was established in 1924 by Mizo students in which of the following cities?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The British colonial administration’s desire to maintain control over tribal areas and exploit",
+        "b": "The tribal desire for political autonomy and their quest for economic development.",
+        "c": "The need to integrate tribal communities fully into the mainstream administrative structure of",
+        "d": "The recommendations of the Cabinet Mission to establish direct central rule over all tribal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What were the primary factors leading to the evolution and incorporation of the Sixth Schedule provision in the Constitution of India, which subsequently enabled the emergence of Autonomous District Councils like those in Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalsawia was the Chief Executive Member (CEM).",
+        "b": "Dr. Rosiama served as the Chairman.",
+        "c": "The first budget of the Lushai Hills Autonomous District Council was Rs. 15,377/-.",
+        "d": "R.B. Chawnga was appointed as the President of the District Council Court at Aizawl."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements regarding the Mizo District Council’s administrative structure and key personnel in its first term is INCORRECT?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The number of civil sub-divisions is equal to the total number of districts and sadar sub-divisions",
+        "b": "Each district in Mizoram contains at least one sadar sub-division and one civil sub-division,",
+        "c": "The number of Blocks is exactly double the combined total of districts and civil sub-divisions.",
+        "d": "Mizoram has more civil sub-divisions than sadar sub-divisions, while the number of blocks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Considering the administrative divisions of Mizoram, which of the following statements accurately reflects the relationship between its districts, sadar sub-divisions, civil sub-divisions, and blocks?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "If her husband initiates the ‘sumchhuah’ by returning the marriage price.",
+        "b": "If she was compelled to leave due to her husband’s domestic violence or cruelty.",
+        "c": "If the separation is by mutual consent.",
+        "d": "If she has been deserted by her husband for at least two years."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regarding the division of property upon dissolution of a marriage, under what specific circumstance will a woman who leaves her husband on ‘sumchhuah’ still retain rights over the acquired property?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2",
+        "b": "4",
+        "c": "6",
+        "d": "8"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What should come in place of ‘a’ in the equation 38a4 + 98 = 3942?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Weather",
+        "b": "Vapour",
+        "c": "Rain",
+        "d": "River"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct word for ‘mother:child::cloud: ___________’.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aunt",
+        "b": "Mother -in-law",
+        "c": "Grandmother",
+        "d": "Mother"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pointing to Mrs. D, Mr. R said, “She is the sister of my sister’s father”. How is Mrs. D related to Mr. R?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Murmur",
+        "b": "Whisper",
+        "c": "Hearken",
+        "d": "Burble"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the odd word out?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction for Questions No.45 - 47: Find the Missing number in the series given below.",
+      "opts": {
+        "a": "178",
+        "b": "175",
+        "c": "288",
+        "d": "202"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "16, 22, 34, 58, 106, ? , 394",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction for Questions No.45 - 47: Find the Missing number in the series given below.",
+      "opts": {
+        "a": "12",
+        "b": "13",
+        "c": "17",
+        "d": "19"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "2, 3, 4, 7, 6, 11, 8, 15, 10, ?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction for Questions No.45 - 47: Find the Missing number in the series given below.",
+      "opts": {
+        "a": "58,77,100",
+        "b": "64,81,100",
+        "c": "43,47,53",
+        "d": "55, 89,113"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "2,5,10,17,28,41, –, –, –",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction for Questions No.45 - 47: Find the Missing number in the series given below.",
+      "opts": {
+        "a": ",",
+        "b": ",",
+        "c": ", and",
+        "d": "which will replace figure (4) such that the relationship between **Section - II  (100 Marks)** Marks are indicated against each question. **UNIT-A** Attempt any 2 (two) questions. **UNIT-B** Attempt any 2 (two) questions. “Buanhmun pai ang pawm tawh hnu, Chengteah lam ang let e, Lalpuithang lema” **UNIT-C** Attempt all questions. (a)18(b)24 (c)28(d)32 (a)One(b)Two (c)Three(d)Four"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Figures (1) and (2), and figures (3) and (4) form two pairs of problem figures. Select the figure from",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": null,
+      "part": null,
+      "page": 12,
+      "kind": "passage",
+      "direction": "Direction (Question Nos. 15 to 18): A cosmetic company provides five different products. The sales of",
+      "text": "the answer figures which will continue the same pattern followed in the problem figures. 11.Problem figures:(2) Answer figures: (a)5(b)4 (c)3(d)2 12.Choose the correct water - image of the main figure from the given four figures.(2) Main Figure: Answer Figures: (1)(2)(3)(4) (a)1(b)2 (c)3(d)4 answer figures which will continue the same pattern followed in the problem figures. 13.Problem figures:(2) Answer figures: (a)5(b)1 (c)3(d)2 14.In a certain code, ‘DESIRABILITY’ is written as ‘ARISEDYTILIB’. In the same code, ‘PREREQUISITE’ will be written as(2) (a)QEREPRETISIU(b)QERERPETISIU (c)QEREPRTEISIU(d)QERERPETIISU these five products (in lakh number of packs) during 1995 and 2000 are shown in the following bar graph. Sales (in lakh number of packs) of Five Different Products of Cosmetic Company During 1995 and 2000 15.The sales of lipsticks in 2000 was by what per cent more than the sales of nail enamels in 2000? (rounded off to nearest integer)(2) (a)33%(b)31% (c)30%(d)22% 16.During the period 1995-2000, the minimum rate of increase in sales is in the case of(2) (a)shampoos(b)nail enamels (c)talcum powders(d)lipsticks 17.What is the approximate ratio of the sales of nail enamels in 2000 to the sales of talcum powders in 1995?(2) (a)7:2(b)5:2 (c)4:3(d)2:1 18.The sales have increased by nearly 55% from 1995 to 2000 in the case of:(2) (a)lipsticks(b)nail enamels (c)talcum powders(d)shampoos",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q48 (p7, part None): only 0 option(s) [] - not emitted",
+    "Q49 (p7, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      48,
+      49
+    ]
+  }
+}

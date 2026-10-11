@@ -1,0 +1,1167 @@
+{
+  "slug": "inspector-excise-2025-gs2",
+  "exam": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+  "sitting": "August 2025",
+  "subject": "General Studies Paper-II",
+  "source": "General Studies Paper-II - Inspector of Excise-2025..pdf",
+  "sourceSha256": "53dc707d1c8bc0f79126b03141e288c8b1b6d320a6b79ddb7af821a2e5444456",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(i), (ii) and (iii) only",
+        "c": "(ii), (iii) and (iv) only",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider who coined the following slogans: (i)I am a Hindu, a Muslim, a Parsi, but above all an Indian first – Dadabhai Naoroji (ii)Do or Die – Mahatma Gandhi (iii)Swaraj is my birth right, and I shall have it. – Bal Gangadhar Tilak (iv)Satyameva Jayate – MN Roy Select the correct slogans with persons using the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rabindranath Tagore",
+        "b": "N.G. Ranga",
+        "c": "Rajkumar Shukla",
+        "d": "Rajendra Prasad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who had opposed the Champaran Satyagraha of Mahatma Gandhi?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Economic inequality",
+        "b": "Untouchability",
+        "c": "Apartheid",
+        "d": "Political corruption"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following social issues did Raja Ram Mohan Roy address through his reform movement?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mahatma Gandhi",
+        "b": "Rabindranath Tagore",
+        "c": "Shankaran Nair",
+        "d": "Jamnalal Bajaj"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who resigned from the membership of Viceroy’s Executive Council as a protest against Jallianwala Bagh Massacre?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Privatization of Industries",
+        "b": "Establishment of a welfare state",
+        "c": "Liberalization of Foreign Trade",
+        "d": "Expansion of heavy industries"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the main objective of Nehru’s ‘Socialist pattern of Society’?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Centralization of power",
+        "b": "Self governance at the village level",
+        "c": "A capitalist economy",
+        "d": "Heavy industrialization"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The idea of Gram Swaraj proposed by Mahatma Gandhi advocates for",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "January 15, 1950",
+        "b": "January 18, 1950",
+        "c": "January 26, 1950",
+        "d": "January 30, 1950"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The constitution of India came into force on:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Equality before law",
+        "b": "Freedom of speech and expression",
+        "c": "Protection of life and personal liberty",
+        "d": "Free practice of religion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Fundamental Rights under the Constitution is guaranteed only to Indian citizens and not to foreigners living in India?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(i), (ii) and (iii) only",
+        "c": "(i), (ii) and (iv) only",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person to be eligible for election as President of India should fulfill the following qualifications: (i)He should be a citizen of India. (ii)He should have completed 35 years of age. (iii)He should be qualified for election as a member of the Rajya Sabha. (iv)He should not hold any office of profit under the Union or any state government or any local authority or any other public authority. Select the correct answer using the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii)",
+        "b": "(i) and (iii)",
+        "c": "(i), (ii) and (iii)",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who amongst the following elects the Vice-President of India? Select the correct answer from the codes given below: (i)Members of Lok Sabha (ii)Members of Rajya Sabha (iii)Members of Legislative Assemblies (iv)Members of Legislative Councils Codes:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1, 2, and 3 only",
+        "b": "1, 3 and 4 only",
+        "c": "1 and 4 only",
+        "d": "1, 2, 3 and 4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Article 3 of the Indian constitution authorizes the Parliament to: (i)Alter the name of any state (ii)Increase the area of any state (iii)Diminish the area of any state (iv)Alter the boundaries of any state Select the correct answer using the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Panchayat Samiti",
+        "b": "Gram Panchayat",
+        "c": "Zilla Panchayat",
+        "d": "Nyaya Panchayat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is not a level in the three-tier Panchayati Raj recommended by Balwant Rai Mehta Committee?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Political parties forming alliances based on idealogy",
+        "b": "Political parties appealing to voters based on caste identities",
+        "c": "Political parties focusing on economic issues",
+        "d": "Political parties promoting particular religion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the main feature of caste politics in India?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Social mobility",
+        "b": "Inheritance of status",
+        "c": "Achievement- based status",
+        "d": "Economic inequality"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is Not a feature of the class system?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) and (iii) only",
+        "b": "(i), (iii) and (iv) only",
+        "c": "(ii), (iii) and (iv) only",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A party is recognized as a state party in a state if: (i)It secures 6% of the valid votes polled in the state at a general election to the legislative Assembly of the state concerned (ii)It secures 4% of the valid votes polled in the state at a general election of the Lok Sabha from the state concerned (iii)It wins 3% of seats in the legislative assembly at a general election to the legislative Assembly of the state concerned (iv)It wins 1 seat in the Lok Sabha for every 25 seats or any fraction thereof allotted to the state at a general election to the Lok Sabha from the state concerned Select the correct answer using the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Kali Mandir Temple Entry Movement",
+        "b": "The Non-Cooperation Movement",
+        "c": "The Kalaram Temple Entry Movement",
+        "d": "The Janmabhoomi Temple Entry Movement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following movements aimed to secure temple entry for Dalits?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Andhra Pradesh",
+        "b": "Rajasthan",
+        "c": "Gujarat",
+        "d": "Madhya Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state is the first state to establish the democratic decentralization came to be known as Panchayati Raj?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It is the government of the people, by the people and for the people",
+        "b": "It guarantees rights",
+        "c": "It accommodates social distinction and diversities",
+        "d": "It provides reservation of women up to 33% at various levels"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a feature of Indian democracy?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) and (iii) only",
+        "b": "(i) and (iii) only",
+        "c": "(ii) and (iv) only",
+        "d": "(iii) and (iv) only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Governor in the State possesses the following powers and functions (i)Financial (ii)Military (iii)Judicial (iv)Emergency Select the correct answer using the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Continuity of British rule.",
+        "b": "Transfer of power.",
+        "c": "Partition of the country.",
+        "d": "Solution of communal problems."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mountbatten Plan became the basis for:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) and (iii) only",
+        "b": "(ii), (iii) and (iv) only",
+        "c": "(i), (ii) and (iv) only",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: (i)Harrod – Domar model was adopted in 1st Five Year Plan. (ii)Nehru – Mahalanobis model was adopted in 2nd Five Year Plan. (iii)Gadgil model was adopted in 5th Five Year Plan. (iv)Rao-Manmohan Singh model was adopted in 8th Five Year Plan. Which of the statements given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only (ii) and (iii)",
+        "b": "(i), (ii) and (iii)",
+        "c": "Only (i) and (ii)",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to India, consider the following events : (i)Nationalisation of Banks, 1969. (ii)Formation of Regional Rural Banks. 1975. (iii)Adoption of villages by Bank Branches. (iv)Liberalization of the economy. Which of the above events can be considered as steps taken to achieve ‘financial inclusion in India’?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) and (iii) only",
+        "b": "(ii), (iii) and (iv) only",
+        "c": "(i), (iii) and (iv) only",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following agricultural related revolutions in India: (i)Green revolution – Agriculture (HYV) production (ii)Yellow revolution – Oilseeds production (iii)Round revolution – Potato production (iv)Protein revolution – High agricultural production Which of the revolutions given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only (iii)",
+        "b": "Only (i)",
+        "c": "Only (ii)",
+        "d": "None of the above."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What fiscal policy response did the Government of India undertake in recent times in response to the aggravated global supply disruptions? (i)Decreasing food and fertilizers subsidies. (ii)Increasing taxes on fuel and imported products. (iii)Reducing taxes on fuel and certain imported products. Select the correct answer from the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Relative poverty",
+        "b": "Absolute poverty",
+        "c": "Situational poverty",
+        "d": "Generational poverty"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A condition which occurs due to deprivation from basic human needs like food, shelter based on minimum costs without considering social norms is called:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Global expansion",
+        "b": "Social welfare",
+        "c": "Maximization of profit",
+        "d": "Competitive market"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary objective of Public Sector in India?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) and (iii) only",
+        "b": "(ii), (iii) and (iv) only",
+        "c": "(i), (iii) and (iv) only",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to the sectoral distribution of the Indian economy, consider the following statements: (i)Animal husbandry is the primary sector. (ii)Transportation is the secondary sector. (iii)Construction is the secondary sector. (iv)Financial service is the tertiary sector. Which of the statements given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "and the other as Reason (R). Assertion (A) : There is a positive relationship between Human Development Index (HDI) and the (a)Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "b": "(A) is false but (R) is true.",
+        "c": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "d": "(A) is true but (R) is false."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tertiary sector",
+        "b": "Primary sector",
+        "c": "Public sector",
+        "d": "Secondary sector"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Major portion of working population in India is in?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "50% funding",
+        "b": "75% funding",
+        "c": "90% funding",
+        "d": "100% funding"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Digital India Land Records Modernization Programme for land reforms in India is a scheme where the Central Government provides",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Industrial Policy Resolution of 1948",
+        "b": "Industrial Policy Resolution of 1956",
+        "c": "Industrial Policy Statement of 1969",
+        "d": "Industrial Policy Statement of 1973"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Industrial Policies is considered as the ‘Economic Constitution of India’ or the ‘Bible of State Capitalism’?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Short term securities",
+        "b": "Long term securities",
+        "c": "Both long term and short term securities",
+        "d": "Only secured bonds"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Stock Market deals in which of the following?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "and the other as Reason (R). Assertion (A) : During 2023-24, Singapore emerged as the largest source of FDI to India. (a)Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+        "b": "(A) is false but (R) is true.",
+        "c": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "d": "(A) is true but (R) is false."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) only",
+        "b": "(ii) only",
+        "c": "(i) and (ii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fiscal policy in India comprises of the following components: (i)Government receipts (ii)Government expenditure (iii)Public debt Select the correct answer using the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Issuing Treasury Bills and/or dated securities",
+        "b": "Purchasing Treasury Bills and/or dated securities",
+        "c": "Conducting Open Market Operations",
+        "d": "All the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is core method of stabilizing the markets under the Market Stabilisation Scheme (MSS)?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6.2%",
+        "b": "6.5%",
+        "c": "6.7%",
+        "d": "6.9%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The growth of India’s real GDP during the year 2024 – 2025 is estimated at",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(i) and (iii) only",
+        "c": "(ii) and (iii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following phases of India’s Foreign Trade Policy: (i)Phase I – Import restriction and import substitution (ii)Phase II – Export promotion and import liberalization (iii)Phase III – Outward oriented Select the correct answer using the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jawaharlal Nehru",
+        "b": "M. Visvesvaraya",
+        "c": "P.C. Mahalanobis",
+        "d": "John Mathai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the first Chairman of Planning Commission of India?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) and (iii) only",
+        "b": "(i), (ii) and (iv) only",
+        "c": "(ii), (iii) and (iv) only",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The main objectives of NITI Aayog are: (i)Cooperative federalism. (ii)Formulation of plans at village level. (iii)Economic policy that incorporates national security interests (iv)Innovation and entrepreneurial support. Select the correct answer using the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1945",
+        "b": "1955",
+        "c": "1965",
+        "d": "1975"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Public Distribution System was first introduced in India in:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arabian Sea and Bay of Bengal",
+        "b": "Himalayan mountain chain and Peninsular india",
+        "c": "Andes and Rockies",
+        "d": "Alpine and Himalayan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From the geological history, two main structural divisions of India are:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Semi Town",
+        "b": "Town",
+        "c": "City",
+        "d": "Metropolitan City"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The urban centre with population more than one lakh is called",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4 2 1 3",
+        "b": "2 3 4 1",
+        "c": "1 2 3 4",
+        "d": "2 4 1 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match List -I with List-II and select the correct answer from the code given below the lists: List-I (Revolution)List-II (Related with) A. Golden Revolution1. Oil seed production B. Grey Revolution2. Horticulture and Honey C. Yellow Revolution3. Petroleum production D. Black Revolution4. Fertilizers Code : A B C D",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii)",
+        "b": "(ii) only",
+        "c": "(i) and (iii)",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is/are the characteristic/s of Indian coal? (i)High ash content. (ii)Low sulphur content. (iii)Low ash fusion content. Select the correct answer from the codes given below :",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) and (iii) only",
+        "b": "(ii) and (iii) only",
+        "c": "(iii) and (iv) only",
+        "d": "(ii), (iii) and (iv) only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The current National Highway 06 (NH-06) passes through the following states: (i)Arunachal Pradesh (ii)Assam (iii)Meghalaya (iv)Mizoram Select the correct answer using the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Minimum Support Price",
+        "b": "Backward Regions Grant Fund",
+        "c": "National Food Security Act",
+        "d": "Make in India Initiative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following was introduced to tackle regional imbalances in India during the Five Year Plans?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Green Belt Movement",
+        "b": "String of Pearls",
+        "c": "Jasmine Revolution",
+        "d": "Operation Ocean Ridge"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Chinese strategy has raised concerns for India in the Indian Ocean Region?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Planned settlements lack any residential zones",
+        "b": "Unplanned settlements have strictly segregated land uses",
+        "c": "Planned settlements exhibit organized street layouts and zoning",
+        "d": "Unplanned settlements are exclusively found in rural areas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of Indian cities, what is a major difference between planned and unplanned settlements?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ganga",
+        "b": "Brahmaputra",
+        "c": "Mahakali (Kali)",
+        "d": "Yamuna"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The demarcation of which river’s source has led to boundary tensions between India and Nepal?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (iii)",
+        "b": "(ii) and (iv)",
+        "c": "(i) and (iv)",
+        "d": "(ii) and (iii) **SECTION - II** (**Conventional Essay Type)** **(100 Marks)** All questions carry equal marks of 20 each. **UNIT-A** Attempt any 2 (two) questions. **UNIT-B** Attempt any 2 (two) questions. **UNIT-C** Attempt only 1 (one) question."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Study the statements given below in terms of rural and urban settlements: (i)The size of the settlement is small. (ii)The settlement generally provides manufactured goods and services. (iii)The density of the population is high. (iv)People are less mobile and therefore, social relations among dwellers are intimate. Choose the correct statements from the obove statements for rural settlements:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

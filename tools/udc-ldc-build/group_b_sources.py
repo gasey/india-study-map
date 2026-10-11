@@ -117,6 +117,9 @@ GENERAL_PAPERS = [
  ('si-excise-2014-p3', 'Sub-Inspector under Excise & Narcotics Department', 'March 2014', 'General Studies Paper-II', 'si-excise-2014-p3.pdf'),
  ('si-excise-2025-p1', 'Sub-Inspector of Excise & Narcotics', 'April 2025', 'General English', 'Sub-Inspector of Excise General English Paper-I April-2025..pdf'),
  ('si-excise-2025-p2', 'Sub-Inspector of Excise & Narcotics', 'April 2025', 'General Knowledge & Reasoning', 'Sub-Inspector of Excise General Knowledge Paper-II April-2025 A..pdf'),
+ ('inspector-excise-2025-gs1', 'Inspector of Excise under Excise & Narcotics Dept.-August-2025', 'August 2025', 'General Studies Paper-I', 'General Studies Paper-I - Inspector of Excise-2025..pdf'),
+ ('inspector-excise-2025-gs2', 'Inspector of Excise under Excise & Narcotics Dept.-August-2025', 'August 2025', 'General Studies Paper-II', 'General Studies Paper-II - Inspector of Excise-2025..pdf'),
+ ('inspector-excise-2025-gs3', 'Inspector of Excise under Excise & Narcotics Dept.-August-2025', 'August 2025', 'General Studies Paper-III', 'General Studies Paper-III - Inspector of Excise-2025..pdf'),
  ('si-fcs-2025-p1', 'Sub-Inspector FCS&CA / Receptionist H&FW', 'May 2025', 'General English', 'Paper-I General English (Series A)..pdf'),
  ('si-fcs-2025-p2', 'Sub-Inspector FCS&CA / Receptionist H&FW', 'May 2025', 'General Knowledge, Arithmetic & Reasoning', 'Paper-II (Series A)..pdf'),
  ('aao-2025-p1', 'AAO / AAAO / Field Facilitator', 'November 2025', 'General English', 'General English - Series A..pdf'),
@@ -409,6 +412,7 @@ GENERAL_ARCHIVE_FOLDERS = {
  'inspector-stats-2026-p1': 'Direct_2025-2027', 'inspector-stats-2026-p2': 'Direct_2025-2027',
  'inspector-stats-2017-english': 'Direct_2014-2018', 'steno2-2015-english': 'Direct_2014-2018', 'steno2-2015-gk': 'Direct_2014-2018',
  'mimer-labtech-2018-english': 'Direct_2014-2018',
+ 'inspector-excise-2025-gs1': 'Direct_2025-2027', 'inspector-excise-2025-gs2': 'Direct_2025-2027', 'inspector-excise-2025-gs3': 'Direct_2025-2027',
 }
 
 
@@ -681,6 +685,16 @@ def build_additional():
             # Section-B 36 MCQs. Key: official final answer key (exam held
             # 12-14 August 2025).
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug.startswith('inspector-excise-2025-gs') and key:
+            # Covers: Inspector of Excise under Excise & Narcotics Dept.,
+            # (AUGUST-2025), General Studies Paper-I/II/III, 3 hours, FM 200;
+            # Section-I (MCQ) 100 marks, all questions carry 2 marks each. Key:
+            # official final answer key (exam held 12-14 August 2025), page
+            # 2/3/4, plus corrigendum (11 September 2025) setting Paper-III
+            # Q49 = C. Items 48/49 of Paper-III are picture-figure questions and
+            # stay held; the remaining text items score once source-reviewed.
+            meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208' and key:
             # Cover: (March-2026), General English, 3 hours, FM 100; Part-B (MCQ).

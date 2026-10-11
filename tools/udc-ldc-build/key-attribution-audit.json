@@ -1,10 +1,10 @@
 {
  "note": "Tier 1 is not a bulk/automated win. Only assignments that validate (>=25 upstream comparisons and >=70% option-text agreement) are safe to register without a human eye; everything else is either contradicted (wrong paper) or unverifiable and must be confirmed against the printed key.",
  "counts": {
-  "unverifiable": 4,
+  "unverifiable": 3,
   "contradicted": 5
  },
- "held_in_candidates": 647,
+ "held_in_candidates": 611,
  "papers": [
   {
    "paper_id": "mpsc-group-b-geologist-jun-nov-2020-english-p3",
@@ -17,19 +17,6 @@
    "score": 8,
    "upstream_n": 1,
    "agreement": 0,
-   "verdict": "unverifiable"
-  },
-  {
-   "paper_id": "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a",
-   "subject": "General English",
-   "held": 36,
-   "key_file": "Inspector under Excise & Narcotics Department Final Answer Key....pdf",
-   "section_index": 0,
-   "section_n": 36,
-   "source": "ocr",
-   "score": 8,
-   "upstream_n": 0,
-   "agreement": null,
    "verdict": "unverifiable"
   },
   {

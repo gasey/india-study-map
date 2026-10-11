@@ -3,23 +3,23 @@
   "site_bank": "/home/hruaia/workspace/projects/personal/india-study-map/src/data/banks/mpsc-group-b-general.ts",
   "upstream": "/home/hruaia/workspace/projects/personal/mpsc-question-bank",
   "key_pdfs_found": 120,
-  "registered_keys": 58,
+  "registered_keys": 62,
   "upstream_bank_answered_stems": 53668,
   "solved_labels_mapped": 9,
   "solved_labels_total": 35
  },
  "totals": {
-  "papers": 368,
-  "held_mcq": 15373,
-  "tier1_key_scorable": 603,
+  "papers": 371,
+  "held_mcq": 15386,
+  "tier1_key_scorable": 652,
   "tier2_solid_importable": 62,
-  "tier2_candidate_needs_verify": 7997,
-  "tier3_needs_derivation": 6711
+  "tier2_candidate_needs_verify": 7971,
+  "tier3_needs_derivation": 6701
  },
  "validation_upstream_vs_official": {
   "inferred": {
-   "agree": 1524,
-   "disagree": 221
+   "agree": 1612,
+   "disagree": 238
   },
   "key": {
    "agree": 67,
@@ -232,7 +232,7 @@
   ]
  },
  "tier2_sources": {
-  "bank_v2:inferred": 7997,
+  "bank_v2:inferred": 7971,
   "bank_v2:derived": 60,
   "bank_v2:key": 2
  },
@@ -1708,6 +1708,21 @@
    "tier2_candidate": 48
   },
   {
+   "paper_id": "mpsc-group-b-inspector-excise-2025-gs3",
+   "exam": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+   "subject": "General Studies Paper-III",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 48,
+   "tier1": 48,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
    "paper_id": "mpsc-group-b-jics-2019-gs2",
    "exam": "Junior Inspector of Co-operative Societies under Co-operation Department",
    "subject": "General Studies Paper-II",
@@ -2032,21 +2047,6 @@
    "tier1": 0,
    "tier2": 26,
    "tier3": 74,
-   "tier2_bank": 26,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 26
-  },
-  {
-   "paper_id": "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a",
-   "exam": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
-   "subject": "General English",
-   "key_status": "none",
-   "key_file": null,
-   "held": 36,
-   "tier1": 0,
-   "tier2": 26,
-   "tier3": 10,
    "tier2_bank": 26,
    "tier2_solved": 0,
    "tier2_solid": 0,
@@ -3361,6 +3361,21 @@
    "paper_id": "mpsc-group-b-si-excise-2025-p2",
    "exam": "Sub-Inspector of Excise & Narcotics",
    "subject": "General Knowledge & Reasoning",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 1,
+   "tier1": 1,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-inspector-excise-2025-gs2",
+   "exam": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+   "subject": "General Studies Paper-II",
    "key_status": "registered",
    "key_file": null,
    "held": 1,
@@ -4813,6 +4828,21 @@
    "tier2_candidate": 0
   },
   {
+   "paper_id": "mpsc-group-b-inspector-excise-2025-gs1",
+   "exam": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+   "subject": "General Studies Paper-I",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
    "paper_id": "mpsc-group-b-si-fcs-2025-p1",
    "exam": "Sub-Inspector FCS&CA / Receptionist H&FW",
    "subject": "General English",
@@ -5613,6 +5643,21 @@
    "subject": "General English",
    "key_status": "registered",
    "key_file": "Final Answer Key for Asst. Director(Town Planning) under UD&PA..pdf",
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a",
+   "exam": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+   "subject": "General English",
+   "key_status": "registered",
+   "key_file": null,
    "held": 0,
    "tier1": 0,
    "tier2": 0,

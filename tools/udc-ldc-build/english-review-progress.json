@@ -2,12 +2,12 @@
   "generatedBy": "tools/udc-ldc-build/build_group_b.py",
   "scope": "All English-bearing library papers, including mixed papers. Counts are English records only. Null expected/missing totals mean unknown, not zero. Written records may group subparts; guide counts are not exam scores.",
   "summary": {
-    "papers": 236,
+    "papers": 237,
     "gazettedArchivePapers": 109,
     "ready": 2186,
     "pendingMcq": 7615,
     "heldReviewed": 30,
-    "pendingWritten": 620
+    "pendingWritten": 621
   },
   "papers": [
     {
@@ -3772,6 +3772,28 @@
       "writtenGuides": 0,
       "pendingWritten": 0,
       "keyHref": null,
+      "heldItems": []
+    },
+    {
+      "paperId": "mpsc-group-b-inspector-excise-2025-gs3",
+      "exam": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+      "sitting": "August 2025",
+      "subject": "General Studies Paper-III",
+      "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf",
+      "archiveBatch": "earlier-import",
+      "status": "needs-review",
+      "mcq": 0,
+      "ready": 0,
+      "readyOfficial": 0,
+      "sourceReviewedMcq": 0,
+      "pendingMcq": 0,
+      "heldReviewed": 0,
+      "expectedMcq": null,
+      "missingMcq": null,
+      "writtenRecords": 1,
+      "writtenGuides": 0,
+      "pendingWritten": 1,
+      "keyHref": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
       "heldItems": []
     },
     {

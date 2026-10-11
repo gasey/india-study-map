@@ -842,6 +842,39 @@
     "expectedMcq": 100
   },
   {
+    "id": "mpsc-group-b-inspector-excise-2025-gs1",
+    "exam": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+    "sitting": "August 2025",
+    "subject": "General Studies Paper-I",
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs1.pdf",
+    "keyHref": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs2",
+    "exam": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+    "sitting": "August 2025",
+    "subject": "General Studies Paper-II",
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs2.pdf",
+    "keyHref": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=3",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2025-gs3",
+    "exam": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+    "sitting": "August 2025",
+    "subject": "General Studies Paper-III",
+    "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf",
+    "keyHref": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
     "id": "mpsc-group-b-si-fcs-2025-p1",
     "exam": "Sub-Inspector FCS&CA / Receptionist H&FW",
     "sitting": "May 2025",

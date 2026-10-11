@@ -2189,7 +2189,7 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-i-a-2025.pdf",
-    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=5",
     "imported": true,
     "expectedMcq": 100,
     "reviewRequired": true
@@ -2200,7 +2200,7 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-i-b-2025.pdf",
-    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=6",
     "imported": true,
     "expectedMcq": 100,
     "reviewRequired": true
@@ -2211,7 +2211,7 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-i-c-2025.pdf",
-    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=7",
     "imported": true,
     "expectedMcq": 100,
     "reviewRequired": true
@@ -2222,7 +2222,7 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-i-d-2025.pdf",
-    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=8",
     "imported": true,
     "expectedMcq": 100,
     "reviewRequired": true
@@ -2233,7 +2233,7 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-ii-a-2025.pdf",
-    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=9",
     "imported": true,
     "expectedMcq": 100,
     "reviewRequired": true
@@ -2244,7 +2244,7 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-ii-b-2025.pdf",
-    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=10",
     "imported": true,
     "expectedMcq": 100,
     "reviewRequired": true
@@ -2255,7 +2255,7 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-ii-c-2025.pdf",
-    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=11",
     "imported": true,
     "expectedMcq": 100,
     "reviewRequired": true
@@ -2266,7 +2266,7 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-ii-d-2025.pdf",
-    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=12",
     "imported": true,
     "expectedMcq": 100,
     "reviewRequired": true
@@ -2277,7 +2277,7 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-iii-a-2025.pdf",
-    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=13",
     "imported": true,
     "expectedMcq": 100,
     "reviewRequired": true
@@ -2288,7 +2288,7 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-iii-b-2025.pdf",
-    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=14",
     "imported": true,
     "expectedMcq": 100,
     "reviewRequired": true
@@ -2299,7 +2299,7 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-iii-c-2025.pdf",
-    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=15",
     "imported": true,
     "expectedMcq": 100,
     "reviewRequired": true
@@ -2310,7 +2310,7 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-iii-d-2025.pdf",
-    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=16",
     "imported": true,
     "expectedMcq": 100,
     "reviewRequired": true
@@ -2456,8 +2456,9 @@
     "sitting": "2023",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-assist-director-town-planning-general-studies.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/adtp-2023-gs-final-key.pdf",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {
@@ -2557,8 +2558,9 @@
     "sitting": "July 2024",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-group-b-combined-general-studies-paper-i-july-2024.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/gb-gazetted-2024-gs-final-key.pdf",
     "imported": true,
+    "expectedMcq": 50,
     "reviewRequired": true
   },
   {
@@ -2567,8 +2569,9 @@
     "sitting": "July 2024",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-group-b-combined-general-studies-paper-ii-july-2024.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/gb-gazetted-2024-gs-final-key.pdf",
     "imported": true,
+    "expectedMcq": 50,
     "reviewRequired": true
   },
   {
@@ -2577,8 +2580,9 @@
     "sitting": "July 2024",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-group-b-combined-general-studies-paper-iii-july-2024.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/gb-gazetted-2024-gs-final-key.pdf",
     "imported": true,
+    "expectedMcq": 49,
     "reviewRequired": true
   },
   {
@@ -2587,8 +2591,9 @@
     "sitting": "April 2026",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/final-answer-key-assistant-leso-april-2026.pdf#page=2",
     "imported": true,
+    "expectedMcq": 99,
     "reviewRequired": true
   },
   {
@@ -3225,10 +3230,10 @@
     "sitting": "2025",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-7e2875f9.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=1",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 66
+    "expectedMcq": 66,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1",
@@ -3236,10 +3241,10 @@
     "sitting": "2025",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=2",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 66
+    "expectedMcq": 66,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-95d9a281",
@@ -3247,10 +3252,10 @@
     "sitting": "2025",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-95d9a281.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=3",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 66
+    "expectedMcq": 66,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-a1074237",
@@ -3258,10 +3263,10 @@
     "sitting": "2025",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-a1074237.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=4",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 66
+    "expectedMcq": 66,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-agriculture-allied-service-combined-technical-2024-agriculture-allied-se-a57acf49",
@@ -3689,9 +3694,10 @@
     "sitting": "2026",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf",
     "imported": true,
-    "reviewRequired": true
+    "expectedMcq": 66,
+    "reviewRequired": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208",
@@ -3699,10 +3705,10 @@
     "sitting": "2025",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/acm-2026-final-key.pdf",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 66
+    "expectedMcq": 66,
+    "reviewRequired": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-0538ee53",
@@ -3710,10 +3716,10 @@
     "sitting": "2026",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-0538ee53.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/cao-2026-final-key.pdf",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 66
+    "expectedMcq": 66,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4",
@@ -3721,10 +3727,10 @@
     "sitting": "2026",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/cao-2026-final-key.pdf",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 66
+    "expectedMcq": 66,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",

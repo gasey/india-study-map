@@ -12350,3 +12350,57 @@ derivation (as the rest of the repairs already do).
 
 Bank now **4,586 practice-ready** (539 official-key + 20 stem-verified upstream).
 25 tests + `tsc --noEmit` + `git diff --check` clean.
+
+## Year-2026 official keys + VSE General English (2026-10-11)
+
+### (b) Reconciling on-disk keys with the library
+
+Every one of the 368 library papers has its printed source PDF on disk (an earlier
+"NO PDF" was an artefact of manually truncated slugs). The key folder holds 196 key
+PDFs; of the 21 on-disk keys not yet registered, nearly all are **sitting mismatches**
+(keys for the 2022/2023/2024 sitting of a post whose 2026 paper we hold, e.g.
+`Asst. Controller of Mines 2023`, `Cooperative Audit Officer 2022`, `Jr. Grade MLS
+6-7.08.2024`). A key is only usable when its notification names the *same sitting* as
+the paper's cover.
+
+Nine papers were matched to same-sitting official keys and scored (registry 42 -> 51):
+
+| paper | key section | key / repair |
+|---|---|---|
+| Group B (Gazetted) GS-I/II/III (Jul-2024) | 3 sections | 50/50/49 -> 49/46/43 |
+| Asst. LESO GS (Apr-2026) | General Studies | 99/100 -> 100 |
+| CAO General English A / B (Mar-2026) | Series A / B | 66/66 -> 65/65 |
+| Asst. Dir. Town Planning GS (Dec-2023) | General Studies | 100 -> 88 |
+| Asst. Controller of Mines GE (Mar-2026) | Part-B | 66 -> 66 |
+| Lecturer Govt. HSS Serchhip GE (Mar-Apr-2026) | Part-A | 66 -> 66 |
+
+Two parsing pitfalls fixed here:
+* The **ADTP** key is text-layer with each number and each letter on its *own* line;
+  it needs a line-token sequential parser, not the inline regex.
+* The **GB Gazetted** key reader only assigns 49 for Paper-III (one unreadable row
+  dropped); LESO GS drops one unreadable row (84). All others parse complete and
+  were cross-checked number-vs-row-position.
+
+No series/booklet box is printed on any of these covers and their keys print one
+section per paper, so answer letters map to option index directly. `DSWO` keys sit on
+disk but no DSWO paper exists in the library, so they stay unmapped.
+
+### (a) Lecturer (VSE) General English A-D (Feb-2025)
+
+The 12 VSE General Studies papers were keyed earlier; the 4 General English papers
+were held because their key had looked "duplicated". That was a **section-bounding
+bug**: the final key PDF is 16 pages, one section per page (English A/B/C/D then
+GS-I/II/III A/B/C/D), but the reader had merged English-A's 3-column table with the
+1-column block that actually begins English-B. Parsing per page fixes it:
+
+* English A/C/D are 3-column tables read row-major -> number-based, complete 1-66.
+* English B's page was read column-major (1-22, 23-44, 45-66) -> index-based with a
+  number cross-check (recovers the one garbled "it (B)" = 11).
+
+Booklet series taken from the covers (7e2875f9=A, 57916eb1=B, 95d9a281=C,
+a1074237=D); each paper is scored against its own series section. Registry 51 -> 55.
+Repairs 59/55/52/58 scored (registry evidence notes the series match). A stray
+instruction line mis-OCR'd as a duplicate Q7 on series B is dropped via `nonMcq`.
+
+**Bank 22,684 records / 6,433 practice-ready (+815 this session).** The five new key
+PDFs are published under `public/papers/group-b/keys/`. 25 tests + `tsc --noEmit` clean.

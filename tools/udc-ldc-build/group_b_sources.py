@@ -647,6 +647,44 @@ def build_additional():
             # Covers: 100 Q x 2 marks, 2 hours, FM 200, no negative marking.
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug.startswith('archive2325-group-b-combined-general-studies-paper-') and key:
+            # Covers (July 2024): 'MIZORAM GROUP B (GAZETTED) GENERAL SERVICES
+            # (COMBINED COMPETITIVE) EXAMINATIONS ... JULY-2024', Section-I (MCQ),
+            # 2 marks each, 3 hours; Papers I/II FM 200, Paper III FM 100. No
+            # negative-marking rule is printed. Key: official final answer key.
+            meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies' and key:
+            # Cover: (April-2026), General Studies, 2 hours, FM 100, 1 mark each.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug.startswith('archive-lang-2026-cooperative-audit-officer-march-2026-') and key:
+            # Covers: (March-2026), General English, 3 hours, FM 100, 1 mark each.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'archive2325-assist-director-town-planning-general-studies' and key:
+            # Cover: Assistant Director (Town Planning) ... December 2023,
+            # General Studies, 2 hours, FM 100, 1 mark each. Key: official final
+            # answer key (exam held 12-14.12.2023, notified 2 February 2024).
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208' and key:
+            # Cover: (March-2026), General English, 3 hours, FM 100; Part-B (MCQ).
+            # Key states the exam was held 10-12 March 2026.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237' and key:
+            # Cover: (March & April 2026), General English, 3 hours, FM 100;
+            # Part-A holds 66 one-mark MCQs. Key: official final answer key.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug.startswith('archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-') and key:
+            # Cover: Lecturer (VSE) & VGO, SCERT, February-2025, General English
+            # (booklet series A-D), 3 hours, FM 100; Part-B holds 66 one-mark
+            # MCQs (Part-A is the written section). Key: official final answer
+            # key, per-series section.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug.startswith('archive2325-inpector-of-supplies-2023-general-studies') and key:
             # Covers: 2 hours, FM 200, 2 marks each; no negative marking printed.
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
